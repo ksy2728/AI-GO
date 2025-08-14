@@ -42,46 +42,24 @@ app.prepare().then(() => {
     pingInterval: 25000,
   })
 
-  io.on('connection', (socket) => {
-    if (dev) console.log('Client connected:', socket.id)
-
-    // Handle model subscriptions
-    socket.on('subscribe:models', (modelIds) => {
-      modelIds.forEach((modelId) => {
-        socket.join(`model:${modelId}`)
+  // Initialize realtime monitoring service
+  try {
+    const { realtimeService } = require('./src/services/realtime-server.js')
+    realtimeService.initialize(io)
+  } catch (err) {
+    console.error('❌ Failed to initialize realtime service:', err)
+    // Fallback to basic WebSocket handling
+    io.on('connection', (socket) => {
+      if (dev) console.log('Client connected:', socket.id)
+      
+      socket.on('disconnect', () => {
+        if (dev) console.log('Client disconnected:', socket.id)
       })
     })
-
-    socket.on('unsubscribe:models', (modelIds) => {
-      modelIds.forEach((modelId) => {
-        socket.leave(`model:${modelId}`)
-      })
-    })
-
-    // Handle global status subscription
-    socket.on('subscribe:global', () => {
-      socket.join('status:global')
-    })
-
-    socket.on('unsubscribe:global', () => {
-      socket.leave('status:global')
-    })
-
-    socket.on('disconnect', () => {
-      if (dev) console.log('Client disconnected:', socket.id)
-    })
-  })
-
-  // Mock status updates
-  setInterval(() => {
-    const globalStatus = {
-      timestamp: new Date().toISOString(),
-      avgAvailability: 99.5 + Math.random() * 0.5,
-      totalModels: 42,
-      operationalModels: 41,
-    }
-    io.to('status:global').emit('status:global', globalStatus)
-  }, 30000)
+  }
+  
+  // Export io for use in other services
+  global.io = io
 
   server.listen(port, (err) => {
     if (err) throw err

@@ -6,6 +6,8 @@ import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { api } from '@/lib/api-client'
 import { ModelStats } from '@/types/models'
+import { RealtimeMonitor } from '@/components/RealtimeMonitor'
+import { useGlobalStats } from '@/hooks/useRealtime'
 import { 
   Activity, 
   Zap, 
@@ -221,6 +223,11 @@ export default function HomePage() {
 
         {/* Main Content */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
+          {/* Real-time Monitor */}
+          <div className="lg:col-span-1">
+            <RealtimeMonitor />
+          </div>
+          
           {/* Recent Activity */}
           <div className="lg:col-span-2">
             <Card className="bg-white/80 backdrop-blur-sm border-0 shadow-lg">

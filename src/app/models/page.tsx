@@ -9,14 +9,11 @@ import { Skeleton } from '@/components/ui/skeleton'
 import { api } from '@/lib/api-client'
 import { Model } from '@/types/models'
 import { getStatusColor, formatNumber } from '@/lib/utils'
+import { ModelDetailModal } from '@/components/ModelDetailModal'
 import {
   Search,
-  Filter,
   Server,
   Eye,
-  Cpu,
-  Globe,
-  Calendar,
   ChevronRight
 } from 'lucide-react'
 
@@ -26,6 +23,7 @@ export default function ModelsPage() {
   const [searchQuery, setSearchQuery] = useState('')
   const [selectedProvider, setSelectedProvider] = useState<string>('')
   const [selectedModality, setSelectedModality] = useState<string>('')
+  const [selectedModel, setSelectedModel] = useState<Model | null>(null)
 
   useEffect(() => {
     const fetchModels = async () => {
@@ -52,8 +50,8 @@ export default function ModelsPage() {
     model.description?.toLowerCase().includes(searchQuery.toLowerCase())
   )
 
-  const providers = Array.from(new Set(models.map(m => m.providerId)))
-  const modalities = Array.from(new Set(models.flatMap(m => m.modalities)))
+  const providers = Array.from(new Set(models.map(m => m.provider?.name || m.providerId).filter(Boolean)))
+  const modalities = Array.from(new Set(models.flatMap(m => m.modalities || [])))
 
   if (loading) {
     return (
@@ -159,50 +157,31 @@ export default function ModelsPage() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-sm text-gray-600 line-clamp-2">
-                  {model.description}
+                  {model.description || 'No description available'}
                 </p>
 
-                <div className="space-y-2">
-                  <div className="flex items-center gap-2 text-sm">
-                    <Cpu className="w-4 h-4 text-gray-500" />
-                    <span className="text-gray-600">
-                      {model.contextWindow ? formatNumber(model.contextWindow) : 'N/A'} context window
-                    </span>
-                  </div>
-                  
-                  {model.modalities.length > 0 && (
-                    <div className="flex items-center gap-2 text-sm">
-                      <Globe className="w-4 h-4 text-gray-500" />
-                      <div className="flex flex-wrap gap-1">
-                        {model.modalities.slice(0, 3).map(modality => (
-                          <Badge key={modality} variant="outline" className="text-xs">
-                            {modality}
-                          </Badge>
-                        ))}
-                        {model.modalities.length > 3 && (
-                          <Badge variant="outline" className="text-xs">
-                            +{model.modalities.length - 3}
-                          </Badge>
-                        )}
-                      </div>
-                    </div>
-                  )}
-
-                  {model.releasedAt && (
-                    <div className="flex items-center gap-2 text-sm">
-                      <Calendar className="w-4 h-4 text-gray-500" />
-                      <span className="text-gray-600">
-                        Released {new Date(model.releasedAt).toLocaleDateString()}
-                      </span>
-                    </div>
+                <div className="flex flex-wrap gap-2">
+                  {model.modalities.slice(0, 2).map(modality => (
+                    <Badge key={modality} variant="outline" className="text-xs">
+                      {modality}
+                    </Badge>
+                  ))}
+                  {model.modalities.length > 2 && (
+                    <Badge variant="outline" className="text-xs">
+                      +{model.modalities.length - 2} more
+                    </Badge>
                   )}
                 </div>
 
                 <div className="pt-4 border-t">
-                  <Button variant="outline" className="w-full group-hover:bg-blue-50 group-hover:border-blue-300">
+                  <Button 
+                    variant="outline" 
+                    className="w-full group-hover:bg-blue-50 group-hover:border-blue-300"
+                    onClick={() => setSelectedModel(model)}
+                  >
                     <Eye className="w-4 h-4 mr-2" />
                     View Details
-                    <ChevronRight className="w-4 h-4 ml-auto" />
+                    <ChevronRight className="w-4 h-4 ml-auto group-hover:translate-x-1 transition-transform" />
                   </Button>
                 </div>
               </CardContent>
@@ -220,6 +199,12 @@ export default function ModelsPage() {
           </div>
         )}
       </div>
+
+      {/* Model Detail Modal */}
+      <ModelDetailModal 
+        model={selectedModel} 
+        onClose={() => setSelectedModel(null)} 
+      />
     </div>
   )
 }

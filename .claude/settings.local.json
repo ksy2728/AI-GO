@@ -49,7 +49,10 @@
       "mcp__playwright-stealth__playwright_close",
       "Bash(powershell:*)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git config:*)",
+      "Bash(true)",
+      "Bash(start http://localhost:3006/models)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"

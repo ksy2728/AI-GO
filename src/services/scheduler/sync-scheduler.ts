@@ -2,6 +2,7 @@ import cron, { ScheduledTask as CronTask } from 'node-cron'
 import { openAIService } from '@/services/external/openai.service'
 import { prisma } from '@/lib/prisma'
 import { cache } from '@/lib/redis'
+import { realtimeService } from '@/services/realtime.service'
 
 export interface ScheduledTask {
   name: string
@@ -136,6 +137,12 @@ export class SyncScheduler {
       try {
         await task()
         taskStatus.errorCount = 0
+        
+        // Broadcast sync completion for sync tasks
+        if (name.includes('sync')) {
+          const provider = name.replace('-sync', '')
+          await realtimeService.broadcastSyncCompleted(provider, 0)
+        }
       } catch (error) {
         taskStatus.errorCount++
         console.error(`❌ Task ${name} failed (attempt ${taskStatus.errorCount}):`, error)
@@ -238,7 +245,7 @@ export class SyncScheduler {
             const status = await openAIService.checkModelStatus(modelId)
             
             // Update database
-            await prisma.modelStatus.upsert({
+            const updatedStatus = await prisma.modelStatus.upsert({
               where: {
                 modelId_region: {
                   modelId: model.id,
@@ -272,6 +279,9 @@ export class SyncScheduler {
                 checkedAt: new Date(),
               }
             })
+            
+            // Broadcast the status update
+            await realtimeService.broadcastModelUpdate(model.id, updatedStatus)
           }
           // Add other providers here (Anthropic, Google, etc.)
         } catch (error) {
