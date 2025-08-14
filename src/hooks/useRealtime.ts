@@ -23,6 +23,8 @@ export interface UseRealtimeOptions {
   reconnection?: boolean
   reconnectionAttempts?: number
   reconnectionDelay?: number
+  subscribeToGlobal?: boolean
+  subscribeToModels?: string[]
 }
 
 export function useRealtime(options: UseRealtimeOptions = {}) {
@@ -36,7 +38,7 @@ export function useRealtime(options: UseRealtimeOptions = {}) {
   const [socket, setSocket] = useState<Socket | null>(null)
   const [connected, setConnected] = useState(false)
   const [globalStats, setGlobalStats] = useState<GlobalStats | null>(null)
-  const [modelStatuses, setModelStatuses] = useState<Map<string, any>>(new Map())
+  const [modelStatuses, setModelStatuses] = useState<Record<string, any>>({})
   const [recentUpdates, setRecentUpdates] = useState<RealtimeUpdate[]>([])
   const [error, setError] = useState<string | null>(null)
   
@@ -100,11 +102,10 @@ export function useRealtime(options: UseRealtimeOptions = {}) {
           break
           
         case 'model:status':
-          setModelStatuses(prev => {
-            const newMap = new Map(prev)
-            newMap.set(update.data.modelId, update.data)
-            return newMap
-          })
+          setModelStatuses(prev => ({
+            ...prev,
+            [update.data.modelId]: update.data
+          }))
           break
           
         case 'incident:new':
@@ -191,7 +192,7 @@ export function useRealtime(options: UseRealtimeOptions = {}) {
     
     // Data
     globalStats,
-    modelStatuses: Array.from(modelStatuses.values()),
+    modelStatuses,
     recentUpdates,
     
     // Actions

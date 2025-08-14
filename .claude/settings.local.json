@@ -52,7 +52,9 @@
       "Bash(git add:*)",
       "Bash(git config:*)",
       "Bash(true)",
-      "Bash(start http://localhost:3006/models)"
+      "Bash(start http://localhost:3006/models)",
+      "Bash(start http://localhost:3006)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
