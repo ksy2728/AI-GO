@@ -1,0 +1,336 @@
+{
+    "models": [
+        {
+            "id": "304fced4-a880-41e8-ab9a-3c7e765e625e",
+            "slug": "gpt-3.5-turbo",
+            "name": "GPT-3.5 Turbo",
+            "description": "Fast and cost-effective model for simpler tasks",
+            "provider": {
+                "id": "2a38b46b-d358-409a-b4f7-4a95e8f7d717",
+                "name": "OpenAI",
+                "slug": "openai",
+                "websiteUrl": "https://openai.com"
+            },
+            "foundationModel": "GPT-3.5",
+            "releasedAt": "2022-11-30T00:00:00.000Z",
+            "modalities": [
+                "text"
+            ],
+            "capabilities": [
+                "coding",
+                "conversation"
+            ],
+            "contextWindow": 16385,
+            "maxOutputTokens": 4096,
+            "trainingCutoff": "2021-09-01T00:00:00.000Z",
+            "apiVersion": "v1",
+            "isActive": true,
+            "status": {
+                "status": "operational",
+                "availability": 99.9,
+                "latencyP50": 1590,
+                "latencyP95": 2385,
+                "latencyP99": 3180,
+                "errorRate": 0,
+                "requestsPerMin": 0,
+                "tokensPerMin": 0,
+                "usage": 0,
+                "checkedAt": "2025-08-13T14:37:01.632Z"
+            },
+            "benchmarks": [],
+            "pricing": {
+                "tier": "standard",
+                "currency": "USD",
+                "inputPerMillion": 0.5,
+                "outputPerMillion": 1.5,
+                "imagePerUnit": null,
+                "audioPerMinute": null,
+                "videoPerMinute": null,
+                "effectiveFrom": "2024-01-01T00:00:00.000Z"
+            },
+            "createdAt": "2025-08-13T14:35:29.796Z",
+            "updatedAt": "2025-08-13T14:35:29.796Z"
+        },
+        {
+            "id": "105e8160-2330-4a67-b295-5bd3c65f1f5c",
+            "slug": "gpt-35-turbo",
+            "name": "GPT-3.5 Turbo",
+            "description": "Fast and cost-effective model for simple tasks",
+            "provider": {
+                "id": "2a38b46b-d358-409a-b4f7-4a95e8f7d717",
+                "name": "OpenAI",
+                "slug": "openai",
+                "websiteUrl": "https://openai.com"
+            },
+            "foundationModel": "GPT-3.5",
+            "releasedAt": "2022-11-30T00:00:00.000Z",
+            "modalities": [
+                "text"
+            ],
+            "capabilities": [
+                "chat",
+                "completion",
+                "coding"
+            ],
+            "contextWindow": 16385,
+            "maxOutputTokens": 4096,
+            "trainingCutoff": "2021-09-01T00:00:00.000Z",
+            "apiVersion": "v1",
+            "isActive": true,
+            "status": {
+                "status": "operational",
+                "availability": 99.9,
+                "latencyP50": 1590,
+                "latencyP95": 2385,
+                "latencyP99": 3180,
+                "errorRate": 0,
+                "requestsPerMin": 0,
+                "tokensPerMin": 0,
+                "usage": 0,
+                "checkedAt": "2025-08-13T14:35:46.055Z"
+            },
+            "benchmarks": [],
+            "pricing": {
+                "tier": "standard",
+                "currency": "USD",
+                "inputPerMillion": 0.5,
+                "outputPerMillion": 1.5,
+                "imagePerUnit": null,
+                "audioPerMinute": null,
+                "videoPerMinute": null,
+                "effectiveFrom": "2025-08-13T14:35:46.161Z"
+            },
+            "createdAt": "2025-08-13T14:35:45.912Z",
+            "updatedAt": "2025-08-13T14:35:45.912Z"
+        },
+        {
+            "id": "de38ff48-4406-4fdf-826e-58d617cbbfab",
+            "slug": "gpt-35-turbo-16k",
+            "name": "GPT-3.5 Turbo 16K",
+            "description": "Extended context version of GPT-3.5 Turbo",
+            "provider": {
+                "id": "2a38b46b-d358-409a-b4f7-4a95e8f7d717",
+                "name": "OpenAI",
+                "slug": "openai",
+                "websiteUrl": "https://openai.com"
+            },
+            "foundationModel": "GPT-3.5",
+            "releasedAt": "2023-06-13T00:00:00.000Z",
+            "modalities": [
+                "text"
+            ],
+            "capabilities": [
+                "chat",
+                "completion",
+                "coding"
+            ],
+            "contextWindow": 16384,
+            "maxOutputTokens": 4096,
+            "trainingCutoff": "2021-09-01T00:00:00.000Z",
+            "apiVersion": "v1",
+            "isActive": true,
+            "status": {
+                "status": "operational",
+                "availability": 99.9,
+                "latencyP50": 1383,
+                "latencyP95": 2074,
+                "latencyP99": 2766,
+                "errorRate": 0,
+                "requestsPerMin": 0,
+                "tokensPerMin": 0,
+                "usage": 0,
+                "checkedAt": "2025-08-13T14:35:47.736Z"
+            },
+            "benchmarks": [],
+            "pricing": {
+                "tier": "standard",
+                "currency": "USD",
+                "inputPerMillion": 3,
+                "outputPerMillion": 4,
+                "imagePerUnit": null,
+                "audioPerMinute": null,
+                "videoPerMinute": null,
+                "effectiveFrom": "2025-08-13T14:35:47.844Z"
+            },
+            "createdAt": "2025-08-13T14:35:47.630Z",
+            "updatedAt": "2025-08-13T14:35:47.630Z"
+        },
+        {
+            "id": "5d5dc608-1815-4a54-a0e9-9189e137fdce",
+            "slug": "gpt-4",
+            "name": "GPT-4",
+            "description": "Advanced language model with strong reasoning capabilities",
+            "provider": {
+                "id": "2a38b46b-d358-409a-b4f7-4a95e8f7d717",
+                "name": "OpenAI",
+                "slug": "openai",
+                "websiteUrl": "https://openai.com"
+            },
+            "foundationModel": "GPT-4",
+            "releasedAt": "2023-03-14T00:00:00.000Z",
+            "modalities": [
+                "text"
+            ],
+            "capabilities": [
+                "chat",
+                "completion",
+                "coding",
+                "analysis",
+                "reasoning"
+            ],
+            "contextWindow": 8192,
+            "maxOutputTokens": 4096,
+            "trainingCutoff": "2021-09-01T00:00:00.000Z",
+            "apiVersion": "v1",
+            "isActive": true,
+            "status": {
+                "status": "operational",
+                "availability": 99.9,
+                "latencyP50": 2088,
+                "latencyP95": 3132,
+                "latencyP99": 4176,
+                "errorRate": 0,
+                "requestsPerMin": 0,
+                "tokensPerMin": 0,
+                "usage": 0,
+                "checkedAt": "2025-08-13T14:35:44.095Z"
+            },
+            "benchmarks": [],
+            "pricing": {
+                "tier": "standard",
+                "currency": "USD",
+                "inputPerMillion": 30,
+                "outputPerMillion": 60,
+                "imagePerUnit": null,
+                "audioPerMinute": null,
+                "videoPerMinute": null,
+                "effectiveFrom": "2025-08-13T14:35:44.203Z"
+            },
+            "createdAt": "2025-08-13T14:35:43.961Z",
+            "updatedAt": "2025-08-13T14:35:43.961Z"
+        },
+        {
+            "id": "39fca2ef-4f9d-4e69-9bf4-13d4ba0ac69c",
+            "slug": "gpt-4-turbo",
+            "name": "GPT-4 Turbo",
+            "description": "Latest GPT-4 model with improved performance and lower costs",
+            "provider": {
+                "id": "2a38b46b-d358-409a-b4f7-4a95e8f7d717",
+                "name": "OpenAI",
+                "slug": "openai",
+                "websiteUrl": "https://openai.com"
+            },
+            "foundationModel": "GPT-4",
+            "releasedAt": "2024-04-09T00:00:00.000Z",
+            "modalities": [
+                "text",
+                "image"
+            ],
+            "capabilities": [
+                "reasoning",
+                "coding",
+                "analysis"
+            ],
+            "contextWindow": 128000,
+            "maxOutputTokens": 4096,
+            "trainingCutoff": "2024-04-01T00:00:00.000Z",
+            "apiVersion": "v1",
+            "isActive": true,
+            "status": {
+                "status": "operational",
+                "availability": 99.9,
+                "latencyP50": 2404,
+                "latencyP95": 3606,
+                "latencyP99": 4808,
+                "errorRate": 0,
+                "requestsPerMin": 0,
+                "tokensPerMin": 0,
+                "usage": 0,
+                "checkedAt": "2025-08-13T14:35:41.670Z"
+            },
+            "benchmarks": [
+                {
+                    "suite": "MMLU",
+                    "suiteSlug": "mmlu",
+                    "score": 86.4,
+                    "normalizedScore": 86.4,
+                    "percentile": 99,
+                    "evaluationDate": "2024-04-15T00:00:00.000Z",
+                    "isOfficial": true
+                },
+                {
+                    "suite": "HumanEval",
+                    "suiteSlug": "humaneval",
+                    "score": 85.2,
+                    "normalizedScore": 85.2,
+                    "percentile": 98,
+                    "evaluationDate": "2024-04-15T00:00:00.000Z",
+                    "isOfficial": true
+                }
+            ],
+            "pricing": {
+                "tier": "standard",
+                "currency": "USD",
+                "inputPerMillion": 10,
+                "outputPerMillion": 30,
+                "imagePerUnit": 0.00085,
+                "audioPerMinute": null,
+                "videoPerMinute": null,
+                "effectiveFrom": "2024-04-09T00:00:00.000Z"
+            },
+            "createdAt": "2025-08-13T14:35:29.796Z",
+            "updatedAt": "2025-08-13T14:35:29.796Z"
+        },
+        {
+            "id": "996a7a26-c63c-4087-b165-7acd92744afe",
+            "slug": "gpt-4o",
+            "name": "GPT-4o",
+            "description": "Optimized GPT-4 for faster responses",
+            "provider": {
+                "id": "2a38b46b-d358-409a-b4f7-4a95e8f7d717",
+                "name": "OpenAI",
+                "slug": "openai",
+                "websiteUrl": "https://openai.com"
+            },
+            "foundationModel": "GPT-4",
+            "releasedAt": "2024-05-13T00:00:00.000Z",
+            "modalities": [
+                "text",
+                "image",
+                "audio"
+            ],
+            "capabilities": [
+                "reasoning",
+                "coding",
+                "vision",
+                "audio"
+            ],
+            "contextWindow": 128000,
+            "maxOutputTokens": 4096,
+            "trainingCutoff": "2024-10-01T00:00:00.000Z",
+            "apiVersion": "v1",
+            "isActive": true,
+            "status": {
+                "status": "operational",
+                "availability": 99.9,
+                "latencyP50": 1109,
+                "latencyP95": 1663,
+                "latencyP99": 2218,
+                "errorRate": 0,
+                "requestsPerMin": 0,
+                "tokensPerMin": 0,
+                "usage": 0,
+                "checkedAt": "2025-08-13T14:37:01.143Z"
+            },
+            "benchmarks": [],
+            "pricing": null,
+            "createdAt": "2025-08-13T14:35:29.929Z",
+            "updatedAt": "2025-08-13T14:35:29.929Z"
+        }
+    ],
+    "total": 6,
+    "limit": 50,
+    "offset": 0,
+    "timestamp": "2025-08-14T00:35:50.511Z",
+    "cached": false
+}

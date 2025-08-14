@@ -1,0 +1,139 @@
+{
+    "pricing": [
+        {
+            "id": "5088f884-b4aa-4dfa-9a61-bbffa0f1a471",
+            "modelId": "39fca2ef-4f9d-4e69-9bf4-13d4ba0ac69c",
+            "tier": "standard",
+            "region": null,
+            "currency": "USD",
+            "inputPerMillion": 10,
+            "outputPerMillion": 30,
+            "imagePerUnit": 0.00085,
+            "audioPerMinute": null,
+            "videoPerMinute": null,
+            "finetuningPerMillion": null,
+            "volumeDiscounts": "[]",
+            "effectiveFrom": "2024-04-09T00:00:00.000Z",
+            "effectiveTo": null,
+            "model": {
+                "id": "39fca2ef-4f9d-4e69-9bf4-13d4ba0ac69c",
+                "slug": "gpt-4-turbo",
+                "name": "GPT-4 Turbo",
+                "provider": {
+                    "id": "2a38b46b-d358-409a-b4f7-4a95e8f7d717",
+                    "slug": "openai",
+                    "name": "OpenAI"
+                }
+            }
+        },
+        {
+            "id": "6ada3ded-d619-46ed-8fdd-57f1f82ffddb",
+            "modelId": "304fced4-a880-41e8-ab9a-3c7e765e625e",
+            "tier": "standard",
+            "region": null,
+            "currency": "USD",
+            "inputPerMillion": 0.5,
+            "outputPerMillion": 1.5,
+            "imagePerUnit": null,
+            "audioPerMinute": null,
+            "videoPerMinute": null,
+            "finetuningPerMillion": null,
+            "volumeDiscounts": "[]",
+            "effectiveFrom": "2024-01-01T00:00:00.000Z",
+            "effectiveTo": null,
+            "model": {
+                "id": "304fced4-a880-41e8-ab9a-3c7e765e625e",
+                "slug": "gpt-3.5-turbo",
+                "name": "GPT-3.5 Turbo",
+                "provider": {
+                    "id": "2a38b46b-d358-409a-b4f7-4a95e8f7d717",
+                    "slug": "openai",
+                    "name": "OpenAI"
+                }
+            }
+        },
+        {
+            "id": "76023b59-87f3-4aba-8df3-9e667f725cc7",
+            "modelId": "5d5dc608-1815-4a54-a0e9-9189e137fdce",
+            "tier": "standard",
+            "region": null,
+            "currency": "USD",
+            "inputPerMillion": 30,
+            "outputPerMillion": 60,
+            "imagePerUnit": null,
+            "audioPerMinute": null,
+            "videoPerMinute": null,
+            "finetuningPerMillion": null,
+            "volumeDiscounts": "[]",
+            "effectiveFrom": "2025-08-13T14:35:44.203Z",
+            "effectiveTo": null,
+            "model": {
+                "id": "5d5dc608-1815-4a54-a0e9-9189e137fdce",
+                "slug": "gpt-4",
+                "name": "GPT-4",
+                "provider": {
+                    "id": "2a38b46b-d358-409a-b4f7-4a95e8f7d717",
+                    "slug": "openai",
+                    "name": "OpenAI"
+                }
+            }
+        },
+        {
+            "id": "c9506192-1668-4cb4-83e0-df3e60f3d35b",
+            "modelId": "de38ff48-4406-4fdf-826e-58d617cbbfab",
+            "tier": "standard",
+            "region": null,
+            "currency": "USD",
+            "inputPerMillion": 3,
+            "outputPerMillion": 4,
+            "imagePerUnit": null,
+            "audioPerMinute": null,
+            "videoPerMinute": null,
+            "finetuningPerMillion": null,
+            "volumeDiscounts": "[]",
+            "effectiveFrom": "2025-08-13T14:35:47.844Z",
+            "effectiveTo": null,
+            "model": {
+                "id": "de38ff48-4406-4fdf-826e-58d617cbbfab",
+                "slug": "gpt-35-turbo-16k",
+                "name": "GPT-3.5 Turbo 16K",
+                "provider": {
+                    "id": "2a38b46b-d358-409a-b4f7-4a95e8f7d717",
+                    "slug": "openai",
+                    "name": "OpenAI"
+                }
+            }
+        },
+        {
+            "id": "ed11dca0-e81d-4224-b8bf-74fb60f81ef1",
+            "modelId": "105e8160-2330-4a67-b295-5bd3c65f1f5c",
+            "tier": "standard",
+            "region": null,
+            "currency": "USD",
+            "inputPerMillion": 0.5,
+            "outputPerMillion": 1.5,
+            "imagePerUnit": null,
+            "audioPerMinute": null,
+            "videoPerMinute": null,
+            "finetuningPerMillion": null,
+            "volumeDiscounts": "[]",
+            "effectiveFrom": "2025-08-13T14:35:46.161Z",
+            "effectiveTo": null,
+            "model": {
+                "id": "105e8160-2330-4a67-b295-5bd3c65f1f5c",
+                "slug": "gpt-35-turbo",
+                "name": "GPT-3.5 Turbo",
+                "provider": {
+                    "id": "2a38b46b-d358-409a-b4f7-4a95e8f7d717",
+                    "slug": "openai",
+                    "name": "OpenAI"
+                }
+            }
+        }
+    ],
+    "total": 5,
+    "limit": 50,
+    "offset": 0,
+    "timestamp": "2025-08-14T00:35:57.725Z",
+    "cached": false
+}
