@@ -1,7 +1,7 @@
 /**
  * Temporary in-memory data service
  * This is a fallback when database connection fails
- * Last updated: 2025-08-14T15:51:59.805Z
+ * Last updated: 2025-08-14T16:39:36.388Z
  * Source: API Sync Service
  */
 
@@ -67,24 +67,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.68278618157827,
-      "latencyP50": 164.58279383317065,
-      "latencyP95": 367.8642756722725,
-      "latencyP99": 757.3956055935614,
-      "errorRate": 0.02742162292514072,
-      "requestsPerMin": 1099.9047045477441,
-      "tokensPerMin": 154383.91397232548,
-      "usage": 34.12988703400109,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.8865849238782,
+      "latencyP50": 166.50260224991922,
+      "latencyP95": 340.81086902069535,
+      "latencyP99": 650.129139067501,
+      "errorRate": 0.059292739810884634,
+      "requestsPerMin": 857.6848284540577,
+      "tokensPerMin": 197624.24797751932,
+      "usage": 53.93644703678749,
+      "checkedAt": "2025-08-14T16:39:36.384Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 70.72214374300856,
-        "normalizedScore": 73.23018485391798,
-        "percentile": 96.9284782241984,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 65.85691520016347,
+        "normalizedScore": 73.11435419268803,
+        "percentile": 89.9864109183834,
+        "evaluationDate": "2025-08-14T16:39:36.384Z",
         "isOfficial": true
       }
     ],
@@ -96,10 +96,10 @@ const models = [
       "imagePerUnit": null,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.384Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.384Z",
+    "updatedAt": "2025-08-14T16:39:36.384Z"
   },
   {
     "id": "gpt-4",
@@ -129,24 +129,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.60234424971715,
-      "latencyP50": 168.54011449348613,
-      "latencyP95": 370.28751885573126,
-      "latencyP99": 822.7127537195706,
-      "errorRate": 0.0005272607390805151,
-      "requestsPerMin": 985.2289313842991,
-      "tokensPerMin": 163364.20012661204,
-      "usage": 89.80367062123219,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.89597261791118,
+      "latencyP50": 181.83341267443524,
+      "latencyP95": 411.04145368452885,
+      "latencyP99": 641.2742028409244,
+      "errorRate": 0.05323860775723959,
+      "requestsPerMin": 1065.9625437451373,
+      "tokensPerMin": 109881.3633623209,
+      "usage": 45.68160712315894,
+      "checkedAt": "2025-08-14T16:39:36.384Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 71.07221084303856,
-        "normalizedScore": 72.6213248406163,
-        "percentile": 78.88720161976758,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 69.49346576266569,
+        "normalizedScore": 66.46618490768385,
+        "percentile": 78.6003918103873,
+        "evaluationDate": "2025-08-14T16:39:36.384Z",
         "isOfficial": true
       }
     ],
@@ -158,10 +158,10 @@ const models = [
       "imagePerUnit": null,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.384Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.384Z",
+    "updatedAt": "2025-08-14T16:39:36.384Z"
   },
   {
     "id": "gpt-3.5-turbo",
@@ -191,24 +191,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.83586097892747,
-      "latencyP50": 215.10488210161458,
-      "latencyP95": 394.13087443850094,
-      "latencyP99": 870.5475069473414,
-      "errorRate": 0.016616117946192,
-      "requestsPerMin": 1329.104788265157,
-      "tokensPerMin": 183044.24164982658,
-      "usage": 42.07690084071126,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.57539278620796,
+      "latencyP50": 176.77922633759047,
+      "latencyP95": 432.7569929081275,
+      "latencyP99": 622.5459998578067,
+      "errorRate": 0.0734467996063213,
+      "requestsPerMin": 1771.5962087512646,
+      "tokensPerMin": 110374.2183682282,
+      "usage": 71.27856868617984,
+      "checkedAt": "2025-08-14T16:39:36.384Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 77.76534135206516,
-        "normalizedScore": 79.37358793571572,
-        "percentile": 81.22014547209956,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 74.01163783949109,
+        "normalizedScore": 75.52270926700795,
+        "percentile": 76.41597145187379,
+        "evaluationDate": "2025-08-14T16:39:36.384Z",
         "isOfficial": true
       }
     ],
@@ -220,10 +220,10 @@ const models = [
       "imagePerUnit": null,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.384Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.384Z",
+    "updatedAt": "2025-08-14T16:39:36.384Z"
   },
   {
     "id": "gpt-5-nano",
@@ -253,24 +253,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.60633959353537,
-      "latencyP50": 200.23927124189328,
-      "latencyP95": 306.5611988031201,
-      "latencyP99": 718.3370238348967,
-      "errorRate": 0.08167868343907642,
-      "requestsPerMin": 644.531460052204,
-      "tokensPerMin": 182432.5532452093,
-      "usage": 49.56698670010904,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.79025899092622,
+      "latencyP50": 179.53673588415953,
+      "latencyP95": 363.4819182656456,
+      "latencyP99": 710.204237020757,
+      "errorRate": 0.010249412710817342,
+      "requestsPerMin": 1083.3363378460044,
+      "tokensPerMin": 104875.45980689344,
+      "usage": 47.18316858991235,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 68.11755628286278,
-        "normalizedScore": 72.97459117966501,
-        "percentile": 98.58357945537865,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 68.76275106619369,
+        "normalizedScore": 72.51142592840267,
+        "percentile": 82.00899100510676,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -282,10 +282,10 @@ const models = [
       "imagePerUnit": null,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "gpt-5",
@@ -315,24 +315,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.63917286074333,
-      "latencyP50": 184.96441818404497,
-      "latencyP95": 331.858972491999,
-      "latencyP99": 667.568795845397,
-      "errorRate": 0.0014498353149740685,
-      "requestsPerMin": 1532.495545742255,
-      "tokensPerMin": 159975.00476827126,
-      "usage": 54.769499529026355,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.79297777135574,
+      "latencyP50": 160.25874516947093,
+      "latencyP95": 301.27648416683724,
+      "latencyP99": 751.9373168907167,
+      "errorRate": 0.053879963301342704,
+      "requestsPerMin": 945.0157828127333,
+      "tokensPerMin": 133396.85734491525,
+      "usage": 42.44354265699556,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 71.16030257742125,
-        "normalizedScore": 71.46526727415547,
-        "percentile": 81.94754346659265,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 68.82715551985079,
+        "normalizedScore": 70.93480067334404,
+        "percentile": 78.15042641258287,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -344,10 +344,10 @@ const models = [
       "imagePerUnit": null,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "gpt-5-mini-2025-08-07",
@@ -377,24 +377,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.82688099121293,
-      "latencyP50": 166.18600721715663,
-      "latencyP95": 491.58043986060295,
-      "latencyP99": 838.8573297362708,
-      "errorRate": 0.08000871693762052,
-      "requestsPerMin": 739.6298923377707,
-      "tokensPerMin": 64746.588267059815,
-      "usage": 34.767294184584856,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.8569904957065,
+      "latencyP50": 207.50998663030302,
+      "latencyP95": 492.1540620467064,
+      "latencyP99": 650.4885328209994,
+      "errorRate": 0.09421833923980011,
+      "requestsPerMin": 1252.5072067920346,
+      "tokensPerMin": 126083.11068208967,
+      "usage": 34.002024389547564,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 69.58690089304247,
-        "normalizedScore": 66.38038322437735,
-        "percentile": 96.53306208085894,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 72.1943498158466,
+        "normalizedScore": 74.47210726047837,
+        "percentile": 81.8917608688822,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -406,10 +406,10 @@ const models = [
       "imagePerUnit": null,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "gpt-5-mini",
@@ -439,24 +439,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.83148212784403,
-      "latencyP50": 188.16885129778814,
-      "latencyP95": 433.268883733229,
-      "latencyP99": 812.1968412640277,
-      "errorRate": 0.08831242096196355,
-      "requestsPerMin": 553.3518954787947,
-      "tokensPerMin": 86113.8314945692,
-      "usage": 60.04544801801592,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.87190796546221,
+      "latencyP50": 236.0834894631833,
+      "latencyP95": 413.3123788345529,
+      "latencyP99": 910.2803013767077,
+      "errorRate": 0.03169918091592452,
+      "requestsPerMin": 1677.8832143453756,
+      "tokensPerMin": 124501.71534626052,
+      "usage": 34.07225566617868,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 67.42801138188142,
-        "normalizedScore": 67.89074289778154,
-        "percentile": 91.49851472480327,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 72.38757722690117,
+        "normalizedScore": 71.52774353259926,
+        "percentile": 87.41070447546889,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -468,10 +468,10 @@ const models = [
       "imagePerUnit": null,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "gpt-5-nano-2025-08-07",
@@ -501,24 +501,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.67306363791721,
-      "latencyP50": 206.24418625468388,
-      "latencyP95": 322.12777113752054,
-      "latencyP99": 672.7977628306853,
-      "errorRate": 0.05564205333147823,
-      "requestsPerMin": 1146.1786282918686,
-      "tokensPerMin": 79525.75364631107,
-      "usage": 28.248713977621833,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.73944190633738,
+      "latencyP50": 230.48764259205637,
+      "latencyP95": 414.34010913674933,
+      "latencyP99": 812.8525652802509,
+      "errorRate": 0.021518912048051255,
+      "requestsPerMin": 1738.320903249175,
+      "tokensPerMin": 131412.57940017924,
+      "usage": 89.68394348612762,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 72.79421916117761,
-        "normalizedScore": 67.75099351911383,
-        "percentile": 81.237275399884,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 70.62898602740056,
+        "normalizedScore": 73.64802517564041,
+        "percentile": 89.25188207798026,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -530,10 +530,10 @@ const models = [
       "imagePerUnit": null,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "gpt-4-1106-preview",
@@ -563,24 +563,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.84546899086754,
-      "latencyP50": 212.35055923463602,
-      "latencyP95": 401.11867821870436,
-      "latencyP99": 946.9329716593659,
-      "errorRate": 0.016071301245345216,
-      "requestsPerMin": 1117.58106082925,
-      "tokensPerMin": 192627.6034086618,
-      "usage": 71.52257567573031,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.76681880646294,
+      "latencyP50": 151.4386915326109,
+      "latencyP95": 321.4250968774826,
+      "latencyP99": 655.5127254261353,
+      "errorRate": 0.05108564766938322,
+      "requestsPerMin": 1231.5728424154977,
+      "tokensPerMin": 152332.41287432774,
+      "usage": 77.44710923572997,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 70.42167278845717,
-        "normalizedScore": 66.26874695934636,
-        "percentile": 75.05576323899919,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 66.41004842085383,
+        "normalizedScore": 72.22157991870341,
+        "percentile": 91.22833212315936,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -592,10 +592,10 @@ const models = [
       "imagePerUnit": null,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "gpt-3.5-turbo-1106",
@@ -625,24 +625,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.81332023247599,
-      "latencyP50": 179.82423528540855,
-      "latencyP95": 334.8713554897024,
-      "latencyP99": 688.7661144519193,
-      "errorRate": 0.013292541653704637,
-      "requestsPerMin": 1417.589698676246,
-      "tokensPerMin": 156890.33928362344,
-      "usage": 61.21254819523531,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.80652503108756,
+      "latencyP50": 218.8289981809851,
+      "latencyP95": 454.45985064564996,
+      "latencyP99": 889.7964382534375,
+      "errorRate": 0.08795774718284657,
+      "requestsPerMin": 1590.3531701342727,
+      "tokensPerMin": 124334.51082634299,
+      "usage": 41.155119850659226,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 72.4602343057304,
-        "normalizedScore": 70.75296489066744,
-        "percentile": 86.6639508810866,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 77.01110303854588,
+        "normalizedScore": 72.13984940612539,
+        "percentile": 80.12596235127214,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -654,10 +654,10 @@ const models = [
       "imagePerUnit": null,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "gpt-4-0125-preview",
@@ -687,24 +687,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.71189322037417,
-      "latencyP50": 213.9623444660004,
-      "latencyP95": 406.1178360099491,
-      "latencyP99": 894.7911070197188,
-      "errorRate": 0.03382198130342234,
-      "requestsPerMin": 929.3879816303945,
-      "tokensPerMin": 144712.1216782688,
-      "usage": 72.33197497623036,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.89333095472661,
+      "latencyP50": 164.30470838836436,
+      "latencyP95": 338.09759466906024,
+      "latencyP99": 648.2056160511156,
+      "errorRate": 0.0440304084997482,
+      "requestsPerMin": 1389.3786624370796,
+      "tokensPerMin": 150587.86809688446,
+      "usage": 60.312535508666734,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 68.43918594906256,
-        "normalizedScore": 70.59273172295956,
-        "percentile": 81.8393257837179,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 67.02383046520947,
+        "normalizedScore": 67.52305016018914,
+        "percentile": 82.99957508648268,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -716,10 +716,10 @@ const models = [
       "imagePerUnit": null,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "gpt-4-turbo-preview",
@@ -749,24 +749,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.87413607401356,
-      "latencyP50": 185.0923060599338,
-      "latencyP95": 321.401612251375,
-      "latencyP99": 933.4104343922286,
-      "errorRate": 0.08414710878566285,
-      "requestsPerMin": 534.2457349126746,
-      "tokensPerMin": 185754.59492937053,
-      "usage": 66.48683903226795,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.50437794161144,
+      "latencyP50": 196.88428862124988,
+      "latencyP95": 421.87456797863774,
+      "latencyP99": 622.3417248036969,
+      "errorRate": 0.03108546557628915,
+      "requestsPerMin": 1768.9805505512725,
+      "tokensPerMin": 147926.07762968825,
+      "usage": 85.87761392625353,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 74.61487142177215,
-        "normalizedScore": 70.19168716299365,
-        "percentile": 95.53675078334427,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 74.72305498619164,
+        "normalizedScore": 71.29870731955998,
+        "percentile": 97.36344256285548,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -778,10 +778,10 @@ const models = [
       "imagePerUnit": null,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "gpt-3.5-turbo-0125",
@@ -811,24 +811,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.55978324294989,
-      "latencyP50": 164.25890744670733,
-      "latencyP95": 452.29057671268674,
-      "latencyP99": 707.00305143052,
-      "errorRate": 0.028049537602642328,
-      "requestsPerMin": 1581.997882886396,
-      "tokensPerMin": 54286.61649687349,
-      "usage": 57.00692361589668,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.89548910607766,
+      "latencyP50": 198.76285117402767,
+      "latencyP95": 379.36405878265947,
+      "latencyP99": 997.7847531133943,
+      "errorRate": 0.08025609657486332,
+      "requestsPerMin": 1881.2576851568863,
+      "tokensPerMin": 89259.428934769,
+      "usage": 20.05618167915334,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 78.95870494339174,
-        "normalizedScore": 76.06826063874837,
-        "percentile": 96.8555762974689,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 76.94936984603258,
+        "normalizedScore": 73.28313219302741,
+        "percentile": 78.63387325960342,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -840,10 +840,10 @@ const models = [
       "imagePerUnit": null,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "gpt-4-turbo",
@@ -873,24 +873,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.8290987791312,
-      "latencyP50": 150.34525670882454,
-      "latencyP95": 317.71163389425044,
-      "latencyP99": 775.6466102087873,
-      "errorRate": 0.06502011719602033,
-      "requestsPerMin": 1015.7922902942727,
-      "tokensPerMin": 134626.2770308642,
-      "usage": 58.58647453718571,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.75167416704117,
+      "latencyP50": 156.43119326092773,
+      "latencyP95": 435.9608202601635,
+      "latencyP99": 922.7808685778168,
+      "errorRate": 0.02789495177471715,
+      "requestsPerMin": 902.890110329123,
+      "tokensPerMin": 160484.78213073657,
+      "usage": 29.190956912118047,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 74.8232673389753,
-        "normalizedScore": 65.21151953868046,
-        "percentile": 75.5563888101361,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 74.93464039290713,
+        "normalizedScore": 71.82593994514575,
+        "percentile": 96.07176786862017,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -902,10 +902,10 @@ const models = [
       "imagePerUnit": null,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "gpt-4-turbo-2024-04-09",
@@ -935,24 +935,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.77199128541866,
-      "latencyP50": 228.1064560665638,
-      "latencyP95": 304.68503051663674,
-      "latencyP99": 878.9928645846711,
-      "errorRate": 0.09536952093840595,
-      "requestsPerMin": 1530.262394923506,
-      "tokensPerMin": 134813.32291653458,
-      "usage": 61.30720926161484,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.67859235931043,
+      "latencyP50": 150.66426485945453,
+      "latencyP95": 409.9654912244707,
+      "latencyP99": 672.8417701874008,
+      "errorRate": 0.06296144739920038,
+      "requestsPerMin": 608.6159850650454,
+      "tokensPerMin": 144108.9345537088,
+      "usage": 87.97054176074941,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 65.02948526027944,
-        "normalizedScore": 72.71693132171421,
-        "percentile": 83.17574895372368,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 66.10737355582842,
+        "normalizedScore": 74.89818942584024,
+        "percentile": 96.23855499602702,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -964,15 +964,15 @@ const models = [
       "imagePerUnit": null,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "gpt-4o",
     "slug": "openai-gpt-4o",
-    "name": "Gpt 4o",
+    "name": "GPT-4o",
     "description": "OpenAI's latest flagship multimodal model",
     "provider": {
       "id": "openai",
@@ -995,30 +995,30 @@ const models = [
       "vision"
     ],
     "contextWindow": 128000,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 16384,
     "trainingCutoff": "2024-10-01T00:00:00.000Z",
     "apiVersion": "v1",
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.70491881698635,
-      "latencyP50": 234.28192156492486,
-      "latencyP95": 444.68986818872867,
-      "latencyP99": 713.2908892711235,
-      "errorRate": 0.015913961504573783,
-      "requestsPerMin": 779.9334488659196,
-      "tokensPerMin": 106240.31446665415,
-      "usage": 54.45748137111874,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.5041041905641,
+      "latencyP50": 239.68263891240306,
+      "latencyP95": 306.25321708775215,
+      "latencyP99": 641.5562613048761,
+      "errorRate": 0.055200786878768504,
+      "requestsPerMin": 1463.0092742652264,
+      "tokensPerMin": 136778.45129738684,
+      "usage": 27.82082465466919,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 94.23097706254124,
-        "normalizedScore": 94.64072155113303,
-        "percentile": 76.30969073692188,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 85.42215646388061,
+        "normalizedScore": 88.31246287838816,
+        "percentile": 75.70125489092064,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -1030,10 +1030,10 @@ const models = [
       "imagePerUnit": 0.00085,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "gpt-4o-2024-05-13",
@@ -1067,24 +1067,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.86601462681615,
-      "latencyP50": 195.29147838289373,
-      "latencyP95": 332.72630424994895,
-      "latencyP99": 817.1925934155323,
-      "errorRate": 0.01857352915378423,
-      "requestsPerMin": 1719.8762517016287,
-      "tokensPerMin": 173219.7197594142,
-      "usage": 80.85861806957709,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.55326807231263,
+      "latencyP50": 171.30470368570542,
+      "latencyP95": 350.28351142604515,
+      "latencyP99": 686.7135647056655,
+      "errorRate": 0.07111752932768112,
+      "requestsPerMin": 760.2716701390204,
+      "tokensPerMin": 72484.95343832807,
+      "usage": 71.96424594948698,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 93.50909809143843,
-        "normalizedScore": 91.68505033666497,
-        "percentile": 97.61821321815262,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 92.90585198538314,
+        "normalizedScore": 85.30283028102028,
+        "percentile": 79.26415122502476,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -1096,10 +1096,10 @@ const models = [
       "imagePerUnit": 0.00085,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "gpt-4o-mini-2024-07-18",
@@ -1133,24 +1133,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.69475966221992,
-      "latencyP50": 200.0436908556862,
-      "latencyP95": 460.84750158304684,
-      "latencyP99": 769.9664177789912,
-      "errorRate": 0.02870925554807078,
-      "requestsPerMin": 1397.8978520148585,
-      "tokensPerMin": 193256.839661237,
-      "usage": 68.54003672198874,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.77842491130173,
+      "latencyP50": 170.86366015203123,
+      "latencyP95": 301.9471769360632,
+      "latencyP99": 943.9922294001349,
+      "errorRate": 0.03674181105285523,
+      "requestsPerMin": 1229.0853845955726,
+      "tokensPerMin": 101107.28368240262,
+      "usage": 34.464793046243614,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 90.75723509587878,
-        "normalizedScore": 89.70250529477738,
-        "percentile": 91.61807828688237,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 89.0082466847347,
+        "normalizedScore": 85.29135028394008,
+        "percentile": 98.26776008884258,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -1162,10 +1162,10 @@ const models = [
       "imagePerUnit": 0.00085,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "gpt-4o-mini",
@@ -1199,24 +1199,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.55098356781635,
-      "latencyP50": 190.66301556229803,
-      "latencyP95": 429.65392892259575,
-      "latencyP99": 760.7692560240127,
-      "errorRate": 0.012485430990365831,
-      "requestsPerMin": 1755.9986742816195,
-      "tokensPerMin": 85753.29105341955,
-      "usage": 53.723031209407374,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.80336357306402,
+      "latencyP50": 212.87518268847325,
+      "latencyP95": 326.1607948394506,
+      "latencyP99": 985.4928715611821,
+      "errorRate": 0.08032089594417578,
+      "requestsPerMin": 1391.2670560207682,
+      "tokensPerMin": 87083.97895925507,
+      "usage": 32.91433540625021,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 93.61010146435808,
-        "normalizedScore": 85.4656334818832,
-        "percentile": 94.05997785337847,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 88.36527976364347,
+        "normalizedScore": 85.30490457463117,
+        "percentile": 81.85709981024434,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -1228,10 +1228,10 @@ const models = [
       "imagePerUnit": 0.00085,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "gpt-4o-2024-08-06",
@@ -1265,24 +1265,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.84688230131628,
-      "latencyP50": 221.5211467044951,
-      "latencyP95": 389.3349911320313,
-      "latencyP99": 740.7649337022035,
-      "errorRate": 0.07740884937322426,
-      "requestsPerMin": 1723.663324199041,
-      "tokensPerMin": 53474.74946670604,
-      "usage": 83.3479301727722,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.53713633291045,
+      "latencyP50": 161.44613342719896,
+      "latencyP95": 341.0458622503271,
+      "latencyP99": 644.2269424984672,
+      "errorRate": 0.03172098027482724,
+      "requestsPerMin": 1557.5214951293628,
+      "tokensPerMin": 103695.72780920655,
+      "usage": 63.008072535145395,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 87.70958859065999,
-        "normalizedScore": 85.38385709344531,
-        "percentile": 77.13960843937143,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 93.22179088644253,
+        "normalizedScore": 85.23923073511043,
+        "percentile": 79.51946609074922,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -1294,10 +1294,10 @@ const models = [
       "imagePerUnit": 0.00085,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "chatgpt-4o-latest",
@@ -1331,24 +1331,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.80375027012148,
-      "latencyP50": 195.13028446745022,
-      "latencyP95": 487.67390864313796,
-      "latencyP99": 696.1287852766569,
-      "errorRate": 0.06847314103354869,
-      "requestsPerMin": 1848.7472754517862,
-      "tokensPerMin": 150330.11825577778,
-      "usage": 24.964462354772472,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.60446212085807,
+      "latencyP50": 182.9025763474448,
+      "latencyP95": 309.36193737276477,
+      "latencyP99": 717.8352394452296,
+      "errorRate": 0.041269638073527015,
+      "requestsPerMin": 646.9471872636217,
+      "tokensPerMin": 75612.59905455499,
+      "usage": 48.298397479192396,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 93.14415609504819,
-        "normalizedScore": 94.6928098540406,
-        "percentile": 90.16924248898293,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 94.93069612862179,
+        "normalizedScore": 91.3641181387292,
+        "percentile": 90.21311758376862,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -1360,10 +1360,10 @@ const models = [
       "imagePerUnit": 0.00085,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "gpt-4o-realtime-preview-2024-10-01",
@@ -1397,24 +1397,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.6702415565208,
-      "latencyP50": 230.16396760983892,
-      "latencyP95": 325.2496840074453,
-      "latencyP99": 987.8063718525242,
-      "errorRate": 0.07094491040297439,
-      "requestsPerMin": 1168.3178392498849,
-      "tokensPerMin": 152477.20024499885,
-      "usage": 71.47512154976917,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.79676989265779,
+      "latencyP50": 193.3786087043029,
+      "latencyP95": 436.9046805305857,
+      "latencyP99": 985.3376490396336,
+      "errorRate": 0.07279991973180111,
+      "requestsPerMin": 1271.5940732217823,
+      "tokensPerMin": 189609.5128525614,
+      "usage": 52.55049554710251,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 86.11749417263293,
-        "normalizedScore": 88.76717776371416,
-        "percentile": 88.05090799781944,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 92.49760407370384,
+        "normalizedScore": 90.43672354812774,
+        "percentile": 92.25423302689619,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -1426,10 +1426,10 @@ const models = [
       "imagePerUnit": 0.00085,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "gpt-4o-audio-preview-2024-10-01",
@@ -1463,24 +1463,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.70983421449671,
-      "latencyP50": 243.649207184244,
-      "latencyP95": 467.32446549944007,
-      "latencyP99": 820.56120424073,
-      "errorRate": 0.027987493417743915,
-      "requestsPerMin": 981.9771522658043,
-      "tokensPerMin": 52592.71386552106,
-      "usage": 83.86984257996434,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.5295453611392,
+      "latencyP50": 225.43073203289975,
+      "latencyP95": 312.7649489456514,
+      "latencyP99": 793.4796651121492,
+      "errorRate": 0.025946273371203678,
+      "requestsPerMin": 1175.3683017944354,
+      "tokensPerMin": 63025.63225040956,
+      "usage": 49.675771323810025,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 89.18747726266649,
-        "normalizedScore": 87.68693062677987,
-        "percentile": 80.83669586910831,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 86.58292927881901,
+        "normalizedScore": 87.96096451490403,
+        "percentile": 86.49597387579796,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -1492,10 +1492,10 @@ const models = [
       "imagePerUnit": 0.00085,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "gpt-4o-audio-preview",
@@ -1529,24 +1529,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.65418558570599,
-      "latencyP50": 188.08439064614788,
-      "latencyP95": 329.6614444015403,
-      "latencyP99": 896.2162958674398,
-      "errorRate": 0.034485194094871566,
-      "requestsPerMin": 912.4757599011181,
-      "tokensPerMin": 123808.48032317395,
-      "usage": 23.43491018665912,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.53662825341044,
+      "latencyP50": 221.45438022032607,
+      "latencyP95": 410.7121031888017,
+      "latencyP99": 779.4821876131748,
+      "errorRate": 0.01405397488605249,
+      "requestsPerMin": 673.5983429373089,
+      "tokensPerMin": 133500.27246788735,
+      "usage": 77.31283762982838,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 94.92554254539805,
-        "normalizedScore": 89.22563030724143,
-        "percentile": 78.98694054070819,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 91.20852083855878,
+        "normalizedScore": 91.58514726902577,
+        "percentile": 96.60047382133386,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -1558,10 +1558,10 @@ const models = [
       "imagePerUnit": 0.00085,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "gpt-4o-realtime-preview",
@@ -1595,24 +1595,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.53816367961011,
-      "latencyP50": 223.4634585203193,
-      "latencyP95": 395.527073576389,
-      "latencyP99": 876.2452823307553,
-      "errorRate": 0.005782947143556561,
-      "requestsPerMin": 1502.6619581893528,
-      "tokensPerMin": 98912.70929903144,
-      "usage": 76.04186348679667,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.86142671883852,
+      "latencyP50": 170.00801796382504,
+      "latencyP95": 450.3892440435111,
+      "latencyP99": 866.7255569160756,
+      "errorRate": 0.023555294728222598,
+      "requestsPerMin": 1518.9961011539212,
+      "tokensPerMin": 51245.86062894601,
+      "usage": 52.15346332910151,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 92.08681245752545,
-        "normalizedScore": 86.7755858084202,
-        "percentile": 76.37535835841967,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 92.16210335928017,
+        "normalizedScore": 90.32760654889131,
+        "percentile": 87.58788792974221,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -1624,10 +1624,10 @@ const models = [
       "imagePerUnit": 0.00085,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "gpt-4o-realtime-preview-2024-12-17",
@@ -1661,24 +1661,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.71579922023467,
-      "latencyP50": 224.54457554902407,
-      "latencyP95": 336.6144443006467,
-      "latencyP99": 967.194103269886,
-      "errorRate": 0.06420029855924754,
-      "requestsPerMin": 1221.8064435891079,
-      "tokensPerMin": 141521.69698001575,
-      "usage": 49.150496568542096,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.86514958880457,
+      "latencyP50": 204.70800269287162,
+      "latencyP95": 473.820411852985,
+      "latencyP99": 756.420169977786,
+      "errorRate": 0.04995829786683939,
+      "requestsPerMin": 938.2097096283926,
+      "tokensPerMin": 169257.80763711449,
+      "usage": 38.46127668079134,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 89.70594234214003,
-        "normalizedScore": 91.16755671335116,
-        "percentile": 83.14366350259255,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 91.11401925125251,
+        "normalizedScore": 92.37532066082443,
+        "percentile": 97.3231424503837,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -1690,10 +1690,10 @@ const models = [
       "imagePerUnit": 0.00085,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "gpt-4o-audio-preview-2024-12-17",
@@ -1727,24 +1727,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.73777090666269,
-      "latencyP50": 153.2553169244715,
-      "latencyP95": 495.32455005491977,
-      "latencyP99": 639.7567233356813,
-      "errorRate": 0.0946789272629691,
-      "requestsPerMin": 1967.8516093217104,
-      "tokensPerMin": 50387.635913555416,
-      "usage": 78.8607945939605,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.64879403373465,
+      "latencyP50": 175.7487647609259,
+      "latencyP95": 339.5950835657755,
+      "latencyP99": 937.7289137581364,
+      "errorRate": 0.07389222791561197,
+      "requestsPerMin": 575.6710911382985,
+      "tokensPerMin": 92811.18461955636,
+      "usage": 67.00766743411168,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 92.86155834174892,
-        "normalizedScore": 88.44039830408944,
-        "percentile": 92.23615021857124,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 86.74500919103485,
+        "normalizedScore": 88.68123871028519,
+        "percentile": 84.26040763040055,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -1756,10 +1756,10 @@ const models = [
       "imagePerUnit": 0.00085,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "gpt-4o-mini-realtime-preview-2024-12-17",
@@ -1793,24 +1793,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.62508319612027,
-      "latencyP50": 162.61048054431856,
-      "latencyP95": 440.77178877411046,
-      "latencyP99": 937.0944626205373,
-      "errorRate": 0.06238206607505603,
-      "requestsPerMin": 1251.383980876406,
-      "tokensPerMin": 150187.5467677581,
-      "usage": 44.41788573206915,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.8389728017232,
+      "latencyP50": 151.47230298951348,
+      "latencyP95": 403.34599907424945,
+      "latencyP99": 751.3260318588774,
+      "errorRate": 0.029936762535728037,
+      "requestsPerMin": 634.9718389912349,
+      "tokensPerMin": 136668.1596448601,
+      "usage": 58.762611448445156,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 94.57558277330124,
-        "normalizedScore": 94.71170226550329,
-        "percentile": 86.5948718868458,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 85.16710651304311,
+        "normalizedScore": 91.4628197856556,
+        "percentile": 93.39485662820279,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -1822,10 +1822,10 @@ const models = [
       "imagePerUnit": 0.00085,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "gpt-4o-mini-audio-preview-2024-12-17",
@@ -1859,24 +1859,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.87391631239812,
-      "latencyP50": 202.40199653302278,
-      "latencyP95": 330.07601044051415,
-      "latencyP99": 806.706006094114,
-      "errorRate": 0.05996191779650928,
-      "requestsPerMin": 540.0427173282493,
-      "tokensPerMin": 108633.08873505783,
-      "usage": 79.9577952295711,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.77253545805034,
+      "latencyP50": 202.28935403399754,
+      "latencyP95": 375.84148148444734,
+      "latencyP99": 749.5607725283612,
+      "errorRate": 0.04855552031202857,
+      "requestsPerMin": 883.3143803877037,
+      "tokensPerMin": 124090.59279579848,
+      "usage": 40.37107254280831,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 94.44109595799841,
-        "normalizedScore": 93.32713723116663,
-        "percentile": 84.02913170479819,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 85.72293180296599,
+        "normalizedScore": 93.53738726321409,
+        "percentile": 85.02447119597996,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -1888,10 +1888,10 @@ const models = [
       "imagePerUnit": 0.00085,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "gpt-4o-mini-realtime-preview",
@@ -1925,24 +1925,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.51199687473635,
-      "latencyP50": 194.66538530355578,
-      "latencyP95": 411.2432237359575,
-      "latencyP99": 659.1121602623966,
-      "errorRate": 0.014519245112707703,
-      "requestsPerMin": 1052.8455441677775,
-      "tokensPerMin": 186621.47352175944,
-      "usage": 33.82957656499893,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.8682510546976,
+      "latencyP50": 193.59301248812292,
+      "latencyP95": 413.00273133224897,
+      "latencyP99": 668.5247817824571,
+      "errorRate": 0.08337013041937874,
+      "requestsPerMin": 773.9130519586906,
+      "tokensPerMin": 173848.7510393001,
+      "usage": 87.4203101550418,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 90.08312267065529,
-        "normalizedScore": 87.86034819456619,
-        "percentile": 98.47384698851079,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 86.18587879270073,
+        "normalizedScore": 85.9156060206422,
+        "percentile": 80.02978487932353,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -1954,10 +1954,10 @@ const models = [
       "imagePerUnit": 0.00085,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "gpt-4o-mini-audio-preview",
@@ -1991,24 +1991,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.7822233691389,
-      "latencyP50": 238.76721476015518,
-      "latencyP95": 302.13809806071777,
-      "latencyP99": 802.6449382682129,
-      "errorRate": 0.05159246954683692,
-      "requestsPerMin": 1292.0494395507362,
-      "tokensPerMin": 69188.18602625508,
-      "usage": 37.61261027247791,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.78849709526796,
+      "latencyP50": 232.82535490832097,
+      "latencyP95": 469.79078557271316,
+      "latencyP99": 931.839029722235,
+      "errorRate": 0.08495510613022493,
+      "requestsPerMin": 947.6533989516311,
+      "tokensPerMin": 100148.66743342472,
+      "usage": 67.36525886453802,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 93.98218455330685,
-        "normalizedScore": 86.51711405862594,
-        "percentile": 93.71058660037686,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 86.78599218412594,
+        "normalizedScore": 93.64989562861724,
+        "percentile": 80.64552726895673,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -2020,10 +2020,10 @@ const models = [
       "imagePerUnit": 0.00085,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "gpt-4o-2024-11-20",
@@ -2057,24 +2057,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.72608058190933,
-      "latencyP50": 215.29318019816566,
-      "latencyP95": 304.3660687287065,
-      "latencyP99": 896.755462765665,
-      "errorRate": 0.011463828623974593,
-      "requestsPerMin": 549.3220078303317,
-      "tokensPerMin": 107158.02531304819,
-      "usage": 34.31454129630903,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.67992513242443,
+      "latencyP50": 227.51554345549283,
+      "latencyP95": 429.64115297907534,
+      "latencyP99": 984.3968669912181,
+      "errorRate": 0.002665309101905944,
+      "requestsPerMin": 1359.0062947219985,
+      "tokensPerMin": 70250.29743863875,
+      "usage": 74.97264064782225,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 90.83089560532977,
-        "normalizedScore": 90.78529740229243,
-        "percentile": 87.79213867904612,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 88.74742711157289,
+        "normalizedScore": 85.43289615744668,
+        "percentile": 94.32115346485882,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -2086,10 +2086,10 @@ const models = [
       "imagePerUnit": 0.00085,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "gpt-4o-search-preview-2025-03-11",
@@ -2123,24 +2123,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.77322729578306,
-      "latencyP50": 156.70492907605177,
-      "latencyP95": 411.1707972113529,
-      "latencyP99": 607.389570548232,
-      "errorRate": 0.05195966531045251,
-      "requestsPerMin": 1466.3904569911524,
-      "tokensPerMin": 87942.60703735592,
-      "usage": 69.06002925181431,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.69533337205772,
+      "latencyP50": 211.18742449750238,
+      "latencyP95": 409.613524184887,
+      "latencyP99": 839.7063034619855,
+      "errorRate": 0.08675309173738194,
+      "requestsPerMin": 1885.0100639679647,
+      "tokensPerMin": 161373.6965970334,
+      "usage": 36.483157890076576,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 89.1463823316693,
-        "normalizedScore": 91.93336535332847,
-        "percentile": 77.76229984512939,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 91.16472258950188,
+        "normalizedScore": 86.13782732153918,
+        "percentile": 78.17396916262905,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -2152,10 +2152,10 @@ const models = [
       "imagePerUnit": 0.00085,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "gpt-4o-search-preview",
@@ -2189,24 +2189,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.64225759338827,
-      "latencyP50": 222.9377149032691,
-      "latencyP95": 472.41678806129613,
-      "latencyP99": 858.6556321969886,
-      "errorRate": 0.00236908789575927,
-      "requestsPerMin": 1453.7783274659973,
-      "tokensPerMin": 190169.28011090445,
-      "usage": 40.143017910137814,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.74415667666575,
+      "latencyP50": 199.25195889303595,
+      "latencyP95": 374.88567210297464,
+      "latencyP99": 912.654967948202,
+      "errorRate": 0.08133726455172474,
+      "requestsPerMin": 1568.0384065973967,
+      "tokensPerMin": 75167.45863620465,
+      "usage": 55.4972169444481,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 89.52845076796453,
-        "normalizedScore": 92.34561267447074,
-        "percentile": 97.34708728359814,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 91.83555128925002,
+        "normalizedScore": 91.44902055247489,
+        "percentile": 98.38790687861783,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -2218,10 +2218,10 @@ const models = [
       "imagePerUnit": 0.00085,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "gpt-4o-mini-search-preview-2025-03-11",
@@ -2255,24 +2255,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.75673847012398,
-      "latencyP50": 159.88749653362086,
-      "latencyP95": 324.4244965131379,
-      "latencyP99": 958.6365169930762,
-      "errorRate": 0.0764653828468551,
-      "requestsPerMin": 1039.0869041030192,
-      "tokensPerMin": 193458.40367593712,
-      "usage": 36.68446552339044,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.57491376168413,
+      "latencyP50": 167.2775504503347,
+      "latencyP95": 317.556097143854,
+      "latencyP99": 694.938660879481,
+      "errorRate": 0.0044389382890636766,
+      "requestsPerMin": 1703.2507621472323,
+      "tokensPerMin": 163792.0740200157,
+      "usage": 39.55947040720534,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 94.24957411880209,
-        "normalizedScore": 90.98287497136519,
-        "percentile": 78.44858927842495,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 89.47207089398587,
+        "normalizedScore": 93.32657680317627,
+        "percentile": 84.9848035927437,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -2284,10 +2284,10 @@ const models = [
       "imagePerUnit": 0.00085,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "gpt-4o-mini-search-preview",
@@ -2321,24 +2321,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.69010485490668,
-      "latencyP50": 214.73314728747854,
-      "latencyP95": 412.26540391145784,
-      "latencyP99": 882.8223524652778,
-      "errorRate": 0.09348569912261358,
-      "requestsPerMin": 1909.3287588347623,
-      "tokensPerMin": 121482.77281095176,
-      "usage": 32.01589279678155,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.65637802402235,
+      "latencyP50": 228.68734336904947,
+      "latencyP95": 324.999301378517,
+      "latencyP99": 826.7595901499053,
+      "errorRate": 0.019679495540719818,
+      "requestsPerMin": 1647.425838215731,
+      "tokensPerMin": 54767.339972144626,
+      "usage": 70.66940443233685,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 91.9499908569116,
-        "normalizedScore": 94.66640165743438,
-        "percentile": 80.08138687175935,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 92.18717816550406,
+        "normalizedScore": 93.71235468298538,
+        "percentile": 90.57897894284108,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -2350,10 +2350,10 @@ const models = [
       "imagePerUnit": 0.00085,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "gpt-4o-transcribe",
@@ -2387,24 +2387,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.89324179793108,
-      "latencyP50": 221.5538797293935,
-      "latencyP95": 389.8923456257685,
-      "latencyP99": 885.0715850131633,
-      "errorRate": 0.06618757751077653,
-      "requestsPerMin": 1189.193323219505,
-      "tokensPerMin": 178565.6099802421,
-      "usage": 85.56948516767501,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.63105994067543,
+      "latencyP50": 215.25686172588337,
+      "latencyP95": 317.43266310015684,
+      "latencyP99": 682.4959526904955,
+      "errorRate": 0.06678903738042734,
+      "requestsPerMin": 1564.6045512038868,
+      "tokensPerMin": 182252.53813368865,
+      "usage": 64.21318616716911,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 86.96384790763595,
-        "normalizedScore": 91.51888666398027,
-        "percentile": 78.07404529038773,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 85.13586075739843,
+        "normalizedScore": 89.95511517293953,
+        "percentile": 98.65675621887635,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -2416,10 +2416,10 @@ const models = [
       "imagePerUnit": 0.00085,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "gpt-4o-mini-transcribe",
@@ -2453,24 +2453,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.5997141707641,
-      "latencyP50": 175.89027124275214,
-      "latencyP95": 483.7955376906283,
-      "latencyP99": 865.0416852246711,
-      "errorRate": 0.08975095335072128,
-      "requestsPerMin": 1871.070441055807,
-      "tokensPerMin": 58854.63378839275,
-      "usage": 53.29193872378973,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.7295816928858,
+      "latencyP50": 241.58173225790404,
+      "latencyP95": 302.21558756151074,
+      "latencyP99": 887.1391950885227,
+      "errorRate": 0.04161357728688082,
+      "requestsPerMin": 1296.6738976803608,
+      "tokensPerMin": 68135.16529612162,
+      "usage": 74.96667288262643,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 85.96936157927406,
-        "normalizedScore": 89.96396793991148,
-        "percentile": 75.03998109340554,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 87.0886384069754,
+        "normalizedScore": 85.56673520708718,
+        "percentile": 89.70565410497305,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -2482,10 +2482,10 @@ const models = [
       "imagePerUnit": 0.00085,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "gpt-4o-mini-tts",
@@ -2519,24 +2519,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.82781704341997,
-      "latencyP50": 235.72055213064948,
-      "latencyP95": 300.46902836423993,
-      "latencyP99": 937.722969762783,
-      "errorRate": 0.03223455595878699,
-      "requestsPerMin": 1751.9761987778918,
-      "tokensPerMin": 193438.10890962087,
-      "usage": 68.40019458354203,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.88033286951827,
+      "latencyP50": 166.49691190375285,
+      "latencyP95": 413.246519272122,
+      "latencyP99": 908.2112549913222,
+      "errorRate": 0.028583444496611835,
+      "requestsPerMin": 553.1342961951883,
+      "tokensPerMin": 58906.977930388064,
+      "usage": 84.1601878016959,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 92.39783045222772,
-        "normalizedScore": 92.0533010035305,
-        "percentile": 78.84361017926621,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 85.85012070987818,
+        "normalizedScore": 92.63185886680006,
+        "percentile": 78.34488188912651,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -2548,10 +2548,10 @@ const models = [
       "imagePerUnit": 0.00085,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "gpt-4.1-2025-04-14",
@@ -2581,24 +2581,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.85959842098804,
-      "latencyP50": 168.93913739487522,
-      "latencyP95": 355.47007484107814,
-      "latencyP99": 916.6796561035313,
-      "errorRate": 0.03667653576862271,
-      "requestsPerMin": 1943.4632144867796,
-      "tokensPerMin": 109531.53619604638,
-      "usage": 81.57856600668082,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.88165045167264,
+      "latencyP50": 195.21537591580173,
+      "latencyP95": 432.38456686458574,
+      "latencyP99": 848.7456451181484,
+      "errorRate": 0.018639875667297103,
+      "requestsPerMin": 802.1137437603791,
+      "tokensPerMin": 191911.10008660634,
+      "usage": 26.01718413753566,
+      "checkedAt": "2025-08-14T16:39:36.385Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 74.57939439252897,
-        "normalizedScore": 69.33959779853345,
-        "percentile": 83.84930639286345,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 74.29181699608722,
+        "normalizedScore": 71.11905503774356,
+        "percentile": 90.09095998309212,
+        "evaluationDate": "2025-08-14T16:39:36.385Z",
         "isOfficial": true
       }
     ],
@@ -2610,10 +2610,10 @@ const models = [
       "imagePerUnit": null,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.385Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.385Z",
+    "updatedAt": "2025-08-14T16:39:36.385Z"
   },
   {
     "id": "gpt-4.1",
@@ -2643,24 +2643,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.89668034549358,
-      "latencyP50": 158.58150378102386,
-      "latencyP95": 307.29479503417735,
-      "latencyP99": 848.2705835755381,
-      "errorRate": 0.0023993202293895125,
-      "requestsPerMin": 814.9996416233353,
-      "tokensPerMin": 70351.29787620594,
-      "usage": 45.17007954523183,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.62780110493134,
+      "latencyP50": 190.78601120771933,
+      "latencyP95": 305.83260644500194,
+      "latencyP99": 732.8041188187191,
+      "errorRate": 0.023450403637576046,
+      "requestsPerMin": 523.7800047982616,
+      "tokensPerMin": 87948.18768073356,
+      "usage": 74.01132051403162,
+      "checkedAt": "2025-08-14T16:39:36.386Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 67.9362824075437,
-        "normalizedScore": 68.28567416980604,
-        "percentile": 75.70490197129004,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 74.06507423769183,
+        "normalizedScore": 65.12514136095159,
+        "percentile": 91.47415714655203,
+        "evaluationDate": "2025-08-14T16:39:36.386Z",
         "isOfficial": true
       }
     ],
@@ -2672,10 +2672,10 @@ const models = [
       "imagePerUnit": null,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.386Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.386Z",
+    "updatedAt": "2025-08-14T16:39:36.386Z"
   },
   {
     "id": "gpt-4.1-mini-2025-04-14",
@@ -2705,24 +2705,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.61121759800437,
-      "latencyP50": 201.96008410668028,
-      "latencyP95": 460.31043670211113,
-      "latencyP99": 997.5482803481179,
-      "errorRate": 0.09630212512936354,
-      "requestsPerMin": 893.2363921613368,
-      "tokensPerMin": 54008.07321507908,
-      "usage": 42.602721022888275,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.62374057243342,
+      "latencyP50": 185.6450168315692,
+      "latencyP95": 322.3831900248037,
+      "latencyP99": 729.333929182686,
+      "errorRate": 0.009380976408165287,
+      "requestsPerMin": 1776.7464354116678,
+      "tokensPerMin": 100797.18693226778,
+      "usage": 89.13208503603607,
+      "checkedAt": "2025-08-14T16:39:36.386Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 68.22250845844489,
-        "normalizedScore": 66.64847155518515,
-        "percentile": 89.35438407940029,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 67.67401090864944,
+        "normalizedScore": 68.07671900090573,
+        "percentile": 80.50658279706768,
+        "evaluationDate": "2025-08-14T16:39:36.386Z",
         "isOfficial": true
       }
     ],
@@ -2734,10 +2734,10 @@ const models = [
       "imagePerUnit": null,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.386Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.386Z",
+    "updatedAt": "2025-08-14T16:39:36.386Z"
   },
   {
     "id": "gpt-4.1-mini",
@@ -2767,24 +2767,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.55872767395034,
-      "latencyP50": 248.84441203940506,
-      "latencyP95": 449.6653175961527,
-      "latencyP99": 930.1008019330255,
-      "errorRate": 0.04772379505403819,
-      "requestsPerMin": 606.8357345615015,
-      "tokensPerMin": 118341.0068537598,
-      "usage": 36.38735241379695,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.73250054730154,
+      "latencyP50": 246.51581465232798,
+      "latencyP95": 482.17107159638556,
+      "latencyP99": 866.3318016177354,
+      "errorRate": 0.034890617153695146,
+      "requestsPerMin": 977.1910251508898,
+      "tokensPerMin": 144362.00250627933,
+      "usage": 32.5309529735202,
+      "checkedAt": "2025-08-14T16:39:36.386Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 72.13577506077505,
-        "normalizedScore": 73.07215960650404,
-        "percentile": 78.07419876111497,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 71.68768491896653,
+        "normalizedScore": 72.47997429969915,
+        "percentile": 76.64183527748975,
+        "evaluationDate": "2025-08-14T16:39:36.386Z",
         "isOfficial": true
       }
     ],
@@ -2796,10 +2796,10 @@ const models = [
       "imagePerUnit": null,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.386Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.386Z",
+    "updatedAt": "2025-08-14T16:39:36.386Z"
   },
   {
     "id": "gpt-4.1-nano-2025-04-14",
@@ -2829,24 +2829,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.80512176401133,
-      "latencyP50": 239.15180003810764,
-      "latencyP95": 465.13256916189255,
-      "latencyP99": 826.5910935359476,
-      "errorRate": 0.03189479205698229,
-      "requestsPerMin": 1868.4367825018398,
-      "tokensPerMin": 107420.22724509033,
-      "usage": 30.470622497129522,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.5226189435505,
+      "latencyP50": 185.7233317818144,
+      "latencyP95": 488.5419998663964,
+      "latencyP99": 615.3583355152012,
+      "errorRate": 0.027639457502034184,
+      "requestsPerMin": 1087.8590647653532,
+      "tokensPerMin": 120865.97120323729,
+      "usage": 50.95112084891831,
+      "checkedAt": "2025-08-14T16:39:36.386Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 71.55631885112577,
-        "normalizedScore": 66.47065715972994,
-        "percentile": 76.94162303533653,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 67.9689494043447,
+        "normalizedScore": 74.83481261394326,
+        "percentile": 97.67221719851233,
+        "evaluationDate": "2025-08-14T16:39:36.386Z",
         "isOfficial": true
       }
     ],
@@ -2858,10 +2858,10 @@ const models = [
       "imagePerUnit": null,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.386Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.386Z",
+    "updatedAt": "2025-08-14T16:39:36.386Z"
   },
   {
     "id": "gpt-4.1-nano",
@@ -2891,24 +2891,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.51423433437448,
-      "latencyP50": 189.8711023721557,
-      "latencyP95": 494.66353861158296,
-      "latencyP99": 778.357025443238,
-      "errorRate": 0.08641639157227116,
-      "requestsPerMin": 1488.328402652443,
-      "tokensPerMin": 53168.71597821229,
-      "usage": 73.62504588885088,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.64534441662697,
+      "latencyP50": 233.48609774445396,
+      "latencyP95": 365.84057481766126,
+      "latencyP99": 908.9407094341628,
+      "errorRate": 0.03319350206429763,
+      "requestsPerMin": 650.351143148732,
+      "tokensPerMin": 134084.67342240055,
+      "usage": 81.05213404654111,
+      "checkedAt": "2025-08-14T16:39:36.386Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 68.25767346687368,
-        "normalizedScore": 66.46704876311625,
-        "percentile": 79.04608545189186,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 73.19703758286467,
+        "normalizedScore": 65.47240020025477,
+        "percentile": 93.67784530250569,
+        "evaluationDate": "2025-08-14T16:39:36.386Z",
         "isOfficial": true
       }
     ],
@@ -2920,10 +2920,10 @@ const models = [
       "imagePerUnit": null,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.386Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.386Z",
+    "updatedAt": "2025-08-14T16:39:36.386Z"
   },
   {
     "id": "gpt-image-1",
@@ -2953,24 +2953,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.80569290165026,
-      "latencyP50": 199.44222672460972,
-      "latencyP95": 324.5297106286549,
-      "latencyP99": 767.1902676984828,
-      "errorRate": 0.034982444994184285,
-      "requestsPerMin": 530.7808908218387,
-      "tokensPerMin": 120015.5109882509,
-      "usage": 88.33763339946337,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.87205110289045,
+      "latencyP50": 150.49144217703406,
+      "latencyP95": 307.08045720189216,
+      "latencyP99": 879.4548858975155,
+      "errorRate": 0.03299834652287548,
+      "requestsPerMin": 1168.7892520663192,
+      "tokensPerMin": 142950.37488717813,
+      "usage": 21.98479109601318,
+      "checkedAt": "2025-08-14T16:39:36.386Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 68.52555254861412,
-        "normalizedScore": 70.08222714852488,
-        "percentile": 91.49338379181137,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 70.98385930437945,
+        "normalizedScore": 73.23914563519298,
+        "percentile": 83.5229274760916,
+        "evaluationDate": "2025-08-14T16:39:36.386Z",
         "isOfficial": true
       }
     ],
@@ -2982,10 +2982,10 @@ const models = [
       "imagePerUnit": null,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.386Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.386Z",
+    "updatedAt": "2025-08-14T16:39:36.386Z"
   },
   {
     "id": "gpt-4o-realtime-preview-2025-06-03",
@@ -3019,24 +3019,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.66464420643776,
-      "latencyP50": 238.6727827459903,
-      "latencyP95": 411.2769369212996,
-      "latencyP99": 633.3173022118903,
-      "errorRate": 0.09261134221015335,
-      "requestsPerMin": 1986.6578024760674,
-      "tokensPerMin": 107765.25937695042,
-      "usage": 47.336832181901386,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.81439386628578,
+      "latencyP50": 212.42243107743616,
+      "latencyP95": 438.73951206237797,
+      "latencyP99": 822.8159250234897,
+      "errorRate": 0.06736764402486417,
+      "requestsPerMin": 1712.726638709372,
+      "tokensPerMin": 171828.9496419972,
+      "usage": 20.506745602496576,
+      "checkedAt": "2025-08-14T16:39:36.386Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 91.3492353442026,
-        "normalizedScore": 90.93070547388865,
-        "percentile": 81.90722319060642,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 85.01470900289048,
+        "normalizedScore": 85.57868964698254,
+        "percentile": 76.98486645087011,
+        "evaluationDate": "2025-08-14T16:39:36.386Z",
         "isOfficial": true
       }
     ],
@@ -3048,10 +3048,10 @@ const models = [
       "imagePerUnit": 0.00085,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.386Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.386Z",
+    "updatedAt": "2025-08-14T16:39:36.386Z"
   },
   {
     "id": "gpt-4o-audio-preview-2025-06-03",
@@ -3085,24 +3085,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.89559698762666,
-      "latencyP50": 198.3341671176869,
-      "latencyP95": 380.54420664343706,
-      "latencyP99": 738.5273106488074,
-      "errorRate": 0.021592879712973856,
-      "requestsPerMin": 1117.4096511834514,
-      "tokensPerMin": 180093.5834730723,
-      "usage": 62.875098218613715,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.63399087455882,
+      "latencyP50": 240.64386677372312,
+      "latencyP95": 435.8350291919112,
+      "latencyP99": 789.74233805016,
+      "errorRate": 0.046776969873216494,
+      "requestsPerMin": 764.9502408953385,
+      "tokensPerMin": 145664.64976870577,
+      "usage": 88.52031373549707,
+      "checkedAt": "2025-08-14T16:39:36.386Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 92.9707438441816,
-        "normalizedScore": 85.01340426777502,
-        "percentile": 97.01847882415584,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 87.18546203396961,
+        "normalizedScore": 86.36757723242933,
+        "percentile": 83.36642733742245,
+        "evaluationDate": "2025-08-14T16:39:36.386Z",
         "isOfficial": true
       }
     ],
@@ -3114,10 +3114,10 @@ const models = [
       "imagePerUnit": 0.00085,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.386Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.386Z",
+    "updatedAt": "2025-08-14T16:39:36.386Z"
   },
   {
     "id": "gpt-5-chat-latest",
@@ -3147,24 +3147,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.67444169617814,
-      "latencyP50": 218.09659205213,
-      "latencyP95": 415.77628457698256,
-      "latencyP99": 828.4828022768827,
-      "errorRate": 0.009317100877706942,
-      "requestsPerMin": 1000.488367309488,
-      "tokensPerMin": 53348.20647432066,
-      "usage": 46.29080693632175,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.54468304638831,
+      "latencyP50": 170.13878180500114,
+      "latencyP95": 341.678502625964,
+      "latencyP99": 810.5679750590944,
+      "errorRate": 0.009695800174113978,
+      "requestsPerMin": 1800.624105635508,
+      "tokensPerMin": 142530.70610919007,
+      "usage": 34.458520648173995,
+      "checkedAt": "2025-08-14T16:39:36.386Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 69.98922717833423,
-        "normalizedScore": 70.9374660643626,
-        "percentile": 75.73535996251229,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 65.99598966750301,
+        "normalizedScore": 68.0510334834342,
+        "percentile": 97.5790462162646,
+        "evaluationDate": "2025-08-14T16:39:36.386Z",
         "isOfficial": true
       }
     ],
@@ -3176,10 +3176,10 @@ const models = [
       "imagePerUnit": null,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.386Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.386Z",
+    "updatedAt": "2025-08-14T16:39:36.386Z"
   },
   {
     "id": "gpt-5-2025-08-07",
@@ -3209,24 +3209,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.57306345680644,
-      "latencyP50": 187.84039364067175,
-      "latencyP95": 479.80603354347363,
-      "latencyP99": 964.922210473271,
-      "errorRate": 0.03347969474840142,
-      "requestsPerMin": 1504.577056943279,
-      "tokensPerMin": 114939.07981160903,
-      "usage": 64.39810734144368,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.65546016054164,
+      "latencyP50": 193.7433837132053,
+      "latencyP95": 324.16520290254914,
+      "latencyP99": 906.0309743115572,
+      "errorRate": 0.09235655299213302,
+      "requestsPerMin": 1333.9614806934637,
+      "tokensPerMin": 177300.03116682847,
+      "usage": 40.36535358977345,
+      "checkedAt": "2025-08-14T16:39:36.386Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 67.98641140192186,
-        "normalizedScore": 71.44081567847843,
-        "percentile": 92.60609815303991,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 72.81124512110327,
+        "normalizedScore": 72.37040542596446,
+        "percentile": 96.48066793168626,
+        "evaluationDate": "2025-08-14T16:39:36.386Z",
         "isOfficial": true
       }
     ],
@@ -3238,10 +3238,10 @@ const models = [
       "imagePerUnit": null,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.386Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.386Z",
+    "updatedAt": "2025-08-14T16:39:36.386Z"
   },
   {
     "id": "gpt-3.5-turbo-16k",
@@ -3271,24 +3271,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.63199521514248,
-      "latencyP50": 204.23458094612755,
-      "latencyP95": 321.89912224811883,
-      "latencyP99": 663.6927005048431,
-      "errorRate": 0.01969914467383418,
-      "requestsPerMin": 525.9568310088773,
-      "tokensPerMin": 191443.0876772052,
-      "usage": 67.78210462059974,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.546412623716,
+      "latencyP50": 194.92698365785438,
+      "latencyP95": 392.7382014703268,
+      "latencyP99": 835.9645163082029,
+      "errorRate": 0.07623400849275985,
+      "requestsPerMin": 662.3039205728728,
+      "tokensPerMin": 68996.01171767818,
+      "usage": 72.87685257870737,
+      "checkedAt": "2025-08-14T16:39:36.386Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 78.13591666338097,
-        "normalizedScore": 75.52525156896117,
-        "percentile": 90.05319497335638,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 75.53988745832487,
+        "normalizedScore": 79.81336798304484,
+        "percentile": 92.04107884152157,
+        "evaluationDate": "2025-08-14T16:39:36.386Z",
         "isOfficial": true
       }
     ],
@@ -3300,10 +3300,10 @@ const models = [
       "imagePerUnit": null,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.804Z"
+      "effectiveFrom": "2025-08-14T16:39:36.386Z"
     },
-    "createdAt": "2025-08-14T15:51:59.804Z",
-    "updatedAt": "2025-08-14T15:51:59.804Z"
+    "createdAt": "2025-08-14T16:39:36.386Z",
+    "updatedAt": "2025-08-14T16:39:36.386Z"
   },
   {
     "id": "claude-3-opus-20240229",
@@ -3337,24 +3337,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.77616079400555,
-      "latencyP50": 244.35273267525247,
-      "latencyP95": 490.10905496684416,
-      "latencyP99": 891.5361747674253,
-      "errorRate": 0.004082647137710427,
-      "requestsPerMin": 1169.2711879980066,
-      "tokensPerMin": 169684.95315169994,
-      "usage": 54.75811158209784,
-      "checkedAt": "2025-08-14T15:51:59.804Z"
+      "availability": 99.69014640884475,
+      "latencyP50": 203.5324963507259,
+      "latencyP95": 392.34556020571114,
+      "latencyP99": 955.1351123387014,
+      "errorRate": 0.09516004803131287,
+      "requestsPerMin": 1822.463502221658,
+      "tokensPerMin": 187605.47588825028,
+      "usage": 85.59234648845022,
+      "checkedAt": "2025-08-14T16:39:36.386Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 93.25822875005255,
-        "normalizedScore": 89.82006649981875,
-        "percentile": 98.70340442126243,
-        "evaluationDate": "2025-08-14T15:51:59.804Z",
+        "score": 92.23311273416114,
+        "normalizedScore": 94.4050868137588,
+        "percentile": 92.0055627436688,
+        "evaluationDate": "2025-08-14T16:39:36.386Z",
         "isOfficial": true
       }
     ],
@@ -3366,10 +3366,10 @@ const models = [
       "imagePerUnit": 0.0008,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.805Z"
+      "effectiveFrom": "2025-08-14T16:39:36.386Z"
     },
-    "createdAt": "2025-08-14T15:51:59.805Z",
-    "updatedAt": "2025-08-14T15:51:59.805Z"
+    "createdAt": "2025-08-14T16:39:36.386Z",
+    "updatedAt": "2025-08-14T16:39:36.386Z"
   },
   {
     "id": "claude-3-sonnet-20240229",
@@ -3402,24 +3402,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.84733111149993,
-      "latencyP50": 205.89514586822747,
-      "latencyP95": 394.6845807542064,
-      "latencyP99": 783.9488274644083,
-      "errorRate": 0.05688452260069581,
-      "requestsPerMin": 1240.2019983593734,
-      "tokensPerMin": 169846.340497465,
-      "usage": 76.57875227431146,
-      "checkedAt": "2025-08-14T15:51:59.805Z"
+      "availability": 99.88231008966406,
+      "latencyP50": 233.03248385657398,
+      "latencyP95": 483.58246784258927,
+      "latencyP99": 612.1132958075514,
+      "errorRate": 0.012936887710167523,
+      "requestsPerMin": 1136.9692606989981,
+      "tokensPerMin": 97061.79112976369,
+      "usage": 40.854227637793564,
+      "checkedAt": "2025-08-14T16:39:36.386Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 87.32904997648168,
-        "normalizedScore": 86.12089146752459,
-        "percentile": 83.84036199805755,
-        "evaluationDate": "2025-08-14T15:51:59.805Z",
+        "score": 88.27640630285724,
+        "normalizedScore": 84.98889908229809,
+        "percentile": 76.63557740835479,
+        "evaluationDate": "2025-08-14T16:39:36.386Z",
         "isOfficial": true
       }
     ],
@@ -3431,10 +3431,10 @@ const models = [
       "imagePerUnit": 0.0008,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.805Z"
+      "effectiveFrom": "2025-08-14T16:39:36.386Z"
     },
-    "createdAt": "2025-08-14T15:51:59.805Z",
-    "updatedAt": "2025-08-14T15:51:59.805Z"
+    "createdAt": "2025-08-14T16:39:36.386Z",
+    "updatedAt": "2025-08-14T16:39:36.386Z"
   },
   {
     "id": "claude-3-haiku-20240307",
@@ -3467,24 +3467,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.59974145836316,
-      "latencyP50": 240.56850104889148,
-      "latencyP95": 400.98777648985686,
-      "latencyP99": 909.0134448121875,
-      "errorRate": 0.060188363425963745,
-      "requestsPerMin": 617.9178290569172,
-      "tokensPerMin": 127033.27630524461,
-      "usage": 71.32669356537781,
-      "checkedAt": "2025-08-14T15:51:59.805Z"
+      "availability": 99.60951963231386,
+      "latencyP50": 193.71781612558647,
+      "latencyP95": 458.2112524192425,
+      "latencyP99": 784.2814357199829,
+      "errorRate": 0.03694100239735718,
+      "requestsPerMin": 912.4192164848256,
+      "tokensPerMin": 198932.40753125958,
+      "usage": 82.48021307091547,
+      "checkedAt": "2025-08-14T16:39:36.386Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 76.6660995148994,
-        "normalizedScore": 72.06166881056828,
-        "percentile": 77.36281164738114,
-        "evaluationDate": "2025-08-14T15:51:59.805Z",
+        "score": 72.28825822832876,
+        "normalizedScore": 77.69432556848994,
+        "percentile": 81.52218742652394,
+        "evaluationDate": "2025-08-14T16:39:36.386Z",
         "isOfficial": true
       }
     ],
@@ -3496,10 +3496,10 @@ const models = [
       "imagePerUnit": 0.0008,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.805Z"
+      "effectiveFrom": "2025-08-14T16:39:36.386Z"
     },
-    "createdAt": "2025-08-14T15:51:59.805Z",
-    "updatedAt": "2025-08-14T15:51:59.805Z"
+    "createdAt": "2025-08-14T16:39:36.386Z",
+    "updatedAt": "2025-08-14T16:39:36.386Z"
   },
   {
     "id": "claude-3-5-sonnet-20241022",
@@ -3533,24 +3533,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.53952256230997,
-      "latencyP50": 166.33203223758602,
-      "latencyP95": 485.80250417286345,
-      "latencyP99": 968.1786626101527,
-      "errorRate": 0.09092397609243451,
-      "requestsPerMin": 1600.4788377499906,
-      "tokensPerMin": 186177.98207408833,
-      "usage": 28.214709907314578,
-      "checkedAt": "2025-08-14T15:51:59.805Z"
+      "availability": 99.81550060669232,
+      "latencyP50": 160.62554825507274,
+      "latencyP95": 348.6419421251484,
+      "latencyP99": 878.3340588594959,
+      "errorRate": 0.003729836832491973,
+      "requestsPerMin": 1615.7152693017115,
+      "tokensPerMin": 56886.799364613384,
+      "usage": 31.024756812825284,
+      "checkedAt": "2025-08-14T16:39:36.386Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 89.0939570901829,
-        "normalizedScore": 85.5112725301688,
-        "percentile": 96.35993821236815,
-        "evaluationDate": "2025-08-14T15:51:59.805Z",
+        "score": 86.76102108562678,
+        "normalizedScore": 83.5366700580402,
+        "percentile": 86.25894802271665,
+        "evaluationDate": "2025-08-14T16:39:36.386Z",
         "isOfficial": true
       }
     ],
@@ -3562,10 +3562,10 @@ const models = [
       "imagePerUnit": 0.0008,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.805Z"
+      "effectiveFrom": "2025-08-14T16:39:36.386Z"
     },
-    "createdAt": "2025-08-14T15:51:59.805Z",
-    "updatedAt": "2025-08-14T15:51:59.805Z"
+    "createdAt": "2025-08-14T16:39:36.386Z",
+    "updatedAt": "2025-08-14T16:39:36.386Z"
   },
   {
     "id": "claude-2.1",
@@ -3597,24 +3597,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.75361465449713,
-      "latencyP50": 165.5441927865103,
-      "latencyP95": 321.51114028664074,
-      "latencyP99": 795.8771826927356,
-      "errorRate": 0.08499136861783235,
-      "requestsPerMin": 1609.9027574326028,
-      "tokensPerMin": 165902.29859262868,
-      "usage": 89.8288659261133,
-      "checkedAt": "2025-08-14T15:51:59.805Z"
+      "availability": 99.6394501439631,
+      "latencyP50": 221.1085866755214,
+      "latencyP95": 324.8159871400269,
+      "latencyP99": 916.4709276059707,
+      "errorRate": 0.011828277029876322,
+      "requestsPerMin": 1073.2117964176846,
+      "tokensPerMin": 118750.38222237167,
+      "usage": 50.835413624994985,
+      "checkedAt": "2025-08-14T16:39:36.386Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 68.97571488906756,
-        "normalizedScore": 70.70128207755889,
-        "percentile": 98.7766801007061,
-        "evaluationDate": "2025-08-14T15:51:59.805Z",
+        "score": 72.09936939265513,
+        "normalizedScore": 73.39337715712014,
+        "percentile": 75.73794763626688,
+        "evaluationDate": "2025-08-14T16:39:36.386Z",
         "isOfficial": true
       }
     ],
@@ -3626,10 +3626,10 @@ const models = [
       "imagePerUnit": 0.0008,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.805Z"
+      "effectiveFrom": "2025-08-14T16:39:36.386Z"
     },
-    "createdAt": "2025-08-14T15:51:59.805Z",
-    "updatedAt": "2025-08-14T15:51:59.805Z"
+    "createdAt": "2025-08-14T16:39:36.386Z",
+    "updatedAt": "2025-08-14T16:39:36.386Z"
   },
   {
     "id": "claude-2.0",
@@ -3661,24 +3661,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.7348354328704,
-      "latencyP50": 172.60408783490286,
-      "latencyP95": 498.9533500046948,
-      "latencyP99": 853.5041997752026,
-      "errorRate": 0.05862500418506727,
-      "requestsPerMin": 1577.2998658549939,
-      "tokensPerMin": 179595.75631320733,
-      "usage": 84.1749292699449,
-      "checkedAt": "2025-08-14T15:51:59.805Z"
+      "availability": 99.85393472677461,
+      "latencyP50": 172.2916348042002,
+      "latencyP95": 462.42194366191165,
+      "latencyP99": 801.3809900886321,
+      "errorRate": 0.0060533911213837225,
+      "requestsPerMin": 1883.187184729167,
+      "tokensPerMin": 166834.18406464712,
+      "usage": 53.724447716394465,
+      "checkedAt": "2025-08-14T16:39:36.386Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 72.5139939401736,
-        "normalizedScore": 74.6873019500245,
-        "percentile": 97.75036173750678,
-        "evaluationDate": "2025-08-14T15:51:59.805Z",
+        "score": 71.31206287839709,
+        "normalizedScore": 65.80044842672196,
+        "percentile": 89.69910095405504,
+        "evaluationDate": "2025-08-14T16:39:36.386Z",
         "isOfficial": true
       }
     ],
@@ -3690,10 +3690,10 @@ const models = [
       "imagePerUnit": 0.0008,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.805Z"
+      "effectiveFrom": "2025-08-14T16:39:36.386Z"
     },
-    "createdAt": "2025-08-14T15:51:59.805Z",
-    "updatedAt": "2025-08-14T15:51:59.805Z"
+    "createdAt": "2025-08-14T16:39:36.386Z",
+    "updatedAt": "2025-08-14T16:39:36.386Z"
   },
   {
     "id": "claude-instant-1.2",
@@ -3724,24 +3724,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.89404921408574,
-      "latencyP50": 171.69446018870892,
-      "latencyP95": 349.5932568572154,
-      "latencyP99": 748.271242919052,
-      "errorRate": 0.0372251301461076,
-      "requestsPerMin": 1467.2581512001416,
-      "tokensPerMin": 125341.45378449262,
-      "usage": 29.354520095261535,
-      "checkedAt": "2025-08-14T15:51:59.805Z"
+      "availability": 99.51983525827964,
+      "latencyP50": 211.1664897263477,
+      "latencyP95": 380.8092347608249,
+      "latencyP99": 791.7450192024235,
+      "errorRate": 0.022961916358380786,
+      "requestsPerMin": 1652.1243785070515,
+      "tokensPerMin": 176933.57738619685,
+      "usage": 85.40936547542614,
+      "checkedAt": "2025-08-14T16:39:36.386Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 69.98018010458708,
-        "normalizedScore": 65.99360616944065,
-        "percentile": 79.85998631018172,
-        "evaluationDate": "2025-08-14T15:51:59.805Z",
+        "score": 73.03173896872832,
+        "normalizedScore": 68.34782179034914,
+        "percentile": 96.54341838383024,
+        "evaluationDate": "2025-08-14T16:39:36.386Z",
         "isOfficial": true
       }
     ],
@@ -3753,10 +3753,10 @@ const models = [
       "imagePerUnit": 0.0008,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.805Z"
+      "effectiveFrom": "2025-08-14T16:39:36.386Z"
     },
-    "createdAt": "2025-08-14T15:51:59.805Z",
-    "updatedAt": "2025-08-14T15:51:59.805Z"
+    "createdAt": "2025-08-14T16:39:36.386Z",
+    "updatedAt": "2025-08-14T16:39:36.386Z"
   },
   {
     "id": "gemini-1.5-pro",
@@ -3793,24 +3793,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.69669491487646,
-      "latencyP50": 211.19283226181312,
-      "latencyP95": 302.0676586663687,
-      "latencyP99": 708.9837483577662,
-      "errorRate": 0.022768229121563666,
-      "requestsPerMin": 1900.9085713481,
-      "tokensPerMin": 168265.71425428666,
-      "usage": 53.15878106585065,
-      "checkedAt": "2025-08-14T15:51:59.805Z"
+      "availability": 99.75837650692819,
+      "latencyP50": 159.1251175755247,
+      "latencyP95": 432.86941275679806,
+      "latencyP99": 718.2003004324882,
+      "errorRate": 0.013336190747799438,
+      "requestsPerMin": 1649.3159553421744,
+      "tokensPerMin": 86077.85447257933,
+      "usage": 47.8411546664497,
+      "checkedAt": "2025-08-14T16:39:36.387Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 80.4910883121394,
-        "normalizedScore": 89.72605055741555,
-        "percentile": 80.31817188297065,
-        "evaluationDate": "2025-08-14T15:51:59.805Z",
+        "score": 87.365358941292,
+        "normalizedScore": 80.35371638984115,
+        "percentile": 80.91248857870933,
+        "evaluationDate": "2025-08-14T16:39:36.387Z",
         "isOfficial": true
       }
     ],
@@ -3822,10 +3822,10 @@ const models = [
       "imagePerUnit": 0.002,
       "audioPerMinute": 0.002,
       "videoPerMinute": 0.002,
-      "effectiveFrom": "2025-08-14T15:51:59.805Z"
+      "effectiveFrom": "2025-08-14T16:39:36.387Z"
     },
-    "createdAt": "2025-08-14T15:51:59.805Z",
-    "updatedAt": "2025-08-14T15:51:59.805Z"
+    "createdAt": "2025-08-14T16:39:36.387Z",
+    "updatedAt": "2025-08-14T16:39:36.387Z"
   },
   {
     "id": "gemini-1.5-flash",
@@ -3860,24 +3860,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.8391256379522,
-      "latencyP50": 235.1061966472551,
-      "latencyP95": 335.0930731969672,
-      "latencyP99": 960.1614035119286,
-      "errorRate": 0.09533965878549469,
-      "requestsPerMin": 922.3340785967863,
-      "tokensPerMin": 101113.3715913314,
-      "usage": 42.84677874497513,
-      "checkedAt": "2025-08-14T15:51:59.805Z"
+      "availability": 99.87869614442069,
+      "latencyP50": 236.7763528326095,
+      "latencyP95": 360.2339358422588,
+      "latencyP99": 971.5348480187275,
+      "errorRate": 0.02407567042161767,
+      "requestsPerMin": 977.6203347690316,
+      "tokensPerMin": 164921.56367762556,
+      "usage": 57.23161912901998,
+      "checkedAt": "2025-08-14T16:39:36.387Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 88.00974105358667,
-        "normalizedScore": 88.24085748038519,
-        "percentile": 88.9258076039267,
-        "evaluationDate": "2025-08-14T15:51:59.805Z",
+        "score": 83.17575706758727,
+        "normalizedScore": 88.40137369215375,
+        "percentile": 89.06304091628279,
+        "evaluationDate": "2025-08-14T16:39:36.387Z",
         "isOfficial": true
       }
     ],
@@ -3889,10 +3889,10 @@ const models = [
       "imagePerUnit": 0.002,
       "audioPerMinute": 0.002,
       "videoPerMinute": 0.002,
-      "effectiveFrom": "2025-08-14T15:51:59.805Z"
+      "effectiveFrom": "2025-08-14T16:39:36.387Z"
     },
-    "createdAt": "2025-08-14T15:51:59.805Z",
-    "updatedAt": "2025-08-14T15:51:59.805Z"
+    "createdAt": "2025-08-14T16:39:36.387Z",
+    "updatedAt": "2025-08-14T16:39:36.387Z"
   },
   {
     "id": "gemini-1.5-flash-8b",
@@ -3925,24 +3925,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.89940088873264,
-      "latencyP50": 225.29645766282334,
-      "latencyP95": 441.23517382847785,
-      "latencyP99": 866.7358813250867,
-      "errorRate": 0.03994428479056558,
-      "requestsPerMin": 1741.2129858064247,
-      "tokensPerMin": 100249.30613615262,
-      "usage": 63.590726491217545,
-      "checkedAt": "2025-08-14T15:51:59.805Z"
+      "availability": 99.65725985275863,
+      "latencyP50": 172.2676437074644,
+      "latencyP95": 392.9855490673622,
+      "latencyP99": 967.5782034675415,
+      "errorRate": 0.06542226352010948,
+      "requestsPerMin": 627.2233158019815,
+      "tokensPerMin": 190004.62937928166,
+      "usage": 45.99206387056511,
+      "checkedAt": "2025-08-14T16:39:36.387Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 80.23073412130351,
-        "normalizedScore": 87.31465951430143,
-        "percentile": 86.41702588699374,
-        "evaluationDate": "2025-08-14T15:51:59.805Z",
+        "score": 89.23564716039576,
+        "normalizedScore": 89.20430105530903,
+        "percentile": 81.41797046060617,
+        "evaluationDate": "2025-08-14T16:39:36.387Z",
         "isOfficial": true
       }
     ],
@@ -3954,10 +3954,10 @@ const models = [
       "imagePerUnit": 0.002,
       "audioPerMinute": 0.002,
       "videoPerMinute": 0.002,
-      "effectiveFrom": "2025-08-14T15:51:59.805Z"
+      "effectiveFrom": "2025-08-14T16:39:36.387Z"
     },
-    "createdAt": "2025-08-14T15:51:59.805Z",
-    "updatedAt": "2025-08-14T15:51:59.805Z"
+    "createdAt": "2025-08-14T16:39:36.387Z",
+    "updatedAt": "2025-08-14T16:39:36.387Z"
   },
   {
     "id": "gemini-pro",
@@ -3988,24 +3988,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.81039381105202,
-      "latencyP50": 215.6979094844105,
-      "latencyP95": 321.1977591428985,
-      "latencyP99": 653.9031299667623,
-      "errorRate": 0.043540249964489956,
-      "requestsPerMin": 591.2201132808092,
-      "tokensPerMin": 194025.67594062083,
-      "usage": 50.25181540732237,
-      "checkedAt": "2025-08-14T15:51:59.805Z"
+      "availability": 99.63143677633113,
+      "latencyP50": 207.3275626946201,
+      "latencyP95": 349.52931345652627,
+      "latencyP99": 921.5692699728972,
+      "errorRate": 0.06076659453823119,
+      "requestsPerMin": 1502.8207283972417,
+      "tokensPerMin": 83418.73355462815,
+      "usage": 85.7567235098929,
+      "checkedAt": "2025-08-14T16:39:36.387Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 71.81418801247459,
-        "normalizedScore": 71.48827839079102,
-        "percentile": 83.15424261881196,
-        "evaluationDate": "2025-08-14T15:51:59.805Z",
+        "score": 67.05813168438479,
+        "normalizedScore": 74.3686546902871,
+        "percentile": 88.82129654338337,
+        "evaluationDate": "2025-08-14T16:39:36.387Z",
         "isOfficial": true
       }
     ],
@@ -4017,10 +4017,10 @@ const models = [
       "imagePerUnit": 0.002,
       "audioPerMinute": 0.002,
       "videoPerMinute": 0.002,
-      "effectiveFrom": "2025-08-14T15:51:59.805Z"
+      "effectiveFrom": "2025-08-14T16:39:36.387Z"
     },
-    "createdAt": "2025-08-14T15:51:59.805Z",
-    "updatedAt": "2025-08-14T15:51:59.805Z"
+    "createdAt": "2025-08-14T16:39:36.387Z",
+    "updatedAt": "2025-08-14T16:39:36.387Z"
   },
   {
     "id": "gemini-pro-vision",
@@ -4051,24 +4051,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.80564118390842,
-      "latencyP50": 204.29626850401831,
-      "latencyP95": 466.25827827246826,
-      "latencyP99": 840.9066565553633,
-      "errorRate": 0.04114428943536528,
-      "requestsPerMin": 1828.0607586725307,
-      "tokensPerMin": 176853.41822565984,
-      "usage": 20.368818792251602,
-      "checkedAt": "2025-08-14T15:51:59.805Z"
+      "availability": 99.79764894298697,
+      "latencyP50": 207.5008480868297,
+      "latencyP95": 409.8930271242881,
+      "latencyP99": 918.5689845065283,
+      "errorRate": 0.06553820225178038,
+      "requestsPerMin": 1528.6289032011077,
+      "tokensPerMin": 80130.70638867414,
+      "usage": 83.42946811431904,
+      "checkedAt": "2025-08-14T16:39:36.387Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 65.17246587806767,
-        "normalizedScore": 69.86461576881464,
-        "percentile": 95.82232375780934,
-        "evaluationDate": "2025-08-14T15:51:59.805Z",
+        "score": 73.3216476515485,
+        "normalizedScore": 66.57139432985628,
+        "percentile": 75.84956918923523,
+        "evaluationDate": "2025-08-14T16:39:36.387Z",
         "isOfficial": true
       }
     ],
@@ -4080,10 +4080,10 @@ const models = [
       "imagePerUnit": 0.002,
       "audioPerMinute": 0.002,
       "videoPerMinute": 0.002,
-      "effectiveFrom": "2025-08-14T15:51:59.805Z"
+      "effectiveFrom": "2025-08-14T16:39:36.387Z"
     },
-    "createdAt": "2025-08-14T15:51:59.805Z",
-    "updatedAt": "2025-08-14T15:51:59.805Z"
+    "createdAt": "2025-08-14T16:39:36.387Z",
+    "updatedAt": "2025-08-14T16:39:36.387Z"
   },
   {
     "id": "gemini-ultra",
@@ -4122,24 +4122,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.53070658169803,
-      "latencyP50": 205.87386203501157,
-      "latencyP95": 337.5060480721868,
-      "latencyP99": 985.8928818142282,
-      "errorRate": 0.09930120971096341,
-      "requestsPerMin": 1588.7702748577494,
-      "tokensPerMin": 189478.06353185143,
-      "usage": 29.32197954779221,
-      "checkedAt": "2025-08-14T15:51:59.805Z"
+      "availability": 99.67974344831643,
+      "latencyP50": 234.62563318366068,
+      "latencyP95": 491.8336955951172,
+      "latencyP99": 730.7116267384506,
+      "errorRate": 0.01856767580084857,
+      "requestsPerMin": 565.7088396374138,
+      "tokensPerMin": 133395.66590138676,
+      "usage": 34.857956052047854,
+      "checkedAt": "2025-08-14T16:39:36.387Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 71.15747370634588,
-        "normalizedScore": 65.71866354824273,
-        "percentile": 96.4145405406579,
-        "evaluationDate": "2025-08-14T15:51:59.805Z",
+        "score": 65.42176329905739,
+        "normalizedScore": 65.35964752399211,
+        "percentile": 77.69098412208088,
+        "evaluationDate": "2025-08-14T16:39:36.387Z",
         "isOfficial": true
       }
     ],
@@ -4151,10 +4151,10 @@ const models = [
       "imagePerUnit": 0.002,
       "audioPerMinute": 0.002,
       "videoPerMinute": 0.002,
-      "effectiveFrom": "2025-08-14T15:51:59.805Z"
+      "effectiveFrom": "2025-08-14T16:39:36.387Z"
     },
-    "createdAt": "2025-08-14T15:51:59.805Z",
-    "updatedAt": "2025-08-14T15:51:59.805Z"
+    "createdAt": "2025-08-14T16:39:36.387Z",
+    "updatedAt": "2025-08-14T16:39:36.387Z"
   },
   {
     "id": "llama-3.1-405b",
@@ -4187,24 +4187,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.66286404695562,
-      "latencyP50": 221.17060694768446,
-      "latencyP95": 329.0067906642059,
-      "latencyP99": 908.8537377716382,
-      "errorRate": 0.05363251463395782,
-      "requestsPerMin": 1484.821479506485,
-      "tokensPerMin": 52090.21215365138,
-      "usage": 58.20360407916043,
-      "checkedAt": "2025-08-14T15:51:59.805Z"
+      "availability": 99.74248335635103,
+      "latencyP50": 169.8631847913231,
+      "latencyP95": 423.7489036807103,
+      "latencyP99": 863.8471611567566,
+      "errorRate": 0.08904987374791114,
+      "requestsPerMin": 1764.930953824303,
+      "tokensPerMin": 167895.97848934005,
+      "usage": 23.66998617651831,
+      "checkedAt": "2025-08-14T16:39:36.387Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 76.15333865223342,
-        "normalizedScore": 84.01612811200896,
-        "percentile": 88.9344533080899,
-        "evaluationDate": "2025-08-14T15:51:59.805Z",
+        "score": 77.7698546774375,
+        "normalizedScore": 80.25703168050607,
+        "percentile": 96.25571289781603,
+        "evaluationDate": "2025-08-14T16:39:36.387Z",
         "isOfficial": true
       }
     ],
@@ -4216,10 +4216,10 @@ const models = [
       "imagePerUnit": null,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.805Z"
+      "effectiveFrom": "2025-08-14T16:39:36.387Z"
     },
-    "createdAt": "2025-08-14T15:51:59.805Z",
-    "updatedAt": "2025-08-14T15:51:59.805Z"
+    "createdAt": "2025-08-14T16:39:36.387Z",
+    "updatedAt": "2025-08-14T16:39:36.387Z"
   },
   {
     "id": "llama-3.1-70b",
@@ -4251,24 +4251,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.55024935348966,
-      "latencyP50": 175.80236152408435,
-      "latencyP95": 352.4184257946303,
-      "latencyP99": 741.3491419305772,
-      "errorRate": 0.008096874404246735,
-      "requestsPerMin": 1128.0319359320802,
-      "tokensPerMin": 123943.62103565317,
-      "usage": 33.09207393276911,
-      "checkedAt": "2025-08-14T15:51:59.805Z"
+      "availability": 99.52426325896033,
+      "latencyP50": 177.70089711256628,
+      "latencyP95": 486.4016689321835,
+      "latencyP99": 977.487390096788,
+      "errorRate": 0.01485641268224227,
+      "requestsPerMin": 775.5279489346763,
+      "tokensPerMin": 174587.33676523794,
+      "usage": 35.166099787470365,
+      "checkedAt": "2025-08-14T16:39:36.387Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 83.34151568054094,
-        "normalizedScore": 82.01096568752666,
-        "percentile": 84.53611568295175,
-        "evaluationDate": "2025-08-14T15:51:59.805Z",
+        "score": 76.47150132099726,
+        "normalizedScore": 83.73981333047558,
+        "percentile": 79.58808341754475,
+        "evaluationDate": "2025-08-14T16:39:36.387Z",
         "isOfficial": true
       }
     ],
@@ -4280,10 +4280,10 @@ const models = [
       "imagePerUnit": null,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.805Z"
+      "effectiveFrom": "2025-08-14T16:39:36.387Z"
     },
-    "createdAt": "2025-08-14T15:51:59.805Z",
-    "updatedAt": "2025-08-14T15:51:59.805Z"
+    "createdAt": "2025-08-14T16:39:36.387Z",
+    "updatedAt": "2025-08-14T16:39:36.387Z"
   },
   {
     "id": "llama-3.1-8b",
@@ -4314,24 +4314,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.50075449174551,
-      "latencyP50": 239.34218294363083,
-      "latencyP95": 341.024632780442,
-      "latencyP99": 817.2738245193273,
-      "errorRate": 0.041253779365907906,
-      "requestsPerMin": 1157.9660010850084,
-      "tokensPerMin": 117810.8468485952,
-      "usage": 48.55234258447064,
-      "checkedAt": "2025-08-14T15:51:59.805Z"
+      "availability": 99.57079701225831,
+      "latencyP50": 227.76961152721802,
+      "latencyP95": 327.7963349407611,
+      "latencyP99": 879.4619244233296,
+      "errorRate": 0.04211912130051605,
+      "requestsPerMin": 1155.6691613045728,
+      "tokensPerMin": 192657.91713046748,
+      "usage": 22.722689015564505,
+      "checkedAt": "2025-08-14T16:39:36.387Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 81.73059310584155,
-        "normalizedScore": 84.71324948853606,
-        "percentile": 77.54757588865569,
-        "evaluationDate": "2025-08-14T15:51:59.805Z",
+        "score": 80.50108845517893,
+        "normalizedScore": 77.8947458380869,
+        "percentile": 89.98649982821439,
+        "evaluationDate": "2025-08-14T16:39:36.387Z",
         "isOfficial": true
       }
     ],
@@ -4343,10 +4343,10 @@ const models = [
       "imagePerUnit": null,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.805Z"
+      "effectiveFrom": "2025-08-14T16:39:36.387Z"
     },
-    "createdAt": "2025-08-14T15:51:59.805Z",
-    "updatedAt": "2025-08-14T15:51:59.805Z"
+    "createdAt": "2025-08-14T16:39:36.387Z",
+    "updatedAt": "2025-08-14T16:39:36.387Z"
   },
   {
     "id": "llama-3-70b",
@@ -4377,24 +4377,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.674573686019,
-      "latencyP50": 247.46185006043845,
-      "latencyP95": 316.3520159602673,
-      "latencyP99": 613.6122334405238,
-      "errorRate": 0.04520315452834325,
-      "requestsPerMin": 977.0666656978908,
-      "tokensPerMin": 118985.20603545323,
-      "usage": 50.60601002802305,
-      "checkedAt": "2025-08-14T15:51:59.805Z"
+      "availability": 99.63405215741028,
+      "latencyP50": 243.29552821699627,
+      "latencyP95": 465.92544163544875,
+      "latencyP99": 800.0663628325825,
+      "errorRate": 0.08251261149197311,
+      "requestsPerMin": 760.878354104852,
+      "tokensPerMin": 160156.37990175188,
+      "usage": 24.063607847571554,
+      "checkedAt": "2025-08-14T16:39:36.387Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 84.98035776045816,
-        "normalizedScore": 78.49484537682463,
-        "percentile": 82.83559215380126,
-        "evaluationDate": "2025-08-14T15:51:59.805Z",
+        "score": 81.35889776090245,
+        "normalizedScore": 82.63476900477526,
+        "percentile": 75.35348334720496,
+        "evaluationDate": "2025-08-14T16:39:36.387Z",
         "isOfficial": true
       }
     ],
@@ -4406,10 +4406,10 @@ const models = [
       "imagePerUnit": null,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.805Z"
+      "effectiveFrom": "2025-08-14T16:39:36.387Z"
     },
-    "createdAt": "2025-08-14T15:51:59.805Z",
-    "updatedAt": "2025-08-14T15:51:59.805Z"
+    "createdAt": "2025-08-14T16:39:36.387Z",
+    "updatedAt": "2025-08-14T16:39:36.387Z"
   },
   {
     "id": "llama-3-8b",
@@ -4439,24 +4439,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.52490072344375,
-      "latencyP50": 179.93410904208528,
-      "latencyP95": 483.2815566884858,
-      "latencyP99": 875.4059356600819,
-      "errorRate": 0.08978891070129524,
-      "requestsPerMin": 1201.2624979398354,
-      "tokensPerMin": 63853.94077534172,
-      "usage": 41.4643028620669,
-      "checkedAt": "2025-08-14T15:51:59.805Z"
+      "availability": 99.76541134890475,
+      "latencyP50": 243.67983666226232,
+      "latencyP95": 414.881249238739,
+      "latencyP99": 856.5498756123442,
+      "errorRate": 0.04917067637962676,
+      "requestsPerMin": 1020.3877992493575,
+      "tokensPerMin": 66320.04819680621,
+      "usage": 20.599331597921328,
+      "checkedAt": "2025-08-14T16:39:36.387Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 77.9591358551134,
-        "normalizedScore": 78.11869775136417,
-        "percentile": 90.89229491621187,
-        "evaluationDate": "2025-08-14T15:51:59.805Z",
+        "score": 75.32092460366472,
+        "normalizedScore": 80.37089170641612,
+        "percentile": 92.26202266004381,
+        "evaluationDate": "2025-08-14T16:39:36.387Z",
         "isOfficial": true
       }
     ],
@@ -4468,10 +4468,10 @@ const models = [
       "imagePerUnit": null,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.805Z"
+      "effectiveFrom": "2025-08-14T16:39:36.387Z"
     },
-    "createdAt": "2025-08-14T15:51:59.805Z",
-    "updatedAt": "2025-08-14T15:51:59.805Z"
+    "createdAt": "2025-08-14T16:39:36.387Z",
+    "updatedAt": "2025-08-14T16:39:36.387Z"
   },
   {
     "id": "llama-2-70b",
@@ -4501,24 +4501,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.51656565308245,
-      "latencyP50": 189.21366666869693,
-      "latencyP95": 394.52538695447726,
-      "latencyP99": 651.9411201843568,
-      "errorRate": 0.016406171780501456,
-      "requestsPerMin": 1262.0560900375453,
-      "tokensPerMin": 57057.63678850819,
-      "usage": 50.33583182225898,
-      "checkedAt": "2025-08-14T15:51:59.805Z"
+      "availability": 99.73126400212944,
+      "latencyP50": 167.21328497850368,
+      "latencyP95": 438.8274440192779,
+      "latencyP99": 869.260082010989,
+      "errorRate": 0.08980859480972424,
+      "requestsPerMin": 1455.102786464472,
+      "tokensPerMin": 61187.12429847599,
+      "usage": 36.64733154122351,
+      "checkedAt": "2025-08-14T16:39:36.387Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 76.77845276655201,
-        "normalizedScore": 79.04083030312653,
-        "percentile": 79.51625770541317,
-        "evaluationDate": "2025-08-14T15:51:59.805Z",
+        "score": 77.6778822181925,
+        "normalizedScore": 82.44611236708084,
+        "percentile": 84.6185034127344,
+        "evaluationDate": "2025-08-14T16:39:36.387Z",
         "isOfficial": true
       }
     ],
@@ -4530,10 +4530,10 @@ const models = [
       "imagePerUnit": null,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.805Z"
+      "effectiveFrom": "2025-08-14T16:39:36.387Z"
     },
-    "createdAt": "2025-08-14T15:51:59.805Z",
-    "updatedAt": "2025-08-14T15:51:59.805Z"
+    "createdAt": "2025-08-14T16:39:36.387Z",
+    "updatedAt": "2025-08-14T16:39:36.387Z"
   },
   {
     "id": "llama-2-13b",
@@ -4562,24 +4562,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.71556619977049,
-      "latencyP50": 214.64934481100337,
-      "latencyP95": 318.66138536284706,
-      "latencyP99": 663.4059717808449,
-      "errorRate": 0.008793320225286028,
-      "requestsPerMin": 1666.3172792930495,
-      "tokensPerMin": 164500.1782267408,
-      "usage": 50.757441729555566,
-      "checkedAt": "2025-08-14T15:51:59.805Z"
+      "availability": 99.50579361239465,
+      "latencyP50": 231.67941217335328,
+      "latencyP95": 328.5373201750649,
+      "latencyP99": 890.0593899636955,
+      "errorRate": 0.04908737989861012,
+      "requestsPerMin": 665.5392965467357,
+      "tokensPerMin": 87755.3486400104,
+      "usage": 35.46672076560643,
+      "checkedAt": "2025-08-14T16:39:36.387Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 83.12445937157858,
-        "normalizedScore": 79.38127614410323,
-        "percentile": 75.0155775546816,
-        "evaluationDate": "2025-08-14T15:51:59.805Z",
+        "score": 81.31216508061081,
+        "normalizedScore": 77.41323547787322,
+        "percentile": 88.32250520169788,
+        "evaluationDate": "2025-08-14T16:39:36.387Z",
         "isOfficial": true
       }
     ],
@@ -4591,10 +4591,10 @@ const models = [
       "imagePerUnit": null,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.805Z"
+      "effectiveFrom": "2025-08-14T16:39:36.387Z"
     },
-    "createdAt": "2025-08-14T15:51:59.805Z",
-    "updatedAt": "2025-08-14T15:51:59.805Z"
+    "createdAt": "2025-08-14T16:39:36.387Z",
+    "updatedAt": "2025-08-14T16:39:36.387Z"
   },
   {
     "id": "llama-2-7b",
@@ -4623,24 +4623,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.68109164310563,
-      "latencyP50": 151.57930216659878,
-      "latencyP95": 381.64503867020176,
-      "latencyP99": 757.5970188415926,
-      "errorRate": 0.07903084485085513,
-      "requestsPerMin": 826.1645910000209,
-      "tokensPerMin": 144816.89977664332,
-      "usage": 66.62527640763045,
-      "checkedAt": "2025-08-14T15:51:59.805Z"
+      "availability": 99.85902010614059,
+      "latencyP50": 226.97064498602657,
+      "latencyP95": 438.53303358052995,
+      "latencyP99": 947.4272090968758,
+      "errorRate": 0.033861115279426944,
+      "requestsPerMin": 1865.9495203161875,
+      "tokensPerMin": 159535.17592888532,
+      "usage": 78.13152516389528,
+      "checkedAt": "2025-08-14T16:39:36.387Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 79.75556903954993,
-        "normalizedScore": 83.85651611503899,
-        "percentile": 96.40506219123172,
-        "evaluationDate": "2025-08-14T15:51:59.805Z",
+        "score": 76.41384182148458,
+        "normalizedScore": 75.42159523517932,
+        "percentile": 83.57879865333791,
+        "evaluationDate": "2025-08-14T16:39:36.387Z",
         "isOfficial": true
       }
     ],
@@ -4652,10 +4652,10 @@ const models = [
       "imagePerUnit": null,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.805Z"
+      "effectiveFrom": "2025-08-14T16:39:36.387Z"
     },
-    "createdAt": "2025-08-14T15:51:59.805Z",
-    "updatedAt": "2025-08-14T15:51:59.805Z"
+    "createdAt": "2025-08-14T16:39:36.387Z",
+    "updatedAt": "2025-08-14T16:39:36.387Z"
   },
   {
     "id": "code-llama-70b",
@@ -4685,24 +4685,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.81460675293432,
-      "latencyP50": 197.17258614403866,
-      "latencyP95": 361.70864099653113,
-      "latencyP99": 775.6333959001176,
-      "errorRate": 0.0351919697852501,
-      "requestsPerMin": 1079.537978812915,
-      "tokensPerMin": 71940.77578960787,
-      "usage": 83.35667059411415,
-      "checkedAt": "2025-08-14T15:51:59.805Z"
+      "availability": 99.8448620583842,
+      "latencyP50": 171.37181393365864,
+      "latencyP95": 452.22778700790104,
+      "latencyP99": 953.5822909606768,
+      "errorRate": 0.0344302352846732,
+      "requestsPerMin": 621.5957431216448,
+      "tokensPerMin": 117005.12609052853,
+      "usage": 31.397851903177408,
+      "checkedAt": "2025-08-14T16:39:36.387Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 82.67576578411125,
-        "normalizedScore": 76.9848228293285,
-        "percentile": 92.43176453469502,
-        "evaluationDate": "2025-08-14T15:51:59.805Z",
+        "score": 84.47069962288894,
+        "normalizedScore": 81.95876528496746,
+        "percentile": 83.43504839035637,
+        "evaluationDate": "2025-08-14T16:39:36.387Z",
         "isOfficial": true
       }
     ],
@@ -4714,10 +4714,10 @@ const models = [
       "imagePerUnit": null,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.805Z"
+      "effectiveFrom": "2025-08-14T16:39:36.387Z"
     },
-    "createdAt": "2025-08-14T15:51:59.805Z",
-    "updatedAt": "2025-08-14T15:51:59.805Z"
+    "createdAt": "2025-08-14T16:39:36.387Z",
+    "updatedAt": "2025-08-14T16:39:36.387Z"
   },
   {
     "id": "code-llama-34b",
@@ -4747,24 +4747,24 @@ const models = [
     "isActive": true,
     "status": {
       "status": "operational",
-      "availability": 99.83785155640219,
-      "latencyP50": 220.74305508207917,
-      "latencyP95": 424.2767559540953,
-      "latencyP99": 784.2734038643509,
-      "errorRate": 0.0474009224978581,
-      "requestsPerMin": 1748.4865516728662,
-      "tokensPerMin": 140150.90839682313,
-      "usage": 23.800681569988715,
-      "checkedAt": "2025-08-14T15:51:59.805Z"
+      "availability": 99.59701308417958,
+      "latencyP50": 172.40037167060567,
+      "latencyP95": 397.33136853732316,
+      "latencyP99": 837.6651700287114,
+      "errorRate": 0.05201557137299624,
+      "requestsPerMin": 932.3680398346078,
+      "tokensPerMin": 138671.54762041103,
+      "usage": 28.704344374291008,
+      "checkedAt": "2025-08-14T16:39:36.387Z"
     },
     "benchmarks": [
       {
         "suite": "MMLU",
         "suiteSlug": "mmlu",
-        "score": 78.9805495080396,
-        "normalizedScore": 75.88979780106396,
-        "percentile": 77.4460785226625,
-        "evaluationDate": "2025-08-14T15:51:59.805Z",
+        "score": 78.10514781620107,
+        "normalizedScore": 79.61835759958049,
+        "percentile": 87.62516999157481,
+        "evaluationDate": "2025-08-14T16:39:36.387Z",
         "isOfficial": true
       }
     ],
@@ -4776,10 +4776,10 @@ const models = [
       "imagePerUnit": null,
       "audioPerMinute": null,
       "videoPerMinute": null,
-      "effectiveFrom": "2025-08-14T15:51:59.805Z"
+      "effectiveFrom": "2025-08-14T16:39:36.387Z"
     },
-    "createdAt": "2025-08-14T15:51:59.805Z",
-    "updatedAt": "2025-08-14T15:51:59.805Z"
+    "createdAt": "2025-08-14T16:39:36.387Z",
+    "updatedAt": "2025-08-14T16:39:36.387Z"
   }
 ];
 
