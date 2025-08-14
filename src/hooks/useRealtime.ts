@@ -45,12 +45,23 @@ export function useRealtime(options: UseRealtimeOptions = {}) {
   const reconnectTimeoutRef = useRef<NodeJS.Timeout | null>(null)
   const reconnectAttemptsRef = useRef(0)
 
+  // Check if WebSocket should be disabled
+  const isWebSocketDisabled = process.env.NEXT_PUBLIC_DISABLE_WEBSOCKET === 'true' ||
+    process.env.NODE_ENV === 'production' ||
+    (typeof window !== 'undefined' && window.location.hostname.includes('vercel.app'))
+
   // Initialize socket connection
   useEffect(() => {
-    if (!autoConnect) return
+    // Disable WebSocket when explicitly disabled or in production environment
+    if (!autoConnect || isWebSocketDisabled) {
+      console.log('🚫 WebSocket disabled for serverless deployment')
+      setConnected(false)
+      setError('WebSocket disabled for serverless deployment')
+      return
+    }
 
     const socketUrl = process.env.NEXT_PUBLIC_WEBSOCKET_URL || 
-                     (typeof window !== 'undefined' ? window.location.origin : 'http://localhost:3006')
+                     (typeof window !== 'undefined' ? window.location.origin : 'http://localhost:8080')
 
     const socketInstance = io(socketUrl, {
       transports: ['websocket', 'polling'],
@@ -138,9 +149,12 @@ export function useRealtime(options: UseRealtimeOptions = {}) {
         clearTimeout(reconnectTimeoutRef.current)
       }
       clearInterval(heartbeatInterval)
-      socketInstance.disconnect()
+      if (socketInstance) {
+        socketInstance.removeAllListeners()
+        socketInstance.disconnect()
+      }
     }
-  }, [autoConnect, reconnection, reconnectionAttempts, reconnectionDelay])
+  }, [autoConnect, reconnection, reconnectionAttempts, reconnectionDelay, isWebSocketDisabled])
 
   // Subscribe to specific models
   const subscribeToModels = useCallback((modelIds: string[]) => {
@@ -224,7 +238,7 @@ export function useModelStatus(modelId: string) {
     }
   }, [connected, modelId, subscribeToModels, unsubscribeFromModels])
   
-  const status = modelStatuses.find(s => s.modelId === modelId)
+  const status = modelStatuses[modelId]
   return { status, connected }
 }
 
@@ -241,6 +255,6 @@ export function useModelStatuses(modelIds: string[]) {
     }
   }, [connected, modelIds, subscribeToModels, unsubscribeFromModels])
   
-  const statuses = modelStatuses.filter(s => modelIds.includes(s.modelId))
+  const statuses = Object.values(modelStatuses).filter((s: any) => modelIds.includes(s.modelId))
   return { statuses, connected }
 }

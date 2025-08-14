@@ -5,16 +5,22 @@ let redis: Redis | null = null
 
 if (process.env.REDIS_URL || process.env.REDIS_HOST) {
   try {
-    redis = new Redis({
+    const config: any = {
       host: process.env.REDIS_HOST || 'localhost',
       port: parseInt(process.env.REDIS_PORT || '6379'),
-      password: process.env.REDIS_PASSWORD,
-      retryStrategy: (times) => Math.min(times * 50, 2000),
+      retryStrategy: (times: number) => Math.min(times * 50, 2000),
       lazyConnect: true, // Connect only when needed
       maxRetriesPerRequest: 3,
       connectTimeout: 10000,
       commandTimeout: 5000,
-    })
+    }
+    
+    // Only add password if it's provided
+    if (process.env.REDIS_PASSWORD) {
+      config.password = process.env.REDIS_PASSWORD
+    }
+    
+    redis = new Redis(config)
 
     redis.on('connect', () => {
       console.log('✅ Connected to Redis')

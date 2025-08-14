@@ -1,6 +1,6 @@
 import Anthropic from '@anthropic-ai/sdk';
 import { Model, Pricing, Provider } from '@prisma/client';
-import { DataService } from '../data.service';
+import { prisma } from '@/lib/prisma';
 import { logger } from '@/utils/logger';
 
 export interface AnthropicModel {
@@ -17,7 +17,6 @@ export interface AnthropicModel {
 
 export class AnthropicService {
   private client: Anthropic;
-  private dataService: DataService;
   private providerId = 'anthropic';
 
   constructor() {
@@ -29,8 +28,6 @@ export class AnthropicService {
     this.client = new Anthropic({
       apiKey,
     });
-    
-    this.dataService = new DataService();
   }
 
   /**
@@ -161,14 +158,20 @@ export class AnthropicService {
       logger.info('Starting Anthropic sync...');
       
       // Ensure provider exists
-      const provider = await this.dataService.ensureProvider({
-        id: this.providerId,
-        name: 'Anthropic',
-        description: 'Creator of Claude AI models',
-        website: 'https://www.anthropic.com',
-        api_base_url: 'https://api.anthropic.com',
-        documentation_url: 'https://docs.anthropic.com',
-        status: 'active',
+      const provider = await prisma.provider.upsert({
+        where: { slug: this.providerId },
+        update: {},
+        create: {
+          slug: this.providerId,
+          name: 'Anthropic',
+          websiteUrl: 'https://www.anthropic.com',
+          documentationUrl: 'https://docs.anthropic.com',
+          metadata: JSON.stringify({
+            description: 'Creator of Claude AI models',
+            apiBaseUrl: 'https://api.anthropic.com',
+            status: 'active'
+          })
+        }
       });
 
       const models = await this.getModels();
@@ -190,42 +193,79 @@ export class AnthropicService {
       for (const model of modelsWithStatus) {
         try {
           // API 검증 실패해도 모델 정보는 저장 (status만 다르게)
-          await this.dataService.upsertModel({
-            model_id: model.id,
-            provider_id: this.providerId,
-            name: model.name,
-            description: model.description || '',
-            model_type: 'language',
-            context_window: model.context_window,
-            max_tokens: model.max_output_tokens || 4096,
-            training_cutoff: new Date('2024-04-01'), // Approximate
-            supports_functions: model.capabilities?.includes('function-calling') || false,
-            supports_vision: model.capabilities?.includes('vision') || false,
-            status: model.isActive ? 'active' : 'deprecated',
-            api_endpoint: `/v1/messages`,
-            parameters: {
-              temperature: { min: 0, max: 1, default: 1 },
-              top_p: { min: 0, max: 1, default: 1 },
-              top_k: { min: 1, max: 100, default: 5 },
+          await prisma.model.upsert({
+            where: { slug: model.id },
+            update: {
+              name: model.name,
+              description: model.description || '',
+              contextWindow: model.context_window,
+              maxOutputTokens: model.max_output_tokens || 4096,
+              isActive: model.isActive,
+              capabilities: JSON.stringify(model.capabilities || []),
+              modalities: JSON.stringify(['text']),
+              metadata: JSON.stringify({
+                supportsVision: model.capabilities?.includes('vision') || false,
+                modelType: 'language',
+                status: model.isActive ? 'active' : 'deprecated'
+              })
             },
-            capabilities: model.capabilities || [],
-            tags: ['claude', 'anthropic', 'chat', 'assistant'],
+            create: {
+              slug: model.id,
+              name: model.name,
+              description: model.description || '',
+              providerId: provider.id,
+              contextWindow: model.context_window,
+              maxOutputTokens: model.max_output_tokens || 4096,
+              isActive: model.isActive,
+              capabilities: JSON.stringify(model.capabilities || []),
+              modalities: JSON.stringify(['text']),
+              metadata: JSON.stringify({
+                supportsVision: model.capabilities?.includes('vision') || false,
+                modelType: 'language',
+                status: model.isActive ? 'active' : 'deprecated'
+              })
+            }
           });
 
           // Sync pricing
           if (model.input_cost_per_1k || model.output_cost_per_1k) {
-            await this.dataService.upsertPricing({
-              model_id: model.id,
-              provider_id: this.providerId,
-              input_price: model.input_cost_per_1k || 0,
-              output_price: model.output_cost_per_1k || 0,
-              context_window: model.context_window,
-              max_output_tokens: model.max_output_tokens || 4096,
-              currency: 'USD',
-              unit: '1K tokens',
-              region: 'global',
-              effective_date: new Date(),
+            const modelRecord = await prisma.model.findUnique({
+              where: { slug: model.id }
             });
+            
+            if (modelRecord) {
+              // Check if pricing exists
+              const existingPricing = await prisma.pricing.findFirst({
+                where: {
+                  modelId: modelRecord.id,
+                  tier: 'standard',
+                  region: 'global',
+                  currency: 'USD'
+                }
+              });
+
+              if (existingPricing) {
+                await prisma.pricing.update({
+                  where: { id: existingPricing.id },
+                  data: {
+                    inputPerMillion: (model.input_cost_per_1k || 0) * 1000,
+                    outputPerMillion: (model.output_cost_per_1k || 0) * 1000,
+                  }
+                });
+              } else {
+                await prisma.pricing.create({
+                  data: {
+                    modelId: modelRecord.id,
+                    tier: 'standard',
+                    region: 'global',
+                    currency: 'USD',
+                    inputPerMillion: (model.input_cost_per_1k || 0) * 1000,
+                    outputPerMillion: (model.output_cost_per_1k || 0) * 1000,
+                    effectiveFrom: new Date(),
+                  }
+                });
+              }
+            }
           }
 
           logger.info(`Synced Anthropic model: ${model.name}`);

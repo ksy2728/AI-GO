@@ -161,7 +161,7 @@ export function LiveDashboard() {
             </CardHeader>
             <CardContent>
               <div className="grid grid-cols-2 gap-4">
-                {modelStatuses.map((status) => (
+                {Object.values(modelStatuses).map((status: any) => (
                   <div
                     key={status.modelId}
                     className="p-3 border rounded-lg"

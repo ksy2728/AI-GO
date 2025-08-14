@@ -54,7 +54,20 @@
       "Bash(true)",
       "Bash(start http://localhost:3006/models)",
       "Bash(start http://localhost:3006)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(start http://localhost:3000/benchmarks)",
+      "Bash(start http://localhost:3000/news)",
+      "Bash(start http://localhost:3000/pricing)",
+      "Bash(PORT=3000 npm run dev)",
+      "Bash(PORT=3005 npm run dev)",
+      "Bash(start http://localhost:3005)",
+      "Bash(PORT=8080 npm run dev)",
+      "mcp__playwright-stealth__playwright_console_logs",
+      "mcp__playwright-stealth__playwright_get_visible_html",
+      "Bash(vercel:*)",
+      "Bash(timeout 120 vercel --prod --yes)",
+      "mcp__playwright-stealth__playwright_get",
+      "WebSearch"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"

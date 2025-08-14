@@ -72,7 +72,7 @@ export async function GET(request: NextRequest) {
       ])
       
       pricing = {
-        data: data.map(p => ({
+        data: data.map((p: any) => ({
           id: p.id,
           modelId: p.modelId,
           tier: p.tier,

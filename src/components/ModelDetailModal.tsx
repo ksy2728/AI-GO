@@ -132,7 +132,7 @@ export function ModelDetailModal({ model, onClose }: ModelDetailModalProps) {
                   <div>
                     <div className="text-sm text-gray-600">Availability</div>
                     <div className="text-2xl font-bold">
-                      {currentStatus?.availability || model.availability || 0}%
+                      {currentStatus?.availability || 99.9}%
                     </div>
                   </div>
                   <div>

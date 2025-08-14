@@ -1,6 +1,9 @@
 import { OpenAIService } from '../openai.service'
 import { cache } from '@/lib/redis'
 
+// Mock OpenAI module
+jest.mock('openai')
+
 // Mock dependencies
 jest.mock('@/lib/redis', () => ({
   cache: {

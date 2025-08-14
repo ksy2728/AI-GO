@@ -4,7 +4,7 @@ import { openAIService } from '@/services/external/openai.service'
 export async function POST() {
   try {
     // Check if service is configured
-    if (!openAIService.isConfigured()) {
+    if (!openAIService || !openAIService.isConfigured()) {
       return NextResponse.json(
         { 
           error: 'OpenAI service not configured',
@@ -39,12 +39,12 @@ export async function POST() {
 export async function GET() {
   try {
     // Get current pricing and status
-    const pricing = await openAIService.getPricing()
-    const isConfigured = openAIService.isConfigured()
+    const pricing = openAIService ? await openAIService.getPricing() : []
+    const isConfigured = openAIService ? openAIService.isConfigured() : false
 
     // Get status for main models
     const modelStatuses = []
-    if (isConfigured) {
+    if (isConfigured && openAIService) {
       const models = ['gpt-4-turbo', 'gpt-4', 'gpt-3.5-turbo']
       for (const model of models) {
         try {

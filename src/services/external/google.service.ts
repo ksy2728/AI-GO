@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import { Model, Pricing, Provider } from '@prisma/client';
-import { DataService } from '../data.service';
+import { prisma } from '@/lib/prisma';
 import { logger } from '@/utils/logger';
 
 export interface GoogleModel {
@@ -21,7 +21,6 @@ export interface GoogleModel {
 
 export class GoogleService {
   private client: GoogleGenerativeAI | null = null;
-  private dataService: DataService;
   private providerId = 'google';
 
   constructor() {
@@ -29,8 +28,6 @@ export class GoogleService {
     if (apiKey) {
       this.client = new GoogleGenerativeAI(apiKey);
     }
-    
-    this.dataService = new DataService();
   }
 
   /**
@@ -181,14 +178,20 @@ export class GoogleService {
       logger.info('Starting Google AI sync...');
       
       // Ensure provider exists
-      const provider = await this.dataService.ensureProvider({
-        id: this.providerId,
-        name: 'Google AI',
-        description: 'Google AI platform with Gemini models',
-        website: 'https://ai.google.dev',
-        api_base_url: 'https://generativelanguage.googleapis.com',
-        documentation_url: 'https://ai.google.dev/docs',
-        status: 'active',
+      const provider = await prisma.provider.upsert({
+        where: { slug: this.providerId },
+        update: {},
+        create: {
+          slug: this.providerId,
+          name: 'Google AI',
+          websiteUrl: 'https://ai.google.dev',
+          documentationUrl: 'https://ai.google.dev/docs',
+          metadata: JSON.stringify({
+            description: 'Google AI platform with Gemini models',
+            apiBaseUrl: 'https://generativelanguage.googleapis.com',
+            status: 'active'
+          })
+        }
       });
 
       const models = await this.getModels();
@@ -210,42 +213,79 @@ export class GoogleService {
       for (const model of modelsWithStatus) {
         try {
           // Sync model
-          await this.dataService.upsertModel({
-            model_id: model.id,
-            provider_id: this.providerId,
-            name: model.name,
-            description: model.description || '',
-            model_type: 'language',
-            context_window: model.input_token_limit || 0,
-            max_tokens: model.output_token_limit || 0,
-            training_cutoff: new Date('2024-01-01'), // Approximate
-            supports_functions: model.capabilities?.includes('function-calling') || false,
-            supports_vision: model.capabilities?.includes('vision') || false,
-            status: model.isActive ? 'active' : model.name.includes('coming soon') ? 'upcoming' : 'deprecated',
-            api_endpoint: `/v1/models/${model.id}`,
-            parameters: {
-              temperature: { min: 0, max: 2, default: model.temperature || 1 },
-              top_p: { min: 0, max: 1, default: model.top_p || 1 },
-              top_k: { min: 1, max: 100, default: model.top_k || 40 },
+          await prisma.model.upsert({
+            where: { slug: model.id },
+            update: {
+              name: model.name,
+              description: model.description || '',
+              contextWindow: model.input_token_limit || 0,
+              maxOutputTokens: model.output_token_limit || 0,
+              isActive: model.isActive,
+              capabilities: JSON.stringify(model.capabilities || []),
+              modalities: JSON.stringify(['text']),
+              metadata: JSON.stringify({
+                supportsVision: model.capabilities?.includes('vision') || false,
+                modelType: 'language',
+                status: model.isActive ? 'active' : model.name.includes('coming soon') ? 'upcoming' : 'deprecated'
+              })
             },
-            capabilities: model.capabilities || [],
-            tags: ['gemini', 'google', 'ai', 'multimodal'],
+            create: {
+              slug: model.id,
+              name: model.name,
+              description: model.description || '',
+              providerId: provider.id,
+              contextWindow: model.input_token_limit || 0,
+              maxOutputTokens: model.output_token_limit || 0,
+              isActive: model.isActive,
+              capabilities: JSON.stringify(model.capabilities || []),
+              modalities: JSON.stringify(['text']),
+              metadata: JSON.stringify({
+                supportsVision: model.capabilities?.includes('vision') || false,
+                modelType: 'language',
+                status: model.isActive ? 'active' : model.name.includes('coming soon') ? 'upcoming' : 'deprecated'
+              })
+            }
           });
 
           // Sync pricing
           if (model.input_cost_per_1k || model.output_cost_per_1k) {
-            await this.dataService.upsertPricing({
-              model_id: model.id,
-              provider_id: this.providerId,
-              input_price: model.input_cost_per_1k || 0,
-              output_price: model.output_cost_per_1k || 0,
-              context_window: model.input_token_limit || 0,
-              max_output_tokens: model.output_token_limit || 0,
-              currency: 'USD',
-              unit: '1K tokens',
-              region: 'global',
-              effective_date: new Date(),
+            const modelRecord = await prisma.model.findUnique({
+              where: { slug: model.id }
             });
+            
+            if (modelRecord) {
+              // Check if pricing exists
+              const existingPricing = await prisma.pricing.findFirst({
+                where: {
+                  modelId: modelRecord.id,
+                  tier: 'standard',
+                  region: 'global',
+                  currency: 'USD'
+                }
+              });
+
+              if (existingPricing) {
+                await prisma.pricing.update({
+                  where: { id: existingPricing.id },
+                  data: {
+                    inputPerMillion: (model.input_cost_per_1k || 0) * 1000,
+                    outputPerMillion: (model.output_cost_per_1k || 0) * 1000,
+                  }
+                });
+              } else {
+                await prisma.pricing.create({
+                  data: {
+                    modelId: modelRecord.id,
+                    tier: 'standard',
+                    region: 'global',
+                    currency: 'USD',
+                    inputPerMillion: (model.input_cost_per_1k || 0) * 1000,
+                    outputPerMillion: (model.output_cost_per_1k || 0) * 1000,
+                    effectiveFrom: new Date(),
+                  }
+                });
+              }
+            }
           }
 
           logger.info(`Synced Google AI model: ${model.name}`);

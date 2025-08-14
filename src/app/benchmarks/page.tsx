@@ -6,6 +6,7 @@ import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Skeleton } from '@/components/ui/skeleton'
+import { BenchmarkDetailModal } from '@/components/BenchmarkDetailModal'
 import { formatNumber } from '@/lib/utils'
 import {
   Search,
@@ -17,8 +18,7 @@ import {
   Award,
   Zap,
   Brain,
-  Eye,
-  Filter
+  Eye
 } from 'lucide-react'
 
 interface BenchmarkResult {
@@ -47,6 +47,7 @@ export default function BenchmarksPage() {
   const [searchQuery, setSearchQuery] = useState('')
   const [selectedCategory, setSelectedCategory] = useState<string>('')
   const [selectedBenchmark, setSelectedBenchmark] = useState<string>('')
+  const [selectedBenchmarkDetail, setSelectedBenchmarkDetail] = useState<BenchmarkResult | null>(null)
 
   const benchmarkSuites: BenchmarkSuite[] = [
     {
@@ -424,7 +425,11 @@ export default function BenchmarksPage() {
                 </div>
 
                 <div className="pt-4 border-t">
-                  <Button variant="outline" className="w-full group-hover:bg-blue-50 group-hover:border-blue-300">
+                  <Button 
+                    variant="outline" 
+                    className="w-full group-hover:bg-blue-50 group-hover:border-blue-300"
+                    onClick={() => setSelectedBenchmarkDetail(result)}
+                  >
                     <Award className="w-4 h-4 mr-2" />
                     View Details
                   </Button>
@@ -444,6 +449,12 @@ export default function BenchmarksPage() {
           </div>
         )}
       </div>
+
+      {/* Benchmark Detail Modal */}
+      <BenchmarkDetailModal
+        benchmark={selectedBenchmarkDetail}
+        onClose={() => setSelectedBenchmarkDetail(null)}
+      />
     </div>
   )
 }

@@ -1,6 +1,6 @@
 import Replicate from 'replicate';
 import { Model, Pricing, Provider } from '@prisma/client';
-import { DataService } from '../data.service';
+import { prisma } from '@/lib/prisma';
 import { logger } from '@/utils/logger';
 
 export interface MetaModel {
@@ -18,7 +18,6 @@ export interface MetaModel {
 
 export class MetaService {
   private client: Replicate | null = null;
-  private dataService: DataService;
   private providerId = 'meta';
 
   constructor() {
@@ -28,8 +27,6 @@ export class MetaService {
         auth: apiKey,
       });
     }
-    
-    this.dataService = new DataService();
   }
 
   /**
@@ -210,14 +207,20 @@ export class MetaService {
       logger.info('Starting Meta AI sync...');
       
       // Ensure provider exists
-      const provider = await this.dataService.ensureProvider({
-        id: this.providerId,
-        name: 'Meta AI',
-        description: 'Meta AI with Llama family of open-source models',
-        website: 'https://ai.meta.com',
-        api_base_url: 'https://replicate.com',
-        documentation_url: 'https://ai.meta.com/llama/',
-        status: 'active',
+      const provider = await prisma.provider.upsert({
+        where: { slug: this.providerId },
+        update: {},
+        create: {
+          slug: this.providerId,
+          name: 'Meta AI',
+          websiteUrl: 'https://ai.meta.com',
+          documentationUrl: 'https://ai.meta.com/llama/',
+          metadata: JSON.stringify({
+            description: 'Meta AI with Llama family of open-source models',
+            apiBaseUrl: 'https://replicate.com',
+            status: 'active'
+          })
+        }
       });
 
       const models = await this.getModels();
@@ -242,43 +245,79 @@ export class MetaService {
           const isLegacy = model.id.includes('llama-2');
           
           // Sync model
-          await this.dataService.upsertModel({
-            model_id: model.id,
-            provider_id: this.providerId,
-            name: model.name,
-            description: model.description || '',
-            model_type: 'language',
-            context_window: model.context_window,
-            max_tokens: model.max_tokens,
-            training_cutoff: isLegacy ? new Date('2023-09-01') : new Date('2024-07-01'),
-            supports_functions: model.capabilities?.includes('tool-use') || false,
-            supports_vision: false, // Llama models are text-only currently
-            status: model.isActive ? 'active' : isLegacy ? 'deprecated' : 'inactive',
-            api_endpoint: `/v1/predictions`,
-            parameters: {
-              temperature: { min: 0, max: 2, default: 0.7 },
-              top_p: { min: 0, max: 1, default: 0.9 },
-              top_k: { min: 1, max: 100, default: 50 },
-              max_tokens: { min: 1, max: model.max_tokens, default: 1024 },
+          await prisma.model.upsert({
+            where: { slug: model.id },
+            update: {
+              name: model.name,
+              description: model.description || '',
+              contextWindow: model.context_window,
+              maxOutputTokens: model.max_tokens,
+              isActive: model.isActive,
+              capabilities: JSON.stringify(model.capabilities || []),
+              modalities: JSON.stringify(['text']),
+              metadata: JSON.stringify({
+                supportsVision: false, // Llama models are text-only currently
+                modelType: 'language',
+                status: model.isActive ? 'active' : isLegacy ? 'deprecated' : 'inactive'
+              })
             },
-            capabilities: model.capabilities || [],
-            tags: ['llama', 'meta', 'open-source', 'multilingual'],
+            create: {
+              slug: model.id,
+              name: model.name,
+              description: model.description || '',
+              providerId: provider.id,
+              contextWindow: model.context_window,
+              maxOutputTokens: model.max_tokens,
+              isActive: model.isActive,
+              capabilities: JSON.stringify(model.capabilities || []),
+              modalities: JSON.stringify(['text']),
+              metadata: JSON.stringify({
+                supportsVision: false, // Llama models are text-only currently
+                modelType: 'language',
+                status: model.isActive ? 'active' : isLegacy ? 'deprecated' : 'inactive'
+              })
+            }
           });
 
           // Sync pricing
           if (model.input_cost_per_million || model.output_cost_per_million) {
-            await this.dataService.upsertPricing({
-              model_id: model.id,
-              provider_id: this.providerId,
-              input_price: (model.input_cost_per_million || 0) / 1000,
-              output_price: (model.output_cost_per_million || 0) / 1000,
-              context_window: model.context_window,
-              max_output_tokens: model.max_tokens,
-              currency: 'USD',
-              unit: '1K tokens',
-              region: 'global',
-              effective_date: new Date(),
+            const modelRecord = await prisma.model.findUnique({
+              where: { slug: model.id }
             });
+            
+            if (modelRecord) {
+              // Check if pricing exists
+              const existingPricing = await prisma.pricing.findFirst({
+                where: {
+                  modelId: modelRecord.id,
+                  tier: 'standard',
+                  region: 'global',
+                  currency: 'USD'
+                }
+              });
+
+              if (existingPricing) {
+                await prisma.pricing.update({
+                  where: { id: existingPricing.id },
+                  data: {
+                    inputPerMillion: model.input_cost_per_million || 0,
+                    outputPerMillion: model.output_cost_per_million || 0,
+                  }
+                });
+              } else {
+                await prisma.pricing.create({
+                  data: {
+                    modelId: modelRecord.id,
+                    tier: 'standard',
+                    region: 'global',
+                    currency: 'USD',
+                    inputPerMillion: model.input_cost_per_million || 0,
+                    outputPerMillion: model.output_cost_per_million || 0,
+                    effectiveFrom: new Date(),
+                  }
+                });
+              }
+            }
           }
 
           logger.info(`Synced Meta AI model: ${model.name}`);

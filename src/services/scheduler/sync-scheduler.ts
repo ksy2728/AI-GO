@@ -37,7 +37,7 @@ export class SyncScheduler {
       task: async () => {
         console.log('⏰ Running OpenAI sync...')
         try {
-          if (openAIService.isConfigured()) {
+          if (openAIService && openAIService.isConfigured()) {
             await openAIService.syncWithDatabase()
             console.log('✅ OpenAI sync completed')
           } else {
@@ -240,7 +240,7 @@ export class SyncScheduler {
       for (const model of models) {
         try {
           // Check OpenAI models
-          if (model.provider.slug === 'openai' && openAIService.isConfigured()) {
+          if (model.provider.slug === 'openai' && openAIService && openAIService.isConfigured()) {
             const modelId = model.slug.replace('35', '3.5').replace('-16k', '-16k')
             const status = await openAIService.checkModelStatus(modelId)
             

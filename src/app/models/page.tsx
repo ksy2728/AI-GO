@@ -10,11 +10,15 @@ import { api } from '@/lib/api-client'
 import { Model } from '@/types/models'
 import { getStatusColor, formatNumber } from '@/lib/utils'
 import { ModelDetailModal } from '@/components/ModelDetailModal'
+import { ModelComparisonModal } from '@/components/ModelComparisonModal'
 import {
   Search,
   Server,
   Eye,
-  ChevronRight
+  ChevronRight,
+  GitCompare,
+  Plus,
+  Minus
 } from 'lucide-react'
 
 export default function ModelsPage() {
@@ -24,6 +28,8 @@ export default function ModelsPage() {
   const [selectedProvider, setSelectedProvider] = useState<string>('')
   const [selectedModality, setSelectedModality] = useState<string>('')
   const [selectedModel, setSelectedModel] = useState<Model | null>(null)
+  const [selectedForComparison, setSelectedForComparison] = useState<Model[]>([])
+  const [showComparison, setShowComparison] = useState(false)
 
   useEffect(() => {
     const fetchModels = async () => {
@@ -52,6 +58,22 @@ export default function ModelsPage() {
 
   const providers = Array.from(new Set(models.map(m => m.provider?.name || m.providerId).filter(Boolean)))
   const modalities = Array.from(new Set(models.flatMap(m => m.modalities || [])))
+
+  const toggleModelForComparison = (model: Model) => {
+    setSelectedForComparison(prev => {
+      const isSelected = prev.find(m => m.id === model.id)
+      if (isSelected) {
+        return prev.filter(m => m.id !== model.id)
+      } else if (prev.length < 4) { // Max 4 models for comparison
+        return [...prev, model]
+      }
+      return prev
+    })
+  }
+
+  const isSelectedForComparison = (model: Model) => {
+    return selectedForComparison.find(m => m.id === model.id) !== undefined
+  }
 
   if (loading) {
     return (
@@ -91,9 +113,27 @@ export default function ModelsPage() {
                 Browse and compare AI models from leading providers
               </p>
             </div>
-            <Badge variant="secondary" className="text-sm">
-              {filteredModels.length} models
-            </Badge>
+            <div className="flex items-center gap-4">
+              <Badge variant="secondary" className="text-sm">
+                {filteredModels.length} models
+              </Badge>
+              {selectedForComparison.length > 0 && (
+                <div className="flex items-center gap-2">
+                  <Badge variant="outline" className="text-sm">
+                    {selectedForComparison.length} selected for comparison
+                  </Badge>
+                  <Button
+                    onClick={() => setShowComparison(true)}
+                    disabled={selectedForComparison.length < 2}
+                    size="sm"
+                    className="bg-blue-600 hover:bg-blue-700"
+                  >
+                    <GitCompare className="w-4 h-4 mr-2" />
+                    Compare Models
+                  </Button>
+                </div>
+              )}
+            </div>
           </div>
         </div>
       </div>
@@ -136,12 +176,47 @@ export default function ModelsPage() {
           </div>
         </div>
 
+        {/* Comparison Instructions */}
+        {selectedForComparison.length === 0 && (
+          <div className="mb-6 p-4 bg-blue-50 border border-blue-200 rounded-lg">
+            <div className="flex items-center gap-2 text-blue-700 mb-2">
+              <GitCompare className="w-5 h-5" />
+              <span className="font-medium">Model Comparison</span>
+            </div>
+            <p className="text-blue-600 text-sm">
+              Select 2-4 models using the + buttons to compare their specifications, pricing, and benchmarks side-by-side.
+            </p>
+          </div>
+        )}
+
         {/* Models Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredModels.map((model) => (
-            <Card key={model.id} className="bg-white/80 backdrop-blur-sm border-0 shadow-lg hover:shadow-xl transition-all duration-200 group">
+          {filteredModels.map((model) => {
+            const isSelected = isSelectedForComparison(model)
+            return (
+            <Card key={model.id} className={`bg-white/80 backdrop-blur-sm border-0 shadow-lg hover:shadow-xl transition-all duration-200 group relative ${
+              isSelected ? 'ring-2 ring-blue-500 bg-blue-50/50' : ''
+            }`}>
               <CardHeader>
                 <div className="flex items-start justify-between">
+                  <Button
+                    variant={isSelected ? 'default' : 'outline'}
+                    size="sm"
+                    className={`absolute top-4 right-4 z-10 w-8 h-8 p-0 ${
+                      isSelected ? 'bg-blue-600 hover:bg-blue-700' : 'hover:bg-blue-50'
+                    }`}
+                    onClick={(e) => {
+                      e.stopPropagation()
+                      toggleModelForComparison(model)
+                    }}
+                    disabled={!isSelected && selectedForComparison.length >= 4}
+                  >
+                    {isSelected ? (
+                      <Minus className="w-4 h-4" />
+                    ) : (
+                      <Plus className="w-4 h-4" />
+                    )}
+                  </Button>
                   <div className="flex-1">
                     <CardTitle className="text-lg group-hover:text-blue-600 transition-colors">
                       {model.name}
@@ -154,6 +229,11 @@ export default function ModelsPage() {
                     {model.isActive ? 'Active' : 'Inactive'}
                   </Badge>
                 </div>
+                {isSelected && (
+                  <Badge variant="default" className="mt-2 bg-blue-600">
+                    Selected for comparison
+                  </Badge>
+                )}
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-sm text-gray-600 line-clamp-2">
@@ -186,7 +266,8 @@ export default function ModelsPage() {
                 </div>
               </CardContent>
             </Card>
-          ))}
+            )
+          })}
         </div>
 
         {filteredModels.length === 0 && !loading && (
@@ -205,6 +286,14 @@ export default function ModelsPage() {
         model={selectedModel} 
         onClose={() => setSelectedModel(null)} 
       />
+
+      {/* Model Comparison Modal */}
+      {showComparison && selectedForComparison.length >= 2 && (
+        <ModelComparisonModal 
+          models={selectedForComparison}
+          onClose={() => setShowComparison(false)}
+        />
+      )}
     </div>
   )
 }

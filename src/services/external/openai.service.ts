@@ -30,9 +30,16 @@ export class OpenAIService {
   constructor() {
     this.apiKey = process.env.OPENAI_API_KEY || ''
     if (this.apiKey) {
-      this.client = new OpenAI({
+      const config: any = {
         apiKey: this.apiKey,
-      })
+      }
+      
+      // Allow browser environment in tests
+      if (process.env.NODE_ENV === 'test') {
+        config.dangerouslyAllowBrowser = true
+      }
+      
+      this.client = new OpenAI(config)
       console.log('✅ OpenAI client initialized')
     } else {
       console.warn('⚠️ OpenAI API key not configured')
@@ -241,6 +248,61 @@ export class OpenAIService {
   }
 
   /**
+   * Get models formatted for API sync
+   */
+  async getModels() {
+    if (!this.isConfigured()) {
+      console.warn('⚠️ OpenAI service not configured, returning hardcoded models');
+      return this.getHardcodedModels();
+    }
+
+    try {
+      const models = await this.getAvailableModels();
+      
+      // Filter to include only chat completion models
+      const chatModels = models.filter(model => 
+        model.id.includes('gpt-') && 
+        !model.id.includes('instruct') && 
+        !model.id.includes('embedding')
+      );
+
+      return chatModels.map(model => ({
+        id: model.id,
+        name: this.formatModelName(model.id),
+        ownedBy: model.ownedBy,
+        created: model.created,
+      }));
+    } catch (error) {
+      console.warn('⚠️ Failed to fetch OpenAI models, using hardcoded list');
+      return this.getHardcodedModels();
+    }
+  }
+
+  /**
+   * Get hardcoded OpenAI models when API is not available
+   */
+  private getHardcodedModels() {
+    return [
+      { id: 'gpt-4o', name: 'GPT-4o', ownedBy: 'system', created: new Date('2024-05-13') },
+      { id: 'gpt-4o-mini', name: 'GPT-4o mini', ownedBy: 'system', created: new Date('2024-07-18') },
+      { id: 'gpt-4-turbo', name: 'GPT-4 Turbo', ownedBy: 'system', created: new Date('2024-04-09') },
+      { id: 'gpt-3.5-turbo', name: 'GPT-3.5 Turbo', ownedBy: 'system', created: new Date('2023-03-01') },
+      { id: 'o1-preview', name: 'o1-preview', ownedBy: 'system', created: new Date('2024-09-12') },
+      { id: 'o1-mini', name: 'o1-mini', ownedBy: 'system', created: new Date('2024-09-12') },
+    ];
+  }
+
+  /**
+   * Format model name from ID
+   */
+  private formatModelName(id: string): string {
+    return id
+      .replace(/gpt-/g, 'GPT-')
+      .replace(/-/g, ' ')
+      .replace(/\b\w/g, l => l.toUpperCase());
+  }
+
+  /**
    * Sync model data with database
    */
   async syncWithDatabase() {
@@ -436,5 +498,5 @@ export class OpenAIService {
   }
 }
 
-// Export singleton instance
-export const openAIService = new OpenAIService()
+// Export singleton instance only if not in test environment
+export const openAIService = process.env.NODE_ENV === 'test' ? null : new OpenAIService()

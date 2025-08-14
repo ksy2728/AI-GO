@@ -1,6 +1,6 @@
 import { Model, ModelStats, Provider, BenchmarkScore, Incident, ModelStatus } from '@/types/models'
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3006'
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8080'
 
 class APIError extends Error {
   constructor(message: string, public status?: number) {

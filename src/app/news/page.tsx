@@ -6,6 +6,7 @@ import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Skeleton } from '@/components/ui/skeleton'
+import { NewsArticleModal } from '@/components/NewsArticleModal'
 import { formatRelativeTime } from '@/lib/utils'
 import {
   Search,
@@ -16,9 +17,7 @@ import {
   AlertCircle,
   Building,
   Users,
-  Calendar,
   Eye,
-  Filter,
   Clock
 } from 'lucide-react'
 
@@ -44,6 +43,7 @@ export default function NewsPage() {
   const [searchQuery, setSearchQuery] = useState('')
   const [selectedCategory, setSelectedCategory] = useState<string>('')
   const [selectedSource, setSelectedSource] = useState<string>('')
+  const [selectedArticle, setSelectedArticle] = useState<NewsArticle | null>(null)
 
   useEffect(() => {
     const fetchNews = async () => {
@@ -324,7 +324,10 @@ export default function NewsPage() {
                 <TrendingUp className="w-5 h-5 text-red-500" />
                 <Badge variant="destructive" className="text-xs">FEATURED</Badge>
               </div>
-              <CardTitle className="text-2xl hover:text-blue-600 transition-colors cursor-pointer">
+              <CardTitle 
+                className="text-2xl hover:text-blue-600 transition-colors cursor-pointer"
+                onClick={() => setSelectedArticle(filteredArticles[0])}
+              >
                 {filteredArticles[0].title}
               </CardTitle>
               <CardDescription className="text-base">
@@ -354,7 +357,10 @@ export default function NewsPage() {
                   </Badge>
                 ))}
               </div>
-              <Button className="w-full sm:w-auto">
+              <Button 
+                className="w-full sm:w-auto"
+                onClick={() => setSelectedArticle(filteredArticles[0])}
+              >
                 <ExternalLink className="w-4 h-4 mr-2" />
                 Read Full Article
               </Button>
@@ -376,7 +382,10 @@ export default function NewsPage() {
                     {formatRelativeTime(article.publishedAt)}
                   </div>
                 </div>
-                <CardTitle className="text-lg group-hover:text-blue-600 transition-colors line-clamp-2">
+                <CardTitle 
+                  className="text-lg group-hover:text-blue-600 transition-colors line-clamp-2 cursor-pointer"
+                  onClick={() => setSelectedArticle(article)}
+                >
                   {article.title}
                 </CardTitle>
                 <CardDescription className="line-clamp-3">
@@ -411,7 +420,11 @@ export default function NewsPage() {
                 </div>
 
                 <div className="pt-4 border-t">
-                  <Button variant="outline" className="w-full group-hover:bg-blue-50 group-hover:border-blue-300">
+                  <Button 
+                    variant="outline" 
+                    className="w-full group-hover:bg-blue-50 group-hover:border-blue-300"
+                    onClick={() => setSelectedArticle(article)}
+                  >
                     <ExternalLink className="w-4 h-4 mr-2" />
                     Read Article
                   </Button>
@@ -431,6 +444,12 @@ export default function NewsPage() {
           </div>
         )}
       </div>
+
+      {/* News Article Modal */}
+      <NewsArticleModal
+        article={selectedArticle}
+        onClose={() => setSelectedArticle(null)}
+      />
     </div>
   )
 }

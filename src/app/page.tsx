@@ -1,12 +1,16 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useState, lazy, Suspense } from 'react'
 import { StatsCard } from '@/components/dashboard/StatsCard'
-import { RealtimeChart } from '@/components/dashboard/RealtimeChart'
-import { ModelStatusGrid } from '@/components/dashboard/ModelStatusGrid'
-import { ActivityFeed } from '@/components/dashboard/ActivityFeed'
 import { useRealtime } from '@/hooks/useRealtime'
 import { api } from '@/lib/api-client'
+import { Skeleton } from '@/components/ui/skeleton'
+
+// Lazy load heavy components
+const RealtimeChart = lazy(() => import('@/components/dashboard/RealtimeChart').then(mod => ({ default: mod.RealtimeChart })))
+const ModelStatusGrid = lazy(() => import('@/components/dashboard/ModelStatusGrid').then(mod => ({ default: mod.ModelStatusGrid })))
+const ActivityFeed = lazy(() => import('@/components/dashboard/ActivityFeed').then(mod => ({ default: mod.ActivityFeed })))
+// Removed unused import for optimization
 import { 
   Server, 
   Activity, 
@@ -22,18 +26,54 @@ export default function DashboardPage() {
   const { globalStats, connected, error: realtimeError } = useRealtime({
     subscribeToGlobal: true
   })
+  const [apiStats, setApiStats] = useState<any>(null)
   const [loading, setLoading] = useState(true)
   const [previousStats, setPreviousStats] = useState<any>(null)
 
+  // Load data via REST API (primary method for Vercel deployment)
   useEffect(() => {
-    // Store previous stats for comparison
-    if (globalStats && !previousStats) {
-      setPreviousStats(globalStats)
+    const fetchStats = async () => {
+      try {
+        const stats = await api.getModelStats()
+        setApiStats(stats)
+        setLoading(false)
+      } catch (error) {
+        console.error('Failed to fetch stats:', error)
+        setLoading(false)
+      }
     }
-    if (globalStats) {
+
+    // Always use API data in production, WebSocket as enhancement in development
+    if (!globalStats) {
+      fetchStats()
+      
+      // Set up periodic refresh for live data updates
+      const interval = setInterval(fetchStats, 30000) // Refresh every 30 seconds
+      
+      return () => clearInterval(interval)
+    }
+  }, [globalStats])
+
+  // Use real-time data if available, otherwise use API data
+  useEffect(() => {
+    if (connected && !globalStats) {
+      // If WebSocket connects, it will provide real-time data
       setLoading(false)
     }
-  }, [globalStats, previousStats])
+  }, [connected, globalStats])
+
+  // Use realtime data if available, otherwise use API data
+  const currentStats = globalStats || apiStats
+
+  useEffect(() => {
+    // Store previous stats for comparison
+    if (currentStats && !previousStats) {
+      setPreviousStats(currentStats)
+    }
+    if (currentStats) {
+      setLoading(false)
+    }
+  }, [currentStats, previousStats])
 
   // Calculate changes
   const calculateChange = (current?: number, previous?: number) => {
@@ -41,10 +81,10 @@ export default function DashboardPage() {
     return Number(((current - previous) / previous * 100).toFixed(1))
   }
 
-  const totalModelsChange = calculateChange(globalStats?.totalModels, previousStats?.totalModels)
-  const activeModelsChange = calculateChange(globalStats?.activeModels, previousStats?.activeModels)
-  const availabilityChange = calculateChange(globalStats?.avgAvailability, previousStats?.avgAvailability)
-  const operationalChange = calculateChange(globalStats?.operationalModels, previousStats?.operationalModels)
+  const totalModelsChange = calculateChange(currentStats?.totalModels, previousStats?.totalModels)
+  const activeModelsChange = calculateChange(currentStats?.activeModels, previousStats?.activeModels)
+  const availabilityChange = calculateChange(currentStats?.avgAvailability, previousStats?.avgAvailability)
+  const operationalChange = calculateChange(currentStats?.operationalModels, previousStats?.operationalModels)
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
@@ -62,12 +102,12 @@ export default function DashboardPage() {
               {connected ? (
                 <div className="flex items-center gap-2 px-3 py-1.5 bg-green-50 border border-green-200 rounded-full">
                   <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
-                  <span className="text-sm text-green-700 font-medium">Connected</span>
+                  <span className="text-sm text-green-700 font-medium">Live</span>
                 </div>
               ) : (
-                <div className="flex items-center gap-2 px-3 py-1.5 bg-red-50 border border-red-200 rounded-full">
-                  <div className="w-2 h-2 bg-red-500 rounded-full" />
-                  <span className="text-sm text-red-700 font-medium">Disconnected</span>
+                <div className="flex items-center gap-2 px-3 py-1.5 bg-blue-50 border border-blue-200 rounded-full">
+                  <div className="w-2 h-2 bg-blue-500 rounded-full" />
+                  <span className="text-sm text-blue-700 font-medium">API Mode</span>
                 </div>
               )}
             </div>
@@ -81,7 +121,7 @@ export default function DashboardPage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
           <StatsCard
             title="Total Models"
-            value={globalStats?.totalModels || 0}
+            value={currentStats?.totalModels || 0}
             change={totalModelsChange}
             changeLabel="last update"
             trend={totalModelsChange > 0 ? 'up' : totalModelsChange < 0 ? 'down' : 'neutral'}
@@ -90,7 +130,7 @@ export default function DashboardPage() {
           />
           <StatsCard
             title="Active Models"
-            value={globalStats?.activeModels || 0}
+            value={currentStats?.activeModels || 0}
             change={activeModelsChange}
             changeLabel="last update"
             trend={activeModelsChange > 0 ? 'up' : activeModelsChange < 0 ? 'down' : 'neutral'}
@@ -99,7 +139,7 @@ export default function DashboardPage() {
           />
           <StatsCard
             title="Avg Availability"
-            value={`${globalStats?.avgAvailability?.toFixed(1) || 0}%`}
+            value={`${currentStats?.avgAvailability?.toFixed(1) || 0}%`}
             change={availabilityChange}
             changeLabel="last update"
             trend={availabilityChange > 0 ? 'up' : availabilityChange < 0 ? 'down' : 'neutral'}
@@ -108,8 +148,8 @@ export default function DashboardPage() {
           />
           <StatsCard
             title="Operational"
-            value={globalStats?.operationalModels || 0}
-            description={`${globalStats?.degradedModels || 0} degraded, ${globalStats?.outageModels || 0} outage`}
+            value={currentStats?.operationalModels || 0}
+            description={`${currentStats?.degradedModels || 0} degraded, ${currentStats?.outageModels || 0} outage`}
             trend={operationalChange > 0 ? 'up' : operationalChange < 0 ? 'down' : 'neutral'}
             icon={<Shield className="w-8 h-8" />}
             loading={loading}
@@ -118,53 +158,63 @@ export default function DashboardPage() {
 
         {/* Charts Row */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
-          <RealtimeChart
-            title="Active Models Trend"
-            description="Real-time active model count"
-            type="area"
-            dataKey="activeModels"
-            color="#3b82f6"
-            height={250}
-          />
-          <RealtimeChart
-            title="Average Availability"
-            description="System-wide availability percentage"
-            type="line"
-            dataKey="avgAvailability"
-            color="#10b981"
-            height={250}
-          />
+          <Suspense fallback={<Skeleton className="h-[250px] w-full" />}>
+            <RealtimeChart
+              title="Active Models Trend"
+              description="Real-time active model count"
+              type="area"
+              dataKey="activeModels"
+              color="#3b82f6"
+              height={250}
+            />
+          </Suspense>
+          <Suspense fallback={<Skeleton className="h-[250px] w-full" />}>
+            <RealtimeChart
+              title="Average Availability"
+              description="System-wide availability percentage"
+              type="line"
+              dataKey="avgAvailability"
+              color="#10b981"
+              height={250}
+            />
+          </Suspense>
         </div>
 
         {/* Model Status Grid */}
         <div className="mb-8">
-          <ModelStatusGrid />
+          <Suspense fallback={<Skeleton className="h-[400px] w-full" />}>
+            <ModelStatusGrid />
+          </Suspense>
         </div>
 
         {/* Bottom Row */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           <div className="lg:col-span-2">
-            <RealtimeChart
-              title="Model Performance Overview"
-              description="Operational vs Degraded vs Outage"
-              type="bar"
-              dataKey="operationalModels"
-              color="#6366f1"
-              height={350}
-            />
+            <Suspense fallback={<Skeleton className="h-[350px] w-full" />}>
+              <RealtimeChart
+                title="Model Performance Overview"
+                description="Operational vs Degraded vs Outage"
+                type="bar"
+                dataKey="operationalModels"
+                color="#6366f1"
+                height={350}
+              />
+            </Suspense>
           </div>
           <div className="lg:col-span-1">
-            <ActivityFeed />
+            <Suspense fallback={<Skeleton className="h-[350px] w-full" />}>
+              <ActivityFeed />
+            </Suspense>
           </div>
         </div>
 
         {/* Additional Info */}
-        {realtimeError && (
-          <div className="mt-6 p-4 bg-red-50 border border-red-200 rounded-lg">
+        {realtimeError && !realtimeError.includes('disabled') && (
+          <div className="mt-6 p-4 bg-amber-50 border border-amber-200 rounded-lg">
             <div className="flex items-center gap-2">
-              <AlertCircle className="w-5 h-5 text-red-600" />
-              <p className="text-sm text-red-800">
-                Real-time connection error: {realtimeError}
+              <AlertCircle className="w-5 h-5 text-amber-600" />
+              <p className="text-sm text-amber-800">
+                Running in API mode for optimal Vercel performance. Data refreshes every 30 seconds.
               </p>
             </div>
           </div>

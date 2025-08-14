@@ -1,13 +1,24 @@
 {
   "build": {
     "env": {
-      "DATABASE_URL": "@database_url",
-      "FRONTEND_URL": "@frontend_url"
+      "NODE_ENV": "production"
     }
   },
+  "crons": [
+    {
+      "path": "/api/cron/sync-temp-data",
+      "schedule": "0 6 * * *"
+    }
+  ],
   "functions": {
     "src/app/api/**/*.ts": {
       "maxDuration": 30
+    },
+    "src/app/api/cron/sync-temp-data/route.ts": {
+      "maxDuration": 300
+    },
+    "src/app/api/v1/sync/temp-data/route.ts": {
+      "maxDuration": 300
     }
   },
   "headers": [

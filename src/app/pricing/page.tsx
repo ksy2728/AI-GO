@@ -6,17 +6,15 @@ import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Skeleton } from '@/components/ui/skeleton'
+import { PricingDetailModal } from '@/components/PricingDetailModal'
 import { formatNumber } from '@/lib/utils'
 import {
   Search,
   DollarSign,
-  TrendingUp,
-  TrendingDown,
   Calculator,
   ExternalLink,
   Info,
   Zap,
-  Clock,
   Users,
   Shield,
   Star,
@@ -53,6 +51,7 @@ export default function PricingPage() {
   const [searchQuery, setSearchQuery] = useState('')
   const [selectedProvider, setSelectedProvider] = useState<string>('')
   const [selectedTier, setSelectedTier] = useState<string>('')
+  const [selectedPricing, setSelectedPricing] = useState<PricingTier | null>(null)
   const [calculator, setCalculator] = useState<UsageCalculator>({
     monthlyInputTokens: 100000, // 100K tokens
     monthlyOutputTokens: 50000,  // 50K tokens
@@ -477,7 +476,10 @@ export default function PricingPage() {
                 <CardHeader>
                   <div className="flex items-start justify-between">
                     <div className="flex-1">
-                      <CardTitle className="text-lg group-hover:text-blue-600 transition-colors">
+                      <CardTitle 
+                        className="text-lg group-hover:text-blue-600 transition-colors cursor-pointer"
+                        onClick={() => setSelectedPricing(pricing)}
+                      >
                         {pricing.modelName}
                       </CardTitle>
                       <CardDescription className="mt-1">
@@ -577,7 +579,11 @@ export default function PricingPage() {
                   )}
 
                   <div className="pt-4 border-t">
-                    <Button variant="outline" className="w-full group-hover:bg-blue-50 group-hover:border-blue-300">
+                    <Button 
+                      variant="outline" 
+                      className="w-full group-hover:bg-blue-50 group-hover:border-blue-300"
+                      onClick={() => setSelectedPricing(pricing)}
+                    >
                       <ExternalLink className="w-4 h-4 mr-2" />
                       View Pricing Details
                     </Button>
@@ -630,6 +636,12 @@ export default function PricingPage() {
           </CardContent>
         </Card>
       </div>
+
+      {/* Pricing Detail Modal */}
+      <PricingDetailModal
+        pricing={selectedPricing}
+        onClose={() => setSelectedPricing(null)}
+      />
     </div>
   )
 }

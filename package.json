@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "node server.js",
     "dev:next": "next dev --turbopack",
-    "build": "next build",
+    "build": "prisma generate && next build",
     "build:static": "next build && next export",
     "start": "NODE_ENV=production node server.js",
     "start:vercel": "next start",
@@ -40,6 +40,7 @@
     "@radix-ui/react-progress": "^1.1.7",
     "@radix-ui/react-scroll-area": "^1.2.10",
     "@radix-ui/react-select": "^2.2.5",
+    "@radix-ui/react-separator": "^1.1.7",
     "@radix-ui/react-slot": "^1.1.1",
     "@radix-ui/react-tabs": "^1.1.13",
     "@tanstack/react-query": "^5.62.11",
@@ -87,6 +88,7 @@
     "@typescript-eslint/eslint-plugin": "^8.22.0",
     "@typescript-eslint/parser": "^8.22.0",
     "autoprefixer": "^10.4.20",
+    "critters": "^0.0.23",
     "eslint": "^9.17.0",
     "eslint-config-next": "15.1.0",
     "eslint-config-prettier": "^10.0.1",
@@ -100,8 +102,5 @@
     "ts-jest": "^29.4.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.2"
-  },
-  "prisma": {
-    "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
   }
 }
