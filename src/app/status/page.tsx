@@ -62,16 +62,21 @@ export default function StatusPage() {
         const modelsData = await modelsResponse.json()
 
         // Transform models data to match status page format
-        const models = modelsData.data?.map((model: any, index: number) => ({
-          id: model.id || `model-${index}`,
-          name: model.name,
-          provider: model.provider?.name || 'Unknown',
-          status: model.status?.status || (model.isActive ? 'operational' : 'unknown'),
-          availability: model.availability || 99.5,
-          latency: Math.floor(Math.random() * 200) + 50, // Simulated latency
-          lastChecked: model.lastUpdate || new Date().toISOString(),
-          region: 'Global' // Default region
-        })).filter((model: any) => model.status !== 'unknown') || []
+        const models = modelsData.models?.map((model: any, index: number) => {
+          // Handle both single status object and array of status objects
+          const statusObj = Array.isArray(model.status) ? model.status[0] : model.status
+          
+          return {
+            id: model.id || `model-${index}`,
+            name: model.name,
+            provider: model.provider?.name || model.providerId || 'Unknown',
+            status: statusObj?.status || (model.isActive ? 'operational' : 'unknown'),
+            availability: statusObj?.availability || model.availability || 99.5,
+            latency: statusObj?.latencyP50 || Math.floor(Math.random() * 200) + 50,
+            lastChecked: statusObj?.checkedAt || model.lastUpdate || new Date().toISOString(),
+            region: statusObj?.region || 'Global'
+          }
+        }).filter((model: any) => model.status !== 'unknown') || []
 
         setStatusData({
           overall: {
@@ -85,15 +90,22 @@ export default function StatusPage() {
         })
       } catch (error) {
         console.error('Failed to fetch status data:', error)
-        // Fallback to empty data
+        // Fallback with error information
         setStatusData({
           overall: {
-            status: 'operational',
-            availability: 99.5,
+            status: 'degraded',
+            availability: 0,
             lastUpdated: new Date().toISOString()
           },
           models: [],
-          incidents: []
+          incidents: [{
+            id: 'error-1',
+            title: 'Failed to load status data',
+            status: 'investigating' as const,
+            severity: 'major' as const,
+            startedAt: new Date().toISOString(),
+            description: 'Unable to fetch model status information. Please refresh the page or try again later.'
+          }]
         })
       } finally {
         setLoading(false)
