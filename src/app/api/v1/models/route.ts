@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server'
 import { ModelService } from '@/services/models.service'
 import { TempDataService } from '@/services/temp-data.service'
+import { GitHubDataService } from '@/services/github-data.service'
 
 export async function GET(request: Request) {
   try {
@@ -58,13 +59,29 @@ export async function GET(request: Request) {
       filters.capabilities = [capability]
     }
 
-    // Try database first, fallback to temporary data
+    // Data source priority: GitHub > Database > TempData
     let models: any[] = []
+    let dataSource = 'github'
+    
     try {
-      models = (await ModelService.getAll(filters)) as any[]
-    } catch (error) {
-      console.warn('⚠️ Database service failed, using temporary data:', error instanceof Error ? error.message : 'Unknown error')
-      models = (await TempDataService.getAllModels(filters)) as any[]
+      // Try GitHub data first (preferred for consistency)
+      models = await GitHubDataService.getAllModels(filters)
+      console.log('📦 Using GitHub data source')
+    } catch (githubError) {
+      console.warn('⚠️ GitHub data failed, trying database:', githubError instanceof Error ? githubError.message : 'Unknown error')
+      
+      try {
+        // Fallback to database
+        models = (await ModelService.getAll(filters)) as any[]
+        dataSource = 'database'
+        console.log('🗄️ Using database source')
+      } catch (dbError) {
+        console.warn('⚠️ Database failed, using temporary data:', dbError instanceof Error ? dbError.message : 'Unknown error')
+        // Final fallback to temporary data
+        models = (await TempDataService.getAllModels(filters)) as any[]
+        dataSource = 'temp-data'
+        console.log('📝 Using temporary data source')
+      }
     }
 
     // Filter by modality and capability if needed (client-side filtering for complex JSON fields)
@@ -86,11 +103,13 @@ export async function GET(request: Request) {
       )
     }
     
-    // Filter models by providers with API keys
-    filteredModels = filteredModels.filter((model: any) => {
-      const providerSlug = model.provider?.slug || model.providerId
-      return providersWithApiKeys.has(providerSlug)
-    })
+    // Filter models by providers with API keys (only if not using GitHub data which is pre-filtered)
+    if (dataSource !== 'github') {
+      filteredModels = filteredModels.filter((model: any) => {
+        const providerSlug = model.provider?.slug || model.providerId
+        return providersWithApiKeys.has(providerSlug)
+      })
+    }
 
     return NextResponse.json({
       models: filteredModels,
@@ -98,7 +117,8 @@ export async function GET(request: Request) {
       limit,
       offset,
       timestamp: new Date().toISOString(),
-      cached: false, // This will be set by the service layer
+      dataSource, // Include data source in response
+      cached: dataSource === 'github', // GitHub data is cached
     })
   } catch (error) {
     console.error('❌ Error in models API:', error)

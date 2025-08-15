@@ -1,0 +1,60 @@
+name: Update Model Data
+
+on:
+  schedule:
+    # Run every 6 hours (4 times a day)
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Allow manual trigger
+  push:
+    branches:
+      - main
+    paths:
+      - 'prisma/schema.prisma'
+      - 'scripts/export-to-json.js'
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Setup database
+        run: |
+          npx prisma generate
+          npx prisma db push
+      
+      - name: Seed database (if needed)
+        run: |
+          if [ -f "prisma/seed.ts" ]; then
+            npx tsx prisma/seed.ts
+          fi
+      
+      - name: Export data to JSON
+        run: node scripts/export-to-json.js
+      
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git diff --quiet data/ || echo "changed=true" >> $GITHUB_OUTPUT
+      
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/
+          git commit -m "chore: update model data [skip ci]"
+          git push

@@ -1,0 +1,2169 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-08-15T01:01:31.445Z",
+  "providers": [
+    {
+      "id": "d1bc7be5-7ca8-4e90-a733-c8ecadad1231",
+      "name": "OpenAI",
+      "slug": "openai",
+      "websiteUrl": "https://openai.com",
+      "documentationUrl": "https://platform.openai.com/docs",
+      "regions": [
+        "us-east-1",
+        "eu-west-1"
+      ]
+    },
+    {
+      "id": "b91aef76-6254-4f34-9607-453eff3aa990",
+      "name": "Google AI",
+      "slug": "google",
+      "websiteUrl": "https://ai.google",
+      "documentationUrl": "https://ai.google.dev",
+      "regions": [
+        "us-central1",
+        "europe-west4",
+        "asia-northeast1"
+      ]
+    },
+    {
+      "id": "baf1ca42-c081-4069-b9a7-4bff66656be1",
+      "name": "Meta AI",
+      "slug": "meta",
+      "websiteUrl": "https://ai.meta.com",
+      "documentationUrl": "https://llama.meta.com",
+      "regions": [
+        "global"
+      ]
+    },
+    {
+      "id": "df8a9652-3f5e-4d3d-9c11-c875533d5a40",
+      "name": "Anthropic",
+      "slug": "anthropic",
+      "websiteUrl": "https://anthropic.com",
+      "documentationUrl": "https://docs.anthropic.com",
+      "regions": [
+        "us-east-1",
+        "eu-west-1"
+      ]
+    }
+  ],
+  "models": [
+    {
+      "id": "5770e2b2-e657-46ac-b82b-d8ffc661f519",
+      "slug": "openai-gpt-4o",
+      "name": "GPT-4o",
+      "description": "Most advanced multimodal flagship model",
+      "provider": {
+        "id": "d1bc7be5-7ca8-4e90-a733-c8ecadad1231",
+        "name": "OpenAI",
+        "slug": "openai",
+        "websiteUrl": "https://openai.com",
+        "documentationUrl": "https://platform.openai.com/docs",
+        "regions": [
+          "us-east-1",
+          "eu-west-1"
+        ]
+      },
+      "foundationModel": "gpt-4o",
+      "releasedAt": "2024-05-13T00:00:00.000Z",
+      "deprecatedAt": null,
+      "sunsetAt": null,
+      "modalities": [
+        "text",
+        "vision",
+        "audio"
+      ],
+      "capabilities": [
+        "chat",
+        "analysis",
+        "coding",
+        "vision",
+        "function-calling",
+        "json-mode"
+      ],
+      "contextWindow": 128000,
+      "maxOutputTokens": 16384,
+      "trainingCutoff": "2023-10-01T00:00:00.000Z",
+      "apiVersion": "2024-08-06",
+      "isActive": true,
+      "status": {
+        "status": "operational",
+        "availability": 99.9,
+        "latencyP50": 83,
+        "latencyP95": 169,
+        "latencyP99": 356,
+        "errorRate": 0.07910871790202133,
+        "requestsPerMin": 4201,
+        "tokensPerMin": 852804,
+        "usage": 0.8879625982880501,
+        "checkedAt": "2025-08-14T13:02:45.715Z"
+      },
+      "pricing": {
+        "tier": "standard",
+        "currency": "USD",
+        "inputPerMillion": 2.5,
+        "outputPerMillion": 10,
+        "imagePerUnit": 0,
+        "audioPerMinute": 0,
+        "videoPerMinute": null,
+        "effectiveFrom": "2025-08-14T13:02:45.379Z"
+      },
+      "benchmarks": [
+        {
+          "suite": "MMLU",
+          "suiteSlug": "mmlu",
+          "score": 88.7,
+          "normalizedScore": 0.887,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:45.462Z",
+          "isOfficial": true
+        },
+        {
+          "suite": "HumanEval",
+          "suiteSlug": "humaneval",
+          "score": 90.2,
+          "normalizedScore": 0.902,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:45.548Z",
+          "isOfficial": true
+        },
+        {
+          "suite": "GPQA",
+          "suiteSlug": "gpqa",
+          "score": 53.6,
+          "normalizedScore": 0.536,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:45.628Z",
+          "isOfficial": true
+        }
+      ],
+      "createdAt": "2025-08-14T13:02:45.298Z",
+      "updatedAt": "2025-08-14T13:02:45.298Z"
+    },
+    {
+      "id": "94b7ab4b-9556-4324-9714-993381eac36c",
+      "slug": "openai-gpt-4o-mini",
+      "name": "GPT-4o mini",
+      "description": "Affordable small model for fast tasks",
+      "provider": {
+        "id": "d1bc7be5-7ca8-4e90-a733-c8ecadad1231",
+        "name": "OpenAI",
+        "slug": "openai",
+        "websiteUrl": "https://openai.com",
+        "documentationUrl": "https://platform.openai.com/docs",
+        "regions": [
+          "us-east-1",
+          "eu-west-1"
+        ]
+      },
+      "foundationModel": "gpt-4o-mini",
+      "releasedAt": "2024-07-18T00:00:00.000Z",
+      "deprecatedAt": null,
+      "sunsetAt": null,
+      "modalities": [
+        "text",
+        "vision"
+      ],
+      "capabilities": [
+        "chat",
+        "analysis",
+        "coding",
+        "vision",
+        "function-calling"
+      ],
+      "contextWindow": 128000,
+      "maxOutputTokens": 16384,
+      "trainingCutoff": "2023-10-01T00:00:00.000Z",
+      "apiVersion": "2024-07-18",
+      "isActive": true,
+      "status": {
+        "status": "operational",
+        "availability": 99.9,
+        "latencyP50": 63,
+        "latencyP95": 161,
+        "latencyP99": 302,
+        "errorRate": 0.01315385021903908,
+        "requestsPerMin": 7905,
+        "tokensPerMin": 616345,
+        "usage": 48.31096138828141,
+        "checkedAt": "2025-08-14T13:02:46.140Z"
+      },
+      "pricing": {
+        "tier": "standard",
+        "currency": "USD",
+        "inputPerMillion": 0.15,
+        "outputPerMillion": 0.6,
+        "imagePerUnit": 0,
+        "audioPerMinute": 0,
+        "videoPerMinute": null,
+        "effectiveFrom": "2025-08-14T13:02:45.887Z"
+      },
+      "benchmarks": [
+        {
+          "suite": "MMLU",
+          "suiteSlug": "mmlu",
+          "score": 82,
+          "normalizedScore": 0.82,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:45.970Z",
+          "isOfficial": true
+        },
+        {
+          "suite": "HumanEval",
+          "suiteSlug": "humaneval",
+          "score": 87.2,
+          "normalizedScore": 0.872,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:46.057Z",
+          "isOfficial": true
+        }
+      ],
+      "createdAt": "2025-08-14T13:02:45.788Z",
+      "updatedAt": "2025-08-14T13:02:45.788Z"
+    },
+    {
+      "id": "2d95e0a6-98a4-4082-ad75-6990e3531c5b",
+      "slug": "openai-gpt-4-turbo",
+      "name": "GPT-4 Turbo",
+      "description": "Previous generation flagship model",
+      "provider": {
+        "id": "d1bc7be5-7ca8-4e90-a733-c8ecadad1231",
+        "name": "OpenAI",
+        "slug": "openai",
+        "websiteUrl": "https://openai.com",
+        "documentationUrl": "https://platform.openai.com/docs",
+        "regions": [
+          "us-east-1",
+          "eu-west-1"
+        ]
+      },
+      "foundationModel": "gpt-4-turbo-preview",
+      "releasedAt": "2024-01-25T00:00:00.000Z",
+      "deprecatedAt": null,
+      "sunsetAt": null,
+      "modalities": [
+        "text",
+        "vision"
+      ],
+      "capabilities": [
+        "chat",
+        "analysis",
+        "coding",
+        "vision",
+        "function-calling"
+      ],
+      "contextWindow": 128000,
+      "maxOutputTokens": 4096,
+      "trainingCutoff": "2023-12-01T00:00:00.000Z",
+      "apiVersion": "2024-01-25",
+      "isActive": true,
+      "status": {
+        "status": "operational",
+        "availability": 99.9,
+        "latencyP50": 134,
+        "latencyP95": 283,
+        "latencyP99": 279,
+        "errorRate": 0.0725483088753623,
+        "requestsPerMin": 1033,
+        "tokensPerMin": 431090,
+        "usage": 19.08114277492849,
+        "checkedAt": "2025-08-14T13:02:46.548Z"
+      },
+      "pricing": {
+        "tier": "standard",
+        "currency": "USD",
+        "inputPerMillion": 10,
+        "outputPerMillion": 30,
+        "imagePerUnit": 0,
+        "audioPerMinute": 0,
+        "videoPerMinute": null,
+        "effectiveFrom": "2025-08-14T13:02:46.303Z"
+      },
+      "benchmarks": [
+        {
+          "suite": "MMLU",
+          "suiteSlug": "mmlu",
+          "score": 86.5,
+          "normalizedScore": 0.865,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:46.386Z",
+          "isOfficial": true
+        },
+        {
+          "suite": "HumanEval",
+          "suiteSlug": "humaneval",
+          "score": 85.4,
+          "normalizedScore": 0.8540000000000001,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:46.457Z",
+          "isOfficial": true
+        }
+      ],
+      "createdAt": "2025-08-14T13:02:46.230Z",
+      "updatedAt": "2025-08-14T13:02:46.230Z"
+    },
+    {
+      "id": "6fa355c0-774a-4eeb-812c-9bbc142260ba",
+      "slug": "openai-gpt-3.5-turbo",
+      "name": "GPT-3.5 Turbo",
+      "description": "Fast and cost-effective model",
+      "provider": {
+        "id": "d1bc7be5-7ca8-4e90-a733-c8ecadad1231",
+        "name": "OpenAI",
+        "slug": "openai",
+        "websiteUrl": "https://openai.com",
+        "documentationUrl": "https://platform.openai.com/docs",
+        "regions": [
+          "us-east-1",
+          "eu-west-1"
+        ]
+      },
+      "foundationModel": "gpt-3.5-turbo-0125",
+      "releasedAt": "2023-01-25T00:00:00.000Z",
+      "deprecatedAt": null,
+      "sunsetAt": null,
+      "modalities": [
+        "text"
+      ],
+      "capabilities": [
+        "chat",
+        "analysis",
+        "coding",
+        "function-calling"
+      ],
+      "contextWindow": 16385,
+      "maxOutputTokens": 4096,
+      "trainingCutoff": "2021-09-01T00:00:00.000Z",
+      "apiVersion": "2024-01-25",
+      "isActive": true,
+      "status": {
+        "status": "operational",
+        "availability": 99.9,
+        "latencyP50": 77,
+        "latencyP95": 251,
+        "latencyP99": 269,
+        "errorRate": 0.01508464223662875,
+        "requestsPerMin": 5389,
+        "tokensPerMin": 576878,
+        "usage": 21.86942313125735,
+        "checkedAt": "2025-08-14T13:02:46.978Z"
+      },
+      "pricing": {
+        "tier": "standard",
+        "currency": "USD",
+        "inputPerMillion": 0.5,
+        "outputPerMillion": 1.5,
+        "imagePerUnit": 0,
+        "audioPerMinute": 0,
+        "videoPerMinute": null,
+        "effectiveFrom": "2025-08-14T13:02:46.730Z"
+      },
+      "benchmarks": [
+        {
+          "suite": "MMLU",
+          "suiteSlug": "mmlu",
+          "score": 70,
+          "normalizedScore": 0.7,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:46.820Z",
+          "isOfficial": true
+        },
+        {
+          "suite": "HumanEval",
+          "suiteSlug": "humaneval",
+          "score": 48.1,
+          "normalizedScore": 0.481,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:46.898Z",
+          "isOfficial": true
+        }
+      ],
+      "createdAt": "2025-08-14T13:02:46.638Z",
+      "updatedAt": "2025-08-14T13:02:46.638Z"
+    },
+    {
+      "id": "c2c8fe54-405b-41e0-aa15-b76261640b58",
+      "slug": "openai-o1-preview",
+      "name": "o1-preview",
+      "description": "Reasoning model for complex tasks",
+      "provider": {
+        "id": "d1bc7be5-7ca8-4e90-a733-c8ecadad1231",
+        "name": "OpenAI",
+        "slug": "openai",
+        "websiteUrl": "https://openai.com",
+        "documentationUrl": "https://platform.openai.com/docs",
+        "regions": [
+          "us-east-1",
+          "eu-west-1"
+        ]
+      },
+      "foundationModel": "o1-preview",
+      "releasedAt": "2024-09-12T00:00:00.000Z",
+      "deprecatedAt": null,
+      "sunsetAt": null,
+      "modalities": [
+        "text"
+      ],
+      "capabilities": [
+        "reasoning",
+        "analysis",
+        "coding",
+        "math"
+      ],
+      "contextWindow": 128000,
+      "maxOutputTokens": 32768,
+      "trainingCutoff": "2023-10-01T00:00:00.000Z",
+      "apiVersion": "2024-09-12",
+      "isActive": true,
+      "status": {
+        "status": "operational",
+        "availability": 99.9,
+        "latencyP50": 51,
+        "latencyP95": 212,
+        "latencyP99": 200,
+        "errorRate": 0.02783069478388827,
+        "requestsPerMin": 581,
+        "tokensPerMin": 433430,
+        "usage": 62.33410833076034,
+        "checkedAt": "2025-08-14T13:02:47.473Z"
+      },
+      "pricing": {
+        "tier": "standard",
+        "currency": "USD",
+        "inputPerMillion": 15,
+        "outputPerMillion": 60,
+        "imagePerUnit": 0,
+        "audioPerMinute": 0,
+        "videoPerMinute": null,
+        "effectiveFrom": "2025-08-14T13:02:47.153Z"
+      },
+      "benchmarks": [
+        {
+          "suite": "MMLU",
+          "suiteSlug": "mmlu",
+          "score": 90.8,
+          "normalizedScore": 0.9079999999999999,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:47.236Z",
+          "isOfficial": true
+        },
+        {
+          "suite": "HumanEval",
+          "suiteSlug": "humaneval",
+          "score": 92.4,
+          "normalizedScore": 0.924,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:47.323Z",
+          "isOfficial": true
+        },
+        {
+          "suite": "MATH",
+          "suiteSlug": "math",
+          "score": 94.8,
+          "normalizedScore": 0.948,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:47.398Z",
+          "isOfficial": true
+        }
+      ],
+      "createdAt": "2025-08-14T13:02:47.071Z",
+      "updatedAt": "2025-08-14T13:02:47.071Z"
+    },
+    {
+      "id": "e007d92c-b4d9-4610-818c-fb5a0b3ed9f2",
+      "slug": "openai-o1-mini",
+      "name": "o1-mini",
+      "description": "Faster reasoning model",
+      "provider": {
+        "id": "d1bc7be5-7ca8-4e90-a733-c8ecadad1231",
+        "name": "OpenAI",
+        "slug": "openai",
+        "websiteUrl": "https://openai.com",
+        "documentationUrl": "https://platform.openai.com/docs",
+        "regions": [
+          "us-east-1",
+          "eu-west-1"
+        ]
+      },
+      "foundationModel": "o1-mini",
+      "releasedAt": "2024-09-12T00:00:00.000Z",
+      "deprecatedAt": null,
+      "sunsetAt": null,
+      "modalities": [
+        "text"
+      ],
+      "capabilities": [
+        "reasoning",
+        "analysis",
+        "coding",
+        "math"
+      ],
+      "contextWindow": 128000,
+      "maxOutputTokens": 65536,
+      "trainingCutoff": "2023-10-01T00:00:00.000Z",
+      "apiVersion": "2024-09-12",
+      "isActive": true,
+      "status": {
+        "status": "operational",
+        "availability": 99.9,
+        "latencyP50": 131,
+        "latencyP95": 230,
+        "latencyP99": 301,
+        "errorRate": 0.00822872162990882,
+        "requestsPerMin": 4749,
+        "tokensPerMin": 531028,
+        "usage": 84.87900677785044,
+        "checkedAt": "2025-08-14T13:02:47.940Z"
+      },
+      "pricing": {
+        "tier": "standard",
+        "currency": "USD",
+        "inputPerMillion": 3,
+        "outputPerMillion": 12,
+        "imagePerUnit": 0,
+        "audioPerMinute": 0,
+        "videoPerMinute": null,
+        "effectiveFrom": "2025-08-14T13:02:47.629Z"
+      },
+      "benchmarks": [
+        {
+          "suite": "MMLU",
+          "suiteSlug": "mmlu",
+          "score": 85.2,
+          "normalizedScore": 0.852,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:47.712Z",
+          "isOfficial": true
+        },
+        {
+          "suite": "HumanEval",
+          "suiteSlug": "humaneval",
+          "score": 86.2,
+          "normalizedScore": 0.862,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:47.781Z",
+          "isOfficial": true
+        },
+        {
+          "suite": "MATH",
+          "suiteSlug": "math",
+          "score": 90,
+          "normalizedScore": 0.9,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:47.865Z",
+          "isOfficial": true
+        }
+      ],
+      "createdAt": "2025-08-14T13:02:47.547Z",
+      "updatedAt": "2025-08-14T13:02:47.547Z"
+    },
+    {
+      "id": "7a7ed2ff-9217-4fa4-9cad-b72ede34b993",
+      "slug": "openai-dall-e-3",
+      "name": "DALL·E 3",
+      "description": "Advanced text-to-image model",
+      "provider": {
+        "id": "d1bc7be5-7ca8-4e90-a733-c8ecadad1231",
+        "name": "OpenAI",
+        "slug": "openai",
+        "websiteUrl": "https://openai.com",
+        "documentationUrl": "https://platform.openai.com/docs",
+        "regions": [
+          "us-east-1",
+          "eu-west-1"
+        ]
+      },
+      "foundationModel": "dall-e-3",
+      "releasedAt": "2023-10-01T00:00:00.000Z",
+      "deprecatedAt": null,
+      "sunsetAt": null,
+      "modalities": [
+        "image"
+      ],
+      "capabilities": [
+        "image-generation",
+        "text-to-image"
+      ],
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "trainingCutoff": null,
+      "apiVersion": null,
+      "isActive": true,
+      "status": {
+        "status": "operational",
+        "availability": 99.9,
+        "latencyP50": 61,
+        "latencyP95": 268,
+        "latencyP99": 424,
+        "errorRate": 0.01813544183269522,
+        "requestsPerMin": 7267,
+        "tokensPerMin": 966222,
+        "usage": 65.01898668445666,
+        "checkedAt": "2025-08-14T13:02:48.170Z"
+      },
+      "pricing": {
+        "tier": "standard",
+        "currency": "USD",
+        "inputPerMillion": 0,
+        "outputPerMillion": 0,
+        "imagePerUnit": 0.04,
+        "audioPerMinute": 0,
+        "videoPerMinute": null,
+        "effectiveFrom": "2025-08-14T13:02:48.087Z"
+      },
+      "benchmarks": [],
+      "createdAt": "2025-08-14T13:02:48.013Z",
+      "updatedAt": "2025-08-14T13:02:48.013Z"
+    },
+    {
+      "id": "fa7b3f63-f023-4134-b02a-fc2deb165b71",
+      "slug": "openai-whisper-1",
+      "name": "Whisper",
+      "description": "Speech to text model",
+      "provider": {
+        "id": "d1bc7be5-7ca8-4e90-a733-c8ecadad1231",
+        "name": "OpenAI",
+        "slug": "openai",
+        "websiteUrl": "https://openai.com",
+        "documentationUrl": "https://platform.openai.com/docs",
+        "regions": [
+          "us-east-1",
+          "eu-west-1"
+        ]
+      },
+      "foundationModel": "whisper-1",
+      "releasedAt": "2023-03-01T00:00:00.000Z",
+      "deprecatedAt": null,
+      "sunsetAt": null,
+      "modalities": [
+        "audio"
+      ],
+      "capabilities": [
+        "speech-to-text",
+        "transcription",
+        "translation"
+      ],
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "trainingCutoff": null,
+      "apiVersion": null,
+      "isActive": true,
+      "status": {
+        "status": "operational",
+        "availability": 99.9,
+        "latencyP50": 145,
+        "latencyP95": 159,
+        "latencyP99": 163,
+        "errorRate": 0.06214835458502497,
+        "requestsPerMin": 45,
+        "tokensPerMin": 425197,
+        "usage": 70.41877329833824,
+        "checkedAt": "2025-08-14T13:02:48.404Z"
+      },
+      "pricing": {
+        "tier": "standard",
+        "currency": "USD",
+        "inputPerMillion": 0,
+        "outputPerMillion": 0,
+        "imagePerUnit": 0,
+        "audioPerMinute": 0.006,
+        "videoPerMinute": null,
+        "effectiveFrom": "2025-08-14T13:02:48.320Z"
+      },
+      "benchmarks": [],
+      "createdAt": "2025-08-14T13:02:48.238Z",
+      "updatedAt": "2025-08-14T13:02:48.238Z"
+    },
+    {
+      "id": "79317bfd-6b9f-4448-9393-19c705dcf239",
+      "slug": "openai-tts-1",
+      "name": "TTS",
+      "description": "Text to speech model",
+      "provider": {
+        "id": "d1bc7be5-7ca8-4e90-a733-c8ecadad1231",
+        "name": "OpenAI",
+        "slug": "openai",
+        "websiteUrl": "https://openai.com",
+        "documentationUrl": "https://platform.openai.com/docs",
+        "regions": [
+          "us-east-1",
+          "eu-west-1"
+        ]
+      },
+      "foundationModel": "tts-1",
+      "releasedAt": "2023-11-06T00:00:00.000Z",
+      "deprecatedAt": null,
+      "sunsetAt": null,
+      "modalities": [
+        "audio"
+      ],
+      "capabilities": [
+        "text-to-speech"
+      ],
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "trainingCutoff": null,
+      "apiVersion": null,
+      "isActive": true,
+      "status": {
+        "status": "operational",
+        "availability": 99.9,
+        "latencyP50": 134,
+        "latencyP95": 166,
+        "latencyP99": 290,
+        "errorRate": 0.009730282218942211,
+        "requestsPerMin": 9023,
+        "tokensPerMin": 479627,
+        "usage": 66.79719943640126,
+        "checkedAt": "2025-08-14T13:02:48.645Z"
+      },
+      "pricing": {
+        "tier": "standard",
+        "currency": "USD",
+        "inputPerMillion": 0,
+        "outputPerMillion": 0,
+        "imagePerUnit": 0,
+        "audioPerMinute": 0.015,
+        "videoPerMinute": null,
+        "effectiveFrom": "2025-08-14T13:02:48.570Z"
+      },
+      "benchmarks": [],
+      "createdAt": "2025-08-14T13:02:48.479Z",
+      "updatedAt": "2025-08-14T13:02:48.479Z"
+    },
+    {
+      "id": "e0ee3467-55b0-4b9e-86de-4d7761f93e20",
+      "slug": "openai-tts-1-hd",
+      "name": "TTS HD",
+      "description": "High quality text to speech",
+      "provider": {
+        "id": "d1bc7be5-7ca8-4e90-a733-c8ecadad1231",
+        "name": "OpenAI",
+        "slug": "openai",
+        "websiteUrl": "https://openai.com",
+        "documentationUrl": "https://platform.openai.com/docs",
+        "regions": [
+          "us-east-1",
+          "eu-west-1"
+        ]
+      },
+      "foundationModel": "tts-1-hd",
+      "releasedAt": "2023-11-06T00:00:00.000Z",
+      "deprecatedAt": null,
+      "sunsetAt": null,
+      "modalities": [
+        "audio"
+      ],
+      "capabilities": [
+        "text-to-speech"
+      ],
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "trainingCutoff": null,
+      "apiVersion": null,
+      "isActive": true,
+      "status": {
+        "status": "operational",
+        "availability": 99.9,
+        "latencyP50": 136,
+        "latencyP95": 199,
+        "latencyP99": 337,
+        "errorRate": 0.05095947221382782,
+        "requestsPerMin": 3283,
+        "tokensPerMin": 89121,
+        "usage": 57.97922418927304,
+        "checkedAt": "2025-08-14T13:02:48.903Z"
+      },
+      "pricing": {
+        "tier": "standard",
+        "currency": "USD",
+        "inputPerMillion": 0,
+        "outputPerMillion": 0,
+        "imagePerUnit": 0,
+        "audioPerMinute": 0.03,
+        "videoPerMinute": null,
+        "effectiveFrom": "2025-08-14T13:02:48.803Z"
+      },
+      "benchmarks": [],
+      "createdAt": "2025-08-14T13:02:48.713Z",
+      "updatedAt": "2025-08-14T13:02:48.713Z"
+    },
+    {
+      "id": "162c3c00-c91c-415f-bb7c-4ec7f2b29630",
+      "slug": "anthropic-claude-3.5-sonnet",
+      "name": "Claude 3.5 Sonnet",
+      "description": "Most intelligent model from Anthropic",
+      "provider": {
+        "id": "df8a9652-3f5e-4d3d-9c11-c875533d5a40",
+        "name": "Anthropic",
+        "slug": "anthropic",
+        "websiteUrl": "https://anthropic.com",
+        "documentationUrl": "https://docs.anthropic.com",
+        "regions": [
+          "us-east-1",
+          "eu-west-1"
+        ]
+      },
+      "foundationModel": "claude-3-5-sonnet-20241022",
+      "releasedAt": "2024-10-22T00:00:00.000Z",
+      "deprecatedAt": null,
+      "sunsetAt": null,
+      "modalities": [
+        "text",
+        "vision"
+      ],
+      "capabilities": [
+        "chat",
+        "analysis",
+        "coding",
+        "vision",
+        "computer-use"
+      ],
+      "contextWindow": 200000,
+      "maxOutputTokens": 8192,
+      "trainingCutoff": "2024-04-01T00:00:00.000Z",
+      "apiVersion": "2024-10-22",
+      "isActive": true,
+      "status": {
+        "status": "operational",
+        "availability": 99.9,
+        "latencyP50": 77,
+        "latencyP95": 142,
+        "latencyP99": 443,
+        "errorRate": 0.02527307925232058,
+        "requestsPerMin": 3961,
+        "tokensPerMin": 386085,
+        "usage": 65.11870180512011,
+        "checkedAt": "2025-08-14T13:02:49.415Z"
+      },
+      "pricing": {
+        "tier": "standard",
+        "currency": "USD",
+        "inputPerMillion": 3,
+        "outputPerMillion": 15,
+        "imagePerUnit": 0,
+        "audioPerMinute": 0,
+        "videoPerMinute": null,
+        "effectiveFrom": "2025-08-14T13:02:49.070Z"
+      },
+      "benchmarks": [
+        {
+          "suite": "MMLU",
+          "suiteSlug": "mmlu",
+          "score": 88.7,
+          "normalizedScore": 0.887,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:49.170Z",
+          "isOfficial": true
+        },
+        {
+          "suite": "HumanEval",
+          "suiteSlug": "humaneval",
+          "score": 92,
+          "normalizedScore": 0.92,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:49.248Z",
+          "isOfficial": true
+        },
+        {
+          "suite": "GPQA",
+          "suiteSlug": "gpqa",
+          "score": 59.4,
+          "normalizedScore": 0.594,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:49.332Z",
+          "isOfficial": true
+        }
+      ],
+      "createdAt": "2025-08-14T13:02:48.980Z",
+      "updatedAt": "2025-08-14T13:02:48.980Z"
+    },
+    {
+      "id": "72b4d651-2d73-4644-b082-703387687f9d",
+      "slug": "anthropic-claude-3.5-haiku",
+      "name": "Claude 3.5 Haiku",
+      "description": "Fast and affordable model",
+      "provider": {
+        "id": "df8a9652-3f5e-4d3d-9c11-c875533d5a40",
+        "name": "Anthropic",
+        "slug": "anthropic",
+        "websiteUrl": "https://anthropic.com",
+        "documentationUrl": "https://docs.anthropic.com",
+        "regions": [
+          "us-east-1",
+          "eu-west-1"
+        ]
+      },
+      "foundationModel": "claude-3-5-haiku-20241022",
+      "releasedAt": "2024-11-04T00:00:00.000Z",
+      "deprecatedAt": null,
+      "sunsetAt": null,
+      "modalities": [
+        "text"
+      ],
+      "capabilities": [
+        "chat",
+        "analysis",
+        "coding"
+      ],
+      "contextWindow": 200000,
+      "maxOutputTokens": 8192,
+      "trainingCutoff": "2024-07-01T00:00:00.000Z",
+      "apiVersion": "2024-11-04",
+      "isActive": true,
+      "status": {
+        "status": "operational",
+        "availability": 99.9,
+        "latencyP50": 59,
+        "latencyP95": 163,
+        "latencyP99": 285,
+        "errorRate": 0.004795720355775002,
+        "requestsPerMin": 9296,
+        "tokensPerMin": 683470,
+        "usage": 28.75841905238019,
+        "checkedAt": "2025-08-14T13:02:49.828Z"
+      },
+      "pricing": {
+        "tier": "standard",
+        "currency": "USD",
+        "inputPerMillion": 1,
+        "outputPerMillion": 5,
+        "imagePerUnit": 0,
+        "audioPerMinute": 0,
+        "videoPerMinute": null,
+        "effectiveFrom": "2025-08-14T13:02:49.578Z"
+      },
+      "benchmarks": [
+        {
+          "suite": "MMLU",
+          "suiteSlug": "mmlu",
+          "score": 85.1,
+          "normalizedScore": 0.851,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:49.670Z",
+          "isOfficial": true
+        },
+        {
+          "suite": "HumanEval",
+          "suiteSlug": "humaneval",
+          "score": 88.1,
+          "normalizedScore": 0.8809999999999999,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:49.748Z",
+          "isOfficial": true
+        }
+      ],
+      "createdAt": "2025-08-14T13:02:49.496Z",
+      "updatedAt": "2025-08-14T13:02:49.496Z"
+    },
+    {
+      "id": "8c7a559c-a2a0-49ee-90c6-6627c51fc7bc",
+      "slug": "anthropic-claude-3-opus",
+      "name": "Claude 3 Opus",
+      "description": "Powerful model for complex tasks",
+      "provider": {
+        "id": "df8a9652-3f5e-4d3d-9c11-c875533d5a40",
+        "name": "Anthropic",
+        "slug": "anthropic",
+        "websiteUrl": "https://anthropic.com",
+        "documentationUrl": "https://docs.anthropic.com",
+        "regions": [
+          "us-east-1",
+          "eu-west-1"
+        ]
+      },
+      "foundationModel": "claude-3-opus-20240229",
+      "releasedAt": "2024-03-04T00:00:00.000Z",
+      "deprecatedAt": null,
+      "sunsetAt": null,
+      "modalities": [
+        "text",
+        "vision"
+      ],
+      "capabilities": [
+        "chat",
+        "analysis",
+        "coding",
+        "vision"
+      ],
+      "contextWindow": 200000,
+      "maxOutputTokens": 4096,
+      "trainingCutoff": "2023-08-01T00:00:00.000Z",
+      "apiVersion": "2024-02-29",
+      "isActive": true,
+      "status": {
+        "status": "operational",
+        "availability": 99.9,
+        "latencyP50": 113,
+        "latencyP95": 239,
+        "latencyP99": 285,
+        "errorRate": 0.0307109065231713,
+        "requestsPerMin": 778,
+        "tokensPerMin": 942091,
+        "usage": 26.29615820828313,
+        "checkedAt": "2025-08-14T13:02:50.281Z"
+      },
+      "pricing": {
+        "tier": "standard",
+        "currency": "USD",
+        "inputPerMillion": 15,
+        "outputPerMillion": 75,
+        "imagePerUnit": 0,
+        "audioPerMinute": 0,
+        "videoPerMinute": null,
+        "effectiveFrom": "2025-08-14T13:02:49.978Z"
+      },
+      "benchmarks": [
+        {
+          "suite": "MMLU",
+          "suiteSlug": "mmlu",
+          "score": 86.8,
+          "normalizedScore": 0.868,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:50.053Z",
+          "isOfficial": true
+        },
+        {
+          "suite": "HumanEval",
+          "suiteSlug": "humaneval",
+          "score": 84.9,
+          "normalizedScore": 0.8490000000000001,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:50.123Z",
+          "isOfficial": true
+        },
+        {
+          "suite": "GPQA",
+          "suiteSlug": "gpqa",
+          "score": 50.4,
+          "normalizedScore": 0.504,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:50.198Z",
+          "isOfficial": true
+        }
+      ],
+      "createdAt": "2025-08-14T13:02:49.904Z",
+      "updatedAt": "2025-08-14T13:02:49.904Z"
+    },
+    {
+      "id": "69bf657c-e075-491a-92ad-df99a7231b17",
+      "slug": "anthropic-claude-3-sonnet",
+      "name": "Claude 3 Sonnet",
+      "description": "Balanced performance and cost",
+      "provider": {
+        "id": "df8a9652-3f5e-4d3d-9c11-c875533d5a40",
+        "name": "Anthropic",
+        "slug": "anthropic",
+        "websiteUrl": "https://anthropic.com",
+        "documentationUrl": "https://docs.anthropic.com",
+        "regions": [
+          "us-east-1",
+          "eu-west-1"
+        ]
+      },
+      "foundationModel": "claude-3-sonnet-20240229",
+      "releasedAt": "2024-03-04T00:00:00.000Z",
+      "deprecatedAt": null,
+      "sunsetAt": null,
+      "modalities": [
+        "text",
+        "vision"
+      ],
+      "capabilities": [
+        "chat",
+        "analysis",
+        "coding",
+        "vision"
+      ],
+      "contextWindow": 200000,
+      "maxOutputTokens": 4096,
+      "trainingCutoff": "2023-08-01T00:00:00.000Z",
+      "apiVersion": "2024-02-29",
+      "isActive": true,
+      "status": {
+        "status": "operational",
+        "availability": 99.9,
+        "latencyP50": 96,
+        "latencyP95": 100,
+        "latencyP99": 288,
+        "errorRate": 0.0101508192112256,
+        "requestsPerMin": 6081,
+        "tokensPerMin": 929035,
+        "usage": 33.62378033126026,
+        "checkedAt": "2025-08-14T13:02:50.698Z"
+      },
+      "pricing": {
+        "tier": "standard",
+        "currency": "USD",
+        "inputPerMillion": 3,
+        "outputPerMillion": 15,
+        "imagePerUnit": 0,
+        "audioPerMinute": 0,
+        "videoPerMinute": null,
+        "effectiveFrom": "2025-08-14T13:02:50.445Z"
+      },
+      "benchmarks": [
+        {
+          "suite": "MMLU",
+          "suiteSlug": "mmlu",
+          "score": 79,
+          "normalizedScore": 0.79,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:50.528Z",
+          "isOfficial": true
+        },
+        {
+          "suite": "HumanEval",
+          "suiteSlug": "humaneval",
+          "score": 73,
+          "normalizedScore": 0.73,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:50.606Z",
+          "isOfficial": true
+        }
+      ],
+      "createdAt": "2025-08-14T13:02:50.364Z",
+      "updatedAt": "2025-08-14T13:02:50.364Z"
+    },
+    {
+      "id": "67370f6c-59dc-4ed9-8922-c9ac34340a8d",
+      "slug": "anthropic-claude-3-haiku",
+      "name": "Claude 3 Haiku",
+      "description": "Fastest Claude 3 model",
+      "provider": {
+        "id": "df8a9652-3f5e-4d3d-9c11-c875533d5a40",
+        "name": "Anthropic",
+        "slug": "anthropic",
+        "websiteUrl": "https://anthropic.com",
+        "documentationUrl": "https://docs.anthropic.com",
+        "regions": [
+          "us-east-1",
+          "eu-west-1"
+        ]
+      },
+      "foundationModel": "claude-3-haiku-20240307",
+      "releasedAt": "2024-03-07T00:00:00.000Z",
+      "deprecatedAt": null,
+      "sunsetAt": null,
+      "modalities": [
+        "text",
+        "vision"
+      ],
+      "capabilities": [
+        "chat",
+        "analysis",
+        "coding",
+        "vision"
+      ],
+      "contextWindow": 200000,
+      "maxOutputTokens": 4096,
+      "trainingCutoff": "2023-08-01T00:00:00.000Z",
+      "apiVersion": "2024-03-07",
+      "isActive": true,
+      "status": {
+        "status": "operational",
+        "availability": 99.9,
+        "latencyP50": 102,
+        "latencyP95": 197,
+        "latencyP99": 447,
+        "errorRate": 0.06242036957369697,
+        "requestsPerMin": 6174,
+        "tokensPerMin": 964889,
+        "usage": 82.6568690404385,
+        "checkedAt": "2025-08-14T13:02:51.115Z"
+      },
+      "pricing": {
+        "tier": "standard",
+        "currency": "USD",
+        "inputPerMillion": 0.25,
+        "outputPerMillion": 1.25,
+        "imagePerUnit": 0,
+        "audioPerMinute": 0,
+        "videoPerMinute": null,
+        "effectiveFrom": "2025-08-14T13:02:50.862Z"
+      },
+      "benchmarks": [
+        {
+          "suite": "MMLU",
+          "suiteSlug": "mmlu",
+          "score": 75.2,
+          "normalizedScore": 0.752,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:50.945Z",
+          "isOfficial": true
+        },
+        {
+          "suite": "HumanEval",
+          "suiteSlug": "humaneval",
+          "score": 75.9,
+          "normalizedScore": 0.759,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:51.023Z",
+          "isOfficial": true
+        }
+      ],
+      "createdAt": "2025-08-14T13:02:50.779Z",
+      "updatedAt": "2025-08-14T13:02:50.779Z"
+    },
+    {
+      "id": "13ffde89-452a-412f-b88d-7e9a680131a5",
+      "slug": "google-gemini-1.5-pro",
+      "name": "Gemini 1.5 Pro",
+      "description": "Advanced multimodal model with long context",
+      "provider": {
+        "id": "b91aef76-6254-4f34-9607-453eff3aa990",
+        "name": "Google AI",
+        "slug": "google",
+        "websiteUrl": "https://ai.google",
+        "documentationUrl": "https://ai.google.dev",
+        "regions": [
+          "us-central1",
+          "europe-west4",
+          "asia-northeast1"
+        ]
+      },
+      "foundationModel": "gemini-1.5-pro-002",
+      "releasedAt": "2024-05-14T00:00:00.000Z",
+      "deprecatedAt": null,
+      "sunsetAt": null,
+      "modalities": [
+        "text",
+        "vision",
+        "audio",
+        "video"
+      ],
+      "capabilities": [
+        "chat",
+        "analysis",
+        "coding",
+        "vision",
+        "audio",
+        "video"
+      ],
+      "contextWindow": 2000000,
+      "maxOutputTokens": 8192,
+      "trainingCutoff": "2024-05-01T00:00:00.000Z",
+      "apiVersion": "002",
+      "isActive": true,
+      "status": {
+        "status": "operational",
+        "availability": 99.9,
+        "latencyP50": 125,
+        "latencyP95": 228,
+        "latencyP99": 171,
+        "errorRate": 0.09409358830209996,
+        "requestsPerMin": 4785,
+        "tokensPerMin": 188394,
+        "usage": 64.33219826039986,
+        "checkedAt": "2025-08-14T13:02:51.515Z"
+      },
+      "pricing": {
+        "tier": "standard",
+        "currency": "USD",
+        "inputPerMillion": 1.25,
+        "outputPerMillion": 5,
+        "imagePerUnit": 0,
+        "audioPerMinute": 0,
+        "videoPerMinute": null,
+        "effectiveFrom": "2025-08-14T13:02:51.270Z"
+      },
+      "benchmarks": [
+        {
+          "suite": "MMLU",
+          "suiteSlug": "mmlu",
+          "score": 85.9,
+          "normalizedScore": 0.8590000000000001,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:51.345Z",
+          "isOfficial": true
+        },
+        {
+          "suite": "HumanEval",
+          "suiteSlug": "humaneval",
+          "score": 84.1,
+          "normalizedScore": 0.841,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:51.431Z",
+          "isOfficial": true
+        }
+      ],
+      "createdAt": "2025-08-14T13:02:51.188Z",
+      "updatedAt": "2025-08-14T13:02:51.188Z"
+    },
+    {
+      "id": "241d3b51-f688-4205-b301-17edeee05928",
+      "slug": "google-gemini-1.5-flash",
+      "name": "Gemini 1.5 Flash",
+      "description": "Fast multimodal model",
+      "provider": {
+        "id": "b91aef76-6254-4f34-9607-453eff3aa990",
+        "name": "Google AI",
+        "slug": "google",
+        "websiteUrl": "https://ai.google",
+        "documentationUrl": "https://ai.google.dev",
+        "regions": [
+          "us-central1",
+          "europe-west4",
+          "asia-northeast1"
+        ]
+      },
+      "foundationModel": "gemini-1.5-flash-002",
+      "releasedAt": "2024-09-24T00:00:00.000Z",
+      "deprecatedAt": null,
+      "sunsetAt": null,
+      "modalities": [
+        "text",
+        "vision",
+        "audio",
+        "video"
+      ],
+      "capabilities": [
+        "chat",
+        "analysis",
+        "coding",
+        "vision",
+        "audio",
+        "video"
+      ],
+      "contextWindow": 1000000,
+      "maxOutputTokens": 8192,
+      "trainingCutoff": "2024-05-01T00:00:00.000Z",
+      "apiVersion": "002",
+      "isActive": true,
+      "status": {
+        "status": "operational",
+        "availability": 99.9,
+        "latencyP50": 53,
+        "latencyP95": 244,
+        "latencyP99": 193,
+        "errorRate": 0.0781001490773345,
+        "requestsPerMin": 3695,
+        "tokensPerMin": 638377,
+        "usage": 11.18962622096127,
+        "checkedAt": "2025-08-14T13:02:52.040Z"
+      },
+      "pricing": {
+        "tier": "standard",
+        "currency": "USD",
+        "inputPerMillion": 0.075,
+        "outputPerMillion": 0.3,
+        "imagePerUnit": 0,
+        "audioPerMinute": 0,
+        "videoPerMinute": null,
+        "effectiveFrom": "2025-08-14T13:02:51.803Z"
+      },
+      "benchmarks": [
+        {
+          "suite": "MMLU",
+          "suiteSlug": "mmlu",
+          "score": 78.9,
+          "normalizedScore": 0.789,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:51.895Z",
+          "isOfficial": true
+        },
+        {
+          "suite": "HumanEval",
+          "suiteSlug": "humaneval",
+          "score": 74.3,
+          "normalizedScore": 0.743,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:51.965Z",
+          "isOfficial": true
+        }
+      ],
+      "createdAt": "2025-08-14T13:02:51.588Z",
+      "updatedAt": "2025-08-14T13:02:51.588Z"
+    },
+    {
+      "id": "52ff85e6-c2b6-4aae-b855-33dadbd15b07",
+      "slug": "google-gemini-1.5-flash-8b",
+      "name": "Gemini 1.5 Flash-8B",
+      "description": "Small and fast multimodal model",
+      "provider": {
+        "id": "b91aef76-6254-4f34-9607-453eff3aa990",
+        "name": "Google AI",
+        "slug": "google",
+        "websiteUrl": "https://ai.google",
+        "documentationUrl": "https://ai.google.dev",
+        "regions": [
+          "us-central1",
+          "europe-west4",
+          "asia-northeast1"
+        ]
+      },
+      "foundationModel": "gemini-1.5-flash-8b",
+      "releasedAt": "2024-10-03T00:00:00.000Z",
+      "deprecatedAt": null,
+      "sunsetAt": null,
+      "modalities": [
+        "text",
+        "vision"
+      ],
+      "capabilities": [
+        "chat",
+        "analysis",
+        "coding",
+        "vision"
+      ],
+      "contextWindow": 1000000,
+      "maxOutputTokens": 8192,
+      "trainingCutoff": "2024-05-01T00:00:00.000Z",
+      "apiVersion": "latest",
+      "isActive": true,
+      "status": {
+        "status": "operational",
+        "availability": 99.9,
+        "latencyP50": 53,
+        "latencyP95": 166,
+        "latencyP99": 326,
+        "errorRate": 0.004960928021343092,
+        "requestsPerMin": 1191,
+        "tokensPerMin": 990610,
+        "usage": 66.44373280011986,
+        "checkedAt": "2025-08-14T13:02:52.428Z"
+      },
+      "pricing": {
+        "tier": "standard",
+        "currency": "USD",
+        "inputPerMillion": 0.0375,
+        "outputPerMillion": 0.15,
+        "imagePerUnit": 0,
+        "audioPerMinute": 0,
+        "videoPerMinute": null,
+        "effectiveFrom": "2025-08-14T13:02:52.186Z"
+      },
+      "benchmarks": [
+        {
+          "suite": "MMLU",
+          "suiteSlug": "mmlu",
+          "score": 71.5,
+          "normalizedScore": 0.715,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:52.270Z",
+          "isOfficial": true
+        },
+        {
+          "suite": "HumanEval",
+          "suiteSlug": "humaneval",
+          "score": 61.8,
+          "normalizedScore": 0.618,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:52.356Z",
+          "isOfficial": true
+        }
+      ],
+      "createdAt": "2025-08-14T13:02:52.113Z",
+      "updatedAt": "2025-08-14T13:02:52.113Z"
+    },
+    {
+      "id": "5d3498b5-ce5e-4b0b-8641-e66d4476965e",
+      "slug": "google-gemini-2.0-flash-exp",
+      "name": "Gemini 2.0 Flash (Experimental)",
+      "description": "Next-gen experimental multimodal model",
+      "provider": {
+        "id": "b91aef76-6254-4f34-9607-453eff3aa990",
+        "name": "Google AI",
+        "slug": "google",
+        "websiteUrl": "https://ai.google",
+        "documentationUrl": "https://ai.google.dev",
+        "regions": [
+          "us-central1",
+          "europe-west4",
+          "asia-northeast1"
+        ]
+      },
+      "foundationModel": "gemini-2.0-flash-exp",
+      "releasedAt": "2024-12-11T00:00:00.000Z",
+      "deprecatedAt": null,
+      "sunsetAt": null,
+      "modalities": [
+        "text",
+        "vision",
+        "audio"
+      ],
+      "capabilities": [
+        "chat",
+        "analysis",
+        "coding",
+        "vision",
+        "audio",
+        "multimodal-live"
+      ],
+      "contextWindow": 1000000,
+      "maxOutputTokens": 8192,
+      "trainingCutoff": "2024-11-01T00:00:00.000Z",
+      "apiVersion": "experimental",
+      "isActive": true,
+      "status": {
+        "status": "operational",
+        "availability": 99.9,
+        "latencyP50": 65,
+        "latencyP95": 131,
+        "latencyP99": 159,
+        "errorRate": 0.0128290972407467,
+        "requestsPerMin": 5677,
+        "tokensPerMin": 294353,
+        "usage": 8.6274242072236,
+        "checkedAt": "2025-08-14T13:02:52.715Z"
+      },
+      "pricing": {
+        "tier": "standard",
+        "currency": "USD",
+        "inputPerMillion": 0,
+        "outputPerMillion": 0,
+        "imagePerUnit": 0,
+        "audioPerMinute": 0,
+        "videoPerMinute": null,
+        "effectiveFrom": "2025-08-14T13:02:52.570Z"
+      },
+      "benchmarks": [
+        {
+          "suite": "MMLU",
+          "suiteSlug": "mmlu",
+          "score": 82.5,
+          "normalizedScore": 0.825,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:52.645Z",
+          "isOfficial": true
+        }
+      ],
+      "createdAt": "2025-08-14T13:02:52.496Z",
+      "updatedAt": "2025-08-14T13:02:52.496Z"
+    },
+    {
+      "id": "87a38442-8605-43e4-ae20-4db16d684d33",
+      "slug": "google-gemini-exp-1206",
+      "name": "Gemini Experimental 1206",
+      "description": "Experimental model with enhanced reasoning",
+      "provider": {
+        "id": "b91aef76-6254-4f34-9607-453eff3aa990",
+        "name": "Google AI",
+        "slug": "google",
+        "websiteUrl": "https://ai.google",
+        "documentationUrl": "https://ai.google.dev",
+        "regions": [
+          "us-central1",
+          "europe-west4",
+          "asia-northeast1"
+        ]
+      },
+      "foundationModel": "gemini-exp-1206",
+      "releasedAt": "2024-12-06T00:00:00.000Z",
+      "deprecatedAt": null,
+      "sunsetAt": null,
+      "modalities": [
+        "text"
+      ],
+      "capabilities": [
+        "chat",
+        "analysis",
+        "coding",
+        "reasoning"
+      ],
+      "contextWindow": 2000000,
+      "maxOutputTokens": 8192,
+      "trainingCutoff": "2024-11-01T00:00:00.000Z",
+      "apiVersion": "experimental",
+      "isActive": true,
+      "status": {
+        "status": "operational",
+        "availability": 99.9,
+        "latencyP50": 94,
+        "latencyP95": 121,
+        "latencyP99": 159,
+        "errorRate": 0.08149716570896748,
+        "requestsPerMin": 1518,
+        "tokensPerMin": 912073,
+        "usage": 91.59978804523972,
+        "checkedAt": "2025-08-14T13:02:53.039Z"
+      },
+      "pricing": {
+        "tier": "standard",
+        "currency": "USD",
+        "inputPerMillion": 0,
+        "outputPerMillion": 0,
+        "imagePerUnit": 0,
+        "audioPerMinute": 0,
+        "videoPerMinute": null,
+        "effectiveFrom": "2025-08-14T13:02:52.878Z"
+      },
+      "benchmarks": [
+        {
+          "suite": "MMLU",
+          "suiteSlug": "mmlu",
+          "score": 87,
+          "normalizedScore": 0.87,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:52.961Z",
+          "isOfficial": true
+        }
+      ],
+      "createdAt": "2025-08-14T13:02:52.796Z",
+      "updatedAt": "2025-08-14T13:02:52.796Z"
+    },
+    {
+      "id": "10b766c0-6149-43fc-908a-40a0be5ab629",
+      "slug": "meta-llama-3.1-405b",
+      "name": "Llama 3.1 405B",
+      "description": "Largest open-source model",
+      "provider": {
+        "id": "baf1ca42-c081-4069-b9a7-4bff66656be1",
+        "name": "Meta AI",
+        "slug": "meta",
+        "websiteUrl": "https://ai.meta.com",
+        "documentationUrl": "https://llama.meta.com",
+        "regions": [
+          "global"
+        ]
+      },
+      "foundationModel": "llama-3.1-405b-instruct",
+      "releasedAt": "2024-07-23T00:00:00.000Z",
+      "deprecatedAt": null,
+      "sunsetAt": null,
+      "modalities": [
+        "text"
+      ],
+      "capabilities": [
+        "chat",
+        "analysis",
+        "coding",
+        "multilingual"
+      ],
+      "contextWindow": 128000,
+      "maxOutputTokens": 4096,
+      "trainingCutoff": "2023-12-01T00:00:00.000Z",
+      "apiVersion": "3.1",
+      "isActive": true,
+      "status": {
+        "status": "operational",
+        "availability": 99.9,
+        "latencyP50": 135,
+        "latencyP95": 233,
+        "latencyP99": 278,
+        "errorRate": 0.07514531648744681,
+        "requestsPerMin": 9398,
+        "tokensPerMin": 769089,
+        "usage": 23.57689180347882,
+        "checkedAt": "2025-08-14T13:02:53.439Z"
+      },
+      "pricing": null,
+      "benchmarks": [
+        {
+          "suite": "MMLU",
+          "suiteSlug": "mmlu",
+          "score": 88.6,
+          "normalizedScore": 0.8859999999999999,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:53.186Z",
+          "isOfficial": true
+        },
+        {
+          "suite": "HumanEval",
+          "suiteSlug": "humaneval",
+          "score": 89,
+          "normalizedScore": 0.89,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:53.273Z",
+          "isOfficial": true
+        },
+        {
+          "suite": "GSM8K",
+          "suiteSlug": "gsm8k",
+          "score": 96.8,
+          "normalizedScore": 0.968,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:53.356Z",
+          "isOfficial": true
+        }
+      ],
+      "createdAt": "2025-08-14T13:02:53.113Z",
+      "updatedAt": "2025-08-14T13:02:53.113Z"
+    },
+    {
+      "id": "dd28d0f2-9a07-45b6-b754-48aa899cbbc4",
+      "slug": "meta-llama-3.1-70b",
+      "name": "Llama 3.1 70B",
+      "description": "Large open model with strong performance",
+      "provider": {
+        "id": "baf1ca42-c081-4069-b9a7-4bff66656be1",
+        "name": "Meta AI",
+        "slug": "meta",
+        "websiteUrl": "https://ai.meta.com",
+        "documentationUrl": "https://llama.meta.com",
+        "regions": [
+          "global"
+        ]
+      },
+      "foundationModel": "llama-3.1-70b-instruct",
+      "releasedAt": "2024-07-23T00:00:00.000Z",
+      "deprecatedAt": null,
+      "sunsetAt": null,
+      "modalities": [
+        "text"
+      ],
+      "capabilities": [
+        "chat",
+        "analysis",
+        "coding",
+        "multilingual"
+      ],
+      "contextWindow": 128000,
+      "maxOutputTokens": 4096,
+      "trainingCutoff": "2023-12-01T00:00:00.000Z",
+      "apiVersion": "3.1",
+      "isActive": true,
+      "status": {
+        "status": "operational",
+        "availability": 99.9,
+        "latencyP50": 129,
+        "latencyP95": 183,
+        "latencyP99": 248,
+        "errorRate": 0.02171913429304599,
+        "requestsPerMin": 5888,
+        "tokensPerMin": 599064,
+        "usage": 0.2879030709439068,
+        "checkedAt": "2025-08-14T13:02:53.856Z"
+      },
+      "pricing": null,
+      "benchmarks": [
+        {
+          "suite": "MMLU",
+          "suiteSlug": "mmlu",
+          "score": 86,
+          "normalizedScore": 0.86,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:53.603Z",
+          "isOfficial": true
+        },
+        {
+          "suite": "HumanEval",
+          "suiteSlug": "humaneval",
+          "score": 80.5,
+          "normalizedScore": 0.805,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:53.681Z",
+          "isOfficial": true
+        },
+        {
+          "suite": "GSM8K",
+          "suiteSlug": "gsm8k",
+          "score": 95.1,
+          "normalizedScore": 0.951,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:53.764Z",
+          "isOfficial": true
+        }
+      ],
+      "createdAt": "2025-08-14T13:02:53.521Z",
+      "updatedAt": "2025-08-14T13:02:53.521Z"
+    },
+    {
+      "id": "aeaad524-3015-40e1-ad75-4afd5cf3b289",
+      "slug": "meta-llama-3.1-8b",
+      "name": "Llama 3.1 8B",
+      "description": "Efficient open model",
+      "provider": {
+        "id": "baf1ca42-c081-4069-b9a7-4bff66656be1",
+        "name": "Meta AI",
+        "slug": "meta",
+        "websiteUrl": "https://ai.meta.com",
+        "documentationUrl": "https://llama.meta.com",
+        "regions": [
+          "global"
+        ]
+      },
+      "foundationModel": "llama-3.1-8b-instruct",
+      "releasedAt": "2024-07-23T00:00:00.000Z",
+      "deprecatedAt": null,
+      "sunsetAt": null,
+      "modalities": [
+        "text"
+      ],
+      "capabilities": [
+        "chat",
+        "analysis",
+        "coding",
+        "multilingual"
+      ],
+      "contextWindow": 128000,
+      "maxOutputTokens": 4096,
+      "trainingCutoff": "2023-12-01T00:00:00.000Z",
+      "apiVersion": "3.1",
+      "isActive": true,
+      "status": {
+        "status": "operational",
+        "availability": 99.9,
+        "latencyP50": 78,
+        "latencyP95": 128,
+        "latencyP99": 286,
+        "errorRate": 0.06051299323618142,
+        "requestsPerMin": 4396,
+        "tokensPerMin": 181838,
+        "usage": 23.44288090289088,
+        "checkedAt": "2025-08-14T13:02:54.281Z"
+      },
+      "pricing": null,
+      "benchmarks": [
+        {
+          "suite": "MMLU",
+          "suiteSlug": "mmlu",
+          "score": 69.4,
+          "normalizedScore": 0.6940000000000001,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:54.028Z",
+          "isOfficial": true
+        },
+        {
+          "suite": "HumanEval",
+          "suiteSlug": "humaneval",
+          "score": 72.6,
+          "normalizedScore": 0.726,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:54.103Z",
+          "isOfficial": true
+        },
+        {
+          "suite": "GSM8K",
+          "suiteSlug": "gsm8k",
+          "score": 84.5,
+          "normalizedScore": 0.845,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:54.189Z",
+          "isOfficial": true
+        }
+      ],
+      "createdAt": "2025-08-14T13:02:53.937Z",
+      "updatedAt": "2025-08-14T13:02:53.937Z"
+    },
+    {
+      "id": "1b344bdc-03cb-4633-8e7b-7e86c2134dec",
+      "slug": "meta-llama-3.2-90b-vision",
+      "name": "Llama 3.2 90B Vision",
+      "description": "Multimodal open model",
+      "provider": {
+        "id": "baf1ca42-c081-4069-b9a7-4bff66656be1",
+        "name": "Meta AI",
+        "slug": "meta",
+        "websiteUrl": "https://ai.meta.com",
+        "documentationUrl": "https://llama.meta.com",
+        "regions": [
+          "global"
+        ]
+      },
+      "foundationModel": "llama-3.2-90b-vision-instruct",
+      "releasedAt": "2024-09-25T00:00:00.000Z",
+      "deprecatedAt": null,
+      "sunsetAt": null,
+      "modalities": [
+        "text",
+        "vision"
+      ],
+      "capabilities": [
+        "chat",
+        "analysis",
+        "coding",
+        "vision"
+      ],
+      "contextWindow": 128000,
+      "maxOutputTokens": 4096,
+      "trainingCutoff": "2024-06-01T00:00:00.000Z",
+      "apiVersion": "3.2",
+      "isActive": true,
+      "status": {
+        "status": "operational",
+        "availability": 99.9,
+        "latencyP50": 92,
+        "latencyP95": 254,
+        "latencyP99": 194,
+        "errorRate": 0.03955094242803994,
+        "requestsPerMin": 5770,
+        "tokensPerMin": 852844,
+        "usage": 38.18582483387971,
+        "checkedAt": "2025-08-14T13:02:54.665Z"
+      },
+      "pricing": null,
+      "benchmarks": [
+        {
+          "suite": "MMLU",
+          "suiteSlug": "mmlu",
+          "score": 83.3,
+          "normalizedScore": 0.833,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:54.495Z",
+          "isOfficial": true
+        },
+        {
+          "suite": "HumanEval",
+          "suiteSlug": "humaneval",
+          "score": 75.1,
+          "normalizedScore": 0.7509999999999999,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:54.573Z",
+          "isOfficial": true
+        }
+      ],
+      "createdAt": "2025-08-14T13:02:54.387Z",
+      "updatedAt": "2025-08-14T13:02:54.387Z"
+    },
+    {
+      "id": "782b9e50-235b-4aef-b368-07c271bcfe60",
+      "slug": "meta-llama-3.2-11b-vision",
+      "name": "Llama 3.2 11B Vision",
+      "description": "Efficient multimodal model",
+      "provider": {
+        "id": "baf1ca42-c081-4069-b9a7-4bff66656be1",
+        "name": "Meta AI",
+        "slug": "meta",
+        "websiteUrl": "https://ai.meta.com",
+        "documentationUrl": "https://llama.meta.com",
+        "regions": [
+          "global"
+        ]
+      },
+      "foundationModel": "llama-3.2-11b-vision-instruct",
+      "releasedAt": "2024-09-25T00:00:00.000Z",
+      "deprecatedAt": null,
+      "sunsetAt": null,
+      "modalities": [
+        "text",
+        "vision"
+      ],
+      "capabilities": [
+        "chat",
+        "analysis",
+        "coding",
+        "vision"
+      ],
+      "contextWindow": 128000,
+      "maxOutputTokens": 4096,
+      "trainingCutoff": "2024-06-01T00:00:00.000Z",
+      "apiVersion": "3.2",
+      "isActive": true,
+      "status": {
+        "status": "operational",
+        "availability": 99.9,
+        "latencyP50": 68,
+        "latencyP95": 186,
+        "latencyP99": 327,
+        "errorRate": 0.004081963925495535,
+        "requestsPerMin": 2435,
+        "tokensPerMin": 903194,
+        "usage": 43.07039636936807,
+        "checkedAt": "2025-08-14T13:02:55.020Z"
+      },
+      "pricing": null,
+      "benchmarks": [
+        {
+          "suite": "MMLU",
+          "suiteSlug": "mmlu",
+          "score": 73,
+          "normalizedScore": 0.73,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:54.845Z",
+          "isOfficial": true
+        },
+        {
+          "suite": "HumanEval",
+          "suiteSlug": "humaneval",
+          "score": 65.2,
+          "normalizedScore": 0.652,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:54.931Z",
+          "isOfficial": true
+        }
+      ],
+      "createdAt": "2025-08-14T13:02:54.746Z",
+      "updatedAt": "2025-08-14T13:02:54.746Z"
+    },
+    {
+      "id": "4c2b0aff-a918-4393-96d9-1b36ab2576e4",
+      "slug": "meta-llama-3.2-3b",
+      "name": "Llama 3.2 3B",
+      "description": "Lightweight model for edge devices",
+      "provider": {
+        "id": "baf1ca42-c081-4069-b9a7-4bff66656be1",
+        "name": "Meta AI",
+        "slug": "meta",
+        "websiteUrl": "https://ai.meta.com",
+        "documentationUrl": "https://llama.meta.com",
+        "regions": [
+          "global"
+        ]
+      },
+      "foundationModel": "llama-3.2-3b-instruct",
+      "releasedAt": "2024-09-25T00:00:00.000Z",
+      "deprecatedAt": null,
+      "sunsetAt": null,
+      "modalities": [
+        "text"
+      ],
+      "capabilities": [
+        "chat",
+        "analysis",
+        "coding"
+      ],
+      "contextWindow": 128000,
+      "maxOutputTokens": 4096,
+      "trainingCutoff": "2024-06-01T00:00:00.000Z",
+      "apiVersion": "3.2",
+      "isActive": true,
+      "status": {
+        "status": "operational",
+        "availability": 99.9,
+        "latencyP50": 79,
+        "latencyP95": 139,
+        "latencyP99": 439,
+        "errorRate": 0.04925198231087953,
+        "requestsPerMin": 4680,
+        "tokensPerMin": 417301,
+        "usage": 32.50483638489725,
+        "checkedAt": "2025-08-14T13:02:55.362Z"
+      },
+      "pricing": null,
+      "benchmarks": [
+        {
+          "suite": "MMLU",
+          "suiteSlug": "mmlu",
+          "score": 63.4,
+          "normalizedScore": 0.634,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:55.186Z",
+          "isOfficial": true
+        },
+        {
+          "suite": "HumanEval",
+          "suiteSlug": "humaneval",
+          "score": 61.5,
+          "normalizedScore": 0.615,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:55.273Z",
+          "isOfficial": true
+        }
+      ],
+      "createdAt": "2025-08-14T13:02:55.090Z",
+      "updatedAt": "2025-08-14T13:02:55.090Z"
+    },
+    {
+      "id": "96f3034c-cec9-4000-b048-c83d4ace86a9",
+      "slug": "meta-llama-3.2-1b",
+      "name": "Llama 3.2 1B",
+      "description": "Ultra-lightweight model",
+      "provider": {
+        "id": "baf1ca42-c081-4069-b9a7-4bff66656be1",
+        "name": "Meta AI",
+        "slug": "meta",
+        "websiteUrl": "https://ai.meta.com",
+        "documentationUrl": "https://llama.meta.com",
+        "regions": [
+          "global"
+        ]
+      },
+      "foundationModel": "llama-3.2-1b-instruct",
+      "releasedAt": "2024-09-25T00:00:00.000Z",
+      "deprecatedAt": null,
+      "sunsetAt": null,
+      "modalities": [
+        "text"
+      ],
+      "capabilities": [
+        "chat",
+        "analysis"
+      ],
+      "contextWindow": 128000,
+      "maxOutputTokens": 4096,
+      "trainingCutoff": "2024-06-01T00:00:00.000Z",
+      "apiVersion": "3.2",
+      "isActive": true,
+      "status": {
+        "status": "operational",
+        "availability": 99.9,
+        "latencyP50": 122,
+        "latencyP95": 162,
+        "latencyP99": 238,
+        "errorRate": 0.03431568503572551,
+        "requestsPerMin": 5765,
+        "tokensPerMin": 664514,
+        "usage": 54.75097548571473,
+        "checkedAt": "2025-08-14T13:02:55.673Z"
+      },
+      "pricing": null,
+      "benchmarks": [
+        {
+          "suite": "MMLU",
+          "suiteSlug": "mmlu",
+          "score": 49.3,
+          "normalizedScore": 0.493,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:55.512Z",
+          "isOfficial": true
+        },
+        {
+          "suite": "HumanEval",
+          "suiteSlug": "humaneval",
+          "score": 41.5,
+          "normalizedScore": 0.415,
+          "percentile": 0,
+          "evaluationDate": "2025-08-14T13:02:55.589Z",
+          "isOfficial": true
+        }
+      ],
+      "createdAt": "2025-08-14T13:02:55.437Z",
+      "updatedAt": "2025-08-14T13:02:55.437Z"
+    }
+  ],
+  "benchmarkSuites": [
+    {
+      "id": "00edcca1-d535-472f-8ee3-6232fd5a71eb",
+      "slug": "humaneval",
+      "name": "HumanEval",
+      "description": "Code generation benchmark",
+      "category": "coding",
+      "version": "1.0",
+      "maxScore": 100
+    },
+    {
+      "id": "444711bd-fea7-4412-9306-2a2cd4748276",
+      "slug": "math",
+      "name": "MATH",
+      "description": "Competition mathematics problems",
+      "category": "math",
+      "version": "1.0",
+      "maxScore": 100
+    },
+    {
+      "id": "fef5b3f6-6d58-4cf1-afaf-6e09f14fd27b",
+      "slug": "mmlu",
+      "name": "MMLU",
+      "description": "Massive Multitask Language Understanding",
+      "category": "knowledge",
+      "version": "1.0",
+      "maxScore": 100
+    },
+    {
+      "id": "446a8788-b2b5-40ad-b379-70836334098b",
+      "slug": "gpqa",
+      "name": "GPQA",
+      "description": "Graduate-level Google-proof Q&A",
+      "category": "reasoning",
+      "version": "1.0",
+      "maxScore": 100
+    },
+    {
+      "id": "7cfb05e1-c149-483a-a940-11190d7aed1f",
+      "slug": "gsm8k",
+      "name": "GSM8K",
+      "description": "Grade School Math 8K",
+      "category": "reasoning",
+      "version": "1.0",
+      "maxScore": 100
+    }
+  ],
+  "statistics": {
+    "totalModels": 27,
+    "activeModels": 27,
+    "totalProviders": 4,
+    "operationalModels": 27,
+    "avgAvailability": 99.90000000000003
+  }
+}

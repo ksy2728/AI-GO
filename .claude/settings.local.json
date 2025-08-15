@@ -70,7 +70,9 @@
       "WebSearch",
       "WebFetch(domain:ai-server-information.vercel.app)",
       "Bash(timeout:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(grep:*)",
+      "Bash(cmd.exe /c \"taskkill /F /PID 6744\")"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
