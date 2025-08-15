@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2025-08-15T01:01:31.449Z",
+  "lastUpdated": "2025-08-15T05:47:00.101Z",
   "statuses": {
     "openai-gpt-4o": {
       "status": "operational",
@@ -325,6 +325,162 @@
       "tokensPerMin": 664514,
       "usage": 54.75097548571473,
       "checkedAt": "2025-08-14T13:02:55.673Z"
+    },
+    "microsoft-phi-3-medium": {
+      "status": "operational",
+      "availability": 99.9,
+      "latencyP50": 114,
+      "latencyP95": 107,
+      "latencyP99": 382,
+      "errorRate": 0.006882396192656293,
+      "requestsPerMin": 22,
+      "tokensPerMin": 750084,
+      "usage": 70.10859790817894,
+      "checkedAt": "2025-08-14T13:02:56.028Z"
+    },
+    "microsoft-phi-3-mini": {
+      "status": "operational",
+      "availability": 99.9,
+      "latencyP50": 60,
+      "latencyP95": 215,
+      "latencyP99": 156,
+      "errorRate": 0.00608368633456069,
+      "requestsPerMin": 1958,
+      "tokensPerMin": 677062,
+      "usage": 66.14132179619976,
+      "checkedAt": "2025-08-14T13:02:56.353Z"
+    },
+    "mistral-large": {
+      "status": "operational",
+      "availability": 99.9,
+      "latencyP50": 87,
+      "latencyP95": 194,
+      "latencyP99": 403,
+      "errorRate": 0.0148930254449807,
+      "requestsPerMin": 3165,
+      "tokensPerMin": 216647,
+      "usage": 79.18806880640949,
+      "checkedAt": "2025-08-14T13:02:56.753Z"
+    },
+    "mistral-pixtral-large": {
+      "status": "operational",
+      "availability": 99.9,
+      "latencyP50": 100,
+      "latencyP95": 243,
+      "latencyP99": 332,
+      "errorRate": 0.04047470443652262,
+      "requestsPerMin": 7340,
+      "tokensPerMin": 317370,
+      "usage": 15.11249301891939,
+      "checkedAt": "2025-08-14T13:02:57.085Z"
+    },
+    "mistral-small": {
+      "status": "operational",
+      "availability": 99.9,
+      "latencyP50": 108,
+      "latencyP95": 130,
+      "latencyP99": 244,
+      "errorRate": 0.01569884261737917,
+      "requestsPerMin": 2046,
+      "tokensPerMin": 248082,
+      "usage": 93.97962072197488,
+      "checkedAt": "2025-08-14T13:02:57.511Z"
+    },
+    "mistral-codestral": {
+      "status": "operational",
+      "availability": 99.9,
+      "latencyP50": 132,
+      "latencyP95": 186,
+      "latencyP99": 345,
+      "errorRate": 0.08934989186463733,
+      "requestsPerMin": 2247,
+      "tokensPerMin": 434885,
+      "usage": 34.99472212450241,
+      "checkedAt": "2025-08-14T13:02:57.810Z"
+    },
+    "amazon-nova-pro": {
+      "status": "operational",
+      "availability": 99.9,
+      "latencyP50": 54,
+      "latencyP95": 181,
+      "latencyP99": 354,
+      "errorRate": 0.01169714756982439,
+      "requestsPerMin": 203,
+      "tokensPerMin": 641031,
+      "usage": 87.4985634729685,
+      "checkedAt": "2025-08-14T13:02:58.186Z"
+    },
+    "amazon-nova-lite": {
+      "status": "operational",
+      "availability": 99.9,
+      "latencyP50": 84,
+      "latencyP95": 250,
+      "latencyP99": 354,
+      "errorRate": 0.03865453063345958,
+      "requestsPerMin": 9779,
+      "tokensPerMin": 198926,
+      "usage": 53.73765533567074,
+      "checkedAt": "2025-08-14T13:02:58.586Z"
+    },
+    "amazon-nova-micro": {
+      "status": "operational",
+      "availability": 99.9,
+      "latencyP50": 113,
+      "latencyP95": 243,
+      "latencyP99": 281,
+      "errorRate": 0.01683933676484344,
+      "requestsPerMin": 7333,
+      "tokensPerMin": 13944,
+      "usage": 50.47064093383733,
+      "checkedAt": "2025-08-14T13:02:58.978Z"
+    },
+    "gpt-4-turbo": {
+      "status": "operational",
+      "availability": 99.9,
+      "latencyP50": 1540,
+      "latencyP95": 2310,
+      "latencyP99": 3080,
+      "errorRate": 0,
+      "requestsPerMin": 0,
+      "tokensPerMin": 0,
+      "usage": 0,
+      "checkedAt": "2025-08-15T01:45:11.854Z"
+    },
+    "gpt-4": {
+      "status": "operational",
+      "availability": 99.9,
+      "latencyP50": 2315,
+      "latencyP95": 3472,
+      "latencyP99": 4630,
+      "errorRate": 0,
+      "requestsPerMin": 0,
+      "tokensPerMin": 0,
+      "usage": 0,
+      "checkedAt": "2025-08-15T01:45:12.104Z"
+    },
+    "gpt-35-turbo": {
+      "status": "operational",
+      "availability": 99.9,
+      "latencyP50": 1204,
+      "latencyP95": 1806,
+      "latencyP99": 2408,
+      "errorRate": 0,
+      "requestsPerMin": 0,
+      "tokensPerMin": 0,
+      "usage": 0,
+      "checkedAt": "2025-08-15T01:45:12.353Z"
+    },
+    "gpt-35-turbo-16k": {
+      "status": "operational",
+      "availability": 99.9,
+      "latencyP50": 1546,
+      "latencyP95": 2319,
+      "latencyP99": 3092,
+      "errorRate": 0,
+      "requestsPerMin": 0,
+      "tokensPerMin": 0,
+      "usage": 0,
+      "checkedAt": "2025-08-15T01:45:14.187Z"
     }
   }
 }
