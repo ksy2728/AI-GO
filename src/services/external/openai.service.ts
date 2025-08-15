@@ -260,13 +260,13 @@ export class OpenAIService {
       const models = await this.getAvailableModels();
       
       // Filter to include only chat completion models
-      const chatModels = models.filter(model => 
+      const chatModels = (models as any[]).filter((model: any) => 
         model.id.includes('gpt-') && 
         !model.id.includes('instruct') && 
         !model.id.includes('embedding')
       );
 
-      return chatModels.map(model => ({
+      return chatModels.map((model: any) => ({
         id: model.id,
         name: this.formatModelName(model.id),
         ownedBy: model.ownedBy,
