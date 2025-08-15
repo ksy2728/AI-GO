@@ -65,5 +65,17 @@ logs/
 *.tsbuildinfo
 next-env.d.ts
 
+# Test files
+*-comparison.html
+test-*.html
+validate-*.js
+deployed-*.json
+local-*.json
+
+# Temporary files
+*.tmp
+*.temp
+cleanup-plan.md
+
 .vercel
 nul
