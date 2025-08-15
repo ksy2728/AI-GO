@@ -1,174 +1,359 @@
 {
   "articles": [
     {
-      "id": "openai-gpt-4-turbo-update",
-      "title": "OpenAI Releases GPT-4 Turbo with Vision Capabilities",
-      "summary": "OpenAI announces GPT-4 Turbo with enhanced vision capabilities, improved performance, and a 128K context window for better long-form content processing.",
-      "content": "OpenAI has released GPT-4 Turbo, the latest iteration of their flagship language model. This update brings significant improvements including vision capabilities that allow the model to analyze and understand images, a massive 128K token context window, and improved performance across various benchmarks. The model also features more accurate function calling and better instruction following.",
-      "source": "OpenAI Blog",
-      "author": "OpenAI Team",
-      "publishedAt": "2024-11-06T14:00:00Z",
-      "category": "release",
-      "tags": ["GPT-4", "OpenAI", "Vision", "Multimodal", "AI Model"],
-      "url": "https://openai.com/blog",
-      "readTime": 5,
-      "views": 45320
+      "id": "losing-gpt-4o-sent-some-people-into-mourning-that-",
+      "title": "Losing GPT-4o sent some people into mourning. That was predictable.",
+      "summary": "June had no idea that GPT-5 was coming.  The Norwegian student was enjoying a late-night writing session last Thursday when her ChatGPT collaborator started acting strange.",
+      "content": "June had no idea that GPT-5 was coming. The Norwegian student was enjoying a late-night writing session last Thursday when her ChatGPT collaborator started acting strange. “It started forgetting everything, and it wrote really badly,” she says. “It was like a robot.” June, who asked that we use only",
+      "source": "MIT Technology Review AI",
+      "author": "Grace Huckins",
+      "publishedAt": "2025-08-15T10:34:23.000Z",
+      "category": "research",
+      "tags": [
+        "gpt",
+        "chatgpt"
+      ],
+      "url": "https://www.technologyreview.com/2025/08/15/1121900/gpt4o-grief-ai-companion/",
+      "readTime": 3,
+      "views": 49854
     },
     {
-      "id": "anthropic-claude-3-5-sonnet",
-      "title": "Anthropic Launches Claude 3.5 Sonnet with Breakthrough Performance",
-      "summary": "Claude 3.5 Sonnet sets new industry benchmarks for coding, reasoning, and visual understanding while being twice as fast as Claude 3 Opus.",
-      "content": "Anthropic has unveiled Claude 3.5 Sonnet, marking a significant leap in AI capabilities. The model demonstrates exceptional performance in coding tasks with a 92% score on HumanEval, surpassing previous leaders. It also shows remarkable improvements in visual reasoning, mathematical problem-solving, and can process up to 200K tokens of context.",
-      "source": "Anthropic News",
-      "author": "Dario Amodei",
-      "publishedAt": "2024-10-20T10:00:00Z",
+      "id": "nvidia-aims-to-solve-ai-8217-s-issues-with-many-la",
+      "title": "NVIDIA aims to solve AI&#8217;s issues with many languages",
+      "summary": "While AI might feel ubiquitous, it primarily operates in a tiny fraction of the world&#8217;s 7,000 languages, leaving a huge portion of the global population behind.  NVIDIA aims to fix this glaring .",
+      "content": "While AI might feel ubiquitous, it primarily operates in a tiny fraction of the world&#8217;s 7,000 languages, leaving a huge portion of the global population behind. NVIDIA aims to fix this glaring blind spot, particularly within Europe. The company has just released a powerful new set of open-sour",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2025-08-15T10:11:14.000Z",
       "category": "release",
-      "tags": ["Claude", "Anthropic", "AI Safety", "Coding", "Performance"],
-      "url": "https://anthropic.com/news",
-      "readTime": 6,
-      "views": 38500
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/nvidia-aims-solve-ai-issues-with-many-languages/",
+      "readTime": 3,
+      "views": 31903
     },
     {
-      "id": "google-gemini-1-5-pro",
-      "title": "Google Unveils Gemini 1.5 Pro with 2 Million Token Context Window",
-      "summary": "Google's Gemini 1.5 Pro breaks records with a 2 million token context window, enabling analysis of entire codebases and hours of video content.",
-      "content": "Google has announced Gemini 1.5 Pro, featuring an unprecedented 2 million token context window - the largest in the industry. This breakthrough allows the model to process entire books, extensive codebases, or hours of audio and video content in a single prompt. The model uses a new Mixture-of-Experts architecture for improved efficiency.",
-      "source": "Google AI Blog",
-      "author": "Sundar Pichai",
-      "publishedAt": "2024-09-15T08:00:00Z",
+      "id": "deepseek-the-chinese-startup-challenging-silicon-v",
+      "title": "DeepSeek: The Chinese startup challenging Silicon Valley",
+      "summary": "Market disruption and shockwaves through Silicon Valley marked Chinese startup DeepSeek&#8217;s launch, challenging some of the fundamental assumptions of how artificial intelligence companies had ope.",
+      "content": "Market disruption and shockwaves through Silicon Valley marked Chinese startup DeepSeek&#8217;s launch, challenging some of the fundamental assumptions of how artificial intelligence companies had operated and scaled. In less than a couple of years, the Beijing-based newcomer has accomplished what m",
+      "source": "AI News",
+      "author": "Dashveenjit Kaur",
+      "publishedAt": "2025-08-15T09:33:55.000Z",
       "category": "release",
-      "tags": ["Gemini", "Google", "Long Context", "Multimodal", "MoE"],
-      "url": "https://blog.google/technology/ai",
-      "readTime": 7,
-      "views": 52100
+      "tags": [
+        "artificial intelligence"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/deepseek-the-chinese-startup-challenging-silicon-valley/",
+      "readTime": 3,
+      "views": 6476
     },
     {
-      "id": "meta-llama-3-1-405b",
-      "title": "Meta Releases Llama 3.1 405B - Largest Open-Source AI Model",
-      "summary": "Meta's Llama 3.1 405B becomes the most capable open-source model, rivaling closed-source alternatives while remaining free for commercial use.",
-      "content": "Meta has released Llama 3.1 405B, the largest and most capable open-source AI model to date. With 405 billion parameters, it competes directly with GPT-4 and Claude on various benchmarks while being completely open-source. The model supports 128K context length and excels at coding, mathematics, and multilingual tasks.",
-      "source": "Meta AI",
-      "author": "Mark Zuckerberg",
-      "publishedAt": "2024-07-23T16:00:00Z",
+      "id": "human-in-the-loop-work-drives-ai-powering-alibaba-",
+      "title": "Human-in-the-loop work drives AI powering Alibaba’s smart glasses",
+      "summary": "Alibaba is moving into the smart glasses market with a device powered by its own AI models, part of a wider $52. 4 billion furthering of AI and cloud computing.",
+      "content": "Alibaba is moving into the smart glasses market with a device powered by its own AI models, part of a wider $52.4 billion furthering of AI and cloud computing. The Quark AI Glasses marks the company&#8217;s first step into the wearables category and is due to launch in China by the end of 2025. The ",
+      "source": "AI News",
+      "author": "Muhammad Zulhusni",
+      "publishedAt": "2025-08-15T08:38:04.000Z",
       "category": "release",
-      "tags": ["Llama", "Meta", "Open Source", "405B", "Free"],
-      "url": "https://ai.meta.com",
-      "readTime": 5,
-      "views": 67800
+      "tags": [
+        "ai",
+        "ai model"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/human-in-the-loop-work-drives-ai-powering-alibabas-smart-glasses/",
+      "readTime": 3,
+      "views": 37025
     },
     {
-      "id": "microsoft-ai-investment",
-      "title": "Microsoft Announces $10 Billion Additional Investment in AI Infrastructure",
-      "summary": "Microsoft commits to massive infrastructure expansion with $10 billion investment in AI data centers and computing resources.",
-      "content": "Microsoft has announced a $10 billion investment in AI infrastructure, focusing on expanding Azure's AI capabilities and building new data centers optimized for AI workloads. This investment will support the growing demand for AI services and ensure Microsoft can deliver enterprise-grade AI solutions at scale.",
-      "source": "Microsoft News",
-      "author": "Satya Nadella",
-      "publishedAt": "2024-11-01T12:00:00Z",
+      "id": "cohere-hits-a-6-8b-valuation-as-investors-amd-nvid",
+      "title": "Cohere hits a $6.8B valuation as investors AMD, Nvidia, and Salesforce double down",
+      "summary": "Cohere's market proposition has always been to offer secure LLMs specifically geared for enterprise use, not for consumers.",
+      "content": "Cohere's market proposition has always been to offer secure LLMs specifically geared for enterprise use, not for consumers.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2025-08-14T17:40:27.000Z",
       "category": "funding",
-      "tags": ["Microsoft", "Azure", "Investment", "Infrastructure", "Data Centers"],
-      "url": "https://news.microsoft.com",
-      "readTime": 4,
-      "views": 29400
+      "tags": [
+        "llm"
+      ],
+      "url": "https://techcrunch.com/2025/08/14/cohere-hits-a-6-8b-valuation-as-investors-amd-nvidia-and-salesforce-double-down/",
+      "readTime": 3,
+      "views": 15164
     },
     {
-      "id": "ai-regulation-eu-act",
-      "title": "EU AI Act Officially Enters Into Force",
-      "summary": "The European Union's comprehensive AI Act becomes law, establishing the world's first comprehensive regulatory framework for artificial intelligence.",
-      "content": "The EU AI Act has officially entered into force, marking a historic moment in AI regulation. The act establishes risk-based regulations for AI systems, with strict requirements for high-risk applications. Companies have 12-36 months to comply with various provisions, depending on the risk category of their AI systems.",
-      "source": "European Commission",
-      "author": "Ursula von der Leyen",
-      "publishedAt": "2024-08-01T09:00:00Z",
+      "id": "deepseek-reverts-to-nvidia-for-r2-model-after-huaw",
+      "title": "DeepSeek reverts to Nvidia for R2 model after Huawei AI chip fails",
+      "summary": "DeepSeek&#8217;s plan to train its new AI model, R2, on Huawei’s Ascend chips has failed and forced a retreat to Nvidia while delaying launch.  For months, the narrative pushed by Beijing has been one.",
+      "content": "DeepSeek&#8217;s plan to train its new AI model, R2, on Huawei’s Ascend chips has failed and forced a retreat to Nvidia while delaying launch. For months, the narrative pushed by Beijing has been one of unstoppable technological progress and a march towards self-sufficiency. However, reality has a h",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2025-08-14T16:04:50.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "ai model"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/deepseek-reverts-nvidia-r2-model-huawei-ai-chip-fails/",
+      "readTime": 3,
+      "views": 52776
+    },
+    {
+      "id": "chatgpt-everything-you-need-to-know-about-the-ai-p",
+      "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+      "summary": "A timeline of ChatGPT product updates and releases, starting with the latest, which we’ve been updating throughout the year.",
+      "content": "A timeline of ChatGPT product updates and releases, starting with the latest, which we’ve been updating throughout the year.",
+      "source": "TechCrunch AI",
+      "author": "Kyle Wiggers, Cody Corrall, Alyssa Stringer, Kate Park",
+      "publishedAt": "2025-08-14T15:50:05.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gpt",
+        "chatgpt"
+      ],
+      "url": "https://techcrunch.com/2025/08/14/chatgpt-everything-to-know-about-the-ai-chatbot/",
+      "readTime": 3,
+      "views": 17184
+    },
+    {
+      "id": "leaked-meta-ai-rules-show-chatbots-were-allowed-to",
+      "title": "Leaked Meta AI rules show chatbots were allowed to have romantic chats with kids",
+      "summary": "The standards also allow the bots to make \"statements that demean people on the basis of their protected characteristics,\" such as \"black people are dumber than white people.",
+      "content": "The standards also allow the bots to make \"statements that demean people on the basis of their protected characteristics,\" such as \"black people are dumber than white people.\"",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2025-08-14T15:48:19.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Meta"
+      ],
+      "url": "https://techcrunch.com/2025/08/14/leaked-meta-ai-rules-show-chatbots-were-allowed-to-have-romantic-chats-with-kids/",
+      "readTime": 3,
+      "views": 14039
+    },
+    {
+      "id": "buzzy-ai-startup-multiverse-creates-two-of-the-sma",
+      "title": "Buzzy AI startup Multiverse creates two of the smallest high-performing models ever",
+      "summary": "It humorously calls this family the Model Zoo because one is like the size of a fly's brain and the other the size of a chicken's.",
+      "content": "It humorously calls this family the Model Zoo because one is like the size of a fly's brain and the other the size of a chicken's.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2025-08-14T15:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/08/14/buzzy-ai-startup-multiverse-creates-two-of-the-smallest-high-performing-models-ever/",
+      "readTime": 3,
+      "views": 20625
+    },
+    {
+      "id": "google-pushes-ai-into-flight-deals-as-antitrust-sc",
+      "title": "Google pushes AI into flight deals as antitrust scrutiny, competition heat up",
+      "summary": "Google has launched Flight Deals as its AI tool within Google Flights to help travelers find cheaper fares.",
+      "content": "Google has launched Flight Deals as its AI tool within Google Flights to help travelers find cheaper fares.",
+      "source": "TechCrunch AI",
+      "author": "Jagmeet Singh",
+      "publishedAt": "2025-08-14T14:46:09.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2025/08/14/google-pushes-ai-into-flight-deals-as-antitrust-scrutiny-competition-heat-up/",
+      "readTime": 3,
+      "views": 22403
+    },
+    {
+      "id": "cohere-hires-long-time-meta-research-head-joelle-p",
+      "title": "Cohere hires long-time Meta research head Joelle Pineau as its chief AI officer",
+      "summary": "Cohere has hired Joelle Pineau, Meta's former VP of AI research who previously oversaw the tech giant's fundamental AI research (FAIR) lab.  In her newly created Chief AI Officer role, Pineau will ove.",
+      "content": "Cohere has hired Joelle Pineau, Meta's former VP of AI research who previously oversaw the tech giant's fundamental AI research (FAIR) lab. In her newly created Chief AI Officer role, Pineau will oversee AI strategy across Cohere's research, product, and policy teams.",
+      "source": "TechCrunch AI",
+      "author": "Maxwell Zeff",
+      "publishedAt": "2025-08-14T14:00:00.000Z",
       "category": "regulation",
-      "tags": ["EU", "AI Act", "Regulation", "Compliance", "Policy"],
-      "url": "https://ec.europa.eu",
-      "readTime": 8,
-      "views": 18900
+      "tags": [
+        "ai",
+        "Meta"
+      ],
+      "url": "https://techcrunch.com/2025/08/14/cohere-hires-long-time-meta-research-head-joelle-pineau-as-its-chief-ai-officer/",
+      "readTime": 3,
+      "views": 12831
     },
     {
-      "id": "openai-anthropic-partnership",
-      "title": "OpenAI and Microsoft Deepen Partnership with Azure Integration",
-      "summary": "Enhanced collaboration brings GPT models deeper into Microsoft's product ecosystem, including Office 365 and Azure services.",
-      "content": "OpenAI and Microsoft have announced an expanded partnership that will see deeper integration of GPT models across Microsoft's entire product suite. This includes native AI capabilities in Office 365, enhanced Azure OpenAI Service offerings, and new enterprise features for businesses.",
-      "source": "TechCrunch",
-      "author": "Kyle Wiggers",
-      "publishedAt": "2024-10-15T14:30:00Z",
-      "category": "partnership",
-      "tags": ["OpenAI", "Microsoft", "Partnership", "Azure", "Enterprise"],
-      "url": "https://techcrunch.com",
-      "readTime": 5,
-      "views": 34200
-    },
-    {
-      "id": "ai-chip-shortage",
-      "title": "Global AI Chip Shortage Drives Innovation in Alternative Architectures",
-      "summary": "The ongoing shortage of AI accelerators sparks innovation in chip design and alternative computing architectures.",
-      "content": "The global shortage of AI chips, particularly NVIDIA's H100 GPUs, has led to increased innovation in alternative architectures. Companies are exploring neuromorphic computing, optical processors, and custom ASICs to address the computational demands of AI while reducing dependence on traditional GPU architectures.",
-      "source": "Wired",
-      "author": "Will Knight",
-      "publishedAt": "2024-09-20T11:00:00Z",
-      "category": "market",
-      "tags": ["AI Chips", "Hardware", "NVIDIA", "Innovation", "Supply Chain"],
-      "url": "https://wired.com",
-      "readTime": 6,
-      "views": 21500
-    },
-    {
-      "id": "mistral-funding-round",
-      "title": "Mistral AI Raises €450M at €2B Valuation",
-      "summary": "French AI startup Mistral AI secures major funding to compete with US tech giants in the foundation model space.",
-      "content": "Mistral AI has successfully raised €450 million in its latest funding round, achieving a €2 billion valuation just one year after its founding. The Paris-based startup aims to build European alternatives to American AI models, with their Mistral Large model already showing competitive performance.",
-      "source": "Financial Times",
-      "author": "Madhumita Murgia",
-      "publishedAt": "2024-09-10T07:00:00Z",
+      "id": "co-founder-of-elon-musk-8217-s-xai-departs-the-com",
+      "title": "Co-founder of Elon Musk&#8217;s xAI departs the company",
+      "summary": "Igor Babuschkin is leaving xAI less than three years after he co-founded the startup with Elon Musk, following a series of scandals at company.",
+      "content": "Igor Babuschkin is leaving xAI less than three years after he co-founded the startup with Elon Musk, following a series of scandals at company.",
+      "source": "TechCrunch AI",
+      "author": "Maxwell Zeff",
+      "publishedAt": "2025-08-13T21:53:30.000Z",
       "category": "funding",
-      "tags": ["Mistral", "Funding", "Europe", "Startup", "Investment"],
-      "url": "https://ft.com",
-      "readTime": 4,
-      "views": 15600
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/08/13/co-founder-of-elon-musks-xai-departs-the-company/",
+      "readTime": 3,
+      "views": 19409
     },
     {
-      "id": "ai-safety-research",
-      "title": "Major AI Labs Form Coalition for Safety Research",
-      "summary": "Leading AI companies unite to establish shared safety standards and research protocols for advanced AI systems.",
-      "content": "OpenAI, Anthropic, Google DeepMind, and Meta have announced the formation of the Frontier Model Forum, a coalition dedicated to ensuring the safe development of frontier AI models. The forum will focus on advancing AI safety research, identifying best practices, and collaborating with policymakers and academics.",
-      "source": "MIT Technology Review",
-      "author": "Melissa Heikkilä",
-      "publishedAt": "2024-08-25T13:00:00Z",
-      "category": "research",
-      "tags": ["AI Safety", "Research", "Collaboration", "Ethics", "Frontier Models"],
-      "url": "https://technologyreview.com",
-      "readTime": 7,
-      "views": 12300
-    },
-    {
-      "id": "apple-ai-intelligence",
-      "title": "Apple Announces Apple Intelligence with On-Device AI Focus",
-      "summary": "Apple enters the AI race with privacy-focused, on-device AI capabilities integrated across its ecosystem.",
-      "content": "Apple has unveiled Apple Intelligence, its comprehensive AI strategy that prioritizes on-device processing and user privacy. The system includes enhanced Siri capabilities, generative AI features in productivity apps, and a unique Private Cloud Compute architecture for handling complex requests while maintaining privacy.",
-      "source": "Apple Newsroom",
-      "author": "Tim Cook",
-      "publishedAt": "2024-06-10T17:00:00Z",
+      "id": "waymo-finally-has-a-music-experience-worthy-of-its",
+      "title": "Waymo finally has a music experience worthy of its robotaxi",
+      "summary": "Waymo now lets you stream music straight from Spotify, which makes the back seat of a robotaxi feel more like your own private space.",
+      "content": "Waymo now lets you stream music straight from Spotify, which makes the back seat of a robotaxi feel more like your own private space.",
+      "source": "TechCrunch AI",
+      "author": "Maxwell Zeff",
+      "publishedAt": "2025-08-13T20:03:03.000Z",
       "category": "release",
-      "tags": ["Apple", "Privacy", "On-device AI", "Siri", "Apple Intelligence"],
-      "url": "https://apple.com/newsroom",
-      "readTime": 5,
-      "views": 89400
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/08/13/waymo-finally-has-a-music-experience-worthy-of-its-robotaxi/",
+      "readTime": 3,
+      "views": 20163
     },
     {
-      "id": "ai-energy-consumption",
-      "title": "AI's Growing Energy Footprint Sparks Sustainability Concerns",
-      "summary": "Research reveals AI training and inference could consume 3-4% of global electricity by 2030, driving innovation in efficient architectures.",
-      "content": "New research highlights the growing environmental impact of AI, with large model training runs consuming as much energy as thousands of homes annually. This has sparked initiatives for more efficient training methods, including sparse models, quantization techniques, and renewable energy partnerships among major AI labs.",
-      "source": "Nature",
-      "author": "Emma Strubell",
-      "publishedAt": "2024-07-15T10:00:00Z",
+      "id": "pocket-fm-gives-its-writers-an-ai-tool-to-transfor",
+      "title": "Pocket FM gives its writers an AI tool to transform narratives, write cliffhangers, and more",
+      "summary": "Pocket FM is building LLM to help users write faster and in turn, produce more audio shows.",
+      "content": "Pocket FM is building LLM to help users write faster and in turn, produce more audio shows.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2025-08-13T16:48:49.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "llm"
+      ],
+      "url": "https://techcrunch.com/2025/08/13/pocket-fm-gives-its-writers-an-ai-tool-to-transform-narratives-write-cliffhangers-and-more/",
+      "readTime": 3,
+      "views": 7350
+    },
+    {
+      "id": "anthropic-nabs-humanloop-team-as-competition-for-e",
+      "title": "Anthropic nabs Humanloop team as competition for enterprise AI talent heats up",
+      "summary": "While an Anthropic spokesperson confirmed that the AI firm did not acquire Humanloop or its IP, that’s a moot point in an industry where IP lives in the brain.  And what Humanloop’s team is bringing t.",
+      "content": "While an Anthropic spokesperson confirmed that the AI firm did not acquire Humanloop or its IP, that’s a moot point in an industry where IP lives in the brain. And what Humanloop’s team is bringing to Anthropic is experience developing the tools that help enterprises run safe, reliable AI at scale.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2025-08-13T16:17:30.000Z",
+      "category": "partnership",
+      "tags": [
+        "ai",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2025/08/13/anthropic-nabs-humanloop-team-as-competition-for-enterprise-ai-talent-heats-up/",
+      "readTime": 3,
+      "views": 38127
+    },
+    {
+      "id": "the-road-to-artificial-general-intelligence",
+      "title": "The road to artificial general intelligence",
+      "summary": "Artificial intelligence models that can discover drugs and write code still fail at puzzles a lay person can master in minutes.  This phenomenon sits at the heart of the challenge of artificial genera.",
+      "content": "Artificial intelligence models that can discover drugs and write code still fail at puzzles a lay person can master in minutes. This phenomenon sits at the heart of the challenge of artificial general intelligence (AGI). Can today’s AI revolution produce models that rival or surpass human intelligen",
+      "source": "MIT Technology Review AI",
+      "author": "MIT Technology Review Insights",
+      "publishedAt": "2025-08-13T13:30:00.000Z",
       "category": "research",
-      "tags": ["Sustainability", "Energy", "Environment", "Green AI", "Efficiency"],
-      "url": "https://nature.com",
-      "readTime": 9,
-      "views": 8700
+      "tags": [
+        "artificial intelligence",
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2025/08/13/1121479/the-road-to-artificial-general-intelligence/",
+      "readTime": 3,
+      "views": 13100
+    },
+    {
+      "id": "neologic-wants-to-build-more-energy-efficient-cpus",
+      "title": "NeoLogic wants to build more energy-efficient CPUs for AI data centers",
+      "summary": "To fund its vision of building more energy-efficient server CPUs, NeoLogic recently raised a $10 million Series A round led by KOMPAS VC with participation from M Ventures, Maniv Mobility, and lool Ve.",
+      "content": "To fund its vision of building more energy-efficient server CPUs, NeoLogic recently raised a $10 million Series A round led by KOMPAS VC with participation from M Ventures, Maniv Mobility, and lool Ventures.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Szkutak",
+      "publishedAt": "2025-08-13T12:00:00.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/08/13/neologic-wants-to-build-more-energy-efficient-cpus-for-ai-data-centers/",
+      "readTime": 3,
+      "views": 53138
+    },
+    {
+      "id": "anthropic-details-its-ai-safety-strategy",
+      "title": "Anthropic details its AI safety strategy",
+      "summary": "Anthropic has detailed its safety strategy to try and keep its popular AI model, Claude, helpful while avoiding perpetuating harms.  Central to this effort is Anthropic’s Safeguards team; who aren’t y.",
+      "content": "Anthropic has detailed its safety strategy to try and keep its popular AI model, Claude, helpful while avoiding perpetuating harms. Central to this effort is Anthropic’s Safeguards team; who aren’t your average tech support group, they&#8217;re a mix of policy experts, data scientists, engineers, an",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2025-08-13T09:55:27.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai",
+        "anthropic",
+        "claude",
+        "ai model",
+        "Anthropic"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/anthropic-details-ai-safety-strategy/",
+      "readTime": 3,
+      "views": 48013
+    },
+    {
+      "id": "can-huawei-8217-s-open-sourced-cann-toolkit-break-",
+      "title": "Can Huawei&#8217;s open-sourced CANN toolkit break the CUDA monopoly?",
+      "summary": "A week after Huawei announced its decision to open-source the CANN (Compute Architecture for Neural Networks) software toolkit, the tech industry is still processing what this move means for the futur.",
+      "content": "A week after Huawei announced its decision to open-source the CANN (Compute Architecture for Neural Networks) software toolkit, the tech industry is still processing what this move means for the future of AI development. By making its Huawei CANN open source alternative to CUDA freely available to d",
+      "source": "AI News",
+      "author": "Dashveenjit Kaur",
+      "publishedAt": "2025-08-13T08:46:36.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "neural network"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/huawei-nvidia-cann-cuda-open-source-challenge/",
+      "readTime": 3,
+      "views": 11081
+    },
+    {
+      "id": "chatgpt-8217-s-model-picker-is-back-and-it-8217-s-",
+      "title": "ChatGPT&#8217;s model picker is back, and it&#8217;s complicated",
+      "summary": "GPT-5 was supposed to get rid of all the complicated AI models to choose from in ChatGPT, but that's not how it's panned out.",
+      "content": "GPT-5 was supposed to get rid of all the complicated AI models to choose from in ChatGPT, but that's not how it's panned out.",
+      "source": "TechCrunch AI",
+      "author": "Maxwell Zeff",
+      "publishedAt": "2025-08-13T03:25:19.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gpt",
+        "chatgpt",
+        "ai model"
+      ],
+      "url": "https://techcrunch.com/2025/08/12/chatgpts-model-picker-is-back-and-its-complicated/",
+      "readTime": 3,
+      "views": 35295
     }
   ],
-  "lastUpdated": "2024-11-15T12:00:00Z",
-  "version": "1.0"
+  "lastUpdated": "2025-08-15T13:33:25.104Z",
+  "version": "1.0",
+  "totalArticles": 20,
+  "sources": [
+    "MIT Technology Review AI",
+    "AI News",
+    "TechCrunch AI"
+  ],
+  "categories": [
+    "research",
+    "release",
+    "funding",
+    "regulation",
+    "partnership"
+  ]
 }

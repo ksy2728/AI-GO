@@ -1,0 +1,92 @@
+name: Sync News Data
+
+on:
+  schedule:
+    # 매일 오전 9시, 오후 3시, 오후 9시 실행 (KST 기준)
+    - cron: '0 0,6,12 * * *'  # UTC 기준 0시, 6시, 12시 (KST +9시간)
+  workflow_dispatch: # 수동 실행 가능
+  push:
+    branches:
+      - master
+    paths:
+      - 'scripts/sync-news.js'
+      - '.github/workflows/sync-news.yml'
+
+jobs:
+  sync-news:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          
+      - name: Install dependencies (if needed)
+        run: |
+          # 뉴스 수집은 Node.js 내장 모듈만 사용하므로 설치 불필요
+          echo "News sync script uses only built-in Node.js modules"
+          
+      - name: Run news sync script
+        run: |
+          node scripts/sync-news.js
+        env:
+          NODE_ENV: production
+          
+      - name: Check for news changes
+        id: check_news_changes
+        run: |
+          if git diff --quiet data/news-data.json; then
+            echo "changes=false" >> $GITHUB_OUTPUT
+            echo "ℹ️ No changes detected in news data"
+          else
+            echo "changes=true" >> $GITHUB_OUTPUT
+            echo "✅ Changes detected in news data"
+            git diff --stat data/news-data.json
+            
+            # 뉴스 통계 추출
+            TOTAL_ARTICLES=$(jq -r '.totalArticles // (.articles | length)' data/news-data.json)
+            TOTAL_SOURCES=$(jq -r '.sources | length // 0' data/news-data.json)
+            CATEGORIES=$(jq -r '.categories | join(", ") // "various"' data/news-data.json)
+            
+            echo "📊 Articles: ${TOTAL_ARTICLES} | Sources: ${TOTAL_SOURCES} | Categories: ${CATEGORIES}"
+          fi
+          
+      - name: Commit and push news changes
+        if: steps.check_news_changes.outputs.changes == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/news-data.json
+          
+          # 뉴스 변경 사항 요약 생성
+          TOTAL_ARTICLES=$(jq -r '.totalArticles // (.articles | length)' data/news-data.json)
+          TOTAL_SOURCES=$(jq -r '.sources | length // 0' data/news-data.json)
+          LATEST_ARTICLE=$(jq -r '.articles[0].title // "N/A"' data/news-data.json | head -c 50)
+          
+          git commit -m "feat: update AI news data [skip ci]" -m "📰 Articles: ${TOTAL_ARTICLES} | Sources: ${TOTAL_SOURCES}
+          🆕 Latest: ${LATEST_ARTICLE}...
+          
+          🤖 Automated news sync at $(date -u '+%Y-%m-%d %H:%M:%S UTC')
+          🔄 Next sync: $(date -u -d '+8 hours' '+%Y-%m-%d %H:%M:%S UTC')"
+          git push
+
+      - name: News sync summary
+        run: |
+          if [[ "${{ steps.check_news_changes.outputs.changes }}" == "true" ]]; then
+            echo "✅ News data updated successfully!"
+            TOTAL_ARTICLES=$(jq -r '.totalArticles // (.articles | length)' data/news-data.json)
+            echo "📊 Total articles: ${TOTAL_ARTICLES}"
+            echo "🕐 Last updated: $(jq -r '.lastUpdated' data/news-data.json)"
+          else
+            echo "ℹ️ News data is already up to date"
+          fi
