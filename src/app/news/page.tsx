@@ -49,130 +49,32 @@ export default function NewsPage() {
     const fetchNews = async () => {
       try {
         setLoading(true)
-        // Mock data for demonstration
-        const mockArticles: NewsArticle[] = [
-          {
-            id: '1',
-            title: 'OpenAI Announces GPT-4.5 with Enhanced Multimodal Capabilities',
-            summary: 'OpenAI unveils GPT-4.5, featuring improved image understanding, video analysis, and real-time processing capabilities.',
-            content: 'OpenAI has announced the release of GPT-4.5, marking a significant advancement in AI capabilities...',
-            source: 'OpenAI Blog',
-            author: 'Sam Altman',
-            publishedAt: new Date(Date.now() - 1000 * 60 * 30).toISOString(), // 30 minutes ago
-            category: 'release',
-            tags: ['GPT-4.5', 'Multimodal', 'OpenAI', 'Vision'],
-            url: 'https://openai.com/blog/gpt-4-5',
-            imageUrl: '/api/placeholder/400/200',
-            readTime: 5,
-            views: 15420
-          },
-          {
-            id: '2',
-            title: 'Anthropic Raises $4B Series C Led by Google and Amazon',
-            summary: 'Anthropic secures massive funding round to accelerate development of Claude AI assistant and safety research.',
-            content: 'Anthropic has successfully raised $4 billion in its Series C funding round...',
-            source: 'TechCrunch',
-            author: 'Sarah Johnson',
-            publishedAt: new Date(Date.now() - 1000 * 60 * 60 * 2).toISOString(), // 2 hours ago
-            category: 'funding',
-            tags: ['Anthropic', 'Funding', 'Claude', 'Investment'],
-            url: 'https://techcrunch.com/anthropic-funding',
-            imageUrl: '/api/placeholder/400/200',
-            readTime: 3,
-            views: 8750
-          },
-          {
-            id: '3',
-            title: 'Google Unveils Gemini 1.5 Pro with 2M Token Context Window',
-            summary: 'Google releases Gemini 1.5 Pro with unprecedented context length, enabling analysis of full codebases and long documents.',
-            content: 'Google has released Gemini 1.5 Pro, featuring a groundbreaking 2 million token context window...',
-            source: 'Google AI Blog',
-            author: 'Demis Hassabis',
-            publishedAt: new Date(Date.now() - 1000 * 60 * 60 * 6).toISOString(), // 6 hours ago
-            category: 'release',
-            tags: ['Gemini', 'Google', 'Context Window', 'LLM'],
-            url: 'https://ai.google/blog/gemini-1-5',
-            imageUrl: '/api/placeholder/400/200',
-            readTime: 7,
-            views: 22100
-          },
-          {
-            id: '4',
-            title: 'Meta Partners with Microsoft for Enterprise AI Solutions',
-            summary: 'Meta and Microsoft announce strategic partnership to integrate Llama models into Microsoft Azure and Office 365.',
-            content: 'Meta and Microsoft have announced a comprehensive partnership to bring Llama AI models...',
-            source: 'Meta Newsroom',
-            author: 'Mark Zuckerberg',
-            publishedAt: new Date(Date.now() - 1000 * 60 * 60 * 12).toISOString(), // 12 hours ago
-            category: 'partnership',
-            tags: ['Meta', 'Microsoft', 'Llama', 'Enterprise'],
-            url: 'https://about.meta.com/news/partnership-microsoft',
-            imageUrl: '/api/placeholder/400/200',
-            readTime: 4,
-            views: 11200
-          },
-          {
-            id: '5',
-            title: 'EU AI Act Implementation Guidelines Released',
-            summary: 'European Union publishes detailed implementation guidelines for the AI Act, affecting all AI companies operating in Europe.',
-            content: 'The European Union has released comprehensive implementation guidelines for the AI Act...',
-            source: 'European Commission',
-            author: 'Margrethe Vestager',
-            publishedAt: new Date(Date.now() - 1000 * 60 * 60 * 18).toISOString(), // 18 hours ago
-            category: 'regulation',
-            tags: ['EU', 'AI Act', 'Regulation', 'Compliance'],
-            url: 'https://ec.europa.eu/ai-act-guidelines',
-            imageUrl: '/api/placeholder/400/200',
-            readTime: 8,
-            views: 6800
-          },
-          {
-            id: '6',
-            title: 'AI Chip Market Reaches $150B Valuation in 2024',
-            summary: 'The global AI semiconductor market experiences unprecedented growth, driven by demand for training and inference hardware.',
-            content: 'The artificial intelligence chip market has reached a historic milestone...',
-            source: 'AI Hardware Report',
-            author: 'Dr. Lisa Chen',
-            publishedAt: new Date(Date.now() - 1000 * 60 * 60 * 24).toISOString(), // 1 day ago
-            category: 'market',
-            tags: ['AI Chips', 'Market', 'Hardware', 'Investment'],
-            url: 'https://aihardware.com/market-report-2024',
-            imageUrl: '/api/placeholder/400/200',
-            readTime: 6,
-            views: 9400
-          },
-          {
-            id: '7',
-            title: 'Stanford Releases Constitutional AI Safety Framework',
-            summary: 'Stanford University researchers publish new framework for building AI systems with inherent safety constraints.',
-            content: 'Researchers at Stanford University have developed a novel approach to AI safety...',
-            source: 'Stanford AI Lab',
-            author: 'Prof. Andrew Ng',
-            publishedAt: new Date(Date.now() - 1000 * 60 * 60 * 36).toISOString(), // 1.5 days ago
-            category: 'research',
-            tags: ['Stanford', 'AI Safety', 'Research', 'Framework'],
-            url: 'https://ai.stanford.edu/constitutional-ai',
-            imageUrl: '/api/placeholder/400/200',
-            readTime: 12,
-            views: 5600
-          },
-          {
-            id: '8',
-            title: 'Mistral AI Achieves $2B Valuation in Latest Funding Round',
-            summary: 'French AI startup Mistral AI reaches unicorn status with new funding from European and US investors.',
-            content: 'Mistral AI, the French artificial intelligence startup, has successfully raised...',
-            source: 'Reuters',
-            author: 'Philippe Dubois',
-            publishedAt: new Date(Date.now() - 1000 * 60 * 60 * 48).toISOString(), // 2 days ago
-            category: 'funding',
-            tags: ['Mistral', 'Funding', 'France', 'Startup'],
-            url: 'https://reuters.com/mistral-funding',
-            imageUrl: '/api/placeholder/400/200',
-            readTime: 4,
-            views: 7200
-          }
-        ]
-        setArticles(mockArticles)
+        // Fetch real news data from API
+        const response = await fetch('/api/v1/news?limit=100')
+        const data = await response.json()
+        
+        if (data.articles && Array.isArray(data.articles)) {
+          // Transform API data to match component interface
+          const transformedArticles: NewsArticle[] = data.articles.map((item: any) => ({
+            id: item.id,
+            title: item.title,
+            summary: item.summary,
+            content: item.content,
+            source: item.source,
+            author: item.author,
+            publishedAt: item.publishedAt,
+            category: item.category,
+            tags: item.tags || [],
+            url: item.url || '#',
+            imageUrl: '/api/placeholder/400/200', // Keep placeholder for now
+            readTime: item.readTime || 5,
+            views: item.views || 0
+          }))
+          setArticles(transformedArticles)
+        } else {
+          console.warn('No news data available from API')
+          setArticles([])
+        }
       } catch (error) {
         console.error('Failed to fetch news:', error)
       } finally {
