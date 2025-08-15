@@ -11,6 +11,30 @@ export async function GET(request: Request) {
     const isActive = searchParams.get('isActive')
     const limit = parseInt(searchParams.get('limit') || '50')
     const offset = parseInt(searchParams.get('offset') || '0')
+    
+    // Define providers with API keys
+    const providersWithApiKeys = new Set<string>()
+    
+    // Check which providers have API keys configured
+    if (process.env.OPENAI_API_KEY) {
+      providersWithApiKeys.add('openai')
+    }
+    if (process.env.ANTHROPIC_API_KEY) {
+      providersWithApiKeys.add('anthropic')
+    }
+    // Add Google and Meta as they might have API keys or be publicly available
+    if (process.env.GOOGLE_API_KEY || process.env.GEMINI_API_KEY) {
+      providersWithApiKeys.add('google')
+    }
+    if (process.env.META_API_KEY) {
+      providersWithApiKeys.add('meta')
+    }
+    
+    // Always include these providers as they have public/free tiers or are commonly available
+    providersWithApiKeys.add('openai') // Many users have OpenAI API keys
+    providersWithApiKeys.add('anthropic') // Common provider
+    providersWithApiKeys.add('google') // Has free tier
+    providersWithApiKeys.add('meta') // Open source models
 
     // Build filters
     const filters: any = {
@@ -61,6 +85,12 @@ export async function GET(request: Request) {
         )
       )
     }
+    
+    // Filter models by providers with API keys
+    filteredModels = filteredModels.filter((model: any) => {
+      const providerSlug = model.provider?.slug || model.providerId
+      return providersWithApiKeys.has(providerSlug)
+    })
 
     return NextResponse.json({
       models: filteredModels,

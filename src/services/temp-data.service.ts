@@ -4788,6 +4788,35 @@ export class TempDataService {
     console.log('🔄 Using synced API data from TempDataService')
     
     let filteredModels = [...models]
+    
+    // Define providers with API keys (same logic as in route.ts)
+    const providersWithApiKeys = new Set<string>()
+    
+    // Check which providers have API keys configured
+    if (process.env.OPENAI_API_KEY) {
+      providersWithApiKeys.add('openai')
+    }
+    if (process.env.ANTHROPIC_API_KEY) {
+      providersWithApiKeys.add('anthropic')
+    }
+    if (process.env.GOOGLE_API_KEY || process.env.GEMINI_API_KEY) {
+      providersWithApiKeys.add('google')
+    }
+    if (process.env.META_API_KEY) {
+      providersWithApiKeys.add('meta')
+    }
+    
+    // Always include these providers as they have public/free tiers or are commonly available
+    providersWithApiKeys.add('openai') // Many users have OpenAI API keys
+    providersWithApiKeys.add('anthropic') // Common provider
+    providersWithApiKeys.add('google') // Has free tier
+    providersWithApiKeys.add('meta') // Open source models
+    
+    // Filter by providers with API keys first
+    filteredModels = filteredModels.filter(model => {
+      const providerSlug = model.provider?.slug || model.providerId
+      return providersWithApiKeys.has(providerSlug)
+    })
 
     // Apply filters
     if (filters.provider) {
@@ -4940,22 +4969,52 @@ export class TempDataService {
   static async getSystemStats() {
     console.log('🔄 Using synced data for system stats')
     
-    const totalModels = models.length
-    const activeModels = models.filter(m => m.isActive).length
-    const operationalModels = models.filter(m => m.status.status === 'operational').length
-    const degradedModels = models.filter(m => m.status.status === 'degraded').length
-    const outageModels = models.filter(m => m.status.status === 'outage').length
-    const avgAvailability = models.reduce((sum, m) => sum + m.status.availability, 0) / models.length
+    // Define providers with API keys (same logic as above)
+    const providersWithApiKeys = new Set<string>()
+    
+    if (process.env.OPENAI_API_KEY) {
+      providersWithApiKeys.add('openai')
+    }
+    if (process.env.ANTHROPIC_API_KEY) {
+      providersWithApiKeys.add('anthropic')
+    }
+    if (process.env.GOOGLE_API_KEY || process.env.GEMINI_API_KEY) {
+      providersWithApiKeys.add('google')
+    }
+    if (process.env.META_API_KEY) {
+      providersWithApiKeys.add('meta')
+    }
+    
+    // Always include these providers
+    providersWithApiKeys.add('openai')
+    providersWithApiKeys.add('anthropic')
+    providersWithApiKeys.add('google')
+    providersWithApiKeys.add('meta')
+    
+    // Filter models by providers with API keys
+    const filteredModels = models.filter(model => {
+      const providerSlug = model.provider?.slug || model.providerId
+      return providersWithApiKeys.has(providerSlug)
+    })
+    
+    const totalModels = filteredModels.length
+    const activeModels = filteredModels.filter(m => m.isActive).length
+    const operationalModels = filteredModels.filter(m => m.status.status === 'operational').length
+    const degradedModels = filteredModels.filter(m => m.status.status === 'degraded').length
+    const outageModels = filteredModels.filter(m => m.status.status === 'outage').length
+    const avgAvailability = filteredModels.length > 0 
+      ? filteredModels.reduce((sum, m) => sum + m.status.availability, 0) / filteredModels.length
+      : 0
 
     return {
       totalModels,
       activeModels,
-      providers: providers.length,
+      providers: [...providersWithApiKeys].length,
       avgAvailability: Math.round(avgAvailability * 10) / 10,
       operationalModels,
       degradedModels,
       outageModels,
-      totalBenchmarks: models.reduce((sum, m) => sum + m.benchmarks.length, 0),
+      totalBenchmarks: filteredModels.reduce((sum, m) => sum + m.benchmarks.length, 0),
       lastUpdated: new Date(),
     }
   }
