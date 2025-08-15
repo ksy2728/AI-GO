@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useRef } from 'react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { LineChart, Line, AreaChart, Area, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts'
 import { useRealtime } from '@/hooks/useRealtime'
@@ -24,11 +24,60 @@ export function RealtimeChart({
 }: RealtimeChartProps) {
   const { connected, globalStats } = useRealtime()
   const [chartData, setChartData] = useState<any[]>([])
+  const [isPolling, setIsPolling] = useState(false)
+  const pollingIntervalRef = useRef<NodeJS.Timeout | null>(null)
+
+  // Fetch realtime stats from Edge Function
+  const fetchRealtimeStats = async () => {
+    try {
+      const response = await fetch('/api/v1/realtime-stats')
+      if (response.ok) {
+        const data = await response.json()
+        
+        // Use historical data if available
+        if (data.history && data.history.length > 0) {
+          const formattedData = data.history.map((point: any) => ({
+            time: point.time,
+            value: point[dataKey] || 0,
+            timestamp: point.timestamp
+          }))
+          setChartData(formattedData)
+        } else {
+          // Add single data point
+          const newDataPoint = {
+            time: new Date().toLocaleTimeString('ko-KR', {
+              timeZone: 'Asia/Seoul',
+              hour12: false,
+              hour: '2-digit',
+              minute: '2-digit',
+              second: '2-digit'
+            }),
+            value: data[dataKey] || 0,
+            timestamp: Date.now()
+          }
+          
+          setChartData(prev => {
+            const updated = [...prev, newDataPoint].slice(-20)
+            return updated
+          })
+        }
+      }
+    } catch (error) {
+      console.error('Failed to fetch realtime stats:', error)
+    }
+  }
 
   useEffect(() => {
+    // If WebSocket is connected, use it
     if (globalStats) {
       const newDataPoint = {
-        time: new Date().toLocaleTimeString(),
+        time: new Date().toLocaleTimeString('ko-KR', {
+          timeZone: 'Asia/Seoul',
+          hour12: false,
+          hour: '2-digit',
+          minute: '2-digit',
+          second: '2-digit'
+        }),
         value: globalStats[dataKey as keyof typeof globalStats] || 0,
         timestamp: Date.now()
       }
@@ -38,16 +87,25 @@ export function RealtimeChart({
         const updated = [...prev, newDataPoint].slice(-20)
         return updated
       })
-    } else {
-      // For production without WebSocket, create sample data to show chart structure
-      const sampleData = Array.from({length: 10}, (_, i) => ({
-        time: new Date(Date.now() - (9-i) * 60000).toLocaleTimeString(),
-        value: Math.floor(Math.random() * 10) + 90, // Sample values between 90-100
-        timestamp: Date.now() - (9-i) * 60000
-      }))
-      setChartData(sampleData)
+    } else if (!connected) {
+      // For production without WebSocket, use Edge Function polling
+      setIsPolling(true)
+      
+      // Initial fetch
+      fetchRealtimeStats()
+      
+      // Set up polling interval (every 10 seconds)
+      pollingIntervalRef.current = setInterval(() => {
+        fetchRealtimeStats()
+      }, 10000)
+      
+      return () => {
+        if (pollingIntervalRef.current) {
+          clearInterval(pollingIntervalRef.current)
+        }
+      }
     }
-  }, [globalStats, dataKey])
+  }, [globalStats, dataKey, connected])
 
   const renderChart = () => {
     const props = {
@@ -126,12 +184,17 @@ export function RealtimeChart({
             <CardTitle>{title}</CardTitle>
             {description && <CardDescription>{description}</CardDescription>}
           </div>
-          {connected && (
+          {connected ? (
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
               <span className="text-xs text-gray-500">Live</span>
             </div>
-          )}
+          ) : isPolling ? (
+            <div className="flex items-center gap-2">
+              <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse" />
+              <span className="text-xs text-gray-500">Polling</span>
+            </div>
+          ) : null}
         </div>
       </CardHeader>
       <CardContent>

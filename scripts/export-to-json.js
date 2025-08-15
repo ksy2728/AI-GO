@@ -1,176 +1,181 @@
-/**
- * Export database data to JSON files for GitHub storage
- */
+const { PrismaClient } = require('@prisma/client')
+const fs = require('fs').promises
+const path = require('path')
 
-const { PrismaClient } = require('@prisma/client');
-const fs = require('fs').promises;
-const path = require('path');
+const prisma = new PrismaClient()
 
-const prisma = new PrismaClient();
-
-async function exportData() {
+async function exportToJSON() {
   try {
-    console.log('📦 Exporting data from database to JSON...');
-
-    // 1. Export Models with all relations
+    console.log('📄 Exporting data to JSON...')
+    
+    // 데이터 디렉토리 생성
+    const dataDir = path.join(process.cwd(), 'data')
+    try {
+      await fs.access(dataDir)
+    } catch {
+      await fs.mkdir(dataDir, { recursive: true })
+      console.log('📁 Created data directory')
+    }
+    
+    // 모든 모델과 관련 데이터 조회
     const models = await prisma.model.findMany({
       include: {
         provider: true,
-        status: {
-          orderBy: { checkedAt: 'desc' },
-          take: 1
-        },
-        pricing: {
-          where: { effectiveTo: null }
-        },
-        benchmarkScores: {
+        status: true
+      },
+      orderBy: [
+        { provider: { name: 'asc' } },
+        { name: 'asc' }
+      ]
+    })
+    
+    // Provider별 그룹화
+    const providers = await prisma.provider.findMany({
+      include: {
+        models: {
           include: {
-            suite: true
+            status: true
           }
         }
-      }
-    });
-
-    // 2. Export Providers
-    const providers = await prisma.provider.findMany();
-
-    // 3. Export Benchmark Suites
-    const benchmarkSuites = await prisma.benchmarkSuite.findMany();
-
-    // 4. Transform data for JSON storage
-    const transformedModels = models.map(model => ({
-      id: model.id,
-      slug: model.slug,
-      name: model.name,
-      description: model.description,
-      provider: {
-        id: model.provider.id,
-        name: model.provider.name,
-        slug: model.provider.slug,
-        websiteUrl: model.provider.websiteUrl,
-        documentationUrl: model.provider.documentationUrl,
-        regions: JSON.parse(model.provider.regions || '[]')
       },
-      foundationModel: model.foundationModel,
-      releasedAt: model.releasedAt,
-      deprecatedAt: model.deprecatedAt,
-      sunsetAt: model.sunsetAt,
-      modalities: JSON.parse(model.modalities || '[]'),
-      capabilities: JSON.parse(model.capabilities || '[]'),
-      contextWindow: model.contextWindow,
-      maxOutputTokens: model.maxOutputTokens,
-      trainingCutoff: model.trainingCutoff,
-      apiVersion: model.apiVersion,
-      isActive: model.isActive,
-      status: model.status[0] ? {
-        status: model.status[0].status,
-        availability: model.status[0].availability,
-        latencyP50: model.status[0].latencyP50,
-        latencyP95: model.status[0].latencyP95,
-        latencyP99: model.status[0].latencyP99,
-        errorRate: model.status[0].errorRate,
-        requestsPerMin: model.status[0].requestsPerMin,
-        tokensPerMin: model.status[0].tokensPerMin,
-        usage: model.status[0].usage,
-        checkedAt: model.status[0].checkedAt
-      } : null,
-      pricing: model.pricing[0] ? {
-        tier: model.pricing[0].tier,
-        currency: model.pricing[0].currency,
-        inputPerMillion: model.pricing[0].inputPerMillion,
-        outputPerMillion: model.pricing[0].outputPerMillion,
-        imagePerUnit: model.pricing[0].imagePerUnit,
-        audioPerMinute: model.pricing[0].audioPerMinute,
-        videoPerMinute: model.pricing[0].videoPerMinute,
-        effectiveFrom: model.pricing[0].effectiveFrom
-      } : null,
-      benchmarks: model.benchmarkScores.map(score => ({
-        suite: score.suite.name,
-        suiteSlug: score.suite.slug,
-        score: score.scoreRaw,
-        normalizedScore: score.scoreNormalized,
-        percentile: score.percentile,
-        evaluationDate: score.evaluationDate,
-        isOfficial: score.isOfficial
-      })),
-      createdAt: model.createdAt,
-      updatedAt: model.updatedAt
-    }));
-
-    // 5. Apply provider filtering (only show models with API keys)
-    const providersWithApiKeys = new Set(['openai', 'anthropic', 'google', 'meta']);
-    const filteredModels = transformedModels.filter(model => 
-      providersWithApiKeys.has(model.provider.slug)
-    );
-
-    // 6. Create data structure
-    const data = {
-      version: '1.0.0',
-      lastUpdated: new Date().toISOString(),
-      providers: providers.filter(p => providersWithApiKeys.has(p.slug)).map(p => ({
-        id: p.id,
-        name: p.name,
-        slug: p.slug,
-        websiteUrl: p.websiteUrl,
-        documentationUrl: p.documentationUrl,
-        regions: JSON.parse(p.regions || '[]')
-      })),
-      models: filteredModels,
-      benchmarkSuites: benchmarkSuites.map(suite => ({
-        id: suite.id,
-        slug: suite.slug,
-        name: suite.name,
-        description: suite.description,
-        category: suite.category,
-        version: suite.version,
-        maxScore: suite.maxScore
-      })),
-      statistics: {
-        totalModels: filteredModels.length,
-        activeModels: filteredModels.filter(m => m.isActive).length,
-        totalProviders: providersWithApiKeys.size,
-        operationalModels: filteredModels.filter(m => m.status?.status === 'operational').length,
-        avgAvailability: filteredModels.reduce((sum, m) => sum + (m.status?.availability || 0), 0) / filteredModels.length
-      }
-    };
-
-    // 7. Write to files
-    const dataDir = path.join(__dirname, '..', 'data');
+      orderBy: { name: 'asc' }
+    })
     
-    // Main data file
-    await fs.writeFile(
-      path.join(dataDir, 'models.json'),
-      JSON.stringify(data, null, 2),
-      'utf8'
-    );
+    // 통계 계산
+    const statistics = {
+      totalModels: models.length,
+      activeModels: models.filter(m => m.isActive).length,
+      totalProviders: providers.length,
+      operationalModels: models.filter(m => m.status?.[0]?.status === 'operational' || m.status?.status === 'operational').length,
+      degradedModels: models.filter(m => m.status?.[0]?.status === 'degraded' || m.status?.status === 'degraded').length,
+      outageModels: models.filter(m => m.status?.[0]?.status === 'outage' || m.status?.status === 'outage').length,
+      avgAvailability: models.reduce((sum, m) => sum + (m.status?.[0]?.availability || m.status?.availability || 99.5), 0) / models.length,
+      lastUpdated: new Date().toISOString()
+    }
+    
+    // 모델 타입별 통계
+    const typeStats = models.reduce((acc, model) => {
+      acc[model.type] = (acc[model.type] || 0) + 1
+      return acc
+    }, {})
+    
+    // Provider별 통계
+    const providerStats = providers.map(provider => ({
+      id: provider.id,
+      name: provider.name,
+      website: provider.websiteUrl,
+      totalModels: provider.models.length,
+      activeModels: provider.models.filter(m => m.isActive).length,
+      operationalModels: provider.models.filter(m => m.status?.[0]?.status === 'operational' || m.status?.status === 'operational').length,
+      avgAvailability: provider.models.length > 0 
+        ? provider.models.reduce((sum, m) => sum + (m.status?.[0]?.availability || m.status?.availability || 99.5), 0) / provider.models.length 
+        : 0
+    }))
+    
+    // JSON 데이터 구조
+    const jsonData = {
+      metadata: {
+        version: '1.0',
+        generated: new Date().toISOString(),
+        source: 'github-actions'
+      },
+      statistics,
+      typeStatistics: typeStats,
+      providers: providerStats,
+      models: models.map(model => ({
+        id: model.id,
+        name: model.name,
+        provider: {
+          id: model.provider.id,
+          name: model.provider.name,
+          website: model.provider.websiteUrl
+        },
+        type: model.modalities || 'text',
+        status: (model.status?.[0] || model.status) ? {
+          status: (model.status?.[0] || model.status).status,
+          availability: (model.status?.[0] || model.status).availability,
+          responseTime: (model.status?.[0] || model.status).latencyP50,
+          errorRate: (model.status?.[0] || model.status).errorRate,
+          lastCheck: (model.status?.[0] || model.status).checkedAt
+        } : null,
+        availability: (model.status?.[0] || model.status)?.availability || 99.5,
+        isActive: model.isActive,
+        lastUpdate: model.updatedAt,
+        createdAt: model.createdAt
+      }))
+    }
+    
+    // JSON 파일 저장
+    const jsonPath = path.join(dataDir, 'models.json')
+    await fs.writeFile(jsonPath, JSON.stringify(jsonData, null, 2))
+    console.log(`✅ Exported ${models.length} models to ${jsonPath}`)
+    
+    // 간단한 통계 파일 생성
+    const statsPath = path.join(dataDir, 'stats.json')
+    await fs.writeFile(statsPath, JSON.stringify({
+      ...statistics,
+      typeStatistics: typeStats,
+      providerCount: providerStats.length
+    }, null, 2))
+    console.log(`✅ Exported statistics to ${statsPath}`)
+    
+    // README 파일 생성
+    const readmePath = path.join(dataDir, 'README.md')
+    const readmeContent = `# AI Server Information - Data Export
 
-    // Separate status file for more frequent updates
-    const statusData = {
-      version: '1.0.0',
-      lastUpdated: new Date().toISOString(),
-      statuses: filteredModels.reduce((acc, model) => {
-        if (model.status) {
-          acc[model.slug] = model.status;
-        }
-        return acc;
-      }, {})
-    };
+## Overview
+This directory contains automatically generated data exports from the AI Server Information system.
 
-    await fs.writeFile(
-      path.join(dataDir, 'model-status.json'),
-      JSON.stringify(statusData, null, 2),
-      'utf8'
-    );
+## Files
+- \`models.json\` - Complete model and provider data with real-time status
+- \`stats.json\` - Summary statistics and analytics
 
-    console.log(`✅ Exported ${filteredModels.length} models to data/models.json`);
-    console.log(`✅ Exported status data to data/model-status.json`);
+## Last Updated
+${new Date().toISOString()}
 
+## Statistics
+- **Total Models**: ${statistics.totalModels}
+- **Active Models**: ${statistics.activeModels}
+- **Total Providers**: ${statistics.totalProviders}
+- **Operational Models**: ${statistics.operationalModels}
+- **Average Availability**: ${statistics.avgAvailability.toFixed(1)}%
+
+## Data Structure
+The JSON files follow a structured format designed for easy consumption by the frontend application and API endpoints.
+
+## Automated Updates
+This data is automatically updated every hour via GitHub Actions workflow.
+`
+    
+    await fs.writeFile(readmePath, readmeContent)
+    console.log(`✅ Generated README at ${readmePath}`)
+    
+    console.log('\n📊 Export Summary:')
+    console.log(`   - Models: ${statistics.totalModels}`)
+    console.log(`   - Providers: ${statistics.totalProviders}`)
+    console.log(`   - Active: ${statistics.activeModels}`)
+    console.log(`   - Operational: ${statistics.operationalModels}`)
+    console.log(`   - Average availability: ${statistics.avgAvailability.toFixed(1)}%`)
+    
   } catch (error) {
-    console.error('❌ Export failed:', error);
-    process.exit(1);
+    console.error('❌ Export failed:', error)
+    throw error
   } finally {
-    await prisma.$disconnect();
+    await prisma.$disconnect()
   }
 }
 
-exportData();
+// 스크립트가 직접 실행될 때
+if (require.main === module) {
+  exportToJSON()
+    .then(() => {
+      console.log('🎉 Export completed successfully')
+      process.exit(0)
+    })
+    .catch((error) => {
+      console.error('💥 Export failed:', error)
+      process.exit(1)
+    })
+}
+
+module.exports = { exportToJSON }
