@@ -3,8 +3,8 @@ import { NextRequest, NextResponse } from 'next/server'
 // Edge Runtime for better performance
 export const runtime = 'edge'
 
-// Cache control
-export const revalidate = 10 // Revalidate every 10 seconds
+// Cache control - 5분 주기 GitHub Actions와 동기화
+export const revalidate = 60 // Revalidate every 60 seconds (1분)
 
 interface RealtimeStats {
   timestamp: string
@@ -80,9 +80,10 @@ export async function GET(request: NextRequest) {
     
     try {
       const response = await fetch(githubDataUrl, {
-        next: { revalidate: 10 }, // Cache for 10 seconds
+        next: { revalidate: 60 }, // Cache for 60 seconds (GitHub Actions 5분 주기)
         headers: {
-          'Accept': 'application/json'
+          'Accept': 'application/json',
+          'Cache-Control': 'public, s-maxage=60, stale-while-revalidate=300'
         }
       })
       
@@ -121,7 +122,7 @@ export async function GET(request: NextRequest) {
     // Return with appropriate cache headers
     return NextResponse.json(currentStats, {
       headers: {
-        'Cache-Control': 'public, s-maxage=10, stale-while-revalidate=59',
+        'Cache-Control': 'public, s-maxage=60, stale-while-revalidate=300',
         'X-Data-Source': 'edge-function',
         'X-Timestamp': new Date().toISOString()
       }
@@ -148,7 +149,7 @@ export async function GET(request: NextRequest) {
     }, {
       status: 200,
       headers: {
-        'Cache-Control': 'public, s-maxage=10, stale-while-revalidate=59',
+        'Cache-Control': 'public, s-maxage=60, stale-while-revalidate=300',
         'X-Data-Source': 'fallback',
         'X-Timestamp': new Date().toISOString()
       }

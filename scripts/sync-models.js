@@ -50,11 +50,20 @@ async function syncModels() {
     ]
     
     // 모델 상태 업데이트만 수행 (기존 모델들의 상태만 갱신)
+    // 5분 주기이므로 매번 다른 모델들을 업데이트하여 부하 분산
+    const totalModels = await prisma.model.count()
+    const currentMinute = new Date().getMinutes()
+    const batchSize = Math.min(15, Math.ceil(totalModels / 4)) // 4번에 나눠서 모든 모델 업데이트
+    const offset = (currentMinute % 4) * batchSize
+    
+    console.log(`🔄 Updating models batch ${Math.floor(currentMinute / 5) % 4 + 1}/4 (offset: ${offset}, size: ${batchSize})`)
+    
     const existingModels = await prisma.model.findMany({
       include: {
         status: true
       },
-      take: 10 // 처음 10개 모델만 업데이트
+      skip: offset,
+      take: batchSize
     })
     
     for (const model of existingModels) {
@@ -96,7 +105,7 @@ async function syncModels() {
     }
     
     const afterCount = await prisma.model.count()
-    console.log(`✅ Model sync completed. Total models: ${afterCount}`)
+    console.log(`✅ Model batch sync completed. Updated ${existingModels.length} models. Total models: ${afterCount}`)
     
     // 통계 업데이트
     const activeModels = await prisma.model.count({

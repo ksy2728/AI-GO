@@ -2,14 +2,15 @@ name: Sync Model Data
 
 on:
   schedule:
-    # 매시간 정각에 실행 (UTC 기준)
-    - cron: '0 * * * *'
+    # 5분마다 실행 (로컬 OpenAI 동기화 주기와 동일)
+    - cron: '*/5 * * * *'
   workflow_dispatch: # 수동 실행 가능
   push:
     branches:
       - master
     paths:
       - 'scripts/sync-models.js'
+      - 'scripts/export-to-json.js'
       - '.github/workflows/sync-data.yml'
 
 jobs:
@@ -58,8 +59,11 @@ jobs:
         run: |
           if git diff --quiet data/; then
             echo "changes=false" >> $GITHUB_OUTPUT
+            echo "ℹ️ No changes detected in data files"
           else
             echo "changes=true" >> $GITHUB_OUTPUT
+            echo "✅ Changes detected in data files"
+            git diff --stat data/
           fi
           
       - name: Commit and push changes
@@ -68,5 +72,15 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add data/
-          git commit -m "chore: update model data [skip ci]" -m "Automated update at $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          
+          # 변경 사항 요약 생성
+          TOTAL_MODELS=$(jq -r '.statistics.totalModels' data/models.json)
+          ACTIVE_MODELS=$(jq -r '.statistics.activeModels' data/models.json)
+          OPERATIONAL=$(jq -r '.statistics.operationalModels' data/models.json)
+          AVG_AVAILABILITY=$(jq -r '.statistics.avgAvailability' data/models.json)
+          
+          git commit -m "chore: update model data [skip ci]" -m "📊 Models: ${TOTAL_MODELS} | Active: ${ACTIVE_MODELS} | Operational: ${OPERATIONAL} | Availability: ${AVG_AVAILABILITY}%
+          
+          🤖 Automated sync at $(date -u '+%Y-%m-%d %H:%M:%S UTC')
+          🔄 Next sync in 5 minutes"
           git push

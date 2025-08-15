@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "1.0",
-    "generated": "2025-08-15T06:56:01.867Z",
+    "generated": "2025-08-15T07:00:06.748Z",
     "source": "github-actions"
   },
   "statistics": {
     "totalModels": 63,
     "activeModels": 51,
     "totalProviders": 10,
-    "operationalModels": 44,
+    "operationalModels": 48,
     "degradedModels": 0,
     "outageModels": 0,
-    "avgAvailability": 99.68034481556799,
-    "lastUpdated": "2025-08-15T06:56:01.866Z"
+    "avgAvailability": 99.53044455087488,
+    "lastUpdated": "2025-08-15T07:00:06.746Z"
   },
   "typeStatistics": {
     "undefined": 63
@@ -33,8 +33,8 @@
       "website": "https://anthropic.com",
       "totalModels": 12,
       "activeModels": 6,
-      "operationalModels": 5,
-      "avgAvailability": 99.66666666666667
+      "operationalModels": 6,
+      "avgAvailability": 99.60539852601762
     },
     {
       "id": "cohere",
@@ -52,7 +52,7 @@
       "totalModels": 11,
       "activeModels": 5,
       "operationalModels": 6,
-      "avgAvailability": 99.36180567079518
+      "avgAvailability": 99.66044066012759
     },
     {
       "id": "huggingface",
@@ -69,8 +69,8 @@
       "website": "https://ai.meta.com",
       "totalModels": 17,
       "activeModels": 17,
-      "operationalModels": 10,
-      "avgAvailability": 99.59893300012016
+      "operationalModels": 13,
+      "avgAvailability": 98.89343394891229
     },
     {
       "id": "microsoft",
@@ -362,8 +362,14 @@
         "website": "https://anthropic.com"
       },
       "type": "[\"text\"]",
-      "status": {},
-      "availability": 99.5,
+      "status": {
+        "status": "operational",
+        "availability": 98.76478231221147,
+        "responseTime": 188,
+        "errorRate": 1.846548941364107,
+        "lastCheck": "2025-08-15T07:00:01.670Z"
+      },
+      "availability": 98.76478231221147,
       "isActive": false,
       "lastUpdate": "2025-08-15T04:57:36.075Z",
       "createdAt": "2025-08-15T01:49:24.727Z"
@@ -559,12 +565,12 @@
       "type": "[\"text\"]",
       "status": {
         "status": "operational",
-        "availability": 95.97986237874683,
-        "responseTime": 233,
-        "errorRate": 0.1840436006088284,
-        "lastCheck": "2025-08-15T06:55:54.619Z"
+        "availability": 99.26484726140353,
+        "responseTime": 235,
+        "errorRate": 0.1414358961419069,
+        "lastCheck": "2025-08-15T07:00:01.149Z"
       },
-      "availability": 95.97986237874683,
+      "availability": 99.26484726140353,
       "isActive": false,
       "lastUpdate": "2025-08-15T05:11:36.370Z",
       "createdAt": "2025-08-15T01:49:28.035Z"
@@ -595,12 +601,12 @@
       "type": "[\"text\"]",
       "status": {
         "status": "operational",
-        "availability": 98.13616429990479,
-        "responseTime": 225,
-        "errorRate": 0.1161862149265676,
-        "lastCheck": "2025-08-15T06:55:54.980Z"
+        "availability": 97.15783859798873,
+        "responseTime": 216,
+        "errorRate": 1.000302131403384,
+        "lastCheck": "2025-08-15T07:00:01.529Z"
       },
-      "availability": 98.13616429990479,
+      "availability": 97.15783859798873,
       "isActive": true,
       "lastUpdate": "2025-08-15T05:11:44.421Z",
       "createdAt": "2025-08-15T01:49:31.456Z"
@@ -629,8 +635,14 @@
         "website": "https://ai.meta.com"
       },
       "type": "[\"text\"]",
-      "status": {},
-      "availability": 99.5,
+      "status": {
+        "status": "operational",
+        "availability": 96.16184839492983,
+        "responseTime": 121,
+        "errorRate": 0.312029189718364,
+        "lastCheck": "2025-08-15T07:00:01.912Z"
+      },
+      "availability": 96.16184839492983,
       "isActive": true,
       "lastUpdate": "2025-08-15T05:11:43.915Z",
       "createdAt": "2025-08-15T01:49:30.902Z"
@@ -661,12 +673,12 @@
       "type": "[\"text\"]",
       "status": {
         "status": "operational",
-        "availability": 99.71686437793173,
-        "responseTime": 109,
-        "errorRate": 0.1313311287759089,
-        "lastCheck": "2025-08-15T06:55:54.296Z"
+        "availability": 96.9286204640595,
+        "responseTime": 195,
+        "errorRate": 1.543659239058783,
+        "lastCheck": "2025-08-15T07:00:00.858Z"
       },
-      "availability": 99.71686437793173,
+      "availability": 96.9286204640595,
       "isActive": true,
       "lastUpdate": "2025-08-15T05:11:44.232Z",
       "createdAt": "2025-08-15T01:49:31.108Z"
@@ -695,8 +707,14 @@
         "website": "https://ai.meta.com"
       },
       "type": "[\"text\"]",
-      "status": {},
-      "availability": 99.5,
+      "status": {
+        "status": "operational",
+        "availability": 96.35069945520605,
+        "responseTime": 217,
+        "errorRate": 1.994957071071055,
+        "lastCheck": "2025-08-15T07:00:01.753Z"
+      },
+      "availability": 96.35069945520605,
       "isActive": true,
       "lastUpdate": "2025-08-15T05:11:43.724Z",
       "createdAt": "2025-08-15T01:49:30.577Z"
@@ -733,12 +751,12 @@
       "type": "[\"text\"]",
       "status": {
         "status": "operational",
-        "availability": 99.5288323242062,
-        "responseTime": 63,
-        "errorRate": 0.562661826015133,
-        "lastCheck": "2025-08-15T06:55:54.769Z"
+        "availability": 99.7536974283884,
+        "responseTime": 180,
+        "errorRate": 0.8824026925977901,
+        "lastCheck": "2025-08-15T07:00:01.307Z"
       },
-      "availability": 99.5288323242062,
+      "availability": 99.7536974283884,
       "isActive": true,
       "lastUpdate": "2025-08-15T05:11:42.701Z",
       "createdAt": "2025-08-15T01:49:29.816Z"
@@ -809,8 +827,14 @@
         "website": "https://ai.meta.com"
       },
       "type": "[\"text\"]",
-      "status": {},
-      "availability": 99.5,
+      "status": {
+        "status": "operational",
+        "availability": 97.5356727909364,
+        "responseTime": 99,
+        "errorRate": 1.709426496852051,
+        "lastCheck": "2025-08-15T07:00:01.829Z"
+      },
+      "availability": 97.5356727909364,
       "isActive": true,
       "lastUpdate": "2025-08-15T05:11:43.464Z",
       "createdAt": "2025-08-15T01:49:30.218Z"
