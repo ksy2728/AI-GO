@@ -10,6 +10,11 @@ export const metadata: Metadata = {
   description: 'Real-time monitoring of AI model performance, availability, benchmarks, and industry news from around the world.',
   keywords: ['AI', 'machine learning', 'monitoring', 'benchmarks', 'API'],
   authors: [{ name: 'AI-GO Team' }],
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
+  },
 }
 
 export const viewport: Viewport = {

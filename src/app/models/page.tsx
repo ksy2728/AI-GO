@@ -241,14 +241,22 @@ export default function ModelsPage() {
                 </p>
 
                 <div className="flex flex-wrap gap-2">
-                  {model.modalities.slice(0, 2).map(modality => (
-                    <Badge key={modality} variant="outline" className="text-xs">
-                      {modality}
-                    </Badge>
-                  ))}
-                  {model.modalities.length > 2 && (
+                  {model.modalities && model.modalities.length > 0 ? (
+                    <>
+                      {model.modalities.slice(0, 2).map(modality => (
+                        <Badge key={modality} variant="outline" className="text-xs">
+                          {modality}
+                        </Badge>
+                      ))}
+                      {model.modalities.length > 2 && (
+                        <Badge variant="outline" className="text-xs">
+                          +{model.modalities.length - 2} more
+                        </Badge>
+                      )}
+                    </>
+                  ) : (
                     <Badge variant="outline" className="text-xs">
-                      +{model.modalities.length - 2} more
+                      No modalities
                     </Badge>
                   )}
                 </div>
