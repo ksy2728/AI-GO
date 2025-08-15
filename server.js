@@ -13,6 +13,43 @@ const port = parseInt(process.env.PORT || '3000', 10)
 const app = next({ dev, hostname, port })
 const handle = app.getRequestHandler()
 
+// Auto-sync data on startup (only in development or if enabled)
+const shouldAutoSync = process.env.AUTO_SYNC === 'true' || (dev && process.env.DISABLE_AUTO_SYNC !== 'true')
+if (shouldAutoSync) {
+  // Try GitHub sync first
+  import('./src/services/github-sync.service.js').then(({ GitHubSyncService }) => {
+    console.log('🔄 Running GitHub data sync...')
+    GitHubSyncService.forceSync().then(result => {
+      if (result.success) {
+        console.log(`✅ GitHub sync completed: ${result.message}`)
+      } else {
+        console.warn(`⚠️ GitHub sync failed: ${result.message}`)
+        // Fallback to API sync
+        const { initSync } = require('./scripts/init-sync.js')
+        console.log('🔄 Falling back to API sync...')
+        initSync().catch(err => {
+          console.error('⚠️ API sync also failed:', err)
+        })
+      }
+    }).catch(err => {
+      console.error('⚠️ GitHub sync error:', err)
+      // Fallback to API sync
+      const { initSync } = require('./scripts/init-sync.js')
+      console.log('🔄 Falling back to API sync...')
+      initSync().catch(err => {
+        console.error('⚠️ API sync also failed:', err)
+      })
+    })
+  }).catch(() => {
+    // If GitHub sync service not available, use API sync
+    const { initSync } = require('./scripts/init-sync.js')
+    console.log('🔄 Running initial data sync...')
+    initSync().catch(err => {
+      console.error('⚠️ Initial sync failed:', err)
+    })
+  })
+}
+
 app.prepare().then(() => {
   const server = createServer(async (req, res) => {
     try {

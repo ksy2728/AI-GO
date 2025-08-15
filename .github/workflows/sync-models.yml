@@ -1,0 +1,59 @@
+name: Sync AI Models Data
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/models.json'
+      - 'data/model-status.json'
+  schedule:
+    # Run every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Force sync even if no changes detected'
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Trigger sync on production
+        run: |
+          # Trigger sync via webhook or API
+          if [ "${{ secrets.PRODUCTION_URL }}" != "" ]; then
+            echo "🔄 Triggering sync on production..."
+            curl -X POST \
+              "${{ secrets.PRODUCTION_URL }}/api/v1/sync/github" \
+              -H "Content-Type: application/json" \
+              -H "Authorization: Bearer ${{ secrets.SYNC_API_KEY }}" \
+              --fail-with-body
+          fi
+          
+      - name: Trigger repository dispatch
+        if: github.event_name == 'push' || github.event.inputs.force == 'true'
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          event-type: sync_models
+          client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
+          
+      - name: Update sync timestamp
+        if: success()
+        run: |
+          echo "Last sync: $(date -u +"%Y-%m-%dT%H:%M:%SZ")" > data/.last-sync
+          
+      - name: Commit sync timestamp
+        if: success()
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: Update sync timestamp [skip ci]'
+          file_pattern: data/.last-sync
+          skip_checkout: true

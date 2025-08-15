@@ -61,7 +61,7 @@ export function useRealtime(options: UseRealtimeOptions = {}) {
     }
 
     const socketUrl = process.env.NEXT_PUBLIC_WEBSOCKET_URL || 
-                     (typeof window !== 'undefined' ? window.location.origin : 'http://localhost:8080')
+                     (typeof window !== 'undefined' ? window.location.origin : 'http://localhost:3005')
 
     const socketInstance = io(socketUrl, {
       transports: ['websocket', 'polling'],

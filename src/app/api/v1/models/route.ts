@@ -59,28 +59,28 @@ export async function GET(request: Request) {
       filters.capabilities = [capability]
     }
 
-    // Data source priority: GitHub > Database > TempData
+    // Data source priority: Database > GitHub > TempData
     let models: any[] = []
-    let dataSource = 'github'
+    let dataSource = 'database'
     
     try {
-      // Try GitHub data first (preferred for consistency)
-      models = await GitHubDataService.getAllModels(filters)
-      console.log('📦 Using GitHub data source')
-    } catch (githubError) {
-      console.warn('⚠️ GitHub data failed, trying database:', githubError instanceof Error ? githubError.message : 'Unknown error')
+      // Try database first (for real data)
+      models = (await ModelService.getAll(filters)) as any[]
+      console.log('🗄️ Using database source (real data)')
+    } catch (dbError) {
+      console.warn('⚠️ Database failed, trying GitHub data:', dbError instanceof Error ? dbError.message : 'Unknown error')
       
       try {
-        // Fallback to database
-        models = (await ModelService.getAll(filters)) as any[]
-        dataSource = 'database'
-        console.log('🗄️ Using database source')
-      } catch (dbError) {
-        console.warn('⚠️ Database failed, using temporary data:', dbError instanceof Error ? dbError.message : 'Unknown error')
+        // Fallback to GitHub data
+        models = await GitHubDataService.getAllModels(filters)
+        dataSource = 'github'
+        console.log('📦 Using GitHub data source (fallback)')
+      } catch (githubError) {
+        console.warn('⚠️ GitHub data failed, using temporary data:', githubError instanceof Error ? githubError.message : 'Unknown error')
         // Final fallback to temporary data
         models = (await TempDataService.getAllModels(filters)) as any[]
         dataSource = 'temp-data'
-        console.log('📝 Using temporary data source')
+        console.log('📝 Using temporary data source (final fallback)')
       }
     }
 
@@ -103,8 +103,9 @@ export async function GET(request: Request) {
       )
     }
     
-    // Filter models by providers with API keys (only if not using GitHub data which is pre-filtered)
-    if (dataSource !== 'github') {
+    // Don't filter by API keys when using database - show all models
+    // Only filter when using temp-data fallback
+    if (dataSource === 'temp-data') {
       filteredModels = filteredModels.filter((model: any) => {
         const providerSlug = model.provider?.slug || model.providerId
         return providersWithApiKeys.has(providerSlug)

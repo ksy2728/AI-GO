@@ -49,6 +49,8 @@ Thumbs.db
 *.sqlite3
 prisma/dev.db
 prisma/dev.db-journal
+# Keep template
+!prisma/dev.db.template
 
 # Logs
 logs/
