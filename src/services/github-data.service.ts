@@ -39,7 +39,7 @@ export class GitHubDataService {
     // In production, use GitHub raw URL
     if (process.env.NODE_ENV === 'production') {
       const repo = process.env.GITHUB_REPO || 'ksy2728/AI-GO';
-      const branch = process.env.GITHUB_BRANCH || 'main';
+      const branch = process.env.GITHUB_BRANCH || 'master';
       return `https://raw.githubusercontent.com/${repo}/${branch}/data/${filename}`;
     }
     
