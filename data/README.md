@@ -8,7 +8,7 @@ This directory contains automatically generated data exports from the AI Server 
 - `stats.json` - Summary statistics and analytics
 
 ## Last Updated
-2025-08-15T07:00:06.751Z
+2025-08-15T10:17:24.431Z
 
 ## Statistics
 - **Total Models**: 63
@@ -21,4 +21,4 @@ This directory contains automatically generated data exports from the AI Server 
 The JSON files follow a structured format designed for easy consumption by the frontend application and API endpoints.
 
 ## Automated Updates
-This data is automatically updated every 5 minutes via GitHub Actions workflow.
+This data is automatically updated every hour via GitHub Actions workflow.

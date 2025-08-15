@@ -149,11 +149,38 @@ export class GitHubDataService {
     
     let models = data.models;
     
-    // Merge latest status
-    models = models.map(model => ({
-      ...model,
-      status: statusData.statuses[model.slug] || model.status
-    }));
+    // Fix data structure compatibility (handle both 'modalities' and 'type' fields)
+    models = models.map(model => {
+      // Handle modalities field - might be array, string, or missing
+      let modalities = model.modalities;
+      
+      // If modalities doesn't exist but type does (old format)
+      if (!modalities && model.type) {
+        // If type is a JSON string, parse it
+        if (typeof model.type === 'string' && model.type.startsWith('[')) {
+          try {
+            modalities = JSON.parse(model.type);
+          } catch {
+            modalities = ['text']; // Default fallback
+          }
+        } else if (typeof model.type === 'string') {
+          modalities = [model.type];
+        } else {
+          modalities = model.type;
+        }
+      }
+      
+      // Ensure modalities is always an array
+      if (!Array.isArray(modalities)) {
+        modalities = ['text'];
+      }
+      
+      return {
+        ...model,
+        modalities,
+        status: statusData.statuses[model.slug] || model.status
+      };
+    });
     
     // Apply filters
     if (filters.provider) {

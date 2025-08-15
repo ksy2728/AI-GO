@@ -90,7 +90,7 @@ async function exportToJSON() {
           name: model.provider.name,
           website: model.provider.websiteUrl
         },
-        type: model.modalities || 'text',
+        modalities: JSON.parse(model.modalities || '["text"]'),
         status: (model.status?.[0] || model.status) ? {
           status: (model.status?.[0] || model.status).status,
           availability: (model.status?.[0] || model.status).availability,

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0",
-    "generated": "2025-08-15T07:00:06.748Z",
+    "generated": "2025-08-15T10:17:24.428Z",
     "source": "github-actions"
   },
   "statistics": {
@@ -12,7 +12,7 @@
     "degradedModels": 0,
     "outageModels": 0,
     "avgAvailability": 99.53044455087488,
-    "lastUpdated": "2025-08-15T07:00:06.746Z"
+    "lastUpdated": "2025-08-15T10:17:24.426Z"
   },
   "typeStatistics": {
     "undefined": 63
@@ -118,7 +118,11 @@
         "name": "Amazon",
         "website": "https://aws.amazon.com"
       },
-      "type": "[\"text\",\"vision\",\"video\"]",
+      "modalities": [
+        "text",
+        "vision",
+        "video"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -139,7 +143,9 @@
         "name": "Amazon",
         "website": "https://aws.amazon.com"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -160,7 +166,11 @@
         "name": "Amazon",
         "website": "https://aws.amazon.com"
       },
-      "type": "[\"text\",\"vision\",\"video\"]",
+      "modalities": [
+        "text",
+        "vision",
+        "video"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -181,7 +191,9 @@
         "name": "Anthropic",
         "website": "https://anthropic.com"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {},
       "availability": 99.5,
       "isActive": false,
@@ -196,7 +208,9 @@
         "name": "Anthropic",
         "website": "https://anthropic.com"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {},
       "availability": 99.5,
       "isActive": false,
@@ -211,7 +225,10 @@
         "name": "Anthropic",
         "website": "https://anthropic.com"
       },
-      "type": "[\"text\",\"vision\"]",
+      "modalities": [
+        "text",
+        "vision"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -232,7 +249,9 @@
         "name": "Anthropic",
         "website": "https://anthropic.com"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {},
       "availability": 99.5,
       "isActive": true,
@@ -247,7 +266,10 @@
         "name": "Anthropic",
         "website": "https://anthropic.com"
       },
-      "type": "[\"text\",\"vision\"]",
+      "modalities": [
+        "text",
+        "vision"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -268,7 +290,9 @@
         "name": "Anthropic",
         "website": "https://anthropic.com"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {},
       "availability": 99.5,
       "isActive": false,
@@ -283,7 +307,10 @@
         "name": "Anthropic",
         "website": "https://anthropic.com"
       },
-      "type": "[\"text\",\"vision\"]",
+      "modalities": [
+        "text",
+        "vision"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -304,7 +331,9 @@
         "name": "Anthropic",
         "website": "https://anthropic.com"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {},
       "availability": 99.5,
       "isActive": false,
@@ -319,7 +348,9 @@
         "name": "Anthropic",
         "website": "https://anthropic.com"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -340,7 +371,10 @@
         "name": "Anthropic",
         "website": "https://anthropic.com"
       },
-      "type": "[\"text\",\"vision\"]",
+      "modalities": [
+        "text",
+        "vision"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -361,7 +395,9 @@
         "name": "Anthropic",
         "website": "https://anthropic.com"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {
         "status": "operational",
         "availability": 98.76478231221147,
@@ -382,7 +418,9 @@
         "name": "Anthropic",
         "website": "https://anthropic.com"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {},
       "availability": 99.5,
       "isActive": false,
@@ -397,7 +435,12 @@
         "name": "Google",
         "website": "https://ai.google"
       },
-      "type": "[\"text\",\"vision\",\"audio\",\"video\"]",
+      "modalities": [
+        "text",
+        "vision",
+        "audio",
+        "video"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -418,7 +461,9 @@
         "name": "Google",
         "website": "https://ai.google"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {},
       "availability": 99.5,
       "isActive": false,
@@ -433,7 +478,10 @@
         "name": "Google",
         "website": "https://ai.google"
       },
-      "type": "[\"text\",\"vision\"]",
+      "modalities": [
+        "text",
+        "vision"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -454,7 +502,9 @@
         "name": "Google",
         "website": "https://ai.google"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {},
       "availability": 99.5,
       "isActive": false,
@@ -469,7 +519,12 @@
         "name": "Google",
         "website": "https://ai.google"
       },
-      "type": "[\"text\",\"vision\",\"audio\",\"video\"]",
+      "modalities": [
+        "text",
+        "vision",
+        "audio",
+        "video"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -490,7 +545,9 @@
         "name": "Google",
         "website": "https://ai.google"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {},
       "availability": 99.5,
       "isActive": false,
@@ -505,7 +562,11 @@
         "name": "Google",
         "website": "https://ai.google"
       },
-      "type": "[\"text\",\"vision\",\"audio\"]",
+      "modalities": [
+        "text",
+        "vision",
+        "audio"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -526,7 +587,9 @@
         "name": "Google",
         "website": "https://ai.google"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -547,7 +610,9 @@
         "name": "Google",
         "website": "https://ai.google"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {},
       "availability": 99.5,
       "isActive": false,
@@ -562,7 +627,9 @@
         "name": "Google",
         "website": "https://ai.google"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.26484726140353,
@@ -583,7 +650,9 @@
         "name": "Google",
         "website": "https://ai.google"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {},
       "availability": 99.5,
       "isActive": false,
@@ -598,7 +667,9 @@
         "name": "Meta",
         "website": "https://ai.meta.com"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {
         "status": "operational",
         "availability": 97.15783859798873,
@@ -619,7 +690,9 @@
         "name": "Meta",
         "website": "https://ai.meta.com"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {},
       "availability": 99.5,
       "isActive": true,
@@ -634,7 +707,9 @@
         "name": "Meta",
         "website": "https://ai.meta.com"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {
         "status": "operational",
         "availability": 96.16184839492983,
@@ -655,7 +730,9 @@
         "name": "Meta",
         "website": "https://ai.meta.com"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {},
       "availability": 99.5,
       "isActive": true,
@@ -670,7 +747,9 @@
         "name": "Meta",
         "website": "https://ai.meta.com"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {
         "status": "operational",
         "availability": 96.9286204640595,
@@ -691,7 +770,9 @@
         "name": "Meta",
         "website": "https://ai.meta.com"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {},
       "availability": 99.5,
       "isActive": true,
@@ -706,7 +787,9 @@
         "name": "Meta",
         "website": "https://ai.meta.com"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {
         "status": "operational",
         "availability": 96.35069945520605,
@@ -727,7 +810,9 @@
         "name": "Meta",
         "website": "https://ai.meta.com"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -748,7 +833,9 @@
         "name": "Meta",
         "website": "https://ai.meta.com"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.7536974283884,
@@ -769,7 +856,9 @@
         "name": "Meta",
         "website": "https://ai.meta.com"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -790,7 +879,9 @@
         "name": "Meta",
         "website": "https://ai.meta.com"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {},
       "availability": 99.5,
       "isActive": true,
@@ -805,7 +896,9 @@
         "name": "Meta",
         "website": "https://ai.meta.com"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -826,7 +919,9 @@
         "name": "Meta",
         "website": "https://ai.meta.com"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {
         "status": "operational",
         "availability": 97.5356727909364,
@@ -847,7 +942,10 @@
         "name": "Meta",
         "website": "https://ai.meta.com"
       },
-      "type": "[\"text\",\"vision\"]",
+      "modalities": [
+        "text",
+        "vision"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -868,7 +966,9 @@
         "name": "Meta",
         "website": "https://ai.meta.com"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -889,7 +989,9 @@
         "name": "Meta",
         "website": "https://ai.meta.com"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -910,7 +1012,10 @@
         "name": "Meta",
         "website": "https://ai.meta.com"
       },
-      "type": "[\"text\",\"vision\"]",
+      "modalities": [
+        "text",
+        "vision"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -931,7 +1036,9 @@
         "name": "Microsoft",
         "website": "https://azure.microsoft.com"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -952,7 +1059,9 @@
         "name": "Microsoft",
         "website": "https://azure.microsoft.com"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -973,7 +1082,9 @@
         "name": "Mistral AI",
         "website": "https://mistral.ai"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -994,7 +1105,10 @@
         "name": "Mistral AI",
         "website": "https://mistral.ai"
       },
-      "type": "[\"text\",\"vision\"]",
+      "modalities": [
+        "text",
+        "vision"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -1015,7 +1129,9 @@
         "name": "Mistral AI",
         "website": "https://mistral.ai"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -1036,7 +1152,10 @@
         "name": "Mistral AI",
         "website": "https://mistral.ai"
       },
-      "type": "[\"text\",\"vision\"]",
+      "modalities": [
+        "text",
+        "vision"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -1057,7 +1176,9 @@
         "name": "OpenAI",
         "website": "https://openai.com"
       },
-      "type": "[\"image\"]",
+      "modalities": [
+        "image"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -1078,7 +1199,9 @@
         "name": "OpenAI",
         "website": "https://openai.com"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -1099,7 +1222,9 @@
         "name": "OpenAI",
         "website": "https://openai.com"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -1120,7 +1245,9 @@
         "name": "OpenAI",
         "website": "https://openai.com"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -1141,7 +1268,9 @@
         "name": "OpenAI",
         "website": "https://openai.com"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -1162,7 +1291,10 @@
         "name": "OpenAI",
         "website": "https://openai.com"
       },
-      "type": "[\"text\",\"vision\"]",
+      "modalities": [
+        "text",
+        "vision"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -1183,7 +1315,10 @@
         "name": "OpenAI",
         "website": "https://openai.com"
       },
-      "type": "[\"text\",\"image\"]",
+      "modalities": [
+        "text",
+        "image"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -1204,7 +1339,11 @@
         "name": "OpenAI",
         "website": "https://openai.com"
       },
-      "type": "[\"text\",\"vision\",\"audio\"]",
+      "modalities": [
+        "text",
+        "vision",
+        "audio"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -1225,7 +1364,10 @@
         "name": "OpenAI",
         "website": "https://openai.com"
       },
-      "type": "[\"text\",\"vision\"]",
+      "modalities": [
+        "text",
+        "vision"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -1246,7 +1388,9 @@
         "name": "OpenAI",
         "website": "https://openai.com"
       },
-      "type": "[\"audio\"]",
+      "modalities": [
+        "audio"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -1267,7 +1411,9 @@
         "name": "OpenAI",
         "website": "https://openai.com"
       },
-      "type": "[\"audio\"]",
+      "modalities": [
+        "audio"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -1288,7 +1434,9 @@
         "name": "OpenAI",
         "website": "https://openai.com"
       },
-      "type": "[\"audio\"]",
+      "modalities": [
+        "audio"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -1309,7 +1457,9 @@
         "name": "OpenAI",
         "website": "https://openai.com"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
@@ -1330,7 +1480,9 @@
         "name": "OpenAI",
         "website": "https://openai.com"
       },
-      "type": "[\"text\"]",
+      "modalities": [
+        "text"
+      ],
       "status": {
         "status": "operational",
         "availability": 99.9,
