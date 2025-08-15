@@ -31,6 +31,12 @@ async function uploadToGitHub() {
 
     console.log(`📊 Found ${models.length} models in database`)
 
+    // Debug: 모델별 상태 확인
+    console.log('📝 Processing models:')
+    models.forEach((model, index) => {
+      console.log(`  ${index + 1}. ${model.name} (${model.provider.name})`)
+    })
+    
     // Transform to GitHub format
     const githubData = models.map(model => ({
       id: model.id,
@@ -85,7 +91,11 @@ async function uploadToGitHub() {
 
     // Create JSON content
     const content = JSON.stringify(githubData, null, 2)
+    console.log(`📦 JSON size: ${(content.length / 1024).toFixed(2)} KB`)
+    console.log(`📊 Total models in JSON: ${githubData.length}`)
+    
     const encodedContent = Buffer.from(content).toString('base64')
+    console.log(`📦 Encoded size: ${(encodedContent.length / 1024).toFixed(2)} KB`)
 
     // Get current file (if exists)
     let sha
@@ -102,6 +112,11 @@ async function uploadToGitHub() {
     }
 
     // Update or create file
+    console.log('📤 Uploading to GitHub...')
+    console.log(`   Owner: ${OWNER}, Repo: ${REPO}`)
+    console.log(`   Path: data/models.json`)
+    console.log(`   SHA: ${sha || 'new file'}`)
+    
     const response = await octokit.repos.createOrUpdateFileContents({
       owner: OWNER,
       repo: REPO,
@@ -113,6 +128,8 @@ async function uploadToGitHub() {
 
     console.log('✅ Successfully uploaded to GitHub!')
     console.log(`📍 File URL: ${response.data.content.html_url}`)
+    console.log(`📊 Commit SHA: ${response.data.commit.sha}`)
+    console.log(`📅 Commit Date: ${new Date().toISOString()}`)
 
     // Also update providers
     const providers = await prisma.provider.findMany()
@@ -152,6 +169,12 @@ async function uploadToGitHub() {
 
   } catch (error) {
     console.error('❌ Upload failed:', error)
+    if (error.response) {
+      console.error('GitHub API Response:', error.response.data)
+    }
+    if (error.message) {
+      console.error('Error message:', error.message)
+    }
     process.exit(1)
   } finally {
     await prisma.$disconnect()

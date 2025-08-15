@@ -74,7 +74,8 @@
       "Bash(grep:*)",
       "Bash(cmd.exe /c \"taskkill /F /PID 6744\")",
       "Bash(next build)",
-      "WebFetch(domain:ai-kr3389y3s-kim-soo-youngs-projects.vercel.app)"
+      "WebFetch(domain:ai-kr3389y3s-kim-soo-youngs-projects.vercel.app)",
+      "Bash(git pull:*)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
