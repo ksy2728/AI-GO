@@ -36,9 +36,15 @@ export class GitHubDataService {
    * Get GitHub raw content URL based on environment
    */
   private static getDataUrl(filename: string): string {
+    // Check if we're in production environment (Vercel)
+    const isProduction = process.env.NODE_ENV === 'production' || 
+                        process.env.VERCEL === '1' || 
+                        process.env.VERCEL_ENV !== undefined;
+    
     // In production, use GitHub raw URL
-    if (process.env.NODE_ENV === 'production') {
-      const repo = process.env.GITHUB_REPO || 'ksy2728/AI-GO';
+    if (isProduction) {
+      // Use the current repository for data storage
+      const repo = process.env.GITHUB_REPO || 'kim-soo-young/ai-server-information';
       const branch = process.env.GITHUB_BRANCH || 'master';
       return `https://raw.githubusercontent.com/${repo}/${branch}/data/${filename}`;
     }
@@ -54,8 +60,13 @@ export class GitHubDataService {
     const url = this.getDataUrl(filename);
     
     try {
+      // Check if we're in production environment (Vercel)
+      const isProduction = process.env.NODE_ENV === 'production' || 
+                          process.env.VERCEL === '1' || 
+                          process.env.VERCEL_ENV !== undefined;
+      
       // In development, read local file
-      if (process.env.NODE_ENV !== 'production') {
+      if (!isProduction) {
         const fs = require('fs').promises;
         const path = require('path');
         const filePath = path.join(process.cwd(), 'data', filename);

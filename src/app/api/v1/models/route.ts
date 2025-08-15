@@ -59,28 +59,49 @@ export async function GET(request: Request) {
       filters.capabilities = [capability]
     }
 
-    // Data source priority: Database > GitHub > TempData
+    // Data source priority: GitHub (primary for production) > Database > TempData
     let models: any[] = []
-    let dataSource = 'database'
+    let dataSource = 'github'
     
-    try {
-      // Try database first (for real data)
-      models = (await ModelService.getAll(filters)) as any[]
-      console.log('🗄️ Using database source (real data)')
-    } catch (dbError) {
-      console.warn('⚠️ Database failed, trying GitHub data:', dbError instanceof Error ? dbError.message : 'Unknown error')
-      
+    // Check if we're in production environment (Vercel)
+    const isProduction = process.env.NODE_ENV === 'production' || 
+                        process.env.VERCEL === '1' || 
+                        process.env.VERCEL_ENV !== undefined
+    
+    if (isProduction) {
+      // In production (Vercel), use GitHub as primary data source
       try {
-        // Fallback to GitHub data
         models = await GitHubDataService.getAllModels(filters)
         dataSource = 'github'
-        console.log('📦 Using GitHub data source (fallback)')
+        console.log('📦 Using GitHub data source (production primary)')
       } catch (githubError) {
         console.warn('⚠️ GitHub data failed, using temporary data:', githubError instanceof Error ? githubError.message : 'Unknown error')
-        // Final fallback to temporary data
+        // Fallback to temporary data
         models = (await TempDataService.getAllModels(filters)) as any[]
         dataSource = 'temp-data'
-        console.log('📝 Using temporary data source (final fallback)')
+        console.log('📝 Using temporary data source (fallback)')
+      }
+    } else {
+      // In development, try database first
+      try {
+        models = (await ModelService.getAll(filters)) as any[]
+        dataSource = 'database'
+        console.log('🗄️ Using database source (development)')
+      } catch (dbError) {
+        console.warn('⚠️ Database failed, trying GitHub data:', dbError instanceof Error ? dbError.message : 'Unknown error')
+        
+        try {
+          // Fallback to GitHub data
+          models = await GitHubDataService.getAllModels(filters)
+          dataSource = 'github'
+          console.log('📦 Using GitHub data source (fallback)')
+        } catch (githubError) {
+          console.warn('⚠️ GitHub data failed, using temporary data:', githubError instanceof Error ? githubError.message : 'Unknown error')
+          // Final fallback to temporary data
+          models = (await TempDataService.getAllModels(filters)) as any[]
+          dataSource = 'temp-data'
+          console.log('📝 Using temporary data source (final fallback)')
+        }
       }
     }
 
