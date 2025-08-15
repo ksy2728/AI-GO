@@ -62,203 +62,33 @@ export default function PricingPage() {
     const fetchPricingData = async () => {
       try {
         setLoading(true)
-        // Mock data for demonstration
-        const mockPricing: PricingTier[] = [
-          {
-            id: '1',
-            modelName: 'GPT-4 Turbo',
-            provider: 'OpenAI',
-            tier: 'pro',
-            inputPrice: 0.01,
-            outputPrice: 0.03,
-            currency: 'USD',
-            contextWindow: 128000,
-            rateLimit: '500 RPM',
-            features: [
-              'Vision capabilities',
-              'Function calling',
-              'JSON mode',
-              'Reproducible outputs',
-              'DALL-E 3 integration'
-            ],
-            limitations: [
-              'API access only',
-              'Rate limits apply'
-            ],
-            availability: 'public',
-            lastUpdated: '2024-04-09',
-            url: 'https://openai.com/pricing'
-          },
-          {
-            id: '2',
-            modelName: 'GPT-3.5 Turbo',
-            provider: 'OpenAI',
-            tier: 'hobby',
-            inputPrice: 0.0005,
-            outputPrice: 0.0015,
-            currency: 'USD',
-            contextWindow: 16385,
-            rateLimit: '3500 RPM',
-            features: [
-              'Fast responses',
-              'Function calling',
-              'JSON mode',
-              'High availability'
-            ],
-            limitations: [
-              'Lower capability than GPT-4',
-              'No vision features'
-            ],
-            availability: 'public',
-            lastUpdated: '2024-03-15',
-            url: 'https://openai.com/pricing'
-          },
-          {
-            id: '3',
-            modelName: 'Claude 3 Opus',
-            provider: 'Anthropic',
-            tier: 'enterprise',
-            inputPrice: 0.015,
-            outputPrice: 0.075,
-            currency: 'USD',
-            contextWindow: 200000,
-            rateLimit: '4000 TPM',
-            features: [
-              'Highest capability',
-              'Long context',
-              'Advanced reasoning',
-              'Creative writing',
-              'Enterprise features'
-            ],
-            limitations: [
-              'Higher cost',
-              'Regional availability'
-            ],
-            availability: 'public',
-            lastUpdated: '2024-03-04',
-            url: 'https://anthropic.com/pricing'
-          },
-          {
-            id: '4',
-            modelName: 'Claude 3 Sonnet',
-            provider: 'Anthropic',
-            tier: 'pro',
-            inputPrice: 0.003,
-            outputPrice: 0.015,
-            currency: 'USD',
-            contextWindow: 200000,
-            rateLimit: '4000 TPM',
-            features: [
-              'Balanced performance',
-              'Long context',
-              'Fast responses',
-              'Reliable accuracy'
-            ],
-            limitations: [
-              'Lower capability than Opus'
-            ],
-            availability: 'public',
-            lastUpdated: '2024-03-04',
-            url: 'https://anthropic.com/pricing'
-          },
-          {
-            id: '5',
-            modelName: 'Claude 3 Haiku',
-            provider: 'Anthropic',
-            tier: 'hobby',
-            inputPrice: 0.00025,
-            outputPrice: 0.00125,
-            currency: 'USD',
-            contextWindow: 200000,
-            rateLimit: '4000 TPM',
-            features: [
-              'Fastest responses',
-              'Long context',
-              'Cost-effective',
-              'Good for simple tasks'
-            ],
-            limitations: [
-              'Lower reasoning capability'
-            ],
-            availability: 'public',
-            lastUpdated: '2024-03-04',
-            url: 'https://anthropic.com/pricing'
-          },
-          {
-            id: '6',
-            modelName: 'Gemini Ultra',
-            provider: 'Google',
-            tier: 'enterprise',
-            inputPrice: 0.0125,
-            outputPrice: 0.0375,
-            currency: 'USD',
-            contextWindow: 1000000,
-            rateLimit: '300 RPM',
-            features: [
-              'Massive context window',
-              'Multimodal capabilities',
-              'Advanced reasoning',
-              'Code understanding'
-            ],
-            limitations: [
-              'Limited availability',
-              'Higher latency'
-            ],
-            availability: 'waitlist',
-            lastUpdated: '2024-02-08',
-            url: 'https://ai.google.dev/pricing'
-          },
-          {
-            id: '7',
-            modelName: 'Gemini Pro',
-            provider: 'Google',
-            tier: 'pro',
-            inputPrice: 0.00025,
-            outputPrice: 0.0005,
-            currency: 'USD',
-            contextWindow: 32000,
-            rateLimit: '300 RPM',
-            features: [
-              'Good performance',
-              'Affordable pricing',
-              'Multimodal support',
-              'Fast responses'
-            ],
-            limitations: [
-              'Smaller context window',
-              'Regional restrictions'
-            ],
-            availability: 'public',
-            lastUpdated: '2024-01-25',
-            url: 'https://ai.google.dev/pricing'
-          },
-          {
-            id: '8',
-            modelName: 'Llama 3 70B',
-            provider: 'Meta',
-            tier: 'free',
-            inputPrice: 0,
-            outputPrice: 0,
-            currency: 'USD',
-            contextWindow: 8192,
-            rateLimit: 'Self-hosted',
-            features: [
-              'Open source',
-              'No usage fees',
-              'Commercial use allowed',
-              'Customizable'
-            ],
-            limitations: [
-              'Requires hosting',
-              'Infrastructure costs',
-              'Technical expertise needed'
-            ],
-            availability: 'public',
-            lastUpdated: '2024-04-18',
-            url: 'https://llama.meta.com'
-          }
-        ]
-        setPricingData(mockPricing)
+        // Fetch real pricing data from API
+        const response = await fetch('/api/v1/pricing?limit=100')
+        const data = await response.json()
+        
+        if (data.pricing && Array.isArray(data.pricing)) {
+          // Transform API data to match component interface
+          const transformedPricing: PricingTier[] = data.pricing.map((item: any) => ({
+            id: item.id,
+            modelName: item.modelName,
+            provider: item.provider,
+            tier: item.tier || 'pro',
+            inputPrice: item.inputPrice / 1000, // Convert from per million to per 1K
+            outputPrice: item.outputPrice / 1000, // Convert from per million to per 1K
+            currency: item.currency || 'USD',
+            contextWindow: item.contextWindow || 128000,
+            rateLimit: item.rateLimit || 'N/A',
+            features: item.features || [],
+            limitations: item.limitations || [],
+            availability: item.availability || 'public',
+            lastUpdated: item.lastUpdated || new Date().toISOString(),
+            url: item.url || '#'
+          }))
+          setPricingData(transformedPricing)
+        } else {
+          console.warn('No pricing data available from API')
+          setPricingData([])
+        }
       } catch (error) {
         console.error('Failed to fetch pricing data:', error)
       } finally {

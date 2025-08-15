@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { TempDataService } from '@/services/temp-data.service'
 import { prisma } from '@/lib/prisma'
+import fs from 'fs/promises'
+import path from 'path'
 
 export async function GET(request: NextRequest) {
   try {
@@ -17,7 +19,51 @@ export async function GET(request: NextRequest) {
 
     let pricing
     
-    // Try database first, fallback to temporary data
+    // Try to read pricing data from JSON file first
+    try {
+      const pricingDataPath = path.join(process.cwd(), 'data', 'pricing-data.json')
+      const pricingDataRaw = await fs.readFile(pricingDataPath, 'utf-8')
+      const pricingData = JSON.parse(pricingDataRaw)
+      
+      let filteredPricing = pricingData.pricing
+      
+      // Apply filters
+      if (filters.provider) {
+        filteredPricing = filteredPricing.filter((p: any) => 
+          p.provider.toLowerCase() === filters.provider?.toLowerCase()
+        )
+      }
+      
+      if (filters.tier) {
+        filteredPricing = filteredPricing.filter((p: any) => 
+          p.tier === filters.tier
+        )
+      }
+      
+      // Apply pagination
+      const start = filters.offset
+      const end = filters.offset + filters.limit
+      const paginatedPricing = filteredPricing.slice(start, end)
+      
+      pricing = {
+        data: paginatedPricing,
+        total: filteredPricing.length,
+        cached: false,
+      }
+      
+      return NextResponse.json({
+        pricing: pricing.data,
+        total: pricing.total,
+        limit: filters.limit,
+        offset: filters.offset,
+        timestamp: new Date().toISOString(),
+        cached: false,
+      })
+    } catch (fileError) {
+      console.warn('⚠️ Could not read pricing data file, trying database:', fileError)
+    }
+    
+    // Try database as fallback
     try {
       // Build Prisma query
       const where: any = {}
