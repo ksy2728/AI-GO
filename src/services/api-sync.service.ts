@@ -136,7 +136,7 @@ export class ApiSyncService {
     const models = await this.openaiService.getModels();
     const pricing = await this.openaiService.getPricing();
     
-    return models.map(model => this.transformOpenAIModel(model, pricing));
+    return models.map((model: any) => this.transformOpenAIModel(model, pricing));
   }
 
   /**
