@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "1.0",
-    "generated": "2025-08-15T10:17:24.428Z",
+    "generated": "2025-08-15T10:48:01.817Z",
     "source": "github-actions"
   },
   "statistics": {
     "totalModels": 63,
     "activeModels": 51,
     "totalProviders": 10,
-    "operationalModels": 48,
+    "operationalModels": 51,
     "degradedModels": 0,
     "outageModels": 0,
     "avgAvailability": 99.53044455087488,
-    "lastUpdated": "2025-08-15T10:17:24.426Z"
+    "lastUpdated": "2025-08-15T10:48:01.815Z"
   },
   "typeStatistics": {
     "undefined": 63
@@ -51,7 +51,7 @@
       "website": "https://ai.google",
       "totalModels": 11,
       "activeModels": 5,
-      "operationalModels": 6,
+      "operationalModels": 5,
       "avgAvailability": 99.66044066012759
     },
     {
@@ -69,7 +69,7 @@
       "website": "https://ai.meta.com",
       "totalModels": 17,
       "activeModels": 17,
-      "operationalModels": 13,
+      "operationalModels": 17,
       "avgAvailability": 98.89343394891229
     },
     {
@@ -252,7 +252,10 @@
       "modalities": [
         "text"
       ],
-      "status": {},
+      "status": {
+        "status": "operational",
+        "availability": 99.5
+      },
       "availability": 99.5,
       "isActive": true,
       "lastUpdate": "2025-08-15T04:57:35.984Z",
@@ -398,13 +401,7 @@
       "modalities": [
         "text"
       ],
-      "status": {
-        "status": "operational",
-        "availability": 98.76478231221147,
-        "responseTime": 188,
-        "errorRate": 1.846548941364107,
-        "lastCheck": "2025-08-15T07:00:01.670Z"
-      },
+      "status": {},
       "availability": 98.76478231221147,
       "isActive": false,
       "lastUpdate": "2025-08-15T04:57:36.075Z",
@@ -630,13 +627,7 @@
       "modalities": [
         "text"
       ],
-      "status": {
-        "status": "operational",
-        "availability": 99.26484726140353,
-        "responseTime": 235,
-        "errorRate": 0.1414358961419069,
-        "lastCheck": "2025-08-15T07:00:01.149Z"
-      },
+      "status": {},
       "availability": 99.26484726140353,
       "isActive": false,
       "lastUpdate": "2025-08-15T05:11:36.370Z",
@@ -693,7 +684,10 @@
       "modalities": [
         "text"
       ],
-      "status": {},
+      "status": {
+        "status": "operational",
+        "availability": 99.5
+      },
       "availability": 99.5,
       "isActive": true,
       "lastUpdate": "2025-08-15T05:11:44.333Z",
@@ -733,7 +727,10 @@
       "modalities": [
         "text"
       ],
-      "status": {},
+      "status": {
+        "status": "operational",
+        "availability": 99.5
+      },
       "availability": 99.5,
       "isActive": true,
       "lastUpdate": "2025-08-15T05:11:43.807Z",
@@ -773,7 +770,10 @@
       "modalities": [
         "text"
       ],
-      "status": {},
+      "status": {
+        "status": "operational",
+        "availability": 99.5
+      },
       "availability": 99.5,
       "isActive": true,
       "lastUpdate": "2025-08-15T05:11:43.607Z",
@@ -882,7 +882,10 @@
       "modalities": [
         "text"
       ],
-      "status": {},
+      "status": {
+        "status": "operational",
+        "availability": 99.5
+      },
       "availability": 99.5,
       "isActive": true,
       "lastUpdate": "2025-08-15T05:11:42.923Z",

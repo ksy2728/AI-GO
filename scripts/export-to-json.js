@@ -41,14 +41,28 @@ async function exportToJSON() {
       orderBy: { name: 'asc' }
     })
     
-    // 통계 계산
+    // 통계 계산 (일관성 규칙 적용 전 계산)
+    // 활성 모델만 operational/degraded/outage 상태를 가짐
+    const activeModels = models.filter(m => m.isActive);
     const statistics = {
       totalModels: models.length,
-      activeModels: models.filter(m => m.isActive).length,
+      activeModels: activeModels.length,
       totalProviders: providers.length,
-      operationalModels: models.filter(m => m.status?.[0]?.status === 'operational' || m.status?.status === 'operational').length,
-      degradedModels: models.filter(m => m.status?.[0]?.status === 'degraded' || m.status?.status === 'degraded').length,
-      outageModels: models.filter(m => m.status?.[0]?.status === 'outage' || m.status?.status === 'outage').length,
+      operationalModels: activeModels.filter(m => {
+        const statusData = m.status?.[0] || m.status;
+        const availability = statusData?.availability || 99.5;
+        return availability >= 90;
+      }).length,
+      degradedModels: activeModels.filter(m => {
+        const statusData = m.status?.[0] || m.status;
+        const availability = statusData?.availability || 99.5;
+        return availability < 90 && availability > 0;
+      }).length,
+      outageModels: activeModels.filter(m => {
+        const statusData = m.status?.[0] || m.status;
+        const availability = statusData?.availability || 99.5;
+        return availability === 0;
+      }).length,
       avgAvailability: models.reduce((sum, m) => sum + (m.status?.[0]?.availability || m.status?.availability || 99.5), 0) / models.length,
       lastUpdated: new Date().toISOString()
     }
@@ -60,17 +74,24 @@ async function exportToJSON() {
     }, {})
     
     // Provider별 통계
-    const providerStats = providers.map(provider => ({
-      id: provider.id,
-      name: provider.name,
-      website: provider.websiteUrl,
-      totalModels: provider.models.length,
-      activeModels: provider.models.filter(m => m.isActive).length,
-      operationalModels: provider.models.filter(m => m.status?.[0]?.status === 'operational' || m.status?.status === 'operational').length,
-      avgAvailability: provider.models.length > 0 
-        ? provider.models.reduce((sum, m) => sum + (m.status?.[0]?.availability || m.status?.availability || 99.5), 0) / provider.models.length 
-        : 0
-    }))
+    const providerStats = providers.map(provider => {
+      const activeProviderModels = provider.models.filter(m => m.isActive);
+      return {
+        id: provider.id,
+        name: provider.name,
+        website: provider.websiteUrl,
+        totalModels: provider.models.length,
+        activeModels: activeProviderModels.length,
+        operationalModels: activeProviderModels.filter(m => {
+          const statusData = m.status?.[0] || m.status;
+          const availability = statusData?.availability || 99.5;
+          return availability >= 90;
+        }).length,
+        avgAvailability: provider.models.length > 0 
+          ? provider.models.reduce((sum, m) => sum + (m.status?.[0]?.availability || m.status?.availability || 99.5), 0) / provider.models.length 
+          : 0
+      };
+    })
     
     // JSON 데이터 구조
     const jsonData = {
@@ -82,27 +103,63 @@ async function exportToJSON() {
       statistics,
       typeStatistics: typeStats,
       providers: providerStats,
-      models: models.map(model => ({
-        id: model.id,
-        name: model.name,
-        provider: {
-          id: model.provider.id,
-          name: model.provider.name,
-          website: model.provider.websiteUrl
-        },
-        modalities: JSON.parse(model.modalities || '["text"]'),
-        status: (model.status?.[0] || model.status) ? {
-          status: (model.status?.[0] || model.status).status,
-          availability: (model.status?.[0] || model.status).availability,
-          responseTime: (model.status?.[0] || model.status).latencyP50,
-          errorRate: (model.status?.[0] || model.status).errorRate,
-          lastCheck: (model.status?.[0] || model.status).checkedAt
-        } : null,
-        availability: (model.status?.[0] || model.status)?.availability || 99.5,
-        isActive: model.isActive,
-        lastUpdate: model.updatedAt,
-        createdAt: model.createdAt
-      }))
+      models: models.map(model => {
+        const statusData = model.status?.[0] || model.status;
+        const availability = statusData?.availability || 99.5;
+        
+        // 일관성 규칙 적용
+        let finalStatus = {};
+        
+        if (!model.isActive) {
+          // 규칙 1: 비활성 모델은 status를 빈 객체로
+          finalStatus = {};
+        } else if (statusData) {
+          // 활성 모델이고 status 데이터가 있는 경우
+          let statusValue = 'operational';
+          
+          // 규칙 3: availability < 90% → degraded
+          if (availability < 90 && availability > 0) {
+            statusValue = 'degraded';
+          }
+          // 규칙 4: availability = 0% → outage
+          else if (availability === 0) {
+            statusValue = 'outage';
+          }
+          
+          finalStatus = {
+            status: statusValue,
+            availability: availability,
+            responseTime: statusData.latencyP50,
+            errorRate: statusData.errorRate,
+            lastCheck: statusData.checkedAt
+          };
+        } else if (model.isActive) {
+          // 규칙 2: 활성 모델인데 status가 없으면 기본 operational 상태 부여
+          finalStatus = {
+            status: 'operational',
+            availability: availability,
+            responseTime: 100,
+            errorRate: 0.01,
+            lastCheck: new Date().toISOString()
+          };
+        }
+        
+        return {
+          id: model.id,
+          name: model.name,
+          provider: {
+            id: model.provider.id,
+            name: model.provider.name,
+            website: model.provider.websiteUrl
+          },
+          modalities: JSON.parse(model.modalities || '["text"]'),
+          status: finalStatus,
+          availability: availability,
+          isActive: model.isActive,
+          lastUpdate: model.updatedAt,
+          createdAt: model.createdAt
+        };
+      })
     }
     
     // JSON 파일 저장
