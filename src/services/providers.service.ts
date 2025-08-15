@@ -13,8 +13,7 @@ export class ProviderService {
    */
   static async getAll() {
     try {
-      return await prisma.providers.findMany({
-        where: { is_active: true },
+      return await prisma.provider.findMany({
         orderBy: { name: 'asc' }
       })
     } catch (error) {
@@ -28,7 +27,7 @@ export class ProviderService {
    */
   static async getById(id: string) {
     try {
-      return await prisma.providers.findUnique({
+      return await prisma.provider.findUnique({
         where: { id }
       })
     } catch (error) {
@@ -42,7 +41,7 @@ export class ProviderService {
    */
   static async getBySlug(slug: string) {
     try {
-      return await prisma.providers.findFirst({
+      return await prisma.provider.findFirst({
         where: { slug }
       })
     } catch (error) {
@@ -58,26 +57,23 @@ export class ProviderService {
     id?: string
     name: string
     slug: string
-    is_active?: boolean
   }) {
     try {
       const id = data.id || require('crypto').randomUUID()
       
-      return await prisma.providers.upsert({
+      return await prisma.provider.upsert({
         where: { id },
         update: {
           name: data.name,
           slug: data.slug,
-          is_active: data.is_active ?? true,
-          updated_at: new Date()
+          updatedAt: new Date()
         },
         create: {
           id,
           name: data.name,
           slug: data.slug,
-          is_active: data.is_active ?? true,
-          created_at: new Date(),
-          updated_at: new Date()
+          createdAt: new Date(),
+          updatedAt: new Date()
         }
       })
     } catch (error) {
