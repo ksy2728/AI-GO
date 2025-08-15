@@ -4992,8 +4992,8 @@ export class TempDataService {
     providersWithApiKeys.add('meta')
     
     // Filter models by providers with API keys
-    const filteredModels = models.filter(model => {
-      const providerSlug = model.provider?.slug || model.providerId
+    const filteredModels = models.filter((model: any) => {
+      const providerSlug = model.provider?.slug || (model as any).providerId
       return providersWithApiKeys.has(providerSlug)
     })
     
