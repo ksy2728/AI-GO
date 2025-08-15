@@ -98,120 +98,28 @@ export default function BenchmarksPage() {
     const fetchBenchmarkResults = async () => {
       try {
         setLoading(true)
-        // Mock data for demonstration
-        const mockResults: BenchmarkResult[] = [
-          {
-            id: '1',
-            modelName: 'GPT-4 Turbo',
-            provider: 'OpenAI',
-            benchmarkName: 'MMLU',
-            score: 86.4,
-            maxScore: 100,
-            percentile: 95,
-            date: '2024-04-09',
-            category: 'reasoning'
-          },
-          {
-            id: '2',
-            modelName: 'Claude 3 Opus',
-            provider: 'Anthropic',
-            benchmarkName: 'MMLU',
-            score: 86.8,
-            maxScore: 100,
-            percentile: 96,
-            date: '2024-03-04',
-            category: 'reasoning'
-          },
-          {
-            id: '3',
-            modelName: 'Gemini Ultra',
-            provider: 'Google',
-            benchmarkName: 'MMLU',
-            score: 83.7,
-            maxScore: 100,
-            percentile: 90,
-            date: '2024-02-08',
-            category: 'reasoning'
-          },
-          {
-            id: '4',
-            modelName: 'GPT-4 Turbo',
-            provider: 'OpenAI',
-            benchmarkName: 'HumanEval',
-            score: 87.0,
-            maxScore: 100,
-            percentile: 98,
-            date: '2024-04-09',
-            category: 'coding'
-          },
-          {
-            id: '5',
-            modelName: 'Claude 3 Opus',
-            provider: 'Anthropic',
-            benchmarkName: 'HumanEval',
-            score: 84.9,
-            maxScore: 100,
-            percentile: 94,
-            date: '2024-03-04',
-            category: 'coding'
-          },
-          {
-            id: '6',
-            modelName: 'Gemini Ultra',
-            provider: 'Google',
-            benchmarkName: 'HumanEval',
-            score: 74.4,
-            maxScore: 100,
-            percentile: 85,
-            date: '2024-02-08',
-            category: 'coding'
-          },
-          {
-            id: '7',
-            modelName: 'GPT-4 Turbo',
-            provider: 'OpenAI',
-            benchmarkName: 'GSM8K',
-            score: 92.0,
-            maxScore: 100,
-            percentile: 97,
-            date: '2024-04-09',
-            category: 'math'
-          },
-          {
-            id: '8',
-            modelName: 'Claude 3 Opus',
-            provider: 'Anthropic',
-            benchmarkName: 'GSM8K',
-            score: 95.0,
-            maxScore: 100,
-            percentile: 99,
-            date: '2024-03-04',
-            category: 'math'
-          },
-          {
-            id: '9',
-            modelName: 'Gemini Ultra',
-            provider: 'Google',
-            benchmarkName: 'VQA',
-            score: 82.3,
-            maxScore: 100,
-            percentile: 92,
-            date: '2024-02-08',
-            category: 'multimodal'
-          },
-          {
-            id: '10',
-            modelName: 'Llama 3 70B',
-            provider: 'Meta',
-            benchmarkName: 'MMLU',
-            score: 79.5,
-            maxScore: 100,
-            percentile: 85,
-            date: '2024-04-18',
-            category: 'reasoning'
-          }
-        ]
-        setResults(mockResults)
+        // Fetch real benchmark data from API
+        const response = await fetch('/api/v1/benchmarks?limit=100')
+        const data = await response.json()
+        
+        if (data.benchmarks && Array.isArray(data.benchmarks)) {
+          // Transform API data to match component interface
+          const transformedResults: BenchmarkResult[] = data.benchmarks.map((item: any) => ({
+            id: item.id,
+            modelName: item.modelName,
+            provider: item.provider,
+            benchmarkName: item.benchmarkName,
+            score: item.score,
+            maxScore: item.maxScore || 100,
+            percentile: item.percentile,
+            date: item.date,
+            category: item.category
+          }))
+          setResults(transformedResults)
+        } else {
+          console.warn('No benchmark data available from API')
+          setResults([])
+        }
       } catch (error) {
         console.error('Failed to fetch benchmark results:', error)
       } finally {
