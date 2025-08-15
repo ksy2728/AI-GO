@@ -107,7 +107,9 @@ export function ModelStatusGrid() {
               <h3 className="text-sm font-semibold text-gray-700">{provider}</h3>
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-2">
                 {providerModels.map(model => {
-                  const status = modelStatuses[model.id] || model.status?.[0]
+                  // Handle both array and object formats for status
+                  const status = modelStatuses[model.id] || 
+                                (Array.isArray(model.status) ? model.status[0] : model.status)
                   return (
                     <div
                       key={model.id}

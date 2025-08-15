@@ -67,7 +67,8 @@
       "Bash(vercel:*)",
       "Bash(timeout 120 vercel --prod --yes)",
       "mcp__playwright-stealth__playwright_get",
-      "WebSearch"
+      "WebSearch",
+      "WebFetch(domain:ai-server-information.vercel.app)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
