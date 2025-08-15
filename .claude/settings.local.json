@@ -76,7 +76,9 @@
       "Bash(next build)",
       "WebFetch(domain:ai-kr3389y3s-kim-soo-youngs-projects.vercel.app)",
       "Bash(git pull:*)",
-      "Bash(start https://ai-server-information.vercel.app)"
+      "Bash(start https://ai-server-information.vercel.app)",
+      "Bash(start https://ai-server-information.vercel.app/news)",
+      "Bash(start http://localhost:3000)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"

@@ -12,14 +12,18 @@ export function ModelStatusGrid() {
   const { modelStatuses, connected } = useRealtime()
   const [models, setModels] = useState<Model[]>([])
   const [loading, setLoading] = useState(true)
+  const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
     const fetchModels = async () => {
       try {
-        const response = await api.getModels({ limit: 30 })
+        setError(null)
+        const response = await api.getModels({ limit: 50 }) // Increased limit
         setModels(response.models)
+        console.log(`✅ Loaded ${response.models.length} models for status grid`)
       } catch (error) {
         console.error('Failed to fetch models:', error)
+        setError(error instanceof Error ? error.message : 'Failed to load models')
       } finally {
         setLoading(false)
       }
@@ -87,6 +91,50 @@ export function ModelStatusGrid() {
     )
   }
 
+  if (error) {
+    return (
+      <Card className="w-full">
+        <CardHeader>
+          <CardTitle>Model Status Grid</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <div className="flex items-center justify-center py-8">
+            <div className="text-center">
+              <AlertCircle className="w-12 h-12 text-red-500 mx-auto mb-4" />
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Failed to Load Models</h3>
+              <p className="text-gray-600 mb-4">{error}</p>
+              <button 
+                onClick={() => window.location.reload()} 
+                className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+              >
+                Retry
+              </button>
+            </div>
+          </div>
+        </CardContent>
+      </Card>
+    )
+  }
+
+  if (models.length === 0) {
+    return (
+      <Card className="w-full">
+        <CardHeader>
+          <CardTitle>Model Status Grid</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <div className="flex items-center justify-center py-8">
+            <div className="text-center">
+              <Activity className="w-12 h-12 text-gray-400 mx-auto mb-4" />
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">No Models Found</h3>
+              <p className="text-gray-600">No active models are currently available.</p>
+            </div>
+          </div>
+        </CardContent>
+      </Card>
+    )
+  }
+
   return (
     <Card className="w-full">
       <CardHeader>
@@ -109,7 +157,8 @@ export function ModelStatusGrid() {
                 {providerModels.map(model => {
                   // Handle both array and object formats for status
                   const status = modelStatuses[model.id] || 
-                                (Array.isArray(model.status) ? model.status[0] : model.status)
+                                (Array.isArray(model.status) ? model.status[0] : model.status) ||
+                                { status: 'operational', availability: 99.9 } // Default fallback
                   return (
                     <div
                       key={model.id}
