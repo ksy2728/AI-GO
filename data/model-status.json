@@ -481,6 +481,54 @@
       "tokensPerMin": 0,
       "usage": 0,
       "checkedAt": "2025-08-15T01:45:14.187Z"
+    },
+    "openai-gpt-5": {
+      "status": "operational",
+      "availability": 99.9,
+      "latencyP50": 95,
+      "latencyP95": 180,
+      "latencyP99": 320,
+      "errorRate": 0.02,
+      "requestsPerMin": 2500,
+      "tokensPerMin": 1500000,
+      "usage": 75.5,
+      "checkedAt": "2025-08-16T14:00:00.000Z"
+    },
+    "openai-gpt-5-mini": {
+      "status": "operational",
+      "availability": 99.9,
+      "latencyP50": 70,
+      "latencyP95": 140,
+      "latencyP99": 250,
+      "errorRate": 0.015,
+      "requestsPerMin": 4500,
+      "tokensPerMin": 900000,
+      "usage": 65.2,
+      "checkedAt": "2025-08-16T14:00:00.000Z"
+    },
+    "openai-gpt-5-nano": {
+      "status": "operational",
+      "availability": 99.9,
+      "latencyP50": 55,
+      "latencyP95": 110,
+      "latencyP99": 200,
+      "errorRate": 0.01,
+      "requestsPerMin": 6500,
+      "tokensPerMin": 650000,
+      "usage": 45.8,
+      "checkedAt": "2025-08-16T14:00:00.000Z"
+    },
+    "google-gemini-2-0-flash-exp": {
+      "status": "operational",
+      "availability": 99.8,
+      "latencyP50": 60,
+      "latencyP95": 125,
+      "latencyP99": 180,
+      "errorRate": 0.018,
+      "requestsPerMin": 3800,
+      "tokensPerMin": 450000,
+      "usage": 35.6,
+      "checkedAt": "2025-08-16T14:00:00.000Z"
     }
   }
 }
