@@ -133,28 +133,28 @@ export function ModelDetailModal({ model, onClose }: ModelDetailModalProps) {
           <TabsList className="grid grid-cols-5 w-full rounded-none border-b">
             <TabsTrigger 
               value="overview" 
-              onClick={(e) => { e.stopPropagation(); e.preventDefault(); }}
-              onPointerDown={(e) => { e.stopPropagation(); e.preventDefault(); }}
+              onClick={(e) => { e.stopPropagation(); }}
+              onPointerDown={(e) => { e.stopPropagation(); }}
             >Overview</TabsTrigger>
             <TabsTrigger 
               value="performance" 
-              onClick={(e) => { e.stopPropagation(); e.preventDefault(); }}
-              onPointerDown={(e) => { e.stopPropagation(); e.preventDefault(); }}
+              onClick={(e) => { e.stopPropagation(); }}
+              onPointerDown={(e) => { e.stopPropagation(); }}
             >Performance</TabsTrigger>
             <TabsTrigger 
               value="benchmarks" 
-              onClick={(e) => { e.stopPropagation(); e.preventDefault(); }}
-              onPointerDown={(e) => { e.stopPropagation(); e.preventDefault(); }}
+              onClick={(e) => { e.stopPropagation(); }}
+              onPointerDown={(e) => { e.stopPropagation(); }}
             >Benchmarks</TabsTrigger>
             <TabsTrigger 
               value="pricing" 
-              onClick={(e) => { e.stopPropagation(); e.preventDefault(); }}
-              onPointerDown={(e) => { e.stopPropagation(); e.preventDefault(); }}
+              onClick={(e) => { e.stopPropagation(); }}
+              onPointerDown={(e) => { e.stopPropagation(); }}
             >Pricing</TabsTrigger>
             <TabsTrigger 
               value="incidents" 
-              onClick={(e) => { e.stopPropagation(); e.preventDefault(); }}
-              onPointerDown={(e) => { e.stopPropagation(); e.preventDefault(); }}
+              onClick={(e) => { e.stopPropagation(); }}
+              onPointerDown={(e) => { e.stopPropagation(); }}
             >Incidents</TabsTrigger>
           </TabsList>
 
