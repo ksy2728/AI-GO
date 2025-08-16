@@ -272,24 +272,6 @@ export default function ModelsPage() {
             }`}>
               <CardHeader>
                 <div className="flex items-start justify-between">
-                  <Button
-                    variant={isSelected ? 'default' : 'outline'}
-                    size="sm"
-                    className={`absolute top-4 right-4 z-10 w-8 h-8 p-0 ${
-                      isSelected ? 'bg-blue-600 hover:bg-blue-700' : 'hover:bg-blue-50'
-                    }`}
-                    onClick={(e) => {
-                      e.stopPropagation()
-                      toggleModelForComparison(model)
-                    }}
-                    disabled={!isSelected && selectedForComparison.length >= 4}
-                  >
-                    {isSelected ? (
-                      <Minus className="w-4 h-4" />
-                    ) : (
-                      <Plus className="w-4 h-4" />
-                    )}
-                  </Button>
                   <div className="flex-1">
                     <div className="flex items-center gap-2">
                       <CardTitle className="text-lg group-hover:text-blue-600 transition-colors">
@@ -346,15 +328,33 @@ export default function ModelsPage() {
                   )}
                 </div>
 
-                <div className="pt-4 border-t">
+                <div className="pt-4 border-t flex gap-2">
                   <Button 
                     variant="outline" 
-                    className="w-full group-hover:bg-blue-50 group-hover:border-blue-300"
+                    className="flex-1 group-hover:bg-blue-50 group-hover:border-blue-300"
                     onClick={() => setSelectedModel(model)}
                   >
                     <Eye className="w-4 h-4 mr-2" />
                     View Details
                     <ChevronRight className="w-4 h-4 ml-auto group-hover:translate-x-1 transition-transform" />
+                  </Button>
+                  <Button
+                    variant={isSelected ? 'default' : 'outline'}
+                    size="sm"
+                    className={`w-10 h-10 p-0 shrink-0 ${
+                      isSelected ? 'bg-blue-600 hover:bg-blue-700 text-white' : 'hover:bg-blue-50'
+                    }`}
+                    onClick={(e) => {
+                      e.stopPropagation()
+                      toggleModelForComparison(model)
+                    }}
+                    disabled={!isSelected && selectedForComparison.length >= MODEL_LIMITS.MAX_COMPARISON}
+                  >
+                    {isSelected ? (
+                      <Minus className="w-4 h-4" />
+                    ) : (
+                      <Plus className="w-4 h-4" />
+                    )}
                   </Button>
                 </div>
               </CardContent>
