@@ -181,22 +181,22 @@ export function PricingDetailModal({ pricing, onClose }: PricingDetailModalProps
 
         <div className="p-6">
           <Tabs defaultValue="calculator" className="space-y-6">
-            <TabsList className="grid grid-cols-4 w-full">
-              <TabsTrigger value="calculator" className="flex items-center gap-2">
-                <Calculator className="w-4 h-4" />
-                Cost Calculator
+            <TabsList className="grid grid-cols-2 sm:grid-cols-4 w-full">
+              <TabsTrigger value="calculator" className="flex items-center gap-1 sm:gap-2">
+                <Calculator className="w-3 h-3 sm:w-4 sm:h-4" />
+                <span className="text-xs sm:text-sm">Calculator</span>
               </TabsTrigger>
-              <TabsTrigger value="analysis" className="flex items-center gap-2">
-                <BarChart3 className="w-4 h-4" />
-                Analysis
+              <TabsTrigger value="analysis" className="flex items-center gap-1 sm:gap-2">
+                <BarChart3 className="w-3 h-3 sm:w-4 sm:h-4" />
+                <span className="text-xs sm:text-sm">Analysis</span>
               </TabsTrigger>
-              <TabsTrigger value="features" className="flex items-center gap-2">
-                <Settings className="w-4 h-4" />
-                Features
+              <TabsTrigger value="features" className="flex items-center gap-1 sm:gap-2">
+                <Settings className="w-3 h-3 sm:w-4 sm:h-4" />
+                <span className="text-xs sm:text-sm">Features</span>
               </TabsTrigger>
-              <TabsTrigger value="competitive" className="flex items-center gap-2">
-                <Target className="w-4 h-4" />
-                Competitive
+              <TabsTrigger value="competitive" className="flex items-center gap-1 sm:gap-2">
+                <Target className="w-3 h-3 sm:w-4 sm:h-4" />
+                <span className="text-xs sm:text-sm">Compare</span>
               </TabsTrigger>
             </TabsList>
 

@@ -130,12 +130,12 @@ export function ModelDetailModal({ model, onClose }: ModelDetailModalProps) {
             e.stopPropagation();
           }}
         >
-          <TabsList className="grid grid-cols-5 w-full rounded-none border-b">
-            <TabsTrigger value="overview">Overview</TabsTrigger>
-            <TabsTrigger value="performance">Performance</TabsTrigger>
-            <TabsTrigger value="benchmarks">Benchmarks</TabsTrigger>
-            <TabsTrigger value="pricing">Pricing</TabsTrigger>
-            <TabsTrigger value="incidents">Incidents</TabsTrigger>
+          <TabsList className="flex overflow-x-auto w-full rounded-none border-b scrollbar-hide">
+            <TabsTrigger value="overview" className="flex-shrink-0">Overview</TabsTrigger>
+            <TabsTrigger value="performance" className="flex-shrink-0">Performance</TabsTrigger>
+            <TabsTrigger value="benchmarks" className="flex-shrink-0">Benchmarks</TabsTrigger>
+            <TabsTrigger value="pricing" className="flex-shrink-0">Pricing</TabsTrigger>
+            <TabsTrigger value="incidents" className="flex-shrink-0">Incidents</TabsTrigger>
           </TabsList>
 
           <div className="flex-1 overflow-y-auto">

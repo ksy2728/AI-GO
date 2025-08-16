@@ -130,7 +130,7 @@ export function ModelComparisonModal({ models, onClose }: ModelComparisonModalPr
 
         <div className="p-6 overflow-y-auto max-h-[calc(90vh-80px)]">
           <Tabs value={activeTab} onValueChange={setActiveTab} className="space-y-6">
-            <TabsList className="grid grid-cols-4 w-full">
+            <TabsList className="grid grid-cols-2 sm:grid-cols-4 w-full">
               <TabsTrigger value="overview">Overview</TabsTrigger>
               <TabsTrigger value="pricing">Pricing</TabsTrigger>
               <TabsTrigger value="benchmarks">Benchmarks</TabsTrigger>
