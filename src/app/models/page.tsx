@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo, useCallback, memo } from 'react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
@@ -11,6 +11,8 @@ import { Model } from '@/types/models'
 import { getStatusColor, formatNumber } from '@/lib/utils'
 import { ModelDetailModal } from '@/components/ModelDetailModal'
 import { ModelComparisonModal } from '@/components/ModelComparisonModal'
+import { logger } from '@/lib/logger'
+import { FEATURED_MODELS, MAJOR_PROVIDERS, LATEST_MODELS, MODEL_LIMITS, MODEL_BADGES } from '@/constants/models'
 import {
   Search,
   Server,
@@ -20,13 +22,6 @@ import {
   Plus,
   Minus
 } from 'lucide-react'
-
-// Featured models that should appear first
-const FEATURED_MODELS = ['GPT-5', 'o3', 'o3-mini', 'GPT-4.5', 'gpt-oss-120b', 'gpt-oss-20b', 
-  'Claude-3-Opus', 'Claude-3.5-Sonnet', 'Gemini-2.0-Flash', 'Gemini-2.0-Pro', 'Llama-3.3-70B'];
-
-// Major providers that should be prioritized
-const MAJOR_PROVIDERS = ['openai', 'anthropic', 'google', 'meta', 'microsoft', 'amazon'];
 
 export default function ModelsPage() {
   const [models, setModels] = useState<Model[]>([])
@@ -46,7 +41,7 @@ export default function ModelsPage() {
         const response = await api.getModels({
           provider: selectedProvider || undefined,
           modality: selectedModality || undefined,
-          limit: 50
+          limit: MODEL_LIMITS.API_FETCH_LIMIT
         })
         // Sort models with featured ones first
         const sortedModels = response.models.sort((a, b) => {
@@ -78,7 +73,7 @@ export default function ModelsPage() {
         
         setModels(sortedModels)
       } catch (error) {
-        console.error('Failed to fetch models:', error)
+        logger.error('Failed to fetch models:', error)
       } finally {
         setLoading(false)
       }
@@ -103,23 +98,27 @@ export default function ModelsPage() {
     return matchesSearch;
   });
   
-  // Limit to 30 models initially unless showing all
-  const displayModels = showAllModels || searchQuery ? filteredModels : filteredModels.slice(0, 30)
+  // Limit to initial display count unless showing all
+  const displayModels = useMemo(() => {
+    return showAllModels || searchQuery 
+      ? filteredModels 
+      : filteredModels.slice(0, MODEL_LIMITS.INITIAL_DISPLAY)
+  }, [showAllModels, searchQuery, filteredModels])
 
   const providers = Array.from(new Set(models.map(m => m.provider?.name || m.providerId).filter(Boolean)))
   const modalities = Array.from(new Set(models.flatMap(m => m.modalities || [])))
 
-  const toggleModelForComparison = (model: Model) => {
+  const toggleModelForComparison = useCallback((model: Model) => {
     setSelectedForComparison(prev => {
       const isSelected = prev.find(m => m.id === model.id)
       if (isSelected) {
         return prev.filter(m => m.id !== model.id)
-      } else if (prev.length < 4) { // Max 4 models for comparison
+      } else if (prev.length < MODEL_LIMITS.MAX_COMPARISON) {
         return [...prev, model]
       }
       return prev
     })
-  }
+  }, [])
 
   const isSelectedForComparison = (model: Model) => {
     return selectedForComparison.find(m => m.id === model.id) !== undefined
@@ -265,7 +264,7 @@ export default function ModelsPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {displayModels.map((model) => {
             const isFeatured = FEATURED_MODELS.includes(model.name);
-            const isLatest = ['GPT-5', 'o3', 'o3-mini', 'GPT-4.5', 'gpt-oss-120b', 'gpt-oss-20b'].includes(model.name);
+            const isLatest = LATEST_MODELS.includes(model.name);
             const isSelected = isSelectedForComparison(model)
             return (
             <Card key={model.id} className={`bg-white/80 backdrop-blur-sm border-0 shadow-lg hover:shadow-xl transition-all duration-200 group relative ${
@@ -297,13 +296,13 @@ export default function ModelsPage() {
                         {model.name}
                       </CardTitle>
                       {isLatest && (
-                        <Badge className="bg-gradient-to-r from-red-500 to-pink-500 text-white text-xs">
-                          NEW
+                        <Badge className={MODEL_BADGES.NEW.className}>
+                          {MODEL_BADGES.NEW.label}
                         </Badge>
                       )}
                       {isFeatured && !isLatest && (
-                        <Badge className="bg-gradient-to-r from-purple-500 to-indigo-500 text-white text-xs">
-                          FEATURED
+                        <Badge className={MODEL_BADGES.FEATURED.className}>
+                          {MODEL_BADGES.FEATURED.label}
                         </Badge>
                       )}
                     </div>
