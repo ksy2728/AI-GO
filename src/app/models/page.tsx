@@ -65,8 +65,10 @@ export default function ModelsPage() {
           if (!aMajor && bMajor) return 1;
           
           // 3. Unknown status goes to the bottom
-          const aUnknown = !a.status || a.status.status === 'unknown';
-          const bUnknown = !b.status || b.status.status === 'unknown';
+          const aStatus = Array.isArray(a.status) ? a.status[0] : a.status;
+          const bStatus = Array.isArray(b.status) ? b.status[0] : b.status;
+          const aUnknown = !aStatus || aStatus?.status === 'unknown';
+          const bUnknown = !bStatus || bStatus?.status === 'unknown';
           if (!aUnknown && bUnknown) return -1;
           if (aUnknown && !bUnknown) return 1;
           
@@ -93,7 +95,8 @@ export default function ModelsPage() {
     // If not showing all, filter out unknown status and non-major providers
     if (!showAllModels && !searchQuery) {
       const isMajorProvider = MAJOR_PROVIDERS.includes(model.provider?.id || model.providerId || '');
-      const hasKnownStatus = model.status && model.status.status !== 'unknown';
+      const modelStatus = Array.isArray(model.status) ? model.status[0] : model.status;
+      const hasKnownStatus = modelStatus && modelStatus?.status !== 'unknown';
       return matchesSearch && isMajorProvider && hasKnownStatus;
     }
     

@@ -93,7 +93,9 @@
       "Bash(if [ ! -z \"$GEMINI_API_KEY\" ])",
       "Bash(then echo \"✓ GEMINI_API_KEY found\")",
       "Bash(else echo \"✗ GEMINI_API_KEY not found\")",
-      "Bash(gh auth:*)"
+      "Bash(gh auth:*)",
+      "Bash(start http://localhost:3000/models)",
+      "mcp__playwright-stealth__playwright_select"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
