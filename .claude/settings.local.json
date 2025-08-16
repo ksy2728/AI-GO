@@ -95,7 +95,11 @@
       "Bash(else echo \"✗ GEMINI_API_KEY not found\")",
       "Bash(gh auth:*)",
       "Bash(start http://localhost:3000/models)",
-      "mcp__playwright-stealth__playwright_select"
+      "mcp__playwright-stealth__playwright_select",
+      "mcp__git__git_status",
+      "mcp__git__git_log",
+      "mcp__git__git_show",
+      "WebFetch(domain:vercel.com)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"

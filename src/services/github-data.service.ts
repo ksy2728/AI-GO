@@ -24,11 +24,24 @@ interface StatusData {
   statuses: Record<string, any>;
 }
 
+interface PricingData {
+  pricing: any[];
+}
+
+interface BenchmarksData {
+  benchmarks: any[];
+  benchmarkSuites?: any[];
+}
+
 export class GitHubDataService {
   private static dataCache: GitHubData | null = null;
   private static statusCache: StatusData | null = null;
+  private static pricingCache: PricingData | null = null;
+  private static benchmarksCache: BenchmarksData | null = null;
   private static cacheTimestamp: number = 0;
   private static statusCacheTimestamp: number = 0;
+  private static pricingCacheTimestamp: number = 0;
+  private static benchmarksCacheTimestamp: number = 0;
   private static readonly CACHE_DURATION = 5 * 60 * 1000; // 5 minutes
   private static readonly STATUS_CACHE_DURATION = 1 * 60 * 1000; // 1 minute
 
@@ -141,15 +154,65 @@ export class GitHubDataService {
   }
 
   /**
+   * Get pricing data
+   */
+  static async getPricingData(): Promise<PricingData> {
+    const now = Date.now();
+    
+    // Check cache
+    if (this.pricingCache && (now - this.pricingCacheTimestamp) < this.CACHE_DURATION) {
+      console.log('📦 Using cached pricing data');
+      return this.pricingCache;
+    }
+    
+    console.log('🔄 Fetching fresh pricing from GitHub');
+    try {
+      this.pricingCache = await this.fetchData<PricingData>('pricing-data.json');
+      this.pricingCacheTimestamp = now;
+    } catch (error) {
+      console.warn('⚠️ Failed to fetch pricing data:', error);
+      this.pricingCache = { pricing: [] };
+    }
+    
+    return this.pricingCache;
+  }
+
+  /**
+   * Get benchmarks data
+   */
+  static async getBenchmarksData(): Promise<BenchmarksData> {
+    const now = Date.now();
+    
+    // Check cache
+    if (this.benchmarksCache && (now - this.benchmarksCacheTimestamp) < this.CACHE_DURATION) {
+      console.log('📦 Using cached benchmarks data');
+      return this.benchmarksCache;
+    }
+    
+    console.log('🔄 Fetching fresh benchmarks from GitHub');
+    try {
+      this.benchmarksCache = await this.fetchData<BenchmarksData>('benchmarks-data.json');
+      this.benchmarksCacheTimestamp = now;
+    } catch (error) {
+      console.warn('⚠️ Failed to fetch benchmarks data:', error);
+      this.benchmarksCache = { benchmarks: [] };
+    }
+    
+    return this.benchmarksCache;
+  }
+
+  /**
    * Get all models with optional filters
    */
   static async getAllModels(filters: any = {}) {
     const data = await this.getAllData();
     const statusData = await this.getStatusData();
+    const pricingData = await this.getPricingData();
+    const benchmarksData = await this.getBenchmarksData();
     
     let models = data.models;
     
-    // Fix data structure compatibility (handle both 'modalities' and 'type' fields)
+    // Fix data structure compatibility and merge related data
     models = models.map(model => {
       // Handle modalities field - might be array, string, or missing
       let modalities = model.modalities;
@@ -175,10 +238,66 @@ export class GitHubDataService {
         modalities = ['text'];
       }
       
+      // Find and attach pricing data
+      const modelPricing = pricingData.pricing.filter(p => 
+        p.modelName === model.name || 
+        p.id === model.slug ||
+        p.id === model.name.toLowerCase().replace(/\s+/g, '-')
+      );
+      
+      // Find and attach benchmark data
+      const modelBenchmarks = benchmarksData.benchmarks.filter(b =>
+        b.modelName === model.name ||
+        b.modelId === model.slug ||
+        b.modelName.toLowerCase() === model.name.toLowerCase()
+      );
+      
+      // Transform benchmark data to match expected structure
+      const benchmarkScores = modelBenchmarks.map(b => ({
+        id: b.id,
+        modelId: model.id,
+        suiteId: b.benchmarkName,
+        suite: {
+          name: b.benchmarkName,
+          description: b.description || '',
+          maxScore: b.maxScore || 100,
+          category: b.category
+        },
+        scoreRaw: b.score,
+        scoreNormalized: b.maxScore ? (b.score / b.maxScore) : (b.score / 100),
+        percentile: b.percentile,
+        evaluationDate: b.date,
+        isOfficial: true,
+        metadata: {
+          category: b.category
+        }
+      }));
+      
+      // Transform pricing data to match expected structure
+      const pricing = modelPricing.map(p => ({
+        id: p.id,
+        modelId: model.id,
+        tier: p.tier,
+        currency: p.currency,
+        inputPerMillion: p.inputPrice,
+        outputPerMillion: p.outputPrice,
+        imagePerUnit: p.imagePrice,
+        audioPerMinute: p.audioPrice,
+        videoPerMinute: p.videoPrice,
+        contextWindow: p.contextWindow,
+        rateLimit: p.rateLimit,
+        features: p.features,
+        limitations: p.limitations,
+        effectiveFrom: p.lastUpdated || new Date().toISOString(),
+        region: p.region || 'global'
+      }));
+      
       return {
         ...model,
         modalities,
-        status: statusData.statuses[model.slug] || model.status
+        status: statusData.statuses[model.slug] || model.status || [],
+        pricing: pricing.length > 0 ? pricing : undefined,
+        benchmarkScores: benchmarkScores.length > 0 ? benchmarkScores : undefined
       };
     });
     
@@ -227,14 +346,78 @@ export class GitHubDataService {
   static async getModelBySlug(slug: string) {
     const data = await this.getAllData();
     const statusData = await this.getStatusData();
+    const pricingData = await this.getPricingData();
+    const benchmarksData = await this.getBenchmarksData();
     
     const model = data.models.find(m => m.slug === slug);
     
-    if (model && statusData.statuses[slug]) {
-      model.status = statusData.statuses[slug];
+    if (!model) return null;
+    
+    // Add status data
+    if (statusData.statuses[slug]) {
+      model.status = [statusData.statuses[slug]];
     }
     
-    return model || null;
+    // Find and attach pricing data
+    const modelPricing = pricingData.pricing.filter(p => 
+      p.modelName === model.name || 
+      p.id === model.slug ||
+      p.id === model.name.toLowerCase().replace(/\s+/g, '-')
+    );
+    
+    // Find and attach benchmark data
+    const modelBenchmarks = benchmarksData.benchmarks.filter(b =>
+      b.modelName === model.name ||
+      b.modelId === model.slug ||
+      b.modelName.toLowerCase() === model.name.toLowerCase()
+    );
+    
+    // Transform benchmark data to match expected structure
+    const benchmarkScores = modelBenchmarks.map(b => ({
+      id: b.id,
+      modelId: model.id,
+      suiteId: b.benchmarkName,
+      suite: {
+        name: b.benchmarkName,
+        description: b.description || '',
+        maxScore: b.maxScore || 100,
+        category: b.category
+      },
+      scoreRaw: b.score,
+      scoreNormalized: b.maxScore ? (b.score / b.maxScore) : (b.score / 100),
+      percentile: b.percentile,
+      evaluationDate: b.date,
+      isOfficial: true,
+      metadata: {
+        category: b.category
+      }
+    }));
+    
+    // Transform pricing data to match expected structure
+    const pricing = modelPricing.map(p => ({
+      id: p.id,
+      modelId: model.id,
+      tier: p.tier,
+      currency: p.currency,
+      inputPerMillion: p.inputPrice,
+      outputPerMillion: p.outputPrice,
+      imagePerUnit: p.imagePrice,
+      audioPerMinute: p.audioPrice,
+      videoPerMinute: p.videoPrice,
+      contextWindow: p.contextWindow,
+      rateLimit: p.rateLimit,
+      features: p.features,
+      limitations: p.limitations,
+      effectiveFrom: p.lastUpdated || new Date().toISOString(),
+      region: p.region || 'global'
+    }));
+    
+    return {
+      ...model,
+      status: model.status || [],
+      pricing: pricing.length > 0 ? pricing : [],
+      benchmarkScores: benchmarkScores.length > 0 ? benchmarkScores : []
+    };
   }
 
   /**
@@ -275,8 +458,12 @@ export class GitHubDataService {
   static clearCache() {
     this.dataCache = null;
     this.statusCache = null;
+    this.pricingCache = null;
+    this.benchmarksCache = null;
     this.cacheTimestamp = 0;
     this.statusCacheTimestamp = 0;
+    this.pricingCacheTimestamp = 0;
+    this.benchmarksCacheTimestamp = 0;
     console.log('🗑️ Cache cleared');
   }
 }

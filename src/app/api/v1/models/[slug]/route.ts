@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server'
 import { ModelService } from '@/services/models.service'
 import { TempDataService } from '@/services/temp-data.service'
+import { GitHubDataService } from '@/services/github-data.service'
 
 export async function GET(
   request: Request,
@@ -16,13 +17,37 @@ export async function GET(
       )
     }
 
-    // Try database first, fallback to temporary data
+    // Check if we're in production environment (Vercel)
+    const isProduction = process.env.NODE_ENV === 'production' || 
+                        process.env.VERCEL === '1' || 
+                        process.env.VERCEL_ENV !== undefined
+
     let model
-    try {
-      model = await ModelService.getBySlug(slug)
-    } catch (error) {
-      console.warn('⚠️ Database service failed, using temporary data:', error instanceof Error ? error.message : 'Unknown error')
-      model = await TempDataService.getModelBySlug(slug)
+    
+    if (isProduction) {
+      // In production, use GitHub as primary data source
+      try {
+        model = await GitHubDataService.getModelBySlug(slug)
+        console.log('📦 Using GitHub data source for model details (production)')
+      } catch (githubError) {
+        console.warn('⚠️ GitHub data failed, using temporary data:', githubError instanceof Error ? githubError.message : 'Unknown error')
+        model = await TempDataService.getModelBySlug(slug)
+      }
+    } else {
+      // In development, try database first
+      try {
+        model = await ModelService.getBySlug(slug)
+        console.log('🗄️ Using database for model details (development)')
+      } catch (error) {
+        console.warn('⚠️ Database service failed, trying GitHub:', error instanceof Error ? error.message : 'Unknown error')
+        try {
+          model = await GitHubDataService.getModelBySlug(slug)
+          console.log('📦 Using GitHub data source for model details (fallback)')
+        } catch (githubError) {
+          console.warn('⚠️ GitHub data failed, using temporary data:', githubError instanceof Error ? githubError.message : 'Unknown error')
+          model = await TempDataService.getModelBySlug(slug)
+        }
+      }
     }
 
     if (!model) {
