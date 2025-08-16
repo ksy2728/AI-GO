@@ -21,6 +21,13 @@ import {
   Minus
 } from 'lucide-react'
 
+// Featured models that should appear first
+const FEATURED_MODELS = ['GPT-5', 'o3', 'o3-mini', 'GPT-4.5', 'gpt-oss-120b', 'gpt-oss-20b', 
+  'Claude-3-Opus', 'Claude-3.5-Sonnet', 'Gemini-2.0-Flash', 'Gemini-2.0-Pro', 'Llama-3.3-70B'];
+
+// Major providers that should be prioritized
+const MAJOR_PROVIDERS = ['openai', 'anthropic', 'google', 'meta', 'microsoft', 'amazon'];
+
 export default function ModelsPage() {
   const [models, setModels] = useState<Model[]>([])
   const [loading, setLoading] = useState(true)
@@ -30,6 +37,7 @@ export default function ModelsPage() {
   const [selectedModel, setSelectedModel] = useState<Model | null>(null)
   const [selectedForComparison, setSelectedForComparison] = useState<Model[]>([])
   const [showComparison, setShowComparison] = useState(false)
+  const [showAllModels, setShowAllModels] = useState(false)
 
   useEffect(() => {
     const fetchModels = async () => {
@@ -40,7 +48,33 @@ export default function ModelsPage() {
           modality: selectedModality || undefined,
           limit: 50
         })
-        setModels(response.models)
+        // Sort models with featured ones first
+        const sortedModels = response.models.sort((a, b) => {
+          // 1. Featured models at the top
+          const aFeatured = FEATURED_MODELS.includes(a.name);
+          const bFeatured = FEATURED_MODELS.includes(b.name);
+          if (aFeatured && !bFeatured) return -1;
+          if (!aFeatured && bFeatured) return 1;
+          
+          // 2. Major providers next
+          const aProviderIndex = MAJOR_PROVIDERS.indexOf(a.provider?.id || a.providerId || '');
+          const bProviderIndex = MAJOR_PROVIDERS.indexOf(b.provider?.id || b.providerId || '');
+          const aMajor = aProviderIndex !== -1;
+          const bMajor = bProviderIndex !== -1;
+          if (aMajor && !bMajor) return -1;
+          if (!aMajor && bMajor) return 1;
+          
+          // 3. Unknown status goes to the bottom
+          const aUnknown = !a.status || a.status.status === 'unknown';
+          const bUnknown = !b.status || b.status.status === 'unknown';
+          if (!aUnknown && bUnknown) return -1;
+          if (aUnknown && !bUnknown) return 1;
+          
+          // 4. Alphabetical by name
+          return a.name.localeCompare(b.name);
+        });
+        
+        setModels(sortedModels)
       } catch (error) {
         console.error('Failed to fetch models:', error)
       } finally {
@@ -51,10 +85,23 @@ export default function ModelsPage() {
     fetchModels()
   }, [selectedProvider, selectedModality])
 
-  const filteredModels = models.filter(model =>
-    model.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    model.description?.toLowerCase().includes(searchQuery.toLowerCase())
-  )
+  // Filter models based on search and exclude unknown status if not showing all
+  let filteredModels = models.filter(model => {
+    const matchesSearch = model.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      model.description?.toLowerCase().includes(searchQuery.toLowerCase());
+    
+    // If not showing all, filter out unknown status and non-major providers
+    if (!showAllModels && !searchQuery) {
+      const isMajorProvider = MAJOR_PROVIDERS.includes(model.provider?.id || model.providerId || '');
+      const hasKnownStatus = model.status && model.status.status !== 'unknown';
+      return matchesSearch && isMajorProvider && hasKnownStatus;
+    }
+    
+    return matchesSearch;
+  });
+  
+  // Limit to 30 models initially unless showing all
+  const displayModels = showAllModels || searchQuery ? filteredModels : filteredModels.slice(0, 30)
 
   const providers = Array.from(new Set(models.map(m => m.provider?.name || m.providerId).filter(Boolean)))
   const modalities = Array.from(new Set(models.flatMap(m => m.modalities || [])))
@@ -189,9 +236,33 @@ export default function ModelsPage() {
           </div>
         )}
 
+        {/* Show featured models indicator */}
+        {!showAllModels && !searchQuery && displayModels.length < filteredModels.length && (
+          <div className="mb-6 p-4 bg-gradient-to-r from-purple-50 to-indigo-50 border border-purple-200 rounded-lg">
+            <div className="flex items-center justify-between">
+              <div>
+                <h3 className="font-semibold text-purple-900 mb-1">🔥 Showing Featured Models</h3>
+                <p className="text-purple-700 text-sm">
+                  Displaying {displayModels.length} featured and major provider models. 
+                  {filteredModels.length - displayModels.length} additional models available.
+                </p>
+              </div>
+              <Button
+                onClick={() => setShowAllModels(true)}
+                variant="outline"
+                className="bg-white hover:bg-purple-50 border-purple-300"
+              >
+                Show All {filteredModels.length} Models
+              </Button>
+            </div>
+          </div>
+        )}
+
         {/* Models Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredModels.map((model) => {
+          {displayModels.map((model) => {
+            const isFeatured = FEATURED_MODELS.includes(model.name);
+            const isLatest = ['GPT-5', 'o3', 'o3-mini', 'GPT-4.5', 'gpt-oss-120b', 'gpt-oss-20b'].includes(model.name);
             const isSelected = isSelectedForComparison(model)
             return (
             <Card key={model.id} className={`bg-white/80 backdrop-blur-sm border-0 shadow-lg hover:shadow-xl transition-all duration-200 group relative ${
@@ -218,11 +289,23 @@ export default function ModelsPage() {
                     )}
                   </Button>
                   <div className="flex-1">
-                    <CardTitle className="text-lg group-hover:text-blue-600 transition-colors">
-                      {model.name}
-                    </CardTitle>
+                    <div className="flex items-center gap-2">
+                      <CardTitle className="text-lg group-hover:text-blue-600 transition-colors">
+                        {model.name}
+                      </CardTitle>
+                      {isLatest && (
+                        <Badge className="bg-gradient-to-r from-red-500 to-pink-500 text-white text-xs">
+                          NEW
+                        </Badge>
+                      )}
+                      {isFeatured && !isLatest && (
+                        <Badge className="bg-gradient-to-r from-purple-500 to-indigo-500 text-white text-xs">
+                          FEATURED
+                        </Badge>
+                      )}
+                    </div>
                     <CardDescription className="mt-1">
-                      by {model.providerId}
+                      by {model.provider?.name || model.providerId}
                     </CardDescription>
                   </div>
                   <Badge variant={model.isActive ? 'success' : 'secondary'}>

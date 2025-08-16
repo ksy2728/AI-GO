@@ -496,8 +496,40 @@ async function syncAllModels() {
   // Convert map back to array
   existingData.models = Array.from(modelMap.values());
   
-  // Sort models by provider and name
+  // Add priority field to featured models
+  const FEATURED_MODELS = ['GPT-5', 'o3', 'o3-mini', 'GPT-4.5', 'gpt-oss-120b', 'gpt-oss-20b', 
+    'Claude-3-Opus', 'Claude-3.5-Sonnet', 'Gemini-2.0-Flash', 'Gemini-2.0-Pro', 'Llama-3.3-70B'];
+  
+  existingData.models = existingData.models.map(model => {
+    // Add priority field
+    if (FEATURED_MODELS.includes(model.name)) {
+      model.priority = 1; // Featured
+      model.featured = true;
+    } else if (['openai', 'anthropic', 'google', 'meta'].includes(model.provider?.id)) {
+      model.priority = 2; // Major provider
+    } else {
+      model.priority = 3; // Others
+    }
+    
+    // Add release info for latest models
+    if (['GPT-5', 'o3', 'o3-mini', 'GPT-4.5', 'gpt-oss-120b', 'gpt-oss-20b'].includes(model.name)) {
+      model.tags = model.tags || [];
+      if (!model.tags.includes('latest')) {
+        model.tags.push('latest');
+      }
+      model.releaseDate = model.releaseDate || '2025-01-15';
+    }
+    
+    return model;
+  });
+  
+  // Sort models by priority, provider and name
   existingData.models.sort((a, b) => {
+    // Sort by priority first
+    if (a.priority !== b.priority) {
+      return a.priority - b.priority;
+    }
+    
     if (a.provider.id !== b.provider.id) {
       return a.provider.id.localeCompare(b.provider.id);
     }

@@ -185,7 +185,9 @@ export class GitHubDataService {
     // Apply filters
     if (filters.provider) {
       models = models.filter(model =>
-        model.provider.slug === filters.provider
+        model.provider?.id === filters.provider || 
+        model.provider?.slug === filters.provider ||
+        model.providerId === filters.provider
       );
     }
     
