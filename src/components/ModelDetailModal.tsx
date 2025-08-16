@@ -110,13 +110,24 @@ export function ModelDetailModal({ model, onClose }: ModelDetailModalProps) {
         </div>
 
         {/* Tabs */}
-        <Tabs value={activeTab} onValueChange={setActiveTab} className="flex-1 overflow-hidden flex flex-col">
+        <Tabs 
+          value={activeTab} 
+          onValueChange={(value) => {
+            console.log('[ModelDetailModal] Tab changing to:', value);
+            setActiveTab(value);
+          }} 
+          className="flex-1 overflow-hidden flex flex-col"
+          onClick={(e) => {
+            console.log('[ModelDetailModal] Tabs onClick event stopped');
+            e.stopPropagation();
+          }}
+        >
           <TabsList className="grid grid-cols-5 w-full rounded-none border-b">
-            <TabsTrigger value="overview">Overview</TabsTrigger>
-            <TabsTrigger value="performance">Performance</TabsTrigger>
-            <TabsTrigger value="benchmarks">Benchmarks</TabsTrigger>
-            <TabsTrigger value="pricing">Pricing</TabsTrigger>
-            <TabsTrigger value="incidents">Incidents</TabsTrigger>
+            <TabsTrigger value="overview" onClick={(e) => e.stopPropagation()}>Overview</TabsTrigger>
+            <TabsTrigger value="performance" onClick={(e) => e.stopPropagation()}>Performance</TabsTrigger>
+            <TabsTrigger value="benchmarks" onClick={(e) => e.stopPropagation()}>Benchmarks</TabsTrigger>
+            <TabsTrigger value="pricing" onClick={(e) => e.stopPropagation()}>Pricing</TabsTrigger>
+            <TabsTrigger value="incidents" onClick={(e) => e.stopPropagation()}>Incidents</TabsTrigger>
           </TabsList>
 
           <div className="flex-1 overflow-y-auto">
@@ -308,8 +319,8 @@ export function ModelDetailModal({ model, onClose }: ModelDetailModalProps) {
             </TabsContent>
 
             {/* Performance Tab */}
-            <TabsContent value="performance" className="p-6 space-y-6 mt-0">
-              {currentStatus ? (
+            <TabsContent value="performance" className="p-6 space-y-6 mt-0" onClick={(e) => e.stopPropagation()}>
+              {currentStatus && currentStatus.latencyP50 !== undefined ? (
                 <>
                   <div className="space-y-4">
                     <h3 className="font-semibold text-gray-900">Latency Metrics</h3>

@@ -138,13 +138,15 @@ export function ModelComparisonModal({ models, onClose }: ModelComparisonModalPr
             </TabsList>
 
             <TabsContent value="overview" className="space-y-4">
-              <div className="overflow-x-auto">
-                <table className="w-full border-collapse">
+              <div className="overflow-x-auto -mx-4 px-4 sm:mx-0 sm:px-0">
+                <div className="inline-block min-w-full align-middle">
+                  <div className="overflow-hidden shadow ring-1 ring-black ring-opacity-5 md:rounded-lg">
+                    <table className="min-w-full divide-y divide-gray-300">
                   <thead>
                     <tr className="border-b">
-                      <th className="text-left p-3 font-medium">Feature</th>
+                      <th className="sticky left-0 z-10 bg-white text-left p-2 sm:p-3 font-medium text-xs sm:text-sm">Feature</th>
                       {models.map((model, idx) => (
-                        <th key={idx} className="text-center p-3 font-medium min-w-[200px]">
+                        <th key={idx} className="text-center p-2 sm:p-3 font-medium min-w-[150px] sm:min-w-[200px] text-xs sm:text-sm">
                           <div className="flex flex-col items-center gap-2">
                             <div className="text-lg font-bold">{model.name}</div>
                             <Badge variant="outline">{model.provider?.name}</Badge>
@@ -156,14 +158,14 @@ export function ModelComparisonModal({ models, onClose }: ModelComparisonModalPr
                   <tbody>
                     {comparisonRows.map((row, idx) => (
                       <tr key={idx} className="border-b hover:bg-gray-50">
-                        <td className="p-3 font-medium">
+                        <td className="sticky left-0 z-10 bg-white p-2 sm:p-3 font-medium text-xs sm:text-sm border-r">
                           <div className="flex items-center gap-2">
                             <row.icon className="h-4 w-4 text-gray-500" />
                             {row.label}
                           </div>
                         </td>
                         {models.map((model, modelIdx) => (
-                          <td key={modelIdx} className="p-3 text-center">
+                          <td key={modelIdx} className="p-2 sm:p-3 text-center text-xs sm:text-sm">
                             <div className={row.getColor ? row.getColor(row.getValue(model)) : ''}>
                               {row.getValue(model)}
                             </div>
@@ -172,7 +174,9 @@ export function ModelComparisonModal({ models, onClose }: ModelComparisonModalPr
                       </tr>
                     ))}
                   </tbody>
-                </table>
+                    </table>
+                  </div>
+                </div>
               </div>
             </TabsContent>
 

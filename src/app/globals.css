@@ -63,3 +63,73 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  /* Mobile-optimized touch targets */
+  .touch-target {
+    @apply min-h-[44px] min-w-[44px];
+  }
+  
+  /* Mobile-optimized typography */
+  @media (max-width: 640px) {
+    .text-responsive {
+      @apply text-sm;
+    }
+    
+    h1 {
+      @apply text-2xl;
+    }
+    
+    h2 {
+      @apply text-xl;
+    }
+    
+    h3 {
+      @apply text-lg;
+    }
+  }
+  
+  /* Improved scrolling on mobile */
+  .scroll-smooth-mobile {
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+  }
+  
+  /* Prevent text selection on interactive elements */
+  .no-select {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Optimize animations for mobile */
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+  
+  /* Mobile-friendly table scrolling */
+  .table-scroll {
+    @apply overflow-x-auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .table-scroll table {
+    @apply min-w-full;
+  }
+  
+  /* Sticky table headers for mobile */
+  .table-sticky-header thead th {
+    @apply sticky top-0 z-10 bg-white;
+  }
+  
+  .table-sticky-column td:first-child,
+  .table-sticky-column th:first-child {
+    @apply sticky left-0 z-10 bg-white;
+  }
+}
