@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "1.0",
-    "generated": "2025-08-15T10:48:01.817Z",
-    "source": "github-actions"
+    "generated": "2025-08-15T23:44:51.210Z",
+    "source": "unified-api-sync"
   },
   "statistics": {
-    "totalModels": 63,
-    "activeModels": 51,
-    "totalProviders": 10,
-    "operationalModels": 51,
+    "totalModels": 60,
+    "activeModels": 48,
+    "totalProviders": 7,
+    "operationalModels": 48,
     "degradedModels": 0,
     "outageModels": 0,
-    "avgAvailability": 99.53044455087488,
-    "lastUpdated": "2025-08-15T10:48:01.815Z"
+    "avgAvailability": 99.4893962543454,
+    "lastUpdated": "2025-08-15T23:44:51.210Z"
   },
   "typeStatistics": {
     "undefined": 63
@@ -31,37 +31,19 @@
       "id": "anthropic",
       "name": "Anthropic",
       "website": "https://anthropic.com",
-      "totalModels": 12,
-      "activeModels": 6,
-      "operationalModels": 6,
-      "avgAvailability": 99.60539852601762
-    },
-    {
-      "id": "cohere",
-      "name": "Cohere",
-      "website": "https://cohere.ai",
-      "totalModels": 0,
-      "activeModels": 0,
-      "operationalModels": 0,
-      "avgAvailability": 0
+      "totalModels": 8,
+      "activeModels": 2,
+      "operationalModels": 2,
+      "avgAvailability": 99.45809778902643
     },
     {
       "id": "google",
       "name": "Google",
       "website": "https://ai.google",
-      "totalModels": 11,
-      "activeModels": 5,
-      "operationalModels": 5,
-      "avgAvailability": 99.66044066012759
-    },
-    {
-      "id": "huggingface",
-      "name": "Hugging Face",
-      "website": "https://huggingface.co",
-      "totalModels": 0,
-      "activeModels": 0,
-      "operationalModels": 0,
-      "avgAvailability": 0
+      "totalModels": 8,
+      "activeModels": 2,
+      "operationalModels": 2,
+      "avgAvailability": 99.57060590767543
     },
     {
       "id": "meta",
@@ -70,7 +52,7 @@
       "totalModels": 17,
       "activeModels": 17,
       "operationalModels": 17,
-      "avgAvailability": 98.89343394891229
+      "avgAvailability": 98.8934339489123
     },
     {
       "id": "microsoft",
@@ -94,19 +76,10 @@
       "id": "openai",
       "name": "OpenAI",
       "website": "https://openai.com",
-      "totalModels": 14,
-      "activeModels": 14,
-      "operationalModels": 14,
-      "avgAvailability": 99.9
-    },
-    {
-      "id": "replicate",
-      "name": "Replicate",
-      "website": "https://replicate.com",
-      "totalModels": 0,
-      "activeModels": 0,
-      "operationalModels": 0,
-      "avgAvailability": 0
+      "totalModels": 18,
+      "activeModels": 18,
+      "operationalModels": 18,
+      "avgAvailability": 99.8247649197558
     }
   ],
   "models": [
@@ -218,30 +191,6 @@
       "createdAt": "2025-08-15T01:49:24.910Z"
     },
     {
-      "id": "67370f6c-59dc-4ed9-8922-c9ac34340a8d",
-      "name": "Claude 3 Haiku",
-      "provider": {
-        "id": "anthropic",
-        "name": "Anthropic",
-        "website": "https://anthropic.com"
-      },
-      "modalities": [
-        "text",
-        "vision"
-      ],
-      "status": {
-        "status": "operational",
-        "availability": 99.9,
-        "responseTime": 102,
-        "errorRate": 0.06242036957369697,
-        "lastCheck": "2025-08-14T13:02:51.115Z"
-      },
-      "availability": 99.9,
-      "isActive": true,
-      "lastUpdate": "2025-08-14T13:02:50.779Z",
-      "createdAt": "2025-08-14T13:02:50.779Z"
-    },
-    {
       "id": "7c073a16-ad52-4ccb-ab98-672130a68ca1",
       "name": "Claude 3 Haiku",
       "provider": {
@@ -262,30 +211,6 @@
       "createdAt": "2025-08-15T01:49:24.535Z"
     },
     {
-      "id": "8c7a559c-a2a0-49ee-90c6-6627c51fc7bc",
-      "name": "Claude 3 Opus",
-      "provider": {
-        "id": "anthropic",
-        "name": "Anthropic",
-        "website": "https://anthropic.com"
-      },
-      "modalities": [
-        "text",
-        "vision"
-      ],
-      "status": {
-        "status": "operational",
-        "availability": 99.9,
-        "responseTime": 113,
-        "errorRate": 0.0307109065231713,
-        "lastCheck": "2025-08-14T13:02:50.281Z"
-      },
-      "availability": 99.9,
-      "isActive": true,
-      "lastUpdate": "2025-08-14T13:02:49.904Z",
-      "createdAt": "2025-08-14T13:02:49.904Z"
-    },
-    {
       "id": "49498333-4b2c-4421-a98d-d62ac25ba3cd",
       "name": "Claude 3 Opus",
       "provider": {
@@ -301,30 +226,6 @@
       "isActive": false,
       "lastUpdate": "2025-08-15T04:57:35.816Z",
       "createdAt": "2025-08-15T01:49:24.159Z"
-    },
-    {
-      "id": "69bf657c-e075-491a-92ad-df99a7231b17",
-      "name": "Claude 3 Sonnet",
-      "provider": {
-        "id": "anthropic",
-        "name": "Anthropic",
-        "website": "https://anthropic.com"
-      },
-      "modalities": [
-        "text",
-        "vision"
-      ],
-      "status": {
-        "status": "operational",
-        "availability": 99.9,
-        "responseTime": 96,
-        "errorRate": 0.0101508192112256,
-        "lastCheck": "2025-08-14T13:02:50.698Z"
-      },
-      "availability": 99.9,
-      "isActive": true,
-      "lastUpdate": "2025-08-14T13:02:50.364Z",
-      "createdAt": "2025-08-14T13:02:50.364Z"
     },
     {
       "id": "7fa6677d-dd7f-4152-8b55-ecc2b28d7a84",
@@ -367,30 +268,6 @@
       "createdAt": "2025-08-14T13:02:49.496Z"
     },
     {
-      "id": "162c3c00-c91c-415f-bb7c-4ec7f2b29630",
-      "name": "Claude 3.5 Sonnet",
-      "provider": {
-        "id": "anthropic",
-        "name": "Anthropic",
-        "website": "https://anthropic.com"
-      },
-      "modalities": [
-        "text",
-        "vision"
-      ],
-      "status": {
-        "status": "operational",
-        "availability": 99.9,
-        "responseTime": 77,
-        "errorRate": 0.02527307925232058,
-        "lastCheck": "2025-08-14T13:02:49.415Z"
-      },
-      "availability": 99.9,
-      "isActive": true,
-      "lastUpdate": "2025-08-14T13:02:48.980Z",
-      "createdAt": "2025-08-14T13:02:48.980Z"
-    },
-    {
       "id": "33ff31b2-4498-458a-bd9e-e2f5dbb9f18d",
       "name": "Claude 3.5 Sonnet",
       "provider": {
@@ -425,32 +302,6 @@
       "createdAt": "2025-08-15T01:49:25.294Z"
     },
     {
-      "id": "241d3b51-f688-4205-b301-17edeee05928",
-      "name": "Gemini 1.5 Flash",
-      "provider": {
-        "id": "google",
-        "name": "Google",
-        "website": "https://ai.google"
-      },
-      "modalities": [
-        "text",
-        "vision",
-        "audio",
-        "video"
-      ],
-      "status": {
-        "status": "operational",
-        "availability": 99.9,
-        "responseTime": 53,
-        "errorRate": 0.0781001490773345,
-        "lastCheck": "2025-08-14T13:02:52.040Z"
-      },
-      "availability": 99.9,
-      "isActive": true,
-      "lastUpdate": "2025-08-14T13:02:51.588Z",
-      "createdAt": "2025-08-14T13:02:51.588Z"
-    },
-    {
       "id": "8b95e322-75b4-4829-a248-4cd3b11dfe6c",
       "name": "Gemini 1.5 Flash",
       "provider": {
@@ -468,30 +319,6 @@
       "createdAt": "2025-08-15T01:49:27.435Z"
     },
     {
-      "id": "52ff85e6-c2b6-4aae-b855-33dadbd15b07",
-      "name": "Gemini 1.5 Flash-8B",
-      "provider": {
-        "id": "google",
-        "name": "Google",
-        "website": "https://ai.google"
-      },
-      "modalities": [
-        "text",
-        "vision"
-      ],
-      "status": {
-        "status": "operational",
-        "availability": 99.9,
-        "responseTime": 53,
-        "errorRate": 0.004960928021343092,
-        "lastCheck": "2025-08-14T13:02:52.428Z"
-      },
-      "availability": 99.9,
-      "isActive": true,
-      "lastUpdate": "2025-08-14T13:02:52.113Z",
-      "createdAt": "2025-08-14T13:02:52.113Z"
-    },
-    {
       "id": "f000b696-fc6b-4775-b83b-12788f6086c1",
       "name": "Gemini 1.5 Flash-8B",
       "provider": {
@@ -507,32 +334,6 @@
       "isActive": false,
       "lastUpdate": "2025-08-15T05:11:36.209Z",
       "createdAt": "2025-08-15T01:49:27.627Z"
-    },
-    {
-      "id": "13ffde89-452a-412f-b88d-7e9a680131a5",
-      "name": "Gemini 1.5 Pro",
-      "provider": {
-        "id": "google",
-        "name": "Google",
-        "website": "https://ai.google"
-      },
-      "modalities": [
-        "text",
-        "vision",
-        "audio",
-        "video"
-      ],
-      "status": {
-        "status": "operational",
-        "availability": 99.9,
-        "responseTime": 125,
-        "errorRate": 0.09409358830209996,
-        "lastCheck": "2025-08-14T13:02:51.515Z"
-      },
-      "availability": 99.9,
-      "isActive": true,
-      "lastUpdate": "2025-08-14T13:02:51.188Z",
-      "createdAt": "2025-08-14T13:02:51.188Z"
     },
     {
       "id": "69bdd24d-a403-4312-8110-d2babb1c49d8",
@@ -1195,29 +996,6 @@
       "createdAt": "2025-08-14T13:02:48.013Z"
     },
     {
-      "id": "6fa355c0-774a-4eeb-812c-9bbc142260ba",
-      "name": "GPT-3.5 Turbo",
-      "provider": {
-        "id": "openai",
-        "name": "OpenAI",
-        "website": "https://openai.com"
-      },
-      "modalities": [
-        "text"
-      ],
-      "status": {
-        "status": "operational",
-        "availability": 99.9,
-        "responseTime": 77,
-        "errorRate": 0.01508464223662875,
-        "lastCheck": "2025-08-14T13:02:46.978Z"
-      },
-      "availability": 99.9,
-      "isActive": true,
-      "lastUpdate": "2025-08-14T13:02:46.638Z",
-      "createdAt": "2025-08-14T13:02:46.638Z"
-    },
-    {
       "id": "6ff19422-474f-46be-8b8b-d5d4ea927f3a",
       "name": "GPT-3.5 Turbo",
       "provider": {
@@ -1287,30 +1065,6 @@
       "createdAt": "2025-08-15T01:45:12.018Z"
     },
     {
-      "id": "2d95e0a6-98a4-4082-ad75-6990e3531c5b",
-      "name": "GPT-4 Turbo",
-      "provider": {
-        "id": "openai",
-        "name": "OpenAI",
-        "website": "https://openai.com"
-      },
-      "modalities": [
-        "text",
-        "vision"
-      ],
-      "status": {
-        "status": "operational",
-        "availability": 99.9,
-        "responseTime": 134,
-        "errorRate": 0.0725483088753623,
-        "lastCheck": "2025-08-14T13:02:46.548Z"
-      },
-      "availability": 99.9,
-      "isActive": true,
-      "lastUpdate": "2025-08-14T13:02:46.230Z",
-      "createdAt": "2025-08-14T13:02:46.230Z"
-    },
-    {
       "id": "60f3769e-30a1-495b-b8d5-57520351b33a",
       "name": "GPT-4 Turbo",
       "provider": {
@@ -1333,6 +1087,39 @@
       "isActive": true,
       "lastUpdate": "2025-08-15T01:45:11.717Z",
       "createdAt": "2025-08-15T01:45:11.717Z"
+    },
+    {
+      "name": "GPT-4.5",
+      "provider": {
+        "id": "openai",
+        "name": "OpenAI",
+        "website": "https://openai.com"
+      },
+      "modalities": [
+        "text",
+        "vision"
+      ],
+      "isActive": true,
+      "capabilities": [
+        "chat",
+        "completion",
+        "vision"
+      ],
+      "contextWindow": 128000,
+      "maxOutputTokens": 16384,
+      "description": "Research preview of scaled pre-training model",
+      "releasedAt": "2025-05-01T00:00:00Z",
+      "createdAt": "2025-05-01T00:00:00Z",
+      "id": "1755301491198-bwbccymks",
+      "status": {
+        "status": "operational",
+        "availability": 99.66354706917362,
+        "responseTime": 100,
+        "errorRate": 0.048904343543450704,
+        "lastCheck": "2025-08-15T23:44:51.198Z"
+      },
+      "availability": 99.66354706917362,
+      "lastUpdate": "2025-08-15T23:44:51.198Z"
     },
     {
       "id": "5770e2b2-e657-46ac-b82b-d8ffc661f519",
@@ -1382,6 +1169,217 @@
       "isActive": true,
       "lastUpdate": "2025-08-14T13:02:45.788Z",
       "createdAt": "2025-08-14T13:02:45.788Z"
+    },
+    {
+      "name": "GPT-5",
+      "provider": {
+        "id": "openai",
+        "name": "OpenAI",
+        "website": "https://openai.com"
+      },
+      "modalities": [
+        "text",
+        "vision",
+        "audio"
+      ],
+      "isActive": true,
+      "capabilities": [
+        "chat",
+        "completion",
+        "reasoning",
+        "multimodal"
+      ],
+      "contextWindow": 200000,
+      "maxOutputTokens": 100000,
+      "description": "Latest and most advanced AI model with built-in thinking",
+      "releasedAt": "2025-08-07T00:00:00Z",
+      "createdAt": "2025-08-07T00:00:00Z",
+      "id": "1755301491196-qtwgnzkwd",
+      "status": {
+        "status": "operational",
+        "availability": 99.78275542775452,
+        "responseTime": 107,
+        "errorRate": 0.0846500975935318,
+        "lastCheck": "2025-08-15T23:44:51.196Z"
+      },
+      "availability": 99.78275542775452,
+      "lastUpdate": "2025-08-15T23:44:51.197Z"
+    },
+    {
+      "name": "gpt-oss-120b",
+      "provider": {
+        "id": "openai",
+        "name": "OpenAI",
+        "website": "https://openai.com"
+      },
+      "modalities": [
+        "text"
+      ],
+      "isActive": true,
+      "capabilities": [
+        "chat",
+        "reasoning",
+        "open-weight"
+      ],
+      "contextWindow": 128000,
+      "maxOutputTokens": 8192,
+      "description": "Open-weight reasoning model, 120B parameters",
+      "releasedAt": "2025-07-01T00:00:00Z",
+      "createdAt": "2025-07-01T00:00:00Z",
+      "id": "1755301491198-1ylmsedcp",
+      "status": {
+        "status": "operational",
+        "availability": 99.58671470653482,
+        "responseTime": 116,
+        "errorRate": 0.02987541908502882,
+        "lastCheck": "2025-08-15T23:44:51.198Z"
+      },
+      "availability": 99.58671470653482,
+      "lastUpdate": "2025-08-15T23:44:51.198Z"
+    },
+    {
+      "name": "gpt-oss-20b",
+      "provider": {
+        "id": "openai",
+        "name": "OpenAI",
+        "website": "https://openai.com"
+      },
+      "modalities": [
+        "text"
+      ],
+      "isActive": true,
+      "capabilities": [
+        "chat",
+        "reasoning",
+        "open-weight",
+        "edge"
+      ],
+      "contextWindow": 32000,
+      "maxOutputTokens": 4096,
+      "description": "Lightweight open-weight model for edge devices",
+      "releasedAt": "2025-07-01T00:00:00Z",
+      "createdAt": "2025-07-01T00:00:00Z",
+      "id": "1755301491198-7ujwz8eab",
+      "status": {
+        "status": "operational",
+        "availability": 99.504417805445,
+        "responseTime": 105,
+        "errorRate": 0.005485647980952324,
+        "lastCheck": "2025-08-15T23:44:51.198Z"
+      },
+      "availability": 99.504417805445,
+      "lastUpdate": "2025-08-15T23:44:51.198Z"
+    },
+    {
+      "id": "e007d92c-b4d9-4610-818c-fb5a0b3ed9f2",
+      "name": "o1-mini",
+      "provider": {
+        "id": "openai",
+        "name": "OpenAI",
+        "website": "https://openai.com"
+      },
+      "modalities": [
+        "text"
+      ],
+      "status": {
+        "status": "operational",
+        "availability": 99.9,
+        "responseTime": 131,
+        "errorRate": 0.00822872162990882,
+        "lastCheck": "2025-08-14T13:02:47.940Z"
+      },
+      "availability": 99.9,
+      "isActive": true,
+      "lastUpdate": "2025-08-14T13:02:47.547Z",
+      "createdAt": "2025-08-14T13:02:47.547Z"
+    },
+    {
+      "id": "c2c8fe54-405b-41e0-aa15-b76261640b58",
+      "name": "o1-preview",
+      "provider": {
+        "id": "openai",
+        "name": "OpenAI",
+        "website": "https://openai.com"
+      },
+      "modalities": [
+        "text"
+      ],
+      "status": {
+        "status": "operational",
+        "availability": 99.9,
+        "responseTime": 51,
+        "errorRate": 0.02783069478388827,
+        "lastCheck": "2025-08-14T13:02:47.473Z"
+      },
+      "availability": 99.9,
+      "isActive": true,
+      "lastUpdate": "2025-08-14T13:02:47.071Z",
+      "createdAt": "2025-08-14T13:02:47.071Z"
+    },
+    {
+      "name": "o3",
+      "provider": {
+        "id": "openai",
+        "name": "OpenAI",
+        "website": "https://openai.com"
+      },
+      "modalities": [
+        "text"
+      ],
+      "isActive": true,
+      "capabilities": [
+        "chat",
+        "reasoning",
+        "code",
+        "analysis"
+      ],
+      "contextWindow": 128000,
+      "maxOutputTokens": 16384,
+      "description": "Latest reasoning model with improved accuracy",
+      "releasedAt": "2025-06-01T00:00:00Z",
+      "createdAt": "2025-06-01T00:00:00Z",
+      "id": "1755301491198-eeo7ldlqb",
+      "status": {
+        "status": "operational",
+        "availability": 99.67151843967575,
+        "responseTime": 90,
+        "errorRate": 0.04373629468418046,
+        "lastCheck": "2025-08-15T23:44:51.198Z"
+      },
+      "availability": 99.67151843967575,
+      "lastUpdate": "2025-08-15T23:44:51.198Z"
+    },
+    {
+      "name": "o3-mini",
+      "provider": {
+        "id": "openai",
+        "name": "OpenAI",
+        "website": "https://openai.com"
+      },
+      "modalities": [
+        "text"
+      ],
+      "isActive": true,
+      "capabilities": [
+        "chat",
+        "reasoning",
+        "code"
+      ],
+      "contextWindow": 128000,
+      "maxOutputTokens": 16384,
+      "description": "Cost-efficient reasoning model optimized for coding and math",
+      "releasedAt": "2025-06-01T00:00:00Z",
+      "createdAt": "2025-06-01T00:00:00Z",
+      "id": "1755301491198-23rcci9ph",
+      "status": {
+        "status": "operational",
+        "availability": 99.83681510702009,
+        "responseTime": 120,
+        "errorRate": 0.052471859701407886,
+        "lastCheck": "2025-08-15T23:44:51.198Z"
+      },
+      "availability": 99.83681510702009,
+      "lastUpdate": "2025-08-15T23:44:51.198Z"
     },
     {
       "id": "79317bfd-6b9f-4448-9393-19c705dcf239",
@@ -1451,52 +1449,6 @@
       "isActive": true,
       "lastUpdate": "2025-08-14T13:02:48.238Z",
       "createdAt": "2025-08-14T13:02:48.238Z"
-    },
-    {
-      "id": "e007d92c-b4d9-4610-818c-fb5a0b3ed9f2",
-      "name": "o1-mini",
-      "provider": {
-        "id": "openai",
-        "name": "OpenAI",
-        "website": "https://openai.com"
-      },
-      "modalities": [
-        "text"
-      ],
-      "status": {
-        "status": "operational",
-        "availability": 99.9,
-        "responseTime": 131,
-        "errorRate": 0.00822872162990882,
-        "lastCheck": "2025-08-14T13:02:47.940Z"
-      },
-      "availability": 99.9,
-      "isActive": true,
-      "lastUpdate": "2025-08-14T13:02:47.547Z",
-      "createdAt": "2025-08-14T13:02:47.547Z"
-    },
-    {
-      "id": "c2c8fe54-405b-41e0-aa15-b76261640b58",
-      "name": "o1-preview",
-      "provider": {
-        "id": "openai",
-        "name": "OpenAI",
-        "website": "https://openai.com"
-      },
-      "modalities": [
-        "text"
-      ],
-      "status": {
-        "status": "operational",
-        "availability": 99.9,
-        "responseTime": 51,
-        "errorRate": 0.02783069478388827,
-        "lastCheck": "2025-08-14T13:02:47.473Z"
-      },
-      "availability": 99.9,
-      "isActive": true,
-      "lastUpdate": "2025-08-14T13:02:47.071Z",
-      "createdAt": "2025-08-14T13:02:47.071Z"
     }
   ]
 }

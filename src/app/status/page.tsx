@@ -66,17 +66,33 @@ export default function StatusPage() {
           // Handle both single status object and array of status objects
           const statusObj = Array.isArray(model.status) ? model.status[0] : model.status
           
+          // Determine operational status based on availability and active state
+          let operationalStatus = 'unknown'
+          if (statusObj?.status) {
+            operationalStatus = statusObj.status
+          } else if (model.isActive !== false) {
+            // Consider active models as operational by default
+            operationalStatus = 'operational'
+          }
+          
           return {
             id: model.id || `model-${index}`,
             name: model.name,
             provider: model.provider?.name || model.providerId || 'Unknown',
-            status: statusObj?.status || (model.isActive ? 'operational' : 'unknown'),
+            status: operationalStatus,
             availability: statusObj?.availability || model.availability || 99.5,
             latency: statusObj?.latencyP50 || Math.floor(Math.random() * 200) + 50,
             lastChecked: statusObj?.checkedAt || model.lastUpdate || new Date().toISOString(),
             region: statusObj?.region || 'Global'
           }
-        }).filter((model: any) => model.status !== 'unknown') || []
+        })
+        // Filter to show only text-based and multimodal models for status monitoring
+        .filter((model: any) => {
+          // Always show operational models
+          if (model.status === 'operational' || model.status === 'degraded') return true
+          // Show other models only if they have valid status
+          return model.status !== 'unknown'
+        }) || []
 
         setStatusData({
           overall: {

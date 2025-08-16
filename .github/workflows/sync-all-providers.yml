@@ -1,0 +1,161 @@
+name: Sync All AI Provider Models
+
+on:
+  schedule:
+    # Run every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      force_update:
+        description: 'Force update all models'
+        required: false
+        default: 'false'
+        type: boolean
+
+env:
+  NODE_VERSION: '20'
+
+jobs:
+  sync-models:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: |
+          npm ci --prefer-offline --no-audit
+          
+      - name: Configure Git
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+      - name: Sync all provider models
+        env:
+          # OpenAI API Key
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          
+          # Anthropic API Key
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          
+          # Google API Key
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          
+          # Cohere API Key
+          COHERE_API_KEY: ${{ secrets.COHERE_API_KEY }}
+          
+          # Mistral API Key
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+          
+          # Replicate API Token
+          REPLICATE_API_TOKEN: ${{ secrets.REPLICATE_API_TOKEN }}
+          
+          # Meta API Key (if available)
+          META_API_KEY: ${{ secrets.META_API_KEY }}
+          
+          # Azure OpenAI (if using)
+          AZURE_OPENAI_API_KEY: ${{ secrets.AZURE_OPENAI_API_KEY }}
+          AZURE_OPENAI_ENDPOINT: ${{ secrets.AZURE_OPENAI_ENDPOINT }}
+          
+          # HuggingFace Token (if needed)
+          HUGGINGFACE_TOKEN: ${{ secrets.HUGGINGFACE_TOKEN }}
+          
+        run: |
+          echo "🚀 Starting unified model sync..."
+          node scripts/sync-all-models.js
+          
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet HEAD -- data/models.json; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "📊 No changes detected in models data"
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "✅ Changes detected in models data"
+            git diff --stat HEAD -- data/models.json
+          fi
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git add data/models.json
+          git commit -m "feat: update AI models data [skip ci]
+
+          - Synced models from all configured providers
+          - Added latest models including GPT-5, o3 series
+          - Updated model availability and status
+          - Source: Unified API sync
+          
+          Co-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
+          
+          git push origin ${{ github.ref_name }}
+          
+      - name: Update model statistics
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          # Generate statistics file
+          node -e "
+          const fs = require('fs');
+          const data = JSON.parse(fs.readFileSync('data/models.json', 'utf8'));
+          const stats = {
+            lastSync: new Date().toISOString(),
+            totalModels: data.models.length,
+            activeModels: data.models.filter(m => m.isActive).length,
+            providers: Object.keys(data.providers || {}).length,
+            source: 'unified-api-sync'
+          };
+          fs.writeFileSync('data/sync-stats.json', JSON.stringify(stats, null, 2));
+          console.log('📊 Statistics updated:', stats);
+          "
+          
+          if ! git diff --quiet HEAD -- data/sync-stats.json; then
+            git add data/sync-stats.json
+            git commit -m "chore: update sync statistics [skip ci]"
+            git push origin ${{ github.ref_name }}
+          fi
+
+      - name: Create issue on failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: '⚠️ Model Sync Failed',
+              body: `The automated model sync workflow has failed.
+              
+              **Workflow Run:** [${context.runId}](https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId})
+              **Time:** ${new Date().toISOString()}
+              **Branch:** ${context.ref}
+              
+              Please check the workflow logs for more details.`,
+              labels: ['bug', 'automation']
+            });
+            console.log(`Created issue #${issue.data.number}`);
+
+      - name: Send notification
+        if: always()
+        continue-on-error: true
+        run: |
+          if [ "${{ steps.check_changes.outputs.has_changes }}" == "true" ]; then
+            echo "✅ Model sync completed with updates"
+          elif [ "${{ job.status }}" == "failure" ]; then
+            echo "❌ Model sync failed"
+          else
+            echo "ℹ️ Model sync completed with no changes"
+          fi

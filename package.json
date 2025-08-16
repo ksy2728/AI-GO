@@ -28,6 +28,7 @@
     "db:studio:prod": "prisma studio --schema=prisma/schema.prod.prisma",
     "sync:init": "node scripts/init-sync.js",
     "sync:all": "node scripts/sync-all-providers.js",
+    "sync:models": "node scripts/sync-all-models.js",
     "sync:github": "node scripts/sync-github.js",
     "sync:scheduler": "node scripts/sync-scheduler.js",
     "postinstall": "prisma generate",

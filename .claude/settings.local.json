@@ -78,7 +78,22 @@
       "Bash(git pull:*)",
       "Bash(start https://ai-server-information.vercel.app)",
       "Bash(start https://ai-server-information.vercel.app/news)",
-      "Bash(start http://localhost:3000)"
+      "Bash(start http://localhost:3000)",
+      "Bash(start https://ai-server-information.vercel.app/status)",
+      "Bash(start http://localhost:3005/status)",
+      "Bash(if [ ! -z \"$OPENAI_API_KEY\" ])",
+      "Bash(else echo \"✗ OPENAI_API_KEY not found\")",
+      "Bash(fi)",
+      "Bash(if [ ! -z \"$ANTHROPIC_API_KEY\" ])",
+      "Bash(then echo \"✓ ANTHROPIC_API_KEY found\")",
+      "Bash(else echo \"✗ ANTHROPIC_API_KEY not found\")",
+      "Bash(if [ ! -z \"$GOOGLE_API_KEY\" ])",
+      "Bash(then echo \"✓ GOOGLE_API_KEY found\")",
+      "Bash(else echo \"✗ GOOGLE_API_KEY not found\")",
+      "Bash(if [ ! -z \"$GEMINI_API_KEY\" ])",
+      "Bash(then echo \"✓ GEMINI_API_KEY found\")",
+      "Bash(else echo \"✗ GEMINI_API_KEY not found\")",
+      "Bash(gh auth:*)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
