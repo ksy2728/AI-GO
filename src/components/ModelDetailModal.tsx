@@ -82,8 +82,8 @@ export function ModelDetailModal({ model, onClose }: ModelDetailModalProps) {
   return (
     <div 
       className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 backdrop-blur-sm" 
-      onClick={(e) => {
-        // 모달 배경 클릭 시에만 닫기
+      onPointerDown={(e) => {
+        // 모달 배경 클릭 시에만 닫기 (포인터 다운 이벤트 사용)
         if (e.target === e.currentTarget) {
           onClose();
         }
@@ -91,7 +91,7 @@ export function ModelDetailModal({ model, onClose }: ModelDetailModalProps) {
     >
       <div 
         className="bg-white rounded-lg shadow-xl max-w-5xl w-full max-h-[90vh] overflow-hidden flex flex-col"
-        onClick={(e) => e.stopPropagation()}
+        onPointerDown={(e) => e.stopPropagation()}
       >
         {/* Header */}
         <div className="bg-white border-b p-6 flex items-start justify-between">
@@ -131,31 +131,11 @@ export function ModelDetailModal({ model, onClose }: ModelDetailModalProps) {
           }}
         >
           <TabsList className="grid grid-cols-5 w-full rounded-none border-b">
-            <TabsTrigger 
-              value="overview" 
-              onClick={(e) => { e.stopPropagation(); }}
-              onPointerDown={(e) => { e.stopPropagation(); }}
-            >Overview</TabsTrigger>
-            <TabsTrigger 
-              value="performance" 
-              onClick={(e) => { e.stopPropagation(); }}
-              onPointerDown={(e) => { e.stopPropagation(); }}
-            >Performance</TabsTrigger>
-            <TabsTrigger 
-              value="benchmarks" 
-              onClick={(e) => { e.stopPropagation(); }}
-              onPointerDown={(e) => { e.stopPropagation(); }}
-            >Benchmarks</TabsTrigger>
-            <TabsTrigger 
-              value="pricing" 
-              onClick={(e) => { e.stopPropagation(); }}
-              onPointerDown={(e) => { e.stopPropagation(); }}
-            >Pricing</TabsTrigger>
-            <TabsTrigger 
-              value="incidents" 
-              onClick={(e) => { e.stopPropagation(); }}
-              onPointerDown={(e) => { e.stopPropagation(); }}
-            >Incidents</TabsTrigger>
+            <TabsTrigger value="overview">Overview</TabsTrigger>
+            <TabsTrigger value="performance">Performance</TabsTrigger>
+            <TabsTrigger value="benchmarks">Benchmarks</TabsTrigger>
+            <TabsTrigger value="pricing">Pricing</TabsTrigger>
+            <TabsTrigger value="incidents">Incidents</TabsTrigger>
           </TabsList>
 
           <div className="flex-1 overflow-y-auto">
