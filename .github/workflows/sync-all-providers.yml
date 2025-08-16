@@ -20,6 +20,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -130,23 +135,28 @@ jobs:
 
       - name: Create issue on failure
         if: failure()
+        continue-on-error: true
         uses: actions/github-script@v7
         with:
           script: |
-            const issue = await github.rest.issues.create({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              title: '⚠️ Model Sync Failed',
-              body: `The automated model sync workflow has failed.
-              
-              **Workflow Run:** [${context.runId}](https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId})
-              **Time:** ${new Date().toISOString()}
-              **Branch:** ${context.ref}
-              
-              Please check the workflow logs for more details.`,
-              labels: ['bug', 'automation']
-            });
-            console.log(`Created issue #${issue.data.number}`);
+            try {
+              const issue = await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: '⚠️ Model Sync Failed',
+                body: `The automated model sync workflow has failed.
+                
+                **Workflow Run:** [${context.runId}](https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId})
+                **Time:** ${new Date().toISOString()}
+                **Branch:** ${context.ref}
+                
+                Please check the workflow logs for more details.`,
+                labels: ['bug', 'automation']
+              });
+              console.log(`Created issue #${issue.data.number}`);
+            } catch (error) {
+              console.log('Could not create issue:', error.message);
+            }
 
       - name: Send notification
         if: always()
