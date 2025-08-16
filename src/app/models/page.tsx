@@ -67,8 +67,8 @@ export default function ModelsPage() {
           // 3. Unknown status goes to the bottom
           const aStatus = Array.isArray(a.status) ? a.status[0] : a.status;
           const bStatus = Array.isArray(b.status) ? b.status[0] : b.status;
-          const aUnknown = !aStatus || aStatus?.status === 'unknown';
-          const bUnknown = !bStatus || bStatus?.status === 'unknown';
+          const aUnknown = !aStatus;
+          const bUnknown = !bStatus;
           if (!aUnknown && bUnknown) return -1;
           if (aUnknown && !bUnknown) return 1;
           
@@ -96,7 +96,7 @@ export default function ModelsPage() {
     if (!showAllModels && !searchQuery) {
       const isMajorProvider = MAJOR_PROVIDERS.includes(model.provider?.id || model.providerId || '');
       const modelStatus = Array.isArray(model.status) ? model.status[0] : model.status;
-      const hasKnownStatus = modelStatus && modelStatus?.status !== 'unknown';
+      const hasKnownStatus = !!modelStatus;
       return matchesSearch && isMajorProvider && hasKnownStatus;
     }
     
