@@ -123,11 +123,11 @@ export function ModelDetailModal({ model, onClose }: ModelDetailModalProps) {
           }}
         >
           <TabsList className="grid grid-cols-5 w-full rounded-none border-b">
-            <TabsTrigger value="overview" onClick={(e) => e.stopPropagation()}>Overview</TabsTrigger>
-            <TabsTrigger value="performance" onClick={(e) => e.stopPropagation()}>Performance</TabsTrigger>
-            <TabsTrigger value="benchmarks" onClick={(e) => e.stopPropagation()}>Benchmarks</TabsTrigger>
-            <TabsTrigger value="pricing" onClick={(e) => e.stopPropagation()}>Pricing</TabsTrigger>
-            <TabsTrigger value="incidents" onClick={(e) => e.stopPropagation()}>Incidents</TabsTrigger>
+            <TabsTrigger value="overview" onClick={(e) => { e.stopPropagation(); e.preventDefault(); }}>Overview</TabsTrigger>
+            <TabsTrigger value="performance" onClick={(e) => { e.stopPropagation(); e.preventDefault(); }}>Performance</TabsTrigger>
+            <TabsTrigger value="benchmarks" onClick={(e) => { e.stopPropagation(); e.preventDefault(); }}>Benchmarks</TabsTrigger>
+            <TabsTrigger value="pricing" onClick={(e) => { e.stopPropagation(); e.preventDefault(); }}>Pricing</TabsTrigger>
+            <TabsTrigger value="incidents" onClick={(e) => { e.stopPropagation(); e.preventDefault(); }}>Incidents</TabsTrigger>
           </TabsList>
 
           <div className="flex-1 overflow-y-auto">
