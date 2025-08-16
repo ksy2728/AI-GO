@@ -4,6 +4,10 @@ import { prisma } from '@/lib/prisma'
 import fs from 'fs/promises'
 import path from 'path'
 
+// Disable caching for this route
+export const revalidate = 0
+export const dynamic = 'force-dynamic'
+
 export async function GET(request: NextRequest) {
   try {
     const searchParams = request.nextUrl.searchParams

@@ -2,6 +2,27 @@
 const nextConfig = {
   reactStrictMode: true,
   
+  // Force rebuild with unique build ID
+  generateBuildId: async () => {
+    // Generate unique build ID to bypass cache
+    return `build-${Date.now()}-${Math.random().toString(36).substring(7)}`
+  },
+  
+  // Disable caching for API routes
+  headers: async () => {
+    return [
+      {
+        source: '/api/:path*',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0',
+          },
+        ],
+      },
+    ]
+  },
+  
   // Performance optimizations
   experimental: {
     // Optimize imports for heavy packages

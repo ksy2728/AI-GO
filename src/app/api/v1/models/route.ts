@@ -3,6 +3,10 @@ import { ModelService } from '@/services/models.service'
 import { TempDataService } from '@/services/temp-data.service'
 import { GitHubDataService } from '@/services/github-data.service'
 
+// Disable caching for this route
+export const revalidate = 0
+export const dynamic = 'force-dynamic'
+
 export async function GET(request: Request) {
   try {
     const { searchParams } = new URL(request.url)
