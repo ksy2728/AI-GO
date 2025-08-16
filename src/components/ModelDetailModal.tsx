@@ -80,7 +80,15 @@ export function ModelDetailModal({ model, onClose }: ModelDetailModalProps) {
   }
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 backdrop-blur-sm" onClick={onClose}>
+    <div 
+      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 backdrop-blur-sm" 
+      onClick={(e) => {
+        // 모달 배경 클릭 시에만 닫기
+        if (e.target === e.currentTarget) {
+          onClose();
+        }
+      }}
+    >
       <div 
         className="bg-white rounded-lg shadow-xl max-w-5xl w-full max-h-[90vh] overflow-hidden flex flex-col"
         onClick={(e) => e.stopPropagation()}
@@ -123,11 +131,31 @@ export function ModelDetailModal({ model, onClose }: ModelDetailModalProps) {
           }}
         >
           <TabsList className="grid grid-cols-5 w-full rounded-none border-b">
-            <TabsTrigger value="overview" onClick={(e) => { e.stopPropagation(); e.preventDefault(); }}>Overview</TabsTrigger>
-            <TabsTrigger value="performance" onClick={(e) => { e.stopPropagation(); e.preventDefault(); }}>Performance</TabsTrigger>
-            <TabsTrigger value="benchmarks" onClick={(e) => { e.stopPropagation(); e.preventDefault(); }}>Benchmarks</TabsTrigger>
-            <TabsTrigger value="pricing" onClick={(e) => { e.stopPropagation(); e.preventDefault(); }}>Pricing</TabsTrigger>
-            <TabsTrigger value="incidents" onClick={(e) => { e.stopPropagation(); e.preventDefault(); }}>Incidents</TabsTrigger>
+            <TabsTrigger 
+              value="overview" 
+              onClick={(e) => { e.stopPropagation(); e.preventDefault(); }}
+              onPointerDown={(e) => { e.stopPropagation(); e.preventDefault(); }}
+            >Overview</TabsTrigger>
+            <TabsTrigger 
+              value="performance" 
+              onClick={(e) => { e.stopPropagation(); e.preventDefault(); }}
+              onPointerDown={(e) => { e.stopPropagation(); e.preventDefault(); }}
+            >Performance</TabsTrigger>
+            <TabsTrigger 
+              value="benchmarks" 
+              onClick={(e) => { e.stopPropagation(); e.preventDefault(); }}
+              onPointerDown={(e) => { e.stopPropagation(); e.preventDefault(); }}
+            >Benchmarks</TabsTrigger>
+            <TabsTrigger 
+              value="pricing" 
+              onClick={(e) => { e.stopPropagation(); e.preventDefault(); }}
+              onPointerDown={(e) => { e.stopPropagation(); e.preventDefault(); }}
+            >Pricing</TabsTrigger>
+            <TabsTrigger 
+              value="incidents" 
+              onClick={(e) => { e.stopPropagation(); e.preventDefault(); }}
+              onPointerDown={(e) => { e.stopPropagation(); e.preventDefault(); }}
+            >Incidents</TabsTrigger>
           </TabsList>
 
           <div className="flex-1 overflow-y-auto">
