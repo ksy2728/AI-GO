@@ -1,0 +1,66 @@
+{
+  "dashboard": {
+    "title": "AI 모델 대시보드",
+    "subtitle": "AI 모델 성능의 실시간 모니터링 및 분석",
+    "status": {
+      "live": "실시간",
+      "apiMode": "API 모드",
+      "polling": "폴링"
+    },
+    "stats": {
+      "totalModels": "전체 모델",
+      "activeModels": "활성 모델",
+      "avgAvailability": "평균 가용성",
+      "operational": "운영 중",
+      "lastUpdate": "마지막 업데이트 대비"
+    },
+    "charts": {
+      "activeModels": {
+        "title": "활성 모델 추세",
+        "description": "실시간 활성 모델 수",
+        "help": [
+          "현재 API 호출이 가능한 AI 모델의 수를 실시간으로 추적합니다.",
+          "높을수록 더 많은 AI 서비스 선택지가 있음을 의미합니다.",
+          "정상 범위: 120-130개 모델"
+        ]
+      },
+      "availability": {
+        "title": "평균 가용성",
+        "description": "시스템 전체 가용성 백분율",
+        "help": [
+          "모든 AI 모델의 평균 가동률을 백분율로 표시합니다.",
+          "99.5% 이상이 엔터프라이즈 수준의 안정성을 의미합니다.",
+          "업계 표준: 99.9% (Three Nines)"
+        ]
+      },
+      "performance": {
+        "title": "모델 성능 개요",
+        "description": "운영 vs 성능저하 vs 중단",
+        "help": [
+          "AI 모델의 작동 상태를 시각화합니다.",
+          "파란색: 정상 작동 중인 모델",
+          "노란색: 성능이 저하된 모델 (응답 지연)",
+          "빨간색: 서비스 중단된 모델"
+        ]
+      }
+    },
+    "legend": {
+      "operational": "운영 중",
+      "degraded": "성능 저하",
+      "outage": "서비스 중단"
+    },
+    "activity": {
+      "title": "활동 피드",
+      "noActivity": "최근 활동 없음",
+      "description": "활동이 실시간으로 여기에 표시됩니다"
+    },
+    "alerts": {
+      "apiMode": "최적의 Vercel 성능을 위해 API 모드로 실행 중입니다. 데이터는 30초마다 새로고침됩니다."
+    }
+  },
+  "common": {
+    "loading": "로딩 중...",
+    "error": "오류",
+    "waitingForData": "데이터 대기 중..."
+  }
+}

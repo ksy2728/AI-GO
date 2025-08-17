@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import { Inter } from 'next/font/google'
 import { Navigation } from '@/components/navigation'
+import { LanguageProvider } from '@/contexts/LanguageContext'
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -31,10 +32,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navigation />
-        <main className="min-h-screen">
-          {children}
-        </main>
+        <LanguageProvider>
+          <Navigation />
+          <main className="min-h-screen">
+            {children}
+          </main>
+        </LanguageProvider>
       </body>
     </html>
   )

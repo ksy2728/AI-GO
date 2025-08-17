@@ -1,0 +1,66 @@
+{
+  "dashboard": {
+    "title": "AIモデル ダッシュボード",
+    "subtitle": "AIモデルパフォーマンスのリアルタイム監視と分析",
+    "status": {
+      "live": "ライブ",
+      "apiMode": "APIモード",
+      "polling": "ポーリング"
+    },
+    "stats": {
+      "totalModels": "総モデル数",
+      "activeModels": "アクティブモデル",
+      "avgAvailability": "平均可用性",
+      "operational": "稼働中",
+      "lastUpdate": "前回更新比"
+    },
+    "charts": {
+      "activeModels": {
+        "title": "アクティブモデルの推移",
+        "description": "リアルタイムアクティブモデル数",
+        "help": [
+          "リアルタイムでAPI呼び出し可能なAIモデル数を追跡します。",
+          "数値が高いほど、より多くのAIサービスオプションが利用可能です。",
+          "正常範囲：120-130モデル"
+        ]
+      },
+      "availability": {
+        "title": "平均可用性",
+        "description": "システム全体の可用性パーセンテージ",
+        "help": [
+          "すべてのAIモデルの平均稼働時間の割合を表示します。",
+          "99.5%以上はエンタープライズレベルの安定性を示します。",
+          "業界標準：99.9%（スリーナイン）"
+        ]
+      },
+      "performance": {
+        "title": "モデルパフォーマンス概要",
+        "description": "稼働中 vs 低下 vs 停止",
+        "help": [
+          "AIモデルの動作状態を視覚化します。",
+          "青：完全に稼働中のモデル",
+          "黄：パフォーマンスが低下したモデル（応答遅延）",
+          "赤：停止中のモデル"
+        ]
+      }
+    },
+    "legend": {
+      "operational": "稼働中",
+      "degraded": "性能低下",
+      "outage": "停止"
+    },
+    "activity": {
+      "title": "アクティビティフィード",
+      "noActivity": "最近のアクティビティなし",
+      "description": "アクティビティはここにリアルタイムで表示されます"
+    },
+    "alerts": {
+      "apiMode": "最適なVercelパフォーマンスのためAPIモードで実行中。データは30秒ごとに更新されます。"
+    }
+  },
+  "common": {
+    "loading": "読み込み中...",
+    "error": "エラー",
+    "waitingForData": "データ待機中..."
+  }
+}

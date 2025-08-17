@@ -1,0 +1,66 @@
+{
+  "dashboard": {
+    "title": "AI Model Dashboard",
+    "subtitle": "Real-time monitoring and analytics for AI model performance",
+    "status": {
+      "live": "Live",
+      "apiMode": "API Mode",
+      "polling": "Polling"
+    },
+    "stats": {
+      "totalModels": "Total Models",
+      "activeModels": "Active Models",
+      "avgAvailability": "Avg Availability",
+      "operational": "Operational",
+      "lastUpdate": "vs last update"
+    },
+    "charts": {
+      "activeModels": {
+        "title": "Active Models Trend",
+        "description": "Real-time active model count",
+        "help": [
+          "Tracks the number of AI models available for API calls in real-time.",
+          "Higher numbers indicate more AI service options available.",
+          "Normal range: 120-130 models"
+        ]
+      },
+      "availability": {
+        "title": "Average Availability",
+        "description": "System-wide availability percentage",
+        "help": [
+          "Shows the average uptime percentage of all AI models.",
+          "Above 99.5% indicates enterprise-level stability.",
+          "Industry standard: 99.9% (Three Nines)"
+        ]
+      },
+      "performance": {
+        "title": "Model Performance Overview",
+        "description": "Operational vs Degraded vs Outage",
+        "help": [
+          "Visualizes the operational status of AI models.",
+          "Blue: Fully operational models",
+          "Yellow: Degraded performance models (slow response)",
+          "Red: Models experiencing outages"
+        ]
+      }
+    },
+    "legend": {
+      "operational": "Operational",
+      "degraded": "Degraded",
+      "outage": "Outage"
+    },
+    "activity": {
+      "title": "Activity Feed",
+      "noActivity": "No recent activity",
+      "description": "Activities will appear here in real-time"
+    },
+    "alerts": {
+      "apiMode": "Running in API mode for optimal Vercel performance. Data refreshes every 30 seconds."
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "waitingForData": "Waiting for data..."
+  }
+}

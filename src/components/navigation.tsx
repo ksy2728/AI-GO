@@ -6,6 +6,8 @@ import { usePathname } from 'next/navigation'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { cn } from '@/lib/utils'
+import { LanguageSelector } from '@/components/LanguageSelector'
+import { useLanguage } from '@/contexts/LanguageContext'
 import {
   Activity,
   BarChart3,
@@ -28,6 +30,7 @@ const navigation = [
 ]
 
 export function Navigation() {
+  const { t } = useLanguage()
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const pathname = usePathname()
 
@@ -77,12 +80,13 @@ export function Navigation() {
             })}
           </div>
 
-          {/* System Status Indicator */}
+          {/* System Status Indicator and Language Selector */}
           <div className="hidden lg:flex items-center space-x-4 min-w-0">
             <div className="flex items-center space-x-2 text-sm min-w-0">
               <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse flex-shrink-0"></div>
               <span className="text-gray-600 truncate whitespace-nowrap">All Systems Operational</span>
             </div>
+            <LanguageSelector />
           </div>
 
           {/* Mobile menu button */}
@@ -134,6 +138,9 @@ export function Navigation() {
                 <div className="flex items-center space-x-2 px-3 py-2 text-sm text-gray-600">
                   <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
                   <span>All Systems Operational</span>
+                </div>
+                <div className="px-3 py-2">
+                  <LanguageSelector />
                 </div>
               </div>
             </div>

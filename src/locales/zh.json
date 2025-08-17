@@ -1,0 +1,66 @@
+{
+  "dashboard": {
+    "title": "AI模型仪表板",
+    "subtitle": "AI模型性能的实时监控和分析",
+    "status": {
+      "live": "实时",
+      "apiMode": "API模式",
+      "polling": "轮询"
+    },
+    "stats": {
+      "totalModels": "模型总数",
+      "activeModels": "活跃模型",
+      "avgAvailability": "平均可用性",
+      "operational": "运行中",
+      "lastUpdate": "与上次更新相比"
+    },
+    "charts": {
+      "activeModels": {
+        "title": "活跃模型趋势",
+        "description": "实时活跃模型数量",
+        "help": [
+          "实时跟踪可用于API调用的AI模型数量。",
+          "数字越高表示可用的AI服务选项越多。",
+          "正常范围：120-130个模型"
+        ]
+      },
+      "availability": {
+        "title": "平均可用性",
+        "description": "系统级可用性百分比",
+        "help": [
+          "显示所有AI模型的平均正常运行时间百分比。",
+          "超过99.5%表示企业级稳定性。",
+          "行业标准：99.9%（三个九）"
+        ]
+      },
+      "performance": {
+        "title": "模型性能概览",
+        "description": "运行中 vs 性能下降 vs 中断",
+        "help": [
+          "可视化AI模型的运行状态。",
+          "蓝色：完全运行的模型",
+          "黄色：性能下降的模型（响应缓慢）",
+          "红色：遇到中断的模型"
+        ]
+      }
+    },
+    "legend": {
+      "operational": "运行中",
+      "degraded": "性能下降",
+      "outage": "中断"
+    },
+    "activity": {
+      "title": "活动订阅",
+      "noActivity": "暂无最近活动",
+      "description": "活动将实时显示在这里"
+    },
+    "alerts": {
+      "apiMode": "正在以API模式运行以获得最佳的Vercel性能。数据每30秒刷新一次。"
+    }
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "错误",
+    "waitingForData": "等待数据中..."
+  }
+}

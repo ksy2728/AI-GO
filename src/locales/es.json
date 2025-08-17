@@ -1,0 +1,66 @@
+{
+  "dashboard": {
+    "title": "Panel de Modelos de IA",
+    "subtitle": "Monitoreo y análisis en tiempo real del rendimiento de modelos de IA",
+    "status": {
+      "live": "En vivo",
+      "apiMode": "Modo API",
+      "polling": "Consultando"
+    },
+    "stats": {
+      "totalModels": "Modelos Totales",
+      "activeModels": "Modelos Activos",
+      "avgAvailability": "Disponibilidad Promedio",
+      "operational": "Operacional",
+      "lastUpdate": "vs última actualización"
+    },
+    "charts": {
+      "activeModels": {
+        "title": "Tendencia de Modelos Activos",
+        "description": "Conteo de modelos activos en tiempo real",
+        "help": [
+          "Rastrea el número de modelos de IA disponibles para llamadas API en tiempo real.",
+          "Números más altos indican más opciones de servicios de IA disponibles.",
+          "Rango normal: 120-130 modelos"
+        ]
+      },
+      "availability": {
+        "title": "Disponibilidad Promedio",
+        "description": "Porcentaje de disponibilidad del sistema",
+        "help": [
+          "Muestra el porcentaje promedio de tiempo de actividad de todos los modelos de IA.",
+          "Por encima del 99.5% indica estabilidad a nivel empresarial.",
+          "Estándar de la industria: 99.9% (Tres Nueves)"
+        ]
+      },
+      "performance": {
+        "title": "Resumen del Rendimiento de Modelos",
+        "description": "Operacional vs Degradado vs Interrupción",
+        "help": [
+          "Visualiza el estado operacional de los modelos de IA.",
+          "Azul: Modelos completamente operacionales",
+          "Amarillo: Modelos con rendimiento degradado (respuesta lenta)",
+          "Rojo: Modelos con interrupciones"
+        ]
+      }
+    },
+    "legend": {
+      "operational": "Operacional",
+      "degraded": "Degradado",
+      "outage": "Interrupción"
+    },
+    "activity": {
+      "title": "Feed de Actividad",
+      "noActivity": "Sin actividad reciente",
+      "description": "Las actividades aparecerán aquí en tiempo real"
+    },
+    "alerts": {
+      "apiMode": "Ejecutándose en modo API para un rendimiento óptimo de Vercel. Los datos se actualizan cada 30 segundos."
+    }
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "waitingForData": "Esperando datos..."
+  }
+}

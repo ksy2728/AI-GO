@@ -5,6 +5,7 @@ import { StatsCard } from '@/components/dashboard/StatsCard'
 import { useRealtime } from '@/hooks/useRealtime'
 import { api } from '@/lib/api-client'
 import { Skeleton } from '@/components/ui/skeleton'
+import { useLanguage } from '@/contexts/LanguageContext'
 
 // Lazy load heavy components
 const RealtimeChart = lazy(() => import('@/components/dashboard/RealtimeChart').then(mod => ({ default: mod.RealtimeChart })))
@@ -23,6 +24,7 @@ import {
 } from 'lucide-react'
 
 export default function DashboardPage() {
+  const { t } = useLanguage()
   const { globalStats, connected, error: realtimeError } = useRealtime({
     subscribeToGlobal: true
   })
@@ -147,9 +149,9 @@ export default function DashboardPage() {
             loading={loading}
           />
           <StatsCard
-            title="Operational"
+            title={t('dashboard.stats.operational')}
             value={currentStats?.operationalModels || 0}
-            description={`${currentStats?.degradedModels || 0} degraded, ${currentStats?.outageModels || 0} outage`}
+            description={`${currentStats?.degradedModels || 0} ${t('dashboard.legend.degraded').toLowerCase()}, ${currentStats?.outageModels || 0} ${t('dashboard.legend.outage').toLowerCase()}`}
             trend={operationalChange > 0 ? 'up' : operationalChange < 0 ? 'down' : 'neutral'}
             icon={<Shield className="w-8 h-8" />}
             loading={loading}
@@ -160,31 +162,31 @@ export default function DashboardPage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
           <Suspense fallback={<Skeleton className="h-[250px] w-full" />}>
             <RealtimeChart
-              title="Active Models Trend"
-              description="Real-time active model count"
+              title={t('dashboard.charts.activeModels.title')}
+              description={t('dashboard.charts.activeModels.description')}
               type="area"
               dataKey="activeModels"
               color="#3b82f6"
               height={250}
               helpText={[
-                "현재 API 호출이 가능한 AI 모델의 수를 실시간으로 추적합니다.",
-                "높을수록 더 많은 AI 서비스 선택지가 있음을 의미합니다.",
-                "정상 범위: 120-130개 모델"
+                t('dashboard.charts.activeModels.help.0'),
+                t('dashboard.charts.activeModels.help.1'),
+                t('dashboard.charts.activeModels.help.2')
               ]}
             />
           </Suspense>
           <Suspense fallback={<Skeleton className="h-[250px] w-full" />}>
             <RealtimeChart
-              title="Average Availability"
-              description="System-wide availability percentage"
+              title={t('dashboard.charts.availability.title')}
+              description={t('dashboard.charts.availability.description')}
               type="line"
               dataKey="avgAvailability"
               color="#10b981"
               height={250}
               helpText={[
-                "모든 AI 모델의 평균 가동률을 백분율로 표시합니다.",
-                "99.5% 이상이 엔터프라이즈 수준의 안정성을 의미합니다.",
-                "업계 표준: 99.9% (Three Nines)"
+                t('dashboard.charts.availability.help.0'),
+                t('dashboard.charts.availability.help.1'),
+                t('dashboard.charts.availability.help.2')
               ]}
             />
           </Suspense>
@@ -202,17 +204,17 @@ export default function DashboardPage() {
           <div className="lg:col-span-2">
             <Suspense fallback={<Skeleton className="h-[350px] w-full" />}>
               <RealtimeChart
-                title="Model Performance Overview"
-                description="Operational vs Degraded vs Outage"
+                title={t('dashboard.charts.performance.title')}
+                description={t('dashboard.charts.performance.description')}
                 type="bar"
                 dataKey="operationalModels"
                 color="#6366f1"
                 height={350}
                 helpText={[
-                  "AI 모델의 작동 상태를 시각화합니다.",
-                  "파란색: 정상 작동 중인 모델",
-                  "노란색: 성능이 저하된 모델 (응답 지연)",
-                  "빨간색: 서비스 중단된 모델"
+                  t('dashboard.charts.performance.help.0'),
+                  t('dashboard.charts.performance.help.1'),
+                  t('dashboard.charts.performance.help.2'),
+                  t('dashboard.charts.performance.help.3')
                 ]}
                 showLegend={true}
               />
@@ -231,7 +233,7 @@ export default function DashboardPage() {
             <div className="flex items-center gap-2">
               <AlertCircle className="w-5 h-5 text-amber-600" />
               <p className="text-sm text-amber-800">
-                Running in API mode for optimal Vercel performance. Data refreshes every 30 seconds.
+                {t('dashboard.alerts.apiMode')}
               </p>
             </div>
           </div>
