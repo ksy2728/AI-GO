@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0",
-    "generated": "2025-08-17T18:29:44.244Z",
+    "generated": "2025-08-17T18:31:52.975Z",
     "source": "unified-api-sync"
   },
   "statistics": {
@@ -11,8 +11,8 @@
     "operationalModels": 127,
     "degradedModels": 0,
     "outageModels": 0,
-    "avgAvailability": 99.61567434902865,
-    "lastUpdated": "2025-08-17T18:29:44.245Z"
+    "avgAvailability": 99.61597602088014,
+    "lastUpdated": "2025-08-17T18:31:52.976Z"
   },
   "typeStatistics": {
     "undefined": 63
@@ -25,7 +25,7 @@
       "totalModels": 97,
       "activeModels": 97,
       "operationalModels": 97,
-      "avgAvailability": 99.7325848227821
+      "avgAvailability": 99.73301711543526
     },
     {
       "id": "anthropic",
@@ -259,13 +259,13 @@
       "id": "1755301491198-eeo7ldlqb",
       "status": {
         "status": "operational",
-        "availability": 99.52800846612016,
-        "responseTime": 148,
-        "errorRate": 0.00918502682759177,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.96493132230377,
+        "responseTime": 82,
+        "errorRate": 0.021294302283716184,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.52800846612016,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.96493132230377,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 1,
       "featured": true,
       "tags": [
@@ -292,13 +292,13 @@
       "id": "1755301491198-23rcci9ph",
       "status": {
         "status": "operational",
-        "availability": 99.92475148467126,
-        "responseTime": 117,
-        "errorRate": 0.018166605931847293,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.53956398588467,
+        "responseTime": 55,
+        "errorRate": 0.0628323641776111,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.92475148467126,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.53956398588467,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 1,
       "featured": true,
       "tags": [
@@ -1032,13 +1032,13 @@
       "id": "1755325824316-61u6oiyp2",
       "status": {
         "status": "operational",
-        "availability": 99.73375116324254,
-        "responseTime": 107,
-        "errorRate": 0.07957619645638857,
-        "lastCheck": "2025-08-17T18:29:44.156Z"
+        "availability": 99.55440403491872,
+        "responseTime": 52,
+        "errorRate": 0.07414180789951437,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.73375116324254,
-      "lastUpdate": "2025-08-17T18:29:44.156Z",
+      "availability": 99.55440403491872,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -1063,13 +1063,13 @@
       "id": "1755325824316-thhsxpq6g",
       "status": {
         "status": "operational",
-        "availability": 99.58322571698997,
-        "responseTime": 135,
-        "errorRate": 0.07729369554256267,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.95800203021227,
+        "responseTime": 145,
+        "errorRate": 0.021898668054120884,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.58322571698997,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.95800203021227,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -1091,13 +1091,13 @@
       "id": "1755325824317-oory88fre",
       "status": {
         "status": "operational",
-        "availability": 99.82463322530668,
-        "responseTime": 127,
-        "errorRate": 0.07387850127321803,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.93221857931144,
+        "responseTime": 82,
+        "errorRate": 0.07065165320610078,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.82463322530668,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.93221857931144,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -1119,13 +1119,13 @@
       "id": "1755325824316-4zjz6bpz7",
       "status": {
         "status": "operational",
-        "availability": 99.60465594362638,
-        "responseTime": 96,
-        "errorRate": 0.014284436727940709,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.74646794383031,
+        "responseTime": 54,
+        "errorRate": 0.03518214442512873,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.60465594362638,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.74646794383031,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -1147,13 +1147,13 @@
       "id": "1755325824316-0ta4x29zf",
       "status": {
         "status": "operational",
-        "availability": 99.65198203063397,
-        "responseTime": 141,
-        "errorRate": 0.04014079278961318,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.67697656856956,
+        "responseTime": 52,
+        "errorRate": 0.012097802942037906,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.65198203063397,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.67697656856956,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -1197,13 +1197,13 @@
       "id": "1755325824316-y5i0wvot3",
       "status": {
         "status": "operational",
-        "availability": 99.65975971521324,
-        "responseTime": 127,
-        "errorRate": 0.05092856982054075,
-        "lastCheck": "2025-08-17T18:29:44.156Z"
+        "availability": 99.66598599961728,
+        "responseTime": 76,
+        "errorRate": 0.07007396985044918,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.65975971521324,
-      "lastUpdate": "2025-08-17T18:29:44.156Z",
+      "availability": 99.66598599961728,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -1274,13 +1274,13 @@
       "id": "1755325824316-h0abyrfba",
       "status": {
         "status": "operational",
-        "availability": 99.768735212774,
-        "responseTime": 85,
-        "errorRate": 0.056491437668028534,
-        "lastCheck": "2025-08-17T18:29:44.156Z"
+        "availability": 99.68335680460518,
+        "responseTime": 125,
+        "errorRate": 0.039413118075243836,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.768735212774,
-      "lastUpdate": "2025-08-17T18:29:44.156Z",
+      "availability": 99.68335680460518,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -1303,13 +1303,13 @@
       "id": "1755325824316-gadxofcno",
       "status": {
         "status": "operational",
-        "availability": 99.81301636903949,
-        "responseTime": 127,
-        "errorRate": 0.038680994699589126,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.65278308797869,
+        "responseTime": 142,
+        "errorRate": 0.0717077384063061,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.81301636903949,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.65278308797869,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -1332,13 +1332,13 @@
       "id": "1755325824316-o4wdgkydj",
       "status": {
         "status": "operational",
-        "availability": 99.62857916078697,
-        "responseTime": 92,
-        "errorRate": 0.045998047720785265,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.53403524354,
+        "responseTime": 132,
+        "errorRate": 0.08964791647980082,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.62857916078697,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.53403524354,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -1361,13 +1361,13 @@
       "id": "1755325824317-r929rs9vj",
       "status": {
         "status": "operational",
-        "availability": 99.5221785676132,
-        "responseTime": 101,
-        "errorRate": 0.08190714559725099,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.63702697158398,
+        "responseTime": 131,
+        "errorRate": 0.0005672876082643219,
+        "lastCheck": "2025-08-17T18:31:52.795Z"
       },
-      "availability": 99.5221785676132,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.63702697158398,
+      "lastUpdate": "2025-08-17T18:31:52.795Z",
       "priority": 2
     },
     {
@@ -1390,13 +1390,13 @@
       "id": "1755325824316-4pxm596ck",
       "status": {
         "status": "operational",
-        "availability": 99.90887523610077,
-        "responseTime": 51,
-        "errorRate": 0.02043533184089672,
-        "lastCheck": "2025-08-17T18:29:44.156Z"
+        "availability": 99.60244686473267,
+        "responseTime": 96,
+        "errorRate": 0.09731532016751006,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.90887523610077,
-      "lastUpdate": "2025-08-17T18:29:44.156Z",
+      "availability": 99.60244686473267,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -1419,13 +1419,13 @@
       "id": "1755325824316-m7yvpjw8p",
       "status": {
         "status": "operational",
-        "availability": 99.80400049634895,
-        "responseTime": 66,
-        "errorRate": 0.07900081243189996,
-        "lastCheck": "2025-08-17T18:29:44.156Z"
+        "availability": 99.59770797314285,
+        "responseTime": 142,
+        "errorRate": 0.059015516138340995,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.80400049634895,
-      "lastUpdate": "2025-08-17T18:29:44.156Z",
+      "availability": 99.59770797314285,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -1448,13 +1448,13 @@
       "id": "1755325824316-h5doxgpix",
       "status": {
         "status": "operational",
-        "availability": 99.52661270226719,
-        "responseTime": 63,
-        "errorRate": 0.01735634814821785,
-        "lastCheck": "2025-08-17T18:29:44.156Z"
+        "availability": 99.76648457011176,
+        "responseTime": 136,
+        "errorRate": 0.05666097138953448,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.52661270226719,
-      "lastUpdate": "2025-08-17T18:29:44.156Z",
+      "availability": 99.76648457011176,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -1526,13 +1526,13 @@
       "id": "1755325824316-wp22r2379",
       "status": {
         "status": "operational",
-        "availability": 99.87624706525986,
-        "responseTime": 116,
-        "errorRate": 0.03369700003811556,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.98988037874493,
+        "responseTime": 63,
+        "errorRate": 0.009823104755923386,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.87624706525986,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.98988037874493,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -1555,13 +1555,13 @@
       "id": "1755325824316-11krqv6w6",
       "status": {
         "status": "operational",
-        "availability": 99.83442453910354,
-        "responseTime": 115,
-        "errorRate": 0.05529555744514025,
-        "lastCheck": "2025-08-17T18:29:44.156Z"
+        "availability": 99.60077364331659,
+        "responseTime": 139,
+        "errorRate": 0.04471650893635033,
+        "lastCheck": "2025-08-17T18:31:52.793Z"
       },
-      "availability": 99.83442453910354,
-      "lastUpdate": "2025-08-17T18:29:44.156Z",
+      "availability": 99.60077364331659,
+      "lastUpdate": "2025-08-17T18:31:52.793Z",
       "priority": 2
     },
     {
@@ -1584,13 +1584,13 @@
       "id": "1755325824316-5vhfru0ry",
       "status": {
         "status": "operational",
-        "availability": 99.56502961254307,
-        "responseTime": 104,
-        "errorRate": 0.07446384520481482,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.99558075565454,
+        "responseTime": 107,
+        "errorRate": 0.05281571046266229,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.56502961254307,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.99558075565454,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -1613,13 +1613,13 @@
       "id": "1755325824316-iwgsuddh2",
       "status": {
         "status": "operational",
-        "availability": 99.98957531089354,
-        "responseTime": 68,
-        "errorRate": 0.041484400551084245,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.99455690714838,
+        "responseTime": 54,
+        "errorRate": 0.06610441650246779,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.98957531089354,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.99455690714838,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -1642,13 +1642,13 @@
       "id": "1755325824316-zimy1xcy6",
       "status": {
         "status": "operational",
-        "availability": 99.64156164808097,
-        "responseTime": 130,
-        "errorRate": 0.036177860001042,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.80895614135515,
+        "responseTime": 94,
+        "errorRate": 0.06883180587790241,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.64156164808097,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.80895614135515,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -1671,13 +1671,13 @@
       "id": "1755325824316-ct7wjd0cl",
       "status": {
         "status": "operational",
-        "availability": 99.74779485416924,
-        "responseTime": 70,
-        "errorRate": 0.07401335197279257,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.55419583284115,
+        "responseTime": 100,
+        "errorRate": 0.022888393737190052,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.74779485416924,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.55419583284115,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -1700,13 +1700,13 @@
       "id": "1755325824317-oe2kbe1s8",
       "status": {
         "status": "operational",
-        "availability": 99.88073799391128,
-        "responseTime": 81,
-        "errorRate": 0.02510552192678648,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.82786906863446,
+        "responseTime": 125,
+        "errorRate": 0.05791354118442578,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.88073799391128,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.82786906863446,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -1729,13 +1729,13 @@
       "id": "1755325824317-yxs3wbffc",
       "status": {
         "status": "operational",
-        "availability": 99.8215910816798,
-        "responseTime": 50,
-        "errorRate": 0.06522672194431282,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.51186450581615,
+        "responseTime": 101,
+        "errorRate": 0.017027552880688225,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.8215910816798,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.51186450581615,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -1758,13 +1758,13 @@
       "id": "1755325824317-3egf7ie0g",
       "status": {
         "status": "operational",
-        "availability": 99.54129910018958,
-        "responseTime": 99,
-        "errorRate": 0.04193784016550273,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.8036278520632,
+        "responseTime": 50,
+        "errorRate": 0.0687755961948412,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.54129910018958,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.8036278520632,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -1787,13 +1787,13 @@
       "id": "1755325824317-j02rk5uvx",
       "status": {
         "status": "operational",
-        "availability": 99.62927810620553,
-        "responseTime": 91,
-        "errorRate": 0.038977662249451345,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.80467338391593,
+        "responseTime": 100,
+        "errorRate": 0.0677932824556224,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.62927810620553,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.80467338391593,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -1816,13 +1816,13 @@
       "id": "1755325824317-qcx38kii9",
       "status": {
         "status": "operational",
-        "availability": 99.5799763037816,
-        "responseTime": 142,
-        "errorRate": 0.02063324381678058,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.73605891472917,
+        "responseTime": 116,
+        "errorRate": 0.03315553096443922,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.5799763037816,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.73605891472917,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -1845,13 +1845,13 @@
       "id": "1755325824317-bws7mgfh7",
       "status": {
         "status": "operational",
-        "availability": 99.88985443075458,
-        "responseTime": 108,
-        "errorRate": 0.045340635124858156,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.93890866345302,
+        "responseTime": 123,
+        "errorRate": 0.011173013206720261,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.88985443075458,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.93890866345302,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -1876,13 +1876,13 @@
       "id": "1755325824316-acnp3hrbl",
       "status": {
         "status": "operational",
-        "availability": 99.6479245538104,
-        "responseTime": 112,
-        "errorRate": 0.0747285882872093,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.78424766816379,
+        "responseTime": 107,
+        "errorRate": 0.05476796098304131,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.6479245538104,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.78424766816379,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -1958,13 +1958,13 @@
       "id": "1755325824316-1vwani2l7",
       "status": {
         "status": "operational",
-        "availability": 99.99511197241247,
-        "responseTime": 131,
-        "errorRate": 0.09839181644783974,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.5967348471238,
+        "responseTime": 108,
+        "errorRate": 0.0704018362315852,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.99511197241247,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.5967348471238,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -1989,13 +1989,13 @@
       "id": "1755325824316-4488nwgjg",
       "status": {
         "status": "operational",
-        "availability": 99.50852882690947,
-        "responseTime": 59,
-        "errorRate": 0.023178388576810472,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.8452104157833,
+        "responseTime": 78,
+        "errorRate": 0.05207793104160128,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.50852882690947,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.8452104157833,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -2020,13 +2020,13 @@
       "id": "1755325824316-dc4hs9yro",
       "status": {
         "status": "operational",
-        "availability": 99.6774685179104,
-        "responseTime": 71,
-        "errorRate": 0.0726017693190073,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.66368526778382,
+        "responseTime": 121,
+        "errorRate": 0.009017609861785415,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.6774685179104,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.66368526778382,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -2051,13 +2051,13 @@
       "id": "1755325824316-3dzqgjtyh",
       "status": {
         "status": "operational",
-        "availability": 99.93517226076479,
-        "responseTime": 61,
-        "errorRate": 0.096384825815646,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.65443222335172,
+        "responseTime": 115,
+        "errorRate": 0.017466756944784723,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.93517226076479,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.65443222335172,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -2082,13 +2082,13 @@
       "id": "1755325824316-gitnz1022",
       "status": {
         "status": "operational",
-        "availability": 99.96923787921203,
-        "responseTime": 92,
-        "errorRate": 0.010830504036669542,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.50998870986176,
+        "responseTime": 113,
+        "errorRate": 0.09741464105399236,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.96923787921203,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.50998870986176,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -2113,13 +2113,13 @@
       "id": "1755325824316-rq5t0zt09",
       "status": {
         "status": "operational",
-        "availability": 99.75883122352708,
-        "responseTime": 78,
-        "errorRate": 0.03393611437441122,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.90078757629256,
+        "responseTime": 107,
+        "errorRate": 0.06529146423634968,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.75883122352708,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.90078757629256,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -2144,13 +2144,13 @@
       "id": "1755325824317-v2qbn17x7",
       "status": {
         "status": "operational",
-        "availability": 99.52421762307519,
-        "responseTime": 97,
-        "errorRate": 0.04293741102543445,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.56266056457522,
+        "responseTime": 100,
+        "errorRate": 0.09953562467055665,
+        "lastCheck": "2025-08-17T18:31:52.795Z"
       },
-      "availability": 99.52421762307519,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.56266056457522,
+      "lastUpdate": "2025-08-17T18:31:52.795Z",
       "priority": 2
     },
     {
@@ -2174,13 +2174,13 @@
       "id": "1755325824316-l5mqpq5g9",
       "status": {
         "status": "operational",
-        "availability": 99.6564896555668,
-        "responseTime": 96,
-        "errorRate": 0.03771858541602702,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.51602732580677,
+        "responseTime": 58,
+        "errorRate": 0.05634159514143584,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.6564896555668,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.51602732580677,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -2204,13 +2204,13 @@
       "id": "1755325824316-toaknvwip",
       "status": {
         "status": "operational",
-        "availability": 99.79938457539728,
-        "responseTime": 95,
-        "errorRate": 0.014732215204223876,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.53869207835069,
+        "responseTime": 75,
+        "errorRate": 0.008811667900793596,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.79938457539728,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.53869207835069,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -2234,13 +2234,13 @@
       "id": "1755325824316-bgclf9yzl",
       "status": {
         "status": "operational",
-        "availability": 99.59506761405312,
-        "responseTime": 117,
-        "errorRate": 0.02690212131768337,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.54740524331889,
+        "responseTime": 121,
+        "errorRate": 0.030188372880598304,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.59506761405312,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.54740524331889,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -2264,13 +2264,13 @@
       "id": "1755325824316-1f5tnj4v8",
       "status": {
         "status": "operational",
-        "availability": 99.66783744413206,
-        "responseTime": 73,
-        "errorRate": 0.09618957754217868,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.52518038966774,
+        "responseTime": 50,
+        "errorRate": 0.03984025013684178,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.66783744413206,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.52518038966774,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -2294,13 +2294,13 @@
       "id": "1755325824316-5016hqmob",
       "status": {
         "status": "operational",
-        "availability": 99.66808348902529,
-        "responseTime": 55,
-        "errorRate": 0.036004114386208874,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.51683429415183,
+        "responseTime": 66,
+        "errorRate": 0.05744096870185316,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.66808348902529,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.51683429415183,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -2324,13 +2324,13 @@
       "id": "1755325824316-vcq5s3tz5",
       "status": {
         "status": "operational",
-        "availability": 99.85950843333372,
-        "responseTime": 81,
-        "errorRate": 0.04300661718188781,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.66752816481022,
+        "responseTime": 66,
+        "errorRate": 0.09543339649643919,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.85950843333372,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.66752816481022,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -2354,13 +2354,13 @@
       "id": "1755325824316-2fn4vt25a",
       "status": {
         "status": "operational",
-        "availability": 99.60566518002778,
-        "responseTime": 69,
-        "errorRate": 0.038645784803435196,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.83215935054926,
+        "responseTime": 116,
+        "errorRate": 0.011515511395616263,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.60566518002778,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.83215935054926,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -2384,13 +2384,13 @@
       "id": "1755325824316-yorj1m5v1",
       "status": {
         "status": "operational",
-        "availability": 99.79676095591769,
-        "responseTime": 50,
-        "errorRate": 0.039100205255324476,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.7849098059052,
+        "responseTime": 56,
+        "errorRate": 0.0017435850955177746,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.79676095591769,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.7849098059052,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -2414,13 +2414,13 @@
       "id": "1755325824317-ic3fo4jdm",
       "status": {
         "status": "operational",
-        "availability": 99.84321733605313,
-        "responseTime": 108,
-        "errorRate": 0.005661954936720882,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.69488980929962,
+        "responseTime": 74,
+        "errorRate": 0.07716737505617666,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.84321733605313,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.69488980929962,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -2444,13 +2444,13 @@
       "id": "1755325824317-e1mweew03",
       "status": {
         "status": "operational",
-        "availability": 99.50417481918922,
-        "responseTime": 83,
-        "errorRate": 0.09612687385574714,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.58262460150041,
+        "responseTime": 144,
+        "errorRate": 0.0810833344734741,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.50417481918922,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.58262460150041,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -2475,13 +2475,13 @@
       "id": "1755325824316-o5dy263q4",
       "status": {
         "status": "operational",
-        "availability": 99.7038729819847,
-        "responseTime": 57,
-        "errorRate": 0.04260707010639269,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.61088865506242,
+        "responseTime": 52,
+        "errorRate": 0.031088071367264505,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.7038729819847,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.61088865506242,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -2506,13 +2506,13 @@
       "id": "1755325824316-vwcfch6wn",
       "status": {
         "status": "operational",
-        "availability": 99.78603472012395,
-        "responseTime": 119,
-        "errorRate": 0.03157054718324497,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.84875958746115,
+        "responseTime": 121,
+        "errorRate": 0.08797651399521728,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.78603472012395,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.84875958746115,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -2537,13 +2537,13 @@
       "id": "1755325824316-9dao6l2wr",
       "status": {
         "status": "operational",
-        "availability": 99.97852764219716,
-        "responseTime": 148,
-        "errorRate": 0.022818424726791256,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.56872249509829,
+        "responseTime": 123,
+        "errorRate": 0.08283399688934907,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.97852764219716,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.56872249509829,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -2568,13 +2568,13 @@
       "id": "1755325824317-2ayh535hd",
       "status": {
         "status": "operational",
-        "availability": 99.62296500755447,
-        "responseTime": 115,
-        "errorRate": 0.01824924613175538,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.87442827814203,
+        "responseTime": 114,
+        "errorRate": 0.027209250458521895,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.62296500755447,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.87442827814203,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -2599,13 +2599,13 @@
       "id": "1755325824316-h8ji1ukht",
       "status": {
         "status": "operational",
-        "availability": 99.57272738328537,
-        "responseTime": 139,
-        "errorRate": 0.06705729268855132,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.91240504787487,
+        "responseTime": 94,
+        "errorRate": 0.04677271640000045,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.57272738328537,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.91240504787487,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -2630,13 +2630,13 @@
       "id": "1755325824316-b5xkf8mh2",
       "status": {
         "status": "operational",
-        "availability": 99.62526775096846,
-        "responseTime": 139,
-        "errorRate": 0.07314882392533331,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.62758145699918,
+        "responseTime": 129,
+        "errorRate": 0.07584159710769722,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.62526775096846,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.62758145699918,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -2661,13 +2661,13 @@
       "id": "1755325824317-tusjqsn7k",
       "status": {
         "status": "operational",
-        "availability": 99.79681548905522,
-        "responseTime": 90,
-        "errorRate": 0.054555350005333764,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.79428967418816,
+        "responseTime": 111,
+        "errorRate": 0.054980892274704554,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.79681548905522,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.79428967418816,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -2690,13 +2690,13 @@
       "id": "1755325824316-e941d2d0i",
       "status": {
         "status": "operational",
-        "availability": 99.633603786578,
-        "responseTime": 95,
-        "errorRate": 0.03446571154686664,
-        "lastCheck": "2025-08-17T18:29:44.156Z"
+        "availability": 99.67260655072887,
+        "responseTime": 91,
+        "errorRate": 0.028441422934740127,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.633603786578,
-      "lastUpdate": "2025-08-17T18:29:44.156Z",
+      "availability": 99.67260655072887,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -2719,13 +2719,13 @@
       "id": "1755325824317-h1aq4yx8x",
       "status": {
         "status": "operational",
-        "availability": 99.51811398988819,
-        "responseTime": 58,
-        "errorRate": 0.04731901165946151,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.62675276772787,
+        "responseTime": 95,
+        "errorRate": 0.022222996369930283,
+        "lastCheck": "2025-08-17T18:31:52.795Z"
       },
-      "availability": 99.51811398988819,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.62675276772787,
+      "lastUpdate": "2025-08-17T18:31:52.795Z",
       "priority": 2
     },
     {
@@ -2748,13 +2748,13 @@
       "id": "1755325824317-vttx6wrbs",
       "status": {
         "status": "operational",
-        "availability": 99.50115872657452,
-        "responseTime": 77,
-        "errorRate": 0.0202831442883757,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.72911608485127,
+        "responseTime": 96,
+        "errorRate": 0.07927568898869802,
+        "lastCheck": "2025-08-17T18:31:52.795Z"
       },
-      "availability": 99.50115872657452,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.72911608485127,
+      "lastUpdate": "2025-08-17T18:31:52.795Z",
       "priority": 2
     },
     {
@@ -2777,13 +2777,13 @@
       "id": "1755325824316-ugkcd4p82",
       "status": {
         "status": "operational",
-        "availability": 99.76926071905204,
-        "responseTime": 142,
-        "errorRate": 0.012324768100990502,
-        "lastCheck": "2025-08-17T18:29:44.156Z"
+        "availability": 99.74827826860539,
+        "responseTime": 59,
+        "errorRate": 0.09058124496464925,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.76926071905204,
-      "lastUpdate": "2025-08-17T18:29:44.156Z",
+      "availability": 99.74827826860539,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -2806,13 +2806,13 @@
       "id": "1755325824316-706cggoag",
       "status": {
         "status": "operational",
-        "availability": 99.9569174884354,
-        "responseTime": 118,
-        "errorRate": 0.08368406964242199,
-        "lastCheck": "2025-08-17T18:29:44.156Z"
+        "availability": 99.74932274981917,
+        "responseTime": 66,
+        "errorRate": 0.0632054204317114,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.9569174884354,
-      "lastUpdate": "2025-08-17T18:29:44.156Z",
+      "availability": 99.74932274981917,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -2835,13 +2835,13 @@
       "id": "1755325824316-r4fothp3y",
       "status": {
         "status": "operational",
-        "availability": 99.56363057862569,
-        "responseTime": 122,
-        "errorRate": 0.07793647492184191,
-        "lastCheck": "2025-08-17T18:29:44.156Z"
+        "availability": 99.6877444629009,
+        "responseTime": 99,
+        "errorRate": 0.01342072769892091,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.56363057862569,
-      "lastUpdate": "2025-08-17T18:29:44.156Z",
+      "availability": 99.6877444629009,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -2864,13 +2864,13 @@
       "id": "1755325824316-wlbvogjtr",
       "status": {
         "status": "operational",
-        "availability": 99.73994397082781,
-        "responseTime": 83,
-        "errorRate": 0.025073998336756144,
-        "lastCheck": "2025-08-17T18:29:44.156Z"
+        "availability": 99.6757715360859,
+        "responseTime": 104,
+        "errorRate": 0.07813558704116566,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.73994397082781,
-      "lastUpdate": "2025-08-17T18:29:44.156Z",
+      "availability": 99.6757715360859,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -2893,13 +2893,13 @@
       "id": "1755325824317-o7yuusf72",
       "status": {
         "status": "operational",
-        "availability": 99.72527184013393,
-        "responseTime": 66,
-        "errorRate": 0.08058858625058447,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.67704253998915,
+        "responseTime": 123,
+        "errorRate": 0.08388256061744714,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.72527184013393,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.67704253998915,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -2921,13 +2921,13 @@
       "id": "1755325824316-j5dwn79gb",
       "status": {
         "status": "operational",
-        "availability": 99.60320225257625,
-        "responseTime": 85,
-        "errorRate": 0.05985711773634372,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.82133141997294,
+        "responseTime": 104,
+        "errorRate": 0.08101601457255024,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.60320225257625,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.82133141997294,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -2949,13 +2949,13 @@
       "id": "1755325824316-v9l6czrk1",
       "status": {
         "status": "operational",
-        "availability": 99.87607305969124,
-        "responseTime": 100,
-        "errorRate": 0.08337062100003279,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.88376290034441,
+        "responseTime": 51,
+        "errorRate": 0.01894313027709811,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.87607305969124,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.88376290034441,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -2977,13 +2977,13 @@
       "id": "e007d92c-b4d9-4610-818c-fb5a0b3ed9f2",
       "status": {
         "status": "operational",
-        "availability": 99.52554877384864,
-        "responseTime": 60,
-        "errorRate": 0.015936735202956045,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.98751486306055,
+        "responseTime": 121,
+        "errorRate": 0.021091752945847888,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.52554877384864,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.98751486306055,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -3005,13 +3005,13 @@
       "id": "1755325824316-j9wgcfmjs",
       "status": {
         "status": "operational",
-        "availability": 99.67046983160162,
-        "responseTime": 82,
-        "errorRate": 0.04141257322839192,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.50025101063879,
+        "responseTime": 101,
+        "errorRate": 0.03605737533476892,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.67046983160162,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.50025101063879,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -3057,13 +3057,13 @@
       "id": "1755325824317-ktfedl90d",
       "status": {
         "status": "operational",
-        "availability": 99.7277927414846,
-        "responseTime": 76,
-        "errorRate": 0.03599262737895355,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.65781838369033,
+        "responseTime": 136,
+        "errorRate": 0.09707291669323033,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.7277927414846,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.65781838369033,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -3085,13 +3085,13 @@
       "id": "1755325824317-9c5nz2433",
       "status": {
         "status": "operational",
-        "availability": 99.82265574309749,
-        "responseTime": 63,
-        "errorRate": 0.03524892168362066,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.7467355685082,
+        "responseTime": 100,
+        "errorRate": 0.05627605239623179,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.82265574309749,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.7467355685082,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -3113,13 +3113,13 @@
       "id": "1755325824317-c0rit5ffw",
       "status": {
         "status": "operational",
-        "availability": 99.65595154325256,
-        "responseTime": 93,
-        "errorRate": 0.0938935973219473,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.51452141540543,
+        "responseTime": 78,
+        "errorRate": 0.041578866778377854,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.65595154325256,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.51452141540543,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -3141,13 +3141,13 @@
       "id": "1755325824316-6xo36crf1",
       "status": {
         "status": "operational",
-        "availability": 99.93365601390613,
-        "responseTime": 119,
-        "errorRate": 0.051074885486291535,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.6800546993769,
+        "responseTime": 78,
+        "errorRate": 0.03043516109496265,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.93365601390613,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.6800546993769,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -3167,13 +3167,13 @@
       "id": "1755325824317-bl0uvbbrr",
       "status": {
         "status": "operational",
-        "availability": 99.94032247839728,
-        "responseTime": 51,
-        "errorRate": 0.0987121774407464,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.90837483614449,
+        "responseTime": 100,
+        "errorRate": 0.03739389626018321,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.94032247839728,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.90837483614449,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -3193,13 +3193,13 @@
       "id": "1755325824317-sb8yitjyr",
       "status": {
         "status": "operational",
-        "availability": 99.72932870292767,
-        "responseTime": 60,
-        "errorRate": 0.045138133938296576,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.73021504436551,
+        "responseTime": 142,
+        "errorRate": 0.01092465537938816,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.72932870292767,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.73021504436551,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -3219,13 +3219,13 @@
       "id": "1755325824317-g7eadzgum",
       "status": {
         "status": "operational",
-        "availability": 99.51250539376124,
-        "responseTime": 106,
-        "errorRate": 0.007564039275858781,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.82949159538934,
+        "responseTime": 105,
+        "errorRate": 0.08147118041930511,
+        "lastCheck": "2025-08-17T18:31:52.795Z"
       },
-      "availability": 99.51250539376124,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.82949159538934,
+      "lastUpdate": "2025-08-17T18:31:52.795Z",
       "priority": 2
     },
     {
@@ -3245,13 +3245,13 @@
       "id": "1755325824317-urohf9bfi",
       "status": {
         "status": "operational",
-        "availability": 99.54992011100617,
-        "responseTime": 73,
-        "errorRate": 0.09209320287694456,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.5878134988401,
+        "responseTime": 62,
+        "errorRate": 0.006127512564274485,
+        "lastCheck": "2025-08-17T18:31:52.795Z"
       },
-      "availability": 99.54992011100617,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.5878134988401,
+      "lastUpdate": "2025-08-17T18:31:52.795Z",
       "priority": 2
     },
     {
@@ -3271,13 +3271,13 @@
       "id": "1755325824316-twp5v7ohs",
       "status": {
         "status": "operational",
-        "availability": 99.70565439294899,
-        "responseTime": 100,
-        "errorRate": 0.021277926857770125,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.52217119719607,
+        "responseTime": 125,
+        "errorRate": 0.036322171606182674,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.70565439294899,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.52217119719607,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -3297,13 +3297,13 @@
       "id": "1755325824316-ktyqx4d5p",
       "status": {
         "status": "operational",
-        "availability": 99.72071080878302,
-        "responseTime": 131,
-        "errorRate": 0.056734492596504586,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.58323800280031,
+        "responseTime": 146,
+        "errorRate": 0.029071910252014433,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.72071080878302,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.58323800280031,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -3323,13 +3323,13 @@
       "id": "1755325824316-a3uf6f0wm",
       "status": {
         "status": "operational",
-        "availability": 99.93894023835338,
-        "responseTime": 72,
-        "errorRate": 0.06018615085130339,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.90096762980065,
+        "responseTime": 54,
+        "errorRate": 0.008162186567139807,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.93894023835338,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.90096762980065,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -3349,13 +3349,13 @@
       "id": "1755325824316-6ws60tfrp",
       "status": {
         "status": "operational",
-        "availability": 99.67024506254866,
-        "responseTime": 57,
-        "errorRate": 0.0633152711949361,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.71435384588196,
+        "responseTime": 63,
+        "errorRate": 0.08271536378638003,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.67024506254866,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.71435384588196,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -3375,13 +3375,13 @@
       "id": "1755325824317-ycvtxzfoc",
       "status": {
         "status": "operational",
-        "availability": 99.74724487245176,
-        "responseTime": 119,
-        "errorRate": 0.06509275923545098,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.98562407293333,
+        "responseTime": 64,
+        "errorRate": 0.019412325886157312,
+        "lastCheck": "2025-08-17T18:31:52.795Z"
       },
-      "availability": 99.74724487245176,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.98562407293333,
+      "lastUpdate": "2025-08-17T18:31:52.795Z",
       "priority": 2
     },
     {
@@ -3451,13 +3451,13 @@
       "id": "1755325824317-q7z6n5nuc",
       "status": {
         "status": "operational",
-        "availability": 99.934939255142,
-        "responseTime": 60,
-        "errorRate": 0.0030339550119681037,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.68349494217907,
+        "responseTime": 82,
+        "errorRate": 0.0584952111255584,
+        "lastCheck": "2025-08-17T18:31:52.795Z"
       },
-      "availability": 99.934939255142,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.68349494217907,
+      "lastUpdate": "2025-08-17T18:31:52.795Z",
       "priority": 2
     },
     {
@@ -3479,13 +3479,13 @@
       "id": "1755325824316-6r1gzspcr",
       "status": {
         "status": "operational",
-        "availability": 99.57753519086951,
-        "responseTime": 119,
-        "errorRate": 0.0073579612034818664,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.79439507790124,
+        "responseTime": 139,
+        "errorRate": 0.0044377025762715626,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.57753519086951,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.79439507790124,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -3507,13 +3507,13 @@
       "id": "1755325824316-3knxocdya",
       "status": {
         "status": "operational",
-        "availability": 99.66072893352793,
-        "responseTime": 97,
-        "errorRate": 0.006492116826104866,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.5354782692916,
+        "responseTime": 99,
+        "errorRate": 0.022550837214926057,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.66072893352793,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.5354782692916,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -3535,13 +3535,13 @@
       "id": "1755325824316-rh1qropzy",
       "status": {
         "status": "operational",
-        "availability": 99.58602873303771,
-        "responseTime": 84,
-        "errorRate": 0.03268777319161773,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.68419218799468,
+        "responseTime": 80,
+        "errorRate": 0.025626961272275796,
+        "lastCheck": "2025-08-17T18:31:52.794Z"
       },
-      "availability": 99.58602873303771,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.68419218799468,
+      "lastUpdate": "2025-08-17T18:31:52.794Z",
       "priority": 2
     },
     {
@@ -3587,13 +3587,13 @@
       "id": "1755325824317-nnripgaki",
       "status": {
         "status": "operational",
-        "availability": 99.54690869483555,
-        "responseTime": 145,
-        "errorRate": 0.0013420812633827774,
-        "lastCheck": "2025-08-17T18:29:44.157Z"
+        "availability": 99.80637820675098,
+        "responseTime": 58,
+        "errorRate": 0.0855971613570358,
+        "lastCheck": "2025-08-17T18:31:52.795Z"
       },
-      "availability": 99.54690869483555,
-      "lastUpdate": "2025-08-17T18:29:44.157Z",
+      "availability": 99.80637820675098,
+      "lastUpdate": "2025-08-17T18:31:52.795Z",
       "priority": 2
     },
     {
