@@ -31,17 +31,17 @@ function generateHistoricalData(currentStats: any, points: number = 20): TimeSer
   const history: TimeSeriesData[] = []
   const now = Date.now()
   
-  // Base values from current stats
-  const baseActive = currentStats.activeModels || 51
-  const baseAvailability = currentStats.avgAvailability || 99.8
-  const baseOperational = currentStats.operationalModels || 49
+  // Use actual values from current stats without hardcoding
+  const baseActive = currentStats.activeModels || 0
+  const baseAvailability = currentStats.avgAvailability || 0
+  const baseOperational = currentStats.operationalModels || 0
   
   for (let i = points - 1; i >= 0; i--) {
     const timestamp = now - (i * 60000) // 1 minute intervals
     
-    // Add realistic variations
-    const variation = Math.sin(i * 0.5) * 0.02 // ±2% variation
-    const noise = (Math.random() - 0.5) * 0.01 // ±1% noise
+    // Add small realistic variations (±1% of actual value for models, ±0.1% for availability)
+    const modelVariation = Math.floor((Math.random() - 0.5) * Math.max(2, baseActive * 0.02)) // ±1% or ±1 model minimum
+    const availVariation = (Math.random() - 0.5) * 0.2 // ±0.1% availability
     
     history.push({
       time: new Date(timestamp).toLocaleTimeString('ko-KR', {
@@ -52,9 +52,9 @@ function generateHistoricalData(currentStats: any, points: number = 20): TimeSer
         second: '2-digit'
       }),
       timestamp,
-      activeModels: Math.round(baseActive * (1 + variation + noise)),
-      avgAvailability: Math.round((baseAvailability * (1 + variation * 0.5 + noise)) * 10) / 10,
-      operationalModels: Math.round(baseOperational * (1 + variation + noise))
+      activeModels: Math.max(0, baseActive + modelVariation),
+      avgAvailability: Math.round((baseAvailability + availVariation) * 10) / 10,
+      operationalModels: Math.max(0, baseOperational + modelVariation)
     })
   }
   
@@ -68,14 +68,15 @@ export async function GET(request: NextRequest) {
       ? `https://raw.githubusercontent.com/${process.env.GITHUB_REPO}/master/data/models.json`
       : 'https://raw.githubusercontent.com/ksy2728/AI-GO/master/data/models.json'
     
+    // Initialize with empty stats - will be populated from actual data
     let stats = {
-      totalModels: 63,
-      activeModels: 51,
-      avgAvailability: 99.8,
-      operationalModels: 49,
-      degradedModels: 2,
+      totalModels: 0,
+      activeModels: 0,
+      avgAvailability: 0,
+      operationalModels: 0,
+      degradedModels: 0,
       outageModels: 0,
-      providers: 10
+      providers: 0
     }
     
     try {
@@ -105,14 +106,16 @@ export async function GET(request: NextRequest) {
       console.log('Using fallback stats, GitHub fetch failed:', error)
     }
     
-    // Add some real-time variation to make it look live
-    const realtimeVariation = (Math.random() - 0.5) * 0.02 // ±2% variation
+    // Add small realistic variation to make it look live (±1-2 models, ±0.1% availability)
+    const modelVariation = Math.floor((Math.random() - 0.5) * 4) // ±0-2 models variation
+    const availVariation = (Math.random() - 0.5) * 0.2 // ±0.1% availability variation
+    
     const currentStats: RealtimeStats = {
       timestamp: new Date().toISOString(),
       totalModels: stats.totalModels,
-      activeModels: Math.round(stats.activeModels * (1 + realtimeVariation * 0.1)),
-      avgAvailability: Math.round((stats.avgAvailability + realtimeVariation) * 10) / 10,
-      operationalModels: Math.round(stats.operationalModels * (1 + realtimeVariation * 0.1)),
+      activeModels: Math.max(0, stats.activeModels + modelVariation),
+      avgAvailability: Math.round((stats.avgAvailability + availVariation) * 10) / 10,
+      operationalModels: Math.max(0, stats.operationalModels + modelVariation),
       degradedModels: stats.degradedModels,
       outageModels: stats.outageModels,
       providers: stats.providers,
@@ -131,21 +134,56 @@ export async function GET(request: NextRequest) {
   } catch (error) {
     console.error('Realtime stats error:', error)
     
-    // Return fallback data on error
+    // Return fallback data on error - try to fetch from backup GitHub URL
+    try {
+      const backupUrl = 'https://raw.githubusercontent.com/ksy2728/AI-GO/master/data/models.json'
+      const backupResponse = await fetch(backupUrl, {
+        headers: {
+          'Accept': 'application/json',
+          'Cache-Control': 'no-cache'
+        }
+      })
+      
+      if (backupResponse.ok) {
+        const backupData = await backupResponse.json()
+        if (backupData.statistics) {
+          const fallbackStats = {
+            timestamp: new Date().toISOString(),
+            totalModels: backupData.statistics.totalModels || 0,
+            activeModels: backupData.statistics.activeModels || 0,
+            avgAvailability: backupData.statistics.avgAvailability || 0,
+            operationalModels: backupData.statistics.operationalModels || 0,
+            degradedModels: backupData.statistics.degradedModels || 0,
+            outageModels: backupData.statistics.outageModels || 0,
+            providers: backupData.statistics.totalProviders || 0,
+            history: generateHistoricalData(backupData.statistics)
+          }
+          
+          return NextResponse.json(fallbackStats, {
+            status: 200,
+            headers: {
+              'Cache-Control': 'public, s-maxage=60, stale-while-revalidate=300',
+              'X-Data-Source': 'github-backup-fallback',
+              'X-Timestamp': new Date().toISOString()
+            }
+          })
+        }
+      }
+    } catch (backupError) {
+      console.error('GitHub backup fallback also failed:', backupError)
+    }
+    
+    // Absolute last resort - return empty data
     return NextResponse.json({
       timestamp: new Date().toISOString(),
-      totalModels: 63,
-      activeModels: 51,
-      avgAvailability: 99.8,
-      operationalModels: 49,
-      degradedModels: 2,
+      totalModels: 0,
+      activeModels: 0,
+      avgAvailability: 0,
+      operationalModels: 0,
+      degradedModels: 0,
       outageModels: 0,
-      providers: 10,
-      history: generateHistoricalData({
-        activeModels: 51,
-        avgAvailability: 99.8,
-        operationalModels: 49
-      })
+      providers: 0,
+      history: []
     }, {
       status: 200,
       headers: {
