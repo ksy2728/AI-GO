@@ -4,6 +4,8 @@ import { useEffect, useState, useRef } from 'react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { LineChart, Line, AreaChart, Area, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts'
 import { useRealtime } from '@/hooks/useRealtime'
+import { ChartHelp } from './ChartHelp'
+import { StatusLegend } from './StatusLegend'
 
 interface RealtimeChartProps {
   title: string
@@ -12,6 +14,8 @@ interface RealtimeChartProps {
   dataKey: string
   color?: string
   height?: number
+  helpText?: string[]
+  showLegend?: boolean
 }
 
 export function RealtimeChart({
@@ -20,7 +24,9 @@ export function RealtimeChart({
   type = 'line',
   dataKey,
   color = '#3b82f6',
-  height = 300
+  height = 300,
+  helpText,
+  showLegend = false
 }: RealtimeChartProps) {
   const { connected, globalStats } = useRealtime()
   const [chartData, setChartData] = useState<any[]>([])
@@ -180,9 +186,12 @@ export function RealtimeChart({
     <Card className="w-full">
       <CardHeader>
         <div className="flex items-center justify-between">
-          <div>
-            <CardTitle>{title}</CardTitle>
-            {description && <CardDescription>{description}</CardDescription>}
+          <div className="flex-1">
+            <div className="flex items-center gap-2">
+              <CardTitle>{title}</CardTitle>
+              {helpText && <ChartHelp title={title} content={helpText} />}
+            </div>
+            {description && <CardDescription className="mt-1">{description}</CardDescription>}
           </div>
           {connected ? (
             <div className="flex items-center gap-2">
@@ -196,6 +205,7 @@ export function RealtimeChart({
             </div>
           ) : null}
         </div>
+        {showLegend && <StatusLegend />}
       </CardHeader>
       <CardContent>
         {chartData.length > 0 ? (

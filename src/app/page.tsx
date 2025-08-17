@@ -166,6 +166,11 @@ export default function DashboardPage() {
               dataKey="activeModels"
               color="#3b82f6"
               height={250}
+              helpText={[
+                "현재 API 호출이 가능한 AI 모델의 수를 실시간으로 추적합니다.",
+                "높을수록 더 많은 AI 서비스 선택지가 있음을 의미합니다.",
+                "정상 범위: 120-130개 모델"
+              ]}
             />
           </Suspense>
           <Suspense fallback={<Skeleton className="h-[250px] w-full" />}>
@@ -176,6 +181,11 @@ export default function DashboardPage() {
               dataKey="avgAvailability"
               color="#10b981"
               height={250}
+              helpText={[
+                "모든 AI 모델의 평균 가동률을 백분율로 표시합니다.",
+                "99.5% 이상이 엔터프라이즈 수준의 안정성을 의미합니다.",
+                "업계 표준: 99.9% (Three Nines)"
+              ]}
             />
           </Suspense>
         </div>
@@ -198,6 +208,13 @@ export default function DashboardPage() {
                 dataKey="operationalModels"
                 color="#6366f1"
                 height={350}
+                helpText={[
+                  "AI 모델의 작동 상태를 시각화합니다.",
+                  "파란색: 정상 작동 중인 모델",
+                  "노란색: 성능이 저하된 모델 (응답 지연)",
+                  "빨간색: 서비스 중단된 모델"
+                ]}
+                showLegend={true}
               />
             </Suspense>
           </div>
