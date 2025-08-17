@@ -20,13 +20,13 @@ import {
   TrendingUp
 } from 'lucide-react'
 
-const navigation = [
-  { name: 'Dashboard', href: '/', icon: Home },
-  { name: 'Models', href: '/models', icon: Server },
-  { name: 'Status', href: '/status', icon: Activity },
-  { name: 'Benchmarks', href: '/benchmarks', icon: BarChart3 },
-  { name: 'News', href: '/news', icon: Newspaper },
-  { name: 'Pricing', href: '/pricing', icon: TrendingUp },
+const navigationKeys = [
+  { key: 'dashboard', href: '/', icon: Home },
+  { key: 'models', href: '/models', icon: Server },
+  { key: 'status', href: '/status', icon: Activity },
+  { key: 'benchmarks', href: '/benchmarks', icon: BarChart3 },
+  { key: 'news', href: '/news', icon: Newspaper },
+  { key: 'pricing', href: '/pricing', icon: TrendingUp },
 ]
 
 export function Navigation() {
@@ -55,11 +55,11 @@ export function Navigation() {
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-4 xl:space-x-8">
-            {navigation.map((item) => {
+            {navigationKeys.map((item) => {
               const isActive = pathname === item.href
               return (
                 <Link
-                  key={item.name}
+                  key={item.key}
                   href={item.href}
                   className={cn(
                     "flex items-center space-x-2 px-3 py-2 rounded-md text-sm font-medium transition-colors",
@@ -69,8 +69,8 @@ export function Navigation() {
                   )}
                 >
                   <item.icon className="w-4 h-4" />
-                  <span>{item.name}</span>
-                  {item.name === 'Status' && (
+                  <span>{t(`navigation.${item.key}`)}</span>
+                  {item.key === 'status' && (
                     <Badge variant="success" className="ml-1 text-xs">
                       99.8%
                     </Badge>
@@ -84,7 +84,7 @@ export function Navigation() {
           <div className="hidden lg:flex items-center space-x-4 min-w-0">
             <div className="flex items-center space-x-2 text-sm min-w-0">
               <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse flex-shrink-0"></div>
-              <span className="text-gray-600 truncate whitespace-nowrap">All Systems Operational</span>
+              <span className="text-gray-600 truncate whitespace-nowrap">{t('navigation.systemStatus')}</span>
             </div>
             <LanguageSelector />
           </div>
@@ -110,11 +110,11 @@ export function Navigation() {
         {mobileMenuOpen && (
           <div className="lg:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 bg-white border-t">
-              {navigation.map((item) => {
+              {navigationKeys.map((item) => {
                 const isActive = pathname === item.href
                 return (
                   <Link
-                    key={item.name}
+                    key={item.key}
                     href={item.href}
                     className={cn(
                       "flex items-center space-x-3 px-3 py-2 rounded-md text-base font-medium transition-colors",
@@ -125,8 +125,8 @@ export function Navigation() {
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     <item.icon className="w-5 h-5" />
-                    <span>{item.name}</span>
-                    {item.name === 'Status' && (
+                    <span>{t(`navigation.${item.key}`)}</span>
+                    {item.key === 'status' && (
                       <Badge variant="success" className="ml-auto text-xs">
                         99.8%
                       </Badge>
@@ -137,7 +137,7 @@ export function Navigation() {
               <div className="pt-4 mt-4 border-t">
                 <div className="flex items-center space-x-2 px-3 py-2 text-sm text-gray-600">
                   <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-                  <span>All Systems Operational</span>
+                  <span>{t('navigation.systemStatus')}</span>
                 </div>
                 <div className="px-3 py-2">
                   <LanguageSelector />

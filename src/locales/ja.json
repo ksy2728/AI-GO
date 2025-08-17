@@ -1,4 +1,13 @@
 {
+  "navigation": {
+    "dashboard": "ダッシュボード",
+    "models": "モデル",
+    "status": "ステータス",
+    "benchmarks": "ベンチマーク",
+    "news": "ニュース",
+    "pricing": "価格",
+    "systemStatus": "すべてのシステムが正常"
+  },
   "dashboard": {
     "title": "AIモデル ダッシュボード",
     "subtitle": "AIモデルパフォーマンスのリアルタイム監視と分析",
@@ -53,6 +62,9 @@
       "title": "アクティビティフィード",
       "noActivity": "最近のアクティビティなし",
       "description": "アクティビティはここにリアルタイムで表示されます"
+    },
+    "modelGrid": {
+      "title": "モデルステータスグリッド"
     },
     "alerts": {
       "apiMode": "最適なVercelパフォーマンスのためAPIモードで実行中。データは30秒ごとに更新されます。"

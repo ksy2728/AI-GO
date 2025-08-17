@@ -1,4 +1,13 @@
 {
+  "navigation": {
+    "dashboard": "Panel",
+    "models": "Modelos",
+    "status": "Estado",
+    "benchmarks": "Puntos de Referencia",
+    "news": "Noticias",
+    "pricing": "Precios",
+    "systemStatus": "Todos los Sistemas Operativos"
+  },
   "dashboard": {
     "title": "Panel de Modelos de IA",
     "subtitle": "Monitoreo y análisis en tiempo real del rendimiento de modelos de IA",
@@ -53,6 +62,9 @@
       "title": "Feed de Actividad",
       "noActivity": "Sin actividad reciente",
       "description": "Las actividades aparecerán aquí en tiempo real"
+    },
+    "modelGrid": {
+      "title": "Cuadrícula de Estado de Modelos"
     },
     "alerts": {
       "apiMode": "Ejecutándose en modo API para un rendimiento óptimo de Vercel. Los datos se actualizan cada 30 segundos."

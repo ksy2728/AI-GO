@@ -95,21 +95,21 @@ export default function DashboardPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-2xl font-bold text-gray-900">AI Model Dashboard</h1>
+              <h1 className="text-2xl font-bold text-gray-900">{t('dashboard.title')}</h1>
               <p className="text-sm text-gray-600 mt-1">
-                Real-time monitoring and analytics for AI model performance
+                {t('dashboard.subtitle')}
               </p>
             </div>
             <div className="flex items-center gap-3">
               {connected ? (
                 <div className="flex items-center gap-2 px-3 py-1.5 bg-green-50 border border-green-200 rounded-full">
                   <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
-                  <span className="text-sm text-green-700 font-medium">Live</span>
+                  <span className="text-sm text-green-700 font-medium">{t('dashboard.status.live')}</span>
                 </div>
               ) : (
                 <div className="flex items-center gap-2 px-3 py-1.5 bg-blue-50 border border-blue-200 rounded-full">
                   <div className="w-2 h-2 bg-blue-500 rounded-full" />
-                  <span className="text-sm text-blue-700 font-medium">API Mode</span>
+                  <span className="text-sm text-blue-700 font-medium">{t('dashboard.status.apiMode')}</span>
                 </div>
               )}
             </div>
@@ -122,28 +122,28 @@ export default function DashboardPage() {
         {/* Stats Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
           <StatsCard
-            title="Total Models"
+            title={t('dashboard.stats.totalModels')}
             value={currentStats?.totalModels || 0}
             change={totalModelsChange}
-            changeLabel="last update"
+            changeLabel={t('dashboard.stats.lastUpdate')}
             trend={totalModelsChange > 0 ? 'up' : totalModelsChange < 0 ? 'down' : 'neutral'}
             icon={<Server className="w-8 h-8" />}
             loading={loading}
           />
           <StatsCard
-            title="Active Models"
+            title={t('dashboard.stats.activeModels')}
             value={currentStats?.activeModels || 0}
             change={activeModelsChange}
-            changeLabel="last update"
+            changeLabel={t('dashboard.stats.lastUpdate')}
             trend={activeModelsChange > 0 ? 'up' : activeModelsChange < 0 ? 'down' : 'neutral'}
             icon={<Activity className="w-8 h-8" />}
             loading={loading}
           />
           <StatsCard
-            title="Avg Availability"
+            title={t('dashboard.stats.avgAvailability')}
             value={`${currentStats?.avgAvailability?.toFixed(1) || 0}%`}
             change={availabilityChange}
-            changeLabel="last update"
+            changeLabel={t('dashboard.stats.lastUpdate')}
             trend={availabilityChange > 0 ? 'up' : availabilityChange < 0 ? 'down' : 'neutral'}
             icon={<TrendingUp className="w-8 h-8" />}
             loading={loading}

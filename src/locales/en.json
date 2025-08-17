@@ -1,4 +1,13 @@
 {
+  "navigation": {
+    "dashboard": "Dashboard",
+    "models": "Models",
+    "status": "Status",
+    "benchmarks": "Benchmarks",
+    "news": "News",
+    "pricing": "Pricing",
+    "systemStatus": "All Systems Operational"
+  },
   "dashboard": {
     "title": "AI Model Dashboard",
     "subtitle": "Real-time monitoring and analytics for AI model performance",
@@ -53,6 +62,9 @@
       "title": "Activity Feed",
       "noActivity": "No recent activity",
       "description": "Activities will appear here in real-time"
+    },
+    "modelGrid": {
+      "title": "Model Status Grid"
     },
     "alerts": {
       "apiMode": "Running in API mode for optimal Vercel performance. Data refreshes every 30 seconds."

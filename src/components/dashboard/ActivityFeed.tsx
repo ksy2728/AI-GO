@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { ScrollArea } from '@/components/ui/scroll-area'
 import { useRealtime } from '@/hooks/useRealtime'
+import { useLanguage } from '@/contexts/LanguageContext'
 import { 
   Activity, 
   AlertCircle, 
@@ -28,6 +29,7 @@ interface ActivityItem {
 }
 
 export function ActivityFeed() {
+  const { t } = useLanguage()
   const { socket, connected } = useRealtime()
   const [activities, setActivities] = useState<ActivityItem[]>([])
 
@@ -148,7 +150,7 @@ export function ActivityFeed() {
     <Card className="h-full">
       <CardHeader>
         <div className="flex items-center justify-between">
-          <CardTitle>Activity Feed</CardTitle>
+          <CardTitle>{t('dashboard.activity.title')}</CardTitle>
           {connected && (
             <Badge variant="outline" className="text-xs">
               <Activity className="w-3 h-3 mr-1" />
@@ -162,8 +164,8 @@ export function ActivityFeed() {
           {activities.length === 0 ? (
             <div className="flex flex-col items-center justify-center h-full text-gray-400">
               <Activity className="w-8 h-8 mb-2" />
-              <p className="text-sm">No recent activity</p>
-              <p className="text-xs mt-1">Activities will appear here in real-time</p>
+              <p className="text-sm">{t('dashboard.activity.noActivity')}</p>
+              <p className="text-xs mt-1">{t('dashboard.activity.description')}</p>
             </div>
           ) : (
             <div className="space-y-3">

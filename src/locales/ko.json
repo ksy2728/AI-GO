@@ -1,4 +1,13 @@
 {
+  "navigation": {
+    "dashboard": "대시보드",
+    "models": "모델",
+    "status": "상태",
+    "benchmarks": "벤치마크",
+    "news": "뉴스",
+    "pricing": "가격",
+    "systemStatus": "모든 시스템 정상"
+  },
   "dashboard": {
     "title": "AI 모델 대시보드",
     "subtitle": "AI 모델 성능의 실시간 모니터링 및 분석",
@@ -53,6 +62,9 @@
       "title": "활동 피드",
       "noActivity": "최근 활동 없음",
       "description": "활동이 실시간으로 여기에 표시됩니다"
+    },
+    "modelGrid": {
+      "title": "모델 상태 그리드"
     },
     "alerts": {
       "apiMode": "최적의 Vercel 성능을 위해 API 모드로 실행 중입니다. 데이터는 30초마다 새로고침됩니다."

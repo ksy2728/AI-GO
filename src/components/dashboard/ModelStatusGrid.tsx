@@ -7,8 +7,10 @@ import { useRealtime } from '@/hooks/useRealtime'
 import { api } from '@/lib/api-client'
 import { Model } from '@/types/models'
 import { Activity, AlertCircle, CheckCircle, XCircle } from 'lucide-react'
+import { useLanguage } from '@/contexts/LanguageContext'
 
 export function ModelStatusGrid() {
+  const { t } = useLanguage()
   const { modelStatuses, connected } = useRealtime()
   const [models, setModels] = useState<Model[]>([])
   const [loading, setLoading] = useState(true)
@@ -78,7 +80,7 @@ export function ModelStatusGrid() {
     return (
       <Card className="w-full">
         <CardHeader>
-          <CardTitle>Model Status Grid</CardTitle>
+          <CardTitle>{t('dashboard.modelGrid.title')}</CardTitle>
         </CardHeader>
         <CardContent>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -95,7 +97,7 @@ export function ModelStatusGrid() {
     return (
       <Card className="w-full">
         <CardHeader>
-          <CardTitle>Model Status Grid</CardTitle>
+          <CardTitle>{t('dashboard.modelGrid.title')}</CardTitle>
         </CardHeader>
         <CardContent>
           <div className="flex items-center justify-center py-8">
@@ -120,7 +122,7 @@ export function ModelStatusGrid() {
     return (
       <Card className="w-full">
         <CardHeader>
-          <CardTitle>Model Status Grid</CardTitle>
+          <CardTitle>{t('dashboard.modelGrid.title')}</CardTitle>
         </CardHeader>
         <CardContent>
           <div className="flex items-center justify-center py-8">
@@ -139,7 +141,7 @@ export function ModelStatusGrid() {
     <Card className="w-full">
       <CardHeader>
         <div className="flex items-center justify-between">
-          <CardTitle>Model Status Grid</CardTitle>
+          <CardTitle>{t('dashboard.modelGrid.title')}</CardTitle>
           {connected && (
             <Badge variant="outline" className="animate-pulse">
               <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
