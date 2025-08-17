@@ -64,9 +64,8 @@ function generateHistoricalData(currentStats: any, points: number = 20): TimeSer
 export async function GET(request: NextRequest) {
   try {
     // Try to fetch from GitHub data first
-    const githubDataUrl = process.env.GITHUB_REPO 
-      ? `https://raw.githubusercontent.com/${process.env.GITHUB_REPO}/master/data/models.json`
-      : 'https://raw.githubusercontent.com/ksy2728/AI-GO/master/data/models.json'
+    const githubDataUrl = 'https://raw.githubusercontent.com/ksy2728/AI-GO/master/data/models.json'
+    console.log('Fetching from:', githubDataUrl)
     
     // Initialize with empty stats - will be populated from actual data
     let stats = {
