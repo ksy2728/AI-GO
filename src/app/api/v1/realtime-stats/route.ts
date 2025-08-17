@@ -96,8 +96,8 @@ export async function GET(request: NextRequest) {
             activeModels: data.statistics.activeModels || stats.activeModels,
             avgAvailability: data.statistics.avgAvailability || stats.avgAvailability,
             operationalModels: data.statistics.operationalModels || stats.operationalModels,
-            degradedModels: data.models?.filter((m: any) => m.status?.status === 'degraded').length || 2,
-            outageModels: data.models?.filter((m: any) => m.status?.status === 'outage').length || 0,
+            degradedModels: data.statistics.degradedModels || 0,
+            outageModels: data.statistics.outageModels || 0,
             providers: data.statistics.totalProviders || stats.providers
           }
         }
