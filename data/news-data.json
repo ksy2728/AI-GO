@@ -1,6 +1,41 @@
 {
   "articles": [
     {
+      "id": "gpt-5-is-supposed-to-be-nicer-now",
+      "title": "GPT-5 is supposed to be nicer now",
+      "summary": "OpenAI announced late Friday that it’s updating its latest model to be “warmer and friendlier.",
+      "content": "OpenAI announced late Friday that it’s updating its latest model to be “warmer and friendlier.”",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "publishedAt": "2025-08-17T21:08:21.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gpt",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2025/08/17/gpt-5-is-supposed-to-be-nicer-now/",
+      "readTime": 3,
+      "views": 13994
+    },
+    {
+      "id": "duolingo-ceo-says-controversial-ai-memo-was-misund",
+      "title": "Duolingo CEO says controversial AI memo was misunderstood",
+      "summary": "While Duolingo CEO Luis von Ahn faced backlash after declaring that Duolingo would become an “AI-first company,” he suggested in a new interview the real issue was that he “did not give enough context.",
+      "content": "While Duolingo CEO Luis von Ahn faced backlash after declaring that Duolingo would become an “AI-first company,” he suggested in a new interview the real issue was that he “did not give enough context.”",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "publishedAt": "2025-08-17T16:34:17.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/08/17/duolingo-ceo-says-controversial-ai-memo-was-misunderstood/",
+      "readTime": 3,
+      "views": 31366
+    },
+    {
       "id": "ai-powered-stuffed-animals-are-coming-for-your-kid",
       "title": "AI-powered stuffed animals are coming for your kids",
       "summary": "chatbots packaged inside cute-looking plushies offer a viable alternative to screen time for kids.",
@@ -14,7 +49,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/16/ai-powered-stuffed-animals-are-coming-for-your-kids/",
       "readTime": 3,
-      "views": 40581
+      "views": 24351
     },
     {
       "id": "anthropic-says-some-claude-models-can-now-end-harm",
@@ -34,7 +69,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/16/anthropic-says-some-claude-models-can-now-end-harmful-or-abusive-conversations/",
       "readTime": 3,
-      "views": 32685
+      "views": 15168
     },
     {
       "id": "sam-altman-over-bread-rolls-explores-life-after-gp",
@@ -54,7 +89,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/15/sam-altman-over-bread-rolls-explores-life-after-gpt-5/",
       "readTime": 3,
-      "views": 43071
+      "views": 6799
     },
     {
       "id": "sen-hawley-to-probe-meta-after-report-finds-its-ai",
@@ -71,7 +106,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/15/sen-hawley-to-probe-meta-after-report-finds-its-ai-chatbots-flirt-with-kids/",
       "readTime": 3,
-      "views": 36453
+      "views": 11511
     },
     {
       "id": "chatgpt-8217-s-mobile-app-has-generated-2b-to-date",
@@ -88,7 +123,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/15/chatgpts-mobile-app-has-generated-2b-to-date-earns-2-91-per-install/",
       "readTime": 3,
-      "views": 17701
+      "views": 54591
     },
     {
       "id": "why-gpt-4o-8217-s-sudden-shutdown-left-people-grie",
@@ -105,7 +140,7 @@
       ],
       "url": "https://www.technologyreview.com/2025/08/15/1121900/gpt4o-grief-ai-companion/",
       "readTime": 3,
-      "views": 34980
+      "views": 32801
     },
     {
       "id": "nvidia-aims-to-solve-ai-8217-s-issues-with-many-la",
@@ -121,7 +156,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/nvidia-aims-solve-ai-issues-with-many-languages/",
       "readTime": 3,
-      "views": 21951
+      "views": 9745
     },
     {
       "id": "deepseek-the-chinese-startup-challenging-silicon-v",
@@ -137,7 +172,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/deepseek-the-chinese-startup-challenging-silicon-valley/",
       "readTime": 3,
-      "views": 22528
+      "views": 36346
     },
     {
       "id": "human-in-the-loop-work-drives-ai-powering-alibaba-",
@@ -154,7 +189,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/human-in-the-loop-work-drives-ai-powering-alibabas-smart-glasses/",
       "readTime": 3,
-      "views": 14237
+      "views": 28983
     },
     {
       "id": "cohere-hits-a-6-8b-valuation-as-investors-amd-nvid",
@@ -170,7 +205,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/14/cohere-hits-a-6-8b-valuation-as-investors-amd-nvidia-and-salesforce-double-down/",
       "readTime": 3,
-      "views": 8675
+      "views": 28797
     },
     {
       "id": "deepseek-reverts-to-nvidia-for-r2-model-after-huaw",
@@ -187,7 +222,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/deepseek-reverts-nvidia-r2-model-huawei-ai-chip-fails/",
       "readTime": 3,
-      "views": 44197
+      "views": 25350
     },
     {
       "id": "chatgpt-everything-you-need-to-know-about-the-ai-p",
@@ -205,7 +240,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/14/chatgpt-everything-to-know-about-the-ai-chatbot/",
       "readTime": 3,
-      "views": 47152
+      "views": 54668
     },
     {
       "id": "leaked-meta-ai-rules-show-chatbots-were-allowed-to",
@@ -222,7 +257,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/14/leaked-meta-ai-rules-show-chatbots-were-allowed-to-have-romantic-chats-with-kids/",
       "readTime": 3,
-      "views": 29513
+      "views": 54576
     },
     {
       "id": "buzzy-ai-startup-multiverse-creates-two-of-the-sma",
@@ -238,7 +273,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/14/buzzy-ai-startup-multiverse-creates-two-of-the-smallest-high-performing-models-ever/",
       "readTime": 3,
-      "views": 20599
+      "views": 5799
     },
     {
       "id": "google-pushes-ai-into-flight-deals-as-antitrust-sc",
@@ -255,7 +290,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/14/google-pushes-ai-into-flight-deals-as-antitrust-scrutiny-competition-heat-up/",
       "readTime": 3,
-      "views": 20193
+      "views": 35738
     },
     {
       "id": "cohere-hires-long-time-meta-research-head-joelle-p",
@@ -272,7 +307,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/14/cohere-hires-long-time-meta-research-head-joelle-pineau-as-its-chief-ai-officer/",
       "readTime": 3,
-      "views": 47036
+      "views": 53619
     },
     {
       "id": "co-founder-of-elon-musk-8217-s-xai-departs-the-com",
@@ -288,7 +323,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/13/co-founder-of-elon-musks-xai-departs-the-company/",
       "readTime": 3,
-      "views": 28977
+      "views": 32366
     },
     {
       "id": "waymo-finally-has-a-music-experience-worthy-of-its",
@@ -304,45 +339,10 @@
       ],
       "url": "https://techcrunch.com/2025/08/13/waymo-finally-has-a-music-experience-worthy-of-its-robotaxi/",
       "readTime": 3,
-      "views": 38840
-    },
-    {
-      "id": "pocket-fm-gives-its-writers-an-ai-tool-to-transfor",
-      "title": "Pocket FM gives its writers an AI tool to transform narratives, write cliffhangers, and more",
-      "summary": "Pocket FM is building LLM to help users write faster and in turn, produce more audio shows.",
-      "content": "Pocket FM is building LLM to help users write faster and in turn, produce more audio shows.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2025-08-13T16:48:49.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "llm"
-      ],
-      "url": "https://techcrunch.com/2025/08/13/pocket-fm-gives-its-writers-an-ai-tool-to-transform-narratives-write-cliffhangers-and-more/",
-      "readTime": 3,
-      "views": 53659
-    },
-    {
-      "id": "anthropic-nabs-humanloop-team-as-competition-for-e",
-      "title": "Anthropic nabs Humanloop team as competition for enterprise AI talent heats up",
-      "summary": "While an Anthropic spokesperson confirmed that the AI firm did not acquire Humanloop or its IP, that’s a moot point in an industry where IP lives in the brain.  And what Humanloop’s team is bringing t.",
-      "content": "While an Anthropic spokesperson confirmed that the AI firm did not acquire Humanloop or its IP, that’s a moot point in an industry where IP lives in the brain. And what Humanloop’s team is bringing to Anthropic is experience developing the tools that help enterprises run safe, reliable AI at scale.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2025-08-13T16:17:30.000Z",
-      "category": "partnership",
-      "tags": [
-        "ai",
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2025/08/13/anthropic-nabs-humanloop-team-as-competition-for-enterprise-ai-talent-heats-up/",
-      "readTime": 3,
-      "views": 29568
+      "views": 48738
     }
   ],
-  "lastUpdated": "2025-08-17T12:36:39.619Z",
+  "lastUpdated": "2025-08-18T01:44:17.364Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -354,7 +354,6 @@
     "release",
     "research",
     "funding",
-    "regulation",
-    "partnership"
+    "regulation"
   ]
 }
