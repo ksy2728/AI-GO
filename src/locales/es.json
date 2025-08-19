@@ -1,6 +1,7 @@
 {
   "navigation": {
     "dashboard": "Panel",
+    "monitoring": "Monitoreo",
     "models": "Modelos",
     "status": "Estado",
     "benchmarks": "Puntos de Referencia",
@@ -53,6 +54,10 @@
         ]
       }
     },
+    "featuredModels": {
+      "title": "Modelos IA Destacados",
+      "viewDetails": "Ver Detalles"
+    },
     "legend": {
       "operational": "Operacional",
       "degraded": "Degradado",
@@ -68,6 +73,19 @@
     },
     "alerts": {
       "apiMode": "Ejecutándose en modo API para un rendimiento óptimo de Vercel. Los datos se actualizan cada 30 segundos."
+    }
+  },
+  "monitoring": {
+    "title": "Monitoreo del Sistema",
+    "subtitle": "Métricas del sistema y resumen de rendimiento en tiempo real",
+    "unifiedChart": {
+      "title": "Resumen del Sistema",
+      "description": "Métricas combinadas de modelos, disponibilidad y rendimiento",
+      "help": [
+        "Combina modelos activos, disponibilidad y métricas de rendimiento en una vista",
+        "El eje izquierdo muestra el recuento de modelos, el eje derecho muestra el porcentaje de disponibilidad",
+        "Las líneas muestran diferentes tendencias de estado del modelo a lo largo del tiempo"
+      ]
     }
   },
   "common": {

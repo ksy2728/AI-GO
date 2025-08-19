@@ -1,6 +1,7 @@
 {
   "navigation": {
     "dashboard": "대시보드",
+    "monitoring": "모니터링",
     "models": "모델",
     "status": "상태",
     "benchmarks": "벤치마크",
@@ -53,6 +54,10 @@
         ]
       }
     },
+    "featuredModels": {
+      "title": "주요 AI 모델",
+      "viewDetails": "상세 보기"
+    },
     "legend": {
       "operational": "운영 중",
       "degraded": "성능 저하",
@@ -68,6 +73,19 @@
     },
     "alerts": {
       "apiMode": "최적의 Vercel 성능을 위해 API 모드로 실행 중입니다. 데이터는 30초마다 새로고침됩니다."
+    }
+  },
+  "monitoring": {
+    "title": "시스템 모니터링",
+    "subtitle": "실시간 시스템 메트릭 및 성능 개요",
+    "unifiedChart": {
+      "title": "시스템 개요",
+      "description": "모델, 가용성 및 성능 메트릭 통합 뷰",
+      "help": [
+        "활성 모델, 가용성 및 성능 메트릭을 하나의 뷰에 결합",
+        "왼쪽 축은 모델 수, 오른쪽 축은 가용성 백분율 표시",
+        "라인은 시간에 따른 다양한 모델 상태 추세를 표시"
+      ]
     }
   },
   "common": {

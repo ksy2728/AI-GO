@@ -54,28 +54,27 @@ export function StatsCard({
   return (
     <Card className="relative overflow-hidden hover:shadow-lg transition-shadow">
       {icon && (
-        <div className="absolute right-4 top-4 text-gray-200">
+        <div className="absolute right-2 top-2 text-gray-200 scale-50 opacity-30">
           {icon}
         </div>
       )}
-      <CardHeader className="pb-2">
-        <CardTitle className="text-sm font-medium text-gray-600">
+      <CardHeader className="pb-0 pt-2 px-3">
+        <CardTitle className="text-xs font-medium text-gray-600">
           {title}
         </CardTitle>
       </CardHeader>
-      <CardContent>
-        <div className="text-2xl font-bold text-gray-900">{value}</div>
+      <CardContent className="px-3 pb-2 pt-1">
+        <div className="text-lg font-bold text-gray-900">{value}</div>
         {(change !== undefined || description) && (
-          <div className="flex items-center gap-2 mt-2">
+          <div className="flex flex-col gap-0.5 mt-0.5">
             {change !== undefined && (
-              <div className={`flex items-center gap-1 text-sm ${getTrendColor()}`}>
+              <div className={`flex items-center gap-1 text-xs ${getTrendColor()}`}>
                 {getTrendIcon()}
-                <span className="font-medium">{change}%</span>
-                {changeLabel && <span className="text-gray-500">vs {changeLabel}</span>}
+                <span className="font-medium">{Math.abs(change)}%</span>
               </div>
             )}
             {description && (
-              <CardDescription className="text-xs">
+              <CardDescription className="text-xs truncate">
                 {description}
               </CardDescription>
             )}

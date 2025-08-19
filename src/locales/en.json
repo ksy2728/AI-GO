@@ -1,6 +1,7 @@
 {
   "navigation": {
     "dashboard": "Dashboard",
+    "monitoring": "Monitoring",
     "models": "Models",
     "status": "Status",
     "benchmarks": "Benchmarks",
@@ -53,6 +54,10 @@
         ]
       }
     },
+    "featuredModels": {
+      "title": "Featured AI Models",
+      "viewDetails": "View Details"
+    },
     "legend": {
       "operational": "Operational",
       "degraded": "Degraded",
@@ -68,6 +73,19 @@
     },
     "alerts": {
       "apiMode": "Running in API mode for optimal Vercel performance. Data refreshes every 30 seconds."
+    }
+  },
+  "monitoring": {
+    "title": "System Monitoring",
+    "subtitle": "Real-time system metrics and performance overview",
+    "unifiedChart": {
+      "title": "System Overview",
+      "description": "Combined metrics for models, availability, and performance",
+      "help": [
+        "Combines active models, availability, and performance metrics in one view",
+        "Left axis shows model counts, right axis shows availability percentage",
+        "Lines show different model status trends over time"
+      ]
     }
   },
   "common": {

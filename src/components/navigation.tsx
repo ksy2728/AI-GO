@@ -22,6 +22,7 @@ import {
 
 const navigationKeys = [
   { key: 'dashboard', href: '/', icon: Home },
+  { key: 'monitoring', href: '/monitoring', icon: Activity },
   { key: 'models', href: '/models', icon: Server },
   { key: 'status', href: '/status', icon: Activity },
   { key: 'benchmarks', href: '/benchmarks', icon: BarChart3 },
@@ -54,7 +55,7 @@ export function Navigation() {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center space-x-4 xl:space-x-8">
+          <div className="hidden lg:flex items-center space-x-1 xl:space-x-2">
             {navigationKeys.map((item) => {
               const isActive = pathname === item.href
               return (
@@ -62,16 +63,16 @@ export function Navigation() {
                   key={item.key}
                   href={item.href}
                   className={cn(
-                    "flex items-center space-x-2 px-3 py-2 rounded-md text-sm font-medium transition-colors",
+                    "flex items-center space-x-1 px-2 py-1 rounded-md text-xs font-medium transition-colors",
                     isActive
                       ? "bg-blue-100 text-blue-700"
                       : "text-gray-600 hover:text-gray-900 hover:bg-gray-100"
                   )}
                 >
-                  <item.icon className="w-4 h-4" />
+                  <item.icon className="w-3.5 h-3.5" />
                   <span>{t(`navigation.${item.key}`)}</span>
                   {item.key === 'status' && (
-                    <Badge variant="success" className="ml-1 text-xs">
+                    <Badge variant="success" className="ml-1 text-xs scale-90">
                       99.8%
                     </Badge>
                   )}
@@ -81,8 +82,8 @@ export function Navigation() {
           </div>
 
           {/* System Status Indicator and Language Selector */}
-          <div className="hidden lg:flex items-center space-x-4 min-w-0">
-            <div className="flex items-center space-x-2 text-sm min-w-0">
+          <div className="hidden lg:flex items-center space-x-2 min-w-0">
+            <div className="flex items-center space-x-1 text-xs min-w-0">
               <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse flex-shrink-0"></div>
               <span className="text-gray-600 truncate whitespace-nowrap">{t('navigation.systemStatus')}</span>
             </div>

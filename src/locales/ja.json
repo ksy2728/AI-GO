@@ -1,6 +1,7 @@
 {
   "navigation": {
     "dashboard": "ダッシュボード",
+    "monitoring": "モニタリング",
     "models": "モデル",
     "status": "ステータス",
     "benchmarks": "ベンチマーク",
@@ -53,6 +54,10 @@
         ]
       }
     },
+    "featuredModels": {
+      "title": "注目AIモデル",
+      "viewDetails": "詳細を見る"
+    },
     "legend": {
       "operational": "稼働中",
       "degraded": "性能低下",
@@ -68,6 +73,19 @@
     },
     "alerts": {
       "apiMode": "最適なVercelパフォーマンスのためAPIモードで実行中。データは30秒ごとに更新されます。"
+    }
+  },
+  "monitoring": {
+    "title": "システムモニタリング",
+    "subtitle": "リアルタイムシステムメトリクスとパフォーマンス概要",
+    "unifiedChart": {
+      "title": "システム概要",
+      "description": "モデル、可用性、パフォーマンスの統合メトリクス",
+      "help": [
+        "アクティブモデル、可用性、パフォーマンスメトリクスを一つのビューに統合",
+        "左軸はモデル数、右軸は可用性パーセンテージを表示",
+        "ラインは時間の経過に伴うさまざまなモデルステータスの傾向を表示"
+      ]
     }
   },
   "common": {

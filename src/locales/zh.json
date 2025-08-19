@@ -1,6 +1,7 @@
 {
   "navigation": {
     "dashboard": "仪表板",
+    "monitoring": "监控",
     "models": "模型",
     "status": "状态",
     "benchmarks": "基准测试",
@@ -53,6 +54,10 @@
         ]
       }
     },
+    "featuredModels": {
+      "title": "特色AI模型",
+      "viewDetails": "查看详情"
+    },
     "legend": {
       "operational": "运行中",
       "degraded": "性能下降",
@@ -68,6 +73,19 @@
     },
     "alerts": {
       "apiMode": "正在以API模式运行以获得最佳的Vercel性能。数据每30秒刷新一次。"
+    }
+  },
+  "monitoring": {
+    "title": "系统监控",
+    "subtitle": "实时系统指标和性能概览",
+    "unifiedChart": {
+      "title": "系统概览",
+      "description": "模型、可用性和性能的综合指标",
+      "help": [
+        "将活动模型、可用性和性能指标结合在一个视图中",
+        "左轴显示模型数量，右轴显示可用性百分比",
+        "线条显示不同模型状态随时间的趋势"
+      ]
     }
   },
   "common": {

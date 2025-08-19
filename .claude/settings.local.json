@@ -104,7 +104,8 @@
       "WebFetch(domain:ai.meta.com)",
       "WebFetch(domain:llama.meta.com)",
       "WebFetch(domain:www.llama.com)",
-      "mcp__playwright-stealth__playwright_hover"
+      "mcp__playwright-stealth__playwright_hover",
+      "Bash(PORT=3006 npm run dev)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
