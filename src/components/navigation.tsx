@@ -37,7 +37,7 @@ export function Navigation() {
   return (
     <header className="bg-white/90 backdrop-blur-md border-b border-gray-200 sticky top-0 z-50">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16 gap-4 overflow-hidden">
+        <div className="flex justify-between items-center h-16 gap-4">
           {/* Logo */}
           <div className="flex items-center flex-shrink-0">
             <Link href="/" className="flex items-center space-x-2">
