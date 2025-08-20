@@ -24,7 +24,6 @@ const navigationKeys = [
   { key: 'dashboard', href: '/', icon: Home },
   { key: 'monitoring', href: '/monitoring', icon: Activity },
   { key: 'models', href: '/models', icon: Server },
-  { key: 'status', href: '/status', icon: Activity },
   { key: 'benchmarks', href: '/benchmarks', icon: BarChart3 },
   { key: 'news', href: '/news', icon: Newspaper },
   { key: 'pricing', href: '/pricing', icon: TrendingUp },
@@ -71,11 +70,6 @@ export function Navigation() {
                 >
                   <item.icon className="w-3.5 h-3.5" />
                   <span>{t(`navigation.${item.key}`)}</span>
-                  {item.key === 'status' && (
-                    <Badge variant="success" className="ml-1 text-xs scale-90">
-                      99.8%
-                    </Badge>
-                  )}
                 </Link>
               )
             })}
@@ -127,11 +121,6 @@ export function Navigation() {
                   >
                     <item.icon className="w-5 h-5" />
                     <span>{t(`navigation.${item.key}`)}</span>
-                    {item.key === 'status' && (
-                      <Badge variant="success" className="ml-auto text-xs">
-                        99.8%
-                      </Badge>
-                    )}
                   </Link>
                 )
               })}
