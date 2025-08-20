@@ -1,21 +1,22 @@
-name: Sync Model Data
+name: Sync Model Data (Optimized)
 
 on:
   schedule:
-    # 5분마다 실행 (로컬 OpenAI 동기화 주기와 동일)
-    - cron: '*/5 * * * *'
-  workflow_dispatch: # 수동 실행 가능
+    # Run every 30 minutes for balanced real-time updates
+    - cron: '*/30 * * * *'
+  workflow_dispatch: # Manual execution
   push:
     branches:
       - master
     paths:
       - 'scripts/sync-models.js'
       - 'scripts/export-to-json.js'
-      - '.github/workflows/sync-data.yml'
+      - '.github/workflows/sync-data-optimized.yml'
 
 jobs:
   sync-data:
     runs-on: ubuntu-latest
+    timeout-minutes: 10 # Prevent hanging jobs
     
     permissions:
       contents: write
@@ -37,22 +38,58 @@ jobs:
           npm ci --production=false
           npx prisma generate
           
+      - name: Create data directory
+        run: |
+          mkdir -p data
+          echo "📁 Data directory ready"
+          
       - name: Setup database
         run: |
+          # Ensure database file exists
+          mkdir -p prisma
+          touch prisma/dev.db
           npx prisma db push --skip-generate
           
-      - name: Run sync script
+      - name: Run sync script with error handling
+        id: sync
         run: |
-          node scripts/sync-models.js
+          node scripts/sync-models.js || {
+            echo "sync_failed=true" >> $GITHUB_OUTPUT
+            echo "⚠️ Sync failed, continuing with export"
+          }
         env:
           DATABASE_URL: "file:./prisma/dev.db"
           NODE_ENV: production
+        continue-on-error: true
           
       - name: Extract data to JSON
+        id: export
         run: |
-          node scripts/export-to-json.js
+          # Create default files if they don't exist
+          if [ ! -f data/models.json ]; then
+            echo '{"models":[],"statistics":{"totalModels":0,"activeModels":0,"operationalModels":0,"avgAvailability":0}}' > data/models.json
+          fi
+          
+          node scripts/export-to-json.js || {
+            echo "export_failed=true" >> $GITHUB_OUTPUT
+            echo "⚠️ Export failed, using existing data"
+          }
         env:
           DATABASE_URL: "file:./prisma/dev.db"
+        continue-on-error: true
+          
+      - name: Validate JSON files
+        run: |
+          # Ensure valid JSON structure
+          for file in data/*.json; do
+            if [ -f "$file" ]; then
+              jq empty "$file" || {
+                echo "⚠️ Invalid JSON in $file, creating backup"
+                mv "$file" "$file.invalid"
+                echo '{}' > "$file"
+              }
+            fi
+          done
           
       - name: Check for changes
         id: check_changes
@@ -73,14 +110,26 @@ jobs:
           git config --local user.name "GitHub Action"
           git add data/
           
-          # 변경 사항 요약 생성
-          TOTAL_MODELS=$(jq -r '.statistics.totalModels' data/models.json)
-          ACTIVE_MODELS=$(jq -r '.statistics.activeModels' data/models.json)
-          OPERATIONAL=$(jq -r '.statistics.operationalModels' data/models.json)
-          AVG_AVAILABILITY=$(jq -r '.statistics.avgAvailability' data/models.json)
+          # Safe JSON parsing with defaults
+          TOTAL_MODELS=$(jq -r '.statistics.totalModels // 0' data/models.json 2>/dev/null || echo "0")
+          ACTIVE_MODELS=$(jq -r '.statistics.activeModels // 0' data/models.json 2>/dev/null || echo "0")
+          OPERATIONAL=$(jq -r '.statistics.operationalModels // 0' data/models.json 2>/dev/null || echo "0")
+          AVG_AVAILABILITY=$(jq -r '.statistics.avgAvailability // 0' data/models.json 2>/dev/null || echo "0")
           
-          git commit -m "chore: update model data [skip ci]" -m "📊 Models: ${TOTAL_MODELS} | Active: ${ACTIVE_MODELS} | Operational: ${OPERATIONAL} | Availability: ${AVG_AVAILABILITY}%
+          git commit -m "feat: update AI models data [skip ci]" -m "📊 Models: ${TOTAL_MODELS} | Active: ${ACTIVE_MODELS} | Operational: ${OPERATIONAL} | Availability: ${AVG_AVAILABILITY}%
           
           🤖 Automated sync at $(date -u '+%Y-%m-%d %H:%M:%S UTC')
-          🔄 Next sync in 5 minutes"
-          git push
+          🔄 Next sync in 30 minutes"
+          
+          git push || {
+            echo "⚠️ Push failed, will retry next run"
+            exit 0
+          }
+          
+      - name: Report sync status
+        if: always()
+        run: |
+          echo "## Sync Report"
+          echo "- Sync: ${{ steps.sync.outputs.sync_failed != 'true' && '✅ Success' || '⚠️ Failed' }}"
+          echo "- Export: ${{ steps.export.outputs.export_failed != 'true' && '✅ Success' || '⚠️ Failed' }}"
+          echo "- Changes: ${{ steps.check_changes.outputs.changes == 'true' && '✅ Detected' || 'ℹ️ None' }}"
