@@ -1,14 +1,15 @@
 name: Sync AI Models Data
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'data/models.json'
-      - 'data/model-status.json'
-  schedule:
-    # Run every 6 hours
-    - cron: '0 */6 * * *'
+  # Disabled - using sync-data.yml instead
+  # push:
+  #   branches: [main]
+  #   paths:
+  #     - 'data/models.json'
+  #     - 'data/model-status.json'
+  # schedule:
+  #   # Run every 6 hours
+  #   - cron: '0 */6 * * *'
   workflow_dispatch:
     inputs:
       force:

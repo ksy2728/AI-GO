@@ -1,16 +1,17 @@
 name: Update Model Data
 
 on:
-  schedule:
-    # Run every 6 hours (4 times a day)
-    - cron: '0 */6 * * *'
+  # Disabled - using sync-data.yml instead
+  # schedule:
+  #   # Run every 6 hours (4 times a day)
+  #   - cron: '0 */6 * * *'
   workflow_dispatch: # Allow manual trigger
-  push:
-    branches:
-      - main
-    paths:
-      - 'prisma/schema.prisma'
-      - 'scripts/export-to-json.js'
+  # push:
+  #   branches:
+  #     - main
+  #   paths:
+  #     - 'prisma/schema.prisma'
+  #     - 'scripts/export-to-json.js'
 
 jobs:
   update-data:

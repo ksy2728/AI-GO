@@ -1,9 +1,10 @@
 name: Sync All AI Provider Models (Simple)
 
 on:
+  # Disabled - using sync-data.yml instead
   workflow_dispatch:
-  schedule:
-    - cron: '0 */6 * * *'
+  # schedule:
+  #   - cron: '0 */6 * * *'
 
 jobs:
   sync:

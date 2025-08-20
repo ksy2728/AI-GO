@@ -2,8 +2,8 @@ name: Sync Model Data (Optimized)
 
 on:
   schedule:
-    # Run every 30 minutes for balanced real-time updates
-    - cron: '*/30 * * * *'
+    # Run every hour to prevent conflicts and reduce load
+    - cron: '0 * * * *'
   workflow_dispatch: # Manual execution
   push:
     branches:

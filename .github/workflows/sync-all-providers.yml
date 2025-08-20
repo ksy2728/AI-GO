@@ -1,9 +1,10 @@
 name: Sync All AI Provider Models
 
 on:
-  schedule:
-    # Run every 6 hours
-    - cron: '0 */6 * * *'
+  # Disabled - using sync-data.yml instead
+  # schedule:
+  #   # Run every 6 hours
+  #   - cron: '0 */6 * * *'
   workflow_dispatch:
     inputs:
       force_update:
