@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "id": "in-a-first-google-has-released-data-on-how-much-en",
+      "title": "In a first, Google has released data on how much energy an AI prompt uses",
+      "summary": "Google has just released a technical report detailing how much energy its Gemini apps use for each query.  In total, the median prompt—one that falls in the middle of the range of energy demand—consum.",
+      "content": "Google has just released a technical report detailing how much energy its Gemini apps use for each query. In total, the median prompt—one that falls in the middle of the range of energy demand—consumes 0.24 watt-hours of electricity, the equivalent of running a standard microwave for about one secon",
+      "source": "MIT Technology Review AI",
+      "author": "Casey Crownhart",
+      "publishedAt": "2025-08-21T12:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gemini",
+        "Google"
+      ],
+      "url": "https://www.technologyreview.com/2025/08/21/1122288/google-gemini-ai-energy/",
+      "readTime": 3,
+      "views": 54080
+    },
+    {
       "id": "gen-ai-makes-no-financial-difference-in-95-of-case",
       "title": "Gen AI makes no financial difference in 95% of cases",
       "summary": "Stocks in US AI technology companies fell in value at the close of trading yesterday, with the NASDAQ Composite index down 1.  Among those losing value were Palantir, down 9.",
@@ -14,7 +32,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/gen-ai-makes-no-financial-difference-in-95-of-cases/",
       "readTime": 3,
-      "views": 28916
+      "views": 44265
     },
     {
       "id": "anthropic-bundles-claude-code-into-enterprise-plan",
@@ -33,7 +51,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/20/anthropic-bundles-claude-code-into-enterprise-plans/",
       "readTime": 3,
-      "views": 46661
+      "views": 24235
     },
     {
       "id": "google-doubles-down-on-8216-ai-phones-8217-with-it",
@@ -50,7 +68,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/20/google-doubles-down-on-ai-phones-with-its-pixel-10-series/",
       "readTime": 3,
-      "views": 53574
+      "views": 46270
     },
     {
       "id": "google-brings-improved-gemini-features-to-its-new-",
@@ -68,7 +86,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/20/google-brings-improved-gemini-features-to-its-new-pixel-buds/",
       "readTime": 3,
-      "views": 39067
+      "views": 41759
     },
     {
       "id": "harvard-dropouts-to-launch-8216-always-on-8217-ai-",
@@ -85,7 +103,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/20/harvard-dropouts-to-launch-always-on-ai-smart-glasses-that-listen-and-record-every-conversation/",
       "readTime": 3,
-      "views": 15211
+      "views": 48409
     },
     {
       "id": "google-cloud-unveils-ai-ally-for-security-teams",
@@ -102,7 +120,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/google-cloud-unveils-ai-ally-for-security-teams/",
       "readTime": 3,
-      "views": 33665
+      "views": 47830
     },
     {
       "id": "dex-is-an-ai-powered-camera-device-that-helps-chil",
@@ -118,7 +136,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/20/dex-is-an-ai-powered-camera-device-that-helps-children-learn-new-languages/",
       "readTime": 3,
-      "views": 50577
+      "views": 37654
     },
     {
       "id": "thousands-of-grok-chats-are-now-searchable-on-goog",
@@ -135,7 +153,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/20/thousands-of-grok-chats-are-now-searchable-on-google/",
       "readTime": 3,
-      "views": 18045
+      "views": 7612
     },
     {
       "id": "fieldai-raises-405m-to-build-universal-robot-brain",
@@ -152,7 +170,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/20/fieldai-raises-405m-to-build-universal-robot-brains/",
       "readTime": 3,
-      "views": 34844
+      "views": 13334
     },
     {
       "id": "y-combinator-alum-sre-ai-raises-7-2m-for-devops-ai",
@@ -168,7 +186,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/20/sre-ai-launches-to-automate-complex-enterprise-workflows/",
       "readTime": 3,
-      "views": 17516
+      "views": 51597
     },
     {
       "id": "yext-unveils-scout-and-launches-webinar-to-help-br",
@@ -184,7 +202,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/yext-unveils-scout-and-launches-webinar-to-help-brands-stay-visible-in-ai-local-search/",
       "readTime": 3,
-      "views": 25399
+      "views": 44292
     },
     {
       "id": "new-nvidia-blackwell-chip-for-china-may-outpace-h2",
@@ -200,7 +218,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/new-nvidia-blackwell-chip-for-china-may-outpace-h20-model/",
       "readTime": 3,
-      "views": 43658
+      "views": 12317
     },
     {
       "id": "meta-is-shaking-up-its-ai-org-again",
@@ -217,7 +235,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/19/meta-is-shaking-up-its-ai-org-again/",
       "readTime": 3,
-      "views": 5774
+      "views": 5964
     },
     {
       "id": "meta-rolls-out-ai-powered-translations-to-creators",
@@ -234,7 +252,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/19/meta-rolls-out-ai-powered-translations-to-creators-globally-starting-with-english-and-spanish/",
       "readTime": 3,
-      "views": 29356
+      "views": 34936
     },
     {
       "id": "uk-urged-to-seize-8216-once-in-20-years-8217-ai-ch",
@@ -250,7 +268,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/uk-urged-seize-once-20-years-ai-chip-design-opportunity/",
       "readTime": 3,
-      "views": 18147
+      "views": 12657
     },
     {
       "id": "ai-crawler-firecrawl-raises-14-5m-is-still-looking",
@@ -266,7 +284,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/19/ai-crawler-firecrawl-raises-14-5m-is-still-looking-to-hire-agents-as-employees/",
       "readTime": 3,
-      "views": 16188
+      "views": 14755
     },
     {
       "id": "hidden-costs-of-ai-implementation-every-ceo-should",
@@ -282,7 +300,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/hidden-costs-of-ai-implementation-every-ceo-should-know/",
       "readTime": 3,
-      "views": 33675
+      "views": 47514
     },
     {
       "id": "eight-sleep-raises-100m-to-expand-its-ai-powered-s",
@@ -298,7 +316,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/19/eight-sleep-grabs-100m-to-bring-ai-into-your-bed/",
       "readTime": 3,
-      "views": 40155
+      "views": 41339
     },
     {
       "id": "should-ai-flatter-us-fix-us-or-just-inform-us",
@@ -318,40 +336,20 @@
       ],
       "url": "https://www.technologyreview.com/2025/08/19/1122021/should-ai-flatter-us-fix-us-or-just-inform-us/",
       "readTime": 3,
-      "views": 48358
-    },
-    {
-      "id": "openai-launches-a-sub-5-chatgpt-plan-in-india",
-      "title": "OpenAI launches a sub-$5 ChatGPT plan in India",
-      "summary": "This plan will offer 10x more messages and image generation than the free tier, among other benefits.",
-      "content": "This plan will offer 10x more messages and image generation than the free tier, among other benefits.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2025-08-19T03:57:15.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gpt",
-        "openai",
-        "chatgpt",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2025/08/18/openai-launches-a-sub-5-chatgpt-plan-in-india/",
-      "readTime": 3,
-      "views": 12541
+      "views": 6291
     }
   ],
-  "lastUpdated": "2025-08-21T06:37:18.952Z",
+  "lastUpdated": "2025-08-21T12:37:42.900Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
+    "MIT Technology Review AI",
     "AI News",
-    "TechCrunch AI",
-    "MIT Technology Review AI"
+    "TechCrunch AI"
   ],
   "categories": [
-    "market",
     "release",
+    "market",
     "funding"
   ]
 }
