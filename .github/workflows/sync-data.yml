@@ -37,6 +37,8 @@ jobs:
         run: |
           npm ci --production=false
           npx prisma generate
+        env:
+          DATABASE_URL: "file:./prisma/dev.db"
           
       - name: Create data directory
         run: |
@@ -49,6 +51,8 @@ jobs:
           mkdir -p prisma
           touch prisma/dev.db
           npx prisma db push --skip-generate
+        env:
+          DATABASE_URL: "file:./prisma/dev.db"
           
       - name: Run sync script with error handling
         id: sync

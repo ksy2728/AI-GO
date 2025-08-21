@@ -36,6 +36,8 @@ jobs:
         run: |
           npx prisma generate
           npx prisma db push
+        env:
+          DATABASE_URL: "file:./prisma/dev.db"
       
       - name: Seed database (if needed)
         run: |
