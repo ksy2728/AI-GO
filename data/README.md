@@ -8,14 +8,14 @@ This directory contains automatically generated data exports from the AI Server 
 - `stats.json` - Summary statistics and analytics
 
 ## Last Updated
-2025-08-22T15:25:22.396Z
+2025-08-22T16:29:58.206Z
 
 ## Statistics
 - **Total Models**: 32
 - **Active Models**: 32
 - **Total Providers**: 10
 - **Operational Models**: 32
-- **Average Availability**: 98.9%
+- **Average Availability**: 99.2%
 
 ## Data Structure
 The JSON files follow a structured format designed for easy consumption by the frontend application and API endpoints.
