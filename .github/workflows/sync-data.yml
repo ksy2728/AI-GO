@@ -11,7 +11,7 @@ on:
     paths:
       - 'scripts/sync-models.js'
       - 'scripts/export-to-json.js'
-      - '.github/workflows/sync-data-optimized.yml'
+      - '.github/workflows/sync-data.yml'
 
 jobs:
   sync-data:
