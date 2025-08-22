@@ -1,14 +1,12 @@
 {
-  "totalModels": 63,
-  "activeModels": 51,
+  "totalModels": 0,
+  "activeModels": 0,
   "totalProviders": 10,
-  "operationalModels": 51,
+  "operationalModels": 0,
   "degradedModels": 0,
   "outageModels": 0,
-  "avgAvailability": 99.53044455087488,
-  "lastUpdated": "2025-08-15T10:48:01.815Z",
-  "typeStatistics": {
-    "undefined": 63
-  },
+  "avgAvailability": null,
+  "lastUpdated": "2025-08-22T14:23:49.846Z",
+  "typeStatistics": {},
   "providerCount": 10
 }
