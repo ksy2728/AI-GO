@@ -46,8 +46,72 @@ async function syncModels() {
       { slug: 'gpt-4', name: 'GPT-4', providerId: 'openai' },
       { slug: 'gpt-3.5-turbo', name: 'GPT-3.5 Turbo', providerId: 'openai' },
       { slug: 'dall-e-3', name: 'DALL-E 3', providerId: 'openai' },
-      { slug: 'whisper-1', name: 'Whisper', providerId: 'openai' }
+      { slug: 'whisper-1', name: 'Whisper', providerId: 'openai' },
+      
+      // Anthropic Models
+      { slug: 'claude-3-opus', name: 'Claude 3 Opus', providerId: 'anthropic' },
+      { slug: 'claude-3-sonnet', name: 'Claude 3 Sonnet', providerId: 'anthropic' },
+      { slug: 'claude-3-haiku', name: 'Claude 3 Haiku', providerId: 'anthropic' },
+      { slug: 'claude-2.1', name: 'Claude 2.1', providerId: 'anthropic' },
+      { slug: 'claude-instant', name: 'Claude Instant', providerId: 'anthropic' },
+      
+      // Google Models
+      { slug: 'gemini-ultra', name: 'Gemini Ultra', providerId: 'google' },
+      { slug: 'gemini-pro', name: 'Gemini Pro', providerId: 'google' },
+      { slug: 'gemini-nano', name: 'Gemini Nano', providerId: 'google' },
+      { slug: 'palm-2', name: 'PaLM 2', providerId: 'google' },
+      { slug: 'bard', name: 'Bard', providerId: 'google' },
+      
+      // Meta Models
+      { slug: 'llama-2-70b', name: 'Llama 2 70B', providerId: 'meta' },
+      { slug: 'llama-2-13b', name: 'Llama 2 13B', providerId: 'meta' },
+      { slug: 'llama-2-7b', name: 'Llama 2 7B', providerId: 'meta' },
+      { slug: 'code-llama', name: 'Code Llama', providerId: 'meta' },
+      
+      // Microsoft Models
+      { slug: 'phi-2', name: 'Phi-2', providerId: 'microsoft' },
+      { slug: 'bing-chat', name: 'Bing Chat', providerId: 'microsoft' },
+      
+      // Mistral Models
+      { slug: 'mistral-large', name: 'Mistral Large', providerId: 'mistral' },
+      { slug: 'mistral-medium', name: 'Mistral Medium', providerId: 'mistral' },
+      { slug: 'mistral-small', name: 'Mistral Small', providerId: 'mistral' },
+      { slug: 'mixtral-8x7b', name: 'Mixtral 8x7B', providerId: 'mistral' },
+      
+      // Cohere Models
+      { slug: 'command-r-plus', name: 'Command R+', providerId: 'cohere' },
+      { slug: 'command-r', name: 'Command R', providerId: 'cohere' },
+      { slug: 'command', name: 'Command', providerId: 'cohere' },
+      
+      // Amazon Models
+      { slug: 'titan-text', name: 'Titan Text', providerId: 'amazon' },
+      { slug: 'titan-embeddings', name: 'Titan Embeddings', providerId: 'amazon' }
     ]
+    
+    // 모델 생성/업데이트
+    for (const modelData of modelsToUpdate) {
+      try {
+        await prisma.model.upsert({
+          where: { slug: modelData.slug },
+          update: {
+            name: modelData.name,
+            providerId: modelData.providerId,
+            isActive: true
+          },
+          create: {
+            slug: modelData.slug,
+            name: modelData.name,
+            providerId: modelData.providerId,
+            isActive: true,
+            modalities: JSON.stringify(['text']),
+            capabilities: JSON.stringify(['generation'])
+          }
+        })
+      } catch (error) {
+        console.error(`⚠️ Failed to upsert model ${modelData.slug}:`, error.message)
+      }
+    }
+    console.log(`✅ ${modelsToUpdate.length} models synchronized`)
     
     // 모델 상태 업데이트만 수행 (기존 모델들의 상태만 갱신)
     // 5분 주기이므로 매번 다른 모델들을 업데이트하여 부하 분산
