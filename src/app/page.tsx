@@ -138,21 +138,6 @@ const fallbackModels = [
     intelligenceIndex: 62.8
   },
   {
-    id: 'llama-3-1-405b',
-    rank: 8,
-    name: 'Llama 3.1 405B',
-    provider: 'Meta',
-    providerLogo: 'https://upload.wikimedia.org/wikipedia/commons/7/7b/Meta_Platforms_Inc._logo.svg',
-    status: 'operational' as const,
-    availability: 98.9,
-    responseTime: 300,
-    errorRate: 0.08,
-    throughput: 600,
-    description: 'Most powerful open-source model available',
-    capabilities: ['Text Generation', 'Code', 'Multilingual', 'Open Source', '128K Context'],
-    intelligenceIndex: 62.8
-  },
-  {
     id: 'mistral-large',
     rank: 9,
     name: 'Mistral Large',
@@ -179,11 +164,17 @@ export default function DashboardPage() {
     subscribeToGlobal: true
   })
   const [apiStats, setApiStats] = useState<any>(null)
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(!FORCE_FALLBACK_ONLY)
   const [modelsWithStatus, setModelsWithStatus] = useState(featuredModels)
 
   // Load data via REST API (primary method for Vercel deployment)
   useEffect(() => {
+    // Skip API calls when forcing fallback mode
+    if (FORCE_FALLBACK_ONLY) {
+      setLoading(false)
+      return
+    }
+
     const fetchStats = async () => {
       try {
         const stats = await api.getModelStats()
