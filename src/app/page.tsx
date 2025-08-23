@@ -156,8 +156,10 @@ const fallbackModels = [
   }
 ]
 
-// Use leaderboard data if available, otherwise use fallback
-const featuredModels = leaderboardData?.models || fallbackModels;
+// Force use leaderboard data to ensure 9 models display
+const featuredModels = leaderboardData?.models && leaderboardData.models.length === 9 
+  ? leaderboardData.models 
+  : fallbackModels;
 
 export default function DashboardPage() {
   const { t } = useLanguage()
@@ -267,11 +269,11 @@ export default function DashboardPage() {
             <div className="flex items-center gap-2">
               <TrendingUp className="w-6 h-6 text-purple-500" />
               <h2 className="text-xl font-bold text-gray-900">
-                Top 9 AI Models from Leading Providers
+                Top {featuredModels.length} AI Models from Leading Providers
               </h2>
             </div>
             <div className="text-xs text-gray-500">
-              Source: Artificial Analysis • Updated: {leaderboardData?.updatedAt ? new Date(leaderboardData.updatedAt).toLocaleDateString() : 'Daily'}
+              Source: Artificial Analysis • Updated: {leaderboardData?.updatedAt ? new Date(leaderboardData.updatedAt).toLocaleDateString() : 'Daily'} • v2.1
             </div>
           </div>
           
