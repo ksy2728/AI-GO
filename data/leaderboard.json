@@ -1,28 +1,69 @@
 {
   "models": [
     {
-      "id": "gpt-4o",
+      "id": "gpt-5-high",
       "rank": 1,
-      "name": "GPT-4o",
+      "name": "GPT-5 (High)",
+      "provider": "OpenAI",
+      "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
+      "status": "operational",
+      "availability": 99.95,
+      "responseTime": 200,
+      "errorRate": 0.02,
+      "throughput": 1100,
+      "description": "Most advanced GPT-5 variant with maximum intelligence",
+      "capabilities": [
+        "Text Generation",
+        "Vision",
+        "Advanced Reasoning",
+        "Code",
+        "Real-time Thinking"
+      ],
+      "intelligenceIndex": 68.95
+    },
+    {
+      "id": "gpt-5-medium",
+      "rank": 2,
+      "name": "GPT-5 (Medium)",
       "provider": "OpenAI",
       "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
       "status": "operational",
       "availability": 99.9,
-      "responseTime": 250,
-      "errorRate": 0.05,
-      "throughput": 850,
-      "description": "Most advanced GPT-4 model with optimized performance",
+      "responseTime": 180,
+      "errorRate": 0.03,
+      "throughput": 1200,
+      "description": "Balanced GPT-5 with excellent performance",
       "capabilities": [
         "Text Generation",
         "Vision",
         "Advanced Reasoning",
         "Code"
       ],
-      "intelligenceIndex": 85.2
+      "intelligenceIndex": 67.53
+    },
+    {
+      "id": "o3",
+      "rank": 3,
+      "name": "o3",
+      "provider": "OpenAI",
+      "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
+      "status": "operational",
+      "availability": 99.8,
+      "responseTime": 220,
+      "errorRate": 0.04,
+      "throughput": 950,
+      "description": "Advanced reasoning model with chain-of-thought",
+      "capabilities": [
+        "Text Generation",
+        "Complex Reasoning",
+        "Mathematics",
+        "Code"
+      ],
+      "intelligenceIndex": 67.07
     },
     {
       "id": "claude-3-opus",
-      "rank": 2,
+      "rank": 4,
       "name": "Claude 3 Opus",
       "provider": "Anthropic",
       "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/7/78/Anthropic_logo.svg",
@@ -36,55 +77,15 @@
         "Text Generation",
         "Vision",
         "Long Context",
-        "Code"
+        "Code",
+        "Constitutional AI"
       ],
-      "intelligenceIndex": 84.8
+      "intelligenceIndex": 66.8
     },
     {
-      "id": "gpt-4-turbo",
-      "rank": 3,
-      "name": "GPT-4 Turbo",
-      "provider": "OpenAI",
-      "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
-      "status": "operational",
-      "availability": 99.8,
-      "responseTime": 280,
-      "errorRate": 0.04,
-      "throughput": 800,
-      "description": "GPT-4 with 128K context and improved capabilities",
-      "capabilities": [
-        "Text Generation",
-        "Vision",
-        "Function Calling",
-        "JSON Mode"
-      ],
-      "intelligenceIndex": 83.5
-    },
-    {
-      "id": "gemini-1.5-pro",
-      "rank": 4,
-      "name": "Gemini 1.5 Pro",
-      "provider": "Google",
-      "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
-      "status": "operational",
-      "availability": 99.5,
-      "responseTime": 300,
-      "errorRate": 0.08,
-      "throughput": 680,
-      "description": "Advanced multimodal model with 1M token context",
-      "capabilities": [
-        "Text Generation",
-        "Vision",
-        "Audio",
-        "Video",
-        "Long Context"
-      ],
-      "intelligenceIndex": 82.9
-    },
-    {
-      "id": "claude-3-sonnet",
+      "id": "claude-3-7-sonnet",
       "rank": 5,
-      "name": "Claude 3 Sonnet",
+      "name": "Claude 3.7 Sonnet",
       "provider": "Anthropic",
       "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/7/78/Anthropic_logo.svg",
       "status": "operational",
@@ -92,38 +93,80 @@
       "responseTime": 200,
       "errorRate": 0.04,
       "throughput": 900,
-      "description": "Balanced Claude model for speed and intelligence",
+      "description": "Latest hybrid reasoning model with advanced capabilities",
+      "capabilities": [
+        "Text Generation",
+        "Hybrid Reasoning",
+        "Vision",
+        "Code"
+      ],
+      "intelligenceIndex": 66.5
+    },
+    {
+      "id": "gemini-2-5-pro",
+      "rank": 6,
+      "name": "Gemini 2.5 Pro",
+      "provider": "Google",
+      "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+      "status": "operational",
+      "availability": 99.5,
+      "responseTime": 280,
+      "errorRate": 0.06,
+      "throughput": 750,
+      "description": "Google's most advanced multimodal model",
       "capabilities": [
         "Text Generation",
         "Vision",
-        "Code",
-        "Constitutional AI"
+        "Audio",
+        "Video",
+        "2M Token Context"
       ],
-      "intelligenceIndex": 79.4
+      "intelligenceIndex": 65.2
     },
     {
-      "id": "llama-3-70b",
-      "rank": 6,
-      "name": "Llama 3 70B",
+      "id": "gemini-2-0-flash",
+      "rank": 7,
+      "name": "Gemini 2.0 Flash",
+      "provider": "Google",
+      "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+      "status": "operational",
+      "availability": 99.6,
+      "responseTime": 150,
+      "errorRate": 0.05,
+      "throughput": 1000,
+      "description": "Fast and efficient model for real-time applications",
+      "capabilities": [
+        "Text Generation",
+        "Vision",
+        "Fast Response",
+        "Multimodal"
+      ],
+      "intelligenceIndex": 63.4
+    },
+    {
+      "id": "llama-3-1-405b",
+      "rank": 8,
+      "name": "Llama 3.1 405B",
       "provider": "Meta",
       "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Meta_Platforms_Inc._logo.svg",
       "status": "operational",
       "availability": 98.9,
-      "responseTime": 180,
-      "errorRate": 0.12,
-      "throughput": 920,
-      "description": "Open-source model with excellent performance",
+      "responseTime": 300,
+      "errorRate": 0.08,
+      "throughput": 600,
+      "description": "Most powerful open-source model available",
       "capabilities": [
         "Text Generation",
         "Code",
         "Multilingual",
-        "Open Source"
+        "Open Source",
+        "128K Context"
       ],
-      "intelligenceIndex": 76.8
+      "intelligenceIndex": 62.8
     },
     {
       "id": "mistral-large",
-      "rank": 7,
+      "rank": 9,
       "name": "Mistral Large",
       "provider": "Mistral AI",
       "providerLogo": "https://mistral.ai/images/logo.png",
@@ -132,54 +175,15 @@
       "responseTime": 220,
       "errorRate": 0.07,
       "throughput": 780,
-      "description": "Flagship model from Mistral AI",
+      "description": "Europe's leading AI model with strong multilingual support",
       "capabilities": [
         "Text Generation",
         "Code",
         "Function Calling",
-        "JSON Mode"
-      ],
-      "intelligenceIndex": 75.3
-    },
-    {
-      "id": "grok-2",
-      "rank": 8,
-      "name": "Grok-2",
-      "provider": "xAI",
-      "providerLogo": "https://pbs.twimg.com/profile_images/1679958113668284416/5hmeHJmY_400x400.jpg",
-      "status": "operational",
-      "availability": 98.5,
-      "responseTime": 260,
-      "errorRate": 0.09,
-      "throughput": 650,
-      "description": "Real-time information access and reasoning",
-      "capabilities": [
-        "Text Generation",
-        "Real-time Data",
-        "Code",
-        "Humor"
-      ],
-      "intelligenceIndex": 74.2
-    },
-    {
-      "id": "command-r-plus",
-      "rank": 9,
-      "name": "Command R+",
-      "provider": "Cohere",
-      "providerLogo": "https://cohere.ai/favicon.ico",
-      "status": "operational",
-      "availability": 99,
-      "responseTime": 240,
-      "errorRate": 0.06,
-      "throughput": 700,
-      "description": "Advanced RAG and tool-use optimized model",
-      "capabilities": [
-        "Text Generation",
-        "RAG",
-        "Tool Use",
+        "32K Context",
         "Multilingual"
       ],
-      "intelligenceIndex": 72.9
+      "intelligenceIndex": 61.5
     }
   ],
   "updatedAt": "2025-08-23T04:25:12.504Z",
