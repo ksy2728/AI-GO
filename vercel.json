@@ -3,7 +3,8 @@
   "build": {
     "env": {
       "NODE_ENV": "production",
-      "AUTO_SYNC": "true"
+      "AUTO_SYNC": "true",
+      "DATABASE_URL": "file:./prisma/dev.db"
     }
   },
   "crons": [
