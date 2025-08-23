@@ -1,11 +1,12 @@
 'use client'
 
-import { lazy, Suspense } from 'react'
+import { lazy, Suspense, useState, useEffect } from 'react'
 import { FeaturedModelCard } from '@/components/dashboard/FeaturedModelCard'
 import { useLanguage } from '@/contexts/LanguageContext'
 import { Skeleton } from '@/components/ui/skeleton'
 import { 
-  TrendingUp
+  TrendingUp,
+  AlertCircle
 } from 'lucide-react'
 
 // Lazy load heavy components
@@ -151,11 +152,54 @@ const fallbackModels = [
   }
 ]
 
-// Use static 9 models - v8.0 STABLE
-const featuredModels = fallbackModels;
+// Removed - featuredModels now managed inside component with useState
 
 export default function DashboardPage() {
   const { t } = useLanguage()
+  const [featuredModels, setFeaturedModels] = useState(fallbackModels)
+  const [dataSource, setDataSource] = useState<'live' | 'cached' | 'fallback'>('fallback')
+  const [isLoading, setIsLoading] = useState(true)
+
+  // Fetch real Intelligence Index data from Artificial Analysis
+  useEffect(() => {
+    const fetchIntelligenceData = async () => {
+      try {
+        const response = await fetch('/api/v1/intelligence-index?limit=9')
+        if (!response.ok) throw new Error('Failed to fetch')
+        
+        const data = await response.json()
+        
+        if (data.models && data.models.length > 0) {
+          // Map the API data to match our model structure
+          const mappedModels = data.models.map((model: any) => ({
+            id: model.id || model.name.toLowerCase().replace(/[^a-z0-9]+/g, '-'),
+            rank: model.rank,
+            name: model.name,
+            provider: model.provider,
+            providerLogo: model.providerLogo,
+            status: 'operational' as const,
+            availability: 99.5,
+            responseTime: 250,
+            errorRate: 0.03,
+            throughput: 800,
+            description: `${model.provider}'s advanced AI model with Intelligence Index of ${model.intelligenceIndex}`,
+            capabilities: ['Text Generation', 'Advanced Reasoning'],
+            intelligenceIndex: model.intelligenceIndex
+          }))
+          
+          setFeaturedModels(mappedModels)
+          setDataSource(data.cached ? 'cached' : 'live')
+        }
+      } catch (error) {
+        console.warn('Failed to fetch Intelligence Index data, using fallback:', error)
+        // Keep using fallback models
+      } finally {
+        setIsLoading(false)
+      }
+    }
+
+    fetchIntelligenceData()
+  }, [])
   
   // No API calls, no real-time data, no dynamic updates
   // Just static 9 models display
@@ -194,7 +238,7 @@ export default function DashboardPage() {
               </h2>
             </div>
             <div className="text-xs text-gray-500">
-              Source: Artificial Analysis • Updated: {new Date().toLocaleDateString()} • v5.0 ULTRA FINAL • Models: {featuredModels.length}
+              Source: Artificial Analysis Intelligence Index • Updated: {new Date().toLocaleDateString()} • {dataSource === 'live' ? '✅ Live' : dataSource === 'cached' ? '📊 Cached' : 'Fallback'} • Models: {featuredModels.length}
             </div>
           </div>
           

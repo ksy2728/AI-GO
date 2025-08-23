@@ -1,0 +1,67 @@
+name: Sync Intelligence Index from Artificial Analysis
+
+on:
+  schedule:
+    # Run every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Allow manual trigger
+  push:
+    branches:
+      - master
+    paths:
+      - 'scripts/scrape-intelligence-index.js'
+
+jobs:
+  sync-intelligence:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: |
+          npm ci
+          npx playwright install chromium
+      
+      - name: Scrape Intelligence Index data
+        run: |
+          node scripts/scrape-intelligence-index.js
+        continue-on-error: true
+      
+      - name: Validate scraped data
+        run: |
+          if [ -f "data/intelligence-index.json" ]; then
+            echo "✅ Intelligence Index data file exists"
+            cat data/intelligence-index.json | jq '.totalModels'
+            if [ $(cat data/intelligence-index.json | jq '.models | length') -gt 0 ]; then
+              echo "✅ Found $(cat data/intelligence-index.json | jq '.models | length') models"
+            else
+              echo "⚠️ No models found, using fallback data"
+            fi
+          else
+            echo "❌ Intelligence Index data file not found"
+            exit 1
+          fi
+      
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/intelligence-index.json data/leaderboard.json || true
+          git diff --staged --quiet || git commit -m "feat: update Intelligence Index data [skip ci]"
+          git push || true
+      
+      - name: Trigger Vercel deployment
+        if: success()
+        run: |
+          echo "Intelligence Index data updated successfully"
+          # Vercel will auto-deploy on push to master

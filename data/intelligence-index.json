@@ -1,0 +1,175 @@
+{
+  "models": [
+    {
+      "rank": 1,
+      "id": "gpt-5-high",
+      "name": "GPT-5 (High)",
+      "provider": "OpenAI",
+      "intelligenceIndex": 69,
+      "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
+      "scrapedAt": "2025-08-23T15:00:00.000Z"
+    },
+    {
+      "rank": 2,
+      "id": "gpt-5-medium",
+      "name": "GPT-5 (Medium)",
+      "provider": "OpenAI",
+      "intelligenceIndex": 68,
+      "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
+      "scrapedAt": "2025-08-23T15:00:00.000Z"
+    },
+    {
+      "rank": 3,
+      "id": "grok-4",
+      "name": "Grok 4",
+      "provider": "xAI",
+      "intelligenceIndex": 68,
+      "providerLogo": "https://pbs.twimg.com/profile_images/1679958113668284416/5hmeHJmY_400x400.jpg",
+      "scrapedAt": "2025-08-23T15:00:00.000Z"
+    },
+    {
+      "rank": 4,
+      "id": "o3",
+      "name": "o3",
+      "provider": "OpenAI",
+      "intelligenceIndex": 67,
+      "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
+      "scrapedAt": "2025-08-23T15:00:00.000Z"
+    },
+    {
+      "rank": 5,
+      "id": "gemini-2-5-pro",
+      "name": "Gemini 2.5 Pro",
+      "provider": "Google",
+      "intelligenceIndex": 65,
+      "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+      "scrapedAt": "2025-08-23T15:00:00.000Z"
+    },
+    {
+      "rank": 6,
+      "id": "o4-mini-high",
+      "name": "o4-mini (high)",
+      "provider": "OpenAI",
+      "intelligenceIndex": 65,
+      "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
+      "scrapedAt": "2025-08-23T15:00:00.000Z"
+    },
+    {
+      "rank": 7,
+      "id": "gpt-5-mini",
+      "name": "GPT-5 mini",
+      "provider": "OpenAI",
+      "intelligenceIndex": 64,
+      "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
+      "scrapedAt": "2025-08-23T15:00:00.000Z"
+    },
+    {
+      "rank": 8,
+      "id": "qwen3-235b-reasoning",
+      "name": "Qwen3 235B (Reasoning)",
+      "provider": "Alibaba",
+      "intelligenceIndex": 64,
+      "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/0/09/Alibaba_Group_Logo.svg",
+      "scrapedAt": "2025-08-23T15:00:00.000Z"
+    },
+    {
+      "rank": 9,
+      "id": "claude-4-sonnet-thinking",
+      "name": "Claude 4 Sonnet Thinking",
+      "provider": "Anthropic",
+      "intelligenceIndex": 59,
+      "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/7/78/Anthropic_logo.svg",
+      "scrapedAt": "2025-08-23T15:00:00.000Z"
+    }
+  ],
+  "totalModels": 9,
+  "topModels": [
+    {
+      "rank": 1,
+      "id": "gpt-5-high",
+      "name": "GPT-5 (High)",
+      "provider": "OpenAI",
+      "intelligenceIndex": 69,
+      "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
+      "scrapedAt": "2025-08-23T15:00:00.000Z"
+    },
+    {
+      "rank": 2,
+      "id": "gpt-5-medium",
+      "name": "GPT-5 (Medium)",
+      "provider": "OpenAI",
+      "intelligenceIndex": 68,
+      "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
+      "scrapedAt": "2025-08-23T15:00:00.000Z"
+    },
+    {
+      "rank": 3,
+      "id": "grok-4",
+      "name": "Grok 4",
+      "provider": "xAI",
+      "intelligenceIndex": 68,
+      "providerLogo": "https://pbs.twimg.com/profile_images/1679958113668284416/5hmeHJmY_400x400.jpg",
+      "scrapedAt": "2025-08-23T15:00:00.000Z"
+    },
+    {
+      "rank": 4,
+      "id": "o3",
+      "name": "o3",
+      "provider": "OpenAI",
+      "intelligenceIndex": 67,
+      "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
+      "scrapedAt": "2025-08-23T15:00:00.000Z"
+    },
+    {
+      "rank": 5,
+      "id": "gemini-2-5-pro",
+      "name": "Gemini 2.5 Pro",
+      "provider": "Google",
+      "intelligenceIndex": 65,
+      "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+      "scrapedAt": "2025-08-23T15:00:00.000Z"
+    },
+    {
+      "rank": 6,
+      "id": "o4-mini-high",
+      "name": "o4-mini (high)",
+      "provider": "OpenAI",
+      "intelligenceIndex": 65,
+      "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
+      "scrapedAt": "2025-08-23T15:00:00.000Z"
+    },
+    {
+      "rank": 7,
+      "id": "gpt-5-mini",
+      "name": "GPT-5 mini",
+      "provider": "OpenAI",
+      "intelligenceIndex": 64,
+      "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
+      "scrapedAt": "2025-08-23T15:00:00.000Z"
+    },
+    {
+      "rank": 8,
+      "id": "qwen3-235b-reasoning",
+      "name": "Qwen3 235B (Reasoning)",
+      "provider": "Alibaba",
+      "intelligenceIndex": 64,
+      "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/0/09/Alibaba_Group_Logo.svg",
+      "scrapedAt": "2025-08-23T15:00:00.000Z"
+    },
+    {
+      "rank": 9,
+      "id": "claude-4-sonnet-thinking",
+      "name": "Claude 4 Sonnet Thinking",
+      "provider": "Anthropic",
+      "intelligenceIndex": 59,
+      "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/7/78/Anthropic_logo.svg",
+      "scrapedAt": "2025-08-23T15:00:00.000Z"
+    }
+  ],
+  "metadata": {
+    "source": "Artificial Analysis",
+    "url": "https://artificialanalysis.ai/leaderboards/models",
+    "scrapedAt": "2025-08-23T15:00:00.000Z",
+    "version": "2.0"
+  }
+}
