@@ -169,8 +169,11 @@ const fallbackModels = [
   }
 ]
 
-// Force use fallback models to bypass cache issues - v3.0
-const featuredModels = fallbackModels;
+// Force use fallback models to bypass cache issues - v4.0 FINAL
+const featuredModels = fallbackModels.map(model => ({
+  ...model,
+  lastUpdated: '2025-08-23T12:30:00Z' // Cache bust timestamp
+}));
 
 export default function DashboardPage() {
   const { t } = useLanguage()
@@ -284,7 +287,7 @@ export default function DashboardPage() {
               </h2>
             </div>
             <div className="text-xs text-gray-500">
-              Source: Artificial Analysis • Updated: {new Date().toLocaleDateString()} • v3.0 • Models: {featuredModels.length}
+              Source: Artificial Analysis • Updated: {new Date().toLocaleDateString()} • v4.0 FINAL • Models: {featuredModels.length} • Cache Bust: 2025-08-23T12:30
             </div>
           </div>
           
