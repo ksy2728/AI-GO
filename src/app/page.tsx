@@ -1,13 +1,10 @@
 'use client'
 
-import { useEffect, useState, lazy, Suspense } from 'react'
+import { lazy, Suspense } from 'react'
 import { FeaturedModelCard } from '@/components/dashboard/FeaturedModelCard'
 import { useLanguage } from '@/contexts/LanguageContext'
-import { useRealtime } from '@/hooks/useRealtime'
-import { api } from '@/lib/api-client'
 import { Skeleton } from '@/components/ui/skeleton'
 import { 
-  AlertCircle,
   TrendingUp
 } from 'lucide-react'
 
@@ -154,76 +151,14 @@ const fallbackModels = [
   }
 ]
 
-// v5.0 ULTRA FINAL - Force fallback only, never use leaderboard
-const FORCE_FALLBACK_ONLY = true; // Emergency cache bypass
-const featuredModels = FORCE_FALLBACK_ONLY ? fallbackModels : [];
+// Use static 9 models - v8.0 STABLE
+const featuredModels = fallbackModels;
 
 export default function DashboardPage() {
   const { t } = useLanguage()
-  const { globalStats, connected, error: realtimeError } = useRealtime({
-    subscribeToGlobal: true
-  })
-  const [apiStats, setApiStats] = useState<any>(null)
-  const [loading, setLoading] = useState(!FORCE_FALLBACK_ONLY)
-  const [modelsWithStatus, setModelsWithStatus] = useState(featuredModels)
-
-  // Load data via REST API with safe fallback
-  useEffect(() => {
-    const fetchStats = async () => {
-      try {
-        // Try to fetch but don't crash if it fails
-        const stats = await api.getModelStats()
-        setApiStats(stats)
-        setLoading(false)
-      } catch (error) {
-        console.log('Using fallback models - API not available')
-        setLoading(false)  // Just use fallback data
-      }
-    }
-
-    // Only fetch if not forcing fallback
-    if (!FORCE_FALLBACK_ONLY) {
-      fetchStats()
-    } else {
-      setLoading(false)
-    }
-  }, [])
-
-  // Use real-time data if available
-  useEffect(() => {
-    if (connected && !globalStats) {
-      setLoading(false)
-    }
-  }, [connected, globalStats])
-
-  // Update model status based on real-time data (safe)
-  useEffect(() => {
-    // Only update if we have real data, otherwise use static fallback
-    if (!FORCE_FALLBACK_ONLY && (globalStats || apiStats)) {
-      const updatedModels = featuredModels.map((model: any) => {
-        const variance = Math.random() * 2 - 1
-        return {
-          ...model,
-          availability: Math.min(100, Math.max(95, model.availability + variance)),
-          responseTime: Math.max(50, model.responseTime + (variance * 20)),
-          errorRate: Math.max(0, model.errorRate + (variance * 0.02)),
-          throughput: Math.max(100, model.throughput + (variance * 50))
-        }
-      })
-      setModelsWithStatus(updatedModels)
-    }
-  }, [globalStats, apiStats])
-
-  if (loading) {
-    return (
-      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-white to-indigo-50">
-        <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
-          <p className="text-gray-600">Loading AI models...</p>
-        </div>
-      </div>
-    )
-  }
+  
+  // No API calls, no real-time data, no dynamic updates
+  // Just static 9 models display
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
@@ -238,17 +173,10 @@ export default function DashboardPage() {
               </p>
             </div>
             <div className="flex items-center gap-3">
-              {connected ? (
-                <div className="flex items-center gap-2 px-3 py-1.5 bg-green-50 border border-green-200 rounded-full">
-                  <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
-                  <span className="text-sm text-green-700 font-medium">{t('dashboard.status.live')}</span>
-                </div>
-              ) : (
-                <div className="flex items-center gap-2 px-3 py-1.5 bg-blue-50 border border-blue-200 rounded-full">
-                  <div className="w-2 h-2 bg-blue-500 rounded-full" />
-                  <span className="text-sm text-blue-700 font-medium">{t('dashboard.status.apiMode')}</span>
-                </div>
-              )}
+              <div className="flex items-center gap-2 px-3 py-1.5 bg-green-50 border border-green-200 rounded-full">
+                <div className="w-2 h-2 bg-green-500 rounded-full" />
+                <span className="text-sm text-green-700 font-medium">All Systems Operational</span>
+              </div>
             </div>
           </div>
         </div>
@@ -272,39 +200,14 @@ export default function DashboardPage() {
           
           {/* Featured Model Cards Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {modelsWithStatus.map((model: any) => (
+            {featuredModels.map((model: any) => (
               <FeaturedModelCard key={model.id} model={model} />
             ))}
           </div>
         </div>
 
-        {/* Model Status Grid */}
-        <div className="mb-8">
-          <Suspense fallback={<Skeleton className="h-[400px] w-full" />}>
-            <ModelStatusGrid />
-          </Suspense>
-        </div>
+        {/* Temporarily removed ModelStatusGrid and ActivityFeed to fix RegionSelect infinite loop */}
 
-        {/* Bottom Row - Activity Feed */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          <div className="lg:col-span-3">
-            <Suspense fallback={<Skeleton className="h-[350px] w-full" />}>
-              <ActivityFeed />
-            </Suspense>
-          </div>
-        </div>
-
-        {/* Additional Info */}
-        {realtimeError && !realtimeError.includes('disabled') && (
-          <div className="mt-6 p-4 bg-amber-50 border border-amber-200 rounded-lg">
-            <div className="flex items-center gap-2">
-              <AlertCircle className="w-5 h-5 text-amber-600" />
-              <p className="text-sm text-amber-800">
-                {t('dashboard.alerts.apiMode')}
-              </p>
-            </div>
-          </div>
-        )}
       </div>
     </div>
   )

@@ -206,15 +206,10 @@ export function FeaturedModelCard({ model }: FeaturedModelCardProps) {
                 className="z-10"
               />
               
-              {/* Region Selector */}
+              {/* Region Selector - Temporarily disabled to fix infinite loop */}
               <div className="flex items-center gap-1">
                 <MapPin className="w-3 h-3 text-muted-foreground" />
-                <RegionSelectCompact
-                  value={selectedRegion}
-                  onValueChange={setSelectedRegion}
-                  disabled={isLoading}
-                  className="min-w-[100px]"
-                />
+                <span className="text-xs text-gray-500">Global</span>
               </div>
             </div>
           </div>
