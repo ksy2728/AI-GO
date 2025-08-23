@@ -1,0 +1,1489 @@
+[
+  {
+    "id": "5770e2b2-e657-46ac-b82b-d8ffc661f519",
+    "slug": "openai-gpt-4o",
+    "name": "GPT-4o",
+    "provider": "OpenAI",
+    "providerId": "d1bc7be5-7ca8-4e90-a733-c8ecadad1231",
+    "description": "Most advanced multimodal flagship model",
+    "isActive": true,
+    "contextWindow": 128000,
+    "maxOutputTokens": 16384,
+    "capabilities": [
+      "chat",
+      "analysis",
+      "coding",
+      "vision",
+      "function-calling",
+      "json-mode"
+    ],
+    "modalities": [
+      "text",
+      "vision",
+      "audio"
+    ],
+    "pricing": {
+      "inputPerMillion": 2.5,
+      "outputPerMillion": 10
+    }
+  },
+  {
+    "id": "94b7ab4b-9556-4324-9714-993381eac36c",
+    "slug": "openai-gpt-4o-mini",
+    "name": "GPT-4o mini",
+    "provider": "OpenAI",
+    "providerId": "d1bc7be5-7ca8-4e90-a733-c8ecadad1231",
+    "description": "Affordable small model for fast tasks",
+    "isActive": true,
+    "contextWindow": 128000,
+    "maxOutputTokens": 16384,
+    "capabilities": [
+      "chat",
+      "analysis",
+      "coding",
+      "vision",
+      "function-calling"
+    ],
+    "modalities": [
+      "text",
+      "vision"
+    ],
+    "pricing": {
+      "inputPerMillion": 0.15,
+      "outputPerMillion": 0.6
+    }
+  },
+  {
+    "id": "2d95e0a6-98a4-4082-ad75-6990e3531c5b",
+    "slug": "openai-gpt-4-turbo",
+    "name": "GPT-4 Turbo",
+    "provider": "OpenAI",
+    "providerId": "d1bc7be5-7ca8-4e90-a733-c8ecadad1231",
+    "description": "Previous generation flagship model",
+    "isActive": true,
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "capabilities": [
+      "chat",
+      "analysis",
+      "coding",
+      "vision",
+      "function-calling"
+    ],
+    "modalities": [
+      "text",
+      "vision"
+    ],
+    "pricing": {
+      "inputPerMillion": 10,
+      "outputPerMillion": 30
+    }
+  },
+  {
+    "id": "6fa355c0-774a-4eeb-812c-9bbc142260ba",
+    "slug": "openai-gpt-3.5-turbo",
+    "name": "GPT-3.5 Turbo",
+    "provider": "OpenAI",
+    "providerId": "d1bc7be5-7ca8-4e90-a733-c8ecadad1231",
+    "description": "Fast and cost-effective model",
+    "isActive": true,
+    "contextWindow": 16385,
+    "maxOutputTokens": 4096,
+    "capabilities": [
+      "chat",
+      "analysis",
+      "coding",
+      "function-calling"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": {
+      "inputPerMillion": 0.5,
+      "outputPerMillion": 1.5
+    }
+  },
+  {
+    "id": "c2c8fe54-405b-41e0-aa15-b76261640b58",
+    "slug": "openai-o1-preview",
+    "name": "o1-preview",
+    "provider": "OpenAI",
+    "providerId": "d1bc7be5-7ca8-4e90-a733-c8ecadad1231",
+    "description": "Reasoning model for complex tasks",
+    "isActive": true,
+    "contextWindow": 128000,
+    "maxOutputTokens": 32768,
+    "capabilities": [
+      "reasoning",
+      "analysis",
+      "coding",
+      "math"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": {
+      "inputPerMillion": 15,
+      "outputPerMillion": 60
+    }
+  },
+  {
+    "id": "e007d92c-b4d9-4610-818c-fb5a0b3ed9f2",
+    "slug": "openai-o1-mini",
+    "name": "o1-mini",
+    "provider": "OpenAI",
+    "providerId": "d1bc7be5-7ca8-4e90-a733-c8ecadad1231",
+    "description": "Faster reasoning model",
+    "isActive": true,
+    "contextWindow": 128000,
+    "maxOutputTokens": 65536,
+    "capabilities": [
+      "reasoning",
+      "analysis",
+      "coding",
+      "math"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": {
+      "inputPerMillion": 3,
+      "outputPerMillion": 12
+    }
+  },
+  {
+    "id": "7a7ed2ff-9217-4fa4-9cad-b72ede34b993",
+    "slug": "openai-dall-e-3",
+    "name": "DALL·E 3",
+    "provider": "OpenAI",
+    "providerId": "d1bc7be5-7ca8-4e90-a733-c8ecadad1231",
+    "description": "Advanced text-to-image model",
+    "isActive": true,
+    "contextWindow": null,
+    "maxOutputTokens": null,
+    "capabilities": [
+      "image-generation",
+      "text-to-image"
+    ],
+    "modalities": [
+      "image"
+    ],
+    "pricing": {
+      "inputPerMillion": 0,
+      "outputPerMillion": 0
+    }
+  },
+  {
+    "id": "fa7b3f63-f023-4134-b02a-fc2deb165b71",
+    "slug": "openai-whisper-1",
+    "name": "Whisper",
+    "provider": "OpenAI",
+    "providerId": "d1bc7be5-7ca8-4e90-a733-c8ecadad1231",
+    "description": "Speech to text model",
+    "isActive": true,
+    "contextWindow": null,
+    "maxOutputTokens": null,
+    "capabilities": [
+      "speech-to-text",
+      "transcription",
+      "translation"
+    ],
+    "modalities": [
+      "audio"
+    ],
+    "pricing": {
+      "inputPerMillion": 0,
+      "outputPerMillion": 0
+    }
+  },
+  {
+    "id": "79317bfd-6b9f-4448-9393-19c705dcf239",
+    "slug": "openai-tts-1",
+    "name": "TTS",
+    "provider": "OpenAI",
+    "providerId": "d1bc7be5-7ca8-4e90-a733-c8ecadad1231",
+    "description": "Text to speech model",
+    "isActive": true,
+    "contextWindow": null,
+    "maxOutputTokens": null,
+    "capabilities": [
+      "text-to-speech"
+    ],
+    "modalities": [
+      "audio"
+    ],
+    "pricing": {
+      "inputPerMillion": 0,
+      "outputPerMillion": 0
+    }
+  },
+  {
+    "id": "e0ee3467-55b0-4b9e-86de-4d7761f93e20",
+    "slug": "openai-tts-1-hd",
+    "name": "TTS HD",
+    "provider": "OpenAI",
+    "providerId": "d1bc7be5-7ca8-4e90-a733-c8ecadad1231",
+    "description": "High quality text to speech",
+    "isActive": true,
+    "contextWindow": null,
+    "maxOutputTokens": null,
+    "capabilities": [
+      "text-to-speech"
+    ],
+    "modalities": [
+      "audio"
+    ],
+    "pricing": {
+      "inputPerMillion": 0,
+      "outputPerMillion": 0
+    }
+  },
+  {
+    "id": "162c3c00-c91c-415f-bb7c-4ec7f2b29630",
+    "slug": "anthropic-claude-3.5-sonnet",
+    "name": "Claude 3.5 Sonnet",
+    "provider": "Anthropic",
+    "providerId": "df8a9652-3f5e-4d3d-9c11-c875533d5a40",
+    "description": "Most intelligent model from Anthropic",
+    "isActive": true,
+    "contextWindow": 200000,
+    "maxOutputTokens": 8192,
+    "capabilities": [
+      "chat",
+      "analysis",
+      "coding",
+      "vision",
+      "computer-use"
+    ],
+    "modalities": [
+      "text",
+      "vision"
+    ],
+    "pricing": {
+      "inputPerMillion": 3,
+      "outputPerMillion": 15
+    }
+  },
+  {
+    "id": "72b4d651-2d73-4644-b082-703387687f9d",
+    "slug": "anthropic-claude-3.5-haiku",
+    "name": "Claude 3.5 Haiku",
+    "provider": "Anthropic",
+    "providerId": "df8a9652-3f5e-4d3d-9c11-c875533d5a40",
+    "description": "Fast and affordable model",
+    "isActive": true,
+    "contextWindow": 200000,
+    "maxOutputTokens": 8192,
+    "capabilities": [
+      "chat",
+      "analysis",
+      "coding"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": {
+      "inputPerMillion": 1,
+      "outputPerMillion": 5
+    }
+  },
+  {
+    "id": "8c7a559c-a2a0-49ee-90c6-6627c51fc7bc",
+    "slug": "anthropic-claude-3-opus",
+    "name": "Claude 3 Opus",
+    "provider": "Anthropic",
+    "providerId": "df8a9652-3f5e-4d3d-9c11-c875533d5a40",
+    "description": "Powerful model for complex tasks",
+    "isActive": true,
+    "contextWindow": 200000,
+    "maxOutputTokens": 4096,
+    "capabilities": [
+      "chat",
+      "analysis",
+      "coding",
+      "vision"
+    ],
+    "modalities": [
+      "text",
+      "vision"
+    ],
+    "pricing": {
+      "inputPerMillion": 15,
+      "outputPerMillion": 75
+    }
+  },
+  {
+    "id": "69bf657c-e075-491a-92ad-df99a7231b17",
+    "slug": "anthropic-claude-3-sonnet",
+    "name": "Claude 3 Sonnet",
+    "provider": "Anthropic",
+    "providerId": "df8a9652-3f5e-4d3d-9c11-c875533d5a40",
+    "description": "Balanced performance and cost",
+    "isActive": true,
+    "contextWindow": 200000,
+    "maxOutputTokens": 4096,
+    "capabilities": [
+      "chat",
+      "analysis",
+      "coding",
+      "vision"
+    ],
+    "modalities": [
+      "text",
+      "vision"
+    ],
+    "pricing": {
+      "inputPerMillion": 3,
+      "outputPerMillion": 15
+    }
+  },
+  {
+    "id": "67370f6c-59dc-4ed9-8922-c9ac34340a8d",
+    "slug": "anthropic-claude-3-haiku",
+    "name": "Claude 3 Haiku",
+    "provider": "Anthropic",
+    "providerId": "df8a9652-3f5e-4d3d-9c11-c875533d5a40",
+    "description": "Fastest Claude 3 model",
+    "isActive": true,
+    "contextWindow": 200000,
+    "maxOutputTokens": 4096,
+    "capabilities": [
+      "chat",
+      "analysis",
+      "coding",
+      "vision"
+    ],
+    "modalities": [
+      "text",
+      "vision"
+    ],
+    "pricing": {
+      "inputPerMillion": 0.25,
+      "outputPerMillion": 1.25
+    }
+  },
+  {
+    "id": "13ffde89-452a-412f-b88d-7e9a680131a5",
+    "slug": "google-gemini-1.5-pro",
+    "name": "Gemini 1.5 Pro",
+    "provider": "Google AI",
+    "providerId": "b91aef76-6254-4f34-9607-453eff3aa990",
+    "description": "Advanced multimodal model with long context",
+    "isActive": true,
+    "contextWindow": 2000000,
+    "maxOutputTokens": 8192,
+    "capabilities": [
+      "chat",
+      "analysis",
+      "coding",
+      "vision",
+      "audio",
+      "video"
+    ],
+    "modalities": [
+      "text",
+      "vision",
+      "audio",
+      "video"
+    ],
+    "pricing": {
+      "inputPerMillion": 1.25,
+      "outputPerMillion": 5
+    }
+  },
+  {
+    "id": "241d3b51-f688-4205-b301-17edeee05928",
+    "slug": "google-gemini-1.5-flash",
+    "name": "Gemini 1.5 Flash",
+    "provider": "Google AI",
+    "providerId": "b91aef76-6254-4f34-9607-453eff3aa990",
+    "description": "Fast multimodal model",
+    "isActive": true,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 8192,
+    "capabilities": [
+      "chat",
+      "analysis",
+      "coding",
+      "vision",
+      "audio",
+      "video"
+    ],
+    "modalities": [
+      "text",
+      "vision",
+      "audio",
+      "video"
+    ],
+    "pricing": {
+      "inputPerMillion": 0.075,
+      "outputPerMillion": 0.3
+    }
+  },
+  {
+    "id": "52ff85e6-c2b6-4aae-b855-33dadbd15b07",
+    "slug": "google-gemini-1.5-flash-8b",
+    "name": "Gemini 1.5 Flash-8B",
+    "provider": "Google AI",
+    "providerId": "b91aef76-6254-4f34-9607-453eff3aa990",
+    "description": "Small and fast multimodal model",
+    "isActive": true,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 8192,
+    "capabilities": [
+      "chat",
+      "analysis",
+      "coding",
+      "vision"
+    ],
+    "modalities": [
+      "text",
+      "vision"
+    ],
+    "pricing": {
+      "inputPerMillion": 0.0375,
+      "outputPerMillion": 0.15
+    }
+  },
+  {
+    "id": "5d3498b5-ce5e-4b0b-8641-e66d4476965e",
+    "slug": "google-gemini-2.0-flash-exp",
+    "name": "Gemini 2.0 Flash (Experimental)",
+    "provider": "Google AI",
+    "providerId": "b91aef76-6254-4f34-9607-453eff3aa990",
+    "description": "Next-gen experimental multimodal model",
+    "isActive": true,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 8192,
+    "capabilities": [
+      "chat",
+      "analysis",
+      "coding",
+      "vision",
+      "audio",
+      "multimodal-live"
+    ],
+    "modalities": [
+      "text",
+      "vision",
+      "audio"
+    ],
+    "pricing": {
+      "inputPerMillion": 0,
+      "outputPerMillion": 0
+    }
+  },
+  {
+    "id": "87a38442-8605-43e4-ae20-4db16d684d33",
+    "slug": "google-gemini-exp-1206",
+    "name": "Gemini Experimental 1206",
+    "provider": "Google AI",
+    "providerId": "b91aef76-6254-4f34-9607-453eff3aa990",
+    "description": "Experimental model with enhanced reasoning",
+    "isActive": true,
+    "contextWindow": 2000000,
+    "maxOutputTokens": 8192,
+    "capabilities": [
+      "chat",
+      "analysis",
+      "coding",
+      "reasoning"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": {
+      "inputPerMillion": 0,
+      "outputPerMillion": 0
+    }
+  },
+  {
+    "id": "10b766c0-6149-43fc-908a-40a0be5ab629",
+    "slug": "meta-llama-3.1-405b",
+    "name": "Llama 3.1 405B",
+    "provider": "Meta AI",
+    "providerId": "baf1ca42-c081-4069-b9a7-4bff66656be1",
+    "description": "Largest open-source model",
+    "isActive": true,
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "capabilities": [
+      "chat",
+      "analysis",
+      "coding",
+      "multilingual"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": null
+  },
+  {
+    "id": "dd28d0f2-9a07-45b6-b754-48aa899cbbc4",
+    "slug": "meta-llama-3.1-70b",
+    "name": "Llama 3.1 70B",
+    "provider": "Meta AI",
+    "providerId": "baf1ca42-c081-4069-b9a7-4bff66656be1",
+    "description": "Large open model with strong performance",
+    "isActive": true,
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "capabilities": [
+      "chat",
+      "analysis",
+      "coding",
+      "multilingual"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": null
+  },
+  {
+    "id": "aeaad524-3015-40e1-ad75-4afd5cf3b289",
+    "slug": "meta-llama-3.1-8b",
+    "name": "Llama 3.1 8B",
+    "provider": "Meta AI",
+    "providerId": "baf1ca42-c081-4069-b9a7-4bff66656be1",
+    "description": "Efficient open model",
+    "isActive": true,
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "capabilities": [
+      "chat",
+      "analysis",
+      "coding",
+      "multilingual"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": null
+  },
+  {
+    "id": "1b344bdc-03cb-4633-8e7b-7e86c2134dec",
+    "slug": "meta-llama-3.2-90b-vision",
+    "name": "Llama 3.2 90B Vision",
+    "provider": "Meta AI",
+    "providerId": "baf1ca42-c081-4069-b9a7-4bff66656be1",
+    "description": "Multimodal open model",
+    "isActive": true,
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "capabilities": [
+      "chat",
+      "analysis",
+      "coding",
+      "vision"
+    ],
+    "modalities": [
+      "text",
+      "vision"
+    ],
+    "pricing": null
+  },
+  {
+    "id": "782b9e50-235b-4aef-b368-07c271bcfe60",
+    "slug": "meta-llama-3.2-11b-vision",
+    "name": "Llama 3.2 11B Vision",
+    "provider": "Meta AI",
+    "providerId": "baf1ca42-c081-4069-b9a7-4bff66656be1",
+    "description": "Efficient multimodal model",
+    "isActive": true,
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "capabilities": [
+      "chat",
+      "analysis",
+      "coding",
+      "vision"
+    ],
+    "modalities": [
+      "text",
+      "vision"
+    ],
+    "pricing": null
+  },
+  {
+    "id": "4c2b0aff-a918-4393-96d9-1b36ab2576e4",
+    "slug": "meta-llama-3.2-3b",
+    "name": "Llama 3.2 3B",
+    "provider": "Meta AI",
+    "providerId": "baf1ca42-c081-4069-b9a7-4bff66656be1",
+    "description": "Lightweight model for edge devices",
+    "isActive": true,
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "capabilities": [
+      "chat",
+      "analysis",
+      "coding"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": null
+  },
+  {
+    "id": "96f3034c-cec9-4000-b048-c83d4ace86a9",
+    "slug": "meta-llama-3.2-1b",
+    "name": "Llama 3.2 1B",
+    "provider": "Meta AI",
+    "providerId": "baf1ca42-c081-4069-b9a7-4bff66656be1",
+    "description": "Ultra-lightweight model",
+    "isActive": true,
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "capabilities": [
+      "chat",
+      "analysis"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": null
+  },
+  {
+    "id": "d11c4518-d336-4bc2-938b-9065dadfff21",
+    "slug": "microsoft-phi-3-medium",
+    "name": "Phi-3 Medium",
+    "provider": "Microsoft",
+    "providerId": "bf6e6a45-676c-44f2-aa07-b66e7dc3e8d6",
+    "description": "Efficient small language model",
+    "isActive": true,
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "capabilities": [
+      "chat",
+      "analysis",
+      "coding"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": null
+  },
+  {
+    "id": "eff81ec8-1d67-49db-9685-86c5ea33a097",
+    "slug": "microsoft-phi-3-mini",
+    "name": "Phi-3 Mini",
+    "provider": "Microsoft",
+    "providerId": "bf6e6a45-676c-44f2-aa07-b66e7dc3e8d6",
+    "description": "Tiny but capable model",
+    "isActive": true,
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "capabilities": [
+      "chat",
+      "analysis",
+      "coding"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": null
+  },
+  {
+    "id": "d7716911-fa78-42a0-8615-eddc93b3a21b",
+    "slug": "mistral-large",
+    "name": "Mistral Large",
+    "provider": "Mistral AI",
+    "providerId": "bd971c02-97e5-475c-9b44-475dac151ef1",
+    "description": "Flagship reasoning model",
+    "isActive": true,
+    "contextWindow": 128000,
+    "maxOutputTokens": 32768,
+    "capabilities": [
+      "chat",
+      "analysis",
+      "coding",
+      "vision",
+      "function-calling"
+    ],
+    "modalities": [
+      "text",
+      "vision"
+    ],
+    "pricing": {
+      "inputPerMillion": 2,
+      "outputPerMillion": 6
+    }
+  },
+  {
+    "id": "d0811833-549b-4972-93e9-79e6018ec7b8",
+    "slug": "mistral-pixtral-large",
+    "name": "Pixtral Large",
+    "provider": "Mistral AI",
+    "providerId": "bd971c02-97e5-475c-9b44-475dac151ef1",
+    "description": "Multimodal frontier model",
+    "isActive": true,
+    "contextWindow": 128000,
+    "maxOutputTokens": 32768,
+    "capabilities": [
+      "chat",
+      "analysis",
+      "coding",
+      "vision"
+    ],
+    "modalities": [
+      "text",
+      "vision"
+    ],
+    "pricing": {
+      "inputPerMillion": 2,
+      "outputPerMillion": 6
+    }
+  },
+  {
+    "id": "9bb61b8f-1566-4868-a663-7ae6a0f32d6f",
+    "slug": "mistral-small",
+    "name": "Mistral Small",
+    "provider": "Mistral AI",
+    "providerId": "bd971c02-97e5-475c-9b44-475dac151ef1",
+    "description": "Cost-efficient reasoning model",
+    "isActive": true,
+    "contextWindow": 32000,
+    "maxOutputTokens": 8192,
+    "capabilities": [
+      "chat",
+      "analysis",
+      "coding",
+      "function-calling"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": {
+      "inputPerMillion": 0.2,
+      "outputPerMillion": 0.6
+    }
+  },
+  {
+    "id": "a2623dc7-9125-4a1a-aed7-0b6f6626ed1e",
+    "slug": "mistral-codestral",
+    "name": "Codestral",
+    "provider": "Mistral AI",
+    "providerId": "bd971c02-97e5-475c-9b44-475dac151ef1",
+    "description": "Code generation specialist",
+    "isActive": true,
+    "contextWindow": 32000,
+    "maxOutputTokens": 8192,
+    "capabilities": [
+      "coding",
+      "code-completion",
+      "analysis"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": {
+      "inputPerMillion": 0.2,
+      "outputPerMillion": 0.6
+    }
+  },
+  {
+    "id": "e4dc633b-8e34-4841-a7d2-cf59de2c30b5",
+    "slug": "amazon-nova-pro",
+    "name": "Amazon Nova Pro",
+    "provider": "Amazon",
+    "providerId": "2a8810f1-c95f-4c55-afbe-89bf2ea8da0b",
+    "description": "Highly capable multimodal model",
+    "isActive": true,
+    "contextWindow": 300000,
+    "maxOutputTokens": 5120,
+    "capabilities": [
+      "chat",
+      "analysis",
+      "coding",
+      "vision",
+      "video"
+    ],
+    "modalities": [
+      "text",
+      "vision",
+      "video"
+    ],
+    "pricing": {
+      "inputPerMillion": 0.8,
+      "outputPerMillion": 3.2
+    }
+  },
+  {
+    "id": "e50615f7-9268-480a-88ab-649dad95d901",
+    "slug": "amazon-nova-lite",
+    "name": "Amazon Nova Lite",
+    "provider": "Amazon",
+    "providerId": "2a8810f1-c95f-4c55-afbe-89bf2ea8da0b",
+    "description": "Fast and cost-effective model",
+    "isActive": true,
+    "contextWindow": 300000,
+    "maxOutputTokens": 5120,
+    "capabilities": [
+      "chat",
+      "analysis",
+      "vision",
+      "video"
+    ],
+    "modalities": [
+      "text",
+      "vision",
+      "video"
+    ],
+    "pricing": {
+      "inputPerMillion": 0.06,
+      "outputPerMillion": 0.24
+    }
+  },
+  {
+    "id": "2249bc3f-f7d2-42a9-9698-495d6b2a9a8c",
+    "slug": "amazon-nova-micro",
+    "name": "Amazon Nova Micro",
+    "provider": "Amazon",
+    "providerId": "2a8810f1-c95f-4c55-afbe-89bf2ea8da0b",
+    "description": "Ultra-fast text model",
+    "isActive": true,
+    "contextWindow": 128000,
+    "maxOutputTokens": 5120,
+    "capabilities": [
+      "chat",
+      "analysis"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": {
+      "inputPerMillion": 0.035,
+      "outputPerMillion": 0.14
+    }
+  },
+  {
+    "id": "60f3769e-30a1-495b-b8d5-57520351b33a",
+    "slug": "gpt-4-turbo",
+    "name": "GPT-4 Turbo",
+    "provider": "OpenAI",
+    "providerId": "d1bc7be5-7ca8-4e90-a733-c8ecadad1231",
+    "description": "Latest GPT-4 model with improved performance and lower costs",
+    "isActive": true,
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "capabilities": [
+      "chat",
+      "completion",
+      "coding",
+      "analysis",
+      "reasoning"
+    ],
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "pricing": {
+      "inputPerMillion": 10,
+      "outputPerMillion": 30
+    }
+  },
+  {
+    "id": "909d24f5-428f-40c4-8b15-bb212f22aa53",
+    "slug": "gpt-4",
+    "name": "GPT-4",
+    "provider": "OpenAI",
+    "providerId": "d1bc7be5-7ca8-4e90-a733-c8ecadad1231",
+    "description": "Advanced language model with strong reasoning capabilities",
+    "isActive": true,
+    "contextWindow": 8192,
+    "maxOutputTokens": 4096,
+    "capabilities": [
+      "chat",
+      "completion",
+      "coding",
+      "analysis",
+      "reasoning"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": {
+      "inputPerMillion": 30,
+      "outputPerMillion": 60
+    }
+  },
+  {
+    "id": "6ff19422-474f-46be-8b8b-d5d4ea927f3a",
+    "slug": "gpt-35-turbo",
+    "name": "GPT-3.5 Turbo",
+    "provider": "OpenAI",
+    "providerId": "d1bc7be5-7ca8-4e90-a733-c8ecadad1231",
+    "description": "Fast and cost-effective model for simple tasks",
+    "isActive": true,
+    "contextWindow": 16385,
+    "maxOutputTokens": 4096,
+    "capabilities": [
+      "chat",
+      "completion",
+      "coding"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": {
+      "inputPerMillion": 0.5,
+      "outputPerMillion": 1.5
+    }
+  },
+  {
+    "id": "bae31bdc-5b04-4600-833d-40e3303a572e",
+    "slug": "gpt-35-turbo-16k",
+    "name": "GPT-3.5 Turbo 16K",
+    "provider": "OpenAI",
+    "providerId": "d1bc7be5-7ca8-4e90-a733-c8ecadad1231",
+    "description": "Extended context version of GPT-3.5 Turbo",
+    "isActive": true,
+    "contextWindow": 16384,
+    "maxOutputTokens": 4096,
+    "capabilities": [
+      "chat",
+      "completion",
+      "coding"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": {
+      "inputPerMillion": 3,
+      "outputPerMillion": 4
+    }
+  },
+  {
+    "id": "49498333-4b2c-4421-a98d-d62ac25ba3cd",
+    "slug": "claude-3-opus-20240229",
+    "name": "Claude 3 Opus",
+    "provider": "Anthropic",
+    "providerId": "df8a9652-3f5e-4d3d-9c11-c875533d5a40",
+    "description": "Most capable model for highly complex tasks",
+    "isActive": false,
+    "contextWindow": 200000,
+    "maxOutputTokens": 4096,
+    "capabilities": [
+      "chat",
+      "analysis",
+      "coding",
+      "creative-writing",
+      "vision"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": {
+      "inputPerMillion": 15,
+      "outputPerMillion": 75
+    }
+  },
+  {
+    "id": "7fa6677d-dd7f-4152-8b55-ecc2b28d7a84",
+    "slug": "claude-3-sonnet-20240229",
+    "name": "Claude 3 Sonnet",
+    "provider": "Anthropic",
+    "providerId": "df8a9652-3f5e-4d3d-9c11-c875533d5a40",
+    "description": "Balanced performance and speed",
+    "isActive": false,
+    "contextWindow": 200000,
+    "maxOutputTokens": 4096,
+    "capabilities": [
+      "chat",
+      "analysis",
+      "coding",
+      "vision"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": {
+      "inputPerMillion": 3,
+      "outputPerMillion": 15
+    }
+  },
+  {
+    "id": "7c073a16-ad52-4ccb-ab98-672130a68ca1",
+    "slug": "claude-3-haiku-20240307",
+    "name": "Claude 3 Haiku",
+    "provider": "Anthropic",
+    "providerId": "df8a9652-3f5e-4d3d-9c11-c875533d5a40",
+    "description": "Fastest and most compact model",
+    "isActive": true,
+    "contextWindow": 200000,
+    "maxOutputTokens": 4096,
+    "capabilities": [
+      "chat",
+      "analysis",
+      "coding",
+      "vision"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": {
+      "inputPerMillion": 0.25,
+      "outputPerMillion": 1.25
+    }
+  },
+  {
+    "id": "33ff31b2-4498-458a-bd9e-e2f5dbb9f18d",
+    "slug": "claude-3-5-sonnet-20241022",
+    "name": "Claude 3.5 Sonnet",
+    "provider": "Anthropic",
+    "providerId": "df8a9652-3f5e-4d3d-9c11-c875533d5a40",
+    "description": "Latest and most capable Sonnet model",
+    "isActive": false,
+    "contextWindow": 200000,
+    "maxOutputTokens": 8192,
+    "capabilities": [
+      "chat",
+      "analysis",
+      "coding",
+      "vision",
+      "computer-use"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": {
+      "inputPerMillion": 3,
+      "outputPerMillion": 15
+    }
+  },
+  {
+    "id": "c76610b1-0b0d-46b8-9ec5-9ebdeca2d36c",
+    "slug": "claude-2.1",
+    "name": "Claude 2.1",
+    "provider": "Anthropic",
+    "providerId": "df8a9652-3f5e-4d3d-9c11-c875533d5a40",
+    "description": "Previous generation model",
+    "isActive": false,
+    "contextWindow": 200000,
+    "maxOutputTokens": 4096,
+    "capabilities": [
+      "chat",
+      "analysis",
+      "coding"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": {
+      "inputPerMillion": 8,
+      "outputPerMillion": 24
+    }
+  },
+  {
+    "id": "f2fb2203-7ff0-4f57-b1c2-79572be6aadc",
+    "slug": "claude-2.0",
+    "name": "Claude 2.0",
+    "provider": "Anthropic",
+    "providerId": "df8a9652-3f5e-4d3d-9c11-c875533d5a40",
+    "description": "Legacy model",
+    "isActive": false,
+    "contextWindow": 100000,
+    "maxOutputTokens": 4096,
+    "capabilities": [
+      "chat",
+      "analysis",
+      "coding"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": {
+      "inputPerMillion": 8,
+      "outputPerMillion": 24
+    }
+  },
+  {
+    "id": "d7880e70-524d-4bb1-98a7-bfcd8f113c26",
+    "slug": "claude-instant-1.2",
+    "name": "Claude Instant 1.2",
+    "provider": "Anthropic",
+    "providerId": "df8a9652-3f5e-4d3d-9c11-c875533d5a40",
+    "description": "Legacy fast model",
+    "isActive": false,
+    "contextWindow": 100000,
+    "maxOutputTokens": 4096,
+    "capabilities": [
+      "chat",
+      "analysis"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": {
+      "inputPerMillion": 0.8,
+      "outputPerMillion": 2.4
+    }
+  },
+  {
+    "id": "69bdd24d-a403-4312-8110-d2babb1c49d8",
+    "slug": "gemini-1.5-pro",
+    "name": "Gemini 1.5 Pro",
+    "provider": "Google AI",
+    "providerId": "b91aef76-6254-4f34-9607-453eff3aa990",
+    "description": "Most capable model for complex reasoning and long context",
+    "isActive": false,
+    "contextWindow": 2097152,
+    "maxOutputTokens": 8192,
+    "capabilities": [
+      "text",
+      "code",
+      "vision",
+      "function-calling",
+      "json-mode"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": {
+      "inputPerMillion": 3.5,
+      "outputPerMillion": 10.5
+    }
+  },
+  {
+    "id": "8b95e322-75b4-4829-a248-4cd3b11dfe6c",
+    "slug": "gemini-1.5-flash",
+    "name": "Gemini 1.5 Flash",
+    "provider": "Google AI",
+    "providerId": "b91aef76-6254-4f34-9607-453eff3aa990",
+    "description": "Fast and efficient model for high-volume tasks",
+    "isActive": false,
+    "contextWindow": 1048576,
+    "maxOutputTokens": 8192,
+    "capabilities": [
+      "text",
+      "code",
+      "vision",
+      "function-calling"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": {
+      "inputPerMillion": 0.35,
+      "outputPerMillion": 1.05
+    }
+  },
+  {
+    "id": "f000b696-fc6b-4775-b83b-12788f6086c1",
+    "slug": "gemini-1.5-flash-8b",
+    "name": "Gemini 1.5 Flash-8B",
+    "provider": "Google AI",
+    "providerId": "b91aef76-6254-4f34-9607-453eff3aa990",
+    "description": "Smallest and fastest model for simple tasks",
+    "isActive": false,
+    "contextWindow": 1048576,
+    "maxOutputTokens": 8192,
+    "capabilities": [
+      "text",
+      "code",
+      "vision"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": {
+      "inputPerMillion": 0.15,
+      "outputPerMillion": 0.6
+    }
+  },
+  {
+    "id": "8303677c-8143-471f-8863-473efa6945a2",
+    "slug": "gemini-pro",
+    "name": "Gemini Pro",
+    "provider": "Google AI",
+    "providerId": "b91aef76-6254-4f34-9607-453eff3aa990",
+    "description": "Previous generation model for general tasks",
+    "isActive": false,
+    "contextWindow": 32768,
+    "maxOutputTokens": 8192,
+    "capabilities": [
+      "text",
+      "code"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": {
+      "inputPerMillion": 0.5,
+      "outputPerMillion": 1.5
+    }
+  },
+  {
+    "id": "18886b54-fe03-43a9-9a17-b57776dc9c72",
+    "slug": "gemini-pro-vision",
+    "name": "Gemini Pro Vision",
+    "provider": "Google AI",
+    "providerId": "b91aef76-6254-4f34-9607-453eff3aa990",
+    "description": "Multimodal model for text and image understanding",
+    "isActive": false,
+    "contextWindow": 16384,
+    "maxOutputTokens": 2048,
+    "capabilities": [
+      "text",
+      "vision"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": {
+      "inputPerMillion": 0.5,
+      "outputPerMillion": 1.5
+    }
+  },
+  {
+    "id": "aade17f4-7b38-4c04-88e2-35bd32e8deb9",
+    "slug": "gemini-ultra",
+    "name": "Gemini Ultra",
+    "provider": "Google AI",
+    "providerId": "b91aef76-6254-4f34-9607-453eff3aa990",
+    "description": "Most powerful model for highly complex tasks (coming soon)",
+    "isActive": false,
+    "contextWindow": 1048576,
+    "maxOutputTokens": 8192,
+    "capabilities": [
+      "text",
+      "code",
+      "vision",
+      "audio",
+      "video",
+      "function-calling"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": {
+      "inputPerMillion": 10,
+      "outputPerMillion": 30
+    }
+  },
+  {
+    "id": "1f6d62b5-2856-4281-a67a-6eea85a5ce19",
+    "slug": "llama-3.1-405b",
+    "name": "Llama 3.1 405B Instruct",
+    "provider": "Meta AI",
+    "providerId": "baf1ca42-c081-4069-b9a7-4bff66656be1",
+    "description": "Largest and most capable Llama model with 128K context",
+    "isActive": true,
+    "contextWindow": 128000,
+    "maxOutputTokens": 128000,
+    "capabilities": [
+      "text",
+      "code",
+      "reasoning",
+      "multilingual",
+      "tool-use"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": {
+      "inputPerMillion": 2,
+      "outputPerMillion": 2
+    }
+  },
+  {
+    "id": "67828dba-e390-4c33-965c-7bbfdcbd2f18",
+    "slug": "llama-3.1-70b",
+    "name": "Llama 3.1 70B Instruct",
+    "provider": "Meta AI",
+    "providerId": "baf1ca42-c081-4069-b9a7-4bff66656be1",
+    "description": "Large Llama model optimized for complex tasks",
+    "isActive": true,
+    "contextWindow": 128000,
+    "maxOutputTokens": 128000,
+    "capabilities": [
+      "text",
+      "code",
+      "reasoning",
+      "multilingual"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": {
+      "inputPerMillion": 0.5,
+      "outputPerMillion": 0.5
+    }
+  },
+  {
+    "id": "4899b1d6-b774-48a0-b5df-5e78b7876908",
+    "slug": "llama-3.1-8b",
+    "name": "Llama 3.1 8B Instruct",
+    "provider": "Meta AI",
+    "providerId": "baf1ca42-c081-4069-b9a7-4bff66656be1",
+    "description": "Efficient model for everyday tasks",
+    "isActive": true,
+    "contextWindow": 128000,
+    "maxOutputTokens": 128000,
+    "capabilities": [
+      "text",
+      "code",
+      "reasoning"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": {
+      "inputPerMillion": 0.05,
+      "outputPerMillion": 0.05
+    }
+  },
+  {
+    "id": "bf3ac09d-ee8d-4659-93da-0a9d0d518ee3",
+    "slug": "llama-3-70b",
+    "name": "Llama 3 70B",
+    "provider": "Meta AI",
+    "providerId": "baf1ca42-c081-4069-b9a7-4bff66656be1",
+    "description": "Previous generation large model",
+    "isActive": true,
+    "contextWindow": 8192,
+    "maxOutputTokens": 4096,
+    "capabilities": [
+      "text",
+      "code",
+      "reasoning"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": {
+      "inputPerMillion": 0.4,
+      "outputPerMillion": 0.4
+    }
+  },
+  {
+    "id": "3e6ba5bd-9b4b-4458-938c-7233987fa885",
+    "slug": "llama-3-8b",
+    "name": "Llama 3 8B",
+    "provider": "Meta AI",
+    "providerId": "baf1ca42-c081-4069-b9a7-4bff66656be1",
+    "description": "Previous generation efficient model",
+    "isActive": true,
+    "contextWindow": 8192,
+    "maxOutputTokens": 4096,
+    "capabilities": [
+      "text",
+      "code"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": {
+      "inputPerMillion": 0.04,
+      "outputPerMillion": 0.04
+    }
+  },
+  {
+    "id": "c1263c8b-24d9-41ad-ae4c-e5ebbc4e9f04",
+    "slug": "llama-2-70b",
+    "name": "Llama 2 70B Chat",
+    "provider": "Meta AI",
+    "providerId": "baf1ca42-c081-4069-b9a7-4bff66656be1",
+    "description": "Legacy model for compatibility",
+    "isActive": true,
+    "contextWindow": 4096,
+    "maxOutputTokens": 2048,
+    "capabilities": [
+      "text",
+      "code"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": {
+      "inputPerMillion": 0.3,
+      "outputPerMillion": 0.3
+    }
+  },
+  {
+    "id": "48ffa675-aab2-4569-be79-0569ee0b6cfb",
+    "slug": "llama-2-13b",
+    "name": "Llama 2 13B Chat",
+    "provider": "Meta AI",
+    "providerId": "baf1ca42-c081-4069-b9a7-4bff66656be1",
+    "description": "Legacy medium-sized model",
+    "isActive": true,
+    "contextWindow": 4096,
+    "maxOutputTokens": 2048,
+    "capabilities": [
+      "text"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": {
+      "inputPerMillion": 0.1,
+      "outputPerMillion": 0.1
+    }
+  },
+  {
+    "id": "0994b51a-06d3-49ee-a0e6-dbf2f1c8ec92",
+    "slug": "llama-2-7b",
+    "name": "Llama 2 7B Chat",
+    "provider": "Meta AI",
+    "providerId": "baf1ca42-c081-4069-b9a7-4bff66656be1",
+    "description": "Legacy small model",
+    "isActive": true,
+    "contextWindow": 4096,
+    "maxOutputTokens": 2048,
+    "capabilities": [
+      "text"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": {
+      "inputPerMillion": 0.05,
+      "outputPerMillion": 0.05
+    }
+  },
+  {
+    "id": "b6e1a914-d176-4844-bad6-68b70cc8e94e",
+    "slug": "code-llama-70b",
+    "name": "Code Llama 70B Instruct",
+    "provider": "Meta AI",
+    "providerId": "baf1ca42-c081-4069-b9a7-4bff66656be1",
+    "description": "Specialized model for code generation",
+    "isActive": true,
+    "contextWindow": 16384,
+    "maxOutputTokens": 4096,
+    "capabilities": [
+      "code",
+      "text"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": {
+      "inputPerMillion": 0.5,
+      "outputPerMillion": 0.5
+    }
+  },
+  {
+    "id": "264ebe60-008e-47d8-8977-6e0bd9ed6094",
+    "slug": "code-llama-34b",
+    "name": "Code Llama 34B",
+    "provider": "Meta AI",
+    "providerId": "baf1ca42-c081-4069-b9a7-4bff66656be1",
+    "description": "Code generation model",
+    "isActive": true,
+    "contextWindow": 16384,
+    "maxOutputTokens": 4096,
+    "capabilities": [
+      "code",
+      "text"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "pricing": {
+      "inputPerMillion": 0.2,
+      "outputPerMillion": 0.2
+    }
+  }
+]

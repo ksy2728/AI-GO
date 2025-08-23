@@ -1,0 +1,122 @@
+[
+  {
+    "id": "d1bc7be5-7ca8-4e90-a733-c8ecadad1231",
+    "slug": "openai",
+    "name": "OpenAI",
+    "logoUrl": null,
+    "websiteUrl": "https://openai.com",
+    "statusPageUrl": "https://status.openai.com",
+    "documentationUrl": "https://platform.openai.com/docs",
+    "regions": [
+      "us-east-1",
+      "eu-west-1"
+    ],
+    "metadata": {
+      "established": 2015,
+      "type": "commercial"
+    }
+  },
+  {
+    "id": "b91aef76-6254-4f34-9607-453eff3aa990",
+    "slug": "google",
+    "name": "Google AI",
+    "logoUrl": null,
+    "websiteUrl": "https://ai.google",
+    "statusPageUrl": "https://status.cloud.google.com",
+    "documentationUrl": "https://ai.google.dev",
+    "regions": [
+      "us-central1",
+      "europe-west4",
+      "asia-northeast1"
+    ],
+    "metadata": {
+      "established": 2017,
+      "type": "commercial"
+    }
+  },
+  {
+    "id": "baf1ca42-c081-4069-b9a7-4bff66656be1",
+    "slug": "meta",
+    "name": "Meta AI",
+    "logoUrl": null,
+    "websiteUrl": "https://ai.meta.com",
+    "statusPageUrl": null,
+    "documentationUrl": "https://llama.meta.com",
+    "regions": [
+      "global"
+    ],
+    "metadata": {
+      "established": 2013,
+      "type": "open-source"
+    }
+  },
+  {
+    "id": "bd971c02-97e5-475c-9b44-475dac151ef1",
+    "slug": "mistral",
+    "name": "Mistral AI",
+    "logoUrl": null,
+    "websiteUrl": "https://mistral.ai",
+    "statusPageUrl": null,
+    "documentationUrl": "https://docs.mistral.ai",
+    "regions": [
+      "eu-west-1"
+    ],
+    "metadata": {
+      "established": 2023,
+      "type": "commercial"
+    }
+  },
+  {
+    "id": "df8a9652-3f5e-4d3d-9c11-c875533d5a40",
+    "slug": "anthropic",
+    "name": "Anthropic",
+    "logoUrl": null,
+    "websiteUrl": "https://anthropic.com",
+    "statusPageUrl": "https://status.anthropic.com",
+    "documentationUrl": "https://docs.anthropic.com",
+    "regions": [
+      "us-east-1",
+      "eu-west-1"
+    ],
+    "metadata": {
+      "established": 2021,
+      "type": "commercial"
+    }
+  },
+  {
+    "id": "2a8810f1-c95f-4c55-afbe-89bf2ea8da0b",
+    "slug": "amazon",
+    "name": "Amazon",
+    "logoUrl": null,
+    "websiteUrl": "https://aws.amazon.com/bedrock",
+    "statusPageUrl": "https://status.aws.amazon.com",
+    "documentationUrl": "https://docs.aws.amazon.com/bedrock",
+    "regions": [
+      "us-east-1",
+      "us-west-2",
+      "eu-west-1"
+    ],
+    "metadata": {
+      "established": 2023,
+      "type": "commercial"
+    }
+  },
+  {
+    "id": "bf6e6a45-676c-44f2-aa07-b66e7dc3e8d6",
+    "slug": "microsoft",
+    "name": "Microsoft",
+    "logoUrl": null,
+    "websiteUrl": "https://microsoft.com/ai",
+    "statusPageUrl": "https://status.azure.com",
+    "documentationUrl": "https://learn.microsoft.com/azure/ai-services",
+    "regions": [
+      "us-east-1",
+      "eu-west-1",
+      "asia-east-1"
+    ],
+    "metadata": {
+      "established": 2016,
+      "type": "commercial"
+    }
+  }
+]
