@@ -10,18 +10,12 @@ import {
   AlertCircle,
   TrendingUp
 } from 'lucide-react'
+// Import leaderboard data directly
+import leaderboardData from '../../data/leaderboard.json';
 
 // Lazy load heavy components
 const ModelStatusGrid = lazy(() => import('@/components/dashboard/ModelStatusGrid').then(mod => ({ default: mod.ModelStatusGrid })))
 const ActivityFeed = lazy(() => import('@/components/dashboard/ActivityFeed').then(mod => ({ default: mod.ActivityFeed })))
-
-// Try to load leaderboard data, fallback to static data if not available
-let leaderboardData: any = null;
-try {
-  leaderboardData = require('../../data/leaderboard.json');
-} catch (e) {
-  // File doesn't exist yet, will use fallback
-}
 
 // Full 9 models data matching the original
 const fallbackModels = [
