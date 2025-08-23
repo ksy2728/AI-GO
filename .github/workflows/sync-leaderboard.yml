@@ -1,0 +1,112 @@
+name: Sync AI Leaderboard
+
+on:
+  schedule:
+    # Run daily at 2 AM UTC (11 AM KST)
+    - cron: '0 2 * * *'
+  workflow_dispatch: # Allow manual trigger
+  push:
+    branches:
+      - master
+    paths:
+      - 'scripts/scrape-leaderboard.js'
+      - '.github/workflows/sync-leaderboard.yml'
+
+jobs:
+  sync-leaderboard:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
+    permissions:
+      contents: write
+      
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          
+      - name: Install Playwright
+        run: |
+          npm install playwright
+          npx playwright install chromium
+          npx playwright install-deps chromium
+          
+      - name: Create data directory
+        run: |
+          mkdir -p data
+          echo "📁 Data directory ready"
+          
+      - name: Scrape Artificial Analysis Leaderboard
+        id: scrape
+        run: |
+          node scripts/scrape-leaderboard.js || {
+            echo "scrape_failed=true" >> $GITHUB_OUTPUT
+            echo "⚠️ Scraping failed, using fallback data"
+          }
+        continue-on-error: true
+          
+      - name: Validate JSON
+        run: |
+          if [ -f data/leaderboard.json ]; then
+            jq empty data/leaderboard.json || {
+              echo "⚠️ Invalid JSON, creating default"
+              echo '{"models":[],"updatedAt":"'$(date -u +"%Y-%m-%dT%H:%M:%SZ")'","source":"Fallback","totalModels":0}' > data/leaderboard.json
+            }
+          else
+            echo "⚠️ File not found, creating default"
+            echo '{"models":[],"updatedAt":"'$(date -u +"%Y-%m-%dT%H:%M:%SZ")'","source":"Fallback","totalModels":0}' > data/leaderboard.json
+          fi
+          
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet data/leaderboard.json; then
+            echo "changes=false" >> $GITHUB_OUTPUT
+            echo "ℹ️ No changes detected in leaderboard data"
+          else
+            echo "changes=true" >> $GITHUB_OUTPUT
+            echo "✅ Changes detected in leaderboard data"
+            git diff --stat data/leaderboard.json
+          fi
+          
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/leaderboard.json
+          
+          # Extract model count from JSON
+          MODEL_COUNT=$(jq -r '.totalModels // 0' data/leaderboard.json 2>/dev/null || echo "0")
+          TOP_MODEL=$(jq -r '.models[0].name // "Unknown"' data/leaderboard.json 2>/dev/null || echo "Unknown")
+          
+          git commit -m "feat: update AI leaderboard data [skip ci]" -m "📊 Top ${MODEL_COUNT} models from Artificial Analysis
+          🥇 #1: ${TOP_MODEL}
+          
+          🤖 Automated sync at $(date -u '+%Y-%m-%d %H:%M:%S UTC')
+          📈 Source: Artificial Analysis Leaderboard"
+          
+          git push || {
+            echo "⚠️ Push failed, will retry next run"
+            exit 0
+          }
+          
+      - name: Report sync status
+        if: always()
+        run: |
+          echo "## Leaderboard Sync Report"
+          echo "- Scraping: ${{ steps.scrape.outputs.scrape_failed != 'true' && '✅ Success' || '⚠️ Failed (using fallback)' }}"
+          echo "- Changes: ${{ steps.check_changes.outputs.changes == 'true' && '✅ Detected' || 'ℹ️ None' }}"
+          
+          if [ -f data/leaderboard.json ]; then
+            echo ""
+            echo "### Scraped Models:"
+            jq -r '.models[] | "- Rank \(.rank): \(.name) (\(.provider))"' data/leaderboard.json 2>/dev/null || echo "No models found"
+          fi

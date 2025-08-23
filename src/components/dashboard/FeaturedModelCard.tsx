@@ -1,21 +1,29 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Card } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
+import { RegionSelectCompact } from '@/components/ui/region-select'
+import { RealTimeStatusBadge } from '@/components/monitoring/RealTimeStatusBadge'
 import { ModelStatusPopup } from './ModelStatusPopup'
 import { useLanguage } from '@/contexts/LanguageContext'
+import { useRegion, useModelMetrics, useRegionApi } from '@/contexts/RegionContext'
 import { 
   Zap, 
   Clock, 
   Activity,
   ChevronRight,
-  Sparkles
+  Sparkles,
+  Trophy,
+  Medal,
+  Award,
+  MapPin
 } from 'lucide-react'
 
 interface FeaturedModelCardProps {
   model: {
     id: string
+    rank?: number
     name: string
     provider: string
     providerLogo?: string
@@ -26,12 +34,71 @@ interface FeaturedModelCardProps {
     throughput: number
     description?: string
     capabilities?: string[]
+    intelligenceIndex?: number
+    inputPrice?: number
+    outputPrice?: number
   }
 }
 
 export function FeaturedModelCard({ model }: FeaturedModelCardProps) {
   const { t } = useLanguage()
   const [showPopup, setShowPopup] = useState(false)
+  
+  // Region context integration
+  const { selectedRegion, setSelectedRegion, isLoading } = useRegion()
+  const { fetchModelMetrics } = useRegionApi()
+  const regionMetrics = useModelMetrics(model.id)
+  
+  // State for region-specific metrics
+  const [displayMetrics, setDisplayMetrics] = useState({
+    availability: model.availability,
+    responseTime: model.responseTime,
+    errorRate: model.errorRate,
+    throughput: model.throughput,
+    status: model.status
+  })
+
+  // Fetch region-specific metrics when region changes
+  useEffect(() => {
+    const fetchRegionData = async () => {
+      try {
+        if (regionMetrics) {
+          // Use cached metrics if available
+          setDisplayMetrics({
+            availability: regionMetrics.availability,
+            responseTime: regionMetrics.responseTime,
+            errorRate: regionMetrics.errorRate,
+            throughput: regionMetrics.throughput,
+            status: regionMetrics.availability > 95 ? 'operational' : 
+                    regionMetrics.availability > 80 ? 'degraded' : 'outage'
+          })
+        } else {
+          // Fetch new metrics for the selected region
+          const metrics = await fetchModelMetrics(model.id)
+          setDisplayMetrics({
+            availability: metrics.availability,
+            responseTime: metrics.responseTime,
+            errorRate: metrics.errorRate,
+            throughput: metrics.throughput,
+            status: metrics.availability > 95 ? 'operational' : 
+                    metrics.availability > 80 ? 'degraded' : 'outage'
+          })
+        }
+      } catch (error) {
+        // Fallback to original model data if fetch fails
+        console.warn('Failed to fetch region-specific metrics:', error)
+        setDisplayMetrics({
+          availability: model.availability,
+          responseTime: model.responseTime,
+          errorRate: model.errorRate,
+          throughput: model.throughput,
+          status: model.status
+        })
+      }
+    }
+
+    fetchRegionData()
+  }, [selectedRegion, model.id, regionMetrics, fetchModelMetrics, model])
 
   const getStatusColor = (status: string) => {
     switch (status) {
@@ -64,21 +131,55 @@ export function FeaturedModelCard({ model }: FeaturedModelCardProps) {
     return `${(ms / 1000).toFixed(1)}s`
   }
 
+  const getRankBadge = (rank?: number) => {
+    if (!rank) return null;
+    
+    switch (rank) {
+      case 1:
+        return (
+          <div className="absolute -top-2 -left-2 bg-gradient-to-r from-yellow-400 to-yellow-600 text-white px-3 py-1 rounded-full flex items-center gap-1 shadow-lg z-20">
+            <Trophy className="w-4 h-4" />
+            <span className="text-sm font-bold">#1</span>
+          </div>
+        );
+      case 2:
+        return (
+          <div className="absolute -top-2 -left-2 bg-gradient-to-r from-gray-400 to-gray-600 text-white px-3 py-1 rounded-full flex items-center gap-1 shadow-lg z-20">
+            <Medal className="w-4 h-4" />
+            <span className="text-sm font-bold">#2</span>
+          </div>
+        );
+      case 3:
+        return (
+          <div className="absolute -top-2 -left-2 bg-gradient-to-r from-orange-400 to-orange-600 text-white px-3 py-1 rounded-full flex items-center gap-1 shadow-lg z-20">
+            <Award className="w-4 h-4" />
+            <span className="text-sm font-bold">#3</span>
+          </div>
+        );
+      default:
+        return (
+          <div className="absolute -top-2 -left-2 bg-gradient-to-r from-blue-400 to-blue-600 text-white px-2 py-1 rounded-full shadow-lg z-20">
+            <span className="text-sm font-bold">#{rank}</span>
+          </div>
+        );
+    }
+  }
+
   return (
     <>
-      <Card
-        className="relative overflow-hidden hover:shadow-xl transition-all duration-300 cursor-pointer group border-2 hover:border-blue-200"
-        onClick={() => setShowPopup(true)}
-      >
-        {/* Gradient Background */}
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-purple-50 opacity-50" />
+      {/* Container with relative positioning to allow badge overflow */}
+      <div className="relative">
+        {/* Ranking Badge - positioned outside the card */}
+        {getRankBadge(model.rank)}
         
-        {/* Sparkle Effect for Featured Models */}
-        <div className="absolute top-3 right-3">
-          <Sparkles className="w-5 h-5 text-purple-400 opacity-60" />
-        </div>
+        <Card
+          className="relative overflow-hidden hover:shadow-xl transition-all duration-300 cursor-pointer group border-2 hover:border-blue-200"
+          onClick={() => setShowPopup(true)}
+        >
+          {/* Gradient Background */}
+          <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-purple-50 opacity-50" />
 
-        <div className="relative p-6">
+          <div className="relative p-6">
           {/* Header */}
           <div className="flex items-start justify-between mb-4">
             <div className="flex items-center gap-3">
@@ -98,10 +199,26 @@ export function FeaturedModelCard({ model }: FeaturedModelCardProps) {
                 <p className="text-sm text-gray-500">{model.provider}</p>
               </div>
             </div>
-            <Badge className={`${getStatusColor(model.status)} flex items-center gap-1`}>
-              {getStatusIcon(model.status)}
-              <span className="capitalize">{model.status}</span>
-            </Badge>
+            <div className="flex flex-col items-end gap-2">
+              {/* Real-time status badge */}
+              <RealTimeStatusBadge 
+                modelId={model.id}
+                fallbackStatus={displayMetrics.status}
+                showDetails={false}
+                className="z-10"
+              />
+              
+              {/* Region Selector */}
+              <div className="flex items-center gap-1">
+                <MapPin className="w-3 h-3 text-muted-foreground" />
+                <RegionSelectCompact
+                  value={selectedRegion}
+                  onValueChange={setSelectedRegion}
+                  disabled={isLoading}
+                  className="min-w-[100px]"
+                />
+              </div>
+            </div>
           </div>
 
           {/* Description */}
@@ -111,37 +228,73 @@ export function FeaturedModelCard({ model }: FeaturedModelCardProps) {
             </p>
           )}
 
-          {/* Metrics Grid */}
+          {/* Intelligence Index */}
+          {model.intelligenceIndex && (
+            <div className="mb-3 p-2 bg-gradient-to-r from-purple-50 to-blue-50 rounded-lg">
+              <div className="flex items-center justify-between">
+                <span className="text-xs text-gray-600 font-medium">Intelligence Index</span>
+                <span className="text-sm font-bold text-purple-700">{model.intelligenceIndex.toFixed(1)}</span>
+              </div>
+            </div>
+          )}
+
+          {/* Metrics Grid - Now showing region-specific data */}
           <div className="grid grid-cols-2 gap-3 mb-4">
             <div className="flex items-center gap-2">
               <Activity className="w-4 h-4 text-blue-500" />
               <div>
                 <p className="text-xs text-gray-500">{t('dashboard.stats.availability') || 'Availability'}</p>
-                <p className="text-sm font-semibold text-gray-900">{model.availability.toFixed(1)}%</p>
+                <p className={`text-sm font-semibold transition-colors ${
+                  isLoading ? 'text-gray-400 animate-pulse' : 'text-gray-900'
+                }`}>
+                  {displayMetrics.availability.toFixed(1)}%
+                </p>
               </div>
             </div>
             <div className="flex items-center gap-2">
               <Clock className="w-4 h-4 text-green-500" />
               <div>
                 <p className="text-xs text-gray-500">{t('dashboard.stats.responseTime') || 'Response'}</p>
-                <p className="text-sm font-semibold text-gray-900">{formatResponseTime(model.responseTime)}</p>
+                <p className={`text-sm font-semibold transition-colors ${
+                  isLoading ? 'text-gray-400 animate-pulse' : 'text-gray-900'
+                }`}>
+                  {formatResponseTime(displayMetrics.responseTime)}
+                </p>
               </div>
             </div>
             <div className="flex items-center gap-2">
               <Zap className="w-4 h-4 text-yellow-500" />
               <div>
                 <p className="text-xs text-gray-500">{t('dashboard.stats.errorRate') || 'Error Rate'}</p>
-                <p className="text-sm font-semibold text-gray-900">{model.errorRate.toFixed(2)}%</p>
+                <p className={`text-sm font-semibold transition-colors ${
+                  isLoading ? 'text-gray-400 animate-pulse' : 'text-gray-900'
+                }`}>
+                  {displayMetrics.errorRate.toFixed(2)}%
+                </p>
               </div>
             </div>
             <div className="flex items-center gap-2">
               <Activity className="w-4 h-4 text-purple-500" />
               <div>
                 <p className="text-xs text-gray-500">{t('dashboard.stats.throughput') || 'Throughput'}</p>
-                <p className="text-sm font-semibold text-gray-900">{model.throughput} req/s</p>
+                <p className={`text-sm font-semibold transition-colors ${
+                  isLoading ? 'text-gray-400 animate-pulse' : 'text-gray-900'
+                }`}>
+                  {displayMetrics.throughput} req/s
+                </p>
               </div>
             </div>
           </div>
+
+          {/* Region indicator */}
+          {isLoading && (
+            <div className="flex items-center justify-center py-2 mb-2">
+              <div className="flex items-center gap-2 text-xs text-muted-foreground">
+                <div className="w-3 h-3 border-2 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
+                <span>Loading {selectedRegion.name} metrics...</span>
+              </div>
+            </div>
+          )}
 
           {/* Capabilities */}
           {model.capabilities && model.capabilities.length > 0 && (
@@ -166,8 +319,9 @@ export function FeaturedModelCard({ model }: FeaturedModelCardProps) {
             </span>
             <ChevronRight className="w-4 h-4 text-blue-600 group-hover:translate-x-1 transition-transform" />
           </div>
-        </div>
-      </Card>
+          </div>
+        </Card>
+      </div>
 
       {/* Model Status Popup */}
       {showPopup && (

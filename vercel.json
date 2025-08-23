@@ -10,6 +10,10 @@
     {
       "path": "/api/cron/sync-temp-data",
       "schedule": "0 6 * * *"
+    },
+    {
+      "path": "/api/cron/status-sync",
+      "schedule": "0 6 * * *"
     }
   ],
   "functions": {
@@ -21,6 +25,12 @@
     },
     "src/app/api/v1/sync/temp-data/route.ts": {
       "maxDuration": 300
+    },
+    "src/app/api/cron/status-sync/route.ts": {
+      "maxDuration": 300
+    },
+    "src/app/api/status-checker/route.ts": {
+      "maxDuration": 30
     }
   },
   "headers": [

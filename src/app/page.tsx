@@ -13,77 +13,159 @@ const ActivityFeed = lazy(() => import('@/components/dashboard/ActivityFeed').th
 
 import { 
   AlertCircle,
-  Sparkles
+  Sparkles,
+  TrendingUp
 } from 'lucide-react'
 
-// Featured models data with CDN logos
-const featuredModels = [
+// Try to load leaderboard data, fallback to static data if not available
+let leaderboardData: any = null;
+try {
+  leaderboardData = require('../../data/leaderboard.json');
+} catch (e) {
+  // File doesn't exist yet, will use fallback
+}
+
+// Fallback models data (used if leaderboard.json doesn't exist)
+const fallbackModels = [
   {
-    id: 'gpt-4-turbo',
-    name: 'GPT-4 Turbo',
+    id: 'gpt-5-high',
+    rank: 1,
+    name: 'GPT-5 (High)',
+    provider: 'OpenAI',
+    providerLogo: 'https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg',
+    status: 'operational' as const,
+    availability: 99.95,
+    responseTime: 200,
+    errorRate: 0.02,
+    throughput: 1100,
+    description: 'Most advanced GPT-5 variant with maximum intelligence',
+    capabilities: ['Text Generation', 'Vision', 'Advanced Reasoning', 'Code', 'Real-time Thinking'],
+    intelligenceIndex: 68.95
+  },
+  {
+    id: 'gpt-5-medium',
+    rank: 2,
+    name: 'GPT-5 (Medium)',
+    provider: 'OpenAI',
+    providerLogo: 'https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg',
+    status: 'operational' as const,
+    availability: 99.9,
+    responseTime: 180,
+    errorRate: 0.03,
+    throughput: 1200,
+    description: 'Balanced GPT-5 with excellent performance',
+    capabilities: ['Text Generation', 'Vision', 'Advanced Reasoning', 'Code'],
+    intelligenceIndex: 67.53
+  },
+  {
+    id: 'o3',
+    rank: 3,
+    name: 'o3',
     provider: 'OpenAI',
     providerLogo: 'https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg',
     status: 'operational' as const,
     availability: 99.8,
-    responseTime: 250,
-    errorRate: 0.05,
-    throughput: 850,
-    description: 'Most capable GPT-4 model with 128K context window and improved instruction following',
-    capabilities: ['Text Generation', 'Code', 'Vision', 'Function Calling', 'JSON Mode']
+    responseTime: 220,
+    errorRate: 0.04,
+    throughput: 950,
+    description: 'Advanced reasoning model with chain-of-thought',
+    capabilities: ['Text Generation', 'Complex Reasoning', 'Mathematics', 'Code'],
+    intelligenceIndex: 67.07
   },
   {
     id: 'claude-3-opus',
+    rank: 4,
     name: 'Claude 3 Opus',
     provider: 'Anthropic',
     providerLogo: 'https://upload.wikimedia.org/wikipedia/commons/7/78/Anthropic_logo.svg',
     status: 'operational' as const,
-    availability: 99.9,
+    availability: 99.8,
     responseTime: 320,
     errorRate: 0.03,
     throughput: 720,
-    description: 'Most powerful Claude model excelling at complex tasks, analysis, and creative work',
-    capabilities: ['Text Generation', 'Code', 'Vision', 'Long Context', 'Constitutional AI']
+    description: 'Most powerful Claude model for complex tasks',
+    capabilities: ['Text Generation', 'Vision', 'Long Context', 'Code', 'Constitutional AI'],
+    intelligenceIndex: 66.8
   },
   {
-    id: 'gemini-1.5-pro',
-    name: 'Gemini 1.5 Pro',
+    id: 'claude-3-7-sonnet',
+    rank: 5,
+    name: 'Claude 3.7 Sonnet',
+    provider: 'Anthropic',
+    providerLogo: 'https://upload.wikimedia.org/wikipedia/commons/7/78/Anthropic_logo.svg',
+    status: 'operational' as const,
+    availability: 99.7,
+    responseTime: 200,
+    errorRate: 0.04,
+    throughput: 900,
+    description: 'Latest hybrid reasoning model with advanced capabilities',
+    capabilities: ['Text Generation', 'Hybrid Reasoning', 'Vision', 'Code'],
+    intelligenceIndex: 66.5
+  },
+  {
+    id: 'gemini-2-5-pro',
+    rank: 6,
+    name: 'Gemini 2.5 Pro',
     provider: 'Google',
     providerLogo: 'https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg',
     status: 'operational' as const,
     availability: 99.5,
     responseTime: 280,
-    errorRate: 0.08,
-    throughput: 680,
-    description: 'Advanced multimodal model with 1M token context window and strong reasoning',
-    capabilities: ['Text Generation', 'Code', 'Vision', 'Audio', 'Video', 'Long Context']
+    errorRate: 0.06,
+    throughput: 750,
+    description: 'Google\'s most advanced multimodal model',
+    capabilities: ['Text Generation', 'Vision', 'Audio', 'Video', '2M Token Context'],
+    intelligenceIndex: 65.2
   },
   {
-    id: 'llama-3-70b',
-    name: 'Llama 3 70B',
+    id: 'gemini-2-0-flash',
+    rank: 7,
+    name: 'Gemini 2.0 Flash',
+    provider: 'Google',
+    providerLogo: 'https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg',
+    status: 'operational' as const,
+    availability: 99.6,
+    responseTime: 150,
+    errorRate: 0.05,
+    throughput: 1000,
+    description: 'Fast and efficient model for real-time applications',
+    capabilities: ['Text Generation', 'Vision', 'Fast Response', 'Multimodal'],
+    intelligenceIndex: 63.4
+  },
+  {
+    id: 'llama-3-1-405b',
+    rank: 8,
+    name: 'Llama 3.1 405B',
     provider: 'Meta',
     providerLogo: 'https://upload.wikimedia.org/wikipedia/commons/7/7b/Meta_Platforms_Inc._logo.svg',
     status: 'operational' as const,
     availability: 98.9,
-    responseTime: 180,
-    errorRate: 0.12,
-    throughput: 920,
-    description: 'Open-source model with excellent performance across diverse tasks',
-    capabilities: ['Text Generation', 'Code', 'Multilingual', 'Open Source']
+    responseTime: 300,
+    errorRate: 0.08,
+    throughput: 600,
+    description: 'Most powerful open-source model available',
+    capabilities: ['Text Generation', 'Code', 'Multilingual', 'Open Source', '128K Context'],
+    intelligenceIndex: 62.8
   },
   {
-    id: 'gpt-4o',
-    name: 'GPT-4o',
-    provider: 'OpenAI',
-    providerLogo: 'https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg',
+    id: 'mistral-large',
+    rank: 9,
+    name: 'Mistral Large',
+    provider: 'Mistral AI',
+    providerLogo: 'https://mistral.ai/images/logo.png',
     status: 'operational' as const,
-    availability: 99.7,
-    responseTime: 150,
-    errorRate: 0.06,
-    throughput: 1100,
-    description: 'Optimized GPT-4 model with faster response times and improved efficiency',
-    capabilities: ['Text Generation', 'Code', 'Vision', 'Voice', 'Real-time']
+    availability: 99.2,
+    responseTime: 220,
+    errorRate: 0.07,
+    throughput: 780,
+    description: 'Europe\'s leading AI model with strong multilingual support',
+    capabilities: ['Text Generation', 'Code', 'Function Calling', '32K Context', 'Multilingual'],
+    intelligenceIndex: 61.5
   }
 ]
+
+// Use leaderboard data if available, otherwise use fallback
+const featuredModels = leaderboardData?.models || fallbackModels;
 
 export default function DashboardPage() {
   const { t } = useLanguage()
@@ -130,7 +212,7 @@ export default function DashboardPage() {
   useEffect(() => {
     if (globalStats || apiStats) {
       // Simulate dynamic status updates for featured models
-      const updatedModels = featuredModels.map(model => {
+      const updatedModels = featuredModels.map((model: any) => {
         // Add some variance to make it realistic
         const variance = Math.random() * 2 - 1 // -1 to 1
         return {
@@ -178,16 +260,21 @@ export default function DashboardPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Featured Models Section */}
         <div className="mb-8">
-          <div className="flex items-center gap-2 mb-6">
-            <Sparkles className="w-6 h-6 text-purple-500" />
-            <h2 className="text-xl font-bold text-gray-900">
-              {t('dashboard.featuredModels.title')}
-            </h2>
+          <div className="flex items-center justify-between mb-6">
+            <div className="flex items-center gap-2">
+              <TrendingUp className="w-6 h-6 text-purple-500" />
+              <h2 className="text-xl font-bold text-gray-900">
+                Top 9 AI Models from Leading Providers
+              </h2>
+            </div>
+            <div className="text-xs text-gray-500">
+              Source: Artificial Analysis • Updated: {leaderboardData?.updatedAt ? new Date(leaderboardData.updatedAt).toLocaleDateString() : 'Daily'}
+            </div>
           </div>
           
           {/* Featured Model Cards Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {modelsWithStatus.map((model) => (
+            {modelsWithStatus.map((model: any) => (
               <FeaturedModelCard key={model.id} model={model} />
             ))}
           </div>

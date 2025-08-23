@@ -233,10 +233,10 @@ export class StatusService {
   }
 
   /**
-   * Get status for a specific model
+   * Get status for a specific model with optional region filtering
    */
-  static async getModelStatus(modelId: string) {
-    const cacheKey = `model:status:${modelId}`
+  static async getModelStatus(modelId: string, region?: string | null) {
+    const cacheKey = region ? `model:status:${modelId}:${region}` : `model:status:${modelId}`
     
     // Check cache first
     const cached = await cache.get(cacheKey)
@@ -246,8 +246,14 @@ export class StatusService {
     }
 
     try {
+      // Build query with optional region filtering
+      const whereClause: any = { modelId }
+      if (region) {
+        whereClause.region = region
+      }
+
       const statusHistory = await prisma.modelStatus.findMany({
-        where: { modelId },
+        where: whereClause,
         orderBy: { checkedAt: 'desc' },
         take: 50 // Last 50 status checks
       })

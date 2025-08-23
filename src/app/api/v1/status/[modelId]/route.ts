@@ -7,6 +7,8 @@ export async function GET(
 ) {
   try {
     const { modelId } = await params
+    const { searchParams } = new URL(request.url)
+    const region = searchParams.get('region')
 
     if (!modelId) {
       return NextResponse.json(
@@ -15,8 +17,8 @@ export async function GET(
       )
     }
 
-    // Get detailed status for specific model
-    const modelStatus = await StatusService.getModelStatus(modelId)
+    // Get detailed status for specific model with optional region filtering
+    const modelStatus = await StatusService.getModelStatus(modelId, region)
 
     if (!modelStatus) {
       return NextResponse.json(
@@ -27,6 +29,7 @@ export async function GET(
 
     return NextResponse.json({
       modelId,
+      region: region || 'all',
       status: modelStatus,
       timestamp: new Date().toISOString(),
     })

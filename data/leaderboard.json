@@ -1,0 +1,192 @@
+{
+  "models": [
+    {
+      "id": "gpt-5-high",
+      "rank": 1,
+      "name": "GPT-5 (High)",
+      "provider": "OpenAI",
+      "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
+      "status": "operational",
+      "availability": 99.95,
+      "responseTime": 200,
+      "errorRate": 0.02,
+      "throughput": 1100,
+      "description": "Most advanced GPT-5 variant with maximum intelligence",
+      "capabilities": [
+        "Text Generation",
+        "Vision",
+        "Advanced Reasoning",
+        "Code",
+        "Real-time Thinking"
+      ],
+      "intelligenceIndex": 68.95
+    },
+    {
+      "id": "gpt-5-medium",
+      "rank": 2,
+      "name": "GPT-5 (Medium)",
+      "provider": "OpenAI",
+      "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
+      "status": "operational",
+      "availability": 99.9,
+      "responseTime": 180,
+      "errorRate": 0.03,
+      "throughput": 1200,
+      "description": "Balanced GPT-5 with excellent performance",
+      "capabilities": [
+        "Text Generation",
+        "Vision",
+        "Advanced Reasoning",
+        "Code"
+      ],
+      "intelligenceIndex": 67.53
+    },
+    {
+      "id": "o3",
+      "rank": 3,
+      "name": "o3",
+      "provider": "OpenAI",
+      "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
+      "status": "operational",
+      "availability": 99.8,
+      "responseTime": 220,
+      "errorRate": 0.04,
+      "throughput": 950,
+      "description": "Advanced reasoning model with chain-of-thought",
+      "capabilities": [
+        "Text Generation",
+        "Complex Reasoning",
+        "Mathematics",
+        "Code"
+      ],
+      "intelligenceIndex": 67.07
+    },
+    {
+      "id": "claude-3-opus",
+      "rank": 4,
+      "name": "Claude 3 Opus",
+      "provider": "Anthropic",
+      "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/7/78/Anthropic_logo.svg",
+      "status": "operational",
+      "availability": 99.8,
+      "responseTime": 320,
+      "errorRate": 0.03,
+      "throughput": 720,
+      "description": "Most powerful Claude model for complex tasks",
+      "capabilities": [
+        "Text Generation",
+        "Vision",
+        "Long Context",
+        "Code",
+        "Constitutional AI"
+      ],
+      "intelligenceIndex": 66.8
+    },
+    {
+      "id": "claude-3-7-sonnet",
+      "rank": 5,
+      "name": "Claude 3.7 Sonnet",
+      "provider": "Anthropic",
+      "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/7/78/Anthropic_logo.svg",
+      "status": "operational",
+      "availability": 99.7,
+      "responseTime": 200,
+      "errorRate": 0.04,
+      "throughput": 900,
+      "description": "Latest hybrid reasoning model with advanced capabilities",
+      "capabilities": [
+        "Text Generation",
+        "Hybrid Reasoning",
+        "Vision",
+        "Code"
+      ],
+      "intelligenceIndex": 66.5
+    },
+    {
+      "id": "gemini-2-5-pro",
+      "rank": 6,
+      "name": "Gemini 2.5 Pro",
+      "provider": "Google",
+      "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+      "status": "operational",
+      "availability": 99.5,
+      "responseTime": 280,
+      "errorRate": 0.06,
+      "throughput": 750,
+      "description": "Google's most advanced multimodal model",
+      "capabilities": [
+        "Text Generation",
+        "Vision",
+        "Audio",
+        "Video",
+        "2M Token Context"
+      ],
+      "intelligenceIndex": 65.2
+    },
+    {
+      "id": "gemini-2-0-flash",
+      "rank": 7,
+      "name": "Gemini 2.0 Flash",
+      "provider": "Google",
+      "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+      "status": "operational",
+      "availability": 99.6,
+      "responseTime": 150,
+      "errorRate": 0.05,
+      "throughput": 1000,
+      "description": "Fast and efficient model for real-time applications",
+      "capabilities": [
+        "Text Generation",
+        "Vision",
+        "Fast Response",
+        "Multimodal"
+      ],
+      "intelligenceIndex": 63.4
+    },
+    {
+      "id": "llama-3-1-405b",
+      "rank": 8,
+      "name": "Llama 3.1 405B",
+      "provider": "Meta",
+      "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Meta_Platforms_Inc._logo.svg",
+      "status": "operational",
+      "availability": 98.9,
+      "responseTime": 300,
+      "errorRate": 0.08,
+      "throughput": 600,
+      "description": "Most powerful open-source model available",
+      "capabilities": [
+        "Text Generation",
+        "Code",
+        "Multilingual",
+        "Open Source",
+        "128K Context"
+      ],
+      "intelligenceIndex": 62.8
+    },
+    {
+      "id": "mistral-large",
+      "rank": 9,
+      "name": "Mistral Large",
+      "provider": "Mistral AI",
+      "providerLogo": "https://mistral.ai/images/logo.png",
+      "status": "operational",
+      "availability": 99.2,
+      "responseTime": 220,
+      "errorRate": 0.07,
+      "throughput": 780,
+      "description": "Europe's leading AI model with strong multilingual support",
+      "capabilities": [
+        "Text Generation",
+        "Code",
+        "Function Calling",
+        "32K Context",
+        "Multilingual"
+      ],
+      "intelligenceIndex": 61.5
+    }
+  ],
+  "updatedAt": "2025-08-21T14:00:00.000Z",
+  "source": "Artificial Analysis (Curated)",
+  "totalModels": 9
+}

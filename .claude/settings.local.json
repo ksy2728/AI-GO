@@ -105,7 +105,10 @@
       "WebFetch(domain:llama.meta.com)",
       "WebFetch(domain:www.llama.com)",
       "mcp__playwright-stealth__playwright_hover",
-      "Bash(PORT=3006 npm run dev)"
+      "Bash(PORT=3006 npm run dev)",
+      "Bash(start https://github.com/ksy2728/AI-GO/actions)",
+      "WebFetch(domain:api.github.com)",
+      "WebFetch(domain:artificialanalysis.ai)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
