@@ -108,7 +108,8 @@
       "Bash(PORT=3006 npm run dev)",
       "Bash(start https://github.com/ksy2728/AI-GO/actions)",
       "WebFetch(domain:api.github.com)",
-      "WebFetch(domain:artificialanalysis.ai)"
+      "WebFetch(domain:artificialanalysis.ai)",
+      "WebFetch(domain:ai-hqj1ip5rc-kim-soo-youngs-projects.vercel.app)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"

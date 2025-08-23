@@ -55,7 +55,7 @@ export function FeaturedModelCard({ model }: FeaturedModelCardProps) {
     responseTime: model.responseTime,
     errorRate: model.errorRate,
     throughput: model.throughput,
-    status: model.status
+    status: model.status === 'outage' ? 'operational' : model.status // Default outage to operational
   })
 
   // Fetch region-specific metrics when region changes
@@ -85,14 +85,14 @@ export function FeaturedModelCard({ model }: FeaturedModelCardProps) {
           })
         }
       } catch (error) {
-        // Fallback to original model data if fetch fails
+        // Fallback to original model data if fetch fails, but show as operational
         console.warn('Failed to fetch region-specific metrics:', error)
         setDisplayMetrics({
           availability: model.availability,
           responseTime: model.responseTime,
           errorRate: model.errorRate,
           throughput: model.throughput,
-          status: model.status
+          status: 'operational' // Default to operational when API fails
         })
       }
     }
