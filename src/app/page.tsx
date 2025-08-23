@@ -185,16 +185,20 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
       {/* Header */}
-      <div className="bg-white/80 backdrop-blur-sm border-b">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <div className="text-center">
-            <h1 className="text-3xl font-bold text-gray-900">AI Model Dashboard</h1>
-            <p className="text-gray-600 mt-2">
-              Real-time monitoring and analytics for AI model performance
-            </p>
-            <div className="mt-4 inline-flex items-center px-3 py-1.5 bg-green-50 border border-green-200 rounded-full">
-              <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse mr-2" />
-              <span className="text-sm text-green-700 font-medium">All Systems Operational</span>
+      <div className="bg-white/80 backdrop-blur-sm border-b sticky top-0 z-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+          <div className="flex items-center justify-between">
+            <div>
+              <h1 className="text-2xl font-bold text-gray-900">AI Model Dashboard</h1>
+              <p className="text-sm text-gray-600 mt-1">
+                Real-time monitoring and analytics for AI model performance
+              </p>
+            </div>
+            <div className="flex items-center gap-3">
+              <div className="flex items-center gap-2 px-3 py-1.5 bg-blue-50 border border-blue-200 rounded-full">
+                <div className="w-2 h-2 bg-blue-500 rounded-full" />
+                <span className="text-sm text-blue-700 font-medium">API Mode</span>
+              </div>
             </div>
           </div>
         </div>
@@ -210,7 +214,7 @@ export default function HomePage() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
               </svg>
               <h2 className="text-xl font-bold text-gray-900">
-                Top AI Models from Leading Providers
+                Top 6 AI Models from Leading Providers
               </h2>
             </div>
             <div className="text-xs text-gray-500">
@@ -237,7 +241,7 @@ export default function HomePage() {
             <div className="text-sm text-gray-600">Avg Response Time</div>
           </div>
           <div className="bg-white rounded-lg shadow-sm border p-6">
-            <div className="text-2xl font-bold text-purple-600">6</div>
+            <div className="text-2xl font-bold text-purple-600">{models.length}</div>
             <div className="text-sm text-gray-600">Active Models</div>
           </div>
           <div className="bg-white rounded-lg shadow-sm border p-6">
@@ -246,21 +250,6 @@ export default function HomePage() {
           </div>
         </div>
 
-        {/* Info Banner */}
-        <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
-          <div className="flex items-center gap-3">
-            <svg className="w-6 h-6 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-            <div>
-              <h3 className="font-semibold text-blue-900">원본 대시보드 복원 완료</h3>
-              <p className="text-sm text-blue-700">
-                배포 문제가 해결되어 AI 모델 대시보드가 정상적으로 작동합니다. 
-                실시간 데이터는 API 연결 후 이용 가능합니다.
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   )
