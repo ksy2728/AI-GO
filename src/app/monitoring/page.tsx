@@ -1,17 +1,12 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { StatsCard } from '@/components/dashboard/StatsCard'
 import { UnifiedChart } from '@/components/monitoring/UnifiedChart'
 import { MetricDescriptions } from '@/components/monitoring/MetricDescriptions'
 import { useRealtime } from '@/hooks/useRealtime'
 import { api } from '@/lib/api-client'
 import { useLanguage } from '@/contexts/LanguageContext'
 import { 
-  Server, 
-  Activity, 
-  TrendingUp, 
-  Shield,
   AlertCircle
 } from 'lucide-react'
 
@@ -56,16 +51,7 @@ export default function MonitoringPage() {
     }
   }, [currentStats, previousStats])
 
-  // Calculate changes
-  const calculateChange = (current?: number, previous?: number) => {
-    if (!current || !previous || previous === 0) return 0
-    return Number(((current - previous) / previous * 100).toFixed(1))
-  }
-
-  const totalModelsChange = calculateChange(currentStats?.totalModels, previousStats?.totalModels)
-  const activeModelsChange = calculateChange(currentStats?.activeModels, previousStats?.activeModels)
-  const availabilityChange = calculateChange(currentStats?.avgAvailability, previousStats?.avgAvailability)
-  const operationalChange = calculateChange(currentStats?.operationalModels, previousStats?.operationalModels)
+  // Calculate changes - removed as stats cards are no longer displayed
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
@@ -97,48 +83,9 @@ export default function MonitoringPage() {
       </div>
 
       {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
-        {/* Stats Grid */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 mb-4">
-          <StatsCard
-            title={'Total Models'}
-            value={currentStats?.totalModels || 0}
-            change={totalModelsChange}
-            changeLabel={'Last Update'}
-            trend={totalModelsChange > 0 ? 'up' : totalModelsChange < 0 ? 'down' : 'neutral'}
-            icon={<Server className="w-8 h-8" />}
-            loading={loading}
-          />
-          <StatsCard
-            title={'Active Models'}
-            value={currentStats?.activeModels || 0}
-            change={activeModelsChange}
-            changeLabel={'Last Update'}
-            trend={activeModelsChange > 0 ? 'up' : activeModelsChange < 0 ? 'down' : 'neutral'}
-            icon={<Activity className="w-8 h-8" />}
-            loading={loading}
-          />
-          <StatsCard
-            title={'Avg Availability'}
-            value={`${currentStats?.avgAvailability?.toFixed(1) || 0}%`}
-            change={availabilityChange}
-            changeLabel={'Last Update'}
-            trend={availabilityChange > 0 ? 'up' : availabilityChange < 0 ? 'down' : 'neutral'}
-            icon={<TrendingUp className="w-8 h-8" />}
-            loading={loading}
-          />
-          <StatsCard
-            title={'Operational'}
-            value={currentStats?.operationalModels || 0}
-            description={`${currentStats?.degradedModels || 0} ${t('dashboard.legend.degraded')?.toLowerCase() || 'degraded'}, ${currentStats?.outageModels || 0} ${t('dashboard.legend.outage')?.toLowerCase() || 'outage'}`}
-            trend={operationalChange > 0 ? 'up' : operationalChange < 0 ? 'down' : 'neutral'}
-            icon={<Shield className="w-8 h-8" />}
-            loading={loading}
-          />
-        </div>
-
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         {/* Unified Chart */}
-        <div className="mb-4">
+        <div className="mb-6">
           <UnifiedChart />
         </div>
 

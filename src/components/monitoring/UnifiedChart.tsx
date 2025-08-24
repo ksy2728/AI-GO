@@ -136,8 +136,8 @@ export function UnifiedChart() {
         </div>
       </CardHeader>
       <CardContent className="pt-2 pb-4">
-        <ResponsiveContainer width="100%" height={280}>
-          <ComposedChart data={chartData} margin={{ top: 20, right: 30, left: 10, bottom: 10 }}>
+        <ResponsiveContainer width="100%" height={400}>
+          <ComposedChart data={chartData} margin={{ top: 20, right: 40, left: 20, bottom: 20 }}>
             
             <CartesianGrid 
               strokeDasharray="3 3" 
@@ -160,11 +160,13 @@ export function UnifiedChart() {
               fontSize={11}
               tick={{ fill: '#6b7280' }}
               axisLine={{ stroke: '#e5e7eb' }}
+              domain={[0, 'dataMax + 10']}
+              ticks={[0, 10, 20, 30, 40, 50]}
               label={{ 
                 value: 'Models Count', 
                 angle: -90, 
                 position: 'insideLeft', 
-                style: { fill: '#6b7280', fontSize: 12 } 
+                style: { fill: '#6b7280', fontSize: 13, fontWeight: 500 } 
               }}
             />
             
@@ -174,13 +176,14 @@ export function UnifiedChart() {
               stroke="#9ca3af"
               fontSize={11}
               tick={{ fill: '#6b7280' }}
-              domain={[90, 100]}
+              domain={[85, 100]}
+              ticks={[85, 90, 95, 100]}
               axisLine={{ stroke: '#e5e7eb' }}
               label={{ 
                 value: 'Availability %', 
                 angle: 90, 
                 position: 'insideRight', 
-                style: { fill: '#6b7280', fontSize: 12 } 
+                style: { fill: '#6b7280', fontSize: 13, fontWeight: 500 } 
               }}
             />
             
