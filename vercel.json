@@ -1,6 +1,6 @@
 {
-  "buildCommand": "npm install && prisma generate && next build",
-  "installCommand": "npm install --force",
+  "buildCommand": "prisma generate && next build",
+  "installCommand": "npm ci || npm install",
   "build": {
     "env": {
       "NODE_ENV": "production",
