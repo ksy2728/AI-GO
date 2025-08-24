@@ -134,6 +134,11 @@
       "Bash(start http://localhost:3005/monitoring)",
       "Bash(git tag:*)",
       "Bash(git merge:*)",
+      "Bash(git checkout:*)",
+      "Bash(git stash show:*)",
+      "Read(/C:\\Users\\user\\Downloads/**)",
+      "Read(/C:\\Users\\user\\Downloads/**)",
+      "Read(/C:\\Users\\user\\Downloads/**)",
       "Read(/C:\\Users\\user\\Downloads/**)"
     ],
     "deny": [],
