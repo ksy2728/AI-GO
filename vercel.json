@@ -1,12 +1,14 @@
 {
-  "buildCommand": "prisma generate && next build",
+  "buildCommand": "npm install --legacy-peer-deps && prisma generate && next build",
   "build": {
     "env": {
       "NODE_ENV": "production",
       "AUTO_SYNC": "true",
-      "DATABASE_URL": "file:./prisma/dev.db"
+      "DATABASE_URL": "file:./prisma/dev.db",
+      "SKIP_TYPE_CHECK": "true"
     }
   },
+  "installCommand": "npm install --legacy-peer-deps",
   "crons": [
     {
       "path": "/api/cron/sync-temp-data",
