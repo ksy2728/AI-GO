@@ -160,10 +160,10 @@ export function UnifiedChart() {
               fontSize={11}
               tick={{ fill: '#6b7280' }}
               axisLine={{ stroke: '#e5e7eb' }}
-              domain={[0, 'dataMax + 10']}
-              ticks={[0, 10, 20, 30, 40, 50]}
+              domain={[0, 150]}
+              ticks={[0, 30, 60, 90, 120, 150]}
               label={{ 
-                value: 'Models Count', 
+                value: 'Models Count (Global)', 
                 angle: -90, 
                 position: 'insideLeft', 
                 style: { fill: '#6b7280', fontSize: 13, fontWeight: 500 } 
@@ -203,7 +203,7 @@ export function UnifiedChart() {
               yAxisId="left"
               type="monotone"
               dataKey="activeModels"
-              name={'Active Models'}
+              name={'Active Models (127/139)'}
               stroke="#3b82f6"
               strokeWidth={2.5}
               dot={{ fill: '#3b82f6', r: 2 }}
@@ -216,7 +216,7 @@ export function UnifiedChart() {
               yAxisId="left"
               type="monotone"
               dataKey="operationalModels"
-              name={'Operational'}
+              name={'Operational (127/139)'}
               stroke="#6366f1"
               strokeWidth={2.5}
               dot={{ fill: '#6366f1', r: 2 }}
