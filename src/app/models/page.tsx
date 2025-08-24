@@ -13,10 +13,15 @@ import { ModelCard } from '@/components/ModelCard'
 import { ModelComparisonModal } from '@/components/ModelComparisonModal'
 import { logger } from '@/lib/logger'
 import { FEATURED_MODELS, MAJOR_PROVIDERS, LATEST_MODELS, MODEL_LIMITS, MODEL_BADGES } from '@/constants/models'
+import { ModelTable } from '@/components/models/ModelTable'
+import { TableErrorBoundary } from '@/components/models/TableErrorBoundary'
+import { transformModelsToTableModels } from '@/lib/models-table-mapper'
 import {
   Search,
   Server,
-  GitCompare
+  GitCompare,
+  Grid,
+  Table
 } from 'lucide-react'
 
 export default function ModelsPage() {
@@ -28,6 +33,7 @@ export default function ModelsPage() {
   const [selectedForComparison, setSelectedForComparison] = useState<Model[]>([])
   const [showComparison, setShowComparison] = useState(false)
   const [showAllModels, setShowAllModels] = useState(false)
+  const [viewMode, setViewMode] = useState<'cards' | 'table'>('cards')
 
   useEffect(() => {
     const fetchModels = async () => {
@@ -158,6 +164,27 @@ export default function ModelsPage() {
               </p>
             </div>
             <div className="flex items-center gap-4">
+              {/* View Toggle */}
+              <div className="flex items-center bg-gray-100 rounded-lg p-1">
+                <Button
+                  variant={viewMode === 'cards' ? 'default' : 'ghost'}
+                  size="sm"
+                  onClick={() => setViewMode('cards')}
+                  className="px-3 py-1.5"
+                >
+                  <Grid className="w-4 h-4 mr-1" />
+                  Cards
+                </Button>
+                <Button
+                  variant={viewMode === 'table' ? 'default' : 'ghost'}
+                  size="sm"
+                  onClick={() => setViewMode('table')}
+                  className="px-3 py-1.5"
+                >
+                  <Table className="w-4 h-4 mr-1" />
+                  Table
+                </Button>
+              </div>
               <Badge variant="secondary" className="text-sm">
                 {filteredModels.length} models
               </Badge>
@@ -255,18 +282,30 @@ export default function ModelsPage() {
           </div>
         )}
 
-        {/* Models Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
-          {displayModels.map((model) => (
-            <ModelCard
-              key={model.id}
-              model={model}
-              isSelectedForComparison={isSelectedForComparison(model)}
-              onCompareToggle={() => toggleModelForComparison(model)}
-              disabled={!isSelectedForComparison(model) && selectedForComparison.length >= MODEL_LIMITS.MAX_COMPARISON}
+        {/* Models Display */}
+        {viewMode === 'cards' ? (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
+            {displayModels.map((model) => (
+              <ModelCard
+                key={model.id}
+                model={model}
+                isSelectedForComparison={isSelectedForComparison(model)}
+                onCompareToggle={() => toggleModelForComparison(model)}
+                disabled={!isSelectedForComparison(model) && selectedForComparison.length >= MODEL_LIMITS.MAX_COMPARISON}
+              />
+            ))}
+          </div>
+        ) : (
+          <TableErrorBoundary 
+            onSwitchToCards={() => setViewMode('cards')}
+            onError={() => console.error('Table rendering error occurred')}
+          >
+            <ModelTable 
+              models={transformModelsToTableModels(displayModels)}
+              className="w-full"
             />
-          ))}
-        </div>
+          </TableErrorBoundary>
+        )}
 
         {filteredModels.length === 0 && !loading && (
           <div className="text-center py-12">
