@@ -49,7 +49,13 @@ const nextConfig = {
   
   // Image optimization
   images: {
-    domains: ['cdn.ai-go.com'],
+    domains: [
+      'cdn.ai-go.com',
+      'upload.wikimedia.org',
+      'mistral.ai',
+      'cohere.com',
+      'huggingface.co',
+    ],
     formats: ['image/avif', 'image/webp'],
     // Enable image optimization
     unoptimized: process.env.NODE_ENV === 'development',

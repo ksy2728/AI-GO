@@ -4,6 +4,7 @@ import { lazy, Suspense, useState, useEffect } from 'react'
 import { FeaturedModelCard } from '@/components/dashboard/FeaturedModelCard'
 import { useLanguage } from '@/contexts/LanguageContext'
 import { Skeleton } from '@/components/ui/skeleton'
+import { getProviderLogo } from '@/constants/providerLogos'
 import { 
   TrendingUp,
   AlertCircle
@@ -176,7 +177,7 @@ export default function DashboardPage() {
             rank: model.rank,
             name: model.name,
             provider: model.provider,
-            providerLogo: model.providerLogo,
+            providerLogo: getProviderLogo(model.provider) || model.providerLogo,
             status: 'operational' as const,
             availability: 99.5,
             responseTime: 250,

@@ -48,6 +48,7 @@ interface FeaturedModelCardProps {
 export function FeaturedModelCard({ model }: FeaturedModelCardProps) {
   const { t } = useLanguage()
   const [isExpanded, setIsExpanded] = useState(false)
+  const [imageError, setImageError] = useState(false)
   
   // Region context integration - Fixed infinite loop
   const { selectedRegion, isLoading } = useRegion()
@@ -189,14 +190,16 @@ export function FeaturedModelCard({ model }: FeaturedModelCardProps) {
           {/* Header */}
           <div className="flex items-start justify-between mb-4">
             <div className="flex items-center gap-3">
-              {model.providerLogo ? (
+              {model.providerLogo && !imageError ? (
                 <img 
                   src={model.providerLogo} 
-                  alt={model.provider}
+                  alt={`${model.provider} logo`}
                   className="w-10 h-10 rounded-lg object-contain bg-white p-1 shadow-sm"
+                  onError={() => setImageError(true)}
+                  loading="lazy"
                 />
               ) : (
-                <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-blue-500 to-purple-500 flex items-center justify-center text-white font-bold">
+                <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-blue-500 to-purple-500 flex items-center justify-center text-white font-bold shadow-sm">
                   {model.provider.charAt(0)}
                 </div>
               )}
