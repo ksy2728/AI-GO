@@ -133,7 +133,8 @@
       "Read(/C:\\Users\\user\\Downloads/**)",
       "Bash(start http://localhost:3005/monitoring)",
       "Bash(git tag:*)",
-      "Bash(git merge:*)"
+      "Bash(git merge:*)",
+      "Read(/C:\\Users\\user\\Downloads/**)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
