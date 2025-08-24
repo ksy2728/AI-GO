@@ -4,8 +4,8 @@ const nextConfig = {
   
   // Force rebuild with unique build ID
   generateBuildId: async () => {
-    // Generate unique build ID to bypass cache
-    return `build-${Date.now()}-${Math.random().toString(36).substring(7)}`
+    // Generate unique build ID to bypass cache - updated for table deployment
+    return `table-${Date.now()}-${Math.random().toString(36).substring(7)}`
   },
   
   // Disable caching for API routes
