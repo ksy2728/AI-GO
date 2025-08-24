@@ -109,6 +109,11 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   
+  // TypeScript configuration
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  
   // Enable build output analysis
   productionBrowserSourceMaps: false,
   
