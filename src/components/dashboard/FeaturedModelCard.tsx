@@ -3,17 +3,26 @@
 import { useState, useEffect } from 'react'
 import { Card } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
+import { Button } from '@/components/ui/button'
 import { RegionSelectCompact } from '@/components/ui/region-select'
 import { RealTimeStatusBadge } from '@/components/monitoring/RealTimeStatusBadge'
-import { ModelStatusPopup } from './ModelStatusPopup'
 import { useLanguage } from '@/contexts/LanguageContext'
 import { useRegion, useModelMetrics, useRegionApi } from '@/contexts/RegionContext'
 import { 
   ChevronRight,
+  ChevronDown,
+  ChevronUp,
   Trophy,
   Medal,
   Award,
-  MapPin
+  MapPin,
+  Activity,
+  Clock,
+  Zap,
+  TrendingUp,
+  CheckCircle,
+  AlertCircle,
+  X
 } from 'lucide-react'
 
 interface FeaturedModelCardProps {
@@ -38,7 +47,7 @@ interface FeaturedModelCardProps {
 
 export function FeaturedModelCard({ model }: FeaturedModelCardProps) {
   const { t } = useLanguage()
-  const [showPopup, setShowPopup] = useState(false)
+  const [isExpanded, setIsExpanded] = useState(false)
   
   // Region context integration - Fixed infinite loop
   const { selectedRegion, isLoading } = useRegion()
@@ -117,6 +126,14 @@ export function FeaturedModelCard({ model }: FeaturedModelCardProps) {
       default:
         return <div className="w-2 h-2 bg-gray-500 rounded-full" />
     }
+  }
+
+  const getGradientPosition = (value: number, max: number = 100) => {
+    return (value / max) * 100
+  }
+
+  const toggleExpand = () => {
+    setIsExpanded(!isExpanded)
   }
 
   // Removed formatResponseTime - no longer needed after metrics cleanup
@@ -255,27 +272,164 @@ export function FeaturedModelCard({ model }: FeaturedModelCardProps) {
             </div>
           )}
 
-          {/* View Details Button */}
-          <button
-            onClick={() => setShowPopup(true)}
-            className="w-full flex items-center justify-between pt-3 border-t border-gray-100 hover:bg-gray-50 -mx-6 px-6 -mb-6 pb-6 mt-3 transition-colors"
+          {/* Expanded Content - Status Metrics */}
+          {isExpanded && (
+            <div className="space-y-4 pt-4 border-t animate-in slide-in-from-top-2 duration-300">
+              {/* Status Overview */}
+              <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-4">
+                <div className="flex items-center justify-between mb-3">
+                  <h3 className="font-semibold text-sm text-gray-900">Current Status</h3>
+                  <Badge className={getStatusColor(displayMetrics.status)}>
+                    {displayMetrics.status === 'operational' && <CheckCircle className="w-3 h-3 mr-1" />}
+                    {displayMetrics.status === 'degraded' && <AlertCircle className="w-3 h-3 mr-1" />}
+                    {displayMetrics.status === 'outage' && <X className="w-3 h-3 mr-1" />}
+                    <span className="capitalize">{displayMetrics.status}</span>
+                  </Badge>
+                </div>
+                <div className="grid grid-cols-3 gap-3">
+                  <div>
+                    <div className="text-xs text-gray-600">Availability</div>
+                    <div className="text-lg font-bold">{displayMetrics.availability.toFixed(1)}%</div>
+                  </div>
+                  <div>
+                    <div className="text-xs text-gray-600">Response</div>
+                    <div className="text-lg font-bold">{displayMetrics.responseTime}ms</div>
+                  </div>
+                  <div>
+                    <div className="text-xs text-gray-600">Error Rate</div>
+                    <div className="text-lg font-bold">{displayMetrics.errorRate.toFixed(2)}%</div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Availability Gradient Bar */}
+              <div className="space-y-2">
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-2">
+                    <Activity className="w-4 h-4 text-blue-500" />
+                    <span className="text-sm font-medium text-gray-700">Availability</span>
+                  </div>
+                  <span className="text-sm font-bold text-gray-900">{displayMetrics.availability.toFixed(1)}%</span>
+                </div>
+                <div className="relative h-8 bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 rounded-lg overflow-hidden">
+                  <div 
+                    className="absolute top-0 bottom-0 w-1 bg-white shadow-lg"
+                    style={{ 
+                      left: `${getGradientPosition(displayMetrics.availability)}%`,
+                      transition: 'left 0.5s ease-out'
+                    }}
+                  >
+                    <div className="absolute -top-1 -left-2 w-5 h-10 bg-white rounded-full shadow-lg border-2 border-gray-200" />
+                  </div>
+                </div>
+                <div className="flex justify-between text-xs text-gray-500">
+                  <span>0%</span>
+                  <span>50%</span>
+                  <span>100%</span>
+                </div>
+              </div>
+
+              {/* Response Time Gradient Bar */}
+              <div className="space-y-2">
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-2">
+                    <Clock className="w-4 h-4 text-green-500" />
+                    <span className="text-sm font-medium text-gray-700">Response Time</span>
+                  </div>
+                  <span className="text-sm font-bold text-gray-900">{displayMetrics.responseTime}ms</span>
+                </div>
+                <div className="relative h-8 bg-gradient-to-r from-green-500 via-yellow-500 to-red-500 rounded-lg overflow-hidden">
+                  <div 
+                    className="absolute top-0 bottom-0 w-1 bg-white shadow-lg"
+                    style={{ 
+                      left: `${Math.min(getGradientPosition(displayMetrics.responseTime, 1000), 100)}%`,
+                      transition: 'left 0.5s ease-out'
+                    }}
+                  >
+                    <div className="absolute -top-1 -left-2 w-5 h-10 bg-white rounded-full shadow-lg border-2 border-gray-200" />
+                  </div>
+                </div>
+                <div className="flex justify-between text-xs text-gray-500">
+                  <span>Fast (0ms)</span>
+                  <span>500ms</span>
+                  <span>Slow (1000ms+)</span>
+                </div>
+              </div>
+
+              {/* Error Rate Gradient Bar */}
+              <div className="space-y-2">
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-2">
+                    <Zap className="w-4 h-4 text-yellow-500" />
+                    <span className="text-sm font-medium text-gray-700">Error Rate</span>
+                  </div>
+                  <span className="text-sm font-bold text-gray-900">{displayMetrics.errorRate.toFixed(2)}%</span>
+                </div>
+                <div className="relative h-8 bg-gradient-to-r from-green-500 via-yellow-500 to-red-500 rounded-lg overflow-hidden">
+                  <div 
+                    className="absolute top-0 bottom-0 w-1 bg-white shadow-lg"
+                    style={{ 
+                      left: `${Math.min(getGradientPosition(displayMetrics.errorRate, 5), 100)}%`,
+                      transition: 'left 0.5s ease-out'
+                    }}
+                  >
+                    <div className="absolute -top-1 -left-2 w-5 h-10 bg-white rounded-full shadow-lg border-2 border-gray-200" />
+                  </div>
+                </div>
+                <div className="flex justify-between text-xs text-gray-500">
+                  <span>Low (0%)</span>
+                  <span>2.5%</span>
+                  <span>High (5%+)</span>
+                </div>
+              </div>
+
+              {/* Throughput Bar Chart */}
+              <div className="space-y-2">
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-2">
+                    <TrendingUp className="w-4 h-4 text-purple-500" />
+                    <span className="text-sm font-medium text-gray-700">Throughput</span>
+                  </div>
+                  <span className="text-sm font-bold text-gray-900">{displayMetrics.throughput} req/s</span>
+                </div>
+                <div className="relative h-12 bg-gray-100 rounded-lg overflow-hidden">
+                  <div 
+                    className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-purple-500 to-purple-400 rounded-t-lg transition-all duration-500"
+                    style={{ 
+                      height: `${Math.min((displayMetrics.throughput / 1000) * 100, 100)}%`
+                    }}
+                  />
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <span className="text-xs font-medium text-gray-600">
+                      {displayMetrics.throughput} / 1000 req/s
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* Expand/Collapse Button */}
+          <Button
+            onClick={toggleExpand}
+            variant="outline"
+            className="w-full flex items-center justify-center gap-2 mt-3 hover:bg-blue-50 hover:border-blue-300 transition-colors"
           >
-            <span className="text-sm text-blue-600 font-medium">
-              {t('dashboard.featuredModels.viewDetails') || 'View Details'}
-            </span>
-            <ChevronRight className="w-4 h-4 text-blue-600 group-hover:translate-x-1 transition-transform" />
-          </button>
+            {isExpanded ? (
+              <>
+                <ChevronUp className="w-4 h-4" />
+                <span className="text-sm font-medium">Collapse Details</span>
+              </>
+            ) : (
+              <>
+                <ChevronDown className="w-4 h-4" />
+                <span className="text-sm font-medium">View Details</span>
+              </>
+            )}
+          </Button>
           </div>
         </Card>
       </div>
-
-      {/* Model Status Popup */}
-      {showPopup && (
-        <ModelStatusPopup
-          model={model}
-          onClose={() => setShowPopup(false)}
-        />
-      )}
     </>
   )
 }
