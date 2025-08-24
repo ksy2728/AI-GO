@@ -63,7 +63,7 @@ export function FeaturedModelCard({ model }: FeaturedModelCardProps) {
     responseTime: model.responseTime,
     errorRate: model.errorRate,
     throughput: model.throughput,
-    status: 'operational' as const // ALWAYS operational by default
+    status: 'operational' as 'operational' | 'degraded' | 'outage' // Allow all status types
   })
 
   // Sync local region with global region
@@ -85,7 +85,7 @@ export function FeaturedModelCard({ model }: FeaturedModelCardProps) {
           responseTime: model.responseTime + regionVariance,
           errorRate: Math.min(0.1, model.errorRate + (regionVariance * 0.001)),
           throughput: Math.max(100, model.throughput - (regionVariance * 10)),
-          status: 'operational'
+          status: 'operational' as 'operational' | 'degraded' | 'outage'
         })
       } catch (error) {
         console.warn('Using default metrics:', error)
@@ -94,7 +94,7 @@ export function FeaturedModelCard({ model }: FeaturedModelCardProps) {
           responseTime: model.responseTime || 250,
           errorRate: model.errorRate || 0.02,
           throughput: model.throughput || 800,
-          status: 'operational'
+          status: 'operational' as 'operational' | 'degraded' | 'outage'
         })
       }
     }
