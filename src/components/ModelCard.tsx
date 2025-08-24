@@ -57,7 +57,7 @@ export const ModelCard = memo(function ModelCard({
   }
 
   const getStatusBadge = (status?: string) => {
-    if (!status) return null
+    if (!status) return ''
     const statusColors = {
       operational: 'bg-green-100 text-green-800',
       degraded: 'bg-yellow-100 text-yellow-800',
