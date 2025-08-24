@@ -1,7 +1,6 @@
 'use client'
 
-import { useState, useEffect, useMemo, useCallback, memo } from 'react'
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+import { useState, useEffect, useMemo, useCallback } from 'react'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
@@ -9,18 +8,14 @@ import { Skeleton } from '@/components/ui/skeleton'
 import { api } from '@/lib/api-client'
 import { Model } from '@/types/models'
 import { getStatusColor, formatNumber } from '@/lib/utils'
-import { ModelDetailModal } from '@/components/ModelDetailModal'
+import { ModelCard } from '@/components/ModelCard'
 import { ModelComparisonModal } from '@/components/ModelComparisonModal'
 import { logger } from '@/lib/logger'
 import { FEATURED_MODELS, MAJOR_PROVIDERS, LATEST_MODELS, MODEL_LIMITS, MODEL_BADGES } from '@/constants/models'
 import {
   Search,
   Server,
-  Eye,
-  ChevronRight,
-  GitCompare,
-  Plus,
-  Minus
+  GitCompare
 } from 'lucide-react'
 
 export default function ModelsPage() {
@@ -29,7 +24,6 @@ export default function ModelsPage() {
   const [searchQuery, setSearchQuery] = useState('')
   const [selectedProvider, setSelectedProvider] = useState<string>('')
   const [selectedModality, setSelectedModality] = useState<string>('')
-  const [selectedModel, setSelectedModel] = useState<Model | null>(null)
   const [selectedForComparison, setSelectedForComparison] = useState<Model[]>([])
   const [showComparison, setShowComparison] = useState(false)
   const [showAllModels, setShowAllModels] = useState(false)
@@ -262,105 +256,15 @@ export default function ModelsPage() {
 
         {/* Models Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
-          {displayModels.map((model) => {
-            const isFeatured = FEATURED_MODELS.includes(model.name);
-            const isLatest = LATEST_MODELS.includes(model.name);
-            const isSelected = isSelectedForComparison(model)
-            return (
-            <Card key={model.id} className={`bg-white/80 backdrop-blur-sm border-0 shadow-lg hover:shadow-xl transition-all duration-200 group relative ${
-              isSelected ? 'ring-2 ring-blue-500 bg-blue-50/50' : ''
-            }`}>
-              <CardHeader>
-                <div className="flex items-start justify-between">
-                  <div className="flex-1">
-                    <div className="flex items-center gap-2">
-                      <CardTitle className="text-lg group-hover:text-blue-600 transition-colors">
-                        {model.name}
-                      </CardTitle>
-                      {isLatest && (
-                        <Badge className={MODEL_BADGES.NEW.className}>
-                          {MODEL_BADGES.NEW.label}
-                        </Badge>
-                      )}
-                      {isFeatured && !isLatest && (
-                        <Badge className={MODEL_BADGES.FEATURED.className}>
-                          {MODEL_BADGES.FEATURED.label}
-                        </Badge>
-                      )}
-                    </div>
-                    <CardDescription className="mt-1">
-                      by {model.provider?.name || model.providerId}
-                    </CardDescription>
-                  </div>
-                  <Badge variant={model.isActive ? 'success' : 'secondary'}>
-                    {model.isActive ? 'Active' : 'Inactive'}
-                  </Badge>
-                </div>
-                {isSelected && (
-                  <Badge variant="default" className="mt-2 bg-blue-600">
-                    Selected for comparison
-                  </Badge>
-                )}
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <p className="text-sm text-gray-600 line-clamp-2">
-                  {model.description || 'No description available'}
-                </p>
-
-                <div className="flex flex-wrap gap-2">
-                  {model.modalities && model.modalities.length > 0 ? (
-                    <>
-                      {model.modalities.slice(0, 2).map(modality => (
-                        <Badge key={modality} variant="outline" className="text-xs">
-                          {modality}
-                        </Badge>
-                      ))}
-                      {model.modalities.length > 2 && (
-                        <Badge variant="outline" className="text-xs">
-                          +{model.modalities.length - 2} more
-                        </Badge>
-                      )}
-                    </>
-                  ) : (
-                    <Badge variant="outline" className="text-xs">
-                      No modalities
-                    </Badge>
-                  )}
-                </div>
-
-                <div className="pt-4 border-t flex gap-2">
-                  <Button 
-                    variant="outline" 
-                    className="flex-1 group-hover:bg-blue-50 group-hover:border-blue-300"
-                    onClick={() => setSelectedModel(model)}
-                  >
-                    <Eye className="w-4 h-4 mr-2" />
-                    View Details
-                    <ChevronRight className="w-4 h-4 ml-auto group-hover:translate-x-1 transition-transform" />
-                  </Button>
-                  <Button
-                    variant={isSelected ? 'default' : 'outline'}
-                    size="sm"
-                    className={`w-10 h-10 p-0 shrink-0 ${
-                      isSelected ? 'bg-blue-600 hover:bg-blue-700 text-white' : 'hover:bg-blue-50'
-                    }`}
-                    onClick={(e) => {
-                      e.stopPropagation()
-                      toggleModelForComparison(model)
-                    }}
-                    disabled={!isSelected && selectedForComparison.length >= MODEL_LIMITS.MAX_COMPARISON}
-                  >
-                    {isSelected ? (
-                      <Minus className="w-4 h-4" />
-                    ) : (
-                      <Plus className="w-4 h-4" />
-                    )}
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
-            )
-          })}
+          {displayModels.map((model) => (
+            <ModelCard
+              key={model.id}
+              model={model}
+              isSelectedForComparison={isSelectedForComparison(model)}
+              onCompareToggle={() => toggleModelForComparison(model)}
+              disabled={!isSelectedForComparison(model) && selectedForComparison.length >= MODEL_LIMITS.MAX_COMPARISON}
+            />
+          ))}
         </div>
 
         {filteredModels.length === 0 && !loading && (
@@ -374,11 +278,6 @@ export default function ModelsPage() {
         )}
       </div>
 
-      {/* Model Detail Modal */}
-      <ModelDetailModal 
-        model={selectedModel} 
-        onClose={() => setSelectedModel(null)} 
-      />
 
       {/* Model Comparison Modal */}
       {showComparison && selectedForComparison.length >= 2 && (
