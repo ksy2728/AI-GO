@@ -109,11 +109,6 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   
-  // TypeScript configuration for React 18 compatibility
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-  
   // Enable build output analysis
   productionBrowserSourceMaps: false,
   
