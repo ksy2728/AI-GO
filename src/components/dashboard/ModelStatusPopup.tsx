@@ -93,7 +93,7 @@ export function ModelStatusPopup({ model, onClose }: ModelStatusPopupProps) {
         <div className="p-6 space-y-6">
           {/* Status Badge */}
           <div className="flex items-center gap-3">
-            <span className="text-sm font-medium text-gray-600">{t('status.currentStatus') || 'Current Status'}:</span>
+            <span className="text-sm font-medium text-gray-600">Current Status:</span>
             <Badge 
               className={`
                 ${model.status === 'operational' ? 'bg-green-100 text-green-800' : ''}
@@ -115,7 +115,7 @@ export function ModelStatusPopup({ model, onClose }: ModelStatusPopupProps) {
               <div className="flex items-center gap-2">
                 <Activity className="w-4 h-4 text-blue-500" />
                 <span className="text-sm font-medium text-gray-700">
-                  {t('dashboard.stats.availability') || 'Availability'}
+                  {'Availability'}
                 </span>
               </div>
               <span className="text-sm font-bold text-gray-900">{model.availability.toFixed(1)}%</span>
@@ -144,7 +144,7 @@ export function ModelStatusPopup({ model, onClose }: ModelStatusPopupProps) {
               <div className="flex items-center gap-2">
                 <Clock className="w-4 h-4 text-green-500" />
                 <span className="text-sm font-medium text-gray-700">
-                  {t('dashboard.stats.responseTime') || 'Response Time'}
+                  {'Response Time'}
                 </span>
               </div>
               <span className="text-sm font-bold text-gray-900">{model.responseTime}ms</span>
@@ -173,7 +173,7 @@ export function ModelStatusPopup({ model, onClose }: ModelStatusPopupProps) {
               <div className="flex items-center gap-2">
                 <Zap className="w-4 h-4 text-yellow-500" />
                 <span className="text-sm font-medium text-gray-700">
-                  {t('dashboard.stats.errorRate') || 'Error Rate'}
+                  {'Error Rate'}
                 </span>
               </div>
               <span className="text-sm font-bold text-gray-900">{model.errorRate.toFixed(2)}%</span>
@@ -202,7 +202,7 @@ export function ModelStatusPopup({ model, onClose }: ModelStatusPopupProps) {
               <div className="flex items-center gap-2">
                 <TrendingUp className="w-4 h-4 text-purple-500" />
                 <span className="text-sm font-medium text-gray-700">
-                  {t('dashboard.stats.throughput') || 'Throughput'}
+                  {'Throughput'}
                 </span>
               </div>
               <span className="text-sm font-bold text-gray-900">{model.throughput} req/s</span>

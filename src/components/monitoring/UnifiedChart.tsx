@@ -200,7 +200,7 @@ export function UnifiedChart() {
               yAxisId="left"
               type="monotone"
               dataKey="activeModels"
-              name={t('dashboard.stats.activeModels')}
+              name={'Active Models'}
               stroke="#3b82f6"
               strokeWidth={2.5}
               dot={{ fill: '#3b82f6', r: 2 }}
@@ -213,7 +213,7 @@ export function UnifiedChart() {
               yAxisId="left"
               type="monotone"
               dataKey="operationalModels"
-              name={t('dashboard.stats.operational')}
+              name={'Operational'}
               stroke="#6366f1"
               strokeWidth={2.5}
               dot={{ fill: '#6366f1', r: 2 }}
@@ -253,7 +253,7 @@ export function UnifiedChart() {
               yAxisId="right"
               type="monotone"
               dataKey="avgAvailability"
-              name={t('dashboard.stats.avgAvailability')}
+              name={'Avg Availability'}
               stroke="#10b981"
               strokeWidth={3}
               dot={{ fill: '#10b981', r: 3, strokeWidth: 1, stroke: '#fff' }}

@@ -101,34 +101,34 @@ export default function MonitoringPage() {
         {/* Stats Grid */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 mb-4">
           <StatsCard
-            title={t('dashboard.stats.totalModels')}
+            title={'Total Models'}
             value={currentStats?.totalModels || 0}
             change={totalModelsChange}
-            changeLabel={t('dashboard.stats.lastUpdate')}
+            changeLabel={'Last Update'}
             trend={totalModelsChange > 0 ? 'up' : totalModelsChange < 0 ? 'down' : 'neutral'}
             icon={<Server className="w-8 h-8" />}
             loading={loading}
           />
           <StatsCard
-            title={t('dashboard.stats.activeModels')}
+            title={'Active Models'}
             value={currentStats?.activeModels || 0}
             change={activeModelsChange}
-            changeLabel={t('dashboard.stats.lastUpdate')}
+            changeLabel={'Last Update'}
             trend={activeModelsChange > 0 ? 'up' : activeModelsChange < 0 ? 'down' : 'neutral'}
             icon={<Activity className="w-8 h-8" />}
             loading={loading}
           />
           <StatsCard
-            title={t('dashboard.stats.avgAvailability')}
+            title={'Avg Availability'}
             value={`${currentStats?.avgAvailability?.toFixed(1) || 0}%`}
             change={availabilityChange}
-            changeLabel={t('dashboard.stats.lastUpdate')}
+            changeLabel={'Last Update'}
             trend={availabilityChange > 0 ? 'up' : availabilityChange < 0 ? 'down' : 'neutral'}
             icon={<TrendingUp className="w-8 h-8" />}
             loading={loading}
           />
           <StatsCard
-            title={t('dashboard.stats.operational')}
+            title={'Operational'}
             value={currentStats?.operationalModels || 0}
             description={`${currentStats?.degradedModels || 0} ${t('dashboard.legend.degraded')?.toLowerCase() || 'degraded'}, ${currentStats?.outageModels || 0} ${t('dashboard.legend.outage')?.toLowerCase() || 'outage'}`}
             trend={operationalChange > 0 ? 'up' : operationalChange < 0 ? 'down' : 'neutral'}
