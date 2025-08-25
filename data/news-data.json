@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "id": "elon-musk-says-xai-has-open-sourced-grok-2-5",
+      "title": "Elon Musk says xAI has open sourced Grok 2.5",
+      "summary": "Elon Musk’s xAI has made an older version of its AI model Grok — specifically, the model weights used to shape Grok 2. 5 —  available on the open source platform Hugging Face.",
+      "content": "Elon Musk’s xAI has made an older version of its AI model Grok — specifically, the model weights used to shape Grok 2.5 —  available on the open source platform Hugging Face.",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "publishedAt": "2025-08-24T14:00:35.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "ai model"
+      ],
+      "url": "https://techcrunch.com/2025/08/24/elon-musk-says-xai-has-open-sourced-grok-2-5/",
+      "readTime": 3,
+      "views": 28224
+    },
+    {
       "id": "openai-warns-against-spvs-and-other-unauthorized-i",
       "title": "OpenAI warns against SPVs and other ‘unauthorized’ investments",
       "summary": "OpenAI isn't the only AI company looking to crack down on SPVs.",
@@ -16,7 +33,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/23/openai-warns-against-spvs-and-other-unauthorized-investments/",
       "readTime": 3,
-      "views": 31676
+      "views": 16433
     },
     {
       "id": "amazon-agi-labs-chief-defends-his-reverse-acquihir",
@@ -32,7 +49,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/23/amazon-agi-labs-chief-defends-his-reverse-acquihire/",
       "readTime": 3,
-      "views": 34871
+      "views": 14330
     },
     {
       "id": "meta-partners-with-midjourney-on-ai-image-and-vide",
@@ -49,7 +66,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/22/meta-partners-with-midjourney-on-ai-image-and-video-models/",
       "readTime": 3,
-      "views": 34388
+      "views": 11975
     },
     {
       "id": "coinbase-ceo-explains-why-he-fired-engineers-who-d",
@@ -65,7 +82,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/22/coinbase-ceo-explains-why-he-fired-engineers-who-didnt-try-ai-immediately/",
       "readTime": 3,
-      "views": 48925
+      "views": 47299
     },
     {
       "id": "apple-gets-ready-for-ai-in-the-enterprise-with-new",
@@ -84,7 +101,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/22/apple-gets-ready-for-ai-in-the-enterprise-with-new-chatgpt-configuration-options/",
       "readTime": 3,
-      "views": 28691
+      "views": 15312
     },
     {
       "id": "apple-is-in-talks-to-use-google-8217-s-gemini-for-",
@@ -103,7 +120,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/22/apple-is-in-talks-to-use-googles-gemini-for-siri-revamp-report-says/",
       "readTime": 3,
-      "views": 7424
+      "views": 48995
     },
     {
       "id": "nvidia-reportedly-halts-production-on-its-h20-ai-c",
@@ -119,7 +136,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/22/nvidia-reportedly-halts-production-on-its-h20-ai-chips/",
       "readTime": 3,
-      "views": 50937
+      "views": 52043
     },
     {
       "id": "rachel-james-abbvie-harnessing-ai-for-corporate-cy",
@@ -135,7 +152,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/rachel-james-abbvie-harnessing-ai-for-corporate-cybersecurity/",
       "readTime": 3,
-      "views": 8324
+      "views": 49995
     },
     {
       "id": "huawei-cloud-8217-s-broad-open-approach-wins-it-ga",
@@ -153,7 +170,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/huawei-clouds-open-approach-wins-it-gartner-honours-magic-quadrant-2025-for-container-management/",
       "readTime": 3,
-      "views": 15131
+      "views": 47196
     },
     {
       "id": "meet-the-researcher-hosting-a-scientific-conferenc",
@@ -169,7 +186,7 @@
       ],
       "url": "https://www.technologyreview.com/2025/08/22/1122304/ai-scientist-research-autonomous-agents/",
       "readTime": 3,
-      "views": 10162
+      "views": 54735
     },
     {
       "id": "openai-announces-new-delhi-office-as-it-expands-fo",
@@ -187,7 +204,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/21/openai-announces-new-delhi-office-as-it-expands-footprint-in-india/",
       "readTime": 3,
-      "views": 21781
+      "views": 15340
     },
     {
       "id": "openai-lawyers-question-meta-8217-s-role-in-elon-m",
@@ -207,7 +224,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/21/openai-lawyers-question-metas-role-in-elon-musks-97b-takeover-bid/",
       "readTime": 3,
-      "views": 48366
+      "views": 9559
     },
     {
       "id": "microsoft-ai-chief-says-it-8217-s-8216-dangerous-8",
@@ -224,7 +241,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/21/microsoft-ai-chief-says-its-dangerous-to-study-ai-consciousness/",
       "readTime": 3,
-      "views": 25004
+      "views": 36007
     },
     {
       "id": "proton-s-privacy-first-lumo-ai-assistant-gets-a-ma",
@@ -240,7 +257,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/proton-privacy-lumo-ai-assistant-major-upgrade/",
       "readTime": 3,
-      "views": 41063
+      "views": 25112
     },
     {
       "id": "how-ai-servers-are-transforming-taiwan-8217-s-elec",
@@ -256,7 +273,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/ai-servers-transform-taiwan-manufacturing-giants/",
       "readTime": 3,
-      "views": 12258
+      "views": 27669
     },
     {
       "id": "google-8217-s-ai-mode-expands-globally-adds-new-ag",
@@ -273,7 +290,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/21/googles-ai-mode-expands-globally-adds-new-agentic-features/",
       "readTime": 3,
-      "views": 29372
+      "views": 25765
     },
     {
       "id": "report-meta-is-hitting-pause-on-ai-hiring-after-it",
@@ -290,7 +307,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/21/report-meta-is-hitting-pause-on-ai-hiring-after-its-poaching-spree/",
       "readTime": 3,
-      "views": 18162
+      "views": 41086
     },
     {
       "id": "in-a-first-google-has-released-data-on-how-much-en",
@@ -308,7 +325,7 @@
       ],
       "url": "https://www.technologyreview.com/2025/08/21/1122288/google-gemini-ai-energy/",
       "readTime": 3,
-      "views": 33816
+      "views": 38988
     },
     {
       "id": "gen-ai-makes-no-financial-difference-in-95-of-case",
@@ -324,29 +341,10 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/gen-ai-makes-no-financial-difference-in-95-of-cases/",
       "readTime": 3,
-      "views": 7459
-    },
-    {
-      "id": "anthropic-bundles-claude-code-into-enterprise-plan",
-      "title": "Anthropic bundles Claude Code into enterprise plans",
-      "summary": "The integration positions Anthropic to better compete with command-line tools from Google and GitHub, both of which included enterprise integrations on launch.",
-      "content": "The integration positions Anthropic to better compete with command-line tools from Google and GitHub, both of which included enterprise integrations on launch.",
-      "source": "TechCrunch AI",
-      "author": "Russell Brandom",
-      "publishedAt": "2025-08-20T18:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "anthropic",
-        "claude",
-        "Google",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2025/08/20/anthropic-bundles-claude-code-into-enterprise-plans/",
-      "readTime": 3,
-      "views": 18724
+      "views": 42171
     }
   ],
-  "lastUpdated": "2025-08-24T12:34:42.641Z",
+  "lastUpdated": "2025-08-25T01:27:01.181Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -355,9 +353,9 @@
     "MIT Technology Review AI"
   ],
   "categories": [
+    "release",
     "funding",
     "research",
-    "release",
     "market",
     "regulation"
   ]
