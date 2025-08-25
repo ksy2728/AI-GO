@@ -1,6 +1,41 @@
 {
   "articles": [
     {
+      "id": "what-happens-when-ai-data-centres-run-out-of-space",
+      "title": "What happens when AI data centres run out of space? NVIDIA&#8217;s new solution explained",
+      "summary": "When AI data centres run out of space, they face a costly dilemma: build bigger facilities or find ways to make multiple locations work together seamlessly.  NVIDIA&#8217;s latest Spectrum-XGS Etherne.",
+      "content": "When AI data centres run out of space, they face a costly dilemma: build bigger facilities or find ways to make multiple locations work together seamlessly. NVIDIA&#8217;s latest Spectrum-XGS Ethernet technology promises to solve this challenge by connecting AI data centres across vast distances int",
+      "source": "AI News",
+      "author": "Dashveenjit Kaur",
+      "publishedAt": "2025-08-25T09:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "ml"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/ai-data-centers-space-problem-nvidia-spectrum-xgs/",
+      "readTime": 3,
+      "views": 52499
+    },
+    {
+      "id": "the-us-federal-government-secures-a-massive-google",
+      "title": "The US federal government secures a massive Google Gemini AI deal at $0.47 per agency",
+      "summary": "Google Gemini will soon power federal operations across the United States government following a sweeping new agreement between the General Services Administration (GSA) and Google that delivers compr.",
+      "content": "Google Gemini will soon power federal operations across the United States government following a sweeping new agreement between the General Services Administration (GSA) and Google that delivers comprehensive AI capabilities at unprecedented pricing. The &#8220;Gemini for Government&#8221; offering,",
+      "source": "AI News",
+      "author": "Dashveenjit Kaur",
+      "publishedAt": "2025-08-25T08:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gemini",
+        "Google"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/google-gemini-government-ai-deal-gsa-agreement/",
+      "readTime": 3,
+      "views": 34395
+    },
+    {
       "id": "elon-musk-says-xai-has-open-sourced-grok-2-5",
       "title": "Elon Musk says xAI has open sourced Grok 2.5",
       "summary": "Elon Musk’s xAI has made an older version of its AI model Grok — specifically, the model weights used to shape Grok 2. 5 —  available on the open source platform Hugging Face.",
@@ -15,7 +50,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/24/elon-musk-says-xai-has-open-sourced-grok-2-5/",
       "readTime": 3,
-      "views": 42648
+      "views": 39702
     },
     {
       "id": "openai-warns-against-spvs-and-other-unauthorized-i",
@@ -33,7 +68,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/23/openai-warns-against-spvs-and-other-unauthorized-investments/",
       "readTime": 3,
-      "views": 29649
+      "views": 43031
     },
     {
       "id": "amazon-agi-labs-chief-defends-his-reverse-acquihir",
@@ -49,7 +84,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/23/amazon-agi-labs-chief-defends-his-reverse-acquihire/",
       "readTime": 3,
-      "views": 33665
+      "views": 20973
     },
     {
       "id": "meta-partners-with-midjourney-on-ai-image-and-vide",
@@ -66,7 +101,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/22/meta-partners-with-midjourney-on-ai-image-and-video-models/",
       "readTime": 3,
-      "views": 54757
+      "views": 14328
     },
     {
       "id": "coinbase-ceo-explains-why-he-fired-engineers-who-d",
@@ -82,7 +117,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/22/coinbase-ceo-explains-why-he-fired-engineers-who-didnt-try-ai-immediately/",
       "readTime": 3,
-      "views": 33653
+      "views": 34480
     },
     {
       "id": "apple-gets-ready-for-ai-in-the-enterprise-with-new",
@@ -101,7 +136,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/22/apple-gets-ready-for-ai-in-the-enterprise-with-new-chatgpt-configuration-options/",
       "readTime": 3,
-      "views": 33499
+      "views": 39429
     },
     {
       "id": "apple-is-in-talks-to-use-google-8217-s-gemini-for-",
@@ -120,7 +155,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/22/apple-is-in-talks-to-use-googles-gemini-for-siri-revamp-report-says/",
       "readTime": 3,
-      "views": 48310
+      "views": 15626
     },
     {
       "id": "nvidia-reportedly-halts-production-on-its-h20-ai-c",
@@ -136,7 +171,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/22/nvidia-reportedly-halts-production-on-its-h20-ai-chips/",
       "readTime": 3,
-      "views": 25198
+      "views": 50650
     },
     {
       "id": "rachel-james-abbvie-harnessing-ai-for-corporate-cy",
@@ -152,7 +187,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/rachel-james-abbvie-harnessing-ai-for-corporate-cybersecurity/",
       "readTime": 3,
-      "views": 39801
+      "views": 50876
     },
     {
       "id": "huawei-cloud-8217-s-broad-open-approach-wins-it-ga",
@@ -170,7 +205,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/huawei-clouds-open-approach-wins-it-gartner-honours-magic-quadrant-2025-for-container-management/",
       "readTime": 3,
-      "views": 31789
+      "views": 21034
     },
     {
       "id": "meet-the-researcher-hosting-a-scientific-conferenc",
@@ -186,7 +221,7 @@
       ],
       "url": "https://www.technologyreview.com/2025/08/22/1122304/ai-scientist-research-autonomous-agents/",
       "readTime": 3,
-      "views": 44995
+      "views": 34451
     },
     {
       "id": "openai-announces-new-delhi-office-as-it-expands-fo",
@@ -204,7 +239,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/21/openai-announces-new-delhi-office-as-it-expands-footprint-in-india/",
       "readTime": 3,
-      "views": 13056
+      "views": 32277
     },
     {
       "id": "openai-lawyers-question-meta-8217-s-role-in-elon-m",
@@ -224,7 +259,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/21/openai-lawyers-question-metas-role-in-elon-musks-97b-takeover-bid/",
       "readTime": 3,
-      "views": 18495
+      "views": 44746
     },
     {
       "id": "microsoft-ai-chief-says-it-8217-s-8216-dangerous-8",
@@ -241,7 +276,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/21/microsoft-ai-chief-says-its-dangerous-to-study-ai-consciousness/",
       "readTime": 3,
-      "views": 51735
+      "views": 15164
     },
     {
       "id": "proton-s-privacy-first-lumo-ai-assistant-gets-a-ma",
@@ -257,7 +292,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/proton-privacy-lumo-ai-assistant-major-upgrade/",
       "readTime": 3,
-      "views": 49328
+      "views": 25748
     },
     {
       "id": "how-ai-servers-are-transforming-taiwan-8217-s-elec",
@@ -273,7 +308,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/ai-servers-transform-taiwan-manufacturing-giants/",
       "readTime": 3,
-      "views": 46091
+      "views": 24814
     },
     {
       "id": "google-8217-s-ai-mode-expands-globally-adds-new-ag",
@@ -290,7 +325,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/21/googles-ai-mode-expands-globally-adds-new-agentic-features/",
       "readTime": 3,
-      "views": 27847
+      "views": 26128
     },
     {
       "id": "report-meta-is-hitting-pause-on-ai-hiring-after-it",
@@ -307,49 +342,15 @@
       ],
       "url": "https://techcrunch.com/2025/08/21/report-meta-is-hitting-pause-on-ai-hiring-after-its-poaching-spree/",
       "readTime": 3,
-      "views": 43804
-    },
-    {
-      "id": "in-a-first-google-has-released-data-on-how-much-en",
-      "title": "In a first, Google has released data on how much energy an AI prompt uses",
-      "summary": "Google has just released a technical report detailing how much energy its Gemini apps use for each query.  In total, the median prompt—one that falls in the middle of the range of energy demand—consum.",
-      "content": "Google has just released a technical report detailing how much energy its Gemini apps use for each query. In total, the median prompt—one that falls in the middle of the range of energy demand—consumes 0.24 watt-hours of electricity, the equivalent of running a standard microwave for about one secon",
-      "source": "MIT Technology Review AI",
-      "author": "Casey Crownhart",
-      "publishedAt": "2025-08-21T12:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gemini",
-        "Google"
-      ],
-      "url": "https://www.technologyreview.com/2025/08/21/1122288/google-gemini-ai-energy/",
-      "readTime": 3,
-      "views": 40003
-    },
-    {
-      "id": "gen-ai-makes-no-financial-difference-in-95-of-case",
-      "title": "Gen AI makes no financial difference in 95% of cases",
-      "summary": "Stocks in US AI technology companies fell in value at the close of trading yesterday, with the NASDAQ Composite index down 1.  Among those losing value were Palantir, down 9.",
-      "content": "Stocks in US AI technology companies fell in value at the close of trading yesterday, with the NASDAQ Composite index down 1.4%. Among those losing value were Palantir, down 9.4% and Arm Holdings down 5%. According to the Financial Times [paywall], Tuesday saw the biggest one-day fall in the market ",
-      "source": "AI News",
-      "author": "Joe Green",
-      "publishedAt": "2025-08-20T18:57:06.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/gen-ai-makes-no-financial-difference-in-95-of-cases/",
-      "readTime": 3,
-      "views": 54048
+      "views": 51033
     }
   ],
-  "lastUpdated": "2025-08-25T06:30:21.380Z",
+  "lastUpdated": "2025-08-25T12:38:47.622Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "TechCrunch AI",
     "AI News",
+    "TechCrunch AI",
     "MIT Technology Review AI"
   ],
   "categories": [
