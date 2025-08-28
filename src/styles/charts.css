@@ -1,0 +1,29 @@
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes speedPulse {
+  0%, 100% { 
+    transform: translateY(0); 
+    opacity: 0.5; 
+  }
+  50% { 
+    transform: translateY(20px); 
+    opacity: 0.1; 
+  }
+}
+
+.animate-slideUp {
+  animation: slideUp 0.5s ease-out backwards;
+}
+
+.animate-speedPulse {
+  animation: speedPulse 2s ease-in-out infinite;
+}

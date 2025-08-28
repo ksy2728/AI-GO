@@ -21,6 +21,7 @@ import {
   formatQuality
 } from '@/lib/models-table-mapper'
 import { ChevronUp, ChevronDown } from 'lucide-react'
+import { useGlobalStats } from '@/contexts/ModelsContext'
 
 interface ModelTableProps {
   models: TableModel[]
@@ -32,6 +33,7 @@ const columnHelper = createColumnHelper<TableModel>()
 
 export function ModelTable({ models, onModelClick, className }: ModelTableProps) {
   const [sorting, setSorting] = useState<SortingState>([])
+  const { totalModels } = useGlobalStats()
   
   // 서버리스 환경 감지 및 페이지네이션
   const isServerlessEnv = typeof window !== 'undefined' && 
@@ -133,9 +135,16 @@ export function ModelTable({ models, onModelClick, className }: ModelTableProps)
       {/* 테이블 헤더 정보 */}
       <div className="px-4 py-3 border-b border-gray-200 bg-gray-50">
         <div className="flex justify-between items-center">
-          <p className="text-sm text-gray-600">
-            Showing {displayModels.length} of {models.length} models
-          </p>
+          <div className="flex items-center gap-2">
+            <p className="text-sm text-gray-600">
+              Showing {displayModels.length} of {models.length} models
+            </p>
+            {totalModels > models.length && (
+              <Badge variant="outline" className="text-xs text-gray-500">
+                Total in DB: {totalModels}
+              </Badge>
+            )}
+          </div>
           {models.length > displayLimit && (
             <p className="text-xs text-orange-600">
               Limited to {displayLimit} models for optimal performance

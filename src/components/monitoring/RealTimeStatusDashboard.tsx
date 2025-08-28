@@ -6,6 +6,7 @@ import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { RealTimeStatusBadge } from './RealTimeStatusBadge'
 import { useRegion } from '@/contexts/RegionContext'
+import { useGlobalStats } from '@/contexts/ModelsContext'
 import { 
   RefreshCw, 
   Activity, 
@@ -50,6 +51,7 @@ const MONITORED_MODELS = [
 
 export function RealTimeStatusDashboard() {
   const { selectedRegion } = useRegion()
+  const { globalStats, refreshStats } = useGlobalStats()
   const [modelStatuses, setModelStatuses] = useState<ModelStatus[]>([])
   const [systemSummary, setSystemSummary] = useState<SystemSummary | null>(null)
   const [isRefreshing, setIsRefreshing] = useState(false)
@@ -88,7 +90,7 @@ export function RealTimeStatusDashboard() {
 
       setModelStatuses(validStatuses)
       
-      // Calculate system summary
+      // Calculate system summary for monitored models
       const total = validStatuses.length
       const operational = validStatuses.filter(s => s.status === 'operational').length
       const degraded = validStatuses.filter(s => s.status === 'degraded').length
@@ -98,15 +100,31 @@ export function RealTimeStatusDashboard() {
       const avgResponseTime = total > 0 ?
         validStatuses.reduce((sum, s) => sum + s.responseTime, 0) / total : 0
 
-      setSystemSummary({
-        totalModels: total,
-        operational,
-        degraded,
-        outage,
-        averageAvailability: avgAvailability,
-        averageResponseTime: avgResponseTime,
-        lastSync: new Date().toISOString()
-      })
+      // Merge with global stats if available
+      if (globalStats) {
+        setSystemSummary({
+          totalModels: globalStats.totalModels,
+          operational: globalStats.operationalModels,
+          degraded: globalStats.degradedModels,
+          outage: globalStats.outageModels,
+          averageAvailability: globalStats.avgAvailability,
+          averageResponseTime: avgResponseTime,
+          lastSync: new Date().toISOString()
+        })
+      } else {
+        setSystemSummary({
+          totalModels: total,
+          operational,
+          degraded,
+          outage,
+          averageAvailability: avgAvailability,
+          averageResponseTime: avgResponseTime,
+          lastSync: new Date().toISOString()
+        })
+      }
+      
+      // Refresh global stats
+      refreshStats()
 
       setLastUpdate(new Date())
     } catch (error) {
@@ -170,6 +188,7 @@ export function RealTimeStatusDashboard() {
               <CheckCircle className="w-8 h-8 text-green-500 mx-auto mb-2" />
               <div className="text-2xl font-bold text-green-600">
                 {systemSummary.operational}
+                <span className="text-sm font-normal text-gray-500">/{systemSummary.totalModels}</span>
               </div>
               <div className="text-sm text-muted-foreground">Operational</div>
             </div>

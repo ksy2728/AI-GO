@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import { Navigation } from '@/components/navigation'
 import { LanguageProvider } from '@/contexts/LanguageContext'
 import { RegionProvider } from '@/contexts/RegionContext'
+import { ModelsProvider } from '@/contexts/ModelsContext'
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -35,10 +36,12 @@ export default function RootLayout({
       <body className={inter.className}>
         <LanguageProvider>
           <RegionProvider>
-            <Navigation />
-            <main className="min-h-screen">
-              {children}
-            </main>
+            <ModelsProvider>
+              <Navigation />
+              <main className="min-h-screen">
+                {children}
+              </main>
+            </ModelsProvider>
           </RegionProvider>
         </LanguageProvider>
       </body>

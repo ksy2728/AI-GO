@@ -14,13 +14,18 @@ import {
 } from 'recharts'
 import { useRealtime } from '@/hooks/useRealtime'
 import { useLanguage } from '@/contexts/LanguageContext'
+import { useGlobalStats } from '@/contexts/ModelsContext'
 
 export function UnifiedChart() {
   const { t } = useLanguage()
   const { connected, globalStats } = useRealtime()
+  const { globalStats: contextStats, totalModels, activeModels } = useGlobalStats()
   const [chartData, setChartData] = useState<any[]>([])
   const [isPolling, setIsPolling] = useState(false)
   const pollingIntervalRef = useRef<NodeJS.Timeout | null>(null)
+  
+  // Use context stats if available, otherwise use realtime stats
+  const effectiveStats = globalStats || contextStats
 
   // Fetch realtime stats from Edge Function
   const fetchRealtimeStats = async () => {
@@ -203,7 +208,7 @@ export function UnifiedChart() {
               yAxisId="left"
               type="monotone"
               dataKey="activeModels"
-              name={'Active Models (127/139)'}
+              name={`Active Models (${chartData.length > 0 ? chartData[chartData.length - 1].activeModels || 0 : 0}/${effectiveStats?.totalModels || totalModels || 139})`}
               stroke="#3b82f6"
               strokeWidth={2.5}
               dot={{ fill: '#3b82f6', r: 2 }}
@@ -216,7 +221,7 @@ export function UnifiedChart() {
               yAxisId="left"
               type="monotone"
               dataKey="operationalModels"
-              name={'Operational (127/139)'}
+              name={`Operational (${chartData.length > 0 ? chartData[chartData.length - 1].operationalModels || 0 : 0}/${effectiveStats?.totalModels || totalModels || 139})`}
               stroke="#6366f1"
               strokeWidth={2.5}
               dot={{ fill: '#6366f1', r: 2 }}
