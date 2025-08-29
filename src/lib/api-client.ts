@@ -8,8 +8,8 @@ const pendingRequests = new Map<string, Promise<any>>()
 
 // Cache utilities
 const CACHE_PREFIX = 'ai_models_cache_'
-const CACHE_EXPIRY_MINUTES = 5 // Cache for 5 minutes
-const STALE_WHILE_REVALIDATE_MINUTES = 10 // Consider data stale but usable for 10 minutes
+const CACHE_EXPIRY_MINUTES = 15 // Cache for 15 minutes
+const STALE_WHILE_REVALIDATE_MINUTES = 30 // Consider data stale but usable for 30 minutes
 
 interface CachedResponse<T> {
   data: T
@@ -148,7 +148,7 @@ async function executeRequest<T>(endpoint: string, options?: FetchOptions, retri
     try {
       // Add timeout to prevent hanging requests
       const controller = new AbortController()
-      const timeoutId = setTimeout(() => controller.abort(), 15000) // 15 second timeout for better reliability
+      const timeoutId = setTimeout(() => controller.abort(), 25000) // 25 second timeout for better reliability
       
       const response = await fetch(`${API_BASE_URL}${endpoint}`, {
         headers: {

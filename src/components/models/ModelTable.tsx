@@ -39,8 +39,8 @@ export function ModelTable({ models, onModelClick, className }: ModelTableProps)
   const isServerlessEnv = typeof window !== 'undefined' && 
     (window.location.hostname.includes('vercel.app') || process.env.NODE_ENV === 'production')
   
-  // 서버리스 환경에서는 30개로 제한, 로컬에서는 50개
-  const displayLimit = isServerlessEnv ? 30 : 50
+  // 서버리스 환경에서는 20개로 제한, 로컬에서는 50개
+  const displayLimit = isServerlessEnv ? 20 : 50
   const displayModels = useMemo(() => models.slice(0, displayLimit), [models, displayLimit])
 
   const columns = useMemo(() => [

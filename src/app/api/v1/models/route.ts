@@ -73,17 +73,17 @@ export async function GET(request: Request) {
                         process.env.VERCEL_ENV !== undefined
     
     if (isProduction) {
-      // In production (Vercel), use GitHub as primary data source
+      // In production (Vercel), use TempData as primary data source for stability
       try {
-        models = await GitHubDataService.getAllModels(filters)
-        dataSource = 'github'
-        console.log('📦 Using GitHub data source (production primary)')
-      } catch (githubError) {
-        console.warn('⚠️ GitHub data failed, using temporary data:', githubError instanceof Error ? githubError.message : 'Unknown error')
-        // Fallback to temporary data
         models = (await TempDataService.getAllModels(filters)) as any[]
         dataSource = 'temp-data'
-        console.log('📝 Using temporary data source (fallback)')
+        console.log('📝 Using temporary data source (production primary)')
+      } catch (tempDataError) {
+        console.warn('⚠️ TempData failed, using GitHub data:', tempDataError instanceof Error ? tempDataError.message : 'Unknown error')
+        // Fallback to GitHub data
+        models = await GitHubDataService.getAllModels(filters)
+        dataSource = 'github'
+        console.log('📦 Using GitHub data source (fallback)')
       }
     } else {
       // In development, try database first to avoid GitHub API dependency issues
