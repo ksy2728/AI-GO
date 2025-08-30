@@ -8,6 +8,7 @@ interface LanguageContextType {
   setLocale: (locale: Locale) => void
   translations: any
   t: (key: string) => string
+  isLoading: boolean
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined)
@@ -15,20 +16,46 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const [locale, setLocaleState] = useState<Locale>(defaultLocale)
   const [translations, setTranslations] = useState<any>({})
+  const [isLoading, setIsLoading] = useState(false)
 
-  // Load saved locale from localStorage
+  // Initialize translations immediately
   useEffect(() => {
-    const savedLocale = localStorage.getItem('locale') as Locale
-    if (savedLocale && ['en', 'ko', 'es', 'ja', 'zh'].includes(savedLocale)) {
-      setLocaleState(savedLocale)
+    const initTranslations = async () => {
+      const savedLocale = localStorage.getItem('locale') as Locale
+      const targetLocale = (savedLocale && ['en', 'ko', 'es', 'ja', 'zh'].includes(savedLocale)) 
+        ? savedLocale 
+        : defaultLocale
+      
+      if (!savedLocale) {
+        localStorage.setItem('locale', defaultLocale)
+      }
+      
+      setLocaleState(targetLocale)
+      
+      // Load translations immediately
+      try {
+        const trans = await getTranslations(targetLocale)
+        setTranslations(trans)
+      } catch (error) {
+        console.error('Failed to load initial translations:', error)
+      }
     }
+    
+    initTranslations()
   }, [])
 
-  // Load translations when locale changes
+  // Load translations when locale changes (only for manual locale changes)
   useEffect(() => {
     const loadTranslations = async () => {
-      const trans = await getTranslations(locale)
-      setTranslations(trans)
+      // Skip if this is the initial load (handled above)
+      if (Object.keys(translations).length === 0) return
+      
+      try {
+        const trans = await getTranslations(locale)
+        setTranslations(trans)
+      } catch (error) {
+        console.error('Failed to load translations:', error)
+      }
     }
     loadTranslations()
   }, [locale])
@@ -56,7 +83,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   }
 
   return (
-    <LanguageContext.Provider value={{ locale, setLocale, translations, t }}>
+    <LanguageContext.Provider value={{ locale, setLocale, translations, t, isLoading }}>
       {children}
     </LanguageContext.Provider>
   )
