@@ -76,9 +76,10 @@ export function UnifiedChart() {
     }
   }, [connected, isPolling])
 
-  // Update chart when WebSocket data arrives
+  // Update chart when WebSocket data arrives or context stats change
   useEffect(() => {
-    if (globalStats && connected) {
+    const statsToUse = globalStats && connected ? globalStats : contextStats
+    if (statsToUse) {
       const now = new Date()
       const timeString = now.toLocaleTimeString('en-US', { 
         hour: '2-digit', 
@@ -87,11 +88,11 @@ export function UnifiedChart() {
       
       const newPoint = {
         time: timeString,
-        activeModels: globalStats.activeModels || 0,
-        avgAvailability: globalStats.avgAvailability || 0,
-        operationalModels: globalStats.operationalModels || 0,
-        degradedModels: globalStats.degradedModels || 0,
-        outageModels: globalStats.outageModels || 0,
+        activeModels: statsToUse.activeModels || 0,
+        avgAvailability: statsToUse.avgAvailability || 0,
+        operationalModels: statsToUse.operationalModels || 0,
+        degradedModels: statsToUse.degradedModels || 0,
+        outageModels: statsToUse.outageModels || 0,
         timestamp: now.getTime()
       }
 
@@ -104,7 +105,7 @@ export function UnifiedChart() {
         return updated
       })
     }
-  }, [globalStats, connected])
+  }, [globalStats, connected, contextStats])
 
   const CustomTooltip = ({ active, payload, label }: any) => {
     if (active && payload && payload.length) {
@@ -224,7 +225,7 @@ export function UnifiedChart() {
               yAxisId="left"
               type="monotone"
               dataKey="operationalModels"
-              name={`Operational (${chartData.length > 0 ? chartData[chartData.length - 1].operationalModels || 0 : 0}/${dynamicTotalModels})`}
+              name={`Operational (${chartData.length > 0 ? chartData[chartData.length - 1].operationalModels || 0 : effectiveStats?.operationalModels || 0}/${dynamicTotalModels})`}
               stroke="#6366f1"
               strokeWidth={2.5}
               dot={{ fill: '#6366f1', r: 2 }}
