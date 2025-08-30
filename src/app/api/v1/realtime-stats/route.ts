@@ -63,10 +63,10 @@ function generateHistoricalData(currentStats: any, points: number = 20): TimeSer
 
 export async function GET(request: NextRequest) {
   try {
-    // Always fetch fresh data from GitHub - using full models dataset
-    const githubDataUrl = 'https://raw.githubusercontent.com/ksy2728/AI-GO/master/data/models-full.json'
+    // Use StatusService for database stats - same as status API
+    const { StatusService } = await import('@/services/status.service')
     
-    // Initialize with default fallback values - will be populated from actual data
+    // Initialize with default fallback values
     let stats = {
       totalModels: 0,
       activeModels: 0,
@@ -78,32 +78,61 @@ export async function GET(request: NextRequest) {
     }
     
     try {
-      const response = await fetch(githubDataUrl, {
-        next: { revalidate: 0 }, // No cache - always fresh
-        cache: 'no-store', // Disable caching completely
-        headers: {
-          'Accept': 'application/json',
-          'Cache-Control': 'no-cache, no-store, must-revalidate',
-          'Pragma': 'no-cache'
-        }
+      // Get system stats from StatusService (uses database)
+      const systemStats = await StatusService.getSystemStats()
+      
+      stats = {
+        totalModels: systemStats.totalModels || 0,
+        activeModels: systemStats.activeModels || 0,
+        avgAvailability: systemStats.avgAvailability || 95.0,
+        operationalModels: systemStats.operationalModels || 0,
+        degradedModels: systemStats.degradedModels || 0,
+        outageModels: systemStats.outageModels || 0,
+        providers: systemStats.totalProviders || 0
+      }
+      
+      console.log('📊 Using database stats for realtime-stats API:', {
+        total: stats.totalModels,
+        active: stats.activeModels,
+        operational: stats.operationalModels
       })
       
-      if (response.ok) {
-        const data = await response.json()
-        if (data.statistics) {
-          stats = {
-            totalModels: data.statistics.totalModels || 0,
-            activeModels: data.statistics.activeModels || 0,
-            avgAvailability: data.statistics.avgAvailability || 95.0,
-            operationalModels: data.statistics.operationalModels || 0,
-            degradedModels: data.statistics.degradedModels || 0,
-            outageModels: data.statistics.outageModels || 0,
-            providers: data.statistics.totalProviders || 0
+    } catch (dbError) {
+      console.error('StatusService failed, trying fallback:', dbError)
+    }
+    
+    // Fallback to GitHub only if database stats are unavailable
+    if (stats.totalModels === 0) {
+      try {
+        const githubDataUrl = 'https://raw.githubusercontent.com/ksy2728/AI-GO/master/data/models-full.json'
+        const response = await fetch(githubDataUrl, {
+          next: { revalidate: 0 },
+          cache: 'no-store',
+          headers: {
+            'Accept': 'application/json',
+            'Cache-Control': 'no-cache, no-store, must-revalidate',
+            'Pragma': 'no-cache'
+          }
+        })
+        
+        if (response.ok) {
+          const data = await response.json()
+          if (data.statistics) {
+            stats = {
+              totalModels: data.statistics.totalModels || 0,
+              activeModels: data.statistics.activeModels || 0,
+              avgAvailability: data.statistics.avgAvailability || 95.0,
+              operationalModels: data.statistics.operationalModels || 0,
+              degradedModels: data.statistics.degradedModels || 0,
+              outageModels: data.statistics.outageModels || 0,
+              providers: data.statistics.totalProviders || 0
+            }
+            console.log('📊 Fallback to GitHub stats:', stats.totalModels)
           }
         }
+      } catch (error) {
+        console.error('GitHub fallback failed:', error)
       }
-    } catch (error) {
-      console.error('GitHub fetch failed:', error)
     }
     
     // Add realistic variation based on actual model count (±2% variation)
