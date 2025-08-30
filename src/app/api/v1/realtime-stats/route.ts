@@ -26,21 +26,21 @@ interface TimeSeriesData {
   operationalModels: number
 }
 
-// Generate realistic time-series data based on current stats (139 global models)
+// Generate realistic time-series data based on actual current stats
 function generateHistoricalData(currentStats: any, points: number = 20): TimeSeriesData[] {
   const history: TimeSeriesData[] = []
   const now = Date.now()
   
-  // Use actual values from current stats for 139 global models
-  const baseActive = currentStats.activeModels || 127
-  const baseAvailability = currentStats.avgAvailability || 99.6
-  const baseOperational = currentStats.operationalModels || 127
+  // Use actual values from current stats - dynamic based on real data
+  const baseActive = currentStats.activeModels || 0
+  const baseAvailability = currentStats.avgAvailability || 95.0
+  const baseOperational = currentStats.operationalModels || 0
   
   for (let i = points - 1; i >= 0; i--) {
     const timestamp = now - (i * 60000) // 1 minute intervals
     
-    // Add realistic variations for 139 models (±2-3 models, ±0.1% for availability)
-    const modelVariation = Math.floor((Math.random() - 0.5) * Math.max(3, baseActive * 0.03)) // ±3 models for 139 scale
+    // Add realistic variations based on actual model count (±2% variation)
+    const modelVariation = Math.floor((Math.random() - 0.5) * Math.max(2, baseActive * 0.02))
     const availVariation = (Math.random() - 0.5) * 0.2 // ±0.1% availability
     
     history.push({
@@ -66,15 +66,15 @@ export async function GET(request: NextRequest) {
     // Always fetch fresh data from GitHub - using full models dataset
     const githubDataUrl = 'https://raw.githubusercontent.com/ksy2728/AI-GO/master/data/models-full.json'
     
-    // Initialize with 139 global models stats - will be populated from actual data
+    // Initialize with default fallback values - will be populated from actual data
     let stats = {
-      totalModels: 139,
-      activeModels: 127,
-      avgAvailability: 99.6,
-      operationalModels: 127,
+      totalModels: 0,
+      activeModels: 0,
+      avgAvailability: 95.0,
+      operationalModels: 0,
       degradedModels: 0,
       outageModels: 0,
-      providers: 7
+      providers: 0
     }
     
     try {
@@ -92,13 +92,13 @@ export async function GET(request: NextRequest) {
         const data = await response.json()
         if (data.statistics) {
           stats = {
-            totalModels: data.statistics.totalModels || stats.totalModels,
-            activeModels: data.statistics.activeModels || stats.activeModels,
-            avgAvailability: data.statistics.avgAvailability || stats.avgAvailability,
-            operationalModels: data.statistics.operationalModels || stats.operationalModels,
+            totalModels: data.statistics.totalModels || 0,
+            activeModels: data.statistics.activeModels || 0,
+            avgAvailability: data.statistics.avgAvailability || 95.0,
+            operationalModels: data.statistics.operationalModels || 0,
             degradedModels: data.statistics.degradedModels || 0,
             outageModels: data.statistics.outageModels || 0,
-            providers: data.statistics.totalProviders || stats.providers
+            providers: data.statistics.totalProviders || 0
           }
         }
       }
@@ -106,8 +106,8 @@ export async function GET(request: NextRequest) {
       console.error('GitHub fetch failed:', error)
     }
     
-    // Add realistic variation for 139 global models (±2-3 models, ±0.1% availability)
-    const modelVariation = Math.floor((Math.random() - 0.5) * 6) // ±0-3 models variation for 139 scale
+    // Add realistic variation based on actual model count (±2% variation)
+    const modelVariation = Math.floor((Math.random() - 0.5) * Math.max(2, stats.totalModels * 0.02))
     const availVariation = (Math.random() - 0.5) * 0.2 // ±0.1% availability variation
     
     const currentStats: RealtimeStats = {
@@ -179,16 +179,16 @@ export async function GET(request: NextRequest) {
       console.error('GitHub backup fallback also failed:', backupError)
     }
     
-    // Absolute last resort - return global models data
+    // Absolute last resort - return minimal fallback data
     return NextResponse.json({
       timestamp: new Date().toISOString(),
-      totalModels: 139,
-      activeModels: 127,
-      avgAvailability: 99.6,
-      operationalModels: 127,
+      totalModels: 0,
+      activeModels: 0,
+      avgAvailability: 95.0,
+      operationalModels: 0,
       degradedModels: 0,
       outageModels: 0,
-      providers: 7,
+      providers: 0,
       history: []
     }, {
       status: 200,

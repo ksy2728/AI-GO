@@ -41,27 +41,40 @@ export function ModelsProvider({ children }: { children: React.ReactNode }) {
   // Fetch global stats
   const refreshStats = useCallback(async () => {
     try {
-      // For now, calculate stats from loaded models
-      // Later this will call the dedicated stats endpoint
+      // Calculate comprehensive stats from loaded models
+      const operationalModels = models.filter(m => {
+        const status = Array.isArray(m.status) ? m.status[0]?.status : m.status
+        return status === 'operational'
+      })
+      
+      const degradedModels = models.filter(m => {
+        const status = Array.isArray(m.status) ? m.status[0]?.status : m.status
+        return status === 'degraded'
+      })
+      
+      const outageModels = models.filter(m => {
+        const status = Array.isArray(m.status) ? m.status[0]?.status : m.status
+        return status === 'outage'
+      })
+      
+      // Calculate average availability based on actual model statuses
+      const totalAvailability = models.reduce((sum, model) => {
+        const status = Array.isArray(model.status) ? model.status[0]?.status : model.status
+        if (status === 'operational') return sum + 100
+        if (status === 'degraded') return sum + 75
+        if (status === 'outage') return sum + 0
+        return sum + 95 // unknown status
+      }, 0)
+      
+      const avgAvailability = models.length > 0 ? totalAvailability / models.length : 0
+      
       const stats: GlobalStats = {
         totalModels: models.length,
-        activeModels: models.filter(m => {
-          const status = Array.isArray(m.status) ? m.status[0]?.status : m.status
-          return status === 'operational'
-        }).length,
-        operationalModels: models.filter(m => {
-          const status = Array.isArray(m.status) ? m.status[0]?.status : m.status
-          return status === 'operational'
-        }).length,
-        degradedModels: models.filter(m => {
-          const status = Array.isArray(m.status) ? m.status[0]?.status : m.status
-          return status === 'degraded'
-        }).length,
-        outageModels: models.filter(m => {
-          const status = Array.isArray(m.status) ? m.status[0]?.status : m.status
-          return status === 'outage'
-        }).length,
-        avgAvailability: 99.5, // Placeholder
+        activeModels: operationalModels.length,
+        operationalModels: operationalModels.length,
+        degradedModels: degradedModels.length,
+        outageModels: outageModels.length,
+        avgAvailability: Math.round(avgAvailability * 10) / 10,
         byProvider: {},
         byStatus: {
           operational: 0,

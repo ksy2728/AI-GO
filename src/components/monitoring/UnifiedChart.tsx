@@ -24,8 +24,11 @@ export function UnifiedChart() {
   const [isPolling, setIsPolling] = useState(false)
   const pollingIntervalRef = useRef<NodeJS.Timeout | null>(null)
   
-  // Use context stats if available, otherwise use realtime stats
-  const effectiveStats = globalStats || contextStats
+  // Use context stats first (more reliable), fallback to realtime stats
+  const effectiveStats = contextStats || globalStats
+  
+  // Calculate dynamic total models from available sources
+  const dynamicTotalModels = effectiveStats?.totalModels || totalModels || 0
 
   // Fetch realtime stats from Edge Function
   const fetchRealtimeStats = async () => {
@@ -208,7 +211,7 @@ export function UnifiedChart() {
               yAxisId="left"
               type="monotone"
               dataKey="activeModels"
-              name={`Active Models (${chartData.length > 0 ? chartData[chartData.length - 1].activeModels || 0 : 0}/${effectiveStats?.totalModels || totalModels || 139})`}
+              name={`Active Models (${chartData.length > 0 ? chartData[chartData.length - 1].activeModels || 0 : activeModels || 0}/${dynamicTotalModels})`}
               stroke="#3b82f6"
               strokeWidth={2.5}
               dot={{ fill: '#3b82f6', r: 2 }}
@@ -221,7 +224,7 @@ export function UnifiedChart() {
               yAxisId="left"
               type="monotone"
               dataKey="operationalModels"
-              name={`Operational (${chartData.length > 0 ? chartData[chartData.length - 1].operationalModels || 0 : 0}/${effectiveStats?.totalModels || totalModels || 139})`}
+              name={`Operational (${chartData.length > 0 ? chartData[chartData.length - 1].operationalModels || 0 : 0}/${dynamicTotalModels})`}
               stroke="#6366f1"
               strokeWidth={2.5}
               dot={{ fill: '#6366f1', r: 2 }}

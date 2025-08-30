@@ -49,14 +49,20 @@ export function useRealtime(options: UseRealtimeOptions = {}) {
   const isWebSocketDisabled = process.env.NEXT_PUBLIC_DISABLE_WEBSOCKET === 'true' ||
     process.env.NODE_ENV === 'production' ||
     (typeof window !== 'undefined' && window.location.hostname.includes('vercel.app'))
+  
+  // Enhanced fallback mechanism - prioritize ModelsContext when WebSocket unavailable
+  const shouldUseContextFallback = isWebSocketDisabled && typeof window !== 'undefined'
 
   // Initialize socket connection
   useEffect(() => {
     // Disable WebSocket when explicitly disabled or in production environment
     if (!autoConnect || isWebSocketDisabled) {
-      console.log('🚫 WebSocket disabled for serverless deployment')
+      console.log('🚫 WebSocket disabled - falling back to ModelsContext/polling for real-time data')
       setConnected(false)
-      setError('WebSocket disabled for serverless deployment')
+      setError(null) // Don't treat this as an error, it's expected behavior
+      
+      // Set globalStats to null to ensure ModelsContext is prioritized
+      setGlobalStats(null)
       return
     }
 
