@@ -31,14 +31,34 @@ export function UnifiedChart() {
   const dynamicTotalModels = effectiveStats?.totalModels || totalModels || 0
 
   // Fetch realtime stats from Edge Function
-  const fetchRealtimeStats = async () => {
+  const fetchRealtimeStats = async (includeHistory: boolean = false) => {
     try {
-      const response = await fetch('/api/v1/realtime-stats')
+      const url = includeHistory 
+        ? '/api/v1/realtime-stats' 
+        : '/api/v1/realtime-stats?includeHistory=false'
+      const response = await fetch(url)
+      
       if (response.ok) {
         const data = await response.json()
         
-        // Use historical data if available
-        if (data.history && data.history.length > 0) {
+        if (!includeHistory || !data.history) {
+          // Use only current data point when starting
+          const now = new Date()
+          const currentPoint = {
+            time: now.toLocaleTimeString('en-US', { 
+              hour: '2-digit', 
+              minute: '2-digit' 
+            }),
+            activeModels: data.activeModels || 0,
+            avgAvailability: data.avgAvailability || 0,
+            operationalModels: data.operationalModels || 0,
+            degradedModels: data.degradedModels || 0,
+            outageModels: data.outageModels || 0,
+            timestamp: now.getTime()
+          }
+          setChartData([currentPoint])
+        } else if (data.history && data.history.length > 0) {
+          // Use historical data if requested and available
           const formattedData = data.history.map((point: any) => ({
             time: point.time,
             activeModels: point.activeModels || 0,
@@ -56,9 +76,9 @@ export function UnifiedChart() {
     }
   }
 
-  // Initial fetch on mount
+  // Initial fetch on mount - exclude history to start from current time
   useEffect(() => {
-    fetchRealtimeStats()
+    fetchRealtimeStats(false) // false = exclude history, start from current data only
   }, [])
 
   // Start polling for production environment
@@ -225,7 +245,7 @@ export function UnifiedChart() {
               yAxisId="left"
               type="monotone"
               dataKey="operationalModels"
-              name={`Operational (${chartData.length > 0 ? chartData[chartData.length - 1].operationalModels || 0 : effectiveStats?.operationalModels || 0}/${dynamicTotalModels})`}
+              name={`Operational (${effectiveStats?.operationalModels || (chartData.length > 0 && chartData[chartData.length - 1].operationalModels != null ? chartData[chartData.length - 1].operationalModels : 0)}/${dynamicTotalModels})`}
               stroke="#6366f1"
               strokeWidth={2.5}
               dot={{ fill: '#6366f1', r: 2 }}

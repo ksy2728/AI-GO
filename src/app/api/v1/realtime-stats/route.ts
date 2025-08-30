@@ -63,6 +63,10 @@ function generateHistoricalData(currentStats: any, points: number = 20): TimeSer
 
 export async function GET(request: NextRequest) {
   try {
+    // Parse query parameters
+    const { searchParams } = new URL(request.url)
+    const includeHistory = searchParams.get('includeHistory') !== 'false'
+    
     // Use StatusService for database stats - same as status API
     const { StatusService } = await import('@/services/status.service')
     
@@ -148,7 +152,8 @@ export async function GET(request: NextRequest) {
       degradedModels: stats.degradedModels,
       outageModels: stats.outageModels,
       providers: stats.providers,
-      history: generateHistoricalData(stats)
+      // Only include history if requested
+      ...(includeHistory && { history: generateHistoricalData(stats) })
     }
     
     // Return with no-cache headers
@@ -158,6 +163,7 @@ export async function GET(request: NextRequest) {
         'Pragma': 'no-cache',
         'Expires': '0',
         'X-Data-Source': 'github-direct',
+        'X-Include-History': includeHistory ? 'true' : 'false',
         'X-Timestamp': new Date().toISOString()
       }
     })
