@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0",
-    "generated": "2025-08-30T18:30:33.234Z",
+    "generated": "2025-08-30T19:17:40.056Z",
     "source": "github-actions"
   },
   "statistics": {
@@ -11,8 +11,8 @@
     "operationalModels": 31,
     "degradedModels": 1,
     "outageModels": 0,
-    "avgAvailability": 98.67884571497615,
-    "lastUpdated": "2025-08-30T18:30:33.233Z"
+    "avgAvailability": 98.63438943860126,
+    "lastUpdated": "2025-08-30T19:17:40.055Z"
   },
   "typeStatistics": {
     "undefined": 32
@@ -25,7 +25,7 @@
       "totalModels": 2,
       "activeModels": 2,
       "operationalModels": 2,
-      "avgAvailability": 99.5
+      "avgAvailability": 97.25407580141163
     },
     {
       "id": "anthropic",
@@ -34,7 +34,7 @@
       "totalModels": 5,
       "activeModels": 5,
       "operationalModels": 5,
-      "avgAvailability": 99.04080785830097
+      "avgAvailability": 99.15582660291665
     },
     {
       "id": "cohere",
@@ -43,7 +43,7 @@
       "totalModels": 3,
       "activeModels": 3,
       "operationalModels": 3,
-      "avgAvailability": 99.5
+      "avgAvailability": 98.77091361325533
     },
     {
       "id": "google",
@@ -52,7 +52,7 @@
       "totalModels": 5,
       "activeModels": 5,
       "operationalModels": 5,
-      "avgAvailability": 99.04004599206046
+      "avgAvailability": 98.85332143195538
     },
     {
       "id": "huggingface",
@@ -70,7 +70,7 @@
       "totalModels": 4,
       "activeModels": 4,
       "operationalModels": 4,
-      "avgAvailability": 99.24543069757571
+      "avgAvailability": 99.5
     },
     {
       "id": "microsoft",
@@ -88,7 +88,7 @@
       "totalModels": 4,
       "activeModels": 4,
       "operationalModels": 4,
-      "avgAvailability": 98.2455802765351
+      "avgAvailability": 99.5
     },
     {
       "id": "openai",
@@ -97,7 +97,7 @@
       "totalModels": 7,
       "activeModels": 7,
       "operationalModels": 6,
-      "avgAvailability": 97.26496424728381
+      "avgAvailability": 97.20483277404158
     },
     {
       "id": "replicate",
@@ -111,7 +111,7 @@
   ],
   "models": [
     {
-      "id": "e2b92fb6-c3ee-4a18-a99a-d8a0a62e9c1e",
+      "id": "89eb997a-35d8-42b4-9d82-b74af25c4dce",
       "name": "Titan Embeddings",
       "provider": {
         "id": "amazon",
@@ -123,15 +123,18 @@
       ],
       "status": {
         "status": "operational",
-        "availability": 99.5
+        "availability": 95.00815160282325,
+        "responseTime": 189,
+        "errorRate": 1.403593065369106,
+        "lastCheck": "2025-08-30T19:17:39.957Z"
       },
-      "availability": 99.5,
+      "availability": 95.00815160282325,
       "isActive": true,
-      "lastUpdate": "2025-08-30T18:30:33.132Z",
-      "createdAt": "2025-08-30T18:30:33.132Z"
+      "lastUpdate": "2025-08-30T19:17:39.940Z",
+      "createdAt": "2025-08-30T19:17:39.940Z"
     },
     {
-      "id": "494e1381-dcdb-496a-add4-721911942a9b",
+      "id": "a5655e3f-43c1-40a3-886b-c7ae9f9676d2",
       "name": "Titan Text",
       "provider": {
         "id": "amazon",
@@ -147,11 +150,11 @@
       },
       "availability": 99.5,
       "isActive": true,
-      "lastUpdate": "2025-08-30T18:30:33.130Z",
-      "createdAt": "2025-08-30T18:30:33.130Z"
+      "lastUpdate": "2025-08-30T19:17:39.938Z",
+      "createdAt": "2025-08-30T19:17:39.938Z"
     },
     {
-      "id": "668b36e3-98e6-425d-ba18-8c727ca1f934",
+      "id": "4af7f10e-830e-4631-a0ce-4fcd10a3040e",
       "name": "Claude 2.1",
       "provider": {
         "id": "anthropic",
@@ -167,11 +170,11 @@
       },
       "availability": 99.5,
       "isActive": true,
-      "lastUpdate": "2025-08-30T18:30:33.092Z",
-      "createdAt": "2025-08-30T18:30:33.092Z"
+      "lastUpdate": "2025-08-30T19:17:39.881Z",
+      "createdAt": "2025-08-30T19:17:39.881Z"
     },
     {
-      "id": "7efc957f-3d24-4b51-ac13-7fa681ee0157",
+      "id": "c566928a-e762-4fbb-9bdf-08a38e3c49ba",
       "name": "Claude 3 Haiku",
       "provider": {
         "id": "anthropic",
@@ -187,11 +190,11 @@
       },
       "availability": 99.5,
       "isActive": true,
-      "lastUpdate": "2025-08-30T18:30:33.090Z",
-      "createdAt": "2025-08-30T18:30:33.090Z"
+      "lastUpdate": "2025-08-30T19:17:39.877Z",
+      "createdAt": "2025-08-30T19:17:39.877Z"
     },
     {
-      "id": "c3f68aa2-9366-45a6-8373-06e295d4d6f0",
+      "id": "692713ab-a106-4626-af34-557ea3e1a474",
       "name": "Claude 3 Opus",
       "provider": {
         "id": "anthropic",
@@ -203,18 +206,18 @@
       ],
       "status": {
         "status": "operational",
-        "availability": 98.31394256606073,
-        "responseTime": 84,
-        "errorRate": 1.660482964170815,
-        "lastCheck": "2025-08-30T18:30:33.146Z"
+        "availability": 97.77913301458324,
+        "responseTime": 234,
+        "errorRate": 1.083648898020533,
+        "lastCheck": "2025-08-30T19:17:39.954Z"
       },
-      "availability": 98.31394256606073,
+      "availability": 97.77913301458324,
       "isActive": true,
-      "lastUpdate": "2025-08-30T18:30:33.086Z",
-      "createdAt": "2025-08-30T18:30:33.086Z"
+      "lastUpdate": "2025-08-30T19:17:39.870Z",
+      "createdAt": "2025-08-30T19:17:39.870Z"
     },
     {
-      "id": "62e8da3b-4fda-4397-bb0a-3700796945ac",
+      "id": "32ad417e-4550-4c25-bfcc-b4d710fb4f36",
       "name": "Claude 3 Sonnet",
       "provider": {
         "id": "anthropic",
@@ -230,11 +233,11 @@
       },
       "availability": 99.5,
       "isActive": true,
-      "lastUpdate": "2025-08-30T18:30:33.088Z",
-      "createdAt": "2025-08-30T18:30:33.088Z"
+      "lastUpdate": "2025-08-30T19:17:39.873Z",
+      "createdAt": "2025-08-30T19:17:39.873Z"
     },
     {
-      "id": "c324ea32-f534-4787-9b97-5a2633371c88",
+      "id": "c99f6c7b-01ef-4aec-ac75-3fb04d333088",
       "name": "Claude Instant",
       "provider": {
         "id": "anthropic",
@@ -246,18 +249,15 @@
       ],
       "status": {
         "status": "operational",
-        "availability": 98.39009672544407,
-        "responseTime": 242,
-        "errorRate": 1.731428747878346,
-        "lastCheck": "2025-08-30T18:30:33.145Z"
+        "availability": 99.5
       },
-      "availability": 98.39009672544407,
+      "availability": 99.5,
       "isActive": true,
-      "lastUpdate": "2025-08-30T18:30:33.094Z",
-      "createdAt": "2025-08-30T18:30:33.094Z"
+      "lastUpdate": "2025-08-30T19:17:39.884Z",
+      "createdAt": "2025-08-30T19:17:39.884Z"
     },
     {
-      "id": "eba22601-2361-4937-bff2-d60bc568ce67",
+      "id": "966d49e9-3e13-4e79-964a-7fe176156159",
       "name": "Command",
       "provider": {
         "id": "cohere",
@@ -269,15 +269,18 @@
       ],
       "status": {
         "status": "operational",
-        "availability": 99.5
+        "availability": 97.31274083976598,
+        "responseTime": 219,
+        "errorRate": 0.4386788823503607,
+        "lastCheck": "2025-08-30T19:17:39.960Z"
       },
-      "availability": 99.5,
+      "availability": 97.31274083976598,
       "isActive": true,
-      "lastUpdate": "2025-08-30T18:30:33.128Z",
-      "createdAt": "2025-08-30T18:30:33.128Z"
+      "lastUpdate": "2025-08-30T19:17:39.936Z",
+      "createdAt": "2025-08-30T19:17:39.936Z"
     },
     {
-      "id": "e1a51d3b-45a1-4cb8-a38e-ceab9c68090b",
+      "id": "ecaa91c7-ef21-4409-8e4d-5271a300e568",
       "name": "Command R",
       "provider": {
         "id": "cohere",
@@ -293,11 +296,11 @@
       },
       "availability": 99.5,
       "isActive": true,
-      "lastUpdate": "2025-08-30T18:30:33.126Z",
-      "createdAt": "2025-08-30T18:30:33.126Z"
+      "lastUpdate": "2025-08-30T19:17:39.934Z",
+      "createdAt": "2025-08-30T19:17:39.934Z"
     },
     {
-      "id": "75e3a2a6-594d-4961-acd9-90a9437a1ad4",
+      "id": "fc7f1aae-319b-415a-bdf2-0a576bfb15b0",
       "name": "Command R+",
       "provider": {
         "id": "cohere",
@@ -313,11 +316,11 @@
       },
       "availability": 99.5,
       "isActive": true,
-      "lastUpdate": "2025-08-30T18:30:33.125Z",
-      "createdAt": "2025-08-30T18:30:33.125Z"
+      "lastUpdate": "2025-08-30T19:17:39.932Z",
+      "createdAt": "2025-08-30T19:17:39.932Z"
     },
     {
-      "id": "b9629844-bd31-4a3d-9bf1-bdb0f8f3dd22",
+      "id": "ca9471c5-f503-451d-aa6a-6f57c842b448",
       "name": "Bard",
       "provider": {
         "id": "google",
@@ -329,18 +332,15 @@
       ],
       "status": {
         "status": "operational",
-        "availability": 97.20022996030231,
-        "responseTime": 147,
-        "errorRate": 0.02310181984465709,
-        "lastCheck": "2025-08-30T18:30:33.143Z"
+        "availability": 99.5
       },
-      "availability": 97.20022996030231,
+      "availability": 99.5,
       "isActive": true,
-      "lastUpdate": "2025-08-30T18:30:33.104Z",
-      "createdAt": "2025-08-30T18:30:33.104Z"
+      "lastUpdate": "2025-08-30T19:17:39.899Z",
+      "createdAt": "2025-08-30T19:17:39.899Z"
     },
     {
-      "id": "2ee34624-2dcb-486a-8fec-189009975907",
+      "id": "e62ed553-2ca6-4955-bb47-270dc2757761",
       "name": "Gemini Nano",
       "provider": {
         "id": "google",
@@ -356,11 +356,11 @@
       },
       "availability": 99.5,
       "isActive": true,
-      "lastUpdate": "2025-08-30T18:30:33.100Z",
-      "createdAt": "2025-08-30T18:30:33.100Z"
+      "lastUpdate": "2025-08-30T19:17:39.893Z",
+      "createdAt": "2025-08-30T19:17:39.893Z"
     },
     {
-      "id": "dc21cf4b-fb31-42f4-bbf1-983b8887efe5",
+      "id": "626efe14-4386-4a25-8350-cee1a4f82d46",
       "name": "Gemini Pro",
       "provider": {
         "id": "google",
@@ -372,15 +372,18 @@
       ],
       "status": {
         "status": "operational",
-        "availability": 99.5
+        "availability": 97.72255179768493,
+        "responseTime": 118,
+        "errorRate": 1.767610369935956,
+        "lastCheck": "2025-08-30T19:17:39.946Z"
       },
-      "availability": 99.5,
+      "availability": 97.72255179768493,
       "isActive": true,
-      "lastUpdate": "2025-08-30T18:30:33.098Z",
-      "createdAt": "2025-08-30T18:30:33.098Z"
+      "lastUpdate": "2025-08-30T19:17:39.890Z",
+      "createdAt": "2025-08-30T19:17:39.890Z"
     },
     {
-      "id": "e473b399-5344-4900-ba26-4de496119a9b",
+      "id": "5bfd30d1-bdae-4dd6-b0c8-5d7b3b7caf02",
       "name": "Gemini Ultra",
       "provider": {
         "id": "google",
@@ -392,15 +395,18 @@
       ],
       "status": {
         "status": "operational",
-        "availability": 99.5
+        "availability": 98.04405536209197,
+        "responseTime": 145,
+        "errorRate": 1.540885721294574,
+        "lastCheck": "2025-08-30T19:17:39.943Z"
       },
-      "availability": 99.5,
+      "availability": 98.04405536209197,
       "isActive": true,
-      "lastUpdate": "2025-08-30T18:30:33.096Z",
-      "createdAt": "2025-08-30T18:30:33.096Z"
+      "lastUpdate": "2025-08-30T19:17:39.887Z",
+      "createdAt": "2025-08-30T19:17:39.887Z"
     },
     {
-      "id": "f536d8a1-4f56-4a74-ab1c-94b835632e12",
+      "id": "274cd50c-ae5c-43b8-84da-030af4d3465f",
       "name": "PaLM 2",
       "provider": {
         "id": "google",
@@ -416,11 +422,11 @@
       },
       "availability": 99.5,
       "isActive": true,
-      "lastUpdate": "2025-08-30T18:30:33.102Z",
-      "createdAt": "2025-08-30T18:30:33.102Z"
+      "lastUpdate": "2025-08-30T19:17:39.897Z",
+      "createdAt": "2025-08-30T19:17:39.897Z"
     },
     {
-      "id": "a4be9f42-1c95-4e7c-87c6-98a63983eb98",
+      "id": "f87bea61-d8e4-4008-91c4-26a303eb1185",
       "name": "Code Llama",
       "provider": {
         "id": "meta",
@@ -432,18 +438,15 @@
       ],
       "status": {
         "status": "operational",
-        "availability": 98.48172279030287,
-        "responseTime": 96,
-        "errorRate": 1.026730308484418,
-        "lastCheck": "2025-08-30T18:30:33.141Z"
+        "availability": 99.5
       },
-      "availability": 98.48172279030287,
+      "availability": 99.5,
       "isActive": true,
-      "lastUpdate": "2025-08-30T18:30:33.111Z",
-      "createdAt": "2025-08-30T18:30:33.111Z"
+      "lastUpdate": "2025-08-30T19:17:39.911Z",
+      "createdAt": "2025-08-30T19:17:39.911Z"
     },
     {
-      "id": "4c7df185-a279-48bf-bcbc-a0e4ff4c7bfb",
+      "id": "05529c91-3cde-4411-a180-3c8ca392eede",
       "name": "Llama 2 13B",
       "provider": {
         "id": "meta",
@@ -459,11 +462,11 @@
       },
       "availability": 99.5,
       "isActive": true,
-      "lastUpdate": "2025-08-30T18:30:33.107Z",
-      "createdAt": "2025-08-30T18:30:33.107Z"
+      "lastUpdate": "2025-08-30T19:17:39.905Z",
+      "createdAt": "2025-08-30T19:17:39.905Z"
     },
     {
-      "id": "3199c3f6-1a3f-48c3-b93a-235f488501c5",
+      "id": "fc97217b-437a-4ed3-8e40-5316c4f6de5e",
       "name": "Llama 2 70B",
       "provider": {
         "id": "meta",
@@ -479,11 +482,11 @@
       },
       "availability": 99.5,
       "isActive": true,
-      "lastUpdate": "2025-08-30T18:30:33.105Z",
-      "createdAt": "2025-08-30T18:30:33.105Z"
+      "lastUpdate": "2025-08-30T19:17:39.902Z",
+      "createdAt": "2025-08-30T19:17:39.902Z"
     },
     {
-      "id": "034a975f-3349-4a78-af1a-57ea7900d5c8",
+      "id": "cc556913-600b-4751-b676-4e41a9d487bc",
       "name": "Llama 2 7B",
       "provider": {
         "id": "meta",
@@ -499,11 +502,11 @@
       },
       "availability": 99.5,
       "isActive": true,
-      "lastUpdate": "2025-08-30T18:30:33.109Z",
-      "createdAt": "2025-08-30T18:30:33.109Z"
+      "lastUpdate": "2025-08-30T19:17:39.909Z",
+      "createdAt": "2025-08-30T19:17:39.909Z"
     },
     {
-      "id": "6c25e8bd-5d5d-4a48-9262-783c04d47e50",
+      "id": "1aaa9f38-1353-41f8-8646-8a187399de7d",
       "name": "Bing Chat",
       "provider": {
         "id": "microsoft",
@@ -519,11 +522,11 @@
       },
       "availability": 99.5,
       "isActive": true,
-      "lastUpdate": "2025-08-30T18:30:33.115Z",
-      "createdAt": "2025-08-30T18:30:33.115Z"
+      "lastUpdate": "2025-08-30T19:17:39.917Z",
+      "createdAt": "2025-08-30T19:17:39.917Z"
     },
     {
-      "id": "4eb7d7c8-7616-4068-9bae-871a3b0b4875",
+      "id": "b3414fa8-32d0-4fae-9977-f0c64ad5a09d",
       "name": "Phi-2",
       "provider": {
         "id": "microsoft",
@@ -539,11 +542,11 @@
       },
       "availability": 99.5,
       "isActive": true,
-      "lastUpdate": "2025-08-30T18:30:33.113Z",
-      "createdAt": "2025-08-30T18:30:33.113Z"
+      "lastUpdate": "2025-08-30T19:17:39.914Z",
+      "createdAt": "2025-08-30T19:17:39.914Z"
     },
     {
-      "id": "cab0f156-2cd4-408b-b51c-612078296d60",
+      "id": "008c3db6-3eaa-4e48-a6eb-cbdeb075ca4d",
       "name": "Mistral Large",
       "provider": {
         "id": "mistral",
@@ -555,18 +558,15 @@
       ],
       "status": {
         "status": "operational",
-        "availability": 97.15105408437792,
-        "responseTime": 113,
-        "errorRate": 1.124953672863818,
-        "lastCheck": "2025-08-30T18:30:33.148Z"
+        "availability": 99.5
       },
-      "availability": 97.15105408437792,
+      "availability": 99.5,
       "isActive": true,
-      "lastUpdate": "2025-08-30T18:30:33.117Z",
-      "createdAt": "2025-08-30T18:30:33.117Z"
+      "lastUpdate": "2025-08-30T19:17:39.919Z",
+      "createdAt": "2025-08-30T19:17:39.919Z"
     },
     {
-      "id": "07af0024-b355-419d-aae1-05f037bf4280",
+      "id": "cbef8367-bc29-46f6-991a-61c963794407",
       "name": "Mistral Medium",
       "provider": {
         "id": "mistral",
@@ -582,11 +582,11 @@
       },
       "availability": 99.5,
       "isActive": true,
-      "lastUpdate": "2025-08-30T18:30:33.119Z",
-      "createdAt": "2025-08-30T18:30:33.119Z"
+      "lastUpdate": "2025-08-30T19:17:39.922Z",
+      "createdAt": "2025-08-30T19:17:39.922Z"
     },
     {
-      "id": "8b9a22fd-d6fa-4ca1-b5e1-ca3be06798fe",
+      "id": "afbf5022-f727-41d1-a89d-031b22d3eec5",
       "name": "Mistral Small",
       "provider": {
         "id": "mistral",
@@ -598,18 +598,15 @@
       ],
       "status": {
         "status": "operational",
-        "availability": 96.83126702176247,
-        "responseTime": 106,
-        "errorRate": 1.364910776761819,
-        "lastCheck": "2025-08-30T18:30:33.135Z"
+        "availability": 99.5
       },
-      "availability": 96.83126702176247,
+      "availability": 99.5,
       "isActive": true,
-      "lastUpdate": "2025-08-30T18:30:33.121Z",
-      "createdAt": "2025-08-30T18:30:33.121Z"
+      "lastUpdate": "2025-08-30T19:17:39.925Z",
+      "createdAt": "2025-08-30T19:17:39.925Z"
     },
     {
-      "id": "e9106942-7405-4d23-8574-b20bbe229845",
+      "id": "a5027012-15ba-488e-a15a-f562a8c6913d",
       "name": "Mixtral 8x7B",
       "provider": {
         "id": "mistral",
@@ -625,11 +622,11 @@
       },
       "availability": 99.5,
       "isActive": true,
-      "lastUpdate": "2025-08-30T18:30:33.123Z",
-      "createdAt": "2025-08-30T18:30:33.123Z"
+      "lastUpdate": "2025-08-30T19:17:39.928Z",
+      "createdAt": "2025-08-30T19:17:39.928Z"
     },
     {
-      "id": "05f52ea2-0642-4715-87da-3582db0b2741",
+      "id": "d2a9c1d4-4fb1-44f4-8b9c-1c77f5e64d76",
       "name": "DALL-E 3",
       "provider": {
         "id": "openai",
@@ -645,11 +642,11 @@
       },
       "availability": 99.5,
       "isActive": true,
-      "lastUpdate": "2025-08-30T18:30:33.082Z",
-      "createdAt": "2025-08-30T18:30:33.082Z"
+      "lastUpdate": "2025-08-30T19:17:39.864Z",
+      "createdAt": "2025-08-30T19:17:39.864Z"
     },
     {
-      "id": "543a5b81-bf63-43fa-b422-c6134be362b6",
+      "id": "a31f1987-beb4-4191-a9d5-aff9f88b3a2c",
       "name": "GPT-3.5 Turbo",
       "provider": {
         "id": "openai",
@@ -660,16 +657,19 @@
         "text"
       ],
       "status": {
-        "status": "operational",
-        "availability": 99.5
+        "status": "degraded",
+        "availability": 85.22594667962281,
+        "responseTime": 51,
+        "errorRate": 8.596185890840356,
+        "lastCheck": "2025-08-30T19:17:39.963Z"
       },
-      "availability": 99.5,
+      "availability": 85.22594667962281,
       "isActive": true,
-      "lastUpdate": "2025-08-30T18:30:33.080Z",
-      "createdAt": "2025-08-30T18:30:33.080Z"
+      "lastUpdate": "2025-08-30T19:17:39.860Z",
+      "createdAt": "2025-08-30T19:17:39.860Z"
     },
     {
-      "id": "8bb021b2-1f31-4ef8-9883-acda464a3b2a",
+      "id": "a31fed62-4a9a-43f5-9464-4ed423055a80",
       "name": "GPT-4",
       "provider": {
         "id": "openai",
@@ -681,18 +681,18 @@
       ],
       "status": {
         "status": "operational",
-        "availability": 97.41418511101077,
-        "responseTime": 70,
-        "errorRate": 0.3204115114234645,
-        "lastCheck": "2025-08-30T18:30:33.137Z"
+        "availability": 99.63099741726516,
+        "responseTime": 61,
+        "errorRate": 0.4576472869531254,
+        "lastCheck": "2025-08-30T19:17:39.965Z"
       },
-      "availability": 97.41418511101077,
+      "availability": 99.63099741726516,
       "isActive": true,
-      "lastUpdate": "2025-08-30T18:30:33.078Z",
-      "createdAt": "2025-08-30T18:30:33.078Z"
+      "lastUpdate": "2025-08-30T19:17:39.857Z",
+      "createdAt": "2025-08-30T19:17:39.857Z"
     },
     {
-      "id": "4c559db6-6f0a-48c1-8828-f3661be98ea3",
+      "id": "49e7de14-db2c-4416-be51-049cd6b2be0a",
       "name": "GPT-4 Turbo",
       "provider": {
         "id": "openai",
@@ -708,11 +708,11 @@
       },
       "availability": 99.5,
       "isActive": true,
-      "lastUpdate": "2025-08-30T18:30:33.076Z",
-      "createdAt": "2025-08-30T18:30:33.076Z"
+      "lastUpdate": "2025-08-30T19:17:39.855Z",
+      "createdAt": "2025-08-30T19:17:39.855Z"
     },
     {
-      "id": "f25059ad-eb28-4c35-93af-0988d813cd76",
+      "id": "f94514a3-83da-4714-b891-e70e0afae3a9",
       "name": "GPT-4o",
       "provider": {
         "id": "openai",
@@ -728,35 +728,12 @@
       },
       "availability": 99.5,
       "isActive": true,
-      "lastUpdate": "2025-08-30T18:30:33.071Z",
-      "createdAt": "2025-08-30T18:30:33.071Z"
+      "lastUpdate": "2025-08-30T19:17:39.849Z",
+      "createdAt": "2025-08-30T19:17:39.849Z"
     },
     {
-      "id": "a3ef5039-7922-47ca-90b0-a1c0bdf78a13",
+      "id": "1ca5f400-fd66-4be7-b8b6-8ea8156650b6",
       "name": "GPT-4o Mini",
-      "provider": {
-        "id": "openai",
-        "name": "OpenAI",
-        "website": "https://openai.com"
-      },
-      "modalities": [
-        "text"
-      ],
-      "status": {
-        "status": "degraded",
-        "availability": 85.94056461997586,
-        "responseTime": 96,
-        "errorRate": 5.397728947324252,
-        "lastCheck": "2025-08-30T18:30:33.139Z"
-      },
-      "availability": 85.94056461997586,
-      "isActive": true,
-      "lastUpdate": "2025-08-30T18:30:33.074Z",
-      "createdAt": "2025-08-30T18:30:33.074Z"
-    },
-    {
-      "id": "0470227d-864d-401b-947e-65ca497d32f8",
-      "name": "Whisper",
       "provider": {
         "id": "openai",
         "name": "OpenAI",
@@ -771,8 +748,31 @@
       },
       "availability": 99.5,
       "isActive": true,
-      "lastUpdate": "2025-08-30T18:30:33.084Z",
-      "createdAt": "2025-08-30T18:30:33.084Z"
+      "lastUpdate": "2025-08-30T19:17:39.852Z",
+      "createdAt": "2025-08-30T19:17:39.852Z"
+    },
+    {
+      "id": "6627d964-69cb-4268-ae2a-b4f353317baa",
+      "name": "Whisper",
+      "provider": {
+        "id": "openai",
+        "name": "OpenAI",
+        "website": "https://openai.com"
+      },
+      "modalities": [
+        "text"
+      ],
+      "status": {
+        "status": "operational",
+        "availability": 97.57688532140295,
+        "responseTime": 146,
+        "errorRate": 1.74404648645003,
+        "lastCheck": "2025-08-30T19:17:39.950Z"
+      },
+      "availability": 97.57688532140295,
+      "isActive": true,
+      "lastUpdate": "2025-08-30T19:17:39.867Z",
+      "createdAt": "2025-08-30T19:17:39.867Z"
     }
   ]
 }
