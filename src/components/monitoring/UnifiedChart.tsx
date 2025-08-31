@@ -22,6 +22,8 @@ export function UnifiedChart() {
   const { globalStats: contextStats, totalModels, activeModels } = useGlobalStats()
   const [chartData, setChartData] = useState<any[]>([])
   const [isPolling, setIsPolling] = useState(false)
+  const [isLoading, setIsLoading] = useState(true)
+  const [error, setError] = useState<string | null>(null)
   const pollingIntervalRef = useRef<NodeJS.Timeout | null>(null)
   
   // Use context stats first (more reliable), fallback to realtime stats
@@ -33,6 +35,7 @@ export function UnifiedChart() {
   // Fetch realtime stats from Edge Function
   const fetchRealtimeStats = async (includeHistory: boolean = false) => {
     try {
+      setError(null)
       const url = includeHistory 
         ? '/api/v1/realtime-stats' 
         : '/api/v1/realtime-stats?includeHistory=false'
@@ -70,9 +73,19 @@ export function UnifiedChart() {
           }))
           setChartData(formattedData)
         }
+        setIsLoading(false)
+      } else if (response.status === 503) {
+        // Database unavailable
+        setError('Database is currently unavailable. Please try again later.')
+        setIsLoading(false)
+      } else {
+        setError('Failed to fetch real-time statistics')
+        setIsLoading(false)
       }
     } catch (error) {
       console.error('Failed to fetch realtime stats:', error)
+      setError('Network error: Unable to connect to the server')
+      setIsLoading(false)
     }
   }
 
@@ -148,6 +161,73 @@ export function UnifiedChart() {
       )
     }
     return null
+  }
+
+  // Loading state
+  if (isLoading) {
+    return (
+      <Card className="shadow-lg border-0 bg-gradient-to-br from-white to-gray-50">
+        <CardHeader className="pb-2 pt-4">
+          <div className="flex items-center justify-between">
+            <div>
+              <CardTitle className="text-lg font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                {t('monitoring.unifiedChart.title')}
+              </CardTitle>
+              <CardDescription className="text-xs text-gray-600 mt-0.5">
+                {t('monitoring.unifiedChart.description')}
+              </CardDescription>
+            </div>
+          </div>
+        </CardHeader>
+        <CardContent className="pt-2 pb-4">
+          <div className="flex items-center justify-center h-[400px]">
+            <div className="text-center">
+              <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
+              <p className="text-gray-600">Loading real-time data...</p>
+            </div>
+          </div>
+        </CardContent>
+      </Card>
+    )
+  }
+
+  // Error state
+  if (error) {
+    return (
+      <Card className="shadow-lg border-0 bg-gradient-to-br from-white to-gray-50">
+        <CardHeader className="pb-2 pt-4">
+          <div className="flex items-center justify-between">
+            <div>
+              <CardTitle className="text-lg font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                {t('monitoring.unifiedChart.title')}
+              </CardTitle>
+              <CardDescription className="text-xs text-gray-600 mt-0.5">
+                {t('monitoring.unifiedChart.description')}
+              </CardDescription>
+            </div>
+          </div>
+        </CardHeader>
+        <CardContent className="pt-2 pb-4">
+          <div className="flex items-center justify-center h-[400px]">
+            <div className="text-center">
+              <div className="text-red-500 text-4xl mb-4">⚠️</div>
+              <p className="text-gray-800 font-medium mb-2">Unable to load data</p>
+              <p className="text-gray-600 text-sm">{error}</p>
+              <button 
+                onClick={() => {
+                  setIsLoading(true)
+                  setError(null)
+                  fetchRealtimeStats(false)
+                }}
+                className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+              >
+                Retry
+              </button>
+            </div>
+          </div>
+        </CardContent>
+      </Card>
+    )
   }
 
   return (

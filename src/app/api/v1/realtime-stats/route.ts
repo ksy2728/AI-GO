@@ -67,10 +67,10 @@ export async function GET(request: NextRequest) {
     const { searchParams } = new URL(request.url)
     const includeHistory = searchParams.get('includeHistory') !== 'false'
     
-    // Use StatusService for database stats - same as status API
+    // Use StatusService for database stats - primary data source
     const { StatusService } = await import('@/services/status.service')
     
-    // Initialize with default fallback values
+    // Get system stats from StatusService (uses database)
     let stats = {
       totalModels: 0,
       activeModels: 0,
@@ -82,7 +82,6 @@ export async function GET(request: NextRequest) {
     }
     
     try {
-      // Get system stats from StatusService (uses database)
       const systemStats = await StatusService.getSystemStats()
       
       stats = {
@@ -92,51 +91,31 @@ export async function GET(request: NextRequest) {
         operationalModels: systemStats.operationalModels || 0,
         degradedModels: systemStats.degradedModels || 0,
         outageModels: systemStats.outageModels || 0,
-        providers: systemStats.totalProviders || 0
+        providers: systemStats.providers || 0
       }
       
       console.log('📊 Using database stats for realtime-stats API:', {
         total: stats.totalModels,
         active: stats.activeModels,
-        operational: stats.operationalModels
+        operational: stats.operationalModels,
+        providers: stats.providers
       })
       
     } catch (dbError) {
-      console.error('StatusService failed, trying fallback:', dbError)
-    }
-    
-    // Fallback to GitHub only if database stats are unavailable
-    if (stats.totalModels === 0) {
-      try {
-        const githubDataUrl = 'https://raw.githubusercontent.com/ksy2728/AI-GO/master/data/models-full.json'
-        const response = await fetch(githubDataUrl, {
-          next: { revalidate: 0 },
-          cache: 'no-store',
-          headers: {
-            'Accept': 'application/json',
-            'Cache-Control': 'no-cache, no-store, must-revalidate',
-            'Pragma': 'no-cache'
-          }
-        })
-        
-        if (response.ok) {
-          const data = await response.json()
-          if (data.statistics) {
-            stats = {
-              totalModels: data.statistics.totalModels || 0,
-              activeModels: data.statistics.activeModels || 0,
-              avgAvailability: data.statistics.avgAvailability || 95.0,
-              operationalModels: data.statistics.operationalModels || 0,
-              degradedModels: data.statistics.degradedModels || 0,
-              outageModels: data.statistics.outageModels || 0,
-              providers: data.statistics.totalProviders || 0
-            }
-            console.log('📊 Fallback to GitHub stats:', stats.totalModels)
-          }
+      console.error('❌ StatusService failed:', dbError)
+      // Return error response if database is unavailable
+      return NextResponse.json({
+        error: 'Database unavailable',
+        message: 'Unable to fetch real-time statistics',
+        timestamp: new Date().toISOString()
+      }, {
+        status: 503,
+        headers: {
+          'Cache-Control': 'no-cache, no-store, must-revalidate',
+          'X-Data-Source': 'error',
+          'X-Timestamp': new Date().toISOString()
         }
-      } catch (error) {
-        console.error('GitHub fallback failed:', error)
-      }
+      })
     }
     
     // Add realistic variation based on actual model count (±2% variation)
@@ -162,7 +141,7 @@ export async function GET(request: NextRequest) {
         'Cache-Control': 'no-cache, no-store, must-revalidate',
         'Pragma': 'no-cache',
         'Expires': '0',
-        'X-Data-Source': 'github-direct',
+        'X-Data-Source': 'database',
         'X-Include-History': includeHistory ? 'true' : 'false',
         'X-Timestamp': new Date().toISOString()
       }
@@ -171,67 +150,18 @@ export async function GET(request: NextRequest) {
   } catch (error) {
     console.error('Realtime stats error:', error)
     
-    // Return fallback data on error - try to fetch from backup GitHub URL
-    try {
-      const backupUrl = 'https://raw.githubusercontent.com/ksy2728/AI-GO/master/data/models-full.json'
-      const backupResponse = await fetch(backupUrl, {
-        cache: 'no-store',
-        headers: {
-          'Accept': 'application/json',
-          'Cache-Control': 'no-cache, no-store, must-revalidate',
-          'Pragma': 'no-cache'
-        }
-      })
-      
-      if (backupResponse.ok) {
-        const backupData = await backupResponse.json()
-        if (backupData.statistics) {
-          const fallbackStats = {
-            timestamp: new Date().toISOString(),
-            totalModels: backupData.statistics.totalModels || 0,
-            activeModels: backupData.statistics.activeModels || 0,
-            avgAvailability: backupData.statistics.avgAvailability || 0,
-            operationalModels: backupData.statistics.operationalModels || 0,
-            degradedModels: backupData.statistics.degradedModels || 0,
-            outageModels: backupData.statistics.outageModels || 0,
-            providers: backupData.statistics.totalProviders || 0,
-            history: generateHistoricalData(backupData.statistics)
-          }
-          
-          return NextResponse.json(fallbackStats, {
-            status: 200,
-            headers: {
-              'Cache-Control': 'no-cache, no-store, must-revalidate',
-              'Pragma': 'no-cache',
-              'Expires': '0',
-              'X-Data-Source': 'github-backup-fallback',
-              'X-Timestamp': new Date().toISOString()
-            }
-          })
-        }
-      }
-    } catch (backupError) {
-      console.error('GitHub backup fallback also failed:', backupError)
-    }
-    
-    // Absolute last resort - return minimal fallback data
+    // Return error response on failure
     return NextResponse.json({
-      timestamp: new Date().toISOString(),
-      totalModels: 0,
-      activeModels: 0,
-      avgAvailability: 95.0,
-      operationalModels: 0,
-      degradedModels: 0,
-      outageModels: 0,
-      providers: 0,
-      history: []
+      error: 'Internal server error',
+      message: 'Failed to fetch real-time statistics',
+      timestamp: new Date().toISOString()
     }, {
-      status: 200,
+      status: 500,
       headers: {
         'Cache-Control': 'no-cache, no-store, must-revalidate',
         'Pragma': 'no-cache',
         'Expires': '0',
-        'X-Data-Source': 'fallback-hardcoded',
+        'X-Data-Source': 'error',
         'X-Timestamp': new Date().toISOString()
       }
     })

@@ -25,6 +25,106 @@ export interface ModelStatusData {
 
 export class ModelService {
   /**
+   * Create or update a model and initialize its status
+   */
+  static async upsertModel(data: any) {
+    try {
+      // Create or update the model
+      const model = await prisma.model.upsert({
+        where: { slug: data.slug },
+        update: data,
+        create: data,
+      })
+
+      // Check if model has a status record
+      const existingStatus = await prisma.modelStatus.findFirst({
+        where: { modelId: model.id }
+      })
+
+      // If no status exists, create one
+      if (!existingStatus) {
+        await prisma.modelStatus.create({
+          data: {
+            modelId: model.id,
+            status: 'unknown',
+            availability: 0,
+            latencyP50: 0,
+            latencyP95: 0,
+            latencyP99: 0,
+            errorRate: 0,
+            requestsPerMin: 0,
+            tokensPerMin: 0,
+            usage: 0,
+            region: null,
+            checkedAt: new Date()
+          }
+        })
+        console.log(`✅ Created status record for model: ${model.slug}`)
+      }
+
+      return model
+    } catch (error) {
+      console.error('Error upserting model:', error)
+      throw error
+    }
+  }
+
+  /**
+   * Initialize status for all models without status records
+   */
+  static async initializeAllModelStatus() {
+    try {
+      // Get all models
+      const allModels = await prisma.model.findMany({
+        select: { id: true, slug: true }
+      })
+      
+      // Get models with existing status
+      const modelsWithStatusGroups = await prisma.modelStatus.groupBy({
+        by: ['modelId'],
+        _count: true
+      })
+      const modelsWithStatus = modelsWithStatusGroups.map(g => ({ modelId: g.modelId }))
+      
+      const modelIdsWithStatus = new Set(modelsWithStatus.map(m => m.modelId))
+      const modelsWithoutStatus = allModels.filter(m => !modelIdsWithStatus.has(m.id))
+      
+      if (modelsWithoutStatus.length === 0) {
+        console.log('✅ All models already have status records')
+        return { created: 0, total: allModels.length }
+      }
+      
+      // Create status records for models without status
+      const statusRecords = modelsWithoutStatus.map(model => ({
+        modelId: model.id,
+        status: 'unknown' as const,
+        availability: 0,
+        latencyP50: 0,
+        latencyP95: 0,
+        latencyP99: 0,
+        errorRate: 0,
+        requestsPerMin: 0,
+        tokensPerMin: 0,
+        usage: 0,
+        region: null,
+        checkedAt: new Date()
+      }))
+      
+      const result = await prisma.modelStatus.createMany({
+        data: statusRecords,
+        skipDuplicates: true
+      })
+      
+      console.log(`✅ Created ${result.count} new status records`)
+      return { created: result.count, total: allModels.length }
+      
+    } catch (error) {
+      console.error('Error initializing model status:', error)
+      throw error
+    }
+  }
+
+  /**
    * Get all models with optional filters
    */
   static async getAll(filters?: ModelFilters) {

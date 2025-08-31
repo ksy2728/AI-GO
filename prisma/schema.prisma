@@ -1,62 +1,58 @@
-// Development Schema for SQLite
 generator client {
   provider = "prisma-client-js"
 }
 
 datasource db {
-  provider = "sqlite"
-  url      = env("DATABASE_URL")
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
 }
 
-// ==================== CORE MODELS ====================
-
 model Provider {
-  id               String   @id @default(uuid())
-  slug             String   @unique 
-  name             String   
-  logoUrl          String?  @map("logo_url") 
-  websiteUrl       String?  @map("website_url") 
-  statusPageUrl    String?  @map("status_page_url") 
-  documentationUrl String?  @map("documentation_url") 
-  regions          String   @default("[]")  // JSON string
-  metadata         String   @default("{}")  // JSON string
-  createdAt        DateTime @default(now()) @map("created_at")
-  updatedAt        DateTime @updatedAt @map("updated_at")
-
-  models    Model[]
-  incidents Incident[]
+  id               String     @id @default(uuid())
+  slug             String     @unique
+  name             String
+  logoUrl          String?    @map("logo_url")
+  websiteUrl       String?    @map("website_url")
+  statusPageUrl    String?    @map("status_page_url")
+  documentationUrl String?    @map("documentation_url")
+  regions          String     @default("[]")
+  metadata         String     @default("{}")
+  createdAt        DateTime   @default(now()) @map("created_at")
+  updatedAt        DateTime   @updatedAt @map("updated_at")
+  incidents        Incident[]
+  models           Model[]
 
   @@index([slug])
   @@map("providers")
 }
 
 model Model {
-  id                String     @id @default(uuid())
-  providerId        String     @map("provider_id")
-  slug              String     @unique 
-  name              String     // Simple string for development
-  description       String?    // Simple string for development
-  foundationModel   String?    @map("foundation_model") 
-  releasedAt        DateTime?  @map("released_at") 
-  deprecatedAt      DateTime?  @map("deprecated_at") 
-  sunsetAt          DateTime?  @map("sunset_at") 
-  modalities        String     @default("[]")  // JSON string
-  capabilities      String     @default("[]")  // JSON string
-  contextWindow     Int?       @map("context_window")
-  maxOutputTokens   Int?       @map("max_output_tokens")
-  trainingCutoff    DateTime?  @map("training_cutoff") 
-  apiVersion        String?    @map("api_version") 
-  isActive          Boolean    @default(true) @map("is_active")
-  metadata          String     @default("{}")  // JSON string
-  createdAt         DateTime   @default(now()) @map("created_at")
-  updatedAt         DateTime   @updatedAt @map("updated_at")
-
-  provider         Provider           @relation(fields: [providerId], references: [id], onDelete: Cascade)
-  endpoints        ModelEndpoint[]
-  pricing          Pricing[]
-  benchmarkScores  BenchmarkScore[]
-  incidents        Incident[]
-  status           ModelStatus[]
+  id              String           @id @default(uuid())
+  providerId      String           @map("provider_id")
+  slug            String           @unique
+  name            String
+  description     String?
+  foundationModel String?          @map("foundation_model")
+  releasedAt      DateTime?        @map("released_at")
+  deprecatedAt    DateTime?        @map("deprecated_at")
+  sunsetAt        DateTime?        @map("sunset_at")
+  modalities      String           @default("[]")
+  capabilities    String           @default("[]")
+  contextWindow   Int?             @map("context_window")
+  maxOutputTokens Int?             @map("max_output_tokens")
+  trainingCutoff  DateTime?        @map("training_cutoff")
+  apiVersion      String?          @map("api_version")
+  isActive        Boolean          @default(true) @map("is_active")
+  metadata        String           @default("{}")
+  createdAt       DateTime         @default(now()) @map("created_at")
+  updatedAt       DateTime         @updatedAt @map("updated_at")
+  benchmarkScores BenchmarkScore[]
+  incidents       Incident[]
+  endpoints       ModelEndpoint[]
+  status          ModelStatus[]
+  provider        Provider         @relation(fields: [providerId], references: [id], onDelete: Cascade)
+  pricing         Pricing[]
 
   @@index([providerId])
   @@index([slug])
@@ -68,40 +64,36 @@ model Model {
 model ModelEndpoint {
   id          String   @id @default(uuid())
   modelId     String   @map("model_id")
-  region      String   
-  endpointUrl String   @map("endpoint_url") 
+  region      String
+  endpointUrl String   @map("endpoint_url")
   isActive    Boolean  @default(true) @map("is_active")
   priority    Int      @default(100)
   createdAt   DateTime @default(now()) @map("created_at")
-
-  model Model @relation(fields: [modelId], references: [id], onDelete: Cascade)
+  model       Model    @relation(fields: [modelId], references: [id], onDelete: Cascade)
 
   @@unique([modelId, region])
   @@index([modelId, region])
   @@map("model_endpoints")
 }
 
-// ==================== PRICING ====================
-
 model Pricing {
   id                   String    @id @default(uuid())
   modelId              String    @map("model_id")
-  tier                 String    
-  region               String?   
-  currency             String    @default("USD") 
-  inputPerMillion      Float?    @map("input_per_million") 
-  outputPerMillion     Float?    @map("output_per_million") 
-  imagePerUnit         Float?    @map("image_per_unit") 
-  audioPerMinute       Float?    @map("audio_per_minute") 
-  videoPerMinute       Float?    @map("video_per_minute") 
-  fineTuningPerMillion Float?    @map("fine_tuning_per_million") 
-  volumeDiscounts      String    @default("[]") @map("volume_discounts")  // JSON string
-  effectiveFrom        DateTime  @map("effective_from") 
-  effectiveTo          DateTime? @map("effective_to") 
-  metadata             String    @default("{}")  // JSON string
+  tier                 String
+  region               String?
+  currency             String    @default("USD")
+  inputPerMillion      Float?    @map("input_per_million")
+  outputPerMillion     Float?    @map("output_per_million")
+  imagePerUnit         Float?    @map("image_per_unit")
+  audioPerMinute       Float?    @map("audio_per_minute")
+  videoPerMinute       Float?    @map("video_per_minute")
+  fineTuningPerMillion Float?    @map("fine_tuning_per_million")
+  volumeDiscounts      String    @default("[]") @map("volume_discounts")
+  effectiveFrom        DateTime  @map("effective_from")
+  effectiveTo          DateTime? @map("effective_to")
+  metadata             String    @default("{}")
   createdAt            DateTime  @default(now()) @map("created_at")
-
-  model Model @relation(fields: [modelId], references: [id], onDelete: Cascade)
+  model                Model     @relation(fields: [modelId], references: [id], onDelete: Cascade)
 
   @@index([modelId])
   @@index([region])
@@ -109,21 +101,18 @@ model Pricing {
   @@map("pricing")
 }
 
-// ==================== BENCHMARKS ====================
-
 model BenchmarkSuite {
-  id               String   @id @default(uuid())
-  slug             String   @unique 
-  name             String   
-  description      String?  // Simple string
-  category         String?  
-  version          String?  
-  evaluationType   String?  @map("evaluation_type") 
-  maxScore         Float?   @map("max_score") 
-  scoringMethod    String?  @map("scoring_method") 
-  metadata         String   @default("{}")  // JSON string
-  createdAt        DateTime @default(now()) @map("created_at")
-
+  id              String           @id @default(uuid())
+  slug            String           @unique
+  name            String
+  description     String?
+  category        String?
+  version         String?
+  evaluationType  String?          @map("evaluation_type")
+  maxScore        Float?           @map("max_score")
+  scoringMethod   String?          @map("scoring_method")
+  metadata        String           @default("{}")
+  createdAt       DateTime         @default(now()) @map("created_at")
   benchmarkScores BenchmarkScore[]
 
   @@index([slug])
@@ -132,21 +121,20 @@ model BenchmarkSuite {
 }
 
 model BenchmarkScore {
-  id                String   @id @default(uuid())
-  modelId           String   @map("model_id")
-  suiteId           String   @map("suite_id")
-  scoreRaw          Float    @map("score_raw") 
-  scoreNormalized   Float?   @map("score_normalized") 
-  percentile        Int?
-  evaluationDate    DateTime @map("evaluation_date") 
-  evaluationCommit  String?  @map("evaluation_commit") 
-  configuration     String   @default("{}")  // JSON string
-  notes             String?  
-  isOfficial        Boolean  @default(false) @map("is_official")
-  createdAt         DateTime @default(now()) @map("created_at")
-
-  model Model          @relation(fields: [modelId], references: [id], onDelete: Cascade)
-  suite BenchmarkSuite @relation(fields: [suiteId], references: [id], onDelete: Cascade)
+  id               String         @id @default(uuid())
+  modelId          String         @map("model_id")
+  suiteId          String         @map("suite_id")
+  scoreRaw         Float          @map("score_raw")
+  scoreNormalized  Float?         @map("score_normalized")
+  percentile       Int?
+  evaluationDate   DateTime       @map("evaluation_date")
+  evaluationCommit String?        @map("evaluation_commit")
+  configuration    String         @default("{}")
+  notes            String?
+  isOfficial       Boolean        @default(false) @map("is_official")
+  createdAt        DateTime       @default(now()) @map("created_at")
+  model            Model          @relation(fields: [modelId], references: [id], onDelete: Cascade)
+  suite            BenchmarkSuite @relation(fields: [suiteId], references: [id], onDelete: Cascade)
 
   @@unique([modelId, suiteId, evaluationDate])
   @@index([modelId])
@@ -155,28 +143,25 @@ model BenchmarkScore {
   @@map("benchmark_scores")
 }
 
-// ==================== INCIDENTS ====================
-
 model Incident {
-  id                 String    @id @default(uuid())
-  modelId            String?   @map("model_id")
-  providerId         String?   @map("provider_id")
-  regions            String    @default("[]")  // JSON string
-  severity           String     // 'minor', 'major', 'critical'
-  status             String     // 'investigating', 'identified', 'monitoring', 'resolved'
-  title              String    
-  description        String?   
-  impactDescription  String?   @map("impact_description") 
-  startedAt          DateTime  @map("started_at")
-  identifiedAt       DateTime? @map("identified_at")
-  resolvedAt         DateTime? @map("resolved_at")
-  postmortemUrl      String?   @map("postmortem_url") 
-  metadata           String    @default("{}")  // JSON string
-  createdAt          DateTime  @default(now()) @map("created_at")
-  updatedAt          DateTime  @updatedAt @map("updated_at")
-
-  model    Model?    @relation(fields: [modelId], references: [id], onDelete: Cascade)
-  provider Provider? @relation(fields: [providerId], references: [id], onDelete: Cascade)
+  id                String    @id @default(uuid())
+  modelId           String?   @map("model_id")
+  providerId        String?   @map("provider_id")
+  regions           String    @default("[]")
+  severity          String
+  status            String
+  title             String
+  description       String?
+  impactDescription String?   @map("impact_description")
+  startedAt         DateTime  @map("started_at")
+  identifiedAt      DateTime? @map("identified_at")
+  resolvedAt        DateTime? @map("resolved_at")
+  postmortemUrl     String?   @map("postmortem_url")
+  metadata          String    @default("{}")
+  createdAt         DateTime  @default(now()) @map("created_at")
+  updatedAt         DateTime  @updatedAt @map("updated_at")
+  model             Model?    @relation(fields: [modelId], references: [id], onDelete: Cascade)
+  provider          Provider? @relation(fields: [providerId], references: [id], onDelete: Cascade)
 
   @@index([modelId])
   @@index([providerId])
@@ -185,26 +170,23 @@ model Incident {
   @@map("incidents")
 }
 
-// ==================== AI MODEL STATUS ====================
-
 model ModelStatus {
-  id               String   @id @default(uuid())
-  modelId          String   @map("model_id")
-  status           String   @default("operational")  // operational, degraded, outage
-  availability     Float    @default(99.9)
-  latencyP50       Int      @default(100) @map("latency_p50")
-  latencyP95       Int      @default(200) @map("latency_p95")
-  latencyP99       Int      @default(500) @map("latency_p99")
-  errorRate        Float    @default(0.1) @map("error_rate")
-  requestsPerMin   Int      @default(0) @map("requests_per_min")
-  tokensPerMin     Int      @default(0) @map("tokens_per_min")
-  usage            Float    @default(0) // Usage percentage (0-100)
-  region           String?  
-  checkedAt        DateTime @default(now()) @map("checked_at")
-  createdAt        DateTime @default(now()) @map("created_at")
-  updatedAt        DateTime @updatedAt @map("updated_at")
-
-  model Model @relation(fields: [modelId], references: [id], onDelete: Cascade)
+  id             String   @id @default(uuid())
+  modelId        String   @map("model_id")
+  status         String   @default("operational")
+  availability   Float    @default(99.9)
+  latencyP50     Int      @default(100) @map("latency_p50")
+  latencyP95     Int      @default(200) @map("latency_p95")
+  latencyP99     Int      @default(500) @map("latency_p99")
+  errorRate      Float    @default(0.1) @map("error_rate")
+  requestsPerMin Int      @default(0) @map("requests_per_min")
+  tokensPerMin   Int      @default(0) @map("tokens_per_min")
+  usage          Float    @default(0)
+  region         String?
+  checkedAt      DateTime @default(now()) @map("checked_at")
+  createdAt      DateTime @default(now()) @map("created_at")
+  updatedAt      DateTime @updatedAt @map("updated_at")
+  model          Model    @relation(fields: [modelId], references: [id], onDelete: Cascade)
 
   @@unique([modelId, region])
   @@index([modelId])
