@@ -195,7 +195,9 @@
       "Read(C:\\Program Files\\PostgreSQL\\16\\data/**)",
       "Read(C:\\Program Files\\PostgreSQL\\16\\data/**)",
       "WebFetch(domain:neon.tech)",
-      "WebFetch(domain:neon.com)"
+      "WebFetch(domain:neon.com)",
+      "Bash(start https://vercel.com/kim-soo-youngs-projects/ai-server-information/deployments)",
+      "Bash(start https://vercel.com/kim-soo-youngs-projects/ai-server-information/settings/environment-variables)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
