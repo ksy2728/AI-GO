@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "node server.js",
     "dev:next": "next dev --turbopack",
-    "build": "prisma generate && prisma migrate deploy && next build",
-    "vercel-build": "prisma generate && prisma migrate deploy && next build",
+    "build": "prisma generate && prisma migrate deploy && prisma db seed && next build",
+    "vercel-build": "prisma generate && prisma migrate deploy && prisma db seed && next build",
     "build:static": "next build && next export",
     "postinstall": "prisma generate",
     "start": "NODE_ENV=production node server.js",
@@ -37,6 +37,9 @@
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",
     "test:e2e:debug": "playwright test --debug"
+  },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.60.0",
