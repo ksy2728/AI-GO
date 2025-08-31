@@ -1,5 +1,5 @@
 {
-  "buildCommand": "prisma generate && prisma migrate deploy && next build",
+  "buildCommand": "prisma generate && prisma migrate deploy && prisma db seed && next build",
   "installCommand": "npm ci || npm install",
   "build": {
     "env": {
