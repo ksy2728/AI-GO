@@ -252,7 +252,14 @@ export async function GET(request: Request) {
         ...systemStats,
         timestamp: new Date().toISOString(),
         dataSource,
-        cached: dataSource === 'github'
+        cached: dataSource === 'github',
+        env: {
+          dataSourcePreference: process.env.DATA_SOURCE || 'not-set',
+          hasDatabaseUrl: !!process.env.DATABASE_URL,
+          hasDirectUrl: !!process.env.DIRECT_URL,
+          nodeEnv: process.env.NODE_ENV,
+          vercelEnv: process.env.VERCEL_ENV || 'not-set'
+        }
       })
     }
   } catch (error) {
