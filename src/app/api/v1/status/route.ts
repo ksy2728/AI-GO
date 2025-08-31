@@ -8,63 +8,25 @@ export async function GET(request: Request) {
     const { searchParams } = new URL(request.url)
     const detailed = searchParams.get('detailed') === 'true'
     
-    // Check if we're in production environment (Vercel)
+    // Check if we're in production environment (Vercel) and preferred data source
     const isProduction = process.env.NODE_ENV === 'production' || 
                         process.env.VERCEL === '1' || 
                         process.env.VERCEL_ENV !== undefined
+    const preferredDataSource = process.env.DATA_SOURCE || 'github'
 
     if (detailed) {
       // Return detailed status with provider breakdown and incidents
       let detailedStatus
-      let dataSource = 'github'
+      let dataSource = 'temp-data'
       
-      if (isProduction) {
-        // In production, use GitHub as primary data source
-        try {
-          const systemStats = await GitHubDataService.getSystemStats()
-          const data = await GitHubDataService.getAllData()
-          
-          // Get provider summary from GitHub data
-          const providers = data.providers.map(provider => {
-            const providerModels = data.models.filter(m => m.provider.slug === provider.slug)
-            const operational = providerModels.filter(m => m.status?.status === 'operational').length
-            const total = providerModels.length
-            
-            return {
-              id: provider.id,
-              name: provider.name,
-              slug: provider.slug,
-              operationalModels: operational,
-              totalModels: total,
-              availability: total > 0 ? Math.round((operational / total) * 100) : 0
-            }
-          })
-          
-          detailedStatus = {
-            system: systemStats,
-            providers,
-            recentIncidents: [] // GitHub data doesn't include incidents yet
-          }
-          console.log('📦 Using GitHub data source for detailed status (production)')
-        } catch (githubError) {
-          console.warn('⚠️ GitHub data failed, using temporary data:', githubError instanceof Error ? githubError.message : 'Unknown error')
-          const systemStats = await TempDataService.getSystemStats()
-          detailedStatus = {
-            system: systemStats,
-            providers: await TempDataService.getProvidersSummary(),
-            recentIncidents: []
-          }
-          dataSource = 'temp-data'
-          console.log('📝 Using temporary data source for detailed status')
-        }
-      } else {
-        // In development, try database first
+      // Try preferred data source first
+      if (preferredDataSource === 'database') {
         try {
           detailedStatus = await StatusService.getDetailedStatus()
           dataSource = 'database'
-          console.log('🗄️ Using database source for detailed status (development)')
+          console.log('🐘 Using database source for detailed status (preferred)')
         } catch (dbError) {
-          console.warn('⚠️ Database failed, trying GitHub data:', dbError instanceof Error ? dbError.message : 'Unknown error')
+          console.warn('⚠️ Database failed, trying GitHub:', dbError instanceof Error ? dbError.message : 'Unknown error')
           
           try {
             const systemStats = await GitHubDataService.getSystemStats()
@@ -89,12 +51,12 @@ export async function GET(request: Request) {
             detailedStatus = {
               system: systemStats,
               providers,
-              recentIncidents: [] // GitHub data doesn't include incidents yet
+              recentIncidents: []
             }
             dataSource = 'github'
-            console.log('📦 Using GitHub data source for detailed status')
+            console.log('📦 Using GitHub data source (database fallback)')
           } catch (githubError) {
-            console.warn('⚠️ GitHub data failed, using temporary data:', githubError instanceof Error ? githubError.message : 'Unknown error')
+            console.warn('⚠️ GitHub failed, using temp data:', githubError instanceof Error ? githubError.message : 'Unknown error')
             const systemStats = await TempDataService.getSystemStats()
             detailedStatus = {
               system: systemStats,
@@ -102,7 +64,108 @@ export async function GET(request: Request) {
               recentIncidents: []
             }
             dataSource = 'temp-data'
-            console.log('📝 Using temporary data source for detailed status')
+            console.log('📝 Using temporary data source (final fallback)')
+          }
+        }
+      } else if (preferredDataSource === 'github') {
+        try {
+          const systemStats = await GitHubDataService.getSystemStats()
+          const data = await GitHubDataService.getAllData()
+          
+          // Get provider summary from GitHub data
+          const providers = data.providers.map(provider => {
+            const providerModels = data.models.filter(m => m.provider.slug === provider.slug)
+            const operational = providerModels.filter(m => m.status?.status === 'operational').length
+            const total = providerModels.length
+            
+            return {
+              id: provider.id,
+              name: provider.name,
+              slug: provider.slug,
+              operationalModels: operational,
+              totalModels: total,
+              availability: total > 0 ? Math.round((operational / total) * 100) : 0
+            }
+          })
+          
+          detailedStatus = {
+            system: systemStats,
+            providers,
+            recentIncidents: []
+          }
+          dataSource = 'github'
+          console.log('📦 Using GitHub data source (preferred)')
+        } catch (githubError) {
+          console.warn('⚠️ GitHub failed, trying database:', githubError instanceof Error ? githubError.message : 'Unknown error')
+          
+          try {
+            detailedStatus = await StatusService.getDetailedStatus()
+            dataSource = 'database'
+            console.log('🐘 Using database source (github fallback)')
+          } catch (dbError) {
+            console.warn('⚠️ Database failed, using temp data:', dbError instanceof Error ? dbError.message : 'Unknown error')
+            const systemStats = await TempDataService.getSystemStats()
+            detailedStatus = {
+              system: systemStats,
+              providers: await TempDataService.getProvidersSummary(),
+              recentIncidents: []
+            }
+            dataSource = 'temp-data'
+            console.log('📝 Using temporary data source (final fallback)')
+          }
+        }
+      } else {
+        // Default: temp-data (original behavior)
+        try {
+          const systemStats = await TempDataService.getSystemStats()
+          detailedStatus = {
+            system: systemStats,
+            providers: await TempDataService.getProvidersSummary(),
+            recentIncidents: []
+          }
+          dataSource = 'temp-data'
+          console.log('📝 Using temporary data source (preferred)')
+        } catch (tempDataError) {
+          console.warn('⚠️ TempData failed, trying GitHub:', tempDataError instanceof Error ? tempDataError.message : 'Unknown error')
+          
+          try {
+            const systemStats = await GitHubDataService.getSystemStats()
+            const data = await GitHubDataService.getAllData()
+            
+            // Get provider summary from GitHub data
+            const providers = data.providers.map(provider => {
+              const providerModels = data.models.filter(m => m.provider.slug === provider.slug)
+              const operational = providerModels.filter(m => m.status?.status === 'operational').length
+              const total = providerModels.length
+              
+              return {
+                id: provider.id,
+                name: provider.name,
+                slug: provider.slug,
+                operationalModels: operational,
+                totalModels: total,
+                availability: total > 0 ? Math.round((operational / total) * 100) : 0
+              }
+            })
+            
+            detailedStatus = {
+              system: systemStats,
+              providers,
+              recentIncidents: []
+            }
+            dataSource = 'github'
+            console.log('📦 Using GitHub data source (temp-data fallback)')
+          } catch (githubError) {
+            console.warn('⚠️ GitHub failed, trying database:', githubError instanceof Error ? githubError.message : 'Unknown error')
+            
+            try {
+              detailedStatus = await StatusService.getDetailedStatus()
+              dataSource = 'database'
+              console.log('🐘 Using database source (final fallback)')
+            } catch (dbError) {
+              console.error('💥 All data sources failed for detailed status')
+              throw new Error('All data sources are unavailable')
+            }
           }
         }
       }
@@ -116,37 +179,71 @@ export async function GET(request: Request) {
     } else {
       // Return basic system stats only
       let systemStats
-      let dataSource = 'github'
+      let dataSource = 'temp-data'
       
-      if (isProduction) {
-        // In production, use GitHub as primary data source
-        try {
-          systemStats = await GitHubDataService.getSystemStats()
-          console.log('📦 Using GitHub data source for system stats (production)')
-        } catch (githubError) {
-          console.warn('⚠️ GitHub data failed, using temporary data:', githubError instanceof Error ? githubError.message : 'Unknown error')
-          systemStats = await TempDataService.getSystemStats()
-          dataSource = 'temp-data'
-          console.log('📝 Using temporary data source for system stats')
-        }
-      } else {
-        // In development, try database first
+      // Try preferred data source first
+      if (preferredDataSource === 'database') {
         try {
           systemStats = await StatusService.getSystemStats()
           dataSource = 'database'
-          console.log('🗄️ Using database source for system stats (development)')
+          console.log('🐘 Using database source for system stats (preferred)')
         } catch (dbError) {
-          console.warn('⚠️ Database failed, trying GitHub data:', dbError instanceof Error ? dbError.message : 'Unknown error')
+          console.warn('⚠️ Database failed, trying GitHub:', dbError instanceof Error ? dbError.message : 'Unknown error')
           
           try {
             systemStats = await GitHubDataService.getSystemStats()
             dataSource = 'github'
-            console.log('📦 Using GitHub data source for system stats')
+            console.log('📦 Using GitHub data source (database fallback)')
           } catch (githubError) {
-            console.warn('⚠️ GitHub data failed, using temporary data:', githubError instanceof Error ? githubError.message : 'Unknown error')
+            console.warn('⚠️ GitHub failed, using temp data:', githubError instanceof Error ? githubError.message : 'Unknown error')
             systemStats = await TempDataService.getSystemStats()
             dataSource = 'temp-data'
-            console.log('📝 Using temporary data source for system stats')
+            console.log('📝 Using temporary data source (final fallback)')
+          }
+        }
+      } else if (preferredDataSource === 'github') {
+        try {
+          systemStats = await GitHubDataService.getSystemStats()
+          dataSource = 'github'
+          console.log('📦 Using GitHub data source (preferred)')
+        } catch (githubError) {
+          console.warn('⚠️ GitHub failed, trying database:', githubError instanceof Error ? githubError.message : 'Unknown error')
+          
+          try {
+            systemStats = await StatusService.getSystemStats()
+            dataSource = 'database'
+            console.log('🐘 Using database source (github fallback)')
+          } catch (dbError) {
+            console.warn('⚠️ Database failed, using temp data:', dbError instanceof Error ? dbError.message : 'Unknown error')
+            systemStats = await TempDataService.getSystemStats()
+            dataSource = 'temp-data'
+            console.log('📝 Using temporary data source (final fallback)')
+          }
+        }
+      } else {
+        // Default: temp-data (original behavior)
+        try {
+          systemStats = await TempDataService.getSystemStats()
+          dataSource = 'temp-data'
+          console.log('📝 Using temporary data source (preferred)')
+        } catch (tempDataError) {
+          console.warn('⚠️ TempData failed, trying GitHub:', tempDataError instanceof Error ? tempDataError.message : 'Unknown error')
+          
+          try {
+            systemStats = await GitHubDataService.getSystemStats()
+            dataSource = 'github'
+            console.log('📦 Using GitHub data source (temp-data fallback)')
+          } catch (githubError) {
+            console.warn('⚠️ GitHub failed, trying database:', githubError instanceof Error ? githubError.message : 'Unknown error')
+            
+            try {
+              systemStats = await StatusService.getSystemStats()
+              dataSource = 'database'
+              console.log('🐘 Using database source (final fallback)')
+            } catch (dbError) {
+              console.error('💥 All data sources failed for system stats')
+              throw new Error('All data sources are unavailable')
+            }
           }
         }
       }
