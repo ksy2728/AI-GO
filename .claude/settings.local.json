@@ -193,7 +193,9 @@
       "Read(C:\\Program Files\\PostgreSQL\\16\\data/**)",
       "Read(C:\\Program Files\\PostgreSQL\\16\\data/**)",
       "Read(C:\\Program Files\\PostgreSQL\\16\\data/**)",
-      "Read(C:\\Program Files\\PostgreSQL\\16\\data/**)"
+      "Read(C:\\Program Files\\PostgreSQL\\16\\data/**)",
+      "WebFetch(domain:neon.tech)",
+      "WebFetch(domain:neon.com)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
