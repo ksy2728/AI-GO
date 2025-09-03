@@ -1,6 +1,143 @@
 {
   "articles": [
     {
+      "id": "openai-to-route-sensitive-conversations-to-gpt-5-i",
+      "title": "OpenAI to route sensitive conversations to GPT-5, introduce parental controls",
+      "summary": "OpenAI said Tuesday it plans to route sensitive conversations to reasoning models like GPT-5 and roll out parental controls within the next month – part of an ongoing response to recent safety inciden.",
+      "content": "OpenAI said Tuesday it plans to route sensitive conversations to reasoning models like GPT-5 and roll out parental controls within the next month – part of an ongoing response to recent safety incidents involving ChatGPT failing to detect mental distress.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2025-09-02T20:13:04.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gpt",
+        "openai",
+        "chatgpt",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2025/09/02/openai-to-route-sensitive-conversations-to-gpt-5-introduce-parental-controls/",
+      "readTime": 3,
+      "views": 19157
+    },
+    {
+      "id": "amazon-launches-lens-live-an-ai-powered-shopping-t",
+      "title": "Amazon launches Lens Live, an AI-powered shopping tool for use in the real world",
+      "summary": "Lens Live will not replace Amazon's existing visual search tool, Amazon Lens, which lets you take a picture, upload an image, or scan a barcode to discover products.  Instead, it brings a real-time co.",
+      "content": "Lens Live will not replace Amazon's existing visual search tool, Amazon Lens, which lets you take a picture, upload an image, or scan a barcode to discover products. Instead, it brings a real-time component to Amazon Lens.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2025-09-02T19:42:23.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/09/02/amazon-launches-lens-live-an-ai-powered-shopping-tool-for-use-in-the-real-world/",
+      "readTime": 3,
+      "views": 46362
+    },
+    {
+      "id": "openai-acquires-product-testing-startup-statsig-an",
+      "title": "OpenAI acquires product testing startup Statsig and shakes up its leadership team",
+      "summary": "OpenAI is bringing on the founder of Statsig as its CTO of Applications, and making changes to other leadership roles at the company.",
+      "content": "OpenAI is bringing on the founder of Statsig as its CTO of Applications, and making changes to other leadership roles at the company.",
+      "source": "TechCrunch AI",
+      "author": "Maxwell Zeff",
+      "publishedAt": "2025-09-02T19:04:05.000Z",
+      "category": "partnership",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2025/09/02/openai-acquires-product-testing-startup-statsig-and-shakes-up-its-leadership-team/",
+      "readTime": 3,
+      "views": 23303
+    },
+    {
+      "id": "anthropic-raises-13b-series-f-at-183b-valuation",
+      "title": "Anthropic raises $13B Series F at $183B valuation",
+      "summary": "AI firm Anthropic's $13 billion Series F round will be used to grow its enterprise adoption, deepen safety research, and support international expansion.",
+      "content": "AI firm Anthropic's $13 billion Series F round will be used to grow its enterprise adoption, deepen safety research, and support international expansion.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2025-09-02T16:34:16.000Z",
+      "category": "funding",
+      "tags": [
+        "ai",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2025/09/02/anthropic-raises-13b-series-f-at-183b-valuation/",
+      "readTime": 3,
+      "views": 44866
+    },
+    {
+      "id": "wordpress-shows-off-telex-its-experimental-ai-deve",
+      "title": "WordPress shows off Telex, its experimental AI development tool",
+      "summary": "WordPress CEO Matt Mullenweg introduced the new WordPress AI tool, called Telex, at the company's WordCamp US 2025 conference in Portland last week, alongside other AI experiments.",
+      "content": "WordPress CEO Matt Mullenweg introduced the new WordPress AI tool, called Telex, at the company's WordCamp US 2025 conference in Portland last week, alongside other AI experiments.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2025-09-02T16:26:48.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/09/02/wordpress-shows-off-telex-its-experimental-ai-development-tool/",
+      "readTime": 3,
+      "views": 54328
+    },
+    {
+      "id": "tesla-dojo-the-rise-and-fall-of-elon-musk-8217-s-a",
+      "title": "Tesla Dojo: The rise and fall of Elon Musk&#8217;s AI supercomputer",
+      "summary": "Dojo was going to be Tesla’s custom-built supercomputer.  Here's what Elon Musk had in mind, what happened, and what's coming next.",
+      "content": "Dojo was going to be Tesla’s custom-built supercomputer. Here's what Elon Musk had in mind, what happened, and what's coming next.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2025-09-02T16:18:46.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/09/02/tesla-dojo-the-rise-and-fall-of-elon-musks-ai-supercomputer/",
+      "readTime": 3,
+      "views": 7737
+    },
+    {
+      "id": "microsoft-gives-free-copilot-ai-services-to-us-gov",
+      "title": "Microsoft gives free Copilot AI services to US government workers",
+      "summary": "Millions of US federal government workers are about to get a new AI assistant on their devices for free in the form of Microsoft Copilot.  The move is part of a deal between Microsoft and the US Gener.",
+      "content": "Millions of US federal government workers are about to get a new AI assistant on their devices for free in the form of Microsoft Copilot. The move is part of a deal between Microsoft and the US General Services Administration (GSA) that’s also expected to save taxpayers $3.1 billion in its first yea",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2025-09-02T14:22:42.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai",
+        "Microsoft"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/microsoft-gives-free-copilot-ai-services-to-us-government-workers/",
+      "readTime": 3,
+      "views": 42843
+    },
+    {
+      "id": "just-4-days-left-to-exhibit-at-techcrunch-disrupt-",
+      "title": "Just 4 days left to exhibit at TechCrunch Disrupt 2025 — 10 tables remain",
+      "summary": "The clock is ticking, and exhibit space at TechCrunch Disrupt 2025 is moving fast.  With just 4 days and 10 table left to book, now’s the time to stop circling the idea and claim your spot on the show.",
+      "content": "The clock is ticking, and exhibit space at TechCrunch Disrupt 2025 is moving fast. With just 4 days and 10 table left to book, now’s the time to stop circling the idea and claim your spot on the show floor.",
+      "source": "TechCrunch AI",
+      "author": "TechCrunch Events",
+      "publishedAt": "2025-09-02T14:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/09/02/just-4-days-left-to-exhibit-at-techcrunch-disrupt-2025-10-tables-remain/",
+      "readTime": 3,
+      "views": 45584
+    },
+    {
       "id": "what-health-care-providers-actually-want-from-ai",
       "title": "What health care providers actually want from AI",
       "summary": "In a market flooded with AI promises, health care decision-makers are no longer dazzled by flashy demos or abstract potential.  Today, they want pragmatic and pressure-tested products.",
@@ -14,13 +151,13 @@
       ],
       "url": "https://www.technologyreview.com/2025/09/02/1122688/what-health-care-providers-actually-want-from-ai/",
       "readTime": 3,
-      "views": 36597
+      "views": 37283
     },
     {
       "id": "can-an-ai-doppelg-nger-help-me-do-my-job",
       "title": "Can an AI doppelgänger help me do my job?",
       "summary": "Everywhere I look, I see AI clones.  On X and LinkedIn, “thought leaders” and influencers offer their followers a chance to ask questions of their digital replicas.",
-      "content": "Everywhere I look, I see AI clones. On X and LinkedIn, “thought leaders” and influencers offer their followers a chance to ask questions of their digital replicas. OnlyFans creators are having AI models of themselves chat, for a price, with followers. “Virtual human” salespeople in China are reporte",
+      "content": "Everywhere I look, I see AI clones. On X and LinkedIn, “thought leaders” and influencers offer their followers a chance to ask questions of their digital replicas. OnlyFans creators are having AI models of themselves chat, for a price, with followers. ��Virtual human” salespeople in China are report",
       "source": "MIT Technology Review AI",
       "author": "James O'Donnell",
       "publishedAt": "2025-09-02T09:00:00.000Z",
@@ -31,7 +168,7 @@
       ],
       "url": "https://www.technologyreview.com/2025/09/02/1122856/can-an-ai-doppelganger-help-me-do-my-job/",
       "readTime": 3,
-      "views": 22152
+      "views": 19276
     },
     {
       "id": "therapists-are-secretly-using-chatgpt-clients-are-",
@@ -48,7 +185,7 @@
       ],
       "url": "https://www.technologyreview.com/2025/09/02/1122871/therapists-using-chatgpt-secretly/",
       "readTime": 3,
-      "views": 19285
+      "views": 9841
     },
     {
       "id": "layerx-uses-ai-to-cut-enterprise-back-office-workl",
@@ -64,7 +201,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/01/layerx-uses-ai-to-cut-enterprise-back-office-workload-scores-100m-in-series-b/",
       "readTime": 3,
-      "views": 28099
+      "views": 7970
     },
     {
       "id": "why-runway-is-eyeing-the-robotics-industry-for-fut",
@@ -80,24 +217,23 @@
       ],
       "url": "https://techcrunch.com/2025/09/01/why-runway-is-eyeing-the-robotics-industry-for-future-revenue-growth/",
       "readTime": 3,
-      "views": 7221
+      "views": 10740
     },
     {
       "id": "lovable-8217-s-ceo-isn-8217-t-too-worried-about-th",
       "title": "Lovable&#8217;s CEO isn&#8217;t too worried about the vibe-coding competition",
-      "summary": "Lovable specializes in helping people build apps and websites, especially people with no coding experience.  It's one of the standouts in the popular AI category known as vibe-coding, which lets users.",
-      "content": "Lovable specializes in helping people build apps and websites, especially people with no coding experience. It's one of the standouts in the popular AI category known as vibe-coding, which lets users guide AI models as they produce code, websites, or whole applications.",
+      "summary": "Lovable specializes in helping people build apps and websites, especially people with no coding experience.  It's one of the standouts in the popular AI category known as vibe-coding.",
+      "content": "Lovable specializes in helping people build apps and websites, especially people with no coding experience. It's one of the standouts in the popular AI category known as vibe-coding.",
       "source": "TechCrunch AI",
       "author": "Dominic-Madori Davis",
       "publishedAt": "2025-09-01T09:00:00.000Z",
       "category": "market",
       "tags": [
-        "ai",
-        "ai model"
+        "ai"
       ],
       "url": "https://techcrunch.com/2025/09/01/lovables-ceo-isnt-too-worried-about-the-vibe-coding-competition/",
       "readTime": 3,
-      "views": 17910
+      "views": 8313
     },
     {
       "id": "taco-bell-is-having-second-thoughts-about-relying-",
@@ -113,13 +249,13 @@
       ],
       "url": "https://techcrunch.com/2025/08/30/taco-bell-is-having-second-thoughts-about-relying-on-ai-at-the-drive-through/",
       "readTime": 3,
-      "views": 37636
+      "views": 25096
     },
     {
       "id": "cracks-are-forming-in-meta-s-partnership-with-scal",
       "title": "Cracks are forming in Meta’s partnership with Scale AI",
-      "summary": "Two months after making a $14. 3B investment in Scale AI, Meta is relying heavily on its competitors to train next generation AI models.",
-      "content": "Two months after making a $14.3B investment in Scale AI, Meta is relying heavily on its competitors to train next generation AI models.",
+      "summary": "Two months after making a $14. 3 billion investment in Scale AI, Meta is relying heavily on its competitors to train next-generation AI models.",
+      "content": "Two months after making a $14.3 billion investment in Scale AI, Meta is relying heavily on its competitors to train next-generation AI models.",
       "source": "TechCrunch AI",
       "author": "Maxwell Zeff, Marina Temkin",
       "publishedAt": "2025-08-30T01:34:05.000Z",
@@ -131,7 +267,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/29/cracks-are-forming-in-metas-partnership-with-scale-ai/",
       "readTime": 3,
-      "views": 10237
+      "views": 5541
     },
     {
       "id": "spotlight-on-ai-at-techcrunch-disrupt-don-t-miss-t",
@@ -147,7 +283,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/29/spotlight-on-ai-at-techcrunch-disrupt-dont-miss-these-sessions-backed-by-jetbrains-and-greenfield/",
       "readTime": 3,
-      "views": 19271
+      "views": 14137
     },
     {
       "id": "meta-updates-chatbot-rules-to-avoid-inappropriate-",
@@ -164,7 +300,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/29/meta-updates-chatbot-rules-to-avoid-inappropriate-topics-with-teen-users/",
       "readTime": 3,
-      "views": 32963
+      "views": 26672
     },
     {
       "id": "chatgpt-everything-you-need-to-know-about-the-ai-p",
@@ -182,59 +318,7 @@
       ],
       "url": "https://techcrunch.com/2025/08/29/chatgpt-everything-to-know-about-the-ai-chatbot/",
       "readTime": 3,
-      "views": 43144
-    },
-    {
-      "id": "trillion-with-a-t-that-s-a-lot-of-dollars-nvidia",
-      "title": "Trillion with a ‘T’? That’s a lot of dollars, Nvidia",
-      "summary": "Nvidia reported another massive quarter this week with $46. 7 billion in revenue, a 56% year-over-year increase driven almost entirely by AI demand.",
-      "content": "Nvidia reported another massive quarter this week with $46.7 billion in revenue, a 56% year-over-year increase driven almost entirely by AI demand. But despite CEO Jensen Huang&#8217;s bold prediction of $3 trillion to $4 trillion in global AI infrastructure spending in the next five years, the stoc",
-      "source": "TechCrunch AI",
-      "author": "Theresa Loconsolo, Anthony Ha, Kirsten Korosec, Maxwell Zeff",
-      "publishedAt": "2025-08-29T15:43:23.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/podcast/trillion-with-a-t-thats-a-lot-of-dollars-nvidia/",
-      "readTime": 3,
-      "views": 22534
-    },
-    {
-      "id": "host-an-event-beyond-the-main-event-apply-to-host-",
-      "title": "Host an event beyond the main event: Apply to host a Side Event at TechCrunch Disrupt 2025",
-      "summary": "Apply to host a Side Event during TechCrunch Disrupt week (October 25–31) and amplify your brand.  Apply before the deadline.",
-      "content": "Apply to host a Side Event during TechCrunch Disrupt week (October 25–31) and amplify your brand. Apply before the deadline.",
-      "source": "TechCrunch AI",
-      "author": "TechCrunch Events",
-      "publishedAt": "2025-08-29T15:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/08/29/host-an-event-beyond-the-main-event-apply-to-host-a-side-event-at-techcrunch-disrupt-2025/",
-      "readTime": 3,
-      "views": 11588
-    },
-    {
-      "id": "billionaire-ambani-taps-google-meta-to-build-india",
-      "title": "Billionaire Ambani taps Google, Meta to build India&#8217;s AI backbone",
-      "summary": "Reliance is launching a new subsidiary to drive India's AI ambitions, including a pending partnership with OpenAI.",
-      "content": "Reliance is launching a new subsidiary to drive India's AI ambitions, including a pending partnership with OpenAI.",
-      "source": "TechCrunch AI",
-      "author": "Jagmeet Singh",
-      "publishedAt": "2025-08-29T13:19:10.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI",
-        "Google",
-        "Meta"
-      ],
-      "url": "https://techcrunch.com/2025/08/29/billionaire-ambani-taps-google-meta-to-build-indias-ai-backbone/",
-      "readTime": 3,
-      "views": 41491
+      "views": 42642
     },
     {
       "id": "marketing-ai-boom-faces-crisis-of-consumer-trust",
@@ -250,104 +334,23 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/marketing-ai-boom-faces-crisis-of-consumer-trust/",
       "readTime": 3,
-      "views": 11760
-    },
-    {
-      "id": "vocal-image-is-using-ai-to-help-people-communicate",
-      "title": "Vocal Image is using AI to help people communicate better",
-      "summary": "With an interactive library that includes tongue twisters, breathing exercises, and advice on gestures, Vocal Image is also leaning more and more into AI to give automated feedback and personalized ti.",
-      "content": "With an interactive library that includes tongue twisters, breathing exercises, and advice on gestures, Vocal Image is also leaning more and more into AI to give automated feedback and personalized tips.",
-      "source": "TechCrunch AI",
-      "author": "Anna Heim",
-      "publishedAt": "2025-08-29T08:34:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/08/29/vocal-image-is-using-ai-to-help-people-communicate-better/",
-      "readTime": 3,
-      "views": 33144
-    },
-    {
-      "id": "trump-administration-8217-s-deal-is-structured-to-",
-      "title": "Trump administration&#8217;s deal is structured to prevent Intel from selling foundry unit",
-      "summary": "The deal allows the U.  to take more equity in Intel if the company doesn't retain at least 51% ownership in its foundry business.",
-      "content": "The deal allows the U.S. to take more equity in Intel if the company doesn't retain at least 51% ownership in its foundry business.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Szkutak",
-      "publishedAt": "2025-08-28T21:56:27.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/08/28/trump-administrations-deal-is-structured-to-prevent-intel-from-selling-foundry-unit/",
-      "readTime": 3,
-      "views": 42403
-    },
-    {
-      "id": "anthropic-users-face-a-new-choice-opt-out-or-share",
-      "title": "Anthropic users face a new choice – opt out or share your chats for AI training",
-      "summary": "Anthropic is making some major changes to how it handles user data.  Users have until September 28 to take action.",
-      "content": "Anthropic is making some major changes to how it handles user data. Users have until September 28 to take action.",
-      "source": "TechCrunch AI",
-      "author": "Connie Loizos",
-      "publishedAt": "2025-08-28T20:43:12.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2025/08/28/anthropic-users-face-a-new-choice-opt-out-or-share-your-data-for-ai-training/",
-      "readTime": 3,
-      "views": 40739
-    },
-    {
-      "id": "ai-or-not-will-smith-8217-s-crowd-video-is-fresh-c",
-      "title": "AI or not, Will Smith&#8217;s crowd video is fresh cringe",
-      "summary": "Fans accused Will Smith of sharing AI-generated videos from his tour, but the situation is more complicated than it seems.",
-      "content": "Fans accused Will Smith of sharing AI-generated videos from his tour, but the situation is more complicated than it seems.",
-      "source": "TechCrunch AI",
-      "author": "Amanda Silberling",
-      "publishedAt": "2025-08-28T20:02:52.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/08/28/ai-or-not-will-smiths-crowd-video-is-fresh-cringe-2/",
-      "readTime": 3,
-      "views": 20372
-    },
-    {
-      "id": "mathgpt-ai-the-cheat-proof-tutor-and-teaching-assi",
-      "title": "MathGPT.ai, the ‘cheat-proof’ tutor and teaching assistant, expands to over 50 institutions",
-      "summary": "Schools implementing MathGPT. ai in their classrooms include Penn State University, Tufts University, and Liberty University, among others.",
-      "content": "Schools implementing MathGPT.ai in their classrooms include Penn State University, Tufts University, and Liberty University, among others.",
-      "source": "TechCrunch AI",
-      "author": "Lauren Forristal",
-      "publishedAt": "2025-08-28T16:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gpt"
-      ],
-      "url": "https://techcrunch.com/2025/08/28/mathgpt-the-cheat-proof-ai-tutor-and-teaching-assistant-expands-to-over-50-institutions/",
-      "readTime": 3,
-      "views": 47941
+      "views": 26440
     }
   ],
-  "lastUpdated": "2025-09-02T12:38:19.281Z",
+  "lastUpdated": "2025-09-03T01:18:00.643Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "MIT Technology Review AI",
     "TechCrunch AI",
-    "AI News"
+    "AI News",
+    "MIT Technology Review AI"
   ],
   "categories": [
-    "market",
-    "research",
+    "release",
+    "partnership",
     "funding",
-    "release"
+    "regulation",
+    "market",
+    "research"
   ]
 }
