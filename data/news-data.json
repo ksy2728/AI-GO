@@ -1,6 +1,71 @@
 {
   "articles": [
     {
+      "id": "synthesia-s-ai-clones-are-more-expressive-than-eve",
+      "title": "Synthesia’s AI clones are more expressive than ever. Soon they’ll be able to talk back.",
+      "summary": "Earlier this summer, I walked through the glassy lobby of a fancy office in London, into an elevator, and then along a corridor into a clean, carpeted room.  Natural light flooded in through its windo.",
+      "content": "Earlier this summer, I walked through the glassy lobby of a fancy office in London, into an elevator, and then along a corridor into a clean, carpeted room. Natural light flooded in through its windows, and a large pair of umbrella-like lighting rigs made the room even brighter. I tried not to squin",
+      "source": "MIT Technology Review AI",
+      "author": "Rhiannon Williams",
+      "publishedAt": "2025-09-04T10:05:33.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2025/09/04/1123054/synthesias-ai-clones-are-more-expressive-than-ever-soon-theyll-be-able-to-talk-back/",
+      "readTime": 3,
+      "views": 46466
+    },
+    {
+      "id": "switzerland-releases-100-open-ai-model",
+      "title": "Switzerland releases 100% open AI model",
+      "summary": "A group of Swiss institutions has released a new open AI model, designed to serve as a foundation for future research and applications.  Built by EPFL, ETH Zurich, and the Swiss National Supercomputin.",
+      "content": "A group of Swiss institutions has released a new open AI model, designed to serve as a foundation for future research and applications. Built by EPFL, ETH Zurich, and the Swiss National Supercomputing Centre (CSCS), the model is called Apertus – Latin for &#8220;open.&#8221; The name reflects its co",
+      "source": "AI News",
+      "author": "Muhammad Zulhusni",
+      "publishedAt": "2025-09-04T09:39:49.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "ai model"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/switzerland-releases-its-own-fully-open-ai-model/",
+      "readTime": 3,
+      "views": 30394
+    },
+    {
+      "id": "from-minutes-to-milliseconds-how-cratedb-is-tackli",
+      "title": "From minutes to milliseconds: How CrateDB is tackling AI data infrastructure",
+      "summary": "The promise of AI remains immense – but one thing might be holding it back.  “The infrastructure that powers AI today won’t sustain tomorrow’s demands,” a recent CIO.",
+      "content": "The promise of AI remains immense – but one thing might be holding it back. “The infrastructure that powers AI today won’t sustain tomorrow’s demands,” a recent CIO.com article leads. “CIOs must rethink how to scale smarter – not just bigger – or risk falling behind.” CrateDB agrees – and the databa",
+      "source": "AI News",
+      "author": "TechForge",
+      "publishedAt": "2025-09-04T08:57:14.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/from-minutes-to-milliseconds-how-cratedb-is-tackling-ai-data-infrastructure/",
+      "readTime": 3,
+      "views": 31596
+    },
+    {
+      "id": "resham-kotecha-open-data-institute-how-the-eu-can-",
+      "title": "Resham Kotecha, Open Data Institute: How the EU can lead in AI",
+      "summary": "The EU has a chance to shape how the world approaches AI and data governance.  AI News spoke with Resham Kotecha, Global Head of Policy at the Open Data Institute (ODI), who said that opportunity lies.",
+      "content": "The EU has a chance to shape how the world approaches AI and data governance. AI News spoke with Resham Kotecha, Global Head of Policy at the Open Data Institute (ODI), who said that opportunity lies in proving that protecting people&#8217;s rights and supporting innovation can go hand in hand. The ",
+      "source": "AI News",
+      "author": "Muhammad Zulhusni",
+      "publishedAt": "2025-09-04T08:42:06.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/how-the-eu-can-lead-in-ai/",
+      "readTime": 3,
+      "views": 8666
+    },
+    {
       "id": "mistral-the-french-ai-giant-is-reportedly-on-the-c",
       "title": "Mistral, the French AI giant, is reportedly on the cusp of securing a $14B valuation",
       "summary": "The two-year-old OpenAI rival, founded by former DeepMind and Meta researchers, develops open source language models and Le Chat, its AI chatbot built for European audiences.",
@@ -18,7 +83,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/03/mistral-the-french-ai-giant-is-reportedly-on-the-cusp-of-securing-a-14-billion-valuation/",
       "readTime": 3,
-      "views": 10182
+      "views": 41629
     },
     {
       "id": "scale-ai-is-suing-a-former-employee-and-rival-merc",
@@ -34,7 +99,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/03/scale-ai-is-suing-a-former-employee-and-rival-mercor-alleging-they-tried-to-steal-its-biggest-customers/",
       "readTime": 3,
-      "views": 28171
+      "views": 42998
     },
     {
       "id": "apple-8217-s-siri-upgrade-could-reportedly-be-powe",
@@ -53,7 +118,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/03/apples-siri-upgrade-could-reportedly-be-powered-by-google-gemini/",
       "readTime": 3,
-      "views": 52051
+      "views": 9303
     },
     {
       "id": "xai-s-cfo-is-the-latest-executive-to-leave-elon-mu",
@@ -69,7 +134,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/03/xais-cfo-is-the-latest-executive-to-leave-elon-musks-ai-firm/",
       "readTime": 3,
-      "views": 31848
+      "views": 51889
     },
     {
       "id": "coreweave-acquires-agent-training-startup-openpipe",
@@ -85,7 +150,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/03/coreweave-acquires-agent-training-startup-openpipe/",
       "readTime": 3,
-      "views": 11898
+      "views": 34574
     },
     {
       "id": "orchard-robotics-founded-by-a-thiel-fellow-cornell",
@@ -102,7 +167,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/03/orchard-robotics-founded-by-a-thiel-fellow-cornell-dropout-raises-22m-for-farm-vision-ai/",
       "readTime": 3,
-      "views": 22638
+      "views": 46315
     },
     {
       "id": "google-8217-s-notebooklm-now-lets-you-customize-th",
@@ -119,7 +184,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/03/googles-notebooklm-now-lets-you-customize-the-tone-of-its-ai-podcasts/",
       "readTime": 3,
-      "views": 11319
+      "views": 48970
     },
     {
       "id": "karen-hao-on-the-making-of-a-90b-ai-empire",
@@ -137,7 +202,7 @@
       ],
       "url": "https://techcrunch.com/podcast/karen-hao-on-the-making-of-a-90b-ai-empire/",
       "readTime": 3,
-      "views": 37543
+      "views": 27480
     },
     {
       "id": "these-20-and-22-year-olds-raised-5m-from-yc-genera",
@@ -153,7 +218,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/03/these-20-and-22-year-olds-raised-5m-from-yc-general-catalyst-to-study-online-behavior-using-vision-ai/",
       "readTime": 3,
-      "views": 48123
+      "views": 48795
     },
     {
       "id": "warp-brings-new-diff-tracking-tools-to-the-ai-codi",
@@ -169,7 +234,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/03/warp-brings-new-diff-tracking-tools-to-the-ai-coding-arms-race/",
       "readTime": 3,
-      "views": 22311
+      "views": 52542
     },
     {
       "id": "3-days-left-to-lock-in-your-exhibit-table-at-techc",
@@ -185,7 +250,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/03/3-days-left-to-lock-in-your-table-at-techcrunch-disrupt-2025/",
       "readTime": 3,
-      "views": 53738
+      "views": 26253
     },
     {
       "id": "paypal-and-venmo-are-giving-out-comet-invites-and-",
@@ -201,7 +266,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/03/paypal-and-venno-are-now-giving-out-comet-invites/",
       "readTime": 3,
-      "views": 27721
+      "views": 33814
     },
     {
       "id": "ai-hacking-tool-exploits-zero-day-security-vulnera",
@@ -217,7 +282,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/ai-hacking-tool-exploits-zero-day-security-vulnerabilities-in-minutes/",
       "readTime": 3,
-      "views": 14438
+      "views": 11401
     },
     {
       "id": "the-connected-customer",
@@ -233,7 +298,7 @@
       ],
       "url": "https://www.technologyreview.com/2025/09/03/1121441/the-connected-customer/",
       "readTime": 3,
-      "views": 39388
+      "views": 16594
     },
     {
       "id": "meta-revises-ai-chatbot-policies-amid-child-safety",
@@ -250,7 +315,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/meta-revises-ai-chatbot-policies-amid-child-safety-concerns/",
       "readTime": 3,
-      "views": 33130
+      "views": 6479
     },
     {
       "id": "building-the-ai-enabled-enterprise-of-the-future",
@@ -267,94 +332,23 @@
       ],
       "url": "https://www.technologyreview.com/2025/09/03/1122367/building-the-ai-enabled-enterprise-of-the-future/",
       "readTime": 3,
-      "views": 27607
-    },
-    {
-      "id": "openai-to-route-sensitive-conversations-to-gpt-5-i",
-      "title": "OpenAI to route sensitive conversations to GPT-5, introduce parental controls",
-      "summary": "OpenAI said Tuesday it plans to route sensitive conversations to reasoning models like GPT-5 and roll out parental controls within the next month – part of an ongoing response to recent safety inciden.",
-      "content": "OpenAI said Tuesday it plans to route sensitive conversations to reasoning models like GPT-5 and roll out parental controls within the next month – part of an ongoing response to recent safety incidents involving ChatGPT failing to detect mental distress.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2025-09-02T20:13:04.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gpt",
-        "openai",
-        "chatgpt",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2025/09/02/openai-to-route-sensitive-conversations-to-gpt-5-introduce-parental-controls/",
-      "readTime": 3,
-      "views": 10937
-    },
-    {
-      "id": "amazon-launches-lens-live-an-ai-powered-shopping-t",
-      "title": "Amazon launches Lens Live, an AI-powered shopping tool for use in the real world",
-      "summary": "Lens Live will not replace Amazon's existing visual search tool, Amazon Lens, which lets you take a picture, upload an image, or scan a barcode to discover products.  Instead, it brings a real-time co.",
-      "content": "Lens Live will not replace Amazon's existing visual search tool, Amazon Lens, which lets you take a picture, upload an image, or scan a barcode to discover products. Instead, it brings a real-time component to Amazon Lens.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2025-09-02T19:42:23.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/09/02/amazon-launches-lens-live-an-ai-powered-shopping-tool-for-use-in-the-real-world/",
-      "readTime": 3,
-      "views": 44066
-    },
-    {
-      "id": "openai-acquires-product-testing-startup-statsig-an",
-      "title": "OpenAI acquires product testing startup Statsig and shakes up its leadership team",
-      "summary": "OpenAI is bringing on the founder of Statsig as its CTO of Applications, and making changes to other leadership roles at the company.",
-      "content": "OpenAI is bringing on the founder of Statsig as its CTO of Applications, and making changes to other leadership roles at the company.",
-      "source": "TechCrunch AI",
-      "author": "Maxwell Zeff",
-      "publishedAt": "2025-09-02T19:04:05.000Z",
-      "category": "partnership",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2025/09/02/openai-acquires-product-testing-startup-statsig-and-shakes-up-its-leadership-team/",
-      "readTime": 3,
-      "views": 35050
-    },
-    {
-      "id": "anthropic-raises-13b-series-f-at-183b-valuation",
-      "title": "Anthropic raises $13B Series F at $183B valuation",
-      "summary": "AI firm Anthropic's $13 billion Series F round will be used to grow its enterprise adoption, deepen safety research, and support international expansion.",
-      "content": "AI firm Anthropic's $13 billion Series F round will be used to grow its enterprise adoption, deepen safety research, and support international expansion.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2025-09-02T16:34:16.000Z",
-      "category": "funding",
-      "tags": [
-        "ai",
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2025/09/02/anthropic-raises-13b-series-f-at-183b-valuation/",
-      "readTime": 3,
-      "views": 42736
+      "views": 37910
     }
   ],
-  "lastUpdated": "2025-09-04T06:26:35.645Z",
+  "lastUpdated": "2025-09-04T12:35:24.873Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "TechCrunch AI",
+    "MIT Technology Review AI",
     "AI News",
-    "MIT Technology Review AI"
+    "TechCrunch AI"
   ],
   "categories": [
-    "funding",
-    "release",
-    "partnership",
     "research",
-    "market"
+    "release",
+    "market",
+    "regulation",
+    "funding",
+    "partnership"
   ]
 }
