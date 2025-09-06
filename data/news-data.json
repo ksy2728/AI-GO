@@ -1,20 +1,231 @@
 {
   "articles": [
     {
+      "id": "openai-reorganizes-research-team-behind-chatgpt-82",
+      "title": "OpenAI reorganizes research team behind ChatGPT&#8217;s personality",
+      "summary": "OpenAI is shuffling the team that shapes its AI models' behavior, and its leader is moving on to another project within the company.",
+      "content": "OpenAI is shuffling the team that shapes its AI models' behavior, and its leader is moving on to another project within the company.",
+      "source": "TechCrunch AI",
+      "author": "Maxwell Zeff",
+      "publishedAt": "2025-09-05T23:19:12.000Z",
+      "category": "research",
+      "tags": [
+        "ai",
+        "gpt",
+        "openai",
+        "chatgpt",
+        "ai model"
+      ],
+      "url": "https://techcrunch.com/2025/09/05/openai-reorganizes-research-team-behind-chatgpts-personality/",
+      "readTime": 3,
+      "views": 14007
+    },
+    {
+      "id": "screw-the-money-8212-anthropic-8217-s-1-5b-copyrig",
+      "title": "Screw the money &#8212; Anthropic&#8217;s $1.5B copyright settlement sucks for writers",
+      "summary": "Writers aren't getting this settlement because their work was fed to an AI -- this is just a costly slap on the wrist for Anthropic because it illegally downloaded books instead of buying them.",
+      "content": "Writers aren't getting this settlement because their work was fed to an AI -- this is just a costly slap on the wrist for Anthropic because it illegally downloaded books instead of buying them.",
+      "source": "TechCrunch AI",
+      "author": "Amanda Silberling",
+      "publishedAt": "2025-09-05T20:59:21.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2025/09/05/screw-the-money-anthropics-1-5b-copyright-settlement-sucks-for-writers/",
+      "readTime": 3,
+      "views": 27236
+    },
+    {
+      "id": "personalized-ai-companion-app-dot-is-shutting-down",
+      "title": "Personalized AI companion app Dot is shutting down",
+      "summary": "Dot, a personalized AI companion, is shutting down.",
+      "content": "Dot, a personalized AI companion, is shutting down.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez, Maxwell Zeff",
+      "publishedAt": "2025-09-05T19:27:47.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/09/05/personalized-ai-companion-app-dot-is-shutting-down/",
+      "readTime": 3,
+      "views": 49137
+    },
+    {
+      "id": "attorneys-general-warn-openai-harm-to-children-wil",
+      "title": "Attorneys general warn OpenAI ‘harm to children will not be tolerated’",
+      "summary": "California Attorney General Rob Bonta and Delaware Attorney General Kathy Jennings met with and sent an open letter to OpenAI to express their concerns over the safety of ChatGPT, particularly for chi.",
+      "content": "California Attorney General Rob Bonta and Delaware Attorney General Kathy Jennings met with and sent an open letter to OpenAI to express their concerns over the safety of ChatGPT, particularly for children and teens.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2025-09-05T19:21:45.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai",
+        "gpt",
+        "openai",
+        "chatgpt",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2025/09/05/attorneys-general-warn-openai-harm-to-children-will-not-be-tolerated/",
+      "readTime": 3,
+      "views": 36150
+    },
+    {
+      "id": "google-gemini-dubbed-8216-high-risk-8217-for-kids-",
+      "title": "Google Gemini dubbed &#8216;high risk&#8217; for kids and teens in new safety assessment",
+      "summary": "Google's Gemini comes up short on kids' safety, says Common Sense Media.",
+      "content": "Google's Gemini comes up short on kids' safety, says Common Sense Media.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2025-09-05T19:09:12.000Z",
+      "category": "release",
+      "tags": [
+        "gemini",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2025/09/05/google-gemini-dubbed-high-risk-for-kids-and-teens-in-new-safety-assessment/",
+      "readTime": 3,
+      "views": 51821
+    },
+    {
+      "id": "roblox-announces-short-form-video-feed-for-gamepla",
+      "title": "Roblox announces short-form video feed for gameplay clips, new AI tools for creators, and more",
+      "summary": "Users can scroll through a feed of gameplay moments shared by the Roblox community and react to the clips using emojis, and they can jump into an experience right from a video.",
+      "content": "Users can scroll through a feed of gameplay moments shared by the Roblox community and react to the clips using emojis, and they can jump into an experience right from a video.",
+      "source": "TechCrunch AI",
+      "author": "Aisha Malik",
+      "publishedAt": "2025-09-05T17:30:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/09/05/roblox-announces-short-form-video-feed-for-gameplay-clips-new-ai-tools-for-creators-and-more/",
+      "readTime": 3,
+      "views": 21545
+    },
+    {
+      "id": "warner-bros-sues-midjourney-for-ai-images-of-super",
+      "title": "Warner Bros. sues Midjourney for AI images of Superman, Batman, and other characters",
+      "summary": "says that Midjourney knowingly engaged in wrongful conduct, noting that the company previously restricted subscribers from generating content based on infringing images but recently lifted those prote.",
+      "content": "Warner Bros. says that Midjourney knowingly engaged in wrongful conduct, noting that the company previously restricted subscribers from generating content based on infringing images but recently lifted those protections.",
+      "source": "TechCrunch AI",
+      "author": "Aisha Malik",
+      "publishedAt": "2025-09-05T16:56:38.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/09/05/warner-bros-sues-midjourney-for-ai-images-of-superman-batman-and-other-characters/",
+      "readTime": 3,
+      "views": 19066
+    },
+    {
+      "id": "atlassian-s-610m-bet-and-why-everyone-s-fighting-o",
+      "title": "Atlassian’s $610M bet, and why everyone’s fighting over your browser",
+      "summary": "Google just dodged a Chrome breakup bullet, but the biggest twist.  The federal judge bought the idea that AI rivals could keep the tech giant in check, even as new competitors gain ground.",
+      "content": "Google just dodged a Chrome breakup bullet, but the biggest twist? The federal judge bought the idea that AI rivals could keep the tech giant in check, even as new competitors gain ground. From Atlassian’s $610 million bet on The Browser Company to OpenAI’s latest maneuvers, the competition for how ",
+      "source": "TechCrunch AI",
+      "author": "Theresa Loconsolo, Anthony Ha, Maxwell Zeff",
+      "publishedAt": "2025-09-05T16:13:25.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/podcast/atlassians-610m-bet-and-why-everyones-fighting-over-your-browser/",
+      "readTime": 3,
+      "views": 18632
+    },
+    {
+      "id": "uk-ai-sector-growth-hits-record-2-9b-investment",
+      "title": "UK AI sector growth hits record £2.9B investment",
+      "summary": "A government report has found that surging investment has driven UK AI sector growth to outpace the wider economy by 150 times since 2022.  The UK’s AI sector is clearly in the throes of a boom, with .",
+      "content": "A government report has found that surging investment has driven UK AI sector growth to outpace the wider economy by 150 times since 2022. The UK’s AI sector is clearly in the throes of a boom, with revenues shattering previous records to hit £23.9 billion in the last year. The engine room of this g",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2025-09-05T15:13:58.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/uk-ai-sector-growth-hits-record-2-9b-investment/",
+      "readTime": 3,
+      "views": 22655
+    },
+    {
+      "id": "scale-ai-s-former-cto-launches-ai-agent-that-could",
+      "title": "Scale AI’s former CTO launches AI agent that could solve big data’s biggest problem",
+      "summary": "Isotopes, co-founded by Arun Murthy, launched a sophisticated analytics agent.  Arun was one of the creators of Hadoop who later joined Scale AI.",
+      "content": "Isotopes, co-founded by Arun Murthy, launched a sophisticated analytics agent. Arun was one of the creators of Hadoop who later joined Scale AI.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2025-09-05T15:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/09/05/scale-ais-former-cto-launches-ai-agent-that-could-solve-big-datas-biggest-problem/",
+      "readTime": 3,
+      "views": 24279
+    },
+    {
+      "id": "openai-hires-the-team-behind-xcode-coding-assistan",
+      "title": "OpenAI hires the team behind Xcode coding assistant Alex",
+      "summary": "The team behind Alex, which built a popular tool that let devs use AI models within Apple's development suite Xcode, is joining OpenAI.",
+      "content": "The team behind Alex, which built a popular tool that let devs use AI models within Apple's development suite Xcode, is joining OpenAI.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2025-09-05T14:58:32.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "ai model",
+        "OpenAI",
+        "Apple"
+      ],
+      "url": "https://techcrunch.com/2025/09/05/openai-hires-the-team-behind-xcode-coding-assistant-alex-codes/",
+      "readTime": 3,
+      "views": 39619
+    },
+    {
+      "id": "tesla-shareholders-to-vote-on-investing-in-musk-82",
+      "title": "Tesla shareholders to vote on investing in Musk&#8217;s AI startup xAI",
+      "summary": "A shareholder proposal would allow Tesla to invest in Elon Musk's rival AI firm, xAI if approved.  Tesla's board didn't recommend one way or another.",
+      "content": "A shareholder proposal would allow Tesla to invest in Elon Musk's rival AI firm, xAI if approved. Tesla's board didn't recommend one way or another.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2025-09-05T14:23:20.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/09/05/tesla-shareholders-to-vote-on-investing-in-musks-ai-startup-xai/",
+      "readTime": 3,
+      "views": 40871
+    },
+    {
       "id": "snapchat-8217-s-new-lens-lets-you-create-ai-images",
       "title": "Snapchat&#8217;s new Lens lets you create AI images using text prompts",
-      "summary": "Imagine Lens allows users to create, edit, and recreate Snaps by entering their own prompts.",
-      "content": "Imagine Lens allows users to create, edit, and recreate Snaps by entering their own prompts.",
+      "summary": "While Snapchat already has numerous generative AI Lenses, the company notes that Imagine Lens is its first open prompt image-generation Lens.",
+      "content": "While Snapchat already has numerous generative AI Lenses, the company notes that Imagine Lens is its first open prompt image-generation Lens.",
       "source": "TechCrunch AI",
       "author": "Aisha Malik",
       "publishedAt": "2025-09-05T12:00:00.000Z",
       "category": "release",
       "tags": [
-        "ai"
+        "ai",
+        "generative ai"
       ],
       "url": "https://techcrunch.com/2025/09/05/snapchats-new-lens-lets-you-create-ai-images-using-text-prompts/",
       "readTime": 3,
-      "views": 25065
+      "views": 35557
     },
     {
       "id": "bret-taylor-8217-s-sierra-raises-350m-at-a-10b-val",
@@ -30,7 +241,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/04/bret-taylors-sierra-raises-350m-at-a-10b-valuation/",
       "readTime": 3,
-      "views": 36782
+      "views": 6192
     },
     {
       "id": "fashion-retailers-partner-to-offer-personalized-ai",
@@ -46,7 +257,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/04/fashion-retailers-partner-to-offer-personalized-ai-styling-tool-ella/",
       "readTime": 3,
-      "views": 33505
+      "views": 21677
     },
     {
       "id": "openai-announces-ai-powered-hiring-platform-to-tak",
@@ -64,7 +275,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/04/openai-announces-ai-powered-hiring-platform-to-take-on-linkedin/",
       "readTime": 3,
-      "views": 36291
+      "views": 6430
     },
     {
       "id": "ai-logistics-startup-augment-from-deliverr-8217-s-",
@@ -80,7 +291,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/04/ai-logistics-startup-augment-from-deliverrs-founder-raises-massive-85m-series-a/",
       "readTime": 3,
-      "views": 25908
+      "views": 14105
     },
     {
       "id": "imagining-the-future-of-banking-with-agentic-ai",
@@ -96,75 +307,7 @@
       ],
       "url": "https://www.technologyreview.com/2025/09/04/1123023/imagining-the-future-of-banking-with-agentic-ai/",
       "readTime": 3,
-      "views": 47234
-    },
-    {
-      "id": "captions-rebrands-as-mirage-expands-beyond-creator",
-      "title": "Captions rebrands as Mirage, expands beyond creator tools to AI video research",
-      "summary": "Captions, the AI-powered video creation and editing app for content creators, is rebranding to Mirage.",
-      "content": "Captions, the AI-powered video creation and editing app for content creators, is rebranding to Mirage.",
-      "source": "TechCrunch AI",
-      "author": "Lauren Forristal",
-      "publishedAt": "2025-09-04T15:39:15.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/09/04/captions-rebrands-as-mirage-expands-beyond-creator-tools-to-ai-video-research/",
-      "readTime": 3,
-      "views": 53858
-    },
-    {
-      "id": "only-2-days-left-to-claim-your-exhibitor-spot-at-t",
-      "title": "Only 2 days left to claim your exhibitor spot at TechCrunch Disrupt 2025",
-      "summary": "Put your startup in the heart of the action — where 10,000+ founders, investors, press, and decision-makers come to discover what’s next.",
-      "content": "Put your startup in the heart of the action — where 10,000+ founders, investors, press, and decision-makers come to discover what’s next.",
-      "source": "TechCrunch AI",
-      "author": "TechCrunch Events",
-      "publishedAt": "2025-09-04T14:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/09/04/only-2-days-left-to-claim-your-exhibitor-spot-at-techcrunch-disrupt-2025/",
-      "readTime": 3,
-      "views": 27144
-    },
-    {
-      "id": "atlassian-to-buy-arc-developer-the-browser-company",
-      "title": "Atlassian to buy Arc developer The Browser Company for $610M",
-      "summary": "The Browser Company's CEO Josh Miller said that his company will operate independently under Atlassian and will continue to develop Dia, the browser it started working on last year after deciding to s.",
-      "content": "The Browser Company's CEO Josh Miller said that his company will operate independently under Atlassian and will continue to develop Dia, the browser it started working on last year after deciding to stop development of its previous browser, Arc.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2025-09-04T12:45:06.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/09/04/atlassian-to-buy-arc-developer-the-browser-company-for-610m/",
-      "readTime": 3,
-      "views": 5017
-    },
-    {
-      "id": "duckduckgo-adds-access-to-advanced-ai-models-to-it",
-      "title": "DuckDuckGo adds access to advanced AI models to its subscription plan",
-      "summary": "99 per month plan, users will be able to access newer models, including OpenAI’s GPT-4o and GPT-5, Anthropic’s Claude Sonnet 4, and Meta’s Llama Maverick.",
-      "content": "With DuckDuckGo's $9.99 per month plan, users will be able to access newer models, including OpenAI’s GPT-4o and GPT-5, Anthropic’s Claude Sonnet 4, and Meta’s Llama Maverick.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2025-09-04T12:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gpt",
-        "openai",
-        "anthropic",
-        "claude"
-      ],
-      "url": "https://techcrunch.com/2025/09/04/duckduckgo-adds-access-to-advanced-models-to-it-subscription-plan/",
-      "readTime": 3,
-      "views": 21456
+      "views": 18130
     },
     {
       "id": "synthesia-s-ai-clones-are-more-expressive-than-eve",
@@ -180,7 +323,7 @@
       ],
       "url": "https://www.technologyreview.com/2025/09/04/1123054/synthesias-ai-clones-are-more-expressive-than-ever-soon-theyll-be-able-to-talk-back/",
       "readTime": 3,
-      "views": 6538
+      "views": 7847
     },
     {
       "id": "switzerland-releases-100-open-ai-model",
@@ -197,159 +340,22 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/switzerland-releases-its-own-fully-open-ai-model/",
       "readTime": 3,
-      "views": 12243
-    },
-    {
-      "id": "from-minutes-to-milliseconds-how-cratedb-is-tackli",
-      "title": "From minutes to milliseconds: How CrateDB is tackling AI data infrastructure",
-      "summary": "The promise of AI remains immense – but one thing might be holding it back.  “The infrastructure that powers AI today won’t sustain tomorrow’s demands,” a recent CIO.",
-      "content": "The promise of AI remains immense – but one thing might be holding it back. “The infrastructure that powers AI today won’t sustain tomorrow’s demands,” a recent CIO.com article leads. “CIOs must rethink how to scale smarter – not just bigger – or risk falling behind.” CrateDB agrees – and the databa",
-      "source": "AI News",
-      "author": "TechForge",
-      "publishedAt": "2025-09-04T08:57:14.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/from-minutes-to-milliseconds-how-cratedb-is-tackling-ai-data-infrastructure/",
-      "readTime": 3,
-      "views": 8361
-    },
-    {
-      "id": "resham-kotecha-open-data-institute-how-the-eu-can-",
-      "title": "Resham Kotecha, Open Data Institute: How the EU can lead in AI",
-      "summary": "The EU has a chance to shape how the world approaches AI and data governance.  AI News spoke with Resham Kotecha, Global Head of Policy at the Open Data Institute (ODI), who said that opportunity lies.",
-      "content": "The EU has a chance to shape how the world approaches AI and data governance. AI News spoke with Resham Kotecha, Global Head of Policy at the Open Data Institute (ODI), who said that opportunity lies in proving that protecting people&#8217;s rights and supporting innovation can go hand in hand. The ",
-      "source": "AI News",
-      "author": "Muhammad Zulhusni",
-      "publishedAt": "2025-09-04T08:42:06.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/how-the-eu-can-lead-in-ai/",
-      "readTime": 3,
-      "views": 42187
-    },
-    {
-      "id": "mistral-the-french-ai-giant-is-reportedly-on-the-c",
-      "title": "Mistral, the French AI giant, is reportedly on the cusp of securing a $14B valuation",
-      "summary": "The two-year-old OpenAI rival, founded by former DeepMind and Meta researchers, develops open source language models and Le Chat, its AI chatbot built for European audiences.",
-      "content": "The two-year-old OpenAI rival, founded by former DeepMind and Meta researchers, develops open source language models and Le Chat, its AI chatbot built for European audiences.",
-      "source": "TechCrunch AI",
-      "author": "Connie Loizos",
-      "publishedAt": "2025-09-03T22:13:51.000Z",
-      "category": "funding",
-      "tags": [
-        "ai",
-        "language model",
-        "openai",
-        "OpenAI",
-        "Meta"
-      ],
-      "url": "https://techcrunch.com/2025/09/03/mistral-the-french-ai-giant-is-reportedly-on-the-cusp-of-securing-a-14-billion-valuation/",
-      "readTime": 3,
-      "views": 5983
-    },
-    {
-      "id": "scale-ai-is-suing-a-former-employee-and-rival-merc",
-      "title": "Scale AI is suing a former employee and rival Mercor, alleging they tried to steal its biggest customers",
-      "summary": "Scale is clearly concerned enough about the threat of Mercor, and the poaching of one of its employees, to pursue legal action.",
-      "content": "Scale is clearly concerned enough about the threat of Mercor, and the poaching of one of its employees, to pursue legal action.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2025-09-03T21:21:30.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/09/03/scale-ai-is-suing-a-former-employee-and-rival-mercor-alleging-they-tried-to-steal-its-biggest-customers/",
-      "readTime": 3,
-      "views": 54115
-    },
-    {
-      "id": "apple-8217-s-siri-upgrade-could-reportedly-be-powe",
-      "title": "Apple&#8217;s Siri upgrade could reportedly be powered by Google Gemini",
-      "summary": "An AI Siri is in the works and it could be running Gemini under the hood.",
-      "content": "An AI Siri is in the works and it could be running Gemini under the hood.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2025-09-03T20:50:38.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gemini",
-        "Google",
-        "Apple"
-      ],
-      "url": "https://techcrunch.com/2025/09/03/apples-siri-upgrade-could-reportedly-be-powered-by-google-gemini/",
-      "readTime": 3,
-      "views": 47151
-    },
-    {
-      "id": "xai-s-cfo-is-the-latest-executive-to-leave-elon-mu",
-      "title": "xAI’s CFO is the latest executive to leave Elon Musk’s AI firm",
-      "summary": "While at xAI, Mike Liberatore helped orchestrate the company's $5 billion debt raise, alongside another $5 billion in equity — almost half of which came from SpaceX.",
-      "content": "While at xAI, Mike Liberatore helped orchestrate the company's $5 billion debt raise, alongside another $5 billion in equity — almost half of which came from SpaceX.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2025-09-03T20:27:06.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/09/03/xais-cfo-is-the-latest-executive-to-leave-elon-musks-ai-firm/",
-      "readTime": 3,
-      "views": 23552
-    },
-    {
-      "id": "coreweave-acquires-agent-training-startup-openpipe",
-      "title": "CoreWeave acquires agent-training startup OpenPipe",
-      "summary": "CoreWeave hopes the YC-backed startup will help it expand up the stack and cash in on enterprises developing AI agents.",
-      "content": "CoreWeave hopes the YC-backed startup will help it expand up the stack and cash in on enterprises developing AI agents.",
-      "source": "TechCrunch AI",
-      "author": "Maxwell Zeff",
-      "publishedAt": "2025-09-03T19:38:36.000Z",
-      "category": "partnership",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/09/03/coreweave-acquires-agent-training-startup-openpipe/",
-      "readTime": 3,
-      "views": 36324
-    },
-    {
-      "id": "orchard-robotics-founded-by-a-thiel-fellow-cornell",
-      "title": "Orchard Robotics, founded by a Thiel fellow Cornell dropout, raises $22M for farm vision AI",
-      "summary": "The startup uses truck-mounted cameras to collect and analyze data about crop health.",
-      "content": "The startup uses truck-mounted cameras to collect and analyze data about crop health.",
-      "source": "TechCrunch AI",
-      "author": "Marina Temkin",
-      "publishedAt": "2025-09-03T17:30:00.000Z",
-      "category": "funding",
-      "tags": [
-        "ai",
-        "robotics"
-      ],
-      "url": "https://techcrunch.com/2025/09/03/orchard-robotics-founded-by-a-thiel-fellow-cornell-dropout-raises-22m-for-farm-vision-ai/",
-      "readTime": 3,
-      "views": 40565
+      "views": 7895
     }
   ],
-  "lastUpdated": "2025-09-05T12:35:42.627Z",
+  "lastUpdated": "2025-09-06T01:17:48.491Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
     "TechCrunch AI",
-    "MIT Technology Review AI",
-    "AI News"
+    "AI News",
+    "MIT Technology Review AI"
   ],
   "categories": [
-    "release",
-    "funding",
     "research",
-    "market",
+    "release",
     "regulation",
-    "partnership"
+    "market",
+    "funding"
   ]
 }
