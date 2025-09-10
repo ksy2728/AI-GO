@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
+import { AAStatusService } from '@/services/aa-status.service'
 
 // Node.js Runtime for reliable data fetching
 // export const runtime = 'edge' // Disabled - Edge Runtime has issues with GitHub fetch
@@ -28,6 +29,11 @@ interface TimeSeriesData {
 
 // Generate realistic time-series data based on actual current stats
 function generateHistoricalData(currentStats: any, points: number = 20): TimeSeriesData[] {
+  // Use AA service for historical data if available
+  if (currentStats.isAAData) {
+    return AAStatusService.generateAAHistoricalData(currentStats, points)
+  }
+  
   const history: TimeSeriesData[] = []
   const now = Date.now()
   
@@ -75,39 +81,71 @@ export async function GET(request: NextRequest) {
     const { searchParams } = new URL(request.url)
     const includeHistory = searchParams.get('includeHistory') !== 'false'
     
-    // Use StatusService for database stats - primary data source
-    const { StatusService } = await import('@/services/status.service')
+    // Check if we should use AA data (default: true for consistency)
+    const useAAData = searchParams.get('useAAData') !== 'false'
     
-    // Get system stats from StatusService (uses database)
-    let stats = {
+    let stats: any = {
       totalModels: 0,
       activeModels: 0,
       avgAvailability: 95.0,
       operationalModels: 0,
       degradedModels: 0,
       outageModels: 0,
-      providers: 0
+      providers: 0,
+      isAAData: false
     }
     
     try {
-      const systemStats = await StatusService.getSystemStats()
-      
-      stats = {
-        totalModels: systemStats.totalModels || 0,
-        activeModels: systemStats.activeModels || 0,
-        avgAvailability: systemStats.avgAvailability || 95.0,
-        operationalModels: systemStats.operationalModels || 0,
-        degradedModels: systemStats.degradedModels || 0,
-        outageModels: systemStats.outageModels || 0,
-        providers: systemStats.providers || 0
+      if (useAAData) {
+        // Use AA-specific stats for consistency with models page
+        const aaStats = await AAStatusService.getAASystemStats()
+        
+        stats = {
+          totalModels: aaStats.totalAAModels || 0,
+          activeModels: aaStats.activeAAModels || 0,
+          avgAvailability: aaStats.avgAAAvailability || 95.0,
+          operationalModels: aaStats.operationalAAModels || 0,
+          degradedModels: aaStats.degradedAAModels || 0,
+          outageModels: aaStats.outageAAModels || 0,
+          providers: aaStats.aaProviders || 0,
+          isAAData: true,
+          aaCategories: aaStats.aaCategories,
+          avgIntelligence: aaStats.avgIntelligence,
+          avgSpeed: aaStats.avgSpeed,
+          avgPrice: aaStats.avgPrice,
+          lastAASync: aaStats.lastAASync
+        }
+        
+        console.log('📊 Using AA stats for realtime-stats API:', {
+          total: stats.totalModels,
+          active: stats.activeModels,
+          operational: stats.operationalModels,
+          providers: stats.providers,
+          categories: Object.keys(aaStats.aaCategories || {}).length
+        })
+      } else {
+        // Fallback to regular stats if requested
+        const { StatusService } = await import('@/services/status.service')
+        const systemStats = await StatusService.getSystemStats()
+        
+        stats = {
+          totalModels: systemStats.totalModels || 0,
+          activeModels: systemStats.activeModels || 0,
+          avgAvailability: systemStats.avgAvailability || 95.0,
+          operationalModels: systemStats.operationalModels || 0,
+          degradedModels: systemStats.degradedModels || 0,
+          outageModels: systemStats.outageModels || 0,
+          providers: systemStats.providers || 0,
+          isAAData: false
+        }
+        
+        console.log('📊 Using database stats for realtime-stats API:', {
+          total: stats.totalModels,
+          active: stats.activeModels,
+          operational: stats.operationalModels,
+          providers: stats.providers
+        })
       }
-      
-      console.log('📊 Using database stats for realtime-stats API:', {
-        total: stats.totalModels,
-        active: stats.activeModels,
-        operational: stats.operationalModels,
-        providers: stats.providers
-      })
       
     } catch (dbError) {
       console.error('❌ StatusService failed:', dbError)
@@ -138,6 +176,14 @@ export async function GET(request: NextRequest) {
       degradedModels: stats.degradedModels,
       outageModels: stats.outageModels,
       providers: stats.providers,
+      // Include AA-specific data if available
+      ...(stats.isAAData && {
+        aaCategories: stats.aaCategories,
+        avgIntelligence: stats.avgIntelligence,
+        avgSpeed: stats.avgSpeed,
+        avgPrice: stats.avgPrice,
+        lastAASync: stats.lastAASync
+      }),
       // Only include history if requested
       ...(includeHistory && { history: generateHistoricalData(stats) })
     }
@@ -148,7 +194,7 @@ export async function GET(request: NextRequest) {
         'Cache-Control': 'no-cache, no-store, must-revalidate',
         'Pragma': 'no-cache',
         'Expires': '0',
-        'X-Data-Source': 'database',
+        'X-Data-Source': stats.isAAData ? 'artificial-analysis' : 'database',
         'X-Include-History': includeHistory ? 'true' : 'false',
         'X-Timestamp': new Date().toISOString(),
         'Access-Control-Allow-Origin': '*',
