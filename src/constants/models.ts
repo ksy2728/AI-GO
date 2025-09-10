@@ -19,7 +19,15 @@ export const MAJOR_PROVIDERS: readonly string[] = [
   'google',
   'meta',
   'microsoft',
-  'amazon'
+  'amazon',
+  'other',      // For AA models with unmapped providers
+  'mistral',    // Mistral AI
+  'xai',        // xAI (Grok)
+  'deepseek',   // DeepSeek
+  'alibaba',    // Alibaba Cloud
+  'nvidia',     // NVIDIA
+  'cohere',     // Cohere
+  'ai21'        // AI21 Labs
 ]
 
 export const LATEST_MODELS: readonly string[] = [

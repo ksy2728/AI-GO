@@ -201,7 +201,8 @@
       "Bash(psql:*)",
       "Bash(echo:*)",
       "Bash(del /f \"src\\services\\artificial-analysis-scraper.service.ts\")",
-      "Bash(git reset:*)"
+      "Bash(git reset:*)",
+      "Read(//c/Users/user/Downloads/**)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"

@@ -147,8 +147,8 @@ export function getActiveFilterCount(filters: UnifiedFilterOptions): number {
 }
 
 export const DEFAULT_FILTERS: UnifiedFilterOptions = {
-  showMajorOnly: true,
-  includeUnknown: false,
+  showMajorOnly: false,  // Changed to show all providers including AA models
+  includeUnknown: true,   // Changed to include models without status
   searchQuery: '',
   isActive: undefined,
   provider: undefined,
