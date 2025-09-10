@@ -36,9 +36,11 @@ export function UnifiedChart() {
   const fetchRealtimeStats = async (includeHistory: boolean = false) => {
     try {
       setError(null)
+      // Use absolute URL to avoid CORS issues
+      const baseUrl = typeof window !== 'undefined' ? window.location.origin : ''
       const url = includeHistory 
-        ? '/api/v1/realtime-stats' 
-        : '/api/v1/realtime-stats?includeHistory=false'
+        ? `${baseUrl}/api/v1/realtime-stats` 
+        : `${baseUrl}/api/v1/realtime-stats?includeHistory=false`
       const response = await fetch(url)
       
       if (response.ok) {
@@ -171,10 +173,10 @@ export function UnifiedChart() {
           <div className="flex items-center justify-between">
             <div>
               <CardTitle className="text-lg font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                {t('monitoring.unifiedChart.title')}
+                Real-time System Metrics
               </CardTitle>
               <CardDescription className="text-xs text-gray-600 mt-0.5">
-                {t('monitoring.unifiedChart.description')}
+                Live monitoring of model performance and availability
               </CardDescription>
             </div>
           </div>
@@ -199,10 +201,10 @@ export function UnifiedChart() {
           <div className="flex items-center justify-between">
             <div>
               <CardTitle className="text-lg font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                {t('monitoring.unifiedChart.title')}
+                Real-time System Metrics
               </CardTitle>
               <CardDescription className="text-xs text-gray-600 mt-0.5">
-                {t('monitoring.unifiedChart.description')}
+                Live monitoring of model performance and availability
               </CardDescription>
             </div>
           </div>
@@ -338,7 +340,7 @@ export function UnifiedChart() {
               yAxisId="left"
               type="monotone"
               dataKey="degradedModels"
-              name={t('dashboard.legend.degraded') || 'Degraded'}
+              name={'Degraded'}
               stroke="#f59e0b"
               strokeWidth={2}
               strokeDasharray="5 5"
@@ -352,7 +354,7 @@ export function UnifiedChart() {
               yAxisId="left"
               type="monotone"
               dataKey="outageModels"
-              name={t('dashboard.legend.outage') || 'Outage'}
+              name={'Outage'}
               stroke="#ef4444"
               strokeWidth={2}
               dot={{ fill: '#ef4444', r: 2 }}

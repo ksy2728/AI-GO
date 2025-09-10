@@ -60,21 +60,21 @@ export default function MonitoringPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-2xl font-bold text-gray-900">{t('monitoring.title')}</h1>
+              <h1 className="text-2xl font-bold text-gray-900">System Monitoring</h1>
               <p className="text-sm text-gray-600 mt-1">
-                {t('monitoring.subtitle')}
+                Real-time AI model status and performance metrics
               </p>
             </div>
             <div className="flex items-center gap-3">
               {connected ? (
                 <div className="flex items-center gap-2 px-3 py-1.5 bg-green-50 border border-green-200 rounded-full">
                   <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
-                  <span className="text-sm text-green-700 font-medium">{t('dashboard.status.live')}</span>
+                  <span className="text-sm text-green-700 font-medium">Live</span>
                 </div>
               ) : (
                 <div className="flex items-center gap-2 px-3 py-1.5 bg-blue-50 border border-blue-200 rounded-full">
                   <div className="w-2 h-2 bg-blue-500 rounded-full" />
-                  <span className="text-sm text-blue-700 font-medium">{t('dashboard.status.apiMode')}</span>
+                  <span className="text-sm text-blue-700 font-medium">API Mode</span>
                 </div>
               )}
             </div>
@@ -100,7 +100,7 @@ export default function MonitoringPage() {
             <div className="flex items-center gap-2">
               <AlertCircle className="w-5 h-5 text-amber-600" />
               <p className="text-sm text-amber-800">
-                {t('dashboard.alerts.apiMode')}
+                Real-time connection unavailable. Using API polling mode.
               </p>
             </div>
           </div>

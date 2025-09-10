@@ -57,6 +57,18 @@ function generateHistoricalData(currentStats: any, points: number = 20): TimeSer
   return history
 }
 
+// Handle CORS preflight requests
+export async function OPTIONS() {
+  return NextResponse.json({}, {
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET, OPTIONS',
+      'Access-Control-Allow-Headers': 'Content-Type',
+      'Access-Control-Max-Age': '86400'
+    }
+  })
+}
+
 export async function GET(request: NextRequest) {
   try {
     // Parse query parameters
@@ -109,7 +121,10 @@ export async function GET(request: NextRequest) {
         headers: {
           'Cache-Control': 'no-cache, no-store, must-revalidate',
           'X-Data-Source': 'error',
-          'X-Timestamp': new Date().toISOString()
+          'X-Timestamp': new Date().toISOString(),
+          'Access-Control-Allow-Origin': '*',
+          'Access-Control-Allow-Methods': 'GET, OPTIONS',
+          'Access-Control-Allow-Headers': 'Content-Type'
         }
       })
     }
@@ -127,7 +142,7 @@ export async function GET(request: NextRequest) {
       ...(includeHistory && { history: generateHistoricalData(stats) })
     }
     
-    // Return with no-cache headers
+    // Return with no-cache headers and CORS support
     return NextResponse.json(currentStats, {
       headers: {
         'Cache-Control': 'no-cache, no-store, must-revalidate',
@@ -135,7 +150,10 @@ export async function GET(request: NextRequest) {
         'Expires': '0',
         'X-Data-Source': 'database',
         'X-Include-History': includeHistory ? 'true' : 'false',
-        'X-Timestamp': new Date().toISOString()
+        'X-Timestamp': new Date().toISOString(),
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Methods': 'GET, OPTIONS',
+        'Access-Control-Allow-Headers': 'Content-Type'
       }
     })
     
@@ -154,7 +172,10 @@ export async function GET(request: NextRequest) {
         'Pragma': 'no-cache',
         'Expires': '0',
         'X-Data-Source': 'error',
-        'X-Timestamp': new Date().toISOString()
+        'X-Timestamp': new Date().toISOString(),
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Methods': 'GET, OPTIONS',
+        'Access-Control-Allow-Headers': 'Content-Type'
       }
     })
   }
