@@ -35,9 +35,8 @@ export class AAStatusService {
       // Get only models with AA metadata
       const aaModels = await prisma.model.findMany({
         where: {
-          metadata: {
-            path: ['aa'],
-            not: Prisma.DbNull
+          NOT: {
+            metadata: Prisma.DbNull
           }
         },
         select: {
@@ -53,23 +52,29 @@ export class AAStatusService {
         }
       })
 
-      console.log(`🔍 Found ${aaModels.length} models with AA data`)
+      // Filter only models that actually have AA data
+      const modelsWithAA = aaModels.filter(m => {
+        const metadata = m.metadata as any
+        return metadata && metadata.aa
+      })
+
+      console.log(`🔍 Found ${modelsWithAA.length} models with AA data (from ${aaModels.length} total models)`)
 
       // Calculate AA-specific metrics
-      const activeAAModels = aaModels.filter(m => {
+      const activeAAModels = modelsWithAA.filter(m => {
         const metadata = m.metadata as any
         return metadata?.aa?.isActive !== false
       }).length
 
       // Get unique providers from AA data
-      const aaProviders = new Set(aaModels.map(m => {
+      const aaProviders = new Set(modelsWithAA.map(m => {
         const metadata = m.metadata as any
         return metadata?.aa?.provider || m.provider
       })).size
 
       // Calculate category distribution
       const aaCategories: Record<string, number> = {}
-      aaModels.forEach(model => {
+      modelsWithAA.forEach(model => {
         const metadata = model.metadata as any
         const category = metadata?.aa?.category || 'Unknown'
         aaCategories[category] = (aaCategories[category] || 0) + 1
@@ -81,7 +86,7 @@ export class AAStatusService {
       let totalPrice = 0
       let countWithMetrics = 0
 
-      aaModels.forEach(model => {
+      modelsWithAA.forEach(model => {
         const metadata = model.metadata as any
         if (metadata?.aa) {
           if (metadata.aa.intelligenceScore) {
@@ -104,7 +109,7 @@ export class AAStatusService {
       let totalAvailability = 0
       let availabilityCount = 0
 
-      aaModels.forEach(model => {
+      modelsWithAA.forEach(model => {
         const metadata = model.metadata as any
         const aaData = metadata?.aa
         
@@ -164,7 +169,7 @@ export class AAStatusService {
       })
 
       const stats: AASystemStats = {
-        totalAAModels: aaModels.length,
+        totalAAModels: modelsWithAA.length,
         activeAAModels,
         aaProviders,
         avgAAAvailability: availabilityCount > 0 

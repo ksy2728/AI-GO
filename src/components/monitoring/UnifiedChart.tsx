@@ -24,13 +24,14 @@ export function UnifiedChart() {
   const [isPolling, setIsPolling] = useState(false)
   const [isLoading, setIsLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
+  const [aaTotalModels, setAATotalModels] = useState<number>(0)
   const pollingIntervalRef = useRef<NodeJS.Timeout | null>(null)
   
   // Use context stats first (more reliable), fallback to realtime stats
   const effectiveStats = contextStats || globalStats
   
-  // Calculate dynamic total models from available sources
-  const dynamicTotalModels = effectiveStats?.totalModels || totalModels || 0
+  // Use AA total models from API data, fallback to context stats
+  const dynamicTotalModels = aaTotalModels || effectiveStats?.totalModels || totalModels || 0
 
   // Fetch realtime stats from Edge Function
   const fetchRealtimeStats = async (includeHistory: boolean = false) => {
@@ -46,6 +47,11 @@ export function UnifiedChart() {
       if (response.ok) {
         const data = await response.json()
         
+        // Update AA total models count from API
+        if (data.totalModels) {
+          setAATotalModels(data.totalModels)
+        }
+        
         if (!includeHistory || !data.history) {
           // Use only current data point when starting
           const now = new Date()
@@ -59,7 +65,8 @@ export function UnifiedChart() {
             operationalModels: data.operationalModels || 0,
             degradedModels: data.degradedModels || 0,
             outageModels: data.outageModels || 0,
-            timestamp: now.getTime()
+            timestamp: now.getTime(),
+            totalModels: data.totalModels || 0
           }
           setChartData([currentPoint])
         } else if (data.history && data.history.length > 0) {
@@ -71,7 +78,8 @@ export function UnifiedChart() {
             operationalModels: point.operationalModels || 0,
             degradedModels: point.degradedModels || 0,
             outageModels: point.outageModels || 0,
-            timestamp: point.timestamp
+            timestamp: point.timestamp,
+            totalModels: data.totalModels || 0
           }))
           setChartData(formattedData)
         }
