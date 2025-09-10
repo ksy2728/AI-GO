@@ -181,10 +181,10 @@ export function UnifiedChart() {
           <div className="flex items-center justify-between">
             <div>
               <CardTitle className="text-lg font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                Artificial Analysis Model Metrics
+                Real-time System Metrics
               </CardTitle>
               <CardDescription className="text-xs text-gray-600 mt-0.5">
-                Real-time monitoring of AA-tracked models performance
+                Live monitoring of model performance and availability
               </CardDescription>
             </div>
           </div>
@@ -209,10 +209,10 @@ export function UnifiedChart() {
           <div className="flex items-center justify-between">
             <div>
               <CardTitle className="text-lg font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                Artificial Analysis Model Metrics
+                Real-time System Metrics
               </CardTitle>
               <CardDescription className="text-xs text-gray-600 mt-0.5">
-                Real-time monitoring of AA-tracked models performance
+                Live monitoring of model performance and availability
               </CardDescription>
             </div>
           </div>
@@ -282,7 +282,7 @@ export function UnifiedChart() {
               domain={[0, 150]}
               ticks={[0, 30, 60, 90, 120, 150]}
               label={{ 
-                value: 'AA Models Count', 
+                value: 'Models Count', 
                 angle: -90, 
                 position: 'insideLeft', 
                 style: { fill: '#6b7280', fontSize: 13, fontWeight: 500 } 
@@ -317,12 +317,12 @@ export function UnifiedChart() {
               formatter={(value) => <span style={{ color: '#4b5563', fontSize: 12 }}>{value}</span>}
             />
             
-            {/* Active AA Models - Line */}
+            {/* Active Models - Line */}
             <Line
               yAxisId="left"
               type="monotone"
               dataKey="activeModels"
-              name={`AA Active Models (${chartData.length > 0 ? chartData[chartData.length - 1].activeModels || 0 : activeModels || 0}/${dynamicTotalModels})`}
+              name={`Active Models (${chartData.length > 0 ? chartData[chartData.length - 1].activeModels || 0 : activeModels || 0}/${dynamicTotalModels})`}
               stroke="#3b82f6"
               strokeWidth={2.5}
               dot={{ fill: '#3b82f6', r: 2 }}
@@ -330,12 +330,12 @@ export function UnifiedChart() {
               animationDuration={1000}
             />
             
-            {/* Operational AA Models - Line */}
+            {/* Operational Models - Line */}
             <Line
               yAxisId="left"
               type="monotone"
               dataKey="operationalModels"
-              name={`AA Operational (${effectiveStats?.operationalModels || (chartData.length > 0 && chartData[chartData.length - 1].operationalModels != null ? chartData[chartData.length - 1].operationalModels : 0)}/${dynamicTotalModels})`}
+              name={`Operational (${effectiveStats?.operationalModels || (chartData.length > 0 && chartData[chartData.length - 1].operationalModels != null ? chartData[chartData.length - 1].operationalModels : 0)}/${dynamicTotalModels})`}
               stroke="#6366f1"
               strokeWidth={2.5}
               dot={{ fill: '#6366f1', r: 2 }}
@@ -375,7 +375,7 @@ export function UnifiedChart() {
               yAxisId="right"
               type="monotone"
               dataKey="avgAvailability"
-              name={'AA Avg Availability'}
+              name={'Availability'}
               stroke="#10b981"
               strokeWidth={3}
               dot={{ fill: '#10b981', r: 3, strokeWidth: 1, stroke: '#fff' }}
