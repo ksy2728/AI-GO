@@ -202,7 +202,8 @@
       "Bash(echo:*)",
       "Bash(del /f \"src\\services\\artificial-analysis-scraper.service.ts\")",
       "Bash(git reset:*)",
-      "Read(//c/Users/user/Downloads/**)"
+      "Read(//c/Users/user/Downloads/**)",
+      "Bash(PORT=3008 npm run dev)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"

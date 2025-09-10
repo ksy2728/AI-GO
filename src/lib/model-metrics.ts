@@ -25,10 +25,18 @@ export interface ModelHighlight {
 }
 
 /**
- * Calculate intelligence score from benchmark data
+ * Calculate intelligence score from benchmark data or AA metadata
  * Normalizes different benchmark scores to 0-100 scale
  */
-export function calculateIntelligenceScore(benchmarkScores: BenchmarkScore[]): number {
+export function calculateIntelligenceScore(benchmarkScores: BenchmarkScore[], metadata?: any): number {
+  // Check for AA intelligence score first
+  if (metadata?.aa?.intelligenceScore) {
+    return Number(metadata.aa.intelligenceScore)
+  }
+  if (metadata?.intelligenceScore) {
+    return Number(metadata.intelligenceScore)
+  }
+  
   if (!benchmarkScores || benchmarkScores.length === 0) return 0
 
   // Weight different benchmarks
@@ -62,12 +70,21 @@ export function calculateIntelligenceScore(benchmarkScores: BenchmarkScore[]): n
 
 /**
  * Calculate speed metric (tokens per second)
- * Uses throughput data or derives from latency
+ * Uses AA output speed, throughput data or derives from latency
  */
 export function calculateSpeedMetric(model: Model): number {
+  // Check for AA output speed first
+  const metadata = model.metadata
+  if (metadata?.aa?.outputSpeed) {
+    return Number(metadata.aa.outputSpeed)
+  }
+  if (metadata?.outputSpeed) {
+    return Number(metadata.outputSpeed)
+  }
+  
   // Check for direct throughput data
-  if (model.metadata?.throughput) {
-    return Number(model.metadata.throughput)
+  if (metadata?.throughput) {
+    return Number(metadata.throughput)
   }
 
   // Check status for latency and derive speed
@@ -98,9 +115,28 @@ export function calculateSpeedMetric(model: Model): number {
 
 /**
  * Extract price metric (USD per million tokens)
- * Averages input and output prices
+ * Averages input and output prices or uses AA price data
  */
-export function extractPriceMetric(pricing: Pricing[]): number {
+export function extractPriceMetric(pricing: Pricing[], metadata?: any): number {
+  // Check for AA price data first
+  if (metadata?.aa?.price) {
+    const aaPrice = metadata.aa.price
+    if (typeof aaPrice === 'object' && (aaPrice.input || aaPrice.output)) {
+      const input = Number(aaPrice.input) || 0
+      const output = Number(aaPrice.output) || 0
+      return (input + output) / 2
+    }
+    return Number(aaPrice)
+  }
+  if (metadata?.aaPrice) {
+    if (typeof metadata.aaPrice === 'object' && (metadata.aaPrice.input || metadata.aaPrice.output)) {
+      const input = Number(metadata.aaPrice.input) || 0
+      const output = Number(metadata.aaPrice.output) || 0
+      return (input + output) / 2
+    }
+    return Number(metadata.aaPrice)
+  }
+  
   if (!pricing || pricing.length === 0) return 0
 
   // Get the most recent pricing
@@ -179,7 +215,7 @@ function formatMetricValue(value: number, metricType?: string): string {
  */
 export function getTopIntelligenceModels(models: Model[], limit = 12): ModelHighlight[] {
   const extractor = (model: Model) => 
-    calculateIntelligenceScore(model.benchmarkScores || [])
+    calculateIntelligenceScore(model.benchmarkScores || [], model.metadata || model)
   
   return rankModels(models, extractor, { limit, ascending: false })
 }
@@ -197,7 +233,7 @@ export function getTopSpeedModels(models: Model[], limit = 12): ModelHighlight[]
  * Get top models for price metric (cheapest first)
  */
 export function getTopPriceModels(models: Model[], limit = 12): ModelHighlight[] {
-  const extractor = (model: Model) => extractPriceMetric(model.pricing || [])
+  const extractor = (model: Model) => extractPriceMetric(model.pricing || [], model.metadata || model)
   
   return rankModels(models, extractor, { limit, ascending: true })
 }

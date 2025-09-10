@@ -18,6 +18,35 @@ export async function GET() {
       models = await ModelService.getAll({ 
         limit: 500
       }) as any[]
+      
+      // Parse metadata for AA data
+      models = models.map(model => {
+        if (model.metadata && typeof model.metadata === 'string') {
+          try {
+            const parsed = JSON.parse(model.metadata)
+            
+            // Map AA data to top-level fields for chart functions
+            if (parsed.aa) {
+              return {
+                ...model,
+                metadata: parsed,
+                intelligenceScore: parsed.aa.intelligenceScore,
+                outputSpeed: parsed.aa.outputSpeed,
+                aaPrice: parsed.aa.price,
+                aaRank: parsed.aa.rank,
+                aaCategory: parsed.aa.category,
+                aaTrend: parsed.aa.trend
+              }
+            }
+            
+            return { ...model, metadata: parsed }
+          } catch (e) {
+            return model
+          }
+        }
+        return model
+      })
+      
       dataSource = 'database'
     } catch (dbError) {
       console.warn('Database failed for highlights, trying GitHub:', dbError)
