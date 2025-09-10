@@ -1,12 +1,10 @@
 {
-  "buildCommand": "prisma generate && prisma migrate deploy && prisma db seed && next build",
+  "buildCommand": "prisma generate && next build",
   "installCommand": "npm ci || npm install",
   "build": {
     "env": {
       "NODE_ENV": "production",
-      "AUTO_SYNC": "true",
-      "DATABASE_URL": "@postgres_prisma_url",
-      "DIRECT_URL": "@postgres_url_non_pooling"
+      "AUTO_SYNC": "true"
     }
   },
   "crons": [

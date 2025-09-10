@@ -65,10 +65,10 @@ export async function GET(request: Request) {
 
     // Data source priority: Check DATA_SOURCE env var first, then fallback chain
     let models: any[] = []
-    let dataSource = 'temp-data'
+    let dataSource = 'database'
     
     // Check preferred data source from environment
-    const preferredDataSource = process.env.DATA_SOURCE || 'temp-data'
+    const preferredDataSource = process.env.DATA_SOURCE || 'database'
     const isProduction = process.env.NODE_ENV === 'production' || 
                         process.env.VERCEL === '1' || 
                         process.env.VERCEL_ENV !== undefined
@@ -157,6 +157,34 @@ export async function GET(request: Request) {
       )
     }
     
+    // Parse and include AA metadata if available
+    filteredModels = filteredModels.map((model: any) => {
+      if (model.metadata) {
+        try {
+          const metadata = typeof model.metadata === 'string' 
+            ? JSON.parse(model.metadata) 
+            : model.metadata
+          
+          // Include AA data if available
+          if (metadata.aa) {
+            return {
+              ...model,
+              intelligenceScore: metadata.aa.intelligenceScore,
+              outputSpeed: metadata.aa.outputSpeed,
+              aaPrice: metadata.aa.price,
+              aaRank: metadata.aa.rank,
+              aaCategory: metadata.aa.category,
+              aaTrend: metadata.aa.trend,
+              aaLastUpdated: metadata.aa.lastUpdated
+            }
+          }
+        } catch (e) {
+          console.warn('Failed to parse metadata for model:', model.slug)
+        }
+      }
+      return model
+    })
+    
     // Don't filter by API keys when using database - show all models
     // Only filter when using temp-data fallback
     if (dataSource === 'temp-data') {
@@ -165,6 +193,16 @@ export async function GET(request: Request) {
         return providersWithApiKeys.has(providerSlug)
       })
     }
+    
+    // Sort by AA rank if available, otherwise by name
+    filteredModels.sort((a: any, b: any) => {
+      if (a.aaRank && b.aaRank) {
+        return a.aaRank - b.aaRank
+      }
+      if (a.aaRank) return -1
+      if (b.aaRank) return 1
+      return (a.name || '').localeCompare(b.name || '')
+    })
 
     return NextResponse.json({
       models: filteredModels,

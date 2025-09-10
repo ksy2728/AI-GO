@@ -197,7 +197,11 @@
       "WebFetch(domain:neon.tech)",
       "WebFetch(domain:neon.com)",
       "Bash(start https://vercel.com/kim-soo-youngs-projects/ai-server-information/deployments)",
-      "Bash(start https://vercel.com/kim-soo-youngs-projects/ai-server-information/settings/environment-variables)"
+      "Bash(start https://vercel.com/kim-soo-youngs-projects/ai-server-information/settings/environment-variables)",
+      "Bash(psql:*)",
+      "Bash(echo:*)",
+      "Bash(del /f \"src\\services\\artificial-analysis-scraper.service.ts\")",
+      "Bash(git reset:*)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"

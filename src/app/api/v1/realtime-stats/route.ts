@@ -31,17 +31,13 @@ function generateHistoricalData(currentStats: any, points: number = 20): TimeSer
   const history: TimeSeriesData[] = []
   const now = Date.now()
   
-  // Use actual values from current stats - dynamic based on real data
+  // Use actual values from current stats - no artificial variation
   const baseActive = currentStats.activeModels || 0
   const baseAvailability = currentStats.avgAvailability || 95.0
   const baseOperational = currentStats.operationalModels || 0
   
   for (let i = points - 1; i >= 0; i--) {
     const timestamp = now - (i * 60000) // 1 minute intervals
-    
-    // Add realistic variations based on actual model count (±2% variation)
-    const modelVariation = Math.floor((Math.random() - 0.5) * Math.max(2, baseActive * 0.02))
-    const availVariation = (Math.random() - 0.5) * 0.2 // ±0.1% availability
     
     history.push({
       time: new Date(timestamp).toLocaleTimeString('ko-KR', {
@@ -52,9 +48,9 @@ function generateHistoricalData(currentStats: any, points: number = 20): TimeSer
         second: '2-digit'
       }),
       timestamp,
-      activeModels: Math.max(0, baseActive + modelVariation),
-      avgAvailability: Math.round((baseAvailability + availVariation) * 10) / 10,
-      operationalModels: Math.max(0, baseOperational + modelVariation)
+      activeModels: baseActive,
+      avgAvailability: Math.round(baseAvailability * 10) / 10,
+      operationalModels: baseOperational
     })
   }
   
@@ -118,16 +114,12 @@ export async function GET(request: NextRequest) {
       })
     }
     
-    // Add realistic variation based on actual model count (±2% variation)
-    const modelVariation = Math.floor((Math.random() - 0.5) * Math.max(2, stats.totalModels * 0.02))
-    const availVariation = (Math.random() - 0.5) * 0.2 // ±0.1% availability variation
-    
     const currentStats: RealtimeStats = {
       timestamp: new Date().toISOString(),
       totalModels: stats.totalModels,
-      activeModels: Math.max(0, stats.activeModels + modelVariation),
-      avgAvailability: Math.round((stats.avgAvailability + availVariation) * 10) / 10,
-      operationalModels: Math.max(0, stats.operationalModels + modelVariation),
+      activeModels: stats.activeModels,
+      avgAvailability: Math.round(stats.avgAvailability * 10) / 10,
+      operationalModels: stats.operationalModels,
       degradedModels: stats.degradedModels,
       outageModels: stats.outageModels,
       providers: stats.providers,

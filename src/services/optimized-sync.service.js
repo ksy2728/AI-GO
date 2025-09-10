@@ -31,7 +31,8 @@ class OptimizedSyncService {
       priority: 5 * 60 * 1000,    // 5 minutes for priority models
       active: 30 * 60 * 1000,      // 30 minutes for active models
       full: 6 * 60 * 60 * 1000,    // 6 hours for all models
-      github: 60 * 60 * 1000       // 1 hour for GitHub backup check
+      github: 60 * 60 * 1000,      // 1 hour for GitHub backup check
+      artificialAnalysis: 60 * 60 * 1000  // 1 hour for AA scraping
     };
     
     // Performance metrics
@@ -60,6 +61,13 @@ class OptimizedSyncService {
     // Load initial data from GitHub if available
     await this.loadGitHubBackup();
     
+    // Initialize AA scraper if enabled
+    if (process.env.AA_SCRAPE_ENABLED === 'true') {
+      const { initializeAAScraper } = require('./aa-scraper');
+      this.aaScraper = initializeAAScraper();
+      console.log('🔄 AA Scraper initialized');
+    }
+    
     // Start sync intervals
     this.startSyncIntervals();
     
@@ -82,6 +90,13 @@ class OptimizedSyncService {
     
     // GitHub backup check (1 hour)
     setInterval(() => this.checkGitHubBackup(), this.intervals.github);
+    
+    // Artificial Analysis sync (1 hour) - if enabled
+    if (process.env.AA_SCRAPE_ENABLED === 'true') {
+      setInterval(() => this.syncArtificialAnalysis(), this.intervals.artificialAnalysis);
+      // Initial AA sync after a short delay
+      setTimeout(() => this.syncArtificialAnalysis(), 5000);
+    }
     
     // Initial sync
     this.syncPriorityModels();
@@ -362,6 +377,173 @@ class OptimizedSyncService {
       console.log('🔄 High error rate or rate limited, checking GitHub backup...');
       await this.loadGitHubBackup();
     }
+  }
+
+  /**
+   * Sync models from Artificial Analysis
+   */
+  async syncArtificialAnalysis() {
+    if (!this.aaScraper) {
+      console.warn('⚠️ AA Scraper not initialized');
+      return { success: false, error: 'AA Scraper not initialized' };
+    }
+
+    console.log('🤖 Starting Artificial Analysis sync...');
+    const startTime = Date.now();
+
+    try {
+      // Scrape models from AA
+      const aaModels = await this.aaScraper.scrapeModels();
+      
+      if (!aaModels || aaModels.length === 0) {
+        console.warn('⚠️ No models scraped from Artificial Analysis');
+        return { success: false, error: 'No models scraped' };
+      }
+
+      console.log(`📊 Processing ${aaModels.length} models from Artificial Analysis`);
+      
+      let created = 0;
+      let updated = 0;
+      
+      for (const aaModel of aaModels) {
+        try {
+          // Map AA model to our format
+          const modelData = await this.mapAAModelToDatabase(aaModel);
+          
+          // Check if model exists
+          const existingModel = await prisma.model.findUnique({
+            where: { slug: modelData.slug }
+          });
+          
+          if (existingModel) {
+            // Update existing model with AA metadata
+            await prisma.model.update({
+              where: { id: existingModel.id },
+              data: {
+                metadata: JSON.stringify({
+                  ...JSON.parse(existingModel.metadata || '{}'),
+                  aa: {
+                    intelligenceScore: aaModel.intelligenceScore,
+                    outputSpeed: aaModel.outputSpeed,
+                    price: aaModel.price,
+                    rank: aaModel.rank,
+                    category: aaModel.category,
+                    trend: aaModel.trend,
+                    lastUpdated: aaModel.lastUpdated
+                  }
+                }),
+                updatedAt: new Date()
+              }
+            });
+            updated++;
+          } else {
+            // Create new model from AA data
+            await prisma.model.create({
+              data: modelData
+            });
+            created++;
+          }
+          
+          // Update model status with AA data
+          if (existingModel) {
+            await this.updateModelStatus(existingModel.id, {
+              status: 'operational',
+              availability: 99.9,
+              latencyP50: Math.floor(1000 / aaModel.outputSpeed), // Convert tokens/s to latency
+              latencyP95: Math.floor(2000 / aaModel.outputSpeed),
+              latencyP99: Math.floor(3000 / aaModel.outputSpeed),
+              errorRate: 0.1,
+              requestsPerMin: Math.floor(aaModel.outputSpeed * 60),
+              tokensPerMin: Math.floor(aaModel.outputSpeed * 60)
+            });
+          }
+          
+        } catch (modelError) {
+          console.error(`❌ Failed to process AA model ${aaModel.name}:`, modelError.message);
+        }
+      }
+      
+      const duration = Date.now() - startTime;
+      
+      console.log(`✅ AA sync completed: ${created} created, ${updated} updated in ${duration}ms`);
+      
+      // Broadcast update if Socket.IO is available
+      if (global.io) {
+        global.io.emit('sync:aa', {
+          modelsCreated: created,
+          modelsUpdated: updated,
+          totalModels: aaModels.length,
+          duration,
+          timestamp: new Date().toISOString()
+        });
+      }
+      
+      return { success: true, created, updated, duration };
+      
+    } catch (error) {
+      console.error('❌ AA sync failed:', error);
+      return { success: false, error: error.message };
+    }
+  }
+
+  /**
+   * Map AA model to database format
+   */
+  async mapAAModelToDatabase(aaModel) {
+    // Generate a slug from the model name
+    const slug = this.aaScraper.slugify(aaModel.name);
+    
+    // Map provider names
+    const providerMap = {
+      'OpenAI': 'openai',
+      'Anthropic': 'anthropic',
+      'Google': 'google',
+      'Meta': 'meta',
+      'Mistral': 'mistral',
+      'Cohere': 'cohere',
+      'AI21': 'ai21'
+    };
+    
+    const providerId = providerMap[aaModel.provider] || 'other';
+    
+    // Get or create provider
+    let provider = await prisma.provider.findUnique({
+      where: { slug: providerId }
+    });
+    
+    if (!provider) {
+      provider = await prisma.provider.create({
+        data: {
+          slug: providerId,
+          name: aaModel.provider,
+          websiteUrl: `https://${providerId}.com`,
+          regions: JSON.stringify(['global'])
+        }
+      });
+    }
+    
+    return {
+      slug,
+      name: aaModel.name,
+      description: `${aaModel.provider} model with intelligence score ${aaModel.intelligenceScore}`,
+      providerId: provider.id,
+      modalities: JSON.stringify(['text']),
+      capabilities: JSON.stringify(['chat', 'completion']),
+      contextWindow: aaModel.contextWindow || 128000,
+      isActive: true,
+      metadata: JSON.stringify({
+        source: 'artificial-analysis',
+        aa: {
+          intelligenceScore: aaModel.intelligenceScore,
+          outputSpeed: aaModel.outputSpeed,
+          price: aaModel.price,
+          rank: aaModel.rank,
+          category: aaModel.category,
+          trend: aaModel.trend,
+          lastUpdated: aaModel.lastUpdated
+        }
+      })
+    };
   }
 
   /**

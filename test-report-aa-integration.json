@@ -1,0 +1,125 @@
+{
+  "timestamp": "2025-09-10T11:30:00.476Z",
+  "summary": {
+    "total": 22,
+    "passed": 19,
+    "failed": 3,
+    "passRate": "86.4%"
+  },
+  "tests": [
+    {
+      "name": "Scraper initialization",
+      "passed": true,
+      "details": "Scraper initialized successfully"
+    },
+    {
+      "name": "Page navigation",
+      "passed": true,
+      "details": "Successfully navigated to AA"
+    },
+    {
+      "name": "Model extraction",
+      "passed": true,
+      "details": "Extracted 27 models"
+    },
+    {
+      "name": "Model selection",
+      "passed": true,
+      "details": "Selected top 27 models"
+    },
+    {
+      "name": "Model data structure",
+      "passed": true,
+      "details": "All required fields present"
+    },
+    {
+      "name": "Intelligence scores validity",
+      "passed": true,
+      "details": "All scores within valid range"
+    },
+    {
+      "name": "Ranking validity",
+      "passed": true,
+      "details": "All models have valid ranks"
+    },
+    {
+      "name": "Database connection",
+      "passed": true,
+      "details": "Connected to database (30 models)"
+    },
+    {
+      "name": "AA models in database",
+      "passed": true,
+      "details": "Found 27 AA models"
+    },
+    {
+      "name": "Metadata structure",
+      "passed": true,
+      "details": "AA metadata properly structured"
+    },
+    {
+      "name": "AA metadata fields",
+      "passed": true,
+      "details": "All AA fields present"
+    },
+    {
+      "name": "API endpoints",
+      "passed": false,
+      "details": "fetch failed"
+    },
+    {
+      "name": "AA scraping enabled",
+      "passed": false,
+      "details": "Environment variable: undefined"
+    },
+    {
+      "name": "AA interval configured",
+      "passed": true,
+      "details": "1 hour interval set"
+    },
+    {
+      "name": "Initial sync delay",
+      "passed": true,
+      "details": "5 second delay configured for startup"
+    },
+    {
+      "name": "Cache fallback available",
+      "passed": true,
+      "details": "Cache mechanism implemented"
+    },
+    {
+      "name": "Error handling",
+      "passed": false,
+      "details": "Errors properly caught and handled"
+    },
+    {
+      "name": "Retry/fallback logic",
+      "passed": true,
+      "details": "Fallback to cache on failure"
+    },
+    {
+      "name": "Provider diversity",
+      "passed": true,
+      "details": "7 different providers"
+    },
+    {
+      "name": "Required providers",
+      "passed": true,
+      "details": "Key providers included"
+    },
+    {
+      "name": "Intelligence score quality",
+      "passed": true,
+      "details": "Average score: 86.0"
+    },
+    {
+      "name": "Data freshness",
+      "passed": true,
+      "details": "27 recent models"
+    }
+  ],
+  "environment": {
+    "nodeVersion": "v22.16.0",
+    "port": 3005
+  }
+}
