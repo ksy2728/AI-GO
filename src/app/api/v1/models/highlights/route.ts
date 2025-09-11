@@ -15,11 +15,12 @@ export async function GET() {
     
     // Try database first
     try {
-      // Get only AA models for highlights display
+      // Get all models first to debug the issue
       models = await ModelService.getAll({ 
         limit: 500,
-        aaOnly: true  // Only get models with AA data
+        aaOnly: false  // Get all models for debugging
       }) as any[]
+      console.log(`DEBUG: Retrieved ${models.length} total models from database`)
       
       // Parse metadata for AA data with enhanced processing
       models = models.map(model => {
@@ -103,35 +104,34 @@ export async function GET() {
     if (models.length > 0) {
       console.log(`Total models loaded: ${models.length}`)
       
-      // Check first 3 models for detailed debugging
-      models.slice(0, 3).forEach((model, index) => {
-        const sampleModel = model as any
-        console.log(`Sample model ${index + 1} (${sampleModel.name}):`, {
-          name: sampleModel.name,
-          hasMetadata: !!sampleModel.metadata,
-          metadataType: typeof sampleModel.metadata,
-          hasAA: !!sampleModel.metadata?.aa,
-          aaIntelligence: sampleModel.metadata?.aa?.intelligenceScore,
-          aaPrice: sampleModel.metadata?.aa?.price,
-          aaSpeed: sampleModel.metadata?.aa?.outputSpeed,
-          topLevelIntelligence: sampleModel.intelligenceScore,
-          topLevelSpeed: sampleModel.outputSpeed,
-          topLevelPrice: sampleModel.aaPrice,
-          hasBenchmarks: Array.isArray(sampleModel.benchmarkScores),
-          benchmarkCount: sampleModel.benchmarkScores?.length || 0,
-          hasPricing: Array.isArray(sampleModel.pricing),
-          pricingCount: sampleModel.pricing?.length || 0
-        })
-      })
-      
-      // Count models with AA data
+      // Find models with AA data specifically
       const modelsWithAA = models.filter(m => {
         const metadata = m.metadata as any
         return metadata && metadata.aa
       })
       console.log(`Models with AA data: ${modelsWithAA.length} out of ${models.length}`)
       
-      // Count models with top-level fields
+      // Debug first AA model in detail
+      if (modelsWithAA.length > 0) {
+        const aaModel = modelsWithAA[0] as any
+        console.log(`\n=== DETAILED AA MODEL DEBUG ===`)
+        console.log(`Model: ${aaModel.name}`)
+        console.log(`Raw metadata:`, JSON.stringify(aaModel.metadata, null, 2))
+        if (aaModel.metadata?.aa) {
+          console.log(`AA Intelligence:`, aaModel.metadata.aa.intelligenceScore)
+          console.log(`AA Intelligence Type:`, typeof aaModel.metadata.aa.intelligenceScore)
+          console.log(`AA Price:`, aaModel.metadata.aa.price)
+          console.log(`AA Price Type:`, typeof aaModel.metadata.aa.price)
+          console.log(`AA Speed:`, aaModel.metadata.aa.outputSpeed)
+          console.log(`AA Speed Type:`, typeof aaModel.metadata.aa.outputSpeed)
+        }
+        console.log(`Top-level Intelligence:`, aaModel.intelligenceScore)
+        console.log(`Top-level Price:`, aaModel.aaPrice)
+        console.log(`Top-level Speed:`, aaModel.outputSpeed)
+        console.log(`=== END DEBUG ===\n`)
+      }
+      
+      // Count models with top-level fields after processing
       const modelsWithIntelligence = models.filter(m => (m as any).intelligenceScore > 0)
       const modelsWithPrice = models.filter(m => (m as any).aaPrice > 0)
       console.log(`Models with intelligenceScore > 0: ${modelsWithIntelligence.length}`)
