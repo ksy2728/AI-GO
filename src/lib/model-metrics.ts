@@ -220,10 +220,14 @@ function formatMetricValue(value: number, metricType?: string): string {
  */
 export function getTopIntelligenceModels(models: Model[], limit = 12): ModelHighlight[] {
   const extractor = (model: Model) => {
+    // Cast to any to check for preprocessed fields
+    const modelAny = model as any
+    
     // First check if intelligenceScore exists at model level (from API preprocessing)
-    if ('intelligenceScore' in model && model.intelligenceScore) {
-      return Number(model.intelligenceScore)
+    if (modelAny.intelligenceScore !== undefined && modelAny.intelligenceScore !== null) {
+      return Number(modelAny.intelligenceScore)
     }
+    
     // Otherwise use the standard calculation
     return calculateIntelligenceScore(model.benchmarkScores || [], model.metadata || model)
   }
@@ -236,10 +240,14 @@ export function getTopIntelligenceModels(models: Model[], limit = 12): ModelHigh
  */
 export function getTopSpeedModels(models: Model[], limit = 12): ModelHighlight[] {
   const extractor = (model: Model) => {
+    // Cast to any to check for preprocessed fields
+    const modelAny = model as any
+    
     // First check if outputSpeed exists at model level (from API preprocessing)
-    if ('outputSpeed' in model && model.outputSpeed) {
-      return Number(model.outputSpeed)
+    if (modelAny.outputSpeed !== undefined && modelAny.outputSpeed !== null) {
+      return Number(modelAny.outputSpeed)
     }
+    
     // Otherwise use the standard calculation
     return calculateSpeedMetric(model)
   }
@@ -252,9 +260,12 @@ export function getTopSpeedModels(models: Model[], limit = 12): ModelHighlight[]
  */
 export function getTopPriceModels(models: Model[], limit = 12): ModelHighlight[] {
   const extractor = (model: Model) => {
+    // Cast to any to check for preprocessed fields
+    const modelAny = model as any
+    
     // First check if aaPrice exists at model level (from API preprocessing)
-    if ('aaPrice' in model && model.aaPrice) {
-      const aaPrice = model.aaPrice
+    if (modelAny.aaPrice !== undefined && modelAny.aaPrice !== null) {
+      const aaPrice = modelAny.aaPrice
       if (typeof aaPrice === 'object' && (aaPrice.input || aaPrice.output)) {
         const input = Number(aaPrice.input) || 0
         const output = Number(aaPrice.output) || 0
@@ -262,6 +273,7 @@ export function getTopPriceModels(models: Model[], limit = 12): ModelHighlight[]
       }
       return Number(aaPrice)
     }
+    
     // Otherwise use the standard extraction
     return extractPriceMetric(model.pricing || [], model.metadata || model)
   }
