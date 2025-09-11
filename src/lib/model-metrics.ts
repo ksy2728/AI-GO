@@ -37,6 +37,11 @@ export function calculateIntelligenceScore(benchmarkScores: BenchmarkScore[], me
     return Number(metadata.intelligenceScore)
   }
   
+  // Check if metadata is actually the model object itself with intelligenceScore at top level
+  if (metadata && typeof metadata === 'object' && 'intelligenceScore' in metadata && metadata.intelligenceScore) {
+    return Number(metadata.intelligenceScore)
+  }
+  
   if (!benchmarkScores || benchmarkScores.length === 0) return 0
 
   // Weight different benchmarks

@@ -15,6 +15,7 @@ export async function GET() {
     
     // Try database first
     try {
+      // Note: ModelService.getAll includes benchmarkScores but we need to ensure it's included
       models = await ModelService.getAll({ 
         limit: 500
       }) as any[]
@@ -63,8 +64,29 @@ export async function GET() {
       }
     }
 
+    // Debug: Check a sample model
+    if (models.length > 0) {
+      const sampleModel = models[0]
+      console.log('Sample model for highlights:', {
+        name: sampleModel.name,
+        hasMetadata: !!sampleModel.metadata,
+        metadataType: typeof sampleModel.metadata,
+        hasAA: !!sampleModel.metadata?.aa,
+        aaIntelligence: sampleModel.metadata?.aa?.intelligenceScore,
+        hasBenchmarks: Array.isArray(sampleModel.benchmarkScores),
+        benchmarkCount: sampleModel.benchmarkScores?.length || 0
+      })
+    }
+    
     // Calculate highlights data
     const highlights = getModelHighlights(models)
+    
+    console.log('Highlights result:', {
+      intelligenceCount: highlights.intelligence.length,
+      speedCount: highlights.speed.length,
+      priceCount: highlights.price.length,
+      totalModels: models.length
+    })
     
     // Add data source to metadata
     highlights.metadata.dataSource = dataSource
