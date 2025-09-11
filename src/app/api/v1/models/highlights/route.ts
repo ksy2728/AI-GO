@@ -15,37 +15,72 @@ export async function GET() {
     
     // Try database first
     try {
-      // Note: ModelService.getAll includes benchmarkScores but we need to ensure it's included
+      // Get only AA models for highlights display
       models = await ModelService.getAll({ 
-        limit: 500
+        limit: 500,
+        aaOnly: true  // Only get models with AA data
       }) as any[]
       
-      // Parse metadata for AA data
+      // Parse metadata for AA data with enhanced processing
       models = models.map(model => {
-        if (model.metadata && typeof model.metadata === 'string') {
+        // Handle both string and object metadata
+        let parsedMetadata = model.metadata
+        
+        if (typeof model.metadata === 'string') {
           try {
-            const parsed = JSON.parse(model.metadata)
-            
-            // Map AA data to top-level fields for chart functions
-            if (parsed.aa) {
-              return {
-                ...model,
-                metadata: parsed,
-                intelligenceScore: parsed.aa.intelligenceScore,
-                outputSpeed: parsed.aa.outputSpeed,
-                aaPrice: parsed.aa.price,
-                aaRank: parsed.aa.rank,
-                aaCategory: parsed.aa.category,
-                aaTrend: parsed.aa.trend
-              }
-            }
-            
-            return { ...model, metadata: parsed }
+            parsedMetadata = JSON.parse(model.metadata)
           } catch (e) {
+            console.warn(`Failed to parse metadata for model ${model.id}:`, e)
             return model
           }
         }
-        return model
+        
+        // Enhanced AA data mapping with type safety and fallbacks
+        if (parsedMetadata && parsedMetadata.aa) {
+          const aa = parsedMetadata.aa
+          
+          // Ensure numeric values with proper fallbacks
+          const intelligenceScore = typeof aa.intelligenceScore === 'number' 
+            ? aa.intelligenceScore 
+            : parseFloat(aa.intelligenceScore) || 0
+            
+          const outputSpeed = typeof aa.outputSpeed === 'number'
+            ? aa.outputSpeed
+            : parseFloat(aa.outputSpeed) || 0
+            
+          // Handle price as object or number
+          let aaPrice = 0
+          if (typeof aa.price === 'number') {
+            aaPrice = aa.price
+          } else if (typeof aa.price === 'object' && aa.price) {
+            const input = parseFloat(aa.price.input) || 0
+            const output = parseFloat(aa.price.output) || 0
+            aaPrice = (input + output) / 2
+          } else if (aa.price) {
+            aaPrice = parseFloat(aa.price) || 0
+          }
+          
+          console.log(`Enhanced AA mapping for ${model.name}:`, {
+            intelligenceScore,
+            outputSpeed,
+            aaPrice,
+            originalAA: aa
+          })
+          
+          return {
+            ...model,
+            metadata: parsedMetadata,
+            // Explicit field assignments with type coercion
+            intelligenceScore: intelligenceScore,
+            outputSpeed: outputSpeed,
+            aaPrice: aaPrice,
+            aaRank: parseInt(aa.rank) || 0,
+            aaCategory: aa.category || '',
+            aaTrend: aa.trend || 'stable'
+          }
+        }
+        
+        return { ...model, metadata: parsedMetadata }
       })
       
       dataSource = 'database'
@@ -64,21 +99,43 @@ export async function GET() {
       }
     }
 
-    // Debug: Check a sample model and preprocessing
+    // Debug: Check multiple sample models and preprocessing
     if (models.length > 0) {
-      const sampleModel = models[0] as any
-      console.log('Sample model for highlights:', {
-        name: sampleModel.name,
-        hasMetadata: !!sampleModel.metadata,
-        metadataType: typeof sampleModel.metadata,
-        hasAA: !!sampleModel.metadata?.aa,
-        aaIntelligence: sampleModel.metadata?.aa?.intelligenceScore,
-        topLevelIntelligence: sampleModel.intelligenceScore,
-        topLevelSpeed: sampleModel.outputSpeed,
-        topLevelPrice: sampleModel.aaPrice,
-        hasBenchmarks: Array.isArray(sampleModel.benchmarkScores),
-        benchmarkCount: sampleModel.benchmarkScores?.length || 0
+      console.log(`Total models loaded: ${models.length}`)
+      
+      // Check first 3 models for detailed debugging
+      models.slice(0, 3).forEach((model, index) => {
+        const sampleModel = model as any
+        console.log(`Sample model ${index + 1} (${sampleModel.name}):`, {
+          name: sampleModel.name,
+          hasMetadata: !!sampleModel.metadata,
+          metadataType: typeof sampleModel.metadata,
+          hasAA: !!sampleModel.metadata?.aa,
+          aaIntelligence: sampleModel.metadata?.aa?.intelligenceScore,
+          aaPrice: sampleModel.metadata?.aa?.price,
+          aaSpeed: sampleModel.metadata?.aa?.outputSpeed,
+          topLevelIntelligence: sampleModel.intelligenceScore,
+          topLevelSpeed: sampleModel.outputSpeed,
+          topLevelPrice: sampleModel.aaPrice,
+          hasBenchmarks: Array.isArray(sampleModel.benchmarkScores),
+          benchmarkCount: sampleModel.benchmarkScores?.length || 0,
+          hasPricing: Array.isArray(sampleModel.pricing),
+          pricingCount: sampleModel.pricing?.length || 0
+        })
       })
+      
+      // Count models with AA data
+      const modelsWithAA = models.filter(m => {
+        const metadata = m.metadata as any
+        return metadata && metadata.aa
+      })
+      console.log(`Models with AA data: ${modelsWithAA.length} out of ${models.length}`)
+      
+      // Count models with top-level fields
+      const modelsWithIntelligence = models.filter(m => (m as any).intelligenceScore > 0)
+      const modelsWithPrice = models.filter(m => (m as any).aaPrice > 0)
+      console.log(`Models with intelligenceScore > 0: ${modelsWithIntelligence.length}`)
+      console.log(`Models with aaPrice > 0: ${modelsWithPrice.length}`)
     }
     
     // Calculate highlights data

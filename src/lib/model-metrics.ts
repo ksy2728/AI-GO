@@ -225,21 +225,42 @@ export function getTopIntelligenceModels(models: Model[], limit = 12): ModelHigh
     // Cast to any to check for preprocessed fields
     const modelAny = model as any
     
-    // First check if intelligenceScore exists at model level (from API preprocessing)
-    if (modelAny.intelligenceScore !== undefined && modelAny.intelligenceScore !== null) {
-      const score = Number(modelAny.intelligenceScore)
-      console.log(`Model ${model.name}: using top-level intelligenceScore = ${score}`)
-      return score
+    // Try multiple ways to get intelligenceScore
+    let score = 0
+    
+    // Method 1: Direct field access from API preprocessing
+    if ('intelligenceScore' in modelAny && typeof modelAny.intelligenceScore === 'number') {
+      score = modelAny.intelligenceScore
+      console.log(`Model ${model.name}: Method 1 - intelligenceScore = ${score}`)
+    }
+    // Method 2: From metadata.aa
+    else if (modelAny.metadata?.aa?.intelligenceScore) {
+      score = Number(modelAny.metadata.aa.intelligenceScore) || 0
+      console.log(`Model ${model.name}: Method 2 - metadata.aa.intelligenceScore = ${score}`)
+    }
+    // Method 3: Parse string metadata
+    else if (typeof modelAny.metadata === 'string') {
+      try {
+        const parsed = JSON.parse(modelAny.metadata)
+        if (parsed.aa?.intelligenceScore) {
+          score = Number(parsed.aa.intelligenceScore) || 0
+          console.log(`Model ${model.name}: Method 3 - parsed metadata = ${score}`)
+        }
+      } catch (e) {
+        console.warn(`Failed to parse metadata for ${model.name}:`, e)
+      }
+    }
+    // Method 4: Standard calculation from benchmarks
+    else {
+      score = calculateIntelligenceScore(model.benchmarkScores || [], model.metadata || model)
+      console.log(`Model ${model.name}: Method 4 - calculated score = ${score}`)
     }
     
-    // Otherwise use the standard calculation
-    const score = calculateIntelligenceScore(model.benchmarkScores || [], model.metadata || model)
-    console.log(`Model ${model.name}: using calculated score = ${score}`)
-    return score
+    return Math.max(0, score) // Ensure non-negative
   }
   
   const result = rankModels(models, extractor, { limit, ascending: false })
-  console.log(`getTopIntelligenceModels result: ${result.length} models`)
+  console.log(`getTopIntelligenceModels result: ${result.length} models with scores`)
   return result
 }
 
@@ -267,26 +288,71 @@ export function getTopSpeedModels(models: Model[], limit = 12): ModelHighlight[]
  * Get top models for price metric (cheapest first)
  */
 export function getTopPriceModels(models: Model[], limit = 12): ModelHighlight[] {
+  console.log(`getTopPriceModels called with ${models.length} models`)
+  
   const extractor = (model: Model) => {
     // Cast to any to check for preprocessed fields
     const modelAny = model as any
     
-    // First check if aaPrice exists at model level (from API preprocessing)
-    if (modelAny.aaPrice !== undefined && modelAny.aaPrice !== null) {
-      const aaPrice = modelAny.aaPrice
+    // Try multiple ways to get price data
+    let price = 0
+    
+    // Method 1: Direct field access from API preprocessing
+    if ('aaPrice' in modelAny && typeof modelAny.aaPrice === 'number') {
+      price = modelAny.aaPrice
+      console.log(`Model ${model.name}: Method 1 - aaPrice = ${price}`)
+    }
+    // Method 2: Handle aaPrice as object (input/output)
+    else if (modelAny.aaPrice && typeof modelAny.aaPrice === 'object') {
+      const input = Number(modelAny.aaPrice.input) || 0
+      const output = Number(modelAny.aaPrice.output) || 0
+      price = (input + output) / 2
+      console.log(`Model ${model.name}: Method 2 - aaPrice object = ${price}`)
+    }
+    // Method 3: From metadata.aa.price
+    else if (modelAny.metadata?.aa?.price) {
+      const aaPrice = modelAny.metadata.aa.price
       if (typeof aaPrice === 'object' && (aaPrice.input || aaPrice.output)) {
         const input = Number(aaPrice.input) || 0
         const output = Number(aaPrice.output) || 0
-        return (input + output) / 2
+        price = (input + output) / 2
+        console.log(`Model ${model.name}: Method 3 - metadata.aa.price object = ${price}`)
+      } else {
+        price = Number(aaPrice) || 0
+        console.log(`Model ${model.name}: Method 3 - metadata.aa.price number = ${price}`)
       }
-      return Number(aaPrice)
+    }
+    // Method 4: Parse string metadata
+    else if (typeof modelAny.metadata === 'string') {
+      try {
+        const parsed = JSON.parse(modelAny.metadata)
+        if (parsed.aa?.price) {
+          const aaPrice = parsed.aa.price
+          if (typeof aaPrice === 'object' && (aaPrice.input || aaPrice.output)) {
+            const input = Number(aaPrice.input) || 0
+            const output = Number(aaPrice.output) || 0
+            price = (input + output) / 2
+          } else {
+            price = Number(aaPrice) || 0
+          }
+          console.log(`Model ${model.name}: Method 4 - parsed metadata = ${price}`)
+        }
+      } catch (e) {
+        console.warn(`Failed to parse metadata for ${model.name}:`, e)
+      }
+    }
+    // Method 5: Standard extraction from pricing table
+    else {
+      price = extractPriceMetric(model.pricing || [], model.metadata || model)
+      console.log(`Model ${model.name}: Method 5 - extracted price = ${price}`)
     }
     
-    // Otherwise use the standard extraction
-    return extractPriceMetric(model.pricing || [], model.metadata || model)
+    return Math.max(0, price) // Ensure non-negative
   }
   
-  return rankModels(models, extractor, { limit, ascending: true })
+  const result = rankModels(models, extractor, { limit, ascending: true })
+  console.log(`getTopPriceModels result: ${result.length} models with prices`)
+  return result
 }
 
 /**

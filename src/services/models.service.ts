@@ -8,6 +8,7 @@ export interface ModelFilters {
   offset?: number
   modalities?: string[]
   capabilities?: string[]
+  aaOnly?: boolean  // Filter for only AA (Artificial Analysis) models
 }
 
 export interface ModelStatusData {
@@ -286,11 +287,33 @@ export class ModelService {
         updatedAt: model.updatedAt,
       }))
 
+      // Apply AA filtering if requested
+      let finalModels = formattedModels
+      if (filters?.aaOnly) {
+        finalModels = formattedModels.filter(model => {
+          // Check if model has AA data in metadata
+          if (typeof model.metadata === 'object' && model.metadata?.aa) {
+            return true
+          }
+          // Also check for string metadata that contains AA data
+          if (typeof model.metadata === 'string') {
+            try {
+              const parsed = JSON.parse(model.metadata)
+              return parsed && parsed.aa
+            } catch (e) {
+              return false
+            }
+          }
+          return false
+        })
+        console.log(`📊 AA filtering: ${finalModels.length} AA models from ${formattedModels.length} total models`)
+      }
+
       // Cache results for 5 minutes
-      await cache.set(cacheKey, formattedModels, 300)
-      console.log(`📊 Fetched ${formattedModels.length} models from database`)
+      await cache.set(cacheKey, finalModels, 300)
+      console.log(`📊 Fetched ${finalModels.length} models from database (AA filter: ${filters?.aaOnly || false})`)
       
-      return formattedModels
+      return finalModels
     } catch (error) {
       console.error('❌ Error fetching models:', error)
       throw new Error('Failed to fetch models')
