@@ -219,8 +219,14 @@ function formatMetricValue(value: number, metricType?: string): string {
  * Get top models for intelligence metric
  */
 export function getTopIntelligenceModels(models: Model[], limit = 12): ModelHighlight[] {
-  const extractor = (model: Model) => 
-    calculateIntelligenceScore(model.benchmarkScores || [], model.metadata || model)
+  const extractor = (model: Model) => {
+    // First check if intelligenceScore exists at model level (from API preprocessing)
+    if ('intelligenceScore' in model && model.intelligenceScore) {
+      return Number(model.intelligenceScore)
+    }
+    // Otherwise use the standard calculation
+    return calculateIntelligenceScore(model.benchmarkScores || [], model.metadata || model)
+  }
   
   return rankModels(models, extractor, { limit, ascending: false })
 }
@@ -229,7 +235,14 @@ export function getTopIntelligenceModels(models: Model[], limit = 12): ModelHigh
  * Get top models for speed metric
  */
 export function getTopSpeedModels(models: Model[], limit = 12): ModelHighlight[] {
-  const extractor = (model: Model) => calculateSpeedMetric(model)
+  const extractor = (model: Model) => {
+    // First check if outputSpeed exists at model level (from API preprocessing)
+    if ('outputSpeed' in model && model.outputSpeed) {
+      return Number(model.outputSpeed)
+    }
+    // Otherwise use the standard calculation
+    return calculateSpeedMetric(model)
+  }
   
   return rankModels(models, extractor, { limit, ascending: false })
 }
@@ -238,7 +251,20 @@ export function getTopSpeedModels(models: Model[], limit = 12): ModelHighlight[]
  * Get top models for price metric (cheapest first)
  */
 export function getTopPriceModels(models: Model[], limit = 12): ModelHighlight[] {
-  const extractor = (model: Model) => extractPriceMetric(model.pricing || [], model.metadata || model)
+  const extractor = (model: Model) => {
+    // First check if aaPrice exists at model level (from API preprocessing)
+    if ('aaPrice' in model && model.aaPrice) {
+      const aaPrice = model.aaPrice
+      if (typeof aaPrice === 'object' && (aaPrice.input || aaPrice.output)) {
+        const input = Number(aaPrice.input) || 0
+        const output = Number(aaPrice.output) || 0
+        return (input + output) / 2
+      }
+      return Number(aaPrice)
+    }
+    // Otherwise use the standard extraction
+    return extractPriceMetric(model.pricing || [], model.metadata || model)
+  }
   
   return rankModels(models, extractor, { limit, ascending: true })
 }
