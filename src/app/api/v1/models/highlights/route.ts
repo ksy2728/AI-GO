@@ -64,15 +64,18 @@ export async function GET() {
       }
     }
 
-    // Debug: Check a sample model
+    // Debug: Check a sample model and preprocessing
     if (models.length > 0) {
-      const sampleModel = models[0]
+      const sampleModel = models[0] as any
       console.log('Sample model for highlights:', {
         name: sampleModel.name,
         hasMetadata: !!sampleModel.metadata,
         metadataType: typeof sampleModel.metadata,
         hasAA: !!sampleModel.metadata?.aa,
         aaIntelligence: sampleModel.metadata?.aa?.intelligenceScore,
+        topLevelIntelligence: sampleModel.intelligenceScore,
+        topLevelSpeed: sampleModel.outputSpeed,
+        topLevelPrice: sampleModel.aaPrice,
         hasBenchmarks: Array.isArray(sampleModel.benchmarkScores),
         benchmarkCount: sampleModel.benchmarkScores?.length || 0
       })

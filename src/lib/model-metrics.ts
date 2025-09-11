@@ -219,20 +219,28 @@ function formatMetricValue(value: number, metricType?: string): string {
  * Get top models for intelligence metric
  */
 export function getTopIntelligenceModels(models: Model[], limit = 12): ModelHighlight[] {
+  console.log(`getTopIntelligenceModels called with ${models.length} models`)
+  
   const extractor = (model: Model) => {
     // Cast to any to check for preprocessed fields
     const modelAny = model as any
     
     // First check if intelligenceScore exists at model level (from API preprocessing)
     if (modelAny.intelligenceScore !== undefined && modelAny.intelligenceScore !== null) {
-      return Number(modelAny.intelligenceScore)
+      const score = Number(modelAny.intelligenceScore)
+      console.log(`Model ${model.name}: using top-level intelligenceScore = ${score}`)
+      return score
     }
     
     // Otherwise use the standard calculation
-    return calculateIntelligenceScore(model.benchmarkScores || [], model.metadata || model)
+    const score = calculateIntelligenceScore(model.benchmarkScores || [], model.metadata || model)
+    console.log(`Model ${model.name}: using calculated score = ${score}`)
+    return score
   }
   
-  return rankModels(models, extractor, { limit, ascending: false })
+  const result = rankModels(models, extractor, { limit, ascending: false })
+  console.log(`getTopIntelligenceModels result: ${result.length} models`)
+  return result
 }
 
 /**
