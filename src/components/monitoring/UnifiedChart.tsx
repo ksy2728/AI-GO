@@ -40,8 +40,8 @@ export function UnifiedChart() {
       // Use absolute URL to avoid CORS issues
       const baseUrl = typeof window !== 'undefined' ? window.location.origin : ''
       const url = includeHistory 
-        ? `${baseUrl}/api/v1/realtime-stats` 
-        : `${baseUrl}/api/v1/realtime-stats?includeHistory=false`
+        ? `${baseUrl}/api/v1/realtime-stats?useAAData=true` 
+        : `${baseUrl}/api/v1/realtime-stats?includeHistory=false&useAAData=true`
       const response = await fetch(url)
       
       if (response.ok) {

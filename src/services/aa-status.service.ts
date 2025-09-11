@@ -34,17 +34,8 @@ export class AAStatusService {
     try {
       // Get only models with AA metadata
       const aaModels = await prisma.model.findMany({
-        where: {
-          NOT: {
-            metadata: Prisma.DbNull
-          }
-        },
-        select: {
-          id: true,
-          name: true,
+        include: {
           provider: true,
-          isActive: true,
-          metadata: true,
           status: {
             take: 1,
             orderBy: { checkedAt: 'desc' }
@@ -69,7 +60,7 @@ export class AAStatusService {
       // Get unique providers from AA data
       const aaProviders = new Set(modelsWithAA.map(m => {
         const metadata = m.metadata as any
-        return metadata?.aa?.provider || m.provider
+        return metadata?.aa?.provider || m.provider?.name || 'unknown'
       })).size
 
       // Calculate category distribution
@@ -152,14 +143,8 @@ export class AAStatusService {
         }
       })
 
-      // Get last AA sync time
+      // Get last AA sync time - find any model with AA metadata
       const lastAASync = await prisma.model.findFirst({
-        where: {
-          metadata: {
-            path: ['aa', 'lastUpdated'],
-            not: Prisma.DbNull
-          }
-        },
         select: {
           updatedAt: true
         },

@@ -81,8 +81,8 @@ export async function GET(request: NextRequest) {
     const { searchParams } = new URL(request.url)
     const includeHistory = searchParams.get('includeHistory') !== 'false'
     
-    // Check if we should use AA data (default: false to avoid errors)
-    const useAAData = searchParams.get('useAAData') === 'true'
+    // Check if we should use AA data (default: true for AA model monitoring)
+    const useAAData = searchParams.get('useAAData') !== 'false'
     
     let stats: any = {
       totalModels: 0,

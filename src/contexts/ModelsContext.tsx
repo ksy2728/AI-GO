@@ -41,24 +41,33 @@ export function ModelsProvider({ children }: { children: React.ReactNode }) {
   // Fetch global stats
   const refreshStats = useCallback(async () => {
     try {
+      // Filter only AA models if they have AA metadata
+      const aaModels = models.filter(m => {
+        const metadata = m.metadata as any
+        return metadata && metadata.aa
+      })
+      
+      // Use AA models if available, otherwise use all models
+      const modelsToUse = aaModels.length > 0 ? aaModels : models
+      
       // Calculate comprehensive stats from loaded models
-      const operationalModels = models.filter(m => {
+      const operationalModels = modelsToUse.filter(m => {
         const status = Array.isArray(m.status) ? m.status[0]?.status : m.status
         return status === 'operational'
       })
       
-      const degradedModels = models.filter(m => {
+      const degradedModels = modelsToUse.filter(m => {
         const status = Array.isArray(m.status) ? m.status[0]?.status : m.status
         return status === 'degraded'
       })
       
-      const outageModels = models.filter(m => {
+      const outageModels = modelsToUse.filter(m => {
         const status = Array.isArray(m.status) ? m.status[0]?.status : m.status
         return status === 'outage'
       })
       
       // Calculate average availability based on actual model statuses
-      const totalAvailability = models.reduce((sum, model) => {
+      const totalAvailability = modelsToUse.reduce((sum, model) => {
         const status = Array.isArray(model.status) ? model.status[0]?.status : model.status
         if (status === 'operational') return sum + 100
         if (status === 'degraded') return sum + 75
@@ -66,10 +75,10 @@ export function ModelsProvider({ children }: { children: React.ReactNode }) {
         return sum + 95 // unknown status
       }, 0)
       
-      const avgAvailability = models.length > 0 ? totalAvailability / models.length : 0
+      const avgAvailability = modelsToUse.length > 0 ? totalAvailability / modelsToUse.length : 0
       
       const stats: GlobalStats = {
-        totalModels: models.length,
+        totalModels: modelsToUse.length,
         activeModels: operationalModels.length,
         operationalModels: operationalModels.length,
         degradedModels: degradedModels.length,
@@ -86,7 +95,7 @@ export function ModelsProvider({ children }: { children: React.ReactNode }) {
       }
 
       // Calculate by provider
-      models.forEach(model => {
+      modelsToUse.forEach(model => {
         const provider = model.provider?.id || model.providerId || 'unknown'
         const status = Array.isArray(model.status) ? model.status[0]?.status : model.status
         

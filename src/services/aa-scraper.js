@@ -83,11 +83,14 @@ class ArtificialAnalysisScraper {
     const models = await page.evaluate(() => {
       const extractedModels = [];
       
-      // Try multiple selector strategies
+      // Try multiple selector strategies for AA website structure
       const modelRows = document.querySelectorAll(
-        'tr[data-model], ' +
+        'div[data-testid="model-row"], ' +
+        'tr.model-entry, ' +
+        'div.leaderboard-row, ' +
         '.model-row, ' +
         '[role="row"], ' +
+        'table.leaderboard tbody tr, ' +
         'table tbody tr'
       );
 
