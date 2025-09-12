@@ -1,6 +1,26 @@
 {
   "articles": [
     {
+      "id": "how-do-ai-models-generate-videos",
+      "title": "How do AI models generate videos?",
+      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next.  You can read more from the series here.",
+      "content": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. It’s been a big year for video generation. In the last nine months OpenAI made Sora public, Google DeepMind launched Veo ",
+      "source": "MIT Technology Review AI",
+      "author": "Will Douglas Heaven",
+      "publishedAt": "2025-09-12T10:01:44.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "ai model",
+        "OpenAI",
+        "Google"
+      ],
+      "url": "https://www.technologyreview.com/2025/09/12/1123562/how-do-ai-models-generate-videos/",
+      "readTime": 3,
+      "views": 28325
+    },
+    {
       "id": "a-california-bill-that-would-regulate-ai-companion",
       "title": "A California bill that would regulate AI companion chatbots is close to becoming law",
       "summary": "If SB 243 is enacted, California would become the first state to require operators to implement safety protocols for AI companions and hold companies legally accountable if their chatbots fail to meet.",
@@ -14,7 +34,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/11/a-california-bill-that-would-regulate-ai-companion-chatbots-is-close-to-becoming-law/",
       "readTime": 3,
-      "views": 51871
+      "views": 35255
     },
     {
       "id": "openai-secures-microsoft-8217-s-blessing-to-transi",
@@ -33,7 +53,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/11/openai-secures-microsofts-blessing-to-transition-its-for-profit-arm/",
       "readTime": 3,
-      "views": 38938
+      "views": 33240
     },
     {
       "id": "ftc-launches-inquiry-into-ai-chatbot-companions-fr",
@@ -52,7 +72,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/11/ftc-launches-inquiry-into-ai-chatbot-companions-from-meta-openai-and-others/",
       "readTime": 3,
-      "views": 52886
+      "views": 41795
     },
     {
       "id": "vmware-nods-to-ai-but-looks-to-long-term",
@@ -69,7 +89,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/broadcom-nods-at-ai-looks-to-long-term/",
       "readTime": 3,
-      "views": 15804
+      "views": 14298
     },
     {
       "id": "humanoids-avs-and-what-s-next-in-ai-hardware-with-",
@@ -85,7 +105,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/11/humanoids-avs-and-whats-next-in-ai-hardware-at-techcrunch-disrupt-2025/",
       "readTime": 3,
-      "views": 28447
+      "views": 14049
     },
     {
       "id": "box-ceo-aaron-levie-on-ai-s-8216-era-of-context-82",
@@ -101,7 +121,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/11/box-ceo-aaron-levie-on-ais-era-of-context/",
       "readTime": 3,
-      "views": 8584
+      "views": 25730
     },
     {
       "id": "yext-scout-guides-brands-through-ai-search-challen",
@@ -117,7 +137,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/yext-scout-guides-brands-through-ai-search-challenges/",
       "readTime": 3,
-      "views": 26195
+      "views": 26130
     },
     {
       "id": "partnering-with-generative-ai-in-the-finance-funct",
@@ -134,7 +154,7 @@
       ],
       "url": "https://www.technologyreview.com/2025/09/11/1123508/partnering-with-generative-ai-in-the-finance-function/",
       "readTime": 3,
-      "views": 39617
+      "views": 37161
     },
     {
       "id": "apple-8217-s-new-live-translation-feature-for-airp",
@@ -151,7 +171,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/11/apples-new-live-translation-feature-for-airpods-wont-be-available-in-the-eu-at-launch/",
       "readTime": 3,
-      "views": 23047
+      "views": 9356
     },
     {
       "id": "perplexity-reportedly-raised-200m-at-20b-valuation",
@@ -167,7 +187,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/10/perplexity-reportedly-raised-200m-at-20b-valuation/",
       "readTime": 3,
-      "views": 5778
+      "views": 12064
     },
     {
       "id": "thinking-machines-lab-wants-to-make-ai-models-more",
@@ -184,7 +204,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/10/thinking-machines-lab-wants-to-make-ai-models-more-consistent/",
       "readTime": 3,
-      "views": 9671
+      "views": 33457
     },
     {
       "id": "openai-and-oracle-reportedly-ink-historic-cloud-co",
@@ -202,7 +222,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/10/openai-and-oracle-reportedly-ink-historic-cloud-computing-deal/",
       "readTime": 3,
-      "views": 33855
+      "views": 44386
     },
     {
       "id": "anthropic-reports-outages-claude-and-console-impac",
@@ -220,7 +240,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/10/anthropic-reports-outages-claude-and-console-impacted/",
       "readTime": 3,
-      "views": 53460
+      "views": 28519
     },
     {
       "id": "exploring-the-future-of-voice-ai-with-mati-stanisz",
@@ -236,7 +256,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/10/exploring-the-future-of-voice-ai-with-mati-staniszewski-at-techcrunch-disrupt-2025/",
       "readTime": 3,
-      "views": 5303
+      "views": 27028
     },
     {
       "id": "after-selling-to-spotify-anchor-8217-s-co-founders",
@@ -252,7 +272,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/10/after-selling-to-spotify-anchors-co-founders-are-back-with-oboe-an-ai-powered-app-for-learning/",
       "readTime": 3,
-      "views": 43249
+      "views": 16881
     },
     {
       "id": "rss-co-creator-launches-new-protocol-for-ai-data-l",
@@ -268,7 +288,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/10/rss-co-creator-launches-new-protocol-for-ai-data-licensing/",
       "readTime": 3,
-      "views": 12576
+      "views": 16029
     },
     {
       "id": "ai-gaming-startup-born-raises-15m-to-build-8216-so",
@@ -284,7 +304,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/10/born-maker-of-virtual-pet-pengu-raises-15m-to-launch-a-new-wave-of-social-ai-companions/",
       "readTime": 3,
-      "views": 26659
+      "views": 18453
     },
     {
       "id": "ex-google-x-trio-wants-their-ai-to-be-your-second-",
@@ -301,7 +321,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/10/ex-google-x-trio-wants-their-ai-to-be-your-second-brain-and-they-just-raised-6m-to-make-it-happen/",
       "readTime": 3,
-      "views": 40008
+      "views": 6183
     },
     {
       "id": "google-8217-s-former-security-leads-raise-13m-to-f",
@@ -318,41 +338,21 @@
       ],
       "url": "https://techcrunch.com/2025/09/10/googles-former-security-leads-raise-13m-to-fight-email-threats-before-they-reach-you/",
       "readTime": 3,
-      "views": 53450
-    },
-    {
-      "id": "sources-ai-training-startup-mercor-eyes-10b-valuat",
-      "title": "Sources: AI training startup Mercor eyes $10B+ valuation on $450M run rate",
-      "summary": "Mercor, a startup that connects companies like OpenAI and Meta with domain experts needed to train and refine their foundational AI models, is in discussions with investors for a Series C round.",
-      "content": "Mercor, a startup that connects companies like OpenAI and Meta with domain experts needed to train and refine their foundational AI models, is in discussions with investors for a Series C round.",
-      "source": "TechCrunch AI",
-      "author": "Marina Temkin",
-      "publishedAt": "2025-09-10T01:36:51.000Z",
-      "category": "funding",
-      "tags": [
-        "ai",
-        "openai",
-        "ai model",
-        "OpenAI",
-        "Meta"
-      ],
-      "url": "https://techcrunch.com/2025/09/09/sources-ai-training-startup-mercor-eyes-10b-valuation-on-450m-run-rate/",
-      "readTime": 3,
-      "views": 49775
+      "views": 36194
     }
   ],
-  "lastUpdated": "2025-09-12T06:26:55.002Z",
+  "lastUpdated": "2025-09-12T12:35:12.993Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
+    "MIT Technology Review AI",
     "TechCrunch AI",
-    "AI News",
-    "MIT Technology Review AI"
+    "AI News"
   ],
   "categories": [
+    "release",
     "regulation",
     "partnership",
-    "release",
     "research",
     "funding"
   ]
