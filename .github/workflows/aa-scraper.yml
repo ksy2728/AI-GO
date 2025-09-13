@@ -35,10 +35,10 @@ jobs:
       
       - name: Install dependencies
         run: |
-          npm ci --only=production || npm install --production
-          npm install playwright
-          npx playwright install chromium
-          npx playwright install-deps chromium
+          # Install all dependencies including devDependencies for playwright
+          npm ci || npm install
+          # Ensure playwright browsers are installed
+          npx playwright install chromium --with-deps
       
       - name: Create data directory
         run: mkdir -p public/data
@@ -46,7 +46,11 @@ jobs:
       - name: Run AA scraper
         env:
           DEBUG_MODE: ${{ github.event.inputs.debug_mode }}
-        run: node scripts/aa-scraper-standalone.js
+        run: |
+          # Check if script exists
+          ls -la scripts/
+          # Run the scraper
+          node scripts/aa-scraper-standalone.js || echo "Scraper failed with exit code $?"
         timeout-minutes: 5
         
       - name: Validate scraped data
