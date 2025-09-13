@@ -319,16 +319,30 @@ class AAScraperStandalone {
     
     // Ensure unique slugs by adding numbers to duplicates
     const slugCounts = {};
-    return processedModels.map(model => {
+    const uniqueModels = [];
+    
+    processedModels.forEach(model => {
       let originalSlug = model.slug;
+      let finalSlug = originalSlug;
+      
       if (slugCounts[originalSlug]) {
         slugCounts[originalSlug]++;
-        model.slug = `${originalSlug}-${slugCounts[originalSlug]}`;
+        finalSlug = `${originalSlug}${slugCounts[originalSlug]}`;
       } else {
         slugCounts[originalSlug] = 1;
       }
-      return model;
+      
+      // Ensure the final slug is also unique
+      while (slugCounts[finalSlug] && slugCounts[finalSlug] > 1) {
+        slugCounts[originalSlug]++;
+        finalSlug = `${originalSlug}${slugCounts[originalSlug]}`;
+      }
+      
+      model.slug = finalSlug;
+      uniqueModels.push(model);
     });
+    
+    return uniqueModels;
   }
 
   categorizeModel(model) {

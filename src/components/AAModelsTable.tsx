@@ -91,7 +91,7 @@ export function AAModelsTable() {
           </thead>
           <tbody className="divide-y">
             {data.models.map((model) => (
-              <AAModelRow key={model.slug} model={model} />
+              <AAModelRow key={`${model.slug}-${model.rank}`} model={model} />
             ))}
           </tbody>
         </table>
