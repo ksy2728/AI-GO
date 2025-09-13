@@ -208,7 +208,8 @@
       "Bash(pip --version)",
       "Bash(pipx:*)",
       "Read(//c/Users/user/**)",
-      "Bash(claude --debug)"
+      "Bash(claude --debug)",
+      "Bash(git restore:*)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
