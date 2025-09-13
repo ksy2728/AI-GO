@@ -306,7 +306,7 @@ class AAScraperStandalone {
   }
 
   processModels(models) {
-    return models.map(model => ({
+    const processedModels = models.map(model => ({
       ...model,
       category: this.categorizeModel(model),
       trend: 'stable',
@@ -316,6 +316,19 @@ class AAScraperStandalone {
         scrapingMethod: models.length > 8 ? 'live' : 'fallback'
       }
     }));
+    
+    // Ensure unique slugs by adding numbers to duplicates
+    const slugCounts = {};
+    return processedModels.map(model => {
+      let originalSlug = model.slug;
+      if (slugCounts[originalSlug]) {
+        slugCounts[originalSlug]++;
+        model.slug = `${originalSlug}-${slugCounts[originalSlug]}`;
+      } else {
+        slugCounts[originalSlug] = 1;
+      }
+      return model;
+    });
   }
 
   categorizeModel(model) {

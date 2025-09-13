@@ -80,7 +80,7 @@ async function validateData() {
       {
         name: 'Categories are valid',
         test: () => data.models.every(model => 
-          ['flagship', 'performance', 'cost-effective', 'open-source', 'specialized']
+          ['flagship', 'performance', 'cost-effective', 'costEffective', 'open-source', 'openSource', 'specialized']
             .includes(model.category)
         ),
         critical: false
