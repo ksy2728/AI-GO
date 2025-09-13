@@ -163,4 +163,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - Next.js team for the amazing framework
 - shadcn for the beautiful UI components
-- All contributors and supporters of the project
+- All contributors and supporters of the project# Trigger rebuild
