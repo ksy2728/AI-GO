@@ -32,17 +32,37 @@ interface StaticAAData {
 }
 
 export class HybridModelService {
+  private static cachedData: StaticAAData | null = null
+  private static dataLoaded = false
+
   /**
-   * Get static AA data using static import (Vercel-compatible)
+   * Get static AA data - fetch from public URL in production
    */
-  private static getStaticAAData(): StaticAAData | null {
+  private static async getStaticAAData(): Promise<StaticAAData | null> {
     try {
-      // Use the statically imported data
-      const data = aaModelsData as any
+      // Return cached data if already loaded
+      if (this.dataLoaded && this.cachedData) {
+        return this.cachedData
+      }
+
+      let data: any
+
+      // In production, fetch from public URL
+      if (process.env.NODE_ENV === 'production' || process.env.VERCEL) {
+        console.log('📡 Fetching AA data from public URL...')
+        const response = await fetch('https://ai-server-information.vercel.app/data/aa-models.json')
+        if (!response.ok) {
+          throw new Error(`Failed to fetch AA data: ${response.status}`)
+        }
+        data = await response.json()
+      } else {
+        // In development, use the imported data
+        data = aaModelsData as any
+      }
 
       console.log(`📊 Loaded ${data.models?.length || 0} models from static AA data`)
 
-      return {
+      this.cachedData = {
         models: data.models || [],
         metadata: {
           totalModels: data.models?.length || 0,
@@ -50,6 +70,9 @@ export class HybridModelService {
           source: 'static-json'
         }
       }
+      this.dataLoaded = true
+
+      return this.cachedData
     } catch (error) {
       console.error('❌ Error loading static AA data:', error)
       return null
@@ -146,7 +169,7 @@ export class HybridModelService {
     if (filters?.aaOnly) {
       console.log('🎯 AA-only request detected, using static data first')
 
-      const staticData = this.getStaticAAData()
+      const staticData = await this.getStaticAAData()
       if (staticData && staticData.models.length > 0) {
         console.log(`✅ Using static AA data: ${staticData.models.length} models`)
 
@@ -180,7 +203,7 @@ export class HybridModelService {
       // If AA-only but no AA models found in DB, try static fallback
       if (filters?.aaOnly && (!dbModels || dbModels.length === 0)) {
         console.log('⚠️ No AA models in database, trying static fallback')
-        const staticData = this.getStaticAAData()
+        const staticData = await this.getStaticAAData()
         if (staticData && staticData.models.length > 0) {
           const aaModels = staticData.models.map(model => this.convertAAModelToStandard(model))
           console.log(`✅ Fallback: Using static AA data: ${aaModels.length} models`)
@@ -195,7 +218,7 @@ export class HybridModelService {
 
       // Fallback to static data for any request type
       console.log('🔄 Falling back to static data...')
-      const staticData = this.getStaticAAData()
+      const staticData = await this.getStaticAAData()
       if (staticData && staticData.models.length > 0) {
         let aaModels = staticData.models.map(model => this.convertAAModelToStandard(model))
 
@@ -241,7 +264,7 @@ export class HybridModelService {
 
     // Fallback to static data
     console.log('🔄 Checking static AA data for model...')
-    const staticData = this.getStaticAAData()
+    const staticData = await this.getStaticAAData()
     if (staticData) {
       const aaModel = staticData.models.find(model => model.slug === slug)
       if (aaModel) {
@@ -264,7 +287,7 @@ export class HybridModelService {
       console.error('❌ Database providers summary failed:', error)
 
       // Fallback to static data analysis
-      const staticData = this.getStaticAAData()
+      const staticData = await this.getStaticAAData()
       if (staticData) {
         const providerCounts = staticData.models.reduce((acc, model) => {
           const provider = model.provider
@@ -299,7 +322,7 @@ export class HybridModelService {
       console.error('❌ Database search failed:', error)
 
       // Fallback to static data search
-      const staticData = this.getStaticAAData()
+      const staticData = await this.getStaticAAData()
       if (staticData) {
         const queryLower = query.toLowerCase()
         const matchingModels = staticData.models.filter(model =>
