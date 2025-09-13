@@ -195,7 +195,7 @@ export class AASyncScheduler {
             providerId: provider.id,
             contextWindow: model.contextWindow,
             isActive: true,
-            metadata: {
+            metadata: JSON.stringify({
               aa: {
                 intelligenceScore: model.intelligenceScore,
                 outputSpeed: model.outputSpeed,
@@ -206,7 +206,7 @@ export class AASyncScheduler {
                 trend: model.trend,
                 lastUpdated: model.lastUpdated
               }
-            },
+            }),
             updatedAt: new Date()
           },
           create: {
