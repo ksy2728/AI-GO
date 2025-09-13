@@ -212,6 +212,7 @@ export class ModelService {
         trainingCutoff: model.trainingCutoff,
         apiVersion: model.apiVersion,
         isActive: model.isActive,
+        metadata: model.metadata,
         status: model.status.map(s => ({
           id: s.id,
           modelId: s.modelId,
@@ -291,11 +292,7 @@ export class ModelService {
       let finalModels = formattedModels
       if (filters?.aaOnly) {
         finalModels = formattedModels.filter(model => {
-          // Check if model has AA data in metadata
-          if (typeof model.metadata === 'object' && model.metadata?.aa) {
-            return true
-          }
-          // Also check for string metadata that contains AA data
+          // metadata is always string in Prisma schema, so parse it
           if (typeof model.metadata === 'string') {
             try {
               const parsed = JSON.parse(model.metadata)

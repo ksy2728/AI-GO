@@ -217,7 +217,7 @@ export class AASyncScheduler {
             contextWindow: model.contextWindow,
             maxOutputTokens: Math.floor(model.contextWindow / 4),
             isActive: true,
-            metadata: {
+            metadata: JSON.stringify({
               aa: {
                 intelligenceScore: model.intelligenceScore,
                 outputSpeed: model.outputSpeed,
@@ -228,39 +228,31 @@ export class AASyncScheduler {
                 trend: model.trend,
                 lastUpdated: model.lastUpdated
               }
-            }
+            })
           }
         });
 
         // Create or update model status
         await prisma.modelStatus.upsert({
           where: {
-            modelId_checkedAt: {
+            modelId_region: {
               modelId: dbModel.id,
-              checkedAt: new Date()
+              region: "global"
             }
           },
           update: {
             status: model.intelligenceScore > 70 ? 'operational' : 'degraded',
             availability: model.intelligenceScore > 70 ? 99.5 : 95.0,
-            avgLatency: model.latency * 1000, // Convert to ms
-            errorRate: model.intelligenceScore > 70 ? 0.1 : 1.0,
-            metadata: {
-              aaSync: true,
-              syncedAt: new Date()
-            }
+            latencyP50: Math.floor(model.latency * 1000), // Convert to ms
+            errorRate: model.intelligenceScore > 70 ? 0.1 : 1.0
           },
           create: {
             modelId: dbModel.id,
+            region: "global",
             status: model.intelligenceScore > 70 ? 'operational' : 'degraded',
             availability: model.intelligenceScore > 70 ? 99.5 : 95.0,
-            avgLatency: model.latency * 1000,
-            errorRate: model.intelligenceScore > 70 ? 0.1 : 1.0,
-            checkedAt: new Date(),
-            metadata: {
-              aaSync: true,
-              syncedAt: new Date()
-            }
+            latencyP50: Math.floor(model.latency * 1000),
+            errorRate: model.intelligenceScore > 70 ? 0.1 : 1.0
           }
         });
 

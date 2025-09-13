@@ -38,7 +38,7 @@
     "test:e2e:debug": "playwright test --debug"
   },
   "prisma": {
-    "seed": "ts-node prisma/seed.ts"
+    "seed": "tsx prisma/seed.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.60.0",
@@ -119,6 +119,7 @@
     "prettier-plugin-tailwindcss": "^0.6.10",
     "ts-jest": "^29.4.1",
     "ts-node": "^10.9.2",
+    "tsx": "^4.20.5",
     "typescript": "5.9.2"
   }
 }
