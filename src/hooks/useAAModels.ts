@@ -74,19 +74,65 @@ export function useAAModels() {
         console.warn('Static JSON not available, trying API route:', error);
       }
       
-      // Strategy 2: Fetch from API route (includes fallback)
+      // Strategy 2: Fetch from models API with AA filter (includes hybrid service)
       try {
-        const apiResponse = await fetch('/api/v1/aa-sync', {
+        const apiResponse = await fetch('/api/v1/models?aaOnly=true&limit=500', {
           cache: 'no-store' // Always fetch fresh from API
         });
-        
+
         if (!apiResponse.ok) {
           throw new Error(`API returned ${apiResponse.status}`);
         }
-        
-        const data = await apiResponse.json();
-        console.log(`📊 AA data loaded from API (source: ${data.source})`);
-        return data;
+
+        const apiData = await apiResponse.json();
+        console.log(`📊 AA data loaded from models API (source: ${apiData.dataSource})`);
+
+        // Convert models API response to AA format
+        const convertedModels = apiData.models.map((model: any, index: number) => {
+          // Extract AA metadata if available
+          let aaMetadata = null;
+          if (model.metadata) {
+            try {
+              const metadata = typeof model.metadata === 'string'
+                ? JSON.parse(model.metadata)
+                : model.metadata;
+              aaMetadata = metadata.aa;
+            } catch (e) {
+              console.warn('Failed to parse metadata for model:', model.slug);
+            }
+          }
+
+          return {
+            rank: aaMetadata?.rank || index + 1,
+            name: model.name,
+            provider: model.provider?.name || 'Unknown',
+            slug: model.slug,
+            intelligenceScore: aaMetadata?.intelligenceScore || model.intelligenceScore || 0,
+            outputSpeed: aaMetadata?.outputSpeed || model.outputSpeed || 0,
+            inputPrice: aaMetadata?.inputPrice || (model.pricing?.[0]?.inputPerMillion / 1000) || 0,
+            outputPrice: aaMetadata?.outputPrice || (model.pricing?.[0]?.outputPerMillion / 1000) || 0,
+            contextWindow: model.contextWindow || 0,
+            category: aaMetadata?.category || 'performance',
+            trend: aaMetadata?.trend || 'stable',
+            lastUpdated: aaMetadata?.lastUpdated || model.updatedAt || new Date().toISOString(),
+            metadata: {
+              source: aaMetadata ? 'artificial-analysis' : 'database',
+              scrapedAt: aaMetadata?.scrapedAt || new Date().toISOString()
+            }
+          };
+        });
+
+        return {
+          success: true,
+          source: apiData.dataSource === 'aa-static' || apiData.dataSource === 'hybrid' ? 'static-json' : 'fallback',
+          models: convertedModels,
+          metadata: {
+            lastUpdated: apiData.timestamp,
+            source: apiData.dataSource,
+            totalModels: convertedModels.length,
+            scrapingMethod: 'hybrid'
+          }
+        };
         
       } catch (error) {
         console.error('Failed to fetch AA models:', error);

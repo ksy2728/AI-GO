@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server'
 import { ModelService } from '@/services/models.service'
+import { HybridModelService } from '@/services/hybrid-models.service'
 import { TempDataService } from '@/services/temp-data.service'
 import { GitHubDataService } from '@/services/github-data.service'
 
@@ -41,10 +42,16 @@ export async function GET(request: Request) {
     providersWithApiKeys.add('google') // Has free tier
     providersWithApiKeys.add('meta') // Open source models
 
+    // Check for AA models request
+    const aaOnly = searchParams.get('aaOnly') === 'true' ||
+                   searchParams.get('aa') === 'true' ||
+                   searchParams.get('artificial-analysis') === 'true'
+
     // Build filters
     const filters: any = {
       limit,
       offset,
+      aaOnly, // Add AA filter
     }
 
     if (provider) {
@@ -63,76 +70,92 @@ export async function GET(request: Request) {
       filters.capabilities = [capability]
     }
 
-    // Data source priority: Check DATA_SOURCE env var first, then fallback chain
+    // Data source priority with AA static data optimization
     let models: any[] = []
     let dataSource = 'database'
-    
+
     // Check preferred data source from environment
     const preferredDataSource = process.env.DATA_SOURCE || 'database'
-    const isProduction = process.env.NODE_ENV === 'production' || 
-                        process.env.VERCEL === '1' || 
+    const isProduction = process.env.NODE_ENV === 'production' ||
+                        process.env.VERCEL === '1' ||
                         process.env.VERCEL_ENV !== undefined
-    
-    // Try preferred data source first
-    if (preferredDataSource === 'database') {
+
+    // Special handling for AA models or general fallback with AA data
+    if (aaOnly || isProduction) {
+      console.log(`🎯 ${aaOnly ? 'AA-only request' : 'Production environment'} detected, using hybrid service`)
       try {
-        models = (await ModelService.getAll(filters)) as any[]
-        dataSource = 'database'
-        console.log('🐘 Using database source (preferred)')
-      } catch (dbError) {
-        console.warn('⚠️ Database failed, trying GitHub:', dbError instanceof Error ? dbError.message : 'Unknown error')
-        // Fallback to GitHub
-        try {
-          models = await GitHubDataService.getAllModels(filters)
-          dataSource = 'github'
-          console.log('📦 Using GitHub data source (database fallback)')
-        } catch (githubError) {
-          console.warn('⚠️ GitHub failed, using temp data:', githubError instanceof Error ? githubError.message : 'Unknown error')
-          // Final fallback to temp data
-          models = (await TempDataService.getAllModels(filters)) as any[]
-          dataSource = 'temp-data'
-          console.log('📝 Using temporary data source (final fallback)')
-        }
+        models = (await HybridModelService.getAll(filters)) as any[]
+        dataSource = aaOnly ? 'aa-static' : 'hybrid'
+        console.log(`✅ Using hybrid service: ${models.length} models`)
+      } catch (hybridError) {
+        console.warn('⚠️ Hybrid service failed, falling back to standard sources:', hybridError instanceof Error ? hybridError.message : 'Unknown error')
+        // Continue to standard fallback logic
       }
-    } else if (preferredDataSource === 'github') {
-      try {
-        models = await GitHubDataService.getAllModels(filters)
-        dataSource = 'github'
-        console.log('📦 Using GitHub data source (preferred)')
-      } catch (githubError) {
-        console.warn('⚠️ GitHub failed, trying database:', githubError instanceof Error ? githubError.message : 'Unknown error')
+    }
+
+    // Standard fallback logic if hybrid didn't work or wasn't used
+    if (models.length === 0) {
+      // Try preferred data source first
+      if (preferredDataSource === 'database') {
         try {
           models = (await ModelService.getAll(filters)) as any[]
           dataSource = 'database'
-          console.log('🐘 Using database source (github fallback)')
+          console.log('🐘 Using database source (preferred)')
         } catch (dbError) {
-          console.warn('⚠️ Database failed, using temp data:', dbError instanceof Error ? dbError.message : 'Unknown error')
-          models = (await TempDataService.getAllModels(filters)) as any[]
-          dataSource = 'temp-data'
-          console.log('📝 Using temporary data source (final fallback)')
+          console.warn('⚠️ Database failed, trying GitHub:', dbError instanceof Error ? dbError.message : 'Unknown error')
+          // Fallback to GitHub
+          try {
+            models = await GitHubDataService.getAllModels(filters)
+            dataSource = 'github'
+            console.log('📦 Using GitHub data source (database fallback)')
+          } catch (githubError) {
+            console.warn('⚠️ GitHub failed, using temp data:', githubError instanceof Error ? githubError.message : 'Unknown error')
+            // Final fallback to temp data
+            models = (await TempDataService.getAllModels(filters)) as any[]
+            dataSource = 'temp-data'
+            console.log('📝 Using temporary data source (final fallback)')
+          }
         }
-      }
-    } else {
-      // Default: temp-data (original production behavior for stability)
-      try {
-        models = (await TempDataService.getAllModels(filters)) as any[]
-        dataSource = 'temp-data'
-        console.log('📝 Using temporary data source (preferred)')
-      } catch (tempDataError) {
-        console.warn('⚠️ TempData failed, trying GitHub:', tempDataError instanceof Error ? tempDataError.message : 'Unknown error')
+      } else if (preferredDataSource === 'github') {
         try {
           models = await GitHubDataService.getAllModels(filters)
           dataSource = 'github'
-          console.log('📦 Using GitHub data source (temp-data fallback)')
+          console.log('📦 Using GitHub data source (preferred)')
         } catch (githubError) {
           console.warn('⚠️ GitHub failed, trying database:', githubError instanceof Error ? githubError.message : 'Unknown error')
           try {
             models = (await ModelService.getAll(filters)) as any[]
             dataSource = 'database'
-            console.log('🐘 Using database source (final fallback)')
+            console.log('🐘 Using database source (github fallback)')
           } catch (dbError) {
-            console.error('💥 All data sources failed:', dbError instanceof Error ? dbError.message : 'Unknown error')
-            throw new Error('All data sources are unavailable')
+            console.warn('⚠️ Database failed, using temp data:', dbError instanceof Error ? dbError.message : 'Unknown error')
+            models = (await TempDataService.getAllModels(filters)) as any[]
+            dataSource = 'temp-data'
+            console.log('📝 Using temporary data source (final fallback)')
+          }
+        }
+      } else {
+        // Default: temp-data (original production behavior for stability)
+        try {
+          models = (await TempDataService.getAllModels(filters)) as any[]
+          dataSource = 'temp-data'
+          console.log('📝 Using temporary data source (preferred)')
+        } catch (tempDataError) {
+          console.warn('⚠️ TempData failed, trying GitHub:', tempDataError instanceof Error ? tempDataError.message : 'Unknown error')
+          try {
+            models = await GitHubDataService.getAllModels(filters)
+            dataSource = 'github'
+            console.log('📦 Using GitHub data source (temp-data fallback)')
+          } catch (githubError) {
+            console.warn('⚠️ GitHub failed, trying database:', githubError instanceof Error ? githubError.message : 'Unknown error')
+            try {
+              models = (await ModelService.getAll(filters)) as any[]
+              dataSource = 'database'
+              console.log('🐘 Using database source (final fallback)')
+            } catch (dbError) {
+              console.error('💥 All data sources failed:', dbError instanceof Error ? dbError.message : 'Unknown error')
+              throw new Error('All data sources are unavailable')
+            }
           }
         }
       }

@@ -90,9 +90,11 @@ export function AAModelsTable() {
             </tr>
           </thead>
           <tbody className="divide-y">
-            {data.models.map((model) => (
-              <AAModelRow key={`${model.slug}-${model.rank}`} model={model} />
-            ))}
+            {data.models
+              .sort((a, b) => a.rank - b.rank) // Sort by rank ascending
+              .map((model) => (
+                <AAModelRow key={`${model.slug}-${model.rank}`} model={model} />
+              ))}
           </tbody>
         </table>
       </div>

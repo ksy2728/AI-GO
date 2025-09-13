@@ -209,7 +209,9 @@
       "Bash(pipx:*)",
       "Read(//c/Users/user/**)",
       "Bash(claude --debug)",
-      "Bash(git restore:*)"
+      "Bash(git restore:*)",
+      "Bash(sed:*)",
+      "Bash(start http://localhost:7007/models)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"

@@ -57,7 +57,7 @@ async function initializeModelStatus() {
       requestsPerMin: 0,
       tokensPerMin: 0,
       usage: 0,
-      region: null,
+      region: 'global', // Use default region
       checkedAt: new Date()
     }))
     

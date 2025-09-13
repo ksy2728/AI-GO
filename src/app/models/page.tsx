@@ -27,7 +27,7 @@ import {
 
 export default function ModelsPage() {
   const networkStatus = useNetworkStatus()
-  const [showAAModels, setShowAAModels] = useState(false)
+  const [showAAModels, setShowAAModels] = useState(true) // Default to showing AA models
   const {
     filteredModels,
     loading,

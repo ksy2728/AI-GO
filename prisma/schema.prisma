@@ -182,7 +182,7 @@ model ModelStatus {
   requestsPerMin Int      @default(0) @map("requests_per_min")
   tokensPerMin   Int      @default(0) @map("tokens_per_min")
   usage          Float    @default(0)
-  region         String?
+  region         String   @default("global") // Changed from nullable to default "global"
   checkedAt      DateTime @default(now()) @map("checked_at")
   createdAt      DateTime @default(now()) @map("created_at")
   updatedAt      DateTime @updatedAt @map("updated_at")

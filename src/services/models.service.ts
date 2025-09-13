@@ -56,7 +56,7 @@ export class ModelService {
             requestsPerMin: 0,
             tokensPerMin: 0,
             usage: 0,
-            region: null,
+            region: 'global', // Use default region instead of null
             checkedAt: new Date()
           }
         })
@@ -107,7 +107,7 @@ export class ModelService {
         requestsPerMin: 0,
         tokensPerMin: 0,
         usage: 0,
-        region: null,
+        region: 'global', // Use default region instead of null
         checkedAt: new Date()
       }))
       
@@ -458,7 +458,7 @@ export class ModelService {
           requestsPerMin: statusData.requestsPerMin || 0,
           tokensPerMin: statusData.tokensPerMin || 0,
           usage: statusData.usage || 0,
-          region: statusData.region,
+          region: statusData.region || 'global', // Default to 'global' if no region
           checkedAt: new Date(),
         },
       })
