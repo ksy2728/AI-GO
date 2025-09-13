@@ -184,7 +184,6 @@ export class AASyncScheduler {
           create: {
             slug: model.provider.toLowerCase().replace(/[^a-z0-9]+/g, '-'),
             name: model.provider,
-            website: `https://${model.provider.toLowerCase()}.com`,
             apiKeyRequired: true,
             isActive: true
           }
