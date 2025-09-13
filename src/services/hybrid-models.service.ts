@@ -49,8 +49,14 @@ export class HybridModelService {
 
       // In production, fetch from public URL
       if (process.env.NODE_ENV === 'production' || process.env.VERCEL) {
-        console.log('📡 Fetching AA data from public URL...')
-        const response = await fetch('https://ai-server-information.vercel.app/data/aa-models.json')
+        console.log('📡 Fetching AA data from GitHub raw content...')
+        // Use GitHub raw content to avoid Vercel CDN caching issues
+        const response = await fetch('https://raw.githubusercontent.com/ksy2728/AI-GO/master/public/data/aa-models.json', {
+          cache: 'no-cache',
+          headers: {
+            'Cache-Control': 'no-cache',
+          }
+        })
         if (!response.ok) {
           throw new Error(`Failed to fetch AA data: ${response.status}`)
         }

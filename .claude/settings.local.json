@@ -211,7 +211,9 @@
       "Bash(claude --debug)",
       "Bash(git restore:*)",
       "Bash(sed:*)",
-      "Bash(start http://localhost:7007/models)"
+      "Bash(start http://localhost:7007/models)",
+      "Bash(jq:*)",
+      "Bash(git fetch:*)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
