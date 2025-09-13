@@ -19,6 +19,13 @@ const { optimizedSyncService } = require('./src/services/optimized-sync.service'
 // Feature flag for optimized sync (can be disabled via env)
 const USE_OPTIMIZED_SYNC = process.env.USE_OPTIMIZED_SYNC !== 'false'
 
+// Import AA sync services (conditionally loaded)
+let aaSyncScheduler = null
+let aaScraperV2 = null
+
+// Feature flag for AA sync
+const USE_AA_SYNC = process.env.USE_AA_SYNC !== 'false'
+
 // Auto-sync data on startup
 const shouldAutoSync = process.env.AUTO_SYNC === 'true' || (dev && process.env.DISABLE_AUTO_SYNC !== 'true')
 
@@ -63,6 +70,34 @@ app.prepare().then(async () => {
   // Export io for use in other services
   global.io = io
 
+  // Initialize AA sync service if enabled
+  if (USE_AA_SYNC) {
+    try {
+      console.log('🤖 Initializing AA Sync Service...')
+      
+      // Dynamically import TypeScript modules
+      const aaModules = await Promise.all([
+        import('./src/services/aa-sync-scheduler'),
+        import('./src/services/aa-scraper-v2')
+      ])
+      
+      const { initializeAASyncScheduler } = aaModules[0]
+      const { initializeAAScraperV2 } = aaModules[1]
+      
+      // Initialize services
+      aaScraperV2 = initializeAAScraperV2()
+      aaSyncScheduler = initializeAASyncScheduler()
+      
+      // Start the AA sync scheduler
+      aaSyncScheduler.start()
+      console.log('✅ AA Sync Service initialized and running')
+      
+    } catch (err) {
+      console.error('❌ Failed to initialize AA Sync Service:', err)
+      console.log('⚠️ AA sync will not be available')
+    }
+  }
+  
   // Initialize sync service based on feature flag
   if (USE_OPTIMIZED_SYNC) {
     console.log('🚀 Using Optimized Sync Service')
