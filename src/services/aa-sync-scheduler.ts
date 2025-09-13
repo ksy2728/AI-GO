@@ -183,9 +183,7 @@ export class AASyncScheduler {
           },
           create: {
             slug: model.provider.toLowerCase().replace(/[^a-z0-9]+/g, '-'),
-            name: model.provider,
-            apiKeyRequired: true,
-            isActive: true
+            name: model.provider
           }
         });
 
