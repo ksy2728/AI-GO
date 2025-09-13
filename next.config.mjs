@@ -67,7 +67,7 @@ const nextConfig = {
     if (!dev && !isServer) {
       // Enable SWC minification
       config.optimization.minimize = true
-      
+
       // Split chunks for better caching
       config.optimization.splitChunks = {
         chunks: 'all',
@@ -93,7 +93,7 @@ const nextConfig = {
         },
       }
     }
-    
+
     return config
   },
   
