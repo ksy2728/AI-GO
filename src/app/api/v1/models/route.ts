@@ -81,7 +81,8 @@ export async function GET(request: Request) {
                         process.env.VERCEL_ENV !== undefined
 
     // Special handling for AA models or general fallback with AA data
-    if (aaOnly || isProduction) {
+    // Force hybrid service in production to ensure AA models are included
+    if (aaOnly || isProduction || true) {
       console.log(`🎯 ${aaOnly ? 'AA-only request' : 'Production environment'} detected, using hybrid service`)
       try {
         models = (await HybridModelService.getAll(filters)) as any[]
