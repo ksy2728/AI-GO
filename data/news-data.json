@@ -1,8 +1,75 @@
 {
   "articles": [
     {
+      "id": "inside-the-shift-at-disrupt-building-community-and",
+      "title": "Inside the shift at Disrupt: Building community and scaling in the AI era",
+      "summary": "Nirav Tolia (Nextdoor), Jane Alexander (CapitalG), and Vanessa Larco (Premise, NEA) join TechCrunch Disrupt 2025 (October 27–29, SF) to share strategies for building resilient companies and scaling in.",
+      "content": "Nirav Tolia (Nextdoor), Jane Alexander (CapitalG), and Vanessa Larco (Premise, NEA) join TechCrunch Disrupt 2025 (October 27–29, SF) to share strategies for building resilient companies and scaling in the AI era.",
+      "source": "TechCrunch AI",
+      "author": "TechCrunch Events",
+      "publishedAt": "2025-09-15T17:15:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/09/15/on-stage-at-techcrunch-disrupt-2025-how-ai-is-forcing-late-stage-startups-to-rewire-gtm-or-be-left-behind/",
+      "readTime": 3,
+      "views": 38147
+    },
+    {
+      "id": "openai-upgrades-codex-with-a-new-version-of-gpt-5",
+      "title": "OpenAI upgrades Codex with a new version of GPT-5",
+      "summary": "OpenAI's AI coding agent, Codex, can now spend anywhere from a few seconds to several hours on a task, thanks to a new, customized version of GPT-5.",
+      "content": "OpenAI's AI coding agent, Codex, can now spend anywhere from a few seconds to several hours on a task, thanks to a new, customized version of GPT-5.",
+      "source": "TechCrunch AI",
+      "author": "Maxwell Zeff",
+      "publishedAt": "2025-09-15T17:03:40.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gpt",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2025/09/15/openai-upgrades-codex-with-a-new-version-of-gpt-5/",
+      "readTime": 3,
+      "views": 42306
+    },
+    {
+      "id": "mythos-ai-and-lomarlabs-deploy-sea-pilot-ai-assist",
+      "title": "Mythos AI and lomarlabs deploy sea-pilot AI assistance",
+      "summary": "American maritime technology company Mythos AI has completed the installation of its Advanced Pilot Assistance System (APAS) aboard the vessel CB Pacific, a chemical cargo ship owned by CB Tankers.  T.",
+      "content": "American maritime technology company Mythos AI has completed the installation of its Advanced Pilot Assistance System (APAS) aboard the vessel CB Pacific, a chemical cargo ship owned by CB Tankers. The APAS project is designed to manage navigation at sea. Unlike most traditional systems in this spac",
+      "source": "AI News",
+      "author": "David Thomas",
+      "publishedAt": "2025-09-15T14:05:48.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/apas-radar-sea-trial-tests-ai-ocean-transport/",
+      "readTime": 3,
+      "views": 48253
+    },
+    {
+      "id": "harvard-law-to-ai-marqvision-lands-48m-to-combat-b",
+      "title": "Harvard Law to AI: MarqVision lands $48M to combat brand abuse",
+      "summary": "This LA-based startup raised $48M to tackle brand abuse.",
+      "content": "This LA-based startup raised $48M to tackle brand abuse",
+      "source": "TechCrunch AI",
+      "author": "Kate Park",
+      "publishedAt": "2025-09-15T12:00:00.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/09/15/harvard-law-to-ai-marqvision-lands-48m-to-combat-brand-abuse/",
+      "readTime": 3,
+      "views": 54835
+    },
+    {
       "id": "openai-board-chair-bret-taylor-says-we-re-in-an-ai",
-      "title": "OpenAI board chair Bret Taylor says we’re in an AI bubble (but that’s okay)",
+      "title": "OpenAI board chair Bret Taylor says we’re in an AI bubble (but that’s OK)",
       "summary": "Like OpenAI CEO Sam Altman, Bret Taylor thinks we're in an AI bubble — but he doesn't sound too worried about it.",
       "content": "Like OpenAI CEO Sam Altman, Bret Taylor thinks we're in an AI bubble — but he doesn't sound too worried about it.",
       "source": "TechCrunch AI",
@@ -14,9 +81,9 @@
         "openai",
         "OpenAI"
       ],
-      "url": "https://techcrunch.com/2025/09/14/openai-board-chair-bret-taylor-says-were-in-an-ai-bubble-but-thats-okay/",
+      "url": "https://techcrunch.com/2025/09/14/openai-board-chair-bret-taylor-says-were-in-an-ai-bubble-but-thats-ok/",
       "readTime": 3,
-      "views": 50460
+      "views": 8625
     },
     {
       "id": "vibe-coding-has-turned-senior-devs-into-ai-babysit",
@@ -32,7 +99,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/14/vibe-coding-has-turned-senior-devs-into-ai-babysitters-but-they-say-its-worth-it/",
       "readTime": 3,
-      "views": 45503
+      "views": 35123
     },
     {
       "id": "users-turn-to-chatbots-for-spiritual-guidance",
@@ -48,7 +115,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/14/users-turn-to-chatbots-for-spiritual-guidance/",
       "readTime": 3,
-      "views": 40678
+      "views": 5519
     },
     {
       "id": "karen-hao-on-the-empire-of-ai-agi-evangelists-and-",
@@ -66,7 +133,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/14/karen-hao-on-the-empire-of-ai-agi-evangelists-and-the-cost-of-belief/",
       "readTime": 3,
-      "views": 19744
+      "views": 7429
     },
     {
       "id": "rolling-stone-owner-penske-media-sues-google-over-",
@@ -83,11 +150,11 @@
       ],
       "url": "https://techcrunch.com/2025/09/14/rolling-stone-owner-penske-media-sues-google-over-ai-summaries/",
       "readTime": 3,
-      "views": 22873
+      "views": 24639
     },
     {
       "id": "selling-coffee-beans-to-starbucks-how-the-ai-boom-",
-      "title": "‘Selling coffee beans to Starbucks’ – how the AI boom could leave AI’s biggest companies behind",
+      "title": "‘Selling coffee beans to Starbucks’ — how the AI boom could leave AI’s biggest companies behind",
       "summary": "The competitive landscape of AI is changing in ways that undermine the advantages of the biggest AI labs.",
       "content": "The competitive landscape of AI is changing in ways that undermine the advantages of the biggest AI labs.",
       "source": "TechCrunch AI",
@@ -99,7 +166,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/14/selling-coffee-beans-to-starbucks-how-the-ai-boom-could-leave-ais-biggest-companies-behind/",
       "readTime": 3,
-      "views": 44741
+      "views": 53062
     },
     {
       "id": "california-lawmakers-pass-ai-safety-bill-sb-53-but",
@@ -115,11 +182,11 @@
       ],
       "url": "https://techcrunch.com/2025/09/13/california-lawmakers-pass-ai-safety-bill-sb-53-but-newsom-could-still-veto/",
       "readTime": 3,
-      "views": 14511
+      "views": 20310
     },
     {
       "id": "xai-reportedly-lays-off-500-workers-from-data-anno",
-      "title": "xAI reportedly lays off 500 workers from data annotation team",
+      "title": "xAI reportedly lays off 500 workers from data-annotation team",
       "summary": "Elon Musk's AI startup says it's shifting focus from generalist AI tutors to specialists.",
       "content": "Elon Musk's AI startup says it's shifting focus from generalist AI tutors to specialists.",
       "source": "TechCrunch AI",
@@ -131,7 +198,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/13/xai-reportedly-lays-off-500-workers-from-data-annotation-team/",
       "readTime": 3,
-      "views": 43896
+      "views": 51286
     },
     {
       "id": "why-the-oracle-openai-deal-caught-wall-street-by-s",
@@ -149,7 +216,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/12/why-the-oracle-openai-deal-caught-wall-street-by-surprise/",
       "readTime": 3,
-      "views": 30768
+      "views": 20090
     },
     {
       "id": "google-is-a-8216-bad-actor-8217-says-people-ceo-ac",
@@ -166,7 +233,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/12/google-is-a-bad-actor-says-people-ceo-accusing-the-company-of-stealing-content/",
       "readTime": 3,
-      "views": 44085
+      "views": 44091
     },
     {
       "id": "micro1-a-competitor-to-scale-ai-raises-funds-at-50",
@@ -182,7 +249,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/12/micro1-a-competitor-to-scale-ai-raises-funds-at-500m-valuation/",
       "readTime": 3,
-      "views": 38198
+      "views": 43116
     },
     {
       "id": "we-are-entering-a-golden-age-of-robotics-startups-",
@@ -199,7 +266,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/12/we-are-entering-a-golden-age-of-robotics-startups-and-not-just-because-of-ai/",
       "readTime": 3,
-      "views": 29365
+      "views": 45029
     },
     {
       "id": "how-do-ai-models-generate-videos",
@@ -219,61 +286,7 @@
       ],
       "url": "https://www.technologyreview.com/2025/09/12/1123562/how-do-ai-models-generate-videos/",
       "readTime": 3,
-      "views": 38570
-    },
-    {
-      "id": "a-california-bill-that-would-regulate-ai-companion",
-      "title": "A California bill that would regulate AI companion chatbots is close to becoming law",
-      "summary": "If SB 243 is enacted, California would become the first state to require operators to implement safety protocols for AI companions and hold companies legally accountable if their chatbots fail to meet.",
-      "content": "If SB 243 is enacted, California would become the first state to require operators to implement safety protocols for AI companions and hold companies legally accountable if their chatbots fail to meet those standards.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2025-09-11T22:23:09.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/09/11/a-california-bill-that-would-regulate-ai-companion-chatbots-is-close-to-becoming-law/",
-      "readTime": 3,
-      "views": 51130
-    },
-    {
-      "id": "openai-secures-microsoft-8217-s-blessing-to-transi",
-      "title": "OpenAI secures Microsoft&#8217;s blessing to transition its for-profit arm",
-      "summary": "OpenAI and Microsoft say they reached a nonbinding agreement on a revised partnership.",
-      "content": "OpenAI and Microsoft say they reached a nonbinding agreement on a revised partnership.",
-      "source": "TechCrunch AI",
-      "author": "Maxwell Zeff",
-      "publishedAt": "2025-09-11T22:18:29.000Z",
-      "category": "partnership",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI",
-        "Microsoft"
-      ],
-      "url": "https://techcrunch.com/2025/09/11/openai-secures-microsofts-blessing-to-transition-its-for-profit-arm/",
-      "readTime": 3,
-      "views": 19595
-    },
-    {
-      "id": "ftc-launches-inquiry-into-ai-chatbot-companions-fr",
-      "title": "FTC launches inquiry into AI chatbot companions from Meta, OpenAI, and others",
-      "summary": "The federal consumer regulator seeks to learn about how AI companies evaluate the safety of their chatbots.",
-      "content": "The federal consumer regulator seeks to learn about how AI companies evaluate the safety of their chatbots.",
-      "source": "TechCrunch AI",
-      "author": "Amanda Silberling",
-      "publishedAt": "2025-09-11T18:06:15.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI",
-        "Meta"
-      ],
-      "url": "https://techcrunch.com/2025/09/11/ftc-launches-inquiry-into-ai-chatbot-companions-from-meta-openai-and-others/",
-      "readTime": 3,
-      "views": 54444
+      "views": 7148
     },
     {
       "id": "vmware-nods-to-ai-but-looks-to-long-term",
@@ -290,39 +303,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/broadcom-nods-at-ai-looks-to-long-term/",
       "readTime": 3,
-      "views": 13864
-    },
-    {
-      "id": "humanoids-avs-and-what-s-next-in-ai-hardware-with-",
-      "title": "Humanoids, AVs, and what’s next in AI hardware with Waabi and Apptronik at TechCrunch Disrupt 2025",
-      "summary": "TechCrunch Disrupt 2025 is bringing together 10,000+ startup and VC leaders for three days of bold ideas, groundbreaking tech, and future-shaping conversations.",
-      "content": "TechCrunch Disrupt 2025 is bringing together 10,000+ startup and VC leaders for three days of bold ideas, groundbreaking tech, and future-shaping conversations.",
-      "source": "TechCrunch AI",
-      "author": "TechCrunch Events",
-      "publishedAt": "2025-09-11T15:02:50.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/09/11/humanoids-avs-and-whats-next-in-ai-hardware-at-techcrunch-disrupt-2025/",
-      "readTime": 3,
-      "views": 20114
-    },
-    {
-      "id": "box-ceo-aaron-levie-on-ai-s-8216-era-of-context-82",
-      "title": "Box CEO Aaron Levie on AI’s &#8216;era of context&#8217;",
-      "summary": "Box released a new set of AI tools at its BoxWorks conference on Thursday, filling out CEO Aaron Levie's vision for an AI-led transformation of the enterprise.",
-      "content": "Box released a new set of AI tools at its BoxWorks conference on Thursday, filling out CEO Aaron Levie's vision for an AI-led transformation of the enterprise.",
-      "source": "TechCrunch AI",
-      "author": "Russell Brandom",
-      "publishedAt": "2025-09-11T14:36:31.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/09/11/box-ceo-aaron-levie-on-ais-era-of-context/",
-      "readTime": 3,
-      "views": 24776
+      "views": 46805
     },
     {
       "id": "yext-scout-guides-brands-through-ai-search-challen",
@@ -338,22 +319,39 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/yext-scout-guides-brands-through-ai-search-challenges/",
       "readTime": 3,
-      "views": 48594
+      "views": 49648
+    },
+    {
+      "id": "partnering-with-generative-ai-in-the-finance-funct",
+      "title": "Partnering with generative AI in the finance function",
+      "summary": "Generative AI has the potential to transform the finance function.  By taking on some of the more mundane tasks that can occupy a lot of time, generative AI tools can help free up capacity for more hi.",
+      "content": "Generative AI has the potential to transform the finance function. By taking on some of the more mundane tasks that can occupy a lot of time, generative AI tools can help free up capacity for more high-value strategic work. For chief financial officers, this could mean spending more time and energy ",
+      "source": "MIT Technology Review AI",
+      "author": "MIT Technology Review Insights",
+      "publishedAt": "2025-09-11T13:00:00.000Z",
+      "category": "research",
+      "tags": [
+        "ai",
+        "generative ai"
+      ],
+      "url": "https://www.technologyreview.com/2025/09/11/1123508/partnering-with-generative-ai-in-the-finance-function/",
+      "readTime": 3,
+      "views": 43398
     }
   ],
-  "lastUpdated": "2025-09-15T12:37:10.876Z",
+  "lastUpdated": "2025-09-16T01:18:35.674Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
     "TechCrunch AI",
-    "MIT Technology Review AI",
-    "AI News"
+    "AI News",
+    "MIT Technology Review AI"
   ],
   "categories": [
     "release",
     "market",
     "regulation",
     "funding",
-    "partnership"
+    "research"
   ]
 }
