@@ -1,10 +1,230 @@
 {
   "articles": [
     {
+      "id": "openai-s-research-on-ai-models-deliberately-lying-",
+      "title": "OpenAI’s research on AI models deliberately lying is wild",
+      "summary": "AI models don't just hallucinate.  They also \"scheme,\" meaning deliberately lie or hide their true intensions.",
+      "content": "AI models don't just hallucinate. They also \"scheme,\" meaning deliberately lie or hide their true intensions.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2025-09-18T22:54:20.000Z",
+      "category": "research",
+      "tags": [
+        "ai",
+        "openai",
+        "ai model",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2025/09/18/openais-research-on-ai-models-deliberately-lying-is-wild/",
+      "readTime": 3,
+      "views": 38265
+    },
+    {
+      "id": "huawei-announces-new-ai-infrastructure-as-nvidia-g",
+      "title": "Huawei announces new AI infrastructure as Nvidia gets locked out of China",
+      "summary": "Huawei's SuperPoD interconnect technology creates clusters of chips, including AI chips, to increase compute.",
+      "content": "Huawei's SuperPoD interconnect technology creates clusters of chips, including AI chips, to increase compute.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Szkutak",
+      "publishedAt": "2025-09-18T21:14:15.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/09/18/huawei-announces-new-ai-infrastructure-as-nvidia-gets-locked-out-of-china/",
+      "readTime": 3,
+      "views": 8159
+    },
+    {
+      "id": "how-ai-startups-are-fueling-google-8217-s-booming-",
+      "title": "How AI startups are fueling Google&#8217;s booming cloud business",
+      "summary": "Google Cloud is one of the company's fastest-growing business lines and continues to rack up new customers.",
+      "content": "Google Cloud is one of the company's fastest-growing business lines and continues to rack up new customers.",
+      "source": "TechCrunch AI",
+      "author": "Maxwell Zeff",
+      "publishedAt": "2025-09-18T20:53:33.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2025/09/18/how-ai-startups-are-fueling-googles-booming-cloud-business/",
+      "readTime": 3,
+      "views": 47542
+    },
+    {
+      "id": "tim-cook-sam-altman-and-more-attend-trump-8217-s-u",
+      "title": "Tim Cook, Sam Altman, and more attend Trump&#8217;s UK state banquet",
+      "summary": "This change reveals the shifting economic needs of the U.  in the age of AI, as well as the rising prominence of technology and its leaders in Trump’s second administration.",
+      "content": "This change reveals the shifting economic needs of the U.K. and U.S. in the age of AI, as well as the rising prominence of technology and its leaders in Trump’s second administration.",
+      "source": "TechCrunch AI",
+      "author": "Dominic-Madori Davis",
+      "publishedAt": "2025-09-18T19:14:47.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/09/18/tim-cook-sam-altman-and-more-attend-trumps-uk-state-banquet/",
+      "readTime": 3,
+      "views": 49065
+    },
+    {
+      "id": "notion-launches-agents-for-data-analysis-and-task-",
+      "title": "Notion launches agents for data analysis and task automation",
+      "summary": "The productivity platform said that the agent can create pages and databases, or update them with new data, properties, or views.",
+      "content": "The productivity platform said that the agent can create pages and databases, or update them with new data, properties, or views.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2025-09-18T18:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "automation"
+      ],
+      "url": "https://techcrunch.com/2025/09/18/notion-launches-agents-for-data-analysis-and-task-automation/",
+      "readTime": 3,
+      "views": 45961
+    },
+    {
+      "id": "google-now-lets-you-share-your-custom-gemini-ai-as",
+      "title": "Google now lets you share your custom Gemini AI assistants known as Gems",
+      "summary": "The feature launched last year, initially as part of the Gemini Advanced paid subscription, allowing users to write instructions to create an AI chatbot for different scenarios.",
+      "content": "The feature launched last year, initially as part of the Gemini Advanced paid subscription, allowing users to write instructions to create an AI chatbot for different scenarios.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2025-09-18T17:35:13.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gemini",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2025/09/18/google-now-lets-you-share-your-custom-gemini-ai-assistants-known-as-gems/",
+      "readTime": 3,
+      "views": 26549
+    },
+    {
+      "id": "mark-zuckerberg-has-begun-his-quest-to-kill-the-sm",
+      "title": "Mark Zuckerberg has begun his quest to kill the smartphone",
+      "summary": "\"The promise of glasses is to preserve this sense of presence that you have with other people,\" Mark Zuckerberg said.",
+      "content": "\"The promise of glasses is to preserve this sense of presence that you have with other people,\" Mark Zuckerberg said.",
+      "source": "TechCrunch AI",
+      "author": "Amanda Silberling",
+      "publishedAt": "2025-09-18T17:25:39.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/09/18/mark-zuckerberg-has-begun-his-quest-to-kill-the-smartphone/",
+      "readTime": 3,
+      "views": 5443
+    },
+    {
+      "id": "google-brings-gemini-in-chrome-to-us-users-unveils",
+      "title": "Google brings Gemini in Chrome to US users, unveils agentic browsing capabilities, and more",
+      "summary": "Google says the AI assistant will be able to complete tedious tasks for users, like booking a haircut or ordering weekly groceries.",
+      "content": "Google says the AI assistant will be able to complete tedious tasks for users, like booking a haircut or ordering weekly groceries.",
+      "source": "TechCrunch AI",
+      "author": "Aisha Malik",
+      "publishedAt": "2025-09-18T17:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gemini",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2025/09/18/google-brings-gemini-in-chrome-to-us-users-unveils-agentic-browsing-capabilities-and-more/",
+      "readTime": 3,
+      "views": 26239
+    },
+    {
+      "id": "huawei-announces-new-ascend-chips-to-power-world-8",
+      "title": "Huawei announces new Ascend chips, to power world&#8217;s most powerful clusters",
+      "summary": "Chinese technology giant Huawei announced its plans for the next generations of its Ascend chip line at the Huawei Connect 2025 event in Shanghai this week.  In his keynote to the conference, deputy c.",
+      "content": "Chinese technology giant Huawei announced its plans for the next generations of its Ascend chip line at the Huawei Connect 2025 event in Shanghai this week. In his keynote to the conference, deputy chair of the Huawei board, Eric Xu, said that 2025 had been a &#8220;memorable year,&#8221; and noted ",
+      "source": "AI News",
+      "author": "AI News",
+      "publishedAt": "2025-09-18T16:50:12.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/huawei-announces-new-ascend-chips-to-power-worlds-most-powerful-clusters/",
+      "readTime": 3,
+      "views": 16247
+    },
+    {
+      "id": "chatgpt-everything-you-need-to-know-about-the-ai-p",
+      "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+      "summary": "A timeline of ChatGPT product updates and releases, starting with the latest, which we’ve been updating throughout the year.",
+      "content": "A timeline of ChatGPT product updates and releases, starting with the latest, which we’ve been updating throughout the year.",
+      "source": "TechCrunch AI",
+      "author": "Kyle Wiggers, Cody Corrall, Alyssa Stringer, Kate Park",
+      "publishedAt": "2025-09-18T16:18:27.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gpt",
+        "chatgpt"
+      ],
+      "url": "https://techcrunch.com/2025/09/18/chatgpt-everything-to-know-about-the-ai-chatbot/",
+      "readTime": 3,
+      "views": 42071
+    },
+    {
+      "id": "google-and-paypal-team-up-on-agentic-commerce",
+      "title": "Google and PayPal team up on agentic commerce",
+      "summary": "PayPal announced on Wednesday a new multi-year partnership with Google that will see the payments giant using Google's AI technology to create new AI-powered shopping experiences.",
+      "content": "PayPal announced on Wednesday a new multi-year partnership with Google that will see the payments giant using Google's AI technology to create new AI-powered shopping experiences.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2025-09-18T14:58:22.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2025/09/18/google-and-paypal-team-up-on-agentic-commerce/",
+      "readTime": 3,
+      "views": 5226
+    },
+    {
+      "id": "nvidia-buys-5b-stake-in-intel-planning-ai-chip-col",
+      "title": "Nvidia buys $5B stake in Intel, planning AI chip collaboration",
+      "summary": "Nvidia has agreed to invest $5 billion in Intel as part of a broader deal to together develop \"multiple generations\" of data center and PC products.  Nvidia will buy Intel stock.",
+      "content": "Nvidia has agreed to invest $5 billion in Intel as part of a broader deal to together develop \"multiple generations\" of data center and PC products. Nvidia will buy Intel stock.",
+      "source": "TechCrunch AI",
+      "author": "Ram Iyer",
+      "publishedAt": "2025-09-18T14:31:18.000Z",
+      "category": "partnership",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/09/18/nvidia-buys-5-billion-stake-in-intel-planning-ai-chip-collaboration/",
+      "readTime": 3,
+      "views": 15369
+    },
+    {
+      "id": "building-the-future-of-open-ai-with-thomas-wolf-at",
+      "title": "Building the future of Open AI with Thomas Wolf at TechCrunch Disrupt 2025",
+      "summary": "Hugging Face co-founder Thomas Wolf joins Disrupt 2025 to share how open science and moonshot projects are shaping the future of AI.",
+      "content": "Hugging Face co-founder Thomas Wolf joins Disrupt 2025 to share how open science and moonshot projects are shaping the future of AI.",
+      "source": "TechCrunch AI",
+      "author": "TechCrunch Events",
+      "publishedAt": "2025-09-18T14:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/09/18/building-the-future-of-open-ai-with-thomas-wolf-at-techcrunch-disrupt-2025/",
+      "readTime": 3,
+      "views": 34515
+    },
+    {
       "id": "india-leads-the-way-on-google-8217-s-nano-banana-w",
       "title": "India leads the way on Google&#8217;s Nano Banana with a local creative twist",
-      "summary": "Indian users turning Google’s Nano Banana into a viral trend engine, from retro AI portraits to figurine-style selfies.",
-      "content": "Indian users turning Google’s Nano Banana into a viral trend engine, from retro AI portraits to figurine-style selfies.",
+      "summary": "Indian users are turning Google’s Nano Banana into a viral trend engine, from retro AI portraits to figurine-style selfies.",
+      "content": "Indian users are turning Google’s Nano Banana into a viral trend engine, from retro AI portraits to figurine-style selfies.",
       "source": "TechCrunch AI",
       "author": "Jagmeet Singh",
       "publishedAt": "2025-09-18T04:00:00.000Z",
@@ -15,7 +235,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/17/india-leads-the-way-on-googles-nano-banana-with-a-local-creative-twist/",
       "readTime": 3,
-      "views": 32071
+      "views": 20881
     },
     {
       "id": "meta-unveils-new-smart-glasses-with-a-display-and-",
@@ -32,7 +252,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/17/meta-unveils-new-smart-glasses-with-a-display-and-wristband-controller/",
       "readTime": 3,
-      "views": 45245
+      "views": 47257
     },
     {
       "id": "nvidia-ai-chip-challenger-groq-raises-even-more-th",
@@ -48,7 +268,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/17/nvidia-ai-chip-challenger-groq-raises-even-more-than-expected-hits-6-9b-valuation/",
       "readTime": 3,
-      "views": 38282
+      "views": 32611
     },
     {
       "id": "irregular-raises-80-million-to-secure-frontier-ai-",
@@ -65,7 +285,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/17/irregular-raises-80-million-to-secure-frontier-ai-models/",
       "readTime": 3,
-      "views": 47412
+      "views": 10790
     },
     {
       "id": "kleiner-perkins-backed-voice-ai-startup-keplar-aim",
@@ -81,7 +301,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/17/kleiner-perkins-backed-voice-ai-startup-keplar-aims-to-replace-traditional-market-research/",
       "readTime": 3,
-      "views": 36575
+      "views": 47655
     },
     {
       "id": "meet-macroscope-an-ai-tool-for-understanding-your-",
@@ -97,11 +317,11 @@
       ],
       "url": "https://techcrunch.com/2025/09/17/meet-macroscope-an-ai-tool-for-understanding-your-code-base-fixing-bugs/",
       "readTime": 3,
-      "views": 38800
+      "views": 23893
     },
     {
       "id": "china-tells-its-tech-companies-they-can-t-buy-ai-c",
-      "title": "China tells its tech companies they can’t buy AI chips from Nivida",
+      "title": "China tells its tech companies they can’t buy AI chips from Nvidia",
       "summary": "After strongly discouraging tech companies from buying Nivdia's AI chips in August, the country is now banning the practice outright.",
       "content": "After strongly discouraging tech companies from buying Nivdia's AI chips in August, the country is now banning the practice outright.",
       "source": "TechCrunch AI",
@@ -111,228 +331,12 @@
       "tags": [
         "ai"
       ],
-      "url": "https://techcrunch.com/2025/09/17/china-tells-its-tech-companies-they-cant-buy-ai-chips-from-nivida/",
+      "url": "https://techcrunch.com/2025/09/17/china-tells-its-tech-companies-they-cant-buy-ai-chips-from-nvidia/",
       "readTime": 3,
-      "views": 18677
-    },
-    {
-      "id": "ai-and-the-future-of-defense-mach-industries-ethan",
-      "title": "AI and the Future of Defense: Mach Industries’ Ethan Thornton at TechCrunch Disrupt 2025",
-      "summary": "Ethan Thornton, CEO of Mach Industries, joins the AI Stage at TechCrunch Disrupt 2025 (Oct.  27–29, San Francisco) to discuss how AI is transforming defense — from autonomous weapons to decentralized .",
-      "content": "Ethan Thornton, CEO of Mach Industries, joins the AI Stage at TechCrunch Disrupt 2025 (Oct. 27–29, San Francisco) to discuss how AI is transforming defense — from autonomous weapons to decentralized strategy. Register now and save up to $650 before rates increase.",
-      "source": "TechCrunch AI",
-      "author": "TechCrunch Events",
-      "publishedAt": "2025-09-17T16:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/09/17/the-new-face-of-defense-tech-takes-the-ai-stage-at-techcrunch-disrupt-2025/",
-      "readTime": 3,
-      "views": 48363
-    },
-    {
-      "id": "amazon-launches-ai-agent-to-help-sellers-complete-",
-      "title": "Amazon launches AI agent to help sellers complete tasks and manage their businesses",
-      "summary": "The company is updating Seller Assistant, its AI tool for third-party sellers, to help handle tasks on the seller's behalf.",
-      "content": "The company is updating Seller Assistant, its AI tool for third-party sellers, to help handle tasks on the seller's behalf.",
-      "source": "TechCrunch AI",
-      "author": "Aisha Malik",
-      "publishedAt": "2025-09-17T14:18:50.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/09/17/amazon-launches-ai-agent-to-help-sellers-complete-tasks-and-manage-their-businesses/",
-      "readTime": 3,
-      "views": 9603
-    },
-    {
-      "id": "ai-enabled-threats-and-stricter-regulation-in-fran",
-      "title": "AI-enabled threats and stricter regulation in France",
-      "summary": "A new research report from technology advisory firm Information Services Group (ISG) has revealed AI threats and more stringent regulations are shifting the French cybersecurity landscape, resulting i.",
-      "content": "A new research report from technology advisory firm Information Services Group (ISG) has revealed AI threats and more stringent regulations are shifting the French cybersecurity landscape, resulting in businesses reassessing their security strategies. Increasing security budgets mean many French ent",
-      "source": "AI News",
-      "author": "David Thomas",
-      "publishedAt": "2025-09-17T11:58:52.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/ai-enabled-threats-and-stricter-regulation-in-france/",
-      "readTime": 3,
-      "views": 5179
-    },
-    {
-      "id": "sonair-built-its-3d-ultrasonic-sensor-with-robotic",
-      "title": "Sonair built its 3D ultrasonic sensor with robotic safety in mind",
-      "summary": "The company's sensor uses sonar and echos to give robots more information about their surrounding environment.",
-      "content": "The company's sensor uses sonar and echos to give robots more information about their surrounding environment.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Szkutak",
-      "publishedAt": "2025-09-17T11:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/09/17/sonair-built-its-3d-ultrasonic-sensor-with-robotic-safety-in-mind/",
-      "readTime": 3,
-      "views": 38916
-    },
-    {
-      "id": "google-ventures-doubles-down-on-dev-tool-startup-b",
-      "title": "Google Ventures doubles down on dev tool startup Blacksmith just 4 months after its seed round",
-      "summary": "Blacksmith, a Y Combinator alum, raised $10M Series A led by Google Ventures to cut costs and speed up software builds.",
-      "content": "Blacksmith, a Y Combinator alum, raised $10M Series A led by Google Ventures to cut costs and speed up software builds.",
-      "source": "TechCrunch AI",
-      "author": "Jagmeet Singh",
-      "publishedAt": "2025-09-17T11:00:00.000Z",
-      "category": "funding",
-      "tags": [
-        "ai",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2025/09/17/google-ventures-doubles-down-on-dev-tool-startup-blacksmith-just-4-months-after-its-seed-round/",
-      "readTime": 3,
-      "views": 22616
-    },
-    {
-      "id": "csi-and-huloop-deliver-ai-driven-efficiency-to-ban",
-      "title": "CSI and HuLoop deliver AI-driven efficiency to banks",
-      "summary": "Fintech, regtech, and cybersecurity vendor, CSI has teamed with HuLoop, a provider of an AI-powered, no-code automation platform, to help banks improve efficiency.  The partnership will present CSI&#8.",
-      "content": "Fintech, regtech, and cybersecurity vendor, CSI has teamed with HuLoop, a provider of an AI-powered, no-code automation platform, to help banks improve efficiency. The partnership will present CSI&#8217;s NuPoint Core Banking System to financial institutions, and is designed to help companies manage",
-      "source": "AI News",
-      "author": "David Thomas",
-      "publishedAt": "2025-09-17T08:49:03.000Z",
-      "category": "partnership",
-      "tags": [
-        "ai",
-        "automation"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/csi-and-huloop-deliver-ai-driven-efficiency-to-banks/",
-      "readTime": 3,
-      "views": 25193
-    },
-    {
-      "id": "meta-connect-2025-what-to-expect-and-how-to-watch",
-      "title": "Meta Connect 2025: What to expect and how to watch",
-      "summary": "Meta is expected to unveil new versions of its AI-powered smart glasses, as well as a gesture-indicating wristband.",
-      "content": "Meta is expected to unveil new versions of its AI-powered smart glasses, as well as a gesture-indicating wristband.",
-      "source": "TechCrunch AI",
-      "author": "Maxwell Zeff",
-      "publishedAt": "2025-09-16T21:55:23.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Meta"
-      ],
-      "url": "https://techcrunch.com/2025/09/16/meta-connect-2025-what-to-expect-and-how-to-watch/",
-      "readTime": 3,
-      "views": 16487
-    },
-    {
-      "id": "silicon-valley-bets-big-on-8216-environments-8217-",
-      "title": "Silicon Valley bets big on &#8216;environments&#8217; to train AI agents",
-      "summary": "A wave of startups are creating RL environments to help AI labs train agents.  It might be Silicon Valley’s next craze in the making.",
-      "content": "A wave of startups are creating RL environments to help AI labs train agents. It might be Silicon Valley’s next craze in the making.",
-      "source": "TechCrunch AI",
-      "author": "Maxwell Zeff",
-      "publishedAt": "2025-09-16T19:00:48.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/09/16/silicon-valley-bets-big-on-environments-to-train-ai-agents/",
-      "readTime": 3,
-      "views": 43604
-    },
-    {
-      "id": "coderabbit-raises-60m-valuing-the-2-year-old-ai-co",
-      "title": "CodeRabbit raises $60M, valuing the 2-year-old AI code review startup at $550M",
-      "summary": "The round, which brought the two-year-old startup’s total funding to $88 million, was led by Scale Venture Partners.",
-      "content": "The round, which brought the two-year-old startup’s total funding to $88 million, was led by Scale Venture Partners.",
-      "source": "TechCrunch AI",
-      "author": "Marina Temkin",
-      "publishedAt": "2025-09-16T19:00:00.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/09/16/coderabbit-raises-60m-valuing-the-2-year-old-ai-code-review-startup-at-550m/",
-      "readTime": 3,
-      "views": 44152
-    },
-    {
-      "id": "gemini-tops-the-app-store-thanks-to-new-ai-image-m",
-      "title": "Gemini tops the App Store thanks to new AI image model, Nano Banana",
-      "summary": "Though the month is only half over, Gemini's app has already gained 12. 6 million downloads in September, up from 8.",
-      "content": "Though the month is only half over, Gemini's app has already gained 12.6 million downloads in September, up from 8.7 million in August.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2025-09-16T18:07:40.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gemini"
-      ],
-      "url": "https://techcrunch.com/2025/09/16/gemini-tops-the-app-store-thanks-to-new-ai-image-model-nano-banana/",
-      "readTime": 3,
-      "views": 52634
-    },
-    {
-      "id": "openai-will-apply-new-restrictions-to-chatgpt-user",
-      "title": "OpenAI will apply new restrictions to ChatGPT users under 18",
-      "summary": "Under the new policy, ChatGPT will be trained to no longer engage in \"flirtatious talk\" with underage users, and additional guardrails will be placed around discussions of suicide.",
-      "content": "Under the new policy, ChatGPT will be trained to no longer engage in \"flirtatious talk\" with underage users, and additional guardrails will be placed around discussions of suicide.",
-      "source": "TechCrunch AI",
-      "author": "Russell Brandom",
-      "publishedAt": "2025-09-16T16:28:55.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai",
-        "gpt",
-        "openai",
-        "chatgpt",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2025/09/16/openai-will-apply-new-restrictions-to-chatgpt-users-under-18/",
-      "readTime": 3,
-      "views": 26126
-    },
-    {
-      "id": "d-id-acquires-berlin-based-video-startup-simplesho",
-      "title": "D-ID acquires Berlin-based video startup Simpleshow",
-      "summary": "Both companies are seeing a strong future of digital avatars for different kinds of videos, including training, marketing, and sales.",
-      "content": "Both companies are seeing a strong future of digital avatars for different kinds of videos, including training, marketing, and sales.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2025-09-16T15:00:00.000Z",
-      "category": "partnership",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/09/16/d-id-acquires-berlin-based-video-startup-simpleshow/",
-      "readTime": 3,
-      "views": 23070
-    },
-    {
-      "id": "youtube-to-use-ai-to-help-podcasters-promote-thems",
-      "title": "YouTube to use AI to help podcasters promote themselves with clips and Shorts",
-      "summary": "YouTube teases new AI-powered tools for turning podcasts into video clips, even if they're audio-only.",
-      "content": "YouTube teases new AI-powered tools for turning podcasts into video clips, even if they're audio-only.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2025-09-16T14:30:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/09/16/youtube-to-use-ai-to-help-podcasters-promote-themselves-with-clips-and-shorts/",
-      "readTime": 3,
-      "views": 30221
+      "views": 13263
     }
   ],
-  "lastUpdated": "2025-09-18T12:36:38.905Z",
+  "lastUpdated": "2025-09-19T01:20:46.345Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -340,11 +344,10 @@
     "AI News"
   ],
   "categories": [
-    "market",
-    "release",
-    "funding",
     "research",
-    "regulation",
-    "partnership"
+    "release",
+    "market",
+    "partnership",
+    "funding"
   ]
 }
