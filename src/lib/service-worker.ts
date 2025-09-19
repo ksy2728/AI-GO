@@ -3,6 +3,8 @@
  * Implements comprehensive caching strategies for mobile optimization
  */
 
+declare const self: any;
+
 const CACHE_VERSION = 'v2'
 const CACHE_NAMES = {
   static: `static-${CACHE_VERSION}`,
