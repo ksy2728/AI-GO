@@ -327,7 +327,7 @@ class ServiceWorkerManager {
   }
 
   // Push notification handler
-  async handlePush(event: PushEvent): Promise<void> {
+  async handlePush(event: any): Promise<void> {
     const options = {
       body: 'AI model status update available',
       icon: '/icon-192.png',
@@ -394,7 +394,7 @@ self.addEventListener('sync', (event: any) => {
   event.waitUntil(swManager.handleBackgroundSync(event.tag))
 })
 
-self.addEventListener('push', (event: PushEvent) => {
+self.addEventListener('push', (event: any) => {
   event.waitUntil(swManager.handlePush(event))
 })
 
