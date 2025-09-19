@@ -1,18 +1,63 @@
 'use client'
 
-import { lazy, Suspense, useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
+import dynamic from 'next/dynamic'
 import { FeaturedModelCard } from '@/components/dashboard/FeaturedModelCard'
 import { useLanguage } from '@/contexts/LanguageContext'
 import { Skeleton } from '@/components/ui/skeleton'
 import { getProviderLogo } from '@/constants/providerLogos'
-import { 
+import {
   TrendingUp,
   AlertCircle
 } from 'lucide-react'
 
-// Lazy load heavy components
-const ModelStatusGrid = lazy(() => import('@/components/dashboard/ModelStatusGrid').then(mod => ({ default: mod.ModelStatusGrid })))
-const ActivityFeed = lazy(() => import('@/components/dashboard/ActivityFeed').then(mod => ({ default: mod.ActivityFeed })))
+// Dynamic imports with loading states for better performance
+const ModelStatusGrid = dynamic(
+  () => import('@/components/dashboard/ModelStatusGrid').then(mod => ({ default: mod.ModelStatusGrid })),
+  {
+    loading: () => (
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {Array.from({ length: 4 }).map((_, i) => (
+          <div key={i} className="bg-white p-6 rounded-lg shadow-sm border">
+            <div className="animate-pulse">
+              <div className="h-4 bg-gray-200 rounded w-3/4 mb-4"></div>
+              <div className="h-8 bg-gray-200 rounded w-1/2 mb-2"></div>
+              <div className="h-3 bg-gray-200 rounded w-2/3"></div>
+            </div>
+          </div>
+        ))}
+      </div>
+    ),
+    ssr: false
+  }
+)
+
+const ActivityFeed = dynamic(
+  () => import('@/components/dashboard/ActivityFeed').then(mod => ({ default: mod.ActivityFeed })),
+  {
+    loading: () => (
+      <div className="bg-white rounded-lg shadow-sm border">
+        <div className="p-6">
+          <div className="animate-pulse">
+            <div className="h-6 bg-gray-200 rounded w-1/3 mb-4"></div>
+            <div className="space-y-4">
+              {Array.from({ length: 5 }).map((_, i) => (
+                <div key={i} className="flex items-start gap-3">
+                  <div className="h-8 w-8 bg-gray-200 rounded-full"></div>
+                  <div className="flex-1">
+                    <div className="h-4 bg-gray-200 rounded w-3/4 mb-2"></div>
+                    <div className="h-3 bg-gray-200 rounded w-1/2"></div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    ),
+    ssr: false
+  }
+)
 
 // Full 9 models data matching the original
 const fallbackModels = [
@@ -153,13 +198,12 @@ const fallbackModels = [
   }
 ]
 
-// Removed - featuredModels now managed inside component with useState
-
 export default function DashboardPage() {
   const { t } = useLanguage()
   const [featuredModels, setFeaturedModels] = useState(fallbackModels)
   const [dataSource, setDataSource] = useState<'live' | 'cached' | 'fallback'>('fallback')
   const [isLoading, setIsLoading] = useState(true)
+  const [showAdditionalComponents, setShowAdditionalComponents] = useState(false)
 
   // Fetch real Intelligence Index data from Artificial Analysis
   useEffect(() => {
@@ -167,9 +211,9 @@ export default function DashboardPage() {
       try {
         const response = await fetch('/api/v1/intelligence-index?limit=9')
         if (!response.ok) throw new Error('Failed to fetch')
-        
+
         const data = await response.json()
-        
+
         if (data.models && data.models.length > 0) {
           // Map the API data to match our model structure
           const mappedModels = data.models.map((model: any) => ({
@@ -187,7 +231,7 @@ export default function DashboardPage() {
             capabilities: ['Text Generation', 'Advanced Reasoning'],
             intelligenceIndex: model.intelligenceIndex
           }))
-          
+
           setFeaturedModels(mappedModels)
           setDataSource(data.cached ? 'cached' : 'live')
         }
@@ -196,14 +240,16 @@ export default function DashboardPage() {
         // Keep using fallback models
       } finally {
         setIsLoading(false)
+
+        // Delay loading additional components to improve initial page load
+        setTimeout(() => {
+          setShowAdditionalComponents(true)
+        }, 1000)
       }
     }
 
     fetchIntelligenceData()
   }, [])
-  
-  // No API calls, no real-time data, no dynamic updates
-  // Just static 9 models display
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
@@ -242,7 +288,7 @@ export default function DashboardPage() {
               Source: Artificial Analysis Intelligence Index • Updated: {new Date().toLocaleDateString()} • {dataSource === 'live' ? '✅ Live' : dataSource === 'cached' ? '📊 Cached' : 'Fallback'} • Models: {featuredModels.length}
             </div>
           </div>
-          
+
           {/* Featured Model Cards Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {featuredModels.map((model: any) => (
@@ -251,8 +297,28 @@ export default function DashboardPage() {
           </div>
         </div>
 
-        {/* Temporarily removed ModelStatusGrid and ActivityFeed to fix RegionSelect infinite loop */}
+        {/* Additional Components - Loaded after initial render */}
+        {showAdditionalComponents && (
+          <div className="space-y-8">
+            {/* Model Status Grid */}
+            <div className="mb-8">
+              <div className="flex items-center gap-2 mb-4">
+                <AlertCircle className="w-5 h-5 text-blue-500" />
+                <h2 className="text-lg font-semibold text-gray-900">System Status</h2>
+              </div>
+              <ModelStatusGrid />
+            </div>
 
+            {/* Activity Feed */}
+            <div>
+              <div className="flex items-center gap-2 mb-4">
+                <TrendingUp className="w-5 h-5 text-green-500" />
+                <h2 className="text-lg font-semibold text-gray-900">Recent Activity</h2>
+              </div>
+              <ActivityFeed />
+            </div>
+          </div>
+        )}
       </div>
     </div>
   )

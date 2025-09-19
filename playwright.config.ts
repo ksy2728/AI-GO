@@ -18,13 +18,17 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
-    baseURL: 'http://localhost:3006',
+    baseURL: 'http://localhost:3008',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
 
     /* Screenshot on failure */
     screenshot: 'only-on-failure',
+
+    /* Timeout for actions */
+    actionTimeout: 10000,
+    navigationTimeout: 30000,
   },
 
   /* Configure projects for major browsers */
@@ -55,5 +59,11 @@ export default defineConfig({
     },
   ],
 
-  /* External server - assuming it's already running on port 3002 */
+  /* Configure web server for development */
+  webServer: {
+    command: 'npm run dev -- --port 3008',
+    port: 3008,
+    reuseExistingServer: !process.env.CI,
+    timeout: 120 * 1000,
+  },
 })

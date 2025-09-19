@@ -1,6 +1,6 @@
 import { Model, ModelStats, Provider, BenchmarkScore, Incident, ModelStatus } from '@/types/models'
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL ||
   (typeof window !== 'undefined' ? '' : 'http://localhost:3000')
 
 // Request deduplication map
@@ -141,14 +141,14 @@ async function fetchAPI<T>(endpoint: string, options?: FetchOptions, retries = 3
   }
 }
 
-async function executeRequest<T>(endpoint: string, options?: FetchOptions, retries = 3): Promise<T> {
+async function executeRequest<T>(endpoint: string, options?: FetchOptions, retries = 5): Promise<T> {
   let lastError: Error | null = null
   
   for (let attempt = 0; attempt <= retries; attempt++) {
     try {
       // Add timeout to prevent hanging requests
       const controller = new AbortController()
-      const timeoutId = setTimeout(() => controller.abort(), 25000) // 25 second timeout for better reliability
+      const timeoutId = setTimeout(() => controller.abort(), 60000) // 60 second timeout for heavy operations
       
       const response = await fetch(`${API_BASE_URL}${endpoint}`, {
         headers: {

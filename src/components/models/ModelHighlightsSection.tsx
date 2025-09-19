@@ -162,3 +162,4 @@ export function ModelHighlightsSection({ className = '' }: ModelHighlightsSectio
     </div>
   )
 }
+export default ModelHighlightsSection

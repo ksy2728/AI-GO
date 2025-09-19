@@ -120,26 +120,16 @@ export function SpeedChart({ data, loading, error }: SpeedChartProps) {
           }}
         />
         
-        {/* Value label with background */}
+        {/* Value label inside bar - vertical text */}
         <g>
-          <rect
-            x={x + width / 2 - 25}
-            y={y - 22}
-            width={50}
-            height={18}
-            fill="white"
-            stroke="#10B981"
-            strokeWidth={1}
-            rx={9}
-            opacity={0.95}
-          />
           <text
             x={x + width / 2}
-            y={y - 8}
-            fill="#047857"
+            y={y + height / 2}
+            fill="white"
             textAnchor="middle"
-            fontSize="12"
+            fontSize="11"
             fontWeight="700"
+            transform={`rotate(-90, ${x + width / 2}, ${y + height / 2})`}
           >
             {Math.round(props.value)}
           </text>

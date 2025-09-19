@@ -16,18 +16,15 @@ import { FilterSettings } from '@/components/models/FilterSettings'
 import { ModelHighlightsSection } from '@/components/models/ModelHighlightsSection'
 import { transformModelsToTableModels } from '@/lib/models-table-mapper'
 import { useModels } from '@/contexts/ModelsContext'
-import { AAModelsTable } from '@/components/AAModelsTable'
 import {
   Search,
   Server,
   RefreshCw,
-  Filter,
-  Brain
+  Filter
 } from 'lucide-react'
 
 export default function ModelsPage() {
   const networkStatus = useNetworkStatus()
-  const [showAAModels, setShowAAModels] = useState(true) // Default to showing AA models
   const {
     filteredModels,
     loading,
@@ -56,7 +53,7 @@ export default function ModelsPage() {
     }
   }, [networkStatus?.isOnline, refreshModels])
 
-  if (loading && !error) {
+  if (false && loading && !error) { // Temporarily disabled for testing
     return (
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
         {/* Header Skeleton */}
@@ -171,17 +168,6 @@ export default function ModelsPage() {
             
             {/* Filter Actions */}
             <div className="flex gap-2">
-              {/* AA Models Toggle */}
-              <Button
-                variant={showAAModels ? "default" : "outline"}
-                size="sm"
-                onClick={() => setShowAAModels(!showAAModels)}
-                className="flex items-center gap-2"
-              >
-                <Brain className="w-4 h-4" />
-                AA Rankings
-              </Button>
-              
               {/* Filter Settings Dropdown */}
               <div className="relative">
                 <FilterSettings />
@@ -270,39 +256,17 @@ export default function ModelsPage() {
           </div>
         )}
 
-        {/* Toggle between AA Rankings and Regular Models */}
-        {showAAModels ? (
-          <div className="space-y-6">
-            <Card className="bg-gradient-to-r from-purple-50 to-indigo-50 border-purple-200">
-              <CardHeader>
-                <div className="flex items-center gap-2">
-                  <Brain className="w-5 h-5 text-purple-600" />
-                  <h2 className="text-xl font-bold text-purple-900">
-                    Artificial Analysis Intelligence Rankings
-                  </h2>
-                </div>
-                <p className="text-sm text-purple-700 mt-1">
-                  Independent benchmark data from artificialanalysis.ai
-                </p>
-              </CardHeader>
-              <CardContent>
-                <AAModelsTable />
-              </CardContent>
-            </Card>
-          </div>
-        ) : (
-          /* Regular Models Table */
-          !error && (
-            <TableErrorBoundary 
-              onSwitchToCards={() => console.log('Table view only')}
-              onError={() => console.error('Table rendering error occurred')}
-            >
-              <ModelTable 
-                models={tableModels}
-                className="w-full"
-              />
-            </TableErrorBoundary>
-          )
+        {/* Regular Models Table */}
+        {!error && (
+          <TableErrorBoundary
+            onSwitchToCards={() => console.log('Table view only')}
+            onError={() => console.error('Table rendering error occurred')}
+          >
+            <ModelTable
+              models={tableModels}
+              className="w-full"
+            />
+          </TableErrorBoundary>
         )}
 
         {/* No Results */}

@@ -1,5 +1,35 @@
 import { Model, BenchmarkScore, Pricing } from '@/types/models'
 
+// AA Models interface to match the JSON data structure
+interface AAModel {
+  rank: number
+  name: string
+  provider: string
+  slug: string
+  intelligenceScore: number
+  outputSpeed: number
+  inputPrice: number
+  outputPrice: number
+  contextWindow: number
+  lastUpdated: string
+  category: string
+  trend: string
+  metadata: {
+    source: string
+    scrapedAt: string
+    scrapingMethod: string
+  }
+}
+
+interface AAModelsData {
+  models: AAModel[]
+  metadata?: {
+    lastUpdated: string
+    source: string
+    totalModels?: number
+  }
+}
+
 // Provider color mapping for charts
 export const PROVIDER_COLORS: Record<string, string> = {
   'openai': '#000000',
@@ -171,7 +201,7 @@ export function rankModels(
     filterZero?: boolean
   } = {}
 ): ModelHighlight[] {
-  const { limit = 12, ascending = false, filterZero = true } = options
+  const { limit = 9, ascending = false, filterZero = true } = options
 
   // Calculate metrics for all models
   const modelsWithMetrics = models.map(model => ({
@@ -218,7 +248,7 @@ function formatMetricValue(value: number, metricType?: string): string {
 /**
  * Get top models for intelligence metric
  */
-export function getTopIntelligenceModels(models: Model[], limit = 12): ModelHighlight[] {
+export function getTopIntelligenceModels(models: Model[], limit = 9): ModelHighlight[] {
   console.log(`getTopIntelligenceModels called with ${models.length} models`)
   
   const extractor = (model: Model) => {
@@ -267,7 +297,7 @@ export function getTopIntelligenceModels(models: Model[], limit = 12): ModelHigh
 /**
  * Get top models for speed metric
  */
-export function getTopSpeedModels(models: Model[], limit = 12): ModelHighlight[] {
+export function getTopSpeedModels(models: Model[], limit = 9): ModelHighlight[] {
   const extractor = (model: Model) => {
     // Cast to any to check for preprocessed fields
     const modelAny = model as any
@@ -287,7 +317,7 @@ export function getTopSpeedModels(models: Model[], limit = 12): ModelHighlight[]
 /**
  * Get top models for price metric (cheapest first)
  */
-export function getTopPriceModels(models: Model[], limit = 12): ModelHighlight[] {
+export function getTopPriceModels(models: Model[], limit = 9): ModelHighlight[] {
   console.log(`getTopPriceModels called with ${models.length} models`)
   
   const extractor = (model: Model) => {
@@ -369,15 +399,155 @@ export interface ModelHighlightsData {
   }
 }
 
-export function getModelHighlights(models: Model[]): ModelHighlightsData {
+/**
+ * Fetch AA models data from GitHub repository
+ */
+async function fetchAAModels(): Promise<AAModelsData | null> {
+  try {
+    const sources = [
+      'https://raw.githubusercontent.com/ksy2728/AI-GO/master/public/data/aa-models.json',
+      'https://cdn.jsdelivr.net/gh/ksy2728/AI-GO@master/public/data/aa-models.json'
+    ]
+
+    for (const source of sources) {
+      try {
+        const response = await fetch(source, {
+          headers: { 'Cache-Control': 'no-cache' },
+          next: { revalidate: 300 } // 5 minute revalidation
+        })
+
+        if (response.ok) {
+          const data: AAModelsData = await response.json()
+          console.log(`📊 Fetched ${data.models?.length || 0} AA models from ${source}`)
+          return data
+        }
+      } catch (error) {
+        console.warn(`❌ Failed to fetch from ${source}:`, error)
+        continue
+      }
+    }
+
+    return null
+  } catch (error) {
+    console.error('❌ Failed to fetch AA models:', error)
+    return null
+  }
+}
+
+/**
+ * Convert AA model to ModelHighlight format
+ */
+function aaModelToHighlight(aaModel: AAModel, rank: number, value: number, displayValue: string): ModelHighlight {
   return {
-    intelligence: getTopIntelligenceModels(models),
-    speed: getTopSpeedModels(models),
-    price: getTopPriceModels(models),
-    metadata: {
-      lastUpdated: new Date().toISOString(),
-      totalModels: models.length,
-      dataSource: 'database'
+    modelId: aaModel.slug,
+    modelName: aaModel.name,
+    provider: aaModel.provider,
+    providerLogo: undefined, // Not available in AA data
+    color: PROVIDER_COLORS[aaModel.provider.toLowerCase()] || PROVIDER_COLORS.default,
+    value: value,
+    displayValue: displayValue,
+    rank: rank
+  }
+}
+
+/**
+ * Get model highlights using AA data with Top 9 rankings for each metric
+ */
+export async function getModelHighlights(models: Model[] = [], limit = 9): Promise<ModelHighlightsData> {
+  console.log('🎯 Getting model highlights with AA rankings (Top 9 each)')
+
+  try {
+    // Fetch fresh AA data
+    const aaData = await fetchAAModels()
+
+    if (!aaData || !aaData.models || aaData.models.length === 0) {
+      console.warn('⚠️ No AA data available, using fallback empty data')
+      return {
+        intelligence: [],
+        speed: [],
+        price: [],
+        metadata: {
+          lastUpdated: new Date().toISOString(),
+          totalModels: 0,
+          dataSource: 'aa-fallback'
+        }
+      }
+    }
+
+    // Get Top 9 models for each metric
+
+    // 1. Intelligence Score Rankings (highest first)
+    const intelligenceRankings = [...aaData.models]
+      .sort((a, b) => b.intelligenceScore - a.intelligenceScore)
+      .slice(0, limit)
+      .map((aaModel, index) =>
+        aaModelToHighlight(
+          aaModel,
+          index + 1,
+          aaModel.intelligenceScore,
+          aaModel.intelligenceScore.toFixed(1)
+        )
+      )
+
+    // 2. Output Speed Rankings (fastest first)
+    const speedRankings = [...aaData.models]
+      .sort((a, b) => b.outputSpeed - a.outputSpeed)
+      .slice(0, limit)
+      .map((aaModel, index) =>
+        aaModelToHighlight(
+          aaModel,
+          index + 1,
+          aaModel.outputSpeed,
+          Math.round(aaModel.outputSpeed).toString()
+        )
+      )
+
+    // 3. Price Rankings (cheapest first) - using average of input/output price
+    const priceRankings = [...aaData.models]
+      .map(aaModel => ({
+        ...aaModel,
+        avgPrice: (aaModel.inputPrice + aaModel.outputPrice) / 2
+      }))
+      .sort((a, b) => a.avgPrice - b.avgPrice)
+      .slice(0, limit)
+      .map((aaModel, index) =>
+        aaModelToHighlight(
+          aaModel,
+          index + 1,
+          aaModel.avgPrice,
+          `$${aaModel.avgPrice.toFixed(2)}`
+        )
+      )
+
+    console.log(`✅ Created AA-based highlights:`)
+    console.log(`   Intelligence: ${intelligenceRankings.length} models`)
+    console.log(`   Speed: ${speedRankings.length} models`)
+    console.log(`   Price: ${priceRankings.length} models`)
+
+    return {
+      intelligence: intelligenceRankings,
+      speed: speedRankings,
+      price: priceRankings,
+      metadata: {
+        lastUpdated: aaData.metadata?.lastUpdated || new Date().toISOString(),
+        totalModels: aaData.models.length,
+        dataSource: 'aa-rankings'
+      }
+    }
+
+  } catch (error) {
+    console.error('❌ Error in getModelHighlights:', error)
+
+    // Fallback to empty data
+    return {
+      intelligence: [],
+      speed: [],
+      price: [],
+      metadata: {
+        lastUpdated: new Date().toISOString(),
+        totalModels: 0,
+        dataSource: 'error-fallback'
+      }
     }
   }
 }

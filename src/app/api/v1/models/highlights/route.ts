@@ -138,8 +138,8 @@ export async function GET() {
       console.log(`Models with aaPrice > 0: ${modelsWithPrice.length}`)
     }
     
-    // Calculate highlights data
-    const highlights = getModelHighlights(models)
+    // Calculate highlights data using AA rankings
+    const highlights = await getModelHighlights(models)
     
     console.log('Highlights result:', {
       intelligenceCount: highlights.intelligence.length,

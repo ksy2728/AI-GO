@@ -55,15 +55,14 @@ export function PriceChart({ data, loading, error }: PriceChartProps) {
 
   const CustomBar = (props: any) => {
     const { fill, x, y, width, height } = props
-    const isLowestPrice = props.index === 0 // First bar is cheapest
-    
+
     return (
       <g className="bar-group">
         <defs>
           <linearGradient id={`price-gradient-${props.index}`} x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stopColor={isLowestPrice ? "#10B981" : "#FCD34D"} stopOpacity={1} />
-            <stop offset="50%" stopColor={isLowestPrice ? "#059669" : "#F59E0B"} stopOpacity={0.95} />
-            <stop offset="100%" stopColor={isLowestPrice ? "#047857" : "#DC2626"} stopOpacity={0.9} />
+            <stop offset="0%" stopColor="#FCD34D" stopOpacity={1} />
+            <stop offset="50%" stopColor="#F59E0B" stopOpacity={0.95} />
+            <stop offset="100%" stopColor="#DC2626" stopOpacity={0.9} />
           </linearGradient>
           <filter id={`price-shadow-${props.index}`}>
             <feDropShadow dx="0" dy="2" stdDeviation="3" floodOpacity="0.2" />
@@ -108,51 +107,17 @@ export function PriceChart({ data, loading, error }: PriceChartProps) {
           rx={2}
         />
         
-        {/* Best value indicator */}
-        {isLowestPrice && (
-          <g>
-            <rect
-              x={x + width / 2 - 30}
-              y={y + height / 2 - 10}
-              width={60}
-              height={20}
-              fill="white"
-              opacity={0.9}
-              rx={10}
-            />
-            <text
-              x={x + width / 2}
-              y={y + height / 2 + 4}
-              fill="#059669"
-              textAnchor="middle"
-              fontSize="10"
-              fontWeight="700"
-            >
-              BEST VALUE
-            </text>
-          </g>
-        )}
         
-        {/* Value label with background */}
+        {/* Value label inside bar - vertical text */}
         <g>
-          <rect
-            x={x + width / 2 - 30}
-            y={y - 22}
-            width={60}
-            height={18}
-            fill="white"
-            stroke={isLowestPrice ? "#10B981" : "#F59E0B"}
-            strokeWidth={1}
-            rx={9}
-            opacity={0.95}
-          />
           <text
             x={x + width / 2}
-            y={y - 8}
-            fill={isLowestPrice ? "#047857" : "#DC2626"}
+            y={y + height / 2}
+            fill="white"
             textAnchor="middle"
-            fontSize="12"
+            fontSize="11"
             fontWeight="700"
+            transform={`rotate(-90, ${x + width / 2}, ${y + height / 2})`}
           >
             ${props.value.toFixed(2)}
           </text>

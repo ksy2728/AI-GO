@@ -103,26 +103,16 @@ export function IntelligenceChart({ data, loading, error }: IntelligenceChartPro
           rx={2}
         />
         
-        {/* Value label with background */}
+        {/* Value label inside bar - vertical text */}
         <g>
-          <rect
-            x={x + width / 2 - 20}
-            y={y - 22}
-            width={40}
-            height={18}
-            fill="white"
-            stroke="#3B82F6"
-            strokeWidth={1}
-            rx={9}
-            opacity={0.95}
-          />
           <text
             x={x + width / 2}
-            y={y - 8}
-            fill="#1E40AF"
+            y={y + height / 2}
+            fill="white"
             textAnchor="middle"
-            fontSize="12"
+            fontSize="11"
             fontWeight="700"
+            transform={`rotate(-90, ${x + width / 2}, ${y + height / 2})`}
           >
             {props.value.toFixed(1)}
           </text>

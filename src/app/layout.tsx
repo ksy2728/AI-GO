@@ -4,6 +4,7 @@ import { Navigation } from '@/components/navigation'
 import { LanguageProvider } from '@/contexts/LanguageContext'
 import { RegionProvider } from '@/contexts/RegionContext'
 import { ModelsProvider } from '@/contexts/ModelsContext'
+import { QueryProvider } from '@/components/providers/QueryProvider'
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -37,10 +38,12 @@ export default function RootLayout({
         <LanguageProvider>
           <RegionProvider>
             <ModelsProvider>
-              <Navigation />
-              <main className="min-h-screen">
-                {children}
-              </main>
+              <QueryProvider>
+                <Navigation />
+                <main className="min-h-screen">
+                  {children}
+                </main>
+              </QueryProvider>
             </ModelsProvider>
           </RegionProvider>
         </LanguageProvider>

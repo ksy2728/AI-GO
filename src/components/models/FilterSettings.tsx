@@ -184,3 +184,4 @@ export function FilterSettings() {
     </>
   )
 }
+export default FilterSettings

@@ -80,32 +80,32 @@
   .touch-target {
     @apply min-h-[44px] min-w-[44px];
   }
-  
+
   /* Mobile-optimized typography */
   @media (max-width: 640px) {
     .text-responsive {
       @apply text-sm;
     }
-    
+
     h1 {
       @apply text-2xl;
     }
-    
+
     h2 {
       @apply text-xl;
     }
-    
+
     h3 {
       @apply text-lg;
     }
   }
-  
+
   /* Improved scrolling on mobile */
   .scroll-smooth-mobile {
     -webkit-overflow-scrolling: touch;
     scroll-behavior: smooth;
   }
-  
+
   /* Prevent text selection on interactive elements */
   .no-select {
     -webkit-user-select: none;
@@ -113,7 +113,7 @@
     -ms-user-select: none;
     user-select: none;
   }
-  
+
   /* Optimize animations for mobile */
   @media (prefers-reduced-motion: reduce) {
     * {
@@ -123,25 +123,164 @@
       scroll-behavior: auto !important;
     }
   }
-  
+
   /* Mobile-friendly table scrolling */
   .table-scroll {
     @apply overflow-x-auto;
     -webkit-overflow-scrolling: touch;
   }
-  
+
   .table-scroll table {
     @apply min-w-full;
   }
-  
+
   /* Sticky table headers for mobile */
   .table-sticky-header thead th {
     @apply sticky top-0 z-10 bg-white;
   }
-  
+
   .table-sticky-column td:first-child,
   .table-sticky-column th:first-child {
     @apply sticky left-0 z-10 bg-white;
+  }
+
+  /* Mobile navigation enhancements */
+  @media (max-width: 767px) {
+    /* Bottom navigation spacing */
+    body {
+      @apply pb-16; /* Space for bottom navigation */
+    }
+
+    /* Safe area insets for notched devices */
+    .safe-area-bottom {
+      padding-bottom: env(safe-area-inset-bottom);
+    }
+
+    .safe-area-top {
+      padding-top: env(safe-area-inset-top);
+    }
+
+    /* Mobile drawer animations */
+    .drawer-slide-in {
+      transform: translateX(0);
+      transition: transform 0.3s ease-out;
+    }
+
+    .drawer-slide-out {
+      transform: translateX(-100%);
+      transition: transform 0.3s ease-in;
+    }
+
+    /* FAB animations */
+    .fab-scale-in {
+      transform: scale(1) rotate(0deg);
+      transition: transform 0.2s ease-out;
+    }
+
+    .fab-scale-out {
+      transform: scale(0.8) rotate(-90deg);
+      transition: transform 0.2s ease-in;
+    }
+
+    /* Expandable card animations */
+    .expand-height {
+      transition: height 0.3s ease-in-out;
+    }
+
+    /* Pull-to-refresh styles */
+    .pull-indicator {
+      transform: translateY(-100%);
+      transition: transform 0.2s ease-out;
+    }
+
+    .pull-indicator.active {
+      transform: translateY(0);
+    }
+
+    /* Swipe gesture feedback */
+    .swipe-feedback {
+      opacity: 0;
+      transform: scale(0.8);
+      transition: opacity 0.2s ease-out, transform 0.2s ease-out;
+    }
+
+    .swipe-feedback.active {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  /* Progressive disclosure animations */
+  .disclosure-enter {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.3s ease-out, max-height 0.3s ease-out;
+  }
+
+  .disclosure-enter-active {
+    opacity: 1;
+    max-height: 500px;
+  }
+
+  .disclosure-exit {
+    opacity: 1;
+    max-height: 500px;
+    overflow: hidden;
+    transition: opacity 0.2s ease-in, max-height 0.2s ease-in;
+  }
+
+  .disclosure-exit-active {
+    opacity: 0;
+    max-height: 0;
+  }
+
+  /* Mobile-first responsive utilities */
+  .mobile-only {
+    @apply block;
+  }
+
+  @media (min-width: 768px) {
+    .mobile-only {
+      @apply hidden;
+    }
+  }
+
+  .desktop-only {
+    @apply hidden;
+  }
+
+  @media (min-width: 768px) {
+    .desktop-only {
+      @apply block;
+    }
+  }
+
+  /* Touch-friendly spacing */
+  .touch-spacing {
+    @apply py-4 px-4;
+  }
+
+  @media (min-width: 768px) {
+    .touch-spacing {
+      @apply py-2 px-3;
+    }
+  }
+
+  /* Mobile card styles */
+  .mobile-card {
+    @apply bg-white rounded-lg shadow-sm border border-gray-200 mb-4;
+  }
+
+  .mobile-card:hover {
+    @apply shadow-md;
+    transform: translateY(-1px);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+  }
+
+  .mobile-card:active {
+    @apply shadow-sm;
+    transform: translateY(0);
   }
 }
 

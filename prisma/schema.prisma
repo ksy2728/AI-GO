@@ -27,37 +27,46 @@ model Provider {
   @@map("providers")
 }
 
+/// This model contains an expression index which requires additional setup for migrations. Visit https://pris.ly/d/expression-indexes for more info.
 model Model {
-  id              String           @id @default(uuid())
-  providerId      String           @map("provider_id")
-  slug            String           @unique
-  name            String
-  description     String?
-  foundationModel String?          @map("foundation_model")
-  releasedAt      DateTime?        @map("released_at")
-  deprecatedAt    DateTime?        @map("deprecated_at")
-  sunsetAt        DateTime?        @map("sunset_at")
-  modalities      String           @default("[]")
-  capabilities    String           @default("[]")
-  contextWindow   Int?             @map("context_window")
-  maxOutputTokens Int?             @map("max_output_tokens")
-  trainingCutoff  DateTime?        @map("training_cutoff")
-  apiVersion      String?          @map("api_version")
-  isActive        Boolean          @default(true) @map("is_active")
-  metadata        String           @default("{}")
-  createdAt       DateTime         @default(now()) @map("created_at")
-  updatedAt       DateTime         @updatedAt @map("updated_at")
-  benchmarkScores BenchmarkScore[]
-  incidents       Incident[]
-  endpoints       ModelEndpoint[]
-  status          ModelStatus[]
-  provider        Provider         @relation(fields: [providerId], references: [id], onDelete: Cascade)
-  pricing         Pricing[]
+  id                String                   @id @default(uuid())
+  providerId        String                   @map("provider_id")
+  slug              String                   @unique
+  name              String
+  description       String?
+  foundationModel   String?                  @map("foundation_model")
+  releasedAt        DateTime?                @map("released_at")
+  deprecatedAt      DateTime?                @map("deprecated_at")
+  sunsetAt          DateTime?                @map("sunset_at")
+  modalities        String                   @default("[]")
+  capabilities      String                   @default("[]")
+  contextWindow     Int?                     @map("context_window")
+  maxOutputTokens   Int?                     @map("max_output_tokens")
+  trainingCutoff    DateTime?                @map("training_cutoff")
+  apiVersion        String?                  @map("api_version")
+  isActive          Boolean                  @default(true) @map("is_active")
+  metadata          String                   @default("{}")
+  createdAt         DateTime                 @default(now()) @map("created_at")
+  updatedAt         DateTime                 @updatedAt @map("updated_at")
+  searchVector      Unsupported("tsvector")? @map("search_vector")
+  tags              String[]                 @default([])
+  intelligenceScore Int?                     @map("intelligence_score")
+  outputSpeed       Int?                     @map("output_speed")
+  inputPrice        Decimal?                 @map("input_price") @db.Decimal(10, 4)
+  outputPrice       Decimal?                 @map("output_price") @db.Decimal(10, 4)
+  benchmarkScores   BenchmarkScore[]
+  incidents         Incident[]
+  endpoints         ModelEndpoint[]
+  status            ModelStatus[]
+  provider          Provider                 @relation(fields: [providerId], references: [id], onDelete: Cascade)
+  pricing           Pricing[]
 
   @@index([providerId])
   @@index([slug])
   @@index([foundationModel])
   @@index([isActive])
+  @@index([searchVector], map: "idx_models_search_vector", type: Gin)
+  @@index([tags], map: "idx_models_tags", type: Gin)
   @@map("models")
 }
 
@@ -182,7 +191,7 @@ model ModelStatus {
   requestsPerMin Int      @default(0) @map("requests_per_min")
   tokensPerMin   Int      @default(0) @map("tokens_per_min")
   usage          Float    @default(0)
-  region         String   @default("global") // Changed from nullable to default "global"
+  region         String   @default("global")
   checkedAt      DateTime @default(now()) @map("checked_at")
   createdAt      DateTime @default(now()) @map("created_at")
   updatedAt      DateTime @updatedAt @map("updated_at")
@@ -193,4 +202,20 @@ model ModelStatus {
   @@index([status])
   @@index([checkedAt])
   @@map("model_status")
+}
+
+model SavedFilter {
+  id          String    @id @default(dbgenerated("gen_random_uuid()"))
+  name        String
+  description String?
+  filters     Json      @default("{}")
+  user_id     String?
+  is_public   Boolean?  @default(false)
+  usage_count Int?      @default(0)
+  created_at  DateTime? @default(now())
+  updated_at  DateTime? @default(now())
+
+  @@index([usage_count(sort: Desc)], map: "idx_saved_filters_usage")
+  @@index([user_id, is_public], map: "idx_saved_filters_user_public")
+  @@map("saved_filters")
 }
