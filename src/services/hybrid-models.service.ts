@@ -207,7 +207,7 @@ export class HybridModelService {
       const dbModels = await ModelService.getAll(filters)
 
       // If AA-only but no AA models found in DB, try static fallback
-      if (filters?.aaOnly && (!dbModels || dbModels.length === 0)) {
+      if (filters?.aaOnly && (!dbModels || !Array.isArray(dbModels) || dbModels.length === 0)) {
         console.log('⚠️ No AA models in database, trying static fallback')
         const staticData = await this.getStaticAAData()
         if (staticData && staticData.models.length > 0) {
@@ -217,8 +217,8 @@ export class HybridModelService {
         }
       }
 
-      console.log(`✅ Database query successful: ${dbModels?.length || 0} models`)
-      return dbModels
+      console.log(`✅ Database query successful: ${Array.isArray(dbModels) ? dbModels.length : 0} models`)
+      return dbModels || []
     } catch (error) {
       console.error('❌ Database query failed:', error)
 
