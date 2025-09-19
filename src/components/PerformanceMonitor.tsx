@@ -5,7 +5,7 @@ import { initializePerformanceMonitor, getPerformanceMonitor, PERFORMANCE_THRESH
 
 interface PerformanceMetrics {
   lcp: number | null
-  fid: number | null
+  inp: number | null
   cls: number | null
   fcp: number | null
   ttfb: number | null
@@ -19,7 +19,7 @@ interface PerformanceMonitorProps {
 export function PerformanceMonitor({ showDevInfo = false, onReport }: PerformanceMonitorProps) {
   const [metrics, setMetrics] = useState<PerformanceMetrics>({
     lcp: null,
-    fid: null,
+    inp: null,
     cls: null,
     fcp: null,
     ttfb: null
@@ -42,7 +42,7 @@ export function PerformanceMonitor({ showDevInfo = false, onReport }: Performanc
           const currentMetrics = monitor.getMetrics()
           setMetrics({
             lcp: currentMetrics.get('LCP') || null,
-            fid: currentMetrics.get('FID') || null,
+            inp: currentMetrics.get('INP') || null,
             cls: currentMetrics.get('CLS') || null,
             fcp: currentMetrics.get('FCP') || null,
             ttfb: currentMetrics.get('TTFB') || null
@@ -117,9 +117,9 @@ export function PerformanceMonitor({ showDevInfo = false, onReport }: Performanc
         </div>
 
         <div className="flex justify-between items-center">
-          <span className="text-gray-600">FID:</span>
-          <span className={`px-2 py-1 rounded text-xs ${getStatusColor(getMetricStatus(metrics.fid, PERFORMANCE_THRESHOLDS.FID))}`}>
-            {formatMetric(metrics.fid)}
+          <span className="text-gray-600">INP:</span>
+          <span className={`px-2 py-1 rounded text-xs ${getStatusColor(getMetricStatus(metrics.inp, PERFORMANCE_THRESHOLDS.INP))}`}>
+            {formatMetric(metrics.inp)}
           </span>
         </div>
 
@@ -235,7 +235,7 @@ export function PerformanceOverlay() {
 export function usePerformance() {
   const [metrics, setMetrics] = useState<PerformanceMetrics>({
     lcp: null,
-    fid: null,
+    inp: null,
     cls: null,
     fcp: null,
     ttfb: null
@@ -250,7 +250,7 @@ export function usePerformance() {
       const currentMetrics = monitor.getMetrics()
       setMetrics({
         lcp: currentMetrics.get('LCP') || null,
-        fid: currentMetrics.get('FID') || null,
+        inp: currentMetrics.get('INP') || null,
         cls: currentMetrics.get('CLS') || null,
         fcp: currentMetrics.get('FCP') || null,
         ttfb: currentMetrics.get('TTFB') || null

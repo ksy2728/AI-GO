@@ -13,8 +13,8 @@ import {
 } from '@/types/unified-models';
 
 // Static import for AA models - works in Vercel serverless
-// Use relative path from src/services to public/data
-import * as aaModelsStaticData from '../../public/data/aa-models.json';
+// Use relative path from src/services to src/data
+import aaModelsStaticData from '../data/aa-models.json';
 
 interface AAModel {
   rank: number;

@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server'
-import * as aaModelsData from '../../../../public/data/aa-models.json'
+import aaModelsData from '@/data/aa-models.json'
 
 // Disable caching to always serve fresh data
 export const revalidate = 0
@@ -12,7 +12,7 @@ export const dynamic = 'force-dynamic'
 export async function GET() {
   try {
     // First, try to serve static data (always available)
-    const staticModels = aaModelsData.models || []
+    const staticModels = (aaModelsData as any).models || []
 
     // Optionally, try to fetch fresh data from GitHub
     try {

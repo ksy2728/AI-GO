@@ -2,13 +2,13 @@
  * Performance optimization utilities for mobile Lighthouse score 90+
  */
 
-import { getCLS, getFID, getFCP, getLCP, getTTFB, Metric } from 'web-vitals'
+import { onCLS, onINP, onFCP, onLCP, onTTFB, type Metric } from 'web-vitals'
 
 // Core Web Vitals thresholds
 export const PERFORMANCE_THRESHOLDS = {
   // Performance (90+ target)
   LCP: 2500, // ms - Largest Contentful Paint
-  FID: 100,  // ms - First Input Delay
+  INP: 200,  // ms - Interaction to Next Paint (replaced FID)
   CLS: 0.1,  // Cumulative Layout Shift
   FCP: 1800, // ms - First Contentful Paint
   TTFB: 600, // ms - Time to First Byte
@@ -26,7 +26,7 @@ export interface PerformanceReport {
   connection: string
   metrics: {
     lcp: number
-    fid: number
+    inp: number
     cls: number
     fcp: number
     ttfb: number
@@ -56,11 +56,11 @@ class PerformanceMonitor {
     this.isMonitoring = true
 
     // Core Web Vitals monitoring
-    getCLS(this.handleMetric.bind(this))
-    getFID(this.handleMetric.bind(this))
-    getFCP(this.handleMetric.bind(this))
-    getLCP(this.handleMetric.bind(this))
-    getTTFB(this.handleMetric.bind(this))
+    onCLS(this.handleMetric.bind(this))
+    onINP(this.handleMetric.bind(this))
+    onFCP(this.handleMetric.bind(this))
+    onLCP(this.handleMetric.bind(this))
+    onTTFB(this.handleMetric.bind(this))
 
     // Custom performance monitoring
     this.monitorResourceLoading()
@@ -171,7 +171,7 @@ class PerformanceMonitor {
     const now = Date.now()
     const metrics = {
       lcp: this.metrics.get('LCP') || 0,
-      fid: this.metrics.get('FID') || 0,
+      inp: this.metrics.get('INP') || 0,
       cls: this.metrics.get('CLS') || 0,
       fcp: this.metrics.get('FCP') || 0,
       ttfb: this.metrics.get('TTFB') || 0,
@@ -195,7 +195,7 @@ class PerformanceMonitor {
     // Simplified scoring algorithm
     const performanceScore = Math.max(0, 100 - (
       (metrics.lcp > PERFORMANCE_THRESHOLDS.LCP ? 20 : 0) +
-      (metrics.fid > PERFORMANCE_THRESHOLDS.FID ? 15 : 0) +
+      (metrics.inp > PERFORMANCE_THRESHOLDS.INP ? 15 : 0) +
       (metrics.cls > PERFORMANCE_THRESHOLDS.CLS ? 15 : 0) +
       (metrics.fcp > PERFORMANCE_THRESHOLDS.FCP ? 10 : 0) +
       (metrics.ttfb > PERFORMANCE_THRESHOLDS.TTFB ? 10 : 0)
@@ -216,8 +216,8 @@ class PerformanceMonitor {
       recommendations.push('Optimize Largest Contentful Paint by reducing image sizes and improving server response time')
     }
 
-    if (metrics.fid > PERFORMANCE_THRESHOLDS.FID) {
-      recommendations.push('Reduce First Input Delay by optimizing JavaScript execution')
+    if (metrics.inp > PERFORMANCE_THRESHOLDS.INP) {
+      recommendations.push('Reduce Interaction to Next Paint by optimizing JavaScript execution')
     }
 
     if (metrics.cls > PERFORMANCE_THRESHOLDS.CLS) {
@@ -291,7 +291,7 @@ export function deferNonCriticalCSS(cssUrl: string): void {
   link.as = 'style'
   link.href = cssUrl
   link.onload = function() {
-    this.rel = 'stylesheet'
+    (this as HTMLLinkElement).rel = 'stylesheet'
   }
   document.head.appendChild(link)
 }

@@ -358,7 +358,7 @@ export function preloadNonCriticalCSS(): void {
     link.as = 'style'
     link.href = href
     link.onload = function() {
-      this.rel = 'stylesheet'
+      (this as HTMLLinkElement).rel = 'stylesheet'
     }
     document.head.appendChild(link)
   })
