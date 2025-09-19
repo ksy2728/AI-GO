@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server'
-import aaModelsData from '../../../../../public/data/aa-models.json'
+import * as aaModelsData from '../../../../public/data/aa-models.json'
 
 // Disable caching to always serve fresh data
 export const revalidate = 0

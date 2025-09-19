@@ -13,7 +13,8 @@ import {
 } from '@/types/unified-models';
 
 // Static import for AA models - works in Vercel serverless
-import aaModelsStaticData from '../../public/data/aa-models.json';
+// Use relative path from src/services to public/data
+import * as aaModelsStaticData from '../../public/data/aa-models.json';
 
 interface AAModel {
   rank: number;
@@ -46,7 +47,16 @@ export class UnifiedModelService {
   private static async safeFetchAaModels(): Promise<AAModel[]> {
     // First priority: Use static import data (always works in Vercel)
     try {
-      const models = (aaModelsStaticData as any).models || [];
+      // Build-time verification log
+      const aaData = aaModelsStaticData as any;
+      console.log('📦 AA Models Static Data Check:', {
+        hasData: !!aaData,
+        hasModels: !!aaData?.models,
+        modelCount: aaData?.models?.length || 0,
+        firstModel: aaData?.models?.[0]?.name || 'No models found'
+      });
+
+      const models = aaData.models || [];
       console.log(`✅ Loaded ${models.length} models from static import (build-time data)`);
 
       // Optionally try to fetch fresh data from GitHub (for 6-hour updates)
