@@ -64,7 +64,7 @@ class ServiceWorkerManager {
   }
 
   // Install event - cache static resources
-  async handleInstall(event: ExtendableEvent): Promise<void> {
+  async handleInstall(event: any): Promise<void> {
     const cache = await caches.open(CACHE_NAMES.static)
 
     try {
@@ -79,7 +79,7 @@ class ServiceWorkerManager {
   }
 
   // Activate event - clean old caches
-  async handleActivate(event: ExtendableEvent): Promise<void> {
+  async handleActivate(event: any): Promise<void> {
     const cacheNames = await caches.keys()
 
     const deletePromises = cacheNames
@@ -96,7 +96,7 @@ class ServiceWorkerManager {
   }
 
   // Fetch event - implement caching strategies
-  async handleFetch(event: FetchEvent): Promise<Response> {
+  async handleFetch(event: any): Promise<Response> {
     const { request } = event
     const url = new URL(request.url)
 
@@ -371,15 +371,15 @@ class ServiceWorkerManager {
 const swManager = new ServiceWorkerManager(CACHE_VERSION)
 
 // Event listeners
-self.addEventListener('install', (event: ExtendableEvent) => {
+self.addEventListener('install', (event: any) => {
   event.waitUntil(swManager.handleInstall(event))
 })
 
-self.addEventListener('activate', (event: ExtendableEvent) => {
+self.addEventListener('activate', (event: any) => {
   event.waitUntil(swManager.handleActivate(event))
 })
 
-self.addEventListener('fetch', (event: FetchEvent) => {
+self.addEventListener('fetch', (event: any) => {
   event.respondWith(swManager.handleFetch(event))
 })
 
