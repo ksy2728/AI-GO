@@ -221,7 +221,12 @@ class ServiceWorkerManager {
 
     // No cached version, wait for network
     try {
-      return await networkPromise
+      const response = await networkPromise
+      if (response) {
+        return response
+      }
+      // If no response, return offline fallback
+      return new Response('Offline', { status: 503 })
     } catch (error) {
       throw error
     }
