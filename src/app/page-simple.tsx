@@ -213,14 +213,14 @@ export default function DashboardPage() {
     if (globalStats || apiStats) {
       // Simulate dynamic status updates for featured models
       const updatedModels = featuredModels.map((model: any) => {
-        // Add some variance to make it realistic
-        const variance = Math.random() * 2 - 1 // -1 to 1
+        // Use real data without artificial variance
         return {
           ...model,
-          availability: Math.min(100, Math.max(95, model.availability + variance)),
-          responseTime: Math.max(50, model.responseTime + (variance * 20)),
-          errorRate: Math.max(0, model.errorRate + (variance * 0.02)),
-          throughput: Math.max(100, model.throughput + (variance * 50))
+          // Keep original values without artificial modification
+          availability: model.availability,
+          responseTime: model.responseTime,
+          errorRate: model.errorRate,
+          throughput: model.throughput
         }
       })
       setModelsWithStatus(updatedModels)

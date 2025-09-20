@@ -202,12 +202,12 @@ export class ArtificialAnalysisScraperV2 {
               slug: modelName.toLowerCase().replace(/[^a-z0-9]+/g, '-'),
               name: modelName,
               provider: provider || 'Unknown',
-              intelligenceScore: intelligence || 70 + Math.random() * 20,
-              outputSpeed: speed || 50 + Math.random() * 150,
-              latency: 0.1 + Math.random() * 0.5,
+              intelligenceScore: intelligence || null, // No fake data
+              outputSpeed: speed || null,
+              latency: 0, // No latency data available
               price: {
-                input: inputPrice || Math.random() * 10,
-                output: outputPrice || Math.random() * 20
+                input: inputPrice || null,
+                output: outputPrice || null
               },
               contextWindow: 128000,
               rank: index + 1,
@@ -295,10 +295,10 @@ export class ArtificialAnalysisScraperV2 {
       provider: model.provider,
       intelligenceScore: model.intelligence,
       outputSpeed: model.speed,
-      latency: 0.1 + Math.random() * 0.3,
+      latency: 0, // No latency data available
       price: {
-        input: 2 + Math.random() * 8,
-        output: 5 + Math.random() * 15
+        input: 0, // No pricing data available
+        output: 0
       },
       contextWindow: 128000,
       rank: index + 1,

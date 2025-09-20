@@ -48,40 +48,51 @@ export async function GET(
         break;
     }
     
-    // Add some realistic variation
-    const responseTime = Math.round(baseResponseTime + (Math.random() * 40 - 20)); // ±20ms variation
-    const availability = Math.round((baseAvailability + (Math.random() * 0.4 - 0.2)) * 10) / 10; // ±0.2% variation
-    const errorRate = Math.round((baseErrorRate + (Math.random() * 0.005 - 0.0025)) * 1000) / 1000; // ±0.0025% variation
-    
-    // Always return operational status with region-specific metrics
+    // Use real data instead of artificial variation
+    const { RealTimeMonitor } = await import('@/services/real-time-monitor.service');
+
+    try {
+      const metrics = await RealTimeMonitor.getModelMetrics(modelId, 'unknown');
+
+      if (metrics) {
+        return NextResponse.json({
+          modelId,
+          status: metrics.status,
+          availability: metrics.availability,
+          responseTime: metrics.latencyP50,
+          errorRate: metrics.errorRate,
+          region: 'global',
+          timestamp: new Date().toISOString(),
+        });
+      }
+    } catch (error) {
+      console.error(`Failed to get real-time status for ${modelId}:`, error);
+    }
+
+    // No real data available - return null status
     return NextResponse.json({
       modelId,
-      status: 'operational',
-      availability: Math.max(98.5, Math.min(99.9, availability)), // Clamp between 98.5-99.9
-      responseTime: Math.max(150, Math.min(400, responseTime)), // Clamp between 150-400ms
-      errorRate: Math.max(0, Math.min(0.05, errorRate)), // Clamp between 0-0.05
-      region,
-      lastChecked: new Date().toISOString(),
-      source: 'region-aware-operational'
-    }, {
-      headers: {
-        'Cache-Control': 'public, s-maxage=60, stale-while-revalidate=120'
-      }
-    })
+      status: 'unknown',
+      availability: null,
+      responseTime: null,
+      errorRate: null,
+      region: 'global',
+      timestamp: new Date().toISOString(),
+    });
 
   } catch (error) {
-    console.error('Real-time status error:', error)
-    // Even on error, return operational status
+    console.error('Real-time status error:', error);
+    // Return error status instead of fake operational data
     return NextResponse.json({
       modelId: 'unknown',
-      status: 'operational',
-      availability: 99.5,
-      responseTime: 250,
-      errorRate: 0.01,
+      status: 'error',
+      availability: null,
+      responseTime: null,
+      errorRate: null,
       region: 'global',
       lastChecked: new Date().toISOString(),
-      source: 'error-fallback'
-    }, { status: 200 })
+      source: 'error-state'
+    }, { status: 500 });
   }
 }
 
@@ -105,13 +116,16 @@ export async function POST(request: NextRequest) {
             const data = `data: ${JSON.stringify(status)}\n\n`
             controller.enqueue(new TextEncoder().encode(data))
           } else {
-            // Generate fresh status if cache is empty or expired
+            // Generate fresh status from real data
+            const { RealTimeMonitor } = await import('@/services/real-time-monitor.service');
+            const metrics = await RealTimeMonitor.getModelMetrics(modelId, 'unknown');
+
             const freshStatus = {
               modelId,
-              status: 'operational',
-              availability: 99.5,
-              responseTime: 250,
-              errorRate: 0.01,
+              status: metrics?.status || 'unknown',
+              availability: metrics?.availability || null,
+              responseTime: metrics?.latencyP50 || null,
+              errorRate: metrics?.errorRate || null,
               region,
               lastChecked: new Date().toISOString(),
               expiresAt: Date.now() + (60 * 1000) // 1 minute

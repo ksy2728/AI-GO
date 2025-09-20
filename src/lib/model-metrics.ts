@@ -1,4 +1,6 @@
 import { Model, BenchmarkScore, Pricing } from '@/types/models'
+import { prisma } from '@/lib/prisma'
+import { Prisma } from '@prisma/client'
 
 // AA Models interface to match the JSON data structure
 interface AAModel {
@@ -451,13 +453,215 @@ function aaModelToHighlight(aaModel: AAModel, rank: number, value: number, displ
 }
 
 /**
- * Get model highlights using AA data with Top 9 rankings for each metric
+ * Fetch model highlights directly from database (server-side only)
+ */
+async function fetchModelHighlightsFromDBDirect(limit = 9): Promise<ModelHighlightsData | null> {
+  try {
+    console.log('🔍 Fetching model highlights directly from DB...')
+
+    // Get top models by intelligence score
+    const intelligenceModels = await prisma.model.findMany({
+      where: {
+        isActive: true,
+        intelligenceScore: { not: null }
+      },
+      select: {
+        id: true,
+        name: true,
+        intelligenceScore: true,
+        lastVerified: true,
+        provider: {
+          select: {
+            name: true,
+            logoUrl: true
+          }
+        }
+      },
+      orderBy: {
+        intelligenceScore: 'desc'
+      },
+      take: limit
+    })
+
+    // Get top models by output speed
+    const speedModels = await prisma.model.findMany({
+      where: {
+        isActive: true,
+        outputSpeed: { not: null }
+      },
+      select: {
+        id: true,
+        name: true,
+        outputSpeed: true,
+        lastVerified: true,
+        provider: {
+          select: {
+            name: true,
+            logoUrl: true
+          }
+        }
+      },
+      orderBy: {
+        outputSpeed: 'desc'
+      },
+      take: limit
+    })
+
+    // Get top models by price (cheapest first)
+    const priceModels = await prisma.$queryRaw<Array<{
+      id: string
+      name: string
+      provider_name: string
+      provider_logo: string | null
+      avg_price: number
+      last_verified: Date | null
+    }>>`
+      SELECT
+        m.id,
+        m.name,
+        p.name as provider_name,
+        p.logo_url as provider_logo,
+        ((COALESCE(m.input_price::numeric, 0) + COALESCE(m.output_price::numeric, 0)) / 2) as avg_price,
+        m.last_verified
+      FROM models m
+      JOIN providers p ON m.provider_id = p.id
+      WHERE m.is_active = true
+        AND (m.input_price IS NOT NULL OR m.output_price IS NOT NULL)
+        AND ((COALESCE(m.input_price::numeric, 0) + COALESCE(m.output_price::numeric, 0)) / 2) > 0
+      ORDER BY avg_price ASC
+      LIMIT ${limit}
+    `
+
+    // Transform data to response format
+    const intelligence: ModelHighlight[] = intelligenceModels.map((model, index) => ({
+      modelId: model.id,
+      modelName: model.name,
+      provider: model.provider.name,
+      value: model.intelligenceScore || 0,
+      displayValue: (model.intelligenceScore || 0).toFixed(1),
+      rank: index + 1,
+      color: PROVIDER_COLORS[model.provider.name.toLowerCase()] || PROVIDER_COLORS.default
+    }))
+
+    const speed: ModelHighlight[] = speedModels.map((model, index) => ({
+      modelId: model.id,
+      modelName: model.name,
+      provider: model.provider.name,
+      value: model.outputSpeed || 0,
+      displayValue: Math.round(model.outputSpeed || 0).toString() + ' tokens/s',
+      rank: index + 1,
+      color: PROVIDER_COLORS[model.provider.name.toLowerCase()] || PROVIDER_COLORS.default
+    }))
+
+    const price: ModelHighlight[] = priceModels.map((model, index) => ({
+      modelId: model.id,
+      modelName: model.name,
+      provider: model.provider_name,
+      value: Number(model.avg_price),
+      displayValue: '$' + Number(model.avg_price).toFixed(2),
+      rank: index + 1,
+      color: PROVIDER_COLORS[model.provider_name.toLowerCase()] || PROVIDER_COLORS.default
+    }))
+
+    // Get total model count
+    const totalModels = await prisma.model.count({
+      where: { isActive: true }
+    })
+
+    // Get most recent update time
+    const mostRecent = await prisma.model.findFirst({
+      where: {
+        isActive: true,
+        lastVerified: { not: null }
+      },
+      select: {
+        lastVerified: true
+      },
+      orderBy: {
+        lastVerified: 'desc'
+      }
+    })
+
+    console.log('✅ Successfully fetched model highlights directly from DB')
+
+    return {
+      intelligence,
+      speed,
+      price,
+      metadata: {
+        lastUpdated: mostRecent?.lastVerified?.toISOString() || new Date().toISOString(),
+        totalModels,
+        dataSource: 'database'
+      }
+    }
+  } catch (error) {
+    console.warn('⚠️ Failed to fetch directly from DB:', error)
+    return null
+  }
+}
+
+/**
+ * Fetch model highlights from DB API
+ */
+async function fetchModelHighlightsFromDB(limit = 9): Promise<ModelHighlightsData | null> {
+  try {
+    console.log('🔍 Fetching model highlights from DB API...')
+
+    // Determine the base URL based on environment
+    const baseUrl = typeof window === 'undefined'
+      ? process.env.NEXT_PUBLIC_BASE_URL || `http://localhost:${process.env.PORT || 3000}`
+      : ''
+
+    // Try to fetch from DB API first
+    const response = await fetch(`${baseUrl}/api/v1/models/metrics?limit=${limit}`, {
+      headers: { 'Cache-Control': 'no-cache' },
+      next: { revalidate: 300 } // 5 minute revalidation
+    })
+
+    if (response.ok) {
+      const data = await response.json()
+      console.log('✅ Successfully fetched model highlights from DB')
+      return data
+    } else {
+      console.warn(`⚠️ DB API returned status ${response.status}`)
+      return null
+    }
+  } catch (error) {
+    console.warn('⚠️ Failed to fetch from DB API:', error)
+    return null
+  }
+}
+
+/**
+ * Get model highlights using DB-first strategy with JSON fallback
  */
 export async function getModelHighlights(models: Model[] = [], limit = 9): Promise<ModelHighlightsData> {
-  console.log('🎯 Getting model highlights with AA rankings (Top 9 each)')
+  console.log('🎯 Getting model highlights (DB-first strategy)')
 
   try {
-    // Fetch fresh AA data
+    // If server-side, try direct DB access first
+    if (typeof window === 'undefined') {
+      try {
+        const directDbData = await fetchModelHighlightsFromDBDirect(limit)
+        if (directDbData) {
+          console.log('✅ Using direct DB data for highlights (server-side)')
+          return directDbData
+        }
+      } catch (error) {
+        console.warn('⚠️ Direct DB access failed, falling back to API:', error)
+      }
+    }
+
+    // Try DB API (for client-side or if direct DB fails)
+    const dbData = await fetchModelHighlightsFromDB(limit)
+
+    if (dbData) {
+      console.log('✅ Using DB API data for highlights')
+      return dbData
+    }
+
+    // Fallback to AA JSON data if DB fails
+    console.log('⚠️ DB API failed, falling back to AA JSON data...')
     const aaData = await fetchAAModels()
 
     if (!aaData || !aaData.models || aaData.models.length === 0) {
@@ -469,12 +673,12 @@ export async function getModelHighlights(models: Model[] = [], limit = 9): Promi
         metadata: {
           lastUpdated: new Date().toISOString(),
           totalModels: 0,
-          dataSource: 'aa-fallback'
+          dataSource: 'fallback-empty'
         }
       }
     }
 
-    // Get Top 9 models for each metric
+    // Get Top 9 models for each metric from AA JSON
 
     // 1. Intelligence Score Rankings (highest first)
     const intelligenceRankings = [...aaData.models]
@@ -519,7 +723,7 @@ export async function getModelHighlights(models: Model[] = [], limit = 9): Promi
         )
       )
 
-    console.log(`✅ Created AA-based highlights:`)
+    console.log(`✅ Created AA JSON-based highlights:`)
     console.log(`   Intelligence: ${intelligenceRankings.length} models`)
     console.log(`   Speed: ${speedRankings.length} models`)
     console.log(`   Price: ${priceRankings.length} models`)
@@ -531,14 +735,14 @@ export async function getModelHighlights(models: Model[] = [], limit = 9): Promi
       metadata: {
         lastUpdated: aaData.metadata?.lastUpdated || new Date().toISOString(),
         totalModels: aaData.models.length,
-        dataSource: 'aa-rankings'
+        dataSource: 'aa-json-fallback'
       }
     }
 
   } catch (error) {
     console.error('❌ Error in getModelHighlights:', error)
 
-    // Fallback to empty data
+    // Final fallback to empty data
     return {
       intelligence: [],
       speed: [],

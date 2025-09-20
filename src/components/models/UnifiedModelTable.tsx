@@ -5,6 +5,7 @@ import { UnifiedModel } from '@/types/unified-models'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Skeleton } from '@/components/ui/skeleton'
+import { DataSourceBadge } from '@/components/ui/DataSourceBadge'
 import {
   Brain,
   Zap,
@@ -302,8 +303,17 @@ export function UnifiedModelTable({
                   {/* Model Name */}
                   <td className="px-4 py-3 whitespace-nowrap text-sm">
                     <div>
-                      <div className="font-medium text-gray-900">
-                        {model.name}
+                      <div className="flex items-center gap-2">
+                        <span className="font-medium text-gray-900">
+                          {model.name}
+                        </span>
+                        {model.detailedSource && (
+                          <DataSourceBadge
+                            source={model.detailedSource}
+                            lastVerified={model.dataLastVerified}
+                            confidence={model.dataConfidence}
+                          />
+                        )}
                       </div>
                       {model.description && (
                         <div className="text-xs text-gray-500 mt-1 line-clamp-2">

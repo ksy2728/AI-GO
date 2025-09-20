@@ -2,6 +2,7 @@
 // Implements the comprehensive model integration system
 
 export type DataSource = 'artificial-analysis' | 'database' | 'hybrid';
+export type DetailedDataSource = 'api' | 'scraped' | 'config' | 'cached' | 'unknown';
 
 export interface AaMetrics {
   intelligence?: number;     // 0~100 AA intelligence score
@@ -13,6 +14,7 @@ export interface AaMetrics {
   category?: string;         // AA category classification
   trend?: string;           // Performance trend
   lastUpdated?: string;     // Last AA update timestamp
+  dataSource?: DetailedDataSource; // AA data source type
 }
 
 export interface DbMetrics {
@@ -33,6 +35,7 @@ export interface DbMetrics {
   usage?: number;           // Usage metrics
   updatedAt?: string;       // Last DB update
   region?: string;          // Service region
+  dataSource?: DetailedDataSource; // DB data source type
 }
 
 export interface UnifiedModel {
@@ -46,6 +49,9 @@ export interface UnifiedModel {
 
   // Data source tracking
   source: DataSource;       // Primary data source indicator
+  detailedSource?: DetailedDataSource; // Detailed data source type
+  dataLastVerified?: Date | string; // When data was last verified
+  dataConfidence?: number;  // Confidence score 0-1
 
   // Metrics containers
   aa?: AaMetrics;           // AA-specific metrics

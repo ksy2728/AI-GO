@@ -2,6 +2,10 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 import { Model, Pricing, Provider } from '@prisma/client';
 import { prisma } from '@/lib/prisma';
 import { logger } from '@/utils/logger';
+import { cache } from '@/lib/redis';
+import { RealTimeMonitor } from '../real-time-monitor.service';
+import * as fs from 'fs';
+import * as path from 'path';
 
 export interface GoogleModel {
   id: string;
@@ -17,6 +21,7 @@ export interface GoogleModel {
   input_cost_per_1k?: number;
   output_cost_per_1k?: number;
   capabilities?: string[];
+  dataSource?: string; // Track where the data came from: 'api' | 'config' | 'scraped'
 }
 
 export class GoogleService {
@@ -31,106 +36,152 @@ export class GoogleService {
   }
 
   /**
-   * Get available Google AI models
+   * Get available Google AI models from live API
    */
   async getModels(): Promise<GoogleModel[]> {
-    // Google doesn't have a public models list API yet, so we define them manually
-    // These are the current Gemini models as of 2024
-    const models: GoogleModel[] = [
-      {
-        id: 'gemini-1.5-pro',
-        name: 'Gemini 1.5 Pro',
-        description: 'Most capable model for complex reasoning and long context',
-        version: '001',
-        input_token_limit: 2097152, // 2M tokens
-        output_token_limit: 8192,
-        supported_generation_methods: ['generateContent', 'streamGenerateContent'],
-        temperature: 1.0,
-        top_p: 0.95,
-        top_k: 64,
-        input_cost_per_1k: 0.0035,
-        output_cost_per_1k: 0.0105,
-        capabilities: ['text', 'code', 'vision', 'function-calling', 'json-mode'],
-      },
-      {
-        id: 'gemini-1.5-flash',
-        name: 'Gemini 1.5 Flash',
-        description: 'Fast and efficient model for high-volume tasks',
-        version: '001',
-        input_token_limit: 1048576, // 1M tokens
-        output_token_limit: 8192,
-        supported_generation_methods: ['generateContent', 'streamGenerateContent'],
-        temperature: 1.0,
-        top_p: 0.95,
-        top_k: 64,
-        input_cost_per_1k: 0.00035,
-        output_cost_per_1k: 0.00105,
-        capabilities: ['text', 'code', 'vision', 'function-calling'],
-      },
-      {
-        id: 'gemini-1.5-flash-8b',
-        name: 'Gemini 1.5 Flash-8B',
-        description: 'Smallest and fastest model for simple tasks',
-        version: '001',
-        input_token_limit: 1048576, // 1M tokens
-        output_token_limit: 8192,
-        supported_generation_methods: ['generateContent', 'streamGenerateContent'],
-        temperature: 1.0,
-        top_p: 0.95,
-        top_k: 64,
-        input_cost_per_1k: 0.00015,
-        output_cost_per_1k: 0.0006,
-        capabilities: ['text', 'code', 'vision'],
-      },
-      {
-        id: 'gemini-pro',
-        name: 'Gemini Pro',
-        description: 'Previous generation model for general tasks',
-        version: '001',
-        input_token_limit: 32768,
-        output_token_limit: 8192,
-        supported_generation_methods: ['generateContent', 'streamGenerateContent'],
-        temperature: 0.9,
-        top_p: 1.0,
-        top_k: 32,
-        input_cost_per_1k: 0.0005,
-        output_cost_per_1k: 0.0015,
-        capabilities: ['text', 'code'],
-      },
-      {
-        id: 'gemini-pro-vision',
-        name: 'Gemini Pro Vision',
-        description: 'Multimodal model for text and image understanding',
-        version: '001',
-        input_token_limit: 16384,
-        output_token_limit: 2048,
-        supported_generation_methods: ['generateContent'],
-        temperature: 0.4,
-        top_p: 1.0,
-        top_k: 32,
-        input_cost_per_1k: 0.0005,
-        output_cost_per_1k: 0.0015,
-        capabilities: ['text', 'vision'],
-      },
-      {
-        id: 'gemini-ultra',
-        name: 'Gemini Ultra',
-        description: 'Most powerful model for highly complex tasks (coming soon)',
-        version: '001',
-        input_token_limit: 1048576,
-        output_token_limit: 8192,
-        supported_generation_methods: ['generateContent', 'streamGenerateContent'],
-        temperature: 1.0,
-        top_p: 0.95,
-        top_k: 64,
-        input_cost_per_1k: 0.01, // Estimated
-        output_cost_per_1k: 0.03, // Estimated
-        capabilities: ['text', 'code', 'vision', 'audio', 'video', 'function-calling'],
-      },
-    ];
+    const cacheKey = 'google:models:list'
+    const cached = await cache.get<GoogleModel[]>(cacheKey)
+    if (cached) {
+      console.log('📦 Google models cache hit')
+      return cached
+    }
 
-    return models;
+    try {
+      // Try to get models from Google AI API
+      const apiModels = await this.fetchModelsFromAPI()
+      if (apiModels.length > 0) {
+        // Cache for 6 hours
+        await cache.set(cacheKey, apiModels, 21600)
+        console.log(`✅ Fetched ${apiModels.length} models from Google AI API`)
+        return apiModels
+      }
+    } catch (error) {
+      console.error('Failed to fetch Google AI models from API:', error)
+      // Return empty array instead of fallback
+      return []
+    }
+
+    // No fallback - only real API data
+    return []
   }
+
+  /**
+   * Fetch models from Google AI API
+   */
+  private async fetchModelsFromAPI(): Promise<GoogleModel[]> {
+    const apiKey = process.env.GOOGLE_AI_API_KEY
+    if (!apiKey) {
+      throw new Error('Google AI API key not configured')
+    }
+
+    const response = await fetch(`https://generativelanguage.googleapis.com/v1/models?key=${apiKey}`, {
+      headers: {
+        'Accept': 'application/json',
+        'User-Agent': 'AI-Server-Info/1.0'
+      },
+      signal: AbortSignal.timeout(10000)
+    })
+
+    if (!response.ok) {
+      throw new Error(`Google AI API returned ${response.status}: ${response.statusText}`)
+    }
+
+    const data = await response.json()
+    const models: GoogleModel[] = []
+
+    for (const model of data.models || []) {
+      // Only include generative models
+      if (model.supportedGenerationMethods?.includes('generateContent')) {
+        const modelInfo = this.parseModelInfo(model)
+        if (modelInfo) {
+          models.push(modelInfo)
+        }
+      }
+    }
+
+    return models
+  }
+
+  /**
+   * Parse model information from API response
+   */
+  private parseModelInfo(apiModel: any): GoogleModel | null {
+    try {
+      const modelId = apiModel.name.replace('models/', '')
+
+      // Try to load defaults from config file if API doesn't provide pricing
+      let pricing = { input: 0, output: 0 }
+      let dataSource = 'api'
+
+      try {
+        const configPath = path.join(process.cwd(), 'config', 'model-defaults.json')
+        if (fs.existsSync(configPath)) {
+          const config = JSON.parse(fs.readFileSync(configPath, 'utf-8'))
+          if (config.google?.models?.[modelId]) {
+            pricing = {
+              input: config.google.models[modelId].inputPrice || 0,
+              output: config.google.models[modelId].outputPrice || 0
+            }
+            dataSource = 'config'
+          }
+        }
+      } catch (err) {
+        console.warn('Could not load model defaults:', err)
+      }
+
+      return {
+        id: modelId,
+        name: apiModel.displayName || this.formatModelName(modelId),
+        description: apiModel.description || '',
+        version: apiModel.version || '001',
+        input_token_limit: apiModel.inputTokenLimit || 32768,
+        output_token_limit: apiModel.outputTokenLimit || 8192,
+        supported_generation_methods: apiModel.supportedGenerationMethods || [],
+        temperature: apiModel.temperature || 1.0,
+        top_p: apiModel.topP || 0.95,
+        top_k: apiModel.topK || 64,
+        input_cost_per_1k: pricing.input,
+        output_cost_per_1k: pricing.output,
+        capabilities: this.inferCapabilities(modelId, apiModel),
+        dataSource // Track where the data came from
+      }
+    } catch (error) {
+      console.error('Failed to parse model info:', error)
+      return null
+    }
+  }
+
+
+  /**
+   * Format model name from ID
+   */
+  private formatModelName(modelId: string): string {
+    return modelId
+      .replace(/gemini-/g, 'Gemini ')
+      .replace(/-/g, ' ')
+      .replace(/\b\w/g, l => l.toUpperCase())
+  }
+
+  /**
+   * Infer model capabilities from ID and API data
+   */
+  private inferCapabilities(modelId: string, apiModel: any): string[] {
+    const capabilities = ['text', 'code']
+
+    if (modelId.includes('vision') || apiModel.description?.includes('vision')) {
+      capabilities.push('vision')
+    }
+
+    if (modelId.includes('1.5')) {
+      capabilities.push('function-calling')
+      if (modelId.includes('pro')) {
+        capabilities.push('json-mode')
+      }
+    }
+
+    return capabilities
+  }
+
 
   /**
    * Check if a model is available by making a test request
@@ -144,6 +195,10 @@ export class GoogleService {
     try {
       const model = this.client.getGenerativeModel({ model: modelId });
       const result = await model.generateContent('Hi');
+
+      // Record this check as a minimal API call
+      RealTimeMonitor.recordApiCall(modelId, this.providerId, 2); // Minimal tokens for status check
+
       return result.response.text().length > 0;
     } catch (error) {
       logger.error(`Error checking Google model ${modelId}:`, error);
@@ -223,10 +278,13 @@ export class GoogleService {
               isActive: model.isActive,
               capabilities: JSON.stringify(model.capabilities || []),
               modalities: JSON.stringify(['text']),
+              dataSource: model.dataSource || 'unknown', // Track data origin
+              lastVerified: new Date(), // Update verification timestamp
               metadata: JSON.stringify({
                 supportsVision: model.capabilities?.includes('vision') || false,
                 modelType: 'language',
-                status: model.isActive ? 'active' : model.name.includes('coming soon') ? 'upcoming' : 'deprecated'
+                status: model.isActive ? 'active' : model.name.includes('coming soon') ? 'upcoming' : 'deprecated',
+                dataSource: model.dataSource // Also store in metadata for backwards compatibility
               })
             },
             create: {
@@ -239,10 +297,13 @@ export class GoogleService {
               isActive: model.isActive,
               capabilities: JSON.stringify(model.capabilities || []),
               modalities: JSON.stringify(['text']),
+              dataSource: model.dataSource || 'unknown', // Track data origin
+              lastVerified: new Date(), // Set initial verification timestamp
               metadata: JSON.stringify({
                 supportsVision: model.capabilities?.includes('vision') || false,
                 modelType: 'language',
-                status: model.isActive ? 'active' : model.name.includes('coming soon') ? 'upcoming' : 'deprecated'
+                status: model.isActive ? 'active' : model.name.includes('coming soon') ? 'upcoming' : 'deprecated',
+                dataSource: model.dataSource // Also store in metadata for backwards compatibility
               })
             }
           });
@@ -317,7 +378,12 @@ export class GoogleService {
       const model = this.client.getGenerativeModel({ model: modelId });
       const result = await model.generateContent(message);
       const response = result.response;
-      
+
+      // Record API call for real metrics
+      const metadata = response.usageMetadata;
+      const tokensUsed = (metadata?.promptTokenCount || 0) + (metadata?.candidatesTokenCount || 0);
+      RealTimeMonitor.recordApiCall(modelId, this.providerId, tokensUsed);
+
       return {
         success: true,
         model: modelId,

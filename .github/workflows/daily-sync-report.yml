@@ -1,0 +1,102 @@
+name: Daily Sync Report
+
+on:
+  schedule:
+    # 매일 오전 9시 (UTC 0시 = KST 9시)
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  daily-report:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Generate daily report
+      id: report
+      run: |
+        cat << 'EOF' > daily-report.js
+        const fs = require('fs');
+
+        async function generateReport() {
+          const report = {
+            date: new Date().toISOString().split('T')[0],
+            apis: {
+              openai: process.env.OPENAI_API_KEY ? '✅' : '❌',
+              anthropic: process.env.ANTHROPIC_API_KEY ? '✅' : '❌',
+              google: process.env.GOOGLE_AI_API_KEY ? '✅' : '❌',
+              replicate: process.env.REPLICATE_API_TOKEN ? '✅' : '❌'
+            },
+            scrapers: {
+              artificialAnalysis: 'Checking...',
+              openaiPricing: 'Checking...',
+              anthropicDocs: 'Checking...'
+            },
+            summary: {
+              totalModels: 0,
+              apiSources: 0,
+              scrapedSources: 0,
+              configSources: 0
+            }
+          };
+
+          // Check AA scraper
+          try {
+            const response = await fetch('https://raw.githubusercontent.com/ksy2728/AI-GO/master/public/data/aa-models.json');
+            const data = await response.json();
+            report.scrapers.artificialAnalysis = `✅ ${data.models?.length || 0} models`;
+            report.summary.totalModels = data.models?.length || 0;
+          } catch (error) {
+            report.scrapers.artificialAnalysis = '❌ Failed';
+          }
+
+          return report;
+        }
+
+        generateReport().then(report => {
+          console.log(JSON.stringify(report, null, 2));
+          fs.writeFileSync('report.json', JSON.stringify(report, null, 2));
+        });
+        EOF
+
+        node daily-report.js
+      env:
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        GOOGLE_AI_API_KEY: ${{ secrets.GOOGLE_AI_API_KEY }}
+        REPLICATE_API_TOKEN: ${{ secrets.REPLICATE_API_TOKEN }}
+
+    - name: Send daily report to Slack
+      if: success()
+      run: |
+        REPORT=$(cat report.json)
+        DATE=$(date -u '+%Y-%m-%d')
+
+        curl -X POST -H 'Content-type: application/json' \
+        --data "{
+          \"text\": \"📊 Daily AI Server Report - ${DATE}\",
+          \"attachments\": [{
+            \"color\": \"good\",
+            \"title\": \"System Status Summary\",
+            \"text\": \"\`\`\`${REPORT}\`\`\`\",
+            \"footer\": \"Automated Daily Report\",
+            \"ts\": $(date +%s)
+          }]
+        }" ${{ secrets.SLACK_WEBHOOK_URL }}
+
+    - name: Upload report artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: daily-report-${{ github.run_number }}
+        path: report.json
+        retention-days: 30

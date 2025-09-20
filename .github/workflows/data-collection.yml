@@ -1,0 +1,136 @@
+name: Automated Data Collection
+
+on:
+  schedule:
+    # Run every hour
+    - cron: '0 * * * *'
+  workflow_dispatch:
+    inputs:
+      force_update:
+        description: 'Force update all data'
+        required: false
+        default: 'false'
+
+jobs:
+  collect-data:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Setup PostgreSQL
+      env:
+        DATABASE_URL: ${{ secrets.DATABASE_URL }}
+      run: npx prisma migrate deploy
+
+    - name: Setup Redis cache
+      uses: shogo82148/actions-setup-redis@v1
+      with:
+        redis-version: '7.x'
+
+    - name: Run data aggregation
+      env:
+        DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        REDIS_URL: ${{ secrets.REDIS_URL }}
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        GOOGLE_GENERATIVE_AI_API_KEY: ${{ secrets.GOOGLE_GENERATIVE_AI_API_KEY }}
+        REPLICATE_API_TOKEN: ${{ secrets.REPLICATE_API_TOKEN }}
+        FORCE_UPDATE: ${{ github.event.inputs.force_update }}
+      run: npm run aggregate-data
+
+    - name: Generate transparency report
+      env:
+        DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        REDIS_URL: ${{ secrets.REDIS_URL }}
+      run: npm run generate-report
+
+    - name: Upload transparency report
+      uses: actions/upload-artifact@v3
+      with:
+        name: transparency-report
+        path: reports/transparency-*.json
+        retention-days: 30
+
+    - name: Check data quality
+      id: quality_check
+      env:
+        DATABASE_URL: ${{ secrets.DATABASE_URL }}
+      run: |
+        npm run check-data-quality
+        echo "quality_score=$?" >> $GITHUB_OUTPUT
+
+    - name: Send notification on low quality
+      if: steps.quality_check.outputs.quality_score != '0'
+      uses: 8398a7/action-slack@v3
+      with:
+        status: warning
+        text: 'Data quality check failed. Manual review required.'
+        webhook_url: ${{ secrets.SLACK_WEBHOOK }}
+
+    - name: Update status badge
+      if: success()
+      run: |
+        echo "![Data Collection](https://img.shields.io/badge/Data%20Collection-Active-green)" > status.md
+        echo "Last updated: $(date -u +'%Y-%m-%d %H:%M UTC')" >> status.md
+
+    - name: Commit status update
+      if: success()
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add status.md || true
+        git commit -m "Update data collection status [skip ci]" || true
+        git push || true
+
+  validate-scrapers:
+    runs-on: ubuntu-latest
+    needs: collect-data
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Install Playwright browsers
+      run: npx playwright install chromium
+
+    - name: Test OpenAI scraper
+      env:
+        REDIS_URL: ${{ secrets.REDIS_URL }}
+      run: npm run test:scraper:openai
+      continue-on-error: true
+
+    - name: Test Anthropic scraper
+      env:
+        REDIS_URL: ${{ secrets.REDIS_URL }}
+      run: npm run test:scraper:anthropic
+      continue-on-error: true
+
+    - name: Generate scraper health report
+      run: npm run scraper-health-report
+
+    - name: Upload scraper reports
+      uses: actions/upload-artifact@v3
+      with:
+        name: scraper-reports
+        path: reports/scraper-health-*.json
+        retention-days: 7

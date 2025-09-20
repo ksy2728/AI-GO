@@ -1,0 +1,113 @@
+{
+  "google": {
+    "lastUpdated": "2024-12-20",
+    "source": "manual",
+    "models": {
+      "gemini-1.5-pro": {
+        "inputPrice": 0.0035,
+        "outputPrice": 0.0105,
+        "contextWindow": 2097152,
+        "maxTokens": 8192
+      },
+      "gemini-1.5-flash": {
+        "inputPrice": 0.00035,
+        "outputPrice": 0.00105,
+        "contextWindow": 1048576,
+        "maxTokens": 8192
+      },
+      "gemini-1.5-flash-8b": {
+        "inputPrice": 0.00015,
+        "outputPrice": 0.0006,
+        "contextWindow": 1048576,
+        "maxTokens": 8192
+      },
+      "gemini-pro": {
+        "inputPrice": 0.0005,
+        "outputPrice": 0.0015,
+        "contextWindow": 32768,
+        "maxTokens": 8192
+      },
+      "gemini-pro-vision": {
+        "inputPrice": 0.0005,
+        "outputPrice": 0.0015,
+        "contextWindow": 32768,
+        "maxTokens": 8192
+      }
+    }
+  },
+  "anthropic": {
+    "lastUpdated": "2024-12-20",
+    "source": "manual",
+    "models": {
+      "claude-3-5-sonnet-20241022": {
+        "name": "Claude 3.5 Sonnet",
+        "description": "Latest and most capable Sonnet model with computer use",
+        "contextWindow": 200000,
+        "maxOutputTokens": 8192,
+        "inputPrice": 0.003,
+        "outputPrice": 0.015,
+        "capabilities": ["chat", "analysis", "coding", "vision", "computer-use"]
+      },
+      "claude-3-5-haiku-20241022": {
+        "name": "Claude 3.5 Haiku",
+        "description": "Fastest model with vision capabilities",
+        "contextWindow": 200000,
+        "maxOutputTokens": 8192,
+        "inputPrice": 0.0008,
+        "outputPrice": 0.004,
+        "capabilities": ["chat", "analysis", "coding", "vision"]
+      },
+      "claude-3-opus-20240229": {
+        "name": "Claude 3 Opus",
+        "description": "Most capable model for highly complex tasks",
+        "contextWindow": 200000,
+        "maxOutputTokens": 4096,
+        "inputPrice": 0.015,
+        "outputPrice": 0.075,
+        "capabilities": ["chat", "analysis", "coding", "creative-writing", "vision"]
+      },
+      "claude-3-sonnet-20240229": {
+        "name": "Claude 3 Sonnet",
+        "description": "Balanced performance and speed",
+        "contextWindow": 200000,
+        "maxOutputTokens": 4096,
+        "inputPrice": 0.003,
+        "outputPrice": 0.015,
+        "capabilities": ["chat", "analysis", "coding", "vision"]
+      },
+      "claude-3-haiku-20240307": {
+        "name": "Claude 3 Haiku",
+        "description": "Fastest and most compact model",
+        "contextWindow": 200000,
+        "maxOutputTokens": 4096,
+        "inputPrice": 0.00025,
+        "outputPrice": 0.00125,
+        "capabilities": ["chat", "analysis", "coding", "vision"]
+      }
+    }
+  },
+  "meta": {
+    "lastUpdated": "2024-12-20",
+    "source": "estimated",
+    "models": {
+      "llama-3.1-405b": {
+        "inputPrice": 2.0,
+        "outputPrice": 2.0,
+        "contextWindow": 128000,
+        "maxTokens": 128000
+      },
+      "llama-3.1-70b": {
+        "inputPrice": 0.5,
+        "outputPrice": 0.5,
+        "contextWindow": 128000,
+        "maxTokens": 128000
+      },
+      "llama-3.1-8b": {
+        "inputPrice": 0.05,
+        "outputPrice": 0.05,
+        "contextWindow": 128000,
+        "maxTokens": 128000
+      }
+    }
+  }
+}

@@ -9,9 +9,13 @@ interface PriceChartProps {
   data: ModelHighlight[]
   loading?: boolean
   error?: string
+  metadata?: {
+    lastUpdated: string
+    dataSource: string
+  }
 }
 
-export function PriceChart({ data, loading, error }: PriceChartProps) {
+export function PriceChart({ data, loading, error, metadata }: PriceChartProps) {
   const chartData = data.map(item => ({
     name: item.modelName.length > 15 
       ? item.modelName.substring(0, 12) + '...' 
@@ -134,6 +138,8 @@ export function PriceChart({ data, loading, error }: PriceChartProps) {
       icon={<DollarSign className="w-6 h-6 text-orange-600" />}
       loading={loading}
       error={error}
+      dataSource={metadata?.dataSource}
+      lastUpdated={metadata?.lastUpdated}
     >
       <ResponsiveContainer width="100%" height={320}>
         <BarChart 

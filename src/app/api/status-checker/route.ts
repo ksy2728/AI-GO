@@ -10,6 +10,47 @@ interface ServerStatus {
   lastChecked: string
 }
 
+// Calculate availability based on intelligence score
+function calculateAvailability(intelligence: number): number {
+  if (intelligence > 80) {
+    return Math.round((99.0 + (intelligence - 80) / 100) * 10) / 10 // 99.0-99.2%
+  } else if (intelligence > 70) {
+    return Math.round((98.0 + (intelligence - 70) / 50) * 10) / 10 // 98.0-98.2%
+  } else if (intelligence > 60) {
+    return Math.round((95.0 + (intelligence - 60) / 33.3) * 10) / 10 // 95.0-95.3%
+  } else {
+    return Math.round((90.0 + intelligence / 60 * 5) * 10) / 10 // 90.0-95.0%
+  }
+}
+
+// Calculate response time based on intelligence and status
+function calculateResponseTime(intelligence: number, status: string): number {
+  let baseTime = 200
+
+  if (status === 'operational') {
+    baseTime = 150 + (100 - intelligence) * 2 // 150-210ms based on intelligence
+  } else if (status === 'degraded') {
+    baseTime = 300 + (80 - intelligence) * 3 // 300-390ms
+  } else {
+    baseTime = 500 + (60 - intelligence) * 10 // 500-1100ms
+  }
+
+  return Math.round(baseTime)
+}
+
+// Calculate error rate based on intelligence score
+function calculateErrorRate(intelligence: number): number {
+  if (intelligence > 80) {
+    return Math.round((0.01 + (100 - intelligence) / 1000) * 1000) / 1000 // 0.01-0.02%
+  } else if (intelligence > 70) {
+    return Math.round((0.05 + (80 - intelligence) / 200) * 1000) / 1000 // 0.05-0.10%
+  } else if (intelligence > 60) {
+    return Math.round((0.2 + (70 - intelligence) / 100) * 1000) / 1000 // 0.2-0.3%
+  } else {
+    return Math.round((0.5 + (60 - intelligence) / 50) * 1000) / 1000 // 0.5-1.7%
+  }
+}
+
 // Generate status based on intelligence score from AA data
 async function generateRealisticStatus(modelId: string, region: string = 'global'): Promise<ServerStatus> {
   try {
@@ -24,22 +65,22 @@ async function generateRealisticStatus(modelId: string, region: string = 'global
     let baseErrorRate = 0.01
 
     if (model && model.intelligence !== undefined) {
-      // Base status on intelligence score (like in UnifiedModelService)
+      // Base status on intelligence score (calculated deterministically)
       if (model.intelligence > 70) {
         status = 'operational'
-        baseAvailability = 99.0 + Math.random() * 0.9 // 99.0-99.9%
-        baseResponseTime = 180 + Math.random() * 120 // 180-300ms
-        baseErrorRate = Math.random() * 0.02 // 0-0.02%
+        baseAvailability = calculateAvailability(model.intelligence)
+        baseResponseTime = calculateResponseTime(model.intelligence, 'operational')
+        baseErrorRate = calculateErrorRate(model.intelligence)
       } else if (model.intelligence > 50) {
         status = 'degraded'
-        baseAvailability = 95.0 + Math.random() * 3.0 // 95.0-98.0%
-        baseResponseTime = 300 + Math.random() * 200 // 300-500ms
-        baseErrorRate = 0.02 + Math.random() * 0.05 // 0.02-0.07%
+        baseAvailability = calculateAvailability(model.intelligence)
+        baseResponseTime = calculateResponseTime(model.intelligence, 'degraded')
+        baseErrorRate = calculateErrorRate(model.intelligence)
       } else {
         status = 'outage'
-        baseAvailability = 80.0 + Math.random() * 10.0 // 80.0-90.0%
-        baseResponseTime = 500 + Math.random() * 1000 // 500-1500ms
-        baseErrorRate = 0.1 + Math.random() * 0.2 // 0.1-0.3%
+        baseAvailability = calculateAvailability(model.intelligence)
+        baseResponseTime = calculateResponseTime(model.intelligence, 'outage')
+        baseErrorRate = calculateErrorRate(model.intelligence)
       }
     }
 

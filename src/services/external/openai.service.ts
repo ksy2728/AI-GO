@@ -2,6 +2,7 @@ import { OpenAI } from 'openai'
 import axios from 'axios'
 import { prisma } from '@/lib/prisma'
 import { cache } from '@/lib/redis'
+import { realTimeMonitorV2 } from '../real-time-monitor-v2.service'
 
 export interface OpenAIModelStatus {
   id: string
@@ -26,6 +27,7 @@ export class OpenAIService {
   private readonly apiKey: string
   private readonly baseUrl = 'https://api.openai.com/v1'
   private readonly statusUrl = 'https://status.openai.com/api/v2'
+  private readonly providerId = 'openai'
   
   constructor() {
     this.apiKey = process.env.OPENAI_API_KEY || ''
@@ -88,7 +90,7 @@ export class OpenAIService {
   /**
    * Check model status and availability
    */
-  async checkModelStatus(modelId: string): Promise<OpenAIModelStatus> {
+  async checkModelStatus(modelId: string): Promise<OpenAIModelStatus | null> {
     const cacheKey = `openai:status:${modelId}`
     const cached = await cache.get<OpenAIModelStatus>(cacheKey)
     if (cached) {
@@ -113,6 +115,9 @@ export class OpenAIService {
             temperature: 0,
           })
           responseTime = Date.now() - startTime
+
+          // Record this check with new monitoring
+          realTimeMonitorV2.recordApiCall(modelId, this.providerId, true, responseTime, 2)
           
           // Determine status based on response time
           if (responseTime > 5000) {
@@ -129,6 +134,9 @@ export class OpenAIService {
                 temperature: 0,
               })
               responseTime = Date.now() - startTime
+
+              // Record this check with new monitoring
+              realTimeMonitorV2.recordApiCall(modelId, this.providerId, true, responseTime, 2)
               
               if (responseTime > 5000) {
                 status = 'degraded'
@@ -137,17 +145,18 @@ export class OpenAIService {
               status = 'outage'
               errorRate = 100
               console.error(`Model ${modelId} test failed:`, chatError.message)
+              realTimeMonitorV2.recordApiCall(modelId, this.providerId, false, Date.now() - startTime, 2, chatError.message)
             }
           } else {
             status = 'outage'
             errorRate = 100
             console.error(`Model ${modelId} test failed:`, error.message)
+            realTimeMonitorV2.recordApiCall(modelId, this.providerId, false, Date.now() - startTime, 2, error.message)
           }
         }
       } else {
-        // If not configured, return mock status
-        status = 'operational'
-        responseTime = Math.random() * 500 + 200
+        // If not configured, return null status instead of fake data
+        return null
       }
 
       const modelStatus: OpenAIModelStatus = {
@@ -169,7 +178,7 @@ export class OpenAIService {
   }
 
   /**
-   * Get current pricing information
+   * Get current pricing information from OpenAI pricing page scraper
    */
   async getPricing(): Promise<OpenAIPricing[]> {
     const cacheKey = 'openai:pricing'
@@ -179,71 +188,59 @@ export class OpenAIService {
       return cached
     }
 
-    // OpenAI pricing as of 2024 (these would ideally come from an API)
-    const pricing: OpenAIPricing[] = [
-      {
-        model: 'gpt-4-turbo',
-        inputPricePerMillion: 10.0,
-        outputPricePerMillion: 30.0,
-        imagePricePerUnit: 0.00085,
-        currency: 'USD',
-        lastUpdated: new Date(),
-      },
-      {
-        model: 'gpt-4',
-        inputPricePerMillion: 30.0,
-        outputPricePerMillion: 60.0,
-        currency: 'USD',
-        lastUpdated: new Date(),
-      },
-      {
-        model: 'gpt-3.5-turbo',
-        inputPricePerMillion: 0.5,
-        outputPricePerMillion: 1.5,
-        currency: 'USD',
-        lastUpdated: new Date(),
-      },
-      {
-        model: 'gpt-3.5-turbo-16k',
-        inputPricePerMillion: 3.0,
-        outputPricePerMillion: 4.0,
-        currency: 'USD',
-        lastUpdated: new Date(),
-      },
-      {
-        model: 'text-embedding-3-large',
-        inputPricePerMillion: 0.13,
-        outputPricePerMillion: 0,
-        currency: 'USD',
-        lastUpdated: new Date(),
-      },
-      {
-        model: 'text-embedding-3-small',
-        inputPricePerMillion: 0.02,
-        outputPricePerMillion: 0,
-        currency: 'USD',
-        lastUpdated: new Date(),
-      },
-      {
-        model: 'dall-e-3',
-        inputPricePerMillion: 0,
-        outputPricePerMillion: 0,
-        imagePricePerUnit: 0.04, // Standard quality 1024x1024
-        currency: 'USD',
-        lastUpdated: new Date(),
-      },
-      {
-        model: 'dall-e-2',
-        inputPricePerMillion: 0,
-        outputPricePerMillion: 0,
-        imagePricePerUnit: 0.02, // 1024x1024
-        currency: 'USD',
-        lastUpdated: new Date(),
-      },
-    ]
+    try {
+      // Try to scrape current pricing from OpenAI's pricing page
+      const pricing = await this.scrapePricingData()
+      if (pricing.length > 0) {
+        // Cache for 24 hours
+        await cache.set(cacheKey, pricing, 86400)
+        return pricing
+      }
+    } catch (error) {
+      console.warn('Failed to scrape OpenAI pricing:', error)
+      // Return empty array on failure
+      return []
+    }
 
-    // Cache for 24 hours
-    await cache.set(cacheKey, pricing, 86400)
+    // No fallback - return empty array
+    return []
+  }
+
+  /**
+   * Scrape pricing data from OpenAI's official pricing page
+   */
+  private async scrapePricingData(): Promise<OpenAIPricing[]> {
+    try {
+      const response = await fetch('https://openai.com/api/pricing/', {
+        headers: {
+          'User-Agent': 'Mozilla/5.0 (compatible; AI-Server-Info/1.0)'
+        },
+        signal: AbortSignal.timeout(10000)
+      })
+
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}`)
+      }
+
+      const html = await response.text()
+      return this.parsePricingFromHTML(html)
+    } catch (error) {
+      console.error('Failed to scrape OpenAI pricing:', error)
+      return []
+    }
+  }
+
+  /**
+   * Parse pricing data from HTML (simplified - would need proper HTML parsing)
+   */
+  private parsePricingFromHTML(html: string): OpenAIPricing[] {
+    // This is a simplified parser - in production you'd use a proper HTML parser
+    // like cheerio or jsdom to extract pricing table data
+    const pricing: OpenAIPricing[] = []
+
+    // For now, return empty array - proper HTML parsing would be implemented here
+    // The scraper would extract model names and prices from the pricing table
+
     return pricing
   }
 
@@ -252,8 +249,8 @@ export class OpenAIService {
    */
   async getModels() {
     if (!this.isConfigured()) {
-      console.warn('⚠️ OpenAI service not configured, returning hardcoded models');
-      return this.getHardcodedModels();
+      console.warn('⚠️ OpenAI service not configured, returning empty array');
+      return [];
     }
 
     try {
@@ -273,13 +270,13 @@ export class OpenAIService {
         created: model.created,
       }));
     } catch (error) {
-      console.warn('⚠️ Failed to fetch OpenAI models, using hardcoded list');
-      return this.getHardcodedModels();
+      console.error('❌ Failed to fetch OpenAI models:', error);
+      return [];
     }
   }
 
   /**
-   * Get hardcoded OpenAI models when API is not available
+   * @deprecated No longer using hardcoded models - only real API data
    */
   private getHardcodedModels() {
     return [
@@ -364,7 +361,11 @@ export class OpenAIService {
               trainingCutoff: modelData.trainingCutoff,
               apiVersion: 'v1',
               isActive: true,
-              metadata: JSON.stringify({}),
+              dataSource: 'config', // OpenAI models from metadata
+              lastVerified: new Date(),
+              metadata: JSON.stringify({
+                dataSource: 'config' // Also store in metadata
+              }),
             }
           })
           console.log(`✅ Created model: ${slug}`)

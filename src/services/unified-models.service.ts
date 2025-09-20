@@ -1,10 +1,12 @@
 import { ModelService } from './models.service';
 import { HybridModelService } from './hybrid-models.service';
+import { prisma } from '@/lib/prisma';
 import {
   UnifiedModel,
   UnifiedModelFilters,
   UnifiedModelResponse,
   DataSource,
+  DetailedDataSource,
   AaMetrics,
   DbMetrics,
   STATUS_WEIGHTS,
@@ -12,9 +14,8 @@ import {
   normalizeProviderName
 } from '@/types/unified-models';
 
-// Static import for AA models - works in Vercel serverless
-// Use relative path from src/services to src/data
-import aaModelsStaticData from '../data/aa-models.json';
+// Legacy static import for AA models - fallback only
+// import aaModelsStaticData from '../data/aa-models.json';
 
 interface AAModel {
   rank: number;
@@ -39,38 +40,76 @@ interface AAModel {
 
 export class UnifiedModelService {
   private static cache = new Map<string, { data: UnifiedModelResponse; timestamp: number }>();
-  private static CACHE_TTL = 60 * 1000; // 60 seconds
+  private static CACHE_TTL = 5 * 60 * 1000; // 5 minutes for database cache
 
   /**
-   * Safely fetch AA models with multiple fallback strategies
+   * Load AA models from database with fallback strategies
    */
-  private static async safeFetchAaModels(): Promise<AAModel[]> {
-    // First priority: Use static import data (always works in Vercel)
+  private static async loadAAModels(): Promise<AAModel[]> {
     try {
-      // Build-time verification log
-      const aaData = aaModelsStaticData as any;
-      console.log('📦 AA Models Static Data Check:', {
-        hasData: !!aaData,
-        hasModels: !!aaData?.models,
-        modelCount: aaData?.models?.length || 0,
-        firstModel: aaData?.models?.[0]?.name || 'No models found'
+      console.log('🔄 Loading AA models from database...');
+
+      // Query database for models with their providers, pricing, and status
+      const dbModels = await prisma.model.findMany({
+        include: {
+          provider: true,
+          pricing: {
+            where: { region: 'global' },
+            orderBy: { effectiveFrom: 'desc' },
+            take: 1,
+          },
+          status: {
+            where: { region: 'global' },
+            orderBy: { checkedAt: 'desc' },
+            take: 1,
+          },
+        },
+        where: {
+          isActive: true,
+        },
+        orderBy: {
+          intelligenceScore: 'desc',
+        },
       });
 
-      const models = aaData.models || [];
-      console.log(`✅ Loaded ${models.length} models from static import (build-time data)`);
+      // Convert database models to AA model format
+      const aaModels: AAModel[] = dbModels.map((dbModel, index) => ({
+        rank: index + 1,
+        name: dbModel.name,
+        provider: dbModel.provider.name,
+        slug: dbModel.slug,
+        intelligenceScore: dbModel.intelligenceScore || 70,
+        outputSpeed: dbModel.outputSpeed || 50,
+        inputPrice: dbModel.pricing[0]?.inputPerMillion ? dbModel.pricing[0].inputPerMillion / 1000 : 0,
+        outputPrice: dbModel.pricing[0]?.outputPerMillion ? dbModel.pricing[0].outputPerMillion / 1000 : 0,
+        contextWindow: dbModel.contextWindow || 8192,
+        lastUpdated: dbModel.updatedAt.toISOString(),
+        category: this.inferCategory(dbModel.name, dbModel.provider.name),
+        trend: this.inferTrend(dbModel.intelligenceScore || 70),
+        latency: dbModel.status[0]?.latencyP50 || 200,
+        metadata: {
+          source: 'database',
+          scrapedAt: dbModel.updatedAt.toISOString(),
+          scrapingMethod: 'api-sync',
+        },
+      }));
 
-      // Optionally try to fetch fresh data from GitHub (for 6-hour updates)
-      // This is non-blocking - if it fails, we still have static data
-      if (typeof window === 'undefined') { // Server-side only
-        this.tryFetchFreshData();
-      }
-
-      return models;
+      console.log(`✅ Loaded ${aaModels.length} models from database`);
+      return aaModels;
     } catch (error) {
-      console.error('❌ Failed to load static AA models:', error);
-    }
+      console.error('❌ Failed to load models from database:', error);
 
-    // Fallback to remote sources if static import fails
+      // Fallback to GitHub sources if database fails
+      return this.safeFetchAaModelsFromGitHub();
+    }
+  }
+
+  /**
+   * Fallback method to fetch AA models from GitHub (legacy)
+   */
+  private static async safeFetchAaModelsFromGitHub(): Promise<AAModel[]> {
+    console.log('🔄 Falling back to GitHub sources...');
+
     const sources = [
       // Primary: GitHub raw content (public repo)
       'https://raw.githubusercontent.com/ksy2728/AI-GO/master/public/data/aa-models.json',
@@ -101,6 +140,27 @@ export class UnifiedModelService {
 
     console.error('❌ All sources failed, returning empty array');
     return [];
+  }
+
+  /**
+   * Infer model category based on name and provider
+   */
+  private static inferCategory(name: string, provider: string): string {
+    const nameL = name.toLowerCase();
+    if (nameL.includes('4o') || nameL.includes('opus')) return 'flagship';
+    if (nameL.includes('mini') || nameL.includes('haiku')) return 'efficient';
+    if (nameL.includes('sonnet') || nameL.includes('pro')) return 'balanced';
+    if (nameL.includes('vision') || nameL.includes('multimodal')) return 'multimodal';
+    return 'general';
+  }
+
+  /**
+   * Infer trend based on intelligence score
+   */
+  private static inferTrend(intelligence: number): string {
+    if (intelligence >= 85) return 'rising';
+    if (intelligence >= 70) return 'stable';
+    return 'declining';
   }
 
   /**
@@ -151,6 +211,18 @@ export class UnifiedModelService {
   private static convertAAModel(aaModel: AAModel): UnifiedModel {
     const id = createModelId(aaModel.provider, aaModel.name);
 
+    // Determine detailed data source based on metadata
+    let detailedSource: DetailedDataSource = 'unknown';
+    if (aaModel.metadata) {
+      if (aaModel.metadata.source === 'database') {
+        detailedSource = 'api';
+      } else if (aaModel.metadata.scrapingMethod === 'scraper') {
+        detailedSource = 'scraped';
+      } else if (aaModel.metadata.source === 'github') {
+        detailedSource = 'config';
+      }
+    }
+
     return {
       id,
       slug: aaModel.slug,
@@ -158,6 +230,9 @@ export class UnifiedModelService {
       provider: aaModel.provider,
       description: `${aaModel.name} - Intelligence: ${aaModel.intelligenceScore}, Speed: ${aaModel.outputSpeed}`,
       source: 'artificial-analysis',
+      detailedSource,
+      dataLastVerified: aaModel.metadata?.scrapedAt || aaModel.lastUpdated,
+      dataConfidence: detailedSource === 'api' ? 1.0 : detailedSource === 'scraped' ? 0.8 : 0.6,
 
       // AA metrics container
       aa: {
@@ -169,7 +244,8 @@ export class UnifiedModelService {
         contextWindow: aaModel.contextWindow,
         category: aaModel.category,
         trend: aaModel.trend,
-        lastUpdated: aaModel.lastUpdated
+        lastUpdated: aaModel.lastUpdated,
+        dataSource: detailedSource
       },
 
       // Unified display fields from AA
@@ -195,6 +271,10 @@ export class UnifiedModelService {
   private static convertDbModel(dbModel: any): UnifiedModel {
     const id = createModelId(dbModel.provider?.name || 'unknown', dbModel.name);
 
+    // Determine detailed data source - database models come from API sync
+    const detailedSource: DetailedDataSource = dbModel.status?.[0] ? 'api' : 'cached';
+    const dataLastVerified = dbModel.status?.[0]?.checkedAt || dbModel.updatedAt;
+
     return {
       id,
       slug: dbModel.slug,
@@ -203,6 +283,9 @@ export class UnifiedModelService {
       providerId: dbModel.providerId,
       description: dbModel.description,
       source: 'database',
+      detailedSource,
+      dataLastVerified,
+      dataConfidence: detailedSource === 'api' ? 0.95 : 0.7,
 
       // DB metrics container
       db: {
@@ -220,7 +303,8 @@ export class UnifiedModelService {
         } : undefined,
         usage: dbModel.status?.[0]?.usage,
         region: dbModel.status?.[0]?.region,
-        updatedAt: dbModel.updatedAt
+        updatedAt: dbModel.updatedAt,
+        dataSource: detailedSource
       },
 
       // Unified display fields from DB
@@ -264,6 +348,16 @@ export class UnifiedModelService {
         const merged: UnifiedModel = {
           ...existing,
           source: 'hybrid',
+
+          // Use more reliable data source
+          detailedSource: existing.detailedSource === 'api' ? 'api' :
+                         (dbModel.detailedSource === 'api' ? 'api' :
+                         (existing.detailedSource || dbModel.detailedSource || 'unknown')),
+          dataLastVerified: (existing.dataLastVerified && dbModel.dataLastVerified)
+            ? (new Date(existing.dataLastVerified) > new Date(dbModel.dataLastVerified)
+              ? existing.dataLastVerified : dbModel.dataLastVerified)
+            : (existing.dataLastVerified || dbModel.dataLastVerified),
+          dataConfidence: Math.max(existing.dataConfidence || 0, dbModel.dataConfidence || 0),
 
           // Keep AA data but add DB supplementary info
           db: dbModel.db,
@@ -426,8 +520,8 @@ export class UnifiedModelService {
     const startTime = Date.now();
 
     try {
-      // Fetch only AA models (high-quality, real-time data)
-      const aaModels = await this.safeFetchAaModels();
+      // Fetch AA models from database (primary) or fallback sources
+      const aaModels = await this.loadAAModels();
 
       // Convert to unified format
       let unifiedModels = aaModels.map(model => this.convertAAModel(model));

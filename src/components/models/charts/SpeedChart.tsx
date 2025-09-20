@@ -9,9 +9,13 @@ interface SpeedChartProps {
   data: ModelHighlight[]
   loading?: boolean
   error?: string
+  metadata?: {
+    lastUpdated: string
+    dataSource: string
+  }
 }
 
-export function SpeedChart({ data, loading, error }: SpeedChartProps) {
+export function SpeedChart({ data, loading, error, metadata }: SpeedChartProps) {
   const chartData = data.map(item => ({
     name: item.modelName.length > 15 
       ? item.modelName.substring(0, 12) + '...' 
@@ -146,6 +150,8 @@ export function SpeedChart({ data, loading, error }: SpeedChartProps) {
       icon={<Zap className="w-6 h-6 text-green-600" />}
       loading={loading}
       error={error}
+      dataSource={metadata?.dataSource}
+      lastUpdated={metadata?.lastUpdated}
     >
       <ResponsiveContainer width="100%" height={320}>
         <BarChart 

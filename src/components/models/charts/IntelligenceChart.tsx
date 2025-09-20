@@ -9,9 +9,13 @@ interface IntelligenceChartProps {
   data: ModelHighlight[]
   loading?: boolean
   error?: string
+  metadata?: {
+    lastUpdated: string
+    dataSource: string
+  }
 }
 
-export function IntelligenceChart({ data, loading, error }: IntelligenceChartProps) {
+export function IntelligenceChart({ data, loading, error, metadata }: IntelligenceChartProps) {
   const chartData = data.map(item => ({
     name: item.modelName.length > 15 
       ? item.modelName.substring(0, 12) + '...' 
@@ -129,6 +133,8 @@ export function IntelligenceChart({ data, loading, error }: IntelligenceChartPro
       icon={<Brain className="w-6 h-6 text-blue-600" />}
       loading={loading}
       error={error}
+      dataSource={metadata?.dataSource}
+      lastUpdated={metadata?.lastUpdated}
     >
       <ResponsiveContainer width="100%" height={320}>
         <BarChart 

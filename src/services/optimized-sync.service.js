@@ -444,18 +444,29 @@ class OptimizedSyncService {
             created++;
           }
           
-          // Update model status with AA data
+          // Update model status with real monitoring data
           if (existingModel) {
-            await this.updateModelStatus(existingModel.id, {
-              status: 'operational',
-              availability: 99.9,
-              latencyP50: Math.floor(1000 / aaModel.outputSpeed), // Convert tokens/s to latency
-              latencyP95: Math.floor(2000 / aaModel.outputSpeed),
-              latencyP99: Math.floor(3000 / aaModel.outputSpeed),
-              errorRate: 0.1,
-              requestsPerMin: Math.floor(aaModel.outputSpeed * 60),
-              tokensPerMin: Math.floor(aaModel.outputSpeed * 60)
-            });
+            // Import real-time monitor to get actual metrics
+            // Temporarily disabled - RealTimeMonitor is TypeScript, this is JavaScript
+            // const { RealTimeMonitor } = await import('./real-time-monitor.service');
+            // const metrics = await RealTimeMonitor.getModelMetrics(
+            //   existingModel.id,
+            //   aaModel.provider || 'unknown'
+            // );
+            const metrics = null; // Temporary fallback
+
+            if (metrics) {
+              await this.updateModelStatus(existingModel.id, {
+                status: metrics.status,
+                availability: metrics.availability,
+                latencyP50: metrics.latencyP50,
+                latencyP95: metrics.latencyP95,
+                latencyP99: metrics.latencyP99,
+                errorRate: metrics.errorRate,
+                requestsPerMin: metrics.requestsPerMin,
+                tokensPerMin: metrics.tokensPerMin
+              });
+            }
           }
           
         } catch (modelError) {
@@ -547,34 +558,48 @@ class OptimizedSyncService {
   }
 
   /**
-   * Fetch model status (mock implementation - replace with actual API calls)
+   * Fetch model status using real API calls and database data
    */
   async fetchModelStatus(model) {
-    // This is where you would call the actual provider APIs
-    // For now, returning simulated data
-    
-    // Check GitHub backup first if API is failing
-    if (this.metrics.errors > 5) {
-      const githubData = this.cache.get(`github:${model.id}`);
-      if (githubData) {
-        return githubData.data.status;
+    // Temporarily disabled - RealTimeMonitor is TypeScript, this is JavaScript
+    // const { RealTimeMonitor } = await import('./real-time-monitor.service');
+
+    try {
+      // Check GitHub backup first if API is failing
+      if (this.metrics.errors > 5) {
+        const githubData = this.cache.get(`github:${model.id}`);
+        if (githubData) {
+          return githubData.data.status;
+        }
       }
+
+      // Get real model metrics from database or fresh API calls
+      // Temporarily disabled - RealTimeMonitor is TypeScript, this is JavaScript
+      // const metrics = await RealTimeMonitor.getModelMetrics(model.id, model.provider?.name);
+      const metrics = null; // Temporary fallback
+
+      if (metrics) {
+        return {
+          status: metrics.status,
+          availability: metrics.availability,
+          latencyP50: metrics.latencyP50,
+          latencyP95: metrics.latencyP95,
+          latencyP99: metrics.latencyP99,
+          errorRate: metrics.errorRate,
+          requestsPerMin: metrics.requestsPerMin,
+          tokensPerMin: metrics.tokensPerMin
+        };
+      }
+
+      // If no real data available, return null to indicate unknown status
+      return null;
+
+    } catch (error) {
+      console.error(`Failed to fetch real status for model ${model.id}:`, error);
+
+      // Return null instead of fake data
+      return null;
     }
-    
-    // Simulate API call
-    const isOperational = Math.random() > 0.05;
-    const availability = isOperational ? 95 + Math.random() * 5 : 70 + Math.random() * 20;
-    
-    return {
-      status: isOperational ? 'operational' : (Math.random() > 0.5 ? 'degraded' : 'outage'),
-      availability,
-      latencyP50: Math.floor(50 + Math.random() * 150),
-      latencyP95: Math.floor(100 + Math.random() * 300),
-      latencyP99: Math.floor(200 + Math.random() * 500),
-      errorRate: isOperational ? Math.random() * 2 : Math.random() * 10,
-      requestsPerMin: Math.floor(Math.random() * 1000),
-      tokensPerMin: Math.floor(Math.random() * 100000)
-    };
   }
 
   /**

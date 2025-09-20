@@ -243,45 +243,48 @@ export class SyncScheduler {
           if (model.provider.slug === 'openai' && openAIService && openAIService.isConfigured()) {
             const modelId = model.slug.replace('35', '3.5').replace('-16k', '-16k')
             const status = await openAIService.checkModelStatus(modelId)
-            
-            // Update database
-            const updatedStatus = await prisma.modelStatus.upsert({
-              where: {
-                modelId_region: {
-                  modelId: model.id,
-                  region: 'us-east',
+
+            // Only update database if status is not null
+            if (status) {
+              // Update database
+              const updatedStatus = await prisma.modelStatus.upsert({
+                where: {
+                  modelId_region: {
+                    modelId: model.id,
+                    region: 'us-east',
+                  },
                 },
-              },
-              update: {
-                status: status.status,
-                availability: status.availability,
-                latencyP50: status.responseTime,
-                latencyP95: status.responseTime * 1.5,
-                latencyP99: status.responseTime * 2,
-                errorRate: status.errorRate,
-                requestsPerMin: 0,
-                tokensPerMin: 0,
-                usage: 0,
-                checkedAt: new Date(),
-              },
-              create: {
-                modelId: model.id,
-                status: status.status,
-                availability: status.availability,
-                latencyP50: status.responseTime,
-                latencyP95: status.responseTime * 1.5,
-                latencyP99: status.responseTime * 2,
-                errorRate: status.errorRate,
-                requestsPerMin: 0,
-                tokensPerMin: 0,
-                usage: 0,
-                region: 'us-east',
-                checkedAt: new Date(),
-              }
-            })
-            
-            // Broadcast the status update
-            await realtimeService.broadcastModelUpdate(model.id, updatedStatus)
+                update: {
+                  status: status.status,
+                  availability: status.availability,
+                  latencyP50: status.responseTime,
+                  latencyP95: status.responseTime * 1.5,
+                  latencyP99: status.responseTime * 2,
+                  errorRate: status.errorRate,
+                  requestsPerMin: 0,
+                  tokensPerMin: 0,
+                  usage: 0,
+                  checkedAt: new Date(),
+                },
+                create: {
+                  modelId: model.id,
+                  status: status.status,
+                  availability: status.availability,
+                  latencyP50: status.responseTime,
+                  latencyP95: status.responseTime * 1.5,
+                  latencyP99: status.responseTime * 2,
+                  errorRate: status.errorRate,
+                  requestsPerMin: 0,
+                  tokensPerMin: 0,
+                  usage: 0,
+                  region: 'us-east',
+                  checkedAt: new Date(),
+                }
+              })
+
+              // Broadcast the status update
+              await realtimeService.broadcastModelUpdate(model.id, updatedStatus)
+            }
           }
           // Add other providers here (Anthropic, Google, etc.)
         } catch (error) {

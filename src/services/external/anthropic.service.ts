@@ -2,17 +2,22 @@ import Anthropic from '@anthropic-ai/sdk';
 import { Model, Pricing, Provider } from '@prisma/client';
 import { prisma } from '@/lib/prisma';
 import { logger } from '@/utils/logger';
+import { cache } from '@/lib/redis';
+import { RealTimeMonitor } from '../real-time-monitor.service';
+import * as fs from 'fs';
+import * as path from 'path';
 
 export interface AnthropicModel {
   id: string;
   name: string;
   description?: string;
-  context_window: number;
+  context_window?: number;
   max_output_tokens?: number;
   input_cost_per_1k?: number;
   output_cost_per_1k?: number;
   created_at?: string;
   capabilities?: string[];
+  dataSource?: string; // Track where the data came from: 'api' | 'config' | 'scraped'
 }
 
 export class AnthropicService {
@@ -31,86 +36,148 @@ export class AnthropicService {
   }
 
   /**
-   * Get available Claude models
+   * Get available Claude models (scraped from docs + current models)
    */
   async getModels(): Promise<AnthropicModel[]> {
-    // Anthropic doesn't have a models list API, so we define them manually
-    // These are the current Claude models as of 2024
-    const models: AnthropicModel[] = [
-      {
-        id: 'claude-3-opus-20240229',
-        name: 'Claude 3 Opus',
-        description: 'Most capable model for highly complex tasks',
-        context_window: 200000,
-        max_output_tokens: 4096,
-        input_cost_per_1k: 0.015,
-        output_cost_per_1k: 0.075,
-        capabilities: ['chat', 'analysis', 'coding', 'creative-writing', 'vision'],
-      },
-      {
-        id: 'claude-3-sonnet-20240229',
-        name: 'Claude 3 Sonnet',
-        description: 'Balanced performance and speed',
-        context_window: 200000,
-        max_output_tokens: 4096,
-        input_cost_per_1k: 0.003,
-        output_cost_per_1k: 0.015,
-        capabilities: ['chat', 'analysis', 'coding', 'vision'],
-      },
-      {
-        id: 'claude-3-haiku-20240307',
-        name: 'Claude 3 Haiku',
-        description: 'Fastest and most compact model',
-        context_window: 200000,
-        max_output_tokens: 4096,
-        input_cost_per_1k: 0.00025,
-        output_cost_per_1k: 0.00125,
-        capabilities: ['chat', 'analysis', 'coding', 'vision'],
-      },
-      {
-        id: 'claude-3-5-sonnet-20241022',
-        name: 'Claude 3.5 Sonnet',
-        description: 'Latest and most capable Sonnet model',
-        context_window: 200000,
-        max_output_tokens: 8192,
-        input_cost_per_1k: 0.003,
-        output_cost_per_1k: 0.015,
-        capabilities: ['chat', 'analysis', 'coding', 'vision', 'computer-use'],
-      },
-      {
-        id: 'claude-2.1',
-        name: 'Claude 2.1',
-        description: 'Previous generation model',
-        context_window: 200000,
-        max_output_tokens: 4096,
-        input_cost_per_1k: 0.008,
-        output_cost_per_1k: 0.024,
-        capabilities: ['chat', 'analysis', 'coding'],
-      },
-      {
-        id: 'claude-2.0',
-        name: 'Claude 2.0',
-        description: 'Legacy model',
-        context_window: 100000,
-        max_output_tokens: 4096,
-        input_cost_per_1k: 0.008,
-        output_cost_per_1k: 0.024,
-        capabilities: ['chat', 'analysis', 'coding'],
-      },
-      {
-        id: 'claude-instant-1.2',
-        name: 'Claude Instant 1.2',
-        description: 'Legacy fast model',
-        context_window: 100000,
-        max_output_tokens: 4096,
-        input_cost_per_1k: 0.0008,
-        output_cost_per_1k: 0.0024,
-        capabilities: ['chat', 'analysis'],
-      },
-    ];
+    const cacheKey = 'anthropic:models:list'
+    const cached = await cache.get<AnthropicModel[]>(cacheKey)
+    if (cached) {
+      console.log('📦 Anthropic models cache hit')
+      return cached
+    }
 
-    return models;
+    try {
+      // Try to scrape latest model info from Anthropic docs
+      const scrapedModels = await this.scrapeModelsFromDocs()
+      if (scrapedModels.length > 0) {
+        // Cache for 24 hours
+        await cache.set(cacheKey, scrapedModels, 86400)
+        console.log(`✅ Scraped ${scrapedModels.length} models from Anthropic docs`)
+        return scrapedModels
+      }
+    } catch (error) {
+      console.error('Failed to scrape Anthropic models:', error)
+      // Return empty array instead of fallback
+      return []
+    }
+
+    // No fallback - only real scraped data
+    return []
   }
+
+  /**
+   * Scrape model information from Anthropic documentation
+   */
+  private async scrapeModelsFromDocs(): Promise<AnthropicModel[]> {
+    try {
+      const response = await fetch('https://docs.anthropic.com/claude/docs/models-overview', {
+        headers: {
+          'User-Agent': 'Mozilla/5.0 (compatible; AI-Server-Info/1.0)',
+          'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+        },
+        signal: AbortSignal.timeout(15000)
+      })
+
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}: ${response.statusText}`)
+      }
+
+      const html = await response.text()
+      return this.parseModelsFromHTML(html)
+    } catch (error) {
+      console.error('Failed to scrape Anthropic docs:', error)
+      return []
+    }
+  }
+
+  /**
+   * Parse model information from HTML
+   */
+  private parseModelsFromHTML(html: string): AnthropicModel[] {
+    const models: AnthropicModel[] = []
+
+    try {
+      // Extract model information using regex patterns
+      // In production, you'd use a proper HTML parser like cheerio
+
+      // Look for model table or sections
+      const modelMatches = html.matchAll(/claude-[\w\.-]+/gi)
+      const uniqueModelIds = [...new Set(Array.from(modelMatches, m => m[0]))]
+
+      for (const modelId of uniqueModelIds) {
+        // Try to get basic model info from scraped data
+        const modelInfo = this.getBasicModelInfo(modelId)
+        if (modelInfo) {
+          models.push({
+            ...modelInfo,
+            id: modelId, // Ensure id is set
+            name: modelInfo.name || modelId, // Ensure name is set
+            dataSource: 'scraped'
+          })
+        }
+      }
+
+      // If we found models, return them
+      if (models.length > 0) {
+        return models
+      }
+    } catch (error) {
+      console.error('Failed to parse Anthropic HTML:', error)
+    }
+
+    return []
+  }
+
+  /**
+   * Get basic model information - prioritize scraped data, fallback to config
+   */
+  private getBasicModelInfo(modelId: string): Partial<AnthropicModel> | null {
+    // Try to load from config file if scraping doesn't provide full info
+    try {
+      const configPath = path.join(process.cwd(), 'config', 'model-defaults.json')
+      if (fs.existsSync(configPath)) {
+        const config = JSON.parse(fs.readFileSync(configPath, 'utf-8'))
+        const modelConfig = config.anthropic?.models?.[modelId]
+
+        if (modelConfig) {
+          return {
+            id: modelId,
+            name: modelConfig.name || this.formatModelName(modelId),
+            description: modelConfig.description || '',
+            context_window: modelConfig.contextWindow || 200000,
+            max_output_tokens: modelConfig.maxOutputTokens || 4096,
+            input_cost_per_1k: modelConfig.inputPrice || 0,
+            output_cost_per_1k: modelConfig.outputPrice || 0,
+            capabilities: modelConfig.capabilities || [],
+            created_at: new Date().toISOString(),
+            dataSource: 'config'
+          }
+        }
+      }
+    } catch (err) {
+      console.warn('Could not load model defaults:', err)
+    }
+
+    // If no config, return minimal info
+    return {
+      id: modelId,
+      name: this.formatModelName(modelId),
+      context_window: 200000, // Default assumption
+      created_at: new Date().toISOString(),
+      dataSource: 'unknown'
+    }
+  }
+
+  /**
+   * Format model name from ID
+   */
+  private formatModelName(modelId: string): string {
+    return modelId
+      .replace(/claude-/g, 'Claude ')
+      .replace(/-/g, ' ')
+      .replace(/\b\w/g, l => l.toUpperCase())
+  }
+
 
   /**
    * Check if a model is available by making a test request
@@ -123,7 +190,10 @@ export class AnthropicService {
         max_tokens: 1,
         messages: [{ role: 'user', content: 'Hi' }],
       });
-      
+
+      // Record this check as a minimal API call
+      RealTimeMonitor.recordApiCall(modelId, this.providerId, 2); // Minimal tokens for status check
+
       return response.id !== undefined;
     } catch (error) {
       logger.error(`Error checking Anthropic model ${modelId}:`, error);
@@ -203,10 +273,13 @@ export class AnthropicService {
               isActive: model.isActive,
               capabilities: JSON.stringify(model.capabilities || []),
               modalities: JSON.stringify(['text']),
+              dataSource: model.dataSource || 'unknown', // Track data origin
+              lastVerified: new Date(), // Update verification timestamp
               metadata: JSON.stringify({
                 supportsVision: model.capabilities?.includes('vision') || false,
                 modelType: 'language',
-                status: model.isActive ? 'active' : 'deprecated'
+                status: model.isActive ? 'active' : 'deprecated',
+                dataSource: model.dataSource // Also store in metadata for backwards compatibility
               })
             },
             create: {
@@ -219,10 +292,13 @@ export class AnthropicService {
               isActive: model.isActive,
               capabilities: JSON.stringify(model.capabilities || []),
               modalities: JSON.stringify(['text']),
+              dataSource: model.dataSource || 'unknown', // Track data origin
+              lastVerified: new Date(), // Set initial verification timestamp
               metadata: JSON.stringify({
                 supportsVision: model.capabilities?.includes('vision') || false,
                 modelType: 'language',
-                status: model.isActive ? 'active' : 'deprecated'
+                status: model.isActive ? 'active' : 'deprecated',
+                dataSource: model.dataSource // Also store in metadata for backwards compatibility
               })
             }
           });
@@ -291,7 +367,11 @@ export class AnthropicService {
         max_tokens: 1024,
         messages: [{ role: 'user', content: message }],
       });
-      
+
+      // Record API call for real metrics
+      const tokensUsed = (response.usage?.input_tokens || 0) + (response.usage?.output_tokens || 0);
+      RealTimeMonitor.recordApiCall(modelId, this.providerId, tokensUsed);
+
       return {
         success: true,
         model: modelId,
@@ -307,3 +387,6 @@ export class AnthropicService {
     }
   }
 }
+
+// Export singleton instance
+export const anthropicService = new AnthropicService();

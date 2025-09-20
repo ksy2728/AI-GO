@@ -36,7 +36,7 @@ export function useMobileNavigation() {
   useEffect(() => {
     setState(prev => ({
       ...prev,
-      activeBottomTab: pathname
+      activeBottomTab: pathname || '/'
     }))
   }, [pathname])
 

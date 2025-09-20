@@ -136,17 +136,29 @@ export function ModelHighlightsSection({ className = '' }: ModelHighlightsSectio
         {!isCollapsed && (
           <div className="p-6">
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-              <IntelligenceChart 
+              <IntelligenceChart
                 data={data.intelligence}
                 loading={isRefreshing}
+                metadata={{
+                  ...data.metadata,
+                  dataSource: data.metadata.dataSource || 'Database'
+                }}
               />
-              <SpeedChart 
+              <SpeedChart
                 data={data.speed}
                 loading={isRefreshing}
+                metadata={{
+                  ...data.metadata,
+                  dataSource: data.metadata.dataSource || 'Database'
+                }}
               />
-              <PriceChart 
+              <PriceChart
                 data={data.price}
                 loading={isRefreshing}
+                metadata={{
+                  ...data.metadata,
+                  dataSource: data.metadata.dataSource || 'Database'
+                }}
               />
             </div>
             

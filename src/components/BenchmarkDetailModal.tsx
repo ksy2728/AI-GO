@@ -133,12 +133,11 @@ export function BenchmarkDetailModal({ benchmark, onClose }: BenchmarkDetailModa
 
   // Generate comparison data (mock)
   const getComparisonData = () => {
+    // This should fetch real benchmark comparison data from the database
+    // For now, only show the current model's score without fake comparisons
     const baseScore = benchmark.score
     return [
-      { model: 'Top Performer', score: Math.min(benchmark.maxScore, baseScore + (Math.random() * 10) + 5), isTop: true },
-      { model: benchmark.modelName, score: baseScore, isCurrent: true },
-      { model: 'Average Performer', score: Math.max(0, baseScore - (Math.random() * 15) - 5), isAverage: true },
-      { model: 'Bottom Performer', score: Math.max(0, baseScore - (Math.random() * 25) - 15), isBottom: true }
+      { model: benchmark.modelName, score: baseScore, isCurrent: true }
     ].sort((a, b) => b.score - a.score)
   }
 

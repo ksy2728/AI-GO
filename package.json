@@ -28,6 +28,12 @@
     "db:seed:prod": "tsx prisma/seed.ts --schema=prisma/schema.prod.prisma",
     "db:studio": "prisma studio",
     "db:studio:prod": "prisma studio --schema=prisma/schema.prod.prisma",
+    "aggregate-data": "tsx scripts/aggregate-data.ts",
+    "generate-report": "tsx scripts/generate-report.ts",
+    "check-data-quality": "tsx scripts/check-data-quality.ts",
+    "test:scraper:openai": "tsx scripts/test-scraper-openai.ts",
+    "test:scraper:anthropic": "tsx scripts/test-scraper-anthropic.ts",
+    "scraper-health-report": "tsx scripts/scraper-health-report.ts",
     "sync:init": "node scripts/init-sync.js",
     "sync:all": "node scripts/sync-all-providers.js",
     "sync:models": "node scripts/sync-all-models.js",
@@ -42,7 +48,9 @@
     "build:analyze": "npm run build && npm run analyze:bundle",
     "perf:audit": "node scripts/performance-audit.js",
     "perf:lighthouse": "playwright test tests/performance/lighthouse.spec.ts",
-    "perf:report": "npm run perf:audit -- http://localhost:3000"
+    "perf:report": "npm run perf:audit -- http://localhost:3000",
+    "validate:production": "node scripts/validate-production.js",
+    "pre-deploy": "npm run validate:production && npm run build && npm run typecheck"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"
@@ -51,6 +59,7 @@
     "@anthropic-ai/sdk": "^0.60.0",
     "@formatjs/intl-localematcher": "^0.5.9",
     "@google/generative-ai": "^0.24.1",
+    "@monaco-editor/react": "^4.7.0",
     "@octokit/rest": "^22.0.0",
     "@prisma/client": "^6.1.0",
     "@radix-ui/react-checkbox": "^1.3.3",
@@ -83,6 +92,7 @@
     "axios": "^1.11.0",
     "bcryptjs": "^2.4.3",
     "bull": "^4.16.5",
+    "cheerio": "^1.1.2",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "critters": "^0.0.23",

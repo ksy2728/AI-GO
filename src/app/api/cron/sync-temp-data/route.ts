@@ -23,16 +23,15 @@ export async function GET(request: Request) {
     const startTime = Date.now();
     const apiSyncService = new ApiSyncService();
     
-    // API 동기화 실행
+    // API 동기화 실행 (데이터베이스에 자동 저장)
     const syncedModels = await apiSyncService.syncAllModels();
-    await apiSyncService.updateTempDataService(syncedModels);
     
     const endTime = Date.now();
     const duration = endTime - startTime;
     
     const result = {
       success: true,
-      message: 'TempDataService sync completed successfully',
+      message: 'Database sync completed successfully',
       duration: `${duration}ms`,
       totalModels: syncedModels.length,
       modelsByProvider: {

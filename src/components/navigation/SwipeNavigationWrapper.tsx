@@ -29,7 +29,7 @@ export function SwipeNavigationWrapper({
   const pathname = usePathname()
 
   // Find current page index
-  const currentIndex = navigationOrder.indexOf(pathname)
+  const currentIndex = pathname ? navigationOrder.indexOf(pathname) : -1
 
   // Handle swipe navigation
   const handleSwipeLeft = () => {

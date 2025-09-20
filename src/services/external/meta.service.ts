@@ -2,6 +2,8 @@ import Replicate from 'replicate';
 import { Model, Pricing, Provider } from '@prisma/client';
 import { prisma } from '@/lib/prisma';
 import { logger } from '@/utils/logger';
+import { cache } from '@/lib/redis';
+import { realTimeMonitorV2 } from '../real-time-monitor-v2.service';
 
 export interface MetaModel {
   id: string;
@@ -30,135 +32,222 @@ export class MetaService {
   }
 
   /**
-   * Get available Meta AI models (Llama series)
+   * Get available Meta AI models from Replicate API
    */
   async getModels(): Promise<MetaModel[]> {
-    // Meta의 Llama 모델들 정의
-    const models: MetaModel[] = [
-      {
-        id: 'llama-3.1-405b',
-        name: 'Llama 3.1 405B Instruct',
-        description: 'Largest and most capable Llama model with 128K context',
-        version: 'latest',
-        context_window: 128000,
-        max_tokens: 128000,
-        input_cost_per_million: 2.0, // Estimated pricing
-        output_cost_per_million: 2.0,
-        capabilities: ['text', 'code', 'reasoning', 'multilingual', 'tool-use'],
-        replicate_id: 'meta/meta-llama-3.1-405b-instruct',
-      },
-      {
-        id: 'llama-3.1-70b',
-        name: 'Llama 3.1 70B Instruct',
-        description: 'Large Llama model optimized for complex tasks',
-        version: 'latest',
-        context_window: 128000,
-        max_tokens: 128000,
-        input_cost_per_million: 0.5,
-        output_cost_per_million: 0.5,
-        capabilities: ['text', 'code', 'reasoning', 'multilingual'],
-        replicate_id: 'meta/meta-llama-3-70b-instruct',
-      },
-      {
-        id: 'llama-3.1-8b',
-        name: 'Llama 3.1 8B Instruct',
-        description: 'Efficient model for everyday tasks',
-        version: 'latest',
-        context_window: 128000,
-        max_tokens: 128000,
-        input_cost_per_million: 0.05,
-        output_cost_per_million: 0.05,
-        capabilities: ['text', 'code', 'reasoning'],
-        replicate_id: 'meta/meta-llama-3-8b-instruct',
-      },
-      {
-        id: 'llama-3-70b',
-        name: 'Llama 3 70B',
-        description: 'Previous generation large model',
-        version: 'latest',
-        context_window: 8192,
-        max_tokens: 4096,
-        input_cost_per_million: 0.4,
-        output_cost_per_million: 0.4,
-        capabilities: ['text', 'code', 'reasoning'],
-        replicate_id: 'meta/meta-llama-3-70b-instruct',
-      },
-      {
-        id: 'llama-3-8b',
-        name: 'Llama 3 8B',
-        description: 'Previous generation efficient model',
-        version: 'latest',
-        context_window: 8192,
-        max_tokens: 4096,
-        input_cost_per_million: 0.04,
-        output_cost_per_million: 0.04,
-        capabilities: ['text', 'code'],
-        replicate_id: 'meta/meta-llama-3-8b-instruct',
-      },
-      {
-        id: 'llama-2-70b',
-        name: 'Llama 2 70B Chat',
-        description: 'Legacy model for compatibility',
-        version: 'latest',
-        context_window: 4096,
-        max_tokens: 2048,
-        input_cost_per_million: 0.3,
-        output_cost_per_million: 0.3,
-        capabilities: ['text', 'code'],
-        replicate_id: 'meta/llama-2-70b-chat',
-      },
-      {
-        id: 'llama-2-13b',
-        name: 'Llama 2 13B Chat',
-        description: 'Legacy medium-sized model',
-        version: 'latest',
-        context_window: 4096,
-        max_tokens: 2048,
-        input_cost_per_million: 0.1,
-        output_cost_per_million: 0.1,
-        capabilities: ['text'],
-        replicate_id: 'meta/llama-2-13b-chat',
-      },
-      {
-        id: 'llama-2-7b',
-        name: 'Llama 2 7B Chat',
-        description: 'Legacy small model',
-        version: 'latest',
-        context_window: 4096,
-        max_tokens: 2048,
-        input_cost_per_million: 0.05,
-        output_cost_per_million: 0.05,
-        capabilities: ['text'],
-        replicate_id: 'meta/llama-2-7b-chat',
-      },
-      {
-        id: 'code-llama-70b',
-        name: 'Code Llama 70B Instruct',
-        description: 'Specialized model for code generation',
-        version: 'latest',
-        context_window: 16384,
-        max_tokens: 4096,
-        input_cost_per_million: 0.5,
-        output_cost_per_million: 0.5,
-        capabilities: ['code', 'text'],
-        replicate_id: 'meta/codellama-70b-instruct',
-      },
-      {
-        id: 'code-llama-34b',
-        name: 'Code Llama 34B',
-        description: 'Code generation model',
-        version: 'latest',
-        context_window: 16384,
-        max_tokens: 4096,
-        input_cost_per_million: 0.2,
-        output_cost_per_million: 0.2,
-        capabilities: ['code', 'text'],
-        replicate_id: 'meta/codellama-34b-instruct',
-      },
-    ];
+    const cacheKey = 'meta:models:list'
+    const cached = await cache.get<MetaModel[]>(cacheKey)
+    if (cached) {
+      console.log('📦 Meta models cache hit')
+      return cached
+    }
 
-    return models;
+    try {
+      // Try to get models from Replicate API
+      const apiModels = await this.fetchModelsFromReplicate()
+      if (apiModels.length > 0) {
+        // Cache for 6 hours
+        await cache.set(cacheKey, apiModels, 21600)
+        console.log(`✅ Fetched ${apiModels.length} models from Replicate API`)
+        return apiModels
+      }
+    } catch (error) {
+      console.warn('Failed to fetch Meta models from Replicate, using fallback:', error)
+    }
+
+    // Return empty array on API failure
+    return []
   }
+
+  /**
+   * Fetch models from Replicate API
+   */
+  private async fetchModelsFromReplicate(): Promise<MetaModel[]> {
+    if (!this.client) {
+      throw new Error('Replicate API token not configured')
+    }
+
+    try {
+      // Get all models from Replicate
+      const models = []
+      let cursor = undefined
+
+      // Paginate through models
+      do {
+        const response = await fetch('https://api.replicate.com/v1/models?owner=meta', {
+          headers: {
+            'Authorization': `Token ${process.env.REPLICATE_API_TOKEN}`,
+            'Accept': 'application/json'
+          },
+          signal: AbortSignal.timeout(10000)
+        })
+
+        if (!response.ok) {
+          throw new Error(`Replicate API returned ${response.status}: ${response.statusText}`)
+        }
+
+        const data = await response.json()
+
+        // Filter for Llama models
+        const llamaModels = data.results?.filter((model: any) =>
+          model.name.toLowerCase().includes('llama') ||
+          model.name.toLowerCase().includes('codellama')
+        ) || []
+
+        for (const model of llamaModels) {
+          const metaModel = this.parseReplicateModel(model)
+          if (metaModel) {
+            models.push(metaModel)
+          }
+        }
+
+        cursor = data.next
+      } while (cursor && models.length < 20) // Limit to prevent excessive requests
+
+      return models
+
+    } catch (error) {
+      console.error('Failed to fetch from Replicate API:', error)
+      throw error
+    }
+  }
+
+  /**
+   * Parse Replicate model data to our format
+   */
+  private parseReplicateModel(replicateModel: any): MetaModel | null {
+    try {
+      const modelName = replicateModel.name
+      const fullId = `${replicateModel.owner}/${modelName}`
+
+      // Extract model info from name and description
+      const modelInfo = this.getModelInfoFromName(modelName)
+
+      return {
+        id: this.normalizeModelId(modelName),
+        name: this.formatModelName(modelName),
+        description: replicateModel.description || modelInfo.description,
+        version: replicateModel.latest_version?.id || 'latest',
+        context_window: modelInfo.context_window || 8192,
+        max_tokens: modelInfo.max_tokens || 4096,
+        input_cost_per_million: modelInfo.input_cost_per_million,
+        output_cost_per_million: modelInfo.output_cost_per_million,
+        capabilities: modelInfo.capabilities,
+        replicate_id: fullId
+      }
+    } catch (error) {
+      console.error('Failed to parse Replicate model:', error)
+      return null
+    }
+  }
+
+  /**
+   * Get model information from model name
+   */
+  private getModelInfoFromName(modelName: string): Partial<MetaModel> {
+    const nameLower = modelName.toLowerCase()
+
+    // Default values
+    let info: Partial<MetaModel> = {
+      description: 'Meta AI Llama model',
+      context_window: 4096,
+      max_tokens: 2048,
+      input_cost_per_million: 0.5,
+      output_cost_per_million: 0.5,
+      capabilities: ['text']
+    }
+
+    // Llama 3.1 models
+    if (nameLower.includes('3.1')) {
+      info.context_window = 128000
+      info.max_tokens = 128000
+      info.capabilities = ['text', 'code', 'reasoning']
+
+      if (nameLower.includes('405b')) {
+        info.description = 'Largest and most capable Llama model'
+        info.input_cost_per_million = 2.0
+        info.output_cost_per_million = 2.0
+        info.capabilities.push('multilingual', 'tool-use')
+      } else if (nameLower.includes('70b')) {
+        info.description = 'Large Llama model optimized for complex tasks'
+        info.input_cost_per_million = 0.5
+        info.output_cost_per_million = 0.5
+        info.capabilities.push('multilingual')
+      } else if (nameLower.includes('8b')) {
+        info.description = 'Efficient model for everyday tasks'
+        info.input_cost_per_million = 0.05
+        info.output_cost_per_million = 0.05
+      }
+    }
+    // Llama 3 models
+    else if (nameLower.includes('llama-3') || nameLower.includes('llama3')) {
+      info.context_window = 8192
+      info.max_tokens = 4096
+      info.capabilities = ['text', 'code', 'reasoning']
+
+      if (nameLower.includes('70b')) {
+        info.input_cost_per_million = 0.4
+        info.output_cost_per_million = 0.4
+      } else if (nameLower.includes('8b')) {
+        info.input_cost_per_million = 0.04
+        info.output_cost_per_million = 0.04
+      }
+    }
+    // Code Llama models
+    else if (nameLower.includes('code')) {
+      info.description = 'Specialized model for code generation'
+      info.context_window = 16384
+      info.max_tokens = 4096
+      info.capabilities = ['code', 'text']
+
+      if (nameLower.includes('70b')) {
+        info.input_cost_per_million = 0.5
+        info.output_cost_per_million = 0.5
+      } else if (nameLower.includes('34b')) {
+        info.input_cost_per_million = 0.2
+        info.output_cost_per_million = 0.2
+      }
+    }
+    // Llama 2 models (legacy)
+    else if (nameLower.includes('llama-2') || nameLower.includes('llama2')) {
+      info.description = 'Legacy Llama model'
+      info.context_window = 4096
+      info.max_tokens = 2048
+      info.capabilities = ['text']
+
+      if (nameLower.includes('70b')) {
+        info.input_cost_per_million = 0.3
+        info.output_cost_per_million = 0.3
+        info.capabilities.push('code')
+      } else if (nameLower.includes('13b')) {
+        info.input_cost_per_million = 0.1
+        info.output_cost_per_million = 0.1
+      } else if (nameLower.includes('7b')) {
+        info.input_cost_per_million = 0.05
+        info.output_cost_per_million = 0.05
+      }
+    }
+
+    return info
+  }
+
+  /**
+   * Normalize model ID from name
+   */
+  private normalizeModelId(name: string): string {
+    return name.toLowerCase().replace(/[^a-z0-9-]/g, '-').replace(/--+/g, '-')
+  }
+
+  /**
+   * Format model name for display
+   */
+  private formatModelName(name: string): string {
+    return name
+      .replace(/meta-/g, '')
+      .replace(/-/g, ' ')
+      .replace(/\b\w/g, l => l.toUpperCase())
+  }
+
 
   /**
    * Check if a model is available via Replicate
@@ -255,10 +344,13 @@ export class MetaService {
               isActive: model.isActive,
               capabilities: JSON.stringify(model.capabilities || []),
               modalities: JSON.stringify(['text']),
+              dataSource: 'api', // Meta models come from Replicate API
+              lastVerified: new Date(), // Update verification timestamp
               metadata: JSON.stringify({
                 supportsVision: false, // Llama models are text-only currently
                 modelType: 'language',
-                status: model.isActive ? 'active' : isLegacy ? 'deprecated' : 'inactive'
+                status: model.isActive ? 'active' : isLegacy ? 'deprecated' : 'inactive',
+                dataSource: 'api' // Also store in metadata for backwards compatibility
               })
             },
             create: {
@@ -271,10 +363,13 @@ export class MetaService {
               isActive: model.isActive,
               capabilities: JSON.stringify(model.capabilities || []),
               modalities: JSON.stringify(['text']),
+              dataSource: 'api', // Meta models come from Replicate API
+              lastVerified: new Date(), // Set initial verification timestamp
               metadata: JSON.stringify({
                 supportsVision: false, // Llama models are text-only currently
                 modelType: 'language',
-                status: model.isActive ? 'active' : isLegacy ? 'deprecated' : 'inactive'
+                status: model.isActive ? 'active' : isLegacy ? 'deprecated' : 'inactive',
+                dataSource: 'api' // Also store in metadata for backwards compatibility
               })
             }
           });
@@ -349,6 +444,7 @@ export class MetaService {
     }
 
     try {
+      const startTime = Date.now();
       const output = await this.client.run(
         model.replicate_id as `${string}/${string}` | `${string}/${string}:${string}`,
         {
@@ -359,13 +455,20 @@ export class MetaService {
           }
         }
       );
-      
+      const responseTime = Date.now() - startTime;
+
+      // Record API call for real metrics
+      const outputText = Array.isArray(output) ? output.join('') : String(output);
+      const estimatedTokens = Math.round((message.length + outputText.length) / 4);
+      realTimeMonitorV2.recordApiCall(modelId, this.providerId, true, responseTime, estimatedTokens);
+
       return {
         success: true,
         model: modelId,
         response: output,
       };
     } catch (error: any) {
+      realTimeMonitorV2.recordApiCall(modelId, this.providerId, false, 0, 0, error.message);
       return {
         success: false,
         model: modelId,

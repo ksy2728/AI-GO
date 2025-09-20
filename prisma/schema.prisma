@@ -22,6 +22,7 @@ model Provider {
   updatedAt        DateTime   @updatedAt @map("updated_at")
   incidents        Incident[]
   models           Model[]
+  changeLogs       ChangeLog[]
 
   @@index([slug])
   @@map("providers")
@@ -46,6 +47,8 @@ model Model {
   apiVersion        String?                  @map("api_version")
   isActive          Boolean                  @default(true) @map("is_active")
   metadata          String                   @default("{}")
+  dataSource        String?                  @map("data_source") // Track origin: 'api', 'config', 'scraped', 'unknown'
+  lastVerified      DateTime?                @map("last_verified") // Last time data was verified from source
   createdAt         DateTime                 @default(now()) @map("created_at")
   updatedAt         DateTime                 @updatedAt @map("updated_at")
   searchVector      Unsupported("tsvector")? @map("search_vector")
@@ -65,6 +68,8 @@ model Model {
   @@index([slug])
   @@index([foundationModel])
   @@index([isActive])
+  @@index([dataSource])
+  @@index([lastVerified])
   @@index([searchVector], map: "idx_models_search_vector", type: Gin)
   @@index([tags], map: "idx_models_tags", type: Gin)
   @@map("models")
@@ -218,4 +223,22 @@ model SavedFilter {
   @@index([usage_count(sort: Desc)], map: "idx_saved_filters_usage")
   @@index([user_id, is_public], map: "idx_saved_filters_user_public")
   @@map("saved_filters")
+}
+
+model ChangeLog {
+  id               String            @id @default(dbgenerated("gen_random_uuid()"))
+  providerId       String            @map("provider_id")
+  modelId          String            @map("model_id")
+  changeType       String            @map("change_type")
+  changeData       Json              @map("change_data")
+  confidence       Float
+  createdAt        DateTime          @default(now()) @map("created_at")
+
+  provider Provider @relation(fields: [providerId], references: [id], onDelete: Cascade)
+
+  @@index([providerId])
+  @@index([modelId])
+  @@index([createdAt])
+  @@index([changeType])
+  @@map("change_logs")
 }

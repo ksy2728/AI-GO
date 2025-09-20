@@ -4,21 +4,18 @@ import { logger } from '@/utils/logger';
 
 export async function POST(request: Request) {
   try {
-    logger.info('🚀 Starting TempDataService sync with APIs...');
-    
+    logger.info('🚀 Starting database sync with APIs...');
+
     const apiSyncService = new ApiSyncService();
-    
-    // 모든 API에서 최신 데이터 수집
+
+    // 모든 API에서 최신 데이터 수집 및 데이터베이스 저장
     const syncedModels = await apiSyncService.syncAllModels();
-    
-    // TempDataService 파일 업데이트
-    await apiSyncService.updateTempDataService(syncedModels);
-    
-    logger.info(`✅ Successfully synced ${syncedModels.length} models to TempDataService`);
+
+    logger.info(`✅ Successfully synced ${syncedModels.length} models to database`);
     
     return NextResponse.json({
       success: true,
-      message: 'TempDataService successfully synced with APIs',
+      message: 'Database successfully synced with APIs',
       totalModels: syncedModels.length,
       modelsByProvider: {
         openai: syncedModels.filter(m => m.provider.slug === 'openai').length,
@@ -34,7 +31,7 @@ export async function POST(request: Request) {
     return NextResponse.json(
       {
         success: false,
-        error: 'Failed to sync TempDataService with APIs',
+        error: 'Failed to sync database with APIs',
         message: error instanceof Error ? error.message : 'Unknown error',
         timestamp: new Date().toISOString(),
       },
@@ -53,8 +50,8 @@ export async function GET(request: Request) {
     const apiSyncService = new ApiSyncService();
     
     if (dryRun) {
-      // Dry run - 실제로 파일을 업데이트하지 않고 수집만 함
-      const syncedModels = await apiSyncService.syncAllModels();
+      // Dry run - 실제로 데이터베이스에 저장하지 않고 수집만 함
+      const syncedModels = await apiSyncService.syncAllModels(false);
       
       return NextResponse.json({
         dryRun: true,
@@ -80,12 +77,20 @@ export async function GET(request: Request) {
       });
     }
     
-    // 현재 TempDataService 상태 조회
-    const { TempDataService } = await import('@/services/temp-data.service');
-    const currentStats = await TempDataService.getSystemStats();
-    
+    // 현재 데이터베이스 상태 조회
+    const { prisma } = await import('@/lib/prisma');
+    const totalModels = await prisma.model.count({ where: { isActive: true } });
+    const totalProviders = await prisma.provider.count();
+    const recentStatus = await prisma.modelStatus.findFirst({
+      orderBy: { checkedAt: 'desc' },
+    });
+
     return NextResponse.json({
-      currentTempDataStats: currentStats,
+      currentDatabaseStats: {
+        totalModels,
+        totalProviders,
+        lastStatusCheck: recentStatus?.checkedAt,
+      },
       lastChecked: new Date().toISOString(),
       syncEndpoint: '/api/v1/sync/temp-data (POST)',
       dryRunEndpoint: '/api/v1/sync/temp-data?dryRun=true (GET)',
@@ -96,7 +101,7 @@ export async function GET(request: Request) {
     return NextResponse.json(
       {
         success: false,
-        error: 'Failed to get sync status',
+        error: 'Failed to get database sync status',
         message: error instanceof Error ? error.message : 'Unknown error',
         timestamp: new Date().toISOString(),
       },

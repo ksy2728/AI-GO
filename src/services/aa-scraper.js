@@ -148,11 +148,11 @@ class ArtificialAnalysisScraper {
               extractedModels.push({
                 name: nameText,
                 provider: providerText || 'Unknown',
-                intelligenceScore: intelligenceScore || Math.random() * 30 + 60, // Fallback random score
-                outputSpeed: outputSpeed || Math.random() * 100 + 50,
+                intelligenceScore: intelligenceScore || null, // No fake data - null if not available
+                outputSpeed: outputSpeed || null,
                 price: {
-                  input: priceInput || Math.random() * 10,
-                  output: priceOutput || Math.random() * 20
+                  input: priceInput || null,
+                  output: priceOutput || null
                 },
                 contextWindow: 128000, // Default value
                 lastUpdated: new Date().toISOString()
@@ -176,11 +176,11 @@ class ArtificialAnalysisScraper {
             extractedModels.push({
               name: name,
               provider: provider || 'Unknown',
-              intelligenceScore: Math.random() * 30 + 60,
-              outputSpeed: Math.random() * 100 + 50,
+              intelligenceScore: null, // No fake data
+              outputSpeed: null,
               price: {
-                input: Math.random() * 10,
-                output: Math.random() * 20
+                input: null,
+                output: null
               },
               contextWindow: 128000,
               lastUpdated: new Date().toISOString()
