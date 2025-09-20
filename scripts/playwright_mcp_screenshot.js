@@ -58,6 +58,7 @@ class PlaywrightMcpBackend {
     this.browser = null;
     this.context = null;
     this.page = null;
+    this._libPathPrepared = false;
   }
 
   async initialize() {
@@ -165,7 +166,9 @@ class PlaywrightMcpBackend {
 
   async _ensureSession() {
     if (!this.browser) {
-      this.browser = await chromium.launch({ headless: true });
+      this._prepareLibraryPath();
+      const executablePath = path.resolve(__dirname, '..', 'playwright-browsers', 'chrome-linux', 'headless_shell');
+      this.browser = await chromium.launch({ headless: true, executablePath, args: ['--no-sandbox'] });
     }
     if (!this.context) {
       this.context = await this.browser.newContext();
@@ -173,6 +176,30 @@ class PlaywrightMcpBackend {
     if (!this.page) {
       this.page = await this.context.newPage();
     }
+  }
+
+  _prepareLibraryPath() {
+    if (this._libPathPrepared) {
+      return;
+    }
+    const homeDir = process.env.HOME || require('os').homedir();
+    const stubLibDir = path.dirname(path.resolve(__dirname, 'libasound.so.2'));
+    const localBrowserDir = path.resolve(__dirname, '..', 'playwright-browsers', 'chrome-linux');
+    const candidates = [
+      stubLibDir,
+      localBrowserDir,
+      path.join(homeDir, '.cache/ms-playwright/firefox-1490/firefox'),
+      path.join(homeDir, '.cache/ms-playwright/firefox-1488/firefox')
+    ];
+    const existing = candidates.find((candidate) => fs.existsSync(path.join(candidate, 'libnspr4.so')));
+    if (existing) {
+      const current = process.env.LD_LIBRARY_PATH ? process.env.LD_LIBRARY_PATH.split(':') : [];
+      if (!current.includes(existing)) {
+        current.unshift(existing);
+        process.env.LD_LIBRARY_PATH = current.join(':');
+      }
+    }
+    this._libPathPrepared = true;
   }
 }
 
@@ -183,7 +210,6 @@ async function run() {
   const client = new mcpBundle.Client({ name: 'local-runner', version: '0.1.0' });
   client.registerCapabilities({ tools: {} });
 
-  await transport.start();
   await client.connect(transport);
   await client.listTools();
 

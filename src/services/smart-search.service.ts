@@ -232,7 +232,7 @@ export class SmartSearchService {
     if (filters.modalities?.length) {
       filteredModels = filteredModels.filter(model =>
         model.modalities && filters.modalities!.some(modality =>
-          model.modalities.includes(modality)
+          model.modalities!.includes(modality)
         )
       )
     }
@@ -240,7 +240,7 @@ export class SmartSearchService {
     if (filters.capabilities?.length) {
       filteredModels = filteredModels.filter(model =>
         model.capabilities && filters.capabilities!.some(capability =>
-          model.capabilities.includes(capability)
+          model.capabilities!.includes(capability)
         )
       )
     }

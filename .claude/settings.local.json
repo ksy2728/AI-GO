@@ -233,7 +233,10 @@
       "Bash(start http://localhost:3012/models)",
       "Bash(start http://localhost:7007)",
       "Bash(start http://localhost:3010)",
-      "Bash(git rebase:*)"
+      "Bash(git rebase:*)",
+      "Bash(start https://vercel.com/kim-soo-youngs-projects/ai-go/A8q9eKr5WrkmE1t5Xq9NHu2UGXzw)",
+      "Bash(start https://vercel.com/kim-soo-youngs-projects/ai-go/deployments)",
+      "Bash(git rm:*)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
