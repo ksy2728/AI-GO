@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
 import { ModelService } from '@/services/models.service'
-import { TempDataService } from '@/services/temp-data.service'
+import { UnifiedModelService } from '@/services/unified-models.service'
 import { GitHubDataService } from '@/services/github-data.service'
 
 export const revalidate = 0
@@ -24,10 +24,11 @@ export async function GET() {
         models = await GitHubDataService.getAllModels({ limit: 500 })
         dataSource = 'github'
       } catch (githubError) {
-        console.warn('GitHub failed, using temp data:', githubError)
-        // Final fallback to temporary data
-        models = await TempDataService.getAll() as any[]
-        dataSource = 'temp-data'
+        console.warn('GitHub failed, using UnifiedModelService:', githubError)
+        // Final fallback to unified models (AA data)
+        const response = await UnifiedModelService.getAll({}, 500, 0)
+        models = response.models as any[]
+        dataSource = 'artificial-analysis'
       }
     }
 

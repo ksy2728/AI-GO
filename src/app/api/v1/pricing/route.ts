@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { TempDataService } from '@/services/temp-data.service'
+import { UnifiedModelService } from '@/services/unified-models.service'
 import { prisma } from '@/lib/prisma'
 import fs from 'fs/promises'
 import path from 'path'
@@ -152,11 +152,22 @@ export async function GET(request: NextRequest) {
         cached: false,
       }
     } catch (error) {
-      console.warn('⚠️ Database service failed, using temporary data:', error instanceof Error ? error.message : 'Unknown error')
-      const tempPricing = await TempDataService.getPricing(filters)
+      console.warn('⚠️ Database service failed, using UnifiedModelService pricing:', error instanceof Error ? error.message : 'Unknown error')
+      // Extract pricing from unified models
+      const response = await UnifiedModelService.getAll({}, filters.limit, filters.offset)
+      const pricingData = response.models.map(model => ({
+        id: model.id,
+        modelId: model.id,
+        modelName: model.name,
+        provider: model.provider,
+        inputPrice: model.priceInput || 0,
+        outputPrice: model.priceOutput || 0,
+        currency: 'USD'
+      })).filter(p => p.inputPrice > 0 || p.outputPrice > 0)
+
       pricing = {
-        data: tempPricing,
-        total: tempPricing.length,
+        data: pricingData,
+        total: pricingData.length,
         cached: true
       }
     }

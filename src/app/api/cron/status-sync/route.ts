@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
-// Use mock KV for development, Vercel KV in production
-import { kv } from '@/lib/mock-kv'
+// Simple in-memory cache for status sync results (no external KV dependency)
+let statusSyncCache: Record<string, any> = {}
 
 interface ModelConfig {
   id: string
@@ -93,8 +93,11 @@ export async function POST(req: NextRequest) {
       }))
     }
 
-    // Cache sync summary
-    await kv.set('status:sync:latest', syncSummary, { ex: 3600 }) // 1 hour
+    // Cache sync summary in memory (with timestamp for expiration)
+    statusSyncCache['latest'] = {
+      ...syncSummary,
+      expiresAt: Date.now() + (3600 * 1000) // 1 hour from now
+    }
 
     console.log(`✅ Status sync completed: ${successCount} success, ${errorCount} errors in ${syncSummary.duration}ms`)
 

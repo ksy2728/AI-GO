@@ -10,23 +10,51 @@ const FALLBACK_TTL = 86400 * 1000 // 24 hours
 let cachedData: any = null
 let cacheTimestamp: number = 0
 
-// Real Intelligence Index values from Artificial Analysis (as of Dec 2024)
-const REAL_INTELLIGENCE_DATA = [
-  { rank: 1, id: 'gpt-5-high', name: 'GPT-5 (High)', provider: 'OpenAI', intelligenceIndex: 69, providerLogo: 'https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg' },
-  { rank: 2, id: 'gpt-5-medium', name: 'GPT-5 (Medium)', provider: 'OpenAI', intelligenceIndex: 68, providerLogo: 'https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg' },
-  { rank: 3, id: 'grok-4', name: 'Grok 4', provider: 'xAI', intelligenceIndex: 68, providerLogo: 'https://pbs.twimg.com/profile_images/1679958113668284416/5hmeHJmY_400x400.jpg' },
-  { rank: 4, id: 'o3-pro', name: 'o3-pro', provider: 'OpenAI', intelligenceIndex: 68, providerLogo: 'https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg' },
-  { rank: 5, id: 'o3', name: 'o3', provider: 'OpenAI', intelligenceIndex: 67, providerLogo: 'https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg' },
-  { rank: 6, id: 'gemini-2-5-pro', name: 'Gemini 2.5 Pro', provider: 'Google', intelligenceIndex: 65, providerLogo: 'https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg' },
-  { rank: 7, id: 'o4-mini-high', name: 'o4-mini (high)', provider: 'OpenAI', intelligenceIndex: 65, providerLogo: 'https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg' },
-  { rank: 8, id: 'gpt-5-mini', name: 'GPT-5 mini', provider: 'OpenAI', intelligenceIndex: 64, providerLogo: 'https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg' },
-  { rank: 9, id: 'qwen3-235b-reasoning', name: 'Qwen3 235B (Reasoning)', provider: 'Alibaba', intelligenceIndex: 64, providerLogo: 'https://upload.wikimedia.org/wikipedia/commons/0/09/Alibaba_Group_Logo.svg' },
-  { rank: 10, id: 'claude-4-1-opus-thinking', name: 'Claude 4.1 Opus Thinking', provider: 'Anthropic', intelligenceIndex: 61, providerLogo: 'https://upload.wikimedia.org/wikipedia/commons/7/78/Anthropic_logo.svg' },
-  { rank: 11, id: 'deepseek-v3-1-reasoning', name: 'DeepSeek V3.1 (Reasoning)', provider: 'DeepSeek', intelligenceIndex: 60, providerLogo: null },
-  { rank: 12, id: 'claude-4-sonnet-thinking', name: 'Claude 4 Sonnet Thinking', provider: 'Anthropic', intelligenceIndex: 59, providerLogo: 'https://upload.wikimedia.org/wikipedia/commons/7/78/Anthropic_logo.svg' },
-  { rank: 13, id: 'gemini-2-5-flash-reasoning', name: 'Gemini 2.5 Flash (Reasoning)', provider: 'Google', intelligenceIndex: 58, providerLogo: 'https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg' },
-  { rank: 14, id: 'llama-4-maverick', name: 'Llama 4 Maverick', provider: 'Meta', intelligenceIndex: 42, providerLogo: 'https://upload.wikimedia.org/wikipedia/commons/7/7b/Meta_Platforms_Inc._logo.svg' }
-]
+// Provider logo mapping for dynamic data
+const PROVIDER_LOGOS: Record<string, string> = {
+  'OpenAI': 'https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg',
+  'Anthropic': 'https://upload.wikimedia.org/wikipedia/commons/7/78/Anthropic_logo.svg',
+  'Google': 'https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg',
+  'Meta': 'https://upload.wikimedia.org/wikipedia/commons/7/7b/Meta_Platforms_Inc._logo.svg',
+  'xAI': 'https://pbs.twimg.com/profile_images/1679958113668284416/5hmeHJmY_400x400.jpg',
+  'Alibaba': 'https://upload.wikimedia.org/wikipedia/commons/0/09/Alibaba_Group_Logo.svg'
+}
+
+// Function to get intelligence data from AA models
+async function getIntelligenceData() {
+  try {
+    const { UnifiedModelService } = await import('@/services/unified-models.service')
+    const response = await UnifiedModelService.getAll({}, 1000, 0)
+
+    // Convert AA models to intelligence index format
+    const intelligenceData = response.models
+      .filter(model => model.intelligence && model.intelligence > 0)
+      .sort((a, b) => (b.intelligence || 0) - (a.intelligence || 0))
+      .map((model, index) => ({
+        rank: index + 1,
+        id: model.slug || model.id,
+        name: model.name,
+        provider: model.provider,
+        intelligenceIndex: model.intelligence,
+        providerLogo: PROVIDER_LOGOS[model.provider] || null
+      }))
+
+    return {
+      models: intelligenceData,
+      topModels: intelligenceData.slice(0, 9),
+      totalModels: intelligenceData.length,
+      metadata: {
+        source: 'Artificial Analysis (Live Data)',
+        url: 'https://artificialanalysis.ai/leaderboards/models',
+        scrapedAt: new Date().toISOString(),
+        version: '3.0'
+      }
+    }
+  } catch (error) {
+    console.error('Failed to get intelligence data from UnifiedModelService:', error)
+    throw error
+  }
+}
 
 async function loadIntelligenceData() {
   try {
@@ -36,38 +64,51 @@ async function loadIntelligenceData() {
       return { ...cachedData, cached: true, cacheAge: now - cacheTimestamp }
     }
 
-    // Try to load from file
-    const dataPath = path.join(process.cwd(), 'data', 'intelligence-index.json')
-    const fileData = await fs.readFile(dataPath, 'utf-8')
-    const parsedData = JSON.parse(fileData)
-    
-    // Update cache
-    cachedData = parsedData
-    cacheTimestamp = now
-    
-    return { ...parsedData, cached: false }
-  } catch (error) {
-    console.warn('Failed to load intelligence-index.json, using real data fallback:', error)
-    
-    // Use real Intelligence Index data as fallback
-    const fallbackData = {
-      models: REAL_INTELLIGENCE_DATA,
-      topModels: REAL_INTELLIGENCE_DATA.slice(0, 9),
-      totalModels: REAL_INTELLIGENCE_DATA.length,
-      metadata: {
-        source: 'Artificial Analysis (Hardcoded)',
-        url: 'https://artificialanalysis.ai/leaderboards/models',
-        scrapedAt: new Date().toISOString(),
-        version: '2.0'
-      },
-      cached: false
+    // Try to load from file first, then dynamic data
+    let data
+    try {
+      const dataPath = path.join(process.cwd(), 'data', 'intelligence-index.json')
+      const fileData = await fs.readFile(dataPath, 'utf-8')
+      data = JSON.parse(fileData)
+      console.log('📄 Using static intelligence data file')
+    } catch (fileError) {
+      console.log('📄 No static file, generating from AA data...')
+      data = await getIntelligenceData()
     }
-    
-    // Cache the fallback data
-    cachedData = fallbackData
-    cacheTimestamp = Date.now()
-    
-    return fallbackData
+
+    // Update cache
+    cachedData = data
+    cacheTimestamp = now
+
+    return { ...data, cached: false }
+  } catch (error) {
+    console.warn('Failed to load intelligence data, using AA fallback:', error)
+
+    // Use dynamic AA data as fallback
+    try {
+      const fallbackData = await getIntelligenceData()
+      const enrichedFallbackData = { ...fallbackData, cached: false }
+
+      // Cache the fallback data
+      cachedData = enrichedFallbackData
+      cacheTimestamp = Date.now()
+
+      return enrichedFallbackData
+    } catch (fallbackError) {
+      console.error('All intelligence data sources failed:', fallbackError)
+      // Return empty data if everything fails
+      return {
+        models: [],
+        topModels: [],
+        totalModels: 0,
+        metadata: {
+          source: 'Empty Fallback',
+          error: 'All data sources failed',
+          timestamp: new Date().toISOString()
+        },
+        cached: false
+      }
+    }
   }
 }
 
@@ -119,25 +160,47 @@ export async function GET(request: NextRequest) {
     })
   } catch (error) {
     console.error('Intelligence Index API error:', error)
-    
-    // Return hardcoded top 9 models as last resort
-    return NextResponse.json({
-      models: REAL_INTELLIGENCE_DATA.slice(0, 9),
-      totalModels: 9,
-      metadata: {
-        source: 'Fallback',
-        error: error instanceof Error ? error.message : 'Unknown error',
-        timestamp: new Date().toISOString()
-      },
-      cached: false,
-      dataSource: 'Fallback'
-    }, {
-      status: 200, // Return 200 even on error to prevent frontend issues
-      headers: {
-        'Cache-Control': `public, s-maxage=${FALLBACK_TTL / 1000}`,
-        'X-Data-Source': 'Fallback'
-      }
-    })
+
+    // Try to return dynamic data as last resort
+    try {
+      const emergencyData = await getIntelligenceData()
+      return NextResponse.json({
+        models: emergencyData.topModels,
+        totalModels: emergencyData.totalModels,
+        metadata: {
+          ...emergencyData.metadata,
+          source: 'Emergency Fallback',
+          error: error instanceof Error ? error.message : 'Unknown error'
+        },
+        cached: false,
+        dataSource: 'Emergency'
+      }, {
+        status: 200,
+        headers: {
+          'Cache-Control': `public, s-maxage=${FALLBACK_TTL / 1000}`,
+          'X-Data-Source': 'Emergency'
+        }
+      })
+    } catch (emergencyError) {
+      // Absolute final fallback - empty response
+      return NextResponse.json({
+        models: [],
+        totalModels: 0,
+        metadata: {
+          source: 'Critical Fallback',
+          error: 'All intelligence data sources failed',
+          timestamp: new Date().toISOString()
+        },
+        cached: false,
+        dataSource: 'Critical'
+      }, {
+        status: 200,
+        headers: {
+          'Cache-Control': `public, s-maxage=${FALLBACK_TTL / 1000}`,
+          'X-Data-Source': 'Critical'
+        }
+      })
+    }
   }
 }
 

@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server'
 import { StatusService } from '@/services/status.service'
+import { UnifiedModelService } from '@/services/unified-models.service'
 import { TempDataService } from '@/services/temp-data.service'
 import { GitHubDataService } from '@/services/github-data.service'
 

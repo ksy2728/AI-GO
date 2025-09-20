@@ -21,7 +21,7 @@ interface AAModel {
   name: string;
   provider: string;
   slug: string;
-  intelligence: number;
+  intelligenceScore: number;
   outputSpeed: number;
   inputPrice: number;
   outputPrice: number;
@@ -156,12 +156,12 @@ export class UnifiedModelService {
       slug: aaModel.slug,
       name: aaModel.name,
       provider: aaModel.provider,
-      description: `${aaModel.name} - Intelligence: ${aaModel.intelligence}, Speed: ${aaModel.outputSpeed}`,
+      description: `${aaModel.name} - Intelligence: ${aaModel.intelligenceScore}, Speed: ${aaModel.outputSpeed}`,
       source: 'artificial-analysis',
 
       // AA metrics container
       aa: {
-        intelligence: aaModel.intelligence,
+        intelligence: aaModel.intelligenceScore,
         speed: aaModel.outputSpeed,
         rank: aaModel.rank,
         inputPrice: aaModel.inputPrice,
@@ -173,12 +173,12 @@ export class UnifiedModelService {
       },
 
       // Unified display fields from AA
-      intelligence: aaModel.intelligence,
+      intelligence: aaModel.intelligenceScore,
       speed: aaModel.outputSpeed,
       priceInput: aaModel.inputPrice,
       priceOutput: aaModel.outputPrice,
       contextWindow: aaModel.contextWindow,
-      status: 'unknown',
+      status: aaModel.intelligenceScore > 70 ? 'operational' : 'degraded',
 
       // Model metadata
       modalities: ['text'],

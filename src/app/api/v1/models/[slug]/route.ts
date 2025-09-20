@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
 import { ModelService } from '@/services/models.service'
-import { TempDataService } from '@/services/temp-data.service'
+import { UnifiedModelService } from '@/services/unified-models.service'
 import { GitHubDataService } from '@/services/github-data.service'
 
 // Disable caching for this route
@@ -34,10 +34,10 @@ export async function GET(
         model = await GitHubDataService.getModelBySlug(slug)
         console.log('📦 Using GitHub data source for model details (production)')
       } catch (githubError) {
-        console.warn('⚠️ GitHub data failed, using temporary data:', githubError instanceof Error ? githubError.message : 'Unknown error')
-        // TempDataService now redirects to UnifiedModelService
-        const allModels = await TempDataService.getAll()
-        model = allModels.find(m => m.slug === slug) || null
+        console.warn('⚠️ GitHub data failed, using UnifiedModelService:', githubError instanceof Error ? githubError.message : 'Unknown error')
+        // Use UnifiedModelService directly
+        const response = await UnifiedModelService.getAll({}, 1000, 0)
+        model = response.models.find(m => m.slug === slug) || null
       }
     } else {
       // In development, try database first
@@ -50,10 +50,10 @@ export async function GET(
           model = await GitHubDataService.getModelBySlug(slug)
           console.log('📦 Using GitHub data source for model details (fallback)')
         } catch (githubError) {
-          console.warn('⚠️ GitHub data failed, using temporary data:', githubError instanceof Error ? githubError.message : 'Unknown error')
-          // TempDataService now redirects to UnifiedModelService
-        const allModels = await TempDataService.getAll()
-        model = allModels.find(m => m.slug === slug) || null
+          console.warn('⚠️ GitHub data failed, using UnifiedModelService:', githubError instanceof Error ? githubError.message : 'Unknown error')
+          // Use UnifiedModelService directly
+          const response = await UnifiedModelService.getAll({}, 1000, 0)
+          model = response.models.find(m => m.slug === slug) || null
         }
       }
     }

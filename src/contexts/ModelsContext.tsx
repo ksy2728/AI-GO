@@ -25,7 +25,7 @@ export function ModelsProvider({ children }: { children: React.ReactNode }) {
       const response = await api.getModels({
         provider: filters.provider,
         modality: filters.modality,
-        limit: 200, // Get more models for better stats
+        limit: 300, // Get all 272+ AA models for complete display
       })
       
       setModels(response.models || [])

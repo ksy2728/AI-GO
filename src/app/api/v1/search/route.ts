@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
 import { ModelService } from '@/services/models.service'
-import { TempDataService } from '@/services/temp-data.service'
+import { UnifiedModelService } from '@/services/unified-models.service'
 
 export async function GET(request: Request) {
   try {
@@ -28,8 +28,9 @@ export async function GET(request: Request) {
     try {
       models = (await ModelService.search(query, filters)) as any[]
     } catch (error) {
-      console.warn('⚠️ Database service failed, using temporary data:', error instanceof Error ? error.message : 'Unknown error')
-      models = (await TempDataService.searchModels(query, filters)) as any[]
+      console.warn('⚠️ Database service failed, using UnifiedModelService:', error instanceof Error ? error.message : 'Unknown error')
+      const response = await UnifiedModelService.getAll({ query }, limit, 0)
+      models = response.models as any[]
     }
 
     return NextResponse.json({
