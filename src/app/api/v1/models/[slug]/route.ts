@@ -35,7 +35,9 @@ export async function GET(
         console.log('📦 Using GitHub data source for model details (production)')
       } catch (githubError) {
         console.warn('⚠️ GitHub data failed, using temporary data:', githubError instanceof Error ? githubError.message : 'Unknown error')
-        model = await TempDataService.getModelBySlug(slug)
+        // TempDataService now redirects to UnifiedModelService
+        const allModels = await TempDataService.getAll()
+        model = allModels.find(m => m.slug === slug) || null
       }
     } else {
       // In development, try database first
@@ -49,7 +51,9 @@ export async function GET(
           console.log('📦 Using GitHub data source for model details (fallback)')
         } catch (githubError) {
           console.warn('⚠️ GitHub data failed, using temporary data:', githubError instanceof Error ? githubError.message : 'Unknown error')
-          model = await TempDataService.getModelBySlug(slug)
+          // TempDataService now redirects to UnifiedModelService
+        const allModels = await TempDataService.getAll()
+        model = allModels.find(m => m.slug === slug) || null
         }
       }
     }

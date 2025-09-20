@@ -95,7 +95,7 @@ export async function GET() {
       } catch (githubError) {
         console.warn('GitHub failed for highlights, using temp data:', githubError)
         // Final fallback to temporary data
-        models = await TempDataService.getAllModels({ limit: 500 }) as any[]
+        models = await TempDataService.getAll() as any[]
         dataSource = 'temp-data'
       }
     }

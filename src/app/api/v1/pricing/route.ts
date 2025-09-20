@@ -153,12 +153,17 @@ export async function GET(request: NextRequest) {
       }
     } catch (error) {
       console.warn('⚠️ Database service failed, using temporary data:', error instanceof Error ? error.message : 'Unknown error')
-      pricing = await TempDataService.getPricing(filters)
+      const tempPricing = await TempDataService.getPricing(filters)
+      pricing = {
+        data: tempPricing,
+        total: tempPricing.length,
+        cached: true
+      }
     }
 
     return NextResponse.json({
-      pricing: pricing.data,
-      total: pricing.total,
+      pricing: pricing.data || pricing,
+      total: pricing.total || (Array.isArray(pricing) ? pricing.length : 0),
       limit: filters.limit,
       offset: filters.offset,
       timestamp: new Date().toISOString(),
