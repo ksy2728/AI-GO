@@ -402,7 +402,7 @@ export class SmartSearchService {
         description,
         filters: JSON.stringify(filters),
         is_public: isPublic,
-        usageCount: 0
+        usage_count: 0
       }
     })
 
@@ -412,15 +412,15 @@ export class SmartSearchService {
       description: preset.description || undefined,
       filters,
       sort,
-      isPublic: preset.isPublic,
-      usageCount: preset.usageCount
+      isPublic: preset.is_public ?? false,
+      usageCount: preset.usage_count ?? 0
     }
   }
 
   static async getSearchPresets(isPublic?: boolean): Promise<SearchPreset[]> {
     const presets = await prisma.savedFilter.findMany({
-      where: isPublic !== undefined ? { isPublic } : undefined,
-      orderBy: { usageCount: 'desc' }
+      where: isPublic !== undefined ? { is_public: isPublic } : undefined,
+      orderBy: { usage_count: 'desc' }
     })
 
     return presets.map(preset => ({
@@ -428,15 +428,15 @@ export class SmartSearchService {
       name: preset.name,
       description: preset.description || undefined,
       filters: JSON.parse(preset.filters as string),
-      isPublic: preset.isPublic,
-      usageCount: preset.usageCount
+      isPublic: preset.is_public ?? false,
+      usageCount: preset.usage_count ?? 0
     }))
   }
 
   static async updatePresetUsage(presetId: string): Promise<void> {
     await prisma.savedFilter.update({
       where: { id: presetId },
-      data: { usageCount: { increment: 1 } }
+      data: { usage_count: { increment: 1 } }
     })
   }
 

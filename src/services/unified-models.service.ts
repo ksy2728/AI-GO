@@ -132,11 +132,11 @@ export class UnifiedModelService {
   private static async safeFetchDbModels(filters?: UnifiedModelFilters): Promise<any[]> {
     try {
       console.log('🔄 Fetching database models...');
-      const dbModels = await ModelService.getAll({
+      const dbModels: any[] = (await ModelService.getAll({
         limit: 1000, // Get all DB models
         offset: 0,
         ...filters
-      });
+      })) as any[];
       console.log(`✅ Fetched ${dbModels.length} database models`);
       return dbModels;
     } catch (error) {
@@ -281,7 +281,9 @@ export class UnifiedModelService {
           capabilities: [...new Set([...(existing.capabilities || []), ...(dbModel.capabilities || [])])],
 
           // Use more recent update time
-          lastUpdated: existing.lastUpdated > dbModel.lastUpdated ? existing.lastUpdated : dbModel.lastUpdated
+          lastUpdated: (existing.lastUpdated && dbModel.lastUpdated)
+            ? (existing.lastUpdated > dbModel.lastUpdated ? existing.lastUpdated : dbModel.lastUpdated)
+            : (existing.lastUpdated || dbModel.lastUpdated || new Date().toISOString())
         };
 
         byId.set(dbModel.id, merged);
