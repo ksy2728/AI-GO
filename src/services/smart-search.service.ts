@@ -401,7 +401,7 @@ export class SmartSearchService {
         name,
         description,
         filters: JSON.stringify(filters),
-        isPublic,
+        is_public: isPublic,
         usageCount: 0
       }
     })
