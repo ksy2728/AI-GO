@@ -59,7 +59,9 @@ export class AAStatusService {
 
       // Filter only models that actually have AA data
       const modelsWithAA = aaModels.filter(m => {
-        const metadata = m.metadata as any
+        const metadata = typeof m.metadata === 'string'
+          ? JSON.parse(m.metadata || '{}')
+          : (m.metadata || {})
         return metadata && metadata.aa
       })
 
@@ -67,20 +69,26 @@ export class AAStatusService {
 
       // Calculate AA-specific metrics
       const activeAAModels = modelsWithAA.filter(m => {
-        const metadata = m.metadata as any
+        const metadata = typeof m.metadata === 'string'
+          ? JSON.parse(m.metadata || '{}')
+          : (m.metadata || {})
         return metadata?.aa?.isActive !== false
       }).length
 
       // Get unique providers from AA data
       const aaProviders = new Set(modelsWithAA.map(m => {
-        const metadata = m.metadata as any
+        const metadata = typeof m.metadata === 'string'
+          ? JSON.parse(m.metadata || '{}')
+          : (m.metadata || {})
         return metadata?.aa?.provider || m.provider?.name || 'unknown'
       })).size
 
       // Calculate category distribution
       const aaCategories: Record<string, number> = {}
       modelsWithAA.forEach(model => {
-        const metadata = model.metadata as any
+        const metadata = typeof model.metadata === 'string'
+          ? JSON.parse(model.metadata || '{}')
+          : (model.metadata || {})
         const category = metadata?.aa?.category || 'Unknown'
         aaCategories[category] = (aaCategories[category] || 0) + 1
       })
@@ -92,7 +100,9 @@ export class AAStatusService {
       let countWithMetrics = 0
 
       modelsWithAA.forEach(model => {
-        const metadata = model.metadata as any
+        const metadata = typeof model.metadata === 'string'
+          ? JSON.parse(model.metadata || '{}')
+          : (model.metadata || {})
         if (metadata?.aa) {
           if (metadata.aa.intelligenceScore) {
             totalIntelligence += Number(metadata.aa.intelligenceScore)
