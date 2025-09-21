@@ -1,0 +1,2329 @@
+{
+  "models": [
+    {
+      "slug": "gpt-5-high-",
+      "name": "GPT-5 (high)",
+      "provider": "OpenAI",
+      "intelligenceScore": 67,
+      "outputSpeed": 140.2,
+      "latency": 57.37,
+      "price": {
+        "input": 2.7520000000000002,
+        "output": 5.5040000000000004,
+        "blended": 3.44
+      },
+      "contextWindow": 400000,
+      "rank": 3,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "gpt-5-medium-",
+      "name": "GPT-5 (medium)",
+      "provider": "OpenAI",
+      "intelligenceScore": 66,
+      "outputSpeed": 235.3,
+      "latency": 27.97,
+      "price": {
+        "input": 2.7520000000000002,
+        "output": 5.5040000000000004,
+        "blended": 3.44
+      },
+      "contextWindow": 400000,
+      "rank": 4,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "grok-4",
+      "name": "Grok 4",
+      "provider": "xAI",
+      "intelligenceScore": 65,
+      "outputSpeed": 44.3,
+      "latency": 14.24,
+      "price": {
+        "input": 4.800000000000001,
+        "output": 9.600000000000001,
+        "blended": 6
+      },
+      "contextWindow": 256000,
+      "rank": 5,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "o3-pro",
+      "name": "o3-pro",
+      "provider": "OpenAI",
+      "intelligenceScore": 65,
+      "outputSpeed": 14.5,
+      "latency": 149.02,
+      "price": {
+        "input": 28,
+        "output": 56,
+        "blended": 35
+      },
+      "contextWindow": 200000,
+      "rank": 6,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "o3",
+      "name": "o3",
+      "provider": "OpenAI",
+      "intelligenceScore": 65,
+      "outputSpeed": 192.2,
+      "latency": 13.56,
+      "price": {
+        "input": 2.8000000000000003,
+        "output": 5.6000000000000005,
+        "blended": 3.5
+      },
+      "contextWindow": 200000,
+      "rank": 7,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "gpt-5-mini-high-",
+      "name": "GPT-5 mini (high)",
+      "provider": "OpenAI",
+      "intelligenceScore": 62,
+      "outputSpeed": 67.4,
+      "latency": 100.1,
+      "price": {
+        "input": 0.5519999999999999,
+        "output": 1.1039999999999999,
+        "blended": 0.69
+      },
+      "contextWindow": 400000,
+      "rank": 8,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "gpt-5-low-",
+      "name": "GPT-5 (low)",
+      "provider": "OpenAI",
+      "intelligenceScore": 62,
+      "outputSpeed": 199.5,
+      "latency": 12.3,
+      "price": {
+        "input": 2.7520000000000002,
+        "output": 5.5040000000000004,
+        "blended": 3.44
+      },
+      "contextWindow": 400000,
+      "rank": 9,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "gpt-5-mini-medium-",
+      "name": "GPT-5 mini (medium)",
+      "provider": "OpenAI",
+      "intelligenceScore": 61,
+      "outputSpeed": 61.1,
+      "latency": 31.94,
+      "price": {
+        "input": 0.5519999999999999,
+        "output": 1.1039999999999999,
+        "blended": 0.69
+      },
+      "contextWindow": 400000,
+      "rank": 10,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "grok-4-fast",
+      "name": "Grok 4 Fast",
+      "provider": "xAI",
+      "intelligenceScore": 60,
+      "outputSpeed": 276.1,
+      "latency": 2.96,
+      "price": {
+        "input": 0.22400000000000003,
+        "output": 0.44800000000000006,
+        "blended": 0.28
+      },
+      "contextWindow": 2000000,
+      "rank": 11,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "gemini-2-5-pro",
+      "name": "Gemini 2.5 Pro",
+      "provider": "Google",
+      "intelligenceScore": 60,
+      "outputSpeed": 150.5,
+      "latency": 29.62,
+      "price": {
+        "input": 2.7520000000000002,
+        "output": 5.5040000000000004,
+        "blended": 3.44
+      },
+      "contextWindow": 1000000,
+      "rank": 12,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "claude-4-1-opus",
+      "name": "Claude 4.1 Opus",
+      "provider": "Anthropic",
+      "intelligenceScore": 59,
+      "outputSpeed": 41.8,
+      "latency": 2.4,
+      "price": {
+        "input": 24,
+        "output": 48,
+        "blended": 30
+      },
+      "contextWindow": 200000,
+      "rank": 13,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "o4-mini-high-",
+      "name": "o4-mini (high)",
+      "provider": "Unknown",
+      "intelligenceScore": 59,
+      "outputSpeed": 100.6,
+      "latency": 47.11,
+      "price": {
+        "input": 1.544,
+        "output": 3.088,
+        "blended": 1.93
+      },
+      "contextWindow": 200000,
+      "rank": 14,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "gpt-oss-120b-high-",
+      "name": "gpt-oss-120B (high)",
+      "provider": "OpenAI",
+      "intelligenceScore": 58,
+      "outputSpeed": 237.5,
+      "latency": 0.47,
+      "price": {
+        "input": 0.20800000000000002,
+        "output": 0.41600000000000004,
+        "blended": 0.26
+      },
+      "contextWindow": 131000,
+      "rank": 15,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "qwen3-235b-2507",
+      "name": "Qwen3 235B 2507",
+      "provider": "Alibaba",
+      "intelligenceScore": 57,
+      "outputSpeed": 64.4,
+      "latency": 1.19,
+      "price": {
+        "input": 2.104,
+        "output": 4.208,
+        "blended": 2.63
+      },
+      "contextWindow": 256000,
+      "rank": 16,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "grok-3-mini-reasoning-high-",
+      "name": "Grok 3 mini Reasoning (high)",
+      "provider": "xAI",
+      "intelligenceScore": 57,
+      "outputSpeed": 132.1,
+      "latency": 0.55,
+      "price": {
+        "input": 0.27999999999999997,
+        "output": 0.5599999999999999,
+        "blended": 0.35
+      },
+      "contextWindow": 1000000,
+      "rank": 17,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "claude-4-sonnet",
+      "name": "Claude 4 Sonnet",
+      "provider": "Anthropic",
+      "intelligenceScore": 57,
+      "outputSpeed": 53.5,
+      "latency": 1.07,
+      "price": {
+        "input": 4.800000000000001,
+        "output": 9.600000000000001,
+        "blended": 6
+      },
+      "contextWindow": 1000000,
+      "rank": 18,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "qwen3-next-80b-a3b",
+      "name": "Qwen3 Next 80B A3B",
+      "provider": "Alibaba",
+      "intelligenceScore": 54,
+      "outputSpeed": 72.6,
+      "latency": 1.17,
+      "price": {
+        "input": 1.504,
+        "output": 3.008,
+        "blended": 1.88
+      },
+      "contextWindow": 262000,
+      "rank": 19,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "claude-4-opus",
+      "name": "Claude 4 Opus",
+      "provider": "Anthropic",
+      "intelligenceScore": 54,
+      "outputSpeed": 51.3,
+      "latency": 1.49,
+      "price": {
+        "input": 24,
+        "output": 48,
+        "blended": 30
+      },
+      "contextWindow": 200000,
+      "rank": 20,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "deepseek-v3-1",
+      "name": "DeepSeek V3.1",
+      "provider": "DeepSeek",
+      "intelligenceScore": 54,
+      "outputSpeed": 20.3,
+      "latency": 2.84,
+      "price": {
+        "input": 0.768,
+        "output": 1.536,
+        "blended": 0.96
+      },
+      "contextWindow": 128000,
+      "rank": 21,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "magistral-medium-1-2",
+      "name": "Magistral Medium 1.2",
+      "provider": "Unknown",
+      "intelligenceScore": 52,
+      "outputSpeed": 132.6,
+      "latency": 0.41,
+      "price": {
+        "input": 2.2,
+        "output": 4.4,
+        "blended": 2.75
+      },
+      "contextWindow": 128000,
+      "rank": 22,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "deepseek-r1-0528",
+      "name": "DeepSeek R1 0528",
+      "provider": "DeepSeek",
+      "intelligenceScore": 52,
+      "outputSpeed": 20.4,
+      "latency": 2.88,
+      "price": {
+        "input": 0.768,
+        "output": 1.536,
+        "blended": 0.96
+      },
+      "contextWindow": 128000,
+      "rank": 23,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "gemini-2-5-flash",
+      "name": "Gemini 2.5 Flash",
+      "provider": "Google",
+      "intelligenceScore": 51,
+      "outputSpeed": 222.7,
+      "latency": 13.83,
+      "price": {
+        "input": 0.68,
+        "output": 1.36,
+        "blended": 0.85
+      },
+      "contextWindow": 1000000,
+      "rank": 24,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "o3-mini-high-",
+      "name": "o3-mini (high)",
+      "provider": "OpenAI",
+      "intelligenceScore": 51,
+      "outputSpeed": 136.9,
+      "latency": 44.73,
+      "price": {
+        "input": 1.544,
+        "output": 3.088,
+        "blended": 1.93
+      },
+      "contextWindow": 200000,
+      "rank": 25,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "kimi-k2-0905",
+      "name": "Kimi K2 0905",
+      "provider": "Unknown",
+      "intelligenceScore": 50,
+      "outputSpeed": 52.3,
+      "latency": 0.44,
+      "price": {
+        "input": 1.072,
+        "output": 2.144,
+        "blended": 1.34
+      },
+      "contextWindow": 256000,
+      "rank": 26,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "glm-4-5",
+      "name": "GLM-4.5",
+      "provider": "Unknown",
+      "intelligenceScore": 49,
+      "outputSpeed": 53.4,
+      "latency": 0.65,
+      "price": {
+        "input": 0.776,
+        "output": 1.552,
+        "blended": 0.97
+      },
+      "contextWindow": 128000,
+      "rank": 27,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "glm-4-5-air",
+      "name": "GLM-4.5-Air",
+      "provider": "Unknown",
+      "intelligenceScore": 49,
+      "outputSpeed": 96.4,
+      "latency": 0.7,
+      "price": {
+        "input": 0.336,
+        "output": 0.672,
+        "blended": 0.42
+      },
+      "contextWindow": 128000,
+      "rank": 28,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "grok-code-fast-1",
+      "name": "Grok Code Fast 1",
+      "provider": "xAI",
+      "intelligenceScore": 49,
+      "outputSpeed": 282.7,
+      "latency": 7.81,
+      "price": {
+        "input": 0.42400000000000004,
+        "output": 0.8480000000000001,
+        "blended": 0.53
+      },
+      "contextWindow": 256000,
+      "rank": 29,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "qwen3-max-preview-",
+      "name": "Qwen3 Max (Preview)",
+      "provider": "Alibaba",
+      "intelligenceScore": 49,
+      "outputSpeed": 59.7,
+      "latency": 1.11,
+      "price": {
+        "input": 1.92,
+        "output": 3.84,
+        "blended": 2.4
+      },
+      "contextWindow": 262000,
+      "rank": 30,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "gpt-5-nano-high-",
+      "name": "GPT-5 nano (high)",
+      "provider": "OpenAI",
+      "intelligenceScore": 49,
+      "outputSpeed": 115.2,
+      "latency": 73.61,
+      "price": {
+        "input": 0.11200000000000002,
+        "output": 0.22400000000000003,
+        "blended": 0.14
+      },
+      "contextWindow": 400000,
+      "rank": 31,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "kimi-k2",
+      "name": "Kimi K2",
+      "provider": "Unknown",
+      "intelligenceScore": 48,
+      "outputSpeed": 54.4,
+      "latency": 0.52,
+      "price": {
+        "input": 0.8560000000000001,
+        "output": 1.7120000000000002,
+        "blended": 1.07
+      },
+      "contextWindow": 128000,
+      "rank": 32,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "o3-mini",
+      "name": "o3-mini",
+      "provider": "OpenAI",
+      "intelligenceScore": 48,
+      "outputSpeed": 135.1,
+      "latency": 14.83,
+      "price": {
+        "input": 1.544,
+        "output": 3.088,
+        "blended": 1.93
+      },
+      "contextWindow": 200000,
+      "rank": 33,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "gpt-5-nano-medium-",
+      "name": "GPT-5 nano (medium)",
+      "provider": "OpenAI",
+      "intelligenceScore": 48,
+      "outputSpeed": 155,
+      "latency": 35.7,
+      "price": {
+        "input": 0.11200000000000002,
+        "output": 0.22400000000000003,
+        "blended": 0.14
+      },
+      "contextWindow": 400000,
+      "rank": 34,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "qwen3-30b-2507",
+      "name": "Qwen3 30B 2507",
+      "provider": "Alibaba",
+      "intelligenceScore": 46,
+      "outputSpeed": 100.3,
+      "latency": 1.01,
+      "price": {
+        "input": 0.6000000000000001,
+        "output": 1.2000000000000002,
+        "blended": 0.75
+      },
+      "contextWindow": 262000,
+      "rank": 35,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "minimax-m1-80k",
+      "name": "MiniMax M1 80k",
+      "provider": "Unknown",
+      "intelligenceScore": 46,
+      "outputSpeed": 0,
+      "latency": 0,
+      "price": {
+        "input": 0.656,
+        "output": 1.312,
+        "blended": 0.82
+      },
+      "contextWindow": 1000000,
+      "rank": 36,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "qwen3-235b-2507",
+      "name": "Qwen3 235B 2507",
+      "provider": "Alibaba",
+      "intelligenceScore": 45,
+      "outputSpeed": 29,
+      "latency": 1.16,
+      "price": {
+        "input": 0.984,
+        "output": 1.968,
+        "blended": 1.23
+      },
+      "contextWindow": 256000,
+      "rank": 37,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "llama-nemotron-super-49b-v1-5",
+      "name": "Llama Nemotron Super 49B v1.5",
+      "provider": "Meta",
+      "intelligenceScore": 45,
+      "outputSpeed": 78.9,
+      "latency": 0.52,
+      "price": {
+        "input": 0.136,
+        "output": 0.272,
+        "blended": 0.17
+      },
+      "contextWindow": 128000,
+      "rank": 38,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "qwen3-next-80b-a3b",
+      "name": "Qwen3 Next 80B A3B",
+      "provider": "Alibaba",
+      "intelligenceScore": 45,
+      "outputSpeed": 69.2,
+      "latency": 1.04,
+      "price": {
+        "input": 0.7040000000000001,
+        "output": 1.4080000000000001,
+        "blended": 0.88
+      },
+      "contextWindow": 262000,
+      "rank": 39,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "gpt-oss-20b-high-",
+      "name": "gpt-oss-20B (high)",
+      "provider": "OpenAI",
+      "intelligenceScore": 45,
+      "outputSpeed": 250.7,
+      "latency": 0.43,
+      "price": {
+        "input": 0.072,
+        "output": 0.144,
+        "blended": 0.09
+      },
+      "contextWindow": 131000,
+      "rank": 40,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "deepseek-v3-1",
+      "name": "DeepSeek V3.1",
+      "provider": "DeepSeek",
+      "intelligenceScore": 45,
+      "outputSpeed": 20,
+      "latency": 2.79,
+      "price": {
+        "input": 0.384,
+        "output": 0.768,
+        "blended": 0.48
+      },
+      "contextWindow": 128000,
+      "rank": 41,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "claude-4-1-opus",
+      "name": "Claude 4.1 Opus",
+      "provider": "Anthropic",
+      "intelligenceScore": 45,
+      "outputSpeed": 44.5,
+      "latency": 2.37,
+      "price": {
+        "input": 24,
+        "output": 48,
+        "blended": 30
+      },
+      "contextWindow": 200000,
+      "rank": 42,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "claude-4-sonnet",
+      "name": "Claude 4 Sonnet",
+      "provider": "Anthropic",
+      "intelligenceScore": 44,
+      "outputSpeed": 67,
+      "latency": 1.3,
+      "price": {
+        "input": 4.800000000000001,
+        "output": 9.600000000000001,
+        "blended": 6
+      },
+      "contextWindow": 1000000,
+      "rank": 43,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "gpt-5-minimal-",
+      "name": "GPT-5 (minimal)",
+      "provider": "OpenAI",
+      "intelligenceScore": 43,
+      "outputSpeed": 128.2,
+      "latency": 1.06,
+      "price": {
+        "input": 2.7520000000000002,
+        "output": 5.5040000000000004,
+        "blended": 3.44
+      },
+      "contextWindow": 400000,
+      "rank": 44,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "gpt-4-1",
+      "name": "GPT-4.1",
+      "provider": "OpenAI",
+      "intelligenceScore": 43,
+      "outputSpeed": 121,
+      "latency": 0.49,
+      "price": {
+        "input": 2.8000000000000003,
+        "output": 5.6000000000000005,
+        "blended": 3.5
+      },
+      "contextWindow": 1000000,
+      "rank": 45,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "qwen3-4b-2507",
+      "name": "Qwen3 4B 2507",
+      "provider": "Alibaba",
+      "intelligenceScore": 43,
+      "outputSpeed": 0,
+      "latency": 0,
+      "price": {
+        "input": 0,
+        "output": 0,
+        "blended": 0
+      },
+      "contextWindow": 262000,
+      "rank": 46,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "magistral-small-1-2",
+      "name": "Magistral Small 1.2",
+      "provider": "Unknown",
+      "intelligenceScore": 43,
+      "outputSpeed": 215.9,
+      "latency": 0.35,
+      "price": {
+        "input": 0.6000000000000001,
+        "output": 1.2000000000000002,
+        "blended": 0.75
+      },
+      "contextWindow": 128000,
+      "rank": 47,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "exaone-4-0-32b",
+      "name": "EXAONE 4.0 32B",
+      "provider": "Unknown",
+      "intelligenceScore": 43,
+      "outputSpeed": 55.4,
+      "latency": 0.36,
+      "price": {
+        "input": 0.5599999999999999,
+        "output": 1.1199999999999999,
+        "blended": 0.7
+      },
+      "contextWindow": 131000,
+      "rank": 48,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "gpt-4-1-mini",
+      "name": "GPT-4.1 mini",
+      "provider": "OpenAI",
+      "intelligenceScore": 42,
+      "outputSpeed": 75,
+      "latency": 0.48,
+      "price": {
+        "input": 0.5599999999999999,
+        "output": 1.1199999999999999,
+        "blended": 0.7
+      },
+      "contextWindow": 1000000,
+      "rank": 49,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "claude-4-opus",
+      "name": "Claude 4 Opus",
+      "provider": "Anthropic",
+      "intelligenceScore": 42,
+      "outputSpeed": 47.1,
+      "latency": 1.56,
+      "price": {
+        "input": 24,
+        "output": 48,
+        "blended": 30
+      },
+      "contextWindow": 200000,
+      "rank": 50,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "qwen3-coder-480b",
+      "name": "Qwen3 Coder 480B",
+      "provider": "Alibaba",
+      "intelligenceScore": 42,
+      "outputSpeed": 40.4,
+      "latency": 1.5,
+      "price": {
+        "input": 2.4000000000000004,
+        "output": 4.800000000000001,
+        "blended": 3
+      },
+      "contextWindow": 262000,
+      "rank": 51,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "minimax-m1-40k",
+      "name": "MiniMax M1 40k",
+      "provider": "Unknown",
+      "intelligenceScore": 42,
+      "outputSpeed": 0,
+      "latency": 0,
+      "price": {
+        "input": 0.656,
+        "output": 1.312,
+        "blended": 0.82
+      },
+      "contextWindow": 1000000,
+      "rank": 52,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "gpt-5-mini-minimal-",
+      "name": "GPT-5 mini (minimal)",
+      "provider": "OpenAI",
+      "intelligenceScore": 42,
+      "outputSpeed": 76.2,
+      "latency": 1.02,
+      "price": {
+        "input": 0.5519999999999999,
+        "output": 1.1039999999999999,
+        "blended": 0.69
+      },
+      "contextWindow": 400000,
+      "rank": 53,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "hermes-4-405b",
+      "name": "Hermes 4 405B",
+      "provider": "Unknown",
+      "intelligenceScore": 42,
+      "outputSpeed": 36.8,
+      "latency": 0.74,
+      "price": {
+        "input": 1.2000000000000002,
+        "output": 2.4000000000000004,
+        "blended": 1.5
+      },
+      "contextWindow": 128000,
+      "rank": 54,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "grok-3-reasoning-beta",
+      "name": "Grok 3 Reasoning Beta",
+      "provider": "xAI",
+      "intelligenceScore": 41,
+      "outputSpeed": 0,
+      "latency": 0,
+      "price": {
+        "input": 0,
+        "output": 0,
+        "blended": 0
+      },
+      "contextWindow": 1000000,
+      "rank": 55,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "gemini-2-5-flash",
+      "name": "Gemini 2.5 Flash",
+      "provider": "Google",
+      "intelligenceScore": 40,
+      "outputSpeed": 195.3,
+      "latency": 0.27,
+      "price": {
+        "input": 0.68,
+        "output": 1.36,
+        "blended": 0.85
+      },
+      "contextWindow": 1000000,
+      "rank": 56,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "gemini-2-5-flash-lite",
+      "name": "Gemini 2.5 Flash-Lite",
+      "provider": "Google",
+      "intelligenceScore": 40,
+      "outputSpeed": 479.1,
+      "latency": 9.03,
+      "price": {
+        "input": 0.136,
+        "output": 0.272,
+        "blended": 0.17
+      },
+      "contextWindow": 1000000,
+      "rank": 57,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "hermes-4-llama-3-1-70b",
+      "name": "Hermes 4 - Llama-3.1 70B",
+      "provider": "Meta",
+      "intelligenceScore": 39,
+      "outputSpeed": 87.4,
+      "latency": 0.6,
+      "price": {
+        "input": 0.16000000000000003,
+        "output": 0.32000000000000006,
+        "blended": 0.2
+      },
+      "contextWindow": 128000,
+      "rank": 58,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "grok-4-fast",
+      "name": "Grok 4 Fast",
+      "provider": "xAI",
+      "intelligenceScore": 39,
+      "outputSpeed": 249,
+      "latency": 0.59,
+      "price": {
+        "input": 0.22400000000000003,
+        "output": 0.44800000000000006,
+        "blended": 0.28
+      },
+      "contextWindow": 2000000,
+      "rank": 59,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "llama-nemotron-ultra",
+      "name": "Llama Nemotron Ultra",
+      "provider": "Meta",
+      "intelligenceScore": 38,
+      "outputSpeed": 38.4,
+      "latency": 0.71,
+      "price": {
+        "input": 0.7200000000000001,
+        "output": 1.4400000000000002,
+        "blended": 0.9
+      },
+      "contextWindow": 128000,
+      "rank": 60,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "nvidia-nemotron-nano-9b-v2",
+      "name": "NVIDIA Nemotron Nano 9B V2",
+      "provider": "Unknown",
+      "intelligenceScore": 38,
+      "outputSpeed": 120,
+      "latency": 0.18,
+      "price": {
+        "input": 0.05600000000000001,
+        "output": 0.11200000000000002,
+        "blended": 0.07
+      },
+      "contextWindow": 131000,
+      "rank": 61,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "qwq-32b",
+      "name": "QwQ-32B",
+      "provider": "Unknown",
+      "intelligenceScore": 38,
+      "outputSpeed": 33,
+      "latency": 0.55,
+      "price": {
+        "input": 0.384,
+        "output": 0.768,
+        "blended": 0.48
+      },
+      "contextWindow": 131000,
+      "rank": 62,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "solar-pro-2",
+      "name": "Solar Pro 2",
+      "provider": "Unknown",
+      "intelligenceScore": 38,
+      "outputSpeed": 106.7,
+      "latency": 1.37,
+      "price": {
+        "input": 0.4,
+        "output": 0.8,
+        "blended": 0.5
+      },
+      "contextWindow": 66000,
+      "rank": 63,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "glm-4-5v",
+      "name": "GLM-4.5V",
+      "provider": "Unknown",
+      "intelligenceScore": 37,
+      "outputSpeed": 90,
+      "latency": 0.75,
+      "price": {
+        "input": 0.68,
+        "output": 1.36,
+        "blended": 0.85
+      },
+      "contextWindow": 64000,
+      "rank": 64,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "qwen3-30b-2507",
+      "name": "Qwen3 30B 2507",
+      "provider": "Alibaba",
+      "intelligenceScore": 37,
+      "outputSpeed": 87.1,
+      "latency": 1.01,
+      "price": {
+        "input": 0.27999999999999997,
+        "output": 0.5599999999999999,
+        "blended": 0.35
+      },
+      "contextWindow": 262000,
+      "rank": 65,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "nvidia-nemotron-nano-9b-v2",
+      "name": "NVIDIA Nemotron Nano 9B V2",
+      "provider": "Unknown",
+      "intelligenceScore": 37,
+      "outputSpeed": 116.6,
+      "latency": 0.19,
+      "price": {
+        "input": 0.05600000000000001,
+        "output": 0.11200000000000002,
+        "blended": 0.07
+      },
+      "contextWindow": 131000,
+      "rank": 66,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "grok-3",
+      "name": "Grok 3",
+      "provider": "xAI",
+      "intelligenceScore": 36,
+      "outputSpeed": 27.5,
+      "latency": 0.97,
+      "price": {
+        "input": 4.800000000000001,
+        "output": 9.600000000000001,
+        "blended": 6
+      },
+      "contextWindow": 1000000,
+      "rank": 67,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "llama-4-maverick",
+      "name": "Llama 4 Maverick",
+      "provider": "Meta",
+      "intelligenceScore": 36,
+      "outputSpeed": 139.7,
+      "latency": 0.36,
+      "price": {
+        "input": 0.31200000000000006,
+        "output": 0.6240000000000001,
+        "blended": 0.39
+      },
+      "contextWindow": 1000000,
+      "rank": 68,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "llama-3-3-nemotron-super-49b",
+      "name": "Llama 3.3 Nemotron Super 49B",
+      "provider": "Meta",
+      "intelligenceScore": 35,
+      "outputSpeed": 0,
+      "latency": 0,
+      "price": {
+        "input": 0,
+        "output": 0,
+        "blended": 0
+      },
+      "contextWindow": 128000,
+      "rank": 69,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "open-source"
+    },
+    {
+      "slug": "mistral-medium-3-1",
+      "name": "Mistral Medium 3.1",
+      "provider": "Mistral",
+      "intelligenceScore": 35,
+      "outputSpeed": 57.5,
+      "latency": 0.42,
+      "price": {
+        "input": 0.6400000000000001,
+        "output": 1.2800000000000002,
+        "blended": 0.8
+      },
+      "contextWindow": 128000,
+      "rank": 70,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "deepseek-r1-0528-qwen3-8b",
+      "name": "DeepSeek R1 0528 Qwen3 8B",
+      "provider": "DeepSeek",
+      "intelligenceScore": 35,
+      "outputSpeed": 74.6,
+      "latency": 0.71,
+      "price": {
+        "input": 0.05600000000000001,
+        "output": 0.11200000000000002,
+        "blended": 0.07
+      },
+      "contextWindow": 33000,
+      "rank": 71,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "mistral-medium-3",
+      "name": "Mistral Medium 3",
+      "provider": "Mistral",
+      "intelligenceScore": 35,
+      "outputSpeed": 61.9,
+      "latency": 0.39,
+      "price": {
+        "input": 0.6400000000000001,
+        "output": 1.2800000000000002,
+        "blended": 0.8
+      },
+      "contextWindow": 128000,
+      "rank": 72,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "magistral-medium-1",
+      "name": "Magistral Medium 1",
+      "provider": "Unknown",
+      "intelligenceScore": 34,
+      "outputSpeed": 132.2,
+      "latency": 0.38,
+      "price": {
+        "input": 2.2,
+        "output": 4.4,
+        "blended": 2.75
+      },
+      "contextWindow": 40000,
+      "rank": 73,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "exaone-4-0-32b",
+      "name": "EXAONE 4.0 32B",
+      "provider": "Unknown",
+      "intelligenceScore": 33,
+      "outputSpeed": 55.3,
+      "latency": 0.39,
+      "price": {
+        "input": 0.5599999999999999,
+        "output": 1.1199999999999999,
+        "blended": 0.7
+      },
+      "contextWindow": 131000,
+      "rank": 74,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "qwen3-coder-30b",
+      "name": "Qwen3 Coder 30B",
+      "provider": "Alibaba",
+      "intelligenceScore": 33,
+      "outputSpeed": 92.6,
+      "latency": 1.44,
+      "price": {
+        "input": 0.7200000000000001,
+        "output": 1.4400000000000002,
+        "blended": 0.9
+      },
+      "contextWindow": 262000,
+      "rank": 75,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "hermes-4-405b",
+      "name": "Hermes 4 405B",
+      "provider": "Unknown",
+      "intelligenceScore": 33,
+      "outputSpeed": 34.2,
+      "latency": 0.72,
+      "price": {
+        "input": 1.2000000000000002,
+        "output": 2.4000000000000004,
+        "blended": 1.5
+      },
+      "contextWindow": 128000,
+      "rank": 76,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "reka-flash-3",
+      "name": "Reka Flash 3",
+      "provider": "Unknown",
+      "intelligenceScore": 33,
+      "outputSpeed": 50.5,
+      "latency": 1.31,
+      "price": {
+        "input": 0.27999999999999997,
+        "output": 0.5599999999999999,
+        "blended": 0.35
+      },
+      "contextWindow": 128000,
+      "rank": 77,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "magistral-small-1",
+      "name": "Magistral Small 1",
+      "provider": "Unknown",
+      "intelligenceScore": 32,
+      "outputSpeed": 203.3,
+      "latency": 0.31,
+      "price": {
+        "input": 0.6000000000000001,
+        "output": 1.2000000000000002,
+        "blended": 0.75
+      },
+      "contextWindow": 40000,
+      "rank": 78,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "nova-premier",
+      "name": "Nova Premier",
+      "provider": "Amazon",
+      "intelligenceScore": 31,
+      "outputSpeed": 75.2,
+      "latency": 0.88,
+      "price": {
+        "input": 4,
+        "output": 8,
+        "blended": 5
+      },
+      "contextWindow": 1000000,
+      "rank": 79,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "solar-pro-2",
+      "name": "Solar Pro 2",
+      "provider": "Unknown",
+      "intelligenceScore": 30,
+      "outputSpeed": 108.9,
+      "latency": 1.39,
+      "price": {
+        "input": 0.4,
+        "output": 0.8,
+        "blended": 0.5
+      },
+      "contextWindow": 66000,
+      "rank": 80,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "gemini-2-5-flash-lite",
+      "name": "Gemini 2.5 Flash-Lite",
+      "provider": "Google",
+      "intelligenceScore": 30,
+      "outputSpeed": 331.6,
+      "latency": 0.3,
+      "price": {
+        "input": 0.136,
+        "output": 0.272,
+        "blended": 0.17
+      },
+      "contextWindow": 1000000,
+      "rank": 81,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "gpt-5-nano-minimal-",
+      "name": "GPT-5 nano (minimal)",
+      "provider": "OpenAI",
+      "intelligenceScore": 29,
+      "outputSpeed": 191.6,
+      "latency": 0.93,
+      "price": {
+        "input": 0.11200000000000002,
+        "output": 0.22400000000000003,
+        "blended": 0.14
+      },
+      "contextWindow": 400000,
+      "rank": 82,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "mistral-small-3-2",
+      "name": "Mistral Small 3.2",
+      "provider": "Mistral",
+      "intelligenceScore": 29,
+      "outputSpeed": 85.4,
+      "latency": 0.29,
+      "price": {
+        "input": 0.12,
+        "output": 0.24,
+        "blended": 0.15
+      },
+      "contextWindow": 128000,
+      "rank": 83,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "llama-4-scout",
+      "name": "Llama 4 Scout",
+      "provider": "Meta",
+      "intelligenceScore": 28,
+      "outputSpeed": 112.4,
+      "latency": 0.34,
+      "price": {
+        "input": 0.20800000000000002,
+        "output": 0.41600000000000004,
+        "blended": 0.26
+      },
+      "contextWindow": 10000000,
+      "rank": 84,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "command-a",
+      "name": "Command A",
+      "provider": "Cohere",
+      "intelligenceScore": 28,
+      "outputSpeed": 94.6,
+      "latency": 0.17,
+      "price": {
+        "input": 3.504,
+        "output": 7.008,
+        "blended": 4.38
+      },
+      "contextWindow": 256000,
+      "rank": 85,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "llama-3-3-70b",
+      "name": "Llama 3.3 70B",
+      "provider": "Meta",
+      "intelligenceScore": 28,
+      "outputSpeed": 72.5,
+      "latency": 0.44,
+      "price": {
+        "input": 0.48,
+        "output": 0.96,
+        "blended": 0.6
+      },
+      "contextWindow": 128000,
+      "rank": 86,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "devstral-medium",
+      "name": "Devstral Medium",
+      "provider": "Unknown",
+      "intelligenceScore": 28,
+      "outputSpeed": 99,
+      "latency": 0.38,
+      "price": {
+        "input": 0.6400000000000001,
+        "output": 1.2800000000000002,
+        "blended": 0.8
+      },
+      "contextWindow": 256000,
+      "rank": 87,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "gpt-4-1-nano",
+      "name": "GPT-4.1 nano",
+      "provider": "OpenAI",
+      "intelligenceScore": 27,
+      "outputSpeed": 86.6,
+      "latency": 0.4,
+      "price": {
+        "input": 0.136,
+        "output": 0.272,
+        "blended": 0.17
+      },
+      "contextWindow": 1000000,
+      "rank": 88,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "exaone-4-0-1-2b",
+      "name": "Exaone 4.0 1.2B",
+      "provider": "Unknown",
+      "intelligenceScore": 27,
+      "outputSpeed": 0,
+      "latency": 0,
+      "price": {
+        "input": 0,
+        "output": 0,
+        "blended": 0
+      },
+      "contextWindow": 64000,
+      "rank": 89,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "llama-nemotron-super-49b-v1-5",
+      "name": "Llama Nemotron Super 49B v1.5",
+      "provider": "Meta",
+      "intelligenceScore": 27,
+      "outputSpeed": 73.3,
+      "latency": 0.54,
+      "price": {
+        "input": 0.136,
+        "output": 0.272,
+        "blended": 0.17
+      },
+      "contextWindow": 128000,
+      "rank": 90,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "llama-3-1-nemotron-nano-4b-v1-1",
+      "name": "Llama 3.1 Nemotron Nano 4B v1.1",
+      "provider": "Meta",
+      "intelligenceScore": 26,
+      "outputSpeed": 0,
+      "latency": 0,
+      "price": {
+        "input": 0,
+        "output": 0,
+        "blended": 0
+      },
+      "contextWindow": 128000,
+      "rank": 91,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "open-source"
+    },
+    {
+      "slug": "glm-4-5v",
+      "name": "GLM-4.5V",
+      "provider": "Unknown",
+      "intelligenceScore": 26,
+      "outputSpeed": 67.4,
+      "latency": 0.87,
+      "price": {
+        "input": 0.7200000000000001,
+        "output": 1.4400000000000002,
+        "blended": 0.9
+      },
+      "contextWindow": 64000,
+      "rank": 92,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "llama-3-3-nemotron-super-49b-v1",
+      "name": "Llama 3.3 Nemotron Super 49B v1",
+      "provider": "Meta",
+      "intelligenceScore": 26,
+      "outputSpeed": 0,
+      "latency": 0,
+      "price": {
+        "input": 0,
+        "output": 0,
+        "blended": 0
+      },
+      "contextWindow": 128000,
+      "rank": 93,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "open-source"
+    },
+    {
+      "slug": "minimax-text-01",
+      "name": "MiniMax-Text-01",
+      "provider": "Unknown",
+      "intelligenceScore": 26,
+      "outputSpeed": 0,
+      "latency": 0,
+      "price": {
+        "input": 0.336,
+        "output": 0.672,
+        "blended": 0.42
+      },
+      "contextWindow": 4000000,
+      "rank": 94,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "llama-3-1-405b",
+      "name": "Llama 3.1 405B",
+      "provider": "Meta",
+      "intelligenceScore": 26,
+      "outputSpeed": 30.3,
+      "latency": 0.66,
+      "price": {
+        "input": 2.8000000000000003,
+        "output": 5.6000000000000005,
+        "blended": 3.5
+      },
+      "contextWindow": 128000,
+      "rank": 95,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "open-source"
+    },
+    {
+      "slug": "gpt-4o-chatgpt-",
+      "name": "GPT-4o (ChatGPT)",
+      "provider": "OpenAI",
+      "intelligenceScore": 25,
+      "outputSpeed": 0,
+      "latency": 0,
+      "price": {
+        "input": 6,
+        "output": 12,
+        "blended": 7.5
+      },
+      "contextWindow": 128000,
+      "rank": 96,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "phi-4",
+      "name": "Phi-4",
+      "provider": "Unknown",
+      "intelligenceScore": 25,
+      "outputSpeed": 35.2,
+      "latency": 0.43,
+      "price": {
+        "input": 0.17600000000000002,
+        "output": 0.35200000000000004,
+        "blended": 0.22
+      },
+      "contextWindow": 16000,
+      "rank": 97,
+      "lastUpdated": "2025-09-21T12:05:27.026Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "hermes-4-70b",
+      "name": "Hermes 4 70B",
+      "provider": "Unknown",
+      "intelligenceScore": 24,
+      "outputSpeed": 80.1,
+      "latency": 0.59,
+      "price": {
+        "input": 0.16000000000000003,
+        "output": 0.32000000000000006,
+        "blended": 0.2
+      },
+      "contextWindow": 128000,
+      "rank": 98,
+      "lastUpdated": "2025-09-21T12:05:27.027Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "llama-3-1-nemotron-70b",
+      "name": "Llama 3.1 Nemotron 70B",
+      "provider": "Meta",
+      "intelligenceScore": 24,
+      "outputSpeed": 32.7,
+      "latency": 0.31,
+      "price": {
+        "input": 0.48,
+        "output": 0.96,
+        "blended": 0.6
+      },
+      "contextWindow": 128000,
+      "rank": 99,
+      "lastUpdated": "2025-09-21T12:05:27.027Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "gemma-3-27b",
+      "name": "Gemma 3 27B",
+      "provider": "Unknown",
+      "intelligenceScore": 22,
+      "outputSpeed": 47,
+      "latency": 0.7,
+      "price": {
+        "input": 0,
+        "output": 0,
+        "blended": 0
+      },
+      "contextWindow": 128000,
+      "rank": 100,
+      "lastUpdated": "2025-09-21T12:05:27.027Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "gpt-4o-mini",
+      "name": "GPT-4o mini",
+      "provider": "OpenAI",
+      "intelligenceScore": 21,
+      "outputSpeed": 56.4,
+      "latency": 0.58,
+      "price": {
+        "input": 0.20800000000000002,
+        "output": 0.41600000000000004,
+        "blended": 0.26
+      },
+      "contextWindow": 128000,
+      "rank": 101,
+      "lastUpdated": "2025-09-21T12:05:27.027Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "jamba-1-7-large",
+      "name": "Jamba 1.7 Large",
+      "provider": "Unknown",
+      "intelligenceScore": 21,
+      "outputSpeed": 46.2,
+      "latency": 0.83,
+      "price": {
+        "input": 2.8000000000000003,
+        "output": 5.6000000000000005,
+        "blended": 3.5
+      },
+      "contextWindow": 256000,
+      "rank": 102,
+      "lastUpdated": "2025-09-21T12:05:27.027Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "gemma-3-12b",
+      "name": "Gemma 3 12B",
+      "provider": "Unknown",
+      "intelligenceScore": 21,
+      "outputSpeed": 0,
+      "latency": 0,
+      "price": {
+        "input": 0.192,
+        "output": 0.384,
+        "blended": 0.24
+      },
+      "contextWindow": 128000,
+      "rank": 103,
+      "lastUpdated": "2025-09-21T12:05:27.027Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "exaone-4-0-1-2b",
+      "name": "Exaone 4.0 1.2B",
+      "provider": "Unknown",
+      "intelligenceScore": 20,
+      "outputSpeed": 0,
+      "latency": 0,
+      "price": {
+        "input": 0,
+        "output": 0,
+        "blended": 0
+      },
+      "contextWindow": 64000,
+      "rank": 104,
+      "lastUpdated": "2025-09-21T12:05:27.027Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "r1-1776",
+      "name": "R1 1776",
+      "provider": "Unknown",
+      "intelligenceScore": 19,
+      "outputSpeed": 0,
+      "latency": 0,
+      "price": {
+        "input": 2.8000000000000003,
+        "output": 5.6000000000000005,
+        "blended": 3.5
+      },
+      "contextWindow": 128000,
+      "rank": 105,
+      "lastUpdated": "2025-09-21T12:05:27.027Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "llama-3-2-90b-vision-",
+      "name": "Llama 3.2 90B (Vision)",
+      "provider": "Meta",
+      "intelligenceScore": 19,
+      "outputSpeed": 37.4,
+      "latency": 0.34,
+      "price": {
+        "input": 0.576,
+        "output": 1.152,
+        "blended": 0.72
+      },
+      "contextWindow": 128000,
+      "rank": 106,
+      "lastUpdated": "2025-09-21T12:05:27.027Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "devstral-small",
+      "name": "Devstral Small",
+      "provider": "Unknown",
+      "intelligenceScore": 18,
+      "outputSpeed": 149,
+      "latency": 0.33,
+      "price": {
+        "input": 0.12,
+        "output": 0.24,
+        "blended": 0.15
+      },
+      "contextWindow": 256000,
+      "rank": 107,
+      "lastUpdated": "2025-09-21T12:05:27.027Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "gemma-3n-e4b",
+      "name": "Gemma 3n E4B",
+      "provider": "Unknown",
+      "intelligenceScore": 16,
+      "outputSpeed": 71.5,
+      "latency": 0.38,
+      "price": {
+        "input": 0.024,
+        "output": 0.048,
+        "blended": 0.03
+      },
+      "contextWindow": 32000,
+      "rank": 108,
+      "lastUpdated": "2025-09-21T12:05:27.027Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "deephermes-3-mistral-24b",
+      "name": "DeepHermes 3 - Mistral 24B",
+      "provider": "Mistral",
+      "intelligenceScore": 16,
+      "outputSpeed": 0,
+      "latency": 0,
+      "price": {
+        "input": 0,
+        "output": 0,
+        "blended": 0
+      },
+      "contextWindow": 32000,
+      "rank": 109,
+      "lastUpdated": "2025-09-21T12:05:27.027Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "open-source"
+    },
+    {
+      "slug": "granite-3-3-8b",
+      "name": "Granite 3.3 8B",
+      "provider": "Unknown",
+      "intelligenceScore": 15,
+      "outputSpeed": 478.8,
+      "latency": 7.25,
+      "price": {
+        "input": 0.072,
+        "output": 0.144,
+        "blended": 0.09
+      },
+      "contextWindow": 128000,
+      "rank": 110,
+      "lastUpdated": "2025-09-21T12:05:27.027Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "gemma-3-4b",
+      "name": "Gemma 3 4B",
+      "provider": "Unknown",
+      "intelligenceScore": 15,
+      "outputSpeed": 0,
+      "latency": 0,
+      "price": {
+        "input": 0.04000000000000001,
+        "output": 0.08000000000000002,
+        "blended": 0.05
+      },
+      "contextWindow": 128000,
+      "rank": 111,
+      "lastUpdated": "2025-09-21T12:05:27.027Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "llama-3-2-11b-vision-",
+      "name": "Llama 3.2 11B (Vision)",
+      "provider": "Meta",
+      "intelligenceScore": 15,
+      "outputSpeed": 50.7,
+      "latency": 0.43,
+      "price": {
+        "input": 0.128,
+        "output": 0.256,
+        "blended": 0.16
+      },
+      "contextWindow": 128000,
+      "rank": 112,
+      "lastUpdated": "2025-09-21T12:05:27.027Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "codestral-jan-",
+      "name": "Codestral (Jan)",
+      "provider": "Unknown",
+      "intelligenceScore": 13,
+      "outputSpeed": 192.3,
+      "latency": 0.3,
+      "price": {
+        "input": 0.36000000000000004,
+        "output": 0.7200000000000001,
+        "blended": 0.45
+      },
+      "contextWindow": 256000,
+      "rank": 113,
+      "lastUpdated": "2025-09-21T12:05:27.027Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "phi-4-multimodal",
+      "name": "Phi-4 Multimodal",
+      "provider": "Unknown",
+      "intelligenceScore": 12,
+      "outputSpeed": 18.1,
+      "latency": 0.34,
+      "price": {
+        "input": 0,
+        "output": 0,
+        "blended": 0
+      },
+      "contextWindow": 128000,
+      "rank": 114,
+      "lastUpdated": "2025-09-21T12:05:27.027Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "lfm2-1-2b",
+      "name": "LFM2 1.2B",
+      "provider": "Unknown",
+      "intelligenceScore": 8,
+      "outputSpeed": 0,
+      "latency": 0,
+      "price": {
+        "input": 0,
+        "output": 0,
+        "blended": 0
+      },
+      "contextWindow": 33000,
+      "rank": 115,
+      "lastUpdated": "2025-09-21T12:05:27.027Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "gemma-3n-e2b",
+      "name": "Gemma 3n E2B",
+      "provider": "Unknown",
+      "intelligenceScore": 8,
+      "outputSpeed": 45.6,
+      "latency": 0.31,
+      "price": {
+        "input": 0,
+        "output": 0,
+        "blended": 0
+      },
+      "contextWindow": 32000,
+      "rank": 116,
+      "lastUpdated": "2025-09-21T12:05:27.027Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "ministral-8b",
+      "name": "Ministral 8B",
+      "provider": "Unknown",
+      "intelligenceScore": 8,
+      "outputSpeed": 195.8,
+      "latency": 0.29,
+      "price": {
+        "input": 0.08000000000000002,
+        "output": 0.16000000000000003,
+        "blended": 0.1
+      },
+      "contextWindow": 128000,
+      "rank": 117,
+      "lastUpdated": "2025-09-21T12:05:27.027Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "gemma-3-1b",
+      "name": "Gemma 3 1B",
+      "provider": "Unknown",
+      "intelligenceScore": 6,
+      "outputSpeed": 0,
+      "latency": 0,
+      "price": {
+        "input": 0,
+        "output": 0,
+        "blended": 0
+      },
+      "contextWindow": 32000,
+      "rank": 118,
+      "lastUpdated": "2025-09-21T12:05:27.027Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "specialized"
+    },
+    {
+      "slug": "aya-expanse-32b",
+      "name": "Aya Expanse 32B",
+      "provider": "Unknown",
+      "intelligenceScore": 6,
+      "outputSpeed": 70.8,
+      "latency": 0.13,
+      "price": {
+        "input": 0.6000000000000001,
+        "output": 1.2000000000000002,
+        "blended": 0.75
+      },
+      "contextWindow": 128000,
+      "rank": 119,
+      "lastUpdated": "2025-09-21T12:05:27.027Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "ministral-3b",
+      "name": "Ministral 3B",
+      "provider": "Unknown",
+      "intelligenceScore": 5,
+      "outputSpeed": 287.8,
+      "latency": 0.29,
+      "price": {
+        "input": 0.032,
+        "output": 0.064,
+        "blended": 0.04
+      },
+      "contextWindow": 128000,
+      "rank": 120,
+      "lastUpdated": "2025-09-21T12:05:27.027Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "jamba-1-7-mini",
+      "name": "Jamba 1.7 Mini",
+      "provider": "Unknown",
+      "intelligenceScore": 4,
+      "outputSpeed": 149.8,
+      "latency": 0.65,
+      "price": {
+        "input": 0.2,
+        "output": 0.4,
+        "blended": 0.25
+      },
+      "contextWindow": 258000,
+      "rank": 121,
+      "lastUpdated": "2025-09-21T12:05:27.027Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "deephermes-3-llama-3-1-8b",
+      "name": "DeepHermes 3 - Llama-3.1 8B",
+      "provider": "Meta",
+      "intelligenceScore": 2,
+      "outputSpeed": 0,
+      "latency": 0,
+      "price": {
+        "input": 0,
+        "output": 0,
+        "blended": 0
+      },
+      "contextWindow": 128000,
+      "rank": 122,
+      "lastUpdated": "2025-09-21T12:05:27.027Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "open-source"
+    },
+    {
+      "slug": "aya-expanse-8b",
+      "name": "Aya Expanse 8B",
+      "provider": "Unknown",
+      "intelligenceScore": 2,
+      "outputSpeed": 81.2,
+      "latency": 0.18,
+      "price": {
+        "input": 0.6000000000000001,
+        "output": 1.2000000000000002,
+        "blended": 0.75
+      },
+      "contextWindow": 8000,
+      "rank": 123,
+      "lastUpdated": "2025-09-21T12:05:27.027Z",
+      "dataSource": "web-scraping",
+      "confidence": 1,
+      "category": "cost-effective"
+    },
+    {
+      "slug": "grok-3-mini-reasoning-low-",
+      "name": "Grok 3 mini Reasoning (low)",
+      "provider": "xAI",
+      "intelligenceScore": null,
+      "outputSpeed": 110.8,
+      "latency": 0.55,
+      "price": {
+        "input": 0.27999999999999997,
+        "output": 0.5599999999999999,
+        "blended": 0.35
+      },
+      "contextWindow": 1000000,
+      "rank": 124,
+      "lastUpdated": "2025-09-21T12:05:27.027Z",
+      "dataSource": "web-scraping",
+      "confidence": 0.8333333333333334,
+      "category": "cost-effective"
+    }
+  ],
+  "metadata": {
+    "lastUpdated": "2025-09-21T12:05:33.281Z",
+    "source": "Artificial Analysis",
+    "version": "2.0",
+    "totalModels": 122,
+    "averageConfidence": 0.9986338797814207
+  }
+}
