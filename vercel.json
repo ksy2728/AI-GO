@@ -7,16 +7,6 @@
       "AUTO_SYNC": "true"
     }
   },
-  "crons": [
-    {
-      "path": "/api/cron/sync-temp-data",
-      "schedule": "0 6 * * *"
-    },
-    {
-      "path": "/api/cron/status-sync",
-      "schedule": "0 6 * * *"
-    }
-  ],
   "functions": {
     "src/app/api/**/*.ts": {
       "maxDuration": 30
