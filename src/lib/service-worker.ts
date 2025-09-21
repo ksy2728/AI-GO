@@ -261,7 +261,7 @@ export class ServiceWorkerManager {
     }
 
     // Wait for network if no cache or cache expired
-    return fetchPromise || fetch(request)
+    return fetchPromise as Promise<Response> || fetch(request)
   }
 
   // Check if URL is a no-cache API endpoint
