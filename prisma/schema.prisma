@@ -9,20 +9,20 @@ datasource db {
 }
 
 model Provider {
-  id               String     @id @default(uuid())
-  slug             String     @unique
+  id               String      @id @default(uuid())
+  slug             String      @unique
   name             String
-  logoUrl          String?    @map("logo_url")
-  websiteUrl       String?    @map("website_url")
-  statusPageUrl    String?    @map("status_page_url")
-  documentationUrl String?    @map("documentation_url")
-  regions          String     @default("[]")
-  metadata         String     @default("{}")
-  createdAt        DateTime   @default(now()) @map("created_at")
-  updatedAt        DateTime   @updatedAt @map("updated_at")
+  logoUrl          String?     @map("logo_url")
+  websiteUrl       String?     @map("website_url")
+  statusPageUrl    String?     @map("status_page_url")
+  documentationUrl String?     @map("documentation_url")
+  regions          String      @default("[]")
+  metadata         String      @default("{}")
+  createdAt        DateTime    @default(now()) @map("created_at")
+  updatedAt        DateTime    @updatedAt @map("updated_at")
+  changeLogs       ChangeLog[]
   incidents        Incident[]
   models           Model[]
-  changeLogs       ChangeLog[]
 
   @@index([slug])
   @@map("providers")
@@ -47,8 +47,6 @@ model Model {
   apiVersion        String?                  @map("api_version")
   isActive          Boolean                  @default(true) @map("is_active")
   metadata          String                   @default("{}")
-  dataSource        String?                  @map("data_source") // Track origin: 'api', 'config', 'scraped', 'unknown'
-  lastVerified      DateTime?                @map("last_verified") // Last time data was verified from source
   createdAt         DateTime                 @default(now()) @map("created_at")
   updatedAt         DateTime                 @updatedAt @map("updated_at")
   searchVector      Unsupported("tsvector")? @map("search_vector")
@@ -57,6 +55,8 @@ model Model {
   outputSpeed       Int?                     @map("output_speed")
   inputPrice        Decimal?                 @map("input_price") @db.Decimal(10, 4)
   outputPrice       Decimal?                 @map("output_price") @db.Decimal(10, 4)
+  dataSource        String?                  @map("data_source")
+  lastVerified      DateTime?                @map("last_verified")
   benchmarkScores   BenchmarkScore[]
   incidents         Incident[]
   endpoints         ModelEndpoint[]
@@ -226,15 +226,14 @@ model SavedFilter {
 }
 
 model ChangeLog {
-  id               String            @id @default(dbgenerated("gen_random_uuid()"))
-  providerId       String            @map("provider_id")
-  modelId          String            @map("model_id")
-  changeType       String            @map("change_type")
-  changeData       Json              @map("change_data")
-  confidence       Float
-  createdAt        DateTime          @default(now()) @map("created_at")
-
-  provider Provider @relation(fields: [providerId], references: [id], onDelete: Cascade)
+  id         String   @id @default(dbgenerated("gen_random_uuid()"))
+  providerId String   @map("provider_id")
+  modelId    String   @map("model_id")
+  changeType String   @map("change_type")
+  changeData Json     @map("change_data")
+  confidence Float
+  createdAt  DateTime @default(now()) @map("created_at")
+  provider   Provider @relation(fields: [providerId], references: [id], onDelete: Cascade)
 
   @@index([providerId])
   @@index([modelId])

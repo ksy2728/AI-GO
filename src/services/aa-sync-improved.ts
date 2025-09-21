@@ -437,8 +437,8 @@ export class ImprovedAASyncScheduler {
   private async clearCache(): Promise<void> {
     try {
       // Clear model-related caches
-      await cache.delete('models:*');
-      await cache.delete('aa:*');
+      await cache.invalidate('models:*');
+      await cache.invalidate('aa:*');
       console.log('🧹 Cache cleared');
     } catch (error) {
       console.warn('⚠️ Could not clear cache:', error);
