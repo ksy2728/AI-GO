@@ -4,6 +4,12 @@ import fullModelsData from './seeds/models-full'
 const prisma = new PrismaClient()
 
 async function main() {
+  // DISABLED: Full seed script disabled to use only AA-synchronized models
+  // This maintains data quality by preventing static model data from interfering
+  console.log('🚫 Full seed script is disabled. Using AA-synchronized models only.')
+  console.log('ℹ️ If you need to re-enable, remove this return statement.')
+  return
+
   console.log('🌱 Starting comprehensive seed...')
 
   // Clean existing data

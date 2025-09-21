@@ -54,8 +54,10 @@ export function transformModelsToTableModels(models: any[]): TableModel[] {
       status: statusValue,
       modalities: coerceStringArray(model.modalities),
       contextLength: model.contextWindow ?? undefined,
-      inputTokenPrice: pricing?.inputPerMillion ? pricing.inputPerMillion / 1_000_000 : undefined,
-      outputTokenPrice: pricing?.outputPerMillion ? pricing.outputPerMillion / 1_000_000 : undefined,
+      // FIXED: inputPerMillion and outputPerMillion are already in "per 1M tokens" format
+      // No need to divide by 1_000_000 - that was causing $0.00 display
+      inputTokenPrice: pricing?.inputPerMillion || undefined,
+      outputTokenPrice: pricing?.outputPerMillion || undefined,
       throughput: undefined,
       latency: undefined,
       quality: undefined,
@@ -64,10 +66,13 @@ export function transformModelsToTableModels(models: any[]): TableModel[] {
   })
 }
 
-export function formatPricing(price?: number): string {
+export function formatPricing(price?: number | string): string {
   if (price === undefined || price === null) return '-'
+  // Convert string to number if needed
+  const numPrice = typeof price === 'string' ? parseFloat(price) : price
+  if (isNaN(numPrice)) return '-'
   // Price is already in dollars per 1M tokens, display with 2 decimal places
-  return `$${price.toFixed(2)}`
+  return `$${numPrice.toFixed(2)}`
 }
 
 export function formatContextLength(length?: number): string {

@@ -3,6 +3,12 @@ import { PrismaClient } from '@prisma/client'
 const prisma = new PrismaClient()
 
 async function main() {
+  // DISABLED: Seed script disabled to use only AA-synchronized models
+  // This prevents manual/seed models from being added to maintain data quality
+  console.log('🚫 Seed script is disabled. Using AA-synchronized models only.')
+  console.log('ℹ️ If you need to re-enable, remove this return statement.')
+  return
+
   console.log('🌱 Starting seed...')
 
   // Clean existing data

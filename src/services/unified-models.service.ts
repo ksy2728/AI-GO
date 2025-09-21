@@ -49,7 +49,7 @@ export class UnifiedModelService {
     try {
       console.log('🔄 Loading AA models from database...');
 
-      // Query database for models with their providers, pricing, and status
+      // Query database for only AA-synchronized models
       const dbModels = await prisma.model.findMany({
         include: {
           provider: true,
@@ -66,6 +66,12 @@ export class UnifiedModelService {
         },
         where: {
           isActive: true,
+          // Include models synchronized from Artificial Analysis or with AA data
+          OR: [
+            { dataSource: 'artificial-analysis-improved' },
+            { intelligenceScore: { not: null } },
+            { outputSpeed: { not: null } }
+          ],
         },
         orderBy: {
           intelligenceScore: 'desc',
@@ -80,8 +86,9 @@ export class UnifiedModelService {
         slug: dbModel.slug,
         intelligenceScore: dbModel.intelligenceScore || 70,
         outputSpeed: dbModel.outputSpeed || 50,
-        inputPrice: dbModel.pricing[0]?.inputPerMillion ? dbModel.pricing[0].inputPerMillion / 1000 : 0,
-        outputPrice: dbModel.pricing[0]?.outputPerMillion ? dbModel.pricing[0].outputPerMillion / 1000 : 0,
+        // FIXED: Use pricing data stored directly in Model table (from AA sync)
+        inputPrice: dbModel.inputPrice || dbModel.pricing[0]?.inputPerMillion || 0,
+        outputPrice: dbModel.outputPrice || dbModel.pricing[0]?.outputPerMillion || 0,
         contextWindow: dbModel.contextWindow || 8192,
         lastUpdated: dbModel.updatedAt.toISOString(),
         category: this.inferCategory(dbModel.name, dbModel.provider.name),
@@ -292,8 +299,9 @@ export class UnifiedModelService {
         status: dbModel.status?.[0]?.status || 'unknown',
         availability: dbModel.status?.[0]?.availability,
         price: dbModel.pricing?.[0] ? {
-          input: dbModel.pricing[0].inputPerMillion / 1000, // Convert to per 1K
-          output: dbModel.pricing[0].outputPerMillion / 1000,
+          // FIXED: Use actual prices - already in per 1M format
+          input: dbModel.pricing[0].inputPerMillion,
+          output: dbModel.pricing[0].outputPerMillion,
           currency: dbModel.pricing[0].currency
         } : undefined,
         latency: dbModel.status?.[0] ? {
@@ -307,9 +315,9 @@ export class UnifiedModelService {
         dataSource: detailedSource
       },
 
-      // Unified display fields from DB
-      priceInput: dbModel.pricing?.[0]?.inputPerMillion ? dbModel.pricing[0].inputPerMillion / 1000 : undefined,
-      priceOutput: dbModel.pricing?.[0]?.outputPerMillion ? dbModel.pricing[0].outputPerMillion / 1000 : undefined,
+      // Unified display fields from DB - FIXED: Use actual prices
+      priceInput: dbModel.pricing?.[0]?.inputPerMillion || undefined,
+      priceOutput: dbModel.pricing?.[0]?.outputPerMillion || undefined,
       status: dbModel.status?.[0]?.status || 'unknown',
       availability: dbModel.status?.[0]?.availability,
       contextWindow: dbModel.contextWindow,
