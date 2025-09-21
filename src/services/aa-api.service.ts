@@ -104,8 +104,8 @@ export class ArtificialAnalysisAPI {
    */
   private static async scrapeAALeaderboard(): Promise<AAModelData[]> {
     try {
-      // Use our server-side proxy for better reliability
-      const baseUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000'
+      // Use relative URL to avoid CORS issues
+      const baseUrl = process.env.NEXT_PUBLIC_API_URL || ''
       const response = await fetch(`${baseUrl}/api/aa-proxy`, {
         headers: {
           'Accept': 'application/json',
