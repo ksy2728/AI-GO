@@ -7,6 +7,19 @@ export const revalidate = 0
 export const dynamic = 'force-dynamic'
 
 export async function GET(request: Request) {
+  // CORS headers for Vercel deployments
+  const headers = new Headers({
+    'Access-Control-Allow-Origin': '*',
+    'Access-Control-Allow-Methods': 'GET, OPTIONS',
+    'Access-Control-Allow-Headers': 'Content-Type, Authorization',
+    'Access-Control-Max-Age': '86400',
+  })
+
+  // Handle preflight OPTIONS request
+  if (request.method === 'OPTIONS') {
+    return new Response(null, { status: 200, headers })
+  }
+
   try {
     const { searchParams } = new URL(request.url)
 
@@ -73,7 +86,7 @@ export async function GET(request: Request) {
 
     console.log(`✅ API Response: ${response.models.length}/${response.total} models in ${duration}ms`)
 
-    // Return response in expected format
+    // Return response with CORS headers
     return NextResponse.json({
       models: response.models,
       data: response.models, // Compatibility alias
@@ -89,7 +102,7 @@ export async function GET(request: Request) {
       // Performance metrics
       duration: duration,
       cacheStats: UnifiedModelService.getCacheStats()
-    })
+    }, { headers })
 
   } catch (error) {
     console.error('❌ Models API error:', error)
@@ -109,7 +122,7 @@ export async function GET(request: Request) {
         dataSource: 'error',
         cached: false
       },
-      { status: 500 }
+      { status: 500, headers }
     )
   }
 }
