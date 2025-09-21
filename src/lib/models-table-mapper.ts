@@ -1,6 +1,21 @@
 import { Model } from '@/types/models'
 import { TableModel } from '@/types/table'
 
+// Helper function to handle string arrays stored as JSON strings in database
+function coerceStringArray(value: unknown): string[] {
+  if (Array.isArray(value)) return value;
+  if (typeof value === 'string') {
+    try {
+      const parsed = JSON.parse(value);
+      if (Array.isArray(parsed)) return parsed.map(String);
+      return value ? [value] : [];
+    } catch {
+      return value ? [value] : [];
+    }
+  }
+  return [];
+}
+
 export function transformModelsToTableModels(models: any[]): TableModel[] {
   return models.map(model => {
     // Handle both old Model type and new UnifiedModel type
@@ -12,7 +27,7 @@ export function transformModelsToTableModels(models: any[]): TableModel[] {
         name: model.name,
         provider: model.provider || 'Unknown',
         status: model.status || 'Unknown',
-        modalities: model.modalities || ['text'],
+        modalities: coerceStringArray(model.modalities),
         contextLength: model.contextWindow,
         inputTokenPrice: model.priceInput,
         outputTokenPrice: model.priceOutput,
@@ -24,26 +39,27 @@ export function transformModelsToTableModels(models: any[]): TableModel[] {
     }
 
     // For old Model type (from database)
-    let statusValue = 'Unknown'
-    if (model.status && Array.isArray(model.status) && model.status.length > 0) {
-      statusValue = model.status[0].status || 'Unknown'
-    }
+    const statusValue = Array.isArray(model.status) && model.status.length > 0
+      ? model.status[0].status || 'Unknown'
+      : typeof model.status === 'string'
+        ? model.status
+        : 'Unknown';
 
-    const pricing = model.pricing && model.pricing.length > 0 ? model.pricing[0] : null
+    const pricing = model.pricing?.[0];
 
     return {
       id: model.id,
       name: model.name,
       provider: model.provider?.name || model.providerId || 'Unknown',
       status: statusValue,
-      modalities: model.modalities || [],
-      contextLength: model.contextWindow,
-      inputTokenPrice: pricing?.inputPerMillion ? pricing.inputPerMillion / 1000000 : undefined,
-      outputTokenPrice: pricing?.outputPerMillion ? pricing.outputPerMillion / 1000000 : undefined,
+      modalities: coerceStringArray(model.modalities),
+      contextLength: model.contextWindow ?? undefined,
+      inputTokenPrice: pricing?.inputPerMillion ? pricing.inputPerMillion / 1_000_000 : undefined,
+      outputTokenPrice: pricing?.outputPerMillion ? pricing.outputPerMillion / 1_000_000 : undefined,
       throughput: undefined,
       latency: undefined,
       quality: undefined,
-      description: model.description
+      description: model.description,
     }
   })
 }
