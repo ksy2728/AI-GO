@@ -113,13 +113,27 @@ async function loadIntelligenceData() {
 }
 
 export async function GET(request: NextRequest) {
+  // CORS headers for Vercel deployments
+  const headers = new Headers({
+    'Access-Control-Allow-Origin': '*',
+    'Access-Control-Allow-Methods': 'GET, OPTIONS',
+    'Access-Control-Allow-Headers': 'Content-Type, Authorization',
+    'Access-Control-Max-Age': '86400',
+    'Cache-Control': `public, s-maxage=${CACHE_TTL / 1000}, stale-while-revalidate=${STALE_WHILE_REVALIDATE / 1000}`
+  })
+
+  // Handle preflight OPTIONS request
+  if (request.method === 'OPTIONS') {
+    return new Response(null, { status: 200, headers })
+  }
+
   try {
     const { searchParams } = request.nextUrl
     const limit = parseInt(searchParams.get('limit') || '9')
     const modelId = searchParams.get('modelId')
-    
+
     const data = await loadIntelligenceData()
-    
+
     // If specific model requested
     if (modelId) {
       const model = data.models.find((m: any) => m.id === modelId)
@@ -128,22 +142,22 @@ export async function GET(request: NextRequest) {
           model,
           metadata: data.metadata,
           cached: data.cached
-        }, {
-          headers: {
-            'Cache-Control': `public, s-maxage=${CACHE_TTL / 1000}, stale-while-revalidate=${STALE_WHILE_REVALIDATE / 1000}`
-          }
-        })
+        }, { headers })
       } else {
         return NextResponse.json(
           { error: 'Model not found', modelId },
-          { status: 404 }
+          { status: 404, headers }
         )
       }
     }
-    
+
     // Return top models
     const topModels = data.models.slice(0, limit)
     
+    // Add additional headers for metadata
+    headers.set('X-Data-Source', data.metadata?.source || 'Artificial Analysis')
+    headers.set('X-Cache-Status', data.cached ? 'HIT' : 'MISS')
+
     return NextResponse.json({
       models: topModels,
       totalModels: data.totalModels,
@@ -151,19 +165,16 @@ export async function GET(request: NextRequest) {
       cached: data.cached || false,
       cacheAge: data.cacheAge,
       dataSource: data.metadata?.source || 'Artificial Analysis'
-    }, {
-      headers: {
-        'Cache-Control': `public, s-maxage=${CACHE_TTL / 1000}, stale-while-revalidate=${STALE_WHILE_REVALIDATE / 1000}`,
-        'X-Data-Source': data.metadata?.source || 'Artificial Analysis',
-        'X-Cache-Status': data.cached ? 'HIT' : 'MISS'
-      }
-    })
+    }, { headers })
   } catch (error) {
     console.error('Intelligence Index API error:', error)
 
     // Try to return dynamic data as last resort
     try {
       const emergencyData = await getIntelligenceData()
+      headers.set('X-Data-Source', 'Emergency')
+      headers.set('Cache-Control', `public, s-maxage=${FALLBACK_TTL / 1000}`)
+
       return NextResponse.json({
         models: emergencyData.topModels,
         totalModels: emergencyData.totalModels,
@@ -176,13 +187,12 @@ export async function GET(request: NextRequest) {
         dataSource: 'Emergency'
       }, {
         status: 200,
-        headers: {
-          'Cache-Control': `public, s-maxage=${FALLBACK_TTL / 1000}`,
-          'X-Data-Source': 'Emergency'
-        }
+        headers
       })
     } catch (emergencyError) {
       // Absolute final fallback - empty response
+      headers.set('X-Data-Source', 'Critical Fallback')
+
       return NextResponse.json({
         models: [],
         totalModels: 0,
@@ -195,10 +205,7 @@ export async function GET(request: NextRequest) {
         dataSource: 'Critical'
       }, {
         status: 200,
-        headers: {
-          'Cache-Control': `public, s-maxage=${FALLBACK_TTL / 1000}`,
-          'X-Data-Source': 'Critical'
-        }
+        headers
       })
     }
   }
