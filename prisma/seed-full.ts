@@ -239,21 +239,41 @@ async function main() {
 
         // Create benchmark scores if available
         if ((modelData as any).benchmarks) {
-          for (const [benchmarkSlug, score] of Object.entries((modelData as any).benchmarks)) {
+          for (const [benchmarkSlug, scoreValue] of Object.entries((modelData as any).benchmarks as Record<string, unknown>)) {
             const benchmarkId = benchmarkMap[benchmarkSlug]
-            if (benchmarkId && typeof score === 'number') {
-              await prisma.benchmarkScore.create({
-                data: {
-                  modelId: model.id,
-                  suiteId: benchmarkId,
-                  scoreRaw: score,
-                  scoreNormalized: score / 100,
-                  percentile: 0, // Calculate later
-                  evaluationDate: new Date(),
-                  isOfficial: true,
-                  configuration: JSON.stringify({}),
-                },
-              })
+            if (benchmarkId) {
+              // Safely convert score to number with proper type checking
+              let numericScore: number = 0
+
+              if (typeof scoreValue === 'number') {
+                numericScore = scoreValue as number
+              } else if (typeof scoreValue === 'string') {
+                const parsed = parseFloat(scoreValue as string)
+                if (!isNaN(parsed)) {
+                  numericScore = parsed
+                }
+              } else if (scoreValue !== null && scoreValue !== undefined) {
+                // Try to convert other types to number
+                const parsed = parseFloat(String(scoreValue))
+                if (!isNaN(parsed)) {
+                  numericScore = parsed
+                }
+              }
+
+              if (numericScore > 0) {
+                await prisma.benchmarkScore.create({
+                  data: {
+                    modelId: model.id,
+                    suiteId: benchmarkId,
+                    scoreRaw: numericScore,
+                    scoreNormalized: numericScore / 100,
+                    percentile: 0, // Calculate later
+                    evaluationDate: new Date(),
+                    isOfficial: true,
+                    configuration: JSON.stringify({}),
+                  },
+                })
+              }
             }
           }
         }

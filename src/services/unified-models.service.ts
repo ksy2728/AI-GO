@@ -87,8 +87,8 @@ export class UnifiedModelService {
         intelligenceScore: dbModel.intelligenceScore || 70,
         outputSpeed: dbModel.outputSpeed || 50,
         // FIXED: Use pricing data stored directly in Model table (from AA sync)
-        inputPrice: dbModel.inputPrice || dbModel.pricing[0]?.inputPerMillion || 0,
-        outputPrice: dbModel.outputPrice || dbModel.pricing[0]?.outputPerMillion || 0,
+        inputPrice: Number(dbModel.inputPrice) || Number(dbModel.pricing[0]?.inputPerMillion) || 0,
+        outputPrice: Number(dbModel.outputPrice) || Number(dbModel.pricing[0]?.outputPerMillion) || 0,
         contextWindow: dbModel.contextWindow || 8192,
         lastUpdated: dbModel.updatedAt.toISOString(),
         category: this.inferCategory(dbModel.name, dbModel.provider.name),

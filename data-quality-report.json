@@ -1,0 +1,55 @@
+{
+  "timestamp": "2025-09-21T12:03:30.471Z",
+  "totalModels": 98,
+  "fieldAnalysis": {
+    "intelligenceScore": {
+      "total": 98,
+      "notNull": 89,
+      "nullCount": 9,
+      "zeroCount": 0,
+      "validCount": 89,
+      "completionRate": 90.81632653061224,
+      "averageValue": 73.6067415730337,
+      "distribution": {
+        "0-20": 0,
+        "21-40": 0,
+        "41-60": 0,
+        "61-80": 62,
+        "81-100": 27
+      }
+    },
+    "outputSpeed": {
+      "total": 98,
+      "notNull": 25,
+      "nullCount": 73,
+      "zeroCount": 0,
+      "validCount": 25,
+      "completionRate": 25.510204081632654,
+      "averageValue": 114.84
+    },
+    "inputPrice": {
+      "total": 98,
+      "notNull": 18,
+      "nullCount": 80,
+      "zeroCount": 0,
+      "validCount": 18,
+      "completionRate": 18.367346938775512,
+      "averageValue": 2.8702777777777775
+    },
+    "outputPrice": {
+      "total": 98,
+      "notNull": 18,
+      "nullCount": 80,
+      "zeroCount": 0,
+      "validCount": 18,
+      "completionRate": 18.367346938775512,
+      "averageValue": 11.35
+    }
+  },
+  "overallQuality": 38.26530612244898,
+  "recommendations": [
+    "⚠️ Output speed data is mostly missing. Scraper needs to extract tokens/s values.",
+    "⚠️ Input pricing data is incomplete. Need to sync pricing data from AA.",
+    "⚠️ Output pricing data is incomplete. Need to sync pricing data from AA."
+  ]
+}
