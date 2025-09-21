@@ -1,7 +1,8 @@
 import { Model, ModelStats, Provider, BenchmarkScore, Incident, ModelStatus } from '@/types/models'
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL ||
-  (typeof window !== 'undefined' ? '' : 'http://localhost:3000')
+// Use relative URL by default to avoid CORS issues
+// This ensures the API calls go to the same domain as the frontend
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || ''
 
 // Request deduplication map
 const pendingRequests = new Map<string, Promise<any>>()
