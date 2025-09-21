@@ -112,20 +112,28 @@ async function loadIntelligenceData() {
   }
 }
 
+// CORS headers for all responses
+const corsHeaders = {
+  'Access-Control-Allow-Origin': '*',
+  'Access-Control-Allow-Methods': 'GET, OPTIONS',
+  'Access-Control-Allow-Headers': 'Content-Type, Authorization',
+  'Access-Control-Max-Age': '86400',
+}
+
+// Handle OPTIONS request for CORS preflight
+export async function OPTIONS(request: NextRequest) {
+  return new Response(null, {
+    status: 200,
+    headers: corsHeaders
+  })
+}
+
 export async function GET(request: NextRequest) {
   // CORS headers for Vercel deployments
   const headers = new Headers({
-    'Access-Control-Allow-Origin': '*',
-    'Access-Control-Allow-Methods': 'GET, OPTIONS',
-    'Access-Control-Allow-Headers': 'Content-Type, Authorization',
-    'Access-Control-Max-Age': '86400',
+    ...corsHeaders,
     'Cache-Control': `public, s-maxage=${CACHE_TTL / 1000}, stale-while-revalidate=${STALE_WHILE_REVALIDATE / 1000}`
   })
-
-  // Handle preflight OPTIONS request
-  if (request.method === 'OPTIONS') {
-    return new Response(null, { status: 200, headers })
-  }
 
   try {
     const { searchParams } = request.nextUrl

@@ -6,19 +6,25 @@ import { UnifiedModelFilters } from '@/types/unified-models'
 export const revalidate = 0
 export const dynamic = 'force-dynamic'
 
-export async function GET(request: Request) {
-  // CORS headers for Vercel deployments
-  const headers = new Headers({
-    'Access-Control-Allow-Origin': '*',
-    'Access-Control-Allow-Methods': 'GET, OPTIONS',
-    'Access-Control-Allow-Headers': 'Content-Type, Authorization',
-    'Access-Control-Max-Age': '86400',
-  })
+// CORS headers for all responses
+const corsHeaders = {
+  'Access-Control-Allow-Origin': '*',
+  'Access-Control-Allow-Methods': 'GET, OPTIONS',
+  'Access-Control-Allow-Headers': 'Content-Type, Authorization',
+  'Access-Control-Max-Age': '86400',
+}
 
-  // Handle preflight OPTIONS request
-  if (request.method === 'OPTIONS') {
-    return new Response(null, { status: 200, headers })
-  }
+// Handle OPTIONS request for CORS preflight
+export async function OPTIONS(request: Request) {
+  return new Response(null, {
+    status: 200,
+    headers: corsHeaders
+  })
+}
+
+export async function GET(request: Request) {
+  // Set CORS headers
+  const headers = new Headers(corsHeaders)
 
   try {
     const { searchParams } = new URL(request.url)
