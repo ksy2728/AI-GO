@@ -247,7 +247,11 @@
       "Bash(PORT=3009 npm run dev)",
       "Bash(start http://localhost:3009/models)",
       "Bash(start http://localhost:3006/admin/login)",
-      "Bash(redis-cli:*)"
+      "Bash(redis-cli:*)",
+      "Bash(start https://vercel.com/kim-soo-youngs-projects/ai-server-information/CwYqhXYB4tki2CfjTbEWkinEmcLs)",
+      "Bash(start https://ai-server-information-orcin.vercel.app/monitoring)",
+      "Bash(start https://ai-server-information-orcin.vercel.app)",
+      "Bash(start https://ai-server-information-orcin.vercel.app/models)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
