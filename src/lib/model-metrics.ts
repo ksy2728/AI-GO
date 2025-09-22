@@ -635,10 +635,10 @@ async function fetchModelHighlightsFromDB(limit = 9): Promise<ModelHighlightsDat
 }
 
 /**
- * Get model highlights using DB-first strategy with JSON fallback
+ * Get model highlights using DB-first strategy with curated fallback
  */
 export async function getModelHighlights(models: Model[] = [], limit = 9): Promise<ModelHighlightsData> {
-  console.log('🎯 Getting model highlights (DB-first strategy)')
+  console.log('🎯 Getting model highlights (DB-first strategy with curation)')
 
   try {
     // If server-side, try direct DB access first
@@ -662,8 +662,20 @@ export async function getModelHighlights(models: Model[] = [], limit = 9): Promi
       return dbData
     }
 
-    // Fallback to AA JSON data if DB fails
-    console.log('⚠️ DB API failed, falling back to AA JSON data...')
+    // Fallback to curated AA-style highlights
+    console.log('⚠️ DB API failed, falling back to curated AA highlights...')
+
+    // Try to load featured models configuration
+    let featuredConfig: any = null
+    try {
+      // Import featured models configuration
+      const featured = await import('@/data/featured-models.json')
+      featuredConfig = featured.default || featured
+      console.log('📌 Loaded featured models configuration')
+    } catch (error) {
+      console.warn('⚠️ Could not load featured models config:', error)
+    }
+
     const aaData = await fetchAAModels()
 
     if (!aaData || !aaData.models || aaData.models.length === 0) {
@@ -680,50 +692,88 @@ export async function getModelHighlights(models: Model[] = [], limit = 9): Promi
       }
     }
 
-    // Get Top 9 models for each metric from AA JSON
+    // Get models for each metric - use featured config if available, otherwise top 9
 
-    // 1. Intelligence Score Rankings (highest first)
-    const intelligenceRankings = [...aaData.models]
-      .sort((a, b) => b.intelligenceScore - a.intelligenceScore)
-      .slice(0, limit)
-      .map((aaModel, index) =>
-        aaModelToHighlight(
-          aaModel,
-          index + 1,
-          aaModel.intelligenceScore,
-          aaModel.intelligenceScore.toFixed(1)
-        )
-      )
+    let intelligenceRankings: ModelHighlight[] = []
+    let speedRankings: ModelHighlight[] = []
+    let priceRankings: ModelHighlight[] = []
 
-    // 2. Output Speed Rankings (fastest first)
-    const speedRankings = [...aaData.models]
-      .sort((a, b) => b.outputSpeed - a.outputSpeed)
-      .slice(0, limit)
-      .map((aaModel, index) =>
-        aaModelToHighlight(
-          aaModel,
-          index + 1,
-          aaModel.outputSpeed,
-          Math.round(aaModel.outputSpeed).toString()
-        )
-      )
+    if (featuredConfig?.highlightedModels) {
+      console.log('🌟 Using curated featured models for highlights')
 
-    // 3. Price Rankings (cheapest first) - using average of input/output price
-    const priceRankings = [...aaData.models]
-      .map(aaModel => ({
-        ...aaModel,
-        avgPrice: (aaModel.inputPrice + aaModel.outputPrice) / 2
-      }))
-      .sort((a, b) => a.avgPrice - b.avgPrice)
-      .slice(0, limit)
-      .map((aaModel, index) =>
-        aaModelToHighlight(
-          aaModel,
-          index + 1,
-          aaModel.avgPrice,
-          `$${aaModel.avgPrice.toFixed(2)}`
+      // 1. Intelligence - use featured list
+      const featuredIntelligence = featuredConfig.highlightedModels.intelligence || []
+      intelligenceRankings = featuredIntelligence
+        .map((slug: string) => {
+          const model = aaData.models.find((m: any) => m.slug === slug)
+          if (!model) return null
+          const rank = featuredIntelligence.indexOf(slug) + 1
+          return aaModelToHighlight(model, rank, model.intelligenceScore, model.intelligenceScore.toFixed(1))
+        })
+        .filter((m: any) => m !== null)
+        .slice(0, limit)
+
+      // 2. Speed - use featured list
+      const featuredSpeed = featuredConfig.highlightedModels.speed || []
+      speedRankings = featuredSpeed
+        .map((slug: string) => {
+          const model = aaData.models.find((m: any) => m.slug === slug)
+          if (!model) return null
+          const rank = featuredSpeed.indexOf(slug) + 1
+          return aaModelToHighlight(model, rank, model.outputSpeed, Math.round(model.outputSpeed).toString())
+        })
+        .filter((m: any) => m !== null)
+        .slice(0, limit)
+
+      // 3. Price - use featured list
+      const featuredPrice = featuredConfig.highlightedModels.price || []
+      priceRankings = featuredPrice
+        .map((slug: string) => {
+          const model = aaData.models.find((m: any) => m.slug === slug)
+          if (!model) return null
+          const rank = featuredPrice.indexOf(slug) + 1
+          const avgPrice = (model.inputPrice + model.outputPrice) / 2
+          return aaModelToHighlight(model, rank, avgPrice, `$${avgPrice.toFixed(2)}`)
+        })
+        .filter((m: any) => m !== null)
+        .slice(0, limit)
+    }
+
+    // Fallback to top 9 if featured config not available or incomplete
+    if (intelligenceRankings.length === 0) {
+      console.log('📊 Using top 9 models for intelligence (no featured config)')
+      intelligenceRankings = [...aaData.models]
+        .sort((a, b) => b.intelligenceScore - a.intelligenceScore)
+        .slice(0, limit)
+        .map((aaModel, index) =>
+          aaModelToHighlight(aaModel, index + 1, aaModel.intelligenceScore, aaModel.intelligenceScore.toFixed(1))
         )
+    }
+
+    if (speedRankings.length === 0) {
+      console.log('📊 Using top 9 models for speed (no featured config)')
+      speedRankings = [...aaData.models]
+        .sort((a, b) => b.outputSpeed - a.outputSpeed)
+        .slice(0, limit)
+        .map((aaModel, index) =>
+          aaModelToHighlight(aaModel, index + 1, aaModel.outputSpeed, Math.round(aaModel.outputSpeed).toString())
+        )
+    }
+
+    if (priceRankings.length === 0) {
+      console.log('📊 Using top 9 models for price (no featured config)')
+      const priceModels = [...aaData.models]
+        .map(aaModel => ({
+          ...aaModel,
+          avgPrice: (aaModel.inputPrice + aaModel.outputPrice) / 2
+        }))
+        .sort((a, b) => a.avgPrice - b.avgPrice)
+        .slice(0, limit)
+
+      priceRankings = priceModels.map((aaModel, index) =>
+        aaModelToHighlight(aaModel, index + 1, aaModel.avgPrice, `$${aaModel.avgPrice.toFixed(2)}`)
       )
+    }
 
     console.log(`✅ Created AA JSON-based highlights:`)
     console.log(`   Intelligence: ${intelligenceRankings.length} models`)

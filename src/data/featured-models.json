@@ -1,0 +1,42 @@
+{
+  "highlightedModels": {
+    "intelligence": [
+      "gpt-5-high-",
+      "gpt-5-medium-",
+      "grok-4",
+      "gpt-5-minimal-",
+      "gpt-5-nano-minimal-",
+      "claude-35-sonnet",
+      "gemini-15-pro-002",
+      "gpt-4-turbo",
+      "llama-31-405b"
+    ],
+    "speed": [
+      "gpt-5-mini-minimal-",
+      "gpt-5-nano-minimal-",
+      "gemini-15-flash-002",
+      "gemini-15-flash-8b",
+      "claude-35-haiku",
+      "gpt-4o-mini",
+      "gpt-5-minimal-",
+      "gpt-5-medium-",
+      "gpt-5-high-"
+    ],
+    "price": [
+      "gpt-4o-mini",
+      "gemini-15-flash-8b",
+      "gemini-15-flash-002",
+      "claude-35-haiku",
+      "gpt-5-nano-minimal-",
+      "gpt-5-mini-minimal-",
+      "llama-31-405b",
+      "gpt-5-minimal-",
+      "gemini-15-pro-002"
+    ]
+  },
+  "metadata": {
+    "description": "Curated list of models to highlight in charts, similar to Artificial Analysis homepage",
+    "lastUpdated": "2025-09-22",
+    "version": "1.0.0"
+  }
+}
