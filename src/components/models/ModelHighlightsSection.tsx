@@ -103,7 +103,9 @@ export function ModelHighlightsSection({ className = '' }: ModelHighlightsSectio
                   <h2 className="text-xl font-bold text-gray-900">
                     {t('models.highlights.title') || 'Model Comparison Highlights'}
                   </h2>
-                  {data?.metadata?.dataSource === 'Fallback' && (
+                  {(data?.metadata?.dataSource === 'aa-json-fallback' ||
+                    data?.metadata?.dataSource === 'fallback-empty' ||
+                    data?.metadata?.dataSource === 'error-fallback') && (
                     <Badge variant="outline" className="text-xs">
                       <AlertCircle className="w-3 h-3 mr-1" />
                       Fallback Data
