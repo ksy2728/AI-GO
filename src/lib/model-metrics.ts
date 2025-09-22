@@ -609,7 +609,9 @@ async function fetchModelHighlightsFromDB(limit = 9): Promise<ModelHighlightsDat
 
     // Determine the base URL based on environment
     const baseUrl = typeof window === 'undefined'
-      ? process.env.NEXT_PUBLIC_BASE_URL || `http://localhost:${process.env.PORT || 3000}`
+      ? process.env.VERCEL_URL
+        ? `https://${process.env.VERCEL_URL}`
+        : process.env.NEXT_PUBLIC_BASE_URL || `http://localhost:${process.env.PORT || 3000}`
       : ''
 
     // Try to fetch from DB API first

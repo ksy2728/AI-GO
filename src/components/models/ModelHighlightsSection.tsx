@@ -6,7 +6,8 @@ import { SpeedChart } from './charts/SpeedChart'
 import { PriceChart } from './charts/PriceChart'
 import { ModelHighlightsData } from '@/lib/model-metrics'
 import { Button } from '@/components/ui/button'
-import { RefreshCw, ChevronDown, ChevronUp, TrendingUp } from 'lucide-react'
+import { Badge } from '@/components/ui/badge'
+import { RefreshCw, ChevronDown, ChevronUp, TrendingUp, AlertCircle } from 'lucide-react'
 import { useLanguage } from '@/contexts/LanguageContext'
 
 interface ModelHighlightsSectionProps {
@@ -97,10 +98,18 @@ export function ModelHighlightsSection({ className = '' }: ModelHighlightsSectio
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               <TrendingUp className="w-6 h-6 text-blue-600" />
-              <div>
-                <h2 className="text-xl font-bold text-gray-900">
-                  {t('models.highlights.title') || 'Model Comparison Highlights'}
-                </h2>
+              <div className="flex-1">
+                <div className="flex items-center gap-2">
+                  <h2 className="text-xl font-bold text-gray-900">
+                    {t('models.highlights.title') || 'Model Comparison Highlights'}
+                  </h2>
+                  {data?.metadata?.dataSource === 'Fallback' && (
+                    <Badge variant="outline" className="text-xs">
+                      <AlertCircle className="w-3 h-3 mr-1" />
+                      Fallback Data
+                    </Badge>
+                  )}
+                </div>
                 <p className="text-sm text-gray-600 mt-1">
                   {t('models.highlights.subtitle') || 'Intelligence, Performance & Price Analysis'}
                 </p>

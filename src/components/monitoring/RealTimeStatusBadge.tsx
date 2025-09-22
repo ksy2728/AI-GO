@@ -6,9 +6,12 @@ import { Loader2, Wifi, WifiOff, AlertTriangle } from 'lucide-react'
 import { useRegion } from '@/contexts/RegionContext'
 import { cn } from '@/lib/utils'
 
+// Import model status types for consistency
+import type { ModelStatus } from '@/hooks/useFeaturedModels'
+
 interface ServerStatus {
   modelId: string
-  status: 'operational' | 'degraded' | 'outage'
+  status: ModelStatus | 'outage' // Support both for backward compatibility
   availability: number
   responseTime: number
   errorRate: number
@@ -18,7 +21,7 @@ interface ServerStatus {
 
 interface RealTimeStatusBadgeProps {
   modelId: string
-  fallbackStatus?: 'operational' | 'degraded' | 'outage'
+  fallbackStatus?: ModelStatus | 'outage' // Support both for backward compatibility
   className?: string
   showDetails?: boolean
 }
@@ -36,6 +39,13 @@ const STATUS_CONFIG = {
     icon: AlertTriangle,
     pulse: true
   },
+  down: {
+    label: 'Down',
+    color: 'bg-red-500/10 text-red-700 border-red-500/20 dark:text-red-400',
+    icon: WifiOff,
+    pulse: true
+  },
+  // Keep outage for backward compatibility
   outage: {
     label: 'Outage',
     color: 'bg-red-500/10 text-red-700 border-red-500/20 dark:text-red-400',

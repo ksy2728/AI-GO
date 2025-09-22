@@ -23,6 +23,86 @@ const PROVIDER_LOGOS: Record<string, string> = {
 // Function to get intelligence data from AA models
 async function getIntelligenceData() {
   try {
+    // First, check for featured models in the database
+    const { prisma } = await import('@/lib/prisma')
+    const featuredModels = await prisma.model.findMany({
+      where: {
+        isFeatured: true,
+        isActive: true
+      },
+      include: {
+        provider: true
+      },
+      orderBy: [
+        { featuredOrder: 'asc' },
+        { intelligenceScore: 'desc' }
+      ]
+    })
+
+    // If we have featured models, return them first
+    if (featuredModels.length > 0) {
+      const featuredData = featuredModels.map((model, index) => ({
+        rank: index + 1,
+        id: model.slug || model.id,
+        name: model.name,
+        provider: model.provider.name,
+        intelligenceIndex: model.intelligenceScore || 70,
+        providerLogo: PROVIDER_LOGOS[model.provider.name] || null,
+        isFeatured: true,
+        featuredOrder: model.featuredOrder,
+        featuredBy: model.featuredBy,
+        featuredAt: model.featuredAt?.toISOString()
+      }))
+
+      // If we have less than 9 featured models, fill with top AA models
+      if (featuredData.length < 9) {
+        const { UnifiedModelService } = await import('@/services/unified-models.service')
+        const response = await UnifiedModelService.getAll({}, 1000, 0)
+
+        const aaModels = response.models
+          .filter(model => model.intelligence && model.intelligence > 0)
+          .filter(model => !featuredModels.some(fm => fm.slug === model.slug))
+          .sort((a, b) => (b.intelligence || 0) - (a.intelligence || 0))
+          .slice(0, 9 - featuredData.length)
+          .map((model, index) => ({
+            rank: featuredData.length + index + 1,
+            id: model.slug || model.id,
+            name: model.name,
+            provider: model.provider,
+            intelligenceIndex: model.intelligence,
+            providerLogo: PROVIDER_LOGOS[model.provider] || null,
+            isFeatured: false
+          }))
+
+        return {
+          models: [...featuredData, ...aaModels],
+          topModels: [...featuredData, ...aaModels],
+          totalModels: featuredData.length + aaModels.length,
+          metadata: {
+            source: 'Featured + AA Models',
+            url: 'https://artificialanalysis.ai/leaderboards/models',
+            scrapedAt: new Date().toISOString(),
+            version: '3.1',
+            featuredCount: featuredData.length
+          }
+        }
+      }
+
+      return {
+        models: featuredData,
+        topModels: featuredData.slice(0, 9),
+        totalModels: featuredData.length,
+        metadata: {
+          source: 'Featured Models (Admin Selected)',
+          url: 'database',
+          scrapedAt: new Date().toISOString(),
+          version: '3.1',
+          featuredCount: featuredData.length
+        }
+      }
+    }
+
+    // Fallback to AA models if no featured models
     const { UnifiedModelService } = await import('@/services/unified-models.service')
     const response = await UnifiedModelService.getAll({}, 1000, 0)
 
@@ -36,7 +116,8 @@ async function getIntelligenceData() {
         name: model.name,
         provider: model.provider,
         intelligenceIndex: model.intelligence,
-        providerLogo: PROVIDER_LOGOS[model.provider] || null
+        providerLogo: PROVIDER_LOGOS[model.provider] || null,
+        isFeatured: false
       }))
 
     return {
@@ -139,6 +220,13 @@ export async function GET(request: NextRequest) {
     const { searchParams } = request.nextUrl
     const limit = parseInt(searchParams.get('limit') || '9')
     const modelId = searchParams.get('modelId')
+    const simulateFailure = searchParams.get('simulate_failure') === 'true'
+
+    // Development feature: Simulate API failure for testing
+    if (simulateFailure || process.env.SIMULATE_API_FAILURE === 'true') {
+      console.warn('🧪 Simulating API failure for testing')
+      throw new Error('Simulated API failure for testing fallback behavior')
+    }
 
     const data = await loadIntelligenceData()
 
@@ -172,6 +260,7 @@ export async function GET(request: NextRequest) {
       metadata: data.metadata,
       cached: data.cached || false,
       cacheAge: data.cacheAge,
+      timestamp: new Date().toISOString(),
       dataSource: data.metadata?.source || 'Artificial Analysis'
     }, { headers })
   } catch (error) {
@@ -192,7 +281,7 @@ export async function GET(request: NextRequest) {
           error: error instanceof Error ? error.message : 'Unknown error'
         },
         cached: false,
-        dataSource: 'Emergency'
+        dataSource: 'Fallback'
       }, {
         status: 200,
         headers
@@ -210,7 +299,7 @@ export async function GET(request: NextRequest) {
           timestamp: new Date().toISOString()
         },
         cached: false,
-        dataSource: 'Critical'
+        dataSource: 'Fallback'
       }, {
         status: 200,
         headers

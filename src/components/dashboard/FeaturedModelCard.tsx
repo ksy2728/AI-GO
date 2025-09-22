@@ -25,24 +25,11 @@ import {
   X
 } from 'lucide-react'
 
+// Import Model type from the hook for consistency
+import type { Model } from '@/hooks/useFeaturedModels'
+
 interface FeaturedModelCardProps {
-  model: {
-    id: string
-    rank?: number
-    name: string
-    provider: string
-    providerLogo?: string
-    status: 'operational' | 'degraded' | 'outage'
-    availability: number
-    responseTime: number
-    errorRate: number
-    throughput: number
-    description?: string
-    capabilities?: string[]
-    intelligenceIndex?: number
-    inputPrice?: number
-    outputPrice?: number
-  }
+  model: Model
 }
 
 export function FeaturedModelCard({ model }: FeaturedModelCardProps) {
@@ -58,13 +45,19 @@ export function FeaturedModelCard({ model }: FeaturedModelCardProps) {
   // Local state for region selection to prevent infinite loop
   const [localRegion, setLocalRegion] = useState(selectedRegion)
   
-  // State for region-specific metrics - ALWAYS start with operational status
-  const [displayMetrics, setDisplayMetrics] = useState({
+  // State for region-specific metrics
+  const [displayMetrics, setDisplayMetrics] = useState<{
+    availability: number
+    responseTime: number
+    errorRate: number
+    throughput: number
+    status: typeof model.status
+  }>({
     availability: model.availability,
     responseTime: model.responseTime,
     errorRate: model.errorRate,
     throughput: model.throughput,
-    status: 'operational' as 'operational' | 'degraded' | 'outage' // Allow all status types
+    status: model.status
   })
 
   // Sync local region with global region
@@ -86,7 +79,7 @@ export function FeaturedModelCard({ model }: FeaturedModelCardProps) {
           responseTime: model.responseTime + regionVariance,
           errorRate: Math.min(0.1, model.errorRate + (regionVariance * 0.001)),
           throughput: Math.max(100, model.throughput - (regionVariance * 10)),
-          status: 'operational' as 'operational' | 'degraded' | 'outage'
+          status: 'operational' as const
         })
       } catch (error) {
         console.warn('Using default metrics:', error)
@@ -95,7 +88,7 @@ export function FeaturedModelCard({ model }: FeaturedModelCardProps) {
           responseTime: model.responseTime || 250,
           errorRate: model.errorRate || 0.02,
           throughput: model.throughput || 800,
-          status: 'operational' as 'operational' | 'degraded' | 'outage'
+          status: 'operational' as const
         })
       }
     }
@@ -109,7 +102,7 @@ export function FeaturedModelCard({ model }: FeaturedModelCardProps) {
         return 'bg-green-100 text-green-800 border-green-200'
       case 'degraded':
         return 'bg-yellow-100 text-yellow-800 border-yellow-200'
-      case 'outage':
+      case 'down':
         return 'bg-red-100 text-red-800 border-red-200'
       default:
         return 'bg-gray-100 text-gray-800 border-gray-200'
@@ -122,7 +115,7 @@ export function FeaturedModelCard({ model }: FeaturedModelCardProps) {
         return <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
       case 'degraded':
         return <div className="w-2 h-2 bg-yellow-500 rounded-full animate-pulse" />
-      case 'outage':
+      case 'down':
         return <div className="w-2 h-2 bg-red-500 rounded-full" />
       default:
         return <div className="w-2 h-2 bg-gray-500 rounded-full" />
@@ -285,7 +278,7 @@ export function FeaturedModelCard({ model }: FeaturedModelCardProps) {
                   <Badge className={getStatusColor(displayMetrics.status)}>
                     {displayMetrics.status === 'operational' && <CheckCircle className="w-3 h-3 mr-1" />}
                     {displayMetrics.status === 'degraded' && <AlertCircle className="w-3 h-3 mr-1" />}
-                    {displayMetrics.status === 'outage' && <X className="w-3 h-3 mr-1" />}
+                    {displayMetrics.status === 'down' && <X className="w-3 h-3 mr-1" />}
                     <span className="capitalize">{displayMetrics.status}</span>
                   </Badge>
                 </div>

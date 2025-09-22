@@ -57,6 +57,11 @@ model Model {
   outputPrice       Decimal?                 @map("output_price") @db.Decimal(10, 4)
   dataSource        String?                  @map("data_source")
   lastVerified      DateTime?                @map("last_verified")
+  isFeatured        Boolean                  @default(false) @map("is_featured")
+  featuredOrder     Int?                     @map("featured_order")
+  featuredAt        DateTime?                @map("featured_at")
+  featuredBy        String?                  @map("featured_by")
+  featuredReason    String?                  @map("featured_reason")
   benchmarkScores   BenchmarkScore[]
   incidents         Incident[]
   endpoints         ModelEndpoint[]
