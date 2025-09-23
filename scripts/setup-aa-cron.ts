@@ -99,7 +99,6 @@ function setupCronJob() {
 
   // Schedule the task
   const task = cron.schedule(SYNC_SCHEDULE, runScheduledSync, {
-    scheduled: true,
     timezone: process.env.TZ || 'UTC'
   })
 
