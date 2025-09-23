@@ -78,6 +78,7 @@ function parseAAApiData(models: any[]): AAModel[] {
   return models.map((model, index) => ({
     name: model.name || model.model_name,
     provider: model.organization || model.provider || inferProvider(model.name),
+    // Use the actual quality_index from AA API, not inflated scores
     intelligenceScore: parseFloat(model.quality_index || model.intelligence_score || 0),
     outputSpeed: parseFloat(model.tokens_per_second || model.output_speed || 0),
     inputPrice: parseFloat(model.price_per_million_input_tokens || model.input_price || 0),
@@ -295,21 +296,109 @@ async function syncToDatabase(aaModels: AAModel[]) {
 }
 
 /**
+ * Calculate average intelligence score from models
+ */
+function calculateAverageIntelligence(models: AAModel[]): number {
+  if (models.length === 0) return 0
+
+  const validScores = models
+    .map(m => m.intelligenceScore)
+    .filter(score => score > 0)
+
+  if (validScores.length === 0) return 0
+
+  const sum = validScores.reduce((acc, score) => acc + score, 0)
+  return sum / validScores.length
+}
+
+/**
+ * Filter models based on performance
+ */
+function filterModelsByPerformance(models: AAModel[]): AAModel[] {
+  // Check if filtering is enabled via environment variable
+  const enableFilter = process.env.AA_ENABLE_PERFORMANCE_FILTER !== 'false'
+  const customThreshold = process.env.AA_MIN_INTELLIGENCE ?
+    parseInt(process.env.AA_MIN_INTELLIGENCE) : null
+
+  if (!enableFilter) {
+    console.log('⚙️ Performance filtering is disabled')
+    return models
+  }
+
+  const originalCount = models.length
+
+  // Use custom threshold or calculate average
+  let threshold: number
+  if (customThreshold !== null) {
+    threshold = customThreshold
+    console.log(`📊 Using custom intelligence threshold: ${threshold}`)
+  } else {
+    threshold = calculateAverageIntelligence(models)
+    console.log(`📊 Calculated average intelligence score: ${threshold.toFixed(2)}`)
+  }
+
+  // Filter out below-threshold models
+  const filteredModels = models.filter(m => m.intelligenceScore >= threshold)
+
+  const removedCount = originalCount - filteredModels.length
+  console.log(`🎯 Performance filtering results:`)
+  console.log(`  - Original models: ${originalCount}`)
+  console.log(`  - Threshold: ${threshold.toFixed(2)}`)
+  console.log(`  - Models kept: ${filteredModels.length}`)
+  console.log(`  - Models filtered out: ${removedCount}`)
+
+  return filteredModels
+}
+
+/**
  * Main sync function
  */
 async function syncAAData() {
   try {
     console.log('🚀 Starting AA data sync...')
 
-    // Fetch real data
-    const aaModels = await fetchAAData()
+    // Fetch real data from API
+    let aaModels = await fetchAAData()
 
-    if (aaModels.length === 0) {
-      throw new Error('No models fetched from AA')
+    // Also check intelligence-index.json for additional models
+    try {
+      const indexPath = path.resolve(process.cwd(), 'data/intelligence-index.json')
+      if (require('fs').existsSync(indexPath)) {
+        const indexData = JSON.parse(require('fs').readFileSync(indexPath, 'utf8'))
+
+        // Merge models from intelligence-index that aren't in API response
+        const apiModelNames = new Set(aaModels.map(m => m.name))
+        const additionalModels = indexData.models
+          .filter((m: any) => !apiModelNames.has(m.name))
+          .map((m: any) => ({
+            name: m.name,
+            provider: m.provider?.toLowerCase() || inferProvider(m.name),
+            intelligenceScore: m.intelligenceIndex || m.intelligenceScore,
+            outputSpeed: 100, // Default speed for index models
+            inputPrice: 0,
+            outputPrice: 0,
+            rank: m.rank
+          }))
+
+        if (additionalModels.length > 0) {
+          console.log(`📄 Found ${additionalModels.length} additional models in intelligence-index.json`)
+          aaModels.push(...additionalModels)
+        }
+      }
+    } catch (e) {
+      console.log('📄 intelligence-index.json not found or invalid, using API data only')
     }
 
-    console.log(`\n📋 Fetched ${aaModels.length} models from AA`)
-    console.log('Top 5 models:')
+    if (aaModels.length === 0) {
+      throw new Error('No models fetched from any source')
+    }
+
+    console.log(`\n📋 Fetched ${aaModels.length} total models from AA sources`)
+
+    // Apply performance filtering
+    aaModels = filterModelsByPerformance(aaModels)
+
+    console.log('\n📊 Top 5 models after filtering:')
     aaModels.slice(0, 5).forEach(m => {
       console.log(`  - ${m.name}: Score=${m.intelligenceScore}, Speed=${m.outputSpeed}`)
     })
@@ -339,4 +428,4 @@ if (require.main === module) {
     .catch(() => process.exit(1))
 }
 
-export { syncAAData, fetchAAData }
+export { syncAAData, fetchAAData, filterModelsByPerformance, calculateAverageIntelligence }

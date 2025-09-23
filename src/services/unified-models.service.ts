@@ -68,6 +68,7 @@ export class UnifiedModelService {
           isActive: true,
           // Include models synchronized from Artificial Analysis or with AA data
           OR: [
+            { dataSource: 'artificial-analysis' },
             { dataSource: 'artificial-analysis-improved' },
             { intelligenceScore: { not: null } },
             { outputSpeed: { not: null } }
@@ -82,7 +83,7 @@ export class UnifiedModelService {
       const aaModels: AAModel[] = dbModels.map((dbModel, index) => ({
         rank: index + 1,
         name: dbModel.name,
-        provider: dbModel.provider.name,
+        provider: dbModel.provider.slug, // FIXED: Use slug for consistent filtering
         slug: dbModel.slug,
         intelligenceScore: dbModel.intelligenceScore || 70,
         outputSpeed: dbModel.outputSpeed || 50,

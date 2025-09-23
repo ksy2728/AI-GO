@@ -31,7 +31,28 @@ export function applyUnifiedFilters(
   // Major providers only filter
   if (filters.showMajorOnly) {
     filtered = filtered.filter(model => {
-      const providerId = model.provider?.id || model.providerId || ''
+      // FIXED: Normalize provider comparison to handle both slug and name formats
+      // FIXED: Normalize provider to lowercase for comparison
+      // Handle both string and object provider types with explicit type handling
+      let providerId = ''
+      const provider = model.provider as any
+
+      if (provider) {
+        if (typeof provider === 'string') {
+          providerId = provider.toLowerCase()
+        } else if (provider.slug) {
+          providerId = provider.slug.toLowerCase()
+        } else if (provider.id) {
+          providerId = provider.id.toLowerCase()
+        } else if (provider.name) {
+          providerId = provider.name.toLowerCase()
+        }
+      }
+
+      if (!providerId && model.providerId) {
+        providerId = model.providerId.toLowerCase()
+      }
+
       return MAJOR_PROVIDERS.includes(providerId)
     })
   }
@@ -78,19 +99,19 @@ export function applyUnifiedFilters(
 
 export function getModelStatus(model: Model): string {
   if (!model.status) return 'unknown'
-  
+
   if (Array.isArray(model.status) && model.status.length > 0) {
     return model.status[0].status || 'unknown'
   }
-  
+
   if (typeof model.status === 'string') {
     return model.status
   }
-  
+
   if (typeof model.status === 'object' && 'status' in model.status) {
     return (model.status as any).status
   }
-  
+
   return 'unknown'
 }
 
@@ -134,7 +155,7 @@ export function getFilterSummary(
 
 export function getActiveFilterCount(filters: UnifiedFilterOptions): number {
   let count = 0
-  
+
   if (filters.provider) count++
   if (filters.modality) count++
   if (filters.capability) count++
@@ -142,7 +163,7 @@ export function getActiveFilterCount(filters: UnifiedFilterOptions): number {
   if (!filters.showMajorOnly) count++ // Count when NOT default
   if (filters.includeUnknown) count++ // Count when NOT default
   if (filters.isActive !== undefined) count++
-  
+
   return count
 }
 

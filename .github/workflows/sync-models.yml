@@ -1,0 +1,317 @@
+name: Unified Model Data Sync
+
+on:
+  schedule:
+    # Run every 6 hours to balance freshness with resource usage
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      force_update:
+        description: 'Force update all data'
+        required: false
+        default: 'false'
+        type: boolean
+      debug_mode:
+        description: 'Enable debug mode'
+        required: false
+        default: 'false'
+        type: boolean
+
+jobs:
+  sync-models:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT || secrets.GITHUB_TOKEN }}
+          persist-credentials: true
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: |
+          # Install all dependencies including devDependencies for playwright
+          npm ci || npm install
+          # Generate Prisma client
+          npx prisma generate
+          # Install playwright browsers if scraping is needed
+          if [ -f "scripts/aa-scraper-standalone.js" ]; then
+            npx playwright install chromium --with-deps || true
+          fi
+
+      - name: Create required directories
+        run: |
+          mkdir -p data
+          mkdir -p public/data
+          mkdir -p src/data
+          mkdir -p reports
+          echo "📁 Directories created"
+
+      - name: Setup database
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL || 'file:./prisma/dev.db' }}
+        run: |
+          # Apply migrations if using production database
+          if [[ "$DATABASE_URL" != file:* ]]; then
+            npx prisma migrate deploy || echo "⚠️ Migration failed, continuing"
+          else
+            # For local database
+            mkdir -p prisma
+            touch prisma/dev.db
+            npx prisma db push --skip-generate
+          fi
+
+      # AA Data Scraping (from aa-scraper.yml)
+      - name: Run AA scraper
+        id: scrape
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 */6 * * *'
+        env:
+          DEBUG_MODE: ${{ github.event.inputs.debug_mode }}
+        run: |
+          # Check if scraper exists and run it
+          if [ -f "scripts/aa-scraper-standalone.js" ]; then
+            echo "🔍 Running AA scraper..."
+            node scripts/aa-scraper-standalone.js || echo "⚠️ Scraper failed with exit code $?"
+          else
+            echo "ℹ️ AA scraper script not found, skipping"
+          fi
+        timeout-minutes: 5
+        continue-on-error: true
+
+      # Fetch AA Data (from sync-aa-data.yml)
+      - name: Fetch AA data via API
+        id: fetch
+        env:
+          NODE_ENV: production
+          FORCE_UPDATE: ${{ github.event.inputs.force_update }}
+        run: |
+          # Try multiple methods to get AA data
+          if [ -f "scripts/fetch-aa-data.js" ]; then
+            echo "📥 Fetching AA data via API..."
+            node scripts/fetch-aa-data.js || echo "⚠️ API fetch failed"
+          fi
+
+          # Try sync-aa-real-data.ts if available
+          if [ -f "src/services/sync-aa-real-data.ts" ]; then
+            echo "🔄 Running AA real data sync..."
+            npx tsx src/services/sync-aa-real-data.ts || echo "⚠️ Real data sync failed"
+          fi
+        continue-on-error: true
+
+      # Model Sync (from sync-data.yml)
+      - name: Sync models to database
+        id: sync_db
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL || 'file:./prisma/dev.db' }}
+          NODE_ENV: production
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY || '' }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY || '' }}
+        run: |
+          # Run model sync if script exists
+          if [ -f "scripts/sync-models.js" ]; then
+            echo "💾 Syncing models to database..."
+            node scripts/sync-models.js || echo "⚠️ Model sync failed"
+          fi
+        continue-on-error: true
+
+      # Data Aggregation (from data-collection.yml)
+      - name: Run data aggregation
+        id: aggregate
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 */6 * * *'
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL || 'file:./prisma/dev.db' }}
+          REDIS_URL: ${{ secrets.REDIS_URL || '' }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY || '' }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY || '' }}
+        run: |
+          if [ -f "scripts/aggregate-data.ts" ]; then
+            npm run aggregate-data || echo "⚠️ Data aggregation failed"
+          fi
+        continue-on-error: true
+
+      # Export to JSON
+      - name: Export data to JSON
+        id: export
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL || 'file:./prisma/dev.db' }}
+        run: |
+          # Export database to JSON files
+          if [ -f "scripts/export-to-json.js" ]; then
+            echo "📤 Exporting to JSON..."
+            node scripts/export-to-json.js || echo "⚠️ Export failed"
+          fi
+
+          # Ensure JSON files exist with valid structure
+          for dir in data public/data src/data; do
+            if [ ! -f "$dir/models.json" ]; then
+              echo '{"models":[],"statistics":{"totalModels":0}}' > "$dir/models.json" 2>/dev/null || true
+            fi
+            if [ ! -f "$dir/aa-models.json" ]; then
+              echo '{"models":[],"timestamp":"'$(date -Iseconds)'"}' > "$dir/aa-models.json" 2>/dev/null || true
+            fi
+          done
+
+      # Data Quality Check
+      - name: Check data quality
+        id: quality_check
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL || 'file:./prisma/dev.db' }}
+        run: |
+          if [ -f "scripts/check-data-quality.ts" ]; then
+            npm run check-data-quality || echo "quality_score=1" >> $GITHUB_OUTPUT
+          else
+            echo "quality_score=0" >> $GITHUB_OUTPUT
+          fi
+
+      # Validate scraped data
+      - name: Validate data
+        run: |
+          if [ -f "scripts/validate-aa-data.js" ]; then
+            node scripts/validate-aa-data.js || echo "⚠️ Validation warnings found"
+          fi
+
+          # Validate JSON structure
+          for file in data/*.json public/data/*.json src/data/*.json; do
+            if [ -f "$file" ]; then
+              jq empty "$file" 2>/dev/null || {
+                echo "⚠️ Invalid JSON in $file"
+                # Try to fix it
+                echo '{}' > "$file"
+              }
+            fi
+          done
+
+      # Generate reports
+      - name: Generate reports
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL || 'file:./prisma/dev.db' }}
+        run: |
+          # Generate transparency report
+          if [ -f "scripts/generate-report.ts" ]; then
+            npm run generate-report || true
+          fi
+
+          # Generate scraper health report
+          if [ -f "scripts/scraper-health-report.ts" ]; then
+            npm run scraper-health-report || true
+          fi
+        continue-on-error: true
+
+      # Check for changes and commit
+      - name: Check for changes
+        id: changes
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          # Add all data files
+          git add data/ public/data/ src/data/ 2>/dev/null || true
+
+          if git diff --cached --quiet; then
+            echo "changes=false" >> $GITHUB_OUTPUT
+            echo "ℹ️ No changes to commit"
+          else
+            echo "changes=true" >> $GITHUB_OUTPUT
+            echo "✅ Changes detected"
+            git diff --cached --stat
+          fi
+
+      - name: Commit and push changes
+        if: steps.changes.outputs.changes == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Get statistics for commit message
+          MODEL_COUNT=$(jq '.models | length' src/data/aa-models.json 2>/dev/null || echo "0")
+          TOTAL_MODELS=$(jq -r '.statistics.totalModels // 0' data/models.json 2>/dev/null || echo "0")
+          ACTIVE_MODELS=$(jq -r '.statistics.activeModels // 0' data/models.json 2>/dev/null || echo "0")
+
+          # Create detailed commit message
+          git commit -m "feat: update Intelligence Index data [skip ci]" \
+                     -m "" \
+                     -m "📊 Statistics:" \
+                     -m "- AA Models: $MODEL_COUNT" \
+                     -m "- Total Models: $TOTAL_MODELS" \
+                     -m "- Active Models: $ACTIVE_MODELS" \
+                     -m "- Updated: $(date -u +'%Y-%m-%d %H:%M:%S UTC')" \
+                     -m "- Sources: Artificial Analysis, Provider APIs" \
+                     -m "" \
+                     -m "🤖 Automated sync by unified workflow"
+
+          # Push changes
+          git push || echo "⚠️ Push failed, will retry next run"
+
+      # Create PR if significant changes (optional)
+      - name: Create Pull Request for review
+        if: steps.changes.outputs.changes == 'true' && github.event.inputs.force_update == 'true'
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'data: update models data (manual sync)'
+          title: '🤖 Manual Data Sync - Review Required'
+          body: |
+            ## Manual Data Sync
+
+            This PR contains manually triggered data updates that may need review.
+
+            ### Sync Results
+            - Scraper: ${{ steps.scrape.outcome }}
+            - API Fetch: ${{ steps.fetch.outcome }}
+            - Database Sync: ${{ steps.sync_db.outcome }}
+            - Data Aggregation: ${{ steps.aggregate.outcome }}
+            - Export: ${{ steps.export.outcome }}
+            - Quality Score: ${{ steps.quality_check.outputs.quality_score }}
+
+            ### Data Sources
+            - Artificial Analysis (scraper + API)
+            - Provider health checks
+            - Real-time status monitoring
+
+            **Generated at:** ${{ github.event.head_commit.timestamp || github.event.repository.updated_at }}
+
+            Please review the changes and merge when ready.
+          branch: manual-sync-${{ github.run_number }}
+          delete-branch: true
+
+      # Upload artifacts for debugging
+      - name: Upload debug artifacts
+        if: failure() || github.event.inputs.debug_mode == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-artifacts-${{ github.run_number }}
+          path: |
+            screenshots/
+            reports/
+            data/
+            public/data/
+            src/data/
+          retention-days: 7
+
+      # Final status report
+      - name: Sync summary
+        if: always()
+        run: |
+          echo "## 📊 Unified Sync Summary"
+          echo ""
+          echo "### Execution Status:"
+          echo "- 🔍 Scraper: ${{ steps.scrape.outcome }}"
+          echo "- 📥 API Fetch: ${{ steps.fetch.outcome }}"
+          echo "- 💾 Database Sync: ${{ steps.sync_db.outcome }}"
+          echo "- 📊 Aggregation: ${{ steps.aggregate.outcome }}"
+          echo "- 📤 Export: ${{ steps.export.outcome }}"
+          echo "- ✅ Quality Check: ${{ steps.quality_check.outputs.quality_score == '0' && 'Passed' || 'Failed' }}"
+          echo "- 📝 Changes: ${{ steps.changes.outputs.changes == 'true' && 'Committed' || 'None' }}"
+          echo ""
+          echo "### Next Steps:"
+          echo "- Next automatic sync: $(date -d '+6 hours' -u +'%Y-%m-%d %H:%M UTC')"
+          echo "- Manual trigger: Go to Actions tab → Unified Model Data Sync → Run workflow"

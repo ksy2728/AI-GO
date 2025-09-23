@@ -1,44 +1,6 @@
 {
   "models": [
     {
-      "rank": 1,
-      "name": "GPT-4o mini",
-      "provider": "OpenAI",
-      "slug": "gpt-4o-mini",
-      "intelligenceScore": 70,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.760Z",
-      "category": "performance",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 2,
-      "name": "GPT-4.1 mini",
-      "provider": "OpenAI",
-      "slug": "gpt-4-1-mini",
-      "intelligenceScore": 1,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.760Z",
-      "category": "cost-effective",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
       "rank": 3,
       "name": "GPT-5 nano (high)",
       "provider": "OpenAI",
@@ -96,44 +58,6 @@
       }
     },
     {
-      "rank": 6,
-      "name": "GPT-4.1 nano",
-      "provider": "OpenAI",
-      "slug": "gpt-4-1-nano",
-      "intelligenceScore": 1,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.760Z",
-      "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 7,
-      "name": "GPT-5 (high)",
-      "provider": "OpenAI",
-      "slug": "gpt-5-high-",
-      "intelligenceScore": 70,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.760Z",
-      "category": "performance",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
       "rank": 8,
       "name": "GPT-5 (minimal)",
       "provider": "OpenAI",
@@ -145,63 +69,6 @@
       "contextWindow": 128000,
       "lastUpdated": "2025-09-22T21:22:23.760Z",
       "category": "performance",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 9,
-      "name": "o3",
-      "provider": "OpenAI",
-      "slug": "o3",
-      "intelligenceScore": 70,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.760Z",
-      "category": "performance",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 10,
-      "name": "GPT-5 mini (minimal)",
-      "provider": "OpenAI",
-      "slug": "gpt-5-mini-minimal-",
-      "intelligenceScore": 70,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.760Z",
-      "category": "performance",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 11,
-      "name": "GPT-4.1",
-      "provider": "OpenAI",
-      "slug": "gpt-4-1",
-      "intelligenceScore": 1,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.760Z",
-      "category": "specialized",
       "trend": "stable",
       "metadata": {
         "source": "artificial-analysis",
@@ -229,105 +96,10 @@
       }
     },
     {
-      "rank": 13,
-      "name": "o3-pro",
-      "provider": "OpenAI",
-      "slug": "o3-pro",
-      "intelligenceScore": 70,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.760Z",
-      "category": "performance",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 14,
-      "name": "GPT-5 mini (high)",
-      "provider": "OpenAI",
-      "slug": "gpt-5-mini-high-",
-      "intelligenceScore": 70,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.760Z",
-      "category": "performance",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
       "rank": 15,
       "name": "GPT-5 nano (minimal)",
       "provider": "OpenAI",
       "slug": "gpt-5-nano-minimal-",
-      "intelligenceScore": 70,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.760Z",
-      "category": "performance",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 16,
-      "name": "o3-mini (high)",
-      "provider": "OpenAI",
-      "slug": "o3-mini-high-",
-      "intelligenceScore": 70,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.760Z",
-      "category": "performance",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 17,
-      "name": "GPT-5 mini (medium)",
-      "provider": "OpenAI",
-      "slug": "gpt-5-mini-medium-",
-      "intelligenceScore": 70,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.760Z",
-      "category": "performance",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 18,
-      "name": "GPT-5 (medium)",
-      "provider": "OpenAI",
-      "slug": "gpt-5-medium-",
       "intelligenceScore": 70,
       "outputSpeed": 100,
       "inputPrice": 5,
@@ -381,31 +153,12 @@
       }
     },
     {
-      "rank": 21,
-      "name": "o3-mini",
-      "provider": "OpenAI",
-      "slug": "o3-mini",
-      "intelligenceScore": 70,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.760Z",
-      "category": "performance",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
       "rank": 22,
       "name": "GPT-4o (ChatGPT)",
       "provider": "OpenAI",
       "slug": "gpt-4o-chatgpt-",
       "intelligenceScore": 70,
-      "outputSpeed": 100,
+      "outputSpeed": 115,
       "inputPrice": 5,
       "outputPrice": 10,
       "contextWindow": 128000,
@@ -423,44 +176,6 @@
       "name": "GPT-5 (ChatGPT)",
       "provider": "OpenAI",
       "slug": "gpt-5-chatgpt-",
-      "intelligenceScore": 70,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.760Z",
-      "category": "performance",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 24,
-      "name": "o1",
-      "provider": "OpenAI",
-      "slug": "o1",
-      "intelligenceScore": 70,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.760Z",
-      "category": "performance",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 25,
-      "name": "o1-preview",
-      "provider": "OpenAI",
-      "slug": "o1-preview",
       "intelligenceScore": 70,
       "outputSpeed": 100,
       "inputPrice": 5,
@@ -500,7 +215,7 @@
       "provider": "OpenAI",
       "slug": "gpt-4o-aug-24-",
       "intelligenceScore": 70,
-      "outputSpeed": 100,
+      "outputSpeed": 115,
       "inputPrice": 5,
       "outputPrice": 10,
       "contextWindow": 128000,
@@ -519,7 +234,7 @@
       "provider": "OpenAI",
       "slug": "gpt-4o-may-24-",
       "intelligenceScore": 70,
-      "outputSpeed": 100,
+      "outputSpeed": 115,
       "inputPrice": 5,
       "outputPrice": 10,
       "contextWindow": 128000,
@@ -557,7 +272,7 @@
       "provider": "OpenAI",
       "slug": "gpt-4o-nov-24-",
       "intelligenceScore": 70,
-      "outputSpeed": 100,
+      "outputSpeed": 115,
       "inputPrice": 5,
       "outputPrice": 10,
       "contextWindow": 128000,
@@ -571,31 +286,12 @@
       }
     },
     {
-      "rank": 31,
-      "name": "GPT-3.5 Turbo",
-      "provider": "OpenAI",
-      "slug": "gpt-3-5-turbo",
-      "intelligenceScore": 4,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.760Z",
-      "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
       "rank": 32,
       "name": "GPT-4o (March 2025, chatgpt-4o-latest)",
       "provider": "OpenAI",
       "slug": "gpt-4o-march-2025-chatgpt-4o-latest-",
       "intelligenceScore": 70,
-      "outputSpeed": 100,
+      "outputSpeed": 115,
       "inputPrice": 5,
       "outputPrice": 10,
       "contextWindow": 128000,
@@ -614,7 +310,7 @@
       "provider": "OpenAI",
       "slug": "gpt-4o-realtime-dec-24-",
       "intelligenceScore": 70,
-      "outputSpeed": 100,
+      "outputSpeed": 115,
       "inputPrice": 5,
       "outputPrice": 10,
       "contextWindow": 128000,
@@ -647,33 +343,14 @@
       }
     },
     {
-      "rank": 35,
-      "name": "GPT-4",
-      "provider": "OpenAI",
-      "slug": "gpt-4",
-      "intelligenceScore": 8,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.760Z",
-      "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
       "rank": 36,
       "name": "GPT-4o mini Realtime (Dec '24)",
       "provider": "OpenAI",
       "slug": "gpt-4o-mini-realtime-dec-24-",
       "intelligenceScore": 70,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
+      "outputSpeed": 115,
+      "inputPrice": 0.3,
+      "outputPrice": 0.3,
       "contextWindow": 128000,
       "lastUpdated": "2025-09-22T21:22:23.760Z",
       "category": "performance",
@@ -696,177 +373,6 @@
       "contextWindow": 128000,
       "lastUpdated": "2025-09-22T21:22:23.760Z",
       "category": "performance",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 38,
-      "name": "GPT-3.5 Turbo (0613)",
-      "provider": "OpenAI",
-      "slug": "gpt-3-5-turbo-0613-",
-      "intelligenceScore": 4,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.760Z",
-      "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 39,
-      "name": "Grok-1",
-      "provider": "xAI",
-      "slug": "grok-1",
-      "intelligenceScore": 8,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.760Z",
-      "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 40,
-      "name": "Grok 4 Fast (Reasoning)",
-      "provider": "xAI",
-      "slug": "grok-4-fast-reasoning-",
-      "intelligenceScore": 2,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.760Z",
-      "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 41,
-      "name": "Grok 3 mini Reasoning (high)",
-      "provider": "xAI",
-      "slug": "grok-3-mini-reasoning-high-",
-      "intelligenceScore": 1,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.760Z",
-      "category": "cost-effective",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 42,
-      "name": "Grok 3",
-      "provider": "xAI",
-      "slug": "grok-3",
-      "intelligenceScore": 1,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.760Z",
-      "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 43,
-      "name": "Grok 3 mini Reasoning (Low)",
-      "provider": "xAI",
-      "slug": "grok-3-mini-reasoning-low-",
-      "intelligenceScore": 1,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.760Z",
-      "category": "cost-effective",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 44,
-      "name": "Grok 4",
-      "provider": "xAI",
-      "slug": "grok-4",
-      "intelligenceScore": 70,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.760Z",
-      "category": "performance",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 45,
-      "name": "Grok 4 Fast",
-      "provider": "xAI",
-      "slug": "grok-4-fast",
-      "intelligenceScore": 2,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.760Z",
-      "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 46,
-      "name": "Grok 3 Reasoning Beta",
-      "provider": "xAI",
-      "slug": "grok-3-reasoning-beta",
-      "intelligenceScore": 1,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.760Z",
-      "category": "specialized",
       "trend": "stable",
       "metadata": {
         "source": "artificial-analysis",
@@ -932,25 +438,6 @@
       }
     },
     {
-      "rank": 50,
-      "name": "PALM-2",
-      "provider": "Google",
-      "slug": "palm-2",
-      "intelligenceScore": 8,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
       "rank": 51,
       "name": "Gemma 3 12B Instruct",
       "provider": "Google",
@@ -962,25 +449,6 @@
       "contextWindow": 128000,
       "lastUpdated": "2025-09-22T21:22:23.761Z",
       "category": "performance",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 52,
-      "name": "Gemini 2.5 Flash-Lite",
-      "provider": "Google",
-      "slug": "gemini-2-5-flash-lite",
-      "intelligenceScore": 1,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "cost-effective",
       "trend": "stable",
       "metadata": {
         "source": "artificial-analysis",
@@ -1008,25 +476,6 @@
       }
     },
     {
-      "rank": 54,
-      "name": "Gemini 2.5 Flash-Lite (Reasoning)",
-      "provider": "Google",
-      "slug": "gemini-2-5-flash-lite-reasoning-",
-      "intelligenceScore": 1,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "cost-effective",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
       "rank": 55,
       "name": "Gemma 3 4B Instruct",
       "provider": "Google",
@@ -1038,519 +487,6 @@
       "contextWindow": 128000,
       "lastUpdated": "2025-09-22T21:22:23.761Z",
       "category": "performance",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 56,
-      "name": "Gemini 2.5 Flash",
-      "provider": "Google",
-      "slug": "gemini-2-5-flash",
-      "intelligenceScore": 1,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "cost-effective",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 57,
-      "name": "Gemini 2.5 Flash (Reasoning)",
-      "provider": "Google",
-      "slug": "gemini-2-5-flash-reasoning-",
-      "intelligenceScore": 1,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "cost-effective",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 58,
-      "name": "Gemma 3n E2B Instruct",
-      "provider": "Google",
-      "slug": "gemma-3n-e2b-instruct",
-      "intelligenceScore": 32,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 59,
-      "name": "Gemini 2.5 Pro",
-      "provider": "Google",
-      "slug": "gemini-2-5-pro",
-      "intelligenceScore": 1,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "cost-effective",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 60,
-      "name": "Gemma 3 1B Instruct",
-      "provider": "Google",
-      "slug": "gemma-3-1b-instruct",
-      "intelligenceScore": 32,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 61,
-      "name": "Gemma 3n E4B Instruct",
-      "provider": "Google",
-      "slug": "gemma-3n-e4b-instruct",
-      "intelligenceScore": 32,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 62,
-      "name": "Gemini 2.0 Pro Experimental (Feb '25)",
-      "provider": "Google",
-      "slug": "gemini-2-0-pro-experimental-feb-25-",
-      "intelligenceScore": 2,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "cost-effective",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 63,
-      "name": "Gemini 2.0 Flash (experimental)",
-      "provider": "Google",
-      "slug": "gemini-2-0-flash-experimental-",
-      "intelligenceScore": 1,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "cost-effective",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 64,
-      "name": "Gemini 1.5 Pro (Sep '24)",
-      "provider": "Google",
-      "slug": "gemini-1-5-pro-sep-24-",
-      "intelligenceScore": 2,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "cost-effective",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 65,
-      "name": "Gemini 2.0 Flash-Lite (Preview)",
-      "provider": "Google",
-      "slug": "gemini-2-0-flash-lite-preview-",
-      "intelligenceScore": 1,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "cost-effective",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 66,
-      "name": "Gemini 2.0 Flash (Feb '25)",
-      "provider": "Google",
-      "slug": "gemini-2-0-flash-feb-25-",
-      "intelligenceScore": 1,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "cost-effective",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 67,
-      "name": "Gemini 1.5 Flash (Sep '24)",
-      "provider": "Google",
-      "slug": "gemini-1-5-flash-sep-24-",
-      "intelligenceScore": 1,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "cost-effective",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 68,
-      "name": "Gemma 2 27B",
-      "provider": "Google",
-      "slug": "gemma-2-27b",
-      "intelligenceScore": 8,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 69,
-      "name": "Gemma 2 9B",
-      "provider": "Google",
-      "slug": "gemma-2-9b",
-      "intelligenceScore": 8,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 70,
-      "name": "Gemini 1.5 Flash-8B",
-      "provider": "Google",
-      "slug": "gemini-1-5-flash-8b",
-      "intelligenceScore": 1,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "cost-effective",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 71,
-      "name": "Gemini 2.0 Flash-Lite (Feb '25)",
-      "provider": "Google",
-      "slug": "gemini-2-0-flash-lite-feb-25-",
-      "intelligenceScore": 1,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "cost-effective",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 72,
-      "name": "Gemini 2.5 Pro Preview (Mar' 25)",
-      "provider": "Google",
-      "slug": "gemini-2-5-pro-preview-mar-25-",
-      "intelligenceScore": 1,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "cost-effective",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 73,
-      "name": "Gemini 2.0 Flash Thinking Experimental (Dec '24)",
-      "provider": "Google",
-      "slug": "gemini-2-0-flash-thinking-experimental-dec-24-",
-      "intelligenceScore": 2,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "cost-effective",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 74,
-      "name": "Gemini 2.5 Flash Preview (Reasoning)",
-      "provider": "Google",
-      "slug": "gemini-2-5-flash-preview-reasoning-",
-      "intelligenceScore": 1,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "cost-effective",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 75,
-      "name": "Gemini 2.0 Flash Thinking Experimental (Jan '25)",
-      "provider": "Google",
-      "slug": "gemini-2-0-flash-thinking-experimental-jan-25-",
-      "intelligenceScore": 1,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "cost-effective",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 76,
-      "name": "Gemini 2.5 Flash Preview",
-      "provider": "Google",
-      "slug": "gemini-2-5-flash-preview",
-      "intelligenceScore": 1,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "cost-effective",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 77,
-      "name": "Gemini 1.0 Pro",
-      "provider": "Google",
-      "slug": "gemini-1-0-pro",
-      "intelligenceScore": 33,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "cost-effective",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 78,
-      "name": "Gemini 1.0 Ultra",
-      "provider": "Google",
-      "slug": "gemini-1-0-ultra",
-      "intelligenceScore": 33,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "cost-effective",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 79,
-      "name": "Gemini 1.5 Pro (May '24)",
-      "provider": "Google",
-      "slug": "gemini-1-5-pro-may-24-",
-      "intelligenceScore": 2,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "cost-effective",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 80,
-      "name": "Gemma 3n E4B Instruct Preview (May '25)",
-      "provider": "Google",
-      "slug": "gemma-3n-e4b-instruct-preview-may-25-",
-      "intelligenceScore": 32,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 81,
-      "name": "Gemini 1.5 Flash (May '24)",
-      "provider": "Google",
-      "slug": "gemini-1-5-flash-may-24-",
-      "intelligenceScore": 1,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "cost-effective",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 82,
-      "name": "Gemini 2.5 Pro Preview (May' 25)",
-      "provider": "Google",
-      "slug": "gemini-2-5-pro-preview-may-25-",
-      "intelligenceScore": 1,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "cost-effective",
       "trend": "stable",
       "metadata": {
         "source": "artificial-analysis",
@@ -1635,63 +571,6 @@
       }
     },
     {
-      "rank": 87,
-      "name": "Llama 4 Scout",
-      "provider": "Meta",
-      "slug": "llama-4-scout",
-      "intelligenceScore": 10,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "open-source",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 88,
-      "name": "Llama 4 Maverick",
-      "provider": "Meta",
-      "slug": "llama-4-maverick",
-      "intelligenceScore": 1,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "open-source",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 89,
-      "name": "Llama 65B",
-      "provider": "Meta",
-      "slug": "llama-65b",
-      "intelligenceScore": 2,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "open-source",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
       "rank": 90,
       "name": "Llama 3.1 Instruct 70B",
       "provider": "Meta",
@@ -1749,44 +628,6 @@
       }
     },
     {
-      "rank": 93,
-      "name": "Llama 3 Instruct 70B",
-      "provider": "Meta",
-      "slug": "llama-3-instruct-70b",
-      "intelligenceScore": 8,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "open-source",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 94,
-      "name": "Llama 3 Instruct 8B",
-      "provider": "Meta",
-      "slug": "llama-3-instruct-8b",
-      "intelligenceScore": 8,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "open-source",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
       "rank": 95,
       "name": "Llama 3.2 Instruct 1B",
       "provider": "Meta",
@@ -1798,63 +639,6 @@
       "contextWindow": 128000,
       "lastUpdated": "2025-09-22T21:22:23.761Z",
       "category": "performance",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 96,
-      "name": "Llama 2 Chat 7B",
-      "provider": "Meta",
-      "slug": "llama-2-chat-7b",
-      "intelligenceScore": 4,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "open-source",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 97,
-      "name": "Llama 2 Chat 13B",
-      "provider": "Meta",
-      "slug": "llama-2-chat-13b",
-      "intelligenceScore": 4,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "open-source",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 98,
-      "name": "Llama 2 Chat 70B",
-      "provider": "Meta",
-      "slug": "llama-2-chat-70b",
-      "intelligenceScore": 4,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "open-source",
       "trend": "stable",
       "metadata": {
         "source": "artificial-analysis",
@@ -1882,25 +666,6 @@
       }
     },
     {
-      "rank": 100,
-      "name": "Claude 4 Sonnet",
-      "provider": "Anthropic",
-      "slug": "claude-4-sonnet",
-      "intelligenceScore": 1,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
       "rank": 101,
       "name": "Claude 4.1 Opus (Extended Thinking)",
       "provider": "Anthropic",
@@ -1912,25 +677,6 @@
       "contextWindow": 128000,
       "lastUpdated": "2025-09-22T21:22:23.761Z",
       "category": "performance",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 102,
-      "name": "Claude 4 Sonnet (Extended Thinking)",
-      "provider": "Anthropic",
-      "slug": "claude-4-sonnet-extended-thinking-",
-      "intelligenceScore": 1,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "specialized",
       "trend": "stable",
       "metadata": {
         "source": "artificial-analysis",
@@ -1977,82 +723,6 @@
       }
     },
     {
-      "rank": 105,
-      "name": "Claude 3.5 Sonnet (Oct '24)",
-      "provider": "Anthropic",
-      "slug": "claude-3-5-sonnet-oct-24-",
-      "intelligenceScore": 70,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "performance",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 106,
-      "name": "Claude 3.5 Sonnet (June '24)",
-      "provider": "Anthropic",
-      "slug": "claude-3-5-sonnet-june-24-",
-      "intelligenceScore": 70,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "performance",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 107,
-      "name": "Claude 3 Opus",
-      "provider": "Anthropic",
-      "slug": "claude-3-opus",
-      "intelligenceScore": 70,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "performance",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 108,
-      "name": "Claude 3.5 Haiku",
-      "provider": "Anthropic",
-      "slug": "claude-3-5-haiku",
-      "intelligenceScore": 70,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "performance",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
       "rank": 109,
       "name": "Claude 3 Sonnet",
       "provider": "Anthropic",
@@ -2083,25 +753,6 @@
       "contextWindow": 128000,
       "lastUpdated": "2025-09-22T21:22:23.761Z",
       "category": "performance",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 111,
-      "name": "Claude Instant",
-      "provider": "Anthropic",
-      "slug": "claude-instant",
-      "intelligenceScore": 100,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "flagship",
       "trend": "stable",
       "metadata": {
         "source": "artificial-analysis",
@@ -2167,25 +818,6 @@
       }
     },
     {
-      "rank": 115,
-      "name": "Claude 2.0",
-      "provider": "Anthropic",
-      "slug": "claude-2-0",
-      "intelligenceScore": 100,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "flagship",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
       "rank": 116,
       "name": "Ministral 8B",
       "provider": "Mistral",
@@ -2211,30 +843,11 @@
       "slug": "ministral-3b",
       "intelligenceScore": 70,
       "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
+      "inputPrice": 0.04,
+      "outputPrice": 0.04,
       "contextWindow": 128000,
       "lastUpdated": "2025-09-22T21:22:23.761Z",
       "category": "performance",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 118,
-      "name": "Magistral Small 1",
-      "provider": "Mistral",
-      "slug": "magistral-small-1",
-      "intelligenceScore": 40,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "open-source",
       "trend": "stable",
       "metadata": {
         "source": "artificial-analysis",
@@ -2330,25 +943,6 @@
       "contextWindow": 128000,
       "lastUpdated": "2025-09-22T21:22:23.761Z",
       "category": "performance",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 124,
-      "name": "Magistral Medium 1",
-      "provider": "Mistral",
-      "slug": "magistral-medium-1",
-      "intelligenceScore": 40,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "open-source",
       "trend": "stable",
       "metadata": {
         "source": "artificial-analysis",
@@ -2471,101 +1065,6 @@
       }
     },
     {
-      "rank": 131,
-      "name": "Mistral Small 3",
-      "provider": "Mistral",
-      "slug": "mistral-small-3",
-      "intelligenceScore": 32,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "open-source",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 132,
-      "name": "Mistral Small (Sep '24)",
-      "provider": "Mistral",
-      "slug": "mistral-small-sep-24-",
-      "intelligenceScore": 33,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "open-source",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 133,
-      "name": "Mixtral 8x22B Instruct",
-      "provider": "Mistral",
-      "slug": "mixtral-8x22b-instruct",
-      "intelligenceScore": 65,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "open-source",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 134,
-      "name": "Mistral Small (Feb '24)",
-      "provider": "Mistral",
-      "slug": "mistral-small-feb-24-",
-      "intelligenceScore": 33,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "open-source",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 135,
-      "name": "Mistral Large (Feb '24)",
-      "provider": "Mistral",
-      "slug": "mistral-large-feb-24-",
-      "intelligenceScore": 33,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.761Z",
-      "category": "open-source",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
       "rank": 136,
       "name": "Pixtral 12B (2409)",
       "provider": "Mistral",
@@ -2604,25 +1103,6 @@
       }
     },
     {
-      "rank": 138,
-      "name": "Mixtral 8x7B Instruct",
-      "provider": "Mistral",
-      "slug": "mixtral-8x7b-instruct",
-      "intelligenceScore": 33,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.762Z",
-      "category": "open-source",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
       "rank": 139,
       "name": "Codestral-Mamba",
       "provider": "Mistral",
@@ -2634,25 +1114,6 @@
       "contextWindow": 128000,
       "lastUpdated": "2025-09-22T21:22:23.762Z",
       "category": "performance",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 140,
-      "name": "Mistral 7B Instruct",
-      "provider": "Mistral",
-      "slug": "mistral-7b-instruct",
-      "intelligenceScore": 8,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.762Z",
-      "category": "open-source",
       "trend": "stable",
       "metadata": {
         "source": "artificial-analysis",
@@ -2699,63 +1160,6 @@
       }
     },
     {
-      "rank": 143,
-      "name": "Codestral (May '24)",
-      "provider": "Mistral",
-      "slug": "codestral-may-24-",
-      "intelligenceScore": 33,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.762Z",
-      "category": "open-source",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 144,
-      "name": "Mistral Medium",
-      "provider": "Mistral",
-      "slug": "mistral-medium",
-      "intelligenceScore": 33,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.762Z",
-      "category": "open-source",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 145,
-      "name": "Mistral Saba",
-      "provider": "Mistral",
-      "slug": "mistral-saba",
-      "intelligenceScore": 32,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.762Z",
-      "category": "open-source",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
       "rank": 146,
       "name": "DeepSeek R1 0528 (May '25)",
       "provider": "DeepSeek",
@@ -2767,63 +1171,6 @@
       "contextWindow": 128000,
       "lastUpdated": "2025-09-22T21:22:23.762Z",
       "category": "performance",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 147,
-      "name": "DeepSeek V3.1 (Non-reasoning)",
-      "provider": "DeepSeek",
-      "slug": "deepseek-v3-1-non-reasoning-",
-      "intelligenceScore": 70,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.762Z",
-      "category": "performance",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 148,
-      "name": "DeepSeek V3.1 (Reasoning)",
-      "provider": "DeepSeek",
-      "slug": "deepseek-v3-1-reasoning-",
-      "intelligenceScore": 70,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.762Z",
-      "category": "performance",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 149,
-      "name": "DeepSeek R1 0528 Qwen3 8B",
-      "provider": "DeepSeek",
-      "slug": "deepseek-r1-0528-qwen3-8b",
-      "intelligenceScore": 33,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.762Z",
-      "category": "specialized",
       "trend": "stable",
       "metadata": {
         "source": "artificial-analysis",
@@ -2855,25 +1202,6 @@
       "name": "DeepSeek R1 Distill Llama 70B",
       "provider": "DeepSeek",
       "slug": "deepseek-r1-distill-llama-70b",
-      "intelligenceScore": 70,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.762Z",
-      "category": "performance",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 152,
-      "name": "DeepSeek V3 (Dec '24)",
-      "provider": "DeepSeek",
-      "slug": "deepseek-v3-dec-24-",
       "intelligenceScore": 70,
       "outputSpeed": 100,
       "inputPrice": 5,
@@ -2952,30 +1280,11 @@
       "slug": "deepseek-r1-distill-llama-8b",
       "intelligenceScore": 70,
       "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
+      "inputPrice": 0.4,
+      "outputPrice": 0.4,
       "contextWindow": 128000,
       "lastUpdated": "2025-09-22T21:22:23.762Z",
       "category": "performance",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 157,
-      "name": "DeepSeek LLM 67B Chat (V1)",
-      "provider": "DeepSeek",
-      "slug": "deepseek-llm-67b-chat-v1-",
-      "intelligenceScore": 4,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.762Z",
-      "category": "specialized",
       "trend": "stable",
       "metadata": {
         "source": "artificial-analysis",
@@ -2988,25 +1297,6 @@
       "name": "DeepSeek R1 Distill Qwen 1.5B",
       "provider": "DeepSeek",
       "slug": "deepseek-r1-distill-qwen-1-5b",
-      "intelligenceScore": 70,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.762Z",
-      "category": "performance",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 159,
-      "name": "DeepSeek V3 0324",
-      "provider": "DeepSeek",
-      "slug": "deepseek-v3-0324",
       "intelligenceScore": 70,
       "outputSpeed": 100,
       "inputPrice": 5,
@@ -3193,25 +1483,6 @@
       }
     },
     {
-      "rank": 169,
-      "name": "Nova Premier",
-      "provider": "Amazon",
-      "slug": "nova-premier",
-      "intelligenceScore": 1,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.762Z",
-      "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
       "rank": 170,
       "name": "Nova Pro",
       "provider": "Amazon",
@@ -3269,25 +1540,6 @@
       }
     },
     {
-      "rank": 173,
-      "name": "Phi-4",
-      "provider": "Microsoft Azure",
-      "slug": "phi-4",
-      "intelligenceScore": 16,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.762Z",
-      "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
       "rank": 174,
       "name": "Phi-4 Multimodal Instruct",
       "provider": "Microsoft Azure",
@@ -3337,215 +1589,6 @@
       "contextWindow": 128000,
       "lastUpdated": "2025-09-22T21:22:23.762Z",
       "category": "performance",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 177,
-      "name": "Phi-3 Mini Instruct 3.8B",
-      "provider": "Microsoft Azure",
-      "slug": "phi-3-mini-instruct-3-8b",
-      "intelligenceScore": 4,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.762Z",
-      "category": "cost-effective",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 178,
-      "name": "LFM2 1.2B",
-      "provider": "Liquid AI",
-      "slug": "lfm2-1-2b",
-      "intelligenceScore": 33,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.762Z",
-      "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 179,
-      "name": "LFM 40B",
-      "provider": "Liquid AI",
-      "slug": "lfm-40b",
-      "intelligenceScore": 32,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.762Z",
-      "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 180,
-      "name": "Solar Pro 2 (Reasoning)",
-      "provider": "Upstage",
-      "slug": "solar-pro-2-reasoning-",
-      "intelligenceScore": 66,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.762Z",
-      "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 181,
-      "name": "Solar Pro 2",
-      "provider": "Upstage",
-      "slug": "solar-pro-2",
-      "intelligenceScore": 66,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.762Z",
-      "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 182,
-      "name": "Solar Mini",
-      "provider": "Upstage",
-      "slug": "solar-mini",
-      "intelligenceScore": 4,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.762Z",
-      "category": "cost-effective",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 183,
-      "name": "Solar Pro 2 (Preview) (Reasoning)",
-      "provider": "Upstage",
-      "slug": "solar-pro-2-preview-reasoning-",
-      "intelligenceScore": 64,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.762Z",
-      "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 184,
-      "name": "Solar Pro 2 (Preview)",
-      "provider": "Upstage",
-      "slug": "solar-pro-2-preview-",
-      "intelligenceScore": 64,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.762Z",
-      "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 185,
-      "name": "MiniMax-Text-01",
-      "provider": "MiniMax",
-      "slug": "minimax-text-01",
-      "intelligenceScore": 4,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.762Z",
-      "category": "cost-effective",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 186,
-      "name": "MiniMax M1 40k",
-      "provider": "MiniMax",
-      "slug": "minimax-m1-40k",
-      "intelligenceScore": 1,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.762Z",
-      "category": "cost-effective",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.802Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 187,
-      "name": "MiniMax M1 80k",
-      "provider": "MiniMax",
-      "slug": "minimax-m1-80k",
-      "intelligenceScore": 1,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.762Z",
-      "category": "cost-effective",
       "trend": "stable",
       "metadata": {
         "source": "artificial-analysis",
@@ -3896,25 +1939,6 @@
       }
     },
     {
-      "rank": 206,
-      "name": "DeepHermes 3 - Mistral 24B Preview",
-      "provider": "Nous Research",
-      "slug": "deephermes-3-mistral-24b-preview",
-      "intelligenceScore": 32,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.762Z",
-      "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.803Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
       "rank": 207,
       "name": "Hermes 4 - Llama-3.1 405B",
       "provider": "Nous Research",
@@ -4029,44 +2053,6 @@
       }
     },
     {
-      "rank": 213,
-      "name": "Exaone 4.0 1.2B (Reasoning)",
-      "provider": "LG AI Research",
-      "slug": "exaone-4-0-1-2b-reasoning-",
-      "intelligenceScore": 64,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.762Z",
-      "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.803Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 214,
-      "name": "Exaone 4.0 1.2B",
-      "provider": "LG AI Research",
-      "slug": "exaone-4-0-1-2b",
-      "intelligenceScore": 64,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.762Z",
-      "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.803Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
       "rank": 215,
       "name": "EXAONE 4.0 32B",
       "provider": "LG AI Research",
@@ -4124,44 +2110,6 @@
       }
     },
     {
-      "rank": 218,
-      "name": "GLM-4.5V",
-      "provider": "Z AI",
-      "slug": "glm-4-5v",
-      "intelligenceScore": 64,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.762Z",
-      "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.803Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 219,
-      "name": "GLM-4.5V (Reasoning)",
-      "provider": "Z AI",
-      "slug": "glm-4-5v-reasoning-",
-      "intelligenceScore": 64,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.762Z",
-      "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.803Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
       "rank": 220,
       "name": "Aya Expanse 32B",
       "provider": "Cohere",
@@ -4173,25 +2121,6 @@
       "contextWindow": 128000,
       "lastUpdated": "2025-09-22T21:22:23.762Z",
       "category": "performance",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.803Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 221,
-      "name": "Aya Expanse 8B",
-      "provider": "Cohere",
-      "slug": "aya-expanse-8b",
-      "intelligenceScore": 8,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.762Z",
-      "category": "specialized",
       "trend": "stable",
       "metadata": {
         "source": "artificial-analysis",
@@ -4637,44 +2566,6 @@
       }
     },
     {
-      "rank": 245,
-      "name": "Qwen Chat 14B",
-      "provider": "Alibaba",
-      "slug": "qwen-chat-14b",
-      "intelligenceScore": 8,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.763Z",
-      "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.803Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 246,
-      "name": "Qwen2.5 Max",
-      "provider": "Alibaba",
-      "slug": "qwen2-5-max",
-      "intelligenceScore": 32,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.763Z",
-      "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.803Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
       "rank": 247,
       "name": "Qwen2.5 Instruct 72B",
       "provider": "Alibaba",
@@ -4705,25 +2596,6 @@
       "contextWindow": 128000,
       "lastUpdated": "2025-09-22T21:22:23.763Z",
       "category": "performance",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.803Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 249,
-      "name": "Qwen2.5 Turbo",
-      "provider": "Alibaba",
-      "slug": "qwen2-5-turbo",
-      "intelligenceScore": 1,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.763Z",
-      "category": "specialized",
       "trend": "stable",
       "metadata": {
         "source": "artificial-analysis",
@@ -4766,6 +2638,1184 @@
       "metadata": {
         "source": "artificial-analysis",
         "scrapedAt": "2025-09-22T21:22:23.803Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 261,
+      "name": "Qwen2.5 Instruct 32B",
+      "provider": "Alibaba",
+      "slug": "qwen2-5-instruct-32b",
+      "intelligenceScore": 70,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.763Z",
+      "category": "performance",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.803Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 264,
+      "name": "Qwen2.5 Coder Instruct 7B",
+      "provider": "Alibaba",
+      "slug": "qwen2-5-coder-instruct-7b",
+      "intelligenceScore": 70,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.763Z",
+      "category": "performance",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.803Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 274,
+      "name": "Llama 3.1 Tulu3 405B",
+      "provider": "Allen Institute for AI",
+      "slug": "llama-3-1-tulu3-405b",
+      "intelligenceScore": 70,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.763Z",
+      "category": "performance",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.803Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 7,
+      "name": "GPT-5 (high)",
+      "provider": "OpenAI",
+      "slug": "gpt-5-high-",
+      "intelligenceScore": 67,
+      "outputSpeed": 100,
+      "inputPrice": 3.4,
+      "outputPrice": 3.4,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.760Z",
+      "category": "performance",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 18,
+      "name": "GPT-5 (medium)",
+      "provider": "OpenAI",
+      "slug": "gpt-5-medium-",
+      "intelligenceScore": 66,
+      "outputSpeed": 60,
+      "inputPrice": 3.4,
+      "outputPrice": 3.4,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.760Z",
+      "category": "performance",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 180,
+      "name": "Solar Pro 2 (Reasoning)",
+      "provider": "Upstage",
+      "slug": "solar-pro-2-reasoning-",
+      "intelligenceScore": 66,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.762Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 181,
+      "name": "Solar Pro 2",
+      "provider": "Upstage",
+      "slug": "solar-pro-2",
+      "intelligenceScore": 66,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.762Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 10,
+      "name": "GPT-5 mini (minimal)",
+      "provider": "OpenAI",
+      "slug": "gpt-5-mini-minimal-",
+      "intelligenceScore": 65,
+      "outputSpeed": 54,
+      "inputPrice": 0.5,
+      "outputPrice": 0.5,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.760Z",
+      "category": "performance",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 14,
+      "name": "GPT-5 mini (high)",
+      "provider": "OpenAI",
+      "slug": "gpt-5-mini-high-",
+      "intelligenceScore": 65,
+      "outputSpeed": 54,
+      "inputPrice": 0.5,
+      "outputPrice": 0.5,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.760Z",
+      "category": "performance",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 17,
+      "name": "GPT-5 mini (medium)",
+      "provider": "OpenAI",
+      "slug": "gpt-5-mini-medium-",
+      "intelligenceScore": 65,
+      "outputSpeed": 54,
+      "inputPrice": 0.5,
+      "outputPrice": 0.5,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.760Z",
+      "category": "performance",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 133,
+      "name": "Mixtral 8x22B Instruct",
+      "provider": "Mistral",
+      "slug": "mixtral-8x22b-instruct",
+      "intelligenceScore": 65,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "open-source",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 183,
+      "name": "Solar Pro 2 (Preview) (Reasoning)",
+      "provider": "Upstage",
+      "slug": "solar-pro-2-preview-reasoning-",
+      "intelligenceScore": 64,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.762Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 184,
+      "name": "Solar Pro 2 (Preview)",
+      "provider": "Upstage",
+      "slug": "solar-pro-2-preview-",
+      "intelligenceScore": 64,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.762Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 213,
+      "name": "Exaone 4.0 1.2B (Reasoning)",
+      "provider": "LG AI Research",
+      "slug": "exaone-4-0-1-2b-reasoning-",
+      "intelligenceScore": 64,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.762Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.803Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 214,
+      "name": "Exaone 4.0 1.2B",
+      "provider": "LG AI Research",
+      "slug": "exaone-4-0-1-2b",
+      "intelligenceScore": 64,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.762Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.803Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 218,
+      "name": "GLM-4.5V",
+      "provider": "Z AI",
+      "slug": "glm-4-5v",
+      "intelligenceScore": 64,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.762Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.803Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 219,
+      "name": "GLM-4.5V (Reasoning)",
+      "provider": "Z AI",
+      "slug": "glm-4-5v-reasoning-",
+      "intelligenceScore": 64,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.762Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.803Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 24,
+      "name": "o1",
+      "provider": "OpenAI",
+      "slug": "o1",
+      "intelligenceScore": 62,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.760Z",
+      "category": "performance",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 25,
+      "name": "o1-preview",
+      "provider": "OpenAI",
+      "slug": "o1-preview",
+      "intelligenceScore": 60,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.760Z",
+      "category": "performance",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 52,
+      "name": "Gemini 2.5 Flash-Lite",
+      "provider": "Google",
+      "slug": "gemini-2-5-flash-lite",
+      "intelligenceScore": 59,
+      "outputSpeed": 488,
+      "inputPrice": 0.3,
+      "outputPrice": 0.3,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "cost-effective",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 54,
+      "name": "Gemini 2.5 Flash-Lite (Reasoning)",
+      "provider": "Google",
+      "slug": "gemini-2-5-flash-lite-reasoning-",
+      "intelligenceScore": 59,
+      "outputSpeed": 488,
+      "inputPrice": 0.3,
+      "outputPrice": 0.3,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "cost-effective",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 56,
+      "name": "Gemini 2.5 Flash",
+      "provider": "Google",
+      "slug": "gemini-2-5-flash",
+      "intelligenceScore": 59,
+      "outputSpeed": 488,
+      "inputPrice": 0.3,
+      "outputPrice": 0.3,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "cost-effective",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 57,
+      "name": "Gemini 2.5 Flash (Reasoning)",
+      "provider": "Google",
+      "slug": "gemini-2-5-flash-reasoning-",
+      "intelligenceScore": 59,
+      "outputSpeed": 488,
+      "inputPrice": 0.3,
+      "outputPrice": 0.3,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "cost-effective",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 74,
+      "name": "Gemini 2.5 Flash Preview (Reasoning)",
+      "provider": "Google",
+      "slug": "gemini-2-5-flash-preview-reasoning-",
+      "intelligenceScore": 59,
+      "outputSpeed": 488,
+      "inputPrice": 0.3,
+      "outputPrice": 0.3,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "cost-effective",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 76,
+      "name": "Gemini 2.5 Flash Preview",
+      "provider": "Google",
+      "slug": "gemini-2-5-flash-preview",
+      "intelligenceScore": 59,
+      "outputSpeed": 488,
+      "inputPrice": 0.3,
+      "outputPrice": 0.3,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "cost-effective",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 105,
+      "name": "Claude 3.5 Sonnet (Oct '24)",
+      "provider": "Anthropic",
+      "slug": "claude-3-5-sonnet-oct-24-",
+      "intelligenceScore": 58,
+      "outputSpeed": 88,
+      "inputPrice": 3.4,
+      "outputPrice": 3.4,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "performance",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 106,
+      "name": "Claude 3.5 Sonnet (June '24)",
+      "provider": "Anthropic",
+      "slug": "claude-3-5-sonnet-june-24-",
+      "intelligenceScore": 58,
+      "outputSpeed": 88,
+      "inputPrice": 3.4,
+      "outputPrice": 3.4,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "performance",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 108,
+      "name": "Claude 3.5 Haiku",
+      "provider": "Anthropic",
+      "slug": "claude-3-5-haiku",
+      "intelligenceScore": 57,
+      "outputSpeed": 140,
+      "inputPrice": 2.6,
+      "outputPrice": 2.6,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "performance",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 59,
+      "name": "Gemini 2.5 Pro",
+      "provider": "Google",
+      "slug": "gemini-2-5-pro",
+      "intelligenceScore": 57,
+      "outputSpeed": 100,
+      "inputPrice": 20,
+      "outputPrice": 20,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "cost-effective",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 72,
+      "name": "Gemini 2.5 Pro Preview (Mar' 25)",
+      "provider": "Google",
+      "slug": "gemini-2-5-pro-preview-mar-25-",
+      "intelligenceScore": 57,
+      "outputSpeed": 100,
+      "inputPrice": 20,
+      "outputPrice": 20,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "cost-effective",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 82,
+      "name": "Gemini 2.5 Pro Preview (May' 25)",
+      "provider": "Google",
+      "slug": "gemini-2-5-pro-preview-may-25-",
+      "intelligenceScore": 57,
+      "outputSpeed": 100,
+      "inputPrice": 20,
+      "outputPrice": 20,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "cost-effective",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 13,
+      "name": "o3-pro",
+      "provider": "OpenAI",
+      "slug": "o3-pro",
+      "intelligenceScore": 56,
+      "outputSpeed": 0,
+      "inputPrice": 6,
+      "outputPrice": 6,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.760Z",
+      "category": "performance",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 147,
+      "name": "DeepSeek V3.1 (Non-reasoning)",
+      "provider": "DeepSeek",
+      "slug": "deepseek-v3-1-non-reasoning-",
+      "intelligenceScore": 54,
+      "outputSpeed": 0,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.762Z",
+      "category": "performance",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 148,
+      "name": "DeepSeek V3.1 (Reasoning)",
+      "provider": "DeepSeek",
+      "slug": "deepseek-v3-1-reasoning-",
+      "intelligenceScore": 54,
+      "outputSpeed": 0,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.762Z",
+      "category": "performance",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 152,
+      "name": "DeepSeek V3 (Dec '24)",
+      "provider": "DeepSeek",
+      "slug": "deepseek-v3-dec-24-",
+      "intelligenceScore": 54,
+      "outputSpeed": 0,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.762Z",
+      "category": "performance",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 159,
+      "name": "DeepSeek V3 0324",
+      "provider": "DeepSeek",
+      "slug": "deepseek-v3-0324",
+      "intelligenceScore": 54,
+      "outputSpeed": 0,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.762Z",
+      "category": "performance",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 35,
+      "name": "GPT-4",
+      "provider": "OpenAI",
+      "slug": "gpt-4",
+      "intelligenceScore": 54,
+      "outputSpeed": 115,
+      "inputPrice": 0.3,
+      "outputPrice": 0.3,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.760Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 44,
+      "name": "Grok 4",
+      "provider": "xAI",
+      "slug": "grok-4",
+      "intelligenceScore": 53,
+      "outputSpeed": 42,
+      "inputPrice": 3.5,
+      "outputPrice": 3.5,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.760Z",
+      "category": "performance",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 40,
+      "name": "Grok 4 Fast (Reasoning)",
+      "provider": "xAI",
+      "slug": "grok-4-fast-reasoning-",
+      "intelligenceScore": 53,
+      "outputSpeed": 42,
+      "inputPrice": 3.5,
+      "outputPrice": 3.5,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.760Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 45,
+      "name": "Grok 4 Fast",
+      "provider": "xAI",
+      "slug": "grok-4-fast",
+      "intelligenceScore": 53,
+      "outputSpeed": 42,
+      "inputPrice": 3.5,
+      "outputPrice": 3.5,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.760Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 9,
+      "name": "o3",
+      "provider": "OpenAI",
+      "slug": "o3",
+      "intelligenceScore": 52,
+      "outputSpeed": 0,
+      "inputPrice": 6,
+      "outputPrice": 6,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.760Z",
+      "category": "performance",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 16,
+      "name": "o3-mini (high)",
+      "provider": "OpenAI",
+      "slug": "o3-mini-high-",
+      "intelligenceScore": 52,
+      "outputSpeed": 0,
+      "inputPrice": 6,
+      "outputPrice": 6,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.760Z",
+      "category": "performance",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 21,
+      "name": "o3-mini",
+      "provider": "OpenAI",
+      "slug": "o3-mini",
+      "intelligenceScore": 52,
+      "outputSpeed": 0,
+      "inputPrice": 6,
+      "outputPrice": 6,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.760Z",
+      "category": "performance",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 107,
+      "name": "Claude 3 Opus",
+      "provider": "Anthropic",
+      "slug": "claude-3-opus",
+      "intelligenceScore": 51,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "performance",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 111,
+      "name": "Claude Instant",
+      "provider": "Anthropic",
+      "slug": "claude-instant",
+      "intelligenceScore": 50,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "flagship",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 115,
+      "name": "Claude 2.0",
+      "provider": "Anthropic",
+      "slug": "claude-2-0",
+      "intelligenceScore": 50,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "flagship",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 1,
+      "name": "GPT-4o mini",
+      "provider": "OpenAI",
+      "slug": "gpt-4o-mini",
+      "intelligenceScore": 48,
+      "outputSpeed": 115,
+      "inputPrice": 0.3,
+      "outputPrice": 0.3,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.760Z",
+      "category": "performance",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 64,
+      "name": "Gemini 1.5 Pro (Sep '24)",
+      "provider": "Google",
+      "slug": "gemini-1-5-pro-sep-24-",
+      "intelligenceScore": 43,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "cost-effective",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 79,
+      "name": "Gemini 1.5 Pro (May '24)",
+      "provider": "Google",
+      "slug": "gemini-1-5-pro-may-24-",
+      "intelligenceScore": 43,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "cost-effective",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 118,
+      "name": "Magistral Small 1",
+      "provider": "Mistral",
+      "slug": "magistral-small-1",
+      "intelligenceScore": 40,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "open-source",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 124,
+      "name": "Magistral Medium 1",
+      "provider": "Mistral",
+      "slug": "magistral-medium-1",
+      "intelligenceScore": 40,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "open-source",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 255,
+      "name": "Qwen Chat 72B",
+      "provider": "Alibaba",
+      "slug": "qwen-chat-72b",
+      "intelligenceScore": 34,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.763Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.803Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 77,
+      "name": "Gemini 1.0 Pro",
+      "provider": "Google",
+      "slug": "gemini-1-0-pro",
+      "intelligenceScore": 33,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "cost-effective",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 78,
+      "name": "Gemini 1.0 Ultra",
+      "provider": "Google",
+      "slug": "gemini-1-0-ultra",
+      "intelligenceScore": 33,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "cost-effective",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 132,
+      "name": "Mistral Small (Sep '24)",
+      "provider": "Mistral",
+      "slug": "mistral-small-sep-24-",
+      "intelligenceScore": 33,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "open-source",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 134,
+      "name": "Mistral Small (Feb '24)",
+      "provider": "Mistral",
+      "slug": "mistral-small-feb-24-",
+      "intelligenceScore": 33,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "open-source",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 135,
+      "name": "Mistral Large (Feb '24)",
+      "provider": "Mistral",
+      "slug": "mistral-large-feb-24-",
+      "intelligenceScore": 33,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "open-source",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 138,
+      "name": "Mixtral 8x7B Instruct",
+      "provider": "Mistral",
+      "slug": "mixtral-8x7b-instruct",
+      "intelligenceScore": 33,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.762Z",
+      "category": "open-source",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 143,
+      "name": "Codestral (May '24)",
+      "provider": "Mistral",
+      "slug": "codestral-may-24-",
+      "intelligenceScore": 33,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.762Z",
+      "category": "open-source",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 144,
+      "name": "Mistral Medium",
+      "provider": "Mistral",
+      "slug": "mistral-medium",
+      "intelligenceScore": 33,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.762Z",
+      "category": "open-source",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 149,
+      "name": "DeepSeek R1 0528 Qwen3 8B",
+      "provider": "DeepSeek",
+      "slug": "deepseek-r1-0528-qwen3-8b",
+      "intelligenceScore": 33,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.762Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 178,
+      "name": "LFM2 1.2B",
+      "provider": "Liquid AI",
+      "slug": "lfm2-1-2b",
+      "intelligenceScore": 33,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.762Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
         "scrapingMethod": "live"
       }
     },
@@ -4827,25 +3877,6 @@
       }
     },
     {
-      "rank": 255,
-      "name": "Qwen Chat 72B",
-      "provider": "Alibaba",
-      "slug": "qwen-chat-72b",
-      "intelligenceScore": 34,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.763Z",
-      "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.803Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
       "rank": 256,
       "name": "Qwen3 32B (Reasoning)",
       "provider": "Alibaba",
@@ -4884,25 +3915,6 @@
       }
     },
     {
-      "rank": 258,
-      "name": "Qwen3 4B",
-      "provider": "Alibaba",
-      "slug": "qwen3-4b",
-      "intelligenceScore": 32,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.763Z",
-      "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.803Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
       "rank": 259,
       "name": "Qwen3 30B A3B (Reasoning)",
       "provider": "Alibaba",
@@ -4914,44 +3926,6 @@
       "contextWindow": 128000,
       "lastUpdated": "2025-09-22T21:22:23.763Z",
       "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.803Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 260,
-      "name": "Qwen3 1.7B (Reasoning)",
-      "provider": "Alibaba",
-      "slug": "qwen3-1-7b-reasoning-",
-      "intelligenceScore": 32,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.763Z",
-      "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.803Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 261,
-      "name": "Qwen2.5 Instruct 32B",
-      "provider": "Alibaba",
-      "slug": "qwen2-5-instruct-32b",
-      "intelligenceScore": 70,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.763Z",
-      "category": "performance",
       "trend": "stable",
       "metadata": {
         "source": "artificial-analysis",
@@ -4998,17 +3972,264 @@
       }
     },
     {
-      "rank": 264,
-      "name": "Qwen2.5 Coder Instruct 7B",
+      "rank": 268,
+      "name": "Qwen3 14B (Reasoning)",
       "provider": "Alibaba",
-      "slug": "qwen2-5-coder-instruct-7b",
-      "intelligenceScore": 70,
+      "slug": "qwen3-14b-reasoning-",
+      "intelligenceScore": 33,
       "outputSpeed": 100,
       "inputPrice": 5,
       "outputPrice": 10,
       "contextWindow": 128000,
       "lastUpdated": "2025-09-22T21:22:23.763Z",
-      "category": "performance",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.803Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 270,
+      "name": "Qwen3 30B A3B",
+      "provider": "Alibaba",
+      "slug": "qwen3-30b-a3b",
+      "intelligenceScore": 33,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.763Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.803Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 273,
+      "name": "DBRX Instruct",
+      "provider": "Databricks",
+      "slug": "dbrx-instruct",
+      "intelligenceScore": 33,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.763Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.803Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 58,
+      "name": "Gemma 3n E2B Instruct",
+      "provider": "Google",
+      "slug": "gemma-3n-e2b-instruct",
+      "intelligenceScore": 32,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 60,
+      "name": "Gemma 3 1B Instruct",
+      "provider": "Google",
+      "slug": "gemma-3-1b-instruct",
+      "intelligenceScore": 32,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 61,
+      "name": "Gemma 3n E4B Instruct",
+      "provider": "Google",
+      "slug": "gemma-3n-e4b-instruct",
+      "intelligenceScore": 32,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 80,
+      "name": "Gemma 3n E4B Instruct Preview (May '25)",
+      "provider": "Google",
+      "slug": "gemma-3n-e4b-instruct-preview-may-25-",
+      "intelligenceScore": 32,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 131,
+      "name": "Mistral Small 3",
+      "provider": "Mistral",
+      "slug": "mistral-small-3",
+      "intelligenceScore": 32,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "open-source",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 145,
+      "name": "Mistral Saba",
+      "provider": "Mistral",
+      "slug": "mistral-saba",
+      "intelligenceScore": 32,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.762Z",
+      "category": "open-source",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 179,
+      "name": "LFM 40B",
+      "provider": "Liquid AI",
+      "slug": "lfm-40b",
+      "intelligenceScore": 32,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.762Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 206,
+      "name": "DeepHermes 3 - Mistral 24B Preview",
+      "provider": "Nous Research",
+      "slug": "deephermes-3-mistral-24b-preview",
+      "intelligenceScore": 32,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.762Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.803Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 246,
+      "name": "Qwen2.5 Max",
+      "provider": "Alibaba",
+      "slug": "qwen2-5-max",
+      "intelligenceScore": 32,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.763Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.803Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 258,
+      "name": "Qwen3 4B",
+      "provider": "Alibaba",
+      "slug": "qwen3-4b",
+      "intelligenceScore": 32,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.763Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.803Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 260,
+      "name": "Qwen3 1.7B (Reasoning)",
+      "provider": "Alibaba",
+      "slug": "qwen3-1-7b-reasoning-",
+      "intelligenceScore": 32,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.763Z",
+      "category": "specialized",
       "trend": "stable",
       "metadata": {
         "source": "artificial-analysis",
@@ -5074,49 +4295,11 @@
       }
     },
     {
-      "rank": 268,
-      "name": "Qwen3 14B (Reasoning)",
-      "provider": "Alibaba",
-      "slug": "qwen3-14b-reasoning-",
-      "intelligenceScore": 33,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.763Z",
-      "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.803Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
       "rank": 269,
       "name": "Qwen1.5 Chat 110B",
       "provider": "Alibaba",
       "slug": "qwen1-5-chat-110b",
       "intelligenceScore": 32,
-      "outputSpeed": 100,
-      "inputPrice": 5,
-      "outputPrice": 10,
-      "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.763Z",
-      "category": "specialized",
-      "trend": "stable",
-      "metadata": {
-        "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.803Z",
-        "scrapingMethod": "live"
-      }
-    },
-    {
-      "rank": 270,
-      "name": "Qwen3 30B A3B",
-      "provider": "Alibaba",
-      "slug": "qwen3-30b-a3b",
-      "intelligenceScore": 33,
       "outputSpeed": 100,
       "inputPrice": 5,
       "outputPrice": 10,
@@ -5150,6 +4333,234 @@
       }
     },
     {
+      "rank": 276,
+      "name": "Yi-Large",
+      "provider": "01.AI",
+      "slug": "yi-large",
+      "intelligenceScore": 32,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.763Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.803Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 173,
+      "name": "Phi-4",
+      "provider": "Microsoft Azure",
+      "slug": "phi-4",
+      "intelligenceScore": 16,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.762Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 87,
+      "name": "Llama 4 Scout",
+      "provider": "Meta",
+      "slug": "llama-4-scout",
+      "intelligenceScore": 10,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "open-source",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 39,
+      "name": "Grok-1",
+      "provider": "xAI",
+      "slug": "grok-1",
+      "intelligenceScore": 8,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.760Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 50,
+      "name": "PALM-2",
+      "provider": "Google",
+      "slug": "palm-2",
+      "intelligenceScore": 8,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 68,
+      "name": "Gemma 2 27B",
+      "provider": "Google",
+      "slug": "gemma-2-27b",
+      "intelligenceScore": 8,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 69,
+      "name": "Gemma 2 9B",
+      "provider": "Google",
+      "slug": "gemma-2-9b",
+      "intelligenceScore": 8,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 93,
+      "name": "Llama 3 Instruct 70B",
+      "provider": "Meta",
+      "slug": "llama-3-instruct-70b",
+      "intelligenceScore": 8,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "open-source",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 94,
+      "name": "Llama 3 Instruct 8B",
+      "provider": "Meta",
+      "slug": "llama-3-instruct-8b",
+      "intelligenceScore": 8,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "open-source",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 140,
+      "name": "Mistral 7B Instruct",
+      "provider": "Mistral",
+      "slug": "mistral-7b-instruct",
+      "intelligenceScore": 8,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.762Z",
+      "category": "open-source",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 221,
+      "name": "Aya Expanse 8B",
+      "provider": "Cohere",
+      "slug": "aya-expanse-8b",
+      "intelligenceScore": 8,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.762Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.803Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 245,
+      "name": "Qwen Chat 14B",
+      "provider": "Alibaba",
+      "slug": "qwen-chat-14b",
+      "intelligenceScore": 8,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.763Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.803Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
       "rank": 272,
       "name": "OpenChat 3.5 (1210)",
       "provider": "OpenChat",
@@ -5169,40 +4580,173 @@
       }
     },
     {
-      "rank": 273,
-      "name": "DBRX Instruct",
-      "provider": "Databricks",
-      "slug": "dbrx-instruct",
-      "intelligenceScore": 33,
+      "rank": 31,
+      "name": "GPT-3.5 Turbo",
+      "provider": "OpenAI",
+      "slug": "gpt-3-5-turbo",
+      "intelligenceScore": 4,
       "outputSpeed": 100,
       "inputPrice": 5,
       "outputPrice": 10,
       "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.763Z",
+      "lastUpdated": "2025-09-22T21:22:23.760Z",
       "category": "specialized",
       "trend": "stable",
       "metadata": {
         "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.803Z",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
         "scrapingMethod": "live"
       }
     },
     {
-      "rank": 274,
-      "name": "Llama 3.1 Tulu3 405B",
-      "provider": "Allen Institute for AI",
-      "slug": "llama-3-1-tulu3-405b",
-      "intelligenceScore": 70,
+      "rank": 38,
+      "name": "GPT-3.5 Turbo (0613)",
+      "provider": "OpenAI",
+      "slug": "gpt-3-5-turbo-0613-",
+      "intelligenceScore": 4,
       "outputSpeed": 100,
       "inputPrice": 5,
       "outputPrice": 10,
       "contextWindow": 128000,
-      "lastUpdated": "2025-09-22T21:22:23.763Z",
-      "category": "performance",
+      "lastUpdated": "2025-09-22T21:22:23.760Z",
+      "category": "specialized",
       "trend": "stable",
       "metadata": {
         "source": "artificial-analysis",
-        "scrapedAt": "2025-09-22T21:22:23.803Z",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 96,
+      "name": "Llama 2 Chat 7B",
+      "provider": "Meta",
+      "slug": "llama-2-chat-7b",
+      "intelligenceScore": 4,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "open-source",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 97,
+      "name": "Llama 2 Chat 13B",
+      "provider": "Meta",
+      "slug": "llama-2-chat-13b",
+      "intelligenceScore": 4,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "open-source",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 98,
+      "name": "Llama 2 Chat 70B",
+      "provider": "Meta",
+      "slug": "llama-2-chat-70b",
+      "intelligenceScore": 4,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "open-source",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 157,
+      "name": "DeepSeek LLM 67B Chat (V1)",
+      "provider": "DeepSeek",
+      "slug": "deepseek-llm-67b-chat-v1-",
+      "intelligenceScore": 4,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.762Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 177,
+      "name": "Phi-3 Mini Instruct 3.8B",
+      "provider": "Microsoft Azure",
+      "slug": "phi-3-mini-instruct-3-8b",
+      "intelligenceScore": 4,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.762Z",
+      "category": "cost-effective",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 182,
+      "name": "Solar Mini",
+      "provider": "Upstage",
+      "slug": "solar-mini",
+      "intelligenceScore": 4,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.762Z",
+      "category": "cost-effective",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 185,
+      "name": "MiniMax-Text-01",
+      "provider": "MiniMax",
+      "slug": "minimax-text-01",
+      "intelligenceScore": 4,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.762Z",
+      "category": "cost-effective",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
         "scrapingMethod": "live"
       }
     },
@@ -5226,11 +4770,467 @@
       }
     },
     {
-      "rank": 276,
-      "name": "Yi-Large",
-      "provider": "01.AI",
-      "slug": "yi-large",
-      "intelligenceScore": 32,
+      "rank": 62,
+      "name": "Gemini 2.0 Pro Experimental (Feb '25)",
+      "provider": "Google",
+      "slug": "gemini-2-0-pro-experimental-feb-25-",
+      "intelligenceScore": 2,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "cost-effective",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 73,
+      "name": "Gemini 2.0 Flash Thinking Experimental (Dec '24)",
+      "provider": "Google",
+      "slug": "gemini-2-0-flash-thinking-experimental-dec-24-",
+      "intelligenceScore": 2,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "cost-effective",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 89,
+      "name": "Llama 65B",
+      "provider": "Meta",
+      "slug": "llama-65b",
+      "intelligenceScore": 2,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "open-source",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 2,
+      "name": "GPT-4.1 mini",
+      "provider": "OpenAI",
+      "slug": "gpt-4-1-mini",
+      "intelligenceScore": 1,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.760Z",
+      "category": "cost-effective",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 6,
+      "name": "GPT-4.1 nano",
+      "provider": "OpenAI",
+      "slug": "gpt-4-1-nano",
+      "intelligenceScore": 1,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.760Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 11,
+      "name": "GPT-4.1",
+      "provider": "OpenAI",
+      "slug": "gpt-4-1",
+      "intelligenceScore": 1,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.760Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 41,
+      "name": "Grok 3 mini Reasoning (high)",
+      "provider": "xAI",
+      "slug": "grok-3-mini-reasoning-high-",
+      "intelligenceScore": 1,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.760Z",
+      "category": "cost-effective",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 42,
+      "name": "Grok 3",
+      "provider": "xAI",
+      "slug": "grok-3",
+      "intelligenceScore": 1,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.760Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 43,
+      "name": "Grok 3 mini Reasoning (Low)",
+      "provider": "xAI",
+      "slug": "grok-3-mini-reasoning-low-",
+      "intelligenceScore": 1,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.760Z",
+      "category": "cost-effective",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 46,
+      "name": "Grok 3 Reasoning Beta",
+      "provider": "xAI",
+      "slug": "grok-3-reasoning-beta",
+      "intelligenceScore": 1,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.760Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 63,
+      "name": "Gemini 2.0 Flash (experimental)",
+      "provider": "Google",
+      "slug": "gemini-2-0-flash-experimental-",
+      "intelligenceScore": 1,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "cost-effective",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 65,
+      "name": "Gemini 2.0 Flash-Lite (Preview)",
+      "provider": "Google",
+      "slug": "gemini-2-0-flash-lite-preview-",
+      "intelligenceScore": 1,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "cost-effective",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 66,
+      "name": "Gemini 2.0 Flash (Feb '25)",
+      "provider": "Google",
+      "slug": "gemini-2-0-flash-feb-25-",
+      "intelligenceScore": 1,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "cost-effective",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 67,
+      "name": "Gemini 1.5 Flash (Sep '24)",
+      "provider": "Google",
+      "slug": "gemini-1-5-flash-sep-24-",
+      "intelligenceScore": 1,
+      "outputSpeed": 154,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "cost-effective",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 70,
+      "name": "Gemini 1.5 Flash-8B",
+      "provider": "Google",
+      "slug": "gemini-1-5-flash-8b",
+      "intelligenceScore": 1,
+      "outputSpeed": 154,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "cost-effective",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 71,
+      "name": "Gemini 2.0 Flash-Lite (Feb '25)",
+      "provider": "Google",
+      "slug": "gemini-2-0-flash-lite-feb-25-",
+      "intelligenceScore": 1,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "cost-effective",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 75,
+      "name": "Gemini 2.0 Flash Thinking Experimental (Jan '25)",
+      "provider": "Google",
+      "slug": "gemini-2-0-flash-thinking-experimental-jan-25-",
+      "intelligenceScore": 1,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "cost-effective",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 81,
+      "name": "Gemini 1.5 Flash (May '24)",
+      "provider": "Google",
+      "slug": "gemini-1-5-flash-may-24-",
+      "intelligenceScore": 1,
+      "outputSpeed": 154,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "cost-effective",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 88,
+      "name": "Llama 4 Maverick",
+      "provider": "Meta",
+      "slug": "llama-4-maverick",
+      "intelligenceScore": 1,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "open-source",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 100,
+      "name": "Claude 4 Sonnet",
+      "provider": "Anthropic",
+      "slug": "claude-4-sonnet",
+      "intelligenceScore": 1,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 102,
+      "name": "Claude 4 Sonnet (Extended Thinking)",
+      "provider": "Anthropic",
+      "slug": "claude-4-sonnet-extended-thinking-",
+      "intelligenceScore": 1,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.761Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 169,
+      "name": "Nova Premier",
+      "provider": "Amazon",
+      "slug": "nova-premier",
+      "intelligenceScore": 1,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.762Z",
+      "category": "specialized",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 186,
+      "name": "MiniMax M1 40k",
+      "provider": "MiniMax",
+      "slug": "minimax-m1-40k",
+      "intelligenceScore": 1,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.762Z",
+      "category": "cost-effective",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 187,
+      "name": "MiniMax M1 80k",
+      "provider": "MiniMax",
+      "slug": "minimax-m1-80k",
+      "intelligenceScore": 1,
+      "outputSpeed": 100,
+      "inputPrice": 5,
+      "outputPrice": 10,
+      "contextWindow": 128000,
+      "lastUpdated": "2025-09-22T21:22:23.762Z",
+      "category": "cost-effective",
+      "trend": "stable",
+      "metadata": {
+        "source": "artificial-analysis",
+        "scrapedAt": "2025-09-22T21:22:23.802Z",
+        "scrapingMethod": "live"
+      }
+    },
+    {
+      "rank": 249,
+      "name": "Qwen2.5 Turbo",
+      "provider": "Alibaba",
+      "slug": "qwen2-5-turbo",
+      "intelligenceScore": 1,
       "outputSpeed": 100,
       "inputPrice": 5,
       "outputPrice": 10,
@@ -5258,5 +5258,7 @@
       "openSource": 20,
       "specialized": 60
     }
-  }
+  },
+  "lastUpdated": "2025-09-23T11:13:17.671Z",
+  "source": "artificial-analysis-website"
 }
