@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { syncAAData, fetchAAData } from '@/scripts/sync-aa-real-data'
-import { cleanTestData } from '@/scripts/clean-production-data'
+import { syncAAData, fetchAAData } from '@/services/sync-aa-real-data'
+import { cleanTestData } from '@/services/clean-production-data'
 import { cache } from '@/lib/redis'
 
 /**

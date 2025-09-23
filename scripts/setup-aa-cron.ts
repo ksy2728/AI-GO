@@ -5,7 +5,7 @@
  */
 
 import cron from 'node-cron'
-import { syncAAData } from './sync-aa-real-data'
+import { syncAAData } from '../src/services/sync-aa-real-data'
 import { cache } from '@/lib/redis'
 import dotenv from 'dotenv'
 import path from 'path'

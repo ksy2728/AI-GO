@@ -51,10 +51,10 @@
     "perf:report": "npm run perf:audit -- http://localhost:3000",
     "validate:production": "node scripts/validate-production.js",
     "pre-deploy": "npm run validate:production && npm run build && npm run typecheck",
-    "clean:production": "tsx scripts/clean-production-data.ts",
-    "sync:aa": "tsx scripts/sync-aa-real-data.ts",
+    "clean:production": "tsx src/services/clean-production-data.ts",
+    "sync:aa": "tsx src/services/sync-aa-real-data.ts",
     "sync:aa:cron": "tsx scripts/setup-aa-cron.ts",
-    "sync:aa:test": "tsx scripts/sync-aa-real-data.ts --test"
+    "sync:aa:test": "tsx src/services/sync-aa-real-data.ts --test"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"

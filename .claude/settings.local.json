@@ -257,7 +257,8 @@
       "Bash(start https://ai-server-information.vercel.app/models)",
       "Bash(del /f \"D:\\ksy_project\\ai server information\\node_modules\\.prisma\\client\\query_engine-windows.dll.node\")",
       "Bash(start https://vercel.com/kim-soo-youngs-projects/ai-server-information/35BemZih2tWhjKgK7y3nmQzYMWAo)",
-      "Bash(start https://vercel.com/kim-soo-youngs-projects/ai-server-information/functions)"
+      "Bash(start https://vercel.com/kim-soo-youngs-projects/ai-server-information/functions)",
+      "Bash(start https://vercel.com/kim-soo-youngs-projects/ai-server-information/settings/deployment-protection)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
