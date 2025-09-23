@@ -258,11 +258,11 @@ async function syncToDatabase(aaModels: AAModel[]) {
           await prisma.pricing.create({
             data: {
               modelId: model.id,
-              inputPricePerMillion: aaModel.inputPrice,
-              outputPricePerMillion: aaModel.outputPrice,
+              inputPerMillion: aaModel.inputPrice,
+              outputPerMillion: aaModel.outputPrice,
+              tier: 'standard',
               region: 'global',
               currency: 'USD',
-              tierName: 'standard',
               effectiveFrom: new Date()
             }
           })
