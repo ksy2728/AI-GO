@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "node server.js",
     "dev:next": "next dev --turbopack",
-    "build": "prisma generate && prisma migrate deploy && prisma db seed && next build",
-    "vercel-build": "prisma generate && prisma migrate deploy && prisma db seed && next build",
+    "build": "prisma generate && prisma migrate deploy && next build",
+    "vercel-build": "prisma generate && prisma migrate deploy && next build",
     "build:static": "next build && next export",
     "postinstall": "prisma generate",
     "start": "NODE_ENV=production node server.js",
@@ -50,7 +50,11 @@
     "perf:lighthouse": "playwright test tests/performance/lighthouse.spec.ts",
     "perf:report": "npm run perf:audit -- http://localhost:3000",
     "validate:production": "node scripts/validate-production.js",
-    "pre-deploy": "npm run validate:production && npm run build && npm run typecheck"
+    "pre-deploy": "npm run validate:production && npm run build && npm run typecheck",
+    "clean:production": "tsx scripts/clean-production-data.ts",
+    "sync:aa": "tsx scripts/sync-aa-real-data.ts",
+    "sync:aa:cron": "tsx scripts/setup-aa-cron.ts",
+    "sync:aa:test": "tsx scripts/sync-aa-real-data.ts --test"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"
