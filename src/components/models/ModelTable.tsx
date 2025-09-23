@@ -58,6 +58,17 @@ export function ModelTable({ models, onModelClick, className }: ModelTableProps)
   // Display models based on displayCount
   const displayModels = useMemo(() => models.slice(0, displayCount), [models, displayCount])
 
+  // Debug logging for production
+  if (typeof window !== 'undefined') {
+    console.log('ModelTable Debug:', {
+      totalModels: models.length,
+      displayCount,
+      hasMore,
+      showButtonCondition: models.length > INITIAL_DISPLAY_COUNT,
+      INITIAL_DISPLAY_COUNT
+    })
+  }
+
   const columns = useMemo(() => [
     columnHelper.accessor('name', {
       header: 'Model',
