@@ -20,7 +20,7 @@ import {
   formatThroughput,
   formatQuality
 } from '@/lib/models-table-mapper'
-import { ChevronUp, ChevronDown } from 'lucide-react'
+import { ChevronUp, ChevronDown, Eye, EyeOff } from 'lucide-react'
 import { useGlobalStats } from '@/contexts/ModelsContext'
 
 interface ModelTableProps {
@@ -30,18 +30,33 @@ interface ModelTableProps {
 }
 
 const columnHelper = createColumnHelper<TableModel>()
+const INITIAL_DISPLAY_COUNT = 20
+const INCREMENT_COUNT = 20
 
 export function ModelTable({ models, onModelClick, className }: ModelTableProps) {
   const [sorting, setSorting] = useState<SortingState>([])
+  const [displayCount, setDisplayCount] = useState(INITIAL_DISPLAY_COUNT)
   const { totalModels } = useGlobalStats()
-  
-  // 서버리스 환경 감지 및 페이지네이션
-  const isServerlessEnv = typeof window !== 'undefined' && 
-    (window.location.hostname.includes('vercel.app') || process.env.NODE_ENV === 'production')
-  
-  // 서버리스 환경에서는 20개로 제한, 로컬에서는 50개
-  const displayLimit = isServerlessEnv ? 20 : 50
-  const displayModels = useMemo(() => models.slice(0, displayLimit), [models, displayLimit])
+
+  // Show More handlers
+  const handleShowMore = () => {
+    setDisplayCount(prev => Math.min(prev + INCREMENT_COUNT, models.length))
+  }
+
+  const handleShowAll = () => {
+    setDisplayCount(models.length)
+  }
+
+  const handleShowLess = () => {
+    setDisplayCount(INITIAL_DISPLAY_COUNT)
+  }
+
+  const hasMore = displayCount < models.length
+  const isShowingAll = displayCount >= models.length
+  const canShowLess = displayCount > INITIAL_DISPLAY_COUNT
+
+  // Display models based on displayCount
+  const displayModels = useMemo(() => models.slice(0, displayCount), [models, displayCount])
 
   const columns = useMemo(() => [
     columnHelper.accessor('name', {
@@ -145,11 +160,6 @@ export function ModelTable({ models, onModelClick, className }: ModelTableProps)
               </Badge>
             )}
           </div>
-          {models.length > displayLimit && (
-            <p className="text-xs text-orange-600">
-              Limited to {displayLimit} models for optimal performance
-            </p>
-          )}
         </div>
       </div>
 
@@ -232,6 +242,53 @@ export function ModelTable({ models, onModelClick, className }: ModelTableProps)
       {displayModels.length === 0 && (
         <div className="text-center py-12">
           <p className="text-gray-500">No models to display</p>
+        </div>
+      )}
+
+      {/* Show More Controls */}
+      {models.length > INITIAL_DISPLAY_COUNT && (
+        <div className="px-4 py-3 border-t border-gray-200 bg-gray-50">
+          <div className="flex items-center justify-center gap-4">
+            <div className="text-sm text-gray-600">
+              Showing {displayModels.length} of {models.length} models
+            </div>
+
+            {hasMore && (
+              <>
+                <Button
+                  onClick={handleShowMore}
+                  variant="outline"
+                  size="sm"
+                  className="flex items-center gap-2"
+                >
+                  <ChevronDown className="w-4 h-4" />
+                  Show More ({Math.min(INCREMENT_COUNT, models.length - displayCount)})
+                </Button>
+
+                <Button
+                  onClick={handleShowAll}
+                  variant="outline"
+                  size="sm"
+                  className="flex items-center gap-2"
+                >
+                  <Eye className="w-4 h-4" />
+                  Show All
+                </Button>
+              </>
+            )}
+
+            {canShowLess && (
+              <Button
+                onClick={handleShowLess}
+                variant="outline"
+                size="sm"
+                className="flex items-center gap-2"
+              >
+                <EyeOff className="w-4 h-4" />
+                Show Less
+              </Button>
+            )}
+          </div>
         </div>
       )}
     </div>
