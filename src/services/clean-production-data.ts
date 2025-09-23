@@ -85,12 +85,17 @@ async function cleanTestData() {
     }
 
     // 4. Clean up models with obviously fake intelligence scores
-    const suspiciousModels = await prisma.model.findMany({
-      where: {
-        metadata: {
-          path: '$.intelligenceScore',
-          gte: 100
-        }
+    // Note: JSON path queries might not work directly, using different approach
+    const allModels = await prisma.model.findMany()
+    const suspiciousModels = allModels.filter(model => {
+      try {
+        const metadata = typeof model.metadata === 'string'
+          ? JSON.parse(model.metadata)
+          : model.metadata
+        return metadata?.intelligenceScore >= 100 ||
+               metadata?.aa?.intelligenceScore >= 100
+      } catch {
+        return false
       }
     })
 
