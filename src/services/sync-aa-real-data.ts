@@ -225,11 +225,20 @@ async function syncToDatabase(aaModels: AAModel[]) {
         contextWindow: aaModel.contextWindow || 128000,
         maxOutputTokens: Math.min(aaModel.contextWindow || 4096, 4096),
         isActive: true,
+        // Update actual database columns
+        intelligenceScore: Math.round(aaModel.intelligenceScore),
+        outputSpeed: Math.round(aaModel.outputSpeed),
+        inputPrice: aaModel.inputPrice > 0 ? aaModel.inputPrice : null,
+        outputPrice: aaModel.outputPrice > 0 ? aaModel.outputPrice : null,
+        dataSource: 'artificial-analysis',
+        lastVerified: new Date(),
         metadata: JSON.stringify({
           aa: {
             intelligenceScore: aaModel.intelligenceScore,
             outputSpeed: aaModel.outputSpeed,
             rank: aaModel.rank,
+            inputPrice: aaModel.inputPrice,
+            outputPrice: aaModel.outputPrice,
             lastUpdated: new Date().toISOString(),
             source: 'official'
           }
