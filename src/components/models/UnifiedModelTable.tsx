@@ -17,7 +17,10 @@ import {
   ArrowUpDown,
   ArrowUp,
   ArrowDown,
-  ExternalLink
+  ExternalLink,
+  ChevronDown,
+  Eye,
+  EyeOff
 } from 'lucide-react'
 
 interface UnifiedModelTableProps {
@@ -28,10 +31,14 @@ interface UnifiedModelTableProps {
   onPageChange: (page: number) => void
   onFilterChange?: (filters: any) => void
   filters?: any
+  enableShowMore?: boolean  // New prop to enable show more feature
 }
 
 type SortField = 'name' | 'provider' | 'intelligence' | 'speed' | 'priceInput' | 'status' | 'rankScore'
 type SortDirection = 'asc' | 'desc' | null
+
+const INITIAL_DISPLAY_COUNT = 20
+const INCREMENT_COUNT = 20
 
 export function UnifiedModelTable({
   models,
@@ -40,10 +47,12 @@ export function UnifiedModelTable({
   totalPages,
   onPageChange,
   onFilterChange,
-  filters
+  filters,
+  enableShowMore = true  // Default to true
 }: UnifiedModelTableProps) {
   const [sortField, setSortField] = useState<SortField>('rankScore')
   const [sortDirection, setSortDirection] = useState<SortDirection>('asc')
+  const [displayCount, setDisplayCount] = useState(INITIAL_DISPLAY_COUNT)
 
   // Handle sorting
   const handleSort = (field: SortField) => {
@@ -96,6 +105,31 @@ export function UnifiedModelTable({
     })
   }, [models, sortField, sortDirection])
 
+  // Models to display based on displayCount
+  const displayedModels = useMemo(() => {
+    if (!enableShowMore) {
+      return sortedModels
+    }
+    return sortedModels.slice(0, displayCount)
+  }, [sortedModels, displayCount, enableShowMore])
+
+  // Handlers for show more/less
+  const handleShowMore = () => {
+    setDisplayCount(prev => Math.min(prev + INCREMENT_COUNT, sortedModels.length))
+  }
+
+  const handleShowAll = () => {
+    setDisplayCount(sortedModels.length)
+  }
+
+  const handleShowLess = () => {
+    setDisplayCount(INITIAL_DISPLAY_COUNT)
+  }
+
+  const hasMore = enableShowMore && displayCount < sortedModels.length
+  const isShowingAll = enableShowMore && displayCount >= sortedModels.length
+  const canShowLess = enableShowMore && displayCount > INITIAL_DISPLAY_COUNT
+
   // Render sort icon
   const renderSortIcon = (field: SortField) => {
     if (sortField !== field) {
@@ -129,24 +163,35 @@ export function UnifiedModelTable({
     )
   }
 
-  // Format price display
+  // Format price display with better handling of null/zero values
   const formatPrice = (input?: number, output?: number) => {
-    if (input === undefined && output === undefined) {
-      return <span className="text-gray-400">—</span>
+    // If both are undefined, null, or zero, show N/A
+    if ((!input || input === 0) && (!output || output === 0)) {
+      return <span className="text-gray-400">N/A</span>
     }
 
     return (
       <div className="text-xs space-y-1">
-        {input !== undefined && (
+        {input && input > 0 ? (
           <div className="flex items-center gap-1">
             <span className="text-gray-500">In:</span>
-            <span>${input.toFixed(2)}</span>
+            <span className="font-medium">${input.toFixed(3)}</span>
+          </div>
+        ) : (
+          <div className="flex items-center gap-1">
+            <span className="text-gray-500">In:</span>
+            <span className="text-gray-400">—</span>
           </div>
         )}
-        {output !== undefined && (
+        {output && output > 0 ? (
           <div className="flex items-center gap-1">
             <span className="text-gray-500">Out:</span>
-            <span>${output.toFixed(2)}</span>
+            <span className="font-medium">${output.toFixed(3)}</span>
+          </div>
+        ) : (
+          <div className="flex items-center gap-1">
+            <span className="text-gray-500">Out:</span>
+            <span className="text-gray-400">—</span>
           </div>
         )}
       </div>
@@ -293,7 +338,7 @@ export function UnifiedModelTable({
             </thead>
 
             <tbody className="bg-white divide-y divide-gray-200">
-              {sortedModels.map((model, index) => (
+              {displayedModels.map((model, index) => (
                 <tr key={model.id} className={`${index % 2 === 0 ? 'bg-white' : 'bg-gray-50'} hover:bg-blue-50 transition-colors duration-150`}>
                   {/* Rank */}
                   <td className="px-4 py-3 whitespace-nowrap text-sm font-medium text-center">
@@ -389,37 +434,86 @@ export function UnifiedModelTable({
         </div>
       </div>
 
-      {/* Pagination */}
-      {totalPages > 1 && (
-        <div className="flex items-center justify-between px-2">
+      {/* Show More / Pagination */}
+      {enableShowMore ? (
+        // Show More Controls
+        <div className="flex items-center justify-center py-4 gap-4">
           <div className="text-sm text-gray-600">
-            Page {currentPage} of {totalPages}
+            Showing {displayedModels.length} of {sortedModels.length} models
           </div>
 
-          <div className="flex items-center gap-2">
+          {hasMore && (
+            <>
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={handleShowMore}
+                disabled={loading}
+                className="flex items-center gap-1"
+              >
+                <ChevronDown className="w-4 h-4" />
+                Show More ({Math.min(INCREMENT_COUNT, sortedModels.length - displayCount)})
+              </Button>
+
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={handleShowAll}
+                disabled={loading}
+                className="flex items-center gap-1"
+              >
+                <Eye className="w-4 h-4" />
+                Show All
+              </Button>
+            </>
+          )}
+
+          {canShowLess && (
             <Button
               variant="outline"
               size="sm"
-              onClick={() => onPageChange(currentPage - 1)}
-              disabled={currentPage <= 1 || loading}
+              onClick={handleShowLess}
+              disabled={loading}
               className="flex items-center gap-1"
             >
-              <ChevronLeft className="w-4 h-4" />
-              Previous
+              <EyeOff className="w-4 h-4" />
+              Show Less
             </Button>
-
-            <Button
-              variant="outline"
-              size="sm"
-              onClick={() => onPageChange(currentPage + 1)}
-              disabled={currentPage >= totalPages || loading}
-              className="flex items-center gap-1"
-            >
-              Next
-              <ChevronRight className="w-4 h-4" />
-            </Button>
-          </div>
+          )}
         </div>
+      ) : (
+        // Original Pagination
+        totalPages > 1 && (
+          <div className="flex items-center justify-between px-2">
+            <div className="text-sm text-gray-600">
+              Page {currentPage} of {totalPages}
+            </div>
+
+            <div className="flex items-center gap-2">
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => onPageChange(currentPage - 1)}
+                disabled={currentPage <= 1 || loading}
+                className="flex items-center gap-1"
+              >
+                <ChevronLeft className="w-4 h-4" />
+                Previous
+              </Button>
+
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => onPageChange(currentPage + 1)}
+                disabled={currentPage >= totalPages || loading}
+                className="flex items-center gap-1"
+              >
+                Next
+                <ChevronRight className="w-4 h-4" />
+              </Button>
+            </div>
+          </div>
+        )
       )}
 
       {/* Loading overlay */}
