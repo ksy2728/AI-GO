@@ -1,6 +1,108 @@
 {
   "articles": [
     {
+      "id": "what-s-behind-the-massive-ai-data-center-headlines",
+      "title": "What’s behind the massive AI data center headlines?",
+      "summary": "This week on Equity, Anthony Ha and Max Zeff go beyond the headlines to break down what's really going on in these AI infrastructure deals.",
+      "content": "This week on Equity, Anthony Ha and Max Zeff go beyond the headlines to break down what's really going on in these AI infrastructure deals.",
+      "source": "TechCrunch AI",
+      "author": "Maxwell Zeff",
+      "publishedAt": "2025-09-26T19:40:24.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/09/26/whats-behind-the-massive-ai-data-center-headlines/",
+      "readTime": 3,
+      "views": 37901
+    },
+    {
+      "id": "us-investigators-are-using-ai-to-detect-child-abus",
+      "title": "US investigators are using AI to detect child abuse images made by AI",
+      "summary": "Generative AI has enabled the production of child sexual abuse images to skyrocket.  Now the leading investigator of child exploitation in the US is experimenting with using AI to distinguish AI-gener.",
+      "content": "Generative AI has enabled the production of child sexual abuse images to skyrocket. Now the leading investigator of child exploitation in the US is experimenting with using AI to distinguish AI-generated images from material depicting real victims, according to a new government filing. The Departmen",
+      "source": "MIT Technology Review AI",
+      "author": "James O'Donnell",
+      "publishedAt": "2025-09-26T19:03:34.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai",
+        "generative ai"
+      ],
+      "url": "https://www.technologyreview.com/2025/09/26/1124343/us-investigators-are-using-ai-to-detect-child-abuse-images-made-by-ai/",
+      "readTime": 3,
+      "views": 18369
+    },
+    {
+      "id": "youtube-music-tests-ai-hosts-that-share-trivia-and",
+      "title": "YouTube Music tests AI hosts that share trivia and commentary",
+      "summary": "YouTube Music's new AI hosts are currently being tested through YouTube Labs, the platform's new hub for AI experiments.",
+      "content": "YouTube Music's new AI hosts are currently being tested through YouTube Labs, the platform's new hub for AI experiments.",
+      "source": "TechCrunch AI",
+      "author": "Aisha Malik",
+      "publishedAt": "2025-09-26T19:02:02.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/09/26/youtube-music-tests-ai-hosts-that-share-trivia-and-commentary/",
+      "readTime": 3,
+      "views": 41680
+    },
+    {
+      "id": "everyone-8217-s-still-throwing-billions-at-ai-data",
+      "title": "Everyone&#8217;s still throwing billions at AI data centers",
+      "summary": "From $100 billion OpenAI commitments to $100,000 visa fees, this week showed just how much the tech landscape is shifting.  On the latest episode of Equity, Anthony Ha and Max Zeff unpack the AI infra.",
+      "content": "From $100 billion OpenAI commitments to $100,000 visa fees, this week showed just how much the tech landscape is shifting. On the latest episode of Equity, Anthony Ha and Max Zeff unpack the AI infrastructure gold rush and tech&#8217;s talent shuffle. Watch the full episode for more about:&#160;&#16",
+      "source": "TechCrunch AI",
+      "author": "Theresa Loconsolo",
+      "publishedAt": "2025-09-26T17:30:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/video/everyones-still-throwing-billions-at-ai-data-centers/",
+      "readTime": 3,
+      "views": 16689
+    },
+    {
+      "id": "camia-privacy-attack-reveals-what-ai-models-memori",
+      "title": "CAMIA privacy attack reveals what AI models memorise",
+      "summary": "Researchers have developed a new attack that reveals privacy vulnerabilities by determining whether your data was used to train AI models.  The method, named CAMIA (Context-Aware Membership Inference .",
+      "content": "Researchers have developed a new attack that reveals privacy vulnerabilities by determining whether your data was used to train AI models. The method, named CAMIA (Context-Aware Membership Inference Attack), was developed by researchers from Brave and the National University of Singapore and is far ",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2025-09-26T17:17:55.000Z",
+      "category": "research",
+      "tags": [
+        "ai",
+        "ai model"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/camia-privacy-attack-reveals-what-ai-models-memorise/",
+      "readTime": 3,
+      "views": 24321
+    },
+    {
+      "id": "from-100b-openai-deals-to-100k-visa-fees",
+      "title": "From $100B OpenAI deals to $100K visa fees",
+      "summary": "From $100 billion OpenAI commitments to $100,000 visa fees, this week showed just how much the tech landscape is shifting.  On the latest episode of Equity, Anthony Ha and Max Zeff unpack the AI infra.",
+      "content": "From $100 billion OpenAI commitments to $100,000 visa fees, this week showed just how much the tech landscape is shifting. On the latest episode of Equity, Anthony Ha and Max Zeff unpack the AI infrastructure gold rush and tech&#8217;s talent shuffle. Listen to the full episode to hear about:&#160;&",
+      "source": "TechCrunch AI",
+      "author": "Theresa Loconsolo, Anthony Ha, Maxwell Zeff",
+      "publishedAt": "2025-09-26T14:30:07.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/podcast/from-100b-openai-deals-to-100k-visa-fees/",
+      "readTime": 3,
+      "views": 6631
+    },
+    {
       "id": "how-developers-are-using-apple-8217-s-local-ai-mod",
       "title": "How developers are using Apple&#8217;s local AI models with iOS 26",
       "summary": "As iOS 26 is rolling out to all users, developers have been updating their apps to include features powered by Apple's local AI models.",
@@ -16,7 +118,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/26/how-developers-are-using-apples-local-ai-models-with-ios-26/",
       "readTime": 3,
-      "views": 8163
+      "views": 35059
     },
     {
       "id": "ethical-cybersecurity-practice-reshapes-enterprise",
@@ -30,7 +132,7 @@
       "tags": [],
       "url": "https://www.artificialintelligence-news.com/news/manageengine-ethical-cybersecurity-2025/",
       "readTime": 3,
-      "views": 51427
+      "views": 51192
     },
     {
       "id": "aaron-levie-on-building-for-the-long-game-in-enter",
@@ -46,7 +148,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/25/inside-the-box-aaron-levie-on-reinvention-at-techcrunch-disrupt-2025/",
       "readTime": 3,
-      "views": 9108
+      "views": 29518
     },
     {
       "id": "microsoft-cuts-cloud-services-to-israeli-military-",
@@ -63,7 +165,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/25/microsoft-cuts-cloud-services-to-israeli-military-unit-over-palestinian-surveillance/",
       "readTime": 3,
-      "views": 40150
+      "views": 42484
     },
     {
       "id": "shoplifters-could-soon-be-chased-down-by-drones",
@@ -77,7 +179,7 @@
       "tags": [],
       "url": "https://www.technologyreview.com/2025/09/25/1124088/shoplifters-could-soon-be-chased-down-by-drones/",
       "readTime": 3,
-      "views": 46239
+      "views": 39483
     },
     {
       "id": "openai-launches-chatgpt-pulse-to-proactively-write",
@@ -97,7 +199,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/25/openai-launches-chatgpt-pulse-to-proactively-write-you-morning-briefs/",
       "readTime": 3,
-      "views": 13473
+      "views": 10718
     },
     {
       "id": "juicebox-raises-30m-from-sequoia-to-revolutionize-",
@@ -116,7 +218,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/25/juicebox-raises-30m-from-sequoia-to-revolutionize-hiring-with-llm-powered-search/",
       "readTime": 3,
-      "views": 49724
+      "views": 27808
     },
     {
       "id": "steph-curry-8217-s-vc-firm-just-backed-an-ai-start",
@@ -132,7 +234,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/25/steph-currys-vc-firm-just-backed-an-ai-startup-that-wants-to-fix-food-supply-chains/",
       "readTime": 3,
-      "views": 12896
+      "views": 52608
     },
     {
       "id": "openai-says-gpt-5-stacks-up-to-humans-in-a-wide-ra",
@@ -151,7 +253,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/25/openai-says-gpt-5-stacks-up-to-humans-in-a-wide-range-of-jobs/",
       "readTime": 3,
-      "views": 19504
+      "views": 10867
     },
     {
       "id": "elon-musk-8217-s-xai-offers-grok-to-federal-govern",
@@ -171,7 +273,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/25/elon-musks-xai-offers-grok-to-federal-government-for-42-cents/",
       "readTime": 3,
-      "views": 21586
+      "views": 24542
     },
     {
       "id": "love-lies-and-algorithms-is-ai-really-helping-us-f",
@@ -188,7 +290,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/25/love-lies-and-algorithms-is-ai-really-helping-us-find-the-one/",
       "readTime": 3,
-      "views": 20745
+      "views": 12519
     },
     {
       "id": "what-top-vcs-want-from-ai-founders-inside-the-inve",
@@ -204,7 +306,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/25/what-top-vcs-want-from-ai-founders-inside-the-investor-lens-with-jon-mcneill-aileen-lee-and-steve-jang-at-techcrunch-disrupt-2025/",
       "readTime": 3,
-      "views": 41699
+      "views": 34379
     },
     {
       "id": "clarifai-8217-s-new-reasoning-engine-makes-ai-mode",
@@ -221,7 +323,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/25/clarifais-new-reasoning-engine-makes-ai-models-faster-and-less-expensive/",
       "readTime": 3,
-      "views": 29680
+      "views": 32151
     },
     {
       "id": "less-than-48-hours-to-grab-your-techcrunch-disrupt",
@@ -237,124 +339,22 @@
       ],
       "url": "https://techcrunch.com/2025/09/25/these-are-the-last-2-days-for-techcrunch-disrupt-2025-ticket-savings/",
       "readTime": 3,
-      "views": 35387
-    },
-    {
-      "id": "databricks-will-bake-openai-models-into-its-produc",
-      "title": "Databricks will bake OpenAI models into its products in $100M bet to spur enterprise adoption",
-      "summary": "Databricks is on the hook to pay at least $100 million to OpenAI in this deal, even if customer usage falls short.  It's a bet, but one that Databricks has already hedged.",
-      "content": "Databricks is on the hook to pay at least $100 million to OpenAI in this deal, even if customer usage falls short. It's a bet, but one that Databricks has already hedged.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2025-09-25T13:14:16.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "ai model",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2025/09/25/databricks-will-bake-openai-models-into-its-products-in-100m-bet-to-spur-enterprise-adoption/",
-      "readTime": 3,
-      "views": 32782
-    },
-    {
-      "id": "samsung-benchmarks-real-productivity-of-enterprise",
-      "title": "Samsung benchmarks real productivity of enterprise AI models",
-      "summary": "Samsung is overcoming limitations of existing benchmarks to better assess the real-world productivity of AI models in enterprise settings.  The new system, developed by Samsung Research and named TRUE.",
-      "content": "Samsung is overcoming limitations of existing benchmarks to better assess the real-world productivity of AI models in enterprise settings. The new system, developed by Samsung Research and named TRUEBench, aims to address the growing disparity between theoretical AI performance and its actual utilit",
-      "source": "AI News",
-      "author": "Ryan Daws",
-      "publishedAt": "2025-09-25T12:49:10.000Z",
-      "category": "research",
-      "tags": [
-        "ai",
-        "ai model"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/samsung-benchmarks-real-productivity-enterprise-ai-models/",
-      "readTime": 3,
-      "views": 26464
-    },
-    {
-      "id": "spotify-to-label-ai-music-filter-spam-and-more-in-",
-      "title": "Spotify to label AI music, filter spam and more in AI policy change",
-      "summary": "Spotify is launching a music spam filter, labeling AI tracks, and clarifying its rules around AI voice clones.",
-      "content": "Spotify is launching a music spam filter, labeling AI tracks, and clarifying its rules around AI voice clones.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2025-09-25T12:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/09/25/spotify-updates-ai-policy-to-label-tracks-cut-down-on-spam/",
-      "readTime": 3,
-      "views": 39030
-    },
-    {
-      "id": "inside-huawei-8217-s-plan-to-make-thousands-of-ai-",
-      "title": "Inside Huawei&#8217;s plan to make thousands of AI chips think like one computer",
-      "summary": "Imagine connecting thousands of powerful AI chips scattered in dozens of server cabinets and making them work together as if they were a single, massive computer.  That is exactly what Huawei demonstr.",
-      "content": "Imagine connecting thousands of powerful AI chips scattered in dozens of server cabinets and making them work together as if they were a single, massive computer. That is exactly what Huawei demonstrated at HUAWEI CONNECT 2025, where the company unveiled a breakthrough in AI infrastructure architect",
-      "source": "AI News",
-      "author": "Dashveenjit Kaur",
-      "publishedAt": "2025-09-25T09:23:08.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/huawei-ai-chips-superpod-technology/",
-      "readTime": 3,
-      "views": 9344
-    },
-    {
-      "id": "how-ai-and-wikipedia-have-sent-vulnerable-language",
-      "title": "How AI and Wikipedia have sent vulnerable languages into a doom spiral",
-      "summary": "When Kenneth Wehr started managing the Greenlandic-language version of Wikipedia four years ago, his first act was to delete almost everything.  It had to go, he thought, if it had any chance of survi.",
-      "content": "When Kenneth Wehr started managing the Greenlandic-language version of Wikipedia four years ago, his first act was to delete almost everything. It had to go, he thought, if it had any chance of surviving. Wehr, who’s 26, isn’t from Greenland—he grew up in Germany—but he had become obsessed with the ",
-      "source": "MIT Technology Review AI",
-      "author": "Jacob Judah",
-      "publishedAt": "2025-09-25T09:00:00.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2025/09/25/1124005/ai-wikipedia-vulnerable-languages-doom-spiral/",
-      "readTime": 3,
-      "views": 16347
-    },
-    {
-      "id": "it-isn-8217-t-your-imagination-google-cloud-is-flo",
-      "title": "It isn&#8217;t your imagination: Google Cloud is flooding the zone",
-      "summary": "While the industry's biggest players cement ever-tighter partnerships, Google is hell-bent on capturing the next generation of AI companies before they become too big to court.",
-      "content": "While the industry's biggest players cement ever-tighter partnerships, Google is hell-bent on capturing the next generation of AI companies before they become too big to court.",
-      "source": "TechCrunch AI",
-      "author": "Connie Loizos",
-      "publishedAt": "2025-09-25T04:41:36.000Z",
-      "category": "partnership",
-      "tags": [
-        "ai",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2025/09/24/it-isnt-your-imagination-google-cloud-is-flooding-the-zone/",
-      "readTime": 3,
-      "views": 47562
+      "views": 49949
     }
   ],
-  "lastUpdated": "2025-09-26T12:37:34.179Z",
+  "lastUpdated": "2025-09-27T01:16:52.347Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
     "TechCrunch AI",
-    "AI News",
-    "MIT Technology Review AI"
+    "MIT Technology Review AI",
+    "AI News"
   ],
   "categories": [
     "release",
-    "market",
-    "funding",
     "regulation",
     "research",
-    "partnership"
+    "market",
+    "funding"
   ]
 }
