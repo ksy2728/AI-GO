@@ -1,6 +1,150 @@
 {
   "articles": [
     {
+      "id": "california-governor-newsom-signs-landmark-ai-safet",
+      "title": "California Governor Newsom signs landmark AI safety bill SB 53",
+      "summary": "SB 53 requires large AI labs – including OpenAI, Anthropic, Meta, and Google DeepMind – to be transparent about safety protocols.  It also ensures whistleblower protections for employees at those comp.",
+      "content": "SB 53 requires large AI labs – including OpenAI, Anthropic, Meta, and Google DeepMind – to be transparent about safety protocols. It also ensures whistleblower protections for employees at those companies.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2025-09-29T21:57:03.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "anthropic",
+        "OpenAI",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2025/09/29/california-governor-newsom-signs-landmark-ai-safety-bill-sb-53/",
+      "readTime": 3,
+      "views": 50878
+    },
+    {
+      "id": "deepseek-everything-you-need-to-know-about-the-ai-",
+      "title": "DeepSeek: Everything you need to know about the AI chatbot app",
+      "summary": "DeepSeek is backed by High-Flyer Capital Management, a Chinese quantitative hedge fund that uses AI to inform its trading decisions.",
+      "content": "DeepSeek is backed by High-Flyer Capital Management, a Chinese quantitative hedge fund that uses AI to inform its trading decisions.",
+      "source": "TechCrunch AI",
+      "author": "Kyle Wiggers",
+      "publishedAt": "2025-09-29T20:56:38.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/09/29/deepseek-everything-you-need-to-know-about-the-ai-chatbot-app/",
+      "readTime": 3,
+      "views": 52746
+    },
+    {
+      "id": "ai-recruiter-alex-raises-17m-to-automate-initial-j",
+      "title": "AI recruiter Alex raises $17M to automate initial job interviews",
+      "summary": "The Y Combinator startup raised a Series A led by Peak XV Partners.",
+      "content": "The Y Combinator startup raised a Series A led by Peak XV Partners.",
+      "source": "TechCrunch AI",
+      "author": "Marina Temkin",
+      "publishedAt": "2025-09-29T20:32:35.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/09/29/ai-recruiter-alex-raises-17m-to-automate-initial-job-interviews/",
+      "readTime": 3,
+      "views": 43530
+    },
+    {
+      "id": "openai-takes-on-google-amazon-with-new-agentic-sho",
+      "title": "OpenAI takes on Google, Amazon with new agentic shopping system",
+      "summary": "This type of frictionless experience has the potential to spark a new movement in how people shop online – one that moves away from search engines like Google and e-commerce platforms like Amazon towa.",
+      "content": "This type of frictionless experience has the potential to spark a new movement in how people shop online – one that moves away from search engines like Google and e-commerce platforms like Amazon toward conversational agents with curated recommendations, comparisons, and easy checkout experiences.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2025-09-29T19:32:27.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2025/09/29/openai-takes-on-google-amazon-with-new-agentic-shopping-system/",
+      "readTime": 3,
+      "views": 32041
+    },
+    {
+      "id": "anthropic-launches-claude-sonnet-4-5-its-best-ai-m",
+      "title": "Anthropic launches Claude Sonnet 4.5, its best AI model for coding",
+      "summary": "Anthropic says its new AI model is robust enough to build production-ready applications, rather than just prototypes.",
+      "content": "Anthropic says its new AI model is robust enough to build production-ready applications, rather than just prototypes.",
+      "source": "TechCrunch AI",
+      "author": "Maxwell Zeff",
+      "publishedAt": "2025-09-29T17:02:14.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "anthropic",
+        "claude",
+        "ai model",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2025/09/29/anthropic-launches-claude-sonnet-4-5-its-best-ai-model-for-coding/",
+      "readTime": 3,
+      "views": 35619
+    },
+    {
+      "id": "brave-updates-its-ai-powered-search-with-a-detaile",
+      "title": "Brave updates its AI-powered search with a detailed answers feature",
+      "summary": "The search company said that this new feature will co-exist next to its AI Answers feature, which was introduced last year to give summarized responses to search queries.",
+      "content": "The search company said that this new feature will co-exist next to its AI Answers feature, which was introduced last year to give summarized responses to search queries.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2025-09-29T16:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/09/29/brave-updates-its-ai-powered-search-with-a-detailed-answers-feature/",
+      "readTime": 3,
+      "views": 54406
+    },
+    {
+      "id": "openai-rolls-out-safety-routing-system-parental-co",
+      "title": "OpenAI rolls out safety routing system, parental controls on ChatGPT",
+      "summary": "The new safety features come after numerous incidents of ChatGPT validating users' delusional thinking instead of redirecting harmful conversations -- including the death of a teenage boy by suicide.",
+      "content": "The new safety features come after numerous incidents of ChatGPT validating users' delusional thinking instead of redirecting harmful conversations -- including the death of a teenage boy by suicide.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2025-09-29T14:50:42.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gpt",
+        "openai",
+        "chatgpt",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2025/09/29/openai-rolls-out-safety-routing-system-parental-controls-on-chatgpt/",
+      "readTime": 3,
+      "views": 20220
+    },
+    {
+      "id": "complexchaos-thinks-ai-can-help-people-find-common",
+      "title": "ComplexChaos thinks AI can help people find common ground",
+      "summary": "The startup uses an LLM tailored to helping people arrive at a consensus.  Is it enough to help bridge our differences.",
+      "content": "The startup uses an LLM tailored to helping people arrive at a consensus. Is it enough to help bridge our differences?",
+      "source": "TechCrunch AI",
+      "author": "Tim De Chant",
+      "publishedAt": "2025-09-29T14:10:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "llm"
+      ],
+      "url": "https://techcrunch.com/2025/09/29/complex-chaos-thinks-ai-can-help-people-find-common-ground/",
+      "readTime": 3,
+      "views": 48716
+    },
+    {
       "id": "former-microsoft-execs-launch-ai-agents-to-end-exc",
       "title": "Former Microsoft execs launch AI agents to end Excel-led finance",
       "summary": "Maximor has come out of stealth with a human-in-the-loop agentic platform that does the finance team's grunt work.",
@@ -15,7 +159,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/29/former-microsoft-executives-launch-ai-agents-to-end-excel-driven-finance-for-mid-market-enterprise-businesses/",
       "readTime": 3,
-      "views": 42206
+      "views": 37322
     },
     {
       "id": "huawei-details-open-source-ai-development-roadmap-",
@@ -31,13 +175,13 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/huawei-open-source-ai-development-platform-technical-specs/",
       "readTime": 3,
-      "views": 23493
+      "views": 7923
     },
     {
       "id": "paid-the-ai-agent-8216-results-based-billing-8217-",
       "title": "Paid, the AI agent &#8216;results-based billing&#8217; startup from Manny Medina, raises huge $21M seed",
-      "summary": "Paid offers an interesting contribution to the AI agentic world: a platform for so-called \"results-based\" billing.",
-      "content": "Paid offers an interesting contribution to the AI agentic world: a platform for so-called \"results-based\" billing.",
+      "summary": "Paid offers an interesting contribution to the AI agentic world: a platform for so-called \"results-based\" billing.",
+      "content": "Paid offers an interesting contribution to the AI agentic world: a platform for so-called \"results-based\" billing.",
       "source": "TechCrunch AI",
       "author": "Julie Bort",
       "publishedAt": "2025-09-29T04:40:00.000Z",
@@ -47,7 +191,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/28/paid-the-ai-agent-results-based-billing-startup-from-manny-medina-raises-huge-21m-seed/",
       "readTime": 3,
-      "views": 5597
+      "views": 36223
     },
     {
       "id": "the-ai-services-transformation-may-be-harder-than-",
@@ -64,7 +208,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/28/the-ai-services-transformation-may-be-harder-than-vcs-think/",
       "readTime": 3,
-      "views": 50138
+      "views": 31050
     },
     {
       "id": "the-billion-dollar-infrastructure-deals-powering-t",
@@ -84,7 +228,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/28/the-billion-dollar-infrastructure-deals-powering-the-ai-boom/",
       "readTime": 3,
-      "views": 35976
+      "views": 6995
     },
     {
       "id": "wiz-chief-technologist-ami-luttwak-on-how-ai-is-tr",
@@ -100,23 +244,23 @@
       ],
       "url": "https://techcrunch.com/2025/09/28/wiz-chief-technologist-ami-luttwak-on-how-ai-is-transforming-cyberattacks/",
       "readTime": 3,
-      "views": 17180
+      "views": 18855
     },
     {
-      "id": "beware-coworkers-who-produce-ai-generated-8216-wor",
-      "title": "Beware coworkers who produce AI-generated &#8216;workslop&#8217;",
-      "summary": "Researchers at consulting firm BetterUp Labs, in collaboration with Stanford Social Media Lab, have coined a new term to describe low-quality, AI-generated work.",
-      "content": "Researchers at consulting firm BetterUp Labs, in collaboration with Stanford Social Media Lab, have coined a new term to describe low-quality, AI-generated work",
+      "id": "beware-co-workers-who-produce-ai-generated-8216-wo",
+      "title": "Beware co-workers who produce AI-generated &#8216;workslop&#8217;",
+      "summary": "BetterUp Labs researchers suggest that workslop could be one explanation for the 95% of organizations that have tried AI but report seeing zero return on that investment.",
+      "content": "BetterUp Labs researchers suggest that workslop could be one explanation for the 95% of organizations that have tried AI but report seeing zero return on that investment.",
       "source": "TechCrunch AI",
       "author": "Anthony Ha",
       "publishedAt": "2025-09-27T19:36:04.000Z",
-      "category": "partnership",
+      "category": "funding",
       "tags": [
         "ai"
       ],
       "url": "https://techcrunch.com/2025/09/27/beware-coworkers-who-produce-ai-generated-workslop/",
       "readTime": 3,
-      "views": 49400
+      "views": 25534
     },
     {
       "id": "ai-startup-friend-spent-more-than-1m-on-all-those-",
@@ -132,7 +276,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/27/ai-startup-friend-spent-more-than-1m-on-all-those-subway-ads/",
       "readTime": 3,
-      "views": 24829
+      "views": 53317
     },
     {
       "id": "how-south-korea-plans-to-best-openai-google-others",
@@ -152,23 +296,7 @@
       ],
       "url": "https://techcrunch.com/2025/09/27/how-south-korea-plans-to-best-openai-google-others-with-homegrown-ai/",
       "readTime": 3,
-      "views": 25077
-    },
-    {
-      "id": "what-s-behind-the-massive-ai-data-center-headlines",
-      "title": "What’s behind the massive AI data center headlines?",
-      "summary": "This week on Equity, Anthony Ha and Max Zeff go beyond the headlines to break down what's really going on in these AI infrastructure deals.",
-      "content": "This week on Equity, Anthony Ha and Max Zeff go beyond the headlines to break down what's really going on in these AI infrastructure deals.",
-      "source": "TechCrunch AI",
-      "author": "Maxwell Zeff",
-      "publishedAt": "2025-09-26T19:40:24.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/09/26/whats-behind-the-massive-ai-data-center-headlines/",
-      "readTime": 3,
-      "views": 18444
+      "views": 20608
     },
     {
       "id": "us-investigators-are-using-ai-to-detect-child-abus",
@@ -185,41 +313,7 @@
       ],
       "url": "https://www.technologyreview.com/2025/09/26/1124343/us-investigators-are-using-ai-to-detect-child-abuse-images-made-by-ai/",
       "readTime": 3,
-      "views": 52049
-    },
-    {
-      "id": "youtube-music-tests-ai-hosts-that-share-trivia-and",
-      "title": "YouTube Music tests AI hosts that share trivia and commentary",
-      "summary": "YouTube Music's new AI hosts are currently being tested through YouTube Labs, the platform's new hub for AI experiments.",
-      "content": "YouTube Music's new AI hosts are currently being tested through YouTube Labs, the platform's new hub for AI experiments.",
-      "source": "TechCrunch AI",
-      "author": "Aisha Malik",
-      "publishedAt": "2025-09-26T19:02:02.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/09/26/youtube-music-tests-ai-hosts-that-share-trivia-and-commentary/",
-      "readTime": 3,
-      "views": 7883
-    },
-    {
-      "id": "everyone-8217-s-still-throwing-billions-at-ai-data",
-      "title": "Everyone&#8217;s still throwing billions at AI data centers",
-      "summary": "From $100 billion OpenAI commitments to $100,000 visa fees, this week showed just how much the tech landscape is shifting.  On the latest episode of Equity, Anthony Ha and Max Zeff unpack the AI infra.",
-      "content": "From $100 billion OpenAI commitments to $100,000 visa fees, this week showed just how much the tech landscape is shifting. On the latest episode of Equity, Anthony Ha and Max Zeff unpack the AI infrastructure gold rush and tech&#8217;s talent shuffle. Watch the full episode for more about:&#160;&#16",
-      "source": "TechCrunch AI",
-      "author": "Theresa Loconsolo",
-      "publishedAt": "2025-09-26T17:30:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/video/everyones-still-throwing-billions-at-ai-data-centers/",
-      "readTime": 3,
-      "views": 50896
+      "views": 30511
     },
     {
       "id": "camia-privacy-attack-reveals-what-ai-models-memori",
@@ -236,43 +330,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/camia-privacy-attack-reveals-what-ai-models-memorise/",
       "readTime": 3,
-      "views": 18734
-    },
-    {
-      "id": "from-100b-openai-deals-to-100k-visa-fees",
-      "title": "From $100B OpenAI deals to $100K visa fees",
-      "summary": "From $100 billion OpenAI commitments to $100,000 visa fees, this week showed just how much the tech landscape is shifting.  On the latest episode of Equity, Anthony Ha and Max Zeff unpack the AI infra.",
-      "content": "From $100 billion OpenAI commitments to $100,000 visa fees, this week showed just how much the tech landscape is shifting. On the latest episode of Equity, Anthony Ha and Max Zeff unpack the AI infrastructure gold rush and tech&#8217;s talent shuffle. Listen to the full episode to hear about:&#160;&",
-      "source": "TechCrunch AI",
-      "author": "Theresa Loconsolo, Anthony Ha, Maxwell Zeff",
-      "publishedAt": "2025-09-26T14:30:07.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/podcast/from-100b-openai-deals-to-100k-visa-fees/",
-      "readTime": 3,
-      "views": 22435
-    },
-    {
-      "id": "how-developers-are-using-apple-8217-s-local-ai-mod",
-      "title": "How developers are using Apple&#8217;s local AI models with iOS 26",
-      "summary": "As iOS 26 is rolling out to all users, developers have been updating their apps to include features powered by Apple's local AI models.",
-      "content": "As iOS 26 is rolling out to all users, developers have been updating their apps to include features powered by Apple's local AI models.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2025-09-26T12:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "ai model",
-        "Apple"
-      ],
-      "url": "https://techcrunch.com/2025/09/26/how-developers-are-using-apples-local-ai-models-with-ios-26/",
-      "readTime": 3,
-      "views": 49717
+      "views": 28311
     },
     {
       "id": "ethical-cybersecurity-practice-reshapes-enterprise",
@@ -286,57 +344,10 @@
       "tags": [],
       "url": "https://www.artificialintelligence-news.com/news/manageengine-ethical-cybersecurity-2025/",
       "readTime": 3,
-      "views": 47827
-    },
-    {
-      "id": "aaron-levie-on-building-for-the-long-game-in-enter",
-      "title": "Aaron Levie on building for the long game in enterprise software at TechCrunch Disrupt 2025",
-      "summary": "Box CEO and co-founder Aaron Levie joins TechCrunch Disrupt 2025 for a candid fireside chat on what invention really looks like inside a public company, what AI is changing in enterprise software, and.",
-      "content": "Box CEO and co-founder Aaron Levie joins TechCrunch Disrupt 2025 for a candid fireside chat on what invention really looks like inside a public company, what AI is changing in enterprise software, and the mindset it takes to keep evolving when the tech landscape moves at warp speed.",
-      "source": "TechCrunch AI",
-      "author": "TechCrunch Events",
-      "publishedAt": "2025-09-25T23:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/09/25/inside-the-box-aaron-levie-on-reinvention-at-techcrunch-disrupt-2025/",
-      "readTime": 3,
-      "views": 7884
-    },
-    {
-      "id": "microsoft-cuts-cloud-services-to-israeli-military-",
-      "title": "Microsoft cuts cloud services to Israeli military unit over Palestinian surveillance",
-      "summary": "The investigation was sparked by a story in The Guardian that reported that Unit 8200, the elite Israel military intelligence unit, was using Azure cloud storage to house data on phone calls obtained .",
-      "content": "The investigation was sparked by a story in The Guardian that reported that Unit 8200, the elite Israel military intelligence unit, was using Azure cloud storage to house data on phone calls obtained through the surveillance of Palestinians in Gaza and the West Bank.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Szkutak",
-      "publishedAt": "2025-09-25T19:33:45.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Microsoft"
-      ],
-      "url": "https://techcrunch.com/2025/09/25/microsoft-cuts-cloud-services-to-israeli-military-unit-over-palestinian-surveillance/",
-      "readTime": 3,
-      "views": 11603
-    },
-    {
-      "id": "shoplifters-could-soon-be-chased-down-by-drones",
-      "title": "Shoplifters could soon be chased down by drones",
-      "summary": "Flock Safety, whose drones were once reserved for police departments, is now offering them for private-sector security, the company announced today, with potential customers including businesses inten.",
-      "content": "Flock Safety, whose drones were once reserved for police departments, is now offering them for private-sector security, the company announced today, with potential customers including businesses intent on curbing shoplifting.  Companies in the US can now place Flock’s drone docking stations on their",
-      "source": "MIT Technology Review AI",
-      "author": "James O'Donnell",
-      "publishedAt": "2025-09-25T17:34:26.000Z",
-      "category": "release",
-      "tags": [],
-      "url": "https://www.technologyreview.com/2025/09/25/1124088/shoplifters-could-soon-be-chased-down-by-drones/",
-      "readTime": 3,
-      "views": 36693
+      "views": 49159
     }
   ],
-  "lastUpdated": "2025-09-29T12:39:11.649Z",
+  "lastUpdated": "2025-09-30T01:21:06.131Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -348,7 +359,6 @@
     "release",
     "funding",
     "market",
-    "partnership",
     "regulation",
     "research"
   ]
