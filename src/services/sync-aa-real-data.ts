@@ -8,10 +8,12 @@ import { PrismaClient } from '@prisma/client'
 import dotenv from 'dotenv'
 import path from 'path'
 import * as cheerio from 'cheerio'
+import { AAFlightParser } from '@/lib/aa-flight-parser'
 
 dotenv.config({ path: path.resolve(process.cwd(), '.env.local') })
 
 const prisma = new PrismaClient()
+const flightParser = new AAFlightParser()
 
 interface AAModel {
   name: string
@@ -25,67 +27,139 @@ interface AAModel {
 }
 
 /**
- * Fetch real data from Artificial Analysis website
+ * Fetch real data from Artificial Analysis (API first, then scraping fallback)
  */
 async function fetchAAData(): Promise<AAModel[]> {
   console.log('🔄 Fetching data from Artificial Analysis...')
+  const startTime = Date.now()
 
   try {
-    // First try the curated data endpoint that AA maintains
-    const curatedUrl = 'https://artificialanalysis.ai/api/models'
-    const curatedResponse = await fetch(curatedUrl, {
-      headers: {
-        'Accept': 'application/json',
-        'User-Agent': 'Mozilla/5.0 (compatible; AI-GO/1.0)'
-      }
-    }).catch(() => null)
+    // Try API first if token is available
+    const apiToken = process.env.artificialanalysis_API_TOKEN
+    if (apiToken) {
+      try {
+        console.log('📡 Trying AA API v2...')
+        const apiResponse = await fetch('https://artificialanalysis.ai/api/v2/data/llms/models', {
+          method: 'GET',
+          headers: {
+            'x-api-key': apiToken,
+            'Accept': 'application/json'
+          }
+        })
 
-    if (curatedResponse?.ok) {
-      const data = await curatedResponse.json()
-      if (data.models && Array.isArray(data.models)) {
-        console.log(`✅ Fetched ${data.models.length} models from AA API`)
-        return parseAAApiData(data.models)
+        if (apiResponse.ok) {
+          const apiData = await apiResponse.json()
+
+          // Parse API response structure: { status: 200, data: [...] }
+          if (apiData.status === 200 && Array.isArray(apiData.data)) {
+            console.log(`✅ AA API returned ${apiData.data.length} models`)
+            const models = parseAAApiData(apiData.data)
+            console.log(`✅ Successfully parsed ${models.length} models from API in ${Date.now() - startTime}ms`)
+            return models
+          }
+        } else {
+          console.warn(`⚠️ AA API returned ${apiResponse.status}, falling back to scraping`)
+        }
+      } catch (apiError) {
+        console.warn('⚠️ AA API failed, falling back to scraping:', apiError)
       }
+    } else {
+      console.warn('⚠️ No AA API token found, using scraping fallback')
     }
 
-    // Fallback to web scraping
-    console.log('📄 Falling back to web scraping...')
-    const pageUrl = 'https://artificialanalysis.ai/models'
+    // Fallback to HTML scraping
+    console.log('📄 Fetching AA leaderboard page...')
+    const pageUrl = 'https://artificialanalysis.ai/leaderboards/models'
     const response = await fetch(pageUrl, {
       headers: {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        'Accept-Language': 'en-US,en;q=0.9'
       }
     })
 
     if (!response.ok) {
-      throw new Error(`Failed to fetch AA page: ${response.status}`)
+      const error = `AA_SYNC_FAILURE: HTTP ${response.status} - ${response.statusText}`
+      console.error(error, {
+        url: pageUrl,
+        status: response.status,
+        lastSuccess: flightParser.getLastSuccessTime()?.toISOString() || 'never'
+      })
+      throw new Error(error)
     }
 
     const html = await response.text()
-    return scrapeAAModels(html)
+    console.log(`📦 Received HTML: ${html.length} bytes`)
 
-  } catch (error) {
-    console.error('❌ Failed to fetch AA data:', error)
+    // Try Flight parser first (handles new streaming format)
+    let rawModels = flightParser.parseModels(html)
+
+    // Fallback to table parser if Flight parser returns nothing
+    if (rawModels.length === 0) {
+      console.warn('⚠️ Flight parser returned 0 models, trying table fallback')
+      rawModels = flightParser.parseTableFallback(html)
+    }
+
+    // If still nothing, this is a critical failure
+    if (rawModels.length === 0) {
+      const error = 'AA_SYNC_FAILURE: All parsers returned 0 models'
+      console.error(error, {
+        htmlLength: html.length,
+        htmlPreview: html.substring(0, 500),
+        lastSuccess: flightParser.getLastSuccessTime()?.toISOString() || 'never',
+        duration: Date.now() - startTime
+      })
+      throw new Error(error)
+    }
+
+    // Convert to our internal format
+    const models = parseAAApiData(rawModels)
+
+    console.log(`✅ Successfully parsed ${models.length} models in ${Date.now() - startTime}ms`)
+    return models
+
+  } catch (error: any) {
+    const errorMsg = error.message || String(error)
+    console.error('❌ AA_SYNC_FAILURE:', errorMsg, {
+      stack: error.stack,
+      lastSuccess: flightParser.getLastSuccessTime()?.toISOString() || 'never',
+      duration: Date.now() - startTime
+    })
     throw error
   }
 }
 
 /**
- * Parse API response data
+ * Parse API response data (handles both API v2 and scraped data formats)
  */
 function parseAAApiData(models: any[]): AAModel[] {
-  return models.map((model, index) => ({
-    name: model.name || model.model_name,
-    provider: model.organization || model.provider || inferProvider(model.name),
-    // Use the actual quality_index from AA API, not inflated scores
-    intelligenceScore: parseFloat(model.quality_index || model.intelligence_score || 0),
-    outputSpeed: parseFloat(model.tokens_per_second || model.output_speed || 0),
-    inputPrice: parseFloat(model.price_per_million_input_tokens || model.input_price || 0),
-    outputPrice: parseFloat(model.price_per_million_output_tokens || model.output_price || 0),
-    contextWindow: parseInt(model.context_window || model.context_length || 0),
-    rank: model.rank || index + 1
-  })).filter(m => m.name && m.intelligenceScore > 0)
+  return models.map((model, index) => {
+    // API v2 format
+    if (model.evaluations && model.median_output_tokens_per_second !== undefined) {
+      return {
+        name: model.name,
+        provider: model.model_creator?.slug || inferProvider(model.name),
+        intelligenceScore: parseFloat(model.evaluations?.artificial_analysis_intelligence_index || 0),
+        outputSpeed: parseFloat(model.median_output_tokens_per_second || 0),
+        inputPrice: parseFloat(model.pricing?.price_1m_input_tokens || 0),
+        outputPrice: parseFloat(model.pricing?.price_1m_output_tokens || 0),
+        contextWindow: parseInt(model.context_window || 0),
+        rank: index + 1
+      }
+    }
+
+    // Scraped format (legacy)
+    return {
+      name: model.name || model.model_name,
+      provider: model.organization || model.provider || inferProvider(model.name || model.model_name),
+      intelligenceScore: parseFloat(model.quality_index || model.intelligence_score || 0),
+      outputSpeed: parseFloat(model.tokens_per_second || model.output_speed || 0),
+      inputPrice: parseFloat(model.price_per_million_input_tokens || model.input_price || 0),
+      outputPrice: parseFloat(model.price_per_million_output_tokens || model.output_price || 0),
+      contextWindow: parseInt(model.context_window || model.context_length || 0),
+      rank: model.rank || index + 1
+    }
+  }).filter(m => m.name && m.intelligenceScore > 0)
 }
 
 /**
@@ -162,12 +236,15 @@ function inferProvider(name: string): string {
 
 /**
  * Normalize model name to slug
+ * "Claude Sonnet 4.5" → "claude-sonnet-4-5"
  */
 function toSlug(name: string): string {
   return name
     .toLowerCase()
-    .replace(/[\s]+/g, '-')
-    .replace(/[^a-z0-9.-]/g, '')
+    .replace(/[.\s]+/g, '-')      // Convert dots and spaces to hyphens
+    .replace(/[^a-z0-9-]/g, '')   // Remove non-alphanumeric except hyphens
+    .replace(/-+/g, '-')          // Collapse multiple hyphens
+    .replace(/^-|-$/g, '')        // Trim leading/trailing hyphens
 }
 
 /**
@@ -351,6 +428,59 @@ function filterModelsByPerformance(models: AAModel[]): AAModel[] {
 }
 
 /**
+ * Clear all caches (in-memory and Redis)
+ */
+async function clearAllCaches(): Promise<void> {
+  try {
+    // 1. Clear UnifiedModelService in-memory cache
+    try {
+      // Dynamically import to avoid circular dependencies
+      const { UnifiedModelService } = await import('./unified-models.service')
+      UnifiedModelService.clearCache()
+      console.log('  ✅ Cleared UnifiedModelService cache')
+    } catch (err) {
+      console.warn('  ⚠️ Could not clear UnifiedModelService cache:', err)
+    }
+
+    // 2. Clear Redis cache if available
+    try {
+      const { cache } = await import('@/lib/redis')
+      if (cache) {
+        // Clear AA-specific cache keys
+        const keys = [
+          'aa:leaderboard:data',
+          'aa:models:*',
+          'models:unified:*',
+          'models:*'
+        ]
+
+        for (const pattern of keys) {
+          try {
+            // Delete keys matching pattern
+            if (pattern.includes('*')) {
+              // For wildcard patterns, we'd need to scan and delete
+              console.log(`  📝 Would clear Redis pattern: ${pattern}`)
+            } else {
+              await cache.del(pattern)
+              console.log(`  ✅ Cleared Redis key: ${pattern}`)
+            }
+          } catch (err) {
+            console.warn(`  ⚠️ Could not clear Redis key ${pattern}:`, err)
+          }
+        }
+      }
+    } catch (err) {
+      console.warn('  ⚠️ Redis not available or error:', err)
+    }
+
+    console.log('  ✨ Cache clearing completed')
+  } catch (error) {
+    console.error('  ❌ Error during cache clearing:', error)
+    // Don't throw - cache clearing failure shouldn't fail the sync
+  }
+}
+
+/**
  * Main sync function
  */
 async function syncAAData() {
@@ -406,9 +536,9 @@ async function syncAAData() {
     // Sync to database
     const result = await syncToDatabase(aaModels)
 
-    // Clear cache
-    console.log('\n🗑️ Clearing cache...')
-    // Note: In production, you'd clear Redis cache here
+    // Clear all caches after successful sync
+    console.log('\n🗑️ Clearing caches...')
+    await clearAllCaches()
 
     console.log('\n✨ Sync completed successfully!')
     return result

@@ -67,7 +67,7 @@ export class ArtificialAnalysisAPI {
   }
 
   /**
-   * Fetch model data from Artificial Analysis by scraping their leaderboard
+   * Fetch model data from Artificial Analysis using API v2 (with HTML scraping fallback)
    */
   private static async fetchFromAA(modelId: string): Promise<AAModelData | null> {
     const cacheKey = `aa:model:${modelId}`
@@ -79,7 +79,26 @@ export class ArtificialAnalysisAPI {
     }
 
     try {
-      // Since AA doesn't have a public API, we scrape their leaderboard
+      // Try API first if token is available
+      const apiToken = process.env.artificialanalysis_API_TOKEN
+      if (apiToken) {
+        try {
+          const apiData = await this.fetchFromAAApi()
+          const modelData = apiData.find(model =>
+            model.id === modelId || model.name.toLowerCase().includes(modelId.toLowerCase())
+          )
+
+          if (modelData) {
+            // Cache for 1 hour
+            await cache.set(cacheKey, modelData, this.CACHE_TTL)
+            return modelData
+          }
+        } catch (apiError) {
+          console.warn('AA API failed, falling back to scraping:', apiError)
+        }
+      }
+
+      // Fallback to HTML scraping
       const leaderboardData = await this.scrapeAALeaderboard()
       const modelData = leaderboardData.find(model =>
         model.id === modelId || model.name.toLowerCase().includes(modelId.toLowerCase())
@@ -97,6 +116,58 @@ export class ArtificialAnalysisAPI {
       console.error(`Failed to fetch AA data for ${modelId}:`, error)
       return null
     }
+  }
+
+  /**
+   * Fetch data from AA API v2
+   */
+  private static async fetchFromAAApi(): Promise<AAModelData[]> {
+    const apiToken = process.env.artificialanalysis_API_TOKEN
+    if (!apiToken) {
+      throw new Error('AA API token not configured')
+    }
+
+    const response = await fetch('https://artificialanalysis.ai/api/v2/data/llms/models', {
+      method: 'GET',
+      headers: {
+        'x-api-key': apiToken,
+        'Accept': 'application/json'
+      },
+      signal: AbortSignal.timeout(30000)
+    })
+
+    if (!response.ok) {
+      throw new Error(`AA API returned ${response.status}: ${response.statusText}`)
+    }
+
+    const data = await response.json()
+
+    // Parse API response structure: { status: 200, data: [...] }
+    if (data.status === 200 && Array.isArray(data.data)) {
+      return this.parseAAApiData(data.data)
+    }
+
+    throw new Error('Invalid AA API response format')
+  }
+
+  /**
+   * Parse AA API v2 response data
+   */
+  private static parseAAApiData(apiModels: any[]): AAModelData[] {
+    return apiModels.map((model) => ({
+      id: this.normalizeModelId(model.slug || model.name),
+      name: model.name,
+      provider: model.model_creator?.slug || this.inferProvider(model.name),
+      intelligenceScore: model.evaluations?.artificial_analysis_intelligence_index || 0,
+      outputSpeed: model.median_output_tokens_per_second || 0,
+      price: {
+        input: model.pricing?.price_1m_input_tokens || 0,
+        output: model.pricing?.price_1m_output_tokens || 0
+      },
+      rank: 0,
+      category: 'general',
+      lastUpdated: new Date()
+    })).filter(m => m.name && m.intelligenceScore > 0)
   }
 
   /**
@@ -245,7 +316,7 @@ export class ArtificialAnalysisAPI {
   }
 
   /**
-   * Get all models from AA leaderboard
+   * Get all models from AA (API first, then scraping fallback)
    */
   static async getAllModels(): Promise<AAModelData[]> {
     const cacheKey = 'aa:all:models'
@@ -257,7 +328,27 @@ export class ArtificialAnalysisAPI {
     }
 
     try {
-      // Scrape the leaderboard for all models
+      // Try API first if token is available
+      const apiToken = process.env.artificialanalysis_API_TOKEN
+      if (apiToken) {
+        try {
+          const models = await this.fetchFromAAApi()
+          if (models.length > 0) {
+            // Cache for 1 hour
+            await cache.set(cacheKey, models, this.CACHE_TTL)
+            console.log(`✅ Retrieved ${models.length} models from AA API`)
+
+            // Clear UnifiedModelService cache to refresh /models page
+            await this.clearAllCaches()
+
+            return models
+          }
+        } catch (apiError) {
+          console.warn('AA API failed, falling back to scraping:', apiError)
+        }
+      }
+
+      // Fallback to scraping
       const models = await this.scrapeAALeaderboard()
 
       if (models.length > 0) {
@@ -273,6 +364,32 @@ export class ArtificialAnalysisAPI {
     } catch (error) {
       console.error('Failed to fetch all AA models:', error)
       return []
+    }
+  }
+
+  /**
+   * Clear all caches to ensure fresh data
+   */
+  private static async clearAllCaches(): Promise<void> {
+    try {
+      // Clear Redis AA caches
+      const keys = ['aa:model:*', 'aa:all:models', 'models:unified:*', 'models:*']
+      for (const pattern of keys) {
+        if (!pattern.includes('*')) {
+          await cache.del(pattern)
+        }
+      }
+
+      // Try to clear UnifiedModelService cache if available
+      try {
+        const { UnifiedModelService } = await import('./unified-models.service')
+        UnifiedModelService.clearCache()
+        console.log('✅ Cleared UnifiedModelService cache')
+      } catch (err) {
+        console.warn('Could not clear UnifiedModelService cache:', err)
+      }
+    } catch (error) {
+      console.warn('Cache clearing error:', error)
     }
   }
 

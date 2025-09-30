@@ -2,6 +2,31 @@
 
 Real-time monitoring of AI model performance, availability, benchmarks, and industry news from around the world.
 
+## 🚀 Quick Start for New Deployment
+
+새 컴퓨터에서 AI-GO를 Vercel에 배포하는 가장 빠른 방법:
+
+```bash
+# 1. 프로젝트 다운로드 후 폴더로 이동
+cd ai-go
+
+# 2. 자동 배포 스크립트 실행 (15-20분 소요)
+node scripts/quick-deploy.js
+```
+
+또는 Claude Code를 사용하는 경우:
+```bash
+claude code .
+# Claude Code에서: "quick-deploy.js 실행해줘"
+```
+
+### 📝 필수 준비사항
+- **Artificial Analysis API 키** (필수!): https://artificialanalysis.ai 에서 발급
+- **데이터베이스**: Neon (추천), Supabase, 또는 PlanetScale 중 선택
+- **Node.js v18+** 설치
+
+자세한 내용은 [DEPLOYMENT_CHECKLIST.md](./DEPLOYMENT_CHECKLIST.md) 또는 [docs/DEPLOYMENT_GUIDE.md](./docs/DEPLOYMENT_GUIDE.md)를 참조하세요.
+
 ## 🚀 Features
 
 - **Real-time Status Monitoring** - Live availability, latency, and performance metrics
