@@ -3,7 +3,6 @@
 import { useState, useEffect, useCallback } from 'react'
 import { getProviderLogo } from '@/constants/providerLogos'
 
-// Types - Strict type definitions
 export const MODEL_STATUS = {
   OPERATIONAL: 'operational',
   DEGRADED: 'degraded',
@@ -26,8 +25,8 @@ export interface Model {
   rank: number
   name: string
   provider: string
-  providerLogo: string
-  status: ModelStatus // Now strictly typed
+  providerLogo: string | null
+  status: ModelStatus
   availability: number
   responseTime: number
   errorRate: number
@@ -39,6 +38,8 @@ export interface Model {
   featuredOrder?: number
   featuredBy?: string
   featuredAt?: string
+  releasedAt?: string
+  lastUpdated?: string
 }
 
 export interface DataFreshness {
@@ -57,151 +58,11 @@ export interface UseFeaturedModelsReturn {
   refetch: () => Promise<void>
 }
 
-// Cache configuration
-const CACHE_KEY = 'dashboard_models_cache_v1'
+const CACHE_KEY = 'dashboard_models_cache_v2'
 const CACHE_TTL = 60 * 60 * 1000 // 1 hour
 const STALE_THRESHOLD = 30 * 60 * 1000 // 30 minutes
+const DEFAULT_LIMIT = 9
 
-// Hardcoded fallback models
-const fallbackModels: Model[] = [
-  {
-    id: 'gpt-5-high',
-    rank: 1,
-    name: 'GPT-5 (High)',
-    provider: 'OpenAI',
-    providerLogo: 'https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg',
-    status: MODEL_STATUS.OPERATIONAL,
-    availability: 99.95,
-    responseTime: 200,
-    errorRate: 0.02,
-    throughput: 1100,
-    description: 'Most advanced GPT-5 variant with maximum intelligence',
-    capabilities: ['Text Generation', 'Vision', 'Advanced Reasoning', 'Code', 'Real-time Thinking'],
-    intelligenceIndex: 68.95
-  },
-  {
-    id: 'gpt-5-medium',
-    rank: 2,
-    name: 'GPT-5 (Medium)',
-    provider: 'OpenAI',
-    providerLogo: 'https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg',
-    status: MODEL_STATUS.OPERATIONAL,
-    availability: 99.9,
-    responseTime: 180,
-    errorRate: 0.03,
-    throughput: 1200,
-    description: 'Balanced GPT-5 with excellent performance',
-    capabilities: ['Text Generation', 'Vision', 'Advanced Reasoning', 'Code'],
-    intelligenceIndex: 67.53
-  },
-  {
-    id: 'o3',
-    rank: 3,
-    name: 'o3',
-    provider: 'OpenAI',
-    providerLogo: 'https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg',
-    status: MODEL_STATUS.OPERATIONAL,
-    availability: 99.8,
-    responseTime: 220,
-    errorRate: 0.04,
-    throughput: 950,
-    description: 'Advanced reasoning model with chain-of-thought',
-    capabilities: ['Text Generation', 'Complex Reasoning', 'Mathematics', 'Code'],
-    intelligenceIndex: 67.07
-  },
-  {
-    id: 'claude-3-opus',
-    rank: 4,
-    name: 'Claude 3 Opus',
-    provider: 'Anthropic',
-    providerLogo: 'https://upload.wikimedia.org/wikipedia/commons/7/78/Anthropic_logo.svg',
-    status: MODEL_STATUS.OPERATIONAL,
-    availability: 99.8,
-    responseTime: 320,
-    errorRate: 0.03,
-    throughput: 720,
-    description: 'Most powerful Claude model for complex tasks',
-    capabilities: ['Text Generation', 'Vision', 'Long Context', 'Code', 'Constitutional AI'],
-    intelligenceIndex: 66.8
-  },
-  {
-    id: 'claude-3-7-sonnet',
-    rank: 5,
-    name: 'Claude 3.7 Sonnet',
-    provider: 'Anthropic',
-    providerLogo: 'https://upload.wikimedia.org/wikipedia/commons/7/78/Anthropic_logo.svg',
-    status: MODEL_STATUS.OPERATIONAL,
-    availability: 99.7,
-    responseTime: 200,
-    errorRate: 0.04,
-    throughput: 900,
-    description: 'Latest hybrid reasoning model with advanced capabilities',
-    capabilities: ['Text Generation', 'Hybrid Reasoning', 'Vision', 'Code'],
-    intelligenceIndex: 66.5
-  },
-  {
-    id: 'gemini-2-5-pro',
-    rank: 6,
-    name: 'Gemini 2.5 Pro',
-    provider: 'Google',
-    providerLogo: 'https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg',
-    status: MODEL_STATUS.OPERATIONAL,
-    availability: 99.5,
-    responseTime: 280,
-    errorRate: 0.06,
-    throughput: 750,
-    description: 'Google\'s most advanced multimodal model',
-    capabilities: ['Text Generation', 'Vision', 'Audio', 'Video', '2M Token Context'],
-    intelligenceIndex: 65.2
-  },
-  {
-    id: 'gemini-2-0-flash',
-    rank: 7,
-    name: 'Gemini 2.0 Flash',
-    provider: 'Google',
-    providerLogo: 'https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg',
-    status: MODEL_STATUS.OPERATIONAL,
-    availability: 99.6,
-    responseTime: 150,
-    errorRate: 0.05,
-    throughput: 1000,
-    description: 'Fast and efficient model for real-time applications',
-    capabilities: ['Text Generation', 'Vision', 'Fast Response', 'Multimodal'],
-    intelligenceIndex: 63.4
-  },
-  {
-    id: 'llama-3-1-405b',
-    rank: 8,
-    name: 'Llama 3.1 405B',
-    provider: 'Meta',
-    providerLogo: 'https://upload.wikimedia.org/wikipedia/commons/7/7b/Meta_Platforms_Inc._logo.svg',
-    status: MODEL_STATUS.OPERATIONAL,
-    availability: 98.9,
-    responseTime: 300,
-    errorRate: 0.08,
-    throughput: 600,
-    description: 'Most powerful open-source model available',
-    capabilities: ['Text Generation', 'Code', 'Multilingual', 'Open Source', '128K Context'],
-    intelligenceIndex: 62.8
-  },
-  {
-    id: 'mistral-large',
-    rank: 9,
-    name: 'Mistral Large',
-    provider: 'Mistral AI',
-    providerLogo: 'https://mistral.ai/images/logo.png',
-    status: MODEL_STATUS.OPERATIONAL,
-    availability: 99.2,
-    responseTime: 220,
-    errorRate: 0.07,
-    throughput: 780,
-    description: 'Europe\'s leading AI model with strong multilingual support',
-    capabilities: ['Text Generation', 'Code', 'Function Calling', '32K Context', 'Multilingual'],
-    intelligenceIndex: 61.5
-  }
-]
-
-// Cache data interface
 interface CacheData {
   models: Model[]
   timestamp: string
@@ -209,7 +70,6 @@ interface CacheData {
   version: string
 }
 
-// Cache manager class with improved type safety
 class ModelsCacheManager {
   private readonly CACHE_KEY = CACHE_KEY
   private readonly MAX_AGE = CACHE_TTL
@@ -220,7 +80,7 @@ class ModelsCacheManager {
         models,
         timestamp: new Date().toISOString(),
         dataSource,
-        version: '1.0.0'
+        version: '2.0.0'
       }
       if (typeof window !== 'undefined') {
         localStorage.setItem(this.CACHE_KEY, JSON.stringify(cacheData))
@@ -240,12 +100,11 @@ class ModelsCacheManager {
       const data: CacheData = JSON.parse(cached)
       const age = Date.now() - new Date(data.timestamp).getTime()
 
-      if (age > this.MAX_AGE) {
+      if (age > this.MAX_AGE || data.version !== '2.0.0') {
         this.clear()
         return null
       }
 
-      // Ensure dataSource is valid
       if (!Object.values(DATA_SOURCE).includes(data.dataSource)) {
         data.dataSource = DATA_SOURCE.CACHE
       }
@@ -255,11 +114,6 @@ class ModelsCacheManager {
       console.warn('Failed to load models from cache:', error)
       return null
     }
-  }
-
-  isValid(timestamp: string): boolean {
-    const age = Date.now() - new Date(timestamp).getTime()
-    return age <= this.MAX_AGE
   }
 
   clear(): void {
@@ -273,11 +127,11 @@ class ModelsCacheManager {
   }
 }
 
-// Utility functions
 function calculateFreshness(timestamp: string | null): DataFreshness {
   if (!timestamp) {
+    const now = new Date().toISOString()
     return {
-      timestamp: new Date().toISOString(),
+      timestamp: now,
       age: 0,
       isStale: false,
       display: 'Just now'
@@ -302,19 +156,91 @@ function calculateFreshness(timestamp: string | null): DataFreshness {
   }
 
   return {
-    timestamp: timestamp || new Date().toISOString(),
+    timestamp,
     age,
     isStale,
     display
   }
 }
 
-// Main hook
+function normalizeModel(rawModel: any, index: number, fallbackTimestamp?: string): Model {
+  const id = typeof rawModel?.id === 'string' && rawModel.id.length > 0
+    ? rawModel.id
+    : `model-${index + 1}`
+
+  const provider = typeof rawModel?.provider === 'string' && rawModel.provider.length > 0
+    ? rawModel.provider
+    : 'Unknown Provider'
+
+  const providerLogo = typeof rawModel?.providerLogo === 'string'
+    ? rawModel.providerLogo
+    : getProviderLogo(provider)
+
+  const statusFromApi = typeof rawModel?.status === 'string' ? rawModel.status.toLowerCase() : null
+  const status: ModelStatus = Object.values(MODEL_STATUS).includes(statusFromApi as ModelStatus)
+    ? (statusFromApi as ModelStatus)
+    : MODEL_STATUS.OPERATIONAL
+
+  const availability = typeof rawModel?.availability === 'number'
+    ? Number(rawModel.availability)
+    : 99.4
+
+  const responseTime = typeof rawModel?.responseTime === 'number'
+    ? Math.max(80, Math.round(rawModel.responseTime))
+    : 250
+
+  const errorRate = typeof rawModel?.errorRate === 'number'
+    ? Math.max(0, Number(rawModel.errorRate))
+    : 0.02
+
+  const throughput = typeof rawModel?.throughput === 'number'
+    ? Math.max(100, Math.round(rawModel.throughput))
+    : 850
+
+  const description = typeof rawModel?.description === 'string' && rawModel.description.length > 0
+    ? rawModel.description
+    : `${provider} 모델`
+
+  const capabilities = Array.isArray(rawModel?.capabilities) && rawModel.capabilities.length > 0
+    ? rawModel.capabilities.slice(0, 6)
+    : ['Text Generation', 'Advanced Reasoning']
+
+  const intelligenceIndex = typeof rawModel?.intelligenceIndex === 'number'
+    ? Number(rawModel.intelligenceIndex)
+    : 0
+
+  const featuredAt = typeof rawModel?.featuredAt === 'string'
+    ? rawModel.featuredAt
+    : fallbackTimestamp
+
+  return {
+    id,
+    rank: typeof rawModel?.rank === 'number' ? rawModel.rank : index + 1,
+    name: typeof rawModel?.name === 'string' ? rawModel.name : `Model ${index + 1}`,
+    provider,
+    providerLogo: providerLogo || null,
+    status,
+    availability,
+    responseTime,
+    errorRate,
+    throughput,
+    description,
+    capabilities,
+    intelligenceIndex,
+    isFeatured: rawModel?.isFeatured ?? true,
+    featuredOrder: typeof rawModel?.featuredOrder === 'number' ? rawModel.featuredOrder : index + 1,
+    featuredBy: typeof rawModel?.featuredBy === 'string' ? rawModel.featuredBy : undefined,
+    featuredAt,
+    releasedAt: typeof rawModel?.releasedAt === 'string' ? rawModel.releasedAt : undefined,
+    lastUpdated: typeof rawModel?.lastUpdated === 'string' ? rawModel.lastUpdated : undefined
+  }
+}
+
 export function useFeaturedModels(): UseFeaturedModelsReturn {
-  const [models, setModels] = useState<Model[]>(fallbackModels)
+  const [models, setModels] = useState<Model[]>([])
   const [isLoading, setIsLoading] = useState(true)
   const [error, setError] = useState<Error | null>(null)
-  const [dataSource, setDataSource] = useState<DataSource>(DATA_SOURCE.FALLBACK)
+  const [dataSource, setDataSource] = useState<DataSource>(DATA_SOURCE.LIVE)
   const [freshness, setFreshness] = useState<DataFreshness>(calculateFreshness(null))
 
   const cacheManager = new ModelsCacheManager()
@@ -324,67 +250,44 @@ export function useFeaturedModels(): UseFeaturedModelsReturn {
     setError(null)
 
     try {
-      // Step 1: Try to fetch from API (includes featured models from DB)
-      const response = await fetch('/api/v1/intelligence-index?limit=9')
+      const response = await fetch(`/api/v1/intelligence-index?limit=${DEFAULT_LIMIT}`)
 
       if (!response.ok) {
         throw new Error(`API error: ${response.status}`)
       }
 
       const data = await response.json()
+      const timestamp = typeof data.timestamp === 'string' ? data.timestamp : new Date().toISOString()
 
-      if (data.models && data.models.length > 0) {
-        const mappedModels: Model[] = data.models.map((model: any) => ({
-          id: model.id || model.name.toLowerCase().replace(/[^a-z0-9]+/g, '-'),
-          rank: model.rank,
-          name: model.name,
-          provider: model.provider,
-          providerLogo: getProviderLogo(model.provider) || model.providerLogo,
-          status: MODEL_STATUS.OPERATIONAL,
-          availability: 99.5,
-          responseTime: 250,
-          errorRate: 0.03,
-          throughput: 800,
-          description: `${model.provider}'s advanced AI model with Intelligence Index of ${model.intelligenceIndex}`,
-          capabilities: ['Text Generation', 'Advanced Reasoning'],
-          intelligenceIndex: model.intelligenceIndex,
-          isFeatured: model.isFeatured,
-          featuredOrder: model.featuredOrder,
-          featuredBy: model.featuredBy,
-          featuredAt: model.featuredAt
-        }))
-
-        // Determine the actual data source
-        const actualDataSource: DataSource = data.models.some((m: any) => m.isFeatured)
-          ? DATA_SOURCE.FEATURED
-          : data.cached
-            ? DATA_SOURCE.CACHE
-            : DATA_SOURCE.LIVE
-
-        // Save to cache with correct data source
-        cacheManager.save(mappedModels, actualDataSource)
-
-        setModels(mappedModels)
-        setDataSource(actualDataSource)
-        setFreshness(calculateFreshness(data.timestamp || new Date().toISOString()))
+      if (!Array.isArray(data.models) || data.models.length === 0) {
+        throw new Error('API returned no models')
       }
+
+      const normalizedModels: Model[] = data.models.map((model: any, index: number) =>
+        normalizeModel(model, index, timestamp)
+      )
+
+      const source = data.cached ? DATA_SOURCE.CACHE : DATA_SOURCE.LIVE
+
+      cacheManager.save(normalizedModels, source)
+
+      setModels(normalizedModels)
+      setDataSource(source)
+      setFreshness(calculateFreshness(timestamp))
     } catch (apiError) {
       console.warn('API fetch failed, trying cache:', apiError)
 
-      // Step 2: Try to load from cache
       const cached = cacheManager.load()
 
       if (cached && cached.models.length > 0) {
         setModels(cached.models)
-        setDataSource(DATA_SOURCE.CACHE)
+        setDataSource(cached.dataSource)
         setFreshness(calculateFreshness(cached.timestamp))
       } else {
-        // Step 3: Use fallback models
-        console.warn('No cache available, using fallback models')
-        setModels(fallbackModels)
+        setModels([])
         setDataSource(DATA_SOURCE.FALLBACK)
-        setFreshness(calculateFreshness(new Date().toISOString()))
-        setError(new Error('Using fallback data - API and cache unavailable'))
+        setFreshness(calculateFreshness(null))
+        setError(new Error('모델 데이터를 불러오지 못했습니다. 다시 시도해주세요.'))
       }
     } finally {
       setIsLoading(false)
