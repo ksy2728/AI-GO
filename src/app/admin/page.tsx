@@ -3,7 +3,6 @@
 import { useEffect, useState } from 'react'
 import { Card } from '@/components/ui/card'
 import {
-  Users,
   Database,
   Activity,
   AlertTriangle,

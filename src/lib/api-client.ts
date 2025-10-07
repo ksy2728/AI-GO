@@ -1,4 +1,4 @@
-import { Model, ModelStats, Provider, BenchmarkScore, Incident, ModelStatus } from '@/types/models'
+import type { Model, ModelStats, Provider, BenchmarkScore, Incident, ModelStatus } from '@/types/models'
 
 // Use relative URL by default to avoid CORS issues
 // This ensures the API calls go to the same domain as the frontend

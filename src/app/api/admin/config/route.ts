@@ -29,14 +29,14 @@ interface ModelConfig {
 function validateConfig(config: any): config is ModelConfig {
   if (!config || typeof config !== 'object') return false;
 
-  for (const [provider, providerData] of Object.entries(config)) {
+  for (const [, providerData] of Object.entries(config)) {
     if (!providerData || typeof providerData !== 'object') return false;
 
     const data = providerData as any;
     if (!data.lastUpdated || !data.source || !data.models) return false;
     if (!['manual', 'api', 'estimated'].includes(data.source)) return false;
 
-    for (const [modelName, modelData] of Object.entries(data.models)) {
+    for (const [, modelData] of Object.entries(data.models)) {
       const model = modelData as any;
       if (
         typeof model.inputPrice !== 'number' ||
