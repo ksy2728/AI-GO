@@ -1,6 +1,94 @@
 {
   "articles": [
     {
+      "id": "gemini-enterprise-google-aims-to-put-an-ai-agent-o",
+      "title": "Gemini Enterprise: Google aims to put an AI agent on every desk",
+      "summary": "Google Cloud has launched Gemini Enterprise, a new platform it calls &#8220;the new front door for AI in the workplace&#8221;.  Announced during a virtual press conference, the platform brings togethe.",
+      "content": "Google Cloud has launched Gemini Enterprise, a new platform it calls &#8220;the new front door for AI in the workplace&#8221;. Announced during a virtual press conference, the platform brings together Google&#8217;s Gemini models, first and third-party agents, and the core technology of what was for",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2025-10-09T12:00:03.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gemini",
+        "Google"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/gemini-enterprise-google-ai-agent-every-desk/",
+      "readTime": 3,
+      "views": 40241
+    },
+    {
+      "id": "google-ramps-up-its-8216-ai-in-the-workplace-8217-",
+      "title": "Google ramps up its &#8216;AI in the workplace&#8217; ambitions with Gemini Enterprise",
+      "summary": "The new product launched Thursday already has customers, including Gordon Foods, Macquarie Bank, and Virgin Voyages.",
+      "content": "The new product launched Thursday already has customers, including Gordon Foods, Macquarie Bank, and Virgin Voyages.",
+      "source": "TechCrunch AI",
+      "author": "Kirsten Korosec",
+      "publishedAt": "2025-10-09T12:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gemini",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2025/10/09/google-ramps-up-its-ai-in-the-workplace-ambitions-with-gemini-enterprise/",
+      "readTime": 3,
+      "views": 42714
+    },
+    {
+      "id": "can-cisco-8217-s-new-ai-data-centre-router-tackle-",
+      "title": "Can Cisco&#8217;s new AI data centre router tackle the industry&#8217;s biggest infrastructure bottleneck?",
+      "summary": "Cisco has entered an increasingly competitive race to dominate AI data centre interconnect technology, becoming the latest major player to unveil purpose-built routing hardware for connecting distribu.",
+      "content": "Cisco has entered an increasingly competitive race to dominate AI data centre interconnect technology, becoming the latest major player to unveil purpose-built routing hardware for connecting distributed AI workloads across multiple facilities. The networking giant unveiled its 8223 routing system o",
+      "source": "AI News",
+      "author": "Dashveenjit Kaur",
+      "publishedAt": "2025-10-09T09:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/cisco-ai-data-centre-router-infrastructure-bottleneck/",
+      "readTime": 3,
+      "views": 38746
+    },
+    {
+      "id": "ai-value-remains-elusive-despite-soaring-investmen",
+      "title": "AI value remains elusive despite soaring investment",
+      "summary": "A new report from Red Hat finds that 89 percent of businesses are yet to see any customer value from their AI endeavours.  However, organisations anticipate a 32 percent increase in AI investment by 2.",
+      "content": "A new report from Red Hat finds that 89 percent of businesses are yet to see any customer value from their AI endeavours. However, organisations anticipate a 32 percent increase in AI investment by 2026. The survey finds that AI and security are the joint top IT priorities for UK organisations over ",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2025-10-09T08:00:02.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/ai-value-remains-elusive-despite-soaring-investment/",
+      "readTime": 3,
+      "views": 10041
+    },
+    {
+      "id": "openai-8217-s-affordable-chatgpt-go-plan-expands-t",
+      "title": "OpenAI&#8217;s affordable ChatGPT Go plan expands to 16 new countries in Asia",
+      "summary": "OpenAI is expanding its $5 per month ChatGPT Go plan to 16 more countries.",
+      "content": "OpenAI is expanding its $5 per month ChatGPT Go plan to 16 more countries.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2025-10-09T07:01:57.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gpt",
+        "openai",
+        "chatgpt",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2025/10/09/openais-affordable-chatgpt-go-plan-expands-to-16-new-countries-in-asia/",
+      "readTime": 3,
+      "views": 19082
+    },
+    {
       "id": "even-after-stargate-oracle-nvidia-and-amd-openai-h",
       "title": "Even after Stargate, Oracle, Nvidia, and AMD, OpenAI has more big deals coming soon, Sam Altman says",
       "summary": "By some estimates, OpenAI has this year inked $1 trillion worth of infrastructure deals.  Altman says to expect even more.",
@@ -16,27 +104,7 @@
       ],
       "url": "https://techcrunch.com/2025/10/08/even-after-stargate-oracle-nvidia-and-amd-openai-has-more-big-deals-coming-soon-sam-altman-says/",
       "readTime": 3,
-      "views": 44306
-    },
-    {
-      "id": "openai-8217-s-nick-turley-on-transforming-chatgpt-",
-      "title": "OpenAI&#8217;s Nick Turley on transforming ChatGPT into an operating system",
-      "summary": "In an interview, OpenAI's Head of ChatGPT discusses the company's push into developing an AI operating system full of third-party apps.",
-      "content": "In an interview, OpenAI's Head of ChatGPT discusses the company's push into developing an AI operating system full of third-party apps.",
-      "source": "TechCrunch AI",
-      "author": "Maxwell Zeff",
-      "publishedAt": "2025-10-08T20:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gpt",
-        "openai",
-        "chatgpt",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2025/10/08/openais-nick-turley-on-transforming-chatgpt-into-an-operating-system/",
-      "readTime": 3,
-      "views": 35026
+      "views": 29986
     },
     {
       "id": "sora-8217-s-downloads-in-its-first-week-was-nearly",
@@ -54,7 +122,7 @@
       ],
       "url": "https://techcrunch.com/2025/10/08/soras-downloads-in-its-first-week-was-nearly-as-big-as-chatgpts-launch/",
       "readTime": 3,
-      "views": 8783
+      "views": 5462
     },
     {
       "id": "zendesk-says-its-new-ai-agent-can-solve-80-of-supp",
@@ -70,7 +138,7 @@
       ],
       "url": "https://techcrunch.com/2025/10/08/zendesk-says-its-new-ai-agent-can-solve-80-of-support-issues/",
       "readTime": 3,
-      "views": 11299
+      "views": 35182
     },
     {
       "id": "google-8217-s-virtual-try-on-shopping-tool-expands",
@@ -87,7 +155,7 @@
       ],
       "url": "https://techcrunch.com/2025/10/08/googles-virtual-try-on-shopping-tool-expands-to-more-countries-now-lets-you-try-on-shoes/",
       "readTime": 3,
-      "views": 32501
+      "views": 21388
     },
     {
       "id": "softbank-bulks-up-its-robotics-portfolio-with-abb-",
@@ -104,7 +172,7 @@
       ],
       "url": "https://techcrunch.com/2025/10/08/softbank-bulks-up-its-robotics-portfolio-with-abb-groups-robotics-unit/",
       "readTime": 3,
-      "views": 22814
+      "views": 42612
     },
     {
       "id": "google-launches-extensions-system-for-its-command-",
@@ -122,7 +190,7 @@
       ],
       "url": "https://techcrunch.com/2025/10/08/google-launches-extensions-system-for-its-command-line-coding-tool/",
       "readTime": 3,
-      "views": 33483
+      "views": 47505
     },
     {
       "id": "from-courtside-to-code-tristan-thompson-on-ai-spor",
@@ -138,7 +206,7 @@
       ],
       "url": "https://techcrunch.com/2025/10/08/tristan-thompson-on-ai-sports-and-startups-at-techcrunch-disrupt-2025/",
       "readTime": 3,
-      "views": 42902
+      "views": 45233
     },
     {
       "id": "samsung-s-tiny-ai-model-beats-giant-reasoning-llms",
@@ -157,7 +225,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/samsung-tiny-ai-model-beats-giant-reasoning-llms/",
       "readTime": 3,
-      "views": 54565
+      "views": 54192
     },
     {
       "id": "tuned-global-strengthens-its-leadership-in-music-t",
@@ -165,7 +233,7 @@
       "summary": "The acquisition underscores Tuned Global’s commitment to shaping the future of the music industry by empowering clients with innovative technology and unmatched execution, while continuing to support .",
       "content": "The acquisition underscores Tuned Global’s commitment to shaping the future of the music industry by empowering clients with innovative technology and unmatched execution, while continuing to support existing Figaro.ai customers. Wednesday, 8 October, 2025 — Tuned Global, the leading music and media",
       "source": "AI News",
-      "author": "Figaro",
+      "author": "Tuned Global",
       "publishedAt": "2025-10-08T10:37:29.000Z",
       "category": "release",
       "tags": [
@@ -173,7 +241,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/tuned-global-strengthens-its-leadership-in-music-technology-with-the-acquisition-of-figaro-ai/",
       "readTime": 3,
-      "views": 23216
+      "views": 11349
     },
     {
       "id": "ai-redaction-that-puts-privacy-first-caseguard-stu",
@@ -189,7 +257,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/ai-redaction-that-puts-privacy-first-caseguard-studio-leading-the-way/",
       "readTime": 3,
-      "views": 24066
+      "views": 32331
     },
     {
       "id": "you-can-8217-t-libel-the-dead-but-that-doesn-8217-",
@@ -205,7 +273,7 @@
       ],
       "url": "https://techcrunch.com/2025/10/07/you-cant-libel-the-dead-but-that-doesnt-mean-you-should-deepfake-them/",
       "readTime": 3,
-      "views": 53897
+      "views": 11441
     },
     {
       "id": "wall-street-analysts-explain-how-amd-s-own-stock-w",
@@ -224,7 +292,7 @@
       ],
       "url": "https://techcrunch.com/2025/10/07/wall-street-analysts-explain-how-amds-own-stock-will-pay-for-openais-billions-in-chip-purchases/",
       "readTime": 3,
-      "views": 43571
+      "views": 12427
     },
     {
       "id": "how-otter-ai-8217-s-ceo-is-pushing-the-company-to-",
@@ -240,7 +308,7 @@
       ],
       "url": "https://techcrunch.com/2025/10/07/how-otter-ais-ceo-is-pushing-the-company-to-be-more-than-just-a-meeting-scribe/",
       "readTime": 3,
-      "views": 48070
+      "views": 21898
     },
     {
       "id": "ai-toys-are-all-the-rage-in-china-and-now-they-re-",
@@ -256,7 +324,7 @@
       ],
       "url": "https://www.technologyreview.com/2025/10/07/1125191/ai-toys-in-china/",
       "readTime": 3,
-      "views": 11112
+      "views": 53724
     },
     {
       "id": "anthropic-plans-to-open-india-office-eyes-tie-up-w",
@@ -274,93 +342,21 @@
       ],
       "url": "https://techcrunch.com/2025/10/07/anthropic-plans-to-open-india-office-eyes-tie-up-with-billionaire-ambani/",
       "readTime": 3,
-      "views": 21588
-    },
-    {
-      "id": "anthropic-and-ibm-announce-strategic-partnership",
-      "title": "Anthropic and IBM announce strategic partnership",
-      "summary": "Anthropic's Claude large language model family will be incorporated into some of IBM's software development products.",
-      "content": "Anthropic's Claude large language model family will be incorporated into some of IBM's software development products.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Szkutak",
-      "publishedAt": "2025-10-07T16:22:51.000Z",
-      "category": "release",
-      "tags": [
-        "language model",
-        "anthropic",
-        "claude",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2025/10/07/anthropic-and-ibm-announce-strategic-partnership/",
-      "readTime": 3,
-      "views": 25653
-    },
-    {
-      "id": "openai-and-the-race-for-ai-driven-commerce",
-      "title": "OpenAI and the race for AI-driven commerce",
-      "summary": "OpenAI now has all the pieces in place for AI-driven commerce, establishing ChatGPT as a place customers go to buy and retailers go to sell.",
-      "content": "OpenAI now has all the pieces in place for AI-driven commerce, establishing ChatGPT as a place customers go to buy and retailers go to sell.",
-      "source": "TechCrunch AI",
-      "author": "Russell Brandom",
-      "publishedAt": "2025-10-07T14:24:25.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gpt",
-        "openai",
-        "chatgpt",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2025/10/07/openai-and-the-race-for-ai-driven-commerce/",
-      "readTime": 3,
-      "views": 6049
-    },
-    {
-      "id": "xai-hires-former-morgan-stanley-banker-anthony-arm",
-      "title": "xAI hires former Morgan Stanley banker Anthony Armstrong as CFO",
-      "summary": "Armstrong, who advised Musk during his Twitter takeover, will oversee the finances of both xAI and X, which were merged in April, the report said.",
-      "content": "Armstrong, who advised Musk during his Twitter takeover, will oversee the finances of both xAI and X, which were merged in April, the report said.",
-      "source": "TechCrunch AI",
-      "author": "Ram Iyer",
-      "publishedAt": "2025-10-07T12:12:51.000Z",
-      "category": "partnership",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/10/07/xai-hires-former-morgan-stanley-banker-anthony-armstrong-as-cfo/",
-      "readTime": 3,
-      "views": 27435
-    },
-    {
-      "id": "how-ai-is-changing-the-way-we-travel",
-      "title": "How AI is changing the way we travel",
-      "summary": "AI is reshaping how people plan and experience travel.  From curated videos on Instagram Reels to booking engines that build entire itineraries in seconds, AI is becoming a powerful force in how journ.",
-      "content": "AI is reshaping how people plan and experience travel. From curated videos on Instagram Reels to booking engines that build entire itineraries in seconds, AI is becoming a powerful force in how journeys are imagined, booked, and lived. But this shift raises an important question: is AI giving travel",
-      "source": "AI News",
-      "author": "Muhammad Zulhusni",
-      "publishedAt": "2025-10-07T11:00:00.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/how-ai-is-changing-the-way-we-travel/",
-      "readTime": 3,
-      "views": 52321
+      "views": 44210
     }
   ],
-  "lastUpdated": "2025-10-09T06:28:03.890Z",
+  "lastUpdated": "2025-10-09T12:38:02.586Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "TechCrunch AI",
     "AI News",
+    "TechCrunch AI",
     "MIT Technology Review AI"
   ],
   "categories": [
     "release",
+    "funding",
     "research",
-    "market",
-    "partnership",
-    "funding"
+    "market"
   ]
 }
