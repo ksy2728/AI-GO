@@ -171,8 +171,15 @@ export async function loadDashboardFeaturedModels(options: SelectionOptions = {}
 
   const sorted = normalized
     .sort((a, b) => {
-      if (b.recency !== a.recency) return b.recency - a.recency
-      if (b.intelligenceIndex !== a.intelligenceIndex) return b.intelligenceIndex - a.intelligenceIndex
+      // 1순위: Intelligence Index (성능)
+      if (b.intelligenceIndex !== a.intelligenceIndex) {
+        return b.intelligenceIndex - a.intelligenceIndex
+      }
+      // 2순위: 최신성 (같은 성능일 경우)
+      if (b.recency !== a.recency) {
+        return b.recency - a.recency
+      }
+      // 3순위: 이름
       return a.name.localeCompare(b.name)
     })
     .slice(0, limit)
