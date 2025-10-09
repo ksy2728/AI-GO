@@ -8,6 +8,7 @@ import { RegionSelectCompact } from '@/components/ui/region-select'
 import { RealTimeStatusBadge } from '@/components/monitoring/RealTimeStatusBadge'
 import { useLanguage } from '@/contexts/LanguageContext'
 import { useRegion, useModelMetrics, useRegionApi, type RegionModelMetrics, normalizeRegionStatus } from '@/contexts/RegionContext'
+import { Region, getRegionByCode } from '@/types/regions'
 import { 
   ChevronRight,
   ChevronDown,
@@ -36,15 +37,28 @@ export function FeaturedModelCard({ model }: FeaturedModelCardProps) {
   const { t } = useLanguage()
   const [isExpanded, setIsExpanded] = useState(false)
   const [imageError, setImageError] = useState(false)
-  
-  // Region context integration - Fixed infinite loop
-  const { selectedRegion, isLoading } = useRegion()
+
+  // Global region context (fallback)
+  const { selectedRegion: globalRegion } = useRegion()
   const { fetchModelMetrics } = useRegionApi()
+
+  // Per-card region state with localStorage persistence
+  const [cardRegion, setCardRegion] = useState<Region>(() => {
+    // Client-side only: Load from localStorage for this specific model
+    if (typeof window !== 'undefined') {
+      const savedRegionCode = localStorage.getItem(`ai-go-model-region-${model.id}`)
+      if (savedRegionCode) {
+        const savedRegion = getRegionByCode(savedRegionCode)
+        if (savedRegion) return savedRegion
+      }
+    }
+    // Fallback to global region
+    return globalRegion
+  })
+
+  const [isLoadingRegion, setIsLoadingRegion] = useState(false)
   const regionMetrics = useModelMetrics(model.id)
-  
-  // Local state for region selection to prevent infinite loop
-  const [localRegion, setLocalRegion] = useState(selectedRegion)
-  
+
   // State for region-specific metrics
   const [displayMetrics, setDisplayMetrics] = useState<{
     availability: number
@@ -60,14 +74,33 @@ export function FeaturedModelCard({ model }: FeaturedModelCardProps) {
     status: model.status
   })
 
-  // Sync local region with global region
-  useEffect(() => {
-    setLocalRegion(selectedRegion)
-  }, [selectedRegion])
+  // Handler for region change with localStorage persistence
+  const handleRegionChange = (region: Region) => {
+    if (region.code === cardRegion.code) return // Prevent unnecessary updates
 
-  // Fetch region-specific metrics when local region changes
+    setCardRegion(region)
+    setIsLoadingRegion(true)
+
+    // Save to localStorage for persistence
+    if (typeof window !== 'undefined') {
+      localStorage.setItem(`ai-go-model-region-${model.id}`, region.code)
+    }
+
+    // Fetch new region metrics immediately
+    fetchModelMetrics(model.id, region.code)
+      .then(() => {
+        setIsLoadingRegion(false)
+      })
+      .catch(error => {
+        console.warn('Failed to fetch metrics for region:', error)
+        setIsLoadingRegion(false)
+      })
+  }
+
+  // Fetch region-specific metrics when card region changes
   useEffect(() => {
     let cancelled = false
+    let timeoutId: NodeJS.Timeout
 
     const applyMetrics = (metrics: RegionModelMetrics) => {
       const availability = typeof metrics.availability === 'number' ? metrics.availability : model.availability || 99.5
@@ -92,29 +125,37 @@ export function FeaturedModelCard({ model }: FeaturedModelCardProps) {
       }
     }
 
-    fetchModelMetrics(model.id, localRegion.code)
-      .then(metrics => {
-        if (!cancelled) {
-          applyMetrics(metrics)
-        }
-      })
-      .catch(error => {
-        console.warn('Using default metrics:', error)
-        if (!cancelled) {
-          setDisplayMetrics({
-            availability: model.availability || 99.5,
-            responseTime: model.responseTime || 250,
-            errorRate: model.errorRate || 0.02,
-            throughput: model.throughput || 800,
-            status: model.status
+    // Debounce metrics fetching to prevent rapid successive calls
+    timeoutId = setTimeout(() => {
+      if (!cancelled) {
+        fetchModelMetrics(model.id, cardRegion.code)
+          .then(metrics => {
+            if (!cancelled) {
+              applyMetrics(metrics)
+            }
           })
-        }
-      })
+          .catch(error => {
+            console.warn('Using default metrics:', error)
+            if (!cancelled) {
+              setDisplayMetrics({
+                availability: model.availability || 99.5,
+                responseTime: model.responseTime || 250,
+                errorRate: model.errorRate || 0.02,
+                throughput: model.throughput || 800,
+                status: model.status
+              })
+            }
+          })
+      }
+    }, 100)
 
     return () => {
       cancelled = true
+      if (timeoutId) {
+        clearTimeout(timeoutId)
+      }
     }
-  }, [regionMetrics, fetchModelMetrics, model.id, model.availability, model.responseTime, model.errorRate, model.throughput, model.status, localRegion.code])
+  }, [regionMetrics, fetchModelMetrics, model.id, model.availability, model.responseTime, model.errorRate, model.throughput, model.status, cardRegion.code])
 
   const getStatusColor = (status: string) => {
     switch (status) {
@@ -223,23 +264,21 @@ export function FeaturedModelCard({ model }: FeaturedModelCardProps) {
             </div>
             <div className="flex flex-col items-end gap-2">
               {/* Real-time status badge */}
-              <RealTimeStatusBadge 
+              <RealTimeStatusBadge
                 modelId={model.id}
+                selectedRegion={cardRegion}
                 fallbackStatus={displayMetrics.status}
                 showDetails={false}
                 className="z-10"
               />
-              
-              {/* Region Selector - Fixed with local state */}
-              <div className="flex items-center gap-1" onClick={(e) => e.stopPropagation()}>
-                <MapPin className="w-3 h-3 text-muted-foreground" />
-                <RegionSelectCompact
-                  value={localRegion}
-                  onValueChange={setLocalRegion}
-                  disabled={isLoading}
-                  className="min-w-[100px]"
-                />
-              </div>
+
+              {/* Per-card Region Selector */}
+              <RegionSelectCompact
+                value={cardRegion}
+                onValueChange={handleRegionChange}
+                disabled={isLoadingRegion}
+                className="w-[140px]"
+              />
             </div>
           </div>
 
@@ -262,12 +301,12 @@ export function FeaturedModelCard({ model }: FeaturedModelCardProps) {
 
           {/* Removed detailed metrics - available in detailed view */}
 
-          {/* Region indicator */}
-          {isLoading && (
+          {/* Region loading indicator */}
+          {isLoadingRegion && (
             <div className="flex items-center justify-center py-2 mb-2">
               <div className="flex items-center gap-2 text-xs text-muted-foreground">
                 <div className="w-3 h-3 border-2 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
-                <span>Loading {selectedRegion.name} metrics...</span>
+                <span>Loading {cardRegion.name} metrics...</span>
               </div>
             </div>
           )}

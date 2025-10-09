@@ -5,12 +5,14 @@ import { Badge } from '@/components/ui/badge'
 import { Loader2, Wifi, WifiOff, AlertTriangle } from 'lucide-react'
 import { useModelMetrics, useRegion, useRegionApi, normalizeRegionStatus } from '@/contexts/RegionContext'
 import { cn } from '@/lib/utils'
+import type { Region } from '@/types/regions'
 
 // Import model status types for consistency
 import type { ModelStatus } from '@/hooks/useFeaturedModels'
 
 interface RealTimeStatusBadgeProps {
   modelId: string
+  selectedRegion?: Region // Optional: Per-card region override
   fallbackStatus?: ModelStatus | 'outage'
   className?: string
   showDetails?: boolean
@@ -43,25 +45,36 @@ const STATUS_CONFIG = {
   }
 }
 
-export function RealTimeStatusBadge({ 
-  modelId, 
+export function RealTimeStatusBadge({
+  modelId,
+  selectedRegion: propRegion, // Per-card region (optional)
   fallbackStatus = 'operational',
   className,
   showDetails = false
 }: RealTimeStatusBadgeProps) {
-  const { selectedRegion } = useRegion()
+  const { selectedRegion: globalRegion } = useRegion()
   const { fetchModelMetrics } = useRegionApi()
   const metrics = useModelMetrics(modelId)
   const [isLoading, setIsLoading] = useState(!metrics)
   const [error, setError] = useState<string | null>(null)
 
+  // Use per-card region if provided, otherwise fall back to global region
+  const effectiveRegion = propRegion || globalRegion
+
+  // Track previous status to prevent unnecessary re-renders
+  const [previousStatus, setPreviousStatus] = useState<ModelStatus | undefined>(undefined)
+
   useEffect(() => {
     let cancelled = false
 
     const loadMetrics = async () => {
-      setIsLoading(true)
+      // Only show loading on initial fetch, not on polling updates
+      if (!metrics) {
+        setIsLoading(true)
+      }
+
       try {
-        await fetchModelMetrics(modelId, selectedRegion.code)
+        await fetchModelMetrics(modelId, effectiveRegion.code)
         if (!cancelled) {
           setError(null)
         }
@@ -70,28 +83,36 @@ export function RealTimeStatusBadge({
           setError(err instanceof Error ? err.message : '메트릭 로드 실패')
         }
       } finally {
-        if (!cancelled) {
+        if (!cancelled && !metrics) {
           setIsLoading(false)
         }
       }
     }
 
     loadMetrics()
-    const interval = setInterval(loadMetrics, 30000)
+    // Poll every 60 seconds instead of 30 to reduce flickering
+    const interval = setInterval(loadMetrics, 60000)
 
     return () => {
       cancelled = true
       clearInterval(interval)
     }
-  }, [modelId, selectedRegion.code, fetchModelMetrics])
+  }, [modelId, effectiveRegion.code, fetchModelMetrics])
 
   const fallbackModelStatus = useMemo<ModelStatus>(() => (
     fallbackStatus === 'outage' ? 'down' : fallbackStatus
   ), [fallbackStatus])
 
-  const derivedStatus: ModelStatus = useMemo(() => (
-    normalizeRegionStatus(metrics?.status, fallbackModelStatus)
-  ), [metrics?.status, fallbackModelStatus])
+  const derivedStatus: ModelStatus = useMemo(() => {
+    const newStatus = normalizeRegionStatus(metrics?.status, fallbackModelStatus)
+
+    // Only update if status actually changed
+    if (newStatus !== previousStatus) {
+      setPreviousStatus(newStatus)
+    }
+
+    return newStatus
+  }, [metrics?.status, fallbackModelStatus, previousStatus])
 
   const config = STATUS_CONFIG[derivedStatus]
   const StatusIcon = config.icon
