@@ -1,8 +1,9 @@
-import { NextRequest, NextResponse } from 'next/server';
+import type { NextRequest } from 'next/server'
+import { NextResponse } from 'next/server'
 import { AnthropicService } from '@/services/external/anthropic.service';
 import { logger } from '@/utils/logger';
 
-export async function POST(request: NextRequest) {
+export async function POST(_request: NextRequest) {
   try {
     logger.info('Anthropic sync API called');
     
@@ -27,7 +28,7 @@ export async function POST(request: NextRequest) {
   }
 }
 
-export async function GET(request: NextRequest) {
+export async function GET(_request: NextRequest) {
   try {
     const anthropicService = new AnthropicService();
     const models = await anthropicService.getModels();

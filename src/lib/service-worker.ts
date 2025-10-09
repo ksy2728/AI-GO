@@ -68,11 +68,6 @@ const FONT_CACHE_PATTERNS = [
   /fonts\.gstatic\.com/
 ]
 
-interface CacheResponse {
-  response: Response
-  timestamp: number
-}
-
 export class ServiceWorkerManager {
   private cacheName: string
 
@@ -81,7 +76,7 @@ export class ServiceWorkerManager {
   }
 
   // Install event - cache static resources
-  async handleInstall(event: any): Promise<void> {
+  async handleInstall(_event: any): Promise<void> {
     const cache = await caches.open(CACHE_NAMES.static)
 
     try {
@@ -96,7 +91,7 @@ export class ServiceWorkerManager {
   }
 
   // Activate event - clean old caches
-  async handleActivate(event: any): Promise<void> {
+  async handleActivate(_event: any): Promise<void> {
     const cacheNames = await caches.keys()
 
     const deletePromises = cacheNames

@@ -10,7 +10,7 @@ export async function GET() {
       const { prisma } = await import('@/lib/prisma')
       await prisma.$queryRaw`SELECT 1`
       dbStatus = 'healthy'
-    } catch (error) {
+    } catch {
       dbStatus = 'unhealthy'
     }
 
@@ -23,7 +23,7 @@ export async function GET() {
       } else {
         redisStatus = 'not_configured'
       }
-    } catch (error) {
+    } catch {
       redisStatus = 'unhealthy'
     }
 

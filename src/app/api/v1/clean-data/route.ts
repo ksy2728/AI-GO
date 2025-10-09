@@ -1,4 +1,5 @@
-import { NextRequest, NextResponse } from 'next/server'
+import type { NextRequest } from 'next/server'
+import { NextResponse } from 'next/server'
 import { prisma } from '@/lib/prisma'
 
 // Test data patterns to identify and remove
@@ -40,7 +41,7 @@ export async function POST(request: NextRequest) {
 
     const modelIds = testModels.map(m => m.id)
 
-    let deletedCounts = {
+    const deletedCounts = {
       models: 0,
       status: 0,
       benchmarks: 0,

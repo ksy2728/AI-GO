@@ -1,5 +1,4 @@
-import { Model } from '@/types/models'
-import { TableModel } from '@/types/table'
+import type { TableModel } from '@/types/table'
 
 // Helper function to handle string arrays stored as JSON strings in database
 function coerceStringArray(value: unknown): string[] {

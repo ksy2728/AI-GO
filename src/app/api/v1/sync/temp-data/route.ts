@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { ApiSyncService } from '@/services/api-sync.service';
 import { logger } from '@/utils/logger';
 
-export async function POST(request: Request) {
+export async function POST(_request: Request) {
   try {
     logger.info('🚀 Starting database sync with APIs...');
 

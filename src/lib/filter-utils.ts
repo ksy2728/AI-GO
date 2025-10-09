@@ -1,4 +1,4 @@
-import { Model } from '@/types/models'
+import type { Model } from '@/types/models'
 import { MAJOR_PROVIDERS } from '@/constants/models'
 
 export interface UnifiedFilterOptions {

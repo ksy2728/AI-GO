@@ -1,4 +1,5 @@
-import { NextRequest, NextResponse } from 'next/server'
+import type { NextRequest } from 'next/server'
+import { NextResponse } from 'next/server'
 import { AAStatusService } from '@/services/aa-status.service'
 
 // Node.js Runtime for reliable data fetching

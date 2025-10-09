@@ -95,19 +95,6 @@ export default function AdminDashboard() {
     }
   }
 
-  const getHealthColor = (status: string) => {
-    switch (status) {
-      case 'operational':
-        return 'text-green-400'
-      case 'degraded':
-        return 'text-yellow-400'
-      case 'down':
-        return 'text-red-400'
-      default:
-        return 'text-gray-400'
-    }
-  }
-
   const getHealthIcon = (status: string) => {
     switch (status) {
       case 'operational':

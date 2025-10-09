@@ -282,6 +282,8 @@ export class UnifiedModelService {
     // Determine detailed data source - database models come from API sync
     const detailedSource: DetailedDataSource = dbModel.status?.[0] ? 'api' : 'cached';
     const dataLastVerified = dbModel.status?.[0]?.checkedAt || dbModel.updatedAt;
+    const rawStatus = dbModel.status?.[0]?.status || 'unknown';
+    const normalizedStatus = rawStatus === 'outage' ? 'down' : rawStatus;
 
     return {
       id,
@@ -297,8 +299,11 @@ export class UnifiedModelService {
 
       // DB metrics container
       db: {
-        status: dbModel.status?.[0]?.status || 'unknown',
+        status: normalizedStatus,
         availability: dbModel.status?.[0]?.availability,
+        errorRate: dbModel.status?.[0]?.errorRate,
+        requestsPerMin: dbModel.status?.[0]?.requestsPerMin,
+        tokensPerMin: dbModel.status?.[0]?.tokensPerMin,
         price: dbModel.pricing?.[0] ? {
           // FIXED: Use actual prices - already in per 1M format
           input: dbModel.pricing[0].inputPerMillion,
@@ -319,7 +324,7 @@ export class UnifiedModelService {
       // Unified display fields from DB - FIXED: Use actual prices
       priceInput: dbModel.pricing?.[0]?.inputPerMillion || undefined,
       priceOutput: dbModel.pricing?.[0]?.outputPerMillion || undefined,
-      status: dbModel.status?.[0]?.status || 'unknown',
+      status: normalizedStatus,
       availability: dbModel.status?.[0]?.availability,
       contextWindow: dbModel.contextWindow,
 

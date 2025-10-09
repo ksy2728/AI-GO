@@ -1,8 +1,9 @@
 // Admin Logout API Endpoint
-import { NextRequest, NextResponse } from 'next/server';
+import type { NextRequest } from 'next/server'
+import { NextResponse } from 'next/server'
 import type { AuthResponse } from '@/lib/auth/auth.types';
 
-export async function POST(request: NextRequest) {
+export async function POST(_request: NextRequest) {
   try {
     // Create response
     const response = NextResponse.json(

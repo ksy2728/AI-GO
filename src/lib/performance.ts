@@ -158,7 +158,7 @@ class PerformanceMonitor {
       }).catch(() => {
         // Silent fail for analytics
       })
-    } catch (error) {
+    } catch {
       // Silent fail
     }
   }

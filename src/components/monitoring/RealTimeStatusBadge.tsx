@@ -1,27 +1,17 @@
 'use client'
 
-import React, { useState, useEffect } from 'react'
+import React, { useEffect, useMemo, useState } from 'react'
 import { Badge } from '@/components/ui/badge'
 import { Loader2, Wifi, WifiOff, AlertTriangle } from 'lucide-react'
-import { useRegion } from '@/contexts/RegionContext'
+import { useModelMetrics, useRegion, useRegionApi } from '@/contexts/RegionContext'
 import { cn } from '@/lib/utils'
 
 // Import model status types for consistency
 import type { ModelStatus } from '@/hooks/useFeaturedModels'
 
-interface ServerStatus {
-  modelId: string
-  status: ModelStatus | 'outage' // Support both for backward compatibility
-  availability: number
-  responseTime: number
-  errorRate: number
-  region: string
-  lastChecked: string
-}
-
 interface RealTimeStatusBadgeProps {
   modelId: string
-  fallbackStatus?: ModelStatus | 'outage' // Support both for backward compatibility
+  fallbackStatus?: ModelStatus | 'outage'
   className?: string
   showDetails?: boolean
 }
@@ -45,7 +35,6 @@ const STATUS_CONFIG = {
     icon: WifiOff,
     pulse: true
   },
-  // Keep outage for backward compatibility
   outage: {
     label: 'Outage',
     color: 'bg-red-500/10 text-red-700 border-red-500/20 dark:text-red-400',
@@ -61,82 +50,103 @@ export function RealTimeStatusBadge({
   showDetails = false
 }: RealTimeStatusBadgeProps) {
   const { selectedRegion } = useRegion()
-  const [status, setStatus] = useState<ServerStatus | null>(null)
-  const [isLoading, setIsLoading] = useState(true)
+  const { fetchModelMetrics } = useRegionApi()
+  const metrics = useModelMetrics(modelId)
+  const [isLoading, setIsLoading] = useState(!metrics)
   const [error, setError] = useState<string | null>(null)
-  const [lastUpdate, setLastUpdate] = useState<Date>(new Date())
-
-  const fetchStatus = async () => {
-    try {
-      setError(null)
-      const response = await fetch('/api/status-checker', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ 
-          modelId, 
-          region: selectedRegion.code 
-        })
-      })
-
-      if (response.ok) {
-        const statusData = await response.json()
-        setStatus(statusData)
-        setLastUpdate(new Date())
-      } else {
-        throw new Error(`HTTP ${response.status}`)
-      }
-    } catch (err) {
-      setError(err instanceof Error ? err.message : 'Failed to fetch status')
-      // Use fallback status on error
-      setStatus({
-        modelId,
-        status: fallbackStatus,
-        availability: 99.9,
-        responseTime: 0,
-        errorRate: 0,
-        region: selectedRegion.code,
-        lastChecked: new Date().toISOString()
-      })
-    } finally {
-      setIsLoading(false)
-    }
-  }
 
   useEffect(() => {
-    fetchStatus()
+    let cancelled = false
 
-    // Poll every 30 seconds for real-time updates
-    const interval = setInterval(fetchStatus, 30000)
+    const loadMetrics = async () => {
+      setIsLoading(true)
+      try {
+        await fetchModelMetrics(modelId, selectedRegion.code)
+        if (!cancelled) {
+          setError(null)
+        }
+      } catch (err) {
+        if (!cancelled) {
+          setError(err instanceof Error ? err.message : '메트릭 로드 실패')
+        }
+      } finally {
+        if (!cancelled) {
+          setIsLoading(false)
+        }
+      }
+    }
 
-    return () => clearInterval(interval)
-  }, [modelId, selectedRegion.code])
+    loadMetrics()
+    const interval = setInterval(loadMetrics, 30000)
 
-  const currentStatus = status?.status || fallbackStatus
-  const config = STATUS_CONFIG[currentStatus]
+    return () => {
+      cancelled = true
+      clearInterval(interval)
+    }
+  }, [modelId, selectedRegion.code, fetchModelMetrics])
+
+  const derivedStatus: ModelStatus = useMemo(() => {
+    const metricsStatus = metrics?.status
+
+    // Handle metrics status
+    if (metricsStatus && metricsStatus !== 'unknown') {
+      // RegionMetricStatus can be 'outage' or 'unknown', map them to valid ModelStatus
+      const statusStr = metricsStatus as string
+      if (statusStr === 'outage') return 'down'
+      if (statusStr === 'unknown') {
+        const fallbackStr = fallbackStatus as string
+        return (fallbackStr === 'outage' ? 'down' : fallbackStatus) as ModelStatus
+      }
+      return metricsStatus as ModelStatus
+    }
+
+    // Handle fallback status
+    const fallbackStr = fallbackStatus as string
+    return (fallbackStr === 'outage' ? 'down' : fallbackStatus) as ModelStatus
+  }, [metrics?.status, fallbackStatus])
+
+  const config = STATUS_CONFIG[derivedStatus]
   const StatusIcon = config.icon
 
-  const formatResponseTime = (ms: number) => {
+  const availability = metrics?.availability ?? null
+  const responseTime = metrics?.responseTime ?? null
+  const errorRate = metrics?.errorRate ?? null
+  const lastUpdated = metrics?.lastUpdated instanceof Date
+    ? metrics.lastUpdated
+    : metrics?.lastUpdated
+      ? new Date(metrics.lastUpdated)
+      : null
+
+  const formatResponseTime = (ms: number | null) => {
+    if (ms === null) return '—'
     if (ms < 1000) return `${ms}ms`
     return `${(ms / 1000).toFixed(1)}s`
   }
 
-  const formatLastUpdate = (date: Date) => {
+  const formatAvailability = (value: number | null) => {
+    if (value === null || Number.isNaN(value)) return '—'
+    return `${value.toFixed(1)}%`
+  }
+
+  const formatLastUpdate = (date: Date | null) => {
+    if (!date) return '—'
     const now = new Date()
     const diff = Math.floor((now.getTime() - date.getTime()) / 1000)
-    
     if (diff < 60) return `${diff}s ago`
     if (diff < 3600) return `${Math.floor(diff / 60)}m ago`
     return `${Math.floor(diff / 3600)}h ago`
   }
 
+  const detailLabel = showDetails && !isLoading && !error
+
   return (
-    <div className={cn("flex items-center gap-2", className)}>
+    <div className={cn('flex items-center gap-2', className)}>
       <Badge 
         variant="outline"
         className={cn(
           config.color,
-          "flex items-center gap-1.5 text-xs font-medium transition-all duration-200",
-          config.pulse && "animate-pulse"
+          'flex items-center gap-1.5 text-xs font-medium transition-all duration-200',
+          config.pulse && 'animate-pulse'
         )}
       >
         {isLoading ? (
@@ -145,22 +155,30 @@ export function RealTimeStatusBadge({
           <StatusIcon className="h-3 w-3" />
         )}
         <span>{config.label}</span>
-        {showDetails && status && !isLoading && (
+        {detailLabel && (
           <span className="ml-1 opacity-75">
-            {formatResponseTime(status.responseTime)}
+            {formatResponseTime(responseTime)}
           </span>
         )}
       </Badge>
       
-      {showDetails && !isLoading && (
+      {showDetails && (
         <div className="flex items-center text-xs text-muted-foreground">
-          {error ? (
+          {isLoading ? (
+            <span>불러오는 중…</span>
+          ) : error ? (
             <span className="text-red-500">⚠ {error}</span>
           ) : (
             <>
-              <span>{status?.availability.toFixed(1)}%</span>
+              <span>{formatAvailability(availability)}</span>
               <span className="mx-1">•</span>
-              <span>{formatLastUpdate(lastUpdate)}</span>
+              <span>{formatLastUpdate(lastUpdated)}</span>
+              {errorRate !== null && !Number.isNaN(errorRate) && (
+                <>
+                  <span className="mx-1">•</span>
+                  <span>ERR {errorRate.toFixed(2)}%</span>
+                </>
+              )}
             </>
           )}
         </div>

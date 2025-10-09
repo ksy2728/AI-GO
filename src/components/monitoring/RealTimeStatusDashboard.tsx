@@ -2,30 +2,29 @@
 
 import React, { useState, useEffect } from 'react'
 import { Card } from '@/components/ui/card'
-import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { RealTimeStatusBadge } from './RealTimeStatusBadge'
-import { useRegion } from '@/contexts/RegionContext'
+import { useRegion, useRegionApi, type RegionMetricStatus } from '@/contexts/RegionContext'
 import { useGlobalStats } from '@/contexts/ModelsContext'
-import { 
-  RefreshCw, 
-  Activity, 
-  Clock, 
-  Zap, 
+import {
+  RefreshCw,
+  Activity,
+  Clock,
+  Zap,
   TrendingUp,
   AlertTriangle,
   CheckCircle,
   XCircle
 } from 'lucide-react'
 
-interface ModelStatus {
+interface ModelStatusRow {
   modelId: string
   modelName: string
   provider: string
-  status: 'operational' | 'degraded' | 'outage'
-  availability: number
-  responseTime: number
-  errorRate: number
+  status: RegionMetricStatus
+  availability: number | null
+  responseTime: number | null
+  errorRate: number | null
   region: string
   lastChecked: string
 }
@@ -51,8 +50,9 @@ const MONITORED_MODELS = [
 
 export function RealTimeStatusDashboard() {
   const { selectedRegion } = useRegion()
+  const { fetchModelMetrics } = useRegionApi()
   const { globalStats, refreshStats } = useGlobalStats()
-  const [modelStatuses, setModelStatuses] = useState<ModelStatus[]>([])
+  const [modelStatuses, setModelStatuses] = useState<ModelStatusRow[]>([])
   const [systemSummary, setSystemSummary] = useState<SystemSummary | null>(null)
   const [isRefreshing, setIsRefreshing] = useState(false)
   const [lastUpdate, setLastUpdate] = useState<Date>(new Date())
@@ -61,46 +61,54 @@ export function RealTimeStatusDashboard() {
     setIsRefreshing(true)
     try {
       const statusPromises = MONITORED_MODELS.map(async (model) => {
-        const response = await fetch('/api/status-checker', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ 
-            modelId: model.id, 
-            region: selectedRegion.code 
-          })
-        })
-        
-        if (response.ok) {
-          const status = await response.json()
-          return {
-            ...status,
-            modelName: model.name,
-            provider: model.provider
-          }
-        }
-        return null
+        const metrics = await fetchModelMetrics(model.id, selectedRegion.code)
+        if (!metrics) return null
+
+        // Map RegionMetricStatus to actual status value
+        const statusStr = metrics.status as string
+        const status: RegionMetricStatus = statusStr === 'outage' ? 'down' : metrics.status || 'unknown'
+
+        const lastChecked = metrics.lastUpdated instanceof Date
+          ? metrics.lastUpdated.toISOString()
+          : metrics.lastUpdated
+            ? new Date(metrics.lastUpdated).toISOString()
+            : new Date().toISOString()
+
+        return {
+          modelId: model.id,
+          modelName: model.name,
+          provider: model.provider,
+          status,
+          availability: typeof metrics.availability === 'number' ? metrics.availability : null,
+          responseTime: typeof metrics.responseTime === 'number' ? metrics.responseTime : null,
+          errorRate: typeof metrics.errorRate === 'number' ? metrics.errorRate : null,
+          region: metrics.region,
+          lastChecked
+        } satisfies ModelStatusRow | null
       })
 
       const results = await Promise.allSettled(statusPromises)
       const validStatuses = results
-        .filter((result): result is PromiseFulfilledResult<ModelStatus> => 
-          result.status === 'fulfilled' && result.value !== null
-        )
+        .filter((result): result is PromiseFulfilledResult<ModelStatusRow | null> => result.status === 'fulfilled')
         .map(result => result.value)
+        .filter((value): value is ModelStatusRow => value !== null)
 
       setModelStatuses(validStatuses)
-      
-      // Calculate system summary for monitored models
+
       const total = validStatuses.length
       const operational = validStatuses.filter(s => s.status === 'operational').length
       const degraded = validStatuses.filter(s => s.status === 'degraded').length
-      const outage = validStatuses.filter(s => s.status === 'outage').length
-      const avgAvailability = total > 0 ? 
-        validStatuses.reduce((sum, s) => sum + s.availability, 0) / total : 0
-      const avgResponseTime = total > 0 ?
-        validStatuses.reduce((sum, s) => sum + s.responseTime, 0) / total : 0
+      const outage = validStatuses.filter(s => {
+        const statusStr = s.status as string
+        return statusStr === 'down' || statusStr === 'outage'
+      }).length
+      const avgAvailability = total > 0
+        ? validStatuses.reduce((sum, s) => sum + (s.availability ?? 0), 0) / total
+        : 0
+      const avgResponseTime = total > 0
+        ? validStatuses.reduce((sum, s) => sum + (s.responseTime ?? 0), 0) / total
+        : 0
 
-      // Merge with global stats if available
       if (globalStats) {
         setSystemSummary({
           totalModels: globalStats.totalModels,
@@ -123,9 +131,7 @@ export function RealTimeStatusDashboard() {
         })
       }
       
-      // Refresh global stats
       refreshStats()
-
       setLastUpdate(new Date())
     } catch (error) {
       console.error('Failed to fetch statuses:', error)
@@ -136,19 +142,18 @@ export function RealTimeStatusDashboard() {
 
   useEffect(() => {
     fetchAllStatuses()
-    
-    // Auto-refresh every 30 seconds
     const interval = setInterval(fetchAllStatuses, 30000)
     return () => clearInterval(interval)
-  }, [selectedRegion])
+  }, [selectedRegion.code])
 
-  const formatResponseTime = (ms: number) => {
+  const formatResponseTime = (ms: number | null) => {
+    if (ms === null) return '—'
     if (ms < 1000) return `${Math.round(ms)}ms`
     return `${(ms / 1000).toFixed(1)}s`
   }
 
   const getSystemHealthColor = () => {
-    if (!systemSummary) return 'text-gray-500'
+    if (!systemSummary || systemSummary.totalModels === 0) return 'text-gray-500'
     
     const healthScore = (systemSummary.operational / systemSummary.totalModels) * 100
     if (healthScore >= 90) return 'text-green-500'
@@ -200,15 +205,15 @@ export function RealTimeStatusDashboard() {
               </div>
               <div className="text-sm text-muted-foreground">Degraded</div>
             </div>
-            
+
             <div className="text-center">
               <XCircle className="w-8 h-8 text-red-500 mx-auto mb-2" />
               <div className="text-2xl font-bold text-red-600">
                 {systemSummary.outage}
               </div>
-              <div className="text-sm text-muted-foreground">Outage</div>
+              <div className="text-sm text-muted-foreground">Outage / Down</div>
             </div>
-            
+
             <div className="text-center">
               <TrendingUp className="w-8 h-8 text-blue-500 mx-auto mb-2" />
               <div className="text-2xl font-bold text-blue-600">
@@ -216,7 +221,7 @@ export function RealTimeStatusDashboard() {
               </div>
               <div className="text-sm text-muted-foreground">Avg Availability</div>
             </div>
-            
+
             <div className="text-center">
               <Clock className="w-8 h-8 text-purple-500 mx-auto mb-2" />
               <div className="text-2xl font-bold text-purple-600">
@@ -226,80 +231,62 @@ export function RealTimeStatusDashboard() {
             </div>
           </div>
         )}
-
-        <div className="mt-4 text-xs text-muted-foreground text-center">
-          Last updated: {lastUpdate.toLocaleTimeString()} • 
-          Auto-refresh every 30 seconds
-        </div>
       </Card>
 
       {/* Model Status Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        {modelStatuses.map((status) => (
-          <Card key={`${status.modelId}-${status.region}`} className="p-4">
-            <div className="flex items-start justify-between mb-3">
-              <div>
-                <h3 className="font-semibold">{status.modelName}</h3>
-                <p className="text-sm text-muted-foreground">{status.provider}</p>
-              </div>
-              <RealTimeStatusBadge 
-                modelId={status.modelId}
-                fallbackStatus={status.status}
-                showDetails={false}
-              />
-            </div>
+      <Card className="p-6">
+        <div className="flex items-center justify-between mb-4">
+          <h3 className="text-lg font-semibold flex items-center gap-2">
+            <Zap className="w-5 h-5 text-amber-500" />
+            Real-time Model Health
+          </h3>
+          <span className="text-xs text-muted-foreground">
+            Updated {lastUpdate.toLocaleTimeString()}
+          </span>
+        </div>
 
-            <div className="grid grid-cols-2 gap-3 text-sm">
-              <div>
-                <div className="flex items-center gap-1 mb-1">
-                  <Activity className="w-3 h-3 text-green-500" />
-                  <span className="text-muted-foreground">Availability</span>
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+          {modelStatuses.map(status => (
+            <Card key={`${status.modelId}-${status.region}`} className="p-4">
+              <div className="flex items-center justify-between mb-3">
+                <div>
+                  <h4 className="text-base font-semibold text-gray-900">{status.modelName}</h4>
+                  <p className="text-xs text-muted-foreground">{status.provider} • {status.region.toUpperCase()}</p>
                 </div>
-                <div className="font-semibold">{status.availability.toFixed(1)}%</div>
+                <RealTimeStatusBadge 
+                  modelId={status.modelId}
+                  fallbackStatus={status.status === 'unknown' ? 'degraded' : status.status}
+                />
               </div>
-              
-              <div>
-                <div className="flex items-center gap-1 mb-1">
-                  <Clock className="w-3 h-3 text-blue-500" />
-                  <span className="text-muted-foreground">Response</span>
-                </div>
-                <div className="font-semibold">{formatResponseTime(status.responseTime)}</div>
-              </div>
-              
-              <div>
-                <div className="flex items-center gap-1 mb-1">
-                  <Zap className="w-3 h-3 text-yellow-500" />
-                  <span className="text-muted-foreground">Error Rate</span>
-                </div>
-                <div className="font-semibold">{status.errorRate.toFixed(2)}%</div>
-              </div>
-              
-              <div>
-                <div className="flex items-center gap-1 mb-1">
-                  <Clock className="w-3 h-3 text-purple-500" />
-                  <span className="text-muted-foreground">Last Check</span>
-                </div>
-                <div className="font-semibold text-xs">
-                  {new Date(status.lastChecked).toLocaleTimeString()}
-                </div>
-              </div>
-            </div>
-          </Card>
-        ))}
-      </div>
 
-      {/* Loading State */}
-      {modelStatuses.length === 0 && (
-        <Card className="p-8">
-          <div className="flex flex-col items-center justify-center text-center">
-            <RefreshCw className="w-8 h-8 animate-spin text-muted-foreground mb-4" />
-            <h3 className="text-lg font-semibold mb-2">Loading Status Data</h3>
-            <p className="text-muted-foreground">
-              Fetching real-time status for all monitored models...
-            </p>
+              <div className="grid grid-cols-3 gap-3 text-sm">
+                <div>
+                  <div className="text-xs text-muted-foreground">Availability</div>
+                  <div className="font-semibold">{status.availability !== null ? `${status.availability.toFixed(1)}%` : '—'}</div>
+                </div>
+                <div>
+                  <div className="text-xs text-muted-foreground">Response</div>
+                  <div className="font-semibold">{formatResponseTime(status.responseTime)}</div>
+                </div>
+                <div>
+                  <div className="text-xs text-muted-foreground">Error Rate</div>
+                  <div className="font-semibold">{status.errorRate !== null ? `${status.errorRate.toFixed(2)}%` : '—'}</div>
+                </div>
+              </div>
+
+              <div className="mt-3 text-xs text-muted-foreground">
+                Last checked {new Date(status.lastChecked).toLocaleTimeString()}
+              </div>
+            </Card>
+          ))}
+        </div>
+
+        {modelStatuses.length === 0 && (
+          <div className="text-center text-sm text-muted-foreground py-12">
+            모니터링할 모델의 실시간 데이터를 불러오지 못했습니다.
           </div>
-        </Card>
-      )}
+        )}
+      </Card>
     </div>
   )
 }

@@ -72,22 +72,42 @@ function deriveCapabilities(providerSlug: string, model: UnifiedModel): string[]
 }
 
 function computeAvailability(model: UnifiedModel): number {
-  if (typeof model.availability === 'number') return Number(model.availability.toFixed(2))
-  if (typeof model.db?.availability === 'number') return Number(model.db.availability.toFixed(2))
+  const value = typeof model.db?.availability === 'number'
+    ? model.db.availability
+    : model.availability
+  if (typeof value === 'number' && Number.isFinite(value)) {
+    return Number(value.toFixed(2))
+  }
   return 99.4
 }
 
 function computeResponseTime(model: UnifiedModel): number {
   const latency = model.db?.latency
-  if (latency?.p95) return Math.round(latency.p95)
-  if (latency?.p50) return Math.round(latency.p50)
-  if (typeof model.speed === 'number') {
+  if (latency?.p95 && Number.isFinite(latency.p95)) return Math.round(latency.p95)
+  if (latency?.p50 && Number.isFinite(latency.p50)) return Math.round(latency.p50)
+  if (typeof model.speed === 'number' && Number.isFinite(model.speed)) {
     return Math.max(120, 420 - Math.round(model.speed))
   }
   return 250
 }
 
+function computeErrorRate(model: UnifiedModel): number {
+  const errorRate = typeof model.db?.errorRate === 'number'
+    ? model.db.errorRate
+    : undefined
+  if (typeof errorRate === 'number' && Number.isFinite(errorRate)) {
+    return Math.max(0, Number(errorRate.toFixed(2)))
+  }
+  return 0.02
+}
+
 function computeThroughput(model: UnifiedModel): number {
+  if (typeof model.db?.tokensPerMin === 'number' && Number.isFinite(model.db.tokensPerMin)) {
+    return Math.max(100, Math.round(model.db.tokensPerMin))
+  }
+  if (typeof model.db?.requestsPerMin === 'number' && Number.isFinite(model.db.requestsPerMin)) {
+    return Math.max(60, Math.round(model.db.requestsPerMin * 60))
+  }
   if (typeof model.speed === 'number' && Number.isFinite(model.speed)) {
     return Math.max(150, Math.round(model.speed * 8))
   }
@@ -117,6 +137,13 @@ export async function loadDashboardFeaturedModels(options: SelectionOptions = {}
 
     const displayProvider = TARGET_PROVIDER_MAP[providerSlug]
     const intelligence = Number(model.intelligence ?? model.aa?.intelligence ?? 0)
+    const status = model.db?.status && model.db.status !== 'unknown'
+      ? model.db.status
+      : (model.status && model.status !== 'unknown' ? model.status : 'operational')
+    const availability = computeAvailability(model)
+    const responseTime = computeResponseTime(model)
+    const errorRate = computeErrorRate(model)
+    const throughput = computeThroughput(model)
 
     normalized.push({
       id,
@@ -124,11 +151,11 @@ export async function loadDashboardFeaturedModels(options: SelectionOptions = {}
       name: model.name,
       provider: displayProvider,
       providerLogo: getProviderLogo(displayProvider) ?? null,
-      status: 'operational',
-      availability: computeAvailability(model),
-      responseTime: computeResponseTime(model),
-      errorRate: 0.02,
-      throughput: computeThroughput(model),
+      status,
+      availability,
+      responseTime,
+      errorRate,
+      throughput,
       description: buildDescription(displayProvider, intelligence),
       capabilities: deriveCapabilities(providerSlug, model),
       intelligenceIndex: Number(intelligence.toFixed(2)),

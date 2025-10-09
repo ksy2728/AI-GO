@@ -1,4 +1,5 @@
-import { NextRequest, NextResponse } from 'next/server'
+import type { NextRequest } from 'next/server'
+import { NextResponse } from 'next/server'
 import { syncAAData, fetchAAData } from '@/services/sync-aa-real-data'
 import { cleanTestData } from '@/services/clean-production-data'
 import { cache } from '@/lib/redis'
@@ -7,7 +8,7 @@ import { cache } from '@/lib/redis'
  * GET /api/v1/sync/aa-realtime
  * Get current AA sync status
  */
-export async function GET(request: NextRequest) {
+export async function GET(_request: NextRequest) {
   try {
     // Check if sync is in progress
     const syncStatus = await cache.get('aa:sync:status')
@@ -146,7 +147,7 @@ export async function POST(request: NextRequest) {
  * DELETE /api/v1/sync/aa-realtime
  * Cancel ongoing sync
  */
-export async function DELETE(request: NextRequest) {
+export async function DELETE(_request: NextRequest) {
   try {
     await cache.del('aa:sync:status')
 

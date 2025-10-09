@@ -2,14 +2,22 @@
 
 import { createContext, useContext, useState, useEffect, ReactNode } from 'react'
 import { Region, getDefaultRegion, getRegionByCode } from '@/types/regions'
+import type { ModelStatus } from '@/hooks/useFeaturedModels'
+
+// RegionMetricStatus includes all ModelStatus values plus 'unknown'
+export type RegionMetricStatus = ModelStatus | 'unknown'
 
 interface ModelMetrics {
-  availability: number
-  responseTime: number
-  errorRate: number
-  throughput: number
+  status: RegionMetricStatus
+  availability: number | null
+  responseTime: number | null
+  errorRate: number | null
+  throughput: number | null
   lastUpdated: Date
+  region: string
 }
+
+export type RegionModelMetrics = ModelMetrics
 
 interface RegionContextType {
   selectedRegion: Region
@@ -131,8 +139,8 @@ export function useRegion() {
 }
 
 // Hook for getting metrics for a specific model
-export function useModelMetrics(modelId: string) {
-  const { regionMetrics, selectedRegion } = useRegion()
+export function useModelMetrics(modelId: string): RegionModelMetrics | undefined {
+  const { regionMetrics } = useRegion()
   return regionMetrics.get(modelId)
 }
 
@@ -140,37 +148,47 @@ export function useModelMetrics(modelId: string) {
 export function useRegionApi() {
   const { selectedRegion, setRegionMetrics } = useRegion()
   
-  const fetchModelMetrics = async (modelId: string) => {
+  const fetchModelMetrics = async (modelId: string, regionCode?: string): Promise<RegionModelMetrics> => {
+    const targetRegion = regionCode || selectedRegion.code
+
     try {
-      // Use the correct realtime-status endpoint with region parameter
-      const response = await fetch(`/api/v1/realtime-status/${modelId}?region=${selectedRegion.code}`)
+      const response = await fetch(`/api/v1/realtime-status/${modelId}?region=${encodeURIComponent(targetRegion)}`)
       if (!response.ok) throw new Error('Failed to fetch metrics')
-      
+
       const data = await response.json()
-      
-      // Map the response data correctly
+
+      const availability = typeof data.availability === 'number' ? data.availability : null
+      const responseTime = typeof data.responseTime === 'number' ? data.responseTime : null
+      const errorRate = typeof data.errorRate === 'number' ? data.errorRate : null
+      const throughput = typeof data.throughput === 'number' ? data.throughput : null
+      const lastUpdatedSource = data.timestamp || data.lastChecked
+
+      const normalizedStatus = data.status === 'outage' ? 'down' : data.status
       const metrics: ModelMetrics = {
-        availability: data.availability || 99.5,
-        responseTime: data.responseTime || 250,
-        errorRate: data.errorRate || 0.02,
-        throughput: Math.round(1000 / (data.responseTime || 250) * 200), // Calculate throughput based on response time
-        lastUpdated: new Date()
+        status: (normalizedStatus as RegionMetricStatus) || 'unknown',
+        availability: availability !== null ? Number(availability) : null,
+        responseTime: responseTime !== null ? Math.round(responseTime) : null,
+        errorRate: errorRate !== null ? Number(errorRate) : null,
+        throughput: throughput !== null ? Number(throughput) : null,
+        lastUpdated: lastUpdatedSource ? new Date(lastUpdatedSource) : new Date(),
+        region: data.region || targetRegion
       }
-      
+
       setRegionMetrics(modelId, metrics)
       return metrics
     } catch (error) {
       console.error('Failed to fetch model metrics:', error)
-      // Return default metrics on error
-      const defaultMetrics: ModelMetrics = {
+      const fallbackMetrics: ModelMetrics = {
+        status: 'unknown',
         availability: 99.5,
         responseTime: 250,
         errorRate: 0.02,
         throughput: 800,
-        lastUpdated: new Date()
+        lastUpdated: new Date(),
+        region: targetRegion
       }
-      setRegionMetrics(modelId, defaultMetrics)
-      return defaultMetrics
+      setRegionMetrics(modelId, fallbackMetrics)
+      return fallbackMetrics
     }
   }
 

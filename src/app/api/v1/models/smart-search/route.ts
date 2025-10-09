@@ -1,5 +1,7 @@
-import { NextRequest, NextResponse } from 'next/server'
-import { SmartSearchService, SearchFilters } from '@/services/smart-search.service'
+import type { NextRequest } from 'next/server'
+import { NextResponse } from 'next/server'
+import { SmartSearchService } from '@/services/smart-search.service'
+import type { SearchFilters } from '@/services/smart-search.service'
 import { z } from 'zod'
 
 const SearchParamsSchema = z.object({

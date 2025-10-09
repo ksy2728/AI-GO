@@ -1,4 +1,5 @@
-import { lazy, Suspense, ComponentType } from 'react'
+import { lazy, Suspense } from 'react'
+import type { ComponentType } from 'react'
 import { Skeleton } from '@/components/ui/skeleton'
 
 /**
@@ -203,7 +204,7 @@ export function observeLazyLoading() {
   }
 }
 
-export default {
+const codeSplittingUtils = {
   createLazyComponent,
   createMobileLazyComponent,
   LazyComponents,
@@ -211,3 +212,5 @@ export default {
   preloadCriticalComponents,
   observeLazyLoading,
 }
+
+export default codeSplittingUtils

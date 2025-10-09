@@ -421,7 +421,7 @@ export function removeUnusedCSS(): void {
           }
         }
       })
-    } catch (error) {
+    } catch {
       // Cross-origin stylesheets can't be modified
     }
   })

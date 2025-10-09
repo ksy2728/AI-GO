@@ -1,6 +1,5 @@
 import { NextResponse } from 'next/server'
 import { StatusService } from '@/services/status.service'
-import { UnifiedModelService } from '@/services/unified-models.service'
 import { TempDataService } from '@/services/temp-data.service'
 import { GitHubDataService } from '@/services/github-data.service'
 
@@ -9,10 +8,7 @@ export async function GET(request: Request) {
     const { searchParams } = new URL(request.url)
     const detailed = searchParams.get('detailed') === 'true'
     
-    // Check if we're in production environment (Vercel) and preferred data source
-    const isProduction = process.env.NODE_ENV === 'production' || 
-                        process.env.VERCEL === '1' || 
-                        process.env.VERCEL_ENV !== undefined
+    // Determine preferred data source (defaults to GitHub)
     const preferredDataSource = process.env.DATA_SOURCE || 'github'
 
     if (detailed) {
@@ -164,7 +160,7 @@ export async function GET(request: Request) {
               dataSource = 'database'
               console.log('🐘 Using database source (final fallback)')
             } catch (dbError) {
-              console.error('💥 All data sources failed for detailed status')
+              console.error('💥 All data sources failed for detailed status:', dbError)
               throw new Error('All data sources are unavailable')
             }
           }
@@ -242,7 +238,7 @@ export async function GET(request: Request) {
               dataSource = 'database'
               console.log('🐘 Using database source (final fallback)')
             } catch (dbError) {
-              console.error('💥 All data sources failed for system stats')
+              console.error('💥 All data sources failed for system stats:', dbError)
               throw new Error('All data sources are unavailable')
             }
           }

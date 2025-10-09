@@ -1,5 +1,6 @@
 // Rate Limit Status API Endpoint
-import { NextRequest, NextResponse } from 'next/server';
+import type { NextRequest } from 'next/server'
+import { NextResponse } from 'next/server'
 import { rateLimiter } from '@/lib/auth/rate-limiter';
 
 export async function GET(request: NextRequest) {

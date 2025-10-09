@@ -1,4 +1,5 @@
-import { NextRequest, NextResponse } from 'next/server'
+import type { NextRequest } from 'next/server'
+import { NextResponse } from 'next/server'
 import { prisma } from '@/lib/prisma'
 
 // Simple admin check - in production, use proper authentication
@@ -14,7 +15,7 @@ function isAdmin(request: NextRequest): boolean {
 }
 
 // GET: Fetch featured models
-export async function GET(request: NextRequest) {
+export async function GET(_request: NextRequest) {
   try {
     const featuredModels = await prisma.model.findMany({
       where: {

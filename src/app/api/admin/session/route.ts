@@ -1,5 +1,6 @@
 // Admin Session Validation API Endpoint
-import { NextRequest, NextResponse } from 'next/server';
+import type { NextRequest } from 'next/server'
+import { NextResponse } from 'next/server'
 import { AuthUtils } from '@/lib/auth/auth.utils';
 import type { SessionValidation } from '@/lib/auth/auth.types';
 

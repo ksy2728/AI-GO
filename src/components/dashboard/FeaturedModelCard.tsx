@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button'
 import { RegionSelectCompact } from '@/components/ui/region-select'
 import { RealTimeStatusBadge } from '@/components/monitoring/RealTimeStatusBadge'
 import { useLanguage } from '@/contexts/LanguageContext'
-import { useRegion, useModelMetrics, useRegionApi } from '@/contexts/RegionContext'
+import { useRegion, useModelMetrics, useRegionApi, type RegionModelMetrics } from '@/contexts/RegionContext'
 import { 
   ChevronRight,
   ChevronDown,
@@ -26,7 +26,7 @@ import {
 } from 'lucide-react'
 
 // Import Model type from the hook for consistency
-import type { Model } from '@/hooks/useFeaturedModels'
+import type { Model, ModelStatus } from '@/hooks/useFeaturedModels'
 
 interface FeaturedModelCardProps {
   model: Model
@@ -51,7 +51,7 @@ export function FeaturedModelCard({ model }: FeaturedModelCardProps) {
     responseTime: number
     errorRate: number
     throughput: number
-    status: typeof model.status
+    status: ModelStatus
   }>({
     availability: model.availability,
     responseTime: model.responseTime,
@@ -67,34 +67,57 @@ export function FeaturedModelCard({ model }: FeaturedModelCardProps) {
 
   // Fetch region-specific metrics when local region changes
   useEffect(() => {
-    const fetchRegionData = async () => {
-      try {
-        // Simulate region-specific metrics with slight variations
-        const regionVariance = localRegion.code === 'us-east-1' ? 0 : 
-                              localRegion.code === 'eu-west-1' ? 10 :
-                              localRegion.code === 'ap-northeast-1' ? 20 : 5;
-        
-        setDisplayMetrics({
-          availability: Math.max(95, model.availability - (regionVariance * 0.1)),
-          responseTime: model.responseTime + regionVariance,
-          errorRate: Math.min(0.1, model.errorRate + (regionVariance * 0.001)),
-          throughput: Math.max(100, model.throughput - (regionVariance * 10)),
-          status: 'operational' as const
-        })
-      } catch (error) {
-        console.warn('Using default metrics:', error)
-        setDisplayMetrics({
-          availability: model.availability || 99.5,
-          responseTime: model.responseTime || 250,
-          errorRate: model.errorRate || 0.02,
-          throughput: model.throughput || 800,
-          status: 'operational' as const
-        })
+    let cancelled = false
+
+    const applyMetrics = (metrics: RegionModelMetrics) => {
+      const availability = typeof metrics.availability === 'number' ? metrics.availability : model.availability || 99.5
+      const responseTime = typeof metrics.responseTime === 'number' ? metrics.responseTime : model.responseTime || 250
+      const errorRate = typeof metrics.errorRate === 'number' ? metrics.errorRate : model.errorRate || 0.02
+      const throughput = typeof metrics.throughput === 'number' ? metrics.throughput : model.throughput || 800
+      const status: ModelStatus =
+        metrics.status && metrics.status !== 'unknown'
+          ? metrics.status
+          : model.status
+
+      setDisplayMetrics({
+        availability,
+        responseTime,
+        errorRate,
+        throughput,
+        status
+      })
+    }
+
+    if (regionMetrics) {
+      applyMetrics(regionMetrics)
+      return () => {
+        cancelled = true
       }
     }
 
-    fetchRegionData()
-  }, [localRegion, model])
+    fetchModelMetrics(model.id, localRegion.code)
+      .then(metrics => {
+        if (!cancelled) {
+          applyMetrics(metrics)
+        }
+      })
+      .catch(error => {
+        console.warn('Using default metrics:', error)
+        if (!cancelled) {
+          setDisplayMetrics({
+            availability: model.availability || 99.5,
+            responseTime: model.responseTime || 250,
+            errorRate: model.errorRate || 0.02,
+            throughput: model.throughput || 800,
+            status: model.status
+          })
+        }
+      })
+
+    return () => {
+      cancelled = true
+    }
+  }, [regionMetrics, fetchModelMetrics, model.id, model.availability, model.responseTime, model.errorRate, model.throughput, model.status, localRegion.code])
 
   const getStatusColor = (status: string) => {
     switch (status) {

@@ -1,9 +1,10 @@
-import { NextRequest, NextResponse } from 'next/server';
+import type { NextRequest } from 'next/server'
+import { NextResponse } from 'next/server'
 import { prisma } from '@/lib/prisma';
 import { cache } from '@/lib/redis';
 import { dataAggregator } from '@/services/data-aggregator.service';
 
-export async function GET(request: NextRequest) {
+export async function GET(_request: NextRequest) {
   try {
     // Get aggregation status
     const aggregationStatus = await dataAggregator.getAggregationStatus();

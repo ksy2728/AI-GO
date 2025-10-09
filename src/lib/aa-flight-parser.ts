@@ -5,6 +5,8 @@
  * that AA now uses instead of __NEXT_DATA__
  */
 
+import { load } from 'cheerio'
+
 export interface AAModel {
   model_name?: string;
   name?: string;
@@ -59,7 +61,7 @@ export class AAFlightParser {
           });
           chunkCount++;
         }
-      } catch (err) {
+      } catch {
         // Some chunks might not be valid JSON, skip them
         continue;
       }
@@ -93,7 +95,7 @@ export class AAFlightParser {
           if (Array.isArray(parsedModels)) {
             models.push(...parsedModels);
           }
-        } catch (err) {
+        } catch {
           // Continue to next match
           continue;
         }
@@ -107,7 +109,7 @@ export class AAFlightParser {
           try {
             const modelObj = JSON.parse(match[0]);
             models.push(modelObj);
-          } catch (err) {
+          } catch {
             // Try to construct object manually
             models.push({
               model_name: match[1],
@@ -129,7 +131,7 @@ export class AAFlightParser {
             if (Array.isArray(parsedModels)) {
               models.push(...parsedModels);
             }
-          } catch (err) {
+          } catch {
             continue;
           }
         }
@@ -189,8 +191,7 @@ export class AAFlightParser {
     console.log('[AA Flight Parser] Using table fallback parser');
 
     const models: AAModel[] = [];
-    const cheerio = require('cheerio');
-    const $ = cheerio.load(html);
+    const $ = load(html);
 
     // Try different table selectors
     const tableSelectors = [

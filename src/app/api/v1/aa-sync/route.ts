@@ -1,4 +1,5 @@
-import { NextRequest, NextResponse } from 'next/server'
+import type { NextRequest } from 'next/server'
+import { NextResponse } from 'next/server'
 import { promises as fs } from 'fs'
 import path from 'path'
 import crypto from 'crypto'
@@ -123,7 +124,7 @@ function getFallbackModels() {
  * GET /api/v1/aa-sync
  * Get AA models data from static JSON or fallback
  */
-export async function GET(request: NextRequest) {
+export async function GET(_request: NextRequest) {
   try {
     // Try to get static data
     const staticData = await getStaticAAData()

@@ -1,11 +1,12 @@
-import { NextRequest, NextResponse } from 'next/server'
+import type { NextRequest } from 'next/server'
+import { NextResponse } from 'next/server'
 import { ModelService } from '@/services/models.service'
 
 /**
  * Initialize status records for all models without status
  * POST /api/v1/models/init-status
  */
-export async function POST(request: NextRequest) {
+export async function POST(_request: NextRequest) {
   try {
     console.log('🔄 Starting model status initialization...')
     
@@ -50,7 +51,7 @@ export async function POST(request: NextRequest) {
  * Check status initialization state
  * GET /api/v1/models/init-status
  */
-export async function GET(request: NextRequest) {
+export async function GET(_request: NextRequest) {
   try {
     const { prisma } = await import('@/lib/prisma')
     

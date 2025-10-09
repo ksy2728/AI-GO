@@ -12,7 +12,6 @@ import {
   CheckCircle2,
   AlertTriangle,
   Clock,
-  Upload,
   History,
 } from 'lucide-react'
 
@@ -208,6 +207,7 @@ export default function ModelConfigPage() {
         })
       }
     } catch (error) {
+      console.error('Error restoring backup:', error)
       setSaveResult({
         success: false,
         message: 'Restore failed'

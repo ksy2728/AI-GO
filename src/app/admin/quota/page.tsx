@@ -5,11 +5,9 @@ import { Card } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import {
-  Zap,
   DollarSign,
   Activity,
   AlertTriangle,
-  Settings,
   RefreshCw,
   Play,
   Pause,
@@ -161,19 +159,6 @@ export default function QuotaManagementPage() {
     if (percent >= 90) return 'bg-red-500'
     if (percent >= 75) return 'bg-yellow-500'
     return 'bg-green-500'
-  }
-
-  const getStatusColor = (status: string) => {
-    switch (status) {
-      case 'active':
-        return 'text-green-400'
-      case 'paused':
-        return 'text-yellow-400'
-      case 'disabled':
-        return 'text-red-400'
-      default:
-        return 'text-gray-400'
-    }
   }
 
   const getStatusIcon = (status: string) => {

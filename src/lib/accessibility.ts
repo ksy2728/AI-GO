@@ -428,7 +428,6 @@ export function validateAccessibility(element: Element): {
   })
 
   // Calculate score
-  const totalIssues = errors.length + warnings.length
   const maxScore = 100
   const score = Math.max(0, maxScore - (errors.length * 20 + warnings.length * 5))
 

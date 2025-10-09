@@ -37,7 +37,7 @@ export async function GET() {
         })
       }
     } catch (error) {
-      console.log('⚠️ Could not fetch fresh data, using static import')
+      console.log('⚠️ Could not fetch fresh data, using static import:', error)
     }
 
     // Fallback to static data

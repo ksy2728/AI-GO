@@ -15,7 +15,6 @@ import {
   RefreshCw,
   Clock,
   TrendingUp,
-  TrendingDown,
   Wifi,
   WifiOff,
   BarChart3,

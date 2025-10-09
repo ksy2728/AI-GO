@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
 import { UnifiedModelService } from '@/services/unified-models.service'
-import { UnifiedModelFilters } from '@/types/unified-models'
+import type { UnifiedModelFilters } from '@/types/unified-models'
 
 // Disable caching for this route to ensure fresh data
 export const revalidate = 0

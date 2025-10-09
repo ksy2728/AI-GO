@@ -1,6 +1,7 @@
-import { NextRequest, NextResponse } from 'next/server'
+import type { NextRequest } from 'next/server'
+import { NextResponse } from 'next/server'
 // Simple in-memory cache for status sync results (no external KV dependency)
-let statusSyncCache: Record<string, any> = {}
+const statusSyncCache: Record<string, any> = {}
 
 interface ModelConfig {
   id: string

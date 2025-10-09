@@ -1,14 +1,12 @@
 'use client'
 
-import { useMemo, useEffect, useState } from 'react'
+import { useMemo, useEffect } from 'react'
 import { useNetworkStatus } from '@/hooks/useNetworkStatus'
-import { Card, CardContent, CardHeader } from '@/components/ui/card'
+import { Card } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Skeleton } from '@/components/ui/skeleton'
-import { logger } from '@/lib/logger'
-import { MODEL_LIMITS } from '@/constants/models'
 import { ModelTable } from '@/components/models/ModelTable'
 import { TableErrorBoundary } from '@/components/models/TableErrorBoundary'
 import { ErrorFallback } from '@/components/models/ErrorFallback'
@@ -19,8 +17,7 @@ import { useModels } from '@/contexts/ModelsContext'
 import {
   Search,
   Server,
-  RefreshCw,
-  Filter
+  RefreshCw
 } from 'lucide-react'
 
 export default function ModelsPage() {
@@ -258,10 +255,7 @@ export default function ModelsPage() {
 
         {/* Regular Models Table */}
         {!error && (
-          <TableErrorBoundary
-            onSwitchToCards={() => console.log('Table view only')}
-            onError={() => console.error('Table rendering error occurred')}
-          >
+          <TableErrorBoundary>
             <ModelTable
               models={tableModels}
               className="w-full"

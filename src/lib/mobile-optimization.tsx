@@ -3,7 +3,8 @@
  * Provides mobile-specific lazy loading and performance optimizations
  */
 
-import React, { lazy, ComponentType } from 'react'
+import React, { lazy } from 'react'
+import type { ComponentType } from 'react'
 
 // Mobile detection utility
 export function isMobileDevice(): boolean {

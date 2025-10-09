@@ -1,4 +1,5 @@
-import { NextRequest, NextResponse } from 'next/server'
+import type { NextRequest } from 'next/server'
+import { NextResponse } from 'next/server'
 import { loadDashboardFeaturedModels, DASHBOARD_TARGET_PROVIDER_NAMES } from '@/services/dashboard-featured-models.service'
 import { UnifiedModelService } from '@/services/unified-models.service'
 

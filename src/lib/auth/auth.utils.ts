@@ -115,7 +115,7 @@ export class AuthUtils {
         isValid: true,
         user,
       };
-    } catch (error) {
+    } catch {
       return {
         isValid: false,
         error: 'Session validation failed',
@@ -137,11 +137,17 @@ export class AuthUtils {
       for (let i = 0; i < length; i++) {
         secret += chars[array[i] % chars.length];
       }
-    } else {
-      // Node.js environment
-      const crypto = require('crypto');
+    } else if (typeof globalThis !== 'undefined' && globalThis.crypto?.getRandomValues) {
+      // Node.js environment with Web Crypto available
+      const array = new Uint32Array(length);
+      globalThis.crypto.getRandomValues(array);
       for (let i = 0; i < length; i++) {
-        secret += chars[crypto.randomInt(0, chars.length)];
+        secret += chars[array[i] % chars.length];
+      }
+    } else {
+      // Fallback to Math.random (less secure but better than failing)
+      for (let i = 0; i < length; i++) {
+        secret += chars[Math.floor(Math.random() * chars.length)];
       }
     }
 

@@ -1,4 +1,5 @@
-import { NextRequest, NextResponse } from 'next/server'
+import type { NextRequest } from 'next/server'
+import { NextResponse } from 'next/server'
 
 interface ServerStatus {
   modelId: string
@@ -95,7 +96,7 @@ async function generateRealisticStatus(modelId: string, region: string = 'global
     }
   } catch (error) {
     // Fallback to operational status if lookup fails
-    console.warn('Failed to get model intelligence score, defaulting to operational')
+    console.warn('Failed to get model intelligence score, defaulting to operational:', error)
     return {
       modelId,
       status: 'operational',

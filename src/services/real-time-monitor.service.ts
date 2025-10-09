@@ -20,6 +20,7 @@ export interface ModelMetrics {
   requestsPerMin: number
   tokensPerMin: number
   lastUpdated: Date
+  region: string
 }
 
 /**
@@ -159,61 +160,99 @@ export class RealTimeMonitor {
   /**
    * Get real model metrics from database or fresh API calls
    */
-  static async getModelMetrics(modelId: string, provider: string): Promise<ModelMetrics | null> {
+  static async getModelMetrics(
+    modelIdentifier: string,
+    provider?: string,
+    region: string = 'global'
+  ): Promise<ModelMetrics | null> {
     try {
-      // First try to get recent data from database
-      const dbStatus = await prisma.modelStatus.findFirst({
+      const normalizedRegion = (region || 'global').toLowerCase()
+      const regionCandidates = Array.from(
+        new Set(
+          [normalizedRegion, normalizedRegion.replace('_', '-'), normalizedRegion.toUpperCase()] 
+            .filter(Boolean)
+        )
+      )
+
+      const modelRecord = await prisma.model.findFirst({
         where: {
-          modelId,
-          region: 'global',
-          checkedAt: {
-            gte: new Date(Date.now() - 15 * 60 * 1000) // Last 15 minutes
-          }
+          OR: [
+            { id: modelIdentifier },
+            { slug: modelIdentifier }
+          ]
         },
-        orderBy: { checkedAt: 'desc' }
+        select: {
+          id: true,
+          provider: {
+            select: { slug: true }
+          }
+        }
       })
+
+      if (!modelRecord) {
+        console.warn(`Model ${modelIdentifier} not found for real-time metrics lookup`)
+        return null
+      }
+
+      let dbStatus = null
+      for (const candidate of [...regionCandidates, 'global']) {
+        dbStatus = await prisma.modelStatus.findFirst({
+          where: {
+            modelId: modelRecord.id,
+            region: candidate,
+            checkedAt: {
+              gte: new Date(Date.now() - 15 * 60 * 1000)
+            }
+          },
+          orderBy: { checkedAt: 'desc' }
+        })
+
+        if (dbStatus) {
+          break
+        }
+      }
 
       if (dbStatus) {
         return {
           status: dbStatus.status as 'operational' | 'degraded' | 'outage',
-          availability: dbStatus.availability,
+          availability: Number(dbStatus.availability),
           latencyP50: dbStatus.latencyP50,
           latencyP95: dbStatus.latencyP95,
           latencyP99: dbStatus.latencyP99,
-          errorRate: dbStatus.errorRate,
+          errorRate: Number(dbStatus.errorRate),
           requestsPerMin: dbStatus.requestsPerMin || 0,
           tokensPerMin: dbStatus.tokensPerMin || 0,
-          lastUpdated: dbStatus.checkedAt
+          lastUpdated: dbStatus.checkedAt,
+          region: dbStatus.region
         }
       }
 
-      // If no recent data, get fresh provider health check
-      const healthCheck = await this.checkProviderAvailability(provider)
+      const providerSlug = (provider || modelRecord.provider?.slug || '').toLowerCase()
+      if (!providerSlug) {
+        console.warn(`Provider not resolved for model ${modelIdentifier}; skipping availability fallback`)
+        return null
+      }
 
-      // Convert health check to model metrics
+      const healthCheck = await this.checkProviderAvailability(providerSlug)
       const status = healthCheck.isHealthy ? 'operational' : 'outage'
       const availability = healthCheck.availability
 
-      // Add new measurement to buffer
-      const bufferKey = `${provider}:${modelId}`
+      const bufferKey = `${providerSlug}:${modelRecord.id}:${normalizedRegion}`
       if (!this.metricsBuffer.has(bufferKey)) {
         this.metricsBuffer.set(bufferKey, [])
       }
       const buffer = this.metricsBuffer.get(bufferKey)!
       buffer.push(healthCheck.responseTime)
 
-      // Keep only last N samples
       if (buffer.length > this.BUFFER_SIZE) {
         buffer.shift()
       }
 
-      // Calculate real percentiles from buffer
       const sortedBuffer = [...buffer].sort((a, b) => a - b)
       const latencyP50 = this.calculatePercentile(sortedBuffer, 50)
       const latencyP95 = this.calculatePercentile(sortedBuffer, 95)
       const latencyP99 = this.calculatePercentile(sortedBuffer, 99)
 
-      // Get real traffic metrics
       const trafficMetrics = this.getTrafficMetrics(bufferKey)
 
       const metrics: ModelMetrics = {
@@ -225,16 +264,16 @@ export class RealTimeMonitor {
         errorRate: healthCheck.errorRate,
         requestsPerMin: trafficMetrics.requestsPerMin,
         tokensPerMin: trafficMetrics.tokensPerMin,
-        lastUpdated: healthCheck.lastChecked
+        lastUpdated: healthCheck.lastChecked,
+        region: normalizedRegion
       }
 
-      // Store in database for future queries
-      await this.storeModelMetrics(modelId, metrics)
+      await this.storeModelMetrics(modelRecord.id, metrics, normalizedRegion)
 
       return metrics
 
     } catch (error) {
-      console.error(`Failed to get model metrics for ${modelId}:`, error)
+      console.error(`Failed to get model metrics for ${modelIdentifier}:`, error)
       return null
     }
   }
@@ -242,13 +281,19 @@ export class RealTimeMonitor {
   /**
    * Store real model metrics in database
    */
-  private static async storeModelMetrics(modelId: string, metrics: ModelMetrics): Promise<void> {
+  private static async storeModelMetrics(
+    modelId: string,
+    metrics: ModelMetrics,
+    region: string
+  ): Promise<void> {
     try {
+      const targetRegion = region || 'global'
+
       await prisma.modelStatus.upsert({
         where: {
           modelId_region: {
             modelId,
-            region: 'global'
+            region: targetRegion
           }
         },
         update: {
@@ -264,7 +309,7 @@ export class RealTimeMonitor {
         },
         create: {
           modelId,
-          region: 'global',
+          region: targetRegion,
           status: metrics.status,
           availability: metrics.availability,
           latencyP50: metrics.latencyP50,

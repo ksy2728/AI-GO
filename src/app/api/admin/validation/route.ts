@@ -1,5 +1,6 @@
 // Production Validation API Endpoint
-import { NextRequest, NextResponse } from 'next/server';
+import type { NextRequest } from 'next/server'
+import { NextResponse } from 'next/server'
 import { productionValidator } from '@/lib/validation/production-validator';
 
 export async function GET(request: NextRequest) {

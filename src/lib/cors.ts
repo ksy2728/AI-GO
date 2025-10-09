@@ -1,4 +1,4 @@
-import { NextApiRequest, NextApiResponse } from 'next'
+import type { NextApiRequest, NextApiResponse } from 'next'
 import Cors from 'cors'
 
 // Helper method to wait for a middleware to execute before continuing

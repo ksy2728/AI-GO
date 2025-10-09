@@ -1,12 +1,11 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import { useRouter, usePathname } from 'next/navigation'
 import Link from 'next/link'
 import {
   Shield,
   Settings,
-  Database,
   Activity,
   BarChart3,
   LogOut,
@@ -40,15 +39,7 @@ export default function AdminLayout({
   // Skip auth check for login page
   const isLoginPage = pathname === '/admin/login'
 
-  useEffect(() => {
-    if (!isLoginPage) {
-      checkAuth()
-    } else {
-      setIsLoading(false)
-    }
-  }, [pathname])
-
-  const checkAuth = async () => {
+  const checkAuth = useCallback(async () => {
     try {
       const response = await fetch('/api/admin/session', {
         credentials: 'include',
@@ -70,7 +61,15 @@ export default function AdminLayout({
     } finally {
       setIsLoading(false)
     }
-  }
+  }, [router])
+
+  useEffect(() => {
+    if (!isLoginPage) {
+      checkAuth()
+    } else {
+      setIsLoading(false)
+    }
+  }, [checkAuth, isLoginPage])
 
   const handleLogout = async () => {
     try {

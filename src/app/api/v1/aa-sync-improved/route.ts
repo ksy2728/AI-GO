@@ -1,17 +1,13 @@
-import { NextRequest, NextResponse } from 'next/server';
+import type { NextRequest } from 'next/server'
+import { NextResponse } from 'next/server'
 import { improvedAASyncScheduler } from '@/services/aa-sync-improved';
 
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
 
-export async function POST(request: NextRequest) {
+export async function POST(_request: NextRequest) {
   try {
-    // Check for admin authorization or API key
-    const authHeader = request.headers.get('authorization');
-    const apiKey = authHeader?.replace('Bearer ', '');
-
-    // For now, we'll allow the sync without auth for testing
-    // In production, add proper authentication
+    // TODO: Enforce authentication once admin flow is finalized
 
     console.log('📡 AA Improved Sync API triggered');
 
@@ -46,7 +42,7 @@ export async function POST(request: NextRequest) {
   }
 }
 
-export async function GET(request: NextRequest) {
+export async function GET(_request: NextRequest) {
   try {
     // Get sync status
     const status = improvedAASyncScheduler.getSyncStatus();

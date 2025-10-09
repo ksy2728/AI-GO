@@ -51,7 +51,7 @@ export async function GET() {
           const status = await openAIService.checkModelStatus(model)
           modelStatuses.push(status)
         } catch (error) {
-          console.warn(`Failed to check status for ${model}`)
+          console.warn(`Failed to check status for ${model}:`, error)
         }
       }
     }

@@ -20,6 +20,9 @@ export interface AaMetrics {
 export interface DbMetrics {
   status?: 'operational' | 'degraded' | 'down' | 'unknown';
   availability?: number;     // Uptime percentage
+  errorRate?: number;        // Error percentage
+  requestsPerMin?: number;   // Throughput by requests
+  tokensPerMin?: number;     // Throughput by tokens
   incidents?: number;        // Recent incidents count
   benchmarks?: Record<string, number>; // e.g., mmlu, arena scores
   price?: {

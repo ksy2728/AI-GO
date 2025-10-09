@@ -1,6 +1,7 @@
-import { NextRequest, NextResponse } from 'next/server'
+import type { NextRequest } from 'next/server'
+import { NextResponse } from 'next/server'
 // Simple in-memory cache for realtime status (no external KV dependency)
-let realtimeStatusCache: Record<string, any> = {}
+const realtimeStatusCache: Record<string, any> = {}
 
 export async function GET(
   request: NextRequest,
@@ -9,90 +10,59 @@ export async function GET(
   try {
     const { modelId } = await params
     const { searchParams } = new URL(request.url)
-    const region = searchParams.get('region') || 'global'
+    const regionParam = (searchParams.get('region') || 'global').toLowerCase()
 
-    // Generate region-specific metrics
-    let baseResponseTime = 200;
-    let baseAvailability = 99.0;
-    let baseErrorRate = 0.01;
-    
-    // Adjust metrics based on region
-    switch(region) {
-      case 'us-east-1':
-      case 'us-east':
-        // US East typically has slightly higher response times
-        baseResponseTime = 280;
-        baseAvailability = 99.2;
-        baseErrorRate = 0.015;
-        break;
-      case 'eu-west-1':
-      case 'eu-west':
-        // EU West has moderate response times
-        baseResponseTime = 240;
-        baseAvailability = 99.1;
-        baseErrorRate = 0.012;
-        break;
-      case 'ap-southeast-1':
-      case 'ap-southeast':
-        // Asia Pacific might have higher latency
-        baseResponseTime = 320;
-        baseAvailability = 98.9;
-        baseErrorRate = 0.018;
-        break;
-      case 'global':
-      default:
-        // Global is optimized (CDN/edge)
-        baseResponseTime = 200;
-        baseAvailability = 99.3;
-        baseErrorRate = 0.008;
-        break;
-    }
-    
-    // Use real data instead of artificial variation
-    const { RealTimeMonitor } = await import('@/services/real-time-monitor.service');
+    const { RealTimeMonitor } = await import('@/services/real-time-monitor.service')
 
-    try {
-      const metrics = await RealTimeMonitor.getModelMetrics(modelId, 'unknown');
+    const metrics = await RealTimeMonitor.getModelMetrics(modelId, undefined, regionParam)
 
-      if (metrics) {
-        return NextResponse.json({
-          modelId,
-          status: metrics.status,
-          availability: metrics.availability,
-          responseTime: metrics.latencyP50,
-          errorRate: metrics.errorRate,
-          region: 'global',
-          timestamp: new Date().toISOString(),
-        });
-      }
-    } catch (error) {
-      console.error(`Failed to get real-time status for ${modelId}:`, error);
+    if (metrics) {
+      const throughput = metrics.tokensPerMin > 0
+        ? metrics.tokensPerMin
+        : Math.max(metrics.requestsPerMin * 60, 0)
+
+      return NextResponse.json({
+        modelId,
+        status: metrics.status,
+        availability: metrics.availability,
+        responseTime: metrics.latencyP50,
+        errorRate: metrics.errorRate,
+        throughput,
+        requestsPerMin: metrics.requestsPerMin,
+        tokensPerMin: metrics.tokensPerMin,
+        region: metrics.region,
+        timestamp: metrics.lastUpdated.toISOString()
+      })
     }
 
-    // No real data available - return null status
     return NextResponse.json({
       modelId,
       status: 'unknown',
       availability: null,
       responseTime: null,
       errorRate: null,
-      region: 'global',
-      timestamp: new Date().toISOString(),
-    });
+      throughput: null,
+      requestsPerMin: null,
+      tokensPerMin: null,
+      region: regionParam,
+      timestamp: new Date().toISOString()
+    })
 
   } catch (error) {
-    console.error('Real-time status error:', error);
-    // Return error status instead of fake operational data
+    console.error('Real-time status error:', error)
     return NextResponse.json({
       modelId: 'unknown',
       status: 'error',
       availability: null,
       responseTime: null,
       errorRate: null,
+      throughput: null,
+      requestsPerMin: null,
+      tokensPerMin: null,
       region: 'global',
       lastChecked: new Date().toISOString(),
       source: 'error-state'
-    }, { status: 500 });
+    }, { status: 500 })
   }
 }
 
@@ -116,19 +86,25 @@ export async function POST(request: NextRequest) {
             const data = `data: ${JSON.stringify(status)}\n\n`
             controller.enqueue(new TextEncoder().encode(data))
           } else {
-            // Generate fresh status from real data
-            const { RealTimeMonitor } = await import('@/services/real-time-monitor.service');
-            const metrics = await RealTimeMonitor.getModelMetrics(modelId, 'unknown');
+            const { RealTimeMonitor } = await import('@/services/real-time-monitor.service')
+            const metrics = await RealTimeMonitor.getModelMetrics(modelId, undefined, region)
+
+            const throughput = metrics
+              ? (metrics.tokensPerMin > 0 ? metrics.tokensPerMin : Math.max(metrics.requestsPerMin * 60, 0))
+              : null
 
             const freshStatus = {
               modelId,
               status: metrics?.status || 'unknown',
-              availability: metrics?.availability || null,
-              responseTime: metrics?.latencyP50 || null,
-              errorRate: metrics?.errorRate || null,
-              region,
-              lastChecked: new Date().toISOString(),
-              expiresAt: Date.now() + (60 * 1000) // 1 minute
+              availability: metrics?.availability ?? null,
+              responseTime: metrics?.latencyP50 ?? null,
+              errorRate: metrics?.errorRate ?? null,
+              throughput,
+              requestsPerMin: metrics?.requestsPerMin ?? null,
+              tokensPerMin: metrics?.tokensPerMin ?? null,
+              region: metrics?.region || region,
+              lastChecked: (metrics?.lastUpdated ?? new Date()).toISOString(),
+              expiresAt: Date.now() + (60 * 1000)
             }
             realtimeStatusCache[cacheKey] = freshStatus
             const data = `data: ${JSON.stringify(freshStatus)}\n\n`

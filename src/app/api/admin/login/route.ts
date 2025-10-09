@@ -1,5 +1,6 @@
 // Admin Login API Endpoint
-import { NextRequest, NextResponse } from 'next/server';
+import type { NextRequest } from 'next/server'
+import { NextResponse } from 'next/server'
 import { AuthUtils } from '@/lib/auth/auth.utils';
 import { JWTManager } from '@/lib/auth/jwt';
 import type { LoginCredentials, AuthResponse } from '@/lib/auth/auth.types';
