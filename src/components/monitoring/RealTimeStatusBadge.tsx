@@ -3,7 +3,7 @@
 import React, { useEffect, useMemo, useState } from 'react'
 import { Badge } from '@/components/ui/badge'
 import { Loader2, Wifi, WifiOff, AlertTriangle } from 'lucide-react'
-import { useModelMetrics, useRegion, useRegionApi } from '@/contexts/RegionContext'
+import { useModelMetrics, useRegion, useRegionApi, normalizeRegionStatus } from '@/contexts/RegionContext'
 import { cn } from '@/lib/utils'
 
 // Import model status types for consistency
@@ -85,25 +85,13 @@ export function RealTimeStatusBadge({
     }
   }, [modelId, selectedRegion.code, fetchModelMetrics])
 
-  const derivedStatus: ModelStatus = useMemo(() => {
-    const metricsStatus = metrics?.status
+  const fallbackModelStatus = useMemo<ModelStatus>(() => (
+    fallbackStatus === 'outage' ? 'down' : fallbackStatus
+  ), [fallbackStatus])
 
-    // Handle metrics status
-    if (metricsStatus && metricsStatus !== 'unknown') {
-      // RegionMetricStatus can be 'outage' or 'unknown', map them to valid ModelStatus
-      const statusStr = metricsStatus as string
-      if (statusStr === 'outage') return 'down'
-      if (statusStr === 'unknown') {
-        const fallbackStr = fallbackStatus as string
-        return (fallbackStr === 'outage' ? 'down' : fallbackStatus) as ModelStatus
-      }
-      return metricsStatus as ModelStatus
-    }
-
-    // Handle fallback status
-    const fallbackStr = fallbackStatus as string
-    return (fallbackStr === 'outage' ? 'down' : fallbackStatus) as ModelStatus
-  }, [metrics?.status, fallbackStatus])
+  const derivedStatus: ModelStatus = useMemo(() => (
+    normalizeRegionStatus(metrics?.status, fallbackModelStatus)
+  ), [metrics?.status, fallbackModelStatus])
 
   const config = STATUS_CONFIG[derivedStatus]
   const StatusIcon = config.icon

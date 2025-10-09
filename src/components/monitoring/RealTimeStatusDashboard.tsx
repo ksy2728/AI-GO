@@ -4,8 +4,9 @@ import React, { useState, useEffect } from 'react'
 import { Card } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { RealTimeStatusBadge } from './RealTimeStatusBadge'
-import { useRegion, useRegionApi, type RegionMetricStatus } from '@/contexts/RegionContext'
+import { useRegion, useRegionApi, normalizeRegionStatus } from '@/contexts/RegionContext'
 import { useGlobalStats } from '@/contexts/ModelsContext'
+import type { ModelStatus } from '@/hooks/useFeaturedModels'
 import {
   RefreshCw,
   Activity,
@@ -21,7 +22,7 @@ interface ModelStatusRow {
   modelId: string
   modelName: string
   provider: string
-  status: RegionMetricStatus
+  status: ModelStatus
   availability: number | null
   responseTime: number | null
   errorRate: number | null
@@ -64,9 +65,7 @@ export function RealTimeStatusDashboard() {
         const metrics = await fetchModelMetrics(model.id, selectedRegion.code)
         if (!metrics) return null
 
-        // Map RegionMetricStatus to actual status value
-        const statusStr = metrics.status as string
-        const status: RegionMetricStatus = statusStr === 'outage' ? 'down' : metrics.status || 'unknown'
+        const status = normalizeRegionStatus(metrics.status, 'operational')
 
         const lastChecked = metrics.lastUpdated instanceof Date
           ? metrics.lastUpdated.toISOString()
@@ -98,10 +97,7 @@ export function RealTimeStatusDashboard() {
       const total = validStatuses.length
       const operational = validStatuses.filter(s => s.status === 'operational').length
       const degraded = validStatuses.filter(s => s.status === 'degraded').length
-      const outage = validStatuses.filter(s => {
-        const statusStr = s.status as string
-        return statusStr === 'down' || statusStr === 'outage'
-      }).length
+      const outage = validStatuses.filter(s => s.status === 'down').length
       const avgAvailability = total > 0
         ? validStatuses.reduce((sum, s) => sum + (s.availability ?? 0), 0) / total
         : 0
@@ -255,7 +251,7 @@ export function RealTimeStatusDashboard() {
                 </div>
                 <RealTimeStatusBadge 
                   modelId={status.modelId}
-                  fallbackStatus={status.status === 'unknown' ? 'degraded' : status.status}
+                  fallbackStatus={status.status}
                 />
               </div>
 

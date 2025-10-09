@@ -4,8 +4,45 @@ import { createContext, useContext, useState, useEffect, ReactNode } from 'react
 import { Region, getDefaultRegion, getRegionByCode } from '@/types/regions'
 import type { ModelStatus } from '@/hooks/useFeaturedModels'
 
-// RegionMetricStatus includes all ModelStatus values plus 'unknown'
-export type RegionMetricStatus = ModelStatus | 'unknown'
+// RegionMetricStatus includes realtime outage state and unknown status in addition to ModelStatus
+export type RegionMetricStatus = ModelStatus | 'outage' | 'unknown'
+
+/**
+ * Type guard to check if a string value is a valid RegionMetricStatus
+ */
+export function isRegionMetricStatus(value: unknown): value is RegionMetricStatus {
+  if (typeof value !== 'string') return false
+
+  const validStatuses: readonly string[] = ['operational', 'degraded', 'down', 'outage', 'unknown']
+  return validStatuses.includes(value)
+}
+
+/**
+ * Safely normalize RegionMetricStatus to ModelStatus
+ * Maps 'outage' → 'down', 'unknown' → fallback, validates input
+ */
+export function normalizeRegionStatus(status: RegionMetricStatus | undefined, fallback: ModelStatus): ModelStatus {
+  // Handle undefined or invalid status
+  if (!status) {
+    return fallback
+  }
+
+  // Map special RegionMetricStatus values to ModelStatus
+  switch (status) {
+    case 'unknown':
+      return fallback
+    case 'outage':
+      return 'down'
+    case 'operational':
+    case 'degraded':
+    case 'down':
+      return status
+    default:
+      // This should never happen with proper typing, but provides runtime safety
+      console.warn(`Unexpected status value: ${status}, falling back to ${fallback}`)
+      return fallback
+  }
+}
 
 interface ModelMetrics {
   status: RegionMetricStatus
@@ -163,9 +200,11 @@ export function useRegionApi() {
       const throughput = typeof data.throughput === 'number' ? data.throughput : null
       const lastUpdatedSource = data.timestamp || data.lastChecked
 
-      const normalizedStatus = data.status === 'outage' ? 'down' : data.status
+      // Use type guard to safely validate and convert status
+      const statusValue = isRegionMetricStatus(data.status) ? data.status : 'unknown'
+
       const metrics: ModelMetrics = {
-        status: (normalizedStatus as RegionMetricStatus) || 'unknown',
+        status: statusValue,
         availability: availability !== null ? Number(availability) : null,
         responseTime: responseTime !== null ? Math.round(responseTime) : null,
         errorRate: errorRate !== null ? Number(errorRate) : null,

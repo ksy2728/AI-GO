@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button'
 import { RegionSelectCompact } from '@/components/ui/region-select'
 import { RealTimeStatusBadge } from '@/components/monitoring/RealTimeStatusBadge'
 import { useLanguage } from '@/contexts/LanguageContext'
-import { useRegion, useModelMetrics, useRegionApi, type RegionModelMetrics } from '@/contexts/RegionContext'
+import { useRegion, useModelMetrics, useRegionApi, type RegionModelMetrics, normalizeRegionStatus } from '@/contexts/RegionContext'
 import { 
   ChevronRight,
   ChevronDown,
@@ -74,10 +74,7 @@ export function FeaturedModelCard({ model }: FeaturedModelCardProps) {
       const responseTime = typeof metrics.responseTime === 'number' ? metrics.responseTime : model.responseTime || 250
       const errorRate = typeof metrics.errorRate === 'number' ? metrics.errorRate : model.errorRate || 0.02
       const throughput = typeof metrics.throughput === 'number' ? metrics.throughput : model.throughput || 800
-      const status: ModelStatus =
-        metrics.status && metrics.status !== 'unknown'
-          ? metrics.status
-          : model.status
+      const status = normalizeRegionStatus(metrics.status, model.status)
 
       setDisplayMetrics({
         availability,
