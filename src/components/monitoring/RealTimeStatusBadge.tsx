@@ -61,9 +61,6 @@ export function RealTimeStatusBadge({
   // Use per-card region if provided, otherwise fall back to global region
   const effectiveRegion = propRegion || globalRegion
 
-  // Track previous status to prevent unnecessary re-renders
-  const [previousStatus, setPreviousStatus] = useState<ModelStatus | undefined>(undefined)
-
   useEffect(() => {
     let cancelled = false
 
@@ -104,15 +101,8 @@ export function RealTimeStatusBadge({
   ), [fallbackStatus])
 
   const derivedStatus: ModelStatus = useMemo(() => {
-    const newStatus = normalizeRegionStatus(metrics?.status, fallbackModelStatus)
-
-    // Only update if status actually changed
-    if (newStatus !== previousStatus) {
-      setPreviousStatus(newStatus)
-    }
-
-    return newStatus
-  }, [metrics?.status, fallbackModelStatus, previousStatus])
+    return normalizeRegionStatus(metrics?.status, fallbackModelStatus)
+  }, [metrics?.status, fallbackModelStatus])
 
   const config = STATUS_CONFIG[derivedStatus]
   const StatusIcon = config.icon
