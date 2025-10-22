@@ -1,10 +1,295 @@
 {
   "articles": [
     {
+      "id": "netflix-goes-all-in-on-generative-ai-as-entertainm",
+      "title": "Netflix goes ‘all in’ on generative AI as entertainment industry remains divided",
+      "summary": "Netflix is using AI for special effects and pre-production, but CEO Ted Sarandos that Netflix \"not worried about AI replacing creativity.",
+      "content": "Netflix is using AI for special effects and pre-production, but CEO Ted Sarandos that Netflix \"not worried about AI replacing creativity.\"",
+      "source": "TechCrunch AI",
+      "author": "Amanda Silberling",
+      "publishedAt": "2025-10-21T22:21:46.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "generative ai"
+      ],
+      "url": "https://techcrunch.com/2025/10/21/netflix-goes-all-in-on-generative-ai-as-entertainment-industry-remains-divided/",
+      "readTime": 3,
+      "views": 15364
+    },
+    {
+      "id": "open-source-agentic-startup-langchain-hits-1-25b-v",
+      "title": "Open source agentic startup LangChain hits $1.25B valuation",
+      "summary": "As TechCrunch previously reported, the maker of a popular open source framework for building AI agents has officially become a unicorn.",
+      "content": "As TechCrunch previously reported, the maker of a popular open source framework for building AI agents has officially become a unicorn.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2025-10-21T22:12:46.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/10/21/open-source-agentic-startup-langchain-hits-1-25b-valuation/",
+      "readTime": 3,
+      "views": 51749
+    },
+    {
+      "id": "sesame-the-conversational-ai-startup-from-oculus-f",
+      "title": "Sesame, the conversational AI startup from Oculus founders, raises $250M and launches beta",
+      "summary": "Former Oculus CEO Brendan Iribe’s new startup, Sesame, is building AI-powered smartglasses with natural, humanlike voice interaction.  Backed by Sequoia and Spark, the company also launched an invite-.",
+      "content": "Former Oculus CEO Brendan Iribe’s new startup, Sesame, is building AI-powered smartglasses with natural, humanlike voice interaction. Backed by Sequoia and Spark, the company also launched an invite-only iOS beta to preview its conversational AI.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2025-10-21T21:34:17.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/10/21/sesame-the-conversational-ai-startup-from-oculus-founders-raises-250m-and-launches-beta/",
+      "readTime": 3,
+      "views": 52611
+    },
+    {
+      "id": "openai-s-new-browser-is-a-broadside-shot-at-google",
+      "title": "OpenAI’s new browser is a broadside shot at Google",
+      "summary": "OpenAI's new browser announcement made it clear exactly how much Google has to lose in the AI era.",
+      "content": "OpenAI's new browser announcement made it clear exactly how much Google has to lose in the AI era.",
+      "source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "publishedAt": "2025-10-21T21:17:50.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2025/10/21/openais-new-browser-is-a-broadside-shot-at-google/",
+      "readTime": 3,
+      "views": 9786
+    },
+    {
+      "id": "sources-multimodal-ai-startup-fal-ai-already-raise",
+      "title": "Sources: Multimodal AI startup Fal.ai already raised at $4B+ valuation",
+      "summary": "ai announced its previous round at a $1. 5 billion valuation in July.",
+      "content": "Fal.ai announced its previous round at a $1.5 billion valuation in July.",
+      "source": "TechCrunch AI",
+      "author": "Marina Temkin",
+      "publishedAt": "2025-10-21T20:12:41.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/10/21/sources-multimodal-ai-startup-fal-ai-already-raised-at-4b-valuation/",
+      "readTime": 3,
+      "views": 33940
+    },
+    {
+      "id": "cloudflare-ceo-matthew-prince-is-pushing-uk-regula",
+      "title": "Cloudflare CEO Matthew Prince is pushing UK regulator to unbundle Google&#8217;s search and AI crawlers",
+      "summary": "Cloudflare CEO Matthew Prince is urging regulators to rein in Google’s AI practices, arguing the tech giant’s dominance in search gives it an unfair edge in the AI race.",
+      "content": "Cloudflare CEO Matthew Prince is urging regulators to rein in Google’s AI practices, arguing the tech giant’s dominance in search gives it an unfair edge in the AI race.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2025-10-21T19:34:21.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2025/10/21/cloudflare-ceo-matthew-prince-is-pushing-uk-regulator-to-unbundle-googles-search-and-ai-crawlers/",
+      "readTime": 3,
+      "views": 13274
+    },
+    {
+      "id": "i-spent-a-month-living-with-a-430-ai-pet-the-casio",
+      "title": "I spent a month living with a $430 AI pet, the Casio Moflin",
+      "summary": "Casio’s Moflin, a hamster-like robot pet, uses AI to develop a personality over time.",
+      "content": "Casio’s Moflin, a hamster-like robot pet, uses AI to develop a personality over time.",
+      "source": "TechCrunch AI",
+      "author": "Amanda Silberling",
+      "publishedAt": "2025-10-21T18:23:56.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/10/21/i-spent-a-month-living-with-a-430-ai-pet-the-casio-moflin/",
+      "readTime": 3,
+      "views": 6437
+    },
+    {
+      "id": "as-the-browser-wars-heat-up-here-are-the-hottest-a",
+      "title": "As the browser wars heat up, here are the hottest alternatives to Chrome and Safari in 2025",
+      "summary": "We’ve compiled an overview of some of the top alternative browsers available today aiming to challenge Chrome and Safari.",
+      "content": "We’ve compiled an overview of some of the top alternative browsers available today aiming to challenge Chrome and Safari.",
+      "source": "TechCrunch AI",
+      "author": "Lauren Forristal",
+      "publishedAt": "2025-10-21T17:54:28.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/10/21/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2025/",
+      "readTime": 3,
+      "views": 7192
+    },
+    {
+      "id": "a16z-backed-codi-launches-ai-agent-office-manager",
+      "title": "a16z-backed Codi launches AI agent office manager",
+      "summary": "The startup released its beta version of the new AI office management product in May and officially launched it on Tuesday.  The company last raised a $16 million Series A in 2022 led by a16z, and has.",
+      "content": "The startup released its beta version of the new AI office management product in May and officially launched it on Tuesday. The company last raised a $16 million Series A in 2022 led by a16z, and has raised $23 million to date.",
+      "source": "TechCrunch AI",
+      "author": "Dominic-Madori Davis",
+      "publishedAt": "2025-10-21T17:45:14.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/10/21/a16z-backed-codi-launches-ai-agent-office-manager/",
+      "readTime": 3,
+      "views": 16322
+    },
+    {
+      "id": "openai-launches-an-ai-powered-browser-chatgpt-atla",
+      "title": "OpenAI launches an AI-powered browser: ChatGPT Atlas",
+      "summary": "OpenAI is launching an AI-powered browser, its latest challenge to Google as the main way people find information online.",
+      "content": "OpenAI is launching an AI-powered browser, its latest challenge to Google as the main way people find information online.",
+      "source": "TechCrunch AI",
+      "author": "Maxwell Zeff",
+      "publishedAt": "2025-10-21T17:15:40.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gpt",
+        "openai",
+        "chatgpt",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2025/10/21/openai-launches-an-ai-powered-browser-chatgpt-atlas/",
+      "readTime": 3,
+      "views": 38617
+    },
+    {
+      "id": "youtube-s-likeness-detection-technology-has-offici",
+      "title": "YouTube’s likeness-detection technology has officially launched",
+      "summary": "YouTube’s detection technology identifies and manages AI-generated content featuring the likeness of creators, such as their face and voice.",
+      "content": "YouTube’s detection technology identifies and manages AI-generated content featuring the likeness of creators, such as their face and voice.",
+      "source": "TechCrunch AI",
+      "author": "Lauren Forristal",
+      "publishedAt": "2025-10-21T15:57:18.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/10/21/youtubes-likeness-detection-technology-has-officially-launched/",
+      "readTime": 3,
+      "views": 6714
+    },
+    {
+      "id": "whatsapp-and-messenger-add-new-warnings-to-help-ol",
+      "title": "WhatsApp and Messenger add new warnings to help older people avoid online scams",
+      "summary": "WhatsApp will now warn users before sharing their screen with unknown contacts, and Messenger will flag suspicious messages using AI.",
+      "content": "WhatsApp will now warn users before sharing their screen with unknown contacts, and Messenger will flag suspicious messages using AI.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2025-10-21T15:50:56.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/10/21/whatsapp-and-messenger-add-new-warnings-to-help-older-people-avoid-online-scams/",
+      "readTime": 3,
+      "views": 33996
+    },
+    {
+      "id": "serval-raises-47m-to-bring-ai-agents-to-it-service",
+      "title": "Serval raises $47M to bring AI agents to IT service management",
+      "summary": "Serval is using agentic AI models to automate IT service management, but the company has a unique approach that takes advantage of agentic AI’s powers while avoiding many of its pitfalls.",
+      "content": "Serval is using agentic AI models to automate IT service management, but the company has a unique approach that takes advantage of agentic AI’s powers while avoiding many of its pitfalls.",
+      "source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "publishedAt": "2025-10-21T15:48:45.000Z",
+      "category": "funding",
+      "tags": [
+        "ai",
+        "ai model"
+      ],
+      "url": "https://techcrunch.com/2025/10/21/serval-raises-47-million-to-bring-ai-agent-to-it-service-management/",
+      "readTime": 3,
+      "views": 53295
+    },
+    {
+      "id": "anthropic-ceo-claps-back-after-trump-officials-acc",
+      "title": "Anthropic CEO claps back after Trump officials accuse firm of AI fear-mongering",
+      "summary": "Amodei’s response comes after last week’s dogpiling on Anthropic from AI leaders and top members of the Trump administration, including AI czar David Sacks and White House senior policy advisor for AI.",
+      "content": "Amodei’s response comes after last week’s dogpiling on Anthropic from AI leaders and top members of the Trump administration, including AI czar David Sacks and White House senior policy advisor for AI Sriram Krishnan -- all accusing the AI giant of stoking fears to damage the industry.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2025-10-21T15:32:09.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2025/10/21/anthropic-ceo-claps-back-after-trump-officials-accuse-firm-of-ai-fear-mongering/",
+      "readTime": 3,
+      "views": 44781
+    },
+    {
+      "id": "veeam-acquires-data-security-company-securiti-ai-f",
+      "title": "Veeam acquires data security company Securiti AI for $1.7B",
+      "summary": "Veeam plans to offer Securiti's data command center product alongside its existing data resiliency products.",
+      "content": "Veeam plans to offer Securiti's data command center product alongside its existing data resiliency products.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Szkutak",
+      "publishedAt": "2025-10-21T14:08:12.000Z",
+      "category": "partnership",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/10/21/veeam-acquires-data-security-company-securiti-ai-for-1-7b/",
+      "readTime": 3,
+      "views": 51077
+    },
+    {
+      "id": "how-ai-adoption-is-moving-it-operations-from-react",
+      "title": "How AI adoption is moving IT operations from reactive to proactive",
+      "summary": "CIOs want to fix IT problems faster without expanding headcount, and many see AI adoption as the solution for their operations.  For ages, they&#8217;ve used things like automation and self-help porta.",
+      "content": "CIOs want to fix IT problems faster without expanding headcount, and many see AI adoption as the solution for their operations. For ages, they&#8217;ve used things like automation and self-help portals to handle this, so their teams can solve issues quickly. Now, AI is getting involved, and lots of ",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2025-10-21T13:59:14.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "automation"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/how-ai-adoption-it-operations-reactive-to-proactive/",
+      "readTime": 3,
+      "views": 53936
+    },
+    {
+      "id": "businesses-still-face-the-ai-data-challenge",
+      "title": "Businesses still face the AI data challenge",
+      "summary": "A few years ago, the business technology world&#8217;s favourite buzzword was &#8216;Big Data&#8217; – a reference to organisations&#8217; mass collection of information that could be used to suggest .",
+      "content": "A few years ago, the business technology world&#8217;s favourite buzzword was &#8216;Big Data&#8217; – a reference to organisations&#8217; mass collection of information that could be used to suggest previously unexplored ways of operating, and float ideas about what strategies they may best pursue.",
+      "source": "AI News",
+      "author": "AI News",
+      "publishedAt": "2025-10-21T13:55:40.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/businesses-still-face-the-ai-data-challenge/",
+      "readTime": 3,
+      "views": 53983
+    },
+    {
       "id": "how-accounting-firms-are-using-ai-agents-to-reclai",
       "title": "How accounting firms are using AI agents to reclaim time and trust",
-      "summary": "For CFOs and CIOs under pressure to modernise finance operations, automation, as seen in several generations of RPA (robotic process automation), isn’t enough.  It&#8217;s apparent that transparency a.",
-      "content": "For CFOs and CIOs under pressure to modernise finance operations, automation, as seen in several generations of RPA (robotic process automation), isn’t enough. It&#8217;s apparent that transparency and explainability matter just as much. Accounting firms and finance functions inside organisations ar",
+      "summary": "For CFOs and CIOs under pressure to modernise finance operations, automation – as seen in several generations of RPA (robotic process automation) – isn’t enough.  It&#8217;s apparent that transparency.",
+      "content": "For CFOs and CIOs under pressure to modernise finance operations, automation – as seen in several generations of RPA (robotic process automation) – isn’t enough. It&#8217;s apparent that transparency and explainability matter just as much. Accounting firms and finance functions inside organisations ",
       "source": "AI News",
       "author": "AI News",
       "publishedAt": "2025-10-21T11:41:15.000Z",
@@ -15,7 +300,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/finance-ai-reclaiming-time-trust-with-openai-chatgpt/",
       "readTime": 3,
-      "views": 42903
+      "views": 28640
     },
     {
       "id": "china-8217-s-generative-ai-user-base-doubles-to-51",
@@ -33,7 +318,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/china-ai-adoption-doubles-515-million-users/",
       "readTime": 3,
-      "views": 15352
+      "views": 51119
     },
     {
       "id": "why-ai-should-be-able-to-hang-up-on-you",
@@ -49,313 +334,23 @@
       ],
       "url": "https://www.technologyreview.com/2025/10/21/1126116/why-ai-should-be-able-to-hang-up-on-you/",
       "readTime": 3,
-      "views": 36847
-    },
-    {
-      "id": "european-ai-rising-star-nexos-ai-raises-30m-to-unl",
-      "title": "European AI rising star Nexos.ai raises €30M to unlock enterprise AI adoption",
-      "summary": "Nord Security co-founders have closed a €30 million Series A for their new startup, Nexos. ai, an orchestration platform aimed at helping companies adopt AI securely.",
-      "content": "Nord Security co-founders have closed a €30 million Series A for their new startup, Nexos.ai, an orchestration platform aimed at helping companies adopt AI securely.",
-      "source": "TechCrunch AI",
-      "author": "Anna Heim",
-      "publishedAt": "2025-10-21T06:00:00.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/10/20/european-ai-rising-star-nexos-ai-raises-30m-to-unlock-enterprise-ai-adoption/",
-      "readTime": 3,
-      "views": 50537
-    },
-    {
-      "id": "yc-alum-cercli-an-ai-powered-rippling-for-mena-rai",
-      "title": "YC alum Cercli, an AI-powered Rippling for MENA, raises oversubscribed $12M Series A",
-      "summary": "In a region long defined by fragmented enterprise systems, outdated compliance tools, and HR software that rarely talks to finance, Cercli is building a unified alternative for MENA businesses with AI.",
-      "content": "In a region long defined by fragmented enterprise systems, outdated compliance tools, and HR software that rarely talks to finance, Cercli is building a unified alternative for MENA businesses with AI at its core. The Dubai-based startup, founded by ex-Careem operators Akeed Azmi&#160;and&#160;David",
-      "source": "TechCrunch AI",
-      "author": "Tage Kene-Okafor",
-      "publishedAt": "2025-10-21T04:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/10/20/yc-alum-cercli-an-ai-powered-rippling-for-mena-raises-oversubscribed-12m-series-a/",
-      "readTime": 3,
-      "views": 31750
-    },
-    {
-      "id": "top-openai-google-brain-researchers-set-off-a-300m",
-      "title": "Top OpenAI, Google Brain researchers set off a $300M VC frenzy for their startup Periodic Labs",
-      "summary": "When Liam Fedus announced he was quitting OpenAI, VCs swarmed.  One even wrote a love letter.",
-      "content": "When Liam Fedus announced he was quitting OpenAI, VCs swarmed. One even wrote a love letter. Here's how Felicis' Peter Deng won the deal.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2025-10-20T21:15:24.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2025/10/20/top-openai-google-brain-researchers-set-off-a-300m-vc-frenzy-for-their-startup-periodic-labs/",
-      "readTime": 3,
-      "views": 38469
-    },
-    {
-      "id": "meta-ai-8217-s-app-downloads-and-daily-users-spike",
-      "title": "Meta AI&#8217;s app downloads and daily users spiked after launch of &#8216;Vibes&#8217; AI video feed",
-      "summary": "New data from Similarweb shows Meta AI’s mobile app is surging in popularity, jumping from 775,000 to 2. 7 million daily active users in just four weeks.",
-      "content": "New data from Similarweb shows Meta AI’s mobile app is surging in popularity, jumping from 775,000 to 2.7 million daily active users in just four weeks. The app is now seeing roughly 300,000 new installs per day — up from under 200,000 previously.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2025-10-20T18:22:38.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Meta"
-      ],
-      "url": "https://techcrunch.com/2025/10/20/meta-ais-app-downloads-and-daily-users-spiked-after-launch-of-vibes-ai-video-feed/",
-      "readTime": 3,
-      "views": 50499
-    },
-    {
-      "id": "anthropic-brings-claude-code-to-the-web",
-      "title": "Anthropic brings Claude Code to the web",
-      "summary": "Anthropic now lets developers spin up Claude Code agents, and manage them, from their web browser on desktop and mobile.",
-      "content": "Anthropic now lets developers spin up Claude Code agents, and manage them, from their web browser on desktop and mobile.",
-      "source": "TechCrunch AI",
-      "author": "Maxwell Zeff",
-      "publishedAt": "2025-10-20T18:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "anthropic",
-        "claude",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2025/10/20/anthropic-brings-claude-code-to-the-web/",
-      "readTime": 3,
-      "views": 43274
-    },
-    {
-      "id": "ftc-removes-lina-khan-era-posts-about-ai-risks-and",
-      "title": "FTC removes Lina Khan-era posts about AI risks and open source",
-      "summary": "One post, authored by Khan’s staff, was published on January 3, 2025, with the title “AI and the Risk of Consumer Harm. ” It  noted that the FTC was “taking note of AI’s potential for real-world insta.",
-      "content": "One post, authored by Khan’s staff, was published on January 3, 2025, with the title “AI and the Risk of Consumer Harm.” It  noted that the FTC was “taking note of AI’s potential for real-world instances of harm — from incentivizing commercial surveillance to enabling fraud and impersonation to perp",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2025-10-20T16:49:58.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/10/20/ftc-removes-lina-khan-era-posts-about-ai-risks-and-open-source/",
-      "readTime": 3,
-      "views": 19406
-    },
-    {
-      "id": "openevidence-the-chatgpt-for-doctors-raises-200m-a",
-      "title": "OpenEvidence, the ChatGPT for doctors, raises $200M at $6B valuation",
-      "summary": "Trained on medical journals like JAMA and the New England Journal of Medicine, the platform helps users quickly get answers to existing medical knowledge to help treat patients.  Verified medical prof.",
-      "content": "Trained on medical journals like JAMA and the New England Journal of Medicine, the platform helps users quickly get answers to existing medical knowledge to help treat patients. Verified medical professionals can access OpenEvidence’s tool, which is supported by advertising, for free.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2025-10-20T14:46:58.000Z",
-      "category": "funding",
-      "tags": [
-        "ai",
-        "gpt",
-        "chatgpt"
-      ],
-      "url": "https://techcrunch.com/2025/10/20/openevidence-the-chatgpt-for-doctors-raises-200m-at-6b-valuation/",
-      "readTime": 3,
-      "views": 49098
-    },
-    {
-      "id": "arm-provides-edge-ai-platform-to-startups-via-flex",
-      "title": "Arm provides edge AI platform to startups via flexible access",
-      "summary": "Arm has announced that it&#8217;s providing its most powerful edge AI platform, Armv9, to startups via its Flexible Access programme.  The &#8220;Flexible Access&#8221; model is essentially a &#8216;t.",
-      "content": "Arm has announced that it&#8217;s providing its most powerful edge AI platform, Armv9, to startups via its Flexible Access programme. The &#8220;Flexible Access&#8221; model is essentially a &#8216;try before you buy&#8217; for chip designers. It gives companies upfront, low-cost, or no-cost (for qu",
-      "source": "AI News",
-      "author": "Ryan Daws",
-      "publishedAt": "2025-10-20T13:02:53.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/arm-provides-edge-ai-platform-startups-flexible-access/",
-      "readTime": 3,
-      "views": 47731
-    },
-    {
-      "id": "adobe-launches-a-foundry-service-that-builds-custo",
-      "title": "Adobe launches a foundry service that builds custom generative AI models for enterprises",
-      "summary": "Adobe will build custom AI models by training its Firefly model family on a brand's intellectual property.",
-      "content": "Adobe will build custom AI models by training its Firefly model family on a brand's intellectual property.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Szkutak",
-      "publishedAt": "2025-10-20T13:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "generative ai",
-        "ai model"
-      ],
-      "url": "https://techcrunch.com/2025/10/20/adobe-launches-a-foundry-service-that-builds-custom-generative-ai-models-for-enterprises/",
-      "readTime": 3,
-      "views": 36026
-    },
-    {
-      "id": "scale-ai-alum-raises-9m-for-ai-serving-critical-in",
-      "title": "Scale AI alum raises $9M for AI serving critical industries in MENA",
-      "summary": "The company, 1001 AI,  hopes to sell its decision-making AI to new projects after it launches its first product, which is scheduled by year's end.",
-      "content": "The company, 1001 AI,  hopes to sell its decision-making AI to new projects after it launches its first product, which is scheduled by year's end.",
-      "source": "TechCrunch AI",
-      "author": "Tage Kene-Okafor",
-      "publishedAt": "2025-10-20T08:15:50.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/10/20/scale-ai-alum-raises-9m-for-ai-serving-critical-industries-in-mena/",
-      "readTime": 3,
-      "views": 49546
-    },
-    {
-      "id": "the-man-betting-everything-on-ai-and-bill-belichic",
-      "title": "The man betting everything on AI and Bill Belichick",
-      "summary": "UNC Chancellor Lee Roberts is making big bets on AI and Bill Belichick, and he sounds like a Silicon Valley CEO while doing it.",
-      "content": "UNC Chancellor Lee Roberts is making big bets on AI and Bill Belichick, and he sounds like a Silicon Valley CEO while doing it.",
-      "source": "TechCrunch AI",
-      "author": "Connie Loizos",
-      "publishedAt": "2025-10-20T08:10:52.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/10/20/the-man-betting-everything-on-ai-and-bill-belichick/",
-      "readTime": 3,
-      "views": 29206
-    },
-    {
-      "id": "openai-s-embarrassing-math",
-      "title": "OpenAI’s ‘embarrassing’ math",
-      "summary": "No, GPT-5 did not solve a bunch of previously unsolved math problems.",
-      "content": "No, GPT-5 did not solve a bunch of previously unsolved math problems.",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2025-10-19T18:56:58.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gpt",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2025/10/19/openais-embarrassing-math/",
-      "readTime": 3,
-      "views": 15689
-    },
-    {
-      "id": "wikipedia-says-traffic-is-falling-due-to-ai-search",
-      "title": "Wikipedia says traffic is falling due to AI search summaries and social video",
-      "summary": "Looks like Wikipedia isn't immune to broader online trends, with human page views falling 8% year-over-year, according to a new blog post from Marshall Miller of the Wikimedia Foundation.",
-      "content": "Looks like Wikipedia isn't immune to broader online trends, with human page views falling 8% year-over-year, according to a new blog post from Marshall Miller of the Wikimedia Foundation.",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2025-10-18T19:00:00.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/10/18/wikipedia-says-traffic-is-falling-due-to-ai-search-summaries-and-social-video/",
-      "readTime": 3,
-      "views": 20878
-    },
-    {
-      "id": "too-burned-out-to-travel-this-new-app-fakes-your-s",
-      "title": "Too burned out to travel? This new app fakes your summer vacation photos for you",
-      "summary": "A new iPhone app, Endless Summer, uses AI to create photorealistic vacation photos starring you — no travel required.",
-      "content": "A new iPhone app, Endless Summer, uses AI to create photorealistic vacation photos starring you — no travel required.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2025-10-18T16:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/10/18/too-burned-out-to-travel-this-new-app-fakes-your-summer-vacation-photos-for-you/",
-      "readTime": 3,
-      "views": 43879
-    },
-    {
-      "id": "silicon-valley-spooks-the-ai-safety-advocates",
-      "title": "Silicon Valley spooks the AI safety advocates",
-      "summary": "The White House's David Sacks and OpenAI's Jason Kwon caused a stir online this week for their comments about groups promoting AI safety.",
-      "content": "The White House's David Sacks and OpenAI's Jason Kwon caused a stir online this week for their comments about groups promoting AI safety.",
-      "source": "TechCrunch AI",
-      "author": "Maxwell Zeff",
-      "publishedAt": "2025-10-18T01:21:30.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2025/10/17/silicon-valley-spooks-the-ai-safety-advocates/",
-      "readTime": 3,
-      "views": 49055
-    },
-    {
-      "id": "your-ai-tools-run-on-fracked-gas-and-bulldozed-tex",
-      "title": "Your AI tools run on fracked gas and bulldozed Texas land",
-      "summary": "If you're wondering why AI companies are pursuing this path, they'll tell you it's not just about electricity — it's about beating China.",
-      "content": "If you're wondering why AI companies are pursuing this path, they'll tell you it's not just about electricity — it's about beating China.",
-      "source": "TechCrunch AI",
-      "author": "Connie Loizos",
-      "publishedAt": "2025-10-17T19:53:30.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/10/17/your-ai-tools-run-on-fracked-gas-and-bulldozed-texas-land/",
-      "readTime": 3,
-      "views": 33070
-    },
-    {
-      "id": "should-ai-do-everything-openai-thinks-so",
-      "title": "Should AI do everything? OpenAI thinks so",
-      "summary": "Silicon Valley’s rule.  It’s not cool to be cautious.",
-      "content": "Silicon Valley’s rule? It’s not cool to be cautious. As OpenAI removes guardrails and VCs criticize companies like Anthropic for supporting AI safety regulations, it’s becoming clearer who the industry thinks should shape AI development.&#160; On this episode of Equity, Kirsten Korosec, Anthony Ha, ",
-      "source": "TechCrunch AI",
-      "author": "Theresa Loconsolo",
-      "publishedAt": "2025-10-17T19:00:00.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai",
-        "openai",
-        "anthropic",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/video/should-ai-do-everything-openai-thinks-so/",
-      "readTime": 3,
-      "views": 49162
+      "views": 46116
     }
   ],
-  "lastUpdated": "2025-10-21T12:39:38.561Z",
+  "lastUpdated": "2025-10-22T01:25:33.259Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
+    "TechCrunch AI",
     "AI News",
-    "MIT Technology Review AI",
-    "TechCrunch AI"
+    "MIT Technology Review AI"
   ],
   "categories": [
     "market",
-    "release",
-    "research",
     "funding",
-    "regulation"
+    "release",
+    "regulation",
+    "partnership",
+    "research"
   ]
 }
