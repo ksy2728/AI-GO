@@ -1,6 +1,275 @@
 {
   "articles": [
     {
+      "id": "with-an-intel-recovery-underway-all-eyes-turn-to-i",
+      "title": "With an Intel recovery underway, all eyes turn to its foundry business",
+      "summary": "Intel added $20 billion to its balance sheet in Q3 but didn't offer many details on the progress of its floundering foundry business.",
+      "content": "Intel added $20 billion to its balance sheet in Q3 but didn't offer many details on the progress of its floundering foundry business.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Szkutak",
+      "publishedAt": "2025-10-24T00:09:29.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/10/23/with-an-intel-recovery-underway-all-eyes-turn-to-its-foundry-business/",
+      "readTime": 3,
+      "views": 49606
+    },
+    {
+      "id": "openai-buys-sky-an-ai-interface-for-mac",
+      "title": "OpenAI buys Sky, an AI interface for Mac",
+      "summary": "OpenAI has acquired Software Applications, Inc. , the startup behind Sky — an AI-powered natural language interface for Mac that can view your screen and take actions in your apps.",
+      "content": "OpenAI has acquired Software Applications, Inc., the startup behind Sky — an AI-powered natural language interface for Mac that can view your screen and take actions in your apps.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2025-10-23T20:53:02.000Z",
+      "category": "partnership",
+      "tags": [
+        "ai",
+        "openai",
+        "natural language",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2025/10/23/openai-buys-sky-an-ai-interface-for-mac/",
+      "readTime": 3,
+      "views": 7860
+    },
+    {
+      "id": "20-year-old-dropouts-built-ai-notetaker-turbo-ai-t",
+      "title": "20-year-old dropouts built AI notetaker Turbo AI to 5 million users",
+      "summary": "Rudy Arora and Sarthak Dhawan, two 20-year-old college dropouts, grew an AI note-taker app to five million users and an eight-figure ARR, they say.",
+      "content": "Rudy Arora and Sarthak Dhawan, two 20-year-old college dropouts, grew an AI note-taker app to five million users and an eight-figure ARR, they say.",
+      "source": "TechCrunch AI",
+      "author": "Tage Kene-Okafor",
+      "publishedAt": "2025-10-23T19:25:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/10/23/20-year-old-dropouts-built-ai-notetaker-turbo-ai-to-5-million-users/",
+      "readTime": 3,
+      "views": 42777
+    },
+    {
+      "id": "instagram-users-can-now-use-meta-ai-editing-tools-",
+      "title": "Instagram users can now use Meta AI editing tools directly in IG Stories",
+      "summary": "Meta AI's photo editing tools can be found in Instagram Stories when tapping the paintbrush icon.  Users can describe what they want to add, remove, or change.",
+      "content": "Meta AI's photo editing tools can be found in Instagram Stories when tapping the paintbrush icon. Users can describe what they want to add, remove, or change.",
+      "source": "TechCrunch AI",
+      "author": "Lauren Forristal",
+      "publishedAt": "2025-10-23T19:22:40.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Meta"
+      ],
+      "url": "https://techcrunch.com/2025/10/23/instagram-users-can-now-use-meta-ai-editing-tools-directly-in-ig-stories/",
+      "readTime": 3,
+      "views": 46397
+    },
+    {
+      "id": "two-days-after-openai-8217-s-atlas-microsoft-relau",
+      "title": "Two days after OpenAI&#8217;s Atlas, Microsoft relaunches a nearly identical AI browser",
+      "summary": "Copilot Mode of Microsoft's Edge browser is the company's take on the long-hyped AI browser category.",
+      "content": "Copilot Mode of Microsoft's Edge browser is the company's take on the long-hyped AI browser category.",
+      "source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "publishedAt": "2025-10-23T18:03:01.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI",
+        "Microsoft"
+      ],
+      "url": "https://techcrunch.com/2025/10/23/two-days-after-openais-atlas-microsoft-launches-a-nearly-identical-ai-browser/",
+      "readTime": 3,
+      "views": 14609
+    },
+    {
+      "id": "microsoft-8217-s-mico-is-a-8216-clippy-8217-for-th",
+      "title": "Microsoft&#8217;s Mico is a &#8216;Clippy&#8217; for the AI era",
+      "summary": "Microsoft has unveiled “Mico,” a new animated avatar for its Copilot AI that brings back shades of Clippy.  The expressive blob acts as a friendly, customizable face for the chatbot.",
+      "content": "Microsoft has unveiled “Mico,” a new animated avatar for its Copilot AI that brings back shades of Clippy. The expressive blob acts as a friendly, customizable face for the chatbot.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2025-10-23T17:08:23.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Microsoft"
+      ],
+      "url": "https://techcrunch.com/2025/10/23/microsofts-mico-is-a-clippy-for-the-ai-era/",
+      "readTime": 3,
+      "views": 45743
+    },
+    {
+      "id": "tensormesh-raises-4-5m-to-squeeze-more-inference-o",
+      "title": "Tensormesh raises $4.5M to squeeze more inference out of AI server loads",
+      "summary": "Tensormesh uses an expanded form of KV caching to make inference loads as much as 10 times more efficient.",
+      "content": "Tensormesh uses an expanded form of KV caching to make inference loads as much as 10 times more efficient.",
+      "source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "publishedAt": "2025-10-23T16:00:00.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/10/23/tensormesh-raises-4-5m-to-squeeze-more-inference-out-of-ai-server-loads/",
+      "readTime": 3,
+      "views": 33893
+    },
+    {
+      "id": "autonomy-in-the-real-world-druid-ai-unveils-ai-age",
+      "title": "Autonomy in the real world? Druid AI unveils AI agent &#8216;factory&#8217;",
+      "summary": "At its London Symbiosis 4 event on 22 October, Druid AI introduced what it terms Virtual Authoring Teams – a new generation of AI agents that can design, test, and deploy other AI agents.  The announc.",
+      "content": "At its London Symbiosis 4 event on 22 October, Druid AI introduced what it terms Virtual Authoring Teams – a new generation of AI agents that can design, test, and deploy other AI agents. The announcement marks a move towards what the company calls a &#8216;factory model&#8217; for AI automation. Ac",
+      "source": "AI News",
+      "author": "AI News",
+      "publishedAt": "2025-10-23T15:46:57.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "automation"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/druid-ai-agentic-factory-automation-in-the-real-world/",
+      "readTime": 3,
+      "views": 46699
+    },
+    {
+      "id": "palantir-enters-200m-partnership-with-telco-lumen-",
+      "title": "Palantir enters $200M partnership with telco Lumen to offer enterprise AI services",
+      "summary": "Palantir said on Thursday it had struck a partnership with Lumen Technologies that will see the telecommunications company using the data management company's AI software to build capabilities to supp.",
+      "content": "Palantir said on Thursday it had struck a partnership with Lumen Technologies that will see the telecommunications company using the data management company's AI software to build capabilities to support enterprise AI services.",
+      "source": "TechCrunch AI",
+      "author": "Ram Iyer",
+      "publishedAt": "2025-10-23T15:23:49.000Z",
+      "category": "partnership",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/10/23/palantir-enters-200m-partnership-with-telco-lumen-for-enterprise-ai-services/",
+      "readTime": 3,
+      "views": 50805
+    },
+    {
+      "id": "sora-update-to-bring-ai-videos-of-your-pets-new-so",
+      "title": "Sora update to bring AI videos of your pets, new social features, and soon, an Android version",
+      "summary": "OpenAI’s hit AI video app, Sora, is getting a wave of new features, including video editing tools, pet and object “cameos,” and enhanced social options.  The Android app is also “coming soon.",
+      "content": "OpenAI’s hit AI video app, Sora, is getting a wave of new features, including video editing tools, pet and object “cameos,” and enhanced social options. The Android app is also “coming soon.\"",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2025-10-23T15:19:58.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2025/10/23/sora-update-to-bring-ai-videos-of-your-pets-new-social-features-and-soon-an-android-version/",
+      "readTime": 3,
+      "views": 46334
+    },
+    {
+      "id": "cluely-s-roy-lee-joins-techcrunch-disrupt-2025-to-",
+      "title": "Cluely’s Roy Lee joins TechCrunch Disrupt 2025 to show how rage-baiting cuts through the AI noise",
+      "summary": "Cluely’s Roy Lee isn’t afraid to stir the pot — and he’s taking that bold energy to the Disrupt Stage at TechCrunch Disrupt 2025, happening October 27–29 at San Francisco’s Moscone West.  Register now.",
+      "content": "Cluely’s Roy Lee isn’t afraid to stir the pot — and he’s taking that bold energy to the Disrupt Stage at TechCrunch Disrupt 2025, happening October 27–29 at San Francisco’s Moscone West. Register now to join, and save up to $444 on your pass and 60% off a second.",
+      "source": "TechCrunch AI",
+      "author": "TechCrunch Events",
+      "publishedAt": "2025-10-23T15:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/10/23/cluelys-roy-lee-joins-techcrunch-disrupt-2025-to-show-how-rage-baiting-cuts-through-the-ai-noise/",
+      "readTime": 3,
+      "views": 23605
+    },
+    {
+      "id": "wonder-studios-backed-by-openai-deepmind-execs-rai",
+      "title": "Wonder Studios, backed by OpenAI, DeepMind execs, raised $12M to bring AI content to Hollywood",
+      "summary": "Wonder will use the fresh funds to double its engineering team and accelerate its push into IP ownership and original content production.",
+      "content": "Wonder will use the fresh funds to double its engineering team and accelerate its push into IP ownership and original content production.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2025-10-23T14:39:17.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2025/10/23/openai-backed-wonder-studios-raised-12m-to-bring-ai-content-to-hollywood/",
+      "readTime": 3,
+      "views": 38794
+    },
+    {
+      "id": "get-hands-on-the-full-lineup-of-interactive-roundt",
+      "title": "Get hands-on: The full lineup of interactive roundtables at TechCrunch Disrupt 2025",
+      "summary": "TechCrunch Disrupt 2025 roundtables bring founders, investors, and operators together for interactive small-group discussions on AI, fintech, space, and more.  Check the full schedule, and don’t miss .",
+      "content": "TechCrunch Disrupt 2025 roundtables bring founders, investors, and operators together for interactive small-group discussions on AI, fintech, space, and more. Check the full schedule, and don’t miss your chance to save up to $444 and 60% off a second pass before prices rise at the door.",
+      "source": "TechCrunch AI",
+      "author": "TechCrunch Events",
+      "publishedAt": "2025-10-23T14:30:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/10/23/get-hands-on-the-full-techcrunch-disrupt-2025-roundtable-agenda/",
+      "readTime": 3,
+      "views": 42677
+    },
+    {
+      "id": "only-4-days-until-techcrunch-disrupt-2025-kicks-of",
+      "title": "Only 4 days until TechCrunch Disrupt 2025 kicks off in San Francisco and ticket rates increase",
+      "summary": "The wait all year is almost over.  In just 4 days, TechCrunch Disrupt 2025 takes over San Francisco's Moscone West and with it the future of tech.",
+      "content": "The wait all year is almost over! In just 4 days, TechCrunch Disrupt 2025 takes over San Francisco's Moscone West and with it the future of tech. This is your final chance to join the founders, investors, and innovators shaping the future before ticket prices increase. Save up to $444 and 60% on a s",
+      "source": "TechCrunch AI",
+      "author": "TechCrunch Events",
+      "publishedAt": "2025-10-23T14:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/10/23/only-4-days-until-techcrunch-disrupt-2025-kicks-off-in-san-francisco-and-ticket-rates-increase/",
+      "readTime": 3,
+      "views": 47031
+    },
+    {
+      "id": "amazon-8217-s-new-ai-shopping-tool-tells-you-why-y",
+      "title": "Amazon&#8217;s new AI shopping tool tells you why you should buy a recommended product",
+      "summary": "Amazon's new Help Me Decide tool will show you a personalized recommendation for a particular category and list reasons why you should buy it.",
+      "content": "Amazon's new Help Me Decide tool will show you a personalized recommendation for a particular category and list reasons why you should buy it.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2025-10-23T13:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/10/23/amazons-new-ai-shopping-tool-tells-you-why-you-should-buy-a-recommended-product/",
+      "readTime": 3,
+      "views": 5953
+    },
+    {
+      "id": "redefining-data-engineering-in-the-age-of-ai",
+      "title": "Redefining data engineering in the age of AI",
+      "summary": "As organizations weave AI into more of their operations, senior executives are realizing data engineers hold a central role in bringing these initiatives to life.  After all, AI only delivers when you.",
+      "content": "As organizations weave AI into more of their operations, senior executives are realizing data engineers hold a central role in bringing these initiatives to life. After all, AI only delivers when you have large amounts of reliable and well-managed, high-quality data. Indeed, this report finds that d",
+      "source": "MIT Technology Review AI",
+      "author": "MIT Technology Review Insights",
+      "publishedAt": "2025-10-23T13:00:00.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2025/10/23/1125651/redefining-data-engineering-in-the-age-of-ai/",
+      "readTime": 3,
+      "views": 8182
+    },
+    {
       "id": "how-do-ai-humanisers-compare-to-human-editing",
       "title": "How do AI ‘humanisers’ compare to human editing?",
       "summary": "The emergence of artificial intelligence has fundamentally altered the field of content creation.  Tools capable of generating coherent, often impressive, text, are now ubiquitous.",
@@ -15,7 +284,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/how-do-ai-humanisers-compare-to-human-editing/",
       "readTime": 3,
-      "views": 34611
+      "views": 6879
     },
     {
       "id": "openai-data-residency-advances-enterprise-ai-gover",
@@ -34,7 +303,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/openai-data-residency-advances-enterprise-ai-governance/",
       "readTime": 3,
-      "views": 24201
+      "views": 8120
     },
     {
       "id": "meta-hires-and-fires-ai-workers-behind-the-contrad",
@@ -51,7 +320,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/meta-ai-job-cuts-hiring-contradiction-2025/",
       "readTime": 3,
-      "views": 6301
+      "views": 20145
     },
     {
       "id": "snapchat-makes-its-first-open-prompt-ai-lens-avail",
@@ -67,301 +336,22 @@
       ],
       "url": "https://techcrunch.com/2025/10/22/snapchat-makes-its-first-open-prompt-ai-lens-available-for-free-in-the-us/",
       "readTime": 3,
-      "views": 9046
-    },
-    {
-      "id": "why-cohere-8217-s-ex-ai-research-lead-is-betting-a",
-      "title": "Why Cohere&#8217;s ex-AI research lead is betting against the scaling race",
-      "summary": "Cohere's former VP of AI research, Sara Hooker, is launching a new startup to build AI models that can adapt to their environment.",
-      "content": "Cohere's former VP of AI research, Sara Hooker, is launching a new startup to build AI models that can adapt to their environment.",
-      "source": "TechCrunch AI",
-      "author": "Maxwell Zeff",
-      "publishedAt": "2025-10-22T20:52:17.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "ai model"
-      ],
-      "url": "https://techcrunch.com/2025/10/22/why-coheres-ex-ai-research-lead-is-betting-against-the-scaling-race/",
-      "readTime": 3,
-      "views": 7803
-    },
-    {
-      "id": "openai-requested-memorial-attendee-list-in-chatgpt",
-      "title": "OpenAI requested memorial attendee list in ChatGPT suicide lawsuit",
-      "summary": "The new information comes as the Raines family updated its lawsuit against OpenAI.  The family first filed a wrongful death suit against OpenAI in August after alleging their son had taken his own lif.",
-      "content": "The new information comes as the Raines family updated its lawsuit against OpenAI. The family first filed a wrongful death suit against OpenAI in August after alleging their son had taken his own life following conversations with the chatbot about his mental health and suicidal ideation.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2025-10-22T20:49:19.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai",
-        "gpt",
-        "openai",
-        "chatgpt",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2025/10/22/openai-requested-memorial-attendee-list-in-chatgpt-suicide-lawsuit/",
-      "readTime": 3,
-      "views": 37586
-    },
-    {
-      "id": "openai-8217-s-atlas-is-more-about-chatgpt-than-the",
-      "title": "OpenAI&#8217;s Atlas is more about ChatGPT than the web",
-      "summary": "OpenAI's new browser is a surface for the company to distribute ChatGPT and develop new AI features rather than improving core web experience.",
-      "content": "OpenAI's new browser is a surface for the company to distribute ChatGPT and develop new AI features rather than improving core web experience.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2025-10-22T18:51:43.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gpt",
-        "openai",
-        "chatgpt",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2025/10/22/openais-atlas-is-more-about-chatgpt-than-the-web/",
-      "readTime": 3,
-      "views": 28224
-    },
-    {
-      "id": "amazon-unveils-ai-smart-glasses-for-its-delivery-d",
-      "title": "Amazon unveils AI smart glasses for its delivery drivers",
-      "summary": "Amazon likely hopes that the new glasses will shave valuable time off of each delivery by providing delivery drivers with detailed directions and information about hazards directly in their line of si.",
-      "content": "Amazon likely hopes that the new glasses will shave valuable time off of each delivery by providing delivery drivers with detailed directions and information about hazards directly in their line of sight.",
-      "source": "TechCrunch AI",
-      "author": "Aisha Malik",
-      "publishedAt": "2025-10-22T18:33:34.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/10/22/amazon-unveils-ai-smart-glasses-for-its-delivery-drivers/",
-      "readTime": 3,
-      "views": 10095
-    },
-    {
-      "id": "gm-is-bringing-google-gemini-powered-ai-assistant-",
-      "title": "GM is bringing Google Gemini-powered AI assistant to cars in 2026",
-      "summary": "GM is the latest automaker to lean into generative AI-based assistants that promise to respond to driver requests in a more natural-sounding way.  Stellantis is collaborating with French AI firm Mistr.",
-      "content": "GM is the latest automaker to lean into generative AI-based assistants that promise to respond to driver requests in a more natural-sounding way. Stellantis is collaborating with French AI firm Mistral, Mercedes is integrating ChatGPT, and Tesla has brought xAI’s Grok to its vehicles.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2025-10-22T15:51:03.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gpt",
-        "gemini",
-        "chatgpt",
-        "generative ai"
-      ],
-      "url": "https://techcrunch.com/2025/10/22/gm-is-bringing-google-gemini-powered-ai-assistant-to-cars-in-2026/",
-      "readTime": 3,
-      "views": 25952
-    },
-    {
-      "id": "meta-cuts-600-ai-jobs-amid-ongoing-reorganization",
-      "title": "Meta cuts 600 AI jobs amid ongoing reorganization",
-      "summary": "Meta continues to restructure its AI efforts after poaching more than 50 researchers from competing labs this summer.",
-      "content": "Meta continues to restructure its AI efforts after poaching more than 50 researchers from competing labs this summer.",
-      "source": "TechCrunch AI",
-      "author": "Amanda Silberling",
-      "publishedAt": "2025-10-22T15:08:18.000Z",
-      "category": "research",
-      "tags": [
-        "ai",
-        "Meta"
-      ],
-      "url": "https://techcrunch.com/2025/10/22/meta-cuts-600-ai-jobs-amid-ongoing-reorganization/",
-      "readTime": 3,
-      "views": 27293
-    },
-    {
-      "id": "gm-to-introduce-eyes-off-hands-off-driving-system-",
-      "title": "GM to introduce eyes-off, hands-off driving system in 2028",
-      "summary": "GM said Cruise’s technology stack, including its AI models trained on five million driverless miles and simulation framework, feed directly into the automaker’s next-generation driver assistance and a.",
-      "content": "GM said Cruise’s technology stack, including its AI models trained on five million driverless miles and simulation framework, feed directly into the automaker’s next-generation driver assistance and autonomy programs.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2025-10-22T15:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "ai model"
-      ],
-      "url": "https://techcrunch.com/2025/10/22/gm-to-introduce-eyes-off-hands-off-driving-system-in-2028/",
-      "readTime": 3,
-      "views": 25984
-    },
-    {
-      "id": "several-users-reportedly-complain-to-ftc-that-chat",
-      "title": "Several users reportedly complain to FTC that ChatGPT is causing psychological harm",
-      "summary": "At least seven people have complained to the U.  Federal Trade Commission that ChatGPT caused them to experience severe delusions, paranoia, and emotional crises, Wired reported.",
-      "content": "At least seven people have complained to the U.S. Federal Trade Commission that ChatGPT caused them to experience severe delusions, paranoia, and emotional crises, Wired reported.",
-      "source": "TechCrunch AI",
-      "author": "Ram Iyer",
-      "publishedAt": "2025-10-22T14:16:45.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gpt",
-        "chatgpt"
-      ],
-      "url": "https://techcrunch.com/2025/10/22/several-users-reportedly-complain-to-ftc-that-chatgpt-is-causing-psychological-harm/",
-      "readTime": 3,
-      "views": 39213
-    },
-    {
-      "id": "david-sacks-8217-craft-leads-42m-series-a-in-govte",
-      "title": "David Sacks&#8217; Craft leads $42M Series A in govtech startup Starbridge",
-      "summary": "Starbridge raises $42M Series A led by Craft Ventures to help businesses better monitor public service opportunities.",
-      "content": "Starbridge raises $42M Series A led by Craft Ventures to help businesses better monitor public service opportunities.",
-      "source": "TechCrunch AI",
-      "author": "Dominic-Madori Davis",
-      "publishedAt": "2025-10-22T14:00:00.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/10/22/david-sacks-craft-leads-42-million-series-a-in-govtech-startup-starbridge/",
-      "readTime": 3,
-      "views": 31183
-    },
-    {
-      "id": "sumble-emerges-from-stealth-with-38-5m-to-bring-ai",
-      "title": "Sumble emerges from stealth with $38.5M to bring AI-powered context to sales intelligence",
-      "summary": "The founders of machine learning community Kaggle are trying to upend the crowded sales prospecting market with AI.  And they're making headway.",
-      "content": "The founders of machine learning community Kaggle are trying to upend the crowded sales prospecting market with AI. And they're making headway.",
-      "source": "TechCrunch AI",
-      "author": "Ram Iyer",
-      "publishedAt": "2025-10-22T13:30:00.000Z",
-      "category": "partnership",
-      "tags": [
-        "ai",
-        "machine learning"
-      ],
-      "url": "https://techcrunch.com/2025/10/22/sumble-emerges-from-stealth-with-38-5m-to-bring-ai-powered-context-to-sales-intelligence/",
-      "readTime": 3,
-      "views": 29689
-    },
-    {
-      "id": "shuttle-raises-6m-to-fix-vibe-coding-8217-s-deploy",
-      "title": "Shuttle raises $6M to fix vibe-coding&#8217;s deployment problem",
-      "summary": "The platform engineering startup Shuttle announced $6 million in seed funding to handle the infrastructure problems that start where products like Lovable and Cursor leave off.",
-      "content": "The platform engineering startup Shuttle announced $6 million in seed funding to handle the infrastructure problems that start where products like Lovable and Cursor leave off.",
-      "source": "TechCrunch AI",
-      "author": "Russell Brandom",
-      "publishedAt": "2025-10-22T13:29:15.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/10/22/shuttle-raises-6-million-to-fix-vibe-codings-deployment-problem/",
-      "readTime": 3,
-      "views": 43030
-    },
-    {
-      "id": "mcp-prompt-hijacking-examining-the-major-ai-securi",
-      "title": "MCP prompt hijacking: Examining the major AI security threat",
-      "summary": "Security experts at JFrog have found a ‘prompt hijacking’ threat that exploits weak spots in how AI systems talk to each other using MCP (Model Context Protocol).  Business leaders want to make AI mor.",
-      "content": "Security experts at JFrog have found a ‘prompt hijacking’ threat that exploits weak spots in how AI systems talk to each other using MCP (Model Context Protocol). Business leaders want to make AI more helpful by directly using company data and tools. But, hooking AI up like this also opens up new se",
-      "source": "AI News",
-      "author": "Ryan Daws",
-      "publishedAt": "2025-10-22T10:57:16.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/mcp-prompt-hijacking-examining-major-ai-security-threat/",
-      "readTime": 3,
-      "views": 30595
-    },
-    {
-      "id": "dispatch-partying-at-one-of-africa-s-largest-ai-ga",
-      "title": "Dispatch: Partying at one of Africa’s largest AI gatherings",
-      "summary": "It’s late August in Rwanda’s capital, Kigali, and people are filling a large hall at one of Africa’s biggest gatherings of minds in AI and machine learning.  The room is draped in white curtains, and .",
-      "content": "It’s late August in Rwanda’s capital, Kigali, and people are filling a large hall at one of Africa’s biggest gatherings of minds in AI and machine learning. The room is draped in white curtains, and a giant screen blinks with videos created with generative AI. A classic East African folk song by the",
-      "source": "MIT Technology Review AI",
-      "author": "Abdullahi Tsanni, SM ’23",
-      "publishedAt": "2025-10-22T10:00:00.000Z",
-      "category": "research",
-      "tags": [
-        "ai",
-        "machine learning",
-        "generative ai"
-      ],
-      "url": "https://www.technologyreview.com/2025/10/22/1125361/africa-ai-policymaking-nyalleng-moorosi/",
-      "readTime": 3,
-      "views": 16300
-    },
-    {
-      "id": "ai-is-changing-how-we-build-links-for-seo",
-      "title": "AI is changing how we build links for SEO",
-      "summary": "Link strategies are important in improving search engine optimisation (SEO) and online visibility.  Artificial intelligence is changing these strategies, making them more accurate and efficient.",
-      "content": "Link strategies are important in improving search engine optimisation (SEO) and online visibility. Artificial intelligence is changing these strategies, making them more accurate and efficient. This article examines AI&#8217;s impact on link strategies, highlighting current tools and future trends. ",
-      "source": "AI News",
-      "author": "Bazoom",
-      "publishedAt": "2025-10-22T08:18:37.000Z",
-      "category": "market",
-      "tags": [
-        "artificial intelligence",
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/ai-is-changing-how-we-build-links-for-seo/",
-      "readTime": 3,
-      "views": 44327
-    },
-    {
-      "id": "netflix-goes-all-in-on-generative-ai-as-entertainm",
-      "title": "Netflix goes ‘all in’ on generative AI as entertainment industry remains divided",
-      "summary": "Netflix isn't planning to use generative AI as the backbone of its content but believes the technology has potential as a tool to make creatives more efficient.",
-      "content": "Netflix isn't planning to use generative AI as the backbone of its content but believes the technology has potential as a tool to make creatives more efficient.",
-      "source": "TechCrunch AI",
-      "author": "Amanda Silberling",
-      "publishedAt": "2025-10-21T22:21:46.000Z",
-      "category": "market",
-      "tags": [
-        "ai",
-        "generative ai"
-      ],
-      "url": "https://techcrunch.com/2025/10/21/netflix-goes-all-in-on-generative-ai-as-entertainment-industry-remains-divided/",
-      "readTime": 3,
-      "views": 40075
-    },
-    {
-      "id": "open-source-agentic-startup-langchain-hits-1-25b-v",
-      "title": "Open source agentic startup LangChain hits $1.25B valuation",
-      "summary": "As TechCrunch previously reported, the maker of a popular open source framework for building AI agents has officially become a unicorn.",
-      "content": "As TechCrunch previously reported, the maker of a popular open source framework for building AI agents has officially become a unicorn.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2025-10-21T22:12:46.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/10/21/open-source-agentic-startup-langchain-hits-1-25b-valuation/",
-      "readTime": 3,
-      "views": 26584
+      "views": 44806
     }
   ],
-  "lastUpdated": "2025-10-23T12:39:49.560Z",
+  "lastUpdated": "2025-10-24T01:19:24.408Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "AI News",
     "TechCrunch AI",
+    "AI News",
     "MIT Technology Review AI"
   ],
   "categories": [
-    "partnership",
     "market",
-    "funding",
+    "partnership",
     "release",
-    "regulation",
+    "funding",
     "research"
   ]
 }
