@@ -1,6 +1,58 @@
 {
   "articles": [
     {
+      "id": "openai-reportedly-developing-new-generative-music-",
+      "title": "OpenAI reportedly developing new generative music tool",
+      "summary": "Such a tool could be used to add music to existing videos, or to add guitar accompaniment to an existing vocal track, sources said.",
+      "content": "Such a tool could be used to add music to existing videos, or to add guitar accompaniment to an existing vocal track, sources said.",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "publishedAt": "2025-10-25T19:48:54.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2025/10/25/openai-reportedly-developing-new-generative-music-tool/",
+      "readTime": 3,
+      "views": 6303
+    },
+    {
+      "id": "high-school-s-ai-security-system-confuses-doritos-",
+      "title": "High school’s AI security system confuses Doritos bag for a possible firearm",
+      "summary": "A high school student in Baltimore County, Maryland was reportedly handcuffed and searched after an AI security system flagged his bag of chips as a possible firearm.",
+      "content": "A high school student in Baltimore County, Maryland was reportedly handcuffed and searched after an AI security system flagged his bag of chips as a possible firearm.",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "publishedAt": "2025-10-25T19:05:11.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/10/25/high-schools-ai-security-system-confuses-doritos-bag-for-a-possible-firearm/",
+      "readTime": 3,
+      "views": 38191
+    },
+    {
+      "id": "who-are-ai-browsers-for",
+      "title": "Who are AI browsers for?",
+      "summary": "OpenAI launched an AI-powered browser this week, but it feels like it offers a slight efficiency gain at best.",
+      "content": "OpenAI launched an AI-powered browser this week, but it feels like it offers a slight efficiency gain at best.",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "publishedAt": "2025-10-25T16:51:36.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2025/10/25/who-are-ai-browsers-for/",
+      "readTime": 3,
+      "views": 8041
+    },
+    {
       "id": "the-glaring-security-risks-with-ai-browser-agents",
       "title": "The glaring security risks with AI browser agents",
       "summary": "New AI browsers from OpenAI and Perplexity promise to increase user productivity, but they also come with increased security risks.",
@@ -16,7 +68,7 @@
       ],
       "url": "https://techcrunch.com/2025/10/25/the-glaring-security-risks-with-ai-browser-agents/",
       "readTime": 3,
-      "views": 34115
+      "views": 42939
     },
     {
       "id": "how-to-use-the-new-chatgpt-app-integrations-includ",
@@ -33,7 +85,7 @@
       ],
       "url": "https://techcrunch.com/2025/10/24/how-to-use-the-new-chatgpt-app-integrations-including-spotify-figma-canva-and-others/",
       "readTime": 3,
-      "views": 5839
+      "views": 45238
     },
     {
       "id": "the-browser-wars-are-back-and-this-time-they-8217-",
@@ -53,7 +105,7 @@
       ],
       "url": "https://techcrunch.com/video/the-browser-wars-are-back-and-this-time-theyre-powered-by-ai/",
       "readTime": 3,
-      "views": 28650
+      "views": 9061
     },
     {
       "id": "openai-wants-to-power-your-browser-and-that-might-",
@@ -73,7 +125,7 @@
       ],
       "url": "https://techcrunch.com/podcast/openai-wants-to-power-your-browser-and-that-might-be-a-security-nightmare/",
       "readTime": 3,
-      "views": 33841
+      "views": 28701
     },
     {
       "id": "the-full-breakout-session-agenda-at-techcrunch-dis",
@@ -89,7 +141,7 @@
       ],
       "url": "https://techcrunch.com/2025/10/24/techcrunch-disrupt-2025-breakout-sessions/",
       "readTime": 3,
-      "views": 12109
+      "views": 37173
     },
     {
       "id": "ai-at-the-edge-how-startups-are-powering-the-futur",
@@ -105,63 +157,7 @@
       ],
       "url": "https://techcrunch.com/2025/10/24/ai-at-the-edge-how-startups-are-powering-the-future-of-space-at-techcrunch-disrupt-2025/",
       "readTime": 3,
-      "views": 51942
-    },
-    {
-      "id": "openai-connects-chatgpt-to-enterprise-data-to-surf",
-      "title": "OpenAI connects ChatGPT to enterprise data to surface knowledge",
-      "summary": "OpenAI is surfacing company knowledge by connecting ChatGPT to enterprise data, turning it from a general assistant into a custom analyst.  For business leaders, generative AI&#8217;s potential has al.",
-      "content": "OpenAI is surfacing company knowledge by connecting ChatGPT to enterprise data, turning it from a general assistant into a custom analyst. For business leaders, generative AI&#8217;s potential has always been limited by its lack of access to internal data. Even the best AI isn&#8217;t helpful if it ",
-      "source": "AI News",
-      "author": "Ryan Daws",
-      "publishedAt": "2025-10-24T10:50:05.000Z",
-      "category": "market",
-      "tags": [
-        "ai",
-        "gpt",
-        "openai",
-        "chatgpt",
-        "generative ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/openai-connects-chatgpt-enterprise-data-surface-knowledge/",
-      "readTime": 3,
-      "views": 44211
-    },
-    {
-      "id": "anthropic-8217-s-billion-dollar-tpu-expansion-sign",
-      "title": "Anthropic&#8217;s billion-dollar TPU expansion signals a strategic shift in enterprise AI infrastructure",
-      "summary": "Anthropic&#8217;s announcement this week that it will deploy up to one million Google Cloud TPUs in a deal worth tens of billions of dollars marks a significant recalibration in enterprise AI infrastr.",
-      "content": "Anthropic&#8217;s announcement this week that it will deploy up to one million Google Cloud TPUs in a deal worth tens of billions of dollars marks a significant recalibration in enterprise AI infrastructure strategy.&#160; The expansion, expected to bring over a gigawatt of capacity online in 2026, ",
-      "source": "AI News",
-      "author": "Dashveenjit Kaur",
-      "publishedAt": "2025-10-24T09:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "anthropic",
-        "Google",
-        "Anthropic"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/anthropic-tpu-expansion-enterprise-ai-infrastructure/",
-      "readTime": 3,
-      "views": 44609
-    },
-    {
-      "id": "open-source-ai-video-from-lightricks-offers-4k-sou",
-      "title": "Open-source AI video from Lightricks offers 4K, sound, and faster rendering",
-      "summary": "Lightricks is upping the ante for rapid video creation and iteration with its latest artificial intelligence model.  The company claims its newly released LTX-2 foundation model can generate new conte.",
-      "content": "Lightricks is upping the ante for rapid video creation and iteration with its latest artificial intelligence model. The company claims its newly released LTX-2 foundation model can generate new content faster than playback speed, plus it raises the bar in resolution and quality. The open-source LTX-",
-      "source": "AI News",
-      "author": "TechForge",
-      "publishedAt": "2025-10-24T07:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "artificial intelligence",
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/open-source-ai-video-from-lightricks-offers-4k-sound-and-faster-rendering/",
-      "readTime": 3,
-      "views": 33324
+      "views": 43509
     },
     {
       "id": "with-an-intel-recovery-underway-all-eyes-turn-to-i",
@@ -177,7 +173,7 @@
       ],
       "url": "https://techcrunch.com/2025/10/23/with-an-intel-recovery-underway-all-eyes-turn-to-its-foundry-business/",
       "readTime": 3,
-      "views": 7531
+      "views": 28715
     },
     {
       "id": "openai-buys-sky-an-ai-interface-for-mac",
@@ -196,7 +192,7 @@
       ],
       "url": "https://techcrunch.com/2025/10/23/openai-buys-sky-an-ai-interface-for-mac/",
       "readTime": 3,
-      "views": 16489
+      "views": 14921
     },
     {
       "id": "20-year-old-dropouts-built-ai-notetaker-turbo-ai-a",
@@ -212,7 +208,7 @@
       ],
       "url": "https://techcrunch.com/2025/10/23/20-year-old-dropouts-built-ai-notetaker-turbo-ai-to-5-million-users/",
       "readTime": 3,
-      "views": 10685
+      "views": 38876
     },
     {
       "id": "instagram-users-can-now-use-meta-ai-editing-tools-",
@@ -229,7 +225,7 @@
       ],
       "url": "https://techcrunch.com/2025/10/23/instagram-users-can-now-use-meta-ai-editing-tools-directly-in-ig-stories/",
       "readTime": 3,
-      "views": 10169
+      "views": 18659
     },
     {
       "id": "two-days-after-openai-8217-s-atlas-microsoft-relau",
@@ -248,7 +244,7 @@
       ],
       "url": "https://techcrunch.com/2025/10/23/two-days-after-openais-atlas-microsoft-launches-a-nearly-identical-ai-browser/",
       "readTime": 3,
-      "views": 32034
+      "views": 36655
     },
     {
       "id": "microsoft-8217-s-mico-is-a-8216-clippy-8217-for-th",
@@ -265,7 +261,7 @@
       ],
       "url": "https://techcrunch.com/2025/10/23/microsofts-mico-is-a-clippy-for-the-ai-era/",
       "readTime": 3,
-      "views": 33066
+      "views": 13116
     },
     {
       "id": "tensormesh-raises-4-5m-to-squeeze-more-inference-o",
@@ -281,24 +277,7 @@
       ],
       "url": "https://techcrunch.com/2025/10/23/tensormesh-raises-4-5m-to-squeeze-more-inference-out-of-ai-server-loads/",
       "readTime": 3,
-      "views": 31077
-    },
-    {
-      "id": "autonomy-in-the-real-world-druid-ai-unveils-ai-age",
-      "title": "Autonomy in the real world? Druid AI unveils AI agent &#8216;factory&#8217;",
-      "summary": "At its London Symbiosis 4 event on 22 October, Druid AI introduced what it terms Virtual Authoring Teams – a new generation of AI agents that can design, test, and deploy other AI agents.  The announc.",
-      "content": "At its London Symbiosis 4 event on 22 October, Druid AI introduced what it terms Virtual Authoring Teams – a new generation of AI agents that can design, test, and deploy other AI agents. The announcement marks a move towards what the company calls a &#8216;factory model&#8217; for AI automation. Ac",
-      "source": "AI News",
-      "author": "AI News",
-      "publishedAt": "2025-10-23T15:46:57.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "automation"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/druid-ai-agentic-factory-automation-in-the-real-world/",
-      "readTime": 3,
-      "views": 48384
+      "views": 48712
     },
     {
       "id": "palantir-enters-200m-partnership-with-telco-lumen-",
@@ -314,7 +293,7 @@
       ],
       "url": "https://techcrunch.com/2025/10/23/palantir-enters-200m-partnership-with-telco-lumen-for-enterprise-ai-services/",
       "readTime": 3,
-      "views": 33306
+      "views": 19750
     },
     {
       "id": "sora-update-to-bring-ai-videos-of-your-pets-new-so",
@@ -332,36 +311,55 @@
       ],
       "url": "https://techcrunch.com/2025/10/23/sora-update-to-bring-ai-videos-of-your-pets-new-social-features-and-soon-an-android-version/",
       "readTime": 3,
-      "views": 51313
+      "views": 48743
     },
     {
-      "id": "cluely-s-roy-lee-joins-techcrunch-disrupt-2025-to-",
-      "title": "Cluely’s Roy Lee joins TechCrunch Disrupt 2025 to show how rage-baiting cuts through the AI noise",
-      "summary": "Cluely’s Roy Lee isn’t afraid to stir the pot — and he’s taking that bold energy to the Disrupt Stage at TechCrunch Disrupt 2025, happening October 27–29 at San Francisco’s Moscone West.  Register now.",
-      "content": "Cluely’s Roy Lee isn’t afraid to stir the pot — and he’s taking that bold energy to the Disrupt Stage at TechCrunch Disrupt 2025, happening October 27–29 at San Francisco’s Moscone West. Register now to join, and save up to $444 on your pass and 60% off a second.",
-      "source": "TechCrunch AI",
-      "author": "TechCrunch Events",
-      "publishedAt": "2025-10-23T15:00:00.000Z",
-      "category": "release",
+      "id": "redefining-data-engineering-in-the-age-of-ai",
+      "title": "Redefining data engineering in the age of AI",
+      "summary": "As organizations weave AI into more of their operations, senior executives are realizing data engineers hold a central role in bringing these initiatives to life.  After all, AI only delivers when you.",
+      "content": "As organizations weave AI into more of their operations, senior executives are realizing data engineers hold a central role in bringing these initiatives to life. After all, AI only delivers when you have large amounts of reliable and well-managed, high-quality data. Indeed, this report finds that d",
+      "source": "MIT Technology Review AI",
+      "author": "MIT Technology Review Insights",
+      "publishedAt": "2025-10-23T13:00:00.000Z",
+      "category": "research",
       "tags": [
         "ai"
       ],
-      "url": "https://techcrunch.com/2025/10/23/cluelys-roy-lee-joins-techcrunch-disrupt-2025-to-show-how-rage-baiting-cuts-through-the-ai-noise/",
+      "url": "https://www.technologyreview.com/2025/10/23/1125651/redefining-data-engineering-in-the-age-of-ai/",
       "readTime": 3,
-      "views": 32555
+      "views": 33286
+    },
+    {
+      "id": "dispatch-partying-at-one-of-africa-s-largest-ai-ga",
+      "title": "Dispatch: Partying at one of Africa’s largest AI gatherings",
+      "summary": "It’s late August in Rwanda’s capital, Kigali, and people are filling a large hall at one of Africa’s biggest gatherings of minds in AI and machine learning.  The room is draped in white curtains, and .",
+      "content": "It’s late August in Rwanda’s capital, Kigali, and people are filling a large hall at one of Africa’s biggest gatherings of minds in AI and machine learning. The room is draped in white curtains, and a giant screen blinks with videos created with generative AI. A classic East African folk song by the",
+      "source": "MIT Technology Review AI",
+      "author": "Abdullahi Tsanni, SM ’23",
+      "publishedAt": "2025-10-22T10:00:00.000Z",
+      "category": "research",
+      "tags": [
+        "ai",
+        "machine learning",
+        "generative ai"
+      ],
+      "url": "https://www.technologyreview.com/2025/10/22/1125361/africa-ai-policymaking-nyalleng-moorosi/",
+      "readTime": 3,
+      "views": 35578
     }
   ],
-  "lastUpdated": "2025-10-25T12:33:22.985Z",
+  "lastUpdated": "2025-10-26T01:28:08.898Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
     "TechCrunch AI",
-    "AI News"
+    "MIT Technology Review AI"
   ],
   "categories": [
     "release",
     "market",
     "partnership",
-    "funding"
+    "funding",
+    "research"
   ]
 }
