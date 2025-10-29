@@ -1,6 +1,74 @@
 {
   "articles": [
     {
+      "id": "counterintuitive-8217-s-new-chip-aims-escape-the-a",
+      "title": "Counterintuitive&#8217;s new chip aims escape the AI &#8216;twin trap&#8217;",
+      "summary": "AI startup company, Counterintuitive, has set out to build &#8220;reasoning-native computing,&#8221; enabling machines to understand rather than simply mimic.  Such a breakthrough has the potential to.",
+      "content": "AI startup company, Counterintuitive, has set out to build &#8220;reasoning-native computing,&#8221; enabling machines to understand rather than simply mimic. Such a breakthrough has the potential to shift AI from pattern recognition to genuine comprehension, paving the way for systems that can thin",
+      "source": "AI News",
+      "author": "David Thomas",
+      "publishedAt": "2025-10-29T12:22:06.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/ai-twin-trap-next-generation-chip-and-software/",
+      "readTime": 3,
+      "views": 42787
+    },
+    {
+      "id": "the-ai-hype-index-data-centers-neighbors-are-pivot",
+      "title": "The AI Hype Index: Data centers’ neighbors are pivoting to power blackouts",
+      "summary": "Separating AI reality from hyped-up fiction isn’t always easy.  That’s why we’ve created the AI Hype Index—a simple, at-a-glance summary of everything you need to know about the state of the industry.",
+      "content": "Separating AI reality from hyped-up fiction isn’t always easy. That’s why we’ve created the AI Hype Index—a simple, at-a-glance summary of everything you need to know about the state of the industry. Just about all businesses these days seem to be pivoting to AI, even when they don’t seem to know ex",
+      "source": "MIT Technology Review AI",
+      "author": "The Editors",
+      "publishedAt": "2025-10-29T10:41:19.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2025/10/29/1126834/the-ai-hype-index-data-centers-neighbors-are-pivoting-to-power-blackouts/",
+      "readTime": 3,
+      "views": 49171
+    },
+    {
+      "id": "deepseek-may-have-found-a-new-way-to-improve-ai-s-",
+      "title": "DeepSeek may have found a new way to improve AI’s ability to remember",
+      "summary": "An AI model released by Chinese AI company DeepSeek uses new techniques that could significantly improve AI’s ability to “remember. ” Released last week, the optical character recognition (OCR) model .",
+      "content": "An AI model released by Chinese AI company DeepSeek uses new techniques that could significantly improve AI’s ability to “remember.” Released last week, the optical character recognition (OCR) model works by extracting text from an image and turning it into machine-readable words. This is the same t",
+      "source": "MIT Technology Review AI",
+      "author": "Caiwei Chen",
+      "publishedAt": "2025-10-29T10:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "ai model"
+      ],
+      "url": "https://www.technologyreview.com/2025/10/29/1126932/deepseek-ocr-visual-compression/",
+      "readTime": 3,
+      "views": 27247
+    },
+    {
+      "id": "openai-unveils-open-weight-ai-safety-models-for-de",
+      "title": "OpenAI unveils open-weight AI safety models for developers",
+      "summary": "OpenAI is putting more safety controls directly into the hands of AI developers with a new research preview of “safeguard” models.  The new ‘gpt-oss-safeguard’ family of open-weight models is aimed sq.",
+      "content": "OpenAI is putting more safety controls directly into the hands of AI developers with a new research preview of “safeguard” models. The new ‘gpt-oss-safeguard’ family of open-weight models is aimed squarely at customising content classification. The new offering will include two models, gpt-oss-safeg",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2025-10-29T09:31:52.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gpt",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/openai-unveils-open-weight-ai-safety-models-for-developers/",
+      "readTime": 3,
+      "views": 30456
+    },
+    {
       "id": "inside-campusai-8217-s-mission-to-close-the-ai-tra",
       "title": "Inside CampusAI&#8217;s mission to close the AI training gap for everyday workers — check it out at TechCrunch Disrupt 2025",
       "summary": "CampusAI is an educational platform focused on making learning accessible to everyday people who want to bring AI into their everyday workflows, and a virtual ecosystem to connect like-minded people.",
@@ -14,7 +82,7 @@
       ],
       "url": "https://techcrunch.com/2025/10/28/inside-campusais-mission-to-close-the-ai-training-gap-for-everyday-workers-check-it-out-at-techcrunch-disrupt-2025/",
       "readTime": 3,
-      "views": 35458
+      "views": 9428
     },
     {
       "id": "super-teacher-is-building-an-ai-tutor-for-elementa",
@@ -30,7 +98,7 @@
       ],
       "url": "https://techcrunch.com/2025/10/28/super-teacher-is-building-an-ai-tutor-for-elementary-schools-catch-it-at-disrupt-2025/",
       "readTime": 3,
-      "views": 5990
+      "views": 31601
     },
     {
       "id": "mappa-8217-s-ai-voice-analysis-helps-you-find-the-",
@@ -46,7 +114,7 @@
       ],
       "url": "https://techcrunch.com/2025/10/28/mappas-ai-voice-analysis-helps-you-find-the-best-job-candidates-and-will-show-off-its-tech-at-techcrunch-disrupt-2025/",
       "readTime": 3,
-      "views": 26727
+      "views": 24061
     },
     {
       "id": "sam-altman-says-openai-will-have-a-legitimate-ai-r",
@@ -64,7 +132,7 @@
       ],
       "url": "https://techcrunch.com/2025/10/28/sam-altman-says-openai-will-have-a-legitimate-ai-researcher-by-2028/",
       "readTime": 3,
-      "views": 51422
+      "views": 45451
     },
     {
       "id": "elloe-ai-wants-to-be-the-immune-system-for-ai-chec",
@@ -80,7 +148,7 @@
       ],
       "url": "https://techcrunch.com/2025/10/28/elloe-ai-wants-to-be-the-immune-system-for-ai-check-it-out-at-disrupt-2025/",
       "readTime": 3,
-      "views": 26439
+      "views": 5593
     },
     {
       "id": "vc-vinod-khosla-says-the-us-government-could-take-",
@@ -96,7 +164,7 @@
       ],
       "url": "https://techcrunch.com/2025/10/28/vc-vinod-khosla-says-the-us-government-could-take/",
       "readTime": 3,
-      "views": 46288
+      "views": 44370
     },
     {
       "id": "mem0-raises-24m-from-yc-peak-xv-and-basis-set-to-b",
@@ -112,7 +180,7 @@
       ],
       "url": "https://techcrunch.com/2025/10/28/mem0-raises-24m-from-yc-peak-xv-and-basis-set-to-build-the-memory-layer-for-ai-apps/",
       "readTime": 3,
-      "views": 9531
+      "views": 5161
     },
     {
       "id": "unc-chancellor-lee-roberts-on-pushing-his-universi",
@@ -128,7 +196,7 @@
       ],
       "url": "https://techcrunch.com/podcast/unc-chancellor-lee-roberts-on-pushing-his-university-into-the-ai-age/",
       "readTime": 3,
-      "views": 44893
+      "views": 31661
     },
     {
       "id": "finding-return-on-ai-investments-across-industries",
@@ -147,7 +215,7 @@
       ],
       "url": "https://www.technologyreview.com/2025/10/28/1126693/finding-return-on-ai-investments-across-industries/",
       "readTime": 3,
-      "views": 35112
+      "views": 43472
     },
     {
       "id": "openai-completes-its-for-profit-recapitalization",
@@ -165,7 +233,7 @@
       ],
       "url": "https://techcrunch.com/2025/10/28/openai-completes-its-for-profit-recapitalization/",
       "readTime": 3,
-      "views": 18602
+      "views": 49860
     },
     {
       "id": "techcrunch-disrupt-2025-day-2",
@@ -181,7 +249,7 @@
       ],
       "url": "https://techcrunch.com/2025/10/28/techcrunch-disrupt-2025-day-2/",
       "readTime": 3,
-      "views": 20431
+      "views": 33123
     },
     {
       "id": "openai-restructures-enters-next-chapter-of-microso",
@@ -200,7 +268,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/openai-restructures-next-chapter-microsoft-partnership/",
       "readTime": 3,
-      "views": 33206
+      "views": 28062
     },
     {
       "id": "openai-8217-s-bold-india-play-free-chatgpt-go-acce",
@@ -220,7 +288,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/openai-chatgpt-go-free-india-market-strategy/",
       "readTime": 3,
-      "views": 15674
+      "views": 52837
     },
     {
       "id": "adobe-firefly-image-5-brings-support-for-layers-wi",
@@ -236,7 +304,7 @@
       ],
       "url": "https://techcrunch.com/2025/10/28/adobe-firefly-image-5-brings-support-for-layers-will-let-creators-make-custom-models/",
       "readTime": 3,
-      "views": 46694
+      "views": 31612
     },
     {
       "id": "adobe-launches-ai-assistants-for-express-and-photo",
@@ -252,7 +320,7 @@
       ],
       "url": "https://techcrunch.com/2025/10/28/adobe-launches-ai-assistants-for-express-and-photoshop/",
       "readTime": 3,
-      "views": 46166
+      "views": 40840
     },
     {
       "id": "8220-we-will-never-build-a-sex-robot-8221-says-mus",
@@ -269,89 +337,23 @@
       ],
       "url": "https://www.technologyreview.com/2025/10/28/1126781/we-will-never-build-a-sex-robot-says-mustafa-suleyman/",
       "readTime": 3,
-      "views": 12301
-    },
-    {
-      "id": "the-engineer-8217-s-guide-to-automating-dast-tools",
-      "title": "The engineer&#8217;s guide to automating DAST tools",
-      "summary": "In modern software development, speed and security must go hand in hand.  Teams are shipping code faster than ever, but such a rapid pace can introduce security vulnerabilities if not managed correctl.",
-      "content": "In modern software development, speed and security must go hand in hand. Teams are shipping code faster than ever, but such a rapid pace can introduce security vulnerabilities if not managed correctly. Dynamic Application Security Testing (DAST) is an important practice for finding security flaws in",
-      "source": "AI News",
-      "author": "Bazoom",
-      "publishedAt": "2025-10-28T11:01:04.000Z",
-      "category": "release",
-      "tags": [],
-      "url": "https://www.artificialintelligence-news.com/news/the-engineers-guide-to-automating-dast-tools/",
-      "readTime": 3,
-      "views": 35001
-    },
-    {
-      "id": "paypal-partners-with-openai-to-let-users-pay-for-t",
-      "title": "PayPal partners with OpenAI to let users pay for their shopping within ChatGPT",
-      "summary": "PayPal is adopting the Agentic Commerce Protocol (ACP), an open source specification developed by OpenAI that lets merchants make their products available within AI apps, consequently enabling users t.",
-      "content": "PayPal is adopting the Agentic Commerce Protocol (ACP), an open source specification developed by OpenAI that lets merchants make their products available within AI apps, consequently enabling users to shop using AI agents.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2025-10-28T10:47:43.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gpt",
-        "openai",
-        "chatgpt",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2025/10/28/paypal-partners-with-openai-to-let-users-pay-for-their-shopping-within-chatgpt/",
-      "readTime": 3,
-      "views": 35479
-    },
-    {
-      "id": "why-amd-s-work-with-the-doe-matters-for-enterprise",
-      "title": "Why AMD’s work with the DOE matters for enterprise AI strategy",
-      "summary": "Department of Energy (DOE) and AMD are collaborating on two new AI supercomputers at Oak Ridge National Laboratory (ORNL) as part of a larger AI strategy to advance research in science, energy, and na.",
-      "content": "The U.S. Department of Energy (DOE) and AMD are collaborating on two new AI supercomputers at Oak Ridge National Laboratory (ORNL) as part of a larger AI strategy to advance research in science, energy, and national security — and strengthen the nation’s position in high-performance computing. The t",
-      "source": "AI News",
-      "author": "Muhammad Zulhusni",
-      "publishedAt": "2025-10-28T10:00:00.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/why-amd-work-with-the-doe-matters-for-enterprise-ai-strategy/",
-      "readTime": 3,
-      "views": 5238
-    },
-    {
-      "id": "an-ai-adoption-riddle",
-      "title": "An AI adoption riddle",
-      "summary": "A few weeks ago, I set out on what I thought would be a straightforward reporting journey. &#160; After years of momentum for AI—even if you didn&#8217;t think it would be good for the world, you prob.",
-      "content": "A few weeks ago, I set out on what I thought would be a straightforward reporting journey.&#160; After years of momentum for AI—even if you didn&#8217;t think it would be good for the world, you probably thought it was powerful enough to take seriously—hype for the technology had been slightly punct",
-      "source": "MIT Technology Review AI",
-      "author": "James O'Donnell",
-      "publishedAt": "2025-10-28T09:00:00.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2025/10/28/1126687/an-ai-adoption-riddle/",
-      "readTime": 3,
-      "views": 49263
+      "views": 12346
     }
   ],
-  "lastUpdated": "2025-10-29T06:29:42.740Z",
+  "lastUpdated": "2025-10-29T12:40:18.326Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "TechCrunch AI",
+    "AI News",
     "MIT Technology Review AI",
-    "AI News"
+    "TechCrunch AI"
   ],
   "categories": [
-    "release",
     "research",
+    "market",
+    "release",
     "regulation",
     "funding",
-    "partnership",
-    "market"
+    "partnership"
   ]
 }
