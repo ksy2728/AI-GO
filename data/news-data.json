@@ -1,6 +1,181 @@
 {
   "articles": [
     {
+      "id": "studio-ghibli-and-other-japanese-publishers-want-o",
+      "title": "Studio Ghibli and other Japanese publishers want OpenAI to stop training on their work",
+      "summary": "OpenAI's approach to working with copyrighted content is to ask forgiveness, not permission.",
+      "content": "OpenAI's approach to working with copyrighted content is to ask forgiveness, not permission.",
+      "source": "TechCrunch AI",
+      "author": "Amanda Silberling",
+      "publishedAt": "2025-11-03T22:43:03.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2025/11/03/studio-ghibli-and-other-japanese-publishers-want-openai-to-stop-training-on-their-work/",
+      "readTime": 3,
+      "views": 19339
+    },
+    {
+      "id": "altman-and-nadella-need-more-power-for-ai-but-they",
+      "title": "Altman and Nadella need more power for AI, but they’re not sure how much",
+      "summary": "The CEOs of OpenAI and Microsoft are betting that AI will continue to consume more electricity, but they're not sure how much.  That could leave some investors holding the bag.",
+      "content": "The CEOs of OpenAI and Microsoft are betting that AI will continue to consume more electricity, but they're not sure how much. That could leave some investors holding the bag.",
+      "source": "TechCrunch AI",
+      "author": "Tim De Chant",
+      "publishedAt": "2025-11-03T22:36:09.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI",
+        "Microsoft"
+      ],
+      "url": "https://techcrunch.com/2025/11/03/altman-and-nadella-need-more-power-for-ai-but-theyre-not-sure-how-much/",
+      "readTime": 3,
+      "views": 43354
+    },
+    {
+      "id": "lambda-inks-multibillion-dollar-ai-infrastructure-",
+      "title": "Lambda inks multibillion-dollar AI infrastructure deal with Microsoft",
+      "summary": "This deal was announced just hours after Microsoft announced a $9. 7 billion deal with Australian data center company IREN.",
+      "content": "This deal was announced just hours after Microsoft announced a $9.7 billion deal with Australian data center company IREN.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Szkutak",
+      "publishedAt": "2025-11-03T21:21:24.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Microsoft"
+      ],
+      "url": "https://techcrunch.com/2025/11/03/lambda-inks-multi-billion-dollar-ai-infrastructure-deal-with-microsoft/",
+      "readTime": 3,
+      "views": 31396
+    },
+    {
+      "id": "dia-8217-s-ai-browser-starts-adding-arc-8217-s-821",
+      "title": "Dia&#8217;s AI browser starts adding Arc&#8217;s &#8216;greatest hits&#8217; to its feature set",
+      "summary": "Dia's AI browser has a head start on what works for consumers thanks to learnings from its browser experiment, Arc.",
+      "content": "Dia's AI browser has a head start on what works for consumers thanks to learnings from its browser experiment, Arc.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2025-11-03T17:01:58.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/11/03/dias-ai-browser-starts-adding-arcs-greatest-hits-to-its-feature-set/",
+      "readTime": 3,
+      "views": 43679
+    },
+    {
+      "id": "openai-spreads-600b-cloud-ai-bet-across-aws-oracle",
+      "title": "OpenAI spreads $600B cloud AI bet across AWS, Oracle, Microsoft",
+      "summary": "OpenAI is on a spending spree to secure its AI compute supply chain, signing a new deal with AWS as part of its multi-cloud strategy.  The company recently ended its exclusive cloud-computing partners.",
+      "content": "OpenAI is on a spending spree to secure its AI compute supply chain, signing a new deal with AWS as part of its multi-cloud strategy. The company recently ended its exclusive cloud-computing partnership with Microsoft. It has since allocated a reported $250 billion back to Microsoft, $300 billion to",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2025-11-03T15:37:32.000Z",
+      "category": "partnership",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI",
+        "Microsoft"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/openai-spreads-600b-cloud-ai-bet-aws-oracle-microsoft/",
+      "readTime": 3,
+      "views": 40428
+    },
+    {
+      "id": "ai-browsers-are-a-significant-security-threat",
+      "title": "AI browsers are a significant security threat",
+      "summary": "Among the explosion of AI systems, AI web browsers such as Fellou and Comet from Perplexity have begun to make appearances on the corporate desktop.  Such applications are described as the next evolut.",
+      "content": "Among the explosion of AI systems, AI web browsers such as Fellou and Comet from Perplexity have begun to make appearances on the corporate desktop. Such applications are described as the next evolution of the humble browser, and come with AI features built in; they can read and summarise web pages ",
+      "source": "AI News",
+      "author": "AI News",
+      "publishedAt": "2025-11-03T15:35:19.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/ai-browser-security-issue-shadow-ai-malware/",
+      "readTime": 3,
+      "views": 27219
+    },
+    {
+      "id": "openai-and-amazon-ink-38b-cloud-computing-deal",
+      "title": "OpenAI and Amazon ink $38B cloud computing deal",
+      "summary": "OpenAI isn't done securing the AI infrastructure it needs to rapidly scale agentic workloads.  The ChatGPT maker on Monday said it has reached a deal with Amazon to buy $38 billion in cloud computing .",
+      "content": "OpenAI isn't done securing the AI infrastructure it needs to rapidly scale agentic workloads. The ChatGPT maker on Monday said it has reached a deal with Amazon to buy $38 billion in cloud computing services over the next seven years.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2025-11-03T15:21:51.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gpt",
+        "openai",
+        "chatgpt",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2025/11/03/openai-and-amazon-ink-38b-cloud-computing-deal/",
+      "readTime": 3,
+      "views": 20107
+    },
+    {
+      "id": "microsoft-8217-s-15-2b-uae-investment-turns-gulf-s",
+      "title": "Microsoft&#8217;s $15.2B UAE investment turns Gulf State into test case for US AI diplomacy",
+      "summary": "For the first time, the U.  has granted Microsoft a license to export Nvidia chips to the UAE — a move that positions the country as both a proving ground for U.",
+      "content": "For the first time, the U.S. has granted Microsoft a license to export Nvidia chips to the UAE — a move that positions the country as both a proving ground for U.S. export-control diplomacy and a regional anchor of American AI influence.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2025-11-03T14:22:48.000Z",
+      "category": "funding",
+      "tags": [
+        "ai",
+        "Microsoft"
+      ],
+      "url": "https://techcrunch.com/2025/11/03/microsofts-15-2b-uae-investment-turns-gulf-state-into-test-case-for-us-ai-diplomacy/",
+      "readTime": 3,
+      "views": 43935
+    },
+    {
+      "id": "microsoft-inks-9-7b-deal-with-australia-8217-s-ire",
+      "title": "Microsoft inks $9.7B deal with Australia&#8217;s IREN for AI cloud capacity",
+      "summary": "The deal will give Microsoft access to compute infrastructure built with Nvidia's GB300 GPUs, which will be deployed over phases through 2026.",
+      "content": "The deal will give Microsoft access to compute infrastructure built with Nvidia's GB300 GPUs, which will be deployed over phases through 2026.",
+      "source": "TechCrunch AI",
+      "author": "Ram Iyer",
+      "publishedAt": "2025-11-03T14:04:19.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Microsoft"
+      ],
+      "url": "https://techcrunch.com/2025/11/03/microsoft-inks-9-7bil-deal-with-australias-iren-for-ai-cloud-capacity/",
+      "readTime": 3,
+      "views": 15441
+    },
+    {
+      "id": "lg-founder-8217-s-grandson-production-firm-partner",
+      "title": "LG founder&#8217;s grandson, production firm partner up to bring AI to filmmaking",
+      "summary": "Brian Koo’s Stock Farm Road and Utopai Studios have partnered up to form Utopai East, an AI-powered film production company.",
+      "content": "Brian Koo’s Stock Farm Road and Utopai Studios have partnered up to form Utopai East, an AI-powered film production company.",
+      "source": "TechCrunch AI",
+      "author": "Kate Park",
+      "publishedAt": "2025-11-03T14:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/11/03/lg-scions-stock-farm-road-utopai-launch-ai-driven-filmmaking/",
+      "readTime": 3,
+      "views": 13189
+    },
+    {
       "id": "from-ambition-to-accountability-quantifying-ai-roi",
       "title": "From ambition to accountability: Quantifying AI ROI in strategy",
       "summary": "For many UK executives, AI investment has become a necessity, not an experiment in innovation.  Boards now demand evidence of measurable impact – whether through efficiency gains, revenue growth, or r.",
@@ -14,7 +189,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/quantifying-ai-roi-leading-resolutions/",
       "readTime": 3,
-      "views": 32768
+      "views": 10285
     },
     {
       "id": "devops-for-ai-continuous-deployment-pipelines-for-",
@@ -31,7 +206,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/devops-for-ai-continuous-deployment-pipelines-for-machine-learning-systems/",
       "readTime": 3,
-      "views": 39005
+      "views": 15195
     },
     {
       "id": "nvidia-and-south-korea-align-on-sovereign-ai-at-ap",
@@ -47,7 +222,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/nvidia-and-south-korea-align-on-sovereign-ai-at-apec-summit/",
       "readTime": 3,
-      "views": 6532
+      "views": 51646
     },
     {
       "id": "qualcomm-unveils-ai-data-centre-chips-to-crack-the",
@@ -63,7 +238,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/qualcomm-ai-data-centre-chips-ai200-ai250/",
       "readTime": 3,
-      "views": 39929
+      "views": 8617
     },
     {
       "id": "kevin-rose-8217-s-simple-test-for-ai-hardware-8212",
@@ -79,7 +254,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/02/kevin-roses-simple-test-for-ai-hardware-would-you-want-to-punch-someone-in-the-face-whos-wearing-it/",
       "readTime": 3,
-      "views": 31916
+      "views": 8388
     },
     {
       "id": "google-pulls-gemma-from-ai-studio-after-senator-bl",
@@ -98,7 +273,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/02/google-pulls-gemma-from-ai-studio-after-senator-blackburn-accuses-model-of-defamation/",
       "readTime": 3,
-      "views": 30316
+      "views": 30608
     },
     {
       "id": "sam-altman-says-enough-to-questions-about-openai-s",
@@ -116,7 +291,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/02/sam-altman-says-enough-to-questions-about-openais-revenue/",
       "readTime": 3,
-      "views": 29411
+      "views": 12032
     },
     {
       "id": "meta-has-an-ai-product-problem",
@@ -133,7 +308,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/02/meta-has-an-ai-product-problem/",
       "readTime": 3,
-      "views": 52075
+      "views": 15991
     },
     {
       "id": "rising-energy-prices-put-ai-and-data-centers-in-th",
@@ -149,7 +324,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/01/rising-energy-prices-put-ai-and-data-centers-in-the-crosshairs/",
       "readTime": 3,
-      "views": 20444
+      "views": 49528
     },
     {
       "id": "ai-researchers-8217-embodied-8217-an-llm-into-a-ro",
@@ -166,188 +341,21 @@
       ],
       "url": "https://techcrunch.com/2025/11/01/ai-researchers-embodied-an-llm-into-a-robot-and-it-started-channeling-robin-williams/",
       "readTime": 3,
-      "views": 24027
-    },
-    {
-      "id": "ai-mania-tanks-coreweave-s-core-scientific-acquisi",
-      "title": "AI mania tanks CoreWeave’s Core Scientific acquisition — it buys Python notebook Marimo",
-      "summary": "CoreWeave's failed buy of Core Scientific is another sign of an AI bubble.  But it's still shopping.",
-      "content": "CoreWeave's failed buy of Core Scientific is another sign of an AI bubble. But it's still shopping.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2025-10-31T18:53:48.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/10/31/ai-mania-tanks-coreweaves-core-scientific-acquisition-it-buys-python-notebook-marimo/",
-      "readTime": 3,
-      "views": 21803
-    },
-    {
-      "id": "chatgpt-everything-you-need-to-know-about-the-ai-p",
-      "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
-      "summary": "A timeline of ChatGPT product updates and releases, starting with the latest, which we’ve been updating throughout the year.",
-      "content": "A timeline of ChatGPT product updates and releases, starting with the latest, which we’ve been updating throughout the year.",
-      "source": "TechCrunch AI",
-      "author": "Kyle Wiggers, Cody Corrall, Alyssa Stringer, Kate Park",
-      "publishedAt": "2025-10-31T17:36:20.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gpt",
-        "chatgpt"
-      ],
-      "url": "https://techcrunch.com/2025/10/31/chatgpt-everything-to-know-about-the-ai-chatbot/",
-      "readTime": 3,
-      "views": 23160
-    },
-    {
-      "id": "equity-live-from-300m-seed-rounds-to-data-center-b",
-      "title": "Equity Live: From $300M seed rounds to data center builds, AI is feeling bubbly",
-      "summary": "The Equity crew was live at TechCrunch Disrupt 2025.  Hosts Kirsten Korosec, Max Zeff, and Anthony Ha took over the Builders Stage on Monday morning to kick off the event with the question everyone&#8.",
-      "content": "The Equity crew was live at TechCrunch Disrupt 2025! Hosts Kirsten Korosec, Max Zeff, and Anthony Ha took over the Builders Stage on Monday morning to kick off the event with the question everyone&#8217;s asking: are we in an AI bubble?&#160; Between valuations that have tripled in months, $300M see",
-      "source": "TechCrunch AI",
-      "author": "Theresa Loconsolo, Kirsten Korosec, Anthony Ha, Maxwell Zeff",
-      "publishedAt": "2025-10-31T17:04:08.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/podcast/equity-live-from-300m-seed-rounds-to-data-center-builds-ai-is-feeling-bubbly/",
-      "readTime": 3,
-      "views": 38990
-    },
-    {
-      "id": "aws-exceeds-wall-street-s-expectations-as-demand-f",
-      "title": "AWS exceeds Wall Street’s expectations as demand for cloud infra remains high",
-      "summary": "AWS continues to see strong demand as companies gobble up its cloud infrastructure services in the age of AI.",
-      "content": "AWS continues to see strong demand as companies gobble up its cloud infrastructure services in the age of AI.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Szkutak",
-      "publishedAt": "2025-10-31T16:59:18.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/10/31/aws-exceeds-wall-streets-expectations-as-demand-for-cloud-infra-remains-high/",
-      "readTime": 3,
-      "views": 21457
-    },
-    {
-      "id": "how-leapxpert-uses-ai-to-bring-order-and-oversight",
-      "title": "How LeapXpert uses AI to bring order and oversight to business messaging",
-      "summary": "It&#8217;s no longer news that AI is transforming how people communicate at work.  The bad (and less common) news, however, is that AI is also making those conversations harder to control.",
-      "content": "It&#8217;s no longer news that AI is transforming how people communicate at work. The bad (and less common) news, however, is that AI is also making those conversations harder to control. From chat apps to collaboration tools, employees exchange thousands of messages every day, many of which now pas",
-      "source": "AI News",
-      "author": "AI News",
-      "publishedAt": "2025-10-31T15:47:35.000Z",
-      "category": "partnership",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/how-leapxpert-uses-ai-to-bring-order-and-oversight-to-business-messaging/",
-      "readTime": 3,
-      "views": 43031
-    },
-    {
-      "id": "how-lumana-is-redefining-ai-8217-s-role-in-video-s",
-      "title": "How Lumana is redefining AI&#8217;s role in video surveillance",
-      "summary": "For all the progress in artificial intelligence, most video security systems still fail at recognising context in real-world conditions.  The majority of cameras can capture real-time footage, but str.",
-      "content": "For all the progress in artificial intelligence, most video security systems still fail at recognising context in real-world conditions. The majority of cameras can capture real-time footage, but struggle to interpret it. This is a problem turning into a growing concern for smart city designers, man",
-      "source": "AI News",
-      "author": "AI News",
-      "publishedAt": "2025-10-31T15:36:18.000Z",
-      "category": "market",
-      "tags": [
-        "artificial intelligence",
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/how-lumana-is-redefining-ais-role-in-video-surveillance/",
-      "readTime": 3,
-      "views": 18262
-    },
-    {
-      "id": "tim-cook-says-apple-is-open-to-m-038-a-on-the-ai-f",
-      "title": "Tim Cook says Apple is open to M&#038;A on the AI front",
-      "summary": "Apple CEO Tim Cook noted in the company's Q4 2025 earnings call that Apple was preparing to announce more AI partnerships like the one it has with OpenAI to integrate ChatGPT into Siri and Apple Intel.",
-      "content": "Apple CEO Tim Cook noted in the company's Q4 2025 earnings call that Apple was preparing to announce more AI partnerships like the one it has with OpenAI to integrate ChatGPT into Siri and Apple Intelligence.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2025-10-31T15:17:12.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gpt",
-        "openai",
-        "chatgpt",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2025/10/31/tim-cook-says-apple-is-open-to-ma-on-the-ai-front/",
-      "readTime": 3,
-      "views": 46974
-    },
-    {
-      "id": "yc-alum-adam-raises-4-1m-to-turn-viral-text-to-3d-",
-      "title": "YC alum Adam raises $4.1M to turn viral text-to-3D tool into AI copilot",
-      "summary": "After generating over 10 million social media impressions with the launch of its text-to-3D model app, Adam has raised a $4. 1 million seed round to power its next steps.",
-      "content": "After generating over 10 million social media impressions with the launch of its text-to-3D model app, Adam has raised a $4.1 million seed round to power its next steps.",
-      "source": "TechCrunch AI",
-      "author": "Anna Heim",
-      "publishedAt": "2025-10-31T14:20:36.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/10/31/yc-alum-adam-raises-4-1m-to-turn-viral-text-to-3d-tool-into-ai-copilot/",
-      "readTime": 3,
-      "views": 31621
-    },
-    {
-      "id": "nvidia-expands-ai-ties-with-hyundai-samsung-sk-nav",
-      "title": "Nvidia expands AI ties with Hyundai, Samsung, SK, Naver",
-      "summary": "Nvidia CEO Jensen Huang is visiting South Korea to strengthen partnerships with Samsung, Hyundai, SK, and Naver, unveiling plans for AI-powered networks and next-generation intelligent systems.",
-      "content": "Nvidia CEO Jensen Huang is visiting South Korea to strengthen partnerships with Samsung, Hyundai, SK, and Naver, unveiling plans for AI-powered networks and next-generation intelligent systems.",
-      "source": "TechCrunch AI",
-      "author": "Kate Park",
-      "publishedAt": "2025-10-31T13:29:44.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/10/31/nvidia-expands-ai-ties-with-hyundai-samsung-sk-naver/",
-      "readTime": 3,
-      "views": 39348
-    },
-    {
-      "id": "nvidia-is-reportedly-investing-up-to-1b-in-poolsid",
-      "title": "Nvidia is reportedly investing up to $1B in Poolside",
-      "summary": "Nvidia is an existing investor in the AI company and participated in its $500 million Series A round in 2024.",
-      "content": "Nvidia is an existing investor in the AI company and participated in its $500 million Series A round in 2024.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Szkutak",
-      "publishedAt": "2025-10-30T21:10:17.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/10/30/nvidia-is-reportedly-investing-up-to-1-billion-in-poolside/",
-      "readTime": 3,
-      "views": 32452
+      "views": 20832
     }
   ],
-  "lastUpdated": "2025-11-03T12:39:46.140Z",
+  "lastUpdated": "2025-11-04T01:25:08.705Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "AI News",
-    "TechCrunch AI"
+    "TechCrunch AI",
+    "AI News"
   ],
   "categories": [
-    "funding",
-    "market",
     "release",
-    "research",
-    "partnership"
+    "partnership",
+    "market",
+    "funding",
+    "research"
   ]
 }
