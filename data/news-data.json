@@ -1,6 +1,58 @@
 {
   "articles": [
     {
+      "id": "improving-vmware-migration-workflows-with-agentic-",
+      "title": "Improving VMware migration workflows with agentic AI",
+      "summary": "For years, many chief information officers (CIOs) looked at VMware-to-cloud migrations with a wary pragmatism.  Manually mapping dependencies and rewriting legacy apps mid-flight was not an enticing, .",
+      "content": "For years, many chief information officers (CIOs) looked at VMware-to-cloud migrations with a wary pragmatism. Manually mapping dependencies and rewriting legacy apps mid-flight was not an enticing, low-lift proposition for enterprise IT teams. But the calculus for such decisions has changed dramati",
+      "source": "MIT Technology Review AI",
+      "author": "MIT Technology Review Insights",
+      "publishedAt": "2025-11-12T10:11:15.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2025/11/12/1124919/improving-vmware-migration-workflows-with-agentic-ai/",
+      "readTime": 3,
+      "views": 54316
+    },
+    {
+      "id": "google-reveals-its-own-version-of-apple-s-ai-cloud",
+      "title": "Google reveals its own version of Apple’s AI cloud",
+      "summary": "Google has rolled out Private AI Compute, a new cloud-based processing system designed to bring the privacy of on-device AI to the cloud.  The platform aims to give users faster, more capable AI exper.",
+      "content": "Google has rolled out Private AI Compute, a new cloud-based processing system designed to bring the privacy of on-device AI to the cloud. The platform aims to give users faster, more capable AI experiences without compromising data security. It combines Google’s most advanced Gemini models with stri",
+      "source": "AI News",
+      "author": "Muhammad Zulhusni",
+      "publishedAt": "2025-11-12T09:00:00.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "gemini",
+        "Google",
+        "Apple"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/google-reveals-its-own-version-of-apple-ai-cloud/",
+      "readTime": 3,
+      "views": 28070
+    },
+    {
+      "id": "the-global-race-for-the-ai-app-layer-is-still-on",
+      "title": "The global race for the AI app layer is still on",
+      "summary": "is far ahead of Europe in the race for large AI models, at least in funding.  But the picture is different for the application layer, global VC firm Accel highlighted in its 2025 Globalscape report.",
+      "content": "The U.S. is far ahead of Europe in the race for large AI models, at least in funding. But the picture is different for the application layer, global VC firm Accel highlighted in its 2025 Globalscape report.",
+      "source": "TechCrunch AI",
+      "author": "Anna Heim",
+      "publishedAt": "2025-11-12T07:01:00.000Z",
+      "category": "funding",
+      "tags": [
+        "ai",
+        "ai model"
+      ],
+      "url": "https://techcrunch.com/2025/11/11/the-global-race-for-the-ai-app-layer-is-still-on/",
+      "readTime": 3,
+      "views": 5881
+    },
+    {
       "id": "softbank-8217-s-nvidia-sale-rattles-market-raises-",
       "title": "SoftBank&#8217;s Nvidia sale rattles market, raises questions",
       "summary": "Wall Street can’t help but wonder: does Son see something right now that others do not.",
@@ -14,7 +66,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/11/softbanks-nvidia-sale-rattles-market-raises-questions/",
       "readTime": 3,
-      "views": 50466
+      "views": 25119
     },
     {
       "id": "immortality-startup-eternos-nabs-10-3m-pivots-to-p",
@@ -30,7 +82,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/11/immortality-startup-eternos-pivots-to-a-personal-ai-that-sounds-like-you/",
       "readTime": 3,
-      "views": 52222
+      "views": 22796
     },
     {
       "id": "how-ai-startups-should-be-thinking-about-product-m",
@@ -46,7 +98,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/11/how-ai-startups-should-be-thinking-about-product-market-fit/",
       "readTime": 3,
-      "views": 47705
+      "views": 42004
     },
     {
       "id": "wiz-security-lapses-emerge-amid-the-global-ai-race",
@@ -62,7 +114,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/wiz-security-lapses-emerge-amid-global-ai-race/",
       "readTime": 3,
-      "views": 48011
+      "views": 33095
     },
     {
       "id": "wonderful-raised-100m-series-a-to-put-ai-agents-on",
@@ -78,7 +130,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/11/wonderful-raised-100m-series-a-to-put-ai-agents-on-the-front-lines-of-customer-service/",
       "readTime": 3,
-      "views": 30249
+      "views": 23542
     },
     {
       "id": "meta-8217-s-chief-ai-scientist-yann-lecun-reported",
@@ -95,7 +147,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/11/metas-chief-ai-scientist-yann-lecun-reportedly-plans-to-leave-to-build-his-own-startup/",
       "readTime": 3,
-      "views": 33383
+      "views": 15096
     },
     {
       "id": "a-former-physician-has-launched-robyn-an-empatheti",
@@ -111,7 +163,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/11/a-former-physician-has-launched-robyn-an-empathetic-ai-companion/",
       "readTime": 3,
-      "views": 42541
+      "views": 32499
     },
     {
       "id": "chinese-ai-startup-moonshot-outperforms-gpt-5-and-",
@@ -131,7 +183,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/moonshot-ai-gpt-5-claude-comparison-china-breakthrough/",
       "readTime": 3,
-      "views": 43965
+      "views": 5170
     },
     {
       "id": "lovable-says-it-8217-s-nearing-8-million-users-as-",
@@ -147,7 +199,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/10/lovable-says-its-nearing-8-million-users-as-the-year-old-ai-coding-startup-eyes-more-corporate-employees/",
       "readTime": 3,
-      "views": 22357
+      "views": 16868
     },
     {
       "id": "the-circular-money-problem-at-the-heart-of-ai-8217",
@@ -165,7 +217,7 @@
       ],
       "url": "https://techcrunch.com/video/the-circular-money-problem-at-the-heart-of-ais-biggest-deals/",
       "readTime": 3,
-      "views": 9537
+      "views": 19623
     },
     {
       "id": "a-better-way-of-thinking-about-the-ai-bubble",
@@ -181,7 +233,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/10/a-better-way-of-thinking-about-the-ai-bubble/",
       "readTime": 3,
-      "views": 26627
+      "views": 42976
     },
     {
       "id": "kaltura-acquires-eself-founded-by-creator-of-snap-",
@@ -198,7 +250,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/10/kaltura-acquires-eself-founded-by-creator-of-snaps-ai-in-27m-deal/",
       "readTime": 3,
-      "views": 48072
+      "views": 40820
     },
     {
       "id": "google-brings-gemini-to-the-google-tv-streamer",
@@ -215,7 +267,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/10/google-brings-gemini-to-the-google-tv-streamer/",
       "readTime": 3,
-      "views": 46762
+      "views": 30595
     },
     {
       "id": "wikipedia-urges-ai-companies-to-use-its-paid-api-a",
@@ -231,7 +283,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/10/wikipedia-urges-ai-companies-to-use-its-paid-api-and-stop-scraping/",
       "readTime": 3,
-      "views": 6381
+      "views": 44767
     },
     {
       "id": "google-maps-releases-new-ai-tools-that-let-you-cre",
@@ -248,7 +300,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/10/google-maps-releases-new-ai-tools-to-let-you-create-interactive-projects/",
       "readTime": 3,
-      "views": 19973
+      "views": 18490
     },
     {
       "id": "reimagining-cybersecurity-in-the-era-of-ai-and-qua",
@@ -264,7 +316,7 @@
       ],
       "url": "https://www.technologyreview.com/2025/11/10/1127774/reimagining-cybersecurity-in-the-era-of-ai-and-quantum/",
       "readTime": 3,
-      "views": 34042
+      "views": 23672
     },
     {
       "id": "6sense-founder-amanda-kahlow-raises-30-million-for",
@@ -280,71 +332,22 @@
       ],
       "url": "https://techcrunch.com/2025/11/10/6sense-founder-amanda-kahlow-raises-30-million-for-new-human-replacement-ai-sales-startup-1mind/",
       "readTime": 3,
-      "views": 33287
-    },
-    {
-      "id": "scribe-hits-1-3b-valuation-as-it-moves-to-show-whe",
-      "title": "Scribe hits $1.3B valuation as it moves to show where AI will actually pay off",
-      "summary": "Scribe Optimize is the startup's next major offering to help organizations identify where AI will be most useful.",
-      "content": "Scribe Optimize is the startup's next major offering to help organizations identify where AI will be most useful.",
-      "source": "TechCrunch AI",
-      "author": "Jagmeet Singh",
-      "publishedAt": "2025-11-10T13:00:00.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/11/10/scribe-hits-1-3b-valuation-as-it-moves-to-show-where-ai-will-actually-pay-off/",
-      "readTime": 3,
-      "views": 49697
-    },
-    {
-      "id": "10-of-nvidia-8217-s-cost-why-tesla-intel-chip-part",
-      "title": "10% of Nvidia&#8217;s cost: Why Tesla-Intel chip partnership demands attention",
-      "summary": "The potential Tesla-Intel chip partnership could deliver AI chips at just 10% of Nvidia&#8217;s cost – a claim that represents a significant development in AI infrastructure that enterprise technology.",
-      "content": "The potential Tesla-Intel chip partnership could deliver AI chips at just 10% of Nvidia&#8217;s cost – a claim that represents a significant development in AI infrastructure that enterprise technology leaders cannot afford to ignore. On November 6, 2025, Tesla CEO Elon Musk stated publicly at the co",
-      "source": "AI News",
-      "author": "Dashveenjit Kaur",
-      "publishedAt": "2025-11-10T09:13:18.000Z",
-      "category": "partnership",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/tesla-intel-chip-partnership-nvidia-cost/",
-      "readTime": 3,
-      "views": 17716
-    },
-    {
-      "id": "is-wall-street-losing-faith-in-ai",
-      "title": "Is Wall Street losing faith in AI?",
-      "summary": "A rough week for tech stocks might signal a loss of investor confidence in artificial intelligence.",
-      "content": "A rough week for tech stocks might signal a loss of investor confidence in artificial intelligence.",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2025-11-08T20:53:00.000Z",
-      "category": "release",
-      "tags": [
-        "artificial intelligence",
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/11/08/is-wall-street-losing-faith-in-ai/",
-      "readTime": 3,
-      "views": 32333
+      "views": 18542
     }
   ],
-  "lastUpdated": "2025-11-12T06:29:14.534Z",
+  "lastUpdated": "2025-11-12T12:40:27.822Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "TechCrunch AI",
+    "MIT Technology Review AI",
     "AI News",
-    "MIT Technology Review AI"
+    "TechCrunch AI"
   ],
   "categories": [
-    "funding",
+    "research",
     "market",
+    "funding",
     "partnership",
-    "release",
-    "research"
+    "release"
   ]
 }
