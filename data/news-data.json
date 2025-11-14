@@ -1,10 +1,180 @@
 {
   "articles": [
     {
+      "id": "vcs-abandon-old-rules-for-a-8216-funky-time-8217-o",
+      "title": "VCs abandon old rules for a &#8216;funky time&#8217; of investing in AI startups",
+      "summary": "The goalposts are moving for AI startups when it comes to  growth, product features, and just about everything else.",
+      "content": "The goalposts are moving for AI startups when it comes to  growth, product features, and just about everything else.",
+      "source": "TechCrunch AI",
+      "author": "Marina Temkin",
+      "publishedAt": "2025-11-13T23:18:49.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/11/13/vcs-abandon-old-rules-for-a-funky-time-of-investing-in-ai-startups/",
+      "readTime": 3,
+      "views": 17606
+    },
+    {
+      "id": "apple-8217-s-new-app-review-guidelines-clamp-down-",
+      "title": "Apple&#8217;s new App Review Guidelines clamp down on apps sharing personal data with &#8216;third-party AI&#8217;",
+      "summary": "Apple updates its App Store rules to restrict apps from sharing personal data with third-party AI without disclosure and explicit permission.",
+      "content": "Apple updates its App Store rules to restrict apps from sharing personal data with third-party AI without disclosure and explicit permission.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2025-11-13T21:14:35.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Apple"
+      ],
+      "url": "https://techcrunch.com/2025/11/13/apples-new-app-review-guidelines-clamp-down-on-apps-sharing-personal-data-with-third-party-ai/",
+      "readTime": 3,
+      "views": 31896
+    },
+    {
+      "id": "openai-s-new-llm-exposes-the-secrets-of-how-ai-rea",
+      "title": "OpenAI’s new LLM exposes the secrets of how AI really works",
+      "summary": "ChatGPT maker OpenAI has built an experimental large language model that is far easier to understand than typical models.  That’s a big deal, because today’s LLMs are black boxes: Nobody fully underst.",
+      "content": "ChatGPT maker OpenAI has built an experimental large language model that is far easier to understand than typical models. That’s a big deal, because today’s LLMs are black boxes: Nobody fully understands how they do what they do. Building a model that is more transparent sheds light on how LLMs work",
+      "source": "MIT Technology Review AI",
+      "author": "Will Douglas Heaven",
+      "publishedAt": "2025-11-13T18:00:00.000Z",
+      "category": "research",
+      "tags": [
+        "ai",
+        "gpt",
+        "llm",
+        "language model",
+        "openai"
+      ],
+      "url": "https://www.technologyreview.com/2025/11/13/1127914/openais-new-llm-exposes-the-secrets-of-how-ai-really-works/",
+      "readTime": 3,
+      "views": 5735
+    },
+    {
+      "id": "google-8217-s-sima-2-agent-uses-gemini-to-reason-a",
+      "title": "Google&#8217;s SIMA 2 agent uses Gemini to reason and act in virtual worlds",
+      "summary": "“SIMA 2 is a more general agent.  It can complete complex tasks in previously unseen environments.",
+      "content": "“SIMA 2 is a more general agent. It can complete complex tasks in previously unseen environments. And it's a self-improving agent... which is a step toward more genera- purpose robots and AGI systems more generally.”",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2025-11-13T16:15:47.000Z",
+      "category": "release",
+      "tags": [
+        "gemini",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2025/11/13/googles-sima-2-agent-uses-gemini-to-reason-and-act-in-virtual-worlds/",
+      "readTime": 3,
+      "views": 22491
+    },
+    {
+      "id": "linkedin-adds-ai-powered-search-to-help-users-find",
+      "title": "LinkedIn adds AI-powered search to help users find people",
+      "summary": "LinkedIn's AI-powered people search is rolling out to premium users in the U.",
+      "content": "LinkedIn's AI-powered people search is rolling out to premium users in the U.S.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2025-11-13T16:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/11/13/linkedin-adds-ai-powered-search-to-help-users-find-people/",
+      "readTime": 3,
+      "views": 41570
+    },
+    {
+      "id": "teen-founders-raise-6m-to-reinvent-pesticides-usin",
+      "title": "Teen founders raise $6M to reinvent pesticides using AI — and convince Paul Graham to join in",
+      "summary": "Bindwell applies AI drug discovery techniques to invent new pesticide molecules.",
+      "content": "Bindwell applies AI drug discovery techniques to invent new pesticide molecules.",
+      "source": "TechCrunch AI",
+      "author": "Jagmeet Singh",
+      "publishedAt": "2025-11-13T15:00:00.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/11/13/teen-founders-raise-6m-to-reinvent-pesticides-using-ai-and-convince-paul-graham-to-join-in/",
+      "readTime": 3,
+      "views": 16967
+    },
+    {
+      "id": "google-deepmind-is-using-gemini-to-train-agents-in",
+      "title": "Google DeepMind is using Gemini to train agents inside Goat Simulator 3",
+      "summary": "Google DeepMind has built a new video-game-playing agent called SIMA 2 that can navigate and solve problems in a wide range of 3D virtual worlds.  The company claims it’s a big step toward more genera.",
+      "content": "Google DeepMind has built a new video-game-playing agent called SIMA 2 that can navigate and solve problems in a wide range of 3D virtual worlds. The company claims it’s a big step toward more general-purpose agents and better real-world robots.    Google DeepMind first demoed SIMA (which stands for",
+      "source": "MIT Technology Review AI",
+      "author": "Will Douglas Heaven",
+      "publishedAt": "2025-11-13T15:00:00.000Z",
+      "category": "research",
+      "tags": [
+        "ai",
+        "gemini",
+        "Google"
+      ],
+      "url": "https://www.technologyreview.com/2025/11/13/1127921/google-deepmind-is-using-gemini-to-train-agents-inside-goat-simulator-3/",
+      "readTime": 3,
+      "views": 12694
+    },
+    {
+      "id": "google-augments-ai-shopping-with-conversational-se",
+      "title": "Google augments AI shopping with conversational search, agentic checkout and an AI that calls stores for you",
+      "summary": "Google is expanding AI shopping with conversational search, agentic checkout, and an AI that calls stores for you about local inventory.",
+      "content": "Google is expanding AI shopping with conversational search, agentic checkout, and an AI that calls stores for you about local inventory.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2025-11-13T14:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2025/11/13/google-expands-ai-shopping-with-conversational-search-agentic-checkout-and-an-ai-that-calls-stores-for-you/",
+      "readTime": 3,
+      "views": 33661
+    },
+    {
+      "id": "coding-assistant-cursor-raises-2-3b-5-months-after",
+      "title": "Coding assistant Cursor raises $2.3B 5 months after its previous round",
+      "summary": "Cursor plans to use the capital to continue developing Composer, the AI model the vibe-coding startup released in October.",
+      "content": "Cursor plans to use the capital to continue developing Composer, the AI model the vibe-coding startup released in October.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Szkutak",
+      "publishedAt": "2025-11-13T13:58:44.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "ai model"
+      ],
+      "url": "https://techcrunch.com/2025/11/13/coding-assistant-cursor-raises-2-3b-5-months-after-its-previous-round/",
+      "readTime": 3,
+      "views": 32772
+    },
+    {
+      "id": "ibm-data-silos-are-holding-back-enterprise-ai",
+      "title": "IBM: Data silos are holding back enterprise AI",
+      "summary": "According to IBM, the primary barrier holding back enterprise AI isn&#8217;t the technology itself but the persistent issue of data silos.  Ed Lovely, VP and Chief Data Officer at IBM, describes data .",
+      "content": "According to IBM, the primary barrier holding back enterprise AI isn&#8217;t the technology itself but the persistent issue of data silos. Ed Lovely, VP and Chief Data Officer at IBM, describes data silos as the &#8220;Achilles&#8217; heel&#8221; of modern data strategy. Lovely made the comments fol",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2025-11-13T13:25:43.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/ibm-data-silos-are-holding-back-enterprise-ai/",
+      "readTime": 3,
+      "views": 33241
+    },
+    {
       "id": "microsoft-8217-s-plan-to-fix-its-chip-problem-is-p",
       "title": "Microsoft&#8217;s plan to fix its chip problem is, partly, to let OpenAI do the heavy lifting",
-      "summary": "Microsoft is taking a page from OpenAI's playbook, literally.",
-      "content": "Microsoft is taking a page from OpenAI's playbook, literally.",
+      "summary": "The tech giant plans to leverage its partner's custom chip development to bolster its own struggling semiconductor efforts, a move that looks increasingly pragmatic given Microsoft's lackluster perfor.",
+      "content": "The tech giant plans to leverage its partner's custom chip development to bolster its own struggling semiconductor efforts, a move that looks increasingly pragmatic given Microsoft's lackluster performance compared to rivals like Google and Amazon.",
       "source": "TechCrunch AI",
       "author": "Connie Loizos",
       "publishedAt": "2025-11-13T12:01:20.000Z",
@@ -13,11 +183,12 @@
         "ai",
         "openai",
         "OpenAI",
+        "Google",
         "Microsoft"
       ],
       "url": "https://techcrunch.com/2025/11/13/microsofts-plan-to-fix-its-chip-problem-is-partly-to-let-openai-do-the-heavy-lifting/",
       "readTime": 3,
-      "views": 14817
+      "views": 28606
     },
     {
       "id": "milestone-raises-10m-to-make-sure-ai-rhymes-with-r",
@@ -33,7 +204,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/13/milestone-raises-10m-to-make-sure-ai-rhymes-with-roi/",
       "readTime": 3,
-      "views": 45606
+      "views": 32221
     },
     {
       "id": "new-data-centre-projects-mark-anthropic-s-biggest-",
@@ -51,7 +222,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/new-data-centre-projects-mark-anthropic-biggest-us-expansion/",
       "readTime": 3,
-      "views": 26606
+      "views": 38179
     },
     {
       "id": "8216-chad-the-brainrot-ide-is-a-new-y-combinator-b",
@@ -67,7 +238,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/12/chad-the-brainrot-ide-is-a-new-y-combinator-backed-product-so-wild-people-thought-it-was-fake/",
       "readTime": 3,
-      "views": 36564
+      "views": 15083
     },
     {
       "id": "elevenlabs-strike-deals-with-celebs-to-create-ai-a",
@@ -83,7 +254,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/12/elevenlabs-strike-deals-with-celebs-to-create-ai-audio/",
       "readTime": 3,
-      "views": 31865
+      "views": 5382
     },
     {
       "id": "court-rules-that-openai-violated-german-copyright-",
@@ -103,7 +274,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/12/court-rules-that-openai-violated-german-copyright-law-ordered-it-to-pay-damages/",
       "readTime": 3,
-      "views": 25132
+      "views": 36832
     },
     {
       "id": "what-startups-want-from-openai",
@@ -121,7 +292,7 @@
       ],
       "url": "https://techcrunch.com/podcast/what-startups-want-from-openai/",
       "readTime": 3,
-      "views": 48418
+      "views": 18552
     },
     {
       "id": "baidu-ernie-multimodal-ai-beats-gpt-and-gemini-in-",
@@ -139,7 +310,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/baidu-ernie-multimodal-ai-gpt-and-gemini-benchmarks/",
       "readTime": 3,
-      "views": 15513
+      "views": 14811
     },
     {
       "id": "ai-data-startup-wisdomai-has-raised-another-50m-le",
@@ -155,7 +326,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/12/ai-data-startup-wisdomai-has-raised-another-50m-led-by-kleiner-nvidia/",
       "readTime": 3,
-      "views": 48277
+      "views": 18489
     },
     {
       "id": "anthropic-announces-50-billion-data-center-plan",
@@ -172,190 +343,22 @@
       ],
       "url": "https://techcrunch.com/2025/11/12/anthropic-announces-50-billion-data-center-plan/",
       "readTime": 3,
-      "views": 29784
-    },
-    {
-      "id": "improving-vmware-migration-workflows-with-agentic-",
-      "title": "Improving VMware migration workflows with agentic AI",
-      "summary": "For years, many chief information officers (CIOs) looked at VMware-to-cloud migrations with a wary pragmatism.  Manually mapping dependencies and rewriting legacy apps mid-flight was not an enticing, .",
-      "content": "For years, many chief information officers (CIOs) looked at VMware-to-cloud migrations with a wary pragmatism. Manually mapping dependencies and rewriting legacy apps mid-flight was not an enticing, low-lift proposition for enterprise IT teams. But the calculus for such decisions has changed dramati",
-      "source": "MIT Technology Review AI",
-      "author": "MIT Technology Review Insights",
-      "publishedAt": "2025-11-12T10:11:15.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2025/11/12/1124919/improving-vmware-migration-workflows-with-agentic-ai/",
-      "readTime": 3,
-      "views": 5024
-    },
-    {
-      "id": "google-reveals-its-own-version-of-apple-s-ai-cloud",
-      "title": "Google reveals its own version of Apple’s AI cloud",
-      "summary": "Google has rolled out Private AI Compute, a new cloud-based processing system designed to bring the privacy of on-device AI to the cloud.  The platform aims to give users faster, more capable AI exper.",
-      "content": "Google has rolled out Private AI Compute, a new cloud-based processing system designed to bring the privacy of on-device AI to the cloud. The platform aims to give users faster, more capable AI experiences without compromising data security. It combines Google’s most advanced Gemini models with stri",
-      "source": "AI News",
-      "author": "Muhammad Zulhusni",
-      "publishedAt": "2025-11-12T09:00:00.000Z",
-      "category": "market",
-      "tags": [
-        "ai",
-        "gemini",
-        "Google",
-        "Apple"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/google-reveals-its-own-version-of-apple-ai-cloud/",
-      "readTime": 3,
-      "views": 32700
-    },
-    {
-      "id": "the-global-race-for-the-ai-app-layer-is-still-on",
-      "title": "The global race for the AI app layer is still on",
-      "summary": "is far ahead of Europe in the race for large AI models, at least in funding.  But the picture is different for the application layer, global VC firm Accel highlighted in its 2025 Globalscape report.",
-      "content": "The U.S. is far ahead of Europe in the race for large AI models, at least in funding. But the picture is different for the application layer, global VC firm Accel highlighted in its 2025 Globalscape report.",
-      "source": "TechCrunch AI",
-      "author": "Anna Heim",
-      "publishedAt": "2025-11-12T07:01:00.000Z",
-      "category": "funding",
-      "tags": [
-        "ai",
-        "ai model"
-      ],
-      "url": "https://techcrunch.com/2025/11/11/the-global-race-for-the-ai-app-layer-is-still-on/",
-      "readTime": 3,
-      "views": 53097
-    },
-    {
-      "id": "softbank-8217-s-nvidia-sale-rattles-market-raises-",
-      "title": "SoftBank&#8217;s Nvidia sale rattles market, raises questions",
-      "summary": "Masayoshi Son's latest move to cash out his entire $5. 8 billion Nvidia stake to go all in on AI surprised the business world on Tuesday, but maybe it should not.",
-      "content": "Masayoshi Son's latest move to cash out his entire $5.8 billion Nvidia stake to go all in on AI surprised the business world on Tuesday, but maybe it should not. At this point, it’s almost more surprising when the 68-year-old Son doesn’t push his chips to the center of the table.",
-      "source": "TechCrunch AI",
-      "author": "Connie Loizos",
-      "publishedAt": "2025-11-11T19:52:31.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/11/11/softbanks-nvidia-sale-rattles-market-raises-questions/",
-      "readTime": 3,
-      "views": 20901
-    },
-    {
-      "id": "immortality-startup-eternos-nabs-10-3m-pivots-to-p",
-      "title": "Immortality startup Eternos nabs $10.3M, pivots to personal AI that sounds like you",
-      "summary": "Eternos developed the Human Life Model (HLM) — a framework that uses only an individual's data, rather than general LLM data, to capture their unique values, life story, and decision-making traits.  T.",
-      "content": "Eternos developed the Human Life Model (HLM) — a framework that uses only an individual's data, rather than general LLM data, to capture their unique values, life story, and decision-making traits. The company has rebranded as Uare.ai and raised $10.3 million in seed funding led by Mayfield and Bold",
-      "source": "TechCrunch AI",
-      "author": "Marina Temkin",
-      "publishedAt": "2025-11-11T17:29:58.000Z",
-      "category": "funding",
-      "tags": [
-        "ai",
-        "llm"
-      ],
-      "url": "https://techcrunch.com/2025/11/11/immortality-startup-eternos-pivots-to-a-personal-ai-that-sounds-like-you/",
-      "readTime": 3,
-      "views": 13034
-    },
-    {
-      "id": "how-ai-startups-should-be-thinking-about-product-m",
-      "title": "How AI startups should be thinking about product-market fit",
-      "summary": "Two experienced investors share their tips for founders and operators hoping to nail product-market fit at their AI startups.",
-      "content": "Two experienced investors share their tips for founders and operators hoping to nail product-market fit at their AI startups.",
-      "source": "TechCrunch AI",
-      "author": "Tim De Chant",
-      "publishedAt": "2025-11-11T17:15:00.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/11/11/how-ai-startups-should-be-thinking-about-product-market-fit/",
-      "readTime": 3,
-      "views": 18521
-    },
-    {
-      "id": "wiz-security-lapses-emerge-amid-the-global-ai-race",
-      "title": "Wiz: Security lapses emerge amid the global AI race",
-      "summary": "According to Wiz, the race among AI companies is causing many to overlook basic security hygiene practices.  65 percent of the 50 leading AI firms the cybersecurity firm analysed had leaked verified s.",
-      "content": "According to Wiz, the race among AI companies is causing many to overlook basic security hygiene practices. 65 percent of the 50 leading AI firms the cybersecurity firm analysed had leaked verified secrets on GitHub. The exposures include API keys, tokens, and sensitive credentials, often buried in ",
-      "source": "AI News",
-      "author": "Ryan Daws",
-      "publishedAt": "2025-11-11T17:05:25.000Z",
-      "category": "partnership",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/wiz-security-lapses-emerge-amid-global-ai-race/",
-      "readTime": 3,
-      "views": 45793
-    },
-    {
-      "id": "wonderful-raised-100m-series-a-to-put-ai-agents-on",
-      "title": "Wonderful raised $100M Series A to put AI agents on the front lines of customer service",
-      "summary": "The large round, in a market already crowded with AI agent startups, suggests Wonderful has convinced top-tier investors it’s not just another GPT wrapper, but a company building the infrastructure an.",
-      "content": "The large round, in a market already crowded with AI agent startups, suggests Wonderful has convinced top-tier investors it’s not just another GPT wrapper, but a company building the infrastructure and orchestration that could scale if multi-agent systems take off.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2025-11-11T16:08:47.000Z",
-      "category": "funding",
-      "tags": [
-        "ai",
-        "gpt"
-      ],
-      "url": "https://techcrunch.com/2025/11/11/wonderful-raised-100m-series-a-to-put-ai-agents-on-the-front-lines-of-customer-service/",
-      "readTime": 3,
-      "views": 54272
-    },
-    {
-      "id": "meta-8217-s-chief-ai-scientist-yann-lecun-reported",
-      "title": "Meta&#8217;s chief AI scientist Yann LeCun reportedly plans to leave to build his own startup",
-      "summary": "Yann LeCun, a chief AI scientist at Meta, is planning to leave the company to build his own startup, which will focus on continuing his work on world models.",
-      "content": "Yann LeCun, a chief AI scientist at Meta, is planning to leave the company to build his own startup, which will focus on continuing his work on world models.",
-      "source": "TechCrunch AI",
-      "author": "Ram Iyer",
-      "publishedAt": "2025-11-11T14:58:45.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Meta"
-      ],
-      "url": "https://techcrunch.com/2025/11/11/metas-chief-ai-scientist-yann-lecun-reportedly-plans-to-leave-to-build-his-own-startup/",
-      "readTime": 3,
-      "views": 23476
-    },
-    {
-      "id": "a-former-physician-has-launched-robyn-an-empatheti",
-      "title": "A former physician has launched Robyn, an empathetic AI companion",
-      "summary": "Robyn wants to position itself as an empathetic chatbot and not as a companion or a therapy app.",
-      "content": "Robyn wants to position itself as an empathetic chatbot and not as a companion or a therapy app.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2025-11-11T14:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/11/11/a-former-physician-has-launched-robyn-an-empathetic-ai-companion/",
-      "readTime": 3,
-      "views": 21286
+      "views": 5761
     }
   ],
-  "lastUpdated": "2025-11-13T12:41:10.256Z",
+  "lastUpdated": "2025-11-14T01:26:39.819Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
     "TechCrunch AI",
-    "AI News",
-    "MIT Technology Review AI"
+    "MIT Technology Review AI",
+    "AI News"
   ],
   "categories": [
     "release",
+    "research",
     "funding",
     "regulation",
-    "market",
-    "research",
-    "partnership"
+    "market"
   ]
 }
