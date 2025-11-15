@@ -1,22 +1,77 @@
 {
   "articles": [
     {
-      "id": "inside-harvey-how-a-first-year-legal-associate-bui",
-      "title": "Inside Harvey: How a first-year legal associate built one of Silicon Valley&#8217;s hottest startups",
-      "summary": "Legal AI might not sound like the sexiest category in Silicon Valley, yet Harvey&#8216;s CEO Winston Weinberg has captured the attention of virtually every top-tier investor in the Valley.  The compan.",
-      "content": "Legal AI might not sound like the sexiest category in Silicon Valley, yet Harvey&#8216;s CEO Winston Weinberg has captured the attention of virtually every top-tier investor in the Valley. The company&#8217;s backers read like a who&#8217;s who of venture capital: the OpenAI Startup Fund (its first ",
+      "id": "leaked-documents-shed-light-into-how-much-openai-p",
+      "title": "Leaked documents shed light into how much OpenAI pays Microsoft",
+      "summary": "Leaked documents reveal how much OpenAI paid Microsoft under a revenue-share agreement.  They also indicate inference costs.",
+      "content": "Leaked documents reveal how much OpenAI paid Microsoft under a revenue-share agreement. They also indicate inference costs.",
       "source": "TechCrunch AI",
-      "author": "Connie Loizos",
-      "publishedAt": "2025-11-14T11:57:24.000Z",
-      "category": "release",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2025-11-15T00:47:41.000Z",
+      "category": "market",
       "tags": [
         "ai",
         "openai",
+        "OpenAI",
+        "Microsoft"
+      ],
+      "url": "https://techcrunch.com/2025/11/14/leaked-documents-shed-light-into-how-much-openai-pays-microsoft/",
+      "readTime": 3,
+      "views": 22810
+    },
+    {
+      "id": "databricks-co-founder-argues-us-must-go-open-sourc",
+      "title": "Databricks co-founder argues US must go open source to beat China in AI",
+      "summary": "VC Andy Konwinski argues that the U.  is losing its AI research dominance to China.",
+      "content": "VC Andy Konwinski argues that the U.S. is losing its AI research dominance to China.",
+      "source": "TechCrunch AI",
+      "author": "Marina Temkin",
+      "publishedAt": "2025-11-14T22:52:18.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/11/14/databricks-co-founder-argues-us-must-go-open-source-to-beat-china-in-ai/",
+      "readTime": 3,
+      "views": 16013
+    },
+    {
+      "id": "chatgpt-everything-you-need-to-know-about-the-ai-p",
+      "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+      "summary": "A timeline of ChatGPT product updates and releases, starting with the latest, which we’ve been updating throughout the year.",
+      "content": "A timeline of ChatGPT product updates and releases, starting with the latest, which we’ve been updating throughout the year.",
+      "source": "TechCrunch AI",
+      "author": "Kyle Wiggers, Cody Corrall, Kate Park, Alyssa Stringer",
+      "publishedAt": "2025-11-14T22:06:57.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gpt",
+        "chatgpt"
+      ],
+      "url": "https://techcrunch.com/2025/11/14/chatgpt-everything-to-know-about-the-ai-chatbot/",
+      "readTime": 3,
+      "views": 28090
+    },
+    {
+      "id": "openai-says-it-8217-s-fixed-chatgpt-8217-s-em-dash",
+      "title": "OpenAI says it&#8217;s fixed ChatGPT&#8217;s em dash problem",
+      "summary": "OpenAI says users can now personalize ChatGPT to stop using the em dash in its output.",
+      "content": "OpenAI says users can now personalize ChatGPT to stop using the em dash in its output.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2025-11-14T17:59:45.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gpt",
+        "openai",
+        "chatgpt",
         "OpenAI"
       ],
-      "url": "https://techcrunch.com/2025/11/14/inside-harvey-how-a-first-year-legal-associate-built-one-of-silicon-valleys-hottest-startups/",
+      "url": "https://techcrunch.com/2025/11/14/openai-says-its-fixed-chatgpts-em-dash-problem/",
       "readTime": 3,
-      "views": 12158
+      "views": 29983
     },
     {
       "id": "anthropic-details-cyber-espionage-campaign-orchest",
@@ -34,13 +89,13 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/anthropic-details-cyber-espionage-campaign-orchestrated-by-ai/",
       "readTime": 3,
-      "views": 17095
+      "views": 12455
     },
     {
       "id": "chatgpt-launches-pilot-group-chats-across-japan-ne",
       "title": "ChatGPT launches pilot group chats across Japan, New Zealand, South Korea, and Taiwan",
-      "summary": "OpenAI on Thursday unveiled a group chat feature for ChatGPT, currently in pilot across Japan, New Zealand, South Korea, and Taiwan, allowing users to collaborate directly within the app.",
-      "content": "OpenAI on Thursday unveiled a group chat feature for ChatGPT, currently in pilot across Japan, New Zealand, South Korea, and Taiwan, allowing users to collaborate directly within the app.",
+      "summary": "The ChatGPT maker describes this pilot as just a “small first step” toward creating a more \"shared experience\" in the app.  The private chats and personal ChatGPT memory stay completely private.",
+      "content": "The ChatGPT maker describes this pilot as just a “small first step” toward creating a more \"shared experience\" in the app. The private chats and personal ChatGPT memory stay completely private. Group chats are invitation-only, and members can leave at any time.",
       "source": "TechCrunch AI",
       "author": "Kate Park",
       "publishedAt": "2025-11-14T10:58:08.000Z",
@@ -48,13 +103,11 @@
       "tags": [
         "ai",
         "gpt",
-        "openai",
-        "chatgpt",
-        "OpenAI"
+        "chatgpt"
       ],
       "url": "https://techcrunch.com/2025/11/14/chatgpt-launches-pilot-group-chats-across-japan-new-zealand-south-korea-and-taiwan/",
       "readTime": 3,
-      "views": 10950
+      "views": 35387
     },
     {
       "id": "visa-builds-ai-commerce-infrastructure-for-the-asi",
@@ -70,7 +123,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/visa-ai-commerce-intelligent-commerce-2026/",
       "readTime": 3,
-      "views": 18900
+      "views": 37808
     },
     {
       "id": "vcs-abandon-old-rules-for-a-8216-funky-time-8217-o",
@@ -86,7 +139,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/13/vcs-abandon-old-rules-for-a-funky-time-of-investing-in-ai-startups/",
       "readTime": 3,
-      "views": 40849
+      "views": 48628
     },
     {
       "id": "apple-8217-s-new-app-review-guidelines-clamp-down-",
@@ -103,7 +156,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/13/apples-new-app-review-guidelines-clamp-down-on-apps-sharing-personal-data-with-third-party-ai/",
       "readTime": 3,
-      "views": 42320
+      "views": 52062
     },
     {
       "id": "openai-s-new-llm-exposes-the-secrets-of-how-ai-rea",
@@ -123,7 +176,7 @@
       ],
       "url": "https://www.technologyreview.com/2025/11/13/1127914/openais-new-llm-exposes-the-secrets-of-how-ai-really-works/",
       "readTime": 3,
-      "views": 54295
+      "views": 5204
     },
     {
       "id": "google-8217-s-sima-2-agent-uses-gemini-to-reason-a",
@@ -140,7 +193,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/13/googles-sima-2-agent-uses-gemini-to-reason-and-act-in-virtual-worlds/",
       "readTime": 3,
-      "views": 24691
+      "views": 46319
     },
     {
       "id": "linkedin-adds-ai-powered-search-to-help-users-find",
@@ -156,7 +209,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/13/linkedin-adds-ai-powered-search-to-help-users-find-people/",
       "readTime": 3,
-      "views": 27407
+      "views": 31164
     },
     {
       "id": "teen-founders-raise-6m-to-reinvent-pesticides-usin",
@@ -172,13 +225,13 @@
       ],
       "url": "https://techcrunch.com/2025/11/13/teen-founders-raise-6m-to-reinvent-pesticides-using-ai-and-convince-paul-graham-to-join-in/",
       "readTime": 3,
-      "views": 12196
+      "views": 33491
     },
     {
       "id": "google-deepmind-is-using-gemini-to-train-agents-in",
       "title": "Google DeepMind is using Gemini to train agents inside Goat Simulator 3",
       "summary": "Google DeepMind has built a new video-game-playing agent called SIMA 2 that can navigate and solve problems in a wide range of 3D virtual worlds.  The company claims it’s a big step toward more genera.",
-      "content": "Google DeepMind has built a new video-game-playing agent called SIMA 2 that can navigate and solve problems in a wide range of 3D virtual worlds. The company claims it’s a big step toward more general-purpose agents and better real-world robots.    Google DeepMind first demoed SIMA (which stands for",
+      "content": "Google DeepMind has built a new video-game-playing agent called SIMA 2 that can navigate and solve problems in a wide range of 3D virtual worlds. The company claims it’s a big step toward more general-purpose agents and better real-world robots.&#160;&#160;&#160; Google DeepMind first demoed SIMA (w",
       "source": "MIT Technology Review AI",
       "author": "Will Douglas Heaven",
       "publishedAt": "2025-11-13T15:00:00.000Z",
@@ -190,7 +243,7 @@
       ],
       "url": "https://www.technologyreview.com/2025/11/13/1127921/google-deepmind-is-using-gemini-to-train-agents-inside-goat-simulator-3/",
       "readTime": 3,
-      "views": 53283
+      "views": 11867
     },
     {
       "id": "google-augments-ai-shopping-with-conversational-se",
@@ -207,7 +260,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/13/google-expands-ai-shopping-with-conversational-search-agentic-checkout-and-an-ai-that-calls-stores-for-you/",
       "readTime": 3,
-      "views": 19189
+      "views": 42589
     },
     {
       "id": "coding-assistant-cursor-raises-2-3b-5-months-after",
@@ -224,7 +277,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/13/coding-assistant-cursor-raises-2-3b-5-months-after-its-previous-round/",
       "readTime": 3,
-      "views": 12092
+      "views": 26739
     },
     {
       "id": "ibm-data-silos-are-holding-back-enterprise-ai",
@@ -240,7 +293,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/ibm-data-silos-are-holding-back-enterprise-ai/",
       "readTime": 3,
-      "views": 44847
+      "views": 26991
     },
     {
       "id": "microsoft-8217-s-plan-to-fix-its-chip-problem-is-p",
@@ -260,7 +313,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/13/microsofts-plan-to-fix-its-chip-problem-is-partly-to-let-openai-do-the-heavy-lifting/",
       "readTime": 3,
-      "views": 31871
+      "views": 18738
     },
     {
       "id": "milestone-raises-10m-to-make-sure-ai-rhymes-with-r",
@@ -276,7 +329,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/13/milestone-raises-10m-to-make-sure-ai-rhymes-with-roi/",
       "readTime": 3,
-      "views": 54047
+      "views": 23740
     },
     {
       "id": "new-data-centre-projects-mark-anthropic-s-biggest-",
@@ -294,62 +347,10 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/new-data-centre-projects-mark-anthropic-biggest-us-expansion/",
       "readTime": 3,
-      "views": 54455
-    },
-    {
-      "id": "8216-chad-the-brainrot-ide-is-a-new-y-combinator-b",
-      "title": "&#8216;Chad: The Brainrot IDE’ is a new Y Combinator-backed product so wild, people thought it was fake",
-      "summary": "Chad: The Brainrot IDE is an actual product that pairs vibe coding with brainrot activities like gambling, Tinder and games.",
-      "content": "Chad: The Brainrot IDE is an actual product that pairs vibe coding with brainrot activities like gambling, Tinder and games.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2025-11-13T00:05:30.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/11/12/chad-the-brainrot-ide-is-a-new-y-combinator-backed-product-so-wild-people-thought-it-was-fake/",
-      "readTime": 3,
-      "views": 33330
-    },
-    {
-      "id": "elevenlabs-strike-deals-with-celebs-to-create-ai-a",
-      "title": "ElevenLabs strike deals with celebs to create AI audio",
-      "summary": "ElevenLabs struck a deal with actors Michael Caine and Matthew McConaughey to AI-generate their voices.",
-      "content": "ElevenLabs struck a deal with actors Michael Caine and Matthew McConaughey to AI-generate their voices.",
-      "source": "TechCrunch AI",
-      "author": "Dominic-Madori Davis",
-      "publishedAt": "2025-11-12T20:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/11/12/elevenlabs-strike-deals-with-celebs-to-create-ai-audio/",
-      "readTime": 3,
-      "views": 54008
-    },
-    {
-      "id": "court-rules-that-openai-violated-german-copyright-",
-      "title": "Court rules that OpenAI violated German copyright law; orders it to pay damages",
-      "summary": "A German court ruled that OpenAI’s ChatGPT violated the nation’s copyright laws by training its language models on licensed musical work without permission.",
-      "content": "A German court ruled that OpenAI’s ChatGPT violated the nation’s copyright laws by training its language models on licensed musical work without permission.",
-      "source": "TechCrunch AI",
-      "author": "Dominic-Madori Davis",
-      "publishedAt": "2025-11-12T19:18:59.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai",
-        "gpt",
-        "language model",
-        "openai",
-        "chatgpt"
-      ],
-      "url": "https://techcrunch.com/2025/11/12/court-rules-that-openai-violated-german-copyright-law-ordered-it-to-pay-damages/",
-      "readTime": 3,
-      "views": 40008
+      "views": 54588
     }
   ],
-  "lastUpdated": "2025-11-14T12:39:20.503Z",
+  "lastUpdated": "2025-11-15T01:23:54.977Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -358,9 +359,9 @@
     "MIT Technology Review AI"
   ],
   "categories": [
-    "release",
+    "market",
     "research",
-    "funding",
-    "regulation"
+    "release",
+    "funding"
   ]
 }
