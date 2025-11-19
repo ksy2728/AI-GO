@@ -1,6 +1,215 @@
 {
   "articles": [
     {
+      "id": "hugging-face-ceo-says-we-8217-re-in-an-8216-llm-bu",
+      "title": "Hugging Face CEO says we&#8217;re in an &#8216;LLM bubble,&#8217; not an AI bubble",
+      "summary": "Hugging Face co-founder and CEO Clem Delangue says all the attention is on LLMs, but smaller, specialized models will make sense in many use cases going forward.",
+      "content": "Hugging Face co-founder and CEO Clem Delangue says all the attention is on LLMs, but smaller, specialized models will make sense in many use cases going forward.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2025-11-18T21:42:48.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "llm"
+      ],
+      "url": "https://techcrunch.com/2025/11/18/hugging-face-ceo-says-were-in-an-llm-bubble-not-an-ai-bubble/",
+      "readTime": 3,
+      "views": 11208
+    },
+    {
+      "id": "ai-data-center-provider-lambda-raises-whopping-1-5",
+      "title": "AI data center provider Lambda raises whopping $1.5B after multibillion-dollar Microsoft deal",
+      "summary": "Lambda's new raise was a solid beat over the amount that deal-watchers say it was hoping to hit.",
+      "content": "Lambda's new raise was a solid beat over the amount that deal-watchers say it was hoping to hit.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2025-11-18T19:37:25.000Z",
+      "category": "funding",
+      "tags": [
+        "ai",
+        "Microsoft"
+      ],
+      "url": "https://techcrunch.com/2025/11/18/ai-data-center-provider-lambda-raises-whopping-1-5b-after-multibillion-dollar-microsoft-deal/",
+      "readTime": 3,
+      "views": 11144
+    },
+    {
+      "id": "poe-8217-s-ai-app-now-supports-group-chats-across-",
+      "title": "Poe&#8217;s AI app now supports group chats across AI models",
+      "summary": "Quora's AI platform Poe now lets users engage in group chats with up to 200 people across AI models and bots.",
+      "content": "Quora's AI platform Poe now lets users engage in group chats with up to 200 people across AI models and bots.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2025-11-18T17:04:03.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "ai model"
+      ],
+      "url": "https://techcrunch.com/2025/11/18/poes-ai-app-now-supports-group-chats-across-ai-models/",
+      "readTime": 3,
+      "views": 48003
+    },
+    {
+      "id": "microsoft-nvidia-and-anthropic-forge-ai-compute-al",
+      "title": "Microsoft, NVIDIA, and Anthropic forge AI compute alliance",
+      "summary": "Microsoft, Anthropic, and NVIDIA are setting a bar for cloud infrastructure investment and AI model availability with a new compute alliance.  This agreement signals a divergence from single-model dep.",
+      "content": "Microsoft, Anthropic, and NVIDIA are setting a bar for cloud infrastructure investment and AI model availability with a new compute alliance. This agreement signals a divergence from single-model dependency toward a diversified, hardware-optimised ecosystem, altering the governance landscape for sen",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2025-11-18T16:29:24.000Z",
+      "category": "funding",
+      "tags": [
+        "ai",
+        "anthropic",
+        "ai model",
+        "Microsoft",
+        "Anthropic"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/microsoft-nvidia-and-anthropic-forge-ai-compute-alliance/",
+      "readTime": 3,
+      "views": 7328
+    },
+    {
+      "id": "networking-for-ai-building-the-foundation-for-real",
+      "title": "Networking for AI: Building the foundation for real-time intelligence",
+      "summary": "The Ryder Cup is an almost-century-old tournament pitting Europe against the United States in an elite showcase of golf skill and strategy.  At the 2025 event, nearly a quarter of a million spectators.",
+      "content": "The Ryder Cup is an almost-century-old tournament pitting Europe against the United States in an elite showcase of golf skill and strategy. At the 2025 event, nearly a quarter of a million spectators gathered to watch three days of fierce competition on the fairways. From a technology and logistics ",
+      "source": "MIT Technology Review AI",
+      "author": "MIT Technology Review Insights",
+      "publishedAt": "2025-11-18T16:03:14.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2025/11/18/1127997/networking-for-ai-building-the-foundation-for-real-time-intelligence/",
+      "readTime": 3,
+      "views": 53213
+    },
+    {
+      "id": "realizing-value-with-ai-inference-at-scale-and-in-",
+      "title": "Realizing value with AI inference at scale and in production",
+      "summary": "Training an AI model to predict equipment failures is an engineering achievement.  But it&#8217;s not until prediction meets action—the moment that model successfully flags a malfunctioning machine—th.",
+      "content": "Training an AI model to predict equipment failures is an engineering achievement. But it&#8217;s not until prediction meets action—the moment that model successfully flags a malfunctioning machine—that true business transformation occurs. One technical milestone lives in a proof-of-concept deck; the",
+      "source": "MIT Technology Review AI",
+      "author": "MIT Technology Review Insights",
+      "publishedAt": "2025-11-18T16:02:16.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "ai model"
+      ],
+      "url": "https://www.technologyreview.com/2025/11/18/1128007/realizing-value-with-ai-inference-at-scale-and-in-production/",
+      "readTime": 3,
+      "views": 22217
+    },
+    {
+      "id": "google-s-new-gemini-3-8220-vibe-codes-8221-respons",
+      "title": "Google’s new Gemini 3 &#8220;vibe-codes&#8221; responses and comes with its own agent",
+      "summary": "Google today unveiled Gemini 3, a major upgrade to its flagship multimodal model.  The firm says the new model is better at reasoning, has more fluid multimodal capabilities (the ability to work acros.",
+      "content": "Google today unveiled Gemini 3, a major upgrade to its flagship multimodal model. The firm says the new model is better at reasoning, has more fluid multimodal capabilities (the ability to work across voice, text or images), and will work like an agent.&#160; The previous model, Gemini 2.5, supports",
+      "source": "MIT Technology Review AI",
+      "author": "Caiwei Chen",
+      "publishedAt": "2025-11-18T16:00:07.000Z",
+      "category": "release",
+      "tags": [
+        "gemini",
+        "Google"
+      ],
+      "url": "https://www.technologyreview.com/2025/11/18/1128065/googles-gemini-3/",
+      "readTime": 3,
+      "views": 36465
+    },
+    {
+      "id": "google-launches-gemini-3-with-new-coding-app-and-r",
+      "title": "Google launches Gemini 3 with new coding app and record benchmark scores",
+      "summary": "Google released Gemini 3, its latest and most advanced foundation model, to be made immediately available through the Gemini app and AI search interface.",
+      "content": "Google released Gemini 3, its latest and most advanced foundation model, to be made immediately available through the Gemini app and AI search interface.",
+      "source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "publishedAt": "2025-11-18T16:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gemini",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2025/11/18/google-launches-gemini-3-with-new-coding-app-and-record-benchmark-scores/",
+      "readTime": 3,
+      "views": 37331
+    },
+    {
+      "id": "franklin-templeton-038-wand-ai-bring-agentic-ai-to",
+      "title": "Franklin Templeton &#038; Wand AI bring agentic AI to asset management",
+      "summary": "Firms in the asset management industry are turning increasingly to generative and agentic AI to streamline operations, improve decision-making, and uncover new sources of alpha (the measure of an inve.",
+      "content": "Firms in the asset management industry are turning increasingly to generative and agentic AI to streamline operations, improve decision-making, and uncover new sources of alpha (the measure of an investment strategy&#8217;s ability to outperform the market after accounting for risk). The trend is co",
+      "source": "AI News",
+      "author": "David Thomas",
+      "publishedAt": "2025-11-18T15:09:52.000Z",
+      "category": "funding",
+      "tags": [
+        "ai",
+        "ml"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/franklin-templeton-wand-ai-bring-agentic-ai-to-asset-management/",
+      "readTime": 3,
+      "views": 19554
+    },
+    {
+      "id": "stack-overflow-is-remaking-itself-into-an-ai-data-",
+      "title": "Stack Overflow is remaking itself into an AI data provider",
+      "summary": "Stack Overflow wants to remake its classic problem-solving forum into a tool for translating human expertise into an AI-accessible format.",
+      "content": "Stack Overflow wants to remake its classic problem-solving forum into a tool for translating human expertise into an AI-accessible format.",
+      "source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "publishedAt": "2025-11-18T14:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/11/18/stack-overflow-is-remaking-itself-into-an-ai-data-provider/",
+      "readTime": 3,
+      "views": 54979
+    },
+    {
+      "id": "intuit-signs-100m-deal-with-openai-to-bring-its-ap",
+      "title": "Intuit signs $100M+ deal with OpenAI to bring its apps to ChatGPT",
+      "summary": "Intuit said its tools, such as TurboTax, Credit Karma, QuickBooks, and Mailchimp, will be accessible through ChatGPT, allowing users to ask questions and complete tasks such as estimating tax refunds,.",
+      "content": "Intuit said its tools, such as TurboTax, Credit Karma, QuickBooks, and Mailchimp, will be accessible through ChatGPT, allowing users to ask questions and complete tasks such as estimating tax refunds, reviewing credit options, or managing business finances.",
+      "source": "TechCrunch AI",
+      "author": "Jagmeet Singh",
+      "publishedAt": "2025-11-18T13:00:00.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "gpt",
+        "openai",
+        "chatgpt",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2025/11/18/intuit-signs-100m-deal-with-openai-to-bring-its-apps-to-chatgpt/",
+      "readTime": 3,
+      "views": 19879
+    },
+    {
+      "id": "ai-web-search-risks-mitigating-business-data-accur",
+      "title": "AI web search risks: Mitigating business data accuracy threats",
+      "summary": "Over half of us now use AI to search the web, yet the stubbornly low data accuracy of common tools creates new business risks.  While generative AI (GenAI) offers undeniable efficiency gains, a new in.",
+      "content": "Over half of us now use AI to search the web, yet the stubbornly low data accuracy of common tools creates new business risks. While generative AI (GenAI) offers undeniable efficiency gains, a new investigation highlights a disparity between user trust and technical accuracy that poses specific risk",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2025-11-18T12:40:05.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai",
+        "generative ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/ai-web-search-risks-mitigating-business-data-accuracy-threats/",
+      "readTime": 3,
+      "views": 19710
+    },
+    {
       "id": "bain-038-company-issues-ai-guide-for-ceos-opens-si",
       "title": "Bain &#038; Company issues AI Guide for CEOs, opens Singapore hub",
       "summary": "A new Bain &#38; Company report says many organisations in Southeast Asia are still stuck in early product testing because they treat AI as a set of tools rather than a change in how the business work.",
@@ -14,7 +223,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/bain-company-issues-ai-guide-for-ceos-and-opens-singapore-hub/",
       "readTime": 3,
-      "views": 10502
+      "views": 15902
     },
     {
       "id": "databricks-reportedly-in-talks-to-raise-funding-at",
@@ -30,7 +239,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/18/databricks-reportedly-in-talks-to-raise-funding-at-a-130b-valuation/",
       "readTime": 3,
-      "views": 12296
+      "views": 51374
     },
     {
       "id": "sc25-showcases-the-next-phase-of-dell-and-nvidia-s",
@@ -46,13 +255,13 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/sc25-showcases-the-next-phase-of-dell-and-nvidia-ai-partnership/",
       "readTime": 3,
-      "views": 29904
+      "views": 16446
     },
     {
       "id": "as-consumers-ditch-google-for-chatgpt-peec-ai-rais",
       "title": "As consumers ditch Google for ChatGPT, Peec AI raises $21M to help brands adapt",
-      "summary": "With consumers increasingly asking questions to ChatGPT, not Google, product discovery is changing — and the promise to give brands visibility and control over this fast-growing search channel has mad.",
-      "content": "With consumers increasingly asking questions to ChatGPT, not Google, product discovery is changing — and the promise to give brands visibility and control over this fast-growing search channel has made Peec AI one of Europe's hottest startups.",
+      "summary": "With consumers increasingly directing questions to ChatGPT, not Google, product discovery is changing — and the promise to give brands visibility and control over this fast-growing search channel has .",
+      "content": "With consumers increasingly directing questions to ChatGPT, not Google, product discovery is changing — and the promise to give brands visibility and control over this fast-growing search channel has made Peec AI one of Europe's hottest startups.",
       "source": "TechCrunch AI",
       "author": "Anna Heim",
       "publishedAt": "2025-11-18T05:10:17.000Z",
@@ -65,7 +274,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/17/as-consumers-ditch-google-for-chatgpt-peec-ai-raises-21m-to-help-brands-adapt/",
       "readTime": 3,
-      "views": 34433
+      "views": 28458
     },
     {
       "id": "a16z-backed-super-pac-is-targeting-alex-bores-spon",
@@ -83,7 +292,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/17/a16z-backed-super-pac-is-targeting-alex-bores-sponsor-of-new-yorks-ai-safety-bill-he-says-bring-it-on/",
       "readTime": 3,
-      "views": 52085
+      "views": 35683
     },
     {
       "id": "google-rolls-out-its-ai-8216-flight-deals-8217-too",
@@ -100,7 +309,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/17/google-rolls-out-its-ai-flight-deals-tool-globally-adds-new-travel-features-in-search/",
       "readTime": 3,
-      "views": 35059
+      "views": 44053
     },
     {
       "id": "the-state-of-ai-how-war-will-be-changed-forever",
@@ -117,7 +326,7 @@
       ],
       "url": "https://www.technologyreview.com/2025/11/17/1127514/the-state-of-ai-the-new-rules-of-war/",
       "readTime": 3,
-      "views": 24372
+      "views": 20635
     },
     {
       "id": "local-ai-models-how-to-keep-control-of-the-bidstre",
@@ -134,228 +343,22 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/local-ai-models-how-to-keep-control-of-the-bidstream-without-losing-your-data/",
       "readTime": 3,
-      "views": 23346
-    },
-    {
-      "id": "how-levi-strauss-is-using-ai-for-its-dtc-first-bus",
-      "title": "How Levi Strauss is using AI for its DTC-first business model",
-      "summary": "In its pursuit of a direct-to-consumer (DTC) first business model, Levi Strauss is weaving AI and cloud platforms into its core operations.  The nearly 175-year-old apparel company is leveraging Micro.",
-      "content": "In its pursuit of a direct-to-consumer (DTC) first business model, Levi Strauss is weaving AI and cloud platforms into its core operations. The nearly 175-year-old apparel company is leveraging Microsoft technologies to modernise its consumer experiences and improve internal productivity. Levi Strau",
-      "source": "AI News",
-      "author": "Ryan Daws",
-      "publishedAt": "2025-11-17T15:34:20.000Z",
-      "category": "research",
-      "tags": [
-        "ai",
-        "Microsoft"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/how-levi-strauss-is-using-ai-for-dtc-first-business-model/",
-      "readTime": 3,
-      "views": 47904
-    },
-    {
-      "id": "quantitative-finance-experts-believe-graduates-ill",
-      "title": "Quantitative finance experts believe graduates ill-equipped for AI future",
-      "summary": "New insight from the CQF Institute, a worldwide network for quantitative finance professionals (quants), reveals that fewer than one in ten specialists believe new graduates possess the AI and machine.",
-      "content": "New insight from the CQF Institute, a worldwide network for quantitative finance professionals (quants), reveals that fewer than one in ten specialists believe new graduates possess the AI and machine learning skills necessary to succeed in the industry. This highlights a growing issue in quantitati",
-      "source": "AI News",
-      "author": "David Thomas",
-      "publishedAt": "2025-11-17T15:13:57.000Z",
-      "category": "market",
-      "tags": [
-        "ai",
-        "machine learning"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/quantitative-finance-experts-believe-graduates-ill-equipped-for-ai-future/",
-      "readTime": 3,
-      "views": 53038
-    },
-    {
-      "id": "powerlattice-attracts-investment-from-ex-intel-ceo",
-      "title": "PowerLattice attracts investment from ex-Intel CEO Pat Gelsinger for its power-saving chiplet",
-      "summary": "PowerLattice, a startup founded by veteran electrical engineers from Qualcomm, NUVIA, and Intel in 2023, claims to have developed a groundbreaking approach that reduces the power needs of computer chi.",
-      "content": "PowerLattice, a startup founded by veteran electrical engineers from Qualcomm, NUVIA, and Intel in 2023, claims to have developed a groundbreaking approach that reduces the power needs of computer chips by more than 50%.",
-      "source": "TechCrunch AI",
-      "author": "Marina Temkin",
-      "publishedAt": "2025-11-17T15:08:23.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/11/17/powerlattice-attracts-investment-from-ex-intel-ceo-pat-gelsinger-for-its-power-saving-chiplet/",
-      "readTime": 3,
-      "views": 36376
-    },
-    {
-      "id": "jeff-bezos-reportedly-returns-to-the-trenches-as-c",
-      "title": "Jeff Bezos reportedly returns to the trenches as co-CEO of new AI startup, Project Prometheus",
-      "summary": "Jeff Bezos is partly backing a new AI startup called Project Prometheus that has raised $6. 2 billion in funding, and will take on duties as co-chief executive.",
-      "content": "Jeff Bezos is partly backing a new AI startup called Project Prometheus that has raised $6.2 billion in funding, and will take on duties as co-chief executive.",
-      "source": "TechCrunch AI",
-      "author": "Ram Iyer",
-      "publishedAt": "2025-11-17T14:33:30.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/11/17/jeff-bezos-reportedly-returns-to-the-trenches-as-co-ceo-of-new-ai-startup-project-prometheus/",
-      "readTime": 3,
-      "views": 21316
-    },
-    {
-      "id": "luminal-raises-5-3-million-to-build-a-better-gpu-c",
-      "title": "Luminal raises $5.3 million to build a better GPU code framework",
-      "summary": "Inference optimization startup Luminal has announced $5. 3 million in a seed funding round led by Felicis Ventures, with angel investment from Paul Graham, Guillermo Rauch, and Ben Porterfield.",
-      "content": "Inference optimization startup Luminal has announced $5.3 million in a seed funding round led by Felicis Ventures, with angel investment from Paul Graham, Guillermo Rauch, and Ben Porterfield.",
-      "source": "TechCrunch AI",
-      "author": "Russell Brandom",
-      "publishedAt": "2025-11-17T14:03:33.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/11/17/luminal-raises-5-3-million-to-build-a-better-gpu-code-framework/",
-      "readTime": 3,
-      "views": 19281
-    },
-    {
-      "id": "mcp-ai-agent-security-startup-runlayer-launches-wi",
-      "title": "MCP AI agent security startup Runlayer launches with 8 unicorns, $11M from Khosla’s Keith Rabois and Felicis",
-      "summary": "Three-time founder Andrew Berman is back with a startup that helps IT ensure business users' AI agents operate securely.",
-      "content": "Three-time founder Andrew Berman is back with a startup that helps IT ensure business users' AI agents operate securely.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2025-11-17T14:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/11/17/mcp-ai-agent-security-startup-runlayer-launches-with-8-unicorns-11m-from-khoslas-keith-rabois-and-felicis/",
-      "readTime": 3,
-      "views": 42677
-    },
-    {
-      "id": "bone-ai-raises-12m-to-challenge-asia-s-defense-gia",
-      "title": "Bone AI raises $12M to challenge Asia’s defense giants with AI-powered robotics",
-      "summary": "Bone AI, a South Korean startup, is combining AI and manufacturing to build next-gen defense robotics and challenge the region’s industry giants.",
-      "content": "Bone AI, a South Korean startup, is combining AI and manufacturing to build next-gen defense robotics and challenge the region’s industry giants.",
-      "source": "TechCrunch AI",
-      "author": "Kate Park",
-      "publishedAt": "2025-11-17T13:00:00.000Z",
-      "category": "funding",
-      "tags": [
-        "ai",
-        "robotics"
-      ],
-      "url": "https://techcrunch.com/2025/11/17/bone-ai-raises-funding-to-challenge-asias-defense-giants-with-next-gen-ai-powered-robotics/",
-      "readTime": 3,
-      "views": 10719
-    },
-    {
-      "id": "alibaba-rolls-out-revamped-qwen-chatbot-as-model-p",
-      "title": "Alibaba rolls out revamped Qwen chatbot as model pricing drops",
-      "summary": "Alibaba is updating its artificial intelligence chatbot Qwen as it pushes to catch up with tools like OpenAI’s ChatGPT.  The revised app replaces the older Tongyi version and became available on both .",
-      "content": "Alibaba is updating its artificial intelligence chatbot Qwen as it pushes to catch up with tools like OpenAI’s ChatGPT. The revised app replaces the older Tongyi version and became available on both major app stores on Friday, last week. In its app-store descriptions, Alibaba calls Qwen the “most po",
-      "source": "AI News",
-      "author": "Muhammad Zulhusni",
-      "publishedAt": "2025-11-17T13:00:00.000Z",
-      "category": "market",
-      "tags": [
-        "artificial intelligence",
-        "ai",
-        "gpt",
-        "openai",
-        "chatgpt"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/alibaba-rolls-out-revamped-qwen-chatbot-as-model-pricing-drops/",
-      "readTime": 3,
-      "views": 50603
-    },
-    {
-      "id": "sakana-ai-raises-135m-series-b-at-a-2-65b-valuatio",
-      "title": "Sakana AI raises $135M Series B at a $2.65B valuation to continue building AI models for Japan",
-      "summary": "Sakana AI raised about $135M at a $2. 65B post-money valuation in one of Japan’s largest fundraises this year.",
-      "content": "Sakana AI raised about $135M at a $2.65B post-money valuation in one of Japan’s largest fundraises this year.",
-      "source": "TechCrunch AI",
-      "author": "Kate Park",
-      "publishedAt": "2025-11-17T11:52:07.000Z",
-      "category": "funding",
-      "tags": [
-        "ai",
-        "ai model"
-      ],
-      "url": "https://techcrunch.com/2025/11/17/sakana-ai-raises-135m-series-b-at-a-2-65b-valuation-to-continue-building-ai-models-for-japan/",
-      "readTime": 3,
-      "views": 12640
-    },
-    {
-      "id": "ton-ecosystem-partners-to-help-telegram-8217-s-dec",
-      "title": "Ton Ecosystem partners to help Telegram&#8217;s decentralised AI network unseat OpenAI",
-      "summary": "Telegram&#8217;s Cocoon AI network is getting ready for prime time with a massive deployment of graphics processing units courtesy of one of the Ton blockchain ecosystem&#8217;s leading investors, Alp.",
-      "content": "Telegram&#8217;s Cocoon AI network is getting ready for prime time with a massive deployment of graphics processing units courtesy of one of the Ton blockchain ecosystem&#8217;s leading investors, AlphaTON Capital. AlphaTON is working with SingularityNET, CUDO Compute and Vertical Data to deploy a h",
-      "source": "AI News",
-      "author": "AI News",
-      "publishedAt": "2025-11-17T09:11:31.000Z",
-      "category": "market",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/ton-ecosystem-partners-to-help-telegrams-decentralised-ai-network-unseat-openai/",
-      "readTime": 3,
-      "views": 43334
-    },
-    {
-      "id": "how-much-of-the-ai-data-center-boom-will-be-powere",
-      "title": "How much of the AI data center boom will be powered by renewable energy?",
-      "summary": "According to a new report from the International Energy Agency, the world will spend $580 billion on data centers this year — $40 billion more than will be spent finding new oil supplies.",
-      "content": "According to a new report from the International Energy Agency, the world will spend $580 billion on data centers this year — $40 billion more than will be spent finding new oil supplies.",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2025-11-16T16:48:42.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/11/16/how-much-of-the-ai-data-center-boom-will-be-powered-by-renewable-energy/",
-      "readTime": 3,
-      "views": 18332
-    },
-    {
-      "id": "leaked-documents-shed-light-into-how-much-openai-p",
-      "title": "Leaked documents shed light into how much OpenAI pays Microsoft",
-      "summary": "Leaked documents reveal how much OpenAI paid Microsoft under a revenue-share agreement.  They also indicate inference costs.",
-      "content": "Leaked documents reveal how much OpenAI paid Microsoft under a revenue-share agreement. They also indicate inference costs.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2025-11-15T00:47:41.000Z",
-      "category": "market",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI",
-        "Microsoft"
-      ],
-      "url": "https://techcrunch.com/2025/11/14/leaked-documents-shed-light-into-how-much-openai-pays-microsoft/",
-      "readTime": 3,
-      "views": 23754
+      "views": 41577
     }
   ],
-  "lastUpdated": "2025-11-18T12:40:07.040Z",
+  "lastUpdated": "2025-11-19T01:25:37.498Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "AI News",
     "TechCrunch AI",
+    "AI News",
     "MIT Technology Review AI"
   ],
   "categories": [
-    "market",
-    "funding",
     "release",
+    "funding",
+    "market",
     "regulation",
-    "partnership",
-    "research"
+    "partnership"
   ]
 }
