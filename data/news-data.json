@@ -1,10 +1,261 @@
 {
   "articles": [
     {
+      "id": "grok-says-elon-musk-is-better-than-basically-every",
+      "title": "Grok says Elon Musk is better than basically everyone, except Shohei Ohtani",
+      "summary": "According to Grok, Elon Musk can out-slug the MLB's greatest power hitters.",
+      "content": "According to Grok, Elon Musk can out-slug the MLB's greatest power hitters... except Ohtani.",
+      "source": "TechCrunch AI",
+      "author": "Amanda Silberling",
+      "publishedAt": "2025-11-20T23:44:19.000Z",
+      "category": "release",
+      "tags": [
+        "ml"
+      ],
+      "url": "https://techcrunch.com/2025/11/20/grok-says-elon-musk-is-better-than-basically-everyone-except-shohei-ohtani/",
+      "readTime": 3,
+      "views": 14350
+    },
+    {
+      "id": "google-steps-up-ai-scam-protection-in-india-but-ga",
+      "title": "Google steps up AI scam protection in India, but gaps remain",
+      "summary": "Google is expanding its real-time scam-detection and screen-sharing fraud warnings in India.",
+      "content": "Google is expanding its real-time scam-detection and screen-sharing fraud warnings in India.",
+      "source": "TechCrunch AI",
+      "author": "Jagmeet Singh",
+      "publishedAt": "2025-11-20T22:28:52.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2025/11/20/google-steps-up-ai-scam-protection-in-india-but-gaps-remain/",
+      "readTime": 3,
+      "views": 16870
+    },
+    {
+      "id": "chatgpt-launches-group-chats-globally",
+      "title": "ChatGPT launches group chats globally",
+      "summary": "The company sees group chats in ChatGPT as a way for people to coordinate trips, co-write documents, settle debates, or work through research together, while ChatGPT helps search, summarize, and compa.",
+      "content": "The company sees group chats in ChatGPT as a way for people to coordinate trips, co-write documents, settle debates, or work through research together, while ChatGPT helps search, summarize, and compare options.",
+      "source": "TechCrunch AI",
+      "author": "Aisha Malik",
+      "publishedAt": "2025-11-20T19:07:34.000Z",
+      "category": "release",
+      "tags": [
+        "gpt",
+        "chatgpt"
+      ],
+      "url": "https://techcrunch.com/2025/11/20/chatgpt-launches-group-chats-globally/",
+      "readTime": 3,
+      "views": 29085
+    },
+    {
+      "id": "mixup-is-a-new-mad-libs-style-app-for-creating-ai-",
+      "title": "Mixup is a new, Mad Libs-style app for creating AI images from photos, text, and doodles",
+      "summary": "The new app lets anyone use Google's Nano Banana in a fun new way, with fill-in-the-blank AI \"recipes\" that users can share.",
+      "content": "The new app lets anyone use Google's Nano Banana in a fun new way, with fill-in-the-blank AI \"recipes\" that users can share.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2025-11-20T18:49:27.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2025/11/20/mixup-is-a-new-mad-libs-style-app-for-creating-ai-images-from-photos-text-and-doodles/",
+      "readTime": 3,
+      "views": 52560
+    },
+    {
+      "id": "how-the-royal-navy-is-using-ai-to-cut-its-recruitm",
+      "title": "How the Royal Navy is using AI to cut its recruitment workload",
+      "summary": "The Royal Navy is handing the first line of its recruitment operations to a real-time AI avatar called Atlas.  Atlas is powered by a large language model and has been deployed to field questions from .",
+      "content": "The Royal Navy is handing the first line of its recruitment operations to a real-time AI avatar called Atlas. Atlas is powered by a large language model and has been deployed to field questions from prospective submariners. The deployment shows how AI can support a shift from slow text-based triage ",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2025-11-20T17:41:37.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "language model"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/how-the-royal-navy-is-using-ai-to-cut-recruitment-workload/",
+      "readTime": 3,
+      "views": 45109
+    },
+    {
+      "id": "gemini-3-refused-to-believe-it-was-2025-and-hilari",
+      "title": "Gemini 3 refused to believe it was 2025, and hilarity ensued",
+      "summary": "Famed AI researcher Andrej Karpathy got early access to Google’s latest AI model and stumbled onto its \"model smell.",
+      "content": "Famed AI researcher Andrej Karpathy got early access to Google’s latest AI model and stumbled onto its \"model smell.\"",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2025-11-20T17:38:21.000Z",
+      "category": "research",
+      "tags": [
+        "ai",
+        "gemini",
+        "ai model",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2025/11/20/gemini-3-refused-to-believe-it-was-2025-and-hilarity-ensued/",
+      "readTime": 3,
+      "views": 39408
+    },
+    {
+      "id": "gemini-starts-rolling-out-to-android-auto-globally",
+      "title": "Gemini starts rolling out to Android Auto globally",
+      "summary": "Gemini will replace Google Assistant and give drivers the ability to make playlists, access email, and learn about a city — all through voice.",
+      "content": "Gemini will replace Google Assistant and give drivers the ability to make playlists, access email, and learn about a city — all through voice.",
+      "source": "TechCrunch AI",
+      "author": "Aisha Malik",
+      "publishedAt": "2025-11-20T17:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gemini",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2025/11/20/gemini-starts-rolling-out-to-android-auto-globally/",
+      "readTime": 3,
+      "views": 27596
+    },
+    {
+      "id": "the-best-guide-to-spotting-ai-writing-comes-from-w",
+      "title": "The best guide to spotting AI writing comes from Wikipedia",
+      "summary": "Wikipedia's guide to “Signs of AI writing” is a great resource for learning to spot LLM-generated prose.",
+      "content": "Wikipedia's guide to “Signs of AI writing” is a great resource for learning to spot LLM-generated prose.",
+      "source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "publishedAt": "2025-11-20T16:32:55.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "llm"
+      ],
+      "url": "https://techcrunch.com/2025/11/20/the-best-guide-to-spotting-ai-writing-comes-from-wikipedia/",
+      "readTime": 3,
+      "views": 8883
+    },
+    {
+      "id": "india-8217-s-tcs-gets-tpg-to-fund-half-of-2b-ai-da",
+      "title": "India&#8217;s TCS gets TPG to fund half of $2B AI data center project",
+      "summary": "TCS and private equity firm TPG will invest up to $2 billion to build data centers for AI training and inference in India.",
+      "content": "TCS and private equity firm TPG will invest up to $2 billion to build data centers for AI training and inference in India.",
+      "source": "TechCrunch AI",
+      "author": "Jagmeet Singh",
+      "publishedAt": "2025-11-20T15:34:45.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/11/20/indias-tcs-gets-tpg-to-fund-half-of-2b-ai-data-center-project/",
+      "readTime": 3,
+      "views": 13026
+    },
+    {
+      "id": "as-its-voice-dictation-app-takes-off-wispr-secures",
+      "title": "As its voice dictation app takes off, Wispr secures $25M from Notable Capital",
+      "summary": "Voice AI company Wispr is raising $25 million in funding merely months after its $30 million Series A.",
+      "content": "Voice AI company Wispr is raising $25 million in funding merely months after its $30 million Series A.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2025-11-20T15:00:00.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/11/20/as-its-voice-dectation-app-takes-off-wispr-secures-25m-from-notable-capital/",
+      "readTime": 3,
+      "views": 26525
+    },
+    {
+      "id": "designing-digital-resilience-in-the-agentic-ai-era",
+      "title": "Designing digital resilience in the agentic AI era",
+      "summary": "Digital resilience—the ability to prevent, withstand, and recover from digital disruptions—has long been a strategic priority for enterprises.  With the rise of agentic AI, the urgency for robust resi.",
+      "content": "Digital resilience—the ability to prevent, withstand, and recover from digital disruptions—has long been a strategic priority for enterprises. With the rise of agentic AI, the urgency for robust resilience is greater than ever. Agentic AI represents a new generation of autonomous systems capable of ",
+      "source": "MIT Technology Review AI",
+      "author": "MIT Technology Review Insights",
+      "publishedAt": "2025-11-20T14:30:00.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2025/11/20/1127941/designing-digital-resilience-in-the-agentic-ai-era/",
+      "readTime": 3,
+      "views": 51405
+    },
+    {
+      "id": "how-to-choose-the-best-thermal-binoculars-for-long",
+      "title": "How to choose the best thermal binoculars for long-range detection in 2026",
+      "summary": "Choosing the right thermal binoculars is essential for security professionals and outdoor specialists who need reliable long-range detection.  Many users who previously relied on the market&#8217;s be.",
+      "content": "Choosing the right thermal binoculars is essential for security professionals and outdoor specialists who need reliable long-range detection. Many users who previously relied on the market&#8217;s best night vision binoculars now seek advanced thermal imaging for superior clarity, extended range, an",
+      "source": "AI News",
+      "author": "Bazoom",
+      "publishedAt": "2025-11-20T14:09:08.000Z",
+      "category": "market",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/how-to-choose-the-best-thermal-binoculars-for-long-range-detection-in-2026/",
+      "readTime": 3,
+      "views": 30322
+    },
+    {
+      "id": "sortera-is-turning-america-s-scrap-aluminum-proble",
+      "title": "Sortera is turning America’s scrap aluminum problem into cash",
+      "summary": "Sortera has developed an AI-guided system to sort scrap aluminum by specific grades.  The startup is building a second sorting facility in Tennessee.",
+      "content": "Sortera has developed an AI-guided system to sort scrap aluminum by specific grades. The startup is building a second sorting facility in Tennessee.",
+      "source": "TechCrunch AI",
+      "author": "Tim De Chant",
+      "publishedAt": "2025-11-20T13:20:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/11/20/sortera-is-turning-americas-scrap-aluminum-problem-into-cash/",
+      "readTime": 3,
+      "views": 36518
+    },
+    {
+      "id": "pure-storage-and-azure-s-role-in-ai-ready-data-for",
+      "title": "Pure Storage and Azure’s role in AI-ready data for enterprises",
+      "summary": "Many organisations are trying to update their infrastructure to improve efficiency and manage rising costs.  But the path is rarely simple.",
+      "content": "Many organisations are trying to update their infrastructure to improve efficiency and manage rising costs. But the path is rarely simple. Hybrid setups, legacy systems, and new demands from AI in the enterprise often create trade-offs for IT teams. Recent moves by Microsoft and several storage and ",
+      "source": "AI News",
+      "author": "Muhammad Zulhusni",
+      "publishedAt": "2025-11-20T13:11:00.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "Microsoft"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/pure-storage-and-azures-role-in-ai-ready-data-for-enterprise/",
+      "readTime": 3,
+      "views": 38297
+    },
+    {
+      "id": "finland-8217-s-nestai-lands-100m-partners-with-nok",
+      "title": "Finland&#8217;s NestAI lands €100M, partners with Nokia to build AI for defense applications",
+      "summary": "Finnish startup NestAI NestAI has struck a partnership with Nokia to build AI products for defense applications and develop \"physical AI,\" which involves using large language models and related techno.",
+      "content": "Finnish startup NestAI NestAI has struck a partnership with Nokia to build AI products for defense applications and develop \"physical AI,\" which involves using large language models and related technology for robotics and other real-world applications.",
+      "source": "TechCrunch AI",
+      "author": "Anna Heim",
+      "publishedAt": "2025-11-20T13:04:11.000Z",
+      "category": "partnership",
+      "tags": [
+        "ai",
+        "language model",
+        "robotics"
+      ],
+      "url": "https://techcrunch.com/2025/11/20/finlands-nestai-lands-e100m-partners-with-nokia-to-build-ai-for-defense-applications/",
+      "readTime": 3,
+      "views": 26529
+    },
+    {
       "id": "lightweight-llm-powers-japanese-enterprise-ai-depl",
       "title": "Lightweight LLM powers Japanese enterprise AI deployments",
-      "summary": "Enterprise AI deployment has been facing a fundamental tension: organisations need sophisticated language models but baulk at the infrastructure costs and energy consumption of frontier systems. &#821.",
-      "content": "Enterprise AI deployment has been facing a fundamental tension: organisations need sophisticated language models but baulk at the infrastructure costs and energy consumption of frontier systems.&#160; NTT Inc.&#8217;s recent&#160;launch&#160;of tsuzumi 2, a lightweight large language model (LLM) run",
+      "summary": "Enterprise AI deployment faces a fundamental tension: organisations need sophisticated language models but baulk at the infrastructure costs and energy consumption of frontier systems.  NTT&#8217;s re.",
+      "content": "Enterprise AI deployment faces a fundamental tension: organisations need sophisticated language models but baulk at the infrastructure costs and energy consumption of frontier systems. NTT&#8217;s recent launch of tsuzumi 2, a lightweight large language model (LLM) running on a single GPU, demonstra",
       "source": "AI News",
       "author": "Dashveenjit Kaur",
       "publishedAt": "2025-11-20T12:00:00.000Z",
@@ -16,7 +267,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/lightweight-llm-enterprise-deployment-single-gpu/",
       "readTime": 3,
-      "views": 11740
+      "views": 21122
     },
     {
       "id": "nvidia-8217-s-record-57b-revenue-and-upbeat-foreca",
@@ -32,7 +283,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/19/nvidias-record-57b-revenue-and-upbeat-forecast-quiets-ai-bubble-talk/",
       "readTime": 3,
-      "views": 6570
+      "views": 52595
     },
     {
       "id": "vc-jennifer-neundorfer-explains-how-founders-can-s",
@@ -48,7 +299,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/19/vc-jennifer-neundorfer-explains-how-founders-can-stand-out-in-a-crowded-ai-market/",
       "readTime": 3,
-      "views": 7536
+      "views": 5341
     },
     {
       "id": "function-health-raises-298m-series-b-at-2-5b-valua",
@@ -64,7 +315,7 @@
       ],
       "url": "https://techcrunch.com/2025/11/19/function-health-closes-298m-series-b-at-a-2-5b-valuation-launches-medical-intelligence/",
       "readTime": 3,
-      "views": 19612
+      "views": 44612
     },
     {
       "id": "warner-music-settles-copyright-lawsuit-with-udio-s",
@@ -80,273 +331,23 @@
       ],
       "url": "https://techcrunch.com/2025/11/19/warner-music-settles-copyright-lawsuit-with-udio-signs-deal-for-ai-music-platform/",
       "readTime": 3,
-      "views": 22723
-    },
-    {
-      "id": "why-january-ventures-is-funding-underrepresented-a",
-      "title": "Why January Ventures is funding underrepresented AI founders",
-      "summary": "While everyone&#8217;s chasing the next AI infrastructure play in San Francisco, some of the most defensible AI companies are being built by founders with deep expertise in legacy industries — and the.",
-      "content": "While everyone&#8217;s chasing the next AI infrastructure play in San Francisco, some of the most defensible AI companies are being built by founders with deep expertise in legacy industries — and they&#8217;re not getting funded. January Ventures aims to fill that gap, writing pre-seed checks for u",
-      "source": "TechCrunch AI",
-      "author": "Morgan Little, Maggie Nye",
-      "publishedAt": "2025-11-19T18:15:45.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/video/why-january-ventures-is-funding-underrepresented-ai-founders/",
-      "readTime": 3,
-      "views": 41892
-    },
-    {
-      "id": "amazon-8217-s-prime-video-is-getting-ai-generated-",
-      "title": "Amazon&#8217;s Prime Video is getting AI-generated Video Recaps for some TV shows",
-      "summary": "According to Amazon, the feature \"utilizes generative AI to create theatrical-quality season recaps with synchronized narration, dialogue, and music.",
-      "content": "According to Amazon, the feature \"utilizes generative AI to create theatrical-quality season recaps with synchronized narration, dialogue, and music.\"",
-      "source": "TechCrunch AI",
-      "author": "Amanda Silberling",
-      "publishedAt": "2025-11-19T17:30:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "generative ai"
-      ],
-      "url": "https://techcrunch.com/2025/11/19/amazons-prime-video-is-getting-ai-generated-video-recaps-for-some-tv-shows/",
-      "readTime": 3,
-      "views": 6683
-    },
-    {
-      "id": "yc-backed-poly-relaunches-as-a-cloud-hosted-file-s",
-      "title": "YC-backed Poly relaunches as a cloud-hosted file storage with AI search",
-      "summary": "Poly's cloud-based file storage system with AI-powered search lets you search through text, images, audio, and video.",
-      "content": "Poly's cloud-based file storage system with AI-powered search lets you search through text, images, audio, and video.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2025-11-19T17:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/11/19/yc-backed-poly-relaunches-as-a-cloud-hosted-file-storage-with-ai-search/",
-      "readTime": 3,
-      "views": 41146
-    },
-    {
-      "id": "scaling-innovation-in-manufacturing-with-ai",
-      "title": "Scaling innovation in manufacturing with AI",
-      "summary": "Manufacturing is getting a major system upgrade.  As AI amplifies existing technologies—like digital twins, the cloud, edge computing, and the industrial internet of things (IIoT)—it is enabling facto.",
-      "content": "Manufacturing is getting a major system upgrade. As AI amplifies existing technologies—like digital twins, the cloud, edge computing, and the industrial internet of things (IIoT)—it is enabling factory operations teams to shift from reactive, isolated problem-solving to proactive, systemwide optimiz",
-      "source": "MIT Technology Review AI",
-      "author": "MIT Technology Review Insights",
-      "publishedAt": "2025-11-19T16:54:55.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2025/11/19/1128067/scaling-innovation-in-manufacturing-with-ai/",
-      "readTime": 3,
-      "views": 42360
-    },
-    {
-      "id": "adobe-to-buy-semrush-for-1-9-billion",
-      "title": "Adobe to buy Semrush for $1.9 billion",
-      "summary": "Adobe said it would offer $12 per share for Semrush, almost double the latter's closing price of $6. 89 on Tuesday, before news of the deal.",
-      "content": "Adobe said it would offer $12 per share for Semrush, almost double the latter's closing price of $6.89 on Tuesday, before news of the deal.",
-      "source": "TechCrunch AI",
-      "author": "Ram Iyer",
-      "publishedAt": "2025-11-19T15:42:15.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/11/19/adobe-to-buy-semrush-for-1-9-billion/",
-      "readTime": 3,
-      "views": 32004
-    },
-    {
-      "id": "target-joins-openai-s-growing-list-of-retail-apps",
-      "title": "Target joins OpenAI’s growing list of retail apps",
-      "summary": "OpenAI is pushing deeper into retail, with Target set to debut a new ChatGPT-powered app for shoppers.  The app is launching in beta next week.",
-      "content": "OpenAI is pushing deeper into retail, with Target set to debut a new ChatGPT-powered app for shoppers. The app is launching in beta next week.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2025-11-19T14:36:12.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gpt",
-        "openai",
-        "chatgpt",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2025/11/19/target-joins-openais-growing-list-of-retail-apps/",
-      "readTime": 3,
-      "views": 32819
-    },
-    {
-      "id": "openai-board-member-larry-summers-steps-down-amid-",
-      "title": "OpenAI board member Larry Summers steps down amid Epstein file revelations",
-      "summary": "Former Treasury Secretary Larry Summers has resigned from OpenAI’s board days after Congress released documents showing he was close friends with convicted sex offender Jeffrey Epstein.",
-      "content": "Former Treasury Secretary Larry Summers has resigned from OpenAI’s board days after Congress released documents showing he was close friends with convicted sex offender Jeffrey Epstein.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2025-11-19T14:33:54.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2025/11/19/openai-board-member-larry-summers-steps-down-amid-epstein-file-revelations/",
-      "readTime": 3,
-      "views": 5886
-    },
-    {
-      "id": "what-europe-8217-s-ai-education-experiments-can-te",
-      "title": "What Europe&#8217;s AI education experiments can teach a business",
-      "summary": "We’re all chasing talent.  It’s become as crucial to success as building amazing products, and a lot of businesses are feeling the squeeze.",
-      "content": "We’re all chasing talent. It’s become as crucial to success as building amazing products, and a lot of businesses are feeling the squeeze. The problem is that demand for people with AI skills is skyrocketing, but the supply isn’t keeping up. The OECD points this out – lots of us need AI expertise, b",
-      "source": "AI News",
-      "author": "AI News",
-      "publishedAt": "2025-11-19T12:30:36.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/ai-education-the-european-experience/",
-      "readTime": 3,
-      "views": 6973
-    },
-    {
-      "id": "as-lovable-hits-200m-arr-its-ceo-credits-staying-i",
-      "title": "As Lovable hits $200M ARR, its CEO credits staying in Europe for its success",
-      "summary": "Lovable CEO Anton Osika said he credits ignoring advice to move to Silicon Valley for the AI coding company's success.",
-      "content": "Lovable CEO Anton Osika said he credits ignoring advice to move to Silicon Valley for the AI coding company's success.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Szkutak",
-      "publishedAt": "2025-11-19T12:09:50.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/11/19/as-lovable-hits-200m-arr-its-ceo-credits-staying-in-europe-for-its-success/",
-      "readTime": 3,
-      "views": 16756
-    },
-    {
-      "id": "quantum-physicists-have-shrunk-and-de-censored-dee",
-      "title": "Quantum physicists have shrunk and “de-censored” DeepSeek R1",
-      "summary": "A group of quantum physicists claims to have created a version of the powerful reasoning AI model DeepSeek R1 that strips out the censorship built into the original by its Chinese creators. &#160; The.",
-      "content": "A group of quantum physicists claims to have created a version of the powerful reasoning AI model DeepSeek R1 that strips out the censorship built into the original by its Chinese creators.&#160; The scientists at Multiverse Computing, a Spanish firm specializing in quantum-inspired AI techniques, c",
-      "source": "MIT Technology Review AI",
-      "author": "Caiwei Chen",
-      "publishedAt": "2025-11-19T10:00:00.000Z",
-      "category": "research",
-      "tags": [
-        "ai",
-        "ai model"
-      ],
-      "url": "https://www.technologyreview.com/2025/11/19/1128119/quantum-physicists-compress-and-deconsor-deepseekr1/",
-      "readTime": 3,
-      "views": 12273
-    },
-    {
-      "id": "gartner-data-038-analytics-summit-unveils-expanded",
-      "title": "Gartner Data &#038; Analytics Summit unveils expanded AI agenda for 2026",
-      "summary": "By 2027, half of all business decisions will be augmented or automated by AI agents for decision intelligence.  This seismic shift is changing how organisations operate, and AI leaders are under press.",
-      "content": "By 2027, half of all business decisions will be augmented or automated by AI agents for decision intelligence. This seismic shift is changing how organisations operate, and AI leaders are under pressure to adapt, innovate, and guide their teams through complexity. Gartner Data &#38; Analytics Summit",
-      "source": "AI News",
-      "author": "Sarah Hoxsie",
-      "publishedAt": "2025-11-19T09:18:21.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/gartner-data-analytics-summit-unveils-expanded-ai-agenda-for-2026/",
-      "readTime": 3,
-      "views": 43726
-    },
-    {
-      "id": "tiktok-will-let-you-choose-how-much-ai-generated-c",
-      "title": "TikTok will let you choose how much AI-generated content you want to see",
-      "summary": "With the new AI-generated content control, users who want to see less of this sort of content can dial things down, while those who enjoy it can choose to see more of it.",
-      "content": "With the new AI-generated content control, users who want to see less of this sort of content can dial things down, while those who enjoy it can choose to see more of it.",
-      "source": "TechCrunch AI",
-      "author": "Aisha Malik",
-      "publishedAt": "2025-11-19T05:01:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/11/18/tiktok-now-lets-you-choose-how-much-ai-generated-content-you-want-to-see/",
-      "readTime": 3,
-      "views": 17282
-    },
-    {
-      "id": "hugging-face-ceo-says-we-8217-re-in-an-8216-llm-bu",
-      "title": "Hugging Face CEO says we&#8217;re in an &#8216;LLM bubble,&#8217; not an AI bubble",
-      "summary": "Hugging Face co-founder and CEO Clem Delangue says all the attention is on LLMs, but smaller, specialized models will make sense in many use cases going forward.",
-      "content": "Hugging Face co-founder and CEO Clem Delangue says all the attention is on LLMs, but smaller, specialized models will make sense in many use cases going forward.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2025-11-18T21:42:48.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "llm"
-      ],
-      "url": "https://techcrunch.com/2025/11/18/hugging-face-ceo-says-were-in-an-llm-bubble-not-an-ai-bubble/",
-      "readTime": 3,
-      "views": 42528
-    },
-    {
-      "id": "ai-data-center-provider-lambda-raises-whopping-1-5",
-      "title": "AI data center provider Lambda raises whopping $1.5B after multibillion-dollar Microsoft deal",
-      "summary": "Lambda's new raise was a solid beat over the amount that deal-watchers say it was hoping to hit.",
-      "content": "Lambda's new raise was a solid beat over the amount that deal-watchers say it was hoping to hit.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2025-11-18T19:37:25.000Z",
-      "category": "funding",
-      "tags": [
-        "ai",
-        "Microsoft"
-      ],
-      "url": "https://techcrunch.com/2025/11/18/ai-data-center-provider-lambda-raises-whopping-1-5b-after-multibillion-dollar-microsoft-deal/",
-      "readTime": 3,
-      "views": 42298
-    },
-    {
-      "id": "poe-8217-s-ai-app-now-supports-group-chats-across-",
-      "title": "Poe&#8217;s AI app now supports group chats across AI models",
-      "summary": "Quora's AI platform Poe now lets users engage in group chats with up to 200 people across AI models and bots.",
-      "content": "Quora's AI platform Poe now lets users engage in group chats with up to 200 people across AI models and bots.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2025-11-18T17:04:03.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "ai model"
-      ],
-      "url": "https://techcrunch.com/2025/11/18/poes-ai-app-now-supports-group-chats-across-ai-models/",
-      "readTime": 3,
-      "views": 21740
+      "views": 20156
     }
   ],
-  "lastUpdated": "2025-11-20T12:39:12.198Z",
+  "lastUpdated": "2025-11-21T01:25:02.248Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "AI News",
     "TechCrunch AI",
+    "AI News",
     "MIT Technology Review AI"
   ],
   "categories": [
     "release",
     "market",
+    "research",
     "funding",
-    "regulation",
-    "research"
+    "partnership",
+    "regulation"
   ]
 }
