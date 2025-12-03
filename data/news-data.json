@@ -1,6 +1,57 @@
 {
   "articles": [
     {
+      "id": "ey-and-nvidia-to-help-companies-test-and-deploy-ph",
+      "title": "EY and NVIDIA to help companies test and deploy physical AI",
+      "summary": "AI is moving deeper into the physical world, and EY is laying out a more structured way for companies to work with robots, drones, and other smart devices.  The organisation is introducing a physical .",
+      "content": "AI is moving deeper into the physical world, and EY is laying out a more structured way for companies to work with robots, drones, and other smart devices. The organisation is introducing a physical AI platform built with NVIDIA tools, opening a new EY.ai Lab in Georgia, and adding new leadership to",
+      "source": "AI News",
+      "author": "Muhammad Zulhusni",
+      "publishedAt": "2025-12-03T12:05:00.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/ey-and-nvidia-to-help-companies-test-and-deploy-physical-ai/",
+      "readTime": 3,
+      "views": 27415
+    },
+    {
+      "id": "anthropic-just-revealed-how-ai-orchestrated-cybera",
+      "title": "Anthropic just revealed how AI-orchestrated cyberattacks actually work—Here&#8217;s what enterprises need to know",
+      "summary": "For years, cybersecurity experts debated when – not if – artificial intelligence would cross the threshold from advisor to autonomous attacker.  That theoretical milestone has arrived.",
+      "content": "For years, cybersecurity experts debated when – not if – artificial intelligence would cross the threshold from advisor to autonomous attacker. That theoretical milestone has arrived. Anthropic&#8217;s recent investigation into a Chinese state-sponsored operation has documented [PDF] the first case ",
+      "source": "AI News",
+      "author": "Dashveenjit Kaur",
+      "publishedAt": "2025-12-03T10:00:00.000Z",
+      "category": "market",
+      "tags": [
+        "artificial intelligence",
+        "ai",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/ai-orchestrated-cyberattacks-anthropic-discovery/",
+      "readTime": 3,
+      "views": 35612
+    },
+    {
+      "id": "can-china-8217-s-chip-stacking-strategy-really-cha",
+      "title": "Can China&#8217;s chip stacking strategy really challenge Nvidia&#8217;s AI dominance?",
+      "summary": "Chip stacking strategy is emerging as China&#8217;s innovative response to US semiconductor restrictions, but can this approach truly close the performance gap with Nvidia&#8217;s advanced GPUs.  As W.",
+      "content": "Chip stacking strategy is emerging as China&#8217;s innovative response to US semiconductor restrictions, but can this approach truly close the performance gap with Nvidia&#8217;s advanced GPUs? As Washington tightens export controls on cutting-edge chipmaking technology, Chinese researchers are pro",
+      "source": "AI News",
+      "author": "Dashveenjit Kaur",
+      "publishedAt": "2025-12-03T09:00:00.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/china-chip-stacking-strategy-nvidia/",
+      "readTime": 3,
+      "views": 18304
+    },
+    {
       "id": "all-the-biggest-news-from-aws-8217-big-tech-show-r",
       "title": "All the biggest news from AWS&#8217; big tech show re:Invent 2025",
       "summary": "Amazon Web Services giant tech conference is happening this week with news ranging from chips to AI services.",
@@ -14,7 +65,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/02/all-the-biggest-news-from-aws-big-tech-show-reinvent-2025/",
       "readTime": 3,
-      "views": 49924
+      "views": 13382
     },
     {
       "id": "amazon-challenges-competitors-with-on-premises-nvi",
@@ -30,7 +81,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/02/amazon-challenges-competitors-with-on-premises-nvidia-ai-factories/",
       "readTime": 3,
-      "views": 25748
+      "views": 51048
     },
     {
       "id": "google-tests-merging-ai-overviews-with-ai-mode",
@@ -47,7 +98,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/02/google-tests-merging-ai-overviews-with-ai-mode/",
       "readTime": 3,
-      "views": 36866
+      "views": 36101
     },
     {
       "id": "amazon-previews-3-ai-agents-including-8216-kiro-82",
@@ -63,7 +114,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/02/amazon-previews-3-ai-agents-including-kiro-that-can-code-on-its-own-for-days/",
       "readTime": 3,
-      "views": 28190
+      "views": 47590
     },
     {
       "id": "android-16-adds-ai-notification-summaries-new-cust",
@@ -79,7 +130,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/02/android-16-adds-ai-notification-summaries-new-customization-options-and-more/",
       "readTime": 3,
-      "views": 37061
+      "views": 36720
     },
     {
       "id": "chatgpt-referrals-to-retailers-8217-apps-increased",
@@ -97,7 +148,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/02/chatgpt-referrals-to-retailers-apps-increased-28-year-over-year-says-report/",
       "readTime": 3,
-      "views": 37463
+      "views": 7076
     },
     {
       "id": "aws-launches-new-nova-ai-models-and-a-service-that",
@@ -114,7 +165,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/02/aws-launches-new-nova-ai-models-and-a-service-that-gives-customers-more-control/",
       "readTime": 3,
-      "views": 22151
+      "views": 21125
     },
     {
       "id": "openai-slammed-for-app-suggestions-that-looked-lik",
@@ -132,7 +183,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/02/openai-slammed-for-app-suggestions-that-looked-like-ads/",
       "readTime": 3,
-      "views": 17982
+      "views": 19765
     },
     {
       "id": "frontier-ai-research-lab-tackles-enterprise-deploy",
@@ -148,7 +199,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/frontier-ai-research-lab-tackles-enterprise-deployment-challenges/",
       "readTime": 3,
-      "views": 12718
+      "views": 51951
     },
     {
       "id": "amazon-releases-an-impressive-new-ai-chip-and-teas",
@@ -164,7 +215,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/02/amazon-releases-an-impressive-new-ai-chip-and-teases-a-nvidia-friendly-roadmap/",
       "readTime": 3,
-      "views": 17951
+      "views": 35344
     },
     {
       "id": "simular-8217-s-ai-agent-wants-to-run-your-mac-wind",
@@ -180,7 +231,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/02/simular-releases-mac-os-ai-agent-raises-21-5m-from-felicis-with-windows-coming-soon/",
       "readTime": 3,
-      "views": 31434
+      "views": 36865
     },
     {
       "id": "aws-announces-new-capabilities-for-its-ai-agent-bu",
@@ -196,7 +247,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/02/aws-announces-new-capabilities-for-its-ai-agent-builder/",
       "readTime": 3,
-      "views": 31846
+      "views": 25472
     },
     {
       "id": "mistral-closes-in-on-big-ai-rivals-with-new-open-w",
@@ -212,7 +263,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/02/mistral-closes-in-on-big-ai-rivals-with-mistral-3-open-weight-frontier-and-small-models/",
       "readTime": 3,
-      "views": 20126
+      "views": 13882
     },
     {
       "id": "ibm-cites-agentic-ai-data-policies-and-quantum-as-",
@@ -228,7 +279,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/ibm-quantum-cited-plus-agentic-ai-data-policies-as-2026-trends/",
       "readTime": 3,
-      "views": 47208
+      "views": 18090
     },
     {
       "id": "paris-based-ai-voice-startup-gradium-nabs-70m-seed",
@@ -244,7 +295,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/02/paris-based-ai-voice-startup-gradium-nabs-70m-seed/",
       "readTime": 3,
-      "views": 9671
+      "views": 34125
     },
     {
       "id": "china-8217-s-deepseek-v3-2-ai-model-achieves-front",
@@ -264,7 +315,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/deepseek-v3-2-matches-gpt-5-lower-training-costs/",
       "readTime": 3,
-      "views": 17274
+      "views": 41782
     },
     {
       "id": "how-openai-and-thrive-are-testing-a-new-enterprise",
@@ -283,72 +334,19 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/how-openai-and-thrive-are-testing-a-new-enterprise-ai-model/",
       "readTime": 3,
-      "views": 37529
-    },
-    {
-      "id": "apple-just-named-a-new-ai-chief-with-google-and-mi",
-      "title": "Apple just named a new AI chief with Google and Microsoft expertise, as John Giannandrea steps down",
-      "summary": "His replacement is Amar Subramanya, a highly regarded Microsoft executive who spent 16 years at Google, most recently leading engineering for the Gemini Assistant.  It's a savvy hire, given that Subra.",
-      "content": "His replacement is Amar Subramanya, a highly regarded Microsoft executive who spent 16 years at Google, most recently leading engineering for the Gemini Assistant. It's a savvy hire, given that Subramanya knows the competition intimately.",
-      "source": "TechCrunch AI",
-      "author": "Connie Loizos",
-      "publishedAt": "2025-12-02T01:34:46.000Z",
-      "category": "market",
-      "tags": [
-        "ai",
-        "gemini",
-        "Google",
-        "Microsoft",
-        "Apple"
-      ],
-      "url": "https://techcrunch.com/2025/12/01/apple-just-named-a-new-ai-chief-with-google-and-microsoft-expertise-as-john-giannandrea-steps-down/",
-      "readTime": 3,
-      "views": 9165
-    },
-    {
-      "id": "one-of-google-8217-s-biggest-ai-advantages-is-what",
-      "title": "One of Google&#8217;s biggest AI advantages is what it already knows about you",
-      "summary": "The promise is AI that's uniquely helpful because it knows you.  But the risk is AI that feels more like surveillance than service.",
-      "content": "The promise is AI that's uniquely helpful because it knows you. But the risk is AI that feels more like surveillance than service.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2025-12-02T00:17:52.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2025/12/01/one-of-googles-biggest-ai-advantages-is-what-it-already-knows-about-you/",
-      "readTime": 3,
-      "views": 21275
-    },
-    {
-      "id": "nvidia-announces-new-open-ai-models-and-tools-for-",
-      "title": "Nvidia announces new open AI models and tools for autonomous driving research",
-      "summary": "Nvidia continues its push into physical AI with the release of a new reasoning world model and other tools for physical AI.",
-      "content": "Nvidia continues its push into physical AI with the release of a new reasoning world model and other tools for physical AI.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Szkutak",
-      "publishedAt": "2025-12-01T21:00:22.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/12/01/nvidia-announces-new-open-ai-models-and-tools-for-autonomous-driving-research/",
-      "readTime": 3,
-      "views": 27212
+      "views": 48093
     }
   ],
-  "lastUpdated": "2025-12-03T06:31:36.826Z",
+  "lastUpdated": "2025-12-03T12:42:05.251Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "TechCrunch AI",
-    "AI News"
+    "AI News",
+    "TechCrunch AI"
   ],
   "categories": [
-    "release",
+    "market",
     "research",
-    "market"
+    "release"
   ]
 }
