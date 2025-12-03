@@ -1,6 +1,220 @@
 {
   "articles": [
     {
+      "id": "amazon-challenges-competitors-with-on-premises-nvi",
+      "title": "Amazon challenges competitors with on-premises Nvidia &#8216;AI Factories&#8217;",
+      "summary": "If the product name sounds familiar, it should.  It's a collab with Nvidia that combines AWS tech with the chip maker's tech.",
+      "content": "If the product name sounds familiar, it should. It's a collab with Nvidia that combines AWS tech with the chip maker's tech.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2025-12-03T00:43:37.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/12/02/amazon-challenges-competitors-with-on-premises-nvidia-ai-factories/",
+      "readTime": 3,
+      "views": 33818
+    },
+    {
+      "id": "google-tests-merging-ai-overviews-with-ai-mode",
+      "title": "Google tests merging AI Overviews with AI Mode",
+      "summary": "Google is testing how to make it easier to move from search to an AI chat in a new global test.",
+      "content": "Google is testing how to make it easier to move from search to an AI chat in a new global test.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2025-12-02T22:26:34.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2025/12/02/google-tests-merging-ai-overviews-with-ai-mode/",
+      "readTime": 3,
+      "views": 41224
+    },
+    {
+      "id": "amazon-previews-3-ai-agents-including-8216-kiro-82",
+      "title": "Amazon previews 3 AI agents, including &#8216;Kiro&#8217; that can code on its own for days",
+      "summary": "Amazon Web Services on Tuesday announced three new AI agents it calls \"Frontier agents\" for coding, security, and DevOps.",
+      "content": "Amazon Web Services on Tuesday announced three new AI agents it calls \"Frontier agents\" for coding, security, and DevOps.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2025-12-02T22:18:01.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/12/02/amazon-previews-3-ai-agents-including-kiro-that-can-code-on-its-own-for-days/",
+      "readTime": 3,
+      "views": 53726
+    },
+    {
+      "id": "android-16-adds-ai-notification-summaries-new-cust",
+      "title": "Android 16 adds AI notification summaries, new customization options, and more",
+      "summary": "The rollout of the new Android 16 features, which are first coming to Pixel devices, marks a new chapter in how Android updates work, as the company is shifting from a single yearly update to more fre.",
+      "content": "The rollout of the new Android 16 features, which are first coming to Pixel devices, marks a new chapter in how Android updates work, as the company is shifting from a single yearly update to more frequent releases.",
+      "source": "TechCrunch AI",
+      "author": "Aisha Malik",
+      "publishedAt": "2025-12-02T19:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/12/02/android-16-adds-ai-notification-summaries-new-customization-options-and-more/",
+      "readTime": 3,
+      "views": 7521
+    },
+    {
+      "id": "chatgpt-referrals-to-retailers-8217-apps-increased",
+      "title": "ChatGPT referrals to retailers&#8217; apps increased 28% year-over-year, says report",
+      "summary": "ChatGPT referrals to retailers' apps were up on Black Friday year-over-year, with Walmart and Amazon benefiting the most.",
+      "content": "ChatGPT referrals to retailers' apps were up on Black Friday year-over-year, with Walmart and Amazon benefiting the most.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2025-12-02T17:56:16.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gpt",
+        "chatgpt"
+      ],
+      "url": "https://techcrunch.com/2025/12/02/chatgpt-referrals-to-retailers-apps-increased-28-year-over-year-says-report/",
+      "readTime": 3,
+      "views": 32759
+    },
+    {
+      "id": "aws-launches-new-nova-ai-models-and-a-service-that",
+      "title": "AWS launches new Nova AI models and a service that gives customers more control",
+      "summary": "Amazon Web Services announced four new AI models within its Nova model family and a frontier model service.",
+      "content": "Amazon Web Services announced four new AI models within its Nova model family and a frontier model service.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Szkutak",
+      "publishedAt": "2025-12-02T17:54:02.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "ai model"
+      ],
+      "url": "https://techcrunch.com/2025/12/02/aws-launches-new-nova-ai-models-and-a-service-that-gives-customers-more-control/",
+      "readTime": 3,
+      "views": 21051
+    },
+    {
+      "id": "openai-slammed-for-app-suggestions-that-looked-lik",
+      "title": "OpenAI slammed for app suggestions that looked like ads",
+      "summary": "OpenAI clarified that the app suggestion was not an advertisement, but instead a poor attempt to integrate an app discovery feature within conversations.",
+      "content": "OpenAI clarified that the app suggestion was not an advertisement, but instead a poor attempt to integrate an app discovery feature within conversations.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2025-12-02T16:43:21.000Z",
+      "category": "research",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2025/12/02/openai-slammed-for-app-suggestions-that-looked-like-ads/",
+      "readTime": 3,
+      "views": 40034
+    },
+    {
+      "id": "frontier-ai-research-lab-tackles-enterprise-deploy",
+      "title": "Frontier AI research lab tackles enterprise deployment challenges",
+      "summary": "Thomson Reuters and Imperial College London have established a frontier AI research lab to overcome historic deployment challenges.  Speed and scale have defined the current AI boom.",
+      "content": "Thomson Reuters and Imperial College London have established a frontier AI research lab to overcome historic deployment challenges. Speed and scale have defined the current AI boom. But for enterprises, the primary obstacles to deployment are different: trust, accuracy, and lineage. Addressing these",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2025-12-02T16:26:07.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/frontier-ai-research-lab-tackles-enterprise-deployment-challenges/",
+      "readTime": 3,
+      "views": 53051
+    },
+    {
+      "id": "amazon-releases-an-impressive-new-ai-chip-and-teas",
+      "title": "Amazon releases an impressive new AI chip and teases an Nvidia-friendly roadmap",
+      "summary": "AWS has been building its own AI chips — and systems — for years now.  It just released its third version, known as Trainium3, with some impressive specs.",
+      "content": "AWS has been building its own AI chips — and systems — for years now. It just released its third version, known as Trainium3, with some impressive specs.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2025-12-02T16:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/12/02/amazon-releases-an-impressive-new-ai-chip-and-teases-a-nvidia-friendly-roadmap/",
+      "readTime": 3,
+      "views": 6714
+    },
+    {
+      "id": "simular-8217-s-ai-agent-wants-to-run-your-mac-wind",
+      "title": "Simular&#8217;s AI agent wants to run your Mac, Windows PC for you",
+      "summary": "Simular, a startup building AI agents for Mac OS and Windows, has solved the AI hallucination problem in a compelling way.",
+      "content": "Simular, a startup building AI agents for Mac OS and Windows, has solved the AI hallucination problem in a compelling way.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2025-12-02T16:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/12/02/simular-releases-mac-os-ai-agent-raises-21-5m-from-felicis-with-windows-coming-soon/",
+      "readTime": 3,
+      "views": 26919
+    },
+    {
+      "id": "aws-announces-new-capabilities-for-its-ai-agent-bu",
+      "title": "AWS announces new capabilities for its AI agent builder",
+      "summary": "AWS is introducing new capabilities for its AI agent-building platform, including memory and evaluation tools.",
+      "content": "AWS is introducing new capabilities for its AI agent-building platform, including memory and evaluation tools.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Szkutak",
+      "publishedAt": "2025-12-02T16:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/12/02/aws-announces-new-capabilities-for-its-ai-agent-builder/",
+      "readTime": 3,
+      "views": 9140
+    },
+    {
+      "id": "mistral-closes-in-on-big-ai-rivals-with-new-open-w",
+      "title": "Mistral closes in on Big AI rivals with new open-weight frontier and small models",
+      "summary": "Mistral unveils its Mistral 3 lineup, including a frontier model and efficient small models designed for offline, customizable enterprise use — aiming to prove small, fine-tuned AI can beat closed-sou.",
+      "content": "Mistral unveils its Mistral 3 lineup, including a frontier model and efficient small models designed for offline, customizable enterprise use — aiming to prove small, fine-tuned AI can beat closed-source giants.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2025-12-02T15:37:07.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/12/02/mistral-closes-in-on-big-ai-rivals-with-mistral-3-open-weight-frontier-and-small-models/",
+      "readTime": 3,
+      "views": 39460
+    },
+    {
+      "id": "ibm-cites-agentic-ai-data-policies-and-quantum-as-",
+      "title": "IBM cites agentic AI, data policies, and quantum as 2026 trends",
+      "summary": "Enterprise leaders are entering 2026 with an uncomfortable mix of volatility, optimism, and pressure to move faster on AI and quantum computing, according to a paper published by the IBM Institute for.",
+      "content": "Enterprise leaders are entering 2026 with an uncomfortable mix of volatility, optimism, and pressure to move faster on AI and quantum computing, according to a paper published by the IBM Institute for Business Value. Its findings are based on more than 1,000 C-suite executives and 8,500 employees an",
+      "source": "AI News",
+      "author": "AI News",
+      "publishedAt": "2025-12-02T13:44:00.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/ibm-quantum-cited-plus-agentic-ai-data-policies-as-2026-trends/",
+      "readTime": 3,
+      "views": 25048
+    },
+    {
       "id": "paris-based-ai-voice-startup-gradium-nabs-70m-seed",
       "title": "Paris-based AI voice startup Gradium nabs $70M seed",
       "summary": "Gradium, a startup spawned out of French AI lab Kyutai (backed by French telecom billionaire Xavier Niel), launched out of stealth on Tuesday.",
@@ -14,7 +228,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/02/paris-based-ai-voice-startup-gradium-nabs-70m-seed/",
       "readTime": 3,
-      "views": 41476
+      "views": 54349
     },
     {
       "id": "china-8217-s-deepseek-v3-2-ai-model-achieves-front",
@@ -34,7 +248,26 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/deepseek-v3-2-matches-gpt-5-lower-training-costs/",
       "readTime": 3,
-      "views": 23353
+      "views": 36665
+    },
+    {
+      "id": "how-openai-and-thrive-are-testing-a-new-enterprise",
+      "title": "How OpenAI and Thrive are testing a new enterprise AI model",
+      "summary": "Thrive Holdings&#8217; push to modernise accounting and IT services is entering a new stage, as OpenAI prepares to take an ownership stake in the company and place its own specialists inside Thrive&#8.",
+      "content": "Thrive Holdings&#8217; push to modernise accounting and IT services is entering a new stage, as OpenAI prepares to take an ownership stake in the company and place its own specialists inside Thrive&#8217;s businesses. In doing so, OpenAI is testing an AI-driven model that pairs capital, sector exper",
+      "source": "AI News",
+      "author": "Muhammad Zulhusni",
+      "publishedAt": "2025-12-02T09:21:00.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "openai",
+        "ai model",
+        "OpenAI"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/how-openai-and-thrive-are-testing-a-new-enterprise-ai-model/",
+      "readTime": 3,
+      "views": 27992
     },
     {
       "id": "apple-just-named-a-new-ai-chief-with-google-and-mi",
@@ -54,7 +287,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/01/apple-just-named-a-new-ai-chief-with-google-and-microsoft-expertise-as-john-giannandrea-steps-down/",
       "readTime": 3,
-      "views": 10948
+      "views": 28476
     },
     {
       "id": "one-of-google-8217-s-biggest-ai-advantages-is-what",
@@ -71,7 +304,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/01/one-of-googles-biggest-ai-advantages-is-what-it-already-knows-about-you/",
       "readTime": 3,
-      "views": 23633
+      "views": 39669
     },
     {
       "id": "nvidia-announces-new-open-ai-models-and-tools-for-",
@@ -87,7 +320,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/01/nvidia-announces-new-open-ai-models-and-tools-for-autonomous-driving-research/",
       "readTime": 3,
-      "views": 39857
+      "views": 11113
     },
     {
       "id": "construction-workers-are-cashing-in-on-the-ai-boom",
@@ -103,253 +336,19 @@
       ],
       "url": "https://techcrunch.com/2025/12/01/construction-workers-are-cashing-in-on-the-ai-boom/",
       "readTime": 3,
-      "views": 11271
-    },
-    {
-      "id": "openai-s-investment-into-thrive-holdings-is-its-la",
-      "title": "OpenAI’s investment into Thrive Holdings is its latest circular deal",
-      "summary": "Analysts will be watching to see if Thrive-owned firms actually succeed in building long-term profitable businesses using OpenAI’s tech, or if the result is really just pumped up valuations based on s.",
-      "content": "Analysts will be watching to see if Thrive-owned firms actually succeed in building long-term profitable businesses using OpenAI’s tech, or if the result is really just pumped up valuations based on speculative market potential.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2025-12-01T16:58:17.000Z",
-      "category": "funding",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2025/12/01/openais-investment-into-thrive-holdings-is-its-latest-circular-deal/",
-      "readTime": 3,
-      "views": 18926
-    },
-    {
-      "id": "nvidia-s-2b-synopsys-bet-tightens-its-grip-on-the-",
-      "title": "Nvidia’s $2B Synopsys bet tightens its grip on the chip-design stack",
-      "summary": "The $2 billion investment in Synopsys, which makes software and components for designing semiconductor chips, deepens their existing partnership at a time when analysts scrutinize circular AI-industry.",
-      "content": "The $2 billion investment in Synopsys, which makes software and components for designing semiconductor chips, deepens their existing partnership at a time when analysts scrutinize circular AI-industry deals and warn of a potential bubble.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2025-12-01T16:32:50.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/12/01/nvidias-2b-synopsys-bet-tightens-its-grip-on-the-chip-design-stack/",
-      "readTime": 3,
-      "views": 36337
-    },
-    {
-      "id": "the-state-of-ai-welcome-to-the-economic-singularit",
-      "title": "The State of AI: Welcome to the economic singularity",
-      "summary": "Welcome back to The State of AI, a new collaboration between the Financial Times and MIT Technology Review.  Every Monday for the next two weeks, writers from both publications will debate one aspect .",
-      "content": "Welcome back to The State of AI, a new collaboration between the Financial Times and MIT Technology Review. Every Monday for the next two weeks, writers from both publications will debate one aspect of the generative AI revolution reshaping global power. This week, Richard Waters, FT columnist and f",
-      "source": "MIT Technology Review AI",
-      "author": "David Rotman and Richard Waters",
-      "publishedAt": "2025-12-01T16:30:00.000Z",
-      "category": "partnership",
-      "tags": [
-        "ai",
-        "generative ai"
-      ],
-      "url": "https://www.technologyreview.com/2025/12/01/1127872/the-state-of-ai-welcome-to-the-economic-singularity/",
-      "readTime": 3,
-      "views": 32403
-    },
-    {
-      "id": "amazon-8217-s-ai-chatbot-rufus-drove-sales-on-blac",
-      "title": "Amazon&#8217;s AI chatbot Rufus drove sales on Black Friday",
-      "summary": "On Black Friday, Amazon sessions that resulted in a sale were up 100% in the U.  when the AI chatbot Rufus was used.",
-      "content": "On Black Friday, Amazon sessions that resulted in a sale were up 100% in the U.S. when the AI chatbot Rufus was used. They only increased by 20% when Rufus wasn't used.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2025-12-01T16:25:24.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/12/01/amazons-ai-chatbot-rufus-drove-sales-on-black-friday/",
-      "readTime": 3,
-      "views": 7169
-    },
-    {
-      "id": "agentic-ai-autonomy-grows-in-north-american-enterp",
-      "title": "Agentic AI autonomy grows in North American enterprises",
-      "summary": "North American enterprises are now actively deploying agentic AI systems intended to reason, adapt, and act with complete autonomy.  Data from Digitate’s three-year global programme indicates that, wh.",
-      "content": "North American enterprises are now actively deploying agentic AI systems intended to reason, adapt, and act with complete autonomy. Data from Digitate’s three-year global programme indicates that, while adoption is universal across the board, regional maturity paths are diverging. North American fir",
-      "source": "AI News",
-      "author": "Ryan Daws",
-      "publishedAt": "2025-12-01T15:53:22.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/agentic-ai-autonomy-grows-in-north-american-enterprises/",
-      "readTime": 3,
-      "views": 43435
-    },
-    {
-      "id": "black-forest-labs-raises-300m-at-3-25b-valuation",
-      "title": "Black Forest Labs raises $300M at $3.25B valuation",
-      "summary": "The round was co-led by Salesforce Ventures and Anjney Midha (AMP), and saw participation from a16z, NVIDIA, Northzone, Creandum, Earlybird VC, BroadLight Capital, General Catalyst, Temasek, Bain Capi.",
-      "content": "The round was co-led by Salesforce Ventures and Anjney Midha (AMP), and saw participation from a16z, NVIDIA, Northzone, Creandum, Earlybird VC, BroadLight Capital, General Catalyst, Temasek, Bain Capital Ventures, Air Street Capital, Visionaries Club, Canva and Figma Ventures.",
-      "source": "TechCrunch AI",
-      "author": "Ram Iyer",
-      "publishedAt": "2025-12-01T14:08:13.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/12/01/black-forest-labs-raises-300m-at-3-25b-valuation/",
-      "readTime": 3,
-      "views": 15169
-    },
-    {
-      "id": "an-ai-model-trained-on-prison-phone-calls-now-look",
-      "title": "An AI model trained on prison phone calls now looks for planned crimes in those calls",
-      "summary": "A US telecom company trained an AI model on years of inmates’ phone and video calls and is now piloting that model to scan their calls, texts, and emails in the hope of predicting and preventing crime.",
-      "content": "A US telecom company trained an AI model on years of inmates’ phone and video calls and is now piloting that model to scan their calls, texts, and emails in the hope of predicting and preventing crimes.&#160; Securus Technologies president Kevin Elder told MIT Technology Review that the company bega",
-      "source": "MIT Technology Review AI",
-      "author": "James O'Donnell",
-      "publishedAt": "2025-12-01T10:30:00.000Z",
-      "category": "research",
-      "tags": [
-        "ai",
-        "ai model"
-      ],
-      "url": "https://www.technologyreview.com/2025/12/01/1128591/an-ai-model-trained-on-prison-phone-calls-is-now-being-used-to-surveil-inmates/",
-      "readTime": 3,
-      "views": 39586
-    },
-    {
-      "id": "ai-business-reality-what-enterprise-leaders-need-t",
-      "title": "AI business reality – what enterprise leaders need to know",
-      "summary": "When JPMorgan Asset Management reported that AI spending accounted for two-thirds of US GDP growth in the first half of 2025, it wasn&#8217;t just a statistic – it was a signal.  The conversation reac.",
-      "content": "When JPMorgan Asset Management reported that AI spending accounted for two-thirds of US GDP growth in the first half of 2025, it wasn&#8217;t just a statistic – it was a signal. The conversation reached a turning point recently when OpenAI CEO Sam Altman, Amazon&#8217;s Jeff Bezos, and Goldman Sachs",
-      "source": "AI News",
-      "author": "Dashveenjit Kaur",
-      "publishedAt": "2025-12-01T08:00:00.000Z",
-      "category": "market",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/ai-business-reality-what-enterprise-leaders-need-know/",
-      "readTime": 3,
-      "views": 8837
-    },
-    {
-      "id": "avatar-director-james-cameron-says-generative-ai-i",
-      "title": "‘Avatar’ director James Cameron says generative AI is ‘horrifying’",
-      "summary": "James Cameron’s movies are often at the cutting edge of visual effects technology, but that doesn't make him a fan of generative AI.",
-      "content": "James Cameron’s movies are often at the cutting edge of visual effects technology, but that doesn't make him a fan of generative AI.",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2025-11-30T22:53:15.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "generative ai"
-      ],
-      "url": "https://techcrunch.com/2025/11/30/avatar-director-james-cameron-says-generative-ai-is-horrifying/",
-      "readTime": 3,
-      "views": 26888
-    },
-    {
-      "id": "new-report-examines-how-david-sacks-might-profit-f",
-      "title": "New report examines how David Sacks might profit from Trump administration role",
-      "summary": "David Sacks’ role as President Donald Trump’s artificial intelligence and crypto czar could work out very well for his investments, according to a new report.  However, Sacks fired back, calling the s.",
-      "content": "David Sacks’ role as President Donald Trump’s artificial intelligence and crypto czar could work out very well for his investments, according to a new report. However, Sacks fired back, calling the story a \"nothing burger.\"",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2025-11-30T21:39:04.000Z",
-      "category": "funding",
-      "tags": [
-        "artificial intelligence"
-      ],
-      "url": "https://techcrunch.com/2025/11/30/new-report-examines-how-david-sacks-might-profit-from-trump-administration-role/",
-      "readTime": 3,
-      "views": 24264
-    },
-    {
-      "id": "chatgpt-launched-three-years-ago-today",
-      "title": "ChatGPT launched three years ago today",
-      "summary": "It’s no hyperbole to suggest that ChatGPT subsequently transformed the worlds of business and tech.",
-      "content": "It’s no hyperbole to suggest that ChatGPT subsequently transformed the worlds of business and tech.",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2025-11-30T20:14:09.000Z",
-      "category": "release",
-      "tags": [
-        "gpt",
-        "chatgpt"
-      ],
-      "url": "https://techcrunch.com/2025/11/30/chatgpt-launched-three-years-ago-today/",
-      "readTime": 3,
-      "views": 23971
-    },
-    {
-      "id": "black-friday-sets-online-spending-record-of-11-8b-",
-      "title": "Black Friday sets online spending record of $11.8B, Adobe says",
-      "summary": "American consumers spent $11. 8 billion online on Black Friday, according to data from Adobe Analytics, which says it tracks more than 1 trillion visits to U.",
-      "content": "American consumers spent $11.8 billion online on Black Friday, according to data from Adobe Analytics, which says it tracks more than 1 trillion visits to U.S. retail websites.",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2025-11-29T21:39:44.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/11/29/black-friday-sets-online-spending-record-of-11-8b-adobe-says/",
-      "readTime": 3,
-      "views": 46541
-    },
-    {
-      "id": "no-you-can-8217-t-get-your-ai-to-admit-to-being-se",
-      "title": "No, you can&#8217;t get your AI to ‘admit’ to being sexist, but it probably is anyway",
-      "summary": "Though LLMs might not use explicitly biased language, they may infer your demographic data and display implicit biases, researchers say.",
-      "content": "Though LLMs might not use explicitly biased language, they may infer your demographic data and display implicit biases, researchers say.",
-      "source": "TechCrunch AI",
-      "author": "Dominic-Madori Davis",
-      "publishedAt": "2025-11-29T16:00:00.000Z",
-      "category": "research",
-      "tags": [
-        "ai",
-        "llm"
-      ],
-      "url": "https://techcrunch.com/2025/11/29/no-you-cant-get-your-ai-to-admit-to-being-sexist-but-it-probably-is/",
-      "readTime": 3,
-      "views": 13279
-    },
-    {
-      "id": "supabase-hit-5b-by-turning-down-million-dollar-con",
-      "title": "Supabase hit $5B by turning down million-dollar contracts. Here&#8217;s why.",
-      "summary": "Vibe coding has taken the tech industry by storm, and it&#8217;s not just the Lovables and Replits of the world that are winning.  The startups building the infrastructure behind them are cashing in t.",
-      "content": "Vibe coding has taken the tech industry by storm, and it&#8217;s not just the Lovables and Replits of the world that are winning. The startups building the infrastructure behind them are cashing in too.&#160; Supabase, the open source database platform that&#8217;s become the back end of choice for ",
-      "source": "TechCrunch AI",
-      "author": "Theresa Loconsolo",
-      "publishedAt": "2025-11-28T23:00:00.000Z",
-      "category": "market",
-      "tags": [],
-      "url": "https://techcrunch.com/video/supabase-hit-5b-by-turning-down-million-dollar-contracts-heres-why/",
-      "readTime": 3,
-      "views": 38801
+      "views": 21478
     }
   ],
-  "lastUpdated": "2025-12-02T12:42:07.488Z",
+  "lastUpdated": "2025-12-03T01:27:53.643Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
     "TechCrunch AI",
-    "AI News",
-    "MIT Technology Review AI"
+    "AI News"
   ],
   "categories": [
     "release",
     "research",
-    "market",
-    "funding",
-    "partnership"
+    "market"
   ]
 }
