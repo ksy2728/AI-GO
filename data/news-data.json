@@ -1,6 +1,174 @@
 {
   "articles": [
     {
+      "id": "all-the-biggest-news-from-aws-8217-big-tech-show-r",
+      "title": "All the biggest news from AWS&#8217; big tech show re:Invent 2025",
+      "summary": "Amazon Web Services giant tech conference is happening this week with news ranging from chips to AI services.",
+      "content": "Amazon Web Services giant tech conference is happening this week with news ranging from chips to AI services.",
+      "source": "TechCrunch AI",
+      "author": "Kirsten Korosec, Julie Bort, Rebecca Szkutak",
+      "publishedAt": "2025-12-03T23:43:25.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/12/03/all-the-biggest-news-from-aws-big-tech-show-reinvent-2025/",
+      "readTime": 3,
+      "views": 8285
+    },
+    {
+      "id": "andy-jassy-says-amazon-8217-s-nvidia-competitor-ch",
+      "title": "Andy Jassy says Amazon&#8217;s Nvidia competitor chip is already a multibillion-dollar business",
+      "summary": "Can any company, big or small, really topple Nvidia's AI chip dominance.  Maybe not entirely, but Amazon is already making big bucks trying.",
+      "content": "Can any company, big or small, really topple Nvidia's AI chip dominance? Maybe not entirely, but Amazon is already making big bucks trying.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2025-12-03T22:01:13.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/12/03/andy-jassy-says-amazons-nvidia-competitor-chip-is-already-a-multi-billion-dollar-business/",
+      "readTime": 3,
+      "views": 34319
+    },
+    {
+      "id": "vcs-deploy-8216-kingmaking-8217-strategy-to-crown-",
+      "title": "VCs deploy &#8216;kingmaking&#8217; strategy to crown AI winners in their infancy",
+      "summary": "While VCs have long used big investments to spur category winners, they are taking this strategy to new extremes.",
+      "content": "While VCs have long used big investments to spur category winners, they are taking this strategy to new extremes.",
+      "source": "TechCrunch AI",
+      "author": "Marina Temkin",
+      "publishedAt": "2025-12-03T20:24:12.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/12/03/vcs-deploy-kingmaking-strategy-to-crown-ai-winners-in-their-infancy/",
+      "readTime": 3,
+      "views": 45596
+    },
+    {
+      "id": "openai-has-trained-its-llm-to-confess-to-bad-behav",
+      "title": "OpenAI has trained its LLM to confess to bad behavior",
+      "summary": "OpenAI is testing another new way to expose the complicated processes at work inside large language models.  Researchers at the company can make an LLM produce what they call a confession, in which th.",
+      "content": "OpenAI is testing another new way to expose the complicated processes at work inside large language models. Researchers at the company can make an LLM produce what they call a confession, in which the model explains how it carried out a task and (most of the time) owns up to any bad behavior. Figuri",
+      "source": "MIT Technology Review AI",
+      "author": "Will Douglas Heaven",
+      "publishedAt": "2025-12-03T18:01:39.000Z",
+      "category": "research",
+      "tags": [
+        "ai",
+        "llm",
+        "language model",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://www.technologyreview.com/2025/12/03/1128740/openai-has-trained-its-llm-to-confess-to-bad-behavior/",
+      "readTime": 3,
+      "views": 52982
+    },
+    {
+      "id": "anthropic-hires-lawyers-as-it-preps-for-ipo",
+      "title": "Anthropic hires lawyers as it preps for IPO",
+      "summary": "It has brought on law firm Wilson Sonsini to help kick off the process, and the company is tackling an internal checklist to prepare it for what could be one of the largest IPOs ever.",
+      "content": "It has brought on law firm Wilson Sonsini to help kick off the process, and the company is tackling an internal checklist to prepare it for what could be one of the largest IPOs ever.",
+      "source": "TechCrunch AI",
+      "author": "Dominic-Madori Davis",
+      "publishedAt": "2025-12-03T17:42:37.000Z",
+      "category": "funding",
+      "tags": [
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2025/12/03/anthropic-hires-lawyers-as-it-preps-for-ipo/",
+      "readTime": 3,
+      "views": 31760
+    },
+    {
+      "id": "aws-doubles-down-on-custom-llms-with-features-mean",
+      "title": "AWS doubles down on custom LLMs with features meant to simplify model creation",
+      "summary": "AWS is launching more capabilities in both Amazon Bedrock and Amazon SageMaker AI to make building custom models easier.",
+      "content": "AWS is launching more capabilities in both Amazon Bedrock and Amazon SageMaker AI to make building custom models easier.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Szkutak",
+      "publishedAt": "2025-12-03T16:30:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "llm"
+      ],
+      "url": "https://techcrunch.com/2025/12/03/aws-doubles-down-on-custom-llms-with-features-meant-to-simplify-model-creation/",
+      "readTime": 3,
+      "views": 13468
+    },
+    {
+      "id": "another-bid-to-block-state-ai-regulation-has-faile",
+      "title": "Another bid to block state AI regulation has failed… for now",
+      "summary": "Republicans’ attempt to ban state AI regulations was removed from the defense bill after bipartisan opposition, underscoring tensions between tech-industry demands, consumer protection concerns, and T.",
+      "content": "Republicans’ attempt to ban state AI regulations was removed from the defense bill after bipartisan opposition, underscoring tensions between tech-industry demands, consumer protection concerns, and Trump’s push for sweeping federal preemption.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2025-12-03T16:06:35.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/12/03/another-bid-to-block-state-ai-regulation-has-failedfor-now/",
+      "readTime": 3,
+      "views": 9274
+    },
+    {
+      "id": "google-photos-8217-2025-recap-turns-to-gemini-to-f",
+      "title": "Google Photos&#8217; 2025 Recap turns to Gemini to find your highlights",
+      "summary": "The Google Photos Recap will use Gemini's AI to find your memorable moments throughout the year, and adds new metrics, like a 'selfie' count.",
+      "content": "The Google Photos Recap will use Gemini's AI to find your memorable moments throughout the year, and adds new metrics, like a 'selfie' count.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2025-12-03T16:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gemini",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2025/12/03/google-photos-2025-recap-turns-to-gemini-to-find-your-highlights/",
+      "readTime": 3,
+      "views": 6900
+    },
+    {
+      "id": "ai-in-manufacturing-set-to-unleash-new-era-of-prof",
+      "title": "AI in manufacturing set to unleash new era of profit",
+      "summary": "Manufacturing executives are wagering nearly half their modernisation budgets on AI, betting these systems will boost profit within two years.  This aggressive capital allocation marks a definitive pi.",
+      "content": "Manufacturing executives are wagering nearly half their modernisation budgets on AI, betting these systems will boost profit within two years. This aggressive capital allocation marks a definitive pivot. AI is now seen as the primary engine for financial performance. According to the Future-Ready Ma",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2025-12-03T15:30:04.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/ai-in-manufacturing-set-to-unleash-new-era-of-profit/",
+      "readTime": 3,
+      "views": 29720
+    },
+    {
+      "id": "htb-ai-range-offers-experiments-in-cyber-resilienc",
+      "title": "HTB AI Range offers experiments in cyber-resilience training",
+      "summary": "The cybersecurity training provider Hack The Box (HTB) has launched the HTB AI Range, designed to let organisations test autonomous AI security agents under realistic conditions, albeit with oversight.",
+      "content": "The cybersecurity training provider Hack The Box (HTB) has launched the HTB AI Range, designed to let organisations test autonomous AI security agents under realistic conditions, albeit with oversight from human cybersecurity professionals. Its goal is to help users assess how well AI, and mixed hum",
+      "source": "AI News",
+      "author": "Joe Green",
+      "publishedAt": "2025-12-03T14:46:14.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/htb-ai-range-testing-ai-security-in-sandbox-agentic-ai-experiments/",
+      "readTime": 3,
+      "views": 21854
+    },
+    {
       "id": "ey-and-nvidia-to-help-companies-test-and-deploy-ph",
       "title": "EY and NVIDIA to help companies test and deploy physical AI",
       "summary": "AI is moving deeper into the physical world, and EY is laying out a more structured way for companies to work with robots, drones, and other smart devices.  The organisation is introducing a physical .",
@@ -14,7 +182,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/ey-and-nvidia-to-help-companies-test-and-deploy-physical-ai/",
       "readTime": 3,
-      "views": 27415
+      "views": 38589
     },
     {
       "id": "anthropic-just-revealed-how-ai-orchestrated-cybera",
@@ -33,7 +201,23 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/ai-orchestrated-cyberattacks-anthropic-discovery/",
       "readTime": 3,
-      "views": 35612
+      "views": 18333
+    },
+    {
+      "id": "amidst-the-ongoing-ai-infrastructure-crunch-singul",
+      "title": "Amidst the Ongoing AI Infrastructure Crunch, Singularity Compute Launches Swedish GPU Cluster",
+      "summary": "As AI adoption has continued to surge over the last couple of months, one thing has become abundantly clear, i.  there isn’t enough computational horsepower to go around (something that has become pai.",
+      "content": "As AI adoption has continued to surge over the last couple of months, one thing has become abundantly clear, i.e. there isn’t enough computational horsepower to go around (something that has become painfully obvious as cloud providers have accrued months-long waitlists for high-end GPU instances). A",
+      "source": "AI News",
+      "author": "AI News",
+      "publishedAt": "2025-12-03T09:28:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/amidst-the-ongoing-ai-infrastructure-crunch-singularity-compute-launches-swedish-gpu-cluster/",
+      "readTime": 3,
+      "views": 31113
     },
     {
       "id": "can-china-8217-s-chip-stacking-strategy-really-cha",
@@ -49,23 +233,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/china-chip-stacking-strategy-nvidia/",
       "readTime": 3,
-      "views": 18304
-    },
-    {
-      "id": "all-the-biggest-news-from-aws-8217-big-tech-show-r",
-      "title": "All the biggest news from AWS&#8217; big tech show re:Invent 2025",
-      "summary": "Amazon Web Services giant tech conference is happening this week with news ranging from chips to AI services.",
-      "content": "Amazon Web Services giant tech conference is happening this week with news ranging from chips to AI services.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Szkutak, Julie Bort, Kirsten Korosec",
-      "publishedAt": "2025-12-03T01:06:25.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/12/02/all-the-biggest-news-from-aws-big-tech-show-reinvent-2025/",
-      "readTime": 3,
-      "views": 13382
+      "views": 26643
     },
     {
       "id": "amazon-challenges-competitors-with-on-premises-nvi",
@@ -81,7 +249,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/02/amazon-challenges-competitors-with-on-premises-nvidia-ai-factories/",
       "readTime": 3,
-      "views": 51048
+      "views": 10414
     },
     {
       "id": "google-tests-merging-ai-overviews-with-ai-mode",
@@ -98,7 +266,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/02/google-tests-merging-ai-overviews-with-ai-mode/",
       "readTime": 3,
-      "views": 36101
+      "views": 11753
     },
     {
       "id": "amazon-previews-3-ai-agents-including-8216-kiro-82",
@@ -114,7 +282,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/02/amazon-previews-3-ai-agents-including-kiro-that-can-code-on-its-own-for-days/",
       "readTime": 3,
-      "views": 47590
+      "views": 8074
     },
     {
       "id": "android-16-adds-ai-notification-summaries-new-cust",
@@ -130,7 +298,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/02/android-16-adds-ai-notification-summaries-new-customization-options-and-more/",
       "readTime": 3,
-      "views": 36720
+      "views": 38907
     },
     {
       "id": "chatgpt-referrals-to-retailers-8217-apps-increased",
@@ -148,7 +316,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/02/chatgpt-referrals-to-retailers-apps-increased-28-year-over-year-says-report/",
       "readTime": 3,
-      "views": 7076
+      "views": 6587
     },
     {
       "id": "aws-launches-new-nova-ai-models-and-a-service-that",
@@ -165,188 +333,22 @@
       ],
       "url": "https://techcrunch.com/2025/12/02/aws-launches-new-nova-ai-models-and-a-service-that-gives-customers-more-control/",
       "readTime": 3,
-      "views": 21125
-    },
-    {
-      "id": "openai-slammed-for-app-suggestions-that-looked-lik",
-      "title": "OpenAI slammed for app suggestions that looked like ads",
-      "summary": "OpenAI clarified that the app suggestion was not an advertisement, but instead a poor attempt to integrate an app discovery feature within conversations.",
-      "content": "OpenAI clarified that the app suggestion was not an advertisement, but instead a poor attempt to integrate an app discovery feature within conversations.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2025-12-02T16:43:21.000Z",
-      "category": "research",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2025/12/02/openai-slammed-for-app-suggestions-that-looked-like-ads/",
-      "readTime": 3,
-      "views": 19765
-    },
-    {
-      "id": "frontier-ai-research-lab-tackles-enterprise-deploy",
-      "title": "Frontier AI research lab tackles enterprise deployment challenges",
-      "summary": "Thomson Reuters and Imperial College London have established a frontier AI research lab to overcome historic deployment challenges.  Speed and scale have defined the current AI boom.",
-      "content": "Thomson Reuters and Imperial College London have established a frontier AI research lab to overcome historic deployment challenges. Speed and scale have defined the current AI boom. But for enterprises, the primary obstacles to deployment are different: trust, accuracy, and lineage. Addressing these",
-      "source": "AI News",
-      "author": "Ryan Daws",
-      "publishedAt": "2025-12-02T16:26:07.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/frontier-ai-research-lab-tackles-enterprise-deployment-challenges/",
-      "readTime": 3,
-      "views": 51951
-    },
-    {
-      "id": "amazon-releases-an-impressive-new-ai-chip-and-teas",
-      "title": "Amazon releases an impressive new AI chip and teases an Nvidia-friendly roadmap",
-      "summary": "AWS has been building its own AI chips — and systems — for years now.  It just released its third version, known as Trainium3, with some impressive specs.",
-      "content": "AWS has been building its own AI chips — and systems — for years now. It just released its third version, known as Trainium3, with some impressive specs.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2025-12-02T16:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/12/02/amazon-releases-an-impressive-new-ai-chip-and-teases-a-nvidia-friendly-roadmap/",
-      "readTime": 3,
-      "views": 35344
-    },
-    {
-      "id": "simular-8217-s-ai-agent-wants-to-run-your-mac-wind",
-      "title": "Simular&#8217;s AI agent wants to run your Mac, Windows PC for you",
-      "summary": "Simular, a startup building AI agents for Mac OS and Windows, has solved the AI hallucination problem in a compelling way.",
-      "content": "Simular, a startup building AI agents for Mac OS and Windows, has solved the AI hallucination problem in a compelling way.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2025-12-02T16:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/12/02/simular-releases-mac-os-ai-agent-raises-21-5m-from-felicis-with-windows-coming-soon/",
-      "readTime": 3,
-      "views": 36865
-    },
-    {
-      "id": "aws-announces-new-capabilities-for-its-ai-agent-bu",
-      "title": "AWS announces new capabilities for its AI agent builder",
-      "summary": "AWS is introducing new capabilities for its AI agent-building platform, including memory and evaluation tools.",
-      "content": "AWS is introducing new capabilities for its AI agent-building platform, including memory and evaluation tools.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Szkutak",
-      "publishedAt": "2025-12-02T16:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/12/02/aws-announces-new-capabilities-for-its-ai-agent-builder/",
-      "readTime": 3,
-      "views": 25472
-    },
-    {
-      "id": "mistral-closes-in-on-big-ai-rivals-with-new-open-w",
-      "title": "Mistral closes in on Big AI rivals with new open-weight frontier and small models",
-      "summary": "Mistral unveils its Mistral 3 lineup, including a frontier model and efficient small models designed for offline, customizable enterprise use — aiming to prove small, fine-tuned AI can beat closed-sou.",
-      "content": "Mistral unveils its Mistral 3 lineup, including a frontier model and efficient small models designed for offline, customizable enterprise use — aiming to prove small, fine-tuned AI can beat closed-source giants.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2025-12-02T15:37:07.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/12/02/mistral-closes-in-on-big-ai-rivals-with-mistral-3-open-weight-frontier-and-small-models/",
-      "readTime": 3,
-      "views": 13882
-    },
-    {
-      "id": "ibm-cites-agentic-ai-data-policies-and-quantum-as-",
-      "title": "IBM cites agentic AI, data policies, and quantum as 2026 trends",
-      "summary": "Enterprise leaders are entering 2026 with an uncomfortable mix of volatility, optimism, and pressure to move faster on AI and quantum computing, according to a paper published by the IBM Institute for.",
-      "content": "Enterprise leaders are entering 2026 with an uncomfortable mix of volatility, optimism, and pressure to move faster on AI and quantum computing, according to a paper published by the IBM Institute for Business Value. Its findings are based on more than 1,000 C-suite executives and 8,500 employees an",
-      "source": "AI News",
-      "author": "AI News",
-      "publishedAt": "2025-12-02T13:44:00.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/ibm-quantum-cited-plus-agentic-ai-data-policies-as-2026-trends/",
-      "readTime": 3,
-      "views": 18090
-    },
-    {
-      "id": "paris-based-ai-voice-startup-gradium-nabs-70m-seed",
-      "title": "Paris-based AI voice startup Gradium nabs $70M seed",
-      "summary": "Gradium, a startup spawned out of French AI lab Kyutai (backed by French telecom billionaire Xavier Niel), launched out of stealth on Tuesday.",
-      "content": "Gradium, a startup spawned out of French AI lab Kyutai (backed by French telecom billionaire Xavier Niel), launched out of stealth on Tuesday.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2025-12-02T12:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/12/02/paris-based-ai-voice-startup-gradium-nabs-70m-seed/",
-      "readTime": 3,
-      "views": 34125
-    },
-    {
-      "id": "china-8217-s-deepseek-v3-2-ai-model-achieves-front",
-      "title": "China&#8217;s DeepSeek V3.2 AI model achieves frontier performance on a fraction of the computing budget",
-      "summary": "While tech giants pour billions into computational power to train frontier AI models, China&#8217;s DeepSeek has achieved comparable results by working smarter, not harder. 2 AI model matches OpenAI&#.",
-      "content": "While tech giants pour billions into computational power to train frontier AI models, China&#8217;s DeepSeek has achieved comparable results by working smarter, not harder. The DeepSeek V3.2 AI model matches OpenAI&#8217;s GPT-5 in reasoning benchmarks despite using &#8216;fewer total training FLOPs",
-      "source": "AI News",
-      "author": "Dashveenjit Kaur",
-      "publishedAt": "2025-12-02T10:00:00.000Z",
-      "category": "research",
-      "tags": [
-        "ai",
-        "gpt",
-        "openai",
-        "ai model",
-        "OpenAI"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/deepseek-v3-2-matches-gpt-5-lower-training-costs/",
-      "readTime": 3,
-      "views": 41782
-    },
-    {
-      "id": "how-openai-and-thrive-are-testing-a-new-enterprise",
-      "title": "How OpenAI and Thrive are testing a new enterprise AI model",
-      "summary": "Thrive Holdings&#8217; push to modernise accounting and IT services is entering a new stage, as OpenAI prepares to take an ownership stake in the company and place its own specialists inside Thrive&#8.",
-      "content": "Thrive Holdings&#8217; push to modernise accounting and IT services is entering a new stage, as OpenAI prepares to take an ownership stake in the company and place its own specialists inside Thrive&#8217;s businesses. In doing so, OpenAI is testing an AI-driven model that pairs capital, sector exper",
-      "source": "AI News",
-      "author": "Muhammad Zulhusni",
-      "publishedAt": "2025-12-02T09:21:00.000Z",
-      "category": "market",
-      "tags": [
-        "ai",
-        "openai",
-        "ai model",
-        "OpenAI"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/how-openai-and-thrive-are-testing-a-new-enterprise-ai-model/",
-      "readTime": 3,
-      "views": 48093
+      "views": 19732
     }
   ],
-  "lastUpdated": "2025-12-03T12:42:05.251Z",
+  "lastUpdated": "2025-12-04T01:28:31.568Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "AI News",
-    "TechCrunch AI"
+    "TechCrunch AI",
+    "MIT Technology Review AI",
+    "AI News"
   ],
   "categories": [
+    "release",
     "market",
+    "funding",
     "research",
-    "release"
+    "regulation"
   ]
 }
