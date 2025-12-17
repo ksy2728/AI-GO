@@ -1,6 +1,157 @@
 {
   "articles": [
     {
+      "id": "doordash-rolls-out-zesty-an-ai-social-app-for-disc",
+      "title": "DoorDash rolls out Zesty, an AI social app for discovering new restaurants",
+      "summary": "Users can view and share photos and comments about restaurants they’ve visited, discover content from others, and follow people just like on any social network.",
+      "content": "Users can view and share photos and comments about restaurants they’ve visited, discover content from others, and follow people just like on any social network.",
+      "source": "TechCrunch AI",
+      "author": "Aisha Malik",
+      "publishedAt": "2025-12-16T18:48:43.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/12/16/doordash-rolls-out-zesty-an-ai-social-app-for-discovering-new-restaurants/",
+      "readTime": 3,
+      "views": 42454
+    },
+    {
+      "id": "meta-8217-s-ai-glasses-can-now-help-you-hear-conve",
+      "title": "Meta&#8217;s AI glasses can now help you hear conversations better",
+      "summary": "Conversation focus uses the AI glasses' open-ear speakers to amplify the voice of the person you're talking to, says Meta.",
+      "content": "Conversation focus uses the AI glasses' open-ear speakers to amplify the voice of the person you're talking to, says Meta.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2025-12-16T18:30:55.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Meta"
+      ],
+      "url": "https://techcrunch.com/2025/12/16/metas-ai-glasses-can-now-help-you-hear-conversations-better/",
+      "readTime": 3,
+      "views": 28818
+    },
+    {
+      "id": "openai-continues-on-its-8216-code-red-8217-warpath",
+      "title": "OpenAI continues on its &#8216;code red&#8217; warpath with new image generation model",
+      "summary": "OpenAI rolls out GPT Image 1. 5 for ChatGPT, promising 4x faster generation, better instruction-following, and precise edits.",
+      "content": "OpenAI rolls out GPT Image 1.5 for ChatGPT, promising 4x faster generation, better instruction-following, and precise edits. The launch  escalates its rivalry with Google Gemini.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2025-12-16T18:22:50.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gpt",
+        "openai",
+        "gemini",
+        "chatgpt"
+      ],
+      "url": "https://techcrunch.com/2025/12/16/openai-continues-on-its-code-red-warpath-with-new-image-generation-model/",
+      "readTime": 3,
+      "views": 24381
+    },
+    {
+      "id": "uber-eats-alum-lands-14m-seed-from-a16z-to-fix-wha",
+      "title": "Uber Eats alum lands $14M seed from a16z to fix WhatsApp chaos for LatAm&#8217;s doctors",
+      "summary": "Leona Health built an AI co-pilot to manage the flood of patient messages Latin American doctors receive on WhatsApp.",
+      "content": "Leona Health built an AI co-pilot to manage the flood of patient messages Latin American doctors receive on WhatsApp.",
+      "source": "TechCrunch AI",
+      "author": "Marina Temkin",
+      "publishedAt": "2025-12-16T18:11:58.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/12/16/uber-eats-alum-lands-14m-seed-from-a16z-to-fix-whatsapp-chaos-for-latams-doctors/",
+      "readTime": 3,
+      "views": 31313
+    },
+    {
+      "id": "google-tests-an-email-based-productivity-assistant",
+      "title": "Google tests an email-based productivity assistant",
+      "summary": "Google's new email-based assistant will be available to AI Pro and Ultra plan users over the age of 18 in North America.",
+      "content": "Google's new email-based assistant will be available to AI Pro and Ultra plan users over the age of 18 in North America.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2025-12-16T18:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2025/12/16/google-tests-an-email-based-productivity-assistant/",
+      "readTime": 3,
+      "views": 30786
+    },
+    {
+      "id": "what-ai-search-tools-mean-for-the-future-of-seo-sp",
+      "title": "What AI search tools mean for the future of SEO specialists",
+      "summary": "AI search engines and generative AI tools are certainly transforming how people discover information online.  Far from making SEO specialists obsolete, the shift highlights clearly why skilled human o.",
+      "content": "AI search engines and generative AI tools are certainly transforming how people discover information online. Far from making SEO specialists obsolete, the shift highlights clearly why skilled human optimisers remain more important than ever. As generative AI search tools reshape the digital landscap",
+      "source": "AI News",
+      "author": "Bazoom",
+      "publishedAt": "2025-12-16T15:49:59.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "generative ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/what-ai-search-tools-mean-for-the-future-of-seo-specialists/",
+      "readTime": 3,
+      "views": 41438
+    },
+    {
+      "id": "creating-psychological-safety-in-the-ai-era",
+      "title": "Creating psychological safety in the AI era",
+      "summary": "Rolling out enterprise-grade AI means climbing two steep cliffs at once.  First, understanding and implementing the tech itself.",
+      "content": "Rolling out enterprise-grade AI means climbing two steep cliffs at once. First, understanding and implementing the tech itself. And second, creating the cultural conditions where employees can maximize its value. While the technical hurdles are signiﬁcant, the human element can be even more conseque",
+      "source": "MIT Technology Review AI",
+      "author": "MIT Technology Review Insights",
+      "publishedAt": "2025-12-16T15:00:00.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2025/12/16/1125899/creating-psychological-safety-in-the-ai-era/",
+      "readTime": 3,
+      "views": 51062
+    },
+    {
+      "id": "databricks-raises-4b-at-134b-valuation-as-its-ai-b",
+      "title": "Databricks raises $4B at $134B valuation as its AI business heats up",
+      "summary": "The data intelligence company has just raised more than $4 billion in a Series L funding round at a $134 billion valuation — up 34% from the $100 billion valuation that it achieved just three months a.",
+      "content": "The data intelligence company has just raised more than $4 billion in a Series L funding round at a $134 billion valuation — up 34% from the $100 billion valuation that it achieved just three months ago.",
+      "source": "TechCrunch AI",
+      "author": "Ram Iyer",
+      "publishedAt": "2025-12-16T14:39:20.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/12/16/databricks-raises-4b-at-134b-valuation-as-its-ai-business-heats-up/",
+      "readTime": 3,
+      "views": 45041
+    },
+    {
+      "id": "adobe-firefly-now-supports-prompt-based-video-edit",
+      "title": "Adobe Firefly now supports prompt-based video editing, adds more third-party models",
+      "summary": "Adobe is updating its AI video-generation app, Firefly, with a new video editor that supports precise prompt-based edits, as well as adding new third-party models for image and video generation, inclu.",
+      "content": "Adobe is updating its AI video-generation app, Firefly, with a new video editor that supports precise prompt-based edits, as well as adding new third-party models for image and video generation, including Black Forest Labs' FLUX.2 and Topaz Astra.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2025-12-16T14:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/12/16/adobe-firefly-now-supports-prompt-based-video-editing-adds-more-third-party-models/",
+      "readTime": 3,
+      "views": 16960
+    },
+    {
       "id": "mining-business-learnings-for-ai-deployment",
       "title": "Mining business learnings for AI deployment",
       "summary": "Mining conglomerate BHP describes AI as the way it&#8217;s turning operational data into better day-to-day decisions.  A blog post from the company highlights the analysis of data from sensors and mon.",
@@ -14,7 +165,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/mining-ai-gives-businesses-food-for-thought-in-real-life-deployments-of-oi/",
       "readTime": 3,
-      "views": 18482
+      "views": 31550
     },
     {
       "id": "why-it-8217-s-time-to-reset-our-expectations-for-a",
@@ -33,7 +184,7 @@
       ],
       "url": "https://www.technologyreview.com/2025/12/16/1129946/why-its-time-to-reset-our-expectations-for-ai/",
       "readTime": 3,
-      "views": 44169
+      "views": 53058
     },
     {
       "id": "bnp-paribas-introduces-ai-tool-for-investment-bank",
@@ -49,7 +200,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/bnp-paribas-introduces-ai-tool-for-investment-banking/",
       "readTime": 3,
-      "views": 41109
+      "views": 7764
     },
     {
       "id": "everbloom-built-an-ai-to-turn-chicken-feathers-int",
@@ -65,7 +216,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/16/everbloom-built-an-ai-to-turn-chicken-feathers-into-cashmere/",
       "readTime": 3,
-      "views": 15736
+      "views": 17719
     },
     {
       "id": "jpmorgan-chase-ai-strategy-us-18b-bet-paying-off",
@@ -82,7 +233,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/jpmorgan-chase-ai-strategy-2025/",
       "readTime": 3,
-      "views": 38525
+      "views": 10146
     },
     {
       "id": "ai-literacy-and-continuous-education-are-cornersto",
@@ -98,7 +249,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/ai-literacy-in-the-workplace-important-for-growth/",
       "readTime": 3,
-      "views": 14655
+      "views": 49251
     },
     {
       "id": "strong-contractor-belief-in-ai-for-industry-wide-t",
@@ -114,7 +265,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/construction-industry-ai-success-potential/",
       "readTime": 3,
-      "views": 35905
+      "views": 52593
     },
     {
       "id": "vcs-discuss-why-most-consumer-ai-startups-still-la",
@@ -130,7 +281,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/15/vcs-discuss-why-most-consumer-ai-startups-still-lack-staying-power/",
       "readTime": 3,
-      "views": 44289
+      "views": 49741
     },
     {
       "id": "openai-backed-biotech-firm-chai-discovery-raises-1",
@@ -148,7 +299,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/15/openai-backed-biotech-firm-chai-discovery-raises-130m-series-b-at-1-3b-valuation/",
       "readTime": 3,
-      "views": 27036
+      "views": 27452
     },
     {
       "id": "disney-8217-s-openai-deal-is-exclusive-for-just-on",
@@ -166,7 +317,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/15/disneys-openai-deal-is-exclusive-for-just-one-year-then-its-open-season/",
       "readTime": 3,
-      "views": 26263
+      "views": 37312
     },
     {
       "id": "nvidia-bulks-up-open-source-offerings-with-an-acqu",
@@ -183,164 +334,21 @@
       ],
       "url": "https://techcrunch.com/2025/12/15/nvidia-bulks-up-open-source-offerings-with-an-acquisition-and-new-open-ai-models/",
       "readTime": 3,
-      "views": 34144
-    },
-    {
-      "id": "creative-commons-announces-tentative-support-for-a",
-      "title": "Creative Commons announces tentative support for AI &#8216;pay-to-crawl&#8217; systems",
-      "summary": "The organization offered support for this idea of an AI marketplace, and  suggested several guiding principles.",
-      "content": "The organization offered support for this idea of an AI marketplace, and  suggested several guiding principles.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2025-12-15T20:54:54.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/12/15/creative-commons-announces-tentative-support-for-ai-pay-to-crawl-systems/",
-      "readTime": 3,
-      "views": 33639
-    },
-    {
-      "id": "lightspeed-raises-record-9b-in-fresh-capital",
-      "title": "Lightspeed raises record $9B in fresh capital",
-      "summary": "The massive fund haul will allow the Silicon Valley firm to continue to invest in cash-hungry AI startups.",
-      "content": "The massive fund haul will allow the Silicon Valley firm to continue to invest in cash-hungry AI startups.",
-      "source": "TechCrunch AI",
-      "author": "Marina Temkin",
-      "publishedAt": "2025-12-15T20:32:33.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/12/15/lightspeed-raises-record-9b-in-fresh-capital/",
-      "readTime": 3,
-      "views": 9852
-    },
-    {
-      "id": "merriam-webster-names-8216-slop-8217-the-word-of-t",
-      "title": "Merriam-Webster names &#8216;slop&#8217; the word of the year",
-      "summary": "AI-generated content has dominated the internet over the past year, and America's dictionary took note.",
-      "content": "AI-generated content has dominated the internet over the past year, and America's dictionary took note.",
-      "source": "TechCrunch AI",
-      "author": "Lucas Ropek",
-      "publishedAt": "2025-12-15T19:47:53.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/12/15/merriam-webster-names-slop-the-word-of-the-year/",
-      "readTime": 3,
-      "views": 34069
-    },
-    {
-      "id": "the-fast-and-the-future-focused-are-revolutionizin",
-      "title": "The fast and the future-focused are revolutionizing motorsport",
-      "summary": "When the ABB FIA Formula E World Championship launched its first race through Beijing’s Olympic Park in 2014, the idea of all-electric motorsport still bordered on experimental.  Batteries couldn’t ye.",
-      "content": "When the ABB FIA Formula E World Championship launched its first race through Beijing’s Olympic Park in 2014, the idea of all-electric motorsport still bordered on experimental. Batteries couldn’t yet last a full race, and drivers had to switch cars mid-competition. Just over a decade later, Formula",
-      "source": "MIT Technology Review AI",
-      "author": "MIT Technology Review Insights",
-      "publishedAt": "2025-12-15T15:00:00.000Z",
-      "category": "release",
-      "tags": [],
-      "url": "https://www.technologyreview.com/2025/12/15/1127432/the-fast-and-the-future-focused-are-revolutionizing-motorsport/",
-      "readTime": 3,
-      "views": 14206
-    },
-    {
-      "id": "first-voyage-raises-2-5m-for-its-ai-companion-that",
-      "title": "First Voyage raises $2.5M for its AI companion that helps you build habits",
-      "summary": "First Voyage has raised $2. 5 million in a seed funding round from a16z speedrun, SignalFire, True Global, and other investors.",
-      "content": "First Voyage has raised $2.5 million in a seed funding round from a16z speedrun, SignalFire, True Global, and other investors.",
-      "source": "TechCrunch AI",
-      "author": "Dominic-Madori Davis",
-      "publishedAt": "2025-12-15T14:48:24.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/12/15/first-voyage-raises-2-5m-for-its-ai-companion-helps-you-build-habits/",
-      "readTime": 3,
-      "views": 20644
-    },
-    {
-      "id": "aws-8217-s-legacy-will-be-in-ai-success",
-      "title": "AWS&#8217;s legacy will be in AI success",
-      "summary": "As the company that kick-started the cloud computing revolution, Amazon is one of the world&#8217;s biggest companies whose practices in all things technological can be regarded as a blueprint for imp.",
-      "content": "As the company that kick-started the cloud computing revolution, Amazon is one of the world&#8217;s biggest companies whose practices in all things technological can be regarded as a blueprint for implementing new technology. This article looks at some of the ways that the company is deploying AI in",
-      "source": "AI News",
-      "author": "AI News",
-      "publishedAt": "2025-12-15T13:44:11.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/awss-legacy-will-be-in-ai-success/",
-      "readTime": 3,
-      "views": 25390
-    },
-    {
-      "id": "mirelo-raises-41m-from-index-and-a16z-to-solve-ai-",
-      "title": "Mirelo raises $41M from Index and a16z to solve AI video&#8217;s silent problem",
-      "summary": "Mirelo, a German startup that is building AI to add synced sound effects to videos, has raised a $41 million seed round led by Index Ventures and Andreessen Horowitz.",
-      "content": "Mirelo, a German startup that is building AI to add synced sound effects to videos, has raised a $41 million seed round led by Index Ventures and Andreessen Horowitz.",
-      "source": "TechCrunch AI",
-      "author": "Anna Heim",
-      "publishedAt": "2025-12-15T12:30:00.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/12/15/mirelo-raises-41m-from-index-and-a16z-to-solve-ai-videos-silent-problem/",
-      "readTime": 3,
-      "views": 35408
-    },
-    {
-      "id": "a-brief-history-of-sam-altman-s-hype",
-      "title": "A brief history of Sam Altman’s hype",
-      "summary": "Each time you’ve heard a borderline outlandish idea of what AI will be capable of, it often turns out that Sam Altman was, if not the first to articulate it, at least the most persuasive and influenti.",
-      "content": "Each time you’ve heard a borderline outlandish idea of what AI will be capable of, it often turns out that Sam Altman was, if not the first to articulate it, at least the most persuasive and influential voice behind it.&#160; For more than a decade he has been known in Silicon Valley as a world-clas",
-      "source": "MIT Technology Review AI",
-      "author": "James O'Donnell",
-      "publishedAt": "2025-12-15T10:00:00.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2025/12/15/1129169/a-brief-history-of-sam-altmans-hype/",
-      "readTime": 3,
-      "views": 36660
-    },
-    {
-      "id": "the-ai-doomers-feel-undeterred",
-      "title": "The AI doomers feel undeterred",
-      "summary": "It’s a weird time to be an AI doomer.  This small but influential community of researchers, scientists, and policy experts believes, in the simplest terms, that AI could get so good it could be bad—ve.",
-      "content": "It’s a weird time to be an AI doomer. This small but influential community of researchers, scientists, and policy experts believes, in the simplest terms, that AI could get so good it could be bad—very, very bad—for humanity. Though many of these people would be more likely to describe themselves as",
-      "source": "MIT Technology Review AI",
-      "author": "Garrison Lovely",
-      "publishedAt": "2025-12-15T10:00:00.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2025/12/15/1129171/the-ai-doomers-feel-undeterred/",
-      "readTime": 3,
-      "views": 27350
+      "views": 7884
     }
   ],
-  "lastUpdated": "2025-12-16T12:43:10.323Z",
+  "lastUpdated": "2025-12-17T01:27:02.835Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
+    "TechCrunch AI",
     "AI News",
-    "MIT Technology Review AI",
-    "TechCrunch AI"
+    "MIT Technology Review AI"
   ],
   "categories": [
+    "release",
     "market",
     "research",
-    "release",
-    "funding",
-    "regulation"
+    "funding"
   ]
 }
