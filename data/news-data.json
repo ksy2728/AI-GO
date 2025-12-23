@@ -1,6 +1,41 @@
 {
   "articles": [
     {
+      "id": "how-social-media-encourages-the-worst-of-ai-booste",
+      "title": "How social media encourages the worst of AI boosterism",
+      "summary": "Demis Hassabis, CEO of Google DeepMind, summed it up in three words: “This is embarrassing. ”&#160;&#160; Hassabis was replying on X to an overexcited post by Sébastien Bubeck, a research scientist at.",
+      "content": "Demis Hassabis, CEO of Google DeepMind, summed it up in three words: “This is embarrassing.”&#160;&#160; Hassabis was replying on X to an overexcited post by Sébastien Bubeck, a research scientist at the rival firm OpenAI, announcing that two mathematicians had used OpenAI’s latest large language mo",
+      "source": "MIT Technology Review AI",
+      "author": "Will Douglas Heaven",
+      "publishedAt": "2025-12-23T10:00:00.000Z",
+      "category": "research",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI",
+        "Google"
+      ],
+      "url": "https://www.technologyreview.com/2025/12/23/1130393/how-social-media-encourages-the-worst-of-ai-boosterism/",
+      "readTime": 3,
+      "views": 43059
+    },
+    {
+      "id": "inside-china-s-push-to-apply-ai-across-its-energy-",
+      "title": "Inside China’s push to apply AI across its energy system",
+      "summary": "Under China’s push to clean up its energy system, AI is starting to shape how power is produced, moved, and used — not in abstract policy terms, but in day-to-day operations.  In Chifeng, a city in no.",
+      "content": "Under China’s push to clean up its energy system, AI is starting to shape how power is produced, moved, and used — not in abstract policy terms, but in day-to-day operations. In Chifeng, a city in northern China, a renewable-powered factory offers a clear example. The site produces hydrogen and ammo",
+      "source": "AI News",
+      "author": "Muhammad Zulhusni",
+      "publishedAt": "2025-12-23T10:00:00.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/inside-chinas-push-to-apply-ai-across-its-energy-system/",
+      "readTime": 3,
+      "views": 34647
+    },
+    {
       "id": "openai-says-ai-browsers-may-always-be-vulnerable-t",
       "title": "OpenAI says AI browsers may always be vulnerable to prompt injection attacks",
       "summary": "OpenAI says prompt injections will always be a risk for AI browsers with agentic capabilities, like Atlas.  But the firm is beefing up its cybersecurity with an \"LLM-based automated attacker.",
@@ -17,7 +52,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/22/openai-says-ai-browsers-may-always-be-vulnerable-to-prompt-injection-attacks/",
       "readTime": 3,
-      "views": 19171
+      "views": 19289
     },
     {
       "id": "chatgpt-launches-a-year-end-review-like-spotify-wr",
@@ -34,7 +69,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/22/chatgpt-launches-a-year-end-review-like-spotify-wrapped/",
       "readTime": 3,
-      "views": 53190
+      "views": 26020
     },
     {
       "id": "splat-8217-s-app-uses-ai-to-turn-your-photos-into-",
@@ -50,7 +85,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/22/splats-app-uses-ai-to-turn-your-photos-into-coloring-pages-for-kids/",
       "readTime": 3,
-      "views": 28646
+      "views": 20083
     },
     {
       "id": "chatgpt-everything-you-need-to-know-about-the-ai-p",
@@ -68,7 +103,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/22/chatgpt-everything-to-know-about-the-ai-chatbot/",
       "readTime": 3,
-      "views": 49667
+      "views": 40944
     },
     {
       "id": "tesco-signs-three-year-ai-deal-centred-on-customer",
@@ -84,7 +119,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/tesco-signs-three-year-ai-deal-centred-on-customer-experience/",
       "readTime": 3,
-      "views": 39299
+      "views": 45795
     },
     {
       "id": "openai-allows-users-to-directly-adjust-chatgpt-s-e",
@@ -104,7 +139,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/20/openai-allows-users-to-directly-adjust-chatgpts-warmth-and-enthusiasm/",
       "readTime": 3,
-      "views": 29457
+      "views": 35860
     },
     {
       "id": "new-york-governor-kathy-hochul-signs-raise-act-to-",
@@ -120,7 +155,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/20/new-york-governor-kathy-hochul-signs-raise-act-to-regulate-ai-safety/",
       "readTime": 3,
-      "views": 21036
+      "views": 49154
     },
     {
       "id": "ex-splunk-execs-8217-startup-resolve-ai-hits-1b-va",
@@ -136,7 +171,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/19/ex-splunk-execs-startup-resolve-ai-hits-1-billion-valuation-with-series-a/",
       "readTime": 3,
-      "views": 19037
+      "views": 8125
     },
     {
       "id": "cursor-continues-acquisition-spree-with-graphite-d",
@@ -152,7 +187,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/19/cursor-continues-acquisition-spree-with-graphite-deal/",
       "readTime": 3,
-      "views": 16412
+      "views": 45342
     },
     {
       "id": "yann-lecun-confirms-his-new-8216-world-model-8217-",
@@ -168,7 +203,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/19/yann-lecun-confirms-his-new-world-model-startup-reportedly-seeks-5b-valuation/",
       "readTime": 3,
-      "views": 26024
+      "views": 8536
     },
     {
       "id": "hardware-8217-s-brutal-week-irobot-luminar-and-rad",
@@ -184,7 +219,7 @@
       ],
       "url": "https://techcrunch.com/podcast/hardwares-brutal-week-irobot-luminar-and-rad-power-go-bankrupt/",
       "readTime": 3,
-      "views": 36144
+      "views": 42753
     },
     {
       "id": "openai-adds-new-teen-safety-rules-to-chatgpt-as-la",
@@ -204,7 +239,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/19/openai-adds-new-teen-safety-rules-to-models-as-lawmakers-weigh-ai-standards-for-minors/",
       "readTime": 3,
-      "views": 42003
+      "views": 17387
     },
     {
       "id": "known-uses-voice-ai-to-help-you-go-on-more-in-pers",
@@ -220,7 +255,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/19/known-uses-voice-ai-to-help-you-go-on-more-in-person-dates/",
       "readTime": 3,
-      "views": 12708
+      "views": 51305
     },
     {
       "id": "meta-is-developing-a-new-image-and-video-model-for",
@@ -237,7 +272,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/19/meta-is-developing-a-new-image-and-video-model-for-a-2026-release-report-says/",
       "readTime": 3,
-      "views": 20203
+      "views": 36945
     },
     {
       "id": "marketing-agencies-using-ai-in-workflows-serve-mor",
@@ -253,7 +288,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/marketing-agencies-ai-use-creates-faster-workflows-but-need-restructuring-internally/",
       "readTime": 3,
-      "views": 53088
+      "views": 39496
     },
     {
       "id": "openai-is-reportedly-trying-to-raise-100b-at-an-83",
@@ -273,7 +308,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/19/openai-is-reportedly-trying-to-raise-100b-at-an-830b-valuation/",
       "readTime": 3,
-      "views": 5715
+      "views": 12381
     },
     {
       "id": "50-000-copilot-licences-for-indian-service-compani",
@@ -291,7 +326,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/service-provider-ai-implementations-india-enterprise-scale-copilot-rollouts/",
       "readTime": 3,
-      "views": 7053
+      "views": 42587
     },
     {
       "id": "from-roombas-to-e-bikes-why-are-hardware-startups-",
@@ -307,56 +342,23 @@
       ],
       "url": "https://techcrunch.com/video/from-roombas-to-e-bikes-why-are-hardware-startups-going-bankrupt/",
       "readTime": 3,
-      "views": 39425
-    },
-    {
-      "id": "zara-s-use-of-ai-shows-how-retail-workflows-are-qu",
-      "title": "Zara’s use of AI shows how retail workflows are quietly changing",
-      "summary": "Zara is testing how far generative AI can be pushed into everyday retail operations, starting with a part of the business that rarely gets attention in technology discussions: product imagery.  Recent.",
-      "content": "Zara is testing how far generative AI can be pushed into everyday retail operations, starting with a part of the business that rarely gets attention in technology discussions: product imagery. Recent reporting shows the retailer using AI to generate new images of real models wearing different outfit",
-      "source": "AI News",
-      "author": "Muhammad Zulhusni",
-      "publishedAt": "2025-12-19T10:00:00.000Z",
-      "category": "market",
-      "tags": [
-        "ai",
-        "generative ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/zara-use-of-ai-shows-how-retail-workflows-are-quietly-changing/",
-      "readTime": 3,
-      "views": 48965
-    },
-    {
-      "id": "why-british-politicians-are-flocking-to-american-t",
-      "title": "Why British politicians are flocking to American tech giants",
-      "summary": "Former British Chancellor of the Exchequer George Osborne has joined OpenAI as managing director and head of OpenAI for Countries.  He also will run Coinbase's internal advisory council.",
-      "content": "Former British Chancellor of the Exchequer George Osborne has joined OpenAI as managing director and head of OpenAI for Countries. He also will run Coinbase's internal advisory council.",
-      "source": "TechCrunch AI",
-      "author": "Anna Heim",
-      "publishedAt": "2025-12-18T19:50:23.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2025/12/18/why-british-politicians-are-flocking-to-american-tech-giants/",
-      "readTime": 3,
-      "views": 9361
+      "views": 37127
     }
   ],
-  "lastUpdated": "2025-12-23T06:33:03.362Z",
+  "lastUpdated": "2025-12-23T12:42:14.957Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "TechCrunch AI",
-    "AI News"
+    "MIT Technology Review AI",
+    "AI News",
+    "TechCrunch AI"
   ],
   "categories": [
+    "research",
+    "regulation",
     "release",
     "partnership",
     "funding",
-    "market",
-    "regulation"
+    "market"
   ]
 }
