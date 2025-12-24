@@ -1,6 +1,73 @@
 {
   "articles": [
     {
+      "id": "john-carreyrou-and-other-authors-bring-new-lawsuit",
+      "title": "John Carreyrou and other authors bring new lawsuit against six major AI companies",
+      "summary": "These authors rejected Anthropic's class action settlement, arguing that \"LLM companies should not be able to so easily extinguish thousands upon thousands of high-value claims at bargain-basement rat.",
+      "content": "These authors rejected Anthropic's class action settlement, arguing that \"LLM companies should not be able to so easily extinguish thousands upon thousands of high-value claims at bargain-basement rates.\"",
+      "source": "TechCrunch AI",
+      "author": "Amanda Silberling",
+      "publishedAt": "2025-12-23T19:02:47.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai",
+        "llm",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2025/12/23/john-carreyrou-and-other-authors-bring-new-lawsuit-against-six-major-ai-companies/",
+      "readTime": 3,
+      "views": 50113
+    },
+    {
+      "id": "marissa-mayer-s-new-startup-dazzle-raises-8m-led-b",
+      "title": "Marissa Mayer’s new startup Dazzle raises $8M led by Forerunner&#8217;s Kirsten Green",
+      "summary": "Mayer launched Dazzle after shuttering her photo and contact management startup Sunshine.  Green’s investment suggests Dazzle is poised for the coming wave of new AI-infused consumer businesses.",
+      "content": "Mayer launched Dazzle after shuttering her photo and contact management startup Sunshine. Green’s investment suggests Dazzle is poised for the coming wave of new AI-infused consumer businesses.",
+      "source": "TechCrunch AI",
+      "author": "Marina Temkin",
+      "publishedAt": "2025-12-23T16:48:45.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/12/23/marissa-mayers-new-startup-dazzle-raises-8m-led-by-forerunners-kirsten-green/",
+      "readTime": 3,
+      "views": 18034
+    },
+    {
+      "id": "amazon-8217-s-ai-assistant-alexa-now-works-with-an",
+      "title": "Amazon&#8217;s AI assistant Alexa+ now works with Angi, Expedia, Square, and Yelp",
+      "summary": "The new integrations join other services like Yelp, Uber, OpenTable and others.",
+      "content": "The new integrations join other services like Yelp, Uber, OpenTable and others.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2025-12-23T16:04:57.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/12/23/amazons-ai-assistant-alexa-now-works-with-angi-expedia-square-and-yelp/",
+      "readTime": 3,
+      "views": 36436
+    },
+    {
+      "id": "lemon-slice-nabs-10-5m-from-yc-and-matrix-to-build",
+      "title": "Lemon Slice nabs $10.5M from YC and Matrix to build out its digital avatar tech",
+      "summary": "Digital avatar generation company Lemon Slice is working to add a video layer to AI chatbots with a new diffusion model that can create digital avatars from a single image.",
+      "content": "Digital avatar generation company Lemon Slice is working to add a video layer to AI chatbots with a new diffusion model that can create digital avatars from a single image.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2025-12-23T16:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2025/12/23/lemon-slice-nabs-10-5m-from-yc-and-matrix-to-build-out-its-digital-avatar-tech/",
+      "readTime": 3,
+      "views": 52408
+    },
+    {
       "id": "how-social-media-encourages-the-worst-of-ai-booste",
       "title": "How social media encourages the worst of AI boosterism",
       "summary": "Demis Hassabis, CEO of Google DeepMind, summed it up in three words: “This is embarrassing. ”&#160;&#160; Hassabis was replying on X to an overexcited post by Sébastien Bubeck, a research scientist at.",
@@ -17,23 +84,7 @@
       ],
       "url": "https://www.technologyreview.com/2025/12/23/1130393/how-social-media-encourages-the-worst-of-ai-boosterism/",
       "readTime": 3,
-      "views": 43059
-    },
-    {
-      "id": "inside-china-s-push-to-apply-ai-across-its-energy-",
-      "title": "Inside China’s push to apply AI across its energy system",
-      "summary": "Under China’s push to clean up its energy system, AI is starting to shape how power is produced, moved, and used — not in abstract policy terms, but in day-to-day operations.  In Chifeng, a city in no.",
-      "content": "Under China’s push to clean up its energy system, AI is starting to shape how power is produced, moved, and used — not in abstract policy terms, but in day-to-day operations. In Chifeng, a city in northern China, a renewable-powered factory offers a clear example. The site produces hydrogen and ammo",
-      "source": "AI News",
-      "author": "Muhammad Zulhusni",
-      "publishedAt": "2025-12-23T10:00:00.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/inside-chinas-push-to-apply-ai-across-its-energy-system/",
-      "readTime": 3,
-      "views": 34647
+      "views": 46331
     },
     {
       "id": "openai-says-ai-browsers-may-always-be-vulnerable-t",
@@ -52,7 +103,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/22/openai-says-ai-browsers-may-always-be-vulnerable-to-prompt-injection-attacks/",
       "readTime": 3,
-      "views": 19289
+      "views": 6592
     },
     {
       "id": "chatgpt-launches-a-year-end-review-like-spotify-wr",
@@ -69,7 +120,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/22/chatgpt-launches-a-year-end-review-like-spotify-wrapped/",
       "readTime": 3,
-      "views": 26020
+      "views": 12923
     },
     {
       "id": "splat-8217-s-app-uses-ai-to-turn-your-photos-into-",
@@ -85,7 +136,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/22/splats-app-uses-ai-to-turn-your-photos-into-coloring-pages-for-kids/",
       "readTime": 3,
-      "views": 20083
+      "views": 10728
     },
     {
       "id": "chatgpt-everything-you-need-to-know-about-the-ai-p",
@@ -103,23 +154,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/22/chatgpt-everything-to-know-about-the-ai-chatbot/",
       "readTime": 3,
-      "views": 40944
-    },
-    {
-      "id": "tesco-signs-three-year-ai-deal-centred-on-customer",
-      "title": "Tesco signs three-year AI deal centred on customer experience",
-      "summary": "For large retailers, the challenge with AI isn&#8217;t whether it can be useful, but how it fits into everyday work.  A new three-year AI partnership by Tesco points to how one of the UK&#8217;s bigge.",
-      "content": "For large retailers, the challenge with AI isn&#8217;t whether it can be useful, but how it fits into everyday work. A new three-year AI partnership by Tesco points to how one of the UK&#8217;s biggest supermarket groups is trying to achieve just that. Tesco plans to work with Mistral to develop AI ",
-      "source": "AI News",
-      "author": "Muhammad Zulhusni",
-      "publishedAt": "2025-12-22T10:00:00.000Z",
-      "category": "partnership",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/tesco-signs-three-year-ai-deal-centred-on-customer-experience/",
-      "readTime": 3,
-      "views": 45795
+      "views": 21535
     },
     {
       "id": "openai-allows-users-to-directly-adjust-chatgpt-s-e",
@@ -139,7 +174,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/20/openai-allows-users-to-directly-adjust-chatgpts-warmth-and-enthusiasm/",
       "readTime": 3,
-      "views": 35860
+      "views": 30018
     },
     {
       "id": "new-york-governor-kathy-hochul-signs-raise-act-to-",
@@ -155,7 +190,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/20/new-york-governor-kathy-hochul-signs-raise-act-to-regulate-ai-safety/",
       "readTime": 3,
-      "views": 49154
+      "views": 40717
     },
     {
       "id": "ex-splunk-execs-8217-startup-resolve-ai-hits-1b-va",
@@ -171,7 +206,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/19/ex-splunk-execs-startup-resolve-ai-hits-1-billion-valuation-with-series-a/",
       "readTime": 3,
-      "views": 8125
+      "views": 50820
     },
     {
       "id": "cursor-continues-acquisition-spree-with-graphite-d",
@@ -187,7 +222,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/19/cursor-continues-acquisition-spree-with-graphite-deal/",
       "readTime": 3,
-      "views": 45342
+      "views": 20731
     },
     {
       "id": "yann-lecun-confirms-his-new-8216-world-model-8217-",
@@ -203,7 +238,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/19/yann-lecun-confirms-his-new-world-model-startup-reportedly-seeks-5b-valuation/",
       "readTime": 3,
-      "views": 8536
+      "views": 22443
     },
     {
       "id": "hardware-8217-s-brutal-week-irobot-luminar-and-rad",
@@ -219,7 +254,7 @@
       ],
       "url": "https://techcrunch.com/podcast/hardwares-brutal-week-irobot-luminar-and-rad-power-go-bankrupt/",
       "readTime": 3,
-      "views": 42753
+      "views": 44074
     },
     {
       "id": "openai-adds-new-teen-safety-rules-to-chatgpt-as-la",
@@ -239,7 +274,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/19/openai-adds-new-teen-safety-rules-to-models-as-lawmakers-weigh-ai-standards-for-minors/",
       "readTime": 3,
-      "views": 17387
+      "views": 36593
     },
     {
       "id": "known-uses-voice-ai-to-help-you-go-on-more-in-pers",
@@ -255,7 +290,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/19/known-uses-voice-ai-to-help-you-go-on-more-in-person-dates/",
       "readTime": 3,
-      "views": 51305
+      "views": 20206
     },
     {
       "id": "meta-is-developing-a-new-image-and-video-model-for",
@@ -272,23 +307,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/19/meta-is-developing-a-new-image-and-video-model-for-a-2026-release-report-says/",
       "readTime": 3,
-      "views": 36945
-    },
-    {
-      "id": "marketing-agencies-using-ai-in-workflows-serve-mor",
-      "title": "Marketing agencies using AI in workflows serve more clients",
-      "summary": "Of all the many industries, it&#8217;s marketing where AI is no longer an &#8220;innovation lab&#8221; side project but embedded in briefs, production pipelines, approvals, and media optimisation.  A .",
-      "content": "Of all the many industries, it&#8217;s marketing where AI is no longer an &#8220;innovation lab&#8221; side project but embedded in briefs, production pipelines, approvals, and media optimisation. A WPP iQ post published in December, based on a webinar with WPP and Stability AI, shows what AI deploy",
-      "source": "AI News",
-      "author": "AI News",
-      "publishedAt": "2025-12-19T15:45:59.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/marketing-agencies-ai-use-creates-faster-workflows-but-need-restructuring-internally/",
-      "readTime": 3,
-      "views": 39496
+      "views": 10372
     },
     {
       "id": "openai-is-reportedly-trying-to-raise-100b-at-an-83",
@@ -308,56 +327,36 @@
       ],
       "url": "https://techcrunch.com/2025/12/19/openai-is-reportedly-trying-to-raise-100b-at-an-830b-valuation/",
       "readTime": 3,
-      "views": 12381
+      "views": 54771
     },
     {
-      "id": "50-000-copilot-licences-for-indian-service-compani",
-      "title": "50,000 Copilot licences for Indian service companies",
-      "summary": "Cognizant, Tata Consultancy Services, Infosys, and Wipro have announced plans to deploy more than 200,000 Microsoft Copilot licenses in their enterprises – over 50,000 per company – in what Microsoft .",
-      "content": "Cognizant, Tata Consultancy Services, Infosys, and Wipro have announced plans to deploy more than 200,000 Microsoft Copilot licenses in their enterprises – over 50,000 per company – in what Microsoft is calling a new benchmark for enterprise-scale adoption of generative AI. The companies involved ar",
-      "source": "AI News",
-      "author": "AI News",
-      "publishedAt": "2025-12-19T13:19:12.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "generative ai",
-        "Microsoft"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/service-provider-ai-implementations-india-enterprise-scale-copilot-rollouts/",
-      "readTime": 3,
-      "views": 42587
-    },
-    {
-      "id": "from-roombas-to-e-bikes-why-are-hardware-startups-",
-      "title": "From Roombas to e-bikes, why are hardware startups going bankrupt?",
-      "summary": "The hardware world had a brutal week, with&#160;iRobot,&#160;Luminar, and&#160;Rad Power Bikes&#160;all filing for bankruptcy. &#160; Each company faces its own mix of tariff pressures, supply chain i.",
-      "content": "The hardware world had a brutal week, with&#160;iRobot,&#160;Luminar, and&#160;Rad Power Bikes&#160;all filing for bankruptcy.&#160; Each company faces its own mix of tariff pressures, supply chain issues, and shifting markets, but together they tell a larger story about the challenges of building p",
-      "source": "TechCrunch AI",
-      "author": "Theresa Loconsolo",
-      "publishedAt": "2025-12-19T13:00:00.000Z",
-      "category": "market",
+      "id": "creating-psychological-safety-in-the-ai-era",
+      "title": "Creating psychological safety in the AI era",
+      "summary": "Rolling out enterprise-grade AI means climbing two steep cliffs at once.  First, understanding and implementing the tech itself.",
+      "content": "Rolling out enterprise-grade AI means climbing two steep cliffs at once. First, understanding and implementing the tech itself. And second, creating the cultural conditions where employees can maximize its value. While the technical hurdles are signiﬁcant, the human element can be even more conseque",
+      "source": "MIT Technology Review AI",
+      "author": "MIT Technology Review Insights",
+      "publishedAt": "2025-12-16T15:00:00.000Z",
+      "category": "research",
       "tags": [
         "ai"
       ],
-      "url": "https://techcrunch.com/video/from-roombas-to-e-bikes-why-are-hardware-startups-going-bankrupt/",
+      "url": "https://www.technologyreview.com/2025/12/16/1125899/creating-psychological-safety-in-the-ai-era/",
       "readTime": 3,
-      "views": 37127
+      "views": 30775
     }
   ],
-  "lastUpdated": "2025-12-23T12:42:14.957Z",
+  "lastUpdated": "2025-12-24T01:39:04.365Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "MIT Technology Review AI",
-    "AI News",
-    "TechCrunch AI"
+    "TechCrunch AI",
+    "MIT Technology Review AI"
   ],
   "categories": [
-    "research",
     "regulation",
     "release",
-    "partnership",
+    "research",
     "funding",
     "market"
   ]
