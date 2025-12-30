@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "id": "the-ascent-of-the-ai-therapist",
+      "title": "The ascent of the AI therapist",
+      "summary": "We’re in the midst of a global mental-­health crisis.  More than a billion people worldwide suffer from a mental-health condition, according to the World Health Organization.",
+      "content": "We’re in the midst of a global mental-­health crisis. More than a billion people worldwide suffer from a mental-health condition, according to the World Health Organization. The prevalence of anxiety and depression is growing in many demographics, particularly young people, and suicide is claiming h",
+      "source": "MIT Technology Review AI",
+      "author": "Becky Ferreira",
+      "publishedAt": "2025-12-30T11:00:00.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2025/12/30/1129392/book-reviews-ai-therapy-mental-health/",
+      "readTime": 3,
+      "views": 33614
+    },
+    {
       "id": "meta-just-bought-manus-an-ai-startup-everyone-has-",
       "title": "Meta just bought Manus, an AI startup everyone has been talking about",
       "summary": "Meta says it'll keep Manus running independently while weaving its agents into Facebook, Instagram, and WhatsApp, where Meta's own chatbot, Meta AI, is already available to users.",
@@ -15,7 +31,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/29/meta-just-bought-manus-an-ai-startup-everyone-has-been-talking-about/",
       "readTime": 3,
-      "views": 24825
+      "views": 40654
     },
     {
       "id": "2025-was-the-year-ai-got-a-vibe-check",
@@ -31,7 +47,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/29/2025-was-the-year-ai-got-a-vibe-check/",
       "readTime": 3,
-      "views": 54702
+      "views": 21718
     },
     {
       "id": "plaud-note-pro-is-an-excellent-ai-powered-recorder",
@@ -47,7 +63,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/29/plaud-note-pro-is-an-excellent-ai-powered-recorder-that-i-carry-everywhere/",
       "readTime": 3,
-      "views": 33712
+      "views": 37886
     },
     {
       "id": "how-to-use-the-new-chatgpt-app-integrations-includ",
@@ -64,7 +80,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/29/how-to-use-the-new-chatgpt-app-integrations-including-doordash-spotify-uber-and-others/",
       "readTime": 3,
-      "views": 27563
+      "views": 38634
     },
     {
       "id": "vcs-predict-strong-enterprise-ai-adoption-next-yea",
@@ -80,7 +96,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/29/vcs-predict-strong-enterprise-ai-adoption-next-year-again/",
       "readTime": 3,
-      "views": 46157
+      "views": 10695
     },
     {
       "id": "openai-is-looking-for-a-new-head-of-preparedness",
@@ -98,7 +114,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/28/openai-is-looking-for-a-new-head-of-preparedness/",
       "readTime": 3,
-      "views": 12938
+      "views": 28802
     },
     {
       "id": "equity-8217-s-2026-predictions-ai-agents-blockbust",
@@ -114,7 +130,7 @@
       ],
       "url": "https://techcrunch.com/podcast/equitys-2026-predictions-ai-agents-blockbuster-ipos-and-the-future-of-vc/",
       "readTime": 3,
-      "views": 22804
+      "views": 17938
     },
     {
       "id": "ai-wrapped-the-14-ai-terms-you-couldn-t-avoid-in-2",
@@ -131,7 +147,7 @@
       ],
       "url": "https://www.technologyreview.com/2025/12/25/1130298/ai-wrapped-the-14-ai-terms-you-couldnt-avoid-in-2025/",
       "readTime": 3,
-      "views": 6559
+      "views": 14688
     },
     {
       "id": "nvidia-to-license-ai-chip-challenger-groq-8217-s-t",
@@ -147,7 +163,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/24/nvidia-acquires-ai-chip-challenger-groq-for-20b-report-says/",
       "readTime": 3,
-      "views": 30453
+      "views": 9563
     },
     {
       "id": "why-the-operating-room-is-ripe-for-ai-according-to",
@@ -163,7 +179,7 @@
       ],
       "url": "https://techcrunch.com/podcast/why-the-operating-room-is-ripe-for-ai-according-to-akara/",
       "readTime": 3,
-      "views": 34854
+      "views": 46172
     },
     {
       "id": "waymo-is-testing-gemini-as-an-in-car-ai-assistant-",
@@ -180,7 +196,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/24/waymo-is-testing-gemini-as-an-in-car-ai-assistant-in-its-robotaxis/",
       "readTime": 3,
-      "views": 22609
+      "views": 42045
     },
     {
       "id": "italy-tells-meta-to-suspend-its-policy-that-bans-r",
@@ -197,7 +213,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/24/italy-tells-meta-to-suspend-its-policy-that-bans-rival-ai-chatbots-from-whatsapp/",
       "readTime": 3,
-      "views": 39813
+      "views": 45249
     },
     {
       "id": "the-future-of-rail-watching-predicting-and-learnin",
@@ -213,7 +229,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/rail-ai-in-the-uk-beyond-predictive-maintenance/",
       "readTime": 3,
-      "views": 12976
+      "views": 47521
     },
     {
       "id": "disney-is-embedding-generative-ai-into-its-operati",
@@ -230,7 +246,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/why-disney-is-embedding-generative-ai-into-its-operating-model/",
       "readTime": 3,
-      "views": 7673
+      "views": 48512
     },
     {
       "id": "can-ai-fix-the-operating-room-this-startup-thinks-",
@@ -246,7 +262,7 @@
       ],
       "url": "https://techcrunch.com/video/can-ai-fix-the-operating-room-this-startup-thinks-so/",
       "readTime": 3,
-      "views": 36740
+      "views": 8633
     },
     {
       "id": "john-carreyrou-and-other-authors-bring-new-lawsuit",
@@ -265,7 +281,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/23/john-carreyrou-and-other-authors-bring-new-lawsuit-against-six-major-ai-companies/",
       "readTime": 3,
-      "views": 14691
+      "views": 27167
     },
     {
       "id": "marissa-mayer-s-new-startup-dazzle-raises-8m-led-b",
@@ -281,7 +297,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/23/marissa-mayers-new-startup-dazzle-raises-8m-led-by-forerunners-kirsten-green/",
       "readTime": 3,
-      "views": 36673
+      "views": 19616
     },
     {
       "id": "amazon-8217-s-ai-assistant-alexa-now-works-with-an",
@@ -297,7 +313,7 @@
       ],
       "url": "https://techcrunch.com/2025/12/23/amazons-ai-assistant-alexa-now-works-with-angi-expedia-square-and-yelp/",
       "readTime": 3,
-      "views": 14433
+      "views": 30555
     },
     {
       "id": "lemon-slice-nabs-10-5m-from-yc-and-matrix-to-build",
@@ -313,37 +329,21 @@
       ],
       "url": "https://techcrunch.com/2025/12/23/lemon-slice-nabs-10-5m-from-yc-and-matrix-to-build-out-its-digital-avatar-tech/",
       "readTime": 3,
-      "views": 17721
-    },
-    {
-      "id": "arm-and-the-future-of-ai-at-the-edge",
-      "title": "Arm and the future of AI at the edge",
-      "summary": "Arm Holdings has positioned itself at the centre of AI transformation.  In a wide-ranging podcast interview, Vince Jesaitis, head of global government affairs at Arm, offered enterprise decision-maker.",
-      "content": "Arm Holdings has positioned itself at the centre of AI transformation. In a wide-ranging podcast interview, Vince Jesaitis, head of global government affairs at Arm, offered enterprise decision-makers look into the company&#8217;s international strategy, the evolution of AI as the company sees it, a",
-      "source": "AI News",
-      "author": "AI News",
-      "publishedAt": "2025-12-23T13:45:19.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/arm-chips-and-the-future-of-ai-at-the-edge/",
-      "readTime": 3,
-      "views": 49219
+      "views": 34737
     }
   ],
-  "lastUpdated": "2025-12-30T06:32:12.155Z",
+  "lastUpdated": "2025-12-30T12:42:11.819Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "TechCrunch AI",
     "MIT Technology Review AI",
+    "TechCrunch AI",
     "AI News"
   ],
   "categories": [
+    "research",
     "release",
     "funding",
-    "research",
     "market",
     "regulation"
   ]
