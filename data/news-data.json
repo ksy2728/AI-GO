@@ -1,12 +1,108 @@
 {
   "articles": [
     {
+      "id": "microsoft-8217-s-nadella-wants-us-to-stop-thinking",
+      "title": "Microsoft&#8217;s Nadella wants us to stop thinking of AI as &#8216;slop&#8217;",
+      "summary": "Nadella wants us to think of AI as a human helper instead of a slop-generating job killer.  New data for 2026 indicates he could be right.",
+      "content": "Nadella wants us to think of AI as a human helper instead of a slop-generating job killer. New data for 2026 indicates he could be right.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2026-01-05T23:09:56.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Microsoft"
+      ],
+      "url": "https://techcrunch.com/2026/01/05/microsofts-nadella-wants-us-to-stop-thinking-of-ai-as-slop/",
+      "readTime": 3,
+      "views": 18273
+    },
+    {
+      "id": "nvidia-wants-to-be-the-android-of-generalist-robot",
+      "title": "Nvidia wants to be the Android of generalist robotics",
+      "summary": "Nvidia unveiled a full-stack robotics ecosystem at CES 2026, including foundation models, simulation tools, and hardware.  It wants to be the default platform for robotics.",
+      "content": "Nvidia unveiled a full-stack robotics ecosystem at CES 2026, including foundation models, simulation tools, and hardware. It wants to be the default platform for robotics.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-01-05T23:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "robotics"
+      ],
+      "url": "https://techcrunch.com/2026/01/05/nvidia-wants-to-be-the-android-of-generalist-robotics/",
+      "readTime": 3,
+      "views": 28726
+    },
+    {
+      "id": "nvidia-launches-powerful-new-rubin-chip-architectu",
+      "title": "Nvidia launches powerful new Rubin chip architecture",
+      "summary": "Nvidia CEO Jensen Huang officially launched the company’s new Rubin computing architecture, which he described as the state of the art in AI computing.",
+      "content": "Nvidia CEO Jensen Huang officially launched the company’s new Rubin computing architecture, which he described as the state of the art in AI computing.",
+      "source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "publishedAt": "2026-01-05T22:16:58.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/01/05/nvidia-launches-powerful-new-rubin-chip-architecture/",
+      "readTime": 3,
+      "views": 5371
+    },
+    {
+      "id": "ces-2026-follow-live-as-nvidia-lego-amd-amazon-and",
+      "title": "CES 2026: Follow live as Nvidia, Lego, AMD, Amazon, and more make their big reveals",
+      "summary": "CES 2026, the annual consumer tech conference held in Las Vegas, is here.  And lucky for you, we have TechCrunch editors and reporters on the ground to cover the news, scout out the interesting, weird.",
+      "content": "CES 2026, the annual consumer tech conference held in Las Vegas, is here. And lucky for you, we have TechCrunch editors and reporters on the ground to cover the news, scout out the interesting, weird, and relevant (and some not so relevant) tech, and of course the people working on it. Even before t",
+      "source": "TechCrunch AI",
+      "author": "Kirsten Korosec, Sarah Perez",
+      "publishedAt": "2026-01-05T16:09:26.000Z",
+      "category": "release",
+      "tags": [],
+      "url": "https://techcrunch.com/storyline/ces-2026-follow-live-as-nvidia-lego-amd-amazon-and-more-make-their-big-reveals/",
+      "readTime": 3,
+      "views": 52087
+    },
+    {
+      "id": "amazon-8217-s-ai-assistant-comes-to-the-web-with-a",
+      "title": "Amazon&#8217;s AI assistant comes to the web with Alexa.com",
+      "summary": "Amazon is bringing Alexa+ to the web with a new Alexa. com site, expanding its AI assistant beyond devices and positioning it as a family-focused, agent-style chatbot.",
+      "content": "Amazon is bringing Alexa+ to the web with a new Alexa.com site, expanding its AI assistant beyond devices and positioning it as a family-focused, agent-style chatbot.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-01-05T15:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/01/05/alexa-without-an-echo-amazons-ai-chatbot-comes-to-the-web-and-a-revamped-alexa-app/",
+      "readTime": 3,
+      "views": 36668
+    },
+    {
+      "id": "google-previews-new-gemini-features-for-tv-at-ces-",
+      "title": "Google previews new Gemini features for TV at CES 2026",
+      "summary": "Google TV will let you ask Gemini to find and edit your photos, adjust your TV settings, and more.",
+      "content": "Google TV will let you ask Gemini to find and edit your photos, adjust your TV settings, and more.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-01-05T14:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "gemini",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2026/01/05/google-previews-new-gemini-features-for-tv-at-ces-2026/",
+      "readTime": 3,
+      "views": 34143
+    },
+    {
       "id": "what-8217-s-next-for-ai-in-2026",
       "title": "What&#8217;s next for AI in 2026",
-      "summary": "MIT Technology Review���s What’s Next series looks across industries, trends, and technologies to give you a first look at the future.  You can read the rest of them here.",
-      "content": "MIT Technology Review���s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them here. In an industry in constant flux, sticking your neck out to predict what’s coming next may seem reckless. (AI bubble? What AI bubb",
+      "summary": "MIT Technology Review��s What’s Next series looks across industries, trends, and technologies to give you a first look at the future.  You can read the rest of them here.",
+      "content": "MIT Technology Review��s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them here. In an industry in constant flux, sticking your neck out to predict what’s coming next may seem reckless. (AI bubble? What AI bubbl",
       "source": "MIT Technology Review AI",
-      "author": "Caiwei Chen, Will Douglas Heaven, Michelle Kim, James O'Donnell, Rhiannon Williams",
+      "author": "Rhiannon Williams, Will Douglas Heaven, Caiwei Chen, James O'Donnell, Michelle Kim",
       "publishedAt": "2026-01-05T11:04:46.000Z",
       "category": "funding",
       "tags": [
@@ -14,7 +110,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/01/05/1130662/whats-next-for-ai-in-2026/",
       "readTime": 3,
-      "views": 6047
+      "views": 9362
     },
     {
       "id": "l-or-al-brings-ai-into-everyday-digital-advertisin",
@@ -30,7 +126,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/loreal-brings-ai-into-everyday-digital-advertising-production/",
       "readTime": 3,
-      "views": 28751
+      "views": 7506
     },
     {
       "id": "doordash-says-it-banned-driver-who-seemingly-faked",
@@ -46,13 +142,13 @@
       ],
       "url": "https://techcrunch.com/2026/01/04/doordash-says-it-banned-driver-who-seemingly-faked-a-delivery-using-ai/",
       "readTime": 3,
-      "views": 26714
+      "views": 44255
     },
     {
       "id": "plaud-launches-a-new-ai-pin-and-a-desktop-meeting-",
       "title": "Plaud launches a new AI pin and a desktop meeting notetaker",
       "summary": "Plaud is going after the likes of Granola to launch a desktop app that records online meetings.",
-      "content": "Plaud is going after the likes of Granola to launch a desktop app that records online meetings",
+      "content": "Plaud is going after the likes of Granola to launch a desktop app that records online meetings.",
       "source": "TechCrunch AI",
       "author": "Ivan Mehta",
       "publishedAt": "2026-01-04T16:28:10.000Z",
@@ -62,13 +158,13 @@
       ],
       "url": "https://techcrunch.com/2026/01/04/plaud-launches-a-new-ai-pin-and-a-desktop-meeting-notetaker/",
       "readTime": 3,
-      "views": 10505
+      "views": 29742
     },
     {
-      "id": "tech-billionaires-cashed-out-16-billion-in-2025-as",
-      "title": "Tech billionaires cashed out $16 billion in 2025 as stocks soared",
+      "id": "tech-billionaires-cashed-out-16b-in-2025-as-stocks",
+      "title": "Tech billionaires cashed out $16B in 2025 as stocks soared",
       "summary": "Jeff Bezos led the way.  The Amazon founder sold 25 million shares for $5.",
-      "content": "Jeff Bezos led the way. The Amazon founder sold 25 million shares for $5.7 billion in June and July, right around the time he was getting hitched to Lauren Sanchez in Venice.",
+      "content": "Jeff Bezos led the way. The Amazon founder sold 25 million shares for $5.7 billion in June and July, right around the time he was getting hitched to Lauren Sánchez in Venice.",
       "source": "TechCrunch AI",
       "author": "Connie Loizos",
       "publishedAt": "2026-01-03T23:45:07.000Z",
@@ -78,7 +174,7 @@
       ],
       "url": "https://techcrunch.com/2026/01/03/tech-billionaires-cashed-out-16-billion-in-2025-as-stocks-soared/",
       "readTime": 3,
-      "views": 27087
+      "views": 9897
     },
     {
       "id": "india-orders-musk-8217-s-x-to-fix-grok-over-8216-o",
@@ -94,7 +190,7 @@
       ],
       "url": "https://techcrunch.com/2026/01/02/india-orders-musks-x-to-fix-grok-over-obscene-ai-content/",
       "readTime": 3,
-      "views": 30540
+      "views": 25414
     },
     {
       "id": "how-ai-is-reshaping-work-and-who-gets-to-do-it-acc",
@@ -114,7 +210,7 @@
       ],
       "url": "https://techcrunch.com/podcast/how-ai-is-reshaping-work-and-who-gets-to-do-it-according-to-mercors-ceo/",
       "readTime": 3,
-      "views": 27859
+      "views": 36582
     },
     {
       "id": "nvidia-8217-s-ai-empire-a-look-at-its-top-startup-",
@@ -130,7 +226,7 @@
       ],
       "url": "https://techcrunch.com/2026/01/02/nvidias-ai-empire-a-look-at-its-top-startup-investments/",
       "readTime": 3,
-      "views": 46301
+      "views": 42007
     },
     {
       "id": "in-2026-ai-will-move-from-hype-to-pragmatism",
@@ -146,7 +242,7 @@
       ],
       "url": "https://techcrunch.com/2026/01/02/in-2026-ai-will-move-from-hype-to-pragmatism/",
       "readTime": 3,
-      "views": 9061
+      "views": 29669
     },
     {
       "id": "understanding-how-ai-and-big-data-transform-digita",
@@ -163,7 +259,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/understanding-how-ai-and-big-data-transform-digital-marketing/",
       "readTime": 3,
-      "views": 48027
+      "views": 47694
     },
     {
       "id": "solana-8217-s-high-speed-ai-gains-and-malware-loss",
@@ -179,7 +275,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/solanas-high-speed-ai-gains-and-malware-losses/",
       "readTime": 3,
-      "views": 50288
+      "views": 49143
     },
     {
       "id": "european-banks-plan-to-cut-200-000-jobs-as-ai-take",
@@ -195,7 +291,7 @@
       ],
       "url": "https://techcrunch.com/2026/01/01/european-banks-plan-to-cut-200000-jobs-as-ai-takes-hold/",
       "readTime": 3,
-      "views": 45939
+      "views": 51080
     },
     {
       "id": "openai-bets-big-on-audio-as-silicon-valley-declare",
@@ -213,7 +309,7 @@
       ],
       "url": "https://techcrunch.com/2026/01/01/openai-bets-big-on-audio-as-silicon-valley-declares-war-on-screens/",
       "readTime": 3,
-      "views": 6979
+      "views": 38705
     },
     {
       "id": "8216-college-dropout-8217-has-become-the-most-cove",
@@ -229,120 +325,21 @@
       ],
       "url": "https://techcrunch.com/2025/12/31/college-dropout-has-become-the-most-coveted-startup-founder-credential/",
       "readTime": 3,
-      "views": 8287
-    },
-    {
-      "id": "investors-predict-ai-is-coming-for-labor-in-2026",
-      "title": "Investors predict AI is coming for labor in 2026",
-      "summary": "The exact impact AI will have on the enterprise labor market is unclear but investors predict trends will start to emerge in 2026.",
-      "content": "The exact impact AI will have on the enterprise labor market is unclear but investors predict trends will start to emerge in 2026.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Szkutak",
-      "publishedAt": "2025-12-31T16:40:00.000Z",
-      "category": "partnership",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/12/31/investors-predict-ai-is-coming-for-labor-in-2026/",
-      "readTime": 3,
-      "views": 27396
-    },
-    {
-      "id": "the-best-ai-powered-dictation-apps-of-2025",
-      "title": "The best AI-powered dictation apps of 2025",
-      "summary": "AI-powered dictation apps are useful for replying to emails, taking notes, and even coding through your voice.",
-      "content": "AI-powered dictation apps are useful for replying to emails, taking notes, and even coding through your voice",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2025-12-30T16:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/12/30/the-best-ai-powered-dictation-apps-of-2025/",
-      "readTime": 3,
-      "views": 12550
-    },
-    {
-      "id": "vcs-predict-enterprises-will-spend-more-on-ai-in-2",
-      "title": "VCs predict enterprises will spend more on AI in 2026 — through fewer vendors",
-      "summary": "Enterprises have been experimenting with AI tools for a few years.  Investors predict they will start to pick winners in 2026.",
-      "content": "Enterprises have been experimenting with AI tools for a few years. Investors predict they will start to pick winners in 2026.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Szkutak",
-      "publishedAt": "2025-12-30T15:30:24.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/12/30/vcs-predict-enterprises-will-spend-more-on-ai-in-2026-through-fewer-vendors/",
-      "readTime": 3,
-      "views": 43506
-    },
-    {
-      "id": "the-ascent-of-the-ai-therapist",
-      "title": "The ascent of the AI therapist",
-      "summary": "We’re in the midst of a global mental-­health crisis.  More than a billion people worldwide suffer from a mental-health condition, according to the World Health Organization.",
-      "content": "We’re in the midst of a global mental-­health crisis. More than a billion people worldwide suffer from a mental-health condition, according to the World Health Organization. The prevalence of anxiety and depression is growing in many demographics, particularly young people, and suicide is claiming h",
-      "source": "MIT Technology Review AI",
-      "author": "Becky Ferreira",
-      "publishedAt": "2025-12-30T11:00:00.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2025/12/30/1129392/book-reviews-ai-therapy-mental-health/",
-      "readTime": 3,
-      "views": 24229
-    },
-    {
-      "id": "meta-just-bought-manus-an-ai-startup-everyone-has-",
-      "title": "Meta just bought Manus, an AI startup everyone has been talking about",
-      "summary": "Meta says it'll keep Manus running independently while weaving its agents into Facebook, Instagram, and WhatsApp, where Meta's own chatbot, Meta AI, is already available to users.",
-      "content": "Meta says it'll keep Manus running independently while weaving its agents into Facebook, Instagram, and WhatsApp, where Meta's own chatbot, Meta AI, is already available to users.",
-      "source": "TechCrunch AI",
-      "author": "Connie Loizos",
-      "publishedAt": "2025-12-30T05:39:08.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Meta"
-      ],
-      "url": "https://techcrunch.com/2025/12/29/meta-just-bought-manus-an-ai-startup-everyone-has-been-talking-about/",
-      "readTime": 3,
-      "views": 34790
-    },
-    {
-      "id": "2025-was-the-year-ai-got-a-vibe-check",
-      "title": "2025 was the year AI got a vibe check",
-      "summary": "AI’s early-2025 spending spree featured massive raises and trillion-dollar infrastructure promises.  By year’s end, hype gave way to a vibe check, with growing scrutiny over sustainability, safety, an.",
-      "content": "AI’s early-2025 spending spree featured massive raises and trillion-dollar infrastructure promises. By year’s end, hype gave way to a vibe check, with growing scrutiny over sustainability, safety, and business models.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2025-12-29T19:00:00.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2025/12/29/2025-was-the-year-ai-got-a-vibe-check/",
-      "readTime": 3,
-      "views": 38737
+      "views": 47155
     }
   ],
-  "lastUpdated": "2026-01-05T12:45:30.317Z",
+  "lastUpdated": "2026-01-06T01:42:54.013Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
+    "TechCrunch AI",
     "MIT Technology Review AI",
-    "AI News",
-    "TechCrunch AI"
+    "AI News"
   ],
   "categories": [
+    "release",
     "funding",
     "market",
-    "release",
-    "regulation",
-    "partnership",
-    "research"
+    "regulation"
   ]
 }
