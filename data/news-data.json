@@ -1,6 +1,79 @@
 {
   "articles": [
     {
+      "id": "brazil-orders-meta-to-suspend-policy-banning-third",
+      "title": "Brazil orders Meta to suspend policy banning third-party AI chatbots from WhatsApp",
+      "summary": "Brazil's competition watchdog has ordered WhatsApp to put on hold its policy that bars third-party AI companies from using its business API to offer chatbots on the app.  The agency has also started a.",
+      "content": "Brazil's competition watchdog has ordered WhatsApp to put on hold its policy that bars third-party AI companies from using its business API to offer chatbots on the app. The agency has also started an investigation against the company to determine if the policy is anti-competitive.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-01-13T12:21:47.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai",
+        "Meta"
+      ],
+      "url": "https://techcrunch.com/2026/01/13/brazil-orders-meta-to-suspend-policy-banning-third-party-ai-chatbots-from-whatsapp/",
+      "readTime": 3,
+      "views": 52989
+    },
+    {
+      "id": "converge-bio-raises-25m-backed-by-bessemer-and-exe",
+      "title": "Converge Bio raises $25M, backed by Bessemer and execs from Meta, OpenAI, Wiz",
+      "summary": "AI drug discovery startup Converge Bio raised $25 million in a Series A led by Bessemer Venture Partners, with additional backing from executives at Meta, OpenAI, and Wiz.",
+      "content": "AI drug discovery startup Converge Bio raised $25 million in a Series A led by Bessemer Venture Partners, with additional backing from executives at Meta, OpenAI, and Wiz.",
+      "source": "TechCrunch AI",
+      "author": "Kate Park",
+      "publishedAt": "2026-01-13T11:30:00.000Z",
+      "category": "funding",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI",
+        "Meta"
+      ],
+      "url": "https://techcrunch.com/2026/01/13/ai-drug-discovery-startup-converge-bio-pulls-in-25m-from-bessemer-and-execs-from-meta-openai-and-wiz/",
+      "readTime": 3,
+      "views": 40019
+    },
+    {
+      "id": "the-latency-trap-smart-warehouses-abandon-cloud-fo",
+      "title": "The latency trap: Smart warehouses abandon cloud for edge",
+      "summary": "While the enterprise world rushes to migrate everything to the cloud, the warehouse floor is moving in the opposite direction.  This article explores why the future of automation relies on edge AI to .",
+      "content": "While the enterprise world rushes to migrate everything to the cloud, the warehouse floor is moving in the opposite direction. This article explores why the future of automation relies on edge AI to solve the fatal &#8220;latency gap&#8221; in modern logistics. In the sterilised promotional videos f",
+      "source": "AI News",
+      "author": "Bazoom",
+      "publishedAt": "2026-01-13T10:53:45.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "automation"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/the-latency-trap-smart-warehouses-abandon-cloud-for-edge/",
+      "readTime": 3,
+      "views": 29808
+    },
+    {
+      "id": "why-apple-chose-google-over-openai-what-enterprise",
+      "title": "Why Apple chose Google over OpenAI: What enterprise AI buyers can learn from the Gemini deal",
+      "summary": "Apple&#8217;s multi-year agreement to integrate Google&#8217;s Gemini models into its revamped Siri offers a rare window into how one of the world&#8217;s most selective technology companies evaluates.",
+      "content": "Apple&#8217;s multi-year agreement to integrate Google&#8217;s Gemini models into its revamped Siri offers a rare window into how one of the world&#8217;s most selective technology companies evaluates foundation models – and the criteria should matter to any enterprise weighing similar decisions. Th",
+      "source": "AI News",
+      "author": "Dashveenjit Kaur",
+      "publishedAt": "2026-01-13T07:00:00.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "openai",
+        "gemini",
+        "OpenAI",
+        "Google"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/apple-gemini-siri-enterprise-foundation-models/",
+      "readTime": 3,
+      "views": 37105
+    },
+    {
       "id": "meta-backed-hupo-finds-growth-after-pivot-to-ai-sa",
       "title": "Meta-backed Hupo finds growth after pivot to AI sales coaching from mental wellness",
       "summary": "Hupo, backed by Meta, pivoted from mental wellness to AI sales coaching for banks and insurers, and secured a $10M Series A led by DST Global.",
@@ -15,7 +88,7 @@
       ],
       "url": "https://techcrunch.com/2026/01/12/meta-backed-hupo-finds-growth-after-pivot-to-ai-sales-coaching-from-mental-wellness/",
       "readTime": 3,
-      "views": 33579
+      "views": 17240
     },
     {
       "id": "hands-on-with-bee-amazon-8217-s-latest-ai-wearable",
@@ -31,7 +104,7 @@
       ],
       "url": "https://techcrunch.com/2026/01/12/hands-on-with-bee-amazons-latest-ai-wearable/",
       "readTime": 3,
-      "views": 51591
+      "views": 28974
     },
     {
       "id": "why-amazon-bought-bee-an-ai-wearable",
@@ -47,7 +120,7 @@
       ],
       "url": "https://techcrunch.com/2026/01/12/why-amazon-bought-bee-an-ai-wearable/",
       "readTime": 3,
-      "views": 36577
+      "views": 38314
     },
     {
       "id": "mark-zuckerberg-says-meta-is-launching-its-own-ai-",
@@ -64,7 +137,7 @@
       ],
       "url": "https://techcrunch.com/2026/01/12/mark-zuckerberg-says-meta-is-launching-its-own-ai-infrastructure-initiative/",
       "readTime": 3,
-      "views": 35801
+      "views": 17573
     },
     {
       "id": "anthropic-announces-claude-for-healthcare-followin",
@@ -84,7 +157,7 @@
       ],
       "url": "https://techcrunch.com/2026/01/12/anthropic-announces-claude-for-healthcare-following-openais-chatgpt-health-reveal/",
       "readTime": 3,
-      "views": 46277
+      "views": 29383
     },
     {
       "id": "anthropic-s-new-cowork-tool-offers-claude-code-wit",
@@ -102,7 +175,7 @@
       ],
       "url": "https://techcrunch.com/2026/01/12/anthropics-new-cowork-tool-offers-claude-code-without-the-code/",
       "readTime": 3,
-      "views": 54998
+      "views": 11667
     },
     {
       "id": "amazon-says-97-of-its-devices-can-support-alexa",
@@ -118,7 +191,7 @@
       ],
       "url": "https://techcrunch.com/2026/01/12/amazon-says-97-of-its-devices-can-support-alexa/",
       "readTime": 3,
-      "views": 12038
+      "views": 18355
     },
     {
       "id": "google-s-gemini-to-power-apple-s-ai-features-like-",
@@ -137,7 +210,7 @@
       ],
       "url": "https://techcrunch.com/2026/01/12/googles-gemini-to-power-apples-ai-features-like-siri/",
       "readTime": 3,
-      "views": 6612
+      "views": 19406
     },
     {
       "id": "ces-showed-me-why-chinese-tech-companies-feel-so-o",
@@ -153,7 +226,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/01/12/1131193/ces-showed-me-why-chinese-tech-companies-feel-so-optimistic/",
       "readTime": 3,
-      "views": 21852
+      "views": 32857
     },
     {
       "id": "harmattan-ai-raises-200m-series-b-led-by-dassault-",
@@ -169,7 +242,41 @@
       ],
       "url": "https://techcrunch.com/2026/01/12/harmattan-ai-raises-200m-series-b-led-by-dassault-aviation-becomes-defense-unicorn/",
       "readTime": 3,
-      "views": 17381
+      "views": 45285
+    },
+    {
+      "id": "how-shopify-is-bringing-agentic-ai-to-enterprise-c",
+      "title": "How Shopify is bringing agentic AI to enterprise commerce",
+      "summary": "Shopify is enhancing core enterprise commerce workflows with agentic AI, automating operations while expanding sales channels.  The adoption of generative AI in commerce has largely centred on custome.",
+      "content": "Shopify is enhancing core enterprise commerce workflows with agentic AI, automating operations while expanding sales channels. The adoption of generative AI in commerce has largely centred on customer support chatbots and basic content generation. Shopify’s Winter ‘26 Edition, titled Renaissance, pu",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-01-12T12:08:14.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "generative ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/how-shopify-bringing-agentic-ai-enterprise-commerce/",
+      "readTime": 3,
+      "views": 48227
+    },
+    {
+      "id": "retailers-like-kroger-and-lowe-s-test-ai-agents-wi",
+      "title": "Retailers like Kroger and Lowe’s test AI agents without handing control to Google",
+      "summary": "Retailers are starting to confront a problem that sits behind much of the hype around AI shopping: as customers turn to chatbots and automated assistants to decide what to buy, retailers risk losing c.",
+      "content": "Retailers are starting to confront a problem that sits behind much of the hype around AI shopping: as customers turn to chatbots and automated assistants to decide what to buy, retailers risk losing control over how their products are shown, sold, and bundled. That concern is pushing some large chai",
+      "source": "AI News",
+      "author": "Muhammad Zulhusni",
+      "publishedAt": "2026-01-12T12:00:00.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "Google"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/kroger-and-lowe-test-ai-agents-without-handing-control-to-google/",
+      "readTime": 3,
+      "views": 12033
     },
     {
       "id": "meet-the-new-biologists-treating-llms-like-aliens",
@@ -186,7 +293,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/01/12/1129782/ai-large-language-models-biology-alien-autopsy/",
       "readTime": 3,
-      "views": 8864
+      "views": 23229
     },
     {
       "id": "hyperscale-ai-data-centers-10-breakthrough-technol",
@@ -204,7 +311,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/01/12/1129982/hyperscale-ai-data-centers-energy-usage-2026-breakthrough-technology/",
       "readTime": 3,
-      "views": 6697
+      "views": 16229
     },
     {
       "id": "mechanistic-interpretability-10-breakthrough-techn",
@@ -220,7 +327,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/01/12/1130003/mechanistic-interpretability-ai-research-models-2026-breakthrough-technologies/",
       "readTime": 3,
-      "views": 42189
+      "views": 6290
     },
     {
       "id": "ai-companions-10-breakthrough-technologies-2026",
@@ -236,122 +343,23 @@
       ],
       "url": "https://www.technologyreview.com/2026/01/12/1130018/ai-companions-chatbots-relationships-2026-breakthrough-technology/",
       "readTime": 3,
-      "views": 46496
-    },
-    {
-      "id": "generative-coding-10-breakthrough-technologies-202",
-      "title": "Generative coding: 10 Breakthrough Technologies 2026",
-      "summary": "Generative AI’s ability to write software code has quickly created one of the technology’s first real use cases for business.  Professional software engineers and novices alike are using AI coding ass.",
-      "content": "Generative AI’s ability to write software code has quickly created one of the technology’s first real use cases for business. Professional software engineers and novices alike are using AI coding assistants to produce, test, edit, and debug code, reducing the amount of time it takes to complete the ",
-      "source": "MIT Technology Review AI",
-      "author": "Rhiannon Williams",
-      "publishedAt": "2026-01-12T11:00:00.000Z",
-      "category": "research",
-      "tags": [
-        "ai",
-        "generative ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/01/12/1130027/generative-coding-ai-software-2026-breakthrough-technology/",
-      "readTime": 3,
-      "views": 46457
-    },
-    {
-      "id": "motional-puts-ai-at-center-of-robotaxi-reboot-as-i",
-      "title": "Motional puts AI at center of robotaxi reboot as it targets 2026 for driverless service",
-      "summary": "Motional says it will launch a driverless robotaxi service in Las Vegas before the end of 2026.",
-      "content": "Motional says it will launch a driverless robotaxi service in Las Vegas before the end of 2026.",
-      "source": "TechCrunch AI",
-      "author": "Kirsten Korosec",
-      "publishedAt": "2026-01-12T00:10:54.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/01/11/motional-puts-ai-at-center-of-robotaxi-reboot-as-it-targets-2026-for-driverless-service/",
-      "readTime": 3,
-      "views": 31076
-    },
-    {
-      "id": "google-removes-ai-overviews-for-certain-medical-qu",
-      "title": "Google removes AI Overviews for certain medical queries",
-      "summary": "This follows an investigation by The Guardian that found Google AI Overviews offering misleading information in response to some health-related queries.",
-      "content": "This follows an investigation by The Guardian that found Google AI Overviews offering misleading information in response to some health-related queries.",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2026-01-11T17:56:41.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/01/11/google-removes-ai-overviews-for-certain-medical-queries/",
-      "readTime": 3,
-      "views": 52970
-    },
-    {
-      "id": "indonesia-and-malaysia-block-grok-over-nonconsensu",
-      "title": "Indonesia and Malaysia block Grok over nonconsensual, sexualized deepfakes",
-      "summary": "These are the most aggressive moves so far from government officials responding to a flood of sexualized, AI-generated imagery — often depicting real women and minors, and sometimes depicting violence.",
-      "content": "These are the most aggressive moves so far from government officials responding to a flood of sexualized, AI-generated imagery — often depicting real women and minors, and sometimes depicting violence — posted by Grok.",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2026-01-11T15:07:49.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/01/11/indonesia-blocks-grok-over-non-consensual-sexualized-deepfakes/",
-      "readTime": 3,
-      "views": 31945
-    },
-    {
-      "id": "google-announces-a-new-protocol-to-facilitate-comm",
-      "title": "Google announces a new protocol to facilitate commerce using AI agents",
-      "summary": "Google said that merchants can now offer discounts to users directly in AI mode results.",
-      "content": "Google said that merchants can now offer discounts to users directly in AI mode results.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-01-11T15:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/01/11/google-announces-a-new-protocol-to-facilitate-commerce-using-ai-agents/",
-      "readTime": 3,
-      "views": 43871
-    },
-    {
-      "id": "openai-is-reportedly-asking-contractors-to-upload-",
-      "title": "OpenAI is reportedly asking contractors to upload real work from past jobs",
-      "summary": "An intellectual property lawyer says OpenAI is \"putting itself at great risk\" with this approach.",
-      "content": "An intellectual property lawyer says OpenAI is \"putting itself at great risk\" with this approach.",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2026-01-10T21:18:29.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/01/10/openai-is-reportedly-asking-contractors-to-upload-real-work-from-past-jobs/",
-      "readTime": 3,
-      "views": 32628
+      "views": 11610
     }
   ],
-  "lastUpdated": "2026-01-13T06:33:23.947Z",
+  "lastUpdated": "2026-01-13T12:46:25.156Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
     "TechCrunch AI",
+    "AI News",
     "MIT Technology Review AI"
   ],
   "categories": [
+    "regulation",
     "funding",
+    "market",
     "release",
     "partnership",
-    "research",
-    "regulation"
+    "research"
   ]
 }
