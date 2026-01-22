@@ -1,6 +1,75 @@
 {
   "articles": [
     {
+      "id": "quadric-rides-the-shift-from-cloud-ai-to-on-device",
+      "title": "Quadric rides the shift from cloud AI to on-device inference — and it&#8217;s paying off",
+      "summary": "Quadric aims to help companies and governments build programmable on-device AI chips that can run fast-changing models locally.",
+      "content": "Quadric aims to help companies and governments build programmable on-device AI chips that can run fast-changing models locally.",
+      "source": "TechCrunch AI",
+      "author": "Jagmeet Singh",
+      "publishedAt": "2026-01-22T12:00:00.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/01/22/quadric-rides-the-shift-from-cloud-ai-to-on-device-inference-and-its-paying-off/",
+      "readTime": 3,
+      "views": 51381
+    },
+    {
+      "id": "former-google-trio-is-building-an-interactive-ai-p",
+      "title": "Former Google trio is building an interactive AI-powered learning app for kids",
+      "summary": "Big tech companies and upcoming startups want to use generative AI to build software and hardware for kids.  A lot of those experiences are limited to text or voice, and kids might not find that capti.",
+      "content": "Big tech companies and upcoming startups want to use generative AI to build software and hardware for kids. A lot of those experiences are limited to text or voice, and kids might not find that captivating. Three former Google employees want to get over that hurdle with their generative AI-powered i",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-01-22T11:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "generative ai",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2026/01/22/former-google-trio-is-building-an-interactive-ai-powered-learning-app-for-kids/",
+      "readTime": 3,
+      "views": 50401
+    },
+    {
+      "id": "yann-lecun-8217-s-new-venture-is-a-contrarian-bet-",
+      "title": "Yann LeCun&#8217;s new venture is a contrarian bet against large language models",
+      "summary": "Yann LeCun is a Turing Award recipient and a top AI researcher, but he has long been a contrarian figure in the tech world.  He believes that the industry’s current obsession with large language model.",
+      "content": "Yann LeCun is a Turing Award recipient and a top AI researcher, but he has long been a contrarian figure in the tech world. He believes that the industry’s current obsession with large language models is wrong-headed and will ultimately fail to solve many pressing problems.&#160; Instead, he thinks ",
+      "source": "MIT Technology Review AI",
+      "author": "Caiwei Chen",
+      "publishedAt": "2026-01-22T10:00:00.000Z",
+      "category": "research",
+      "tags": [
+        "ai",
+        "language model"
+      ],
+      "url": "https://www.technologyreview.com/2026/01/22/1131661/yann-lecuns-new-venture-ami-labs/",
+      "readTime": 3,
+      "views": 42427
+    },
+    {
+      "id": "gates-foundation-and-openai-test-ai-in-african-hea",
+      "title": "Gates Foundation and OpenAI test AI in African healthcare",
+      "summary": "Primary healthcare systems across parts of Africa are under growing strain, caught between rising demand, chronic staff shortages, and shrinking international aid budgets.  In that context, AI is bein.",
+      "content": "Primary healthcare systems across parts of Africa are under growing strain, caught between rising demand, chronic staff shortages, and shrinking international aid budgets. In that context, AI is being tested in healthcare less as a breakthrough technology and more as a way to keep basic services run",
+      "source": "AI News",
+      "author": "Muhammad Zulhusni",
+      "publishedAt": "2026-01-22T10:00:00.000Z",
+      "category": "research",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/gates-foundation-and-openai-test-ai-in-african-healthcare/",
+      "readTime": 3,
+      "views": 25063
+    },
+    {
       "id": "not-to-be-outdone-by-openai-apple-is-reportedly-de",
       "title": "Not to be outdone by OpenAI, Apple is reportedly developing an AI wearable",
       "summary": "Should this wearable materialize, it could be released as early as 2027, according to a report on the device.",
@@ -17,7 +86,7 @@
       ],
       "url": "https://techcrunch.com/2026/01/21/not-to-be-outdone-by-openai-apple-is-reportedly-developing-an-ai-wearable/",
       "readTime": 3,
-      "views": 52795
+      "views": 39547
     },
     {
       "id": "sources-project-sglang-spins-out-as-radixark-with-",
@@ -33,7 +102,7 @@
       ],
       "url": "https://techcrunch.com/2026/01/21/sources-project-sglang-spins-out-as-radixark-with-400m-valuation-as-inference-market-explodes/",
       "readTime": 3,
-      "views": 8734
+      "views": 44604
     },
     {
       "id": "todoist-8217-s-app-now-lets-you-add-tasks-to-your-",
@@ -49,7 +118,7 @@
       ],
       "url": "https://techcrunch.com/2026/01/21/todoists-app-now-lets-you-add-tasks-to-your-to-do-list-by-speaking-to-its-ai/",
       "readTime": 3,
-      "views": 15804
+      "views": 52845
     },
     {
       "id": "apple-plans-to-make-siri-an-ai-chatbot-report-says",
@@ -68,7 +137,7 @@
       ],
       "url": "https://techcrunch.com/2026/01/21/apple-plans-to-make-siri-an-ai-chatbot-report-says/",
       "readTime": 3,
-      "views": 35122
+      "views": 49258
     },
     {
       "id": "anthropic-revises-claude-8217-s-8216-constitution-",
@@ -86,7 +155,7 @@
       ],
       "url": "https://techcrunch.com/2026/01/21/anthropic-revises-claudes-constitution-and-hints-at-chatbot-consciousness/",
       "readTime": 3,
-      "views": 45099
+      "views": 39353
     },
     {
       "id": "irony-alert-hallucinated-citations-found-in-papers",
@@ -103,7 +172,7 @@
       ],
       "url": "https://techcrunch.com/2026/01/21/irony-alert-hallucinated-citations-found-in-papers-from-neurips-the-prestigious-ai-conference/",
       "readTime": 3,
-      "views": 50442
+      "views": 23924
     },
     {
       "id": "youtube-will-soon-let-creators-make-shorts-with-th",
@@ -119,7 +188,7 @@
       ],
       "url": "https://techcrunch.com/2026/01/21/youtube-will-soon-let-creators-make-shorts-with-their-own-ai-likeness/",
       "readTime": 3,
-      "views": 32708
+      "views": 21366
     },
     {
       "id": "openai-aims-to-ship-its-first-device-in-2026-and-i",
@@ -137,7 +206,7 @@
       ],
       "url": "https://techcrunch.com/2026/01/21/openai-aims-to-ship-its-first-device-in-2026-and-it-could-be-earbuds/",
       "readTime": 3,
-      "views": 12699
+      "views": 52549
     },
     {
       "id": "rethinking-ai-s-future-in-an-augmented-workplace",
@@ -153,7 +222,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/01/21/1131366/rethinking-ais-future-in-an-augmented-workplace/",
       "readTime": 3,
-      "views": 14359
+      "views": 24308
     },
     {
       "id": "adobe-acrobat-now-lets-you-edit-files-using-prompt",
@@ -169,7 +238,7 @@
       ],
       "url": "https://techcrunch.com/2026/01/21/adobe-acrobat-now-lets-you-edit-files-using-prompts-generate-podcast-summaries/",
       "readTime": 3,
-      "views": 35708
+      "views": 45784
     },
     {
       "id": "everyone-wants-ai-sovereignty-no-one-can-truly-hav",
@@ -185,7 +254,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/01/21/1131513/everyone-wants-ai-sovereignty-no-one-can-truly-have-it/",
       "readTime": 3,
-      "views": 16450
+      "views": 49862
     },
     {
       "id": "zanskar-thinks-1-tw-of-geothermal-power-is-being-o",
@@ -201,7 +270,7 @@
       ],
       "url": "https://techcrunch.com/2026/01/21/zanskar-thinks-1-tw-of-geothermal-power-is-being-overlooked/",
       "readTime": 3,
-      "views": 11267
+      "views": 10199
     },
     {
       "id": "language-learning-marketplace-preply-8217-s-unicor",
@@ -217,7 +286,7 @@
       ],
       "url": "https://techcrunch.com/2026/01/21/language-learning-marketplace-preplys-unicorn-status-embodies-ukrainian-resilience/",
       "readTime": 3,
-      "views": 26061
+      "views": 44237
     },
     {
       "id": "consumers-spent-more-on-mobile-apps-than-games-in-",
@@ -233,7 +302,7 @@
       ],
       "url": "https://techcrunch.com/2026/01/21/consumers-spent-more-on-mobile-apps-than-games-in-2025-driven-by-ai-app-adoption/",
       "readTime": 3,
-      "views": 37728
+      "views": 32190
     },
     {
       "id": "balancing-ai-cost-efficiency-with-data-sovereignty",
@@ -250,7 +319,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/balancing-ai-cost-efficiency-with-data-sovereignty/",
       "readTime": 3,
-      "views": 17541
+      "views": 16654
     },
     {
       "id": "the-quiet-work-behind-citi-s-4-000-person-internal",
@@ -267,76 +336,10 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/the-quiet-work-behind-citi-4000-person-internal-ai-rollout/",
       "readTime": 3,
-      "views": 21851
-    },
-    {
-      "id": "bolna-nabs-6-3m-from-general-catalyst-for-its-indi",
-      "title": "Bolna nabs $6.3M from General Catalyst for its India-focused voice orchestration platform",
-      "summary": "Bolna said that 75% of its revenue is coming from self-serve customers.",
-      "content": "Bolna said that 75% of its revenue is coming from self-serve customers.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-01-21T02:00:00.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/01/20/bolna-nabs-6-3-million-from-general-catalyst-for-its-india-focused-voice-orchestration-platform/",
-      "readTime": 3,
-      "views": 51667
-    },
-    {
-      "id": "anthropic-8217-s-ceo-stuns-davos-with-nvidia-criti",
-      "title": "Anthropic&#8217;s CEO stuns Davos with Nvidia criticism",
-      "summary": "Anthropic CEO Dario Amodei unloaded on both the administration and U.  chip companies over plans to sell to China.",
-      "content": "Anthropic CEO Dario Amodei unloaded on both the administration and U.S. chip companies over plans to sell to China. The criticism was particularly notable because one of those chipmakers, Nvidia, is a major partner and investor in Anthropic.",
-      "source": "TechCrunch AI",
-      "author": "Connie Loizos",
-      "publishedAt": "2026-01-21T01:39:58.000Z",
-      "category": "release",
-      "tags": [
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/01/20/anthropics-ceo-stuns-davos-with-nvidia-criticism/",
-      "readTime": 3,
-      "views": 47356
-    },
-    {
-      "id": "in-an-effort-to-protect-young-users-chatgpt-will-n",
-      "title": "In an effort to protect young users, ChatGPT will now predict how old you are",
-      "summary": "The feature is designed to stop problematic content from being delivered to users under the age of 18.",
-      "content": "The feature is designed to stop problematic content from being delivered to users under the age of 18.",
-      "source": "TechCrunch AI",
-      "author": "Lucas Ropek",
-      "publishedAt": "2026-01-20T23:29:56.000Z",
-      "category": "release",
-      "tags": [
-        "gpt",
-        "chatgpt"
-      ],
-      "url": "https://techcrunch.com/2026/01/20/in-an-effort-to-protect-young-users-chatgpt-will-now-predict-how-old-you-are/",
-      "readTime": 3,
-      "views": 5382
-    },
-    {
-      "id": "elon-musk-says-tesla-s-restarted-dojo3-will-be-for",
-      "title": "Elon Musk says Tesla’s restarted Dojo3 will be for ‘space-based AI compute’",
-      "summary": "Tesla aims to restart work on Dojo3, its previously abandoned third-generation AI chip.  Only this time, Dojo3 won’t be aimed at training self-driving models on Earth.",
-      "content": "Tesla aims to restart work on Dojo3, its previously abandoned third-generation AI chip. Only this time, Dojo3 won’t be aimed at training self-driving models on Earth. Instead, Musk says it will be dedicated to “space-based AI compute.”",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-01-20T22:10:41.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/01/20/elon-musk-says-teslas-restarted-dojo3-will-be-for-space-based-ai-compute/",
-      "readTime": 3,
-      "views": 25223
+      "views": 20043
     }
   ],
-  "lastUpdated": "2026-01-22T06:34:27.556Z",
+  "lastUpdated": "2026-01-22T12:48:53.318Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -345,10 +348,10 @@
     "AI News"
   ],
   "categories": [
+    "regulation",
     "release",
-    "funding",
     "research",
-    "market",
-    "regulation"
+    "funding",
+    "market"
   ]
 }
