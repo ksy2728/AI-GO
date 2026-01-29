@@ -1,6 +1,316 @@
 {
   "articles": [
     {
+      "id": "zuckerberg-teases-agentic-commerce-tools-and-major",
+      "title": "Zuckerberg teases agentic commerce tools and major AI rollout in 2026",
+      "summary": "Mark Zuckerberg says 2026 will be \"a big year for delivering personal super intelligence.",
+      "content": "Mark Zuckerberg says 2026 will be \"a big year for delivering personal super intelligence.\"",
+      "source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "publishedAt": "2026-01-28T23:16:02.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/01/28/zuckerberg-teases-agentic-commerce-tools-and-major-ai-rollout-in-2026/",
+      "readTime": 3,
+      "views": 33223
+    },
+    {
+      "id": "mark-zuckerberg-says-a-future-without-smart-glasse",
+      "title": "Mark Zuckerberg says a future without smart glasses is ‘hard to imagine’",
+      "summary": "Take Zuckerberg's outlook with a grain of salt.  After all, he thought we'd all be hanging out in the metaverse by now.",
+      "content": "Take Zuckerberg's outlook with a grain of salt. After all, he thought we'd all be hanging out in the metaverse by now.",
+      "source": "TechCrunch AI",
+      "author": "Amanda Silberling",
+      "publishedAt": "2026-01-28T22:31:20.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Meta"
+      ],
+      "url": "https://techcrunch.com/2026/01/28/mark-zuckerberg-future-smart-glasses/",
+      "readTime": 3,
+      "views": 28830
+    },
+    {
+      "id": "tesla-to-invest-2b-in-elon-musk-8217-s-xai",
+      "title": "Tesla to invest $2B in Elon Musk&#8217;s xAI",
+      "summary": "Elon Musk's AI company xAI  disclosed earlier this month it had raised $20 billion.",
+      "content": "Elon Musk's AI company xAI  disclosed earlier this month it had raised $20 billion.",
+      "source": "TechCrunch AI",
+      "author": "Kirsten Korosec",
+      "publishedAt": "2026-01-28T21:52:21.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/01/28/tesla-invested-2b-in-elon-musks-xai/",
+      "readTime": 3,
+      "views": 51619
+    },
+    {
+      "id": "elon-musk-teases-a-new-image-labeling-system-for-x",
+      "title": "Elon Musk teases a new image-labeling system for X… we think?",
+      "summary": "Elon Musk says X will begin identifying \"manipulated media\" but doesn't share details.",
+      "content": "Elon Musk says X will begin identifying \"manipulated media\" but doesn't share details.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-01-28T21:46:18.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/01/28/elon-musk-teases-a-new-image-labeling-system-for-xwe-think/",
+      "readTime": 3,
+      "views": 50887
+    },
+    {
+      "id": "servicenow-inks-another-ai-partnership-this-time-w",
+      "title": "ServiceNow inks another AI partnership, this time with Anthropic",
+      "summary": "ServiceNow partners with Anthropic just a week after announcing a partnership with OpenAI as the company takes a multi-model approach.",
+      "content": "ServiceNow partners with Anthropic just a week after announcing a partnership with OpenAI as the company takes a multi-model approach.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Szkutak",
+      "publishedAt": "2026-01-28T21:13:00.000Z",
+      "category": "partnership",
+      "tags": [
+        "ai",
+        "openai",
+        "anthropic",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/01/28/servicenow-inks-another-ai-partnership-this-time-with-anthropic/",
+      "readTime": 3,
+      "views": 24020
+    },
+    {
+      "id": "whatsapp-will-now-charge-ai-chatbots-to-operate-in",
+      "title": "WhatsApp will now charge AI chatbots to operate in Italy",
+      "summary": "WhatsApp plans to charge developers of AI chatbots per message.",
+      "content": "WhatsApp plans to charge developers of AI chatbots per message.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-01-28T19:18:59.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/01/28/whatsapp-will-now-charge-ai-chatbots-to-operate-in-italy/",
+      "readTime": 3,
+      "views": 5856
+    },
+    {
+      "id": "ai-data-labeler-handshake-buys-cleanlab-an-acquisi",
+      "title": "AI data labeler Handshake buys  Cleanlab, an acquisition target of multiple others",
+      "summary": "The deal’s purpose is primarily to acquire talent, aka an acqui-hire, adding nine key Cleanlab employees to Handshake’s research organization.",
+      "content": "The deal’s purpose is primarily to acquire talent, aka an acqui-hire, adding nine key Cleanlab employees to Handshake’s research organization.",
+      "source": "TechCrunch AI",
+      "author": "Marina Temkin",
+      "publishedAt": "2026-01-28T19:00:00.000Z",
+      "category": "partnership",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/01/28/ai-data-labeler-handshake-buys-cleanlab-an-acquisition-target-of-multiple-others/",
+      "readTime": 3,
+      "views": 11831
+    },
+    {
+      "id": "chrome-takes-on-ai-browsers-with-tighter-gemini-in",
+      "title": "Chrome takes on AI browsers with tighter Gemini integration, agentic features for autonomous tasks",
+      "summary": "Google Chrome is adding Gemini in the sidebar and is rolling out an agentic feature for AI Pro and Ultra users.",
+      "content": "Google Chrome is adding Gemini in the sidebar and is rolling out an agentic feature for AI Pro and Ultra users.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-01-28T18:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gemini",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2026/01/28/chrome-takes-on-ai-browsers-with-tighter-gemini-integration-agentic-features-for-autonomous-tasks/",
+      "readTime": 3,
+      "views": 11776
+    },
+    {
+      "id": "tiny-startup-arcee-ai-built-a-400b-parameter-open-",
+      "title": "Tiny startup Arcee AI built a 400B-parameter open source LLM from scratch to best Meta&#8217;s Llama",
+      "summary": "30-person startup Arcee AI has released a 400B model called Trinity, which it says is one of the biggest open source foundation models from a U.",
+      "content": "30-person startup Arcee AI has released a 400B model called Trinity, which it says is one of the biggest open source foundation models from a U.S. company.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2026-01-28T17:30:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "llm",
+        "Meta"
+      ],
+      "url": "https://techcrunch.com/2026/01/28/tiny-startup-arcee-ai-built-a-400b-open-source-llm-from-scratch-to-best-metas-llama/",
+      "readTime": 3,
+      "views": 13953
+    },
+    {
+      "id": "with-apple-s-new-creator-studio-pro-ai-is-a-tool-t",
+      "title": "With Apple’s new Creator Studio Pro, AI is a tool to aid creation, not replace it",
+      "summary": "Apple’s Creator Studio Pro leverages AI to help creators with tedious tasks — like finding clips or building slides — without trying to do the work for them.",
+      "content": "Apple’s Creator Studio Pro leverages AI to help creators with tedious tasks — like finding clips or building slides — without trying to do the work for them.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-01-28T17:04:50.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Apple"
+      ],
+      "url": "https://techcrunch.com/2026/01/28/with-apples-new-creator-studio-pro-ai-is-a-tool-to-aid-creation-not-replace-it/",
+      "readTime": 3,
+      "views": 13884
+    },
+    {
+      "id": "modelence-raises-3m-to-smooth-out-the-vibe-coding-",
+      "title": "Modelence raises $3M to smooth out the vibe-coding stack",
+      "summary": "How do you build tooling for the AI software stack.  A company called Modelence has an interesting answer.",
+      "content": "How do you build tooling for the AI software stack? A company called Modelence has an interesting answer.",
+      "source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "publishedAt": "2026-01-28T17:00:00.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/01/28/modelence-raises-13-million-to-smooth-out-the-vibe-coding-stack/",
+      "readTime": 3,
+      "views": 40068
+    },
+    {
+      "id": "techcrunch-disrupt-2026-plus-one-passes-are-almost",
+      "title": "TechCrunch Disrupt 2026: Plus-one passes are almost gone and only 3 days remain",
+      "summary": "The TechCrunch Disrupt 2026 plus-one passes at 50% off are almost sold out, and this deal ends in 3 days.  Register here before this deal ends on Friday, January 30 at 11:59 p.",
+      "content": "The TechCrunch Disrupt 2026 plus-one passes at 50% off are almost sold out, and this deal ends in 3 days. Register here before this deal ends on Friday, January 30 at 11:59 p.m. PT.",
+      "source": "TechCrunch AI",
+      "author": "TechCrunch Events",
+      "publishedAt": "2026-01-28T15:30:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/01/28/techcrunch-disrupt-2026-plus-one-passes-are-almost-gone-and-only-3-days-remain/",
+      "readTime": 3,
+      "views": 35077
+    },
+    {
+      "id": "deloitte-sounds-alarm-as-ai-agent-deployment-outru",
+      "title": "Deloitte sounds alarm as AI agent deployment outruns safety frameworks",
+      "summary": "A new report from Deloitte has warned that businesses are deploying AI agents faster than their safety protocols and safeguards can keep up.  Therefore, serious concerns around security, data privacy,.",
+      "content": "A new report from Deloitte has warned that businesses are deploying AI agents faster than their safety protocols and safeguards can keep up. Therefore, serious concerns around security, data privacy, and accountability are spreading. According to the survey, agentic systems are moving from pilot to ",
+      "source": "AI News",
+      "author": "David Thomas",
+      "publishedAt": "2026-01-28T15:23:00.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/deloitte-agentic-ai-guidelines-published/",
+      "readTime": 3,
+      "views": 30218
+    },
+    {
+      "id": "the-ai-infrastructure-boom-shows-no-sign-of-slowin",
+      "title": "The AI infrastructure boom shows no sign of slowing down",
+      "summary": "ASML’s record orders show chipmakers are still betting big on AI data centers.",
+      "content": "ASML’s record orders show chipmakers are still betting big on AI data centers.",
+      "source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "publishedAt": "2026-01-28T15:21:35.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "ml"
+      ],
+      "url": "https://techcrunch.com/2026/01/28/the-ai-infrastructure-boom-shows-no-sign-of-slowing-down/",
+      "readTime": 3,
+      "views": 8357
+    },
+    {
+      "id": "franny-hsiao-salesforce-scaling-enterprise-ai",
+      "title": "Franny Hsiao, Salesforce: Scaling enterprise AI",
+      "summary": "Scaling enterprise AI requires overcoming architectural oversights that often stall pilots before production, a challenge that goes far beyond model selection.  While generative AI prototypes are easy.",
+      "content": "Scaling enterprise AI requires overcoming architectural oversights that often stall pilots before production, a challenge that goes far beyond model selection. While generative AI prototypes are easy to spin up, turning them into reliable business assets involves solving the difficult problems of da",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-01-28T15:00:44.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "generative ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/franny-hsiao-salesforce-scaling-enterprise-ai/",
+      "readTime": 3,
+      "views": 41920
+    },
+    {
+      "id": "what-ai-remembers-about-you-is-privacy-s-next-fron",
+      "title": "What AI “remembers” about you is privacy’s next frontier",
+      "summary": "The ability to remember you and your preferences is rapidly becoming a big selling point for AI chatbots and agents. &#160; Earlier this month, Google announced Personal Intelligence, a new way for pe.",
+      "content": "The ability to remember you and your preferences is rapidly becoming a big selling point for AI chatbots and agents.&#160; Earlier this month, Google announced Personal Intelligence, a new way for people to interact with the company’s Gemini chatbot that draws on their Gmail, photos, search, and You",
+      "source": "MIT Technology Review AI",
+      "author": "Miranda Bogen, Ruchika Joshi",
+      "publishedAt": "2026-01-28T14:57:37.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gemini",
+        "Google"
+      ],
+      "url": "https://www.technologyreview.com/2026/01/28/1131835/what-ai-remembers-about-you-is-privacys-next-frontier/",
+      "readTime": 3,
+      "views": 46518
+    },
+    {
+      "id": "anthropic-apple-openai-ceos-condemn-ice-violence-p",
+      "title": "Anthropic, Apple, OpenAI CEOs condemn ICE violence, praise Trump",
+      "summary": "Anthropic's Dario Amodei and OpenAI's Sam Altman spoke out against ICE enforcement tactics following Minneapolis violence, with one addressing concerns publicly and the other in an internal message.",
+      "content": "Anthropic's Dario Amodei and OpenAI's Sam Altman spoke out against ICE enforcement tactics following Minneapolis violence, with one addressing concerns publicly and the other in an internal message.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-01-28T14:38:23.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "anthropic",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/01/28/anthropic-and-openai-ceos-condemn-ice-violence-praise-trump/",
+      "readTime": 3,
+      "views": 9078
+    },
+    {
+      "id": "rules-fail-at-the-prompt-succeed-at-the-boundary",
+      "title": "Rules fail at the prompt, succeed at the boundary",
+      "summary": "From the Gemini Calendar prompt-injection attack of 2026 to the September 2025 state-sponsored hack using Anthropic’s Claude code as an automated intrusion engine, the coercion of human-in-the-loop ag.",
+      "content": "From the Gemini Calendar prompt-injection attack of 2026 to the September 2025 state-sponsored hack using Anthropic’s Claude code as an automated intrusion engine, the coercion of human-in-the-loop agentic actions and fully autonomous agentic workflows are the new attack vector for hackers. In the A",
+      "source": "MIT Technology Review AI",
+      "author": "Jessica Hammond",
+      "publishedAt": "2026-01-28T14:00:00.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai",
+        "anthropic",
+        "claude",
+        "gemini",
+        "Anthropic"
+      ],
+      "url": "https://www.technologyreview.com/2026/01/28/1131003/rules-fail-at-the-prompt-succeed-at-the-boundary/",
+      "readTime": 3,
+      "views": 47011
+    },
+    {
       "id": "masumi-network-how-ai-blockchain-fusion-adds-trust",
       "title": "Masumi Network: How AI-blockchain fusion adds trust to burgeoning agent economy",
       "summary": "2026 will see forward-thinking organisations building out their squads of AI agents across roles and functions.  But amid the rush, there is another aspect to consider.",
@@ -14,7 +324,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/masumi-network-how-ai-blockchain-fusion-adds-trust-to-burgeoning-agent-economy/",
       "readTime": 3,
-      "views": 25385
+      "views": 12423
     },
     {
       "id": "white-house-compares-industrial-revolution-with-ai",
@@ -31,329 +341,23 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/white-house-predicts-ai-growth-with-comparison-industrial-and-artificial-intelligence-revolutions/",
       "readTime": 3,
-      "views": 23450
-    },
-    {
-      "id": "waabi-raises-1b-and-expands-into-robotaxis-with-ub",
-      "title": "Waabi raises $1B and expands into robotaxis with Uber",
-      "summary": "Waabi has secured a $750 million Series C round to accelerate autonomous trucking, and another roughly $250 million commitment from Uber to deploy 25,000 robotaxis exclusively on its platform.",
-      "content": "Waabi has secured a $750 million Series C round to accelerate autonomous trucking, and another roughly $250 million commitment from Uber to deploy 25,000 robotaxis exclusively on its platform.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-01-28T11:00:00.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/01/28/waabi-raises-1b-and-expands-into-robotaxis-with-uber/",
-      "readTime": 3,
-      "views": 39042
-    },
-    {
-      "id": "gallup-workforce-shows-details-of-ai-adoption-in-u",
-      "title": "Gallup Workforce shows details of AI adoption in US workplaces",
-      "summary": "Artificial intelligence has moved into the US workplace, but its adoption remains uneven, fragmented, and tied to role, industry, and organisation.  Findings from a Gallup Workforce survey covering th.",
-      "content": "Artificial intelligence has moved into the US workplace, but its adoption remains uneven, fragmented, and tied to role, industry, and organisation. Findings from a Gallup Workforce survey covering the period to the end of December 2025 show how employees use AI, who benefits most from it, and where ",
-      "source": "AI News",
-      "author": "AI News",
-      "publishedAt": "2026-01-28T10:06:00.000Z",
-      "category": "market",
-      "tags": [
-        "artificial intelligence",
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/gallup-workforce-ai-shows-details-of-ml-adoption-in-us-workplaces/",
-      "readTime": 3,
-      "views": 12542
-    },
-    {
-      "id": "google-pitches-gemini-to-students-studying-for-ind",
-      "title": "Google pitches Gemini to students studying for India&#8217;s most competitive college entrance exam",
-      "summary": "Google's launch of practice tests for JEE follows its recent move to offer full-length SAT practice tests in Gemini.",
-      "content": "Google's launch of practice tests for JEE follows its recent move to offer full-length SAT practice tests in Gemini.",
-      "source": "TechCrunch AI",
-      "author": "Jagmeet Singh",
-      "publishedAt": "2026-01-28T10:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "gemini",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/01/28/google-turns-gemini-toward-indias-most-competitive-entrance-exam/",
-      "readTime": 3,
-      "views": 13926
-    },
-    {
-      "id": "inside-standard-chartered-s-approach-to-running-ai",
-      "title": "Inside Standard Chartered’s approach to running AI under privacy rules",
-      "summary": "For banks trying to put AI into real use, the hardest questions often come before any model is trained.  Can the data be used at all.",
-      "content": "For banks trying to put AI into real use, the hardest questions often come before any model is trained. Can the data be used at all? Where is it allowed to be stored? Who is responsible once the system goes live? At Standard Chartered, these privacy-driven questions now shape how AI systems are buil",
-      "source": "AI News",
-      "author": "Muhammad Zulhusni",
-      "publishedAt": "2026-01-28T10:00:00.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/how-standard-chartered-runs-ai-under-privacy-rules/",
-      "readTime": 3,
-      "views": 39000
-    },
-    {
-      "id": "everything-you-need-to-know-about-viral-personal-a",
-      "title": "Everything you need to know about viral personal AI assistant Clawdbot (now Moltbot)",
-      "summary": "Personal AI assistant Moltbot —formerly Clawdbot — has gone viral in a matter of weeks.  But there’s more you should know before jumping on the bandwagon.",
-      "content": "Personal AI assistant Moltbot —formerly Clawdbot — has gone viral in a matter of weeks. But there’s more you should know before jumping on the bandwagon.",
-      "source": "TechCrunch AI",
-      "author": "Anna Heim",
-      "publishedAt": "2026-01-28T00:12:43.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/01/27/everything-you-need-to-know-about-viral-personal-ai-assistant-clawdbot-now-moltbot/",
-      "readTime": 3,
-      "views": 20550
-    },
-    {
-      "id": "anduril-has-invented-a-wild-new-drone-flying-conte",
-      "title": "Anduril has invented a wild new drone-flying contest where jobs are the prize",
-      "summary": "This is a race series for software programmers and the brainchild of founder Palmer Luckey, he tells TechCrunch.",
-      "content": "This is a race series for software programmers and the brainchild of founder Palmer Luckey, he tells TechCrunch.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2026-01-27T21:54:38.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/01/27/anduril-has-invented-a-wild-new-drone-flying-contest-where-jobs-are-the-prize/",
-      "readTime": 3,
-      "views": 10735
-    },
-    {
-      "id": "anthropic-reportedly-upped-its-latest-raise-to-20b",
-      "title": "Anthropic reportedly upped its latest raise to $20B",
-      "summary": "Anthropic looks to raise $20 billion at more than $300 billion valuation, according to reports.",
-      "content": "Anthropic looks to raise $20 billion at more than $300 billion valuation, according to reports.",
-      "source": "TechCrunch AI",
-      "author": "Dominic-Madori Davis",
-      "publishedAt": "2026-01-27T21:16:10.000Z",
-      "category": "funding",
-      "tags": [
-        "ai",
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/01/27/anthropic-reportedly-upped-its-latest-raise-to-20b/",
-      "readTime": 3,
-      "views": 48883
-    },
-    {
-      "id": "anthropic-and-openai-ceos-condemn-ice-violence-pra",
-      "title": "Anthropic and OpenAI CEOs condemn ICE violence, praise Trump",
-      "summary": "Anthropic's Dario Amodei and OpenAI's Sam Altman spoke out against ICE enforcement tactics following Minneapolis violence, with one addressing concerns publicly and the other in an internal message.",
-      "content": "Anthropic's Dario Amodei and OpenAI's Sam Altman spoke out against ICE enforcement tactics following Minneapolis violence, with one addressing concerns publicly and the other in an internal message.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-01-27T18:19:19.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "anthropic",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/01/27/anthropic-and-openai-ceos-condemn-ice-violence-praise-trump/",
-      "readTime": 3,
-      "views": 39511
-    },
-    {
-      "id": "openai-8217-s-latest-product-lets-you-vibe-code-sc",
-      "title": "OpenAI&#8217;s latest product lets you vibe code science",
-      "summary": "OpenAI just revealed what its new in-house team, OpenAI for Science, has been up to.  The firm has released a free LLM-powered tool for scientists called Prism, which embeds ChatGPT in a text editor f.",
-      "content": "OpenAI just revealed what its new in-house team, OpenAI for Science, has been up to. The firm has released a free LLM-powered tool for scientists called Prism, which embeds ChatGPT in a text editor for writing scientific papers. The idea is to put ChatGPT front and center inside software that scient",
-      "source": "MIT Technology Review AI",
-      "author": "Will Douglas Heaven",
-      "publishedAt": "2026-01-27T18:00:43.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gpt",
-        "llm",
-        "openai",
-        "chatgpt"
-      ],
-      "url": "https://www.technologyreview.com/2026/01/27/1131793/openais-latest-product-lets-you-vibe-code-science/",
-      "readTime": 3,
-      "views": 50297
-    },
-    {
-      "id": "google-8217-s-more-affordable-ai-plus-plan-rolls-o",
-      "title": "Google&#8217;s more affordable AI Plus plan rolls out to all markets, including the US",
-      "summary": "Gemini 3 Pro and other AI tools are now available globally through the Google AI Plus plan, which is $7. 99 per month in the United States.",
-      "content": "Gemini 3 Pro and other AI tools are now available globally through the Google AI Plus plan, which is $7.99 per month in the United States.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-01-27T18:00:39.000Z",
-      "category": "market",
-      "tags": [
-        "ai",
-        "gemini",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/01/27/googles-ai-plus-plan-rolls-out-to-all-markets-including-the-u-s/",
-      "readTime": 3,
-      "views": 28389
-    },
-    {
-      "id": "openai-launches-prism-a-new-ai-workspace-for-scien",
-      "title": "OpenAI launches Prism, a new AI workspace for scientists",
-      "summary": "OpenAI has launched a new scientific workspace program called Prism, which integrates AI into existing standards for composing research papers.",
-      "content": "OpenAI has launched a new scientific workspace program called Prism, which integrates AI into existing standards for composing research papers.",
-      "source": "TechCrunch AI",
-      "author": "Russell Brandom",
-      "publishedAt": "2026-01-27T18:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/01/27/openai-launches-prism-a-new-ai-workspace-for-scientists/",
-      "readTime": 3,
-      "views": 9218
-    },
-    {
-      "id": "databricks-enterprise-ai-adoption-shifts-to-agenti",
-      "title": "Databricks: Enterprise AI adoption shifts to agentic systems",
-      "summary": "According to Databricks, enterprise AI adoption is shifting to agentic systems as organisations embrace intelligent workflows.  Generative AI’s first wave promised business transformation but often de.",
-      "content": "According to Databricks, enterprise AI adoption is shifting to agentic systems as organisations embrace intelligent workflows. Generative AI’s first wave promised business transformation but often delivered little more than isolated chatbots and stalled pilot programmes. Technology leaders found the",
-      "source": "AI News",
-      "author": "Ryan Daws",
-      "publishedAt": "2026-01-27T17:26:45.000Z",
-      "category": "market",
-      "tags": [
-        "ai",
-        "generative ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/databricks-enterprise-ai-adoption-shifts-agentic-systems/",
-      "readTime": 3,
-      "views": 7246
-    },
-    {
-      "id": "google-now-lets-users-jump-from-ai-overviews-into-",
-      "title": "Google now lets users jump from AI Overviews into AI Mode conversations",
-      "summary": "The tech giant also announced that it's making Gemini 3 the new default model for AI Overviews globally.",
-      "content": "The tech giant also announced that it's making Gemini 3 the new default model for AI Overviews globally.",
-      "source": "TechCrunch AI",
-      "author": "Aisha Malik",
-      "publishedAt": "2026-01-27T17:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gemini",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/01/27/google-now-lets-users-jump-from-ai-overviews-into-ai-mode-conversations/",
-      "readTime": 3,
-      "views": 13851
-    },
-    {
-      "id": "risotto-raises-10m-seed-to-use-ai-to-make-ticketin",
-      "title": "Risotto raises $10M seed to use AI to make ticketing systems easier to use",
-      "summary": "\"Our special sauce is the prompt libraries, the eval suites, and the thousands and thousands of real-world examples that the AI gets trained on to ensure it actually does what it's expected to do,” CE.",
-      "content": "\"Our special sauce is the prompt libraries, the eval suites, and the thousands and thousands of real-world examples that the AI gets trained on to ensure it actually does what it's expected to do,” CEO Aron Solberg told TechCrunch.",
-      "source": "TechCrunch AI",
-      "author": "Russell Brandom",
-      "publishedAt": "2026-01-27T15:25:22.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/01/27/risotto-raises-10m-seed-to-use-ai-to-make-ticketing-systems-easier-to-use/",
-      "readTime": 3,
-      "views": 53440
-    },
-    {
-      "id": "phoebe-gates-and-sophia-kianni-s-phia-raises-35m-t",
-      "title": "Phoebe Gates and Sophia Kianni’s Phia raises $35M to ‘make shopping fun again’",
-      "summary": "“We are just at such a prime time of opportunity,” Gates said to explain the new fundraise.  “Commerce itself for the consumer hasn’t really been adapted in the last 30 years, and the opportunity to m.",
-      "content": "“We are just at such a prime time of opportunity,” Gates said to explain the new fundraise. “Commerce itself for the consumer hasn’t really been adapted in the last 30 years, and the opportunity to make a truly personalized, end-to-end shopping experience is today.”",
-      "source": "TechCrunch AI",
-      "author": "Amanda Silberling",
-      "publishedAt": "2026-01-27T15:00:00.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/01/27/phoebe-gates-and-sophia-kiannis-phia-raises-35m-to-make-shopping-fun-again/",
-      "readTime": 3,
-      "views": 5876
-    },
-    {
-      "id": "airtable-jumps-into-the-ai-agent-game-with-superag",
-      "title": "Airtable jumps into the AI agent game with Superagent",
-      "summary": "SuperAgent is Airtable's first stand-alone product in its 13-year history, and signals both the company's ambitions and the reality of the current AI moment: Every serious software player is racing to.",
-      "content": "SuperAgent is Airtable's first stand-alone product in its 13-year history, and signals both the company's ambitions and the reality of the current AI moment: Every serious software player is racing to prove they can deliver on agents.",
-      "source": "TechCrunch AI",
-      "author": "Connie Loizos",
-      "publishedAt": "2026-01-27T15:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/01/27/airtables-valuation-fell-by-7-million-its-founder-thinks-that-was-just-the-warm-up/",
-      "readTime": 3,
-      "views": 8792
-    },
-    {
-      "id": "china-8217-s-moonshot-releases-a-new-open-source-m",
-      "title": "China&#8217;s Moonshot releases a new open source model Kimi K2.5 and a coding agent",
-      "summary": "The company said that the model was trained on 15 trillion mixed visual and text tokens.",
-      "content": "The company said that the model was trained on 15 trillion mixed visual and text tokens.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-01-27T14:11:10.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/01/27/chinas-moonshot-releases-a-new-open-source-model-kimi-k2-5-and-a-coding-agent/",
-      "readTime": 3,
-      "views": 12662
-    },
-    {
-      "id": "node-based-design-tool-flora-raises-42m-from-redpo",
-      "title": "Node-based design tool Flora raises $42M from Redpoint Ventures",
-      "summary": "Flora lets customers use image, text, or video to create media assets, including images and video.  Users can also use prompts to create modifications to build new nodes with multiple iterations.",
-      "content": "Flora lets customers use image, text, or video to create media assets, including images and video. Users can also use prompts to create modifications to build new nodes with multiple iterations. These generated versions are mapped with each other on a canvas to give you a tractable flow of creation.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-01-27T14:00:00.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/01/27/node-based-design-tool-flora-raises-42m-from-redpoint-ventures/",
-      "readTime": 3,
-      "views": 44493
+      "views": 28366
     }
   ],
-  "lastUpdated": "2026-01-28T12:50:01.672Z",
+  "lastUpdated": "2026-01-29T01:58:34.462Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "AI News",
     "TechCrunch AI",
+    "AI News",
     "MIT Technology Review AI"
   ],
   "categories": [
-    "regulation",
-    "research",
+    "release",
+    "partnership",
     "funding",
     "market",
-    "release"
+    "regulation",
+    "research"
   ]
 }
