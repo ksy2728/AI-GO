@@ -1,6 +1,237 @@
 {
   "articles": [
     {
+      "id": "sam-altman-got-exceptionally-testy-over-claude-sup",
+      "title": "Sam Altman got exceptionally testy over Claude Super Bowl ads",
+      "summary": "He posted a novella-sized rant that devolved into to calling his rival \"dishonest\" and \"authoritarian.",
+      "content": "He posted a novella-sized rant that devolved into to calling his rival \"dishonest\" and \"authoritarian.\"",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2026-02-05T00:45:11.000Z",
+      "category": "release",
+      "tags": [
+        "claude"
+      ],
+      "url": "https://techcrunch.com/2026/02/04/sam-altman-got-exceptionally-testy-over-claude-super-bowl-ads/",
+      "readTime": 3,
+      "views": 26033
+    },
+    {
+      "id": "alphabet-won-8217-t-talk-about-the-google-apple-ai",
+      "title": "Alphabet won&#8217;t talk about the Google-Apple AI deal, even to investors",
+      "summary": "Alphabet CEO skipped an analyst's question about Apple on the company's earnings call.",
+      "content": "Alphabet CEO skipped an analyst's question about Apple on the company's earnings call.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-02-04T23:28:31.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Google",
+        "Apple"
+      ],
+      "url": "https://techcrunch.com/2026/02/04/alphabet-wont-talk-about-the-google-apple-ai-deal-even-to-investors/",
+      "readTime": 3,
+      "views": 39474
+    },
+    {
+      "id": "google-s-gemini-app-has-surpassed-750m-monthly-act",
+      "title": "Google’s Gemini app has surpassed 750M monthly active users",
+      "summary": "Google revealed a significant milestone for its Gemini app, announcing over 750 million monthly active users as it competes with ChatGPT and Meta AI.",
+      "content": "Google revealed a significant milestone for its Gemini app, announcing over 750 million monthly active users as it competes with ChatGPT and Meta AI.",
+      "source": "TechCrunch AI",
+      "author": "Lauren Forristal",
+      "publishedAt": "2026-02-04T22:53:46.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gpt",
+        "gemini",
+        "chatgpt",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2026/02/04/googles-gemini-app-has-surpassed-750m-monthly-active-users/",
+      "readTime": 3,
+      "views": 32319
+    },
+    {
+      "id": "ai-sre-resolve-ai-confirms-125m-raise-unicorn-valu",
+      "title": "AI SRE Resolve AI confirms $125M raise, unicorn valuation",
+      "summary": "The two-year-old startup confirms that it closed a Series A led by Lightspeed at $1 billion valuation.",
+      "content": "The two-year-old startup confirms that it closed a Series A led by Lightspeed at $1 billion valuation.",
+      "source": "TechCrunch AI",
+      "author": "Marina Temkin",
+      "publishedAt": "2026-02-04T21:39:26.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/02/04/ai-sre-resolve-ai-confirms-125m-raise-unicorn-valuation/",
+      "readTime": 3,
+      "views": 5146
+    },
+    {
+      "id": "amazon-to-begin-testing-ai-tools-for-film-and-tv-p",
+      "title": "Amazon to begin testing AI tools for film and TV production next month",
+      "summary": "Amazon MGM Studios will reportedly begin a closed beta program in March to test its AI tools to help with film and TV production.",
+      "content": "Amazon MGM Studios will reportedly begin a closed beta program in March to test its AI tools to help with film and TV production.",
+      "source": "TechCrunch AI",
+      "author": "Lauren Forristal",
+      "publishedAt": "2026-02-04T21:26:43.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/02/04/amazon-to-begin-testing-ai-tools-for-film-and-tv-production-next-month/",
+      "readTime": 3,
+      "views": 54668
+    },
+    {
+      "id": "a16z-just-raised-1-7b-for-ai-infrastructure-here-8",
+      "title": "A16z just raised $1.7B for AI infrastructure. Here&#8217;s where it&#8217;s going.",
+      "summary": "Andreessen Horowitz just raised&#160;a whopping&#160;⁠new&#160;$15 billion&#160;in funding⁠. 7 billion&#160;chunk&#160;of that is going to&#160;its&#160;⁠infrastructure&#160;team��,&#160;the one respo.",
+      "content": "Andreessen Horowitz just raised&#160;a whopping&#160;⁠new&#160;$15 billion&#160;in funding⁠.&#160;And a&#160;$1.7 billion&#160;chunk&#160;of that is going to&#160;its&#160;⁠infrastructure&#160;team��,&#160;the one responsible for some of its biggest, most prominent&#160;AI investments including&#160",
+      "source": "TechCrunch AI",
+      "author": "Theresa Loconsolo",
+      "publishedAt": "2026-02-04T20:24:12.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/video/a16z-just-raised-1-7b-for-ai-infrastructure-heres-where-its-going/",
+      "readTime": 3,
+      "views": 16547
+    },
+    {
+      "id": "what-a16z-is-actually-funding-and-what-it-8217-s-i",
+      "title": "What a16z is actually funding (and what it&#8217;s ignoring) when it comes to AI infra",
+      "summary": "Andreessen Horowitz just raised&#160;a whopping&#160;new&#160;$15 billion&#160;in funding. 7 billion&#160;chunk&#160;of that is going to&#160;its&#160;infrastructure&#160;team,&#160;the one responsibl.",
+      "content": "Andreessen Horowitz just raised&#160;a whopping&#160;new&#160;$15 billion&#160;in funding.&#160;And a&#160;$1.7 billion&#160;chunk&#160;of that is going to&#160;its&#160;infrastructure&#160;team,&#160;the one responsible for some of its biggest, most prominent&#160;AI investments, including&#160;Bla",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort, Theresa Loconsolo",
+      "publishedAt": "2026-02-04T20:19:12.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/podcast/what-a16z-is-actually-funding-and-what-its-ignoring-when-it-comes-to-ai-infra/",
+      "readTime": 3,
+      "views": 37250
+    },
+    {
+      "id": "tinder-looks-to-ai-to-help-fight-8216-swipe-fatigu",
+      "title": "Tinder looks to AI to help fight &#8216;swipe fatigue&#8217; and dating app burnout",
+      "summary": "Tinder is testing AI recommendations and insight from your Camera Roll for better matches.",
+      "content": "Tinder is testing AI recommendations and insight from your Camera Roll for better matches.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-02-04T18:08:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/02/04/tinder-looks-to-ai-to-help-fight-swipe-fatigue-and-dating-app-burnout/",
+      "readTime": 3,
+      "views": 52116
+    },
+    {
+      "id": "roblox-8217-s-4d-creation-feature-is-now-available",
+      "title": "Roblox&#8217;s 4D creation feature is now available in open beta",
+      "summary": "Roblox's highly anticipated 4D creation feature has officially arrived in open beta.",
+      "content": "Roblox's highly anticipated 4D creation feature has officially arrived in open beta.",
+      "source": "TechCrunch AI",
+      "author": "Lauren Forristal",
+      "publishedAt": "2026-02-04T17:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/02/04/robloxs-4d-creation-feature-is-now-available-in-open-beta/",
+      "readTime": 3,
+      "views": 28324
+    },
+    {
+      "id": "ai-expo-2026-day-1-governance-and-data-readiness-e",
+      "title": "AI Expo 2026 Day 1: Governance and data readiness enable the agentic enterprise",
+      "summary": "While the prospect of AI acting as a digital co-worker dominated the day one agenda at the co-located AI &#38; Big Data Expo and Intelligent Automation Conference, the technical sessions focused on th.",
+      "content": "While the prospect of AI acting as a digital co-worker dominated the day one agenda at the co-located AI &#38; Big Data Expo and Intelligent Automation Conference, the technical sessions focused on the infrastructure to make it work. A primary topic on the exhibition floor was the progression from p",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-02-04T16:33:34.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "automation"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/ai-expo-2026-day-1-governance-data-readiness-enable-agentic-enterprise/",
+      "readTime": 3,
+      "views": 54090
+    },
+    {
+      "id": "elevenlabs-raises-500m-from-sequoia-at-an-11-billi",
+      "title": "ElevenLabs raises $500M from Sequoia at an $11 billion valuation",
+      "summary": "ElevenLabs' valuation has raised more than three times in the last 12 months.",
+      "content": "ElevenLabs' valuation has raised more than three times in the last 12 months.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-02-04T15:33:58.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/02/04/elevenlabs-raises-500m-from-sequioia-at-a-11-billion-valuation/",
+      "readTime": 3,
+      "views": 39103
+    },
+    {
+      "id": "alexa-amazon-8217-s-ai-assistant-is-now-available-",
+      "title": "Alexa+, Amazon&#8217;s AI assistant, is now available to everyone in the US",
+      "summary": "Amazon opens Alexa+ to everyone in the U.  The AI feature is free for Prime members across devices, and free for everyone on mobile and web.",
+      "content": "Amazon opens Alexa+ to everyone in the U.S. The AI feature is free for Prime members across devices, and free for everyone on mobile and web.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-02-04T14:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/02/04/alexa-amazons-ai-assistant-is-now-available-to-everyone-in-the-u-s/",
+      "readTime": 3,
+      "views": 43276
+    },
+    {
+      "id": "from-guardrails-to-governance-a-ceo-s-guide-for-se",
+      "title": "From guardrails to governance: A CEO’s guide for securing agentic systems",
+      "summary": "The previous article in this series, “Rules fail at the prompt, succeed at the boundary,” focused on the first AI-orchestrated espionage campaign and the failure of prompt-level control.  This article.",
+      "content": "The previous article in this series, “Rules fail at the prompt, succeed at the boundary,” focused on the first AI-orchestrated espionage campaign and the failure of prompt-level control. This article is the prescription. The question every CEO is now getting from their board is some version of: What",
+      "source": "MIT Technology Review AI",
+      "author": "Jessica Hammond",
+      "publishedAt": "2026-02-04T14:00:00.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/02/04/1131014/from-guardrails-to-governance-a-ceos-guide-for-securing-agentic-systems/",
+      "readTime": 3,
+      "views": 43197
+    },
+    {
+      "id": "accel-doubles-down-on-fibr-ai-as-agents-turn-stati",
+      "title": "Accel doubles down on Fibr AI as agents turn static websites into one-to-one experiences",
+      "summary": "Fibr AI replaces marketing agency- and engineering-heavy website personalization with autonomous systems designed for enterprise scale.",
+      "content": "Fibr AI replaces marketing agency- and engineering-heavy website personalization with autonomous systems designed for enterprise scale.",
+      "source": "TechCrunch AI",
+      "author": "Jagmeet Singh",
+      "publishedAt": "2026-02-04T13:00:00.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/02/04/accel-doubles-down-on-fibr-ai-as-agents-turn-static-websites-into-one-to-one-experiences/",
+      "readTime": 3,
+      "views": 19486
+    },
+    {
       "id": "combing-the-rackspace-blogfiles-for-operational-ai",
       "title": "Combing the Rackspace blogfiles for operational AI pointers",
       "summary": "In a recent blog output, Rackspace refers to the bottlenecks familiar to many readers: messy data, unclear ownership, governance gaps, and the cost of running models once they become part of productio.",
@@ -14,7 +245,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/combing-the-rackspace-blogfiles-for-operational-ai-pointers/",
       "readTime": 3,
-      "views": 34740
+      "views": 36557
     },
     {
       "id": "how-cisco-builds-smart-systems-for-the-ai-era",
@@ -30,7 +261,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/how-cisco-builds-smart-systems-for-the-ai-era/",
       "readTime": 3,
-      "views": 44969
+      "views": 25057
     },
     {
       "id": "exclusive-positron-raises-230m-series-b-to-take-on",
@@ -46,7 +277,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/04/exclusive-positron-raises-230m-series-b-to-take-on-nvidias-ai-chips/",
       "readTime": 3,
-      "views": 48410
+      "views": 47818
     },
     {
       "id": "xcode-moves-into-agentic-coding-with-deeper-openai",
@@ -66,7 +297,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/03/xcode-moves-into-agentic-coding-with-deeper-openai-and-anthropic-integrations/",
       "readTime": 3,
-      "views": 10132
+      "views": 9971
     },
     {
       "id": "lotus-health-nabs-35m-for-ai-doctor-that-sees-pati",
@@ -82,7 +313,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/03/lotus-health-nabs-35m-for-ai-doctor-that-sees-patients-for-free/",
       "readTime": 3,
-      "views": 10151
+      "views": 50659
     },
     {
       "id": "fitbit-founders-launch-ai-platform-to-help-familie",
@@ -98,256 +329,20 @@
       ],
       "url": "https://techcrunch.com/2026/02/03/fitbit-founders-launch-ai-platform-to-help-families-monitor-their-health/",
       "readTime": 3,
-      "views": 17763
-    },
-    {
-      "id": "peak-xv-says-internal-disagreement-led-to-partner-",
-      "title": "Peak XV says internal disagreement led to partner exits as it doubles down on AI",
-      "summary": "Peak XV is transitioning board roles and opening a U.  office while continuing to view India as its largest market.",
-      "content": "Peak XV is transitioning board roles and opening a U.S. office while continuing to view India as its largest market.",
-      "source": "TechCrunch AI",
-      "author": "Jagmeet Singh",
-      "publishedAt": "2026-02-03T14:14:33.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/02/03/peak-xv-says-internal-disagreement-led-to-partner-exits-as-it-doubles-down-on-ai/",
-      "readTime": 3,
-      "views": 32288
-    },
-    {
-      "id": "ronnie-sheth-ceo-senen-group-why-now-is-the-time-f",
-      "title": "Ronnie Sheth, CEO, SENEN Group: Why now is the time for enterprise AI to ‘get practical&#8217;",
-      "summary": "Before you set sail on your AI journey, always check the state of your data – because if there is one thing likely to sink your ship, it is data quality.  Gartner estimates that poor data quality cost.",
-      "content": "Before you set sail on your AI journey, always check the state of your data – because if there is one thing likely to sink your ship, it is data quality. Gartner estimates that poor data quality costs organisations an average of $12.9 million each year in wasted resources and lost opportunities. Tha",
-      "source": "AI News",
-      "author": "TechForge",
-      "publishedAt": "2026-02-03T11:47:14.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/ronnie-sheth-ceo-senen-group-why-now-is-the-time-for-enterprise-ai-to-get-practical/",
-      "readTime": 3,
-      "views": 46588
-    },
-    {
-      "id": "apptio-why-scaling-intelligent-automation-requires",
-      "title": "Apptio: Why scaling intelligent automation requires financial rigour",
-      "summary": "Greg Holmes, Field CTO for EMEA at Apptio, an IBM company, argues that successfully scaling intelligent automation requires financial rigour.  The &#8220;build it and they will come&#8221; model of te.",
-      "content": "Greg Holmes, Field CTO for EMEA at Apptio, an IBM company, argues that successfully scaling intelligent automation requires financial rigour. The &#8220;build it and they will come&#8221; model of technology adoption often leaves a hole in the budget when applied to automation. Executives frequently",
-      "source": "AI News",
-      "author": "Ryan Daws",
-      "publishedAt": "2026-02-03T10:52:22.000Z",
-      "category": "market",
-      "tags": [
-        "automation"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/apptio-why-scaling-intelligent-automation-requires-financial-rigour/",
-      "readTime": 3,
-      "views": 35690
-    },
-    {
-      "id": "fedex-tests-how-far-ai-can-go-in-tracking-and-retu",
-      "title": "FedEx tests how far AI can go in tracking and returns management",
-      "summary": "FedEx is using AI to change how package tracking and returns work for large enterprise shippers.  For companies moving high volumes of goods, tracking no longer ends when a package leaves the warehous.",
-      "content": "FedEx is using AI to change how package tracking and returns work for large enterprise shippers. For companies moving high volumes of goods, tracking no longer ends when a package leaves the warehouse. Customers expect real-time updates, flexible delivery options, and returns that do not turn into s",
-      "source": "AI News",
-      "author": "Muhammad Zulhusni",
-      "publishedAt": "2026-02-03T10:00:00.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/fedex-tests-how-far-ai-can-go-in-tracking-and-returns-management/",
-      "readTime": 3,
-      "views": 54006
-    },
-    {
-      "id": "elon-musk-8217-s-spacex-officially-acquires-elon-m",
-      "title": "Elon Musk&#8217;s SpaceX officially acquires Elon Musk&#8217;s xAI, with plan to build data centers in space",
-      "summary": "The merger creates the world's most valuable private company and paves the way for Musk to try and prove out the usefulness of space-based data centers.",
-      "content": "The merger creates the world's most valuable private company and paves the way for Musk to try and prove out the usefulness of space-based data centers.",
-      "source": "TechCrunch AI",
-      "author": "Sean O'Kane",
-      "publishedAt": "2026-02-02T22:21:57.000Z",
-      "category": "partnership",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/02/02/elon-musk-spacex-acquires-xai-data-centers-space-merger/",
-      "readTime": 3,
-      "views": 14702
-    },
-    {
-      "id": "what-snowflake-s-deal-with-openai-tells-us-about-t",
-      "title": "What Snowflake’s deal with OpenAI tells us about the enterprise AI race",
-      "summary": "Snowflake is the latest enterprise to sign multi-year deals with multiple AI companies in what could be a sign to come of a future trend.",
-      "content": "Snowflake is the latest enterprise to sign multi-year deals with multiple AI companies in what could be a sign to come of a future trend.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Szkutak",
-      "publishedAt": "2026-02-02T19:09:44.000Z",
-      "category": "market",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/02/02/what-snowflakes-deal-with-openai-tells-us-about-the-enterprise-ai-race/",
-      "readTime": 3,
-      "views": 42518
-    },
-    {
-      "id": "firefox-will-soon-let-you-block-all-of-its-generat",
-      "title": "Firefox will soon let you block all of its generative AI features",
-      "summary": "Starting with Firefox 148 arriving later this month, users will find a new AI controls section within the desktop browser settings.",
-      "content": "Starting with Firefox 148 arriving later this month, users will find a new AI controls section within the desktop browser settings.",
-      "source": "TechCrunch AI",
-      "author": "Aisha Malik",
-      "publishedAt": "2026-02-02T18:34:45.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "generative ai"
-      ],
-      "url": "https://techcrunch.com/2026/02/02/firefox-will-soon-let-you-block-all-of-its-generative-ai-features/",
-      "readTime": 3,
-      "views": 43932
-    },
-    {
-      "id": "openai-launches-new-macos-app-for-agentic-coding",
-      "title": "OpenAI launches new macOS app for agentic coding",
-      "summary": "OpenAI has released a new macOS app for Codex, integrating many of the agentic coding practices that have become popular since Codex launched last year.",
-      "content": "OpenAI has released a new macOS app for Codex, integrating many of the agentic coding practices that have become popular since Codex launched last year.",
-      "source": "TechCrunch AI",
-      "author": "Russell Brandom",
-      "publishedAt": "2026-02-02T18:19:31.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/02/02/openai-launches-new-macos-app-for-agentic-coding/",
-      "readTime": 3,
-      "views": 29684
-    },
-    {
-      "id": "what-we-ve-been-getting-wrong-about-ai-s-truth-cri",
-      "title": "What we’ve been getting wrong about AI’s truth crisis",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI.  To get stories like this in your inbox first,&#160;sign up here.",
-      "content": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. What would it take to convince you that the era of truth decay we were long warned about—where AI content dupes us, shapes our beliefs even when we catch the",
-      "source": "MIT Technology Review AI",
-      "author": "James O'Donnell",
-      "publishedAt": "2026-02-02T18:09:57.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/02/02/1132068/what-weve-been-getting-wrong-about-ais-truth-crisis/",
-      "readTime": 3,
-      "views": 34802
-    },
-    {
-      "id": "ring-brings-its-8216-search-party-8217-feature-for",
-      "title": "Ring brings its &#8216;Search Party&#8217; feature for finding lost dogs to non-Ring camera owners",
-      "summary": "Ring's Search Party feature for finding lost dogs is now available across the U.  — even if you don't own a Ring camera.",
-      "content": "Ring's Search Party feature for finding lost dogs is now available across the U.S. — even if you don't own a Ring camera.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-02-02T15:33:45.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/02/02/ring-brings-its-search-party-feature-for-finding-lost-dogs-to-non-ring-camera-owners/",
-      "readTime": 3,
-      "views": 49383
-    },
-    {
-      "id": "klarna-backs-google-ucp-to-power-ai-agent-payments",
-      "title": "Klarna backs Google UCP to power AI agent payments",
-      "summary": "Klarna aims to address the lack of interoperability between conversational AI agents and backend payment systems by backing Google’s Universal Commerce Protocol (UCP), an open standard designed to uni.",
-      "content": "Klarna aims to address the lack of interoperability between conversational AI agents and backend payment systems by backing Google’s Universal Commerce Protocol (UCP), an open standard designed to unify how AI agents discover products and execute transactions. The partnership, which also sees Klarna",
-      "source": "AI News",
-      "author": "Ryan Daws",
-      "publishedAt": "2026-02-02T15:16:59.000Z",
-      "category": "partnership",
-      "tags": [
-        "ai",
-        "Google"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/klarna-backs-google-ucp-power-ai-agent-payments/",
-      "readTime": 3,
-      "views": 38868
-    },
-    {
-      "id": "carbon-robotics-built-an-ai-model-that-detects-and",
-      "title": "Carbon Robotics built an AI model that detects and identifies plants",
-      "summary": "Carbon Robotics' Large Plant Model will allow farmers to kill new types of weeds without having to retrain the machines.",
-      "content": "Carbon Robotics' Large Plant Model will allow farmers to kill new types of weeds without having to retrain the machines.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Szkutak",
-      "publishedAt": "2026-02-02T15:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "ai model",
-        "robotics"
-      ],
-      "url": "https://techcrunch.com/2026/02/02/carbon-robotics-built-an-ai-model-that-detects-and-identifies-plants/",
-      "readTime": 3,
-      "views": 14730
-    },
-    {
-      "id": "coalition-demands-federal-grok-ban-over-nonconsens",
-      "title": "Coalition demands federal Grok ban over nonconsensual sexual content",
-      "summary": "Nonprofits urge the U.  government to suspend Grok in federal agencies after the xAI chatbot generated thousands of nonconsensual sexual images, raising national security and child safety concerns.",
-      "content": "Nonprofits urge the U.S. government to suspend Grok in federal agencies after the xAI chatbot generated thousands of nonconsensual sexual images, raising national security and child safety concerns.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-02-02T15:00:00.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/02/02/coalition-demands-federal-grok-ban-over-nonconsensual-sexual-content/",
-      "readTime": 3,
-      "views": 48570
-    },
-    {
-      "id": "the-crucial-first-step-for-designing-a-successful-",
-      "title": "The crucial first step for designing a successful enterprise AI system",
-      "summary": "Many organizations rushed into generative AI, only to see pilots fail to deliver value.  Now, companies want measurable outcomes—but how do you design for success.",
-      "content": "Many organizations rushed into generative AI, only to see pilots fail to deliver value. Now, companies want measurable outcomes—but how do you design for success? At Mistral AI, we partner with global industry leaders to co-design tailored AI solutions that solve their most difficult problems. Wheth",
-      "source": "MIT Technology Review AI",
-      "author": "Corentin Petit and Sarah Beldo",
-      "publishedAt": "2026-02-02T14:20:29.000Z",
-      "category": "market",
-      "tags": [
-        "ai",
-        "generative ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/02/02/1131822/the-crucial-first-step-for-designing-a-successful-enterprise-ai-system/",
-      "readTime": 3,
-      "views": 27587
+      "views": 38758
     }
   ],
-  "lastUpdated": "2026-02-04T12:57:55.487Z",
+  "lastUpdated": "2026-02-05T02:01:56.754Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "AI News",
     "TechCrunch AI",
+    "AI News",
     "MIT Technology Review AI"
   ],
   "categories": [
-    "market",
-    "funding",
     "release",
-    "partnership",
-    "research",
-    "regulation"
+    "funding",
+    "market"
   ]
 }
