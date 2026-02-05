@@ -1,6 +1,45 @@
 {
   "articles": [
     {
+      "id": "microsoft-unveils-method-to-detect-sleeper-agent-b",
+      "title": "Microsoft unveils method to detect sleeper agent backdoors",
+      "summary": "Researchers from Microsoft have unveiled a scanning method to identify poisoned models without knowing the trigger or intended outcome.  Organisations integrating open-weight large language models (LL.",
+      "content": "Researchers from Microsoft have unveiled a scanning method to identify poisoned models without knowing the trigger or intended outcome. Organisations integrating open-weight large language models (LLMs) face a specific supply chain vulnerability where distinct memory leaks and internal attention pat",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-02-05T10:43:37.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "llm",
+        "language model",
+        "Microsoft"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/microsoft-unveils-method-detect-sleeper-agent-backdoors/",
+      "readTime": 3,
+      "views": 47909
+    },
+    {
+      "id": "this-is-the-most-misunderstood-graph-in-ai",
+      "title": "This is the most misunderstood graph in AI",
+      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next.  You can read more from the series here.",
+      "content": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Every time OpenAI, Google, or Anthropic drops a new frontier large language model, the AI community holds its breath. It ",
+      "source": "MIT Technology Review AI",
+      "author": "Grace Huckins",
+      "publishedAt": "2026-02-05T10:00:00.000Z",
+      "category": "funding",
+      "tags": [
+        "ai",
+        "language model",
+        "openai",
+        "anthropic",
+        "OpenAI"
+      ],
+      "url": "https://www.technologyreview.com/2026/02/05/1132254/this-is-the-most-misunderstood-graph-in-ai/",
+      "readTime": 3,
+      "views": 12511
+    },
+    {
       "id": "sam-altman-got-exceptionally-testy-over-claude-sup",
       "title": "Sam Altman got exceptionally testy over Claude Super Bowl ads",
       "summary": "He posted a novella-sized rant that devolved into to calling his rival \"dishonest\" and \"authoritarian.",
@@ -14,7 +53,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/04/sam-altman-got-exceptionally-testy-over-claude-super-bowl-ads/",
       "readTime": 3,
-      "views": 25055
+      "views": 12613
     },
     {
       "id": "alphabet-won-8217-t-talk-about-the-google-apple-ai",
@@ -32,7 +71,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/04/alphabet-wont-talk-about-the-google-apple-ai-deal-even-to-investors/",
       "readTime": 3,
-      "views": 37682
+      "views": 45695
     },
     {
       "id": "google-s-gemini-app-has-surpassed-750m-monthly-act",
@@ -52,7 +91,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/04/googles-gemini-app-has-surpassed-750m-monthly-active-users/",
       "readTime": 3,
-      "views": 21207
+      "views": 15271
     },
     {
       "id": "ai-sre-resolve-ai-confirms-125m-raise-unicorn-valu",
@@ -68,7 +107,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/04/ai-sre-resolve-ai-confirms-125m-raise-unicorn-valuation/",
       "readTime": 3,
-      "views": 15676
+      "views": 15224
     },
     {
       "id": "amazon-to-begin-testing-ai-tools-for-film-and-tv-p",
@@ -84,7 +123,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/04/amazon-to-begin-testing-ai-tools-for-film-and-tv-production-next-month/",
       "readTime": 3,
-      "views": 8384
+      "views": 41949
     },
     {
       "id": "a16z-just-raised-1-7b-for-ai-infrastructure-here-8",
@@ -100,7 +139,7 @@
       ],
       "url": "https://techcrunch.com/video/a16z-just-raised-1-7b-for-ai-infrastructure-heres-where-its-going/",
       "readTime": 3,
-      "views": 6841
+      "views": 51325
     },
     {
       "id": "what-a16z-is-actually-funding-and-what-it-8217-s-i",
@@ -116,7 +155,7 @@
       ],
       "url": "https://techcrunch.com/podcast/what-a16z-is-actually-funding-and-what-its-ignoring-when-it-comes-to-ai-infra/",
       "readTime": 3,
-      "views": 33315
+      "views": 31582
     },
     {
       "id": "tinder-looks-to-ai-to-help-fight-8216-swipe-fatigu",
@@ -132,7 +171,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/04/tinder-looks-to-ai-to-help-fight-swipe-fatigue-and-dating-app-burnout/",
       "readTime": 3,
-      "views": 22997
+      "views": 6220
     },
     {
       "id": "roblox-8217-s-4d-creation-feature-is-now-available",
@@ -148,7 +187,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/04/robloxs-4d-creation-feature-is-now-available-in-open-beta/",
       "readTime": 3,
-      "views": 23944
+      "views": 43445
     },
     {
       "id": "ai-expo-2026-day-1-governance-and-data-readiness-e",
@@ -165,7 +204,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/ai-expo-2026-day-1-governance-data-readiness-enable-agentic-enterprise/",
       "readTime": 3,
-      "views": 53049
+      "views": 46777
     },
     {
       "id": "elevenlabs-raises-500m-from-sequoia-at-an-11-billi",
@@ -181,7 +220,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/04/elevenlabs-raises-500m-from-sequioia-at-a-11-billion-valuation/",
       "readTime": 3,
-      "views": 28765
+      "views": 26398
     },
     {
       "id": "alexa-amazon-8217-s-ai-assistant-is-now-available-",
@@ -197,7 +236,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/04/alexa-amazons-ai-assistant-is-now-available-to-everyone-in-the-u-s/",
       "readTime": 3,
-      "views": 50729
+      "views": 15652
     },
     {
       "id": "from-guardrails-to-governance-a-ceo-s-guide-for-se",
@@ -213,7 +252,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/02/04/1131014/from-guardrails-to-governance-a-ceos-guide-for-securing-agentic-systems/",
       "readTime": 3,
-      "views": 45352
+      "views": 30164
     },
     {
       "id": "accel-doubles-down-on-fibr-ai-as-agents-turn-stati",
@@ -229,11 +268,11 @@
       ],
       "url": "https://techcrunch.com/2026/02/04/accel-doubles-down-on-fibr-ai-as-agents-turn-static-websites-into-one-to-one-experiences/",
       "readTime": 3,
-      "views": 29941
+      "views": 39937
     },
     {
-      "id": "combing-the-rackspace-blogfiles-for-operational-ai",
-      "title": "Combing the Rackspace blogfiles for operational AI pointers",
+      "id": "from-blogosphere-to-the-ai-038-big-data-expo-racks",
+      "title": "From blogosphere to the AI &#038; Big Data Expo: Rackspace and operational AI",
       "summary": "In a recent blog output, Rackspace refers to the bottlenecks familiar to many readers: messy data, unclear ownership, governance gaps, and the cost of running models once they become part of productio.",
       "content": "In a recent blog output, Rackspace refers to the bottlenecks familiar to many readers: messy data, unclear ownership, governance gaps, and the cost of running models once they become part of production. The company frames them through the lens of service delivery, security operations, and cloud mode",
       "source": "AI News",
@@ -245,7 +284,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/combing-the-rackspace-blogfiles-for-operational-ai-pointers/",
       "readTime": 3,
-      "views": 54591
+      "views": 5189
     },
     {
       "id": "how-cisco-builds-smart-systems-for-the-ai-era",
@@ -261,7 +300,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/how-cisco-builds-smart-systems-for-the-ai-era/",
       "readTime": 3,
-      "views": 25042
+      "views": 19748
     },
     {
       "id": "exclusive-positron-raises-230m-series-b-to-take-on",
@@ -277,7 +316,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/04/exclusive-positron-raises-230m-series-b-to-take-on-nvidias-ai-chips/",
       "readTime": 3,
-      "views": 19002
+      "views": 18055
     },
     {
       "id": "xcode-moves-into-agentic-coding-with-deeper-openai",
@@ -297,48 +336,16 @@
       ],
       "url": "https://techcrunch.com/2026/02/03/xcode-moves-into-agentic-coding-with-deeper-openai-and-anthropic-integrations/",
       "readTime": 3,
-      "views": 5713
-    },
-    {
-      "id": "lotus-health-nabs-35m-for-ai-doctor-that-sees-pati",
-      "title": "Lotus Health nabs $35M for AI doctor that sees patients for free",
-      "summary": "This AI doctor is licensed in all 50 states, the startup says.  The deal was led by CRV and Kleiner Perkins.",
-      "content": "This AI doctor is licensed in all 50 states, the startup says. The deal was led by CRV and Kleiner Perkins.",
-      "source": "TechCrunch AI",
-      "author": "Marina Temkin",
-      "publishedAt": "2026-02-03T17:14:27.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/02/03/lotus-health-nabs-35m-for-ai-doctor-that-sees-patients-for-free/",
-      "readTime": 3,
-      "views": 44864
-    },
-    {
-      "id": "fitbit-founders-launch-ai-platform-to-help-familie",
-      "title": "Fitbit founders launch AI platform to help families monitor their health",
-      "summary": "Luffu uses AI in the background to gather and organize family information, learn day-to-day patterns, and flag notable changes so families can stay aligned and address potential well-being issues.",
-      "content": "Luffu uses AI in the background to gather and organize family information, learn day-to-day patterns, and flag notable changes so families can stay aligned and address potential well-being issues.",
-      "source": "TechCrunch AI",
-      "author": "Aisha Malik",
-      "publishedAt": "2026-02-03T15:53:36.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/02/03/fitbit-founders-launch-ai-platform-to-help-families-monitor-their-health/",
-      "readTime": 3,
-      "views": 43543
+      "views": 13614
     }
   ],
-  "lastUpdated": "2026-02-05T06:58:07.051Z",
+  "lastUpdated": "2026-02-05T13:00:54.659Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "TechCrunch AI",
     "AI News",
-    "MIT Technology Review AI"
+    "MIT Technology Review AI",
+    "TechCrunch AI"
   ],
   "categories": [
     "release",
