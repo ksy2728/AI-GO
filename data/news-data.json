@@ -1,6 +1,41 @@
 {
   "articles": [
     {
+      "id": "how-separating-logic-and-search-boosts-ai-agent-sc",
+      "title": "How separating logic and search boosts AI agent scalability",
+      "summary": "Separating logic from inference improves AI agent scalability by decoupling core workflows from execution strategies.  The transition from generative AI prototypes to production-grade agents introduce.",
+      "content": "Separating logic from inference improves AI agent scalability by decoupling core workflows from execution strategies. The transition from generative AI prototypes to production-grade agents introduces a specific engineering hurdle: reliability. LLMs are stochastic by nature. A prompt that works once",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-02-06T11:32:16.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "llm",
+        "generative ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/how-separating-logic-and-search-boosts-ai-agent-scalability/",
+      "readTime": 3,
+      "views": 30498
+    },
+    {
+      "id": "intuit-uber-and-state-farm-trial-ai-agents-inside-",
+      "title": "Intuit, Uber, and State Farm trial AI agents inside enterprise workflows",
+      "summary": "The way large companies use artificial intelligence is changing.  For years, AI in business meant experimenting with tools that could answer questions or help with small tasks.",
+      "content": "The way large companies use artificial intelligence is changing. For years, AI in business meant experimenting with tools that could answer questions or help with small tasks. Now, some big enterprises are moving beyond tools to AI agents that can actually do practical work in systems and workflows.",
+      "source": "AI News",
+      "author": "Muhammad Zulhusni",
+      "publishedAt": "2026-02-06T10:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "artificial intelligence",
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/intuit-uber-and-state-farm-trial-ai-agents-inside-enterprise-workflows/",
+      "readTime": 3,
+      "views": 44153
+    },
+    {
       "id": "sapiom-raises-15m-to-help-ai-agents-buy-their-own-",
       "title": "Sapiom raises $15M to help AI agents buy their own tech tools",
       "summary": "The startup -- with backing from Accel -- is building a financial layer that handles the authentication and micro-payments required for AI agents.",
@@ -14,7 +49,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/05/sapiom-raises-15m-to-help-ai-agents-buy-their-own-tech-tools/",
       "readTime": 3,
-      "views": 36641
+      "views": 46411
     },
     {
       "id": "reddit-looks-to-ai-search-as-its-next-big-opportun",
@@ -30,7 +65,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/05/reddit-looks-to-ai-search-as-its-next-big-opportunity/",
       "readTime": 3,
-      "views": 42279
+      "views": 16671
     },
     {
       "id": "aws-revenue-continues-to-soar-as-cloud-demand-rema",
@@ -46,7 +81,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/05/aws-revenue-continues-to-soar-as-cloud-demand-remains-high/",
       "readTime": 3,
-      "views": 17559
+      "views": 43468
     },
     {
       "id": "amazon-and-google-are-winning-the-ai-capex-race-bu",
@@ -63,7 +98,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/05/amazon-and-google-are-winning-the-ai-capex-race-but-whats-the-prize/",
       "readTime": 3,
-      "views": 19973
+      "views": 6414
     },
     {
       "id": "openai-launches-new-agentic-coding-model-only-minu",
@@ -83,7 +118,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/05/openai-launches-new-agentic-coding-model-only-minutes-after-anthropic-drops-its-own/",
       "readTime": 3,
-      "views": 13846
+      "views": 23765
     },
     {
       "id": "elon-musk-is-getting-serious-about-orbital-data-ce",
@@ -99,7 +134,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/05/elon-musk-is-getting-serious-about-orbital-data-centers/",
       "readTime": 3,
-      "views": 42868
+      "views": 27405
     },
     {
       "id": "anthropic-releases-opus-4-6-with-new-8216-agent-te",
@@ -116,7 +151,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/05/anthropic-releases-opus-4-6-with-new-agent-teams/",
       "readTime": 3,
-      "views": 27317
+      "views": 32454
     },
     {
       "id": "meta-tests-a-stand-alone-app-for-its-ai-generated-",
@@ -133,7 +168,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/05/meta-tests-a-standalone-app-for-its-ai-generated-vibes-videos/",
       "readTime": 3,
-      "views": 26770
+      "views": 43827
     },
     {
       "id": "ai-expo-2026-day-2-moving-experimental-pilots-to-a",
@@ -149,7 +184,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/ai-expo-2026-day-2-moving-experimental-pilots-ai-production/",
       "readTime": 3,
-      "views": 15303
+      "views": 25848
     },
     {
       "id": "fundamental-raises-255m-series-a-with-a-new-take-o",
@@ -165,7 +200,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/05/fundamental-raises-255-million-series-a-with-a-new-take-on-big-data-analysis/",
       "readTime": 3,
-      "views": 51953
+      "views": 10371
     },
     {
       "id": "elevenlabs-ceo-voice-is-the-next-interface-for-ai",
@@ -185,7 +220,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/05/elevenlabs-ceo-voice-is-the-next-interface-for-ai/",
       "readTime": 3,
-      "views": 51047
+      "views": 28262
     },
     {
       "id": "microsoft-unveils-method-to-detect-sleeper-agent-b",
@@ -204,7 +239,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/microsoft-unveils-method-detect-sleeper-agent-backdoors/",
       "readTime": 3,
-      "views": 46746
+      "views": 28861
     },
     {
       "id": "this-is-the-most-misunderstood-graph-in-ai",
@@ -224,7 +259,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/02/05/1132254/this-is-the-most-misunderstood-graph-in-ai/",
       "readTime": 3,
-      "views": 35971
+      "views": 19821
     },
     {
       "id": "sam-altman-got-exceptionally-testy-over-claude-sup",
@@ -240,7 +275,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/04/sam-altman-got-exceptionally-testy-over-claude-super-bowl-ads/",
       "readTime": 3,
-      "views": 7125
+      "views": 35369
     },
     {
       "id": "alphabet-won-8217-t-talk-about-the-google-apple-ai",
@@ -258,7 +293,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/04/alphabet-wont-talk-about-the-google-apple-ai-deal-even-to-investors/",
       "readTime": 3,
-      "views": 54980
+      "views": 22997
     },
     {
       "id": "google-s-gemini-app-has-surpassed-750m-monthly-act",
@@ -278,7 +313,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/04/googles-gemini-app-has-surpassed-750m-monthly-active-users/",
       "readTime": 3,
-      "views": 37729
+      "views": 48645
     },
     {
       "id": "ai-sre-resolve-ai-confirms-125m-raise-unicorn-valu",
@@ -294,7 +329,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/04/ai-sre-resolve-ai-confirms-125m-raise-unicorn-valuation/",
       "readTime": 3,
-      "views": 53871
+      "views": 27995
     },
     {
       "id": "amazon-to-begin-testing-ai-tools-for-film-and-tv-p",
@@ -310,53 +345,21 @@
       ],
       "url": "https://techcrunch.com/2026/02/04/amazon-to-begin-testing-ai-tools-for-film-and-tv-production-next-month/",
       "readTime": 3,
-      "views": 28928
-    },
-    {
-      "id": "a16z-just-raised-1-7b-for-ai-infrastructure-here-8",
-      "title": "A16z just raised $1.7B for AI infrastructure. Here&#8217;s where it&#8217;s going.",
-      "summary": "Andreessen Horowitz just raised&#160;a whopping&#160;⁠new&#160;$15 billion&#160;in funding⁠. 7 billion&#160;chunk&#160;of that is going to&#160;its&#160;⁠infrastructure&#160;team⁠,&#160;the one respon.",
-      "content": "Andreessen Horowitz just raised&#160;a whopping&#160;⁠new&#160;$15 billion&#160;in funding⁠.&#160;And a&#160;$1.7 billion&#160;chunk&#160;of that is going to&#160;its&#160;⁠infrastructure&#160;team⁠,&#160;the one responsible for some of its biggest, most prominent&#160;AI investments including&#160;",
-      "source": "TechCrunch AI",
-      "author": "Theresa Loconsolo",
-      "publishedAt": "2026-02-04T20:24:12.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/video/a16z-just-raised-1-7b-for-ai-infrastructure-heres-where-its-going/",
-      "readTime": 3,
-      "views": 41473
-    },
-    {
-      "id": "what-a16z-is-actually-funding-and-what-it-8217-s-i",
-      "title": "What a16z is actually funding (and what it&#8217;s ignoring) when it comes to AI infra",
-      "summary": "Andreessen Horowitz just raised&#160;a whopping&#160;new&#160;$15 billion&#160;in funding. 7 billion&#160;chunk&#160;of that is going to&#160;its&#160;infrastructure&#160;team,&#160;the one responsibl.",
-      "content": "Andreessen Horowitz just raised&#160;a whopping&#160;new&#160;$15 billion&#160;in funding.&#160;And a&#160;$1.7 billion&#160;chunk&#160;of that is going to&#160;its&#160;infrastructure&#160;team,&#160;the one responsible for some of its biggest, most prominent&#160;AI investments, including&#160;Bla",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort, Theresa Loconsolo",
-      "publishedAt": "2026-02-04T20:19:12.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/podcast/what-a16z-is-actually-funding-and-what-its-ignoring-when-it-comes-to-ai-infra/",
-      "readTime": 3,
-      "views": 28077
+      "views": 18727
     }
   ],
-  "lastUpdated": "2026-02-06T06:54:13.199Z",
+  "lastUpdated": "2026-02-06T12:58:03.682Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "TechCrunch AI",
     "AI News",
+    "TechCrunch AI",
     "MIT Technology Review AI"
   ],
   "categories": [
+    "release",
     "funding",
     "partnership",
-    "market",
-    "release"
+    "market"
   ]
 }
