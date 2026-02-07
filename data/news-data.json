@@ -14,7 +14,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/06/benchmark-raises-225m-in-special-funds-to-double-down-on-cerebras/",
       "readTime": 3,
-      "views": 22054
+      "views": 22499
     },
     {
       "id": "from-svedka-to-anthropic-brands-make-bold-plays-wi",
@@ -34,7 +34,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/06/super-bowl-60-ai-ads-svedka-anthropic-brands-commercials/",
       "readTime": 3,
-      "views": 13979
+      "views": 9584
     },
     {
       "id": "it-just-got-easier-for-claude-to-check-in-on-your-",
@@ -50,7 +50,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/06/it-just-got-easier-for-claude-to-check-in-on-your-wordpress-site/",
       "readTime": 3,
-      "views": 46227
+      "views": 39679
     },
     {
       "id": "maybe-ai-agents-can-be-lawyers-after-all",
@@ -66,7 +66,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/06/maybe-ai-agents-can-be-lawyers-after-all/",
       "readTime": 3,
-      "views": 13009
+      "views": 38764
     },
     {
       "id": "how-elon-musk-is-rewriting-the-rules-on-founder-po",
@@ -82,7 +82,7 @@
       ],
       "url": "https://techcrunch.com/video/how-elon-musk-is-rewriting-the-rules-on-founder-power/",
       "readTime": 3,
-      "views": 47263
+      "views": 22074
     },
     {
       "id": "how-far-will-elon-musk-take-the-everything-busines",
@@ -98,7 +98,7 @@
       ],
       "url": "https://techcrunch.com/podcast/how-far-will-elon-musk-take-the-everything-business-as-spacex-and-xai-merge/",
       "readTime": 3,
-      "views": 32459
+      "views": 44537
     },
     {
       "id": "moltbook-was-peak-ai-theater",
@@ -114,7 +114,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/02/06/1132448/moltbook-was-peak-ai-theater/",
       "readTime": 3,
-      "views": 9178
+      "views": 46063
     },
     {
       "id": "the-kindle-scribe-colorsoft-is-a-pricey-but-pretty",
@@ -130,7 +130,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/06/kindle-scribe-colorsoft-review-e-ink-color-tablet/",
       "readTime": 3,
-      "views": 45936
+      "views": 40441
     },
     {
       "id": "how-ai-is-helping-solve-the-labor-issue-in-treatin",
@@ -147,7 +147,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/06/how-ai-is-helping-with-the-labor-issue-in-treating-rare-diseases/",
       "readTime": 3,
-      "views": 41868
+      "views": 11748
     },
     {
       "id": "the-backlash-over-openai-8217-s-decision-to-retire",
@@ -166,7 +166,74 @@
       ],
       "url": "https://techcrunch.com/2026/02/06/the-backlash-over-openais-decision-to-retire-gpt-4o-shows-how-dangerous-ai-companions-can-be/",
       "readTime": 3,
-      "views": 9228
+      "views": 15981
+    },
+    {
+      "id": "how-separating-logic-and-search-boosts-ai-agent-sc",
+      "title": "How separating logic and search boosts AI agent scalability",
+      "summary": "Separating logic from inference improves AI agent scalability by decoupling core workflows from execution strategies.  The transition from generative AI prototypes to production-grade agents introduce.",
+      "content": "Separating logic from inference improves AI agent scalability by decoupling core workflows from execution strategies. The transition from generative AI prototypes to production-grade agents introduces a specific engineering hurdle: reliability. LLMs are stochastic by nature. A prompt that works once",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-02-06T11:32:16.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "llm",
+        "generative ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/how-separating-logic-and-search-boosts-ai-agent-scalability/",
+      "readTime": 3,
+      "views": 9185
+    },
+    {
+      "id": "intuit-uber-and-state-farm-trial-ai-agents-inside-",
+      "title": "Intuit, Uber, and State Farm trial AI agents inside enterprise workflows",
+      "summary": "The way large companies use artificial intelligence is changing.  For years, AI in business meant experimenting with tools that could answer questions or help with small tasks.",
+      "content": "The way large companies use artificial intelligence is changing. For years, AI in business meant experimenting with tools that could answer questions or help with small tasks. Now, some big enterprises are moving beyond tools to AI agents that can actually do practical work in systems and workflows.",
+      "source": "AI News",
+      "author": "Muhammad Zulhusni",
+      "publishedAt": "2026-02-06T10:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "artificial intelligence",
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/intuit-uber-and-state-farm-trial-ai-agents-inside-enterprise-workflows/",
+      "readTime": 3,
+      "views": 29165
+    },
+    {
+      "id": "supercool-review-evaluating-the-reality-of-autonom",
+      "title": "SuperCool review: Evaluating the reality of autonomous creation",
+      "summary": "In the current landscape of generative artificial intelligence, we have reached a saturation point with assistants.  Most users are familiar with the routine.",
+      "content": "In the current landscape of generative artificial intelligence, we have reached a saturation point with assistants. Most users are familiar with the routine. You prompt a tool, it provides a draft, and then you spend the next hour manually moving that output into another application for formatting, ",
+      "source": "AI News",
+      "author": "AI News",
+      "publishedAt": "2026-02-06T08:00:00.000Z",
+      "category": "market",
+      "tags": [
+        "artificial intelligence"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/supercool-review-evaluating-the-reality-of-autonomous-creation/",
+      "readTime": 3,
+      "views": 29640
+    },
+    {
+      "id": "top-7-best-ai-penetration-testing-companies-in-202",
+      "title": "Top 7 best AI penetration testing companies in 2026",
+      "summary": "Penetration testing has always existed to answer one practical concern: what actually happens when a motivated attacker targets a real system.  For many years, that answer was produced through scoped .",
+      "content": "Penetration testing has always existed to answer one practical concern: what actually happens when a motivated attacker targets a real system. For many years, that answer was produced through scoped engagements that reflected a relatively stable environment. Infrastructure changed slowly, access mod",
+      "source": "AI News",
+      "author": "Or Hillel",
+      "publishedAt": "2026-02-06T08:00:00.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/top-7-best-ai-penetration-testing-companies-in-2026/",
+      "readTime": 3,
+      "views": 51063
     },
     {
       "id": "sapiom-raises-15m-to-help-ai-agents-buy-their-own-",
@@ -182,7 +249,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/05/sapiom-raises-15m-to-help-ai-agents-buy-their-own-tech-tools/",
       "readTime": 3,
-      "views": 17477
+      "views": 17221
     },
     {
       "id": "reddit-looks-to-ai-search-as-its-next-big-opportun",
@@ -198,7 +265,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/05/reddit-looks-to-ai-search-as-its-next-big-opportunity/",
       "readTime": 3,
-      "views": 14584
+      "views": 18730
     },
     {
       "id": "aws-revenue-continues-to-soar-as-cloud-demand-rema",
@@ -214,7 +281,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/05/aws-revenue-continues-to-soar-as-cloud-demand-remains-high/",
       "readTime": 3,
-      "views": 23379
+      "views": 31182
     },
     {
       "id": "amazon-and-google-are-winning-the-ai-capex-race-bu",
@@ -231,7 +298,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/05/amazon-and-google-are-winning-the-ai-capex-race-but-whats-the-prize/",
       "readTime": 3,
-      "views": 27860
+      "views": 22421
     },
     {
       "id": "openai-launches-new-agentic-coding-model-only-minu",
@@ -251,7 +318,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/05/openai-launches-new-agentic-coding-model-only-minutes-after-anthropic-drops-its-own/",
       "readTime": 3,
-      "views": 29084
+      "views": 10583
     },
     {
       "id": "elon-musk-is-getting-serious-about-orbital-data-ce",
@@ -267,85 +334,16 @@
       ],
       "url": "https://techcrunch.com/2026/02/05/elon-musk-is-getting-serious-about-orbital-data-centers/",
       "readTime": 3,
-      "views": 11557
-    },
-    {
-      "id": "anthropic-releases-opus-4-6-with-new-8216-agent-te",
-      "title": "Anthropic releases Opus 4.6 with new &#8216;agent teams&#8217;",
-      "summary": "The newest version of Anthropic's model is designed to broaden its capabilities and appeal, allowing for a greater variety of uses and customers.",
-      "content": "The newest version of Anthropic's model is designed to broaden its capabilities and appeal, allowing for a greater variety of uses and customers.",
-      "source": "TechCrunch AI",
-      "author": "Lucas Ropek",
-      "publishedAt": "2026-02-05T17:51:13.000Z",
-      "category": "release",
-      "tags": [
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/02/05/anthropic-releases-opus-4-6-with-new-agent-teams/",
-      "readTime": 3,
-      "views": 39703
-    },
-    {
-      "id": "meta-tests-a-stand-alone-app-for-its-ai-generated-",
-      "title": "Meta tests a stand-alone app for its AI-generated &#8216;Vibes&#8217; videos",
-      "summary": "Launched last September, Vibes lets you create and share short-form AI-generated videos and access a dedicated feed that displays AI videos from others.",
-      "content": "Launched last September, Vibes lets you create and share short-form AI-generated videos and access a dedicated feed that displays AI videos from others.",
-      "source": "TechCrunch AI",
-      "author": "Aisha Malik",
-      "publishedAt": "2026-02-05T17:19:01.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Meta"
-      ],
-      "url": "https://techcrunch.com/2026/02/05/meta-tests-a-standalone-app-for-its-ai-generated-vibes-videos/",
-      "readTime": 3,
-      "views": 30718
-    },
-    {
-      "id": "fundamental-raises-255m-series-a-with-a-new-take-o",
-      "title": "Fundamental raises $255M Series A with a new take on big data analysis",
-      "summary": "Fundamental has built a new foundation model to solve an old problem: how to draw insights from the huge quantities of structured data produced by enterprises.",
-      "content": "Fundamental has built a new foundation model to solve an old problem: how to draw insights from the huge quantities of structured data produced by enterprises.",
-      "source": "TechCrunch AI",
-      "author": "Russell Brandom",
-      "publishedAt": "2026-02-05T15:00:02.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/02/05/fundamental-raises-255-million-series-a-with-a-new-take-on-big-data-analysis/",
-      "readTime": 3,
-      "views": 46397
-    },
-    {
-      "id": "elevenlabs-ceo-voice-is-the-next-interface-for-ai",
-      "title": "ElevenLabs CEO: Voice is the next interface for AI",
-      "summary": "ElevenLabs CEO argued at Web Summit Qatar that voice is the next interface for AI, as OpenAI, Google, and Apple push conversational systems into wearables, new hardware, and everyday interactions.",
-      "content": "ElevenLabs CEO argued at Web Summit Qatar that voice is the next interface for AI, as OpenAI, Google, and Apple push conversational systems into wearables, new hardware, and everyday interactions.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-02-05T14:41:12.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI",
-        "Google",
-        "Apple"
-      ],
-      "url": "https://techcrunch.com/2026/02/05/elevenlabs-ceo-voice-is-the-next-interface-for-ai/",
-      "readTime": 3,
-      "views": 23445
+      "views": 31476
     }
   ],
-  "lastUpdated": "2026-02-07T06:40:38.545Z",
+  "lastUpdated": "2026-02-07T12:47:20.850Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
     "TechCrunch AI",
-    "MIT Technology Review AI"
+    "MIT Technology Review AI",
+    "AI News"
   ],
   "categories": [
     "funding",
