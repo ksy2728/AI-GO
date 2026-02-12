@@ -1,6 +1,56 @@
 {
   "articles": [
     {
+      "id": "ai-is-already-making-online-crimes-easier-it-could",
+      "title": "AI is already making online crimes easier. It could get much worse.",
+      "summary": "Anton Cherepanov is always on the lookout for something interesting.  And in late August last year, he spotted just that.",
+      "content": "Anton Cherepanov is always on the lookout for something interesting. And in late August last year, he spotted just that. It was a file uploaded to VirusTotal, a site cybersecurity researchers like him use to analyze submissions for potential viruses and other types of malicious software, often known",
+      "source": "MIT Technology Review AI",
+      "author": "Rhiannon Williams",
+      "publishedAt": "2026-02-12T11:00:00.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/02/12/1132386/ai-already-making-online-swindles-easier/",
+      "readTime": 3,
+      "views": 15699
+    },
+    {
+      "id": "what-s-next-for-chinese-open-source-ai",
+      "title": "What’s next for Chinese open-source AI",
+      "summary": "MIT Technology Review’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future.  You can read the rest of them&#160;here.",
+      "content": "MIT Technology Review’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them&#160;here. The past year has marked a turning point for Chinese AI. Since DeepSeek released its R1 reasoning model in January 2025, Chine",
+      "source": "MIT Technology Review AI",
+      "author": "Caiwei Chen",
+      "publishedAt": "2026-02-12T10:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/02/12/1132811/whats-next-for-chinese-open-source-ai/",
+      "readTime": 3,
+      "views": 47636
+    },
+    {
+      "id": "state-sponsored-hackers-exploit-ai-for-advanced-cy",
+      "title": "State-sponsored hackers exploit AI for advanced cyberattacks",
+      "summary": "State-sponsored hackers are exploiting AI to accelerate cyberattacks, with threat actors from Iran, North Korea, China, and Russia weaponising models like Google&#8217;s Gemini to craft sophisticated .",
+      "content": "State-sponsored hackers are exploiting AI to accelerate cyberattacks, with threat actors from Iran, North Korea, China, and Russia weaponising models like Google&#8217;s Gemini to craft sophisticated phishing campaigns and develop malware, according to a new report from Google&#8217;s Threat Intelli",
+      "source": "AI News",
+      "author": "Dashveenjit Kaur",
+      "publishedAt": "2026-02-12T09:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gemini",
+        "Google"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/state-sponsored-hackers-ai-cyberattacks-google/",
+      "readTime": 3,
+      "views": 5090
+    },
+    {
       "id": "xai-lays-out-interplanetary-ambitions-in-public-al",
       "title": "xAI lays out interplanetary ambitions in public all-hands",
       "summary": "On Wednesday, xAI took the rare step of publishing its full 45-minute all-hands presentation to the X platform, making it widely available.",
@@ -14,7 +64,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/11/xai-lays-out-interplanetary-ambitions-in-public-all-hands/",
       "readTime": 3,
-      "views": 43025
+      "views": 46815
     },
     {
       "id": "ai-inference-startup-modal-labs-in-talks-to-raise-",
@@ -30,7 +80,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/11/ai-inference-startup-modal-labs-in-talks-to-raise-at-2-5b-valuation-sources-say/",
       "readTime": 3,
-      "views": 35789
+      "views": 29343
     },
     {
       "id": "openai-disbands-mission-alignment-team",
@@ -48,7 +98,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/11/openai-disbands-mission-alignment-team-which-focused-on-safe-and-trustworthy-ai-development/",
       "readTime": 3,
-      "views": 14891
+      "views": 37708
     },
     {
       "id": "apple-8217-s-siri-revamp-reportedly-delayed-8230-a",
@@ -65,7 +115,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/11/apples-siri-revamp-reportedly-delayed-again/",
       "readTime": 3,
-      "views": 41360
+      "views": 31175
     },
     {
       "id": "uber-eats-launches-ai-assistant-to-help-with-groce",
@@ -81,7 +131,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/11/uber-eats-launches-ai-assistant-to-help-with-grocery-cart-creation/",
       "readTime": 3,
-      "views": 24648
+      "views": 42742
     },
     {
       "id": "glean-s-fight-to-own-the-ai-layer-inside-every-com",
@@ -97,7 +147,7 @@
       ],
       "url": "https://techcrunch.com/podcast/glean-arvind-jain-equity-podcast-own-the-ai-layer-inside-every-company/",
       "readTime": 3,
-      "views": 49632
+      "views": 40097
     },
     {
       "id": "who-will-own-your-company-s-ai-layer-glean-s-ceo-e",
@@ -113,7 +163,7 @@
       ],
       "url": "https://techcrunch.com/video/who-will-own-your-companys-ai-layer-gleans-ceo-explains/",
       "readTime": 3,
-      "views": 16782
+      "views": 19089
     },
     {
       "id": "elon-musk-suggests-spate-of-xai-exits-have-been-pu",
@@ -129,7 +179,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/11/senior-engineers-including-co-founders-exit-xai-amid-controversy/",
       "readTime": 3,
-      "views": 48918
+      "views": 25489
     },
     {
       "id": "is-a-secure-ai-assistant-possible",
@@ -146,7 +196,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/02/11/1132768/is-a-secure-ai-assistant-possible/",
       "readTime": 3,
-      "views": 45419
+      "views": 31683
     },
     {
       "id": "why-the-economics-of-orbital-ai-are-so-brutal",
@@ -162,7 +212,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/11/why-the-economics-of-orbital-ai-are-so-brutal/",
       "readTime": 3,
-      "views": 16885
+      "views": 34055
     },
     {
       "id": "threads-8217-new-8216-dear-algo-8217-ai-feature-le",
@@ -178,7 +228,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/11/threads-new-dear-algo-ai-feature-lets-you-personalize-your-feed/",
       "readTime": 3,
-      "views": 51683
+      "views": 53871
     },
     {
       "id": "how-ai-changes-the-math-for-startups-according-to-",
@@ -195,7 +245,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/11/how-ai-changes-the-math-for-startups-according-to-a-microsoft-vp/",
       "readTime": 3,
-      "views": 25361
+      "views": 38169
     },
     {
       "id": "former-founders-fund-vc-sam-blond-launches-ai-sale",
@@ -211,7 +261,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/11/former-founders-fund-vc-sam-blond-launches-ai-sales-startup-to-upend-salesforce/",
       "readTime": 3,
-      "views": 11355
+      "views": 24563
     },
     {
       "id": "meridian-raises-17-million-to-remake-the-agentic-s",
@@ -227,7 +277,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/11/meridian-ai-raises-17-million-to-remake-the-agentic-spreadsheet/",
       "readTime": 3,
-      "views": 26528
+      "views": 29119
     },
     {
       "id": "barclays-bets-on-ai-to-cut-costs-and-boost-returns",
@@ -243,7 +293,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/barclays-bets-on-ai-to-cut-costs-and-boost-returns/",
       "readTime": 3,
-      "views": 9188
+      "views": 40702
     },
     {
       "id": "how-insurance-leaders-use-agentic-ai-to-cut-operat",
@@ -259,7 +309,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/how-insurance-leaders-use-agentic-ai-to-cut-operational-costs/",
       "readTime": 3,
-      "views": 45396
+      "views": 52942
     },
     {
       "id": "red-hat-unifies-ai-and-tactical-edge-deployment-fo",
@@ -276,72 +326,21 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/red-hat-unifies-ai-tactical-edge-deployment-for-uk-mod/",
       "readTime": 3,
-      "views": 45680
-    },
-    {
-      "id": "with-co-founders-leaving-and-an-ipo-looming-elon-m",
-      "title": "With co-founders leaving and an IPO looming, Elon Musk turns talk to the moon",
-      "summary": "According to The New York Times, which reports that it heard the meeting, Musk told employees that xAI needs a lunar manufacturing facility, a factory on the moon that will build AI satellites and fli.",
-      "content": "According to The New York Times, which reports that it heard the meeting, Musk told employees that xAI needs a lunar manufacturing facility, a factory on the moon that will build AI satellites and fling them into space via a giant catapult.",
-      "source": "TechCrunch AI",
-      "author": "Connie Loizos",
-      "publishedAt": "2026-02-11T05:23:26.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/02/10/with-co-founders-leaving-and-an-ipo-looming-elon-musk-turns-talk-to-the-moon/",
-      "readTime": 3,
-      "views": 43985
-    },
-    {
-      "id": "openai-policy-exec-who-opposed-chatbot-8217-s-8216",
-      "title": "OpenAI policy exec who opposed chatbot&#8217;s &#8216;adult mode&#8217; reportedly fired on discrimination claim",
-      "summary": "The executive has denied the allegation that she engaged in discrimination.",
-      "content": "The executive has denied the allegation that she engaged in discrimination.",
-      "source": "TechCrunch AI",
-      "author": "Lucas Ropek",
-      "publishedAt": "2026-02-11T02:15:27.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/02/10/openai-policy-exec-who-opposed-chatbots-adult-mode-reportedly-fired-on-discrimination-claim/",
-      "readTime": 3,
-      "views": 24098
-    },
-    {
-      "id": "okay-now-exactly-half-of-xai-8217-s-founding-team-",
-      "title": "Okay, now exactly half of xAI&#8217;s founding team has left the company",
-      "summary": "Whatever the cause of the departures, the cumulative impact is alarming.  There is a lot of work left to do at xAI, and an IPO will bring more scrutiny than the lab has ever faced before.",
-      "content": "Whatever the cause of the departures, the cumulative impact is alarming. There is a lot of work left to do at xAI, and an IPO will bring more scrutiny than the lab has ever faced before.",
-      "source": "TechCrunch AI",
-      "author": "Russell Brandom",
-      "publishedAt": "2026-02-11T01:50:00.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/02/10/okay-now-exactly-half-of-xais-founding-team-has-left-the-company/",
-      "readTime": 3,
-      "views": 28450
+      "views": 48086
     }
   ],
-  "lastUpdated": "2026-02-12T07:00:14.136Z",
+  "lastUpdated": "2026-02-12T13:06:26.097Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "TechCrunch AI",
     "MIT Technology Review AI",
-    "AI News"
+    "AI News",
+    "TechCrunch AI"
   ],
   "categories": [
+    "research",
     "release",
     "funding",
-    "market",
-    "research",
-    "regulation"
+    "market"
   ]
 }
