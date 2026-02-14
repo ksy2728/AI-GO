@@ -1,6 +1,182 @@
 {
   "articles": [
     {
+      "id": "airbnb-says-a-third-of-its-customer-support-is-now",
+      "title": "Airbnb says a third of its customer support is now handled by AI in the US and Canada",
+      "summary": "Airbnb was poised to introduce an app that doesn't just search for you, but one that \"knows you. \" CEO Brian Chesky said, \"It will help guests plan their entire trip, help hosts better run their busin.",
+      "content": "Airbnb was poised to introduce an app that doesn't just search for you, but one that \"knows you.\" CEO Brian Chesky said, \"It will help guests plan their entire trip, help hosts better run their businesses, and help the company operate more efficiently at scale.\"",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-02-13T22:12:26.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/02/13/airbnb-says-a-third-of-its-customer-support-is-now-handled-by-ai-in-the-u-s-and-canada/",
+      "readTime": 3,
+      "views": 10824
+    },
+    {
+      "id": "why-top-talent-is-walking-away-from-openai-and-xai",
+      "title": "Why top talent is walking away from OpenAI and xAI",
+      "summary": "AI companies have been hemorrhaging&#160;talent&#160;the past few weeks.  Half of&#160;xAI’s&#160;founding team&#160;has left the company — some on their own, others through “restructuring” — while Op.",
+      "content": "AI companies have been hemorrhaging&#160;talent&#160;the past few weeks. Half of&#160;xAI’s&#160;founding team&#160;has left the company — some on their own, others through “restructuring” — while OpenAI is facing its own shakeups, from the&#160;disbanding of its&#160;mission alignment team&#160;to ",
+      "source": "TechCrunch AI",
+      "author": "Theresa Loconsolo",
+      "publishedAt": "2026-02-13T21:00:00.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/video/why-top-talent-is-walking-away-from-openai-and-xai/",
+      "readTime": 3,
+      "views": 6539
+    },
+    {
+      "id": "openai-removes-access-to-sycophancy-prone-gpt-4o-m",
+      "title": "OpenAI removes access to sycophancy-prone GPT-4o model",
+      "summary": "The model is known for its overly sycophantic nature and its role in several lawsuits involving users' unhealthy relationships with the chatbot.",
+      "content": "The model is known for its overly sycophantic nature and its role in several lawsuits involving users' unhealthy relationships with the chatbot.",
+      "source": "TechCrunch AI",
+      "author": "Amanda Silberling",
+      "publishedAt": "2026-02-13T18:10:00.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai",
+        "gpt",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/02/13/openai-removes-access-to-sycophancy-prone-gpt-4o-model/",
+      "readTime": 3,
+      "views": 37037
+    },
+    {
+      "id": "ai-burnout-billion-dollar-bets-and-silicon-valley-",
+      "title": "AI burnout, billion-dollar bets, and Silicon Valley&#8217;s Epstein problem",
+      "summary": "AI companies have been hemorrhaging&#160;talent&#160;the past few weeks.  Half of&#160;xAI’s&#160;founding team&#160;has left the company — some on their own, others through “restructuring” — while Op.",
+      "content": "AI companies have been hemorrhaging&#160;talent&#160;the past few weeks. Half of&#160;xAI’s&#160;founding team&#160;has left the company — some on their own, others through “restructuring” — while OpenAI is facing its own shakeups, from the&#160;disbanding of its&#160;mission alignment team&#160;to ",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha, Kirsten Korosec, Sean O'Kane, Theresa Loconsolo",
+      "publishedAt": "2026-02-13T18:03:32.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/podcast/ai-burnout-billion-dollar-bets-and-silicon-valleys-epstein-problem/",
+      "readTime": 3,
+      "views": 50816
+    },
+    {
+      "id": "anthropic-8217-s-super-bowl-ads-mocking-ai-with-ad",
+      "title": "Anthropic&#8217;s Super Bowl ads mocking AI with ads helped push Claude&#8217;s app into the top 10",
+      "summary": "The numbers suggest that Anthropic's Super Bowl commercials, combined with Anthropic's recent release of its new Opus 4. 6 model, worked to drive attention to Claude's app and its key differentiator f.",
+      "content": "The numbers suggest that Anthropic's Super Bowl commercials, combined with Anthropic's recent release of its new Opus 4.6 model, worked to drive attention to Claude's app and its key differentiator from ChatGPT.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-02-13T17:16:27.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gpt",
+        "anthropic",
+        "claude",
+        "chatgpt"
+      ],
+      "url": "https://techcrunch.com/2026/02/13/anthropics-super-bowl-ads-mocking-ai-with-ads-helped-push-claudes-app-into-the-top-10/",
+      "readTime": 3,
+      "views": 5947
+    },
+    {
+      "id": "elon-musk-suggests-spate-of-xai-exits-have-been-pu",
+      "title": "Elon Musk suggests spate of xAI exits have been push, not pull",
+      "summary": "At least nine engineers, including two co-founders, have announced their exits from xAI in the past week, fueling online speculation and raising questions about stability at Musk’s AI company amid mou.",
+      "content": "At least nine engineers, including two co-founders, have announced their exits from xAI in the past week, fueling online speculation and raising questions about stability at Musk’s AI company amid mounting controversy.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-02-13T16:11:01.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/02/13/elon-musk-suggests-spate-of-xai-exits-have-been-push-not-pull/",
+      "readTime": 3,
+      "views": 44940
+    },
+    {
+      "id": "ai-forecasting-model-targets-healthcare-resource-e",
+      "title": "AI forecasting model targets healthcare resource efficiency",
+      "summary": "An operational AI forecasting model developed by Hertfordshire University researchers aims to improve resource efficiency within healthcare.  Public sector organisations often hold large archives of h.",
+      "content": "An operational AI forecasting model developed by Hertfordshire University researchers aims to improve resource efficiency within healthcare. Public sector organisations often hold large archives of historical data that do not inform forward-looking decisions. A partnership between the University of ",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-02-13T16:07:06.000Z",
+      "category": "partnership",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/ai-forecasting-model-targets-healthcare-resource-efficiency/",
+      "readTime": 3,
+      "views": 20326
+    },
+    {
+      "id": "what-murder-mystery-2-reveals-about-emergent-behav",
+      "title": "What Murder Mystery 2 reveals about emergent behaviour in online games",
+      "summary": "Murder Mystery 2, commonly known as MM2, is often categorised as a simple social deduction game in the Roblox ecosystem.  At first glance, its structure appears straightforward.",
+      "content": "Murder Mystery 2, commonly known as MM2, is often categorised as a simple social deduction game in the Roblox ecosystem. At first glance, its structure appears straightforward. One player becomes the murderer, another the sheriff, and the remaining participants attempt to survive. However, beneath t",
+      "source": "AI News",
+      "author": "Bazoom",
+      "publishedAt": "2026-02-13T16:01:53.000Z",
+      "category": "partnership",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/what-murder-mystery-2-reveals-about-emergent-behaviour-in-online-games/",
+      "readTime": 3,
+      "views": 40495
+    },
+    {
+      "id": "cohere-8217-s-240m-year-sets-stage-for-ipo",
+      "title": "Cohere&#8217;s $240M year sets stage for IPO",
+      "summary": "Cohere surpassed $240 million in annual recurring revenue in 2025, highlighting strong enterprise AI demand as the Canadian startup positions itself for a potential IPO amid intensifying competition f.",
+      "content": "Cohere surpassed $240 million in annual recurring revenue in 2025, highlighting strong enterprise AI demand as the Canadian startup positions itself for a potential IPO amid intensifying competition from OpenAI and Anthropic.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-02-13T15:03:10.000Z",
+      "category": "funding",
+      "tags": [
+        "ai",
+        "openai",
+        "anthropic",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/02/13/coheres-240m-year-sets-stage-for-ipo/",
+      "readTime": 3,
+      "views": 14723
+    },
+    {
+      "id": "meta-plans-to-add-facial-recognition-to-its-smart-",
+      "title": "Meta plans to add facial recognition to its smart glasses, report claims",
+      "summary": "The feature, internally known as “Name Tag,” would allow smart glasses wearers to identify people and get information about them via Meta's AI assistant.",
+      "content": "The feature, internally known as “Name Tag,” would allow smart glasses wearers to identify people and get information about them via Meta's AI assistant.",
+      "source": "TechCrunch AI",
+      "author": "Aisha Malik",
+      "publishedAt": "2026-02-13T14:58:39.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Meta"
+      ],
+      "url": "https://techcrunch.com/2026/02/13/meta-plans-to-add-facial-recognition-to-its-smart-glasses-report-claims/",
+      "readTime": 3,
+      "views": 29281
+    },
+    {
       "id": "agentic-ai-drives-finance-roi-in-accounts-payable-",
       "title": "Agentic AI drives finance ROI in accounts payable automation",
       "summary": "Finance leaders are driving ROI using agentic AI for accounts payable automation, turning manual tasks into autonomous workflows.  While general AI projects saw return on investment rise to 67 percent.",
@@ -15,7 +191,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/agentic-ai-drives-finance-roi-in-accounts-payable-automation/",
       "readTime": 3,
-      "views": 29946
+      "views": 52076
     },
     {
       "id": "newsweek-ceo-dev-pragad-warns-publishers-adapt-as-",
@@ -32,7 +208,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/newsweek-ceo-dev-pragad-warns-publishers-adapt-as-ai-becomes-news-gateway/",
       "readTime": 3,
-      "views": 47227
+      "views": 19822
     },
     {
       "id": "how-e-038-is-using-hr-to-bring-ai-into-enterprise-",
@@ -49,7 +225,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/how-e-is-using-hr-to-bring-ai-into-enterprise-operations/",
       "readTime": 3,
-      "views": 33625
+      "views": 51726
     },
     {
       "id": "alibaba-enters-physical-ai-race-with-open-source-r",
@@ -65,7 +241,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/alibaba-rynnbrain-physical-ai-robots-china/",
       "readTime": 3,
-      "views": 30918
+      "views": 18450
     },
     {
       "id": "ai-deployment-in-financial-services-hits-an-inflec",
@@ -81,7 +257,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/financial-services-ai-deployment-singapore/",
       "readTime": 3,
-      "views": 50129
+      "views": 48858
     },
     {
       "id": "amid-disappointing-earnings-pinterest-claims-it-se",
@@ -99,7 +275,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/12/amid-disappointing-earnings-pinterest-claims-it-sees-more-searches-than-chatgpt/",
       "readTime": 3,
-      "views": 10872
+      "views": 42981
     },
     {
       "id": "ibm-will-hire-your-entry-level-talent-in-the-age-o",
@@ -115,7 +291,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/12/ibm-will-hire-your-entry-level-talent-in-the-age-of-ai/",
       "readTime": 3,
-      "views": 22337
+      "views": 11476
     },
     {
       "id": "musk-needed-a-new-vision-for-spacex-and-xai-he-lan",
@@ -131,7 +307,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/12/musk-needed-a-new-vision-for-spacex-and-xai-he-landed-on-moonbase-alpha/",
       "readTime": 3,
-      "views": 7845
+      "views": 10513
     },
     {
       "id": "didero-lands-30m-to-put-manufacturing-procurement-",
@@ -147,7 +323,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/12/didero-lands-30m-to-put-manufacturing-procurement-on-agentic-autopilot/",
       "readTime": 3,
-      "views": 45242
+      "views": 17210
     },
     {
       "id": "anthropic-raises-another-30b-in-series-g-with-a-ne",
@@ -167,190 +343,22 @@
       ],
       "url": "https://techcrunch.com/2026/02/12/anthropic-raises-another-30-billion-in-series-g-with-a-new-value-of-380-billion/",
       "readTime": 3,
-      "views": 9491
-    },
-    {
-      "id": "spotify-says-its-best-developers-haven-8217-t-writ",
-      "title": "Spotify says its best developers haven&#8217;t written a line of code since December, thanks to AI",
-      "summary": "Spotify credits Claude Code and its internal AI system Honk with speeding up development.",
-      "content": "Spotify credits Claude Code and its internal AI system Honk with speeding up development.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-02-12T18:30:12.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "claude"
-      ],
-      "url": "https://techcrunch.com/2026/02/12/spotify-says-its-best-developers-havent-written-a-line-of-code-since-december-thanks-to-ai/",
-      "readTime": 3,
-      "views": 54133
-    },
-    {
-      "id": "a-new-version-of-openai-8217-s-codex-is-powered-by",
-      "title": "A new version of OpenAI&#8217;s Codex is powered by a new dedicated chip",
-      "summary": "OpenAI calls the new coding tool the \"first milestone\" in its relationship with the chipmaker.",
-      "content": "OpenAI calls the new coding tool the \"first milestone\" in its relationship with the chipmaker.",
-      "source": "TechCrunch AI",
-      "author": "Lucas Ropek",
-      "publishedAt": "2026-02-12T18:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/02/12/a-new-version-of-openais-codex-is-powered-by-a-new-dedicated-chip/",
-      "readTime": 3,
-      "views": 10278
-    },
-    {
-      "id": "ai-is-already-making-online-crimes-easier-it-could",
-      "title": "AI is already making online crimes easier. It could get much worse.",
-      "summary": "Anton Cherepanov is always on the lookout for something interesting.  And in late August last year, he spotted just that.",
-      "content": "Anton Cherepanov is always on the lookout for something interesting. And in late August last year, he spotted just that. It was a file uploaded to VirusTotal, a site cybersecurity researchers like him use to analyze submissions for potential viruses and other types of malicious software, often known",
-      "source": "MIT Technology Review AI",
-      "author": "Rhiannon Williams",
-      "publishedAt": "2026-02-12T11:00:00.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/02/12/1132386/ai-already-making-online-swindles-easier/",
-      "readTime": 3,
-      "views": 26942
-    },
-    {
-      "id": "what-s-next-for-chinese-open-source-ai",
-      "title": "What’s next for Chinese open-source AI",
-      "summary": "MIT Technology Review’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future.  You can read the rest of them&#160;here.",
-      "content": "MIT Technology Review’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them&#160;here. The past year has marked a turning point for Chinese AI. Since DeepSeek released its R1 reasoning model in January 2025, Chine",
-      "source": "MIT Technology Review AI",
-      "author": "Caiwei Chen",
-      "publishedAt": "2026-02-12T10:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/02/12/1132811/whats-next-for-chinese-open-source-ai/",
-      "readTime": 3,
-      "views": 20199
-    },
-    {
-      "id": "google-identifies-state-sponsored-hackers-using-ai",
-      "title": "Google identifies state-sponsored hackers using AI in attacks",
-      "summary": "State-sponsored hackers are exploiting highly-advanced tooling to accelerate their particular flavours of cyberattacks, with threat actors from Iran, North Korea, China, and Russia using models like G.",
-      "content": "State-sponsored hackers are exploiting highly-advanced tooling to accelerate their particular flavours of cyberattacks, with threat actors from Iran, North Korea, China, and Russia using models like Google&#8217;s Gemini to further their campaigns. They are able to craft sophisticated phishing campa",
-      "source": "AI News",
-      "author": "Dashveenjit Kaur",
-      "publishedAt": "2026-02-12T09:00:00.000Z",
-      "category": "market",
-      "tags": [
-        "ai",
-        "gemini",
-        "Google"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/state-sponsored-hackers-ai-cyberattacks-google/",
-      "readTime": 3,
-      "views": 6057
-    },
-    {
-      "id": "xai-lays-out-interplanetary-ambitions-in-public-al",
-      "title": "xAI lays out interplanetary ambitions in public all-hands",
-      "summary": "On Wednesday, xAI took the rare step of publishing its full 45-minute all-hands presentation to the X platform, making it widely available.",
-      "content": "On Wednesday, xAI took the rare step of publishing its full 45-minute all-hands presentation to the X platform, making it widely available.",
-      "source": "TechCrunch AI",
-      "author": "Russell Brandom",
-      "publishedAt": "2026-02-11T23:29:08.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/02/11/xai-lays-out-interplanetary-ambitions-in-public-all-hands/",
-      "readTime": 3,
-      "views": 15175
-    },
-    {
-      "id": "ai-inference-startup-modal-labs-in-talks-to-raise-",
-      "title": "AI inference startup Modal Labs in talks to raise at $2.5B valuation, sources say",
-      "summary": "General Catalyst is in talks to lead the round for the four-year-old startup, according to our sources.",
-      "content": "General Catalyst is in talks to lead the round for the four-year-old startup, according to our sources.",
-      "source": "TechCrunch AI",
-      "author": "Marina Temkin",
-      "publishedAt": "2026-02-11T22:48:35.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/02/11/ai-inference-startup-modal-labs-in-talks-to-raise-at-2-5b-valuation-sources-say/",
-      "readTime": 3,
-      "views": 29683
-    },
-    {
-      "id": "openai-disbands-mission-alignment-team",
-      "title": "OpenAI disbands mission alignment team",
-      "summary": "The team's leader has been given a new role as OpenAI's chief futurist, while the other team members have been reassigned throughout the company.",
-      "content": "The team's leader has been given a new role as OpenAI's chief futurist, while the other team members have been reassigned throughout the company.",
-      "source": "TechCrunch AI",
-      "author": "Lucas Ropek",
-      "publishedAt": "2026-02-11T21:57:18.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/02/11/openai-disbands-mission-alignment-team-which-focused-on-safe-and-trustworthy-ai-development/",
-      "readTime": 3,
-      "views": 15964
-    },
-    {
-      "id": "apple-8217-s-siri-revamp-reportedly-delayed-8230-a",
-      "title": "Apple&#8217;s Siri revamp reportedly delayed&#8230; again",
-      "summary": "While the new Siri was expected to launch with the upcoming iOS 26. 4 update in March, now, the changes are expected to roll out more slowly over time, reportedly postponing some features until the Ma.",
-      "content": "While the new Siri was expected to launch with the upcoming iOS 26.4 update in March, now, the changes are expected to roll out more slowly over time, reportedly postponing some features until the May iOS update, or even until the release of iOS 27 in September.",
-      "source": "TechCrunch AI",
-      "author": "Amanda Silberling",
-      "publishedAt": "2026-02-11T21:19:46.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Apple"
-      ],
-      "url": "https://techcrunch.com/2026/02/11/apples-siri-revamp-reportedly-delayed-again/",
-      "readTime": 3,
-      "views": 42048
-    },
-    {
-      "id": "uber-eats-launches-ai-assistant-to-help-with-groce",
-      "title": "Uber Eats launches AI assistant to help with grocery cart creation",
-      "summary": "Uber Eats launched a new AI feature, “Cart Assistant,” that can automatically add items to your cart based on text or image prompts.",
-      "content": "Uber Eats launched a new AI feature, “Cart Assistant,” that can automatically add items to your cart based on text or image prompts.",
-      "source": "TechCrunch AI",
-      "author": "Lauren Forristal",
-      "publishedAt": "2026-02-11T21:07:37.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/02/11/uber-eats-launches-ai-assistant-to-help-with-grocery-cart-creation/",
-      "readTime": 3,
-      "views": 35351
+      "views": 15515
     }
   ],
-  "lastUpdated": "2026-02-13T12:58:24.917Z",
+  "lastUpdated": "2026-02-14T01:59:21.817Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "AI News",
     "TechCrunch AI",
-    "MIT Technology Review AI"
+    "AI News"
   ],
   "categories": [
+    "release",
+    "regulation",
+    "partnership",
     "funding",
     "market",
-    "regulation",
-    "release",
     "research"
   ]
 }
