@@ -1,6 +1,255 @@
 {
   "articles": [
     {
+      "id": "apple-is-reportedly-cooking-up-a-trio-of-ai-wearab",
+      "title": "Apple is reportedly cooking up a trio of AI wearables",
+      "summary": "As the AI hardware space heats up, the iPhone maker has multiple smart products in development.",
+      "content": "As the AI hardware space heats up, the iPhone maker has multiple smart products in development.",
+      "source": "TechCrunch AI",
+      "author": "Lucas Ropek",
+      "publishedAt": "2026-02-17T20:14:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Apple"
+      ],
+      "url": "https://techcrunch.com/2026/02/17/apple-is-reportedly-cooking-up-a-trio-of-ai-wearables/",
+      "readTime": 3,
+      "views": 44506
+    },
+    {
+      "id": "anthropic-releases-sonnet-4-6",
+      "title": "Anthropic releases Sonnet 4.6",
+      "summary": "Anthropic has released a new version of its midsized Sonnet model, keeping pace with the company's four-month update cycle.",
+      "content": "Anthropic has released a new version of its midsized Sonnet model, keeping pace with the company's four-month update cycle.",
+      "source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "publishedAt": "2026-02-17T18:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/02/17/anthropic-releases-sonnet-4-6/",
+      "readTime": 3,
+      "views": 15217
+    },
+    {
+      "id": "mistral-ai-buys-koyeb-in-first-acquisition-to-back",
+      "title": "Mistral AI buys Koyeb in first acquisition to back its cloud ambitions",
+      "summary": "Mistral AI has agreed to buy Koyeb, a Paris-based startup that simplifies AI app deployment at scale and manages the infrastructure behind it.",
+      "content": "Mistral AI has agreed to buy Koyeb, a Paris-based startup that simplifies AI app deployment at scale and manages the infrastructure behind it.",
+      "source": "TechCrunch AI",
+      "author": "Anna Heim",
+      "publishedAt": "2026-02-17T17:22:09.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/02/17/mistral-ai-buys-koyeb-in-first-acquisition-to-back-its-cloud-ambitions/",
+      "readTime": 3,
+      "views": 43362
+    },
+    {
+      "id": "spacex-vets-raise-50m-series-a-for-data-center-lin",
+      "title": "SpaceX vets raise $50M Series A for data center links",
+      "summary": "Mesh aims to mass-produce optical transceivers for AI data centers.",
+      "content": "Mesh aims to mass-produce optical transceivers for AI data centers.",
+      "source": "TechCrunch AI",
+      "author": "Tim Fernholz",
+      "publishedAt": "2026-02-17T17:00:00.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/02/17/spacex-vets-raise-50m-series-a-for-data-center-links/",
+      "readTime": 3,
+      "views": 48175
+    },
+    {
+      "id": "running-ai-models-is-turning-into-a-memory-game",
+      "title": "Running AI models is turning into a memory game",
+      "summary": "When we talk about the cost of AI infrastructure, the focus is usually on Nvidia and GPUs -- but memory is an increasingly important part of the picture.",
+      "content": "When we talk about the cost of AI infrastructure, the focus is usually on Nvidia and GPUs -- but memory is an increasingly important part of the picture.",
+      "source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "publishedAt": "2026-02-17T16:44:14.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "ai model"
+      ],
+      "url": "https://techcrunch.com/2026/02/17/running-ai-models-is-turning-into-a-memory-game/",
+      "readTime": 3,
+      "views": 8301
+    },
+    {
+      "id": "european-parliament-blocks-ai-on-lawmakers-8217-de",
+      "title": "European Parliament blocks AI on lawmakers&#8217; devices, citing security risks",
+      "summary": "EU lawmakers found their government-issued devices were blocked from using the baked-in AI tools, amid fears that sensitive information could turn up on the U.  servers of AI companies.",
+      "content": "EU lawmakers found their government-issued devices were blocked from using the baked-in AI tools, amid fears that sensitive information could turn up on the U.S. servers of AI companies.",
+      "source": "TechCrunch AI",
+      "author": "Zack Whittaker",
+      "publishedAt": "2026-02-17T16:30:43.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/02/17/european-parliament-blocks-ai-on-lawmakers-devices-citing-security-risks/",
+      "readTime": 3,
+      "views": 54479
+    },
+    {
+      "id": "wordpress-com-adds-an-ai-assistant-that-can-edit-a",
+      "title": "WordPress.com adds an AI Assistant that can edit, adjust styles, create images, and more",
+      "summary": "The feature is designed to work inside the website to understand its content and layout, allowing site owners to make changes with natural language commands.  The WordPress AI assistant doesn't need p.",
+      "content": "The feature is designed to work inside the website to understand its content and layout, allowing site owners to make changes with natural language commands. The WordPress AI assistant doesn't need precisely tailored prompts, either.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-02-17T16:10:44.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "natural language"
+      ],
+      "url": "https://techcrunch.com/2026/02/17/wordpress-com-adds-an-ai-assistant-that-can-edit-adjust-styles-create-images-and-more/",
+      "readTime": 3,
+      "views": 26378
+    },
+    {
+      "id": "ss-038-c-blue-prism-on-the-journey-from-rpa-to-age",
+      "title": "SS&#038;C Blue Prism: On the journey from RPA to agentic automation",
+      "summary": "For organizations who are still wedded to the rules and structures of robotic process automation (RPA), then considering agentic AI as the next step for automation may be faintly terrifying.  SS&#38;C.",
+      "content": "For organizations who are still wedded to the rules and structures of robotic process automation (RPA), then considering agentic AI as the next step for automation may be faintly terrifying. SS&#38;C Blue Prism, however, is here to help, taking customers on the journey from RPA to agentic automation",
+      "source": "AI News",
+      "author": "TechForge",
+      "publishedAt": "2026-02-17T15:27:34.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "automation"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/ssc-blue-prism-on-the-journey-from-rpa-to-agentic-automation/",
+      "readTime": 3,
+      "views": 21085
+    },
+    {
+      "id": "here-are-the-17-us-based-ai-companies-that-have-ra",
+      "title": "Here are the 17 US-based AI companies that have raised $100M or more in 2026",
+      "summary": "-based AI companies raised rounds larger than $1 billion so far in 2026, with 14 others raising rounds of $100 million or more.",
+      "content": "Three U.S.-based AI companies raised rounds larger than $1 billion so far in 2026, with 14 others raising rounds of $100 million or more.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Szkutak",
+      "publishedAt": "2026-02-17T14:58:09.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/02/17/here-are-the-17-us-based-ai-companies-that-have-raised-100m-or-more-in-2026/",
+      "readTime": 3,
+      "views": 20090
+    },
+    {
+      "id": "india-bids-to-attract-over-200b-in-ai-infrastructu",
+      "title": "India bids to attract over $200B in AI infrastructure investment by 2028",
+      "summary": "India is ramping up shared AI compute, adding 20,000 GPUs as part of a broader push to attract global AI investment.",
+      "content": "India is ramping up shared AI compute, adding 20,000 GPUs as part of a broader push to attract global AI investment.",
+      "source": "TechCrunch AI",
+      "author": "Jagmeet Singh",
+      "publishedAt": "2026-02-17T14:13:54.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/02/17/india-bids-to-attract-over-200b-in-ai-infrastructure-investment-by-2028/",
+      "readTime": 3,
+      "views": 25856
+    },
+    {
+      "id": "insurance-giant-aig-deploys-agentic-ai-with-orches",
+      "title": "Insurance giant AIG deploys agentic AI with orchestration layer",
+      "summary": "American International Group (AIG) has reported faster than expected gains from its use of generative AI, with implications for underwriting capacity, operating cost, and portfolio integration.  The c.",
+      "content": "American International Group (AIG) has reported faster than expected gains from its use of generative AI, with implications for underwriting capacity, operating cost, and portfolio integration. The company&#8217;s recent disclosures at an Investor Day merit attention from AI decision-makers as they ",
+      "source": "AI News",
+      "author": "AI News",
+      "publishedAt": "2026-02-17T14:13:00.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "generative ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/insurance-giant-aig-deploys-agentic-ai-with-orchestration-layer/",
+      "readTime": 3,
+      "views": 24031
+    },
+    {
+      "id": "spendrule-raises-2m-emerges-from-stealth-to-help-h",
+      "title": "SpendRule raises $2M, emerges from stealth to help hospitals track spending",
+      "summary": "SpendRule, launched last summer, is an AI-powered platform that helps healthcare systems track their spending.",
+      "content": "SpendRule, launched last summer, is an AI-powered platform that helps healthcare systems track their spending.",
+      "source": "TechCrunch AI",
+      "author": "Dominic-Madori Davis",
+      "publishedAt": "2026-02-17T14:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/02/17/spendrule-raises-2-million-emerges-from-stealth-to-help-hospitals-track-spending/",
+      "readTime": 3,
+      "views": 13508
+    },
+    {
+      "id": "just-8-months-in-india-8217-s-vibe-coding-startup-",
+      "title": "Just 8 months in, India&#8217;s vibe-coding startup Emergent claims ARR of over $100M",
+      "summary": "Indian vibe-coding platform Emergent was launched just eight months ago, and it now says it's generating annual recurring revenue of more than $100 million, thanks to surging demand by small businesse.",
+      "content": "Indian vibe-coding platform Emergent was launched just eight months ago, and it now says it's generating annual recurring revenue of more than $100 million, thanks to surging demand by small businesses and non-technical users.",
+      "source": "TechCrunch AI",
+      "author": "Jagmeet Singh, Ivan Mehta",
+      "publishedAt": "2026-02-17T14:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/02/17/emergent-hits-100m-arr-eight-months-after-launch-rolls-out-mobile-app/",
+      "readTime": 3,
+      "views": 9007
+    },
+    {
+      "id": "alibaba-qwen-is-challenging-proprietary-ai-model-e",
+      "title": "Alibaba Qwen is challenging proprietary AI model economics",
+      "summary": "The release of Alibaba&#8217;s latest Qwen model challenges proprietary AI model economics with comparable performance on commodity hardware.  While US-based labs have historically held the performanc.",
+      "content": "The release of Alibaba&#8217;s latest Qwen model challenges proprietary AI model economics with comparable performance on commodity hardware. While US-based labs have historically held the performance advantage, open-source alternatives like the Qwen 3.5 series are closing the gap with frontier mode",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-02-17T13:45:59.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "ai model"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/alibaba-qwen-challenging-proprietary-ai-model-economics/",
+      "readTime": 3,
+      "views": 22743
+    },
+    {
+      "id": "adani-pledges-100b-to-build-ai-data-centers-as-ind",
+      "title": "Adani pledges $100B to build AI data centers as India seeks bigger role in the global AI race",
+      "summary": "Adani's plan targets up to 5 gigawatts of capacity, with data centers planned alongside partnerships with Google, Microsoft, and Flipkart.",
+      "content": "Adani's plan targets up to 5 gigawatts of capacity, with data centers planned alongside partnerships with Google, Microsoft, and Flipkart.",
+      "source": "TechCrunch AI",
+      "author": "Jagmeet Singh",
+      "publishedAt": "2026-02-17T13:08:46.000Z",
+      "category": "partnership",
+      "tags": [
+        "ai",
+        "Google",
+        "Microsoft"
+      ],
+      "url": "https://techcrunch.com/2026/02/17/adani-pledges-100b-for-ai-data-centers-as-india-seeks-bigger-role-in-global-ai/",
+      "readTime": 3,
+      "views": 51267
+    },
+    {
       "id": "as-ai-jitters-rattle-it-stocks-infosys-partners-wi",
       "title": "As AI jitters rattle IT stocks, Infosys partners with Anthropic to build &#8216;enterprise-grade&#8217; AI agents",
       "summary": "Under the partnership, Infosys plans to integrate Anthropic's Claude models into its Topaz AI platform to build so-called \"agentic\" systems.",
@@ -17,7 +266,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/17/as-ai-jitters-rattle-it-stocks-infosys-partners-with-anthropic-to-build-enterprise-grade-ai-agents/",
       "readTime": 3,
-      "views": 23207
+      "views": 5775
     },
     {
       "id": "goldman-sachs-deploys-anthropic-systems-with-succe",
@@ -36,13 +285,13 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/goldman-sachs-ai-deploys-anthropic-systems-with-success/",
       "readTime": 3,
-      "views": 8627
+      "views": 53264
     },
     {
       "id": "how-ricursive-intelligence-raised-335m-at-a-4b-val",
       "title": "How Ricursive Intelligence raised $335M at a $4B valuation in 4 months",
-      "summary": "The reason why this nascent startup had VCs lining up is the founders. They are so famed in the AI world, everyone tried to hire them.",
-      "content": "The reason why this nascent startup had VCs lining up is the founders.They are so famed in the AI world, everyone tried to hire them.",
+      "summary": "The reason why this nascent startup had VCs lining up is the founders.  They are so famed in the AI world, everyone tried to hire them.",
+      "content": "The reason why this nascent startup had VCs lining up is the founders. They are so famed in the AI world, everyone tried to hire them.",
       "source": "TechCrunch AI",
       "author": "Julie Bort",
       "publishedAt": "2026-02-16T17:00:00.000Z",
@@ -52,13 +301,13 @@
       ],
       "url": "https://techcrunch.com/2026/02/16/how-ricursive-intelligence-raised-335m-at-a-4b-valuation-in-4-months/",
       "readTime": 3,
-      "views": 36668
+      "views": 47577
     },
     {
       "id": "flapping-airplanes-on-the-future-of-ai-8216-we-wan",
       "title": "Flapping Airplanes on the future of AI: &#8216;We want to try really radically different things&#8217;",
-      "summary": "\"We're exploring a different set of tradeoffs.",
-      "content": "\"We're exploring a different set of tradeoffs.\"",
+      "summary": "\"We're exploring a different set of trade-offs.",
+      "content": "\"We're exploring a different set of trade-offs.\"",
       "source": "TechCrunch AI",
       "author": "Russell Brandom",
       "publishedAt": "2026-02-16T14:00:00.000Z",
@@ -68,7 +317,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/16/flapping-airplanes-on-the-future-of-ai-we-want-to-try-really-radically-different-things/",
       "readTime": 3,
-      "views": 9065
+      "views": 48648
     },
     {
       "id": "after-all-the-hype-some-ai-experts-don-8217-t-thin",
@@ -84,264 +333,10 @@
       ],
       "url": "https://techcrunch.com/2026/02/16/after-all-the-hype-some-ai-experts-dont-think-openclaw-is-all-that-exciting/",
       "readTime": 3,
-      "views": 38223
-    },
-    {
-      "id": "banking-ai-in-multiple-business-functions-at-natwe",
-      "title": "Banking AI in multiple business functions at NatWest",
-      "summary": "NatWest Group has expanded the use of artificial intelligence in several areas of its operations, citing customer service, document management in its wealth management division, and software developme.",
-      "content": "NatWest Group has expanded the use of artificial intelligence in several areas of its operations, citing customer service, document management in its wealth management division, and software development. According to a blog post by its chief information officer, Scott Marcar, 2025 was the first year",
-      "source": "AI News",
-      "author": "AI News",
-      "publishedAt": "2026-02-16T12:20:06.000Z",
-      "category": "market",
-      "tags": [
-        "artificial intelligence",
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/banking-ai-in-multiple-business-functions-at-natwest/",
-      "readTime": 3,
-      "views": 50891
-    },
-    {
-      "id": "debenhams-pilots-agentic-ai-commerce-via-paypal-in",
-      "title": "Debenhams pilots agentic AI commerce via PayPal integration",
-      "summary": "Debenhams is piloting agentic AI commerce via PayPal integration to reduce mobile friction and help solve a familiar problem for retailers.  Mobile checkout abandonment remains a persistent revenue le.",
-      "content": "Debenhams is piloting agentic AI commerce via PayPal integration to reduce mobile friction and help solve a familiar problem for retailers. Mobile checkout abandonment remains a persistent revenue leak for digital retailers. Debenhams Group is attempting to close this gap by deploying an agentic AI ",
-      "source": "AI News",
-      "author": "Ryan Daws",
-      "publishedAt": "2026-02-16T12:04:46.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/debenhams-pilots-agentic-ai-commerce-paypal-integration/",
-      "readTime": 3,
-      "views": 34773
-    },
-    {
-      "id": "fractal-analytics-8217-muted-ipo-debut-signals-per",
-      "title": "Fractal Analytics&#8217; muted IPO debut signals persistent AI fears in India",
-      "summary": "As India's first AI company to IPO, Fractal Analytics didn't have a stellar first day on the public markets, as enthusiasm for the technology collided with jittery investors in the wake of a sell-off .",
-      "content": "As India's first AI company to IPO, Fractal Analytics didn't have a stellar first day on the public markets, as enthusiasm for the technology collided with jittery investors in the wake of a sell-off in Indian software stocks.",
-      "source": "TechCrunch AI",
-      "author": "Jagmeet Singh",
-      "publishedAt": "2026-02-16T11:51:25.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/02/16/fractal-analytics-muted-ipo-debut-signals-persistent-ai-fears-in-india/",
-      "readTime": 3,
-      "views": 5656
-    },
-    {
-      "id": "all-the-important-news-from-the-ongoing-india-ai-i",
-      "title": "All the important news from the ongoing India AI Impact Summit",
-      "summary": "India is hosting a four-day AI Summit this week that will be attended by executives from major AI labs and Big Tech, including OpenAI, Anthropic, Nvidia, Microsoft, Google, and Cloudflare, as well as .",
-      "content": "India is hosting a four-day AI Summit this week that will be attended by executives from major AI labs and Big Tech, including OpenAI, Anthropic, Nvidia, Microsoft, Google, and Cloudflare, as well as heads of state.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-02-16T11:20:27.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "anthropic",
-        "OpenAI",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/02/16/all-the-important-news-from-the-ongoing-india-ai-summit/",
-      "readTime": 3,
-      "views": 28954
-    },
-    {
-      "id": "urbn-tests-agentic-ai-to-automate-retail-reporting",
-      "title": "URBN tests agentic AI to automate retail reporting",
-      "summary": "Retail decisions often depend on weekly performance reports, but compiling those reports can take hours of manual work.  (URBN) is testing a new approach by using agentic AI systems to generate those .",
-      "content": "Retail decisions often depend on weekly performance reports, but compiling those reports can take hours of manual work. Urban Outfitters Inc. (URBN) is testing a new approach by using agentic AI systems to generate those reports automatically, changing routine analysis from staff to software. The re",
-      "source": "AI News",
-      "author": "Muhammad Zulhusni",
-      "publishedAt": "2026-02-16T10:00:00.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/urbn-tests-agentic-ai-to-automate-retail-reporting/",
-      "readTime": 3,
-      "views": 46948
-    },
-    {
-      "id": "as-ai-data-centers-hit-power-limits-peak-xv-backs-",
-      "title": "As AI data centers hit power limits, Peak XV backs Indian startup C2i to fix the bottleneck",
-      "summary": "C2i has raised $15 million as it tests a grid-to-GPU approach to reducing power losses in AI data centers.",
-      "content": "C2i has raised $15 million as it tests a grid-to-GPU approach to reducing power losses in AI data centers.",
-      "source": "TechCrunch AI",
-      "author": "Jagmeet Singh",
-      "publishedAt": "2026-02-16T01:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/02/15/as-ai-data-centers-hit-power-limits-peak-xv-backs-indian-startup-c2i-to-fix-the-bottleneck/",
-      "readTime": 3,
-      "views": 8902
-    },
-    {
-      "id": "blackstone-backs-neysa-in-up-to-1-2b-financing-as-",
-      "title": "Blackstone backs Neysa in up to $1.2B financing as India pushes to build domestic AI infrastructure",
-      "summary": "Neysa is targeting deployments of more than 20,000 GPUs over time as demand for local AI compute accelerates.",
-      "content": "Neysa is targeting deployments of more than 20,000 GPUs over time as demand for local AI compute accelerates.",
-      "source": "TechCrunch AI",
-      "author": "Jagmeet Singh",
-      "publishedAt": "2026-02-16T00:30:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/02/15/blackstone-backs-neysa-in-up-to-1-2b-financing-as-india-pushes-to-build-domestic-ai-compute/",
-      "readTime": 3,
-      "views": 45378
-    },
-    {
-      "id": "openclaw-creator-peter-steinberger-joins-openai",
-      "title": "OpenClaw creator Peter Steinberger joins OpenAI",
-      "summary": "OpenAI said OpenClaw will live on as an open source project.",
-      "content": "OpenAI said OpenClaw will live on as an open source project.",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2026-02-15T22:28:02.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/02/15/openclaw-creator-peter-steinberger-joins-openai/",
-      "readTime": 3,
-      "views": 51432
-    },
-    {
-      "id": "anthropic-and-the-pentagon-are-reportedly-arguing-",
-      "title": "Anthropic and the Pentagon are reportedly arguing over Claude usage",
-      "summary": "The apparent issue: whether Claude can be used for mass domestic surveillance and autonomous weapons.",
-      "content": "The apparent issue: whether Claude can be used for mass domestic surveillance and autonomous weapons.",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2026-02-15T21:11:28.000Z",
-      "category": "release",
-      "tags": [
-        "anthropic",
-        "claude",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/02/15/anthropic-and-the-pentagon-are-reportedly-arguing-over-claude-usage/",
-      "readTime": 3,
-      "views": 43353
-    },
-    {
-      "id": "india-has-100m-weekly-active-chatgpt-users-sam-alt",
-      "title": "India has 100M weekly active ChatGPT users, Sam Altman says",
-      "summary": "OpenAI CEO Sam Altman says India has the largest number of student users of ChatGPT worldwide.",
-      "content": "OpenAI CEO Sam Altman says India has the largest number of student users of ChatGPT worldwide.",
-      "source": "TechCrunch AI",
-      "author": "Jagmeet Singh",
-      "publishedAt": "2026-02-15T18:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gpt",
-        "openai",
-        "chatgpt",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/02/15/india-has-100m-weekly-active-chatgpt-users-sam-altman-says/",
-      "readTime": 3,
-      "views": 51929
-    },
-    {
-      "id": "the-enterprise-ai-land-grab-is-on-glean-is-buildin",
-      "title": "The enterprise AI land grab is on. Glean is building the layer beneath the interface.",
-      "summary": "In this week's episode of the Equity podcast, Glean CEO Arvind Jain explains the company's shift from enterprise search tool to middleware layer for enterprise AI.",
-      "content": "In this week's episode of the Equity podcast, Glean CEO Arvind Jain explains the company's shift from enterprise search tool to middleware layer for enterprise AI.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-02-15T17:30:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/02/15/the-enterprise-ai-land-grab-is-on-glean-is-building-the-layer-beneath-the-interface/",
-      "readTime": 3,
-      "views": 5728
-    },
-    {
-      "id": "hollywood-isn-8217-t-happy-about-the-new-seedance-",
-      "title": "Hollywood isn&#8217;t happy about the new Seedance 2.0 video generator",
-      "summary": "Hollywood organizations are pushing back against a new AI video model called Seedance 2. 0, which they say has quickly become a tool for “blatant” copyright infringement.",
-      "content": "Hollywood organizations are pushing back against a new AI video model called Seedance 2.0, which they say has quickly become a tool for “blatant” copyright infringement.",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2026-02-15T15:41:16.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/02/15/hollywood-isnt-happy-about-the-new-seedance-2-0-video-generator/",
-      "readTime": 3,
-      "views": 21538
-    },
-    {
-      "id": "the-great-computer-science-exodus-and-where-studen",
-      "title": "The great computer science exodus (and where students are going instead)",
-      "summary": "Students are losing some interest in computer science broadly but gaining interest in AI-specific majors and courses.",
-      "content": "Students are losing some interest in computer science broadly but gaining interest in AI-specific majors and courses.",
-      "source": "TechCrunch AI",
-      "author": "Connie Loizos",
-      "publishedAt": "2026-02-15T08:40:27.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/02/15/the-great-computer-science-exodus-and-where-students-are-going-instead/",
-      "readTime": 3,
-      "views": 40599
-    },
-    {
-      "id": "is-safety-dead-at-xai",
-      "title": "Is safety ‘dead’ at xAI?",
-      "summary": "Elon Musk is “actively” working to make xAI’s Grok chatbot “more unhinged, according to a former employee.",
-      "content": "Elon Musk is “actively” working to make xAI’s Grok chatbot “more unhinged, according to a former employee.",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2026-02-14T21:55:44.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/02/14/is-safety-is-dead-at-xai/",
-      "readTime": 3,
-      "views": 15033
-    },
-    {
-      "id": "airbnb-plans-to-bake-in-ai-features-for-search-dis",
-      "title": "Airbnb plans to bake in AI features for search, discovery and support",
-      "summary": "Airbnb CEO Brian Chesky said the company wants to increase its use of large language models for customer discovery, support and engineering.",
-      "content": "Airbnb CEO Brian Chesky said the company wants to increase its use of large language models for customer discovery, support and engineering.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-02-14T02:40:42.000Z",
-      "category": "research",
-      "tags": [
-        "ai",
-        "language model"
-      ],
-      "url": "https://techcrunch.com/2026/02/13/airbnb-plans-to-bake-in-ai-features-for-search-discovery-and-support/",
-      "readTime": 3,
-      "views": 13572
+      "views": 42869
     }
   ],
-  "lastUpdated": "2026-02-17T13:02:30.959Z",
+  "lastUpdated": "2026-02-18T02:07:43.134Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -349,11 +344,10 @@
     "AI News"
   ],
   "categories": [
-    "partnership",
-    "market",
-    "funding",
     "release",
+    "funding",
     "regulation",
-    "research"
+    "market",
+    "partnership"
   ]
 }
