@@ -1,8 +1,281 @@
 {
   "articles": [
     {
-      "id": "basware-8217-s-ai-agents-from-invoicing-to-8220-10",
-      "title": "Basware&#8217;s AI agents: From invoicing to &#8220;100% automated&#8221;",
+      "id": "india-8217-s-ai-boom-pushes-firms-to-trade-near-te",
+      "title": "India&#8217;s AI boom pushes firms to trade near-term revenue for users",
+      "summary": "ChatGPT and rivals are testing whether India's massive AI user boom can translate into paying customers as free offers wind down.",
+      "content": "ChatGPT and rivals are testing whether India's massive AI user boom can translate into paying customers as free offers wind down.",
+      "source": "TechCrunch AI",
+      "author": "Jagmeet Singh",
+      "publishedAt": "2026-02-25T02:00:00.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "gpt",
+        "chatgpt"
+      ],
+      "url": "https://techcrunch.com/2026/02/24/india-ai-boom-pushes-firms-to-trade-near-term-revenue-for-users/",
+      "readTime": 3,
+      "views": 34850
+    },
+    {
+      "id": "nvidia-challenger-ai-chip-startup-matx-raised-500m",
+      "title": "Nvidia challenger AI chip startup MatX raised $500M",
+      "summary": "The startup was founded by former Google TPU engineers in 2023.",
+      "content": "The startup was founded by former Google TPU engineers in 2023.",
+      "source": "TechCrunch AI",
+      "author": "Marina Temkin",
+      "publishedAt": "2026-02-25T00:45:47.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2026/02/24/nvidia-challenger-ai-chip-startup-matx-raised-500m/",
+      "readTime": 3,
+      "views": 38617
+    },
+    {
+      "id": "spanish-8216-soonicorn-8217-multiverse-computing-r",
+      "title": "Spanish &#8216;soonicorn&#8217; Multiverse Computing releases free compressed AI model",
+      "summary": "Spanish startup Multiverse Computing has released a new version of its HyperNova 60B model on Hugging Face that, it says, bests Mistral's model.",
+      "content": "Spanish startup Multiverse Computing has released a new version of its HyperNova 60B model on Hugging Face that, it says, bests Mistral's model.",
+      "source": "TechCrunch AI",
+      "author": "Anna Heim",
+      "publishedAt": "2026-02-24T23:32:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "ai model"
+      ],
+      "url": "https://techcrunch.com/2026/02/24/spanish-soonicorn-multiverse-computing-releases-free-compressed-ai-model/",
+      "readTime": 3,
+      "views": 28904
+    },
+    {
+      "id": "uber-engineers-built-an-ai-version-of-their-boss",
+      "title": "Uber engineers built an AI version of their boss",
+      "summary": "Uber CEO Dara Khosrowshahi said the company’s employees have gone all in on AI, going so far as to build a chatbot of him that they use to practice their pitches.",
+      "content": "Uber CEO Dara Khosrowshahi said the company’s employees have gone all in on AI, going so far as to build a chatbot of him that they use to practice their pitches.",
+      "source": "TechCrunch AI",
+      "author": "Kirsten Korosec",
+      "publishedAt": "2026-02-24T23:09:28.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/02/24/uber-engineers-built-ai-version-of-boss-dara-khosrowshahi/",
+      "readTime": 3,
+      "views": 7611
+    },
+    {
+      "id": "anthropic-won-t-budge-as-pentagon-escalates-ai-dis",
+      "title": "Anthropic won’t budge as Pentagon escalates AI dispute",
+      "summary": "The Pentagon has given Anthropic until Friday to loosen AI guardrails or face potential penalties, escalating a high-stakes dispute that raises questions about government leverage, vendor dependence, .",
+      "content": "The Pentagon has given Anthropic until Friday to loosen AI guardrails or face potential penalties, escalating a high-stakes dispute that raises questions about government leverage, vendor dependence, and investor confidence in defense tech.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-02-24T21:18:45.000Z",
+      "category": "funding",
+      "tags": [
+        "ai",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/02/24/anthropic-wont-budge-as-pentagon-escalates-ai-dispute/",
+      "readTime": 3,
+      "views": 35348
+    },
+    {
+      "id": "google-adds-a-way-to-create-automated-workflows-to",
+      "title": "Google adds a way to create automated workflows to Opal",
+      "summary": "The company said that a new agent being introduced in Opal will allow users to create mini-apps that can let them plan and execute tasks using text prompts.",
+      "content": "The company said that a new agent being introduced in Opal will allow users to create mini-apps that can let them plan and execute tasks using text prompts.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-02-24T19:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2026/02/24/google-adds-a-way-to-create-automated-workflows-to-opal/",
+      "readTime": 3,
+      "views": 12952
+    },
+    {
+      "id": "openai-coo-says-8216-we-have-not-yet-really-seen-a",
+      "title": "OpenAI COO says &#8216;we have not yet really seen AI penetrate enterprise business processes&#8217;",
+      "summary": "There is a lot of talk around AI agents taking over business processes and claiming that \"SaaS is dead. \" While these predictions have moved SaaS stocks at times, they haven't really come true.",
+      "content": "There is a lot of talk around AI agents taking over business processes and claiming that \"SaaS is dead.\" While these predictions have moved SaaS stocks at times, they haven't really come true.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-02-24T17:44:34.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/02/24/openai-coo-says-we-have-not-yet-really-seen-ai-penetrate-enterprise-business-processes/",
+      "readTime": 3,
+      "views": 12274
+    },
+    {
+      "id": "music-generator-producerai-joins-google-labs",
+      "title": "Music generator ProducerAI joins Google Labs",
+      "summary": "Wyclef Jean used Google's AI music tools on his new song \"Back in Abu Dhabi.",
+      "content": "Wyclef Jean used Google's AI music tools on his new song \"Back in Abu Dhabi.\"",
+      "source": "TechCrunch AI",
+      "author": "Amanda Silberling",
+      "publishedAt": "2026-02-24T16:57:21.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2026/02/24/music-generator-producerai-joins-google-labs/",
+      "readTime": 3,
+      "views": 50645
+    },
+    {
+      "id": "anthropic-claude-faces-industrial-scale-ai-model-d",
+      "title": "Anthropic: Claude faces ‘industrial-scale’ AI model distillation",
+      "summary": "Anthropic has detailed three &#8220;industrial-scale&#8221; AI model distillation campaigns by overseas labs designed to extract abilities from Claude.  These competitors generated over 16 million exc.",
+      "content": "Anthropic has detailed three &#8220;industrial-scale&#8221; AI model distillation campaigns by overseas labs designed to extract abilities from Claude. These competitors generated over 16 million exchanges using approximately 24,000 deceptive accounts. Their goal was to acquire proprietary logic to ",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-02-24T15:56:35.000Z",
+      "category": "partnership",
+      "tags": [
+        "ai",
+        "anthropic",
+        "claude",
+        "ai model",
+        "Anthropic"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/anthropic-claude-faces-industrial-scale-ai-model-distillation/",
+      "readTime": 3,
+      "views": 8035
+    },
+    {
+      "id": "meta-strikes-up-to-100b-amd-chip-deal-as-it-chases",
+      "title": "Meta strikes up to $100B AMD chip deal as it chases &#8216;personal superintelligence&#8217;",
+      "summary": "Meta is buying billions of dollars in AMD AI chips in a multiyear deal tied to a 160 million-share warrant, deepening its push to diversify beyond Nvidia and expand data center capacity.",
+      "content": "Meta is buying billions of dollars in AMD AI chips in a multiyear deal tied to a 160 million-share warrant, deepening its push to diversify beyond Nvidia and expand data center capacity.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-02-24T15:15:16.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Meta"
+      ],
+      "url": "https://techcrunch.com/2026/02/24/meta-strikes-up-to-100b-amd-chip-deal-as-it-chases-personal-superintelligence/",
+      "readTime": 3,
+      "views": 28238
+    },
+    {
+      "id": "oura-launches-a-proprietary-ai-model-focused-on-wo",
+      "title": "Oura launches a proprietary AI model focused on women&#8217;s health",
+      "summary": "The model supports questions spanning the full reproductive health spectrum, from early menstrual cycles through menopause.",
+      "content": "The model supports questions spanning the full reproductive health spectrum, from early menstrual cycles through menopause.",
+      "source": "TechCrunch AI",
+      "author": "Aisha Malik",
+      "publishedAt": "2026-02-24T15:08:01.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "ai model"
+      ],
+      "url": "https://techcrunch.com/2026/02/24/oura-launches-a-proprietary-ai-model-focused-on-womens-health/",
+      "readTime": 3,
+      "views": 16997
+    },
+    {
+      "id": "anthropic-launches-new-push-for-enterprise-agents-",
+      "title": "Anthropic launches new push for enterprise agents with plug-ins for finance, engineering, and design",
+      "summary": "It's a major opportunity to grow Anthropic’s enterprise client base — and a significant threat to SaaS products currently performing those functions.",
+      "content": "It's a major opportunity to grow Anthropic’s enterprise client base — and a significant threat to SaaS products currently performing those functions.",
+      "source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "publishedAt": "2026-02-24T14:45:55.000Z",
+      "category": "release",
+      "tags": [
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/02/24/anthropic-launches-new-push-for-enterprise-agents-with-plugins-for-finance-engineering-and-design/",
+      "readTime": 3,
+      "views": 20828
+    },
+    {
+      "id": "how-disconnected-clouds-improve-ai-data-governance",
+      "title": "How disconnected clouds improve AI data governance",
+      "summary": "Disconnected clouds aim to improve AI data governance as businesses rethink their infrastructure under tighter regulatory expectations.  Ensuring operational continuity in isolated environments has be.",
+      "content": "Disconnected clouds aim to improve AI data governance as businesses rethink their infrastructure under tighter regulatory expectations. Ensuring operational continuity in isolated environments has become increasingly vital for businesses. Facilities lacking continuous internet access face unique con",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-02-24T14:42:44.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/how-disconnected-clouds-improve-ai-data-governance/",
+      "readTime": 3,
+      "views": 10989
+    },
+    {
+      "id": "new-relic-launches-new-ai-agent-platform-and-opent",
+      "title": "New Relic launches new AI agent platform and OpenTelemetry tools",
+      "summary": "New Relic is giving enterprises more observability tools, letting them create and manage AI agents, and better integrate OTel data streams.",
+      "content": "New Relic is giving enterprises more observability tools, letting them create and manage AI agents, and better integrate OTel data streams.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Szkutak",
+      "publishedAt": "2026-02-24T14:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/02/24/new-relic-launches-new-ai-agent-platform-and-opentelemetry-tools/",
+      "readTime": 3,
+      "views": 16879
+    },
+    {
+      "id": "deploying-agentic-finance-ai-for-immediate-busines",
+      "title": "Deploying agentic finance AI for immediate business ROI",
+      "summary": "Agentic finance AI improves business efficiency and ROI only when deployed with strict governance and clear return on investment targets.  A recent FT Longitude survey of 200 finance leaders across th.",
+      "content": "Agentic finance AI improves business efficiency and ROI only when deployed with strict governance and clear return on investment targets. A recent FT Longitude survey of 200 finance leaders across the US, UK, France, and Germany showed 61 percent have deployed AI agents merely as experiments. Meanwh",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-02-24T13:26:20.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/deploying-agentic-finance-ai-for-immediate-business-roi/",
+      "readTime": 3,
+      "views": 27299
+    },
+    {
+      "id": "nimble-raises-47m-to-give-ai-agents-access-to-real",
+      "title": "Nimble raises $47M to give AI agents access to real-time web data",
+      "summary": "Nimble uses AI agents to search the web, verify and validate the results, and then clean and structure the information into neat tables that can then be queried like a database.",
+      "content": "Nimble uses AI agents to search the web, verify and validate the results, and then clean and structure the information into neat tables that can then be queried like a database.",
+      "source": "TechCrunch AI",
+      "author": "Ram Iyer",
+      "publishedAt": "2026-02-24T13:00:00.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/02/24/nimble-way-raises-47m-to-give-ai-agents-better-cleaner-data/",
+      "readTime": 3,
+      "views": 42290
+    },
+    {
+      "id": "basware-8217-s-ai-agents-from-invoicing-to-8216-10",
+      "title": "Basware&#8217;s AI agents: From invoicing to &#8216;100% automated&#8217;",
       "summary": "Basware has introduced a AI agents in its invoice lifecycle management platform to extend the existing InvoiceAI abilities of the platform.  The company positions the agents as a step towards what it .",
       "content": "Basware has introduced a AI agents in its invoice lifecycle management platform to extend the existing InvoiceAI abilities of the platform. The company positions the agents as a step towards what it calls &#8220;Agentic Finance,&#8221; a model in which AI systems undertake finance tasks under preset",
       "source": "AI News",
@@ -14,7 +287,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/invoicing-agentic-ai-baswares-ai-agents-from-invoicing-to-100-automated/",
       "readTime": 3,
-      "views": 16458
+      "views": 5140
     },
     {
       "id": "cobol-modernisation-just-got-an-ai-shortcut-and-th",
@@ -30,7 +303,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/cobol-modernization-ai-claude-ibm/",
       "readTime": 3,
-      "views": 46223
+      "views": 45373
     },
     {
       "id": "a-meta-ai-security-researcher-said-an-openclaw-age",
@@ -47,7 +320,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/23/a-meta-ai-security-researcher-said-an-openclaw-agent-ran-amok-on-her-inbox/",
       "readTime": 3,
-      "views": 43763
+      "views": 26270
     },
     {
       "id": "with-ai-investor-loyalty-is-almost-dead-at-least-a",
@@ -67,300 +340,21 @@
       ],
       "url": "https://techcrunch.com/2026/02/23/with-ai-investor-loyalty-is-almost-dead-at-least-a-dozen-openai-vcs-now-also-back-anthropic/",
       "readTime": 3,
-      "views": 7701
-    },
-    {
-      "id": "anthropic-accuses-chinese-ai-labs-of-mining-claude",
-      "title": "Anthropic accuses Chinese AI labs of mining Claude as US debates AI chip exports",
-      "summary": "Anthropic accuses DeepSeek, Moonshot, and MiniMax of using 24,000 fake accounts to distill Claude’s AI capabilities, as U.  officials debate export controls aimed at slowing China’s AI progress.",
-      "content": "Anthropic accuses DeepSeek, Moonshot, and MiniMax of using 24,000 fake accounts to distill Claude’s AI capabilities, as U.S. officials debate export controls aimed at slowing China’s AI progress.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-02-23T19:57:27.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "anthropic",
-        "claude",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
-      "readTime": 3,
-      "views": 34939
-    },
-    {
-      "id": "google-8217-s-cloud-ai-leads-on-the-three-frontier",
-      "title": "Google&#8217;s Cloud AI leads on the three frontiers of model capability",
-      "summary": "AI models are pushing against three frontiers at once: raw intelligence, response time, and a third quality you might call \"extensibility.",
-      "content": "AI models are pushing against three frontiers at once: raw intelligence, response time, and a third quality you might call \"extensibility.\"",
-      "source": "TechCrunch AI",
-      "author": "Russell Brandom",
-      "publishedAt": "2026-02-23T19:18:42.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "ai model",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/02/23/googles-cloud-ai-lead-on-the-three-frontiers-of-model-capability/",
-      "readTime": 3,
-      "views": 20209
-    },
-    {
-      "id": "openai-calls-in-the-consultants-for-its-enterprise",
-      "title": "OpenAI calls in the consultants for its enterprise push",
-      "summary": "OpenAI is partnering with four consulting giants in an effort to see more adoption of its OpenAI Frontier AI agent platform.",
-      "content": "OpenAI is partnering with four consulting giants in an effort to see more adoption of its OpenAI Frontier AI agent platform.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Szkutak",
-      "publishedAt": "2026-02-23T18:11:08.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/02/23/openai-calls-in-the-consultants-for-its-enterprise-push/",
-      "readTime": 3,
-      "views": 45031
-    },
-    {
-      "id": "guide-labs-debuts-a-new-kind-of-interpretable-llm",
-      "title": "Guide Labs debuts a new kind of interpretable LLM",
-      "summary": "The company open sourced an 8-billion-parameter LLM, Steerling-8B, trained with a new architecture designed to make its actions easily interpretable.",
-      "content": "The company open sourced an 8-billion-parameter LLM, Steerling-8B, trained with a new architecture designed to make its actions easily interpretable.",
-      "source": "TechCrunch AI",
-      "author": "Tim Fernholz",
-      "publishedAt": "2026-02-23T17:53:28.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "llm"
-      ],
-      "url": "https://techcrunch.com/2026/02/23/guide-labs-debuts-a-new-kind-of-interpretable-llm/",
-      "readTime": 3,
-      "views": 43742
-    },
-    {
-      "id": "the-human-work-behind-humanoid-robots-is-being-hid",
-      "title": "The human work behind humanoid robots is being hidden",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI.  To get stories like this in your inbox first, sign up here.",
-      "content": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. In January, Nvidia’s Jensen Huang, the head of the world’s most valuable company, proclaimed that we are entering the era of physical AI, when artificial intellig",
-      "source": "MIT Technology Review AI",
-      "author": "James O'Donnell",
-      "publishedAt": "2026-02-23T17:05:00.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/02/23/1133508/the-human-work-behind-humanoid-robots-is-being-hidden/",
-      "readTime": 3,
-      "views": 52625
-    },
-    {
-      "id": "particle-8217-s-ai-news-app-listens-to-podcasts-fo",
-      "title": "Particle&#8217;s AI news app listens to podcasts for interesting clips so you you don&#8217;t have to",
-      "summary": "AI news app Particle can now pull in key moments from podcasts, letting readers instantly play short, relevant clips alongside related stories.",
-      "content": "AI news app Particle can now pull in key moments from podcasts, letting readers instantly play short, relevant clips alongside related stories.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-02-23T16:55:40.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/02/23/particles-ai-news-app-listens-to-podcasts-for-interesting-clips-so-you-you-dont-have-to/",
-      "readTime": 3,
-      "views": 19718
-    },
-    {
-      "id": "spotify-rolls-out-ai-powered-prompted-playlists-to",
-      "title": "Spotify rolls out AI-powered  Prompted Playlists to the UK and other markets",
-      "summary": "Spotify continues to test its AI-powered “Prompted Playlist” feature, now rolling out the tool to Premium subscribers in the U. , Ireland, Australia, and Sweden.",
-      "content": "Spotify continues to test its AI-powered “Prompted Playlist” feature, now rolling out the tool to Premium subscribers in the U.K., Ireland, Australia, and Sweden.",
-      "source": "TechCrunch AI",
-      "author": "Lauren Forristal",
-      "publishedAt": "2026-02-23T16:50:36.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/02/23/spotify-ai-prompted-playlists-uk-markets/",
-      "readTime": 3,
-      "views": 44707
-    },
-    {
-      "id": "how-ai-agents-could-destroy-the-economy",
-      "title": "How AI agents could destroy the economy",
-      "summary": "Citrini Research imagines a report from two years in the future, in which unemployment has doubled and the total value of the stock market has fallen by more than a third.",
-      "content": "Citrini Research imagines a report from two years in the future, in which unemployment has doubled and the total value of the stock market has fallen by more than a third.",
-      "source": "TechCrunch AI",
-      "author": "Russell Brandom",
-      "publishedAt": "2026-02-23T14:44:03.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/02/23/how-ai-agents-could-destroy-the-economy/",
-      "readTime": 3,
-      "views": 17901
-    },
-    {
-      "id": "defense-secretary-summons-anthropic-s-amodei-over-",
-      "title": "Defense Secretary summons Anthropic’s Amodei over military use of Claude",
-      "summary": "Defense Secretary Pete Hegseth has summoned Anthropic CEO Dario Amodei to the Pentagon for a tense discussion over the military's use of Claude.  Hegseth has threatened to designate Anthropic a \"suppl.",
-      "content": "Defense Secretary Pete Hegseth has summoned Anthropic CEO Dario Amodei to the Pentagon for a tense discussion over the military's use of Claude. Hegseth has threatened to designate Anthropic a \"supply chain risk.\"",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-02-23T14:19:10.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "anthropic",
-        "claude",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/02/23/defense-secretary-summons-anthropics-amodei-over-military-use-of-claude/",
-      "readTime": 3,
-      "views": 24195
-    },
-    {
-      "id": "mastercard-s-ai-payment-demo-points-to-agent-led-c",
-      "title": "Mastercard’s AI payment demo points to agent-led commerce",
-      "summary": "A recent demonstration from Mastercard suggests that payment systems may be heading toward a future where software agents, not people, complete purchases.  During the India AI Impact Summit 2026, Mast.",
-      "content": "A recent demonstration from Mastercard suggests that payment systems may be heading toward a future where software agents, not people, complete purchases. During the India AI Impact Summit 2026, Mastercard showed what it described as its first fully authenticated &#8220;agentic commerce&#8221; trans",
-      "source": "AI News",
-      "author": "Muhammad Zulhusni",
-      "publishedAt": "2026-02-23T10:00:00.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/mastercard-ai-payment-demo-points-to-agent-led-commerce/",
-      "readTime": 3,
-      "views": 54437
-    },
-    {
-      "id": "how-amul-is-using-ai-dairy-farming-to-put-36-milli",
-      "title": "How Amul is using AI dairy farming to put 36 million farmers first",
-      "summary": "AI dairy farming has found its most ambitious deployment yet – not in a Silicon Valley lab nor a European agri-tech campus, but in the villages of Gujarat, India, where 36 lakh (3. 6 million) women mi.",
-      "content": "AI dairy farming has found its most ambitious deployment yet – not in a Silicon Valley lab nor a European agri-tech campus, but in the villages of Gujarat, India, where 36 lakh (3.6 million) women milk producers are now being served by an AI assistant named Sarlaben. Amul, the world&#8217;s largest ",
-      "source": "AI News",
-      "author": "Dashveenjit Kaur",
-      "publishedAt": "2026-02-23T09:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/amul-ai-dairy-farming-platform-india/",
-      "readTime": 3,
-      "views": 42432
-    },
-    {
-      "id": "hitachi-bets-on-industrial-expertise-to-win-the-ph",
-      "title": "Hitachi bets on industrial expertise to win the physical AI race",
-      "summary": "Physical AI – the branch of artificial intelligence that controls robots and industrial machinery in the real world – has a hierarchy problem.  At the top, OpenAI and Google are scaling multimodal fou.",
-      "content": "Physical AI – the branch of artificial intelligence that controls robots and industrial machinery in the real world – has a hierarchy problem. At the top, OpenAI and Google are scaling multimodal foundation models. In the middle, Nvidia is building the platforms and tools for physical AI development",
-      "source": "AI News",
-      "author": "Dashveenjit Kaur",
-      "publishedAt": "2026-02-23T07:00:00.000Z",
-      "category": "market",
-      "tags": [
-        "artificial intelligence",
-        "ai",
-        "openai",
-        "OpenAI",
-        "Google"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/hitachi-physical-ai-industrial-expertise/",
-      "readTime": 3,
-      "views": 42022
-    },
-    {
-      "id": "all-the-important-news-from-the-ongoing-india-ai-i",
-      "title": "All the important news from the ongoing India AI Impact Summit",
-      "summary": "India is hosting a four-day AI Summit this week that will be attended by executives from major AI labs and Big Tech, including OpenAI, Anthropic, Nvidia, Microsoft, Google, and Cloudflare, as well as .",
-      "content": "India is hosting a four-day AI Summit this week that will be attended by executives from major AI labs and Big Tech, including OpenAI, Anthropic, Nvidia, Microsoft, Google, and Cloudflare, as well as heads of state.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-02-22T17:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "anthropic",
-        "OpenAI",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/02/22/all-the-important-news-from-the-ongoing-india-ai-summit/",
-      "readTime": 3,
-      "views": 52738
-    },
-    {
-      "id": "sam-altman-would-like-to-remind-you-that-humans-us",
-      "title": "Sam Altman would like to remind you that humans use a lot of energy, too",
-      "summary": "\"It also takes a lot of energy to train a human.",
-      "content": "\"It also takes a lot of energy to train a human.\"",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2026-02-21T21:38:01.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/02/21/sam-altman-would-like-remind-you-that-humans-use-a-lot-of-energy-too/",
-      "readTime": 3,
-      "views": 16029
-    },
-    {
-      "id": "microsoft-s-new-gaming-ceo-vows-not-to-flood-the-e",
-      "title": "Microsoft’s new gaming CEO vows not to flood the ecosystem with ‘endless AI slop’",
-      "summary": "Is Microsoft's gaming division doubling down on AI.",
-      "content": "Is Microsoft's gaming division doubling down on AI?",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2026-02-21T17:41:27.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Microsoft"
-      ],
-      "url": "https://techcrunch.com/2026/02/21/microsofts-new-gaming-ceo-vows-not-to-flood-the-ecosystem-with-endless-ai-slop/",
-      "readTime": 3,
-      "views": 14258
-    },
-    {
-      "id": "google-vp-warns-that-two-types-of-ai-startups-may-",
-      "title": "Google VP warns that two types of AI startups may not survive",
-      "summary": "As generative AI evolves, a Google VP warns that LLM wrappers and AI aggregators face mounting pressure, with shrinking margins and limited differentiation threatening their long-term viability.",
-      "content": "As generative AI evolves, a Google VP warns that LLM wrappers and AI aggregators face mounting pressure, with shrinking margins and limited differentiation threatening their long-term viability.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-02-21T16:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "llm",
-        "generative ai",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/02/21/google-vp-warns-that-two-types-of-ai-startups-may-not-survive/",
-      "readTime": 3,
-      "views": 22700
+      "views": 32431
     }
   ],
-  "lastUpdated": "2026-02-24T13:04:26.051Z",
+  "lastUpdated": "2026-02-25T02:08:34.663Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "AI News",
     "TechCrunch AI",
-    "MIT Technology Review AI"
+    "AI News"
   ],
   "categories": [
-    "release",
     "market",
-    "regulation",
-    "research"
+    "release",
+    "funding",
+    "partnership",
+    "regulation"
   ]
 }
