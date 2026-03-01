@@ -1,6 +1,84 @@
 {
   "articles": [
     {
+      "id": "the-trap-anthropic-built-for-itself",
+      "title": "The trap Anthropic built for itself",
+      "summary": "Anthropic, OpenAI, Google DeepMind and others have long promised to govern themselves responsibly.  Now, in the absence of rules, there's not a lot to protect them.",
+      "content": "Anthropic, OpenAI, Google DeepMind and others have long promised to govern themselves responsibly. Now, in the absence of rules, there's not a lot to protect them.",
+      "source": "TechCrunch AI",
+      "author": "Connie Loizos",
+      "publishedAt": "2026-03-01T00:08:58.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "anthropic",
+        "OpenAI",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2026/02/28/the-trap-anthropic-built-for-itself/",
+      "readTime": 3,
+      "views": 50777
+    },
+    {
+      "id": "anthropic-s-claude-rises-to-no-2-in-the-app-store-",
+      "title": "Anthropic’s Claude rises to No. 2 in the App Store following Pentagon dispute",
+      "summary": "Anthropic’s chatbot Claude seems to have benefited from the attention around the company’s fraught negotiations with the Pentagon.",
+      "content": "Anthropic’s chatbot Claude seems to have benefited from the attention around the company’s fraught negotiations with the Pentagon.",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "publishedAt": "2026-02-28T21:05:06.000Z",
+      "category": "release",
+      "tags": [
+        "anthropic",
+        "claude",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/02/28/anthropics-claude-rises-to-no-2-in-the-app-store-following-pentagon-dispute/",
+      "readTime": 3,
+      "views": 5804
+    },
+    {
+      "id": "the-billion-dollar-infrastructure-deals-powering-t",
+      "title": "The billion-dollar infrastructure deals powering the AI boom",
+      "summary": "Here's everything we know about the biggest AI infrastructure projects, including major spending from Meta, Oracle, Microsoft, Google, and OpenAI.",
+      "content": "Here's everything we know about the biggest AI infrastructure projects, including major spending from Meta, Oracle, Microsoft, Google, and OpenAI.",
+      "source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "publishedAt": "2026-02-28T20:41:55.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI",
+        "Google",
+        "Microsoft"
+      ],
+      "url": "https://techcrunch.com/2026/02/28/billion-dollar-infrastructure-deals-ai-boom-data-centers-openai-oracle-nvidia-microsoft-google-meta/",
+      "readTime": 3,
+      "views": 9424
+    },
+    {
+      "id": "openai-s-sam-altman-announces-pentagon-deal-with-t",
+      "title": "OpenAI’s Sam Altman announces Pentagon deal with ‘technical safeguards’",
+      "summary": "OpenAI's CEO claims its new defense contract includes protections addressing the same issues that became a flashpoint for Anthropic.",
+      "content": "OpenAI's CEO claims its new defense contract includes protections addressing the same issues that became a flashpoint for Anthropic.",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "publishedAt": "2026-02-28T16:17:36.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "anthropic",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/02/28/openais-sam-altman-announces-pentagon-deal-with-technical-safeguards/",
+      "readTime": 3,
+      "views": 43125
+    },
+    {
       "id": "pentagon-moves-to-designate-anthropic-as-a-supply-",
       "title": "Pentagon moves to designate Anthropic as a supply-chain risk",
       "summary": "\"We don't need it, we don't want it, and will not do business with them again,\" the president wrote in the post.",
@@ -16,7 +94,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/27/pentagon-moves-to-designate-anthropic-as-a-supply-chain-risk/",
       "readTime": 3,
-      "views": 44258
+      "views": 21772
     },
     {
       "id": "musk-bashes-openai-in-deposition-saying-8216-nobod",
@@ -36,7 +114,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/27/musk-bashes-openai-in-deposition-saying-nobody-committed-suicide-because-of-grok/",
       "readTime": 3,
-      "views": 50099
+      "views": 8602
     },
     {
       "id": "anthropic-vs-the-pentagon-what-s-actually-at-stake",
@@ -54,7 +132,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/27/anthropic-vs-the-pentagon-whats-actually-at-stake/",
       "readTime": 3,
-      "views": 5331
+      "views": 10132
     },
     {
       "id": "chatgpt-reaches-900m-weekly-active-users",
@@ -74,7 +152,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/27/chatgpt-reaches-900m-weekly-active-users/",
       "readTime": 3,
-      "views": 40141
+      "views": 38124
     },
     {
       "id": "who-8217-s-really-running-ai-inside-the-billion-do",
@@ -92,7 +170,7 @@
       ],
       "url": "https://techcrunch.com/podcast/whos-really-running-ai-inside-the-billion-dollar-battle-over-regulation-with-alex-bores/",
       "readTime": 3,
-      "views": 47205
+      "views": 9429
     },
     {
       "id": "ai-music-generator-suno-hits-2m-paid-subscribers-a",
@@ -109,7 +187,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/27/ai-music-generator-suno-hits-2-million-paid-subscribers-and-300m-in-annual-recurring-revenue/",
       "readTime": 3,
-      "views": 50436
+      "views": 8928
     },
     {
       "id": "perplexity-8217-s-new-computer-is-another-bet-that",
@@ -126,7 +204,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/27/perplexitys-new-computer-is-another-bet-that-users-need-many-ai-models/",
       "readTime": 3,
-      "views": 15797
+      "views": 47391
     },
     {
       "id": "employees-at-google-and-openai-support-anthropic-8",
@@ -146,7 +224,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/27/employees-at-google-and-openai-support-anthropics-pentagon-stand-in-open-letter/",
       "readTime": 3,
-      "views": 17153
+      "views": 44567
     },
     {
       "id": "openai-raises-110b-in-one-of-the-largest-private-f",
@@ -164,7 +242,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/27/openai-raises-110b-in-one-of-the-largest-private-funding-rounds-in-history/",
       "readTime": 3,
-      "views": 20180
+      "views": 44234
     },
     {
       "id": "upgrading-agentic-ai-for-finance-workflows",
@@ -180,7 +258,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/upgrading-agentic-ai-for-finance-workflows/",
       "readTime": 3,
-      "views": 50121
+      "views": 5673
     },
     {
       "id": "poor-implementation-of-ai-may-be-behind-workforce-",
@@ -196,7 +274,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/ai-workflows-need-human-in-the-loop-say-datatonic/",
       "readTime": 3,
-      "views": 30381
+      "views": 34392
     },
     {
       "id": "ai-is-rewiring-how-the-world-s-best-go-players-thi",
@@ -212,7 +290,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/02/27/1133624/ai-is-rewiring-how-the-worlds-best-go-players-think/",
       "readTime": 3,
-      "views": 23300
+      "views": 15613
     },
     {
       "id": "goldman-sachs-and-deutsche-bank-test-agentic-ai-fo",
@@ -229,7 +307,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/goldman-sachs-and-deutsche-bank-test-agentic-ai-for-trade-surveillance/",
       "readTime": 3,
-      "views": 11626
+      "views": 18187
     },
     {
       "id": "asml-8217-s-high-na-euv-tools-clear-the-runway-for",
@@ -246,7 +324,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/asml-high-na-euv-production-ready-ai-chips/",
       "readTime": 3,
-      "views": 13473
+      "views": 6661
     },
     {
       "id": "anthropic-ceo-stands-firm-as-pentagon-deadline-loo",
@@ -264,7 +342,7 @@
       ],
       "url": "https://techcrunch.com/2026/02/26/anthropic-ceo-stands-firm-as-pentagon-deadline-looms/",
       "readTime": 3,
-      "views": 45161
+      "views": 51666
     },
     {
       "id": "so-we-8217-re-getting-prada-meta-ai-glasses-right",
@@ -281,78 +359,10 @@
       ],
       "url": "https://techcrunch.com/2026/02/26/so-were-getting-prada-meta-ai-glasses-right/",
       "readTime": 3,
-      "views": 21923
-    },
-    {
-      "id": "sophia-space-raises-10m-seed-to-demo-novel-space-c",
-      "title": "Sophia Space raises $10M seed to demo novel space computers",
-      "summary": "The company's modular computer tiles offer a new vision for space data centers.",
-      "content": "The company's modular computer tiles offer a new vision for space data centers.",
-      "source": "TechCrunch AI",
-      "author": "Tim Fernholz",
-      "publishedAt": "2026-02-26T19:55:20.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/02/26/sophia-space-raises-10m-seed-to-demo-novel-space-computers/",
-      "readTime": 3,
-      "views": 30204
-    },
-    {
-      "id": "mistral-ai-inks-a-deal-with-global-consulting-gian",
-      "title": "Mistral AI inks a deal with global consulting giant Accenture",
-      "summary": "Mistral AI lands a partnership with Accenture, the consultant that has also recently announced partnerships with rivals OpenAI and Anthropic.",
-      "content": "Mistral AI lands a partnership with Accenture, the consultant that has also recently announced partnerships with rivals OpenAI and Anthropic.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Szkutak",
-      "publishedAt": "2026-02-26T19:17:27.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "anthropic",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/02/26/mistral-ai-inks-a-deal-with-global-consulting-giant-accenture/",
-      "readTime": 3,
-      "views": 5245
-    },
-    {
-      "id": "read-ai-launches-an-email-based-8216-digital-twin-",
-      "title": "Read AI launches an email-based &#8216;digital twin&#8217; to help you with schedules and answers",
-      "summary": "Read AI is launching Ada, which can reply with your availability and extract answers from the company knowledge base and the web.",
-      "content": "Read AI is launching Ada, which can reply with your availability and extract answers from the company knowledge base and the web.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-02-26T17:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/02/26/read-ai-launches-an-email-based-digital-twin-to-help-you-with-schedules-and-answers/",
-      "readTime": 3,
-      "views": 39166
-    },
-    {
-      "id": "bumble-adds-ai-powered-photo-feedback-and-profile-",
-      "title": "Bumble adds AI-powered photo feedback and profile guidance tools",
-      "summary": "Bumble and other popular dating apps, like Match Group's Tinder and Hinge, have all embraced AI-powered features.",
-      "content": "Bumble and other popular dating apps, like Match Group's Tinder and Hinge, have all embraced AI-powered features.",
-      "source": "TechCrunch AI",
-      "author": "Amanda Silberling",
-      "publishedAt": "2026-02-26T16:38:59.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/02/26/bumble-adds-ai-powered-photo-feedback-and-profile-guidance-tools/",
-      "readTime": 3,
-      "views": 46905
+      "views": 54293
     }
   ],
-  "lastUpdated": "2026-02-28T12:43:47.750Z",
+  "lastUpdated": "2026-03-01T02:12:51.168Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -361,9 +371,9 @@
     "MIT Technology Review AI"
   ],
   "categories": [
+    "release",
     "market",
     "regulation",
-    "release",
     "partnership",
     "funding",
     "research"
