@@ -1,6 +1,55 @@
 {
   "articles": [
     {
+      "id": "online-harassment-is-entering-its-ai-era",
+      "title": "Online harassment is entering its AI era",
+      "summary": "Scott Shambaugh didn’t think twice when he denied an AI agent’s request to contribute to matplotlib, a software library that he helps manage.  Like many open-source projects, matplotlib has been overw.",
+      "content": "Scott Shambaugh didn’t think twice when he denied an AI agent’s request to contribute to matplotlib, a software library that he helps manage. Like many open-source projects, matplotlib has been overwhelmed by a glut of AI code contributions, and so Shambaugh and his fellow maintainers have institute",
+      "source": "MIT Technology Review AI",
+      "author": "Grace Huckins",
+      "publishedAt": "2026-03-05T10:00:00.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/03/05/1133962/online-harassment-is-entering-its-ai-era/",
+      "readTime": 3,
+      "views": 52962
+    },
+    {
+      "id": "jpmorgan-expands-ai-investment-as-tech-spending-ne",
+      "title": "JPMorgan expands AI investment as tech spending nears $20B",
+      "summary": "Artificial intelligence is moving from pilot projects to core business systems inside large companies.  One example comes from JPMorgan Chase, where rising AI investment is helping push the bank’s tec.",
+      "content": "Artificial intelligence is moving from pilot projects to core business systems inside large companies. One example comes from JPMorgan Chase, where rising AI investment is helping push the bank’s technology budget toward about US$19.8 billion in 2026. The spending plan reflects a broader shift among",
+      "source": "AI News",
+      "author": "Muhammad Zulhusni",
+      "publishedAt": "2026-03-05T10:00:00.000Z",
+      "category": "funding",
+      "tags": [
+        "artificial intelligence",
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/jpmorgan-expands-ai-investment/",
+      "readTime": 3,
+      "views": 14779
+    },
+    {
+      "id": "beyond-the-pilot-dyna-ai-raises-eight-figure-serie",
+      "title": "Beyond the pilot: Dyna.Ai raises eight-figure Series A to put agentic AI in financial services to work",
+      "summary": "The financial services industry has a pilot problem.  Institutions pour resources into AI proofs-of-concept, generate impressive dashboards, and then quietly watch momentum stall before anything reach.",
+      "content": "The financial services industry has a pilot problem. Institutions pour resources into AI proofs-of-concept, generate impressive dashboards, and then quietly watch momentum stall before anything reaches production. Singapore-headquartered Dyna.Ai was built precisely to break that pattern–and investor",
+      "source": "AI News",
+      "author": "Dashveenjit Kaur",
+      "publishedAt": "2026-03-05T08:00:00.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/dyna-ai-series-a-agentic-ai-financial-services/",
+      "readTime": 3,
+      "views": 21671
+    },
+    {
       "id": "jensen-huang-says-nvidia-is-pulling-back-from-open",
       "title": "Jensen Huang says Nvidia is pulling back from OpenAI and Anthropic, but his explanation raises more questions than it answers",
       "summary": "Nvidia CEO Jensen Huang said Wednesday that his company's investments in OpenAI and Anthropic will likely be its last — but his explanation may not tell the whole story.",
@@ -18,7 +67,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/04/jensen-huang-says-nvidia-is-pulling-back-from-openai-and-anthropic-but-his-explanation-raises-more-questions-than-it-answers/",
       "readTime": 3,
-      "views": 40436
+      "views": 48330
     },
     {
       "id": "anthropic-ceo-dario-amodei-calls-openai-8217-s-mes",
@@ -38,7 +87,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/04/anthropic-ceo-dario-amodei-calls-openais-messaging-around-military-deal-straight-up-lies-report-says/",
       "readTime": 3,
-      "views": 40664
+      "views": 54559
     },
     {
       "id": "apple-music-to-add-transparency-tags-to-distinguis",
@@ -55,7 +104,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/04/apple-music-to-add-transparency-tags-to-distinguish-ai-music-says-report/",
       "readTime": 3,
-      "views": 19242
+      "views": 11862
     },
     {
       "id": "google-search-rolls-out-gemini-8217-s-canvas-in-ai",
@@ -73,7 +122,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/04/https-techcrunch-com-2026-03-04-google-search-rolls-out-geminis-canvas-in-ai-mode-to-all-us-users/",
       "readTime": 3,
-      "views": 15925
+      "views": 43072
     },
     {
       "id": "decagon-completes-first-tender-offer-at-4-5b-valua",
@@ -89,7 +138,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/04/decagon-completes-first-tender-offer-at-4-5b-valuation/",
       "readTime": 3,
-      "views": 52408
+      "views": 16869
     },
     {
       "id": "the-us-military-is-still-using-claude-but-defense-",
@@ -107,7 +156,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/04/the-us-military-is-still-using-claude-but-defense-tech-clients-are-fleeing/",
       "readTime": 3,
-      "views": 28029
+      "views": 54264
     },
     {
       "id": "father-sues-google-claiming-gemini-chatbot-drove-s",
@@ -125,7 +174,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/04/father-sues-google-claiming-gemini-chatbot-drove-son-into-fatal-delusion/",
       "readTime": 3,
-      "views": 7914
+      "views": 21436
     },
     {
       "id": "one-startup-s-pitch-to-provide-more-reliable-ai-an",
@@ -145,7 +194,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/04/one-startups-pitch-to-provide-more-reliable-ai-answers-crowdsource-the-chatbots/",
       "readTime": 3,
-      "views": 12484
+      "views": 19129
     },
     {
       "id": "bridging-the-operational-ai-gap",
@@ -161,7 +210,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/03/04/1133642/bridging-the-operational-ai-gap/",
       "readTime": 3,
-      "views": 17047
+      "views": 17542
     },
     {
       "id": "who-needs-data-centers-in-space-when-they-can-floa",
@@ -177,7 +226,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/04/who-needs-data-centers-in-space-when-they-can-float-offshore/",
       "readTime": 3,
-      "views": 24096
+      "views": 43549
     },
     {
       "id": "physical-ai-is-having-its-moment-and-everyone-want",
@@ -193,7 +242,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/physical-ai-global-race-robots-manufacturing-2026/",
       "readTime": 3,
-      "views": 37699
+      "views": 37865
     },
     {
       "id": "ai-agents-prefer-bitcoin-shaping-new-finance-archi",
@@ -209,7 +258,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/ai-agents-prefer-bitcoin-new-finance-architecture/",
       "readTime": 3,
-      "views": 11294
+      "views": 37507
     },
     {
       "id": "google-makes-its-industrial-robotics-ai-play-offic",
@@ -228,7 +277,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/google-industrial-robotics-ai-physical-ai-intrinsic/",
       "readTime": 3,
-      "views": 5753
+      "views": 48063
     },
     {
       "id": "why-ai-startups-are-selling-the-same-equity-at-two",
@@ -244,7 +293,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/03/why-ai-startups-are-selling-the-same-equity-at-two-different-prices/",
       "readTime": 3,
-      "views": 31753
+      "views": 8493
     },
     {
       "id": "alibaba-8217-s-qwen-tech-lead-steps-down-after-maj",
@@ -260,7 +309,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/03/alibabas-qwen-tech-lead-steps-down-after-major-ai-push/",
       "readTime": 3,
-      "views": 48640
+      "views": 9208
     },
     {
       "id": "ai-companies-are-spending-millions-to-thwart-this-",
@@ -276,7 +325,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/03/ai-companies-are-spending-millions-to-thwart-this-former-tech-execs-congressional-bid/",
       "readTime": 3,
-      "views": 41675
+      "views": 15233
     },
     {
       "id": "chatgpt-8217-s-new-gpt-5-3-instant-model-will-stop",
@@ -293,74 +342,22 @@
       ],
       "url": "https://techcrunch.com/2026/03/03/chatgpts-new-gpt-5-3-instant-model-will-stop-telling-you-to-calm-down/",
       "readTime": 3,
-      "views": 46455
-    },
-    {
-      "id": "claude-code-rolls-out-a-voice-mode-capability",
-      "title": "Claude Code rolls out a voice mode capability",
-      "summary": "Anthropic is stepping up its game in the AI coding space with the rollout of Voice Mode in Claude Code.",
-      "content": "Anthropic is stepping up its game in the AI coding space with the rollout of Voice Mode in Claude Code.",
-      "source": "TechCrunch AI",
-      "author": "Lauren Forristal",
-      "publishedAt": "2026-03-03T20:02:10.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "anthropic",
-        "claude",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/03/03/claude-code-rolls-out-a-voice-mode-capability/",
-      "readTime": 3,
-      "views": 13723
-    },
-    {
-      "id": "x-says-it-will-suspend-creators-from-revenue-shari",
-      "title": "X says it will suspend creators from revenue-sharing program for unlabeled AI posts of &#8216;armed conflict&#8217;",
-      "summary": "Creators who break the rules will get a three-month suspension, and if they continue to violate the policy, they'll be permanently banned.",
-      "content": "Creators who break the rules will get a three-month suspension, and if they continue to violate the policy, they'll be permanently banned.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-03-03T18:27:47.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/03/03/x-says-it-will-suspend-creators-from-revenue-sharing-program-for-unlabeled-ai-posts-of-armed-conflict/",
-      "readTime": 3,
-      "views": 45844
-    },
-    {
-      "id": "best-ai-security-solutions-2026-top-enterprise-pla",
-      "title": "Best AI security solutions 2026: Top enterprise platforms compared",
-      "summary": "Artificial intelligence is no longer just powering defensive cybersecurity tools, it is reshaping the entire threat landscape.  AI is accelerating reconnaissance, improving the realism of phishing, au.",
-      "content": "Artificial intelligence is no longer just powering defensive cybersecurity tools, it is reshaping the entire threat landscape. AI is accelerating reconnaissance, improving the realism of phishing, automating malware mutation, and enabling adaptive attack techniques. At the same time, enterprises are",
-      "source": "AI News",
-      "author": "AI News",
-      "publishedAt": "2026-03-03T14:27:19.000Z",
-      "category": "market",
-      "tags": [
-        "artificial intelligence",
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/best-ai-security-solutions-2026-top-enterprise-platforms-compared/",
-      "readTime": 3,
-      "views": 38582
+      "views": 26712
     }
   ],
-  "lastUpdated": "2026-03-05T06:51:28.913Z",
+  "lastUpdated": "2026-03-05T12:58:56.241Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "TechCrunch AI",
     "MIT Technology Review AI",
-    "AI News"
+    "AI News",
+    "TechCrunch AI"
   ],
   "categories": [
+    "regulation",
     "funding",
     "release",
     "research",
-    "regulation",
     "market"
   ]
 }
