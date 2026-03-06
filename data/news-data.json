@@ -1,6 +1,208 @@
 {
   "articles": [
     {
+      "id": "anthropic-to-challenge-dod-8217-s-supply-chain-lab",
+      "title": "Anthropic to challenge DOD&#8217;s supply chain label in court",
+      "summary": "Anthropic CEO Dario Amodei said he plans to challenge the Department of Defense's designation of the AI firm as a supply chain risk.  He claims most Anthropic customers are unaffected by the label.",
+      "content": "Anthropic CEO Dario Amodei said he plans to challenge the Department of Defense's designation of the AI firm as a supply chain risk. He claims most Anthropic customers are unaffected by the label.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-03-06T01:28:54.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/03/05/anthropic-to-challenge-dods-supply-chain-label-in-court/",
+      "readTime": 3,
+      "views": 33823
+    },
+    {
+      "id": "diligencesquared-uses-ai-voice-agents-to-make-m-03",
+      "title": "DiligenceSquared uses AI, voice agents to make M&#038;A research affordable",
+      "summary": "Instead of relying on expensive management consultants, the startup uses AI voice agents to conduct interviews with customers of the companies the PE firms are considering buying.",
+      "content": "Instead of relying on expensive management consultants, the startup uses AI voice agents to conduct interviews with customers of the companies the PE firms are considering buying.",
+      "source": "TechCrunch AI",
+      "author": "Marina Temkin",
+      "publishedAt": "2026-03-05T23:14:04.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/03/05/diligencesquared-uses-ai-voice-agents-to-make-ma-research-affordable/",
+      "readTime": 3,
+      "views": 17734
+    },
+    {
+      "id": "aws-launches-a-new-ai-agent-platform-specifically-",
+      "title": "AWS launches a new AI agent platform specifically for healthcare",
+      "summary": "AWS is launching Amazon Connect Health, an AI agent platform that will help with patient scheduling, documentation, and patient verification.",
+      "content": "AWS is launching Amazon Connect Health, an AI agent platform that will help with patient scheduling, documentation, and patient verification.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Szkutak",
+      "publishedAt": "2026-03-05T21:54:37.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/03/05/aws-amazon-connect-health-ai-agent-platform-health-care-providers/",
+      "readTime": 3,
+      "views": 47694
+    },
+    {
+      "id": "it-s-official-the-pentagon-has-labeled-anthropic-a",
+      "title": "It’s official: The Pentagon has labeled Anthropic a supply-chain risk",
+      "summary": "The Department of Defense has officially labeled Anthropic a supply-chain risk, making the AI firm the first American company with the label.  Meanwhile, the DOD continues to use Anthropic's AI in Ira.",
+      "content": "The Department of Defense has officially labeled Anthropic a supply-chain risk, making the AI firm the first American company with the label. Meanwhile, the DOD continues to use Anthropic's AI in Iran.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-03-05T20:24:25.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/03/05/its-official-the-pentagon-has-labeled-anthropic-a-supply-chain-risk/",
+      "readTime": 3,
+      "views": 6240
+    },
+    {
+      "id": "exclusive-luma-launches-creative-ai-agents-powered",
+      "title": "EXCLUSIVE: Luma launches creative AI agents powered by its new ‘Unified Intelligence’ models",
+      "summary": "Luma introduced Luma Agents, powered by its new “Unified Intelligence” models, designed to coordinate multiple AI systems and generate end-to-end creative work across text, images, video and audio.",
+      "content": "Luma introduced Luma Agents, powered by its new “Unified Intelligence” models, designed to coordinate multiple AI systems and generate end-to-end creative work across text, images, video and audio.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-03-05T18:11:36.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/03/05/exclusive-luma-launches-creative-ai-agents-powered-by-its-new-unified-intelligence-models/",
+      "readTime": 3,
+      "views": 14286
+    },
+    {
+      "id": "openai-launches-gpt-5-4-with-pro-and-thinking-vers",
+      "title": "OpenAI launches GPT-5.4 with Pro and Thinking versions",
+      "summary": "4 is billed as \"our most capable and efficient frontier model for professional work.",
+      "content": "GPT-5.4 is billed as \"our most capable and efficient frontier model for professional work.\"",
+      "source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "publishedAt": "2026-03-05T18:00:15.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gpt",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/03/05/openai-launches-gpt-5-4-with-pro-and-thinking-versions/",
+      "readTime": 3,
+      "views": 35305
+    },
+    {
+      "id": "cursor-is-rolling-out-a-new-kind-of-agentic-coding",
+      "title": "Cursor is rolling out a new kind of agentic coding tool",
+      "summary": "Called Automations, the new system gives users a way to automatically launch agents within their coding environment, triggered by a new addition to the codebase, a Slack message, or a simple timer.",
+      "content": "Called Automations, the new system gives users a way to automatically launch agents within their coding environment, triggered by a new addition to the codebase, a Slack message, or a simple timer.",
+      "source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "publishedAt": "2026-03-05T17:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "automation"
+      ],
+      "url": "https://techcrunch.com/2026/03/05/cursor-is-rolling-out-a-new-system-for-agentic-coding/",
+      "readTime": 3,
+      "views": 5216
+    },
+    {
+      "id": "meta-sued-over-ai-smart-glasses-8217-privacy-conce",
+      "title": "Meta sued over AI smart glasses&#8217; privacy concerns, after workers reviewed nudity, sex, and other footage",
+      "summary": "Lawyers say Meta's marketing materials promised privacy and user control over sharing footage.  But an investigation found that subcontractors are reviewing footage from customers' glasses.",
+      "content": "Lawyers say Meta's marketing materials promised privacy and user control over sharing footage. But an investigation found that subcontractors are reviewing footage from customers' glasses.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-03-05T16:50:20.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai",
+        "Meta"
+      ],
+      "url": "https://techcrunch.com/2026/03/05/meta-sued-over-ai-smartglasses-privacy-concerns-after-workers-reviewed-nudity-sex-and-other-footage/",
+      "readTime": 3,
+      "views": 37741
+    },
+    {
+      "id": "anthropic-ceo-dario-amodei-could-still-be-trying-t",
+      "title": "Anthropic CEO Dario Amodei could still be trying to make a deal with Pentagon",
+      "summary": "Anthropic's $200 million contract with the Department of Defense broke down due to disagreements over giving the military unrestricted access to its AI.",
+      "content": "Anthropic's $200 million contract with the Department of Defense broke down due to disagreements over giving the military unrestricted access to its AI.",
+      "source": "TechCrunch AI",
+      "author": "Amanda Silberling",
+      "publishedAt": "2026-03-05T16:45:51.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/03/05/anthropic-ceo-dario-amodei-could-still-be-trying-to-make-a-deal-with-pentagon/",
+      "readTime": 3,
+      "views": 15550
+    },
+    {
+      "id": "netflix-buys-ben-affleck-8217-s-ai-filmmaking-comp",
+      "title": "Netflix buys Ben Affleck&#8217;s AI filmmaking company InterPositive",
+      "summary": "InterPositive isn't trying to make AI actors or synthetic performances.  Rather, the company has created a model that helps production teams work with footage from their own productions to help make e.",
+      "content": "InterPositive isn't trying to make AI actors or synthetic performances. Rather, the company has created a model that helps production teams work with footage from their own productions to help make edits in post-production.",
+      "source": "TechCrunch AI",
+      "author": "Amanda Silberling",
+      "publishedAt": "2026-03-05T16:19:57.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/03/05/netflix-buys-ben-afflecks-ai-filmmaking-company-interpositive/",
+      "readTime": 3,
+      "views": 30253
+    },
+    {
+      "id": "how-1-000-customer-calls-shaped-a-breakout-enterpr",
+      "title": "How 1,000+ customer calls shaped a breakout enterprise AI startup",
+      "summary": "On this episode of Build Mode, David Park joins Isabelle Johannessen to discuss how he and his team are intentionally iterating, fundraising, and scaling Narada.",
+      "content": "On this episode of Build Mode, David Park joins Isabelle Johannessen to discuss how he and his team are intentionally iterating, fundraising, and scaling Narada.",
+      "source": "TechCrunch AI",
+      "author": "Maggie Nye, Isabelle Johannessen",
+      "publishedAt": "2026-03-05T13:15:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/03/05/how-1000-customer-calls-shaped-a-breakout-enterprise-ai-startup/",
+      "readTime": 3,
+      "views": 42907
+    },
+    {
+      "id": "lio-raises-30m-from-andreessen-horowitz-and-others",
+      "title": "Lio raises $30M from Andreessen Horowitz and others to automate enterprise procurement",
+      "summary": "AI procurement startup Lio announced a $30 million Series A in a round led by Andreessen Horowitz.",
+      "content": "AI procurement startup Lio announced a $30 million Series A in a round led by Andreessen Horowitz.",
+      "source": "TechCrunch AI",
+      "author": "Dominic-Madori Davis",
+      "publishedAt": "2026-03-05T13:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/03/05/lio-ai-series-a-a16z-30m-raise-automate-enterprise-procurement/",
+      "readTime": 3,
+      "views": 15874
+    },
+    {
       "id": "online-harassment-is-entering-its-ai-era",
       "title": "Online harassment is entering its AI era",
       "summary": "Scott Shambaugh didn’t think twice when he denied an AI agent’s request to contribute to matplotlib, a software library that he helps manage.  Like many open-source projects, matplotlib has been overw.",
@@ -14,7 +216,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/03/05/1133962/online-harassment-is-entering-its-ai-era/",
       "readTime": 3,
-      "views": 52962
+      "views": 5473
     },
     {
       "id": "jpmorgan-expands-ai-investment-as-tech-spending-ne",
@@ -31,7 +233,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/jpmorgan-expands-ai-investment/",
       "readTime": 3,
-      "views": 14779
+      "views": 26708
     },
     {
       "id": "beyond-the-pilot-dyna-ai-raises-eight-figure-serie",
@@ -47,7 +249,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/dyna-ai-series-a-agentic-ai-financial-services/",
       "readTime": 3,
-      "views": 21671
+      "views": 5727
     },
     {
       "id": "jensen-huang-says-nvidia-is-pulling-back-from-open",
@@ -67,27 +269,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/04/jensen-huang-says-nvidia-is-pulling-back-from-openai-and-anthropic-but-his-explanation-raises-more-questions-than-it-answers/",
       "readTime": 3,
-      "views": 48330
-    },
-    {
-      "id": "anthropic-ceo-dario-amodei-calls-openai-8217-s-mes",
-      "title": "Anthropic CEO Dario Amodei calls OpenAI&#8217;s messaging around military deal &#8216;straight up lies,&#8217; report says",
-      "summary": "Anthropic gave up its contract with the Pentagon over AI safety disagreements -- then, OpenAI swooped in.",
-      "content": "Anthropic gave up its contract with the Pentagon over AI safety disagreements -- then, OpenAI swooped in.",
-      "source": "TechCrunch AI",
-      "author": "Amanda Silberling",
-      "publishedAt": "2026-03-04T22:40:05.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "anthropic",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/03/04/anthropic-ceo-dario-amodei-calls-openais-messaging-around-military-deal-straight-up-lies-report-says/",
-      "readTime": 3,
-      "views": 54559
+      "views": 14482
     },
     {
       "id": "apple-music-to-add-transparency-tags-to-distinguis",
@@ -104,7 +286,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/04/apple-music-to-add-transparency-tags-to-distinguish-ai-music-says-report/",
       "readTime": 3,
-      "views": 11862
+      "views": 23638
     },
     {
       "id": "google-search-rolls-out-gemini-8217-s-canvas-in-ai",
@@ -122,7 +304,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/04/https-techcrunch-com-2026-03-04-google-search-rolls-out-geminis-canvas-in-ai-mode-to-all-us-users/",
       "readTime": 3,
-      "views": 43072
+      "views": 29402
     },
     {
       "id": "decagon-completes-first-tender-offer-at-4-5b-valua",
@@ -138,7 +320,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/04/decagon-completes-first-tender-offer-at-4-5b-valuation/",
       "readTime": 3,
-      "views": 16869
+      "views": 12300
     },
     {
       "id": "the-us-military-is-still-using-claude-but-defense-",
@@ -156,208 +338,21 @@
       ],
       "url": "https://techcrunch.com/2026/03/04/the-us-military-is-still-using-claude-but-defense-tech-clients-are-fleeing/",
       "readTime": 3,
-      "views": 54264
-    },
-    {
-      "id": "father-sues-google-claiming-gemini-chatbot-drove-s",
-      "title": "Father sues Google, claiming Gemini chatbot drove son into fatal delusion",
-      "summary": "A father is suing Google and Alphabet, alleging its Gemini chatbot reinforced his son’s delusional belief it was his AI wife and coached him toward suicide and a planned airport attack.",
-      "content": "A father is suing Google and Alphabet, alleging its Gemini chatbot reinforced his son’s delusional belief it was his AI wife and coached him toward suicide and a planned airport attack.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-03-04T14:58:36.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gemini",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/03/04/father-sues-google-claiming-gemini-chatbot-drove-son-into-fatal-delusion/",
-      "readTime": 3,
-      "views": 21436
-    },
-    {
-      "id": "one-startup-s-pitch-to-provide-more-reliable-ai-an",
-      "title": "One startup’s pitch to provide more reliable AI answers: Crowdsource the chatbots",
-      "summary": "CollectivIQ looks to give users more accurate answers to their AI queries by showing them responses that pull information from ChatGPT, Gemini, Claude, Grok — and up to 10 other models — all at the sa.",
-      "content": "CollectivIQ looks to give users more accurate answers to their AI queries by showing them responses that pull information from ChatGPT, Gemini, Claude, Grok — and up to 10 other models — all at the same time.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Szkutak",
-      "publishedAt": "2026-03-04T14:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gpt",
-        "claude",
-        "gemini",
-        "chatgpt"
-      ],
-      "url": "https://techcrunch.com/2026/03/04/one-startups-pitch-to-provide-more-reliable-ai-answers-crowdsource-the-chatbots/",
-      "readTime": 3,
-      "views": 19129
-    },
-    {
-      "id": "bridging-the-operational-ai-gap",
-      "title": "Bridging the operational AI gap",
-      "summary": "The transformational potential of AI is already well established.  Enterprise use cases are building momentum and organizations are transitioning from pilot projects to AI in production.",
-      "content": "The transformational potential of AI is already well established. Enterprise use cases are building momentum and organizations are transitioning from pilot projects to AI in production. Companies are no longer just talking about AI; they are redirecting budgets and resources to make it happen. Many ",
-      "source": "MIT Technology Review AI",
-      "author": "MIT Technology Review Insights",
-      "publishedAt": "2026-03-04T14:00:00.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/03/04/1133642/bridging-the-operational-ai-gap/",
-      "readTime": 3,
-      "views": 17542
-    },
-    {
-      "id": "who-needs-data-centers-in-space-when-they-can-floa",
-      "title": "Who needs data centers in space when they can float offshore?",
-      "summary": "Offshore wind developer Aikido will deploy a small data center beneath a floating offshore wind turbine later this year.",
-      "content": "Offshore wind developer Aikido will deploy a small data center beneath a floating offshore wind turbine later this year.",
-      "source": "TechCrunch AI",
-      "author": "Tim De Chant",
-      "publishedAt": "2026-03-04T12:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/03/04/who-needs-data-centers-in-space-when-they-can-float-offshore/",
-      "readTime": 3,
-      "views": 43549
-    },
-    {
-      "id": "physical-ai-is-having-its-moment-and-everyone-want",
-      "title": "Physical AI is having its moment–and everyone wants a piece of it",
-      "summary": "There is a particular kind of momentum in the technology industry that announces itself not through a single breakthrough, but through the simultaneous convergence of many.  Physical AI is having that.",
-      "content": "There is a particular kind of momentum in the technology industry that announces itself not through a single breakthrough, but through the simultaneous convergence of many. Physical AI is having that moment right now–and paying attention to where it is coming from, and why, tells you more than any s",
-      "source": "AI News",
-      "author": "Dashveenjit Kaur",
-      "publishedAt": "2026-03-04T12:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/physical-ai-global-race-robots-manufacturing-2026/",
-      "readTime": 3,
-      "views": 37865
-    },
-    {
-      "id": "ai-agents-prefer-bitcoin-shaping-new-finance-archi",
-      "title": "AI agents prefer Bitcoin shaping new finance architecture",
-      "summary": "AI agents prefer Bitcoin for digital wealth storage, forcing finance chiefs to adapt their architecture for machine autonomy.  When AI systems gain economic autonomy, their internal logic dictates how.",
-      "content": "AI agents prefer Bitcoin for digital wealth storage, forcing finance chiefs to adapt their architecture for machine autonomy. When AI systems gain economic autonomy, their internal logic dictates how corporate capital flows. Non-partisan research by the Bitcoin Policy Institute evaluated how these f",
-      "source": "AI News",
-      "author": "Ryan Daws",
-      "publishedAt": "2026-03-04T10:52:45.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/ai-agents-prefer-bitcoin-new-finance-architecture/",
-      "readTime": 3,
-      "views": 37507
-    },
-    {
-      "id": "google-makes-its-industrial-robotics-ai-play-offic",
-      "title": "Google makes its industrial robotics AI play official–and this time, it means business",
-      "summary": "When Google folds a moonshot into its core operations, it&#8217;s not cleaning house.  It&#8217;s placing a bet.",
-      "content": "When Google folds a moonshot into its core operations, it&#8217;s not cleaning house. It&#8217;s placing a bet. On February 25, Alphabet-owned Intrinsic–which builds AI models and software designed to make industrial robotics more accessible–officially joined Google.  The company will remain a disti",
-      "source": "AI News",
-      "author": "Dashveenjit Kaur",
-      "publishedAt": "2026-03-04T08:00:00.000Z",
-      "category": "market",
-      "tags": [
-        "ai",
-        "ai model",
-        "robotics",
-        "Google"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/google-industrial-robotics-ai-physical-ai-intrinsic/",
-      "readTime": 3,
-      "views": 48063
-    },
-    {
-      "id": "why-ai-startups-are-selling-the-same-equity-at-two",
-      "title": "Why AI startups are selling the same equity at two different prices",
-      "summary": "Some AI founders are using a novel valuation mechanism to manufacture unicorn status.",
-      "content": "Some AI founders are using a novel valuation mechanism to manufacture unicorn status.",
-      "source": "TechCrunch AI",
-      "author": "Marina Temkin",
-      "publishedAt": "2026-03-04T00:31:25.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/03/03/why-ai-startups-are-selling-the-same-equity-at-two-different-prices/",
-      "readTime": 3,
-      "views": 8493
-    },
-    {
-      "id": "alibaba-8217-s-qwen-tech-lead-steps-down-after-maj",
-      "title": "Alibaba&#8217;s Qwen tech lead steps down after major AI push",
-      "summary": "Reactions rippled through Alibaba's Qwen team after tech lead Junyang Lin stepped down following a major model launch.",
-      "content": "Reactions rippled through Alibaba's Qwen team after tech lead Junyang Lin stepped down following a major model launch.",
-      "source": "TechCrunch AI",
-      "author": "Jagmeet Singh",
-      "publishedAt": "2026-03-03T23:16:36.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/03/03/alibabas-qwen-tech-lead-steps-down-after-major-ai-push/",
-      "readTime": 3,
-      "views": 9208
-    },
-    {
-      "id": "ai-companies-are-spending-millions-to-thwart-this-",
-      "title": "AI companies are spending millions to thwart this former tech exec’s congressional bid",
-      "summary": "A tech billionaire-backed super PAC is spending $125 million to undercut candidates pushing for AI regulation.  New York's Alex Bores, a former tech executive himself, is one of them.",
-      "content": "A tech billionaire-backed super PAC is spending $125 million to undercut candidates pushing for AI regulation. New York's Alex Bores, a former tech executive himself, is one of them.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-03-03T21:44:09.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/03/03/ai-companies-are-spending-millions-to-thwart-this-former-tech-execs-congressional-bid/",
-      "readTime": 3,
-      "views": 15233
-    },
-    {
-      "id": "chatgpt-8217-s-new-gpt-5-3-instant-model-will-stop",
-      "title": "ChatGPT&#8217;s new GPT-5.3 Instant model will stop telling you to calm down",
-      "summary": "The company says the new model will reduce the \"cringe\" that's been annoying its users for months.",
-      "content": "The company says the new model will reduce the \"cringe\" that's been annoying its users for months.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-03-03T20:20:56.000Z",
-      "category": "release",
-      "tags": [
-        "gpt",
-        "chatgpt"
-      ],
-      "url": "https://techcrunch.com/2026/03/03/chatgpts-new-gpt-5-3-instant-model-will-stop-telling-you-to-calm-down/",
-      "readTime": 3,
-      "views": 26712
+      "views": 52377
     }
   ],
-  "lastUpdated": "2026-03-05T12:58:56.241Z",
+  "lastUpdated": "2026-03-06T02:02:24.577Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
+    "TechCrunch AI",
     "MIT Technology Review AI",
-    "AI News",
-    "TechCrunch AI"
+    "AI News"
   ],
   "categories": [
-    "regulation",
-    "funding",
     "release",
     "research",
-    "market"
+    "regulation",
+    "funding"
   ]
 }
