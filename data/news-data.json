@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "id": "a-roadmap-for-ai-if-anyone-will-listen",
+      "title": "A roadmap for AI, if anyone will listen",
+      "summary": "The Pro-Human Declaration was finalized before last week's Pentagon-Anthropic standoff, but the collision of the two events wasn’t lost on anyone involved.",
+      "content": "The Pro-Human Declaration was finalized before last week's Pentagon-Anthropic standoff, but the collision of the two events wasn’t lost on anyone involved.",
+      "source": "TechCrunch AI",
+      "author": "Connie Loizos",
+      "publishedAt": "2026-03-08T06:05:26.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/03/07/a-roadmap-for-ai-if-anyone-will-listen/",
+      "readTime": 3,
+      "views": 30454
+    },
+    {
       "id": "google-just-gave-sundar-pichai-a-692m-pay-package",
       "title": "Google just gave Sundar Pichai a $692M pay package",
       "summary": "Most of it is tied to performance, including new stock incentives linked to Waymo and Wing, its drone delivery venture.",
@@ -15,7 +33,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/07/google-just-gave-sundar-pichai-a-692m-pay-package/",
       "readTime": 3,
-      "views": 17431
+      "views": 22106
     },
     {
       "id": "openai-robotics-lead-caitlin-kalinowski-quits-in-r",
@@ -34,7 +52,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/07/openai-robotics-lead-caitlin-kalinowski-quits-in-response-to-pentagon-deal/",
       "readTime": 3,
-      "views": 26219
+      "views": 11628
     },
     {
       "id": "openai-delays-chatgpt-s-adult-mode-again",
@@ -54,7 +72,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/07/openai-delays-chatgpts-adult-mode-again/",
       "readTime": 3,
-      "views": 50378
+      "views": 25739
     },
     {
       "id": "microsoft-google-amazon-say-anthropic-claude-remai",
@@ -74,7 +92,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/06/microsoft-anthropic-claude-remains-available-to-customers-except-the-defense-department/",
       "readTime": 3,
-      "views": 52386
+      "views": 34866
     },
     {
       "id": "is-the-pentagon-allowed-to-surveil-americans-with-",
@@ -92,7 +110,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/03/06/1134012/is-the-pentagon-allowed-to-surveil-americans-with-ai/",
       "readTime": 3,
-      "views": 19942
+      "views": 32002
     },
     {
       "id": "anthropic-8217-s-claude-found-22-vulnerabilities-i",
@@ -110,7 +128,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/06/anthropics-claude-found-22-vulnerabilities-in-firefox-over-two-weeks/",
       "readTime": 3,
-      "views": 11700
+      "views": 7597
     },
     {
       "id": "anthropic-vs-the-pentagon-the-saaspocalypse-and-wh",
@@ -129,7 +147,7 @@
       ],
       "url": "https://techcrunch.com/podcast/anthropic-vs-the-pentagon-the-saaspocalypse-and-why-competitions-is-good-actually/",
       "readTime": 3,
-      "views": 39035
+      "views": 14999
     },
     {
       "id": "claude-8217-s-consumer-growth-surge-continues-afte",
@@ -148,7 +166,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/06/claudes-consumer-growth-surge-continues-after-pentagon-deal-debacle/",
       "readTime": 3,
-      "views": 39955
+      "views": 33447
     },
     {
       "id": "city-detect-which-uses-ai-to-help-cities-stay-safe",
@@ -164,7 +182,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/06/city-detect-uses-ai-to-help-cities-stay-safe-and-clean/",
       "readTime": 3,
-      "views": 53316
+      "views": 43375
     },
     {
       "id": "after-europe-whatsapp-will-let-rival-ai-companies-",
@@ -181,7 +199,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/06/after-europe-whatsapp-will-let-rival-ai-companies-offer-chatbots-in-brazil/",
       "readTime": 3,
-      "views": 36281
+      "views": 20749
     },
     {
       "id": "scaling-intelligent-automation-without-breaking-li",
@@ -197,7 +215,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/scaling-intelligent-automation-without-breaking-live-workflows/",
       "readTime": 3,
-      "views": 51975
+      "views": 32180
     },
     {
       "id": "the-firm-that-never-forgets-rowspace-launches-with",
@@ -213,7 +231,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/rowspace-50m-ai-private-equity-sequoia-emergence/",
       "readTime": 3,
-      "views": 13196
+      "views": 6348
     },
     {
       "id": "anthropic-to-challenge-dod-8217-s-supply-chain-lab",
@@ -231,7 +249,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/05/anthropic-to-challenge-dods-supply-chain-label-in-court/",
       "readTime": 3,
-      "views": 19521
+      "views": 13996
     },
     {
       "id": "diligencesquared-uses-ai-voice-agents-to-make-m-03",
@@ -247,7 +265,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/05/diligencesquared-uses-ai-voice-agents-to-make-ma-research-affordable/",
       "readTime": 3,
-      "views": 35762
+      "views": 19948
     },
     {
       "id": "aws-launches-a-new-ai-agent-platform-specifically-",
@@ -263,7 +281,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/05/aws-amazon-connect-health-ai-agent-platform-health-care-providers/",
       "readTime": 3,
-      "views": 48567
+      "views": 19686
     },
     {
       "id": "it-s-official-the-pentagon-has-labeled-anthropic-a",
@@ -281,7 +299,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/05/its-official-the-pentagon-has-labeled-anthropic-a-supply-chain-risk/",
       "readTime": 3,
-      "views": 8516
+      "views": 10648
     },
     {
       "id": "luma-launches-creative-ai-agents-powered-by-its-ne",
@@ -297,7 +315,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/05/exclusive-luma-launches-creative-ai-agents-powered-by-its-new-unified-intelligence-models/",
       "readTime": 3,
-      "views": 22021
+      "views": 39766
     },
     {
       "id": "openai-launches-gpt-5-4-with-pro-and-thinking-vers",
@@ -316,7 +334,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/05/openai-launches-gpt-5-4-with-pro-and-thinking-versions/",
       "readTime": 3,
-      "views": 51061
+      "views": 40888
     },
     {
       "id": "cursor-is-rolling-out-a-new-kind-of-agentic-coding",
@@ -332,27 +350,10 @@
       ],
       "url": "https://techcrunch.com/2026/03/05/cursor-is-rolling-out-a-new-system-for-agentic-coding/",
       "readTime": 3,
-      "views": 50157
-    },
-    {
-      "id": "meta-sued-over-ai-smart-glasses-8217-privacy-conce",
-      "title": "Meta sued over AI smart glasses&#8217; privacy concerns, after workers reviewed nudity, sex, and other footage",
-      "summary": "Lawyers say Meta's marketing materials promised privacy and user control over sharing footage.  But an investigation found that subcontractors are reviewing footage from customers' glasses.",
-      "content": "Lawyers say Meta's marketing materials promised privacy and user control over sharing footage. But an investigation found that subcontractors are reviewing footage from customers' glasses.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-03-05T16:50:20.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai",
-        "Meta"
-      ],
-      "url": "https://techcrunch.com/2026/03/05/meta-sued-over-ai-smartglasses-privacy-concerns-after-workers-reviewed-nudity-sex-and-other-footage/",
-      "readTime": 3,
-      "views": 8951
+      "views": 10419
     }
   ],
-  "lastUpdated": "2026-03-08T02:03:49.526Z",
+  "lastUpdated": "2026-03-08T06:41:36.824Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
