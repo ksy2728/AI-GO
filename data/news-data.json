@@ -1,6 +1,74 @@
 {
   "articles": [
     {
+      "id": "agentic-commerce-runs-on-truth-and-context",
+      "title": "Agentic commerce runs on truth and context",
+      "summary": "Imagine telling a digital agent, “Use my points and book a family trip to Italy.  Keep it within budget, pick hotels we’ve liked before, and handle the details.",
+      "content": "Imagine telling a digital agent, “Use my points and book a family trip to Italy. Keep it within budget, pick hotels we’ve liked before, and handle the details.” Instead of returning a list of links, the agent assembles an itinerary and executes the purchase. That shift, from assistance to execution,",
+      "source": "MIT Technology Review AI",
+      "author": "Andrew Reiskind, Manish Sood",
+      "publishedAt": "2026-03-25T11:48:13.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/03/25/1134516/agentic-commerce-runs-on-truth-and-context/",
+      "readTime": 3,
+      "views": 20257
+    },
+    {
+      "id": "lucid-bots-raises-20m-to-keep-up-with-demand-for-i",
+      "title": "Lucid Bots raises $20M to keep up with demand for its window-washing drones",
+      "summary": "Lucid Bots has seen demand accelerate over the last year for its window cleaning drones and power washing robots.",
+      "content": "Lucid Bots has seen demand accelerate over the last year for its window cleaning drones and power washing robots.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Szkutak",
+      "publishedAt": "2026-03-25T11:00:00.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/03/25/lucid-bots-raises-20m-to-keep-up-with-demand-for-its-window-washing-drones/",
+      "readTime": 3,
+      "views": 41869
+    },
+    {
+      "id": "ai-agents-enter-banking-roles-at-bank-of-america",
+      "title": "AI agents enter banking roles at Bank of America",
+      "summary": "AI agents are starting to take on a more direct role in how financial advice is delivered, as large banks move into systems that support client interactions.  Bank of America is now deploying an inter.",
+      "content": "AI agents are starting to take on a more direct role in how financial advice is delivered, as large banks move into systems that support client interactions. Bank of America is now deploying an internal AI-powered advisory platform to a subset of financial advisers, rolled out to around 1,000 financ",
+      "source": "AI News",
+      "author": "Muhammad Zulhusni",
+      "publishedAt": "2026-03-25T10:00:00.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/ai-agents-enter-banking-roles-at-bank-of-america/",
+      "readTime": 3,
+      "views": 48244
+    },
+    {
+      "id": "the-ai-hype-index-ai-goes-to-war",
+      "title": "The AI Hype Index: AI goes to war",
+      "summary": "Anthropic and the Pentagon feuded over how to weaponize Anthropic’s AI model Claude; then OpenAI swept the Pentagon off its feet with an “opportunistic and sloppy” deal.  Users quit ChatGPT in droves.",
+      "content": "AI is at war. Anthropic and the Pentagon feuded over how to weaponize Anthropic’s AI model Claude; then OpenAI swept the Pentagon off its feet with an “opportunistic and sloppy” deal. Users quit ChatGPT in droves. People marched through London in the biggest protest against AI to date. If you’re kee",
+      "source": "MIT Technology Review AI",
+      "author": "Michelle Kim",
+      "publishedAt": "2026-03-25T09:00:00.000Z",
+      "category": "research",
+      "tags": [
+        "ai",
+        "gpt",
+        "openai",
+        "anthropic",
+        "claude"
+      ],
+      "url": "https://www.technologyreview.com/2026/03/25/1134571/the-ai-hype-index-ai-goes-to-war/",
+      "readTime": 3,
+      "views": 40823
+    },
+    {
       "id": "with-3-5b-in-fresh-capital-kleiner-perkins-is-goin",
       "title": "With $3.5B in fresh capital, Kleiner Perkins is going all in on AI",
       "summary": "The fundraise includes $1 billion for investing in early-stage startups, and $2. 5 billion for late-stage growth businesses.",
@@ -14,7 +82,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/24/with-3-5b-in-fresh-capital-kleiner-perkins-is-going-all-in-on-ai/",
       "readTime": 3,
-      "views": 40665
+      "views": 8228
     },
     {
       "id": "openai-s-sora-was-the-creepiest-app-on-your-phone-",
@@ -32,7 +100,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/24/openais-sora-was-the-creepiest-app-on-your-phone-now-its-shutting-down/",
       "readTime": 3,
-      "views": 18836
+      "views": 27063
     },
     {
       "id": "kentucky-woman-rejects-26m-offer-to-turn-her-farm-",
@@ -48,7 +116,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/24/kentucky-woman-rejects-26-million-offer-to-turn-her-farm-into-a-data-center/",
       "readTime": 3,
-      "views": 27864
+      "views": 39820
     },
     {
       "id": "anthropic-hands-claude-code-more-control-but-keeps",
@@ -67,7 +135,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash/",
       "readTime": 3,
-      "views": 8631
+      "views": 20692
     },
     {
       "id": "spotify-tests-new-tool-to-stop-ai-slop-from-being-",
@@ -83,7 +151,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/24/spotify-tests-new-tool-to-stop-ai-slop-from-being-attributed-to-real-artists/",
       "readTime": 3,
-      "views": 30516
+      "views": 21808
     },
     {
       "id": "databricks-bought-two-startups-to-underpin-its-new",
@@ -99,7 +167,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/24/databricks-buys-two-startups-lakewatch-antimatter-siftd-ai-security/",
       "readTime": 3,
-      "views": 19342
+      "views": 38136
     },
     {
       "id": "openai-8217-s-plans-to-make-chatgpt-more-like-amaz",
@@ -119,7 +187,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/24/openais-plans-to-make-chatgpt-more-like-amazon-arent-going-so-well/",
       "readTime": 3,
-      "views": 17379
+      "views": 33546
     },
     {
       "id": "google-tv-8217-s-new-gemini-features-keep-fans-upd",
@@ -136,7 +204,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/24/google-tv-new-gemini-features-keep-fans-updated-on-sports-teams-deep-dives-visual-answers/",
       "readTime": 3,
-      "views": 50023
+      "views": 44150
     },
     {
       "id": "openai-adds-open-source-tools-to-help-developers-b",
@@ -154,7 +222,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/24/openai-adds-open-source-tools-to-help-developers-build-for-teen-safety/",
       "readTime": 3,
-      "views": 11344
+      "views": 52131
     },
     {
       "id": "talat-8217-s-ai-meeting-notes-stay-on-your-machine",
@@ -170,7 +238,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/24/talats-ai-meeting-notes-stay-on-your-machine-not-in-the-cloud/",
       "readTime": 3,
-      "views": 44419
+      "views": 54181
     },
     {
       "id": "doss-raises-55m-for-ai-inventory-management-that-p",
@@ -186,7 +254,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/24/doss-raises-55m-for-ai-inventory-management-that-plugs-into-erp/",
       "readTime": 3,
-      "views": 29404
+      "views": 26210
     },
     {
       "id": "automating-complex-finance-workflows-with-multimod",
@@ -202,7 +270,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/automating-complex-finance-workflows-with-multimodal-ai/",
       "readTime": 3,
-      "views": 47177
+      "views": 22445
     },
     {
       "id": "meet-the-former-apple-designer-building-a-new-ai-i",
@@ -220,7 +288,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/24/meet-the-former-apple-designer-building-a-new-ai-interface-at-hark/",
       "readTime": 3,
-      "views": 16752
+      "views": 54690
     },
     {
       "id": "securing-ai-systems-under-today-8217-s-and-tomorro",
@@ -236,7 +304,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/quantum-resilient-ai-needs-migration-and-hardware-protected-data-enclaves/",
       "readTime": 3,
-      "views": 12937
+      "views": 47146
     },
     {
       "id": "mirage-raises-75m-to-continue-building-models-for-",
@@ -252,7 +320,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/24/mirage-raises-75m-to-continue-building-models-for-its-ai-video-editing-app-captions/",
       "readTime": 3,
-      "views": 32264
+      "views": 8937
     },
     {
       "id": "agile-robots-becomes-the-latest-robotics-company-t",
@@ -270,87 +338,22 @@
       ],
       "url": "https://techcrunch.com/2026/03/24/agile-robots-becomes-the-latest-robotics-company-to-partner-with-google-deepmind/",
       "readTime": 3,
-      "views": 11495
-    },
-    {
-      "id": "air-street-becomes-one-of-the-largest-solo-vcs-in-",
-      "title": "Air Street becomes one of the largest solo VCs in Europe with $232M fund",
-      "summary": "London’s Air Street Capital has raised a large Fund III with eyes locked on backing early-stage European and North American AI companies.",
-      "content": "London’s Air Street Capital has raised a large Fund III with eyes locked on backing early-stage European and North American AI companies.",
-      "source": "TechCrunch AI",
-      "author": "Dominic-Madori Davis",
-      "publishedAt": "2026-03-23T22:36:39.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/03/23/air-street-becomes-one-of-the-largest-solo-vcs-in-europe-with-232m-fund/",
-      "readTime": 3,
-      "views": 45023
-    },
-    {
-      "id": "bernie-sanders-8217-ai-8216-gotcha-8217-video-flop",
-      "title": "Bernie Sanders&#8217; AI &#8216;gotcha&#8217; video flops, but the memes are great",
-      "summary": "Bernie Sanders thinks he's tricked Claude into revealing the AI industry's secrets, but he really just exposed how agreeable chatbots can become.",
-      "content": "Sen. Bernie Sanders thinks he's tricked Claude into revealing the AI industry's secrets, but he really just exposed how agreeable chatbots can become.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-03-23T20:15:59.000Z",
-      "category": "market",
-      "tags": [
-        "ai",
-        "claude"
-      ],
-      "url": "https://techcrunch.com/2026/03/23/bernie-sanders-ai-gotcha-video-flops-but-the-memes-are-great/",
-      "readTime": 3,
-      "views": 45080
-    },
-    {
-      "id": "vibe-coding-startup-lovable-is-on-the-hunt-for-acq",
-      "title": "Vibe-coding startup Lovable is on the hunt for acquisitions",
-      "summary": "Lovable's founder said the fast-growing vibe-coding startup is looking for startups and teams to join its company.",
-      "content": "Lovable's founder said the fast-growing vibe-coding startup is looking for startups and teams to join its company.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-03-23T18:22:04.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/03/23/vibe-coding-startup-lovable-is-on-the-hunt-for-acquisitions/",
-      "readTime": 3,
-      "views": 21175
-    },
-    {
-      "id": "apple-sets-june-date-for-wwdc-2026-teasing-8216-ai",
-      "title": "Apple sets June date for WWDC 2026, teasing &#8216;AI advancements&#8217;",
-      "summary": "Apple will host its next Worldwide Developers Conference the week of June 8.  The company is expected to announce major updates to Siri with advanced AI capabilities.",
-      "content": "Apple will host its next Worldwide Developers Conference the week of June 8. The company is expected to announce major updates to Siri with advanced AI capabilities.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-03-23T18:00:45.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Apple"
-      ],
-      "url": "https://techcrunch.com/2026/03/23/apple-wwdc-june-8-12-ai-advancements-siri-developers-conference/",
-      "readTime": 3,
-      "views": 30806
+      "views": 14316
     }
   ],
-  "lastUpdated": "2026-03-25T07:01:30.717Z",
+  "lastUpdated": "2026-03-25T13:09:08.899Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
+    "MIT Technology Review AI",
     "TechCrunch AI",
     "AI News"
   ],
   "categories": [
+    "research",
+    "funding",
     "market",
     "release",
-    "partnership",
-    "funding",
-    "research"
+    "partnership"
   ]
 }
