@@ -1,10 +1,248 @@
 {
   "articles": [
     {
+      "id": "with-3-5b-in-fresh-capital-kleiner-perkins-is-goin",
+      "title": "With $3.5B in fresh capital, Kleiner Perkins is going all in on AI",
+      "summary": "The fundraise includes $1 billion for investing in early-stage startups, and $2. 5 billion for late-stage growth businesses.",
+      "content": "The fundraise includes $1 billion for investing in early-stage startups, and $2.5 billion for late-stage growth businesses.",
+      "source": "TechCrunch AI",
+      "author": "Marina Temkin",
+      "publishedAt": "2026-03-25T00:47:20.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/03/24/with-3-5b-in-fresh-capital-kleiner-perkins-is-going-all-in-on-ai/",
+      "readTime": 3,
+      "views": 23333
+    },
+    {
+      "id": "openai-s-sora-was-the-creepiest-app-on-your-phone-",
+      "title": "OpenAI’s Sora was the creepiest app on your phone &#8212; now it&#8217;s shutting down",
+      "summary": "Though the underlying Sora 2 video- and audio-generation model is scarily impressive, there was not sustained interest in an AI-only social feed.",
+      "content": "Though the underlying Sora 2 video- and audio-generation model is scarily impressive, there was not sustained interest in an AI-only social feed.",
+      "source": "TechCrunch AI",
+      "author": "Amanda Silberling",
+      "publishedAt": "2026-03-24T23:57:55.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/03/24/openais-sora-was-the-creepiest-app-on-your-phone-now-its-shutting-down/",
+      "readTime": 3,
+      "views": 28643
+    },
+    {
+      "id": "kentucky-woman-rejects-26m-offer-to-turn-her-farm-",
+      "title": "Kentucky woman rejects $26M offer to turn her farm into a data center",
+      "summary": "A \"major artificial intelligence company\" reportedly offered a Kentucky family $26 million to build a data center on their farm.",
+      "content": "A \"major artificial intelligence company\" reportedly offered a Kentucky family $26 million to build a data center on their farm.",
+      "source": "TechCrunch AI",
+      "author": "Graham Starr",
+      "publishedAt": "2026-03-24T22:22:57.000Z",
+      "category": "release",
+      "tags": [
+        "artificial intelligence"
+      ],
+      "url": "https://techcrunch.com/2026/03/24/kentucky-woman-rejects-26-million-offer-to-turn-her-farm-into-a-data-center/",
+      "readTime": 3,
+      "views": 37846
+    },
+    {
+      "id": "anthropic-hands-claude-code-more-control-but-keeps",
+      "title": "Anthropic hands Claude Code more control, but keeps it on a leash",
+      "summary": "Anthropic’s new auto mode for Claude Code lets AI execute tasks with fewer approvals, reflecting a broader shift toward more autonomous tools that balance speed with safety through built-in safeguards.",
+      "content": "Anthropic’s new auto mode for Claude Code lets AI execute tasks with fewer approvals, reflecting a broader shift toward more autonomous tools that balance speed with safety through built-in safeguards.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-03-24T21:00:30.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "anthropic",
+        "claude",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash/",
+      "readTime": 3,
+      "views": 51917
+    },
+    {
+      "id": "spotify-tests-new-tool-to-stop-ai-slop-from-being-",
+      "title": "Spotify tests new tool to stop AI slop from being attributed to real artists",
+      "summary": "The idea behind the new tool is to give artists more control over which tracks are associated with their name on Spotify.",
+      "content": "The idea behind the new tool is to give artists more control over which tracks are associated with their name on Spotify.",
+      "source": "TechCrunch AI",
+      "author": "Aisha Malik",
+      "publishedAt": "2026-03-24T20:56:25.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/03/24/spotify-tests-new-tool-to-stop-ai-slop-from-being-attributed-to-real-artists/",
+      "readTime": 3,
+      "views": 24124
+    },
+    {
+      "id": "databricks-bought-two-startups-to-underpin-its-new",
+      "title": "Databricks bought two startups to underpin its new AI security product",
+      "summary": "With an overflowing war chest from its recent $5 billion raise, Databricks is buying startups and looking for more.  It acquired Antimatter and SiftD.",
+      "content": "With an overflowing war chest from its recent $5 billion raise, Databricks is buying startups and looking for more. It acquired Antimatter and SiftD.ai.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2026-03-24T20:40:56.000Z",
+      "category": "partnership",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/03/24/databricks-buys-two-startups-lakewatch-antimatter-siftd-ai-security/",
+      "readTime": 3,
+      "views": 43213
+    },
+    {
+      "id": "openai-8217-s-plans-to-make-chatgpt-more-like-amaz",
+      "title": "OpenAI&#8217;s plans to make ChatGPT more like Amazon aren&#8217;t going so well",
+      "summary": "OpenAI says it's moving away from Instant Checkout, which allowed users to buy items directly through the ChatGPT interface.",
+      "content": "OpenAI says it's moving away from Instant Checkout, which allowed users to buy items directly through the ChatGPT interface.",
+      "source": "TechCrunch AI",
+      "author": "Lucas Ropek",
+      "publishedAt": "2026-03-24T19:27:56.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gpt",
+        "openai",
+        "chatgpt",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/03/24/openais-plans-to-make-chatgpt-more-like-amazon-arent-going-so-well/",
+      "readTime": 3,
+      "views": 27384
+    },
+    {
+      "id": "google-tv-8217-s-new-gemini-features-keep-fans-upd",
+      "title": "Google TV&#8217;s new Gemini features keep fans updated on sports teams and more",
+      "summary": "Three Gemini-powered features are coming to your Google TV.  This includes visual responses, deep dives, and sports briefs.",
+      "content": "Three Gemini-powered features are coming to your Google TV. This includes visual responses, deep dives, and sports briefs.",
+      "source": "TechCrunch AI",
+      "author": "Lauren Forristal",
+      "publishedAt": "2026-03-24T19:12:11.000Z",
+      "category": "release",
+      "tags": [
+        "gemini",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2026/03/24/google-tv-new-gemini-features-keep-fans-updated-on-sports-teams-deep-dives-visual-answers/",
+      "readTime": 3,
+      "views": 53783
+    },
+    {
+      "id": "openai-adds-open-source-tools-to-help-developers-b",
+      "title": "OpenAI adds open source tools to help developers build for teen safety",
+      "summary": "Rather than working from scratch to figure out how to make AI safer for teens, developers can use these policies to fortify what they build.",
+      "content": "Rather than working from scratch to figure out how to make AI safer for teens, developers can use these policies to fortify what they build.",
+      "source": "TechCrunch AI",
+      "author": "Amanda Silberling",
+      "publishedAt": "2026-03-24T18:41:34.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/03/24/openai-adds-open-source-tools-to-help-developers-build-for-teen-safety/",
+      "readTime": 3,
+      "views": 43062
+    },
+    {
+      "id": "talat-8217-s-ai-meeting-notes-stay-on-your-machine",
+      "title": "Talat&#8217;s AI meeting notes stay on your machine, not in the cloud",
+      "summary": "The subscription-free AI meeting notes app is a local-first twist on notetaking tools like Granola.",
+      "content": "The subscription-free AI meeting notes app is a local-first twist on notetaking tools like Granola.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-03-24T18:41:33.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/03/24/talats-ai-meeting-notes-stay-on-your-machine-not-in-the-cloud/",
+      "readTime": 3,
+      "views": 12166
+    },
+    {
+      "id": "doss-raises-55m-for-ai-inventory-management-that-p",
+      "title": "Doss raises $55M for AI inventory management that plugs into ERP",
+      "summary": "Doss's AI-powered inventory management system integrates with existing ERP systems.  The Series B round was co-led by Madrona and Premji Invest.",
+      "content": "Doss's AI-powered inventory management system integrates with existing ERP systems. The Series B round was co-led by Madrona and Premji Invest.",
+      "source": "TechCrunch AI",
+      "author": "Marina Temkin",
+      "publishedAt": "2026-03-24T17:18:29.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/03/24/doss-raises-55m-for-ai-inventory-management-that-plugs-into-erp/",
+      "readTime": 3,
+      "views": 38630
+    },
+    {
+      "id": "automating-complex-finance-workflows-with-multimod",
+      "title": "Automating complex finance workflows with multimodal AI",
+      "summary": "Finance leaders are automating their complex workflows by actively adopting powerful new multimodal AI frameworks.  Extracting text from unstructured documents presents a frequent headache for develop.",
+      "content": "Finance leaders are automating their complex workflows by actively adopting powerful new multimodal AI frameworks. Extracting text from unstructured documents presents a frequent headache for developers. Historically, standard optical character recognition systems failed to accurately digitise compl",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-03-24T17:03:48.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/automating-complex-finance-workflows-with-multimodal-ai/",
+      "readTime": 3,
+      "views": 25131
+    },
+    {
+      "id": "meet-the-former-apple-designer-building-a-new-ai-i",
+      "title": "Meet the former Apple designer building a new AI interface at Hark",
+      "summary": "The company said it would design models, hardware, and interfaces in tandem to deliver a \"seamless end-to-end personal intelligence product.",
+      "content": "The company said it would design models, hardware, and interfaces in tandem to deliver a \"seamless end-to-end personal intelligence product.\"",
+      "source": "TechCrunch AI",
+      "author": "Tim Fernholz",
+      "publishedAt": "2026-03-24T16:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "ml",
+        "Apple"
+      ],
+      "url": "https://techcrunch.com/2026/03/24/meet-the-former-apple-designer-building-a-new-ai-interface-at-hark/",
+      "readTime": 3,
+      "views": 46401
+    },
+    {
+      "id": "securing-ai-systems-under-today-8217-s-and-tomorro",
+      "title": "Securing AI systems under today&#8217;s and tomorrow&#8217;s conditions",
+      "summary": "Evidence cited in an eBook titled &#8220;AI Quantum Resilience&#8221;, published by Utimaco [email wall], shows organisations consider security risks as the leading barrier to effective adoption of AI.",
+      "content": "Evidence cited in an eBook titled &#8220;AI Quantum Resilience&#8221;, published by Utimaco [email wall], shows organisations consider security risks as the leading barrier to effective adoption of AI on data they hold. AI&#8217;s value depends on data amassed by an organisation. However, there are ",
+      "source": "AI News",
+      "author": "AI News",
+      "publishedAt": "2026-03-24T15:22:00.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/quantum-resilient-ai-needs-migration-and-hardware-protected-data-enclaves/",
+      "readTime": 3,
+      "views": 37676
+    },
+    {
       "id": "mirage-raises-75m-to-continue-building-models-for-",
-      "title": "Mirage raises $75M to continue building models for its AI video editing app Captions",
-      "summary": "Mirage, the maker of video editing app Captions, has raised $75 million in growth financing from General Catalyst's Customer Value Fund (CVF).",
-      "content": "Mirage, the maker of video editing app Captions, has raised $75 million in growth financing from General Catalyst's Customer Value Fund (CVF).",
+      "title": "Mirage raises $75M to continue building models for its AI video-editing app Captions",
+      "summary": "Mirage, the maker of video-editing app Captions, has raised $75 million in growth financing from General Catalyst's Customer Value Fund (CVF).",
+      "content": "Mirage, the maker of video-editing app Captions, has raised $75 million in growth financing from General Catalyst's Customer Value Fund (CVF).",
       "source": "TechCrunch AI",
       "author": "Ivan Mehta",
       "publishedAt": "2026-03-24T13:00:00.000Z",
@@ -14,7 +252,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/24/mirage-raises-75m-to-continue-building-models-for-its-ai-video-editing-app-captions/",
       "readTime": 3,
-      "views": 50004
+      "views": 54152
     },
     {
       "id": "agile-robots-becomes-the-latest-robotics-company-t",
@@ -32,7 +270,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/24/agile-robots-becomes-the-latest-robotics-company-to-partner-with-google-deepmind/",
       "readTime": 3,
-      "views": 14463
+      "views": 15893
     },
     {
       "id": "air-street-becomes-one-of-the-largest-solo-vcs-in-",
@@ -48,7 +286,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/23/air-street-becomes-one-of-the-largest-solo-vcs-in-europe-with-232m-fund/",
       "readTime": 3,
-      "views": 42046
+      "views": 22914
     },
     {
       "id": "bernie-sanders-8217-ai-8216-gotcha-8217-video-flop",
@@ -65,7 +303,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/23/bernie-sanders-ai-gotcha-video-flops-but-the-memes-are-great/",
       "readTime": 3,
-      "views": 52493
+      "views": 44437
     },
     {
       "id": "vibe-coding-startup-lovable-is-on-the-hunt-for-acq",
@@ -81,7 +319,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/23/vibe-coding-startup-lovable-is-on-the-hunt-for-acquisitions/",
       "readTime": 3,
-      "views": 34271
+      "views": 26383
     },
     {
       "id": "apple-sets-june-date-for-wwdc-2026-teasing-8216-ai",
@@ -98,259 +336,21 @@
       ],
       "url": "https://techcrunch.com/2026/03/23/apple-wwdc-june-8-12-ai-advancements-siri-developers-conference/",
       "readTime": 3,
-      "views": 35585
-    },
-    {
-      "id": "the-hardest-question-to-answer-about-ai-fueled-del",
-      "title": "The hardest question to answer about AI-fueled delusions",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI.  To get stories like this in your inbox first, sign up here.",
-      "content": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. I was originally going to write this week’s newsletter about AI and Iran, particularly the news we broke last Tuesday that the Pentagon is making plans for AI com",
-      "source": "MIT Technology Review AI",
-      "author": "James O'Donnell",
-      "publishedAt": "2026-03-23T16:31:20.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/03/23/1134527/the-hardest-question-to-answer-about-ai-fueled-delusions/",
-      "readTime": 3,
-      "views": 28737
-    },
-    {
-      "id": "startup-gimlet-labs-is-solving-the-ai-inference-bo",
-      "title": "Startup Gimlet Labs is solving the AI inference bottleneck in a surprisingly elegant way",
-      "summary": "Gimlet Labs just raised an $80 million Series A for tech that lets AI run across NVIDIA, AMD, Intel, ARM, Cerebras and d-Matrix chips, simultaneously.",
-      "content": "Gimlet Labs just raised an $80 million Series A for tech that lets AI run across NVIDIA, AMD, Intel, ARM, Cerebras and d-Matrix chips, simultaneously.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2026-03-23T16:00:00.000Z",
-      "category": "funding",
-      "tags": [
-        "ai",
-        "ml"
-      ],
-      "url": "https://techcrunch.com/2026/03/23/startup-gimlet-labs-is-solving-the-ai-inference-bottleneck-in-a-surprisingly-elegant-way/",
-      "readTime": 3,
-      "views": 5196
-    },
-    {
-      "id": "littlebird-raises-11m-for-its-ai-assisted-recall-t",
-      "title": "Littlebird raises $11M for its AI-assisted ‘recall’ tool that reads your computer screen",
-      "summary": "Littlebird is building an AI that reads your screen in real time to capture context, answer questions, and automate tasks, without relying on screenshots.",
-      "content": "Littlebird is building an AI that reads your screen in real time to capture context, answer questions, and automate tasks, without relying on screenshots.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-03-23T16:00:00.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/03/23/littlebird-raises-11m-to-capture-context-from-your-computer-so-you-can-query-your-data/",
-      "readTime": 3,
-      "views": 16531
-    },
-    {
-      "id": "elizabeth-warren-calls-pentagon-8217-s-decision-to",
-      "title": "Elizabeth Warren calls Pentagon&#8217;s decision to bar Anthropic &#8216;retaliation&#8217;",
-      "summary": "In a letter to Defense Secretary Pete Hegseth, Senator Elizabeth Warren (D-MA) equated the DOD's decision to label Anthropic a \"supply-chain risk\" as retaliation, arguing that the Pentagon could simpl.",
-      "content": "In a letter to Defense Secretary Pete Hegseth, Senator Elizabeth Warren (D-MA) equated the DOD's decision to label Anthropic a \"supply-chain risk\" as retaliation, arguing that the Pentagon could simply have terminated its contract with the AI lab.",
-      "source": "TechCrunch AI",
-      "author": "Ram Iyer",
-      "publishedAt": "2026-03-23T15:22:57.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/03/23/elizabeth-warren-anthropic-pentagon-defense-supply-chain-risk-retaliation/",
-      "readTime": 3,
-      "views": 5152
-    },
-    {
-      "id": "sam-altman-backed-fusion-startup-helion-in-talks-t",
-      "title": "Sam Altman-backed fusion startup Helion in talks to sell power to OpenAI",
-      "summary": "OpenAI CEO Sam Altman is stepping down as board chair of Helion.  His departure comes as reports that the two companies are negotiating a deal that would see Helion sell 12.",
-      "content": "OpenAI CEO Sam Altman is stepping down as board chair of Helion. His departure comes as reports that the two companies are negotiating a deal that would see Helion sell 12.5% of its power output to OpenAI.",
-      "source": "TechCrunch AI",
-      "author": "Tim De Chant",
-      "publishedAt": "2026-03-23T15:03:36.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/03/23/sam-altman-openai-fusion-energy-board-helion/",
-      "readTime": 3,
-      "views": 27371
-    },
-    {
-      "id": "palantir-ai-to-support-uk-finance-operations",
-      "title": "Palantir AI to support UK finance operations",
-      "summary": "UK authorities believe improving efficiency across national finance operations requires applying AI platforms from vendors like Palantir.  The country&#8217;s financial regulator, the FCA, has initiat.",
-      "content": "UK authorities believe improving efficiency across national finance operations requires applying AI platforms from vendors like Palantir. The country&#8217;s financial regulator, the FCA, has initiated a project leveraging AI to identify illicit activities. The FCA is currently testing the Foundry p",
-      "source": "AI News",
-      "author": "Ryan Daws",
-      "publishedAt": "2026-03-23T13:14:23.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/palantir-ai-to-support-uk-finance-operations/",
-      "readTime": 3,
-      "views": 30306
-    },
-    {
-      "id": "the-bay-area-s-animal-welfare-movement-wants-to-re",
-      "title": "The Bay Area’s animal welfare movement wants to recruit AI",
-      "summary": "In early February, animal welfare advocates and AI researchers gathered in stocking feet at Mox, a scrappy, shoes-free coworking space in San Francisco.  Yellow and red canopies billowed overhead, Per.",
-      "content": "In early February, animal welfare advocates and AI researchers gathered in stocking feet at Mox, a scrappy, shoes-free coworking space in San Francisco. Yellow and red canopies billowed overhead, Persian rugs blanketed the floor, and mosaic lamps glowed beside potted plants.&#160; In the common area",
-      "source": "MIT Technology Review AI",
-      "author": "Michelle Kim, Grace Huckins",
-      "publishedAt": "2026-03-23T09:00:00.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/03/23/1134491/the-bay-areas-animal-welfare-movement-wants-to-recruit-ai/",
-      "readTime": 3,
-      "views": 8294
-    },
-    {
-      "id": "cursor-admits-its-new-coding-model-was-built-on-to",
-      "title": "Cursor admits its new coding model was built on top of Moonshot AI’s Kimi",
-      "summary": "Building on top of a Chinese model feels particularly fraught right now.",
-      "content": "Building on top of a Chinese model feels particularly fraught right now.",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2026-03-22T18:41:09.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/03/22/cursor-admits-its-new-coding-model-was-built-on-top-of-moonshot-ais-kimi/",
-      "readTime": 3,
-      "views": 35436
-    },
-    {
-      "id": "an-exclusive-tour-of-amazon-8217-s-trainium-lab-th",
-      "title": "An exclusive tour of Amazon&#8217;s Trainium lab, the chip that&#8217;s won over Anthropic, OpenAI, even Apple",
-      "summary": "Shortly after Amazon  announced its $50 billion investment in OpenAI, AWS invited me on a private tour of the chip lab at the heart of the deal.",
-      "content": "Shortly after Amazon  announced its $50 billion investment in OpenAI, AWS invited me on a private tour of the chip lab at the heart of the deal.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2026-03-22T12:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "anthropic",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/03/22/an-exclusive-tour-of-amazons-trainium-lab-the-chip-thats-won-over-anthropic-openai-even-apple/",
-      "readTime": 3,
-      "views": 13709
-    },
-    {
-      "id": "are-ai-tokens-the-new-signing-bonus-or-just-a-cost",
-      "title": "Are AI tokens the new signing bonus or just a cost of doing business?",
-      "summary": "Maybe tokens really will become the fourth pillar of engineering compensation.  But engineers might want to hold the line before embracing this as a straightforward win.",
-      "content": "Maybe tokens really will become the fourth pillar of engineering compensation. But engineers might want to hold the line before embracing this as a straightforward win.",
-      "source": "TechCrunch AI",
-      "author": "Connie Loizos",
-      "publishedAt": "2026-03-22T06:20:43.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/03/21/are-ai-tokens-the-new-signing-bonus-or-just-a-cost-of-doing-business/",
-      "readTime": 3,
-      "views": 37570
-    },
-    {
-      "id": "publisher-pulls-horror-novel-shy-girl-over-ai-conc",
-      "title": "Publisher pulls horror novel ‘Shy Girl’ over AI concerns",
-      "summary": "Hachette Book Group said it will not be publishing “Shy Girl” over concerns that artificial intelligence was used to generate the text.",
-      "content": "Hachette Book Group said it will not be publishing “Shy Girl” over concerns that artificial intelligence was used to generate the text.",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2026-03-21T19:30:27.000Z",
-      "category": "release",
-      "tags": [
-        "artificial intelligence",
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/03/21/publisher-pulls-horror-novel-shy-girl-over-ai-concerns/",
-      "readTime": 3,
-      "views": 49662
-    },
-    {
-      "id": "why-wall-street-wasn-8217-t-won-over-by-nvidia-821",
-      "title": "Why Wall Street wasn&#8217;t won over by Nvidia&#8217;s big conference",
-      "summary": "Despite investor fears of an AI bubble, Nvidia's latest conference shows that most in the industry aren't concerned by that possibility.",
-      "content": "Despite investor fears of an AI bubble, Nvidia's latest conference shows that most in the industry aren't concerned by that possibility.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Szkutak",
-      "publishedAt": "2026-03-21T16:28:00.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/03/21/why-wall-street-wasnt-won-over-by-nvidias-big-conference/",
-      "readTime": 3,
-      "views": 14323
-    },
-    {
-      "id": "new-court-filing-reveals-pentagon-told-anthropic-t",
-      "title": "New court filing reveals Pentagon told Anthropic the two sides were nearly aligned — a week after Trump declared the relationship kaput",
-      "summary": "Anthropic submitted two sworn declarations to a California federal court late Friday afternoon, pushing back on the Pentagon's assertion that the AI company poses an \"unacceptable risk to national sec.",
-      "content": "Anthropic submitted two sworn declarations to a California federal court late Friday afternoon, pushing back on the Pentagon's assertion that the AI company poses an \"unacceptable risk to national security\" and arguing that the government's case relies on technical misunderstandings and claims that ",
-      "source": "TechCrunch AI",
-      "author": "Connie Loizos",
-      "publishedAt": "2026-03-21T01:40:28.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai",
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/03/20/new-court-filing-reveals-pentagon-told-anthropic-the-two-sides-were-nearly-aligned-a-week-after-trump-declared-the-relationship-kaput/",
-      "readTime": 3,
-      "views": 43440
-    },
-    {
-      "id": "microsoft-rolls-back-some-of-its-copilot-ai-bloat-",
-      "title": "Microsoft rolls back some of its Copilot AI bloat on Windows",
-      "summary": "The company is reducing Copilot entry points on Windows, starting with Photos, Widgets, Notepad, and other apps.",
-      "content": "The company is reducing Copilot entry points on Windows, starting with Photos, Widgets, Notepad, and other apps.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-03-20T20:53:09.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Microsoft"
-      ],
-      "url": "https://techcrunch.com/2026/03/20/microsoft-rolls-back-some-of-its-copilot-ai-bloat-on-windows/",
-      "readTime": 3,
-      "views": 26722
+      "views": 47677
     }
   ],
-  "lastUpdated": "2026-03-24T13:10:35.431Z",
+  "lastUpdated": "2026-03-25T02:07:46.753Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
     "TechCrunch AI",
-    "MIT Technology Review AI",
     "AI News"
   ],
   "categories": [
-    "funding",
-    "research",
-    "release",
     "market",
-    "regulation"
+    "release",
+    "partnership",
+    "funding",
+    "research"
   ]
 }
