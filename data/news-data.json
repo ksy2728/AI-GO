@@ -1,6 +1,73 @@
 {
   "articles": [
     {
+      "id": "anthropic-took-down-thousands-of-github-repos-tryi",
+      "title": "Anthropic took down thousands of GitHub repos trying to yank its leaked source code — a move the company says was an accident",
+      "summary": "Anthropic executives said it was an accident and retracted the bulk of the takedown notices.",
+      "content": "Anthropic executives said it was an accident and retracted the bulk of the takedown notices.",
+      "source": "TechCrunch AI",
+      "author": "Tim Fernholz",
+      "publishedAt": "2026-04-01T22:12:13.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/04/01/anthropic-took-down-thousands-of-github-repos-trying-to-yank-its-leaked-source-code-a-move-the-company-says-was-an-accident/",
+      "readTime": 3,
+      "views": 26878
+    },
+    {
+      "id": "meta-s-natural-gas-binge-could-power-south-dakota",
+      "title": "Meta’s natural gas binge could power South Dakota",
+      "summary": "Meta's upcoming Hyperion AI data center will be powered by 10 new natural gas plants.",
+      "content": "Meta's upcoming Hyperion AI data center will be powered by 10 new natural gas plants.",
+      "source": "TechCrunch AI",
+      "author": "Tim De Chant",
+      "publishedAt": "2026-04-01T18:35:36.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Meta"
+      ],
+      "url": "https://techcrunch.com/2026/04/01/metas-natural-gas-binge-could-power-south-dakota/",
+      "readTime": 3,
+      "views": 22864
+    },
+    {
+      "id": "cognichip-wants-ai-to-design-the-chips-that-power-",
+      "title": "Cognichip wants AI to design the chips that power AI, and just raised $60M to try",
+      "summary": "The firm says it can reduce the cost of chip development by more than 75% and cut the timeline by more than half.",
+      "content": "The firm says it can reduce the cost of chip development by more than 75% and cut the timeline by more than half.",
+      "source": "TechCrunch AI",
+      "author": "Tim Fernholz",
+      "publishedAt": "2026-04-01T16:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/04/01/cognichip-wants-ai-to-design-the-chips-that-power-ai-and-just-raised-60m-to-try/",
+      "readTime": 3,
+      "views": 5251
+    },
+    {
+      "id": "kpmg-inside-the-ai-agent-playbook-driving-enterpri",
+      "title": "KPMG: Inside the AI agent playbook driving enterprise margin gains",
+      "summary": "Global AI investment is accelerating, yet KPMG data shows the gap between enterprise AI spend and measurable business value is widening fast.  The headline figure from KPMG&#8217;s first quarterly Glo.",
+      "content": "Global AI investment is accelerating, yet KPMG data shows the gap between enterprise AI spend and measurable business value is widening fast. The headline figure from KPMG&#8217;s first quarterly Global AI Pulse survey is blunt: despite global organisations planning to spend a weighted average of $1",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-04-01T15:24:01.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/kpmg-inside-ai-agent-playbook-enterprise-margin-gains/",
+      "readTime": 3,
+      "views": 54248
+    },
+    {
       "id": "deepl-8217-s-borderless-business-report-reveals-83",
       "title": "DeepL&#8217;s Borderless Business report reveals 83% of enterprises are still behind on language AI",
       "summary": "AI is everywhere in the enterprise.  The translation workflow often is not.",
@@ -14,7 +81,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/deepls-borderless-business-report-reveals-83-of-enterprises-are-still-behind-on-language-ai/",
       "readTime": 3,
-      "views": 49072
+      "views": 9527
     },
     {
       "id": "the-gig-workers-who-are-training-humanoid-robots-a",
@@ -30,7 +97,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/04/01/1134863/humanoid-data-training-gig-economy-2026-breakthrough-technology/",
       "readTime": 3,
-      "views": 8718
+      "views": 50306
     },
     {
       "id": "hershey-applies-ai-across-its-supply-chain-operati",
@@ -47,11 +114,11 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/hershey-applies-ai-across-its-supply-chain-operations/",
       "readTime": 3,
-      "views": 37155
+      "views": 48233
     },
     {
       "id": "mercor-says-it-was-hit-by-cyberattack-tied-to-comp",
-      "title": "Mercor says it was hit by cyberattack tied to compromise of open-source LiteLLM project",
+      "title": "Mercor says it was hit by cyberattack tied to compromise of open source LiteLLM project",
       "summary": "The AI recruiting startup confirmed a security incident after an extortion hacking crew took credit for stealing data from the company's systems.",
       "content": "The AI recruiting startup confirmed a security incident after an extortion hacking crew took credit for stealing data from the company's systems.",
       "source": "TechCrunch AI",
@@ -64,7 +131,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/31/mercor-says-it-was-hit-by-cyberattack-tied-to-compromise-of-open-source-litellm-project/",
       "readTime": 3,
-      "views": 45000
+      "views": 36650
     },
     {
       "id": "anthropic-is-having-a-month",
@@ -81,7 +148,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/31/anthropic-is-having-a-month/",
       "readTime": 3,
-      "views": 31618
+      "views": 5551
     },
     {
       "id": "salesforce-announces-an-ai-heavy-makeover-for-slac",
@@ -97,7 +164,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features/",
       "readTime": 3,
-      "views": 6206
+      "views": 41663
     },
     {
       "id": "openai-not-yet-public-raises-3b-from-retail-invest",
@@ -115,7 +182,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/",
       "readTime": 3,
-      "views": 24080
+      "views": 14601
     },
     {
       "id": "yupp-shuts-down-after-raising-33m-from-a16z-crypto",
@@ -132,7 +199,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/",
       "readTime": 3,
-      "views": 9952
+      "views": 6251
     },
     {
       "id": "alexa-gets-new-food-ordering-experiences-with-uber",
@@ -148,7 +215,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/31/alexa-plus-new-food-ordering-experiences-with-uber-eats-and-grubhub/",
       "readTime": 3,
-      "views": 32750
+      "views": 18028
     },
     {
       "id": "sap-and-anybotics-drive-industrial-adoption-of-phy",
@@ -164,7 +231,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/sap-and-anybotics-drive-industrial-adoption-physical-ai/",
       "readTime": 3,
-      "views": 13342
+      "views": 49446
     },
     {
       "id": "nomadic-raises-8-4-million-to-wrangle-the-data-pou",
@@ -181,7 +248,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/31/nomadic-raises-8-4-million-to-wrangle-the-data-pouring-off-avs/",
       "readTime": 3,
-      "views": 20724
+      "views": 31657
     },
     {
       "id": "shifting-to-ai-model-customization-is-an-architect",
@@ -200,7 +267,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/03/31/1134762/shifting-to-ai-model-customization-is-an-architectural-imperative/",
       "readTime": 3,
-      "views": 10895
+      "views": 43173
     },
     {
       "id": "exclusive-runway-launches-10m-fund-builders-progra",
@@ -216,7 +283,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/31/exclusive-runway-launches-10m-fund-builders-program-to-support-early-stage-ai-startups/",
       "readTime": 3,
-      "views": 43208
+      "views": 42563
     },
     {
       "id": "with-its-new-app-store-ring-bets-on-ai-to-go-beyon",
@@ -232,7 +299,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/31/ring-app-store-bets-on-ai-to-go-beyond-home-security/",
       "readTime": 3,
-      "views": 43285
+      "views": 39949
     },
     {
       "id": "ai-benchmarks-are-broken-here-s-what-we-need-inste",
@@ -250,7 +317,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/03/31/1134833/ai-benchmarks-are-broken-heres-what-we-need-instead/",
       "readTime": 3,
-      "views": 31988
+      "views": 19881
     },
     {
       "id": "15-of-americans-say-they-8217-d-be-willing-to-work",
@@ -266,89 +333,21 @@
       ],
       "url": "https://techcrunch.com/2026/03/30/ai-work-boss-supervisor-us-quinnipiac-poll/",
       "readTime": 3,
-      "views": 53637
-    },
-    {
-      "id": "popular-ai-gateway-startup-litellm-ditches-controv",
-      "title": "Popular AI gateway startup LiteLLM ditches controversial startup Delve",
-      "summary": "LiteLLM had obtained two security compliance certifications via Delve and fell victim to some horrific credential-stealing malware last week.",
-      "content": "LiteLLM had obtained two security compliance certifications via Delve and fell victim to some horrific credential-stealing malware last week.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2026-03-30T23:08:12.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai",
-        "llm"
-      ],
-      "url": "https://techcrunch.com/2026/03/30/popular-ai-gateway-startup-litellm-ditches-controversial-startup-delve/",
-      "readTime": 3,
-      "views": 13608
-    },
-    {
-      "id": "as-more-americans-adopt-ai-tools-fewer-say-they-ca",
-      "title": "As more Americans adopt AI tools, fewer say they can trust the results",
-      "summary": "AI adoption is rising in the U. , but trust remains low, with most Americans concerned about transparency, regulation, and the technology’s broader societal impact, according to a new Quinnipiac poll.",
-      "content": "AI adoption is rising in the U.S., but trust remains low, with most Americans concerned about transparency, regulation, and the technology’s broader societal impact, according to a new Quinnipiac poll.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-03-30T20:24:53.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/03/30/ai-trust-adoption-poll-more-americans-adopt-tools-fewer-say-they-can-trust-the-results/",
-      "readTime": 3,
-      "views": 36104
-    },
-    {
-      "id": "there-are-more-ai-health-tools-than-ever-but-how-w",
-      "title": "There are more AI health tools than ever—but how well do they work?",
-      "summary": "Earlier this month, Microsoft launched Copilot Health, a new space within its Copilot app where users will be able to connect their medical records and ask specific questions about their health.  A co.",
-      "content": "Earlier this month, Microsoft launched Copilot Health, a new space within its Copilot app where users will be able to connect their medical records and ask specific questions about their health. A couple of days earlier, Amazon had announced that Health AI, an LLM-based tool previously restricted to",
-      "source": "MIT Technology Review AI",
-      "author": "Grace Huckins",
-      "publishedAt": "2026-03-30T16:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "llm",
-        "Microsoft"
-      ],
-      "url": "https://www.technologyreview.com/2026/03/30/1134795/there-are-more-ai-health-tools-than-ever-but-how-well-do-they-work/",
-      "readTime": 3,
-      "views": 9325
-    },
-    {
-      "id": "secure-governance-accelerates-financial-ai-revenue",
-      "title": "Secure governance accelerates financial AI revenue growth",
-      "summary": "Financial institutions are learning to deploy compliant AI solutions for greater revenue growth and market advantage.  For the better part of ten years, financial institutions viewed AI primarily as a.",
-      "content": "Financial institutions are learning to deploy compliant AI solutions for greater revenue growth and market advantage. For the better part of ten years, financial institutions viewed AI primarily as a mechanism for pure efficiency gains. During that era, quantitative teams programmed systems designed",
-      "source": "AI News",
-      "author": "Ryan Daws",
-      "publishedAt": "2026-03-30T15:54:58.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/secure-governance-accelerates-financial-ai-revenue-growth/",
-      "readTime": 3,
-      "views": 26720
+      "views": 42621
     }
   ],
-  "lastUpdated": "2026-04-01T13:20:50.821Z",
+  "lastUpdated": "2026-04-02T02:12:01.432Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
+    "TechCrunch AI",
     "AI News",
-    "MIT Technology Review AI",
-    "TechCrunch AI"
+    "MIT Technology Review AI"
   ],
   "categories": [
+    "release",
     "funding",
     "market",
-    "release",
-    "research",
-    "regulation"
+    "research"
   ]
 }
