@@ -1,6 +1,91 @@
 {
   "articles": [
     {
+      "id": "openai-acquires-tbpn-the-buzzy-founder-led-busines",
+      "title": "OpenAI acquires TBPN, the buzzy founder-led business talk show",
+      "summary": "TBPN, Silicon Valley's cult-favorite tech podcast, will operate independently, even as it's overseen by chief political operative Chris Lehane.",
+      "content": "TBPN, Silicon Valley's cult-favorite tech podcast, will operate independently, even as it's overseen by chief political operative Chris Lehane.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-04-02T19:21:00.000Z",
+      "category": "partnership",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/04/02/openai-acquires-tbpn-the-buzzy-founder-led-business-talk-show/",
+      "readTime": 3,
+      "views": 10405
+    },
+    {
+      "id": "microsoft-takes-on-ai-rivals-with-three-new-founda",
+      "title": "Microsoft takes on AI rivals with three new foundational models",
+      "summary": "MAI released models that can transcribe voice into text as well as generate audio and images after the group's formation six months ago.",
+      "content": "MAI released models that can transcribe voice into text as well as generate audio and images after the group's formation six months ago.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Szkutak",
+      "publishedAt": "2026-04-02T16:48:16.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Microsoft"
+      ],
+      "url": "https://techcrunch.com/2026/04/02/microsoft-takes-on-ai-rivals-with-three-new-foundational-models/",
+      "readTime": 3,
+      "views": 20811
+    },
+    {
+      "id": "kiloclaw-targets-shadow-ai-with-autonomous-agent-g",
+      "title": "KiloClaw targets shadow AI with autonomous agent governance",
+      "summary": "With the launch of KiloClaw, enterprises now have a tool to enforce governance over autonomous agents and manage shadow AI.  While businesses spent the last year securing large language models and for.",
+      "content": "With the launch of KiloClaw, enterprises now have a tool to enforce governance over autonomous agents and manage shadow AI. While businesses spent the last year securing large language models and formalising vendor agreements, developers and knowledge workers started moving on their own. Employees a",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-04-02T16:30:53.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "language model"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/kiloclaw-targets-shadow-ai-autonomous-agent-governance/",
+      "readTime": 3,
+      "views": 40789
+    },
+    {
+      "id": "5-best-practices-to-secure-ai-systems",
+      "title": "5 best practices to secure AI systems",
+      "summary": "A decade ago, it would have been hard to believe that artificial intelligence could do what it can do now.  However, it is this same power that introduces a new attack surface that traditional securit.",
+      "content": "A decade ago, it would have been hard to believe that artificial intelligence could do what it can do now. However, it is this same power that introduces a new attack surface that traditional security frameworks were not built to address. As this technology becomes embedded in critical operations, c",
+      "source": "AI News",
+      "author": "WebFX",
+      "publishedAt": "2026-04-02T14:45:03.000Z",
+      "category": "release",
+      "tags": [
+        "artificial intelligence",
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/5-best-practices-to-secure-ai-systems/",
+      "readTime": 3,
+      "views": 43069
+    },
+    {
+      "id": "china-8217-s-five-year-plan-details-the-targets-fo",
+      "title": "China&#8217;s Five-Year Plan details the targets for AI deployment",
+      "summary": "China has approved its 15th Five-Year Plan [PDF] setting out the country&#8217;s economic, education, social, and industrial priorities through to 2030.  As might be expected, there is a significant n.",
+      "content": "China has approved its 15th Five-Year Plan [PDF] setting out the country&#8217;s economic, education, social, and industrial priorities through to 2030. As might be expected, there is a significant number of references to AI, with the technology mentioned in several contexts. AI is grouped alongside",
+      "source": "AI News",
+      "author": "Joe Green",
+      "publishedAt": "2026-04-02T13:23:00.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/chinas-five-year-plan-details-the-targets-for-ai-deployment/",
+      "readTime": 3,
+      "views": 45864
+    },
+    {
       "id": "autonomous-ai-systems-depend-on-data-governance",
       "title": "Autonomous AI systems depend on data governance",
       "summary": "Much of the current focus on AI safety has centred on models – how they are trained and monitored.  But as systems become more autonomous, attention is changing toward the data those systems depend on.",
@@ -14,7 +99,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/autonomous-ai-systems-depend-on-data-governance/",
       "readTime": 3,
-      "views": 52919
+      "views": 21854
     },
     {
       "id": "experian-uncovers-fraud-paradox-in-financial-servi",
@@ -30,7 +115,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/experian-ai-fraud-detection-financial-services-2026/",
       "readTime": 3,
-      "views": 35859
+      "views": 24398
     },
     {
       "id": "anthropic-took-down-thousands-of-github-repos-tryi",
@@ -48,7 +133,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/01/anthropic-took-down-thousands-of-github-repos-trying-to-yank-its-leaked-source-code-a-move-the-company-says-was-an-accident/",
       "readTime": 3,
-      "views": 9921
+      "views": 12704
     },
     {
       "id": "meta-s-natural-gas-binge-could-power-south-dakota",
@@ -65,7 +150,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/01/metas-natural-gas-binge-could-power-south-dakota/",
       "readTime": 3,
-      "views": 49190
+      "views": 30401
     },
     {
       "id": "cognichip-wants-ai-to-design-the-chips-that-power-",
@@ -81,7 +166,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/01/cognichip-wants-ai-to-design-the-chips-that-power-ai-and-just-raised-60m-to-try/",
       "readTime": 3,
-      "views": 24393
+      "views": 24749
     },
     {
       "id": "kpmg-inside-the-ai-agent-playbook-driving-enterpri",
@@ -97,7 +182,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/kpmg-inside-ai-agent-playbook-enterprise-margin-gains/",
       "readTime": 3,
-      "views": 41848
+      "views": 23954
     },
     {
       "id": "deepl-8217-s-borderless-business-report-reveals-83",
@@ -113,7 +198,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/deepls-borderless-business-report-reveals-83-of-enterprises-are-still-behind-on-language-ai/",
       "readTime": 3,
-      "views": 34308
+      "views": 23756
     },
     {
       "id": "the-gig-workers-who-are-training-humanoid-robots-a",
@@ -129,7 +214,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/04/01/1134863/humanoid-data-training-gig-economy-2026-breakthrough-technology/",
       "readTime": 3,
-      "views": 52751
+      "views": 44874
     },
     {
       "id": "hershey-applies-ai-across-its-supply-chain-operati",
@@ -146,7 +231,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/hershey-applies-ai-across-its-supply-chain-operations/",
       "readTime": 3,
-      "views": 51240
+      "views": 54876
     },
     {
       "id": "mercor-says-it-was-hit-by-cyberattack-tied-to-comp",
@@ -163,7 +248,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/31/mercor-says-it-was-hit-by-cyberattack-tied-to-compromise-of-open-source-litellm-project/",
       "readTime": 3,
-      "views": 11772
+      "views": 22410
     },
     {
       "id": "anthropic-is-having-a-month",
@@ -180,7 +265,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/31/anthropic-is-having-a-month/",
       "readTime": 3,
-      "views": 19018
+      "views": 42813
     },
     {
       "id": "salesforce-announces-an-ai-heavy-makeover-for-slac",
@@ -196,7 +281,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features/",
       "readTime": 3,
-      "views": 43066
+      "views": 37356
     },
     {
       "id": "openai-not-yet-public-raises-3b-from-retail-invest",
@@ -214,7 +299,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/",
       "readTime": 3,
-      "views": 34482
+      "views": 49189
     },
     {
       "id": "yupp-shuts-down-after-raising-33m-from-a16z-crypto",
@@ -231,7 +316,7 @@
       ],
       "url": "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/",
       "readTime": 3,
-      "views": 13919
+      "views": 21710
     },
     {
       "id": "alexa-gets-new-food-ordering-experiences-with-uber",
@@ -247,105 +332,21 @@
       ],
       "url": "https://techcrunch.com/2026/03/31/alexa-plus-new-food-ordering-experiences-with-uber-eats-and-grubhub/",
       "readTime": 3,
-      "views": 53353
-    },
-    {
-      "id": "sap-and-anybotics-drive-industrial-adoption-of-phy",
-      "title": "SAP and ANYbotics drive industrial adoption of physical AI",
-      "summary": "Heavy industry relies on people to inspect hazardous, dirty facilities.  It’s expensive, and putting humans in these zones carries obvious safety risks.",
-      "content": "Heavy industry relies on people to inspect hazardous, dirty facilities. It’s expensive, and putting humans in these zones carries obvious safety risks. Swiss robot maker ANYbotics and software company SAP are trying to change that. ANYbotics’ four-legged autonomous robots will be connected straight ",
-      "source": "AI News",
-      "author": "Ryan Daws",
-      "publishedAt": "2026-03-31T15:20:53.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/sap-and-anybotics-drive-industrial-adoption-physical-ai/",
-      "readTime": 3,
-      "views": 41124
-    },
-    {
-      "id": "nomadic-raises-8-4-million-to-wrangle-the-data-pou",
-      "title": "Nomadic raises $8.4 million to wrangle the data pouring off autonomous vehicles",
-      "summary": "The company turns footage from robots into structured, searchable datasets with a deep learning model.",
-      "content": "The company turns footage from robots into structured, searchable datasets with a deep learning model.",
-      "source": "TechCrunch AI",
-      "author": "Tim Fernholz",
-      "publishedAt": "2026-03-31T15:00:00.000Z",
-      "category": "funding",
-      "tags": [
-        "ai",
-        "deep learning"
-      ],
-      "url": "https://techcrunch.com/2026/03/31/nomadic-raises-8-4-million-to-wrangle-the-data-pouring-off-avs/",
-      "readTime": 3,
-      "views": 7837
-    },
-    {
-      "id": "shifting-to-ai-model-customization-is-an-architect",
-      "title": "Shifting to AI model customization is an architectural imperative",
-      "summary": "In the early days of large language models (LLMs), we grew accustomed to massive 10x jumps in reasoning and coding capability with every new model iteration.  Today, those jumps have flattened into in.",
-      "content": "In the early days of large language models (LLMs), we grew accustomed to massive 10x jumps in reasoning and coding capability with every new model iteration. Today, those jumps have flattened into incremental gains. The exception is domain-specialized intelligence, where true step-function improveme",
-      "source": "MIT Technology Review AI",
-      "author": "Barry Conklin",
-      "publishedAt": "2026-03-31T14:12:50.000Z",
-      "category": "research",
-      "tags": [
-        "ai",
-        "llm",
-        "language model",
-        "ai model"
-      ],
-      "url": "https://www.technologyreview.com/2026/03/31/1134762/shifting-to-ai-model-customization-is-an-architectural-imperative/",
-      "readTime": 3,
-      "views": 29753
-    },
-    {
-      "id": "exclusive-runway-launches-10m-fund-builders-progra",
-      "title": "Exclusive: Runway launches $10M fund, Builders program to support early-stage AI startups",
-      "summary": "Runway is launching a $10 million fund and startup program to back companies building with its AI video models, as it pushes toward interactive, real-time “video intelligence” applications.",
-      "content": "Runway is launching a $10 million fund and startup program to back companies building with its AI video models, as it pushes toward interactive, real-time “video intelligence” applications.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-03-31T14:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/03/31/exclusive-runway-launches-10m-fund-builders-program-to-support-early-stage-ai-startups/",
-      "readTime": 3,
-      "views": 24657
-    },
-    {
-      "id": "with-its-new-app-store-ring-bets-on-ai-to-go-beyon",
-      "title": "With its new app store, Ring bets on AI to go beyond home security",
-      "summary": "Ring's app store will allow the company to target broader use cases beyond security, like elder care or business needs.",
-      "content": "Ring's app store will allow the company to target broader use cases beyond security, like elder care or business needs.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-03-31T13:00:00.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/03/31/ring-app-store-bets-on-ai-to-go-beyond-home-security/",
-      "readTime": 3,
-      "views": 46498
+      "views": 18713
     }
   ],
-  "lastUpdated": "2026-04-02T13:12:44.140Z",
+  "lastUpdated": "2026-04-03T02:13:20.765Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "AI News",
     "TechCrunch AI",
+    "AI News",
     "MIT Technology Review AI"
   ],
   "categories": [
-    "market",
+    "partnership",
     "release",
-    "funding",
-    "research"
+    "market",
+    "funding"
   ]
 }
