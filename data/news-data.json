@@ -1,6 +1,115 @@
 {
   "articles": [
     {
+      "id": "anthropic-is-having-a-moment-in-the-private-market",
+      "title": "Anthropic is having a moment in the private markets; SpaceX could spoil the party",
+      "summary": "Glen Anderson, president of Rainmaker Securities, says the secondary market for private shares has never been more active — with Anthropic the hottest trade around, OpenAI losing ground, and SpaceX's .",
+      "content": "Glen Anderson, president of Rainmaker Securities, says the secondary market for private shares has never been more active — with Anthropic the hottest trade around, OpenAI losing ground, and SpaceX's looming IPO poised to reshape the landscape for everyone.",
+      "source": "TechCrunch AI",
+      "author": "Connie Loizos",
+      "publishedAt": "2026-04-04T01:31:00.000Z",
+      "category": "funding",
+      "tags": [
+        "ai",
+        "openai",
+        "anthropic",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/04/03/anthropic-is-having-a-moment-in-the-private-markets-spacex-could-spoil-the-party/",
+      "readTime": 3,
+      "views": 45566
+    },
+    {
+      "id": "openai-executive-shuffle-includes-new-role-for-coo",
+      "title": "OpenAI executive shuffle includes new role for COO Brad Lightcap to lead &#8216;special projects&#8217;",
+      "summary": "In addition to Lightcap's new role, OpenAI CMO Kate Rouch will be stepping away from the company to focus on cancer recovery, with a plan to return when her health allows.",
+      "content": "In addition to Lightcap's new role, OpenAI CMO Kate Rouch will be stepping away from the company to focus on cancer recovery, with a plan to return when her health allows.",
+      "source": "TechCrunch AI",
+      "author": "Amanda Silberling",
+      "publishedAt": "2026-04-03T20:35:34.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/04/03/openai-executive-shuffle-new-roles-coo-brad-lightcap-fidji-simo-kate-rouch/",
+      "readTime": 3,
+      "views": 29644
+    },
+    {
+      "id": "anthropic-buys-biotech-startup-coefficient-bio-in-",
+      "title": "Anthropic buys biotech startup Coefficient Bio in $400M deal: Reports",
+      "summary": "Anthropic has purchased the stealth biotech AI startup Coefficient Bio in a $400 million stock deal, according to The Information and Eric Newcomer.",
+      "content": "Anthropic has purchased the stealth biotech AI startup Coefficient Bio in a $400 million stock deal, according to The Information and Eric Newcomer.",
+      "source": "TechCrunch AI",
+      "author": "Dominic-Madori Davis",
+      "publishedAt": "2026-04-03T20:28:40.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/04/03/anthropic-buys-biotech-startup-coefficient-bio-in-400m-deal-reports/",
+      "readTime": 3,
+      "views": 25070
+    },
+    {
+      "id": "anthropic-ramps-up-its-political-activities-with-a",
+      "title": "Anthropic ramps up its political activities with a new PAC",
+      "summary": "With the midterms right around the corner, the new group is positioned to back candidates who support the AI company's policy agenda.",
+      "content": "With the midterms right around the corner, the new group is positioned to back candidates who support the AI company's policy agenda.",
+      "source": "TechCrunch AI",
+      "author": "Lucas Ropek",
+      "publishedAt": "2026-04-03T20:22:18.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/04/03/anthropic-ramps-up-its-political-activities-with-a-new-pac/",
+      "readTime": 3,
+      "views": 49525
+    },
+    {
+      "id": "ai-companies-are-building-huge-natural-gas-plants-",
+      "title": "AI companies are building huge natural gas plants to power data centers. What could go wrong?",
+      "summary": "Meta, Microsoft, and Google are all betting big on new natural gas power plants to run their AI data centers.",
+      "content": "Meta, Microsoft, and Google are all betting big on new natural gas power plants to run their AI data centers. They may regret it.",
+      "source": "TechCrunch AI",
+      "author": "Tim De Chant",
+      "publishedAt": "2026-04-03T19:48:22.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Google",
+        "Microsoft",
+        "Meta"
+      ],
+      "url": "https://techcrunch.com/2026/04/03/ai-companies-are-building-huge-natural-gas-plants-to-power-data-centers-what-could-go-wrong/",
+      "readTime": 3,
+      "views": 38846
+    },
+    {
+      "id": "the-facebook-insider-building-content-moderation-f",
+      "title": "The Facebook insider building content moderation for the AI era",
+      "summary": "Moonbounce has raised $12 million to grow its AI control engine that converts content moderation policies into consistent, predictable AI behavior.",
+      "content": "Moonbounce has raised $12 million to grow its AI control engine that converts content moderation policies into consistent, predictable AI behavior.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-04-03T14:00:15.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/04/03/moonbounce-fundraise-content-moderation-for-the-ai-era/",
+      "readTime": 3,
+      "views": 11689
+    },
+    {
       "id": "openai-acquires-tbpn-the-buzzy-founder-led-busines",
       "title": "OpenAI acquires TBPN, the buzzy founder-led business talk show",
       "summary": "TBPN, Silicon Valley's cult-favorite tech podcast, will operate independently, even as it's overseen by chief political operative Chris Lehane.",
@@ -16,7 +125,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/02/openai-acquires-tbpn-the-buzzy-founder-led-business-talk-show/",
       "readTime": 3,
-      "views": 45598
+      "views": 38182
     },
     {
       "id": "microsoft-takes-on-ai-rivals-with-three-new-founda",
@@ -33,7 +142,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/02/microsoft-takes-on-ai-rivals-with-three-new-foundational-models/",
       "readTime": 3,
-      "views": 24887
+      "views": 10920
     },
     {
       "id": "kiloclaw-targets-shadow-ai-with-autonomous-agent-g",
@@ -50,7 +159,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/kiloclaw-targets-shadow-ai-autonomous-agent-governance/",
       "readTime": 3,
-      "views": 8064
+      "views": 13334
     },
     {
       "id": "5-best-practices-to-secure-ai-systems",
@@ -67,7 +176,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/5-best-practices-to-secure-ai-systems/",
       "readTime": 3,
-      "views": 27631
+      "views": 19471
     },
     {
       "id": "china-8217-s-five-year-plan-details-the-targets-fo",
@@ -83,7 +192,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/chinas-five-year-plan-details-the-targets-for-ai-deployment/",
       "readTime": 3,
-      "views": 5213
+      "views": 51136
     },
     {
       "id": "autonomous-ai-systems-depend-on-data-governance",
@@ -99,7 +208,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/autonomous-ai-systems-depend-on-data-governance/",
       "readTime": 3,
-      "views": 22590
+      "views": 54953
     },
     {
       "id": "experian-uncovers-fraud-paradox-in-financial-servi",
@@ -115,7 +224,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/experian-ai-fraud-detection-financial-services-2026/",
       "readTime": 3,
-      "views": 7683
+      "views": 12667
     },
     {
       "id": "anthropic-took-down-thousands-of-github-repos-tryi",
@@ -133,7 +242,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/01/anthropic-took-down-thousands-of-github-repos-trying-to-yank-its-leaked-source-code-a-move-the-company-says-was-an-accident/",
       "readTime": 3,
-      "views": 53556
+      "views": 37556
     },
     {
       "id": "meta-s-natural-gas-binge-could-power-south-dakota",
@@ -150,7 +259,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/01/metas-natural-gas-binge-could-power-south-dakota/",
       "readTime": 3,
-      "views": 42948
+      "views": 38926
     },
     {
       "id": "cognichip-wants-ai-to-design-the-chips-that-power-",
@@ -166,7 +275,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/01/cognichip-wants-ai-to-design-the-chips-that-power-ai-and-just-raised-60m-to-try/",
       "readTime": 3,
-      "views": 46674
+      "views": 37040
     },
     {
       "id": "kpmg-inside-the-ai-agent-playbook-driving-enterpri",
@@ -182,7 +291,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/kpmg-inside-ai-agent-playbook-enterprise-margin-gains/",
       "readTime": 3,
-      "views": 5433
+      "views": 8602
     },
     {
       "id": "deepl-8217-s-borderless-business-report-reveals-83",
@@ -198,7 +307,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/deepls-borderless-business-report-reveals-83-of-enterprises-are-still-behind-on-language-ai/",
       "readTime": 3,
-      "views": 36714
+      "views": 29345
     },
     {
       "id": "the-gig-workers-who-are-training-humanoid-robots-a",
@@ -214,7 +323,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/04/01/1134863/humanoid-data-training-gig-economy-2026-breakthrough-technology/",
       "readTime": 3,
-      "views": 23136
+      "views": 54886
     },
     {
       "id": "hershey-applies-ai-across-its-supply-chain-operati",
@@ -231,111 +340,10 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/hershey-applies-ai-across-its-supply-chain-operations/",
       "readTime": 3,
-      "views": 39284
-    },
-    {
-      "id": "mercor-says-it-was-hit-by-cyberattack-tied-to-comp",
-      "title": "Mercor says it was hit by cyberattack tied to compromise of open source LiteLLM project",
-      "summary": "The AI recruiting startup confirmed a security incident after an extortion hacking crew took credit for stealing data from the company's systems.",
-      "content": "The AI recruiting startup confirmed a security incident after an extortion hacking crew took credit for stealing data from the company's systems.",
-      "source": "TechCrunch AI",
-      "author": "Jagmeet Singh",
-      "publishedAt": "2026-04-01T01:42:59.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "llm"
-      ],
-      "url": "https://techcrunch.com/2026/03/31/mercor-says-it-was-hit-by-cyberattack-tied-to-compromise-of-open-source-litellm-project/",
-      "readTime": 3,
-      "views": 16520
-    },
-    {
-      "id": "anthropic-is-having-a-month",
-      "title": "Anthropic is having a month",
-      "summary": "A human really borks things at Anthropic for the second time this week.",
-      "content": "A human really borks things at Anthropic for the second time this week.",
-      "source": "TechCrunch AI",
-      "author": "Connie Loizos",
-      "publishedAt": "2026-03-31T23:58:26.000Z",
-      "category": "release",
-      "tags": [
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/03/31/anthropic-is-having-a-month/",
-      "readTime": 3,
-      "views": 8533
-    },
-    {
-      "id": "salesforce-announces-an-ai-heavy-makeover-for-slac",
-      "title": "Salesforce announces an AI-heavy makeover for Slack, with 30 new features",
-      "summary": "Slack just got a whole lot more useful.",
-      "content": "Slack just got a whole lot more useful.",
-      "source": "TechCrunch AI",
-      "author": "Lucas Ropek",
-      "publishedAt": "2026-03-31T22:46:25.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features/",
-      "readTime": 3,
-      "views": 48347
-    },
-    {
-      "id": "openai-not-yet-public-raises-3b-from-retail-invest",
-      "title": "OpenAI, not yet public, raises $3B from retail investors in monster $122B fund raise",
-      "summary": "OpenAI's latest funding round, led by Amazon, Nvidia, and SoftBank, values the AI lab at $852 billion as it nears an IPO.",
-      "content": "OpenAI's latest funding round, led by Amazon, Nvidia, and SoftBank, values the AI lab at $852 billion as it nears an IPO.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-03-31T21:25:04.000Z",
-      "category": "funding",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/",
-      "readTime": 3,
-      "views": 44840
-    },
-    {
-      "id": "yupp-shuts-down-after-raising-33m-from-a16z-crypto",
-      "title": "Yupp shuts down after raising $33M from a16z crypto&#8217;s Chris Dixon",
-      "summary": "Less than a year after launching, with checks from some of the biggest names in Silicon Valley, crowdsourced AI model feedback startup Yupp is closing its business, the company said Tuesday.",
-      "content": "Less than a year after launching, with checks from some of the biggest names in Silicon Valley, crowdsourced AI model feedback startup Yupp is closing its business, the company said Tuesday.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2026-03-31T20:01:07.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "ai model"
-      ],
-      "url": "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/",
-      "readTime": 3,
-      "views": 6232
-    },
-    {
-      "id": "alexa-gets-new-food-ordering-experiences-with-uber",
-      "title": "Alexa+ gets new food ordering experiences with Uber Eats and Grubhub",
-      "summary": "You can now order from Uber Eats and Grubhub using Alexa+, an experience Amazon says will be similar to chatting with a waiter at a restaurant or placing an order at a drive-thru.",
-      "content": "You can now order from Uber Eats and Grubhub using Alexa+, an experience Amazon says will be similar to chatting with a waiter at a restaurant or placing an order at a drive-thru.",
-      "source": "TechCrunch AI",
-      "author": "Lauren Forristal",
-      "publishedAt": "2026-03-31T17:41:35.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/03/31/alexa-plus-new-food-ordering-experiences-with-uber-eats-and-grubhub/",
-      "readTime": 3,
-      "views": 45795
+      "views": 6660
     }
   ],
-  "lastUpdated": "2026-04-03T13:02:31.626Z",
+  "lastUpdated": "2026-04-04T02:06:29.382Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -344,9 +352,10 @@
     "MIT Technology Review AI"
   ],
   "categories": [
-    "partnership",
+    "funding",
     "release",
-    "market",
-    "funding"
+    "regulation",
+    "partnership",
+    "market"
   ]
 }
