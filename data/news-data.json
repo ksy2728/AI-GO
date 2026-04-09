@@ -1,6 +1,143 @@
 {
   "articles": [
     {
+      "id": "poke-makes-using-ai-agents-as-easy-as-sending-a-te",
+      "title": "Poke makes using AI agents as easy as sending a text",
+      "summary": "Poke brings AI agents to everyday users via text message by handling tasks and automations without complex setup, apps, or technical know-how.",
+      "content": "Poke brings AI agents to everyday users via text message by handling tasks and automations without complex setup, apps, or technical know-how.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-04-08T21:05:13.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "automation"
+      ],
+      "url": "https://techcrunch.com/2026/04/08/poke-makes-ai-agents-as-easy-as-sending-a-text/",
+      "readTime": 3,
+      "views": 44338
+    },
+    {
+      "id": "aws-boss-explains-why-investing-billions-in-both-a",
+      "title": "AWS boss explains why investing billions in both Anthropic and OpenAI is an OK conflict",
+      "summary": "AWS has an ingrained culture of handling competition, he explained, because the cloud giant also competes with its partners.",
+      "content": "AWS has an ingrained culture of handling competition, he explained, because the cloud giant also competes with its partners.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2026-04-08T20:09:14.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "openai",
+        "anthropic",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/04/08/aws-boss-explains-why-investing-billions-in-both-anthropic-and-openai-is-an-ok-conflict/",
+      "readTime": 3,
+      "views": 31079
+    },
+    {
+      "id": "tubi-is-the-first-streamer-to-launch-a-native-app-",
+      "title": "Tubi is the first streamer to launch a native app within ChatGPT",
+      "summary": "Tubi becomes the first streaming service to offer an app integration within ChatGPT, the AI chatbot that millions of users turn to for answers.",
+      "content": "Tubi becomes the first streaming service to offer an app integration within ChatGPT, the AI chatbot that millions of users turn to for answers.",
+      "source": "TechCrunch AI",
+      "author": "Lauren Forristal",
+      "publishedAt": "2026-04-08T18:23:06.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gpt",
+        "chatgpt"
+      ],
+      "url": "https://techcrunch.com/2026/04/08/tubi-is-the-first-streamer-to-launch-a-native-app-within-chatgpt/",
+      "readTime": 3,
+      "views": 24886
+    },
+    {
+      "id": "astropad-8217-s-workbench-reimagines-remote-deskto",
+      "title": "Astropad&#8217;s Workbench reimagines remote desktop for AI agents, not IT support",
+      "summary": "Astropad’s Workbench lets users remotely monitor and control AI agents on Mac Minis from iPhone or iPad, with low-latency streaming and mobile access.",
+      "content": "Astropad’s Workbench lets users remotely monitor and control AI agents on Mac Minis from iPhone or iPad, with low-latency streaming and mobile access.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-04-08T16:01:09.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/04/08/astropads-workbench-reimagines-remote-desktop-for-ai-agents-not-it-support/",
+      "readTime": 3,
+      "views": 36050
+    },
+    {
+      "id": "openai-releases-a-new-safety-blueprint-to-address-",
+      "title": "OpenAI releases a new safety blueprint to address the rise in child sexual exploitation",
+      "summary": "OpenAI's new Child Safety Blueprint aims to tackle the alarming rise in child sexual exploitation linked to advancements in AI.",
+      "content": "OpenAI's new Child Safety Blueprint aims to tackle the alarming rise in child sexual exploitation linked to advancements in AI.",
+      "source": "TechCrunch AI",
+      "author": "Lauren Forristal",
+      "publishedAt": "2026-04-08T15:23:44.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/04/08/openai-releases-a-new-safety-blueprint-to-address-the-rise-in-child-sexual-exploitation/",
+      "readTime": 3,
+      "views": 36869
+    },
+    {
+      "id": "databricks-co-founder-wins-prestigious-acm-award-s",
+      "title": "Databricks co-founder wins prestigious ACM award, says &#8216;AGI is here already&#8217;",
+      "summary": "Matei Zaharia has won the top honor from the Association for Computing Machinery.  Now he's working on AI for research and says AGI is simply misunderstood.",
+      "content": "Matei Zaharia has won the top honor from the Association for Computing Machinery. Now he's working on AI for research and says AGI is simply misunderstood.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2026-04-08T15:00:00.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/04/08/databricks-matei-zaharia-wins-acm-computing-prize-agi/",
+      "readTime": 3,
+      "views": 36712
+    },
+    {
+      "id": "mustafa-suleyman-ai-development-won-t-hit-a-wall-a",
+      "title": "Mustafa Suleyman: AI development won’t hit a wall anytime soon—here’s why",
+      "summary": "We evolved for a linear world.  If you walk for an hour, you cover a certain distance.",
+      "content": "We evolved for a linear world. If you walk for an hour, you cover a certain distance. Walk for two hours and you cover double that distance. This intuition served us well on the savannah. But it catastrophically fails when confronting AI and the core exponential trends at its heart. From the time I ",
+      "source": "MIT Technology Review AI",
+      "author": "Mustafa Suleyman",
+      "publishedAt": "2026-04-08T14:00:00.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/04/08/1135398/mustafa-suleyman-ai-future/",
+      "readTime": 3,
+      "views": 36112
+    },
+    {
+      "id": "atlassian-launches-visual-ai-tools-and-third-party",
+      "title": "Atlassian launches visual AI tools and third-party agents in Confluence",
+      "summary": "Confluence users can now create visual assets within the software in addition to new third-party agents working with Lovable, Replit, and Gamma.",
+      "content": "Confluence users can now create visual assets within the software in addition to new third-party agents working with Lovable, Replit, and Gamma.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Szkutak",
+      "publishedAt": "2026-04-08T13:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/04/08/atlassian-confluence-visual-ai-tools-agents/",
+      "readTime": 3,
+      "views": 15426
+    },
+    {
       "id": "ai-8217-s-software-development-success-and-central",
       "title": "AI&#8217;s software development success and central management needs",
       "summary": "A survey carried out by OutSystems, The State of AI Development 2026 [email wall], argues that AI has moved into early production phase for many enterprises, primarily inside the IT function.  The sur.",
@@ -14,7 +151,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/ai-workflows-developer-success-and-central-project-management-needs/",
       "readTime": 3,
-      "views": 13522
+      "views": 40732
     },
     {
       "id": "microsoft-open-source-toolkit-secures-ai-agents-at",
@@ -32,7 +169,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/microsoft-open-source-toolkit-secures-ai-agents-at-runtime/",
       "readTime": 3,
-      "views": 26352
+      "views": 34343
     },
     {
       "id": "google-quietly-launched-an-ai-dictation-app-that-w",
@@ -50,7 +187,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/07/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
       "readTime": 3,
-      "views": 37967
+      "views": 19514
     },
     {
       "id": "i-can-8217-t-help-rooting-for-tiny-open-source-ai-",
@@ -68,7 +205,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/07/i-cant-help-rooting-for-tiny-open-source-ai-model-maker-arcee/",
       "readTime": 3,
-      "views": 8838
+      "views": 36934
     },
     {
       "id": "firmus-the-8216-southgate-8217-ai-data-center-buil",
@@ -84,7 +221,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/07/firmus-the-southgate-ai-datacenter-builder-backed-by-nvidia-hits-5-5b-valuation/",
       "readTime": 3,
-      "views": 41547
+      "views": 11941
     },
     {
       "id": "anthropic-debuts-preview-of-powerful-new-ai-model-",
@@ -103,7 +240,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/",
       "readTime": 3,
-      "views": 8590
+      "views": 6956
     },
     {
       "id": "uber-is-the-latest-to-be-won-over-by-amazon-8217-s",
@@ -120,7 +257,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/07/uber-is-the-latest-to-be-won-over-by-amazons-ai-chips/",
       "readTime": 3,
-      "views": 31154
+      "views": 44027
     },
     {
       "id": "anthropic-ups-compute-deal-with-google-and-broadco",
@@ -138,7 +275,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/07/anthropic-compute-deal-google-broadcom-tpus/",
       "readTime": 3,
-      "views": 23772
+      "views": 54733
     },
     {
       "id": "google-maps-can-now-write-captions-for-your-photos",
@@ -156,7 +293,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/07/google-maps-can-now-write-captions-for-your-photos-using-ai/",
       "readTime": 3,
-      "views": 6823
+      "views": 14089
     },
     {
       "id": "asylon-and-thrive-logic-bring-physical-ai-to-enter",
@@ -173,7 +310,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/physical-ai-security-at-the-enterprise-perimeter-takes-a-step-closer/",
       "readTime": 3,
-      "views": 38432
+      "views": 32421
     },
     {
       "id": "enabling-agent-first-process-redesign",
@@ -189,7 +326,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/04/07/1134966/enabling-agent-first-process-redesign/",
       "readTime": 3,
-      "views": 15330
+      "views": 32554
     },
     {
       "id": "the-ai-gold-rush-is-pulling-private-wealth-into-ri",
@@ -205,160 +342,22 @@
       ],
       "url": "https://techcrunch.com/2026/04/07/the-ai-gold-rush-is-pulling-private-wealth-into-riskier-earlier-bets/",
       "readTime": 3,
-      "views": 48016
-    },
-    {
-      "id": "boomi-calls-it-8220-data-activation-8221-and-says-",
-      "title": "Boomi calls it &#8220;data activation&#8221; and says it&#8217;s the missing step in every AI deployment",
-      "summary": "The failure mode for enterprise AI in 2026 is not what most people expected.  It is not that the models are wrong, or that agents cannot reason, or that the technology is overhyped.",
-      "content": "The failure mode for enterprise AI in 2026 is not what most people expected. It is not that the models are wrong, or that agents cannot reason, or that the technology is overhyped. The failure mode is that the data feeding those systems is fragmented, inconsistently labelled, and spread across dozen",
-      "source": "AI News",
-      "author": "Dashveenjit Kaur",
-      "publishedAt": "2026-04-07T12:00:00.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/boomi-agentic-ai-data-activation-missing-step/",
-      "readTime": 3,
-      "views": 34748
-    },
-    {
-      "id": "anthropic-8217-s-refusal-to-arm-ai-is-exactly-why-",
-      "title": "Anthropic&#8217;s refusal to arm AI is exactly why the UK wants it",
-      "summary": "The Anthropic UK expansion story is less about diplomatic courtship and more about what happens when a government punishes a company for having principles.  In late February, US Defence Secretary Pete.",
-      "content": "The Anthropic UK expansion story is less about diplomatic courtship and more about what happens when a government punishes a company for having principles. In late February, US Defence Secretary Pete Hegseth gave Anthropic CEO Dario Amodei a stark ultimatum: remove guardrails preventing Claude from ",
-      "source": "AI News",
-      "author": "Dashveenjit Kaur",
-      "publishedAt": "2026-04-07T10:00:00.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai",
-        "anthropic",
-        "claude",
-        "Anthropic"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/anthropic-uk-expansion-london-pentagon/",
-      "readTime": 3,
-      "views": 51302
-    },
-    {
-      "id": "ai-startup-rocket-offers-vibe-mckinsey-style-repor",
-      "title": "AI startup Rocket offers vibe McKinsey-style reports at a fraction of the cost",
-      "summary": "Rocket's new AI platform combines strategy, product building, and competitive intelligence, aiming to move beyond code generation.",
-      "content": "Rocket's new AI platform combines strategy, product building, and competitive intelligence, aiming to move beyond code generation.",
-      "source": "TechCrunch AI",
-      "author": "Jagmeet Singh",
-      "publishedAt": "2026-04-07T05:30:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/04/06/indian-startup-rocket-wants-its-ai-to-do-mckinsey-style-consulting-at-a-fraction-of-the-cost/",
-      "readTime": 3,
-      "views": 16444
-    },
-    {
-      "id": "openai-alums-have-been-quietly-investing-from-a-ne",
-      "title": "OpenAI alums have been quietly investing from a new, potentially $100M fund",
-      "summary": "Zero Shot, a new venture capital fund with deep ties to OpenAI, is aiming to raise $100 million for its first fund.  It has already written some checks.",
-      "content": "Zero Shot, a new venture capital fund with deep ties to OpenAI, is aiming to raise $100 million for its first fund. It has already written some checks.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2026-04-06T21:54:26.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/04/06/openai-alums-have-been-quietly-investing-from-a-new-potentially-100m-fund/",
-      "readTime": 3,
-      "views": 17619
-    },
-    {
-      "id": "iran-threatens-8216-stargate-8217-ai-data-centers",
-      "title": "Iran threatens &#8216;Stargate&#8217; AI data centers",
-      "summary": "Iran said it will target U. -linked data centers with new missile strikes, as the war between the U.",
-      "content": "Iran said it will target U.S.-linked data centers with new missile strikes, as the war between the U.S. and Iran escalates.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Szkutak",
-      "publishedAt": "2026-04-06T18:06:28.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/04/06/iran-threatens-stargate-ai-data-centers/",
-      "readTime": 3,
-      "views": 19881
-    },
-    {
-      "id": "the-one-piece-of-data-that-could-actually-shed-lig",
-      "title": "The one piece of data that could actually shed light on your job and AI",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI.  To get stories like this in your inbox first, sign up here.",
-      "content": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Within Silicon Valley’s orbit, an AI-fueled jobs apocalypse is spoken about as a given. The mood is so grim that a societal impacts researcher at Anthropic, respo",
-      "source": "MIT Technology Review AI",
-      "author": "James O'Donnell",
-      "publishedAt": "2026-04-06T16:33:35.000Z",
-      "category": "research",
-      "tags": [
-        "ai",
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://www.technologyreview.com/2026/04/06/1135187/the-one-piece-of-data-that-could-actually-shed-light-on-your-job-and-ai/",
-      "readTime": 3,
-      "views": 45277
-    },
-    {
-      "id": "openai-s-vision-for-the-ai-economy-public-wealth-f",
-      "title": "OpenAI’s vision for the AI economy: public wealth funds, robot taxes, and a four-day workweek",
-      "summary": "OpenAI proposes taxes on AI profits, public wealth funds, and expanded safety nets to address job loss and inequality, blending redistribution with capitalism as policymakers debate AI’s economic impa.",
-      "content": "OpenAI proposes taxes on AI profits, public wealth funds, and expanded safety nets to address job loss and inequality, blending redistribution with capitalism as policymakers debate AI’s economic impact.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-04-06T15:55:55.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/",
-      "readTime": 3,
-      "views": 9784
-    },
-    {
-      "id": "how-to-use-the-new-chatgpt-app-integrations-includ",
-      "title": "How to use the new ChatGPT app integrations, including DoorDash, Spotify, Uber, and others",
-      "summary": "Learn how to use Spotify, Canva, Figma, Expedia, and other apps directly in ChatGPT.",
-      "content": "Learn how to use Spotify, Canva, Figma, Expedia, and other apps directly in ChatGPT.",
-      "source": "TechCrunch AI",
-      "author": "Lauren Forristal",
-      "publishedAt": "2026-04-06T14:11:42.000Z",
-      "category": "release",
-      "tags": [
-        "gpt",
-        "chatgpt"
-      ],
-      "url": "https://techcrunch.com/2026/04/06/how-to-use-chatgpt-apps-doordash-spotify-uber/",
-      "readTime": 3,
-      "views": 43172
+      "views": 43339
     }
   ],
-  "lastUpdated": "2026-04-08T13:18:58.518Z",
+  "lastUpdated": "2026-04-09T02:11:30.410Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "AI News",
     "TechCrunch AI",
-    "MIT Technology Review AI"
+    "MIT Technology Review AI",
+    "AI News"
   ],
   "categories": [
-    "market",
     "release",
+    "market",
+    "research",
     "regulation",
-    "funding",
-    "research"
+    "funding"
   ]
 }
