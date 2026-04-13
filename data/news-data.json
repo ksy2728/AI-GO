@@ -1,6 +1,60 @@
 {
   "articles": [
     {
+      "id": "trump-officials-may-be-encouraging-banks-to-test-a",
+      "title": "Trump officials may be encouraging banks to test Anthropic’s Mythos model",
+      "summary": "The report is particularly surprising since the Department of Defense recently declared Anthropic a supply-chain risk.",
+      "content": "The report is particularly surprising since the Department of Defense recently declared Anthropic a supply-chain risk.",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "publishedAt": "2026-04-12T21:14:38.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/04/12/trump-officials-may-be-encouraging-banks-to-test-anthropics-mythos-model/",
+      "readTime": 3,
+      "views": 11330
+    },
+    {
+      "id": "from-llms-to-hallucinations-here-8217-s-a-simple-g",
+      "title": "From LLMs to hallucinations, here&#8217;s a simple guide to common AI terms",
+      "summary": "The rise of AI has brought an avalanche of new terms and slang.  Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+      "content": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+      "source": "TechCrunch AI",
+      "author": "Natasha Lomas, Romain Dillet, Kyle Wiggers, Lucas Ropek",
+      "publishedAt": "2026-04-12T15:07:08.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "llm"
+      ],
+      "url": "https://techcrunch.com/2026/04/12/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "readTime": 3,
+      "views": 20996
+    },
+    {
+      "id": "at-the-humanx-conference-everyone-was-talking-abou",
+      "title": "At the HumanX conference, everyone was talking about Claude",
+      "summary": "Anthropic was the star of the show at San Francisco's AI-centric conference.",
+      "content": "Anthropic was the star of the show at San Francisco's AI-centric conference.",
+      "source": "TechCrunch AI",
+      "author": "Lucas Ropek",
+      "publishedAt": "2026-04-12T15:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "anthropic",
+        "claude",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/",
+      "readTime": 3,
+      "views": 54472
+    },
+    {
       "id": "sam-altman-responds-to-incendiary-new-yorker-artic",
       "title": "Sam Altman responds to ‘incendiary’ New Yorker article after attack on his home",
       "summary": "The OpenAI CEO's new blog post responds to both an apparent attack on his home and an in-depth New Yorker profile raising questions about his trustworthiness.",
@@ -16,7 +70,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/11/sam-altman-responds-to-incendiary-new-yorker-article-after-attack-on-his-home/",
       "readTime": 3,
-      "views": 51089
+      "views": 33907
     },
     {
       "id": "anthropic-temporarily-banned-openclaw-8217-s-creat",
@@ -34,7 +88,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/10/anthropic-temporarily-banned-openclaws-creator-from-accessing-claude/",
       "readTime": 3,
-      "views": 24933
+      "views": 15159
     },
     {
       "id": "stalking-victim-sues-openai-claims-chatgpt-fueled-",
@@ -54,7 +108,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/10/stalking-victim-sues-openai-claims-chatgpt-fueled-her-abusers-delusions-and-ignored-her-warnings/",
       "readTime": 3,
-      "views": 20302
+      "views": 41107
     },
     {
       "id": "techcrunch-is-heading-to-tokyo-and-bringing-the-st",
@@ -71,7 +125,58 @@
       ],
       "url": "https://techcrunch.com/2026/04/10/techcrunch-is-heading-to-tokyo-and-bringing-the-startup-battlefield-with-it/",
       "readTime": 3,
-      "views": 24656
+      "views": 42785
+    },
+    {
+      "id": "ibm-how-robust-ai-governance-protects-enterprise-m",
+      "title": "IBM: How robust AI governance protects enterprise margins",
+      "summary": "To protect enterprise margins, business leaders must invest in robust AI governance to securely manage AI infrastructure.  When evaluating enterprise software adoption, a recurring pattern dictates ho.",
+      "content": "To protect enterprise margins, business leaders must invest in robust AI governance to securely manage AI infrastructure. When evaluating enterprise software adoption, a recurring pattern dictates how technology matures across industries. As Rob Thomas, SVP and CCO at IBM, recently outlined, softwar",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-04-10T13:57:15.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/ibm-how-robust-ai-governance-protects-enterprise-margins/",
+      "readTime": 3,
+      "views": 37643
+    },
+    {
+      "id": "why-companies-like-apple-are-building-ai-agents-wi",
+      "title": "Why companies like Apple are building AI agents with limits",
+      "summary": "Next-generation AI assistants being developed in the Apple ecosystem and by chipmakers like Qualcomm, but early reports suggest they are being designed with limits in place.  Tom&#8217;s Guide has des.",
+      "content": "Next-generation AI assistants being developed in the Apple ecosystem and by chipmakers like Qualcomm, but early reports suggest they are being designed with limits in place. Tom&#8217;s Guide has described early versions of these assistants as capable of navigating apps, carrying out bookings, and m",
+      "source": "AI News",
+      "author": "Muhammad Zulhusni",
+      "publishedAt": "2026-04-10T10:00:00.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "Apple"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/why-companies-like-apple-are-building-ai-agents-with-limits/",
+      "readTime": 3,
+      "views": 53084
+    },
+    {
+      "id": "meta-has-a-competitive-ai-model-but-loses-its-open",
+      "title": "Meta has a competitive AI model but loses its open-source identity",
+      "summary": "The open-source AI movement has never lacked for options.  Mistral, Falcon, and a growing field of open-weight models have been available to developers for years.",
+      "content": "The open-source AI movement has never lacked for options. Mistral, Falcon, and a growing field of open-weight models have been available to developers for years. But when Meta threw its weight behind Llama, something shifted. A company with three billion users, vast compute resources, and the credib",
+      "source": "AI News",
+      "author": "Dashveenjit Kaur",
+      "publishedAt": "2026-04-10T08:00:00.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "ai model",
+        "Meta"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/meta-muse-spark-ai-model-open-source/",
+      "readTime": 3,
+      "views": 42771
     },
     {
       "id": "chatgpt-finally-offers-100-month-pro-plan",
@@ -91,7 +196,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/09/chatgpt-pro-plan-100-month-codex/",
       "readTime": 3,
-      "views": 52956
+      "views": 16402
     },
     {
       "id": "florida-ag-announces-investigation-into-openai-ove",
@@ -111,7 +216,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/09/florida-ag-investigation-openai-chatgpt-shooting/",
       "readTime": 3,
-      "views": 35572
+      "views": 54490
     },
     {
       "id": "meta-ai-app-climbs-to-no-5-on-the-app-store-after-",
@@ -128,7 +233,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/09/meta-ai-app-climbs-to-no-5-on-the-app-store-after-muse-spark-launch/",
       "readTime": 3,
-      "views": 50435
+      "views": 20710
     },
     {
       "id": "is-anthropic-limiting-the-release-of-mythos-to-pro",
@@ -146,7 +251,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/09/is-anthropic-limiting-the-release-of-mythos-to-protect-the-internet-or-anthropic/",
       "readTime": 3,
-      "views": 46508
+      "views": 51932
     },
     {
       "id": "google-and-intel-deepen-ai-infrastructure-partners",
@@ -163,7 +268,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/09/google-and-intel-deepen-ai-infrastructure-partnership/",
       "readTime": 3,
-      "views": 46674
+      "views": 8381
     },
     {
       "id": "sierra-8217-s-bret-taylor-says-the-era-of-clicking",
@@ -179,7 +284,23 @@
       ],
       "url": "https://techcrunch.com/2026/04/09/sierras-bret-taylor-says-the-era-of-clicking-buttons-is-over/",
       "readTime": 3,
-      "views": 32403
+      "views": 52108
+    },
+    {
+      "id": "agentic-ai-8217-s-governance-challenges-under-the-",
+      "title": "Agentic AI&#8217;s governance challenges under the EU AI Act in 2026",
+      "summary": "AI agents hold the promise of automatically moving data between systems and triggering decisions, but in some cases, they can act without a clear record of what, when, and why they undertook their tas.",
+      "content": "AI agents hold the promise of automatically moving data between systems and triggering decisions, but in some cases, they can act without a clear record of what, when, and why they undertook their tasks. That has the potential to create a governance problem, for which IT leaders are ultimately respo",
+      "source": "AI News",
+      "author": "Joe Green",
+      "publishedAt": "2026-04-09T15:02:00.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/agentic-ais-governance-challenges-under-the-eu-ai-act-in-2026/",
+      "readTime": 3,
+      "views": 9275
     },
     {
       "id": "amazon-ceo-takes-aim-at-nvidia-intel-starlink-more",
@@ -195,7 +316,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/09/amazon-ceo-takes-aim-at-nvidia-intel-starlink-more-in-annual-shareholder-letter/",
       "readTime": 3,
-      "views": 54178
+      "views": 11074
     },
     {
       "id": "final-2-days-to-save-up-to-500-on-your-techcrunch-",
@@ -211,158 +332,39 @@
       ],
       "url": "https://techcrunch.com/2026/04/09/final-2-days-to-save-up-to-500-on-your-techcrunch-disrupt-2026-ticket/",
       "readTime": 3,
-      "views": 46991
+      "views": 10775
     },
     {
-      "id": "poke-makes-using-ai-agents-as-easy-as-sending-a-te",
-      "title": "Poke makes using AI agents as easy as sending a text",
-      "summary": "Poke brings AI agents to everyday users via text message by handling tasks and automations without complex setup, apps, or technical know-how.",
-      "content": "Poke brings AI agents to everyday users via text message by handling tasks and automations without complex setup, apps, or technical know-how.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-04-08T21:05:13.000Z",
+      "id": "anthropic-keeps-new-ai-model-private-after-it-find",
+      "title": "Anthropic keeps new AI model private after it finds thousands of external vulnerabilities",
+      "summary": "Anthropic&#8217;s most capable AI model has already found thousands of AI cybersecurity vulnerabilities across every major operating system and web browser.  The company&#8217;s response was not to re.",
+      "content": "Anthropic&#8217;s most capable AI model has already found thousands of AI cybersecurity vulnerabilities across every major operating system and web browser. The company&#8217;s response was not to release it, but to quietly hand it to the organisations responsible for keeping the internet running. T",
+      "source": "AI News",
+      "author": "Dashveenjit Kaur",
+      "publishedAt": "2026-04-09T12:00:00.000Z",
       "category": "release",
-      "tags": [
-        "ai",
-        "automation"
-      ],
-      "url": "https://techcrunch.com/2026/04/08/poke-makes-ai-agents-as-easy-as-sending-a-text/",
-      "readTime": 3,
-      "views": 6493
-    },
-    {
-      "id": "aws-boss-explains-why-investing-billions-in-both-a",
-      "title": "AWS boss explains why investing billions in both Anthropic and OpenAI is an OK conflict",
-      "summary": "AWS has an ingrained culture of handling competition, he explained, because the cloud giant also competes with its partners.",
-      "content": "AWS has an ingrained culture of handling competition, he explained, because the cloud giant also competes with its partners.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2026-04-08T20:09:14.000Z",
-      "category": "market",
-      "tags": [
-        "ai",
-        "openai",
-        "anthropic",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/04/08/aws-boss-explains-why-investing-billions-in-both-anthropic-and-openai-is-an-ok-conflict/",
-      "readTime": 3,
-      "views": 32830
-    },
-    {
-      "id": "tubi-is-the-first-streamer-to-launch-a-native-app-",
-      "title": "Tubi is the first streamer to launch a native app within ChatGPT",
-      "summary": "Tubi becomes the first streaming service to offer an app integration within ChatGPT, the AI chatbot that millions of users turn to for answers.",
-      "content": "Tubi becomes the first streaming service to offer an app integration within ChatGPT, the AI chatbot that millions of users turn to for answers.",
-      "source": "TechCrunch AI",
-      "author": "Lauren Forristal",
-      "publishedAt": "2026-04-08T18:23:06.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gpt",
-        "chatgpt"
-      ],
-      "url": "https://techcrunch.com/2026/04/08/tubi-is-the-first-streamer-to-launch-a-native-app-within-chatgpt/",
-      "readTime": 3,
-      "views": 10112
-    },
-    {
-      "id": "astropad-8217-s-workbench-reimagines-remote-deskto",
-      "title": "Astropad&#8217;s Workbench reimagines remote desktop for AI agents, not IT support",
-      "summary": "Astropad’s Workbench lets users remotely monitor and control AI agents on Mac Minis from iPhone or iPad, with low-latency streaming and mobile access.",
-      "content": "Astropad’s Workbench lets users remotely monitor and control AI agents on Mac Minis from iPhone or iPad, with low-latency streaming and mobile access.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-04-08T16:01:09.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/04/08/astropads-workbench-reimagines-remote-desktop-for-ai-agents-not-it-support/",
-      "readTime": 3,
-      "views": 31955
-    },
-    {
-      "id": "mustafa-suleyman-ai-development-won-t-hit-a-wall-a",
-      "title": "Mustafa Suleyman: AI development won’t hit a wall anytime soon—here’s why",
-      "summary": "We evolved for a linear world.  If you walk for an hour, you cover a certain distance.",
-      "content": "We evolved for a linear world. If you walk for an hour, you cover a certain distance. Walk for two hours and you cover double that distance. This intuition served us well on the savannah. But it catastrophically fails when confronting AI and the core exponential trends at its heart. From the time I ",
-      "source": "MIT Technology Review AI",
-      "author": "Mustafa Suleyman",
-      "publishedAt": "2026-04-08T14:00:00.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/04/08/1135398/mustafa-suleyman-ai-future/",
-      "readTime": 3,
-      "views": 16593
-    },
-    {
-      "id": "enabling-agent-first-process-redesign",
-      "title": "Enabling agent-first process redesign",
-      "summary": "Unlike static, rules-based systems, AI agents can learn, adapt, and optimize processes dynamically.  As they interact with data, systems, people, and other agents in real time, AI agents can execute e.",
-      "content": "Unlike static, rules-based systems, AI agents can learn, adapt, and optimize processes dynamically. As they interact with data, systems, people, and other agents in real time, AI agents can execute entire workflows autonomously. But unlocking their potential requires redesigning processes around age",
-      "source": "MIT Technology Review AI",
-      "author": "MIT Technology Review Insights",
-      "publishedAt": "2026-04-07T14:00:00.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/04/07/1134966/enabling-agent-first-process-redesign/",
-      "readTime": 3,
-      "views": 24972
-    },
-    {
-      "id": "the-one-piece-of-data-that-could-actually-shed-lig",
-      "title": "The one piece of data that could actually shed light on your job and AI",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI.  To get stories like this in your inbox first,&#160;sign up here.",
-      "content": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Within Silicon Valley’s orbit, an AI-fueled jobs apocalypse is spoken about as a given. The mood is so grim that a societal impacts researcher at Anthropic, ",
-      "source": "MIT Technology Review AI",
-      "author": "James O'Donnell",
-      "publishedAt": "2026-04-06T16:33:35.000Z",
-      "category": "research",
       "tags": [
         "ai",
         "anthropic",
+        "ai model",
         "Anthropic"
       ],
-      "url": "https://www.technologyreview.com/2026/04/06/1135187/the-one-piece-of-data-that-could-actually-shed-light-on-your-job-and-ai/",
+      "url": "https://www.artificialintelligence-news.com/news/anthropic-keeps-new-ai-model-private-after-it-finds-thousands-of-external-vulnerabilities/",
       "readTime": 3,
-      "views": 54318
-    },
-    {
-      "id": "ai-is-changing-how-small-online-sellers-decide-wha",
-      "title": "AI is changing how small online sellers decide what to make",
-      "summary": "For years Mike McClary sold the Guardian LTE Flashlight, a heavy-duty black model, online through his small outdoor brand.  The product, designed for brightness and durability, became one of his most .",
-      "content": "For years Mike McClary sold the Guardian LTE Flashlight, a heavy-duty black model, online through his small outdoor brand. The product, designed for brightness and durability, became one of his most popular items ever. Even after he stopped offering it around 2017, customers kept sending him emails ",
-      "source": "MIT Technology Review AI",
-      "author": "Caiwei Chen",
-      "publishedAt": "2026-04-06T11:00:00.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/04/06/1135118/ai-online-seller-alibaba-accio/",
-      "readTime": 3,
-      "views": 45330
+      "views": 26908
     }
   ],
-  "lastUpdated": "2026-04-12T13:00:15.760Z",
+  "lastUpdated": "2026-04-13T02:37:37.854Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
     "TechCrunch AI",
-    "MIT Technology Review AI"
+    "AI News"
   ],
   "categories": [
     "release",
     "regulation",
-    "partnership",
     "market",
-    "research"
+    "partnership"
   ]
 }
