@@ -1,6 +1,76 @@
 {
   "articles": [
     {
+      "id": "openai-has-bought-ai-personal-finance-startup-hiro",
+      "title": "OpenAI has bought AI personal finance startup Hiro",
+      "summary": "The acquisition indicates a capability that OpenAI is building into ChatGPT: financial planning.",
+      "content": "The acquisition indicates a capability that OpenAI is building into ChatGPT: financial planning.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2026-04-14T00:23:33.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gpt",
+        "openai",
+        "chatgpt",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/04/13/openai-has-bought-ai-personal-finance-startup-hiro/",
+      "readTime": 3,
+      "views": 48122
+    },
+    {
+      "id": "stanford-report-highlights-growing-disconnect-betw",
+      "title": "Stanford report highlights growing disconnect between AI insiders and everyone else",
+      "summary": "Stanford’s latest AI Index shows a widening gap between experts and the public, with rising anxiety over jobs, healthcare, and the economy.",
+      "content": "Stanford’s latest AI Index shows a widening gap between experts and the public, with rising anxiety over jobs, healthcare, and the economy.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-04-13T18:55:37.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/04/13/stanford-report-highlights-growing-disconnect-between-ai-insiders-and-everyone-else/",
+      "readTime": 3,
+      "views": 17816
+    },
+    {
+      "id": "why-opinion-on-ai-is-so-divided",
+      "title": "Why opinion on AI is so divided",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI.  To get stories like this in your inbox first, sign up here.",
+      "content": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. In an industry that doesn’t stand still, Stanford’s AI Index, an annual roundup of key results and trends, is a chance to take a breath. (It’s a marathon, not a s",
+      "source": "MIT Technology Review AI",
+      "author": "Will Douglas Heaven",
+      "publishedAt": "2026-04-13T15:48:28.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/04/13/1135720/why-opinion-on-ai-is-so-divided/",
+      "readTime": 3,
+      "views": 44751
+    },
+    {
+      "id": "vercel-ceo-guillermo-rauch-signals-ipo-readiness-a",
+      "title": "Vercel CEO Guillermo Rauch signals IPO readiness as AI agents fuel revenue surge",
+      "summary": "While many startups founded prior to the emergence of ChatGPT are struggling to position themselves for the AI era, Vercel, a 10-year-old dev tool and website hosting platform, is benefiting from the .",
+      "content": "While many startups founded prior to the emergence of ChatGPT are struggling to position themselves for the AI era, Vercel, a 10-year-old dev tool and website hosting platform, is benefiting from the explosion of AI-generated apps and agents.",
+      "source": "TechCrunch AI",
+      "author": "Marina Temkin",
+      "publishedAt": "2026-04-13T15:22:29.000Z",
+      "category": "funding",
+      "tags": [
+        "ai",
+        "gpt",
+        "chatgpt"
+      ],
+      "url": "https://techcrunch.com/2026/04/13/vercel-ceo-guillermo-rauch-signals-ipo-readiness-as-ai-agents-fuel-revenue-surge/",
+      "readTime": 3,
+      "views": 30304
+    },
+    {
       "id": "strengthening-enterprise-governance-for-rising-edg",
       "title": "Strengthening enterprise governance for rising edge AI workloads",
       "summary": "Models like Google Gemma 4 are increasing enterprise AI governance challenges for CISOs as they scramble to secure edge workloads.  Security chiefs have built massive digital walls around the cloud; d.",
@@ -15,7 +85,24 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/strengthening-enterprise-governance-for-rising-edge-ai-workloads/",
       "readTime": 3,
-      "views": 34189
+      "views": 17485
+    },
+    {
+      "id": "want-to-understand-the-current-state-of-ai-check-o",
+      "title": "Want to understand the current state of AI? Check out these charts.",
+      "summary": "If you’re following AI news, you’re probably getting whiplash.  AI is taking your job.",
+      "content": "If you’re following AI news, you’re probably getting whiplash. AI is a gold rush. AI is a bubble. AI is taking your job. AI can’t even read a clock. The 2026 AI Index from Stanford University’s Institute for Human-Centered Artificial Intelligence, AI’s annual report card, comes out today and cuts th",
+      "source": "MIT Technology Review AI",
+      "author": "Michelle Kim",
+      "publishedAt": "2026-04-13T13:00:00.000Z",
+      "category": "research",
+      "tags": [
+        "artificial intelligence",
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/04/13/1135675/want-to-understand-the-current-state-of-ai-check-out-these-charts/",
+      "readTime": 3,
+      "views": 50827
     },
     {
       "id": "companies-expand-ai-adoption-while-keeping-control",
@@ -31,7 +118,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/companies-expand-ai-adoption-while-keeping-control/",
       "readTime": 3,
-      "views": 50473
+      "views": 37658
     },
     {
       "id": "trump-officials-may-be-encouraging-banks-to-test-a",
@@ -49,7 +136,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/12/trump-officials-may-be-encouraging-banks-to-test-anthropics-mythos-model/",
       "readTime": 3,
-      "views": 23563
+      "views": 24493
     },
     {
       "id": "from-llms-to-hallucinations-here-8217-s-a-simple-g",
@@ -66,7 +153,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/12/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
       "readTime": 3,
-      "views": 47665
+      "views": 39135
     },
     {
       "id": "at-the-humanx-conference-everyone-was-talking-abou",
@@ -85,7 +172,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/",
       "readTime": 3,
-      "views": 7107
+      "views": 24383
     },
     {
       "id": "sam-altman-responds-to-incendiary-new-yorker-artic",
@@ -103,7 +190,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/11/sam-altman-responds-to-incendiary-new-yorker-article-after-attack-on-his-home/",
       "readTime": 3,
-      "views": 22124
+      "views": 44554
     },
     {
       "id": "anthropic-temporarily-banned-openclaw-8217-s-creat",
@@ -121,7 +208,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/10/anthropic-temporarily-banned-openclaws-creator-from-accessing-claude/",
       "readTime": 3,
-      "views": 7944
+      "views": 18221
     },
     {
       "id": "stalking-victim-sues-openai-claims-chatgpt-fueled-",
@@ -141,7 +228,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/10/stalking-victim-sues-openai-claims-chatgpt-fueled-her-abusers-delusions-and-ignored-her-warnings/",
       "readTime": 3,
-      "views": 26297
+      "views": 8054
     },
     {
       "id": "techcrunch-is-heading-to-tokyo-and-bringing-the-st",
@@ -158,7 +245,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/10/techcrunch-is-heading-to-tokyo-and-bringing-the-startup-battlefield-with-it/",
       "readTime": 3,
-      "views": 48843
+      "views": 43171
     },
     {
       "id": "ibm-how-robust-ai-governance-protects-enterprise-m",
@@ -174,7 +261,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/ibm-how-robust-ai-governance-protects-enterprise-margins/",
       "readTime": 3,
-      "views": 23098
+      "views": 49315
     },
     {
       "id": "why-companies-like-apple-are-building-ai-agents-wi",
@@ -191,7 +278,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/why-companies-like-apple-are-building-ai-agents-with-limits/",
       "readTime": 3,
-      "views": 11773
+      "views": 41502
     },
     {
       "id": "meta-has-a-competitive-ai-model-but-loses-its-open",
@@ -209,7 +296,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/meta-muse-spark-ai-model-open-source/",
       "readTime": 3,
-      "views": 52524
+      "views": 5555
     },
     {
       "id": "chatgpt-finally-offers-100-month-pro-plan",
@@ -229,7 +316,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/09/chatgpt-pro-plan-100-month-codex/",
       "readTime": 3,
-      "views": 41313
+      "views": 48095
     },
     {
       "id": "florida-ag-announces-investigation-into-openai-ove",
@@ -249,7 +336,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/09/florida-ag-investigation-openai-chatgpt-shooting/",
       "readTime": 3,
-      "views": 24987
+      "views": 5840
     },
     {
       "id": "meta-ai-app-climbs-to-no-5-on-the-app-store-after-",
@@ -266,103 +353,22 @@
       ],
       "url": "https://techcrunch.com/2026/04/09/meta-ai-app-climbs-to-no-5-on-the-app-store-after-muse-spark-launch/",
       "readTime": 3,
-      "views": 25743
-    },
-    {
-      "id": "is-anthropic-limiting-the-release-of-mythos-to-pro",
-      "title": "Is Anthropic limiting the release of Mythos to protect the internet — or Anthropic?",
-      "summary": "Anthropic said this week that it limited the release of its newest model, dubbed Mythos, because it is too capable of finding security exploits in software relied upon by users around the world.  Are .",
-      "content": "Anthropic said this week that it limited the release of its newest model, dubbed Mythos, because it is too capable of finding security exploits in software relied upon by users around the world. Are real cybersecurity concerns a cover for a bigger problem at the frontier lab?",
-      "source": "TechCrunch AI",
-      "author": "Tim Fernholz",
-      "publishedAt": "2026-04-09T18:50:05.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/04/09/is-anthropic-limiting-the-release-of-mythos-to-protect-the-internet-or-anthropic/",
-      "readTime": 3,
-      "views": 44606
-    },
-    {
-      "id": "google-and-intel-deepen-ai-infrastructure-partners",
-      "title": "Google and Intel deepen AI infrastructure partnership",
-      "summary": "The two tech giants are looking to co-develop custom chips, at a time when demand for CPUs is high due to a growing global shortage.",
-      "content": "The two tech giants are looking to co-develop custom chips, at a time when demand for CPUs is high due to a growing global shortage.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Szkutak",
-      "publishedAt": "2026-04-09T18:27:47.000Z",
-      "category": "partnership",
-      "tags": [
-        "ai",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/04/09/google-and-intel-deepen-ai-infrastructure-partnership/",
-      "readTime": 3,
-      "views": 9095
-    },
-    {
-      "id": "sierra-8217-s-bret-taylor-says-the-era-of-clicking",
-      "title": "Sierra&#8217;s Bret Taylor says the era of clicking buttons is over",
-      "summary": "Last month, Sierra launched Ghostwriter, an agent designed to build other agents.  With this “agent as a service” tool, the startup intends to replace traditional click-based web applications with nat.",
-      "content": "Last month, Sierra launched Ghostwriter, an agent designed to build other agents. With this “agent as a service” tool, the startup intends to replace traditional click-based web applications with natural language. Users simply describe what they need, prompting Ghostwriter to autonomously create and",
-      "source": "TechCrunch AI",
-      "author": "Marina Temkin",
-      "publishedAt": "2026-04-09T17:20:50.000Z",
-      "category": "release",
-      "tags": [
-        "natural language"
-      ],
-      "url": "https://techcrunch.com/2026/04/09/sierras-bret-taylor-says-the-era-of-clicking-buttons-is-over/",
-      "readTime": 3,
-      "views": 46482
-    },
-    {
-      "id": "agentic-ai-8217-s-governance-challenges-under-the-",
-      "title": "Agentic AI&#8217;s governance challenges under the EU AI Act in 2026",
-      "summary": "AI agents hold the promise of automatically moving data between systems and triggering decisions, but in some cases, they can act without a clear record of what, when, and why they undertook their tas.",
-      "content": "AI agents hold the promise of automatically moving data between systems and triggering decisions, but in some cases, they can act without a clear record of what, when, and why they undertook their tasks. That has the potential to create a governance problem, for which IT leaders are ultimately respo",
-      "source": "AI News",
-      "author": "Joe Green",
-      "publishedAt": "2026-04-09T15:02:00.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/agentic-ais-governance-challenges-under-the-eu-ai-act-in-2026/",
-      "readTime": 3,
-      "views": 30781
-    },
-    {
-      "id": "amazon-ceo-takes-aim-at-nvidia-intel-starlink-more",
-      "title": "Amazon CEO takes aim at Nvidia, Intel, Starlink, more in annual shareholder letter",
-      "summary": "Andy Jassy's annual shareholder letter reads something like a diss track to a wide range of competitors as he defends spending $200 billion in capex.",
-      "content": "Andy Jassy's annual shareholder letter reads something like a diss track to a wide range of competitors as he defends spending $200 billion in capex.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2026-04-09T14:27:57.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/04/09/amazon-ceo-takes-aim-at-nvidia-intel-starlink-more-in-annual-shareholder-letter/",
-      "readTime": 3,
-      "views": 13610
+      "views": 24917
     }
   ],
-  "lastUpdated": "2026-04-13T13:24:45.161Z",
+  "lastUpdated": "2026-04-14T02:31:14.097Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "AI News",
-    "TechCrunch AI"
+    "TechCrunch AI",
+    "MIT Technology Review AI",
+    "AI News"
   ],
   "categories": [
-    "market",
     "release",
-    "regulation",
-    "partnership"
+    "market",
+    "funding",
+    "research",
+    "regulation"
   ]
 }
