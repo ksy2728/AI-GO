@@ -1,6 +1,41 @@
 {
   "articles": [
     {
+      "id": "nvidia-and-google-infrastructure-cuts-ai-inference",
+      "title": "NVIDIA and Google infrastructure cuts AI inference costs",
+      "summary": "At the Google Cloud Next conference, Google and NVIDIA outlined their hardware roadmap designed to address the cost of AI inference at scale.  The companies detailed the new A5X bare-metal instances, .",
+      "content": "At the Google Cloud Next conference, Google and NVIDIA outlined their hardware roadmap designed to address the cost of AI inference at scale. The companies detailed the new A5X bare-metal instances, which run on NVIDIA Vera Rubin NVL72 rack-scale systems. Through hardware and software codesign, this",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-04-23T12:19:36.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "Google",
+        "Meta"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/nvidia-and-google-infrastructure-cuts-ai-inference-costs/",
+      "readTime": 3,
+      "views": 30911
+    },
+    {
+      "id": "sony-ai-robot-beats-players-as-humanoid-robot-wins",
+      "title": "Sony AI robot beats players as humanoid robot wins Beijing race",
+      "summary": "An autonomous table tennis robot developed by Sony AI has competed against and defeated high-level human players in regulated matches, according to Reuters.  The system is part of a broader category o.",
+      "content": "An autonomous table tennis robot developed by Sony AI has competed against and defeated high-level human players in regulated matches, according to Reuters. The system is part of a broader category often referred to as &#8220;physical AI,&#8221; where artificial intelligence is applied to machines o",
+      "source": "AI News",
+      "author": "Muhammad Zulhusni",
+      "publishedAt": "2026-04-23T10:00:00.000Z",
+      "category": "market",
+      "tags": [
+        "artificial intelligence",
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/sony-ai-robot-table-tennis-humanoid-robot-beijing-race/",
+      "readTime": 3,
+      "views": 52233
+    },
+    {
       "id": "india-8217-s-app-market-is-booming-but-global-plat",
       "title": "India&#8217;s app market is booming — but global platforms are capturing most of the gains",
       "summary": "Non-gaming apps, led by streaming and AI, are driving growth, even as India's spending per user lags global peers.",
@@ -14,7 +49,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/22/indias-app-market-is-booming-but-global-platforms-are-capturing-most-of-the-gains/",
       "readTime": 3,
-      "views": 54917
+      "views": 38174
     },
     {
       "id": "tesla-just-increased-its-spending-plan-to-25b-here",
@@ -30,7 +65,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/22/tesla-just-increased-its-capex-to-25b-heres-where-the-money-is-going/",
       "readTime": 3,
-      "views": 17194
+      "views": 5811
     },
     {
       "id": "google-updates-workspace-to-make-ai-your-new-offic",
@@ -47,7 +82,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/22/google-updates-workspace-to-make-ai-your-new-office-intern/",
       "readTime": 3,
-      "views": 32073
+      "views": 31800
     },
     {
       "id": "hands-on-with-x-8217-s-new-ai-powered-custom-feeds",
@@ -63,7 +98,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/22/hands-on-with-xs-new-ai-powered-custom-feeds/",
       "readTime": 3,
-      "views": 48847
+      "views": 19963
     },
     {
       "id": "how-spacex-preempted-a-2b-fundraise-with-a-60b-buy",
@@ -79,7 +114,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/22/how-spacex-preempted-a-2b-fundraise-with-a-60b-buyout-offer/",
       "readTime": 3,
-      "views": 47113
+      "views": 21778
     },
     {
       "id": "google-cloud-launches-two-new-ai-chips-to-compete-",
@@ -96,7 +131,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/22/google-cloud-next-new-tpu-ai-chips-compete-with-nvidia/",
       "readTime": 3,
-      "views": 27967
+      "views": 22516
     },
     {
       "id": "google-turns-chrome-into-an-ai-co-worker-for-the-w",
@@ -114,7 +149,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/22/google-turns-chrome-into-an-ai-coworker-for-the-workplace/",
       "readTime": 3,
-      "views": 20498
+      "views": 47994
     },
     {
       "id": "google-makes-an-interesting-choice-with-its-new-ag",
@@ -131,7 +166,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/22/google-makes-an-interesting-choice-with-its-new-agent-building-tool-for-enterprises/",
       "readTime": 3,
-      "views": 46260
+      "views": 32799
     },
     {
       "id": "ai-overviews-are-coming-to-your-gmail-at-work",
@@ -147,7 +182,23 @@
       ],
       "url": "https://techcrunch.com/2026/04/22/ai-overviews-are-coming-to-your-gmail-at-work/",
       "readTime": 3,
-      "views": 48690
+      "views": 22110
+    },
+    {
+      "id": "reversing-enterprise-security-costs-with-ai-vulner",
+      "title": "Reversing enterprise security costs with AI vulnerability discovery",
+      "summary": "Automated AI vulnerability discovery is reversing the enterprise security costs that traditionally favour attackers.  Bringing exploits to zero was once viewed as an unrealistic goal.",
+      "content": "Automated AI vulnerability discovery is reversing the enterprise security costs that traditionally favour attackers. Bringing exploits to zero was once viewed as an unrealistic goal. The prevailing operational doctrine aimed to make attacks so expensive that only adversaries with functionally unlimi",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-04-22T15:45:14.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/reversing-enterprise-security-costs-with-ai-vulnerability-discovery/",
+      "readTime": 3,
+      "views": 30957
     },
     {
       "id": "openai-teams-up-with-infosys-to-bring-ai-tools-to-",
@@ -165,7 +216,24 @@
       ],
       "url": "https://techcrunch.com/2026/04/22/openai-teams-up-with-infosys-to-bring-ai-tools-to-more-businesses/",
       "readTime": 3,
-      "views": 20266
+      "views": 32615
+    },
+    {
+      "id": "ai-in-law-firms-entering-its-closing-summaries",
+      "title": "AI in law firms entering its closing summaries",
+      "summary": "In an interview with Artificial Lawyer, Paris-based AI-native consulting firm owner, Olivier Chaduteau, set out a three-part account of the current state of AI in the legal sector.  At first, lawyers .",
+      "content": "In an interview with Artificial Lawyer, Paris-based AI-native consulting firm owner, Olivier Chaduteau, set out a three-part account of the current state of AI in the legal sector. At first, lawyers dismissed AI as irrelevant to expert work. In the second, organisations bought licences to LLMs to si",
+      "source": "AI News",
+      "author": "AI News",
+      "publishedAt": "2026-04-22T13:51:00.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai",
+        "llm"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/ai-in-law-firms-entering-its-closing-summaries/",
+      "readTime": 3,
+      "views": 8804
     },
     {
       "id": "ai-is-spitting-out-more-potential-drugs-than-ever-",
@@ -181,7 +249,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/22/ai-is-spitting-out-more-potential-drugs-than-ever-this-start-up-wants-to-figure-out-which-ones-matter/",
       "readTime": 3,
-      "views": 24942
+      "views": 27668
     },
     {
       "id": "exclusive-google-deepens-thinking-machines-lab-tie",
@@ -198,7 +266,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/22/exclusive-google-deepens-thinking-machines-lab-ties-with-new-multi-billion-dollar-deal/",
       "readTime": 3,
-      "views": 38090
+      "views": 42927
     },
     {
       "id": "google-maps-is-about-to-get-a-big-dose-of-ai",
@@ -216,7 +284,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/22/google-maps-is-about-to-get-a-big-dose-of-ai/",
       "readTime": 3,
-      "views": 21300
+      "views": 41789
     },
     {
       "id": "the-most-interesting-startups-showcased-at-google-",
@@ -233,7 +301,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/22/the-most-interesting-startups-showcased-at-google-cloud-next-2026/",
       "readTime": 3,
-      "views": 27019
+      "views": 24897
     },
     {
       "id": "ai-needs-a-strong-data-fabric-to-deliver-business-",
@@ -250,105 +318,31 @@
       ],
       "url": "https://www.technologyreview.com/2026/04/22/1135295/ai-needs-a-strong-data-fabric-to-deliver-business-value/",
       "readTime": 3,
-      "views": 6118
+      "views": 35633
     },
     {
-      "id": "meta-will-record-employees-8217-keystrokes-and-use",
-      "title": "Meta will record employees&#8217; keystrokes and use it to train its AI models",
-      "summary": "Meta says that it has a new internal tool that is converting mouse movements and button clicks into data that can train its AI models.",
-      "content": "Meta says that it has a new internal tool that is converting mouse movements and button clicks into data that can train its AI models.",
-      "source": "TechCrunch AI",
-      "author": "Lucas Ropek",
-      "publishedAt": "2026-04-21T23:45:21.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "ai model",
-        "Meta"
-      ],
-      "url": "https://techcrunch.com/2026/04/21/meta-will-record-employees-keystrokes-and-use-it-to-train-its-ai-models/",
-      "readTime": 3,
-      "views": 7535
-    },
-    {
-      "id": "unauthorized-group-has-gained-access-to-anthropic-",
-      "title": "Unauthorized group has gained access to Anthropic&#8217;s exclusive cyber tool Mythos, report claims",
-      "summary": "Anthropic told TechCrunch it is investigating the claims, but maintains that there is no evidence that its systems have been impacted.",
-      "content": "Anthropic told TechCrunch it is investigating the claims, but maintains that there is no evidence that its systems have been impacted.",
-      "source": "TechCrunch AI",
-      "author": "Lucas Ropek",
-      "publishedAt": "2026-04-21T23:26:45.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/04/21/unauthorized-group-has-gained-access-to-anthropics-exclusive-cyber-tool-mythos-report-claims/",
-      "readTime": 3,
-      "views": 39162
-    },
-    {
-      "id": "spacex-is-working-with-cursor-and-has-an-option-to",
-      "title": "SpaceX is working with Cursor and has an option to buy the startup for $60B",
-      "summary": "The move could shore up weaknesses at each company, but it also reveals them.  Neither Cursor nor xAI has proprietary models that can match the leading offerings from Anthropic and OpenAI — the same c.",
-      "content": "The move could shore up weaknesses at each company, but it also reveals them. Neither Cursor nor xAI has proprietary models that can match the leading offerings from Anthropic and OpenAI — the same companies now competing directly with Cursor for the developer market.",
-      "source": "TechCrunch AI",
-      "author": "Tim Fernholz",
-      "publishedAt": "2026-04-21T22:58:22.000Z",
+      "id": "the-role-of-ai-in-modern-forex-bot-development",
+      "title": "The role of AI in modern forex bot development",
+      "summary": "Artificial intelligence has become a defining force in financial markets.  And currency trading is no exception.",
+      "content": "Artificial intelligence has become a defining force in financial markets. And currency trading is no exception. The rise of the AI-powered forex bot reflects a change toward automated systems capable of processing vast amounts of market data and identifying patterns beyond the reach of manual analys",
+      "source": "AI News",
+      "author": "Sadie Smith",
+      "publishedAt": "2026-04-22T07:34:01.000Z",
       "category": "market",
       "tags": [
-        "ai",
-        "openai",
-        "anthropic",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/04/21/spacex-is-working-with-cursor-and-has-an-option-to-buy-the-startup-for-60-billion/",
-      "readTime": 3,
-      "views": 30390
-    },
-    {
-      "id": "10-things-that-matter-in-ai-right-now",
-      "title": "10 Things That Matter in AI Right Now",
-      "summary": ".",
-      "content": "",
-      "source": "MIT Technology Review AI",
-      "author": "Amy Nordrum",
-      "publishedAt": "2026-04-21T20:45:00.000Z",
-      "category": "research",
-      "tags": [
+        "artificial intelligence",
         "ai"
       ],
-      "url": "https://www.technologyreview.com/2026/04/21/1135643/10-ai-artificial-intelligence-trends-technologies-research-2026/",
+      "url": "https://www.artificialintelligence-news.com/news/the-role-of-ai-in-modern-forex-bot-development/",
       "readTime": 3,
-      "views": 19330
-    },
-    {
-      "id": "llms",
-      "title": "LLMs+",
-      "summary": "When ChatGPT launched as an experimental prototype in late 2022, OpenAI’s chatbot became an everyday everything app for hundreds of millions of people.  LLMs like ChatGPT were the new future: The enti.",
-      "content": "When ChatGPT launched as an experimental prototype in late 2022, OpenAI’s chatbot became an everyday everything app for hundreds of millions of people. LLMs like ChatGPT were the new future: The entire tech industry was consumed by the inferno, with companies racing to spin up rival products. The as",
-      "source": "MIT Technology Review AI",
-      "author": "Will Douglas Heaven",
-      "publishedAt": "2026-04-21T20:45:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gpt",
-        "llm",
-        "openai",
-        "chatgpt"
-      ],
-      "url": "https://www.technologyreview.com/2026/04/21/1135645/llm-large-language-models-ai/",
-      "readTime": 3,
-      "views": 48670
+      "views": 30796
     }
   ],
-  "lastUpdated": "2026-04-23T07:51:10.320Z",
+  "lastUpdated": "2026-04-23T13:27:51.070Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
+    "AI News",
     "TechCrunch AI",
     "MIT Technology Review AI"
   ],
@@ -356,6 +350,7 @@
     "market",
     "release",
     "funding",
-    "research"
+    "research",
+    "regulation"
   ]
 }
