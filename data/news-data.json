@@ -1,8 +1,93 @@
 {
   "articles": [
     {
-      "id": "china-vetoes-meta-s-2b-manus-deal-after-months-lon",
-      "title": "China vetoes Meta’s $2B Manus deal after months-long probe",
+      "id": "elon-musk-and-sam-altman-are-going-to-court-over-o",
+      "title": "Elon Musk and Sam Altman are going to court over OpenAI’s future",
+      "summary": "After a yearslong legal feud, Elon Musk and OpenAI CEO Sam Altman are heading to trial this week in Northern California in a case that could have sweeping consequences.  Ahead of OpenAI’s highly antic.",
+      "content": "After a yearslong legal feud, Elon Musk and OpenAI CEO Sam Altman are heading to trial this week in Northern California in a case that could have sweeping consequences. Ahead of OpenAI’s highly anticipated IPO, the court could rule on whether the company is allowed to exist as a for-profit enterpris",
+      "source": "MIT Technology Review AI",
+      "author": "Michelle Kim",
+      "publishedAt": "2026-04-27T22:52:57.000Z",
+      "category": "funding",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://www.technologyreview.com/2026/04/27/1136466/elon-musk-and-sam-altman-are-going-to-court-over-openais-future/",
+      "readTime": 3,
+      "views": 48166
+    },
+    {
+      "id": "openai-ends-microsoft-legal-peril-over-its-50b-ama",
+      "title": "OpenAI ends Microsoft legal peril over its $50B Amazon deal",
+      "summary": "OpenAI has won major concessions from its largest shareholder, Microsoft, that will allow it to sell products on AWS, while Microsoft gets more cash in a revenue-share agreement.",
+      "content": "OpenAI has won major concessions from its largest shareholder, Microsoft, that will allow it to sell products on AWS, while Microsoft gets more cash in a revenue-share agreement.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2026-04-27T17:40:38.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI",
+        "Microsoft"
+      ],
+      "url": "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/",
+      "readTime": 3,
+      "views": 7567
+    },
+    {
+      "id": "deepmind-8217-s-david-silver-just-raised-1-1b-to-b",
+      "title": "DeepMind&#8217;s David Silver just raised $1.1B to build an AI that learns without human data",
+      "summary": "Ineffable Intelligence, a British AI lab founded a mere few months ago by former DeepMind researcher David Silver, has raised $1. 1 billion in funding at a valuation of $5.",
+      "content": "Ineffable Intelligence, a British AI lab founded a mere few months ago by former DeepMind researcher David Silver, has raised $1.1 billion in funding at a valuation of $5.1 billion.",
+      "source": "TechCrunch AI",
+      "author": "Anna Heim",
+      "publishedAt": "2026-04-27T17:24:21.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/",
+      "readTime": 3,
+      "views": 6364
+    },
+    {
+      "id": "the-missing-step-between-hype-and-profit",
+      "title": "The missing step between hype and profit",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI.  To get stories like this in your inbox first, sign up here.",
+      "content": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. In February, I picked up a flyer at an anti-AI march in London. I can’t say for sure whether or not its writers meant to riff on South Park’s underpants gnomes. B",
+      "source": "MIT Technology Review AI",
+      "author": "Will Douglas Heaven",
+      "publishedAt": "2026-04-27T16:13:41.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/04/27/1136456/the-missing-step-between-hype-and-profit/",
+      "readTime": 3,
+      "views": 32773
+    },
+    {
+      "id": "investors-back-skye-s-ai-home-screen-app-for-iphon",
+      "title": "Investors back Skye’s AI home screen app for iPhone ahead of launch",
+      "summary": "Skye's new AI app attracted investors before it even launched — a sign of interest in a more AI-aware iPhone.",
+      "content": "Skye's new AI app attracted investors before it even launched — a sign of interest in a more AI-aware iPhone.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-04-27T16:13:02.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/04/27/investors-back-skye-signull-labs-ai-home-screen-app-for-iphone-ahead-of-launch/",
+      "readTime": 3,
+      "views": 25293
+    },
+    {
+      "id": "china-blocks-meta-s-2b-manus-deal-after-months-lon",
+      "title": "China blocks Meta’s $2B Manus deal after months-long probe",
       "summary": "China has ordered Meta to unwind its multibillion-dollar Manus acquisition, dealing a potential setback to Zuckerberg’s push into AI agents.",
       "content": "China has ordered Meta to unwind its multibillion-dollar Manus acquisition, dealing a potential setback to Zuckerberg’s push into AI agents.",
       "source": "TechCrunch AI",
@@ -15,13 +100,13 @@
       ],
       "url": "https://techcrunch.com/2026/04/27/china-vetoes-metas-2b-manus-deal-after-months-long-probe/",
       "readTime": 3,
-      "views": 19167
+      "views": 37714
     },
     {
       "id": "openai-could-be-making-a-phone-with-ai-agents-repl",
       "title": "OpenAI could be making a phone with AI agents replacing apps",
-      "summary": "The phone could go in mass production in 2028, an analyst says.",
-      "content": "The phone could go in mass production in 2028, an analyst says.",
+      "summary": "There have been plenty of rumors about OpenAI's hardware plans, which involve launching a pair of earbuds.  A new note from industry analyst Ming-Chi Kuo suggests that the AI company might be working .",
+      "content": "There have been plenty of rumors about OpenAI's hardware plans, which involve launching a pair of earbuds. A new note from industry analyst Ming-Chi Kuo suggests that the AI company might be working on a phone in collaboration with MediaTek, Qualcomm, and Luxshare.",
       "source": "TechCrunch AI",
       "author": "Ivan Mehta",
       "publishedAt": "2026-04-27T13:08:59.000Z",
@@ -33,7 +118,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/27/openai-could-be-making-a-phone-with-ai-agents-replacing-apps/",
       "readTime": 3,
-      "views": 28191
+      "views": 9588
     },
     {
       "id": "rebuilding-the-data-stack-for-ai",
@@ -50,7 +135,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/04/27/1136322/rebuilding-the-data-stack-for-ai/",
       "readTime": 3,
-      "views": 15263
+      "views": 17653
     },
     {
       "id": "google-warns-malicious-web-pages-are-poisoning-ai-",
@@ -67,13 +152,13 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/google-warns-malicious-web-pages-poisoning-ai-agents/",
       "readTime": 3,
-      "views": 13466
+      "views": 10088
     },
     {
       "id": "to-buy-this-bay-area-home-you-ll-need-anthropic-eq",
       "title": "To buy this Bay Area home, you’ll need Anthropic equity",
-      "summary": "Someone’s offering an unusual deal for a 13-acre property in Mill Valley, just north of South Francisco.",
-      "content": "Someone’s offering an unusual deal for a 13-acre property in Mill Valley, just north of South Francisco.",
+      "summary": "Someone’s offering an unusual deal for a 13-acre property in Mill Valley, just north of San Francisco.",
+      "content": "Someone’s offering an unusual deal for a 13-acre property in Mill Valley, just north of San Francisco.",
       "source": "TechCrunch AI",
       "author": "Anthony Ha",
       "publishedAt": "2026-04-26T15:30:00.000Z",
@@ -84,7 +169,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/26/to-buy-this-bay-area-home-youll-need-anthropic-equity/",
       "readTime": 3,
-      "views": 21966
+      "views": 50240
     },
     {
       "id": "anthropic-created-a-test-marketplace-for-agent-on-",
@@ -102,7 +187,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
       "readTime": 3,
-      "views": 48298
+      "views": 54987
     },
     {
       "id": "maine-8217-s-governor-vetoes-data-center-moratoriu",
@@ -118,7 +203,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/25/maines-governor-vetoes-data-center-moratorium/",
       "readTime": 3,
-      "views": 29642
+      "views": 51978
     },
     {
       "id": "openai-ceo-apologizes-to-tumbler-ridge-community",
@@ -136,13 +221,13 @@
       ],
       "url": "https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/",
       "readTime": 3,
-      "views": 39105
+      "views": 43178
     },
     {
       "id": "why-cohere-is-merging-with-aleph-alpha",
       "title": "Why Cohere is merging with Aleph Alpha",
-      "summary": "Canadian AI startup Cohere is taking over Germany-based Aleph Alpha with support from Lidl’s owner, Schwarz Group.  With the blessing of their governments, the companies intend to offer a sovereign al.",
-      "content": "Canadian AI startup Cohere is taking over Germany-based Aleph Alpha with support from Lidl’s owner, Schwarz Group. With the blessing of their governments, the companies intend to offer a sovereign alternative to enterprises in an AI landscape dominated by American players.",
+      "summary": "Canadian AI startup Cohere is taking over Germany-based Aleph Alpha with support from Schwarz Group.  With the blessing of their governments, the companies intend to offer a sovereign alternative to e.",
+      "content": "Canadian AI startup Cohere is taking over Germany-based Aleph Alpha with support from Schwarz Group. With the blessing of their governments, the companies intend to offer a sovereign alternative to enterprises in an AI landscape dominated by American players.",
       "source": "TechCrunch AI",
       "author": "Anna Heim",
       "publishedAt": "2026-04-25T16:00:00.000Z",
@@ -152,7 +237,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/",
       "readTime": 3,
-      "views": 37797
+      "views": 42742
     },
     {
       "id": "why-tokyo-is-the-most-important-tech-destination-o",
@@ -168,7 +253,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/25/why-tokyo-is-the-most-important-tech-destination-of-2026/",
       "readTime": 3,
-      "views": 9327
+      "views": 30442
     },
     {
       "id": "three-reasons-why-deepseek-s-new-model-matters",
@@ -184,7 +269,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/",
       "readTime": 3,
-      "views": 54827
+      "views": 13968
     },
     {
       "id": "meta-8217-s-loss-is-thinking-machines-8217-gain",
@@ -201,7 +286,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/24/metas-loss-is-thinking-machines-gain/",
       "readTime": 3,
-      "views": 47825
+      "views": 23615
     },
     {
       "id": "comfyui-hits-500m-valuation-as-creators-seek-more-",
@@ -217,7 +302,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/24/comfyui-hits-500m-valuation-as-creators-seek-more-control-over-ai-generated-media/",
       "readTime": 3,
-      "views": 42743
+      "views": 25591
     },
     {
       "id": "google-to-invest-up-to-40b-in-anthropic-in-cash-an",
@@ -236,7 +321,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
       "readTime": 3,
-      "views": 51607
+      "views": 53604
     },
     {
       "id": "marked-up-mac-minis-flood-ebay-amid-shortages-driv",
@@ -254,103 +339,22 @@
       ],
       "url": "https://techcrunch.com/2026/04/24/mac-mini-price-expensive-ebay-shortage-ai-memory/",
       "readTime": 3,
-      "views": 40473
-    },
-    {
-      "id": "why-ai-agents-need-interaction-infrastructure",
-      "title": "Why AI agents need interaction infrastructure",
-      "summary": "To stop automation waste, enterprises must deploy interaction infrastructure that physically governs how independent AI agents operate.  AI agents now populate corporate networks, reasoning through ta.",
-      "content": "To stop automation waste, enterprises must deploy interaction infrastructure that physically governs how independent AI agents operate. AI agents now populate corporate networks, reasoning through tasks and executing decisions with increasing autonomy. Yet, when these independent actors attempt to c",
-      "source": "AI News",
-      "author": "Ryan Daws",
-      "publishedAt": "2026-04-24T16:24:17.000Z",
-      "category": "market",
-      "tags": [
-        "ai",
-        "automation"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/why-ai-agents-need-interaction-infrastructure/",
-      "readTime": 3,
-      "views": 28388
-    },
-    {
-      "id": "uber-cto-praveen-neppalli-naga-joins-stacked-stric",
-      "title": "Uber CTO Praveen Neppalli Naga joins stacked StrictlyVC SF lineup for April 30 event",
-      "summary": "StrictlyVC San Francisco, which will kick off this year’s events lineup for TechCrunch on April 30 at the Sentro Filipino Cultural Center, is getting a new addition to its increasingly stacked lineup .",
-      "content": "Surprise! StrictlyVC San Francisco, which will kick off this year’s events lineup for TechCrunch on April 30 at the Sentro Filipino Cultural Center, is getting a new addition to its increasingly stacked lineup of speakers. Uber CTO Praveen Neppalli Naga will join the rest of the lineup to discuss op",
-      "source": "TechCrunch AI",
-      "author": "TechCrunch Events",
-      "publishedAt": "2026-04-24T14:00:00.000Z",
-      "category": "release",
-      "tags": [],
-      "url": "https://techcrunch.com/2026/04/24/uber-cto-praveen-neppalli-naga-joins-stacked-strictlyvc-sf-lineup-for-april-30-event/",
-      "readTime": 3,
-      "views": 5977
-    },
-    {
-      "id": "nothing-introduces-an-ai-powered-dictation-tool",
-      "title": "Nothing introduces an AI-powered dictation tool",
-      "summary": "Nothing's new on-device dictation tool supports over 100 languages.",
-      "content": "Nothing's new on-device dictation tool supports over 100 languages.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-04-24T13:41:42.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/04/24/nothing-introduces-an-ai-powered-dictation-tool/",
-      "readTime": 3,
-      "views": 17334
-    },
-    {
-      "id": "deepseek-previews-new-ai-model-that-8216-closes-th",
-      "title": "DeepSeek previews new AI model that &#8216;closes the gap&#8217; with frontier models",
-      "summary": "DeepSeek says both models are more efficient and performant than DeepSeek V3. 2 due to architectural improvements, and have almost \"closed the gap\" with current leading models, both open and closed, o.",
-      "content": "DeepSeek says both models are more efficient and performant than DeepSeek V3.2 due to architectural improvements, and have almost \"closed the gap\" with current leading models, both open and closed, on reasoning benchmarks.",
-      "source": "TechCrunch AI",
-      "author": "Ram Iyer",
-      "publishedAt": "2026-04-24T13:30:59.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "ai model"
-      ],
-      "url": "https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models/",
-      "readTime": 3,
-      "views": 20451
-    },
-    {
-      "id": "in-another-wild-turn-for-ai-chips-meta-signs-deal-",
-      "title": "In another wild turn for AI chips, Meta signs deal for millions of Amazon AI CPUs",
-      "summary": "Meta has commandeered a big chunk of Amazon's homegrown CPUs (not GPUs) for AI agentic workloads, signaling that a new kind of chip race has begun.",
-      "content": "Meta has commandeered a big chunk of Amazon's homegrown CPUs (not GPUs) for AI agentic workloads, signaling that a new kind of chip race has begun.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2026-04-24T12:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Meta"
-      ],
-      "url": "https://techcrunch.com/2026/04/24/in-another-wild-turn-for-ai-chips-meta-signs-deal-for-millions-of-amazon-ai-cpus/",
-      "readTime": 3,
-      "views": 17314
+      "views": 46399
     }
   ],
-  "lastUpdated": "2026-04-27T13:51:15.572Z",
+  "lastUpdated": "2026-04-28T02:50:39.145Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "TechCrunch AI",
     "MIT Technology Review AI",
+    "TechCrunch AI",
     "AI News"
   ],
   "categories": [
-    "release",
-    "research",
+    "funding",
     "market",
-    "regulation",
-    "funding"
+    "research",
+    "release",
+    "regulation"
   ]
 }
