@@ -1,6 +1,39 @@
 {
   "articles": [
     {
+      "id": "this-is-fine-creator-says-ai-startup-stole-his-art",
+      "title": "‘This is fine’ creator says AI startup stole his art",
+      "summary": "The ad comes from Artisan, the AI startup behind billboards urging businesses to \"stop hiring humans.",
+      "content": "The ad comes from Artisan, the AI startup behind billboards urging businesses to \"stop hiring humans.\"",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "publishedAt": "2026-05-03T20:16:51.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/05/03/this-is-fine-creator-says-ai-startup-stole-his-art/",
+      "readTime": 3,
+      "views": 28275
+    },
+    {
+      "id": "in-harvard-study-ai-offered-more-accurate-emergenc",
+      "title": "In Harvard study, AI offered more accurate emergency room diagnoses than two human doctors",
+      "summary": "A new study examines how large language models perform in a variety of medical contexts, including real emergency room cases — where at least one model seemed to be more accurate than human doctors.",
+      "content": "A new study examines how large language models perform in a variety of medical contexts, including real emergency room cases — where at least one model seemed to be more accurate than human doctors.",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "publishedAt": "2026-05-03T18:00:09.000Z",
+      "category": "partnership",
+      "tags": [
+        "ai",
+        "language model"
+      ],
+      "url": "https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors/",
+      "readTime": 3,
+      "views": 13714
+    },
+    {
       "id": "ai-generated-actors-and-scripts-are-now-ineligible",
       "title": "AI-generated actors and scripts are now ineligible for Oscars",
       "summary": "Bad news for Tilly Norwood.",
@@ -14,7 +47,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/02/ai-generated-actors-and-scripts-are-now-ineligible-for-oscars/",
       "readTime": 3,
-      "views": 23992
+      "views": 49024
     },
     {
       "id": "the-best-ai-dictation-apps-tested-and-ranked",
@@ -30,7 +63,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/02/the-best-ai-powered-dictation-apps-of-2025/",
       "readTime": 3,
-      "views": 51403
+      "views": 13864
     },
     {
       "id": "meta-buys-robotics-startup-to-bolster-its-humanoid",
@@ -49,7 +82,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/",
       "readTime": 3,
-      "views": 41191
+      "views": 10843
     },
     {
       "id": "did-you-know-you-can-8217-t-steal-a-charity-don-82",
@@ -67,7 +100,7 @@
       ],
       "url": "https://techcrunch.com/podcast/did-you-know-you-cant-steal-a-charity-dont-worry-elon-musk-will-remind-you/",
       "readTime": 3,
-      "views": 15774
+      "views": 54642
     },
     {
       "id": "pentagon-inks-deals-with-nvidia-microsoft-and-aws-",
@@ -87,7 +120,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
       "readTime": 3,
-      "views": 12826
+      "views": 31201
     },
     {
       "id": "cyber-insecurity-in-the-ai-era",
@@ -103,7 +136,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/05/01/1136779/cyber-insecurity-in-the-ai-era/",
       "readTime": 3,
-      "views": 44449
+      "views": 53531
     },
     {
       "id": "operationalizing-ai-for-scale-and-sovereignty",
@@ -119,7 +152,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/05/01/1136772/operationalizing-ai-for-scale-and-sovereignty/",
       "readTime": 3,
-      "views": 28989
+      "views": 37863
     },
     {
       "id": "musk-v-altman-is-just-getting-started",
@@ -137,7 +170,7 @@
       ],
       "url": "https://techcrunch.com/video/musk-v-altman-is-just-getting-started/",
       "readTime": 3,
-      "views": 18821
+      "views": 47989
     },
     {
       "id": "sap-how-enterprise-ai-governance-secures-profit-ma",
@@ -153,7 +186,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/sap-how-enterprise-ai-governance-secures-profit-margins/",
       "readTime": 3,
-      "views": 8228
+      "views": 43026
     },
     {
       "id": "per-token-ai-charges-come-to-github-copilot",
@@ -169,7 +202,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/per-token-ai-charging-comes-to-github-copilot/",
       "readTime": 3,
-      "views": 33005
+      "views": 20085
     },
     {
       "id": "a-new-us-phone-network-for-christians-aims-to-bloc",
@@ -185,7 +218,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/05/01/1136739/a-new-t-mobile-network-for-christians-aims-to-block-porn-and-gender-related-content/",
       "readTime": 3,
-      "views": 10968
+      "views": 21799
     },
     {
       "id": "chatgpt-images-2-0-is-a-hit-in-india-but-not-a-big",
@@ -203,7 +236,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/30/chatgpt-images-2-0-is-a-hit-in-india-but-not-a-big-winner-elsewhere-yet/",
       "readTime": 3,
-      "views": 40941
+      "views": 15323
     },
     {
       "id": "sources-anthropic-potential-900b-valuation-round-c",
@@ -221,7 +254,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/30/anthropic-potential-900b-valuation-round-could-happen-within-two-weeks/",
       "readTime": 3,
-      "views": 29078
+      "views": 25998
     },
     {
       "id": "apple-was-surprised-by-ai-driven-demand-for-macs",
@@ -238,7 +271,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/30/apple-was-surprised-by-ai-driven-demand-for-macs/",
       "readTime": 3,
-      "views": 16378
+      "views": 21431
     },
     {
       "id": "legal-ai-startup-legora-hits-5-6b-valuation-and-it",
@@ -254,7 +287,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/30/legal-ai-startup-legora-hits-5-6-valuation-and-its-battle-with-harvey-just-got-hotter/",
       "readTime": 3,
-      "views": 35539
+      "views": 39157
     },
     {
       "id": "after-dissing-anthropic-for-limiting-mythos-openai",
@@ -274,7 +307,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/",
       "readTime": 3,
-      "views": 41710
+      "views": 43695
     },
     {
       "id": "openai-announces-new-advanced-security-for-chatgpt",
@@ -294,7 +327,7 @@
       ],
       "url": "https://techcrunch.com/2026/04/30/openai-announces-new-advanced-security-for-chatgpt-accounts-including-a-partnership-with-yubico/",
       "readTime": 3,
-      "views": 36777
+      "views": 50093
     },
     {
       "id": "elon-musk-testifies-that-xai-trained-grok-on-opena",
@@ -313,44 +346,10 @@
       ],
       "url": "https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models/",
       "readTime": 3,
-      "views": 18266
-    },
-    {
-      "id": "fda-approval-fundraising-and-the-reality-of-buildi",
-      "title": "FDA approval, fundraising, and the reality of building in healthcare according to BioticsAI founder",
-      "summary": "BioticsAI CEO Robhy Bustami joined Isabelle Johannessen on Build Mode to discuss how the company has navigated a highly regulated space and kept the team motivated while cutting through all the red ta.",
-      "content": "BioticsAI CEO Robhy Bustami joined Isabelle Johannessen on Build Mode to discuss how the company has navigated a highly regulated space and kept the team motivated while cutting through all the red tape.",
-      "source": "TechCrunch AI",
-      "author": "Maggie Nye, Isabelle Johannessen",
-      "publishedAt": "2026-04-30T17:53:53.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/04/30/fda-approval-fundraising-and-the-reality-of-building-in-healthcare-according-to-bioticsai-founder/",
-      "readTime": 3,
-      "views": 43129
-    },
-    {
-      "id": "google-s-gemini-ai-assistant-is-hitting-the-road-i",
-      "title": "Google’s Gemini AI assistant is hitting the road in millions of vehicles",
-      "summary": "The move signals Google’s push to bring more advanced, conversational AI into the driving experience.",
-      "content": "The move signals Google’s push to bring more advanced, conversational AI into the driving experience.",
-      "source": "TechCrunch AI",
-      "author": "Lauren Forristal",
-      "publishedAt": "2026-04-30T17:46:54.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gemini",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/04/30/googles-gemini-ai-assistant-is-hitting-the-road-in-millions-of-vehicles/",
-      "readTime": 3,
-      "views": 22778
+      "views": 48853
     }
   ],
-  "lastUpdated": "2026-05-03T13:08:46.192Z",
+  "lastUpdated": "2026-05-04T02:47:49.342Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -359,10 +358,11 @@
     "AI News"
   ],
   "categories": [
+    "market",
+    "partnership",
     "release",
     "regulation",
     "research",
-    "market",
     "funding"
   ]
 }
