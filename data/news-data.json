@@ -1,6 +1,73 @@
 {
   "articles": [
     {
+      "id": "hugging-face-hosted-malicious-software-masqueradin",
+      "title": "Hugging Face hosted malicious software masquerading as OpenAI release",
+      "summary": "A malicious Hugging Face repository that posed as an OpenAI release delivered infostealer malware to Windows machines and recorded about 244,000 downloads before removal, according to research from AI.",
+      "content": "A malicious Hugging Face repository that posed as an OpenAI release delivered infostealer malware to Windows machines and recorded about 244,000 downloads before removal, according to research from AI security firm HiddenLayer. The number of downloads may have been artificially inflated by the attac",
+      "source": "AI News",
+      "author": "AI News",
+      "publishedAt": "2026-05-12T13:52:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/malware-on-hugging-face-malicious-software-masquerading-as-openai-release/",
+      "readTime": 3,
+      "views": 25837
+    },
+    {
+      "id": "dessn-raises-6m-for-its-production-focused-design-",
+      "title": "Dessn raises $6M for its production focused design tool",
+      "summary": "A new startup called Dessn has raised $6M to build AI-powered design tools that work directly with production codebases.",
+      "content": "A new startup called Dessn has raised $6M to build AI-powered design tools that work directly with production codebases.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-05-12T13:00:00.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/05/12/dessn-raises-6m-for-its-production-focused-design-tool/",
+      "readTime": 3,
+      "views": 6923
+    },
+    {
+      "id": "ai-voice-startup-vapi-hits-500m-valuation-after-wi",
+      "title": "AI voice startup Vapi hits $500M valuation after winning Amazon Ring over 40 rivals",
+      "summary": "Vapi says its enterprise business has grown 10-fold since early 2025 as companies shift customer support and sales calls to AI agents.",
+      "content": "Vapi says its enterprise business has grown 10-fold since early 2025 as companies shift customer support and sales calls to AI agents.",
+      "source": "TechCrunch AI",
+      "author": "Jagmeet Singh",
+      "publishedAt": "2026-05-12T11:30:00.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/",
+      "readTime": 3,
+      "views": 16547
+    },
+    {
+      "id": "laserfiche-unveils-ai-agents-for-natural-language-",
+      "title": "Laserfiche unveils AI agents for natural language workflows",
+      "summary": "Laserfiche has announced the release of AI agents that can help perform tasks through natural language prompts.  Intelligent assistants follow Laserfiche&#8217;s integrated security rules and complian.",
+      "content": "Laserfiche has announced the release of AI agents that can help perform tasks through natural language prompts. Intelligent assistants follow Laserfiche&#8217;s integrated security rules and compliance requirements, helping ensure all sensitive data remains protected. Karl Chan, CEO of Laserfiche, s",
+      "source": "AI News",
+      "author": "David Thomas",
+      "publishedAt": "2026-05-12T08:57:13.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "natural language"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/laserfiche-ai-agents-act-autonomously-for-the-platforms-users/",
+      "readTime": 3,
+      "views": 8218
+    },
+    {
       "id": "thinking-machines-wants-to-build-an-ai-that-actual",
       "title": "Thinking Machines wants to build an AI that actually listens while it talks",
       "summary": "Right now, every AI model you've ever used works the same way.  It responds, you listen.",
@@ -15,7 +82,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/11/thinking-machines-wants-to-build-an-ai-that-actually-listens-while-it-talks/",
       "readTime": 3,
-      "views": 35327
+      "views": 47273
     },
     {
       "id": "riding-an-ai-rally-robinhood-preps-second-retail-v",
@@ -31,7 +98,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/11/riding-an-ai-rally-robinhood-preps-second-retail-venture-ipo/",
       "readTime": 3,
-      "views": 12127
+      "views": 40241
     },
     {
       "id": "gm-just-laid-off-hundreds-of-it-workers-to-hire-th",
@@ -47,7 +114,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/",
       "readTime": 3,
-      "views": 33748
+      "views": 30629
     },
     {
       "id": "three-things-in-ai-to-watch-according-to-a-nobel-w",
@@ -63,7 +130,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/05/11/1137090/three-things-in-ai-to-watch-according-to-a-nobel-winning-economist/",
       "readTime": 3,
-      "views": 34520
+      "views": 23297
     },
     {
       "id": "digg-tries-again-this-time-as-an-ai-news-aggregato",
@@ -79,7 +146,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
       "readTime": 3,
-      "views": 47943
+      "views": 49679
     },
     {
       "id": "ai-automates-hr-compliance-except-for-the-area-tec",
@@ -96,7 +163,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/ai-automates-hr-compliance-except-for-the-area-tech-companies-need/",
       "readTime": 3,
-      "views": 50236
+      "views": 36698
     },
     {
       "id": "fostering-breakthrough-ai-innovation-through-custo",
@@ -112,7 +179,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/05/11/1136967/fostering-breakthrough-ai-innovation-through-customer-back-engineering/",
       "readTime": 3,
-      "views": 30958
+      "views": 42643
     },
     {
       "id": "there-aren-8217-t-enough-rockets-for-space-data-ce",
@@ -128,7 +195,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/11/there-arent-enough-rockets-for-space-data-centers-cowboy-space-raised-275-million-to-build-them/",
       "readTime": 3,
-      "views": 25222
+      "views": 18284
     },
     {
       "id": "implementing-advanced-ai-technologies-in-finance",
@@ -144,7 +211,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/05/11/1136786/implementing-advanced-ai-technologies-in-finance/",
       "readTime": 3,
-      "views": 45991
+      "views": 45768
     },
     {
       "id": "bain-sees-us-100-billion-saas-market-in-agentic-ai",
@@ -161,7 +228,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/bain-agentic-ai-saas-market/",
       "readTime": 3,
-      "views": 53794
+      "views": 39799
     },
     {
       "id": "anthropic-says-evil-portrayals-of-ai-were-responsi",
@@ -181,7 +248,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/",
       "readTime": 3,
-      "views": 43836
+      "views": 41393
     },
     {
       "id": "we-re-feeling-cynical-about-xai-s-big-deal-with-an",
@@ -199,7 +266,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/",
       "readTime": 3,
-      "views": 23718
+      "views": 24171
     },
     {
       "id": "voice-ai-in-india-is-hard-wispr-flow-is-betting-on",
@@ -215,7 +282,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/",
       "readTime": 3,
-      "views": 46272
+      "views": 32559
     },
     {
       "id": "so-you-8217-ve-heard-these-ai-terms-and-nodded-alo",
@@ -231,7 +298,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
       "readTime": 3,
-      "views": 26555
+      "views": 11177
     },
     {
       "id": "nvidia-has-already-committed-40b-to-equity-ai-deal",
@@ -247,7 +314,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/09/nvidia-has-already-committed-40b-to-equity-ai-deals-this-year/",
       "readTime": 3,
-      "views": 10516
+      "views": 7375
     },
     {
       "id": "musk-v-altman-week-2-openai-fires-back-and-shivon-",
@@ -265,90 +332,21 @@
       ],
       "url": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
       "readTime": 3,
-      "views": 52729
-    },
-    {
-      "id": "laid-off-oracle-workers-tried-to-negotiate-better-",
-      "title": "Laid-off Oracle workers tried to negotiate better severance. Oracle said no.",
-      "summary": "Some found out they didn't qualify for WARN Act protections like two-months notice because the company had classified them as remote workers.",
-      "content": "Some found out they didn't qualify for WARN Act protections like two-months notice because the company had classified them as remote workers.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2026-05-08T22:59:05.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/05/08/laid-off-oracle-workers-tried-to-negotiate-better-severance-oracle-said-no/",
-      "readTime": 3,
-      "views": 15112
-    },
-    {
-      "id": "cloudflare-says-ai-made-1-100-jobs-obsolete-even-a",
-      "title": "Cloudflare says AI made 1,100 jobs obsolete, even as revenue hit a record high",
-      "summary": "Cloudflare announced its first large-scale layoff.  CEO Matthew Prince says because of AI efficiency gains, the company doesn't need as many support roles.",
-      "content": "Cloudflare announced its first large-scale layoff. CEO Matthew Prince says because of AI efficiency gains, the company doesn't need as many support roles.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2026-05-08T18:33:21.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/",
-      "readTime": 3,
-      "views": 8178
-    },
-    {
-      "id": "the-people-s-airline-and-the-enterprise-ai-gold-ru",
-      "title": "The “people’s airline” and the enterprise AI gold rush",
-      "summary": "Everyone wants a piece of the&#160;enterprise&#160;AI pie, and this week, we saw a string of companies making their moves.  From&#160;Anthropic and OpenAI announcing new joint ventures&#160;targeting .",
-      "content": "Everyone wants a piece of the&#160;enterprise&#160;AI pie, and this week, we saw a string of companies making their moves. From&#160;Anthropic and OpenAI announcing new joint ventures&#160;targeting enterprise AI deployment to&#160;SAP dropping $1B&#160;on German AI startup Prior Labs,&#160;it&#8217",
-      "source": "TechCrunch AI",
-      "author": "Kirsten Korosec, Anthony Ha, Sean O'Kane, Theresa Loconsolo",
-      "publishedAt": "2026-05-08T15:46:17.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "anthropic",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/podcast/the-peoples-airline-and-the-enterprise-ai-gold-rush/",
-      "readTime": 3,
-      "views": 52339
-    },
-    {
-      "id": "ringcentral-adds-shopify-calendly-and-whatsapp-to-",
-      "title": "RingCentral adds Shopify, Calendly, and WhatsApp to AI Receptionist",
-      "summary": "RingCentral has expanded its AI Receptionist product with new links to Shopify, Calendly and WhatsApp, as the communications software company tries to push the product beyond basic call answering and .",
-      "content": "RingCentral has expanded its AI Receptionist product with new links to Shopify, Calendly and WhatsApp, as the communications software company tries to push the product beyond basic call answering and into more routine customer service tasks. The company said AI Receptionist, known as AIR, can now ha",
-      "source": "AI News",
-      "author": "AI News",
-      "publishedAt": "2026-05-08T14:54:00.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/ringcentral-ai-adds-shopify-calendly-and-whatsapp-to-ai-receptionist/",
-      "readTime": 3,
-      "views": 19830
+      "views": 46689
     }
   ],
-  "lastUpdated": "2026-05-12T08:38:19.487Z",
+  "lastUpdated": "2026-05-12T14:23:09.601Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
+    "AI News",
     "TechCrunch AI",
-    "MIT Technology Review AI",
-    "AI News"
+    "MIT Technology Review AI"
   ],
   "categories": [
     "release",
     "funding",
     "research",
-    "regulation",
-    "market"
+    "regulation"
   ]
 }
