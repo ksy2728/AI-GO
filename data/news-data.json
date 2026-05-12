@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "id": "thinking-machines-wants-to-build-an-ai-that-actual",
+      "title": "Thinking Machines wants to build an AI that actually listens while it talks",
+      "summary": "Right now, every AI model you've ever used works the same way.  It responds, you listen.",
+      "content": "Right now, every AI model you've ever used works the same way. You talk, it listens. It responds, you listen. Thinking Machines is trying to change that by building a model that processes your input and generates a response at the same time, so it's more like a phone call than a text chain.",
+      "source": "TechCrunch AI",
+      "author": "Connie Loizos",
+      "publishedAt": "2026-05-12T04:52:35.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "ai model"
+      ],
+      "url": "https://techcrunch.com/2026/05/11/thinking-machines-wants-to-build-an-ai-that-actually-listens-while-it-talks/",
+      "readTime": 3,
+      "views": 35327
+    },
+    {
       "id": "riding-an-ai-rally-robinhood-preps-second-retail-v",
       "title": "Riding an AI rally, Robinhood preps second retail venture IPO",
       "summary": "Robinhood files confidentially for its second venture fund, this time targeting growth and early-stage startups.",
@@ -14,7 +31,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/11/riding-an-ai-rally-robinhood-preps-second-retail-venture-ipo/",
       "readTime": 3,
-      "views": 36323
+      "views": 12127
     },
     {
       "id": "gm-just-laid-off-hundreds-of-it-workers-to-hire-th",
@@ -30,7 +47,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/",
       "readTime": 3,
-      "views": 53050
+      "views": 33748
     },
     {
       "id": "three-things-in-ai-to-watch-according-to-a-nobel-w",
@@ -46,7 +63,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/05/11/1137090/three-things-in-ai-to-watch-according-to-a-nobel-winning-economist/",
       "readTime": 3,
-      "views": 33039
+      "views": 34520
     },
     {
       "id": "digg-tries-again-this-time-as-an-ai-news-aggregato",
@@ -62,7 +79,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
       "readTime": 3,
-      "views": 23101
+      "views": 47943
     },
     {
       "id": "ai-automates-hr-compliance-except-for-the-area-tec",
@@ -79,7 +96,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/ai-automates-hr-compliance-except-for-the-area-tech-companies-need/",
       "readTime": 3,
-      "views": 42237
+      "views": 50236
     },
     {
       "id": "fostering-breakthrough-ai-innovation-through-custo",
@@ -95,7 +112,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/05/11/1136967/fostering-breakthrough-ai-innovation-through-customer-back-engineering/",
       "readTime": 3,
-      "views": 21785
+      "views": 30958
     },
     {
       "id": "there-aren-8217-t-enough-rockets-for-space-data-ce",
@@ -111,7 +128,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/11/there-arent-enough-rockets-for-space-data-centers-cowboy-space-raised-275-million-to-build-them/",
       "readTime": 3,
-      "views": 42207
+      "views": 25222
     },
     {
       "id": "implementing-advanced-ai-technologies-in-finance",
@@ -127,7 +144,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/05/11/1136786/implementing-advanced-ai-technologies-in-finance/",
       "readTime": 3,
-      "views": 12345
+      "views": 45991
     },
     {
       "id": "bain-sees-us-100-billion-saas-market-in-agentic-ai",
@@ -144,7 +161,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/bain-agentic-ai-saas-market/",
       "readTime": 3,
-      "views": 42189
+      "views": 53794
     },
     {
       "id": "anthropic-says-evil-portrayals-of-ai-were-responsi",
@@ -164,7 +181,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/",
       "readTime": 3,
-      "views": 39273
+      "views": 43836
     },
     {
       "id": "we-re-feeling-cynical-about-xai-s-big-deal-with-an",
@@ -182,7 +199,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/",
       "readTime": 3,
-      "views": 54346
+      "views": 23718
     },
     {
       "id": "voice-ai-in-india-is-hard-wispr-flow-is-betting-on",
@@ -198,7 +215,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/",
       "readTime": 3,
-      "views": 15628
+      "views": 46272
     },
     {
       "id": "so-you-8217-ve-heard-these-ai-terms-and-nodded-alo",
@@ -214,7 +231,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
       "readTime": 3,
-      "views": 28178
+      "views": 26555
     },
     {
       "id": "nvidia-has-already-committed-40b-to-equity-ai-deal",
@@ -230,7 +247,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/09/nvidia-has-already-committed-40b-to-equity-ai-deals-this-year/",
       "readTime": 3,
-      "views": 29640
+      "views": 10516
     },
     {
       "id": "musk-v-altman-week-2-openai-fires-back-and-shivon-",
@@ -248,7 +265,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
       "readTime": 3,
-      "views": 49707
+      "views": 52729
     },
     {
       "id": "laid-off-oracle-workers-tried-to-negotiate-better-",
@@ -264,7 +281,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/08/laid-off-oracle-workers-tried-to-negotiate-better-severance-oracle-said-no/",
       "readTime": 3,
-      "views": 46345
+      "views": 15112
     },
     {
       "id": "cloudflare-says-ai-made-1-100-jobs-obsolete-even-a",
@@ -280,7 +297,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/",
       "readTime": 3,
-      "views": 24600
+      "views": 8178
     },
     {
       "id": "the-people-s-airline-and-the-enterprise-ai-gold-ru",
@@ -300,7 +317,7 @@
       ],
       "url": "https://techcrunch.com/podcast/the-peoples-airline-and-the-enterprise-ai-gold-rush/",
       "readTime": 3,
-      "views": 11743
+      "views": 52339
     },
     {
       "id": "ringcentral-adds-shopify-calendly-and-whatsapp-to-",
@@ -316,26 +333,10 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/ringcentral-ai-adds-shopify-calendly-and-whatsapp-to-ai-receptionist/",
       "readTime": 3,
-      "views": 37280
-    },
-    {
-      "id": "the-fax-machine-is-the-bottleneck-in-us-healthcare",
-      "title": "The fax machine is the bottleneck in US healthcare, and VCs are starting to notice",
-      "summary": "Like many AI companies automating work that humans currently do, Basata will eventually face a harder question about where the line is between augmenting workers and displacing them.  For now, the fou.",
-      "content": "Like many AI companies automating work that humans currently do, Basata will eventually face a harder question about where the line is between augmenting workers and displacing them. For now, the founders say the administrative staff they work with aren't worried about that; they're more worried abo",
-      "source": "TechCrunch AI",
-      "author": "Connie Loizos",
-      "publishedAt": "2026-05-08T04:42:29.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/05/07/the-back-office-problem-that-explains-why-specialists-never-call-you-back/",
-      "readTime": 3,
-      "views": 46187
+      "views": 19830
     }
   ],
-  "lastUpdated": "2026-05-12T02:53:24.193Z",
+  "lastUpdated": "2026-05-12T08:38:19.487Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -344,8 +345,8 @@
     "AI News"
   ],
   "categories": [
-    "funding",
     "release",
+    "funding",
     "research",
     "regulation",
     "market"
