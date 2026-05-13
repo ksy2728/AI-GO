@@ -1,28 +1,184 @@
 {
   "articles": [
     {
-      "id": "hugging-face-hosted-malicious-software-masqueradin",
-      "title": "Hugging Face hosted malicious software masquerading as OpenAI release",
-      "summary": "A malicious Hugging Face repository that posed as an OpenAI release delivered infostealer malware to Windows machines and recorded about 244,000 downloads before removal, according to research from AI.",
-      "content": "A malicious Hugging Face repository that posed as an OpenAI release delivered infostealer malware to Windows machines and recorded about 244,000 downloads before removal, according to research from AI security firm HiddenLayer. The number of downloads may have been artificially inflated by the attac",
-      "source": "AI News",
-      "author": "AI News",
-      "publishedAt": "2026-05-12T13:52:00.000Z",
+      "id": "medicare-8217-s-new-payment-model-is-built-for-ai-",
+      "title": "Medicare&#8217;s new payment model is built for AI, and most of the tech world has no idea",
+      "summary": "There is no governmental mechanism to pay for an AI agent that monitors a patient between visits, calls to check in, coordinates a housing referral, or makes sure someone picks up their medication.  A.",
+      "content": "There is no governmental mechanism to pay for an AI agent that monitors a patient between visits, calls to check in, coordinates a housing referral, or makes sure someone picks up their medication. ACCESS creates that mechanism for the first time.",
+      "source": "TechCrunch AI",
+      "author": "Connie Loizos",
+      "publishedAt": "2026-05-13T00:26:48.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/05/12/medicares-new-payment-model-is-built-for-ai-and-most-of-the-tech-world-has-no-idea/",
+      "readTime": 3,
+      "views": 38527
+    },
+    {
+      "id": "musk-mulled-handing-openai-to-his-children-altman-",
+      "title": "Musk mulled handing OpenAI to his children, Altman testifies",
+      "summary": "Altman said that Musk's focus on controlling the initial for-profit gave him pause because OpenAI was dedicated to keeping advanced AI out of the hands of a single person, and Altman, with his experie.",
+      "content": "Altman said that Musk's focus on controlling the initial for-profit gave him pause because OpenAI was dedicated to keeping advanced AI out of the hands of a single person, and Altman, with his experience running the prominent startup accelerator Y Combinator, knew \"founders who had control usually d",
+      "source": "TechCrunch AI",
+      "author": "Tim Fernholz",
+      "publishedAt": "2026-05-12T18:05:15.000Z",
       "category": "release",
       "tags": [
         "ai",
         "openai",
         "OpenAI"
       ],
-      "url": "https://www.artificialintelligence-news.com/news/malware-on-hugging-face-malicious-software-masquerading-as-openai-release/",
+      "url": "https://techcrunch.com/2026/05/12/musk-mulled-handing-openai-to-his-children-altman-testifies/",
       "readTime": 3,
-      "views": 25837
+      "views": 21152
+    },
+    {
+      "id": "anthropic-warns-investors-against-secondary-platfo",
+      "title": "Anthropic warns investors against secondary platforms offering access to its shares",
+      "summary": "\"Any sale or transfer of Anthropic stock, or any interest in Anthropic stock, offered by these firms is void and will not be recognized on our books and records,\" the company's support page reads.",
+      "content": "\"Any sale or transfer of Anthropic stock, or any interest in Anthropic stock, offered by these firms is void and will not be recognized on our books and records,\" the company's support page reads.",
+      "source": "TechCrunch AI",
+      "author": "Ram Iyer",
+      "publishedAt": "2026-05-12T17:36:34.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/05/12/anthropic-warns-investors-against-secondary-platforms-offering-access-to-its-shares/",
+      "readTime": 3,
+      "views": 53090
+    },
+    {
+      "id": "report-google-and-spacex-in-talks-to-put-data-cent",
+      "title": "Report: Google and SpaceX in talks to put data centers into orbit",
+      "summary": "Google and SpaceX are in talks to build data centers in orbit, pitching space as the future home for AI compute, even as costs today remain far higher than on the ground.",
+      "content": "Google and SpaceX are in talks to build data centers in orbit, pitching space as the future home for AI compute, even as costs today remain far higher than on the ground.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-05-12T17:30:57.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2026/05/12/report-google-and-spacex-in-talks-to-put-data-centers-into-orbit/",
+      "readTime": 3,
+      "views": 9382
+    },
+    {
+      "id": "everything-google-announced-at-its-android-show-fr",
+      "title": "Everything Google announced at its Android Show, from Googlebooks to vibe-coded widgets",
+      "summary": "Google unveiled its new AI-first Googlebooks laptops, more agentic Gemini features, vibe-coded Android widgets, Gemini in Chrome, refreshed Android Auto, and more ahead of I/O.",
+      "content": "Google unveiled its new AI-first Googlebooks laptops, more agentic Gemini features, vibe-coded Android widgets, Gemini in Chrome, refreshed Android Auto, and more ahead of I/O.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez, Ivan Mehta, Aisha Malik",
+      "publishedAt": "2026-05-12T17:01:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gemini",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2026/05/12/everything-google-announced-at-its-android-show-from-googlebooks-to-vibe-coded-widgets/",
+      "readTime": 3,
+      "views": 40317
+    },
+    {
+      "id": "google-adds-gemini-powered-dictation-to-gboard-whi",
+      "title": "Google adds Gemini-powered dictation to Gboard, which could be bad news for dictation startups",
+      "summary": "Google's transcription feature will initially launch with Samsung Galaxy and Google Pixel phones.",
+      "content": "Google's transcription feature will initially launch with Samsung Galaxy and Google Pixel phones.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-05-12T17:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "gemini",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2026/05/12/google-adds-gemini-powered-dictation-to-gboard-which-could-be-bad-news-for-dictation-startups/",
+      "readTime": 3,
+      "views": 13025
+    },
+    {
+      "id": "the-ai-legal-services-industry-is-heating-up-anthr",
+      "title": "The AI legal services industry is heating up — Anthropic is getting in on the action",
+      "summary": "Anthropic's new tools are designed to help law firms automate specific clerical functions — things like document search and review, case law resources, deposition prep, document drafting, and other re.",
+      "content": "Anthropic's new tools are designed to help law firms automate specific clerical functions — things like document search and review, case law resources, deposition prep, document drafting, and other related areas.",
+      "source": "TechCrunch AI",
+      "author": "Lucas Ropek",
+      "publishedAt": "2026-05-12T17:00:00.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/05/12/the-ai-legal-services-industry-is-heating-up-anthropic-is-getting-in-on-the-action/",
+      "readTime": 3,
+      "views": 15008
+    },
+    {
+      "id": "google-brings-agentic-ai-and-vibe-coded-widgets-to",
+      "title": "Google brings agentic AI and vibe-coded widgets to Android",
+      "summary": "Gemini Intelligence will also include Gboard-based dictation and form-filling capabilities.",
+      "content": "Gemini Intelligence will also include Gboard-based dictation and form-filling capabilities.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-05-12T17:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gemini",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2026/05/12/google-brings-agentic-ai-and-vibe-coded-widgets-to-android/",
+      "readTime": 3,
+      "views": 21989
+    },
+    {
+      "id": "google-8217-s-8216-create-my-widget-8217-feature-w",
+      "title": "Google&#8217;s &#8216;Create My Widget&#8217; feature will let you vibe-code your own widgets",
+      "summary": "To create a widget, users will be able to describe what they want using natural language.  For example, you could ask the feature to \"suggest three high-protein meal prep recipes every week\" in order .",
+      "content": "To create a widget, users will be able to describe what they want using natural language. For example, you could ask the feature to \"suggest three high-protein meal prep recipes every week\" in order to get a custom dashboard that you can add and resize on your home screen.",
+      "source": "TechCrunch AI",
+      "author": "Aisha Malik",
+      "publishedAt": "2026-05-12T17:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "natural language",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2026/05/12/googles-create-my-widget-feature-will-let-you-vibe-code-your-own-widgets/",
+      "readTime": 3,
+      "views": 39888
+    },
+    {
+      "id": "threads-tests-a-meta-ai-integration-that-works-sim",
+      "title": "Threads tests a Meta AI integration that works similarly to Grok",
+      "summary": "The feature is designed to help people get real-time context about trends and breaking stories, as well as receive recommendations, all within conversations.",
+      "content": "The feature is designed to help people get real-time context about trends and breaking stories, as well as receive recommendations, all within conversations.",
+      "source": "TechCrunch AI",
+      "author": "Aisha Malik",
+      "publishedAt": "2026-05-12T16:34:36.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "Meta"
+      ],
+      "url": "https://techcrunch.com/2026/05/12/threads-tests-a-meta-ai-integration-that-works-similarly-to-grok/",
+      "readTime": 3,
+      "views": 49536
     },
     {
       "id": "dessn-raises-6m-for-its-production-focused-design-",
-      "title": "Dessn raises $6M for its production focused design tool",
-      "summary": "A new startup called Dessn has raised $6M to build AI-powered design tools that work directly with production codebases.",
-      "content": "A new startup called Dessn has raised $6M to build AI-powered design tools that work directly with production codebases.",
+      "title": "Dessn raises $6M for its production-focused design tool",
+      "summary": "A new startup called Dessn has raised $6 million to build AI-powered design tools that work directly with production codebases.",
+      "content": "A new startup called Dessn has raised $6 million to build AI-powered design tools that work directly with production codebases.",
       "source": "TechCrunch AI",
       "author": "Ivan Mehta",
       "publishedAt": "2026-05-12T13:00:00.000Z",
@@ -32,13 +188,13 @@
       ],
       "url": "https://techcrunch.com/2026/05/12/dessn-raises-6m-for-its-production-focused-design-tool/",
       "readTime": 3,
-      "views": 6923
+      "views": 19845
     },
     {
       "id": "ai-voice-startup-vapi-hits-500m-valuation-after-wi",
       "title": "AI voice startup Vapi hits $500M valuation after winning Amazon Ring over 40 rivals",
-      "summary": "Vapi says its enterprise business has grown 10-fold since early 2025 as companies shift customer support and sales calls to AI agents.",
-      "content": "Vapi says its enterprise business has grown 10-fold since early 2025 as companies shift customer support and sales calls to AI agents.",
+      "summary": "Vapi says its enterprise business has grown tenfold since early 2025 as companies shift customer support and sales calls to AI agents.",
+      "content": "Vapi says its enterprise business has grown tenfold since early 2025 as companies shift customer support and sales calls to AI agents.",
       "source": "TechCrunch AI",
       "author": "Jagmeet Singh",
       "publishedAt": "2026-05-12T11:30:00.000Z",
@@ -48,24 +204,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/",
       "readTime": 3,
-      "views": 16547
-    },
-    {
-      "id": "laserfiche-unveils-ai-agents-for-natural-language-",
-      "title": "Laserfiche unveils AI agents for natural language workflows",
-      "summary": "Laserfiche has announced the release of AI agents that can help perform tasks through natural language prompts.  Intelligent assistants follow Laserfiche&#8217;s integrated security rules and complian.",
-      "content": "Laserfiche has announced the release of AI agents that can help perform tasks through natural language prompts. Intelligent assistants follow Laserfiche&#8217;s integrated security rules and compliance requirements, helping ensure all sensitive data remains protected. Karl Chan, CEO of Laserfiche, s",
-      "source": "AI News",
-      "author": "David Thomas",
-      "publishedAt": "2026-05-12T08:57:13.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "natural language"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/laserfiche-ai-agents-act-autonomously-for-the-platforms-users/",
-      "readTime": 3,
-      "views": 8218
+      "views": 50691
     },
     {
       "id": "thinking-machines-wants-to-build-an-ai-that-actual",
@@ -82,7 +221,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/11/thinking-machines-wants-to-build-an-ai-that-actually-listens-while-it-talks/",
       "readTime": 3,
-      "views": 47273
+      "views": 39766
     },
     {
       "id": "riding-an-ai-rally-robinhood-preps-second-retail-v",
@@ -98,7 +237,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/11/riding-an-ai-rally-robinhood-preps-second-retail-venture-ipo/",
       "readTime": 3,
-      "views": 40241
+      "views": 24704
     },
     {
       "id": "gm-just-laid-off-hundreds-of-it-workers-to-hire-th",
@@ -114,7 +253,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/",
       "readTime": 3,
-      "views": 30629
+      "views": 43844
     },
     {
       "id": "three-things-in-ai-to-watch-according-to-a-nobel-w",
@@ -130,7 +269,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/05/11/1137090/three-things-in-ai-to-watch-according-to-a-nobel-winning-economist/",
       "readTime": 3,
-      "views": 23297
+      "views": 51053
     },
     {
       "id": "digg-tries-again-this-time-as-an-ai-news-aggregato",
@@ -146,24 +285,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
       "readTime": 3,
-      "views": 49679
-    },
-    {
-      "id": "ai-automates-hr-compliance-except-for-the-area-tec",
-      "title": "AI automates HR compliance, except for the area tech companies need",
-      "summary": "Artificial intelligence is transforming how companies handle compliance.  Background checks run in real-time.",
-      "content": "Artificial intelligence is transforming how companies handle compliance. Background checks run in real-time. Payroll monitoring flags discrepancies automatically. Predictive analytics anticipate employee churn before it happens. HR tech stacks now offer automated solutions for nearly every regulator",
-      "source": "AI News",
-      "author": "AY & J Solicitors",
-      "publishedAt": "2026-05-11T14:34:05.000Z",
-      "category": "regulation",
-      "tags": [
-        "artificial intelligence",
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/ai-automates-hr-compliance-except-for-the-area-tech-companies-need/",
-      "readTime": 3,
-      "views": 36698
+      "views": 17556
     },
     {
       "id": "fostering-breakthrough-ai-innovation-through-custo",
@@ -179,7 +301,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/05/11/1136967/fostering-breakthrough-ai-innovation-through-customer-back-engineering/",
       "readTime": 3,
-      "views": 42643
+      "views": 51064
     },
     {
       "id": "there-aren-8217-t-enough-rockets-for-space-data-ce",
@@ -195,7 +317,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/11/there-arent-enough-rockets-for-space-data-centers-cowboy-space-raised-275-million-to-build-them/",
       "readTime": 3,
-      "views": 18284
+      "views": 5773
     },
     {
       "id": "implementing-advanced-ai-technologies-in-finance",
@@ -211,142 +333,21 @@
       ],
       "url": "https://www.technologyreview.com/2026/05/11/1136786/implementing-advanced-ai-technologies-in-finance/",
       "readTime": 3,
-      "views": 45768
-    },
-    {
-      "id": "bain-sees-us-100-billion-saas-market-in-agentic-ai",
-      "title": "Bain sees US$100 billion SaaS market in agentic AI automation",
-      "summary": "Bain &#38; Company has estimated a US$100 billion market in the US for SaaS companies using agentic AI.  The firm said the market is tied to automating coordination work in enterprise systems.",
-      "content": "Bain &#38; Company has estimated a US$100 billion market in the US for SaaS companies using agentic AI. The firm said the market is tied to automating coordination work in enterprise systems. The estimate comes from the second report in Bain&#8217;s five-part series on the software industry in the a",
-      "source": "AI News",
-      "author": "Muhammad Zulhusni",
-      "publishedAt": "2026-05-11T10:00:00.000Z",
-      "category": "funding",
-      "tags": [
-        "ai",
-        "automation"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/bain-agentic-ai-saas-market/",
-      "readTime": 3,
-      "views": 39799
-    },
-    {
-      "id": "anthropic-says-evil-portrayals-of-ai-were-responsi",
-      "title": "Anthropic says ‘evil’ portrayals of AI were responsible for Claude’s blackmail attempts",
-      "summary": "Fictional portrayals of artificial intelligence can have a real effect on AI models, according to Anthropic.",
-      "content": "Fictional portrayals of artificial intelligence can have a real effect on AI models, according to Anthropic.",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2026-05-10T20:40:41.000Z",
-      "category": "release",
-      "tags": [
-        "artificial intelligence",
-        "ai",
-        "anthropic",
-        "claude",
-        "ai model"
-      ],
-      "url": "https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/",
-      "readTime": 3,
-      "views": 41393
-    },
-    {
-      "id": "we-re-feeling-cynical-about-xai-s-big-deal-with-an",
-      "title": "We’re feeling cynical about xAI’s big deal with Anthropic",
-      "summary": "On the latest episode of the Equity podcast, we discussed what xAI's deal with Anthropic might mean for parent company SpaceX.",
-      "content": "On the latest episode of the Equity podcast, we discussed what xAI's deal with Anthropic might mean for parent company SpaceX.",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2026-05-10T15:34:25.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/",
-      "readTime": 3,
-      "views": 24171
-    },
-    {
-      "id": "voice-ai-in-india-is-hard-wispr-flow-is-betting-on",
-      "title": "Voice AI in India is hard — Wispr Flow is betting on it anyway",
-      "summary": "Wispr Flow says growth accelerated in India after its Hinglish rollout, even as voice AI products continue to face challenges.",
-      "content": "Wispr Flow says growth accelerated in India after its Hinglish rollout, even as voice AI products continue to face challenges.",
-      "source": "TechCrunch AI",
-      "author": "Jagmeet Singh",
-      "publishedAt": "2026-05-10T02:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/",
-      "readTime": 3,
-      "views": 32559
-    },
-    {
-      "id": "so-you-8217-ve-heard-these-ai-terms-and-nodded-alo",
-      "title": "So you&#8217;ve heard these AI terms and nodded along; let&#8217;s fix that",
-      "summary": "The rise of AI has brought an avalanche of new terms and slang.  Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
-      "content": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
-      "source": "TechCrunch AI",
-      "author": "Natasha Lomas, Romain Dillet, Kyle Wiggers, Lucas Ropek",
-      "publishedAt": "2026-05-09T21:45:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-      "readTime": 3,
-      "views": 11177
-    },
-    {
-      "id": "nvidia-has-already-committed-40b-to-equity-ai-deal",
-      "title": "Nvidia has already committed $40B to equity AI deals this year",
-      "summary": "Nvidia continues to be a big investor in the AI ecosystem.",
-      "content": "Nvidia continues to be a big investor in the AI ecosystem.",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2026-05-09T14:43:30.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/05/09/nvidia-has-already-committed-40b-to-equity-ai-deals-this-year/",
-      "readTime": 3,
-      "views": 7375
-    },
-    {
-      "id": "musk-v-altman-week-2-openai-fires-back-and-shivon-",
-      "title": "Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman",
-      "summary": "In the second week of the landmark trial between Elon Musk and OpenAI, Musk’s motivations for bringing the suit were under scrutiny.  Last week, Musk took the stand, alleging that OpenAI CEO Sam Altma.",
-      "content": "In the second week of the landmark trial between Elon Musk and OpenAI, Musk’s motivations for bringing the suit were under scrutiny. Last week, Musk took the stand, alleging that OpenAI CEO Sam Altman and president Greg Brockman had deceived him into donating $38 million to the company. He claimed t",
-      "source": "MIT Technology Review AI",
-      "author": "Michelle Kim",
-      "publishedAt": "2026-05-08T23:59:19.000Z",
-      "category": "research",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
-      "readTime": 3,
-      "views": 46689
+      "views": 21543
     }
   ],
-  "lastUpdated": "2026-05-12T14:23:09.601Z",
+  "lastUpdated": "2026-05-13T02:57:45.080Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "AI News",
     "TechCrunch AI",
     "MIT Technology Review AI"
   ],
   "categories": [
+    "regulation",
     "release",
+    "market",
     "funding",
-    "research",
-    "regulation"
+    "research"
   ]
 }
