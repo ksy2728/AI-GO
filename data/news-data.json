@@ -1,6 +1,87 @@
 {
   "articles": [
     {
+      "id": "ai-search-startups-are-blowing-up",
+      "title": "AI search startups are blowing up",
+      "summary": "AI search has quietly become one of the most attractive targets in consumer AI.",
+      "content": "AI search has quietly become one of the most attractive targets in consumer AI.",
+      "source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "publishedAt": "2026-05-20T15:04:45.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/05/20/ai-search-startups-are-blowing-up/",
+      "readTime": 3,
+      "views": 47272
+    },
+    {
+      "id": "stability-ai-releases-a-new-audio-model-that-can-c",
+      "title": "Stability AI releases a new audio model that can create six-minute songs",
+      "summary": "0 small model can run on-device and generate two-minute long tracks.",
+      "content": "Stability Audio 3.0 small model can run on-device and generate two-minute long tracks",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-05-20T15:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/05/20/stability-ai-release-a-new-audio-model-that-can-create-six-minute-songs/",
+      "readTime": 3,
+      "views": 45784
+    },
+    {
+      "id": "nanoclaw-creator-turns-down-20m-buyout-offer-raise",
+      "title": "NanoClaw creator turns down $20M buyout offer, raises $12M seed instead",
+      "summary": "NanoCo, the company behind  OpenClaw alternative NanoClaw, has raised a $12 million seed after a viral launch, the founders tell TechCrunch.",
+      "content": "NanoCo, the company behind  OpenClaw alternative NanoClaw, has raised a $12 million seed after a viral launch, the founders tell TechCrunch.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2026-05-20T14:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/05/20/nanoclaw-creator-turns-down-20m-buyout-offer-raises-12m-seed-instead/",
+      "readTime": 3,
+      "views": 33929
+    },
+    {
+      "id": "figma-adds-an-ai-assistant-to-its-collaborative-ca",
+      "title": "Figma adds an AI assistant to its collaborative canvas",
+      "summary": "Figma's new AI assistant will be first available on Figma Design.",
+      "content": "Figma's new AI assistant will be first available on Figma Design",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-05-20T13:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/05/20/figma-adds-an-ai-assistant-to-its-collaborative-canvas/",
+      "readTime": 3,
+      "views": 51758
+    },
+    {
+      "id": "alibaba-is-designing-ai-chips-around-agents-and-th",
+      "title": "Alibaba is designing AI chips around agents, and that changes what the race is actually about",
+      "summary": "Alibaba has unveiled a new AI processor built specifically for AI agents, pairing the chip announcement with a multi-year silicon roadmap and a new large language model, signalling that the company is.",
+      "content": "Alibaba has unveiled a new AI processor built specifically for AI agents, pairing the chip announcement with a multi-year silicon roadmap and a new large language model, signalling that the company is building an integrated AI stack, not just filling a gap left by US export controls. The Zhenwu M890",
+      "source": "AI News",
+      "author": "Dashveenjit Kaur",
+      "publishedAt": "2026-05-20T10:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "language model"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/alibaba-zhenwu-m890-ai-agent-chip-roadmap/",
+      "readTime": 3,
+      "views": 20554
+    },
+    {
       "id": "google-just-declared-itself-a-contender-in-ai-desi",
       "title": "Google just declared itself a contender in AI design at IO 2026",
       "summary": "Google says it's designed the app to be accessible to everyone, from teachers to small business owners.",
@@ -15,7 +96,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/19/ai-design-tools-are-the-next-big-battleground-and-google-is-going-all-in-at-io-2026/",
       "readTime": 3,
-      "views": 29929
+      "views": 24486
     },
     {
       "id": "you-can-now-talk-to-your-gmail-inbox-as-seen-at-go",
@@ -33,7 +114,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/19/you-can-now-talk-to-your-gmail-inbox-as-seen-at-google-io-2026/",
       "readTime": 3,
-      "views": 26532
+      "views": 39678
     },
     {
       "id": "how-to-use-google-s-new-ai-agents-to-go-beyond-you",
@@ -50,7 +131,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/19/how-to-use-googles-new-ai-agents-to-go-beyond-your-standard-searches/",
       "readTime": 3,
-      "views": 45256
+      "views": 15897
     },
     {
       "id": "from-teen-hacker-to-iron-dome-researcher-this-foun",
@@ -66,7 +147,25 @@
       ],
       "url": "https://techcrunch.com/2026/05/19/from-teen-hacker-to-iron-dome-researcher-this-founder-raised-28m-to-fight-ai-phishing/",
       "readTime": 3,
-      "views": 15309
+      "views": 9370
+    },
+    {
+      "id": "roundtables-inside-the-musk-v-altman-trial",
+      "title": "Roundtables: Inside the Musk v. Altman Trial",
+      "summary": "Listen to the session or watch below Elon Musk lost his suit against OpenAI, in which he alleged CEO Sam Altman and President Greg Brockman had deceived him over the company’s non-profit status.  Watc.",
+      "content": "Listen to the session or watch below Elon Musk lost his suit against OpenAI, in which he alleged CEO Sam Altman and President Greg Brockman had deceived him over the company’s non-profit status. Watch as AI reporter and attorney Michelle Kim, who covered the trial for MIT Technology Review, joins in",
+      "source": "MIT Technology Review AI",
+      "author": "MIT Technology Review",
+      "publishedAt": "2026-05-19T20:15:18.000Z",
+      "category": "research",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://www.technologyreview.com/2026/05/19/1137454/roundtables-inside-the-musk-v-altman-trial/",
+      "readTime": 3,
+      "views": 14162
     },
     {
       "id": "elon-musk-said-sam-altman-8216-stole-8217-a-non-pr",
@@ -85,7 +184,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/19/elon-musk-said-sam-altman-stole-a-non-profit-but-the-trial-showed-he-had-similar-aims/",
       "readTime": 3,
-      "views": 32635
+      "views": 47773
     },
     {
       "id": "enterprise-ai-roadblocks-and-roadmaps-security-and",
@@ -101,7 +200,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/tech-ex-north-america-day-two-roundup-of-themes-issues-discussions/",
       "readTime": 3,
-      "views": 18677
+      "views": 50269
     },
     {
       "id": "google-takes-a-page-out-of-meta-8217-s-book-announ",
@@ -119,7 +218,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/19/google-takes-a-page-out-of-metas-book-announces-new-audio-powered-smart-glasses-at-io-2026/",
       "readTime": 3,
-      "views": 37051
+      "views": 51573
     },
     {
       "id": "google-s-genie-world-model-can-now-simulate-real-s",
@@ -136,7 +235,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/19/googles-genie-world-model-can-now-simulate-real-streets-with-street-view/",
       "readTime": 3,
-      "views": 37838
+      "views": 24131
     },
     {
       "id": "with-gemini-3-5-flash-google-bets-its-next-ai-wave",
@@ -155,7 +254,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/19/with-gemini-3-5-flash-google-bets-its-next-ai-wave-on-agents-not-chatbots/",
       "readTime": 3,
-      "views": 26462
+      "views": 9502
     },
     {
       "id": "google-search-as-you-know-it-is-over",
@@ -172,7 +271,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/19/google-search-as-you-know-it-is-over/",
       "readTime": 3,
-      "views": 23660
+      "views": 23052
     },
     {
       "id": "openai-is-making-it-easier-to-check-if-an-image-wa",
@@ -191,7 +290,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/19/openai-is-making-it-easier-to-check-if-an-image-was-made-by-their-models/",
       "readTime": 3,
-      "views": 42429
+      "views": 39100
     },
     {
       "id": "google-8217-s-ai-studio-now-lets-anyone-build-andr",
@@ -208,7 +307,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/19/googles-ai-studio-now-lets-anyone-build-android-apps-in-minutes/",
       "readTime": 3,
-      "views": 18034
+      "views": 36270
     },
     {
       "id": "agentic-app-coding-gets-an-upgrade-with-google-821",
@@ -228,7 +327,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/19/agentic-app-coding-gets-an-upgrade-with-googles-release-of-android-cli/",
       "readTime": 3,
-      "views": 22331
+      "views": 31085
     },
     {
       "id": "google-introduces-gemini-spark-a-24-7-agentic-assi",
@@ -246,123 +345,20 @@
       ],
       "url": "https://techcrunch.com/2026/05/19/google-introduces-gemini-spark-a-24-7-agentic-assistant-with-gmail-integration/",
       "readTime": 3,
-      "views": 38601
-    },
-    {
-      "id": "google-adds-voice-based-prompting-to-docs-and-keep",
-      "title": "Google adds voice-based prompting to Docs and Keep",
-      "summary": "Google is letting users create drafts, take notes, and search for email with voice with the new Workspace update.",
-      "content": "Google is letting users create drafts, take notes, and search for email with voice with the new Workspace update.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-05-19T17:45:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/05/19/google-adds-voice-based-prompting-to-docs-and-keep/",
-      "readTime": 3,
-      "views": 50589
-    },
-    {
-      "id": "google-launches-antigravity-2-0-with-an-updated-de",
-      "title": "Google launches Antigravity 2.0 with an updated desktop app and CLI tool at IO 2026",
-      "summary": "Google is debuting a new AI Ultra plan priced at $100, which will give users 5x more usage limit than the AI Pro plan alongside the Antigravity 2.",
-      "content": "Google is debuting a new AI Ultra plan priced at $100, which will give users 5x more usage limit than the AI Pro plan alongside the Antigravity 2.0 launch.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-05-19T17:45:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/05/19/google-launches-antigravity-2-0-with-an-updated-desktop-app-and-cli-tool-at-io-2026/",
-      "readTime": 3,
-      "views": 50384
-    },
-    {
-      "id": "google-updates-its-gemini-app-to-take-on-chatgpt-a",
-      "title": "Google updates its Gemini app to take on ChatGPT and Claude at IO 2026",
-      "summary": "The updates signal Google’s push to turn its Gemini app into an all-purpose AI hub rather than a stand-alone chatbot.",
-      "content": "The updates signal Google’s push to turn its Gemini app into an all-purpose AI hub rather than a stand-alone chatbot.",
-      "source": "TechCrunch AI",
-      "author": "Aisha Malik",
-      "publishedAt": "2026-05-19T17:45:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gpt",
-        "claude",
-        "gemini",
-        "chatgpt"
-      ],
-      "url": "https://techcrunch.com/2026/05/19/google-updates-its-gemini-app-to-take-on-chatgpt-and-claude-at-io-2026/",
-      "readTime": 3,
-      "views": 29929
-    },
-    {
-      "id": "openai-co-founder-andrej-karpathy-joins-anthropic-",
-      "title": "OpenAI co-founder Andrej Karpathy joins Anthropic&#8217;s pre-training team",
-      "summary": "Pre-training is responsible for the large-scale training runs that give Claude its core knowledge and capabilities, according to the company.  It's also one of the most expensive, compute-intensive ph.",
-      "content": "Pre-training is responsible for the large-scale training runs that give Claude its core knowledge and capabilities, according to the company. It's also one of the most expensive, compute-intensive phases of building a frontier model.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan, Lorenzo Franceschi-Bicchierai",
-      "publishedAt": "2026-05-19T15:43:04.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "anthropic",
-        "claude",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/",
-      "readTime": 3,
-      "views": 24216
-    },
-    {
-      "id": "the-nvidia-h200-china-deal-survived-the-trump-xi-s",
-      "title": "The Nvidia H200 China deal survived the Trump-Xi summit–just not in the way anyone expected",
-      "summary": "President Trump flew to Beijing, brought Jensen Huang along at the last minute, and left two days later, telling reporters that &#8220;something could happen&#8221; on chip exports.  Not a single Nvid.",
-      "content": "President Trump flew to Beijing, brought Jensen Huang along at the last minute, and left two days later, telling reporters that &#8220;something could happen&#8221; on chip exports. Nothing did. Not a single Nvidia H200 has shipped to China since Trump first authorised the sales in December 2025, an",
-      "source": "AI News",
-      "author": "Dashveenjit Kaur",
-      "publishedAt": "2026-05-19T10:00:00.000Z",
-      "category": "market",
-      "tags": [],
-      "url": "https://www.artificialintelligence-news.com/news/nvidia-h200-china-deal-stalled-trump-xi-summit-2026/",
-      "readTime": 3,
-      "views": 7497
-    },
-    {
-      "id": "ai-is-a-matter-of-power-infrastructure-and-securit",
-      "title": "AI is a matter of power, infrastructure and security: TechEx North America",
-      "summary": "Although visitors to an event like TechEx North America will always want to see the cutting edge front and centre stage, the nuance and detail brought to the show by the speakers and exhibitors mean t.",
-      "content": "Although visitors to an event like TechEx North America will always want to see the cutting edge front and centre stage, the nuance and detail brought to the show by the speakers and exhibitors mean that it&#8217;s sometimes the smaller considerations that need to play big – at least, in the minds o",
-      "source": "AI News",
-      "author": "Joe Green",
-      "publishedAt": "2026-05-19T01:36:26.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/techex-north-america-day-one-lessons-for-all-around-ai-and-more/",
-      "readTime": 3,
-      "views": 10595
+      "views": 25929
     }
   ],
-  "lastUpdated": "2026-05-20T09:31:56.412Z",
+  "lastUpdated": "2026-05-20T15:17:31.737Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
     "TechCrunch AI",
-    "AI News"
+    "AI News",
+    "MIT Technology Review AI"
   ],
   "categories": [
-    "market",
     "release",
+    "market",
     "research",
     "regulation"
   ]
