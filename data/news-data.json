@@ -1,6 +1,106 @@
 {
   "articles": [
     {
+      "id": "anthropic-s-code-with-claude-showed-off-coding-821",
+      "title": "Anthropic’s Code with Claude showed off coding&#8217;s future—whether you like it or not",
+      "summary": "The vibes were strong at Code with Claude, Anthropic’s two-day event for software developers in London that kicked off on May 19, the same day as Google’s I/O in Palo Alto.  (A coincidence, not a flex.",
+      "content": "The vibes were strong at Code with Claude, Anthropic’s two-day event for software developers in London that kicked off on May 19, the same day as Google’s I/O in Palo Alto. (A coincidence, not a flex, Anthropic staffers assured me.) “Who here has shipped a pull request in the last week that was comp",
+      "source": "MIT Technology Review AI",
+      "author": "Will Douglas Heaven",
+      "publishedAt": "2026-05-21T14:30:45.000Z",
+      "category": "research",
+      "tags": [
+        "anthropic",
+        "claude",
+        "Google",
+        "Anthropic"
+      ],
+      "url": "https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/",
+      "readTime": 3,
+      "views": 34223
+    },
+    {
+      "id": "hark-raises-700m-series-a-for-its-secretive-8220-u",
+      "title": "Hark raises $700M Series A for its secretive &#8220;universal&#8221; AI interface",
+      "summary": "Brett Adcock's new AI startup is now valued at $6 billion by its investors.",
+      "content": "Brett Adcock's new AI startup is now valued at $6 billion by its investors.",
+      "source": "TechCrunch AI",
+      "author": "Tim Fernholz",
+      "publishedAt": "2026-05-21T14:00:00.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/05/21/hark-raises-700m-series-a-for-its-secretive-universal-ai-interface/",
+      "readTime": 3,
+      "views": 12113
+    },
+    {
+      "id": "the-path-founded-by-tony-robbins-and-calm-alums-ho",
+      "title": "The Path, founded by Tony Robbins and Calm alums, hopes to offer safer AI therapy",
+      "summary": "The Path says its AI model has scored 95 on the mental health safety AI benchmark, Vera-MH.  This compares to a top score of 65 for the consumer bots.",
+      "content": "The Path says its AI model has scored 95 on the mental health safety AI benchmark, Vera-MH. This compares to a top score of 65 for the consumer bots.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2026-05-21T14:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "ai model"
+      ],
+      "url": "https://techcrunch.com/2026/05/21/the-path-founded-by-tony-robbins-and-calm-alums-wants-to-offer-safer-ai-therapy/",
+      "readTime": 3,
+      "views": 9124
+    },
+    {
+      "id": "google-is-pitching-an-ai-agent-ecosystem-to-consum",
+      "title": "Google is pitching an AI agent ecosystem to consumers who may not buy it",
+      "summary": "The AI agents are coming.",
+      "content": "The AI agents are coming. A lot of them.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-05-21T13:52:23.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2026/05/21/google-is-pitching-an-ai-agent-ecosystem-to-consumers-who-may-not-buy-it/",
+      "readTime": 3,
+      "views": 32303
+    },
+    {
+      "id": "with-aluminum-prices-up-20-recycling-startups-bet-",
+      "title": "With aluminum prices up 20%, recycling startups bet on AI to cash in",
+      "summary": "Recycling startups are using AI to improve the recovery of critical minerals like aluminum, aiming to build a massive source of the metal.",
+      "content": "Recycling startups are using AI to improve the recovery of critical minerals like aluminum, aiming to build a massive source of the metal.",
+      "source": "TechCrunch AI",
+      "author": "Tim De Chant",
+      "publishedAt": "2026-05-21T13:38:42.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Meta"
+      ],
+      "url": "https://techcrunch.com/2026/05/21/with-aluminum-prices-up-20-recycling-startups-bet-on-ai-to-cash-in/",
+      "readTime": 3,
+      "views": 36300
+    },
+    {
+      "id": "nvidia-8217-s-vera-chip-is-the-us-200-billion-bet-",
+      "title": "Nvidia&#8217;s Vera chip is the US$200 billion bet Jensen Huang doesn&#8217;t want you to overlook",
+      "summary": "The Nvidia Vera chip is rarely the headline when earnings beat estimates, but it should be.  When Nvidia reported Q1 revenue of US$81.",
+      "content": "The Nvidia Vera chip is rarely the headline when earnings beat estimates, but it should be. When Nvidia reported Q1 revenue of US$81.62 billion on Wednesday, beating analyst estimates of US$78.86 billion, and guided Q2 at US$91 billion–well above Wall Street&#8217;s US$86.84 billion forecast–the num",
+      "source": "AI News",
+      "author": "Dashveenjit Kaur",
+      "publishedAt": "2026-05-21T08:00:00.000Z",
+      "category": "market",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/nvidia-vera-chip-200-billion-market/",
+      "readTime": 3,
+      "views": 50807
+    },
+    {
       "id": "jensen-huang-says-he-8217-s-found-a-8216-brand-new",
       "title": "Jensen Huang says he&#8217;s found a &#8216;brand new&#8217; $200B market for Nvidia",
       "summary": "The next big thing for Nvidia will be CPUs for AI agents, $200 billion worth, CEO Jensen Huang predicts.",
@@ -14,7 +114,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/20/jensen-huang-says-hes-found-a-brand-new-200b-market-for-nvidia/",
       "readTime": 3,
-      "views": 39511
+      "views": 32244
     },
     {
       "id": "anthropic-says-it-8217-s-about-to-have-its-first-p",
@@ -31,7 +131,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/20/anthropic-says-its-about-to-have-its-first-profitable-quarter/",
       "readTime": 3,
-      "views": 21579
+      "views": 28139
     },
     {
       "id": "clouted-wants-to-take-the-guesswork-out-of-making-",
@@ -47,7 +147,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/20/clouted-wants-to-take-the-guesswork-out-of-making-short-videos-go-viral/",
       "readTime": 3,
-      "views": 19771
+      "views": 49410
     },
     {
       "id": "xai-burned-6-4b-last-year-spacex-s-ipo-filing-show",
@@ -63,7 +163,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/20/xai-burned-6-4b-last-year-spacexs-ipo-filing-shows-why-the-spending-is-far-from-over/",
       "readTime": 3,
-      "views": 30374
+      "views": 21896
     },
     {
       "id": "musk-s-xai-is-being-sued-over-its-data-center-gene",
@@ -79,7 +179,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/20/musks-xai-is-being-sued-over-its-data-center-generators-now-its-buying-2-8b-more/",
       "readTime": 3,
-      "views": 35199
+      "views": 15700
     },
     {
       "id": "anthropic-will-pay-xai-1-25b-per-month-for-compute",
@@ -97,7 +197,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/20/anthropic-will-pay-xai-1-25-billion-per-month-for-compute/",
       "readTime": 3,
-      "views": 51429
+      "views": 51011
     },
     {
       "id": "openai-claims-it-solved-an-80-year-old-math-proble",
@@ -115,7 +215,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/20/openai-claims-it-solved-an-80-year-old-math-problem-for-real-this-time/",
       "readTime": 3,
-      "views": 31796
+      "views": 44847
     },
     {
       "id": "irisgo-a-startup-backed-by-andrew-ng-looks-to-beco",
@@ -131,7 +231,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/20/irisgo-a-startup-backed-by-andrew-ng-looks-to-become-the-ai-desktop-buddy-you-never-knew-you-needed/",
       "readTime": 3,
-      "views": 20808
+      "views": 8677
     },
     {
       "id": "openai-barrels-toward-ipo-that-may-happen-in-septe",
@@ -149,7 +249,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/20/openai-barrels-toward-ipo-that-may-happen-in-september/",
       "readTime": 3,
-      "views": 33570
+      "views": 50661
     },
     {
       "id": "ai-search-startups-are-blowing-up",
@@ -165,7 +265,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/20/ai-search-startups-are-blowing-up/",
       "readTime": 3,
-      "views": 6293
+      "views": 35159
     },
     {
       "id": "stability-ai-releases-a-new-audio-model-that-can-c",
@@ -181,7 +281,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/20/stability-ai-release-a-new-audio-model-that-can-create-six-minute-songs/",
       "readTime": 3,
-      "views": 14835
+      "views": 12788
     },
     {
       "id": "nanoclaw-creator-turns-down-20m-buyout-offer-raise",
@@ -197,7 +297,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/20/nanoclaw-creator-turns-down-20m-buyout-offer-raises-12m-seed-instead/",
       "readTime": 3,
-      "views": 51083
+      "views": 45708
     },
     {
       "id": "figma-adds-an-ai-assistant-to-its-collaborative-ca",
@@ -214,144 +314,38 @@
       ],
       "url": "https://techcrunch.com/2026/05/20/figma-adds-an-ai-assistant-to-its-collaborative-canvas/",
       "readTime": 3,
-      "views": 43502
+      "views": 9586
     },
     {
-      "id": "google-just-declared-itself-a-contender-in-ai-desi",
-      "title": "Google just declared itself a contender in AI design at IO 2026",
-      "summary": "Google says it's designed the app to be accessible to everyone, from teachers to small business owners.",
-      "content": "Google says it's designed the app to be accessible to everyone, from teachers to small business owners.",
-      "source": "TechCrunch AI",
-      "author": "Aisha Malik",
-      "publishedAt": "2026-05-19T21:33:30.000Z",
-      "category": "market",
-      "tags": [
-        "ai",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/05/19/ai-design-tools-are-the-next-big-battleground-and-google-is-going-all-in-at-io-2026/",
-      "readTime": 3,
-      "views": 51128
-    },
-    {
-      "id": "you-can-now-talk-to-your-gmail-inbox-as-seen-at-go",
-      "title": "You can now talk to your Gmail inbox, as seen at Google IO 2026",
-      "summary": "Google expands Gmail’s AI Inbox with conversational voice search, letting users ask Gemini to find buried email details.",
-      "content": "Google expands Gmail’s AI Inbox with conversational voice search, letting users ask Gemini to find buried email details.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-05-19T21:25:31.000Z",
+      "id": "alibaba-is-designing-ai-chips-around-agents-and-th",
+      "title": "Alibaba is designing AI chips around agents, and that changes what the race is actually about",
+      "summary": "Alibaba has unveiled a new AI processor built specifically for AI agents, pairing the chip announcement with a multi-year silicon roadmap and a new large language model, signalling that the company is.",
+      "content": "Alibaba has unveiled a new AI processor built specifically for AI agents, pairing the chip announcement with a multi-year silicon roadmap and a new large language model, signalling that the company is building an integrated AI stack rather than just filling a gap left by US export controls. The Zhen",
+      "source": "AI News",
+      "author": "Dashveenjit Kaur",
+      "publishedAt": "2026-05-20T10:00:00.000Z",
       "category": "release",
       "tags": [
         "ai",
-        "gemini",
-        "Google"
+        "language model"
       ],
-      "url": "https://techcrunch.com/2026/05/19/you-can-now-talk-to-your-gmail-inbox-as-seen-at-google-io-2026/",
+      "url": "https://www.artificialintelligence-news.com/news/alibaba-zhenwu-m890-ai-agent-chip-roadmap/",
       "readTime": 3,
-      "views": 37862
-    },
-    {
-      "id": "how-to-use-google-s-new-ai-agents-to-go-beyond-you",
-      "title": "How to use Google’s new AI agents to go beyond your standard searches",
-      "summary": "Google is launching AI-powered “information agents” that can monitor topics in the background and proactively alert users to updates and changes.",
-      "content": "Google is launching AI-powered “information agents” that can monitor topics in the background and proactively alert users to updates and changes.",
-      "source": "TechCrunch AI",
-      "author": "Lauren Forristal",
-      "publishedAt": "2026-05-19T21:16:25.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/05/19/how-to-use-googles-new-ai-agents-to-go-beyond-your-standard-searches/",
-      "readTime": 3,
-      "views": 9056
-    },
-    {
-      "id": "from-teen-hacker-to-iron-dome-researcher-this-foun",
-      "title": "From teen hacker to Iron Dome researcher, this founder raised $28M to fight AI phishing",
-      "summary": "Ocean, an agentic email security platform, claims its AI can thoroughly analyze the context of every incoming email to detect fraud and impersonation attempts.",
-      "content": "Ocean, an agentic email security platform, claims its AI can thoroughly analyze the context of every incoming email to detect fraud and impersonation attempts.",
-      "source": "TechCrunch AI",
-      "author": "Marina Temkin",
-      "publishedAt": "2026-05-19T21:08:51.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/05/19/from-teen-hacker-to-iron-dome-researcher-this-founder-raised-28m-to-fight-ai-phishing/",
-      "readTime": 3,
-      "views": 38214
-    },
-    {
-      "id": "roundtables-inside-the-musk-v-altman-trial",
-      "title": "Roundtables: Inside the Musk v. Altman Trial",
-      "summary": "Listen to the session or watch below Elon Musk lost his suit against OpenAI, in which he alleged CEO Sam Altman and President Greg Brockman had deceived him over the company’s non-profit status.  Watc.",
-      "content": "Listen to the session or watch below Elon Musk lost his suit against OpenAI, in which he alleged CEO Sam Altman and President Greg Brockman had deceived him over the company’s non-profit status. Watch as AI reporter and attorney Michelle Kim, who covered the trial for MIT Technology Review, joins in",
-      "source": "MIT Technology Review AI",
-      "author": "MIT Technology Review",
-      "publishedAt": "2026-05-19T20:15:18.000Z",
-      "category": "research",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://www.technologyreview.com/2026/05/19/1137454/roundtables-inside-the-musk-v-altman-trial/",
-      "readTime": 3,
-      "views": 9225
-    },
-    {
-      "id": "elon-musk-said-sam-altman-8216-stole-8217-a-non-pr",
-      "title": "Elon Musk said Sam Altman &#8216;stole&#8217; a non-profit — but the trial showed he had similar aims",
-      "summary": "The jury's speedy decision to reject Elon Musk's lawsuit against the other founders of OpenAI and Microsoft confirmed what we saw in the courtroom: Musk's case was a weak one, in part because he waite.",
-      "content": "The jury's speedy decision to reject Elon Musk's lawsuit against the other founders of OpenAI and Microsoft confirmed what we saw in the courtroom: Musk's case was a weak one, in part because he waited so long to file it.",
-      "source": "TechCrunch AI",
-      "author": "Tim Fernholz",
-      "publishedAt": "2026-05-19T20:11:00.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI",
-        "Microsoft"
-      ],
-      "url": "https://techcrunch.com/2026/05/19/elon-musk-said-sam-altman-stole-a-non-profit-but-the-trial-showed-he-had-similar-aims/",
-      "readTime": 3,
-      "views": 47734
-    },
-    {
-      "id": "here-s-why-elon-musk-lost-his-suit-against-openai",
-      "title": "Here’s why Elon Musk lost his suit against OpenAI",
-      "summary": "On Monday, the jury in Musk v.  Altman dealt Elon Musk a major blow—reaching a unanimous advisory verdict that he had sued OpenAI too late and, as a result, his claims are barred by the applicable sta.",
-      "content": "On Monday, the jury in Musk v. Altman dealt Elon Musk a major blow—reaching a unanimous advisory verdict that he had sued OpenAI too late and, as a result, his claims are barred by the applicable statutes of limitations. US District Judge Yvonne Gonzalez Rogers immediately accepted it.&#160; Musk an",
-      "source": "MIT Technology Review AI",
-      "author": "Michelle Kim",
-      "publishedAt": "2026-05-19T00:53:10.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://www.technologyreview.com/2026/05/18/1137488/elon-musk-suit-openai-verdict/",
-      "readTime": 3,
-      "views": 17597
+      "views": 33746
     }
   ],
-  "lastUpdated": "2026-05-21T09:38:42.767Z",
+  "lastUpdated": "2026-05-21T15:23:13.664Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
+    "MIT Technology Review AI",
     "TechCrunch AI",
-    "MIT Technology Review AI"
+    "AI News"
   ],
   "categories": [
-    "market",
-    "release",
-    "funding",
     "research",
-    "regulation"
+    "funding",
+    "release",
+    "market"
   ]
 }
