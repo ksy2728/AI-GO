@@ -1,8 +1,107 @@
 {
   "articles": [
     {
+      "id": "glean-8217-s-top-line-crosses-300m-as-ai-budget-cu",
+      "title": "Glean&#8217;s top line crosses $300M as AI budget-cutting becomes its major selling point",
+      "summary": "The enterprise AI search startup tripled its annual revenue even as tech giants entered the category.",
+      "content": "The enterprise AI search startup tripled its annual revenue even as tech giants entered the category.",
+      "source": "TechCrunch AI",
+      "author": "Marina Temkin",
+      "publishedAt": "2026-05-29T00:44:37.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point/",
+      "readTime": 3,
+      "views": 40342
+    },
+    {
+      "id": "the-internet-is-being-rebuilt-for-machines",
+      "title": "The internet is being rebuilt for machines",
+      "summary": "As AI agents move from experiments to production, AWS, Cloudflare, and others are redesigning cloud infrastructure for a future dominated by machine-generated internet traffic instead of human users.",
+      "content": "As AI agents move from experiments to production, AWS, Cloudflare, and others are redesigning cloud infrastructure for a future dominated by machine-generated internet traffic instead of human users.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-05-28T21:24:01.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/05/28/the-internet-is-being-rebuilt-for-machines/",
+      "readTime": 3,
+      "views": 54897
+    },
+    {
+      "id": "asana-acquires-no-code-agent-builder-stackai",
+      "title": "Asana acquires no-code agent-builder StackAI",
+      "summary": "Asana will incorporate StackAI into its growing suite of AI workflow tools.",
+      "content": "Asana will incorporate StackAI into its growing suite of AI workflow tools.",
+      "source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "publishedAt": "2026-05-28T20:06:07.000Z",
+      "category": "partnership",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/05/28/asana-acquires-no-code-agent-builder-stack-ai/",
+      "readTime": 3,
+      "views": 37790
+    },
+    {
+      "id": "anthropic-raises-65-billion-nears-1t-valuation-ahe",
+      "title": "Anthropic raises $65 billion, nears $1T valuation ahead of IPO",
+      "summary": "Anthropic has closed a $65 billion Series H round at a $965 billion post-money valuation, marking what could be the AI startup's final private fundraise before a highly anticipated IPO.",
+      "content": "Anthropic has closed a $65 billion Series H round at a $965 billion post-money valuation, marking what could be the AI startup's final private fundraise before a highly anticipated IPO.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-05-28T18:52:51.000Z",
+      "category": "funding",
+      "tags": [
+        "ai",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/",
+      "readTime": 3,
+      "views": 8991
+    },
+    {
+      "id": "just-like-gold-and-oil-we-8217-ll-soon-be-able-to-",
+      "title": "Just like gold and oil, we&#8217;ll soon be able to trade AI token futures",
+      "summary": "Large exchanges are designing derivative products around AI tokens, which are increasingly being considered less a computational output and more a raw material input, like electricity or bandwidth.",
+      "content": "Large exchanges are designing derivative products around AI tokens, which are increasingly being considered less a computational output and more a raw material input, like electricity or bandwidth.",
+      "source": "TechCrunch AI",
+      "author": "Ram Iyer",
+      "publishedAt": "2026-05-28T18:32:25.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/05/28/just-like-gold-and-oil-well-soon-be-able-to-trade-ai-token-futures/",
+      "readTime": 3,
+      "views": 31329
+    },
+    {
+      "id": "anthropic-releases-opus-4-8-with-new-8216-dynamic-",
+      "title": "Anthropic releases Opus 4.8 with new &#8216;dynamic workflow&#8217; tool",
+      "summary": "The new Opus model comes with a tool called Dynamic Workflows, for coordinating swarms of subagents.",
+      "content": "The new Opus model comes with a tool called Dynamic Workflows, for coordinating swarms of subagents.",
+      "source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "publishedAt": "2026-05-28T17:00:09.000Z",
+      "category": "release",
+      "tags": [
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/05/28/anthropic-releases-opus-4-8-with-new-dynamic-workflow-tool/",
+      "readTime": 3,
+      "views": 7775
+    },
+    {
       "id": "how-long-is-anthropic-8217-s-lease-with-spacex-opi",
-      "title": "How long is Anthropic&#8217;s lease with SpaceX? Opinions vary.",
+      "title": "How long is Anthropic&#8217;s lease with SpaceX? Opinions vary",
       "summary": "Elon Musk is publicly reframing xAI’s massive Anthropic compute deal as short-term and cancellable, despite SpaceX’s own S-1 filing describing payments through May 2029.",
       "content": "Elon Musk is publicly reframing xAI’s massive Anthropic compute deal as short-term and cancellable, despite SpaceX’s own S-1 filing describing payments through May 2029.",
       "source": "TechCrunch AI",
@@ -16,7 +115,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/28/how-long-is-anthropics-lease-with-spacex-opinions-vary/",
       "readTime": 3,
-      "views": 49556
+      "views": 52996
     },
     {
       "id": "sesame-the-conversational-ai-startup-from-oculus-f",
@@ -32,13 +131,13 @@
       ],
       "url": "https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app/",
       "readTime": 3,
-      "views": 11866
+      "views": 17691
     },
     {
       "id": "sneak-peek-at-new-siri-app-reveals-apple-8217-s-pl",
       "title": "Sneak peek at new Siri app reveals Apple&#8217;s plans to take on ChatGPT and more",
-      "summary": "New renders offer a closer look at Apple’s planned AI overhaul for iOS 27, including a redesigned Siri experience powered and standalone Siri app.",
-      "content": "New renders offer a closer look at Apple’s planned AI overhaul for iOS 27, including a redesigned Siri experience powered and standalone Siri app.",
+      "summary": "New renders offer a closer look at Apple’s planned AI overhaul for iOS 27, including a redesigned Siri experience and standalone Siri app.",
+      "content": "New renders offer a closer look at Apple’s planned AI overhaul for iOS 27, including a redesigned Siri experience and standalone Siri app.",
       "source": "TechCrunch AI",
       "author": "Sarah Perez",
       "publishedAt": "2026-05-28T14:45:13.000Z",
@@ -51,7 +150,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/28/sneak-peek-at-new-siri-app-reveals-apples-plans-to-take-on-chatgpt-and-more/",
       "readTime": 3,
-      "views": 31849
+      "views": 9294
     },
     {
       "id": "rsi-is-the-new-agi-and-it-8217-s-just-as-hard-to-p",
@@ -67,7 +166,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/28/rsi-is-the-new-agi-and-its-just-as-hard-to-pin-down/",
       "readTime": 3,
-      "views": 8754
+      "views": 13718
     },
     {
       "id": "at-techcrunch-disrupt-2026-databricks-co-founder-o",
@@ -83,7 +182,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/28/techcrunch-disrupt-2026-databricks-co-founder-on-what-kills-enterprise-ai-deals/",
       "readTime": 3,
-      "views": 43203
+      "views": 9989
     },
     {
       "id": "youtube-adds-new-podcast-features-including-an-ai-",
@@ -99,13 +198,13 @@
       ],
       "url": "https://techcrunch.com/2026/05/28/youtube-adds-new-podcast-features-including-an-ai-recommendation-tool-and-auto-speed/",
       "readTime": 3,
-      "views": 53102
+      "views": 21309
     },
     {
       "id": "visa-invests-in-replit-to-power-agentic-payments-f",
       "title": "Visa invests in Replit to power agentic payments for developers",
-      "summary": "Visa said that over 1,000 employees has been using Replit for prototyping and development.",
-      "content": "Visa said that over 1,000 employees has been using Replit for prototyping and development",
+      "summary": "Visa said that over 1,000 employees have been using Replit for prototyping and development.",
+      "content": "Visa said that over 1,000 employees have been using Replit for prototyping and development.",
       "source": "TechCrunch AI",
       "author": "Ivan Mehta",
       "publishedAt": "2026-05-28T14:00:00.000Z",
@@ -115,7 +214,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/28/visa-invests-in-replit-to-power-agentic-payments-for-developers/",
       "readTime": 3,
-      "views": 9345
+      "views": 47768
     },
     {
       "id": "has-the-hunt-for-ai-compute-uncovered-the-next-cer",
@@ -131,7 +230,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/28/has-the-hunt-for-ai-compute-uncovered-the-next-cerebras/",
       "readTime": 3,
-      "views": 17156
+      "views": 38737
     },
     {
       "id": "the-ai-hype-index-ai-gets-booed-in-graduation-seas",
@@ -148,7 +247,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/05/28/1138053/the-ai-hype-index-ai-gets-booed-in-graduation-season/",
       "readTime": 3,
-      "views": 36476
+      "views": 32431
     },
     {
       "id": "vertu-wants-ceos-to-run-companies-from-an-ai-folda",
@@ -164,7 +263,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/28/vertu-wants-ceos-to-run-companies-from-an-ai-foldable-starting-at-6880/",
       "readTime": 3,
-      "views": 46176
+      "views": 46879
     },
     {
       "id": "why-google-8217-s-ai-can-8217-t-spell-google-or-an",
@@ -181,7 +280,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/27/why-googles-ai-cant-spell-google-or-anything-else/",
       "readTime": 3,
-      "views": 38105
+      "views": 18282
     },
     {
       "id": "in-more-good-news-for-amazon-snowflake-signs-6b-de",
@@ -197,7 +296,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/27/in-more-good-news-for-amazon-snowflake-signs-6b-deal-with-aws-for-ai-cpu-chips/",
       "readTime": 3,
-      "views": 13979
+      "views": 50852
     },
     {
       "id": "payroll-startup-remote-says-it-grew-revenue-50-per",
@@ -213,87 +312,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/27/payroll-startup-remote-says-it-grew-revenue-50-per-employee-without-adding-headcount/",
       "readTime": 3,
-      "views": 53179
-    },
-    {
-      "id": "your-seo-strategy-is-optimized-for-a-search-engine",
-      "title": "Your SEO strategy is optimized for a search engine that no longer exists.",
-      "summary": "Google I/O made it official: AI-generated answers are now front and&#160;center&#160;in search, and most brands have almost no visibility into how AI is describing them to their customers. &#160;For a.",
-      "content": "Google I/O made it official: AI-generated answers are now front and&#160;center&#160;in search, and most brands have almost no visibility into how AI is describing them to their customers.&#160;For anyone who has spent years building a strategy around 10 blue links, the rules just changed in a prett",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan, Theresa Loconsolo",
-      "publishedAt": "2026-05-27T18:39:17.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/podcast/your-seo-strategy-is-optimized-for-a-search-engine-that-no-longer-exists/",
-      "readTime": 3,
-      "views": 17928
-    },
-    {
-      "id": "meta-launches-instagram-facebook-and-whatsapp-subs",
-      "title": "Meta launches Instagram, Facebook, and WhatsApp subscriptions, with more to come, including AI plans",
-      "summary": "Meta is rolling out paid subscription plans for Instagram, Facebook, and WhatsApp worldwide, while also testing new AI, creator, and business-focused offerings under its broader “Meta One” subscriptio.",
-      "content": "Meta is rolling out paid subscription plans for Instagram, Facebook, and WhatsApp worldwide, while also testing new AI, creator, and business-focused offerings under its broader “Meta One” subscription brand.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-05-27T18:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Meta"
-      ],
-      "url": "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/",
-      "readTime": 3,
-      "views": 45516
-    },
-    {
-      "id": "ai-coding-startup-cognition-raises-1b-at-25b-pre-m",
-      "title": "AI coding startup Cognition raises $1B at $25B pre-money valuation",
-      "summary": "As Cognition reaches $492 million in annualized revenue run rate, it more than doubled its valuation in eight months, it says.",
-      "content": "As Cognition reaches $492 million in annualized revenue run rate, it more than doubled its valuation in eight months, it says.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2026-05-27T16:00:00.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/05/27/ai-coding-startup-cognition-raises-1b-at-25b-pre-money-valuation/",
-      "readTime": 3,
-      "views": 42090
-    },
-    {
-      "id": "startup-battlefield-200-applications-close-today-n",
-      "title": "Startup Battlefield 200 applications close today: Nominate a founder or submit your startup",
-      "summary": "Today is the final day to apply or nominate a startup for Startup Battlefield 200.  Once the clock strikes 11:59 p.",
-      "content": "Today is the final day to apply or nominate a startup for Startup Battlefield 200. Once the clock strikes 11:59 p.m. PT, the window closes on your chance to compete for $100,000 in equity-free funding, gain global visibility, connect directly with investors, and launch on the TechCrunch Disrupt stag",
-      "source": "TechCrunch AI",
-      "author": "TechCrunch Events",
-      "publishedAt": "2026-05-27T14:15:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/05/27/startup-battlefield-200-applications-close-today-nominate-a-founder-or-submit-your-startup/",
-      "readTime": 3,
-      "views": 17726
-    },
-    {
-      "id": "techcrunch-disrupt-2026-early-bird-ticket-savings-",
-      "title": "TechCrunch Disrupt 2026 Early Bird ticket savings end in 3 days",
-      "summary": "There are only 3 days left to save up to $410 on your ticket to TechCrunch Disrupt 2026.  Early Bird pricing ends May 29 at 11:59 p.",
-      "content": "There are only 3 days left to save up to $410 on your ticket to TechCrunch Disrupt 2026. Early Bird pricing ends May 29 at 11:59 p.m. PT, and once the deadline passes, ticket prices increase. If you plan to attend one of the most influential gatherings in tech this year, now is the time to lock in y",
-      "source": "TechCrunch AI",
-      "author": "TechCrunch Events",
-      "publishedAt": "2026-05-27T14:00:00.000Z",
-      "category": "release",
-      "tags": [],
-      "url": "https://techcrunch.com/2026/05/27/techcrunch-disrupt-2026-early-bird-ticket-savings-end-in-3-days/",
-      "readTime": 3,
-      "views": 11957
+      "views": 34913
     },
     {
       "id": "rethinking-organizational-design-in-the-age-of-age",
@@ -309,27 +328,10 @@
       ],
       "url": "https://www.technologyreview.com/2026/05/26/1137584/rethinking-organizational-design-in-the-age-of-agentic-ai/",
       "readTime": 3,
-      "views": 45446
-    },
-    {
-      "id": "a-reality-check-on-the-ai-jobs-hysteria",
-      "title": "A reality check on the AI jobs hysteria",
-      "summary": "White-collar jobs are going away, decimated by AI.  Waves of layoffs in the tech sector (most recently at Coinbase and Meta and Cisco) are said to presage what will soon come for all of us knowledge w.",
-      "content": "Haven’t you heard? White-collar jobs are going away, decimated by AI. Waves of layoffs in the tech sector (most recently at Coinbase and Meta and Cisco) are said to presage what will soon come for all of us knowledge workers. But before you quit your job as a software developer or financial analyst—",
-      "source": "MIT Technology Review AI",
-      "author": "David Rotman",
-      "publishedAt": "2026-05-26T09:00:00.000Z",
-      "category": "research",
-      "tags": [
-        "ai",
-        "Meta"
-      ],
-      "url": "https://www.technologyreview.com/2026/05/26/1137855/a-reality-check-on-the-ai-jobs-hysteria/",
-      "readTime": 3,
-      "views": 8878
+      "views": 7865
     }
   ],
-  "lastUpdated": "2026-05-28T15:52:28.490Z",
+  "lastUpdated": "2026-05-29T03:32:18.387Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -337,9 +339,10 @@
     "MIT Technology Review AI"
   ],
   "categories": [
-    "release",
-    "research",
     "market",
-    "funding"
+    "release",
+    "partnership",
+    "funding",
+    "research"
   ]
 }
