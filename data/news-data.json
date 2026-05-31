@@ -1,6 +1,41 @@
 {
   "articles": [
     {
+      "id": "meta-is-reportedly-developing-an-ai-pendant",
+      "title": "Meta is reportedly developing an AI pendant",
+      "summary": "Meta seems to be making big bets on AI-powered hardware.",
+      "content": "Meta seems to be making big bets on AI-powered hardware.",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "publishedAt": "2026-05-30T15:59:58.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Meta"
+      ],
+      "url": "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/",
+      "readTime": 3,
+      "views": 51521
+    },
+    {
+      "id": "i-put-google-8217-s-24-7-ai-assistant-gemini-spark",
+      "title": "I put Google&#8217;s 24/7 AI assistant Gemini Spark to work, and it&#8217;s actually pretty useful",
+      "summary": "Gemini Spark helps automate everyday tasks, from inbox summaries to local event planning, but it’s unclear why Google made it a separate product.",
+      "content": "Gemini Spark helps automate everyday tasks, from inbox summaries to local event planning, but it’s unclear why Google made it a separate product.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-05-30T15:30:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gemini",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
+      "readTime": 3,
+      "views": 31889
+    },
+    {
       "id": "as-the-browser-wars-heat-up-here-are-the-hottest-a",
       "title": "As the browser wars heat up, here are the hottest alternatives to Chrome and Safari in 2026",
       "summary": "We’ve compiled an overview of some of the top alternative browsers available today aiming to challenge Chrome and Safari.",
@@ -14,7 +49,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/30/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
       "readTime": 3,
-      "views": 37047
+      "views": 26065
     },
     {
       "id": "coders-are-refusing-to-work-without-ai-and-that-co",
@@ -30,7 +65,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/",
       "readTime": 3,
-      "views": 28776
+      "views": 32865
     },
     {
       "id": "so-you-8217-ve-heard-these-ai-terms-and-nodded-alo",
@@ -46,7 +81,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/29/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
       "readTime": 3,
-      "views": 9188
+      "views": 18750
     },
     {
       "id": "what-happens-when-companies-become-too-ai-pilled",
@@ -62,7 +97,7 @@
       ],
       "url": "https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled/",
       "readTime": 3,
-      "views": 28246
+      "views": 44319
     },
     {
       "id": "after-nvidia-8217-s-20b-not-acqui-hire-ai-chip-sta",
@@ -79,7 +114,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
       "readTime": 3,
-      "views": 51861
+      "views": 8407
     },
     {
       "id": "scaling-safe-enterprise-ai-with-openai-governance-",
@@ -98,7 +133,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/scaling-safe-enterprise-ai-openai-governance-frameworks/",
       "readTime": 3,
-      "views": 15386
+      "views": 40478
     },
     {
       "id": "cognition-8217-s-scott-wu-says-ai-coding-agents-sh",
@@ -114,7 +149,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/",
       "readTime": 3,
-      "views": 46499
+      "views": 30755
     },
     {
       "id": "does-your-ceo-have-ai-psychosis-aaron-levie-thinks",
@@ -130,7 +165,7 @@
       ],
       "url": "https://techcrunch.com/podcast/does-your-ceo-have-ai-psychosis-aaron-levie-thinks-most-of-them-do/",
       "readTime": 3,
-      "views": 32629
+      "views": 14191
     },
     {
       "id": "kiwibit-s-ai-powered-bird-feeder-is-my-new-backyar",
@@ -146,7 +181,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/29/kiwibits-ai-powered-bird-feeder-is-my-new-backyard-buddy/",
       "readTime": 3,
-      "views": 9527
+      "views": 10679
     },
     {
       "id": "this-chip-startup-just-raised-135m-on-a-bet-that-a",
@@ -162,7 +197,26 @@
       ],
       "url": "https://techcrunch.com/2026/05/29/xcena-secures-135m-at-570m-valuation-betting-on-memory-as-ais-real-bottleneck/",
       "readTime": 3,
-      "views": 42410
+      "views": 50131
+    },
+    {
+      "id": "anthropic-releases-claude-opus-4-8",
+      "title": "Anthropic releases Claude Opus 4.8",
+      "summary": "Anthropic has released Claude Opus 4. 8, an upgrade to Claude Opus 4.",
+      "content": "Anthropic has released Claude Opus 4.8, an upgrade to Claude Opus 4.7 that the company says brings improved results for coding, agent work, reasoning, and knowledge work. The platform can be used through claude.ai, Claude Code and the Claude API, with the API name claude-opus-4-8. The company has al",
+      "source": "AI News",
+      "author": "AI News",
+      "publishedAt": "2026-05-29T10:44:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "anthropic",
+        "claude",
+        "Anthropic"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/anthropic-releases-claude-opus-4-8-news/",
+      "readTime": 3,
+      "views": 41902
     },
     {
       "id": "how-the-pope-s-magnifica-humanitas-offers-a-templa",
@@ -179,7 +233,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/05/29/1138107/how-the-popes-magnifica-humanitas-offers-a-template-for-individuals-to-meet-the-ai-moment/",
       "readTime": 3,
-      "views": 33919
+      "views": 21643
     },
     {
       "id": "glean-8217-s-top-line-crosses-300m-as-ai-budget-cu",
@@ -195,7 +249,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point/",
       "readTime": 3,
-      "views": 15395
+      "views": 21715
     },
     {
       "id": "the-internet-is-being-rebuilt-for-machines",
@@ -211,7 +265,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/28/the-internet-is-being-rebuilt-for-machines/",
       "readTime": 3,
-      "views": 19591
+      "views": 45773
     },
     {
       "id": "asana-acquires-no-code-agent-builder-stackai",
@@ -227,7 +281,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/28/asana-acquires-no-code-agent-builder-stack-ai/",
       "readTime": 3,
-      "views": 6337
+      "views": 44272
     },
     {
       "id": "anthropic-raises-65-billion-nears-1t-valuation-ahe",
@@ -245,7 +299,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/",
       "readTime": 3,
-      "views": 44201
+      "views": 46827
     },
     {
       "id": "just-like-gold-and-oil-we-8217-ll-soon-be-able-to-",
@@ -261,58 +315,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/28/just-like-gold-and-oil-well-soon-be-able-to-trade-ai-token-futures/",
       "readTime": 3,
-      "views": 15128
-    },
-    {
-      "id": "anthropic-releases-opus-4-8-with-new-8216-dynamic-",
-      "title": "Anthropic releases Opus 4.8 with new &#8216;dynamic workflow&#8217; tool",
-      "summary": "The new Opus model comes with a tool called Dynamic Workflows, for coordinating swarms of subagents.",
-      "content": "The new Opus model comes with a tool called Dynamic Workflows, for coordinating swarms of subagents.",
-      "source": "TechCrunch AI",
-      "author": "Russell Brandom",
-      "publishedAt": "2026-05-28T17:00:09.000Z",
-      "category": "release",
-      "tags": [
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/05/28/anthropic-releases-opus-4-8-with-new-dynamic-workflow-tool/",
-      "readTime": 3,
-      "views": 33193
-    },
-    {
-      "id": "how-long-is-anthropic-8217-s-lease-with-spacex-opi",
-      "title": "How long is Anthropic&#8217;s lease with SpaceX? Opinions vary",
-      "summary": "Elon Musk is publicly reframing xAI’s massive Anthropic compute deal as short-term and cancellable, despite SpaceX’s own S-1 filing describing payments through May 2029.",
-      "content": "Elon Musk is publicly reframing xAI’s massive Anthropic compute deal as short-term and cancellable, despite SpaceX’s own S-1 filing describing payments through May 2029.",
-      "source": "TechCrunch AI",
-      "author": "Russell Brandom",
-      "publishedAt": "2026-05-28T15:36:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/05/28/how-long-is-anthropics-lease-with-spacex-opinions-vary/",
-      "readTime": 3,
-      "views": 25330
-    },
-    {
-      "id": "sesame-the-conversational-ai-startup-from-oculus-f",
-      "title": "Sesame, the conversational AI startup from Oculus founders, launches its iOS app",
-      "summary": "Sesame’s new iOS app brings its conversational AI agents to the public, offering more natural back-and-forth interactions designed to feel less like traditional chatbots and more like talking to a per.",
-      "content": "Sesame’s new iOS app brings its conversational AI agents to the public, offering more natural back-and-forth interactions designed to feel less like traditional chatbots and more like talking to a person.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-05-28T15:35:43.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app/",
-      "readTime": 3,
-      "views": 9409
+      "views": 16248
     },
     {
       "id": "google-pay-preps-for-ai-agents-with-universal-comm",
@@ -329,10 +332,10 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/google-pay-ai-agents-universal-commerce-protocol/",
       "readTime": 3,
-      "views": 49821
+      "views": 15303
     }
   ],
-  "lastUpdated": "2026-05-30T13:27:26.469Z",
+  "lastUpdated": "2026-05-31T03:45:09.154Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
