@@ -1,6 +1,91 @@
 {
   "articles": [
     {
+      "id": "openai-launches-new-codex-tools-for-white-collar-w",
+      "title": "OpenAI launches new Codex tools for white-collar work",
+      "summary": "OpenAI is getting serious about courting enterprise users.  On Tuesday, the AI lab released a new set of capabilities for Codex, meant to expand the agentic tool&#8217;s uses in the workplace.",
+      "content": "OpenAI is getting serious about courting enterprise users. On Tuesday, the AI lab released a new set of capabilities for Codex, meant to expand the agentic tool&#8217;s uses in the workplace. Together with the new tools, the company released an internal report on how Codex is being used for knowledg",
+      "source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "publishedAt": "2026-06-02T16:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work/",
+      "readTime": 3,
+      "views": 35156
+    },
+    {
+      "id": "anthropic-scales-claude-mythos-to-critical-infrast",
+      "title": "Anthropic scales Claude Mythos  to critical infrastructure in 15+ countries",
+      "summary": "Anthropic is expanding Project Glasswing, its security vulnerability program, and access to Mythos to 150 organizations across 15 countries — targeting critical infrastructure in power, water, healthc.",
+      "content": "Anthropic is expanding Project Glasswing, its security vulnerability program, and access to Mythos to 150 organizations across 15 countries — targeting critical infrastructure in power, water, healthcare, and communications where a cyberattack could affect 100 million people.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-06-02T14:44:21.000Z",
+      "category": "release",
+      "tags": [
+        "anthropic",
+        "claude",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries/",
+      "readTime": 3,
+      "views": 8027
+    },
+    {
+      "id": "zerodrift-raises-10m-to-protect-ai-models-from-the",
+      "title": "ZeroDrift raises $10M to protect AI models from themselves",
+      "summary": "A new AI compliance service sits between AI models and end users to flag and replace any messages that might present a compliance problem.",
+      "content": "A new AI compliance service sits between AI models and end users to flag and replace any messages that might present a compliance problem.",
+      "source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "publishedAt": "2026-06-02T12:32:59.000Z",
+      "category": "funding",
+      "tags": [
+        "ai",
+        "ai model"
+      ],
+      "url": "https://techcrunch.com/2026/06/02/zerodrift-raises-10-million-to-protect-ai-models-from-themselves/",
+      "readTime": 3,
+      "views": 32755
+    },
+    {
+      "id": "rocket-engine-startup-impulse-raises-500-million-t",
+      "title": "Rocket engine startup Impulse raises $500 million to hire people, not AI",
+      "summary": "Engineering physical systems still depends on human talent, according to Impulse Space president Eric Romo.",
+      "content": "Engineering physical systems still depends on human talent, according to Impulse Space president Eric Romo.",
+      "source": "TechCrunch AI",
+      "author": "Tim Fernholz",
+      "publishedAt": "2026-06-02T12:00:00.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/06/02/rocket-engine-startup-impulse-raises-500-million-to-hire-people-not-ai/",
+      "readTime": 3,
+      "views": 44612
+    },
+    {
+      "id": "rehumanizing-global-health-care-with-agentic-ai",
+      "title": "Rehumanizing global health care with agentic AI",
+      "summary": "The global health care sector is under increasing strain. &#160; Decades of chronic underinvestment and constraints in recruitment have coincided with a surge in demand for services for aging populati.",
+      "content": "The global health care sector is under increasing strain.&#160; Decades of chronic underinvestment and constraints in recruitment have coincided with a surge in demand for services for aging populations. Gaps in provision are already taking a toll, with fragmented access to care and high rates of st",
+      "source": "MIT Technology Review AI",
+      "author": "MIT Technology Review Insights",
+      "publishedAt": "2026-06-02T11:23:34.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/06/02/1137827/rehumanizing-global-health-care-with-agentic-ai/",
+      "readTime": 3,
+      "views": 47384
+    },
+    {
       "id": "how-small-businesses-can-leverage-ai",
       "title": "How small businesses can leverage AI",
       "summary": "This article is from Making AI Work, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries.  To receive it in your inbox,sign up here.",
@@ -15,7 +100,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/06/02/1138227/how-small-businesses-can-leverage-ai/",
       "readTime": 3,
-      "views": 50593
+      "views": 30053
     },
     {
       "id": "alphabet-plans-to-raise-80b-to-pay-for-ai-buildout",
@@ -31,7 +116,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/",
       "readTime": 3,
-      "views": 31562
+      "views": 10907
     },
     {
       "id": "nvidia-chases-200b-cpu-market-with-ai-agent-pcs-fr",
@@ -48,7 +133,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/",
       "readTime": 3,
-      "views": 45805
+      "views": 18951
     },
     {
       "id": "florida-sues-openai-sam-altman-in-first-of-its-kin",
@@ -68,7 +153,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/",
       "readTime": 3,
-      "views": 9145
+      "views": 7656
     },
     {
       "id": "anthropic-files-to-go-public",
@@ -87,7 +172,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/",
       "readTime": 3,
-      "views": 13072
+      "views": 19273
     },
     {
       "id": "this-ai-weather-startup-is-out-forecasting-governm",
@@ -103,7 +188,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/01/this-ai-weather-startup-is-out-forecasting-government-agencies/",
       "readTime": 3,
-      "views": 30079
+      "views": 12858
     },
     {
       "id": "duckduckgo-makes-its-8216-no-ai-8217-search-engine",
@@ -119,41 +204,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/",
       "readTime": 3,
-      "views": 19761
-    },
-    {
-      "id": "the-future-of-automated-trading-with-the-best-fore",
-      "title": "The future of automated trading with the best forex robot reviews",
-      "summary": "Automation is becoming a bigger part of how financial markets are approached, and forex trading is one area where this is becoming easier to notice.  As the tech world improves, more traders are looki.",
-      "content": "Automation is becoming a bigger part of how financial markets are approached, and forex trading is one area where this is becoming easier to notice. As the tech world improves, more traders are looking for ways to stay involved in the market without the need to sit in front of charts for hours at a ",
-      "source": "AI News",
-      "author": "Bazoom",
-      "publishedAt": "2026-06-01T08:51:42.000Z",
-      "category": "market",
-      "tags": [
-        "automation"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/the-future-of-automated-trading-with-the-best-forex-robot-reviews/",
-      "readTime": 3,
-      "views": 24844
-    },
-    {
-      "id": "ai-in-video-game-development-how-artificial-intell",
-      "title": "AI in video game development: How artificial intelligence is reshaping the industry",
-      "summary": "A Google Cloud survey found that 90% of developers are already integrating AI into their daily work, and on Steam, 7,818 titles disclosed AI use in 2025 alone, a 681% increase over the previous year. .",
-      "content": "A Google Cloud survey found that 90% of developers are already integrating AI into their daily work, and on Steam, 7,818 titles disclosed AI use in 2025 alone, a 681% increase over the previous year. AI in video game development is not a side experiment. It is restructuring the pipeline from concept",
-      "source": "AI News",
-      "author": "Bazoom",
-      "publishedAt": "2026-06-01T08:46:19.000Z",
-      "category": "release",
-      "tags": [
-        "artificial intelligence",
-        "ai",
-        "Google"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/ai-in-video-game-development/",
-      "readTime": 3,
-      "views": 31988
+      "views": 40949
     },
     {
       "id": "erin-brockovich-takes-aim-at-data-center-secrecy",
@@ -169,7 +220,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/31/erin-brockovich-takes-aim-at-data-center-secrecy/",
       "readTime": 3,
-      "views": 34876
+      "views": 11457
     },
     {
       "id": "making-sense-of-the-debate-over-ai-psychosis",
@@ -185,7 +236,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/31/making-sense-of-the-debate-over-ai-psychosis/",
       "readTime": 3,
-      "views": 32944
+      "views": 14068
     },
     {
       "id": "softbank-says-it-will-invest-up-to-75b-to-build-fr",
@@ -201,7 +252,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/",
       "readTime": 3,
-      "views": 32780
+      "views": 6533
     },
     {
       "id": "meta-is-reportedly-developing-an-ai-pendant",
@@ -218,7 +269,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/",
       "readTime": 3,
-      "views": 54980
+      "views": 35575
     },
     {
       "id": "i-put-google-8217-s-24-7-ai-assistant-gemini-spark",
@@ -236,7 +287,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
       "readTime": 3,
-      "views": 11904
+      "views": 18318
     },
     {
       "id": "the-groupthink-boom-what-3-top-vcs-really-think-ab",
@@ -252,7 +303,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/30/the-groupthink-boom-what-three-top-vcs-really-think-about-the-ai-frenzy/",
       "readTime": 3,
-      "views": 44996
+      "views": 20866
     },
     {
       "id": "as-the-browser-wars-heat-up-here-are-the-hottest-a",
@@ -268,7 +319,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/30/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
       "readTime": 3,
-      "views": 17973
+      "views": 5279
     },
     {
       "id": "coders-are-refusing-to-work-without-ai-and-that-co",
@@ -284,71 +335,21 @@
       ],
       "url": "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/",
       "readTime": 3,
-      "views": 48125
-    },
-    {
-      "id": "so-you-8217-ve-heard-these-ai-terms-and-nodded-alo",
-      "title": "So you&#8217;ve heard these AI terms and nodded along; let&#8217;s fix that",
-      "summary": "The rise of AI has brought an avalanche of new terms and slang.  Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
-      "content": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
-      "source": "TechCrunch AI",
-      "author": "Natasha Lomas, Romain Dillet, Kyle Wiggers, Lucas Ropek",
-      "publishedAt": "2026-05-29T18:49:19.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/05/29/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-      "readTime": 3,
-      "views": 47170
-    },
-    {
-      "id": "what-happens-when-companies-become-too-ai-pilled",
-      "title": "What happens when companies become too AI-pilled?",
-      "summary": "The people deciding that AI can replace your job are also the ones least likely to understand what your job truly involves, according to Box founder Aaron Levie, who pointed to this as an example of &.",
-      "content": "The people deciding that AI can replace your job are also the ones least likely to understand what your job truly involves, according to Box founder Aaron Levie, who pointed to this as an example of &#8220;AI psychosis.” Indeed, ClickUp recently cut 22% of its workforce for AI agents, tech layoffs i",
-      "source": "TechCrunch AI",
-      "author": "Theresa Loconsolo",
-      "publishedAt": "2026-05-29T17:57:05.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled/",
-      "readTime": 3,
-      "views": 27787
-    },
-    {
-      "id": "after-nvidia-8217-s-20b-not-acqui-hire-ai-chip-sta",
-      "title": "After Nvidia&#8217;s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M",
-      "summary": "Chipmaker Groq is looking to raise $650 million in internal funding as it pivots from hardware to focus more on AI inference, the process of refining the way AI models respond to prompted requests, pe.",
-      "content": "Chipmaker Groq is looking to raise $650 million in internal funding as it pivots from hardware to focus more on AI inference, the process of refining the way AI models respond to prompted requests, per Axios.",
-      "source": "TechCrunch AI",
-      "author": "Dominic-Madori Davis",
-      "publishedAt": "2026-05-29T17:27:13.000Z",
-      "category": "funding",
-      "tags": [
-        "ai",
-        "ai model"
-      ],
-      "url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
-      "readTime": 3,
-      "views": 9686
+      "views": 30637
     }
   ],
-  "lastUpdated": "2026-06-02T10:21:50.359Z",
+  "lastUpdated": "2026-06-02T16:22:45.771Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "MIT Technology Review AI",
     "TechCrunch AI",
-    "AI News"
+    "MIT Technology Review AI"
   ],
   "categories": [
-    "research",
     "release",
+    "funding",
+    "research",
     "market",
-    "regulation",
-    "funding"
+    "regulation"
   ]
 }
