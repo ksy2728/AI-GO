@@ -1,38 +1,92 @@
 {
   "articles": [
     {
+      "id": "alphabet-plans-to-raise-80b-to-pay-for-ai-buildout",
+      "title": "Alphabet plans to raise $80B to pay for AI buildout",
+      "summary": "\"The company is experiencing strong demand for its AI solutions and services from enterprises and consumers, at levels that are exceeding the company’s available supply,\" Alphabet said in its statemen.",
+      "content": "\"The company is experiencing strong demand for its AI solutions and services from enterprises and consumers, at levels that are exceeding the company’s available supply,\" Alphabet said in its statement.",
+      "source": "TechCrunch AI",
+      "author": "Lucas Ropek",
+      "publishedAt": "2026-06-01T22:55:09.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/",
+      "readTime": 3,
+      "views": 11196
+    },
+    {
+      "id": "nvidia-chases-200b-cpu-market-with-ai-agent-pcs-fr",
+      "title": "Nvidia chases $200B CPU market with AI agent PCs from Microsoft, Dell, and HP",
+      "summary": "If Nvidia has cracked a way to bring AI agents easily, safely, and usefully to the masses, it could — and should — be big.",
+      "content": "If Nvidia has cracked a way to bring AI agents easily, safely, and usefully to the masses, it could — and should — be big.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2026-06-01T21:35:00.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "Microsoft"
+      ],
+      "url": "https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/",
+      "readTime": 3,
+      "views": 24436
+    },
+    {
+      "id": "florida-sues-openai-sam-altman-in-first-of-its-kin",
+      "title": "Florida sues OpenAI, Sam Altman, in first-of-its-kind lawsuit over violent incidents",
+      "summary": "The lawsuit partially revolves around a shooting at Florida State University last year, and ChatGPT's alleged role in the incident.",
+      "content": "The lawsuit partially revolves around a shooting at Florida State University last year, and ChatGPT's alleged role in the incident.",
+      "source": "TechCrunch AI",
+      "author": "Lucas Ropek",
+      "publishedAt": "2026-06-01T20:03:40.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai",
+        "gpt",
+        "openai",
+        "chatgpt",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/",
+      "readTime": 3,
+      "views": 6142
+    },
+    {
       "id": "anthropic-files-to-go-public",
       "title": "Anthropic files to go public",
-      "summary": "The company said Monday it has filed confidentially for an IPO.",
-      "content": "The company said Monday it has filed confidentially for an IPO.",
+      "summary": "Anthropic, now an AI powerhouse that has landed top-tier enterprise customers, was once considered an underdog in the emerging world of large language models.",
+      "content": "Anthropic, now an AI powerhouse that has landed top-tier enterprise customers, was once considered an underdog in the emerging world of large language models.",
       "source": "TechCrunch AI",
       "author": "Kirsten Korosec",
       "publishedAt": "2026-06-01T16:36:55.000Z",
-      "category": "funding",
+      "category": "release",
       "tags": [
         "ai",
+        "language model",
         "anthropic",
         "Anthropic"
       ],
       "url": "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/",
       "readTime": 3,
-      "views": 15028
+      "views": 7559
     },
     {
       "id": "this-ai-weather-startup-is-out-forecasting-governm",
       "title": "This AI weather startup is out-forecasting government agencies",
-      "summary": "Windborne Systems' newest weather forecasting model beats the best government predictions by days.",
-      "content": "Windborne Systems' newest weather forecasting model beats the best government predictions by days.",
+      "summary": "WindBorne benefits from its unique combination of model-building and data collection.  The company now has about 400 balloons in flight gathering sensor readings at any given time, launched from 15 si.",
+      "content": "WindBorne benefits from its unique combination of model-building and data collection. The company now has about 400 balloons in flight gathering sensor readings at any given time, launched from 15 sites around the globe. The advances in its current model come from improvements in how the data collec",
       "source": "TechCrunch AI",
       "author": "Tim Fernholz",
       "publishedAt": "2026-06-01T16:00:00.000Z",
-      "category": "regulation",
+      "category": "release",
       "tags": [
         "ai"
       ],
       "url": "https://techcrunch.com/2026/06/01/this-ai-weather-startup-is-out-forecasting-government-agencies/",
       "readTime": 3,
-      "views": 20137
+      "views": 6044
     },
     {
       "id": "duckduckgo-makes-its-8216-no-ai-8217-search-engine",
@@ -48,7 +102,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/",
       "readTime": 3,
-      "views": 26764
+      "views": 8461
     },
     {
       "id": "erin-brockovich-takes-aim-at-data-center-secrecy",
@@ -64,7 +118,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/31/erin-brockovich-takes-aim-at-data-center-secrecy/",
       "readTime": 3,
-      "views": 51314
+      "views": 35053
     },
     {
       "id": "making-sense-of-the-debate-over-ai-psychosis",
@@ -80,11 +134,11 @@
       ],
       "url": "https://techcrunch.com/2026/05/31/making-sense-of-the-debate-over-ai-psychosis/",
       "readTime": 3,
-      "views": 38352
+      "views": 12694
     },
     {
-      "id": "softbank-says-it-will-invest-up-to-75-billion-to-b",
-      "title": "SoftBank says it will invest up to €75 billion to build French data centers",
+      "id": "softbank-says-it-will-invest-up-to-75b-to-build-fr",
+      "title": "SoftBank says it will invest up to €75B to build French data centers",
       "summary": "The goal, the firm said, is to develop and operate up to 5 gigawatts of additional data center capacity.",
       "content": "The goal, the firm said, is to develop and operate up to 5 gigawatts of additional data center capacity.",
       "source": "TechCrunch AI",
@@ -96,7 +150,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/",
       "readTime": 3,
-      "views": 30503
+      "views": 6966
     },
     {
       "id": "meta-is-reportedly-developing-an-ai-pendant",
@@ -113,7 +167,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/",
       "readTime": 3,
-      "views": 16875
+      "views": 32693
     },
     {
       "id": "i-put-google-8217-s-24-7-ai-assistant-gemini-spark",
@@ -131,7 +185,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
       "readTime": 3,
-      "views": 43548
+      "views": 44371
     },
     {
       "id": "the-groupthink-boom-what-3-top-vcs-really-think-ab",
@@ -147,7 +201,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/30/the-groupthink-boom-what-three-top-vcs-really-think-about-the-ai-frenzy/",
       "readTime": 3,
-      "views": 51076
+      "views": 31504
     },
     {
       "id": "as-the-browser-wars-heat-up-here-are-the-hottest-a",
@@ -163,7 +217,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/30/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
       "readTime": 3,
-      "views": 36043
+      "views": 54871
     },
     {
       "id": "coders-are-refusing-to-work-without-ai-and-that-co",
@@ -179,7 +233,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/",
       "readTime": 3,
-      "views": 26982
+      "views": 51394
     },
     {
       "id": "so-you-8217-ve-heard-these-ai-terms-and-nodded-alo",
@@ -195,7 +249,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/29/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
       "readTime": 3,
-      "views": 50655
+      "views": 46579
     },
     {
       "id": "what-happens-when-companies-become-too-ai-pilled",
@@ -211,7 +265,7 @@
       ],
       "url": "https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled/",
       "readTime": 3,
-      "views": 22910
+      "views": 35166
     },
     {
       "id": "after-nvidia-8217-s-20b-not-acqui-hire-ai-chip-sta",
@@ -228,7 +282,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
       "readTime": 3,
-      "views": 12680
+      "views": 47292
     },
     {
       "id": "cognition-8217-s-scott-wu-says-ai-coding-agents-sh",
@@ -244,39 +298,7 @@
       ],
       "url": "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/",
       "readTime": 3,
-      "views": 22960
-    },
-    {
-      "id": "does-your-ceo-have-ai-psychosis-aaron-levie-thinks",
-      "title": "Does your CEO have AI psychosis? Aaron Levie thinks most of them do.",
-      "summary": "The people deciding that AI can replace your job are also the ones least likely to understand what your job truly involves, according to Box founder Aaron Levie, who pointed to this as an example of &.",
-      "content": "The people deciding that AI can replace your job are also the ones least likely to understand what your job truly involves, according to Box founder Aaron Levie, who pointed to this as an example of &#8220;AI psychosis.” Indeed, ClickUp recently cut 22% of its workforce for AI agents, tech layoffs i",
-      "source": "TechCrunch AI",
-      "author": "Kirsten Korosec, Anthony Ha, Sean O'Kane, Theresa Loconsolo",
-      "publishedAt": "2026-05-29T14:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/podcast/does-your-ceo-have-ai-psychosis-aaron-levie-thinks-most-of-them-do/",
-      "readTime": 3,
-      "views": 33330
-    },
-    {
-      "id": "kiwibit-s-ai-powered-bird-feeder-is-my-new-backyar",
-      "title": "Kiwibit’s AI-powered bird feeder is my new backyard buddy",
-      "summary": "If you're looking for a fun way to connect with nature while collecting bird species on an app like Pokémon, give this smart feeder a try.",
-      "content": "If you're looking for a fun way to connect with nature while collecting bird species on an app like Pokémon, give this smart feeder a try.",
-      "source": "TechCrunch AI",
-      "author": "Lauren Forristal",
-      "publishedAt": "2026-05-29T13:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/05/29/kiwibits-ai-powered-bird-feeder-is-my-new-backyard-buddy/",
-      "readTime": 3,
-      "views": 38482
+      "views": 32242
     },
     {
       "id": "how-the-pope-s-magnifica-humanitas-offers-a-templa",
@@ -293,7 +315,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/05/29/1138107/how-the-popes-magnifica-humanitas-offers-a-template-for-individuals-to-meet-the-ai-moment/",
       "readTime": 3,
-      "views": 6752
+      "views": 28523
     },
     {
       "id": "the-ai-hype-index-ai-gets-booed-in-graduation-seas",
@@ -310,26 +332,10 @@
       ],
       "url": "https://www.technologyreview.com/2026/05/28/1138053/the-ai-hype-index-ai-gets-booed-in-graduation-season/",
       "readTime": 3,
-      "views": 42424
-    },
-    {
-      "id": "rethinking-organizational-design-in-the-age-of-age",
-      "title": "Rethinking organizational design in the age of agentic AI",
-      "summary": "Amid rapidly growing adoption of enterprise-level AI agents, there’s a disconnect emerging between ambition and execution. &#160; Although 85% of organizations say they want to be agentic within the n.",
-      "content": "Amid rapidly growing adoption of enterprise-level AI agents, there’s a disconnect emerging between ambition and execution.&#160; Although 85% of organizations say they want to be agentic within the next three years, 76% say their current operations and infrastructure can’t support that change. They ",
-      "source": "MIT Technology Review AI",
-      "author": "MIT Technology Review Insights",
-      "publishedAt": "2026-05-26T14:54:10.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/05/26/1137584/rethinking-organizational-design-in-the-age-of-agentic-ai/",
-      "readTime": 3,
-      "views": 16443
+      "views": 6057
     }
   ],
-  "lastUpdated": "2026-06-01T17:36:56.129Z",
+  "lastUpdated": "2026-06-02T03:54:46.662Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -337,9 +343,10 @@
     "MIT Technology Review AI"
   ],
   "categories": [
-    "funding",
-    "regulation",
     "release",
+    "market",
+    "regulation",
+    "funding",
     "research"
   ]
 }
