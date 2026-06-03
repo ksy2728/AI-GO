@@ -1,10 +1,142 @@
 {
   "articles": [
     {
+      "id": "uber-caps-employee-ai-spending-after-blowing-throu",
+      "title": "Uber caps employee AI spending after blowing through budget in 4 months",
+      "summary": "Uber's cutback has occurred after the company had reportedly encouraged staff to use AI as much as possible.",
+      "content": "Uber's cutback has occurred after the company had reportedly encouraged staff to use AI as much as possible.",
+      "source": "TechCrunch AI",
+      "author": "Lucas Ropek",
+      "publishedAt": "2026-06-02T19:11:48.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months/",
+      "readTime": 3,
+      "views": 44766
+    },
+    {
+      "id": "new-microsoft-tool-lets-devs-spin-up-ai-behavior-t",
+      "title": "New Microsoft tool lets devs spin up AI behavior tests using text descriptions",
+      "summary": "Microsoft on Tuesday took the wraps off Adaptive Spec-driven Scoring for Evaluation and Regression Testing, an open source framework for spinning up AI evaluations.",
+      "content": "Microsoft on Tuesday took the wraps off Adaptive Spec-driven Scoring for Evaluation and Regression Testing, an open source framework for spinning up AI evaluations.",
+      "source": "TechCrunch AI",
+      "author": "Ram Iyer",
+      "publishedAt": "2026-06-02T19:02:21.000Z",
+      "category": "funding",
+      "tags": [
+        "ai",
+        "Microsoft"
+      ],
+      "url": "https://techcrunch.com/2026/06/02/new-microsoft-tool-lets-devs-spin-up-ai-behavior-tests-using-text-descriptions/",
+      "readTime": 3,
+      "views": 13872
+    },
+    {
+      "id": "martin-scorsese-becomes-the-latest-and-most-unlike",
+      "title": "Martin Scorsese becomes the latest — and most unlikely — Hollywood voice for AI",
+      "summary": "The caveat is that one of the world's most famous living directors is using the tech solely for storyboarding.",
+      "content": "The caveat is that one of the world's most famous living directors is using the tech solely for storyboarding.",
+      "source": "TechCrunch AI",
+      "author": "Connie Loizos",
+      "publishedAt": "2026-06-02T18:16:53.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/06/02/martin-scorsese-becomes-the-latest-and-most-unlikely-hollywood-voice-for-ai/",
+      "readTime": 3,
+      "views": 54197
+    },
+    {
+      "id": "microsoft-launches-scout-an-openclaw-inspired-pers",
+      "title": "Microsoft launches Scout, an OpenClaw-inspired personal assistant",
+      "summary": "Launched at Build, Microsoft Scout is a new AI assistant meant to bring the power and flexibility of OpenClaw into the Microsoft 365 system.",
+      "content": "Launched at Build, Microsoft Scout is a new AI assistant meant to bring the power and flexibility of OpenClaw into the Microsoft 365 system.",
+      "source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "publishedAt": "2026-06-02T18:02:44.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Microsoft"
+      ],
+      "url": "https://techcrunch.com/2026/06/02/microsoft-launches-scout-an-openclaw-inspired-personal-assistant/",
+      "readTime": 3,
+      "views": 19561
+    },
+    {
+      "id": "google-rolls-out-fake-call-detection-to-protect-ag",
+      "title": "Google rolls out fake call detection to protect against AI deepfake impersonation scams",
+      "summary": "As people increasingly refuse to answer calls from unknown numbers, scammers are shifting their tactics by spoofing trusted phone numbers and using AI deepfake technology to sound like authority figur.",
+      "content": "As people increasingly refuse to answer calls from unknown numbers, scammers are shifting their tactics by spoofing trusted phone numbers and using AI deepfake technology to sound like authority figures, family members, or employers.",
+      "source": "TechCrunch AI",
+      "author": "Aisha Malik",
+      "publishedAt": "2026-06-02T18:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2026/06/02/google-rolls-out-fake-call-detection-to-protect-against-ai-deepfake-impersonation-scams/",
+      "readTime": 3,
+      "views": 19721
+    },
+    {
+      "id": "microsoft-offers-devs-a-better-way-to-control-ai-a",
+      "title": "Microsoft offers devs a better way to control AI agent behavior",
+      "summary": "The specification lets developer, compliance, and security teams define their own policies for agents to follow in portable policy files.",
+      "content": "The specification lets developer, compliance, and security teams define their own policies for agents to follow in portable policy files.",
+      "source": "TechCrunch AI",
+      "author": "Ram Iyer",
+      "publishedAt": "2026-06-02T18:00:00.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai",
+        "Microsoft"
+      ],
+      "url": "https://techcrunch.com/2026/06/02/microsoft-offers-devs-a-better-way-to-control-ai-agent-behavior/",
+      "readTime": 3,
+      "views": 21027
+    },
+    {
+      "id": "amazon-faces-class-action-lawsuit-over-ring-facial",
+      "title": "Amazon faces class action lawsuit over Ring facial-recognition feature",
+      "summary": "The class action lawsuit, filed in Seattle by Virginia resident Charles Sigwalt, claims that Ring's Familiar Faces feature stores images of passersby without consent.",
+      "content": "The class action lawsuit, filed in Seattle by Virginia resident Charles Sigwalt, claims that Ring's Familiar Faces feature stores images of passersby without consent.",
+      "source": "TechCrunch AI",
+      "author": "Amanda Silberling",
+      "publishedAt": "2026-06-02T17:47:28.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/06/02/amazon-faces-class-action-lawsuit-over-ring-facial-recognition-feature/",
+      "readTime": 3,
+      "views": 6165
+    },
+    {
+      "id": "trump-signs-narrower-executive-order-on-ai-oversig",
+      "title": "Trump signs narrower executive order on AI oversight after industry objections",
+      "summary": "After industry objections, President Trump signed a revised AI executive order requiring only voluntary prerelease government reviews of advanced models.",
+      "content": "After industry objections, President Trump signed a revised AI executive order requiring only voluntary prerelease government reviews of advanced models.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-06-02T16:23:08.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections/",
+      "readTime": 3,
+      "views": 40503
+    },
+    {
       "id": "openai-launches-new-codex-tools-for-white-collar-w",
       "title": "OpenAI launches new Codex tools for white-collar work",
-      "summary": "OpenAI is getting serious about courting enterprise users.  On Tuesday, the AI lab released a new set of capabilities for Codex, meant to expand the agentic tool&#8217;s uses in the workplace.",
-      "content": "OpenAI is getting serious about courting enterprise users. On Tuesday, the AI lab released a new set of capabilities for Codex, meant to expand the agentic tool&#8217;s uses in the workplace. Together with the new tools, the company released an internal report on how Codex is being used for knowledg",
+      "summary": "OpenAI released a set of six plug-ins aimed at specific jobs: data analytics, creative production, sales, product design, equity investing, and investment banking.  Available from within the Codex app.",
+      "content": "OpenAI released a set of six plug-ins aimed at specific jobs: data analytics, creative production, sales, product design, equity investing, and investment banking. Available from within the Codex app, each of the new tools bundles integrations, instructions, and context to allow Codex to approximate",
       "source": "TechCrunch AI",
       "author": "Russell Brandom",
       "publishedAt": "2026-06-02T16:00:00.000Z",
@@ -16,7 +148,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work/",
       "readTime": 3,
-      "views": 35156
+      "views": 31751
     },
     {
       "id": "anthropic-scales-claude-mythos-to-critical-infrast",
@@ -34,7 +166,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries/",
       "readTime": 3,
-      "views": 8027
+      "views": 37038
     },
     {
       "id": "zerodrift-raises-10m-to-protect-ai-models-from-the",
@@ -51,7 +183,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/02/zerodrift-raises-10-million-to-protect-ai-models-from-themselves/",
       "readTime": 3,
-      "views": 32755
+      "views": 30889
     },
     {
       "id": "rocket-engine-startup-impulse-raises-500-million-t",
@@ -67,7 +199,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/02/rocket-engine-startup-impulse-raises-500-million-to-hire-people-not-ai/",
       "readTime": 3,
-      "views": 44612
+      "views": 32127
     },
     {
       "id": "rehumanizing-global-health-care-with-agentic-ai",
@@ -83,7 +215,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/06/02/1137827/rehumanizing-global-health-care-with-agentic-ai/",
       "readTime": 3,
-      "views": 47384
+      "views": 28254
     },
     {
       "id": "how-small-businesses-can-leverage-ai",
@@ -100,7 +232,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/06/02/1138227/how-small-businesses-can-leverage-ai/",
       "readTime": 3,
-      "views": 30053
+      "views": 6911
     },
     {
       "id": "alphabet-plans-to-raise-80b-to-pay-for-ai-buildout",
@@ -116,7 +248,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/",
       "readTime": 3,
-      "views": 10907
+      "views": 6805
     },
     {
       "id": "nvidia-chases-200b-cpu-market-with-ai-agent-pcs-fr",
@@ -133,7 +265,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/",
       "readTime": 3,
-      "views": 18951
+      "views": 20031
     },
     {
       "id": "florida-sues-openai-sam-altman-in-first-of-its-kin",
@@ -153,7 +285,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/",
       "readTime": 3,
-      "views": 7656
+      "views": 27679
     },
     {
       "id": "anthropic-files-to-go-public",
@@ -172,7 +304,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/",
       "readTime": 3,
-      "views": 19273
+      "views": 23714
     },
     {
       "id": "this-ai-weather-startup-is-out-forecasting-governm",
@@ -188,7 +320,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/01/this-ai-weather-startup-is-out-forecasting-government-agencies/",
       "readTime": 3,
-      "views": 12858
+      "views": 32753
     },
     {
       "id": "duckduckgo-makes-its-8216-no-ai-8217-search-engine",
@@ -204,141 +336,10 @@
       ],
       "url": "https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/",
       "readTime": 3,
-      "views": 40949
-    },
-    {
-      "id": "erin-brockovich-takes-aim-at-data-center-secrecy",
-      "title": "Erin Brockovich takes aim at data center secrecy",
-      "summary": "Environmental activist Erin Brockovich has a new mission.",
-      "content": "Environmental activist Erin Brockovich has a new mission.",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2026-05-31T21:05:14.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/05/31/erin-brockovich-takes-aim-at-data-center-secrecy/",
-      "readTime": 3,
-      "views": 11457
-    },
-    {
-      "id": "making-sense-of-the-debate-over-ai-psychosis",
-      "title": "Making sense of the debate over AI psychosis",
-      "summary": "On the latest episode of Equity, we debate whether tech CEOs are \"uniquely prone to AI psychosis.",
-      "content": "On the latest episode of Equity, we debate whether tech CEOs are \"uniquely prone to AI psychosis.\"",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2026-05-31T15:30:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/05/31/making-sense-of-the-debate-over-ai-psychosis/",
-      "readTime": 3,
-      "views": 14068
-    },
-    {
-      "id": "softbank-says-it-will-invest-up-to-75b-to-build-fr",
-      "title": "SoftBank says it will invest up to €75B to build French data centers",
-      "summary": "The goal, the firm said, is to develop and operate up to 5 gigawatts of additional data center capacity.",
-      "content": "The goal, the firm said, is to develop and operate up to 5 gigawatts of additional data center capacity.",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2026-05-30T21:45:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/",
-      "readTime": 3,
-      "views": 6533
-    },
-    {
-      "id": "meta-is-reportedly-developing-an-ai-pendant",
-      "title": "Meta is reportedly developing an AI pendant",
-      "summary": "Meta seems to be making big bets on AI-powered hardware.",
-      "content": "Meta seems to be making big bets on AI-powered hardware.",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2026-05-30T15:59:58.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Meta"
-      ],
-      "url": "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/",
-      "readTime": 3,
-      "views": 35575
-    },
-    {
-      "id": "i-put-google-8217-s-24-7-ai-assistant-gemini-spark",
-      "title": "I put Google&#8217;s 24/7 AI assistant Gemini Spark to work, and it&#8217;s actually pretty useful",
-      "summary": "Gemini Spark helps automate everyday tasks, from inbox summaries to local event planning, but it’s unclear why Google made it a separate product.",
-      "content": "Gemini Spark helps automate everyday tasks, from inbox summaries to local event planning, but it’s unclear why Google made it a separate product.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-05-30T15:30:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gemini",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
-      "readTime": 3,
-      "views": 18318
-    },
-    {
-      "id": "the-groupthink-boom-what-3-top-vcs-really-think-ab",
-      "title": "The groupthink boom: what 3 top VCs really think about the AI frenzy",
-      "summary": "\"If you're 22 years old in San Francisco and building something in AI, there may be a seed term sheet in your inbox — but if you're 19, oh my God, this means you're really good; you might already have.",
-      "content": "\"If you're 22 years old in San Francisco and building something in AI, there may be a seed term sheet in your inbox — but if you're 19, oh my God, this means you're really good; you might already have a Series A [offer],\" said one, half-kiddingly.",
-      "source": "TechCrunch AI",
-      "author": "Connie Loizos",
-      "publishedAt": "2026-05-30T14:49:27.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/05/30/the-groupthink-boom-what-three-top-vcs-really-think-about-the-ai-frenzy/",
-      "readTime": 3,
-      "views": 20866
-    },
-    {
-      "id": "as-the-browser-wars-heat-up-here-are-the-hottest-a",
-      "title": "As the browser wars heat up, here are the hottest alternatives to Chrome and Safari in 2026",
-      "summary": "We’ve compiled an overview of some of the top alternative browsers available today aiming to challenge Chrome and Safari.",
-      "content": "We’ve compiled an overview of some of the top alternative browsers available today aiming to challenge Chrome and Safari.",
-      "source": "TechCrunch AI",
-      "author": "Lauren Forristal",
-      "publishedAt": "2026-05-30T13:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/05/30/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
-      "readTime": 3,
-      "views": 5279
-    },
-    {
-      "id": "coders-are-refusing-to-work-without-ai-and-that-co",
-      "title": "Coders are refusing to work without AI — and that could come back to bite them",
-      "summary": "While AI is helping coders produce code faster, it may not be producing better code, researchers warn.  And that could cause problems down the road for them.",
-      "content": "While AI is helping coders produce code faster, it may not be producing better code, researchers warn. And that could cause problems down the road for them.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2026-05-29T22:14:22.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/",
-      "readTime": 3,
-      "views": 30637
+      "views": 34072
     }
   ],
-  "lastUpdated": "2026-06-02T16:22:45.771Z",
+  "lastUpdated": "2026-06-03T04:01:27.224Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -348,8 +349,8 @@
   "categories": [
     "release",
     "funding",
+    "regulation",
     "research",
-    "market",
-    "regulation"
+    "market"
   ]
 }
