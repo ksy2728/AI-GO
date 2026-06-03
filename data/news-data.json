@@ -1,38 +1,88 @@
 {
   "articles": [
     {
-      "id": "walmart-8217-s-ai-workflows-meet-the-realities-of-",
-      "title": "Walmart&#8217;s AI workflows meet the realities of the balance sheet",
-      "summary": "Walmart has reportedly begun limiting employees&#8217; use of an internal AI assistant called Code Puppy after demands placed on the LLM backing the tool were higher than expected.  Employees of Walma.",
-      "content": "Walmart has reportedly begun limiting employees&#8217; use of an internal AI assistant called Code Puppy after demands placed on the LLM backing the tool were higher than expected. Employees of Walmart were encouraged to use Code Puppy without any stricture or stipulations as to the limits of use, b",
-      "source": "AI News",
-      "author": "Joe Green",
-      "publishedAt": "2026-06-03T09:33:00.000Z",
+      "id": "amazon-will-show-ai-product-images-when-you-search",
+      "title": "Amazon will show AI product images when you search for some reason",
+      "summary": "Amazon will use visual search and AI to show AI generated product images that match your search queries.  The retailer says it will help guide users to products.",
+      "content": "Amazon will use visual search and AI to show AI generated product images that match your search queries. The retailer says it will help guide users to products.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-06-03T15:50:26.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/06/03/amazon-will-show-ai-product-images-when-you-search-for-some-reason/",
+      "readTime": 3,
+      "views": 47156
+    },
+    {
+      "id": "these-two-founders-left-goldman-and-meta-to-build-",
+      "title": "These two founders left Goldman and Meta to build voice AI for markets everyone else overlooked",
+      "summary": "The startup's own stack for Africa and Middle East is now handling more than 17,000 calls per day.",
+      "content": "The startup's own stack for Africa and Middle East is now handling more than 17,000 calls per day.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-06-03T15:00:00.000Z",
       "category": "market",
       "tags": [
         "ai",
-        "llm"
+        "Meta"
       ],
-      "url": "https://www.artificialintelligence-news.com/news/walmart-limits-ai-use-as-workflows-meet-the-realities-of-the-balance-sheet/",
+      "url": "https://techcrunch.com/2026/06/03/these-two-founders-left-goldman-and-meta-to-build-voice-ai-for-markets-everyone-else-overlooked/",
       "readTime": 3,
-      "views": 42357
+      "views": 47026
     },
     {
-      "id": "microsoft-8217-s-majorana-2-quantum-chip-is-also-a",
-      "title": "Microsoft&#8217;s Majorana 2 quantum chip is also a case study for agentic AI in R&#038;D",
-      "summary": "Microsoft&#8217;s Majorana 2 quantum chip arrived this week with numbers that are genuinely difficult to contextualise: qubits 1,000 times more reliable than the first generation, a mean qubit lifetim.",
-      "content": "Microsoft&#8217;s Majorana 2 quantum chip arrived this week with numbers that are genuinely difficult to contextualise: qubits 1,000 times more reliable than the first generation, a mean qubit lifetime of 20 seconds against an industry norm measured in microseconds, and a revised roadmap targeting a",
-      "source": "AI News",
-      "author": "Dashveenjit Kaur",
-      "publishedAt": "2026-06-03T09:00:00.000Z",
-      "category": "research",
+      "id": "publishers-will-be-able-to-opt-out-of-ai-search-th",
+      "title": "Publishers will be able to opt out of AI Search, thanks to new regulation",
+      "summary": "regulators are requiring Google offer a tool allowing website publishers to opt-out of generative AI search features.  The option will be tested in the U.",
+      "content": "U.K. regulators are requiring Google offer a tool allowing website publishers to opt-out of generative AI search features. The option will be tested in the U.K. then rolled out globally.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-06-03T14:58:33.000Z",
+      "category": "regulation",
       "tags": [
         "ai",
-        "Microsoft"
+        "generative ai",
+        "Google"
       ],
-      "url": "https://www.artificialintelligence-news.com/news/microsoft-discovery-agentic-ai-majorana-2/",
+      "url": "https://techcrunch.com/2026/06/03/publishers-will-be-able-to-opt-out-of-ai-search-thanks-to-new-regulation/",
       "readTime": 3,
-      "views": 43355
+      "views": 43937
+    },
+    {
+      "id": "meta-8217-s-ai-agent-for-whatsapp-business-is-now-",
+      "title": "Meta&#8217;s AI agent for WhatsApp Business is now available globally",
+      "summary": "WhatsApp will charge businesses for using its AI agent based on token usage.",
+      "content": "WhatsApp will charge businesses for using its AI agent based on token usage",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-06-03T13:40:00.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "Meta"
+      ],
+      "url": "https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/",
+      "readTime": 3,
+      "views": 34684
+    },
+    {
+      "id": "coralogix-raises-200m-on-bet-that-someone-needs-to",
+      "title": "Coralogix raises $200M on bet that someone needs to watch the AI agents",
+      "summary": "The Series F round values Coralogix at $1. 6 billion and comes less than a year after its previous raise.",
+      "content": "The Series F round values Coralogix at $1.6 billion and comes less than a year after its previous raise.",
+      "source": "TechCrunch AI",
+      "author": "Jagmeet Singh",
+      "publishedAt": "2026-06-03T13:02:51.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/",
+      "readTime": 3,
+      "views": 49521
     },
     {
       "id": "uber-caps-employee-ai-spending-after-blowing-throu",
@@ -48,7 +98,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months/",
       "readTime": 3,
-      "views": 36824
+      "views": 47283
     },
     {
       "id": "new-microsoft-tool-lets-devs-spin-up-ai-behavior-t",
@@ -65,7 +115,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/02/new-microsoft-tool-lets-devs-spin-up-ai-behavior-tests-using-text-descriptions/",
       "readTime": 3,
-      "views": 43712
+      "views": 31356
     },
     {
       "id": "martin-scorsese-becomes-the-latest-and-most-unlike",
@@ -81,26 +131,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/02/martin-scorsese-becomes-the-latest-and-most-unlikely-hollywood-voice-for-ai/",
       "readTime": 3,
-      "views": 5428
-    },
-    {
-      "id": "anthropic-ipo-filing-marks-ai-maturing-into-enterp",
-      "title": "Anthropic IPO filing marks AI maturing into enterprise utility",
-      "summary": "Anthropic&#8217;s IPO filing marks the maturation of generative AI from a research-heavy venture phase into a stabilised enterprise utility.  Model developers operating in private markets have priorit.",
-      "content": "Anthropic&#8217;s IPO filing marks the maturation of generative AI from a research-heavy venture phase into a stabilised enterprise utility. Model developers operating in private markets have prioritised rapid iteration and maximum compute performance over predictable billing cycles. Taking a founda",
-      "source": "AI News",
-      "author": "Ryan Daws",
-      "publishedAt": "2026-06-02T18:04:03.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "anthropic",
-        "generative ai",
-        "Anthropic"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/anthropic-ipo-filing-marks-ai-maturing-enterprise-utility/",
-      "readTime": 3,
-      "views": 15288
+      "views": 39913
     },
     {
       "id": "microsoft-launches-scout-an-openclaw-inspired-pers",
@@ -117,7 +148,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/02/microsoft-launches-scout-an-openclaw-inspired-personal-assistant/",
       "readTime": 3,
-      "views": 47086
+      "views": 25604
     },
     {
       "id": "google-rolls-out-fake-call-detection-to-protect-ag",
@@ -134,7 +165,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/02/google-rolls-out-fake-call-detection-to-protect-against-ai-deepfake-impersonation-scams/",
       "readTime": 3,
-      "views": 29248
+      "views": 50045
     },
     {
       "id": "microsoft-offers-devs-a-better-way-to-control-ai-a",
@@ -151,7 +182,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/02/microsoft-offers-devs-a-better-way-to-control-ai-agent-behavior/",
       "readTime": 3,
-      "views": 37145
+      "views": 43305
     },
     {
       "id": "amazon-faces-class-action-lawsuit-over-ring-facial",
@@ -167,7 +198,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/02/amazon-faces-class-action-lawsuit-over-ring-facial-recognition-feature/",
       "readTime": 3,
-      "views": 6507
+      "views": 26495
     },
     {
       "id": "trump-signs-narrower-executive-order-on-ai-oversig",
@@ -183,7 +214,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections/",
       "readTime": 3,
-      "views": 7788
+      "views": 43071
     },
     {
       "id": "openai-launches-new-codex-tools-for-white-collar-w",
@@ -201,7 +232,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work/",
       "readTime": 3,
-      "views": 40666
+      "views": 22610
     },
     {
       "id": "anthropic-scales-claude-mythos-to-critical-infrast",
@@ -219,7 +250,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries/",
       "readTime": 3,
-      "views": 44072
+      "views": 47975
     },
     {
       "id": "zerodrift-raises-10m-to-protect-ai-models-from-the",
@@ -236,7 +267,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/02/zerodrift-raises-10-million-to-protect-ai-models-from-themselves/",
       "readTime": 3,
-      "views": 48005
+      "views": 15561
     },
     {
       "id": "rocket-engine-startup-impulse-raises-500-million-t",
@@ -252,7 +283,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/02/rocket-engine-startup-impulse-raises-500-million-to-hire-people-not-ai/",
       "readTime": 3,
-      "views": 10632
+      "views": 38686
     },
     {
       "id": "rehumanizing-global-health-care-with-agentic-ai",
@@ -268,23 +299,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/06/02/1137827/rehumanizing-global-health-care-with-agentic-ai/",
       "readTime": 3,
-      "views": 47763
-    },
-    {
-      "id": "github-copilot-users-see-token-based-price-hikes",
-      "title": "GitHub Copilot users see token-based price hikes",
-      "summary": "Since its announcement in April this year, the proposed changes to billing methods on GitHub Copilot were a source of much speculation: how much more or less would a pay-a-you-use AI cost an organisat.",
-      "content": "Since its announcement in April this year, the proposed changes to billing methods on GitHub Copilot were a source of much speculation: how much more or less would a pay-a-you-use AI cost an organisation or individual compared to a flat-rate, monthly subscription? Just a day into the changeover to t",
-      "source": "AI News",
-      "author": "Joe Green",
-      "publishedAt": "2026-06-02T11:09:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/github-copilots-billing-changes-users-see-use-based-price-hikes/",
-      "readTime": 3,
-      "views": 5981
+      "views": 10446
     },
     {
       "id": "how-small-businesses-can-leverage-ai",
@@ -301,7 +316,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/06/02/1138227/how-small-businesses-can-leverage-ai/",
       "readTime": 3,
-      "views": 6500
+      "views": 24577
     },
     {
       "id": "alphabet-plans-to-raise-80b-to-pay-for-ai-buildout",
@@ -317,39 +332,21 @@
       ],
       "url": "https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/",
       "readTime": 3,
-      "views": 8984
-    },
-    {
-      "id": "nvidia-chases-200b-cpu-market-with-ai-agent-pcs-fr",
-      "title": "Nvidia chases $200B CPU market with AI agent PCs from Microsoft, Dell, and HP",
-      "summary": "If Nvidia has cracked a way to bring AI agents easily, safely, and usefully to the masses, it could — and should — be big.",
-      "content": "If Nvidia has cracked a way to bring AI agents easily, safely, and usefully to the masses, it could — and should — be big.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2026-06-01T21:35:00.000Z",
-      "category": "market",
-      "tags": [
-        "ai",
-        "Microsoft"
-      ],
-      "url": "https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/",
-      "readTime": 3,
-      "views": 28797
+      "views": 26134
     }
   ],
-  "lastUpdated": "2026-06-03T10:57:01.983Z",
+  "lastUpdated": "2026-06-03T16:46:47.516Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "AI News",
     "TechCrunch AI",
     "MIT Technology Review AI"
   ],
   "categories": [
-    "market",
-    "research",
     "release",
+    "market",
+    "regulation",
     "funding",
-    "regulation"
+    "research"
   ]
 }
