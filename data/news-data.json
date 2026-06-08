@@ -1,6 +1,58 @@
 {
   "articles": [
     {
+      "id": "is-this-the-dawn-of-the-tokenpocalypse",
+      "title": "Is this the dawn of the Tokenpocalypse?",
+      "summary": "We're likely to see more price increases as the big AI companies plan to go public.",
+      "content": "We're likely to see more price increases as the big AI companies plan to go public.",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "publishedAt": "2026-06-07T20:26:13.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/06/07/is-this-the-dawn-of-the-tokenpocalypse/",
+      "readTime": 3,
+      "views": 25873
+    },
+    {
+      "id": "notion-restores-access-to-anthropic-after-service-",
+      "title": "Notion restores access to Anthropic after service disruption",
+      "summary": "Notion's head of product said he was \"astonished\" at “the amount of people RT-ing this.",
+      "content": "Notion's head of product said he was \"astonished\" at “the amount of people RT-ing this.\"",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "publishedAt": "2026-06-07T17:56:22.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/06/07/notion-restores-access-to-anthropic-after-service-disruption/",
+      "readTime": 3,
+      "views": 13520
+    },
+    {
+      "id": "openai-is-still-working-on-that-super-app",
+      "title": "OpenAI is still working on that ‘super app’",
+      "summary": "\"Chat is dead\" — at least, according to a senior OpenAI employee.",
+      "content": "\"Chat is dead\" — at least, according to a senior OpenAI employee.",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "publishedAt": "2026-06-07T16:23:22.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/",
+      "readTime": 3,
+      "views": 19300
+    },
+    {
       "id": "openai-unveils-lockdown-mode-to-protect-sensitive-",
       "title": "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks",
       "summary": "Even with Lockdown Mode, ChatGPT could be still vulnerable to prompt injections, but the goal is to reduce the likelihood that sensitive data gets shared in the process.",
@@ -18,7 +70,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
       "readTime": 3,
-      "views": 32501
+      "views": 23070
     },
     {
       "id": "sriram-krishnan-is-leaving-his-role-as-white-house",
@@ -34,7 +86,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/",
       "readTime": 3,
-      "views": 20805
+      "views": 41828
     },
     {
       "id": "the-trump-administration-might-take-an-equity-stak",
@@ -52,7 +104,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/",
       "readTime": 3,
-      "views": 45897
+      "views": 27611
     },
     {
       "id": "startup-battlefield-200-applications-officially-cl",
@@ -68,7 +120,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/05/startup-battlefield-200-applications-officially-close-in-3-days/",
       "readTime": 3,
-      "views": 28253
+      "views": 33211
     },
     {
       "id": "google-will-pay-spacex-920m-per-month-for-compute",
@@ -85,7 +137,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/",
       "readTime": 3,
-      "views": 6104
+      "views": 31208
     },
     {
       "id": "the-most-interesting-startups-right-now-want-to-ge",
@@ -101,7 +153,7 @@
       ],
       "url": "https://techcrunch.com/video/the-most-interesting-startups-right-now-want-to-get-you-off-your-phone/",
       "readTime": 3,
-      "views": 5561
+      "views": 26067
     },
     {
       "id": "the-token-bill-comes-due-inside-the-industry-scram",
@@ -117,7 +169,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/05/the-token-bill-comes-due-inside-the-industry-scramble-to-manage-ais-runaway-costs/",
       "readTime": 3,
-      "views": 22834
+      "views": 16568
     },
     {
       "id": "the-8216-together-tech-8217-wave-might-be-the-most",
@@ -133,7 +185,7 @@
       ],
       "url": "https://techcrunch.com/podcast/the-together-tech-wave-might-be-the-most-intriguing-startup-bet-of-2026/",
       "readTime": 3,
-      "views": 10532
+      "views": 22417
     },
     {
       "id": "airtrunk-commits-30b-to-build-5gw-of-ai-data-cente",
@@ -149,7 +201,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/05/airtrunk-commits-30b-to-build-5gw-of-ai-data-centers-in-india/",
       "readTime": 3,
-      "views": 34603
+      "views": 25051
     },
     {
       "id": "how-c3-ai-agents-will-automate-predictive-maintena",
@@ -165,7 +217,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/how-c3-ai-agents-will-automate-predictive-maintenance-for-shell/",
       "readTime": 3,
-      "views": 8265
+      "views": 34643
     },
     {
       "id": "the-meta-hack-shows-there-s-more-to-ai-security-th",
@@ -182,7 +234,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/06/05/1138437/the-meta-hack-shows-theres-more-to-ai-security-than-mythos/",
       "readTime": 3,
-      "views": 28353
+      "views": 19100
     },
     {
       "id": "mira-murati-steps-back-into-the-spotlight-carefull",
@@ -198,7 +250,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/04/mira-murati-steps-back-into-the-spotlight-carefully/",
       "readTime": 3,
-      "views": 37319
+      "views": 40725
     },
     {
       "id": "ahead-of-its-ipo-anthropic-8217-s-daniela-amodei-s",
@@ -216,7 +268,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/",
       "readTime": 3,
-      "views": 46762
+      "views": 41058
     },
     {
       "id": "airbnb-8217-s-brian-chesky-plans-to-launch-a-new-a",
@@ -233,7 +285,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab/",
       "readTime": 3,
-      "views": 47947
+      "views": 7180
     },
     {
       "id": "defense-tech-ai-and-fundraising-take-center-stage-",
@@ -250,7 +302,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/04/defense-tech-ai-and-fundraising-take-center-stage-at-strictlyvc-los-angeles-on-june-18/",
       "readTime": 3,
-      "views": 19476
+      "views": 48874
     },
     {
       "id": "apple-approves-poke-as-the-first-ai-agent-on-its-m",
@@ -267,7 +319,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/",
       "readTime": 3,
-      "views": 36296
+      "views": 51845
     },
     {
       "id": "meta-business-agent-drives-ai-powered-conversation",
@@ -284,59 +336,10 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/meta-business-agent-ai-powered-conversational-commerce/",
       "readTime": 3,
-      "views": 10418
-    },
-    {
-      "id": "meta-rolls-out-a-new-ai-creator-assistant-on-faceb",
-      "title": "Meta rolls out a new AI creator assistant on Facebook",
-      "summary": "Creators often have to parse through charts and dashboards to understand their performance, but with the new AI assistant, they can get quick answers to questions like \"When should I post. \" and \"What.",
-      "content": "Creators often have to parse through charts and dashboards to understand their performance, but with the new AI assistant, they can get quick answers to questions like \"When should I post?\" and \"What are people saying in my comments?\"",
-      "source": "TechCrunch AI",
-      "author": "Aisha Malik",
-      "publishedAt": "2026-06-04T16:32:48.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Meta"
-      ],
-      "url": "https://techcrunch.com/2026/06/04/meta-rolls-out-a-new-ai-creator-assistant-on-facebook/",
-      "readTime": 3,
-      "views": 29064
-    },
-    {
-      "id": "scout-from-m-8217-soft-is-the-agentic-autopilot-th",
-      "title": "Scout from M&#8217;Soft is the agentic Autopilot that works across M365",
-      "summary": "Microsoft has announced the wider testing of its new Autopilot feature at the Microsoft Build event this week, backed by a post on the company&#8217;s&#8217; website.  Autopilots are described as a ne.",
-      "content": "Microsoft has announced the wider testing of its new Autopilot feature at the Microsoft Build event this week, backed by a post on the company&#8217;s&#8217; website. Autopilots are described as a new category of agents that can work autonomously on a user&#8217;s behalf. Microsoft says each Autopil",
-      "source": "AI News",
-      "author": "Joe Green",
-      "publishedAt": "2026-06-04T11:41:00.000Z",
-      "category": "release",
-      "tags": [
-        "Microsoft"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/microsofts-autopilot-scout-is-the-agentic-autopilot-that-works-across-m365/",
-      "readTime": 3,
-      "views": 20796
-    },
-    {
-      "id": "how-courts-are-coping-with-a-flood-of-ai-generated",
-      "title": "How courts are coping with a flood of AI-generated lawsuits",
-      "summary": "Most days in her chambers, Judge Maritza Braswell, a federal magistrate judge in Colorado, sifts through stacks of documents written by people without a lawyer.  Many of them can’t afford to hire a la.",
-      "content": "Most days in her chambers, Judge Maritza Braswell, a federal magistrate judge in Colorado, sifts through stacks of documents written by people without a lawyer. Many of them can’t afford to hire a lawyer, and others have cases too weak or too small to interest one. She reads each one carefully, mind",
-      "source": "MIT Technology Review AI",
-      "author": "Michelle Kim",
-      "publishedAt": "2026-06-04T10:50:18.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/06/04/1138391/courts-coping-ai-lawsuits/",
-      "readTime": 3,
-      "views": 52612
+      "views": 10197
     }
   ],
-  "lastUpdated": "2026-06-07T13:50:34.028Z",
+  "lastUpdated": "2026-06-08T03:56:57.432Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
