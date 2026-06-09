@@ -1,6 +1,71 @@
 {
   "articles": [
     {
+      "id": "sandstone-raises-30m-to-bring-ai-to-in-house-legal",
+      "title": "Sandstone raises $30M to bring AI to in-house legal teams",
+      "summary": "Sandstone's Series A was led by Lightspeed Partners, with participation from Sequoia.",
+      "content": "Sandstone's Series A was led by Lightspeed Partners, with participation from Sequoia.",
+      "source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "publishedAt": "2026-06-09T13:47:25.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/06/09/sandstone-raises-30m-to-bring-ai-to-in-house-legal-teams/",
+      "readTime": 3,
+      "views": 40840
+    },
+    {
+      "id": "how-an-e-scooter-founder-raised-5-million-to-build",
+      "title": "How an e-scooter founder raised $5 million to build space data centers",
+      "summary": "Orbital founder Euwyn Poon built 250,000 scooters at Spin.  Now he wants to launch 10,000 space data centers.",
+      "content": "Orbital founder Euwyn Poon built 250,000 scooters at Spin. Now he wants to launch 10,000 space data centers.",
+      "source": "TechCrunch AI",
+      "author": "Tim Fernholz",
+      "publishedAt": "2026-06-09T12:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/06/09/how-an-e-scooter-founder-raised-5-million-to-build-space-data-centers/",
+      "readTime": 3,
+      "views": 6977
+    },
+    {
+      "id": "learning-to-lead-in-a-hybrid-human-ai-enterprise",
+      "title": "Learning to lead in a hybrid human-AI enterprise",
+      "summary": "As adoption of AI agents looks set to surge by as much as 300% in the next two years, leadership teams are carefully considering the implications of a hybrid human-AI workforce.   Unlike existing ente.",
+      "content": "As adoption of AI agents looks set to surge by as much as 300% in the next two years, leadership teams are carefully considering the implications of a hybrid human-AI workforce.  Unlike existing enterprise-level automation that relies on manual input, AI agents are capable of autonomously coordinati",
+      "source": "MIT Technology Review AI",
+      "author": "MIT Technology Review Insights",
+      "publishedAt": "2026-06-09T10:20:06.000Z",
+      "category": "research",
+      "tags": [
+        "ai",
+        "automation"
+      ],
+      "url": "https://www.technologyreview.com/2026/06/09/1137830/learning-to-lead-in-a-hybrid-human-ai-enterprise/",
+      "readTime": 3,
+      "views": 13549
+    },
+    {
+      "id": "five-things-you-need-to-know-about-ai",
+      "title": "Five things you need to know about AI",
+      "summary": "At SXSW London last week I gave a talk called “Five things you need to know about AI,” in which I shared what I think are the biggest themes in AI right now.  I pulled a few things from our first AI10.",
+      "content": "At SXSW London last week I gave a talk called “Five things you need to know about AI,” in which I shared what I think are the biggest themes in AI right now. I pulled a few things from our first AI10 list, an annual guide to the most important trends in this buzzy world,&#8230;",
+      "source": "MIT Technology Review AI",
+      "author": "Will Douglas Heaven",
+      "publishedAt": "2026-06-09T09:16:45.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/06/09/1138582/five-things-you-need-to-know-about-ai/",
+      "readTime": 3,
+      "views": 16721
+    },
+    {
       "id": "how-to-sign-pdfs-easily-online-with-a-pdf-signer",
       "title": "How to sign PDFs easily online with a PDF signer",
       "summary": "Signing PDFs has become an important task for businesses and individuals alike.  Whether you&#8217;re handling contracts, legal agreements, or forms, the ability to quickly and securely sign PDFs onli.",
@@ -12,7 +77,7 @@
       "tags": [],
       "url": "https://www.artificialintelligence-news.com/news/how-to-sign-pdfs-easily-online-with-a-pdf-signer/",
       "readTime": 3,
-      "views": 38536
+      "views": 47642
     },
     {
       "id": "autonomous-ai-data-loss-in-devops-building-efficie",
@@ -28,7 +93,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/autonomous-ai-data-loss-in-devops/",
       "readTime": 3,
-      "views": 41824
+      "views": 35510
     },
     {
       "id": "why-apple-8217-s-slow-and-steady-ai-bet-is-startin",
@@ -45,7 +110,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/08/why-apples-slow-and-steady-ai-bet-is-starting-to-look-pretty-smart/",
       "readTime": 3,
-      "views": 14761
+      "views": 52512
     },
     {
       "id": "as-openai-files-for-ipo-sam-altman-8217-s-eye-scan",
@@ -63,7 +128,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/08/as-openai-files-for-ipo-sam-altmans-eye-scanning-company-is-doing-layoffs-report-says/",
       "readTime": 3,
-      "views": 24137
+      "views": 34592
     },
     {
       "id": "apple-8217-s-wwdc-ai-demos-looked-more-real-after-",
@@ -80,7 +145,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/08/apples-wwdc-ai-demos-looked-more-real-after-250m-false-ad-settlement/",
       "readTime": 3,
-      "views": 40748
+      "views": 31988
     },
     {
       "id": "openai-files-confidentially-for-ipo-following-anth",
@@ -100,7 +165,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/",
       "readTime": 3,
-      "views": 12477
+      "views": 51751
     },
     {
       "id": "apple-plays-catch-up-at-wwdc",
@@ -117,7 +182,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/08/apple-plays-catch-up-at-wwdc/",
       "readTime": 3,
-      "views": 51156
+      "views": 28766
     },
     {
       "id": "apple-bets-cheaper-ai-will-woo-small-developers",
@@ -134,7 +199,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/08/apple-bets-cheaper-ai-will-woo-small-developers/",
       "readTime": 3,
-      "views": 10156
+      "views": 38754
     },
     {
       "id": "wwdc-2026-everything-announced-on-siri-ai-ios-27-a",
@@ -151,7 +216,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/",
       "readTime": 3,
-      "views": 15427
+      "views": 28517
     },
     {
       "id": "apple-just-taught-your-iphone-to-finish-your-sente",
@@ -168,7 +233,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/08/apple-just-taught-your-iphone-to-finish-your-sentences-your-photos-and-your-workflows/",
       "readTime": 3,
-      "views": 29395
+      "views": 38140
     },
     {
       "id": "apple-will-let-you-build-workflows-using-ai-in-its",
@@ -185,7 +250,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/08/apple-will-let-you-build-workflows-using-ai-in-its-new-shortcuts-app/",
       "readTime": 3,
-      "views": 27663
+      "views": 10360
     },
     {
       "id": "apple-is-fixing-the-headache-of-splitting-the-bill",
@@ -202,7 +267,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/08/apple-is-fixing-the-headache-of-splitting-the-bill-with-its-new-siri-in-camera-feature/",
       "readTime": 3,
-      "views": 39221
+      "views": 27278
     },
     {
       "id": "amazon-now-lets-you-design-custom-merch-using-ai",
@@ -218,7 +283,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/08/amazon-now-lets-you-design-custom-merch-using-ai/",
       "readTime": 3,
-      "views": 51022
+      "views": 8745
     },
     {
       "id": "aviva-deploys-ai-to-stop-230m-in-sophisticated-ins",
@@ -234,7 +299,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/aviva-deploys-ai-stop-230m-sophisticated-insurance-fraud/",
       "readTime": 3,
-      "views": 36983
+      "views": 5317
     },
     {
       "id": "weis-markets-adds-instacart-ai-powered-shopping-ca",
@@ -250,59 +315,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/weis-markets-instacart-ai-powered-shopping-caper-carts/",
       "readTime": 3,
-      "views": 24565
-    },
-    {
-      "id": "is-this-the-dawn-of-the-tokenpocalypse",
-      "title": "Is this the dawn of the Tokenpocalypse?",
-      "summary": "We're likely to see more price increases as the big AI companies plan to go public.",
-      "content": "We're likely to see more price increases as the big AI companies plan to go public.",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2026-06-07T20:26:13.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/06/07/is-this-the-dawn-of-the-tokenpocalypse/",
-      "readTime": 3,
-      "views": 26525
-    },
-    {
-      "id": "notion-restores-access-to-anthropic-after-service-",
-      "title": "Notion restores access to Anthropic after service disruption",
-      "summary": "Notion's head of product said he was \"astonished\" at “the amount of people RT-ing this.",
-      "content": "Notion's head of product said he was \"astonished\" at “the amount of people RT-ing this.\"",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2026-06-07T17:56:22.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/06/07/notion-restores-access-to-anthropic-after-service-disruption/",
-      "readTime": 3,
-      "views": 43477
-    },
-    {
-      "id": "openai-is-still-working-on-that-super-app",
-      "title": "OpenAI is still working on that ‘super app’",
-      "summary": "\"Chat is dead\" — at least, according to a senior OpenAI employee.",
-      "content": "\"Chat is dead\" — at least, according to a senior OpenAI employee.",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2026-06-07T16:23:22.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/",
-      "readTime": 3,
-      "views": 20053
+      "views": 30122
     },
     {
       "id": "how-c3-ai-agents-will-automate-predictive-maintena",
@@ -318,38 +331,21 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/how-c3-ai-agents-will-automate-predictive-maintenance-for-shell/",
       "readTime": 3,
-      "views": 30569
-    },
-    {
-      "id": "the-meta-hack-shows-there-s-more-to-ai-security-th",
-      "title": "The Meta hack shows there’s more to AI security than Mythos",
-      "summary": "On June 5, 404 Media reported that attackers had been using Meta’s AI customer support agent to steal Instagram accounts.  Their approach was simple: They asked the agent to link the accounts to email.",
-      "content": "On June 5, 404 Media reported that attackers had been using Meta’s AI customer support agent to steal Instagram accounts. Their approach was simple: They asked the agent to link the accounts to email addresses that they controlled, and the agent complied. One attacker broke into the dormant Obama Wh",
-      "source": "MIT Technology Review AI",
-      "author": "Grace Huckins",
-      "publishedAt": "2026-06-05T09:00:00.000Z",
-      "category": "research",
-      "tags": [
-        "ai",
-        "Meta"
-      ],
-      "url": "https://www.technologyreview.com/2026/06/05/1138437/the-meta-hack-shows-theres-more-to-ai-security-than-mythos/",
-      "readTime": 3,
-      "views": 11381
+      "views": 52741
     }
   ],
-  "lastUpdated": "2026-06-09T09:41:21.127Z",
+  "lastUpdated": "2026-06-09T14:48:53.717Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "AI News",
     "TechCrunch AI",
-    "MIT Technology Review AI"
+    "MIT Technology Review AI",
+    "AI News"
   ],
   "categories": [
-    "market",
     "funding",
     "release",
-    "research"
+    "research",
+    "market"
   ]
 }
