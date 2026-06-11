@@ -1,6 +1,73 @@
 {
   "articles": [
     {
+      "id": "doordash-8217-s-new-ai-chatbot-lets-you-order-with",
+      "title": "DoorDash&#8217;s new AI chatbot lets you order with prompts and photos",
+      "summary": "The new chatbot, called Ask DoorDash, allows users to search the app for what they're looking for in their own words instead of having to scroll through restaurants and stores to build a cart.",
+      "content": "The new chatbot, called Ask DoorDash, allows users to search the app for what they're looking for in their own words instead of having to scroll through restaurants and stores to build a cart.",
+      "source": "TechCrunch AI",
+      "author": "Aisha Malik",
+      "publishedAt": "2026-06-11T14:23:43.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/06/11/doordashs-new-ai-chatbot-lets-you-order-with-prompts-and-photos/",
+      "readTime": 3,
+      "views": 6878
+    },
+    {
+      "id": "visa-chatgpt-integration-enables-ai-agent-retail-p",
+      "title": "Visa ChatGPT integration enables AI agent retail purchasing",
+      "summary": "Visa has linked its payment infrastructure to ChatGPT, enabling AI agents to recommend retail products and execute financial transactions.  The deployment removes human intervention from the final sta.",
+      "content": "Visa has linked its payment infrastructure to ChatGPT, enabling AI agents to recommend retail products and execute financial transactions. The deployment removes human intervention from the final stages of the retail funnel. Autonomous agents will now process user prompts, evaluate merchant catalogu",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-06-11T11:08:17.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "gpt",
+        "chatgpt"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/visa-chatgpt-integration-enables-ai-agent-retail-purchasing/",
+      "readTime": 3,
+      "views": 22368
+    },
+    {
+      "id": "google-deepmind-is-worried-about-what-happens-when",
+      "title": "Google DeepMind is worried about what happens when millions of agents start to interact",
+      "summary": "Google DeepMind is funding research into the potential dangers of situations where millions of different AI agents interact with each other online.  According to Rohin Shah, who directs the company’s .",
+      "content": "Google DeepMind is funding research into the potential dangers of situations where millions of different AI agents interact with each other online. According to Rohin Shah, who directs the company’s AGI safety and alignment research, the mass-market arrival of agents that can carry out tasks without",
+      "source": "MIT Technology Review AI",
+      "author": "Will Douglas Heaven",
+      "publishedAt": "2026-06-11T11:00:45.000Z",
+      "category": "funding",
+      "tags": [
+        "ai",
+        "Google"
+      ],
+      "url": "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/",
+      "readTime": 3,
+      "views": 42462
+    },
+    {
+      "id": "xebia-why-ai-agents-fail-without-the-right-data-fo",
+      "title": "Xebia: Why AI agents fail without the right data foundation",
+      "summary": "If your remit is to help your organisation add AI agents to accelerate its processes, you have to start at the foundation – and that means making your data available for AI consumption.  Agentic AI sc.",
+      "content": "If your remit is to help your organisation add AI agents to accelerate its processes, you have to start at the foundation – and that means making your data available for AI consumption. Agentic AI scales on data strength, as Niels Zeilemaker, global CTO at Xebia, explains. “If you don’t think about ",
+      "source": "AI News",
+      "author": "AI News",
+      "publishedAt": "2026-06-11T10:42:38.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/xebia-on-building-the-data-foundation-for-ai-agents-and-then-accelerating/",
+      "readTime": 3,
+      "views": 51895
+    },
+    {
       "id": "opendoor-8217-s-india-exit-is-fueling-a-bigger-con",
       "title": "Opendoor&#8217;s India exit is fueling a bigger conversation about AI and outsourcing",
       "summary": "The decision comes as India emerges as the world’s largest GCC market.",
@@ -14,7 +81,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/",
       "readTime": 3,
-      "views": 15848
+      "views": 32788
     },
     {
       "id": "anthropic-8217-s-dario-amodei-has-just-one-direct-",
@@ -31,7 +98,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/10/anthropics-dario-amodei-has-just-one-direct-report/",
       "readTime": 3,
-      "views": 14233
+      "views": 54279
     },
     {
       "id": "xai-fired-an-engineer-who-raised-alarms-about-grok",
@@ -47,7 +114,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/",
       "readTime": 3,
-      "views": 49603
+      "views": 14752
     },
     {
       "id": "fresh-off-bond-sale-amazon-borrows-17-5b-from-bank",
@@ -63,7 +130,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues/",
       "readTime": 3,
-      "views": 8938
+      "views": 28282
     },
     {
       "id": "ai-pilled-firms-spend-7-500-per-employee-each-mont",
@@ -79,7 +146,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/10/ai-pilled-firms-spend-7500-per-employee-each-month-on-ai/",
       "readTime": 3,
-      "views": 11781
+      "views": 21594
     },
     {
       "id": "how-memory-tools-can-make-ai-models-worse",
@@ -96,7 +163,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/10/how-memory-tools-can-make-ai-models-worse/",
       "readTime": 3,
-      "views": 15305
+      "views": 36704
     },
     {
       "id": "cybersecurity-researchers-aren-8217-t-happy-about-",
@@ -114,7 +181,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/",
       "readTime": 3,
-      "views": 36510
+      "views": 15486
     },
     {
       "id": "datadog-veterans-launch-ai-coding-startup-niteshif",
@@ -130,7 +197,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/10/datadog-veterans-launch-ai-coding-startup-niteshift-on-a-bet-against-big-ai-lock-in/",
       "readTime": 3,
-      "views": 35828
+      "views": 15571
     },
     {
       "id": "warner-music-acquires-ai-attribution-startup-suree",
@@ -147,7 +214,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/10/warner-music-acquires-ai-attribution-startup-sureel-ai/",
       "readTime": 3,
-      "views": 10195
+      "views": 47621
     },
     {
       "id": "jedify-raises-24m-to-help-companies-arm-ai-agents-",
@@ -163,7 +230,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/10/jedify-raises-24m-to-help-companies-arm-ai-agents-with-context-on-their-business/",
       "readTime": 3,
-      "views": 12174
+      "views": 42714
     },
     {
       "id": "decart-8217-s-new-world-model-can-simulate-hours-o",
@@ -179,7 +246,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/10/decarts-new-world-model-can-simulate-hours-of-photorealistic-driving-with-some-caveats/",
       "readTime": 3,
-      "views": 33950
+      "views": 35187
     },
     {
       "id": "siri-ai-arrives-with-google-inside-and-much-of-the",
@@ -197,7 +264,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/siri-ai-google-gemini-rollout/",
       "readTime": 3,
-      "views": 41785
+      "views": 42036
     },
     {
       "id": "mcdonald-s-tests-google-backed-ai-drive-thru-order",
@@ -214,7 +281,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/mcdonalds-ai-drive-thru-google-archiq/",
       "readTime": 3,
-      "views": 35841
+      "views": 29002
     },
     {
       "id": "meta-signs-first-ai-data-center-deal-in-india-with",
@@ -231,7 +298,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/10/meta-signs-first-ai-data-center-deal-in-india-with-reliance/",
       "readTime": 3,
-      "views": 8962
+      "views": 22697
     },
     {
       "id": "google-just-fired-a-warning-shot-in-the-ai-subscri",
@@ -248,7 +315,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/09/google-just-fired-a-warning-shot-in-the-ai-subscription-price-wars/",
       "readTime": 3,
-      "views": 47265
+      "views": 8878
     },
     {
       "id": "how-justin-ernest-invested-nearly-500m-into-hot-st",
@@ -266,77 +333,10 @@
       ],
       "url": "https://techcrunch.com/2026/06/09/how-justin-ernest-invested-nearly-500m-into-hot-startups-without-a-traditional-vc-fund/",
       "readTime": 3,
-      "views": 7797
-    },
-    {
-      "id": "hey-siri-here-8217-s-what-i-actually-want-from-ai",
-      "title": "Hey, Siri, here&#8217;s what I actually want from AI",
-      "summary": "I'm desperate for a personal AI assistant, but do I really want to become the kind of person who can't function without the friendly robot voice in my phone.",
-      "content": "I'm desperate for a personal AI assistant, but do I really want to become the kind of person who can't function without the friendly robot voice in my phone?",
-      "source": "TechCrunch AI",
-      "author": "Amanda Silberling",
-      "publishedAt": "2026-06-09T20:50:17.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/06/09/hey-siri-heres-what-i-actually-want-from-ai/",
-      "readTime": 3,
-      "views": 45718
-    },
-    {
-      "id": "can-tech-companies-learn-to-love-cheaper-ai-models",
-      "title": "Can tech companies learn to love cheaper AI models?",
-      "summary": "If those same AI workloads can be handled by cheaper models without affecting quality, it would mean a massive shift in the economics of AI.",
-      "content": "If those same AI workloads can be handled by cheaper models without affecting quality, it would mean a massive shift in the economics of AI.",
-      "source": "TechCrunch AI",
-      "author": "Russell Brandom",
-      "publishedAt": "2026-06-09T18:56:09.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "ai model"
-      ],
-      "url": "https://techcrunch.com/2026/06/09/can-tech-companies-learn-to-love-cheaper-models/",
-      "readTime": 3,
-      "views": 22234
-    },
-    {
-      "id": "wwdc-2026-everything-announced-on-siri-ai-ios-27-a",
-      "title": "WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence, and more",
-      "summary": "Apple primarily made the case for an improved experience with its long-standing Siri assistant, which like most other announcements had a hefty helping of AI.",
-      "content": "Apple primarily made the case for an improved experience with its long-standing Siri assistant, which like most other announcements had a hefty helping of AI.",
-      "source": "TechCrunch AI",
-      "author": "Morgan Little, Aisha Malik",
-      "publishedAt": "2026-06-09T18:04:24.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Apple"
-      ],
-      "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/",
-      "readTime": 3,
-      "views": 10934
-    },
-    {
-      "id": "learning-to-lead-in-a-hybrid-human-ai-enterprise",
-      "title": "Learning to lead in a hybrid human-AI enterprise",
-      "summary": "As adoption of AI agents looks set to surge by as much as 300% in the next two years, leadership teams are carefully considering the implications of a hybrid human-AI workforce.   Unlike existing ente.",
-      "content": "As adoption of AI agents looks set to surge by as much as 300% in the next two years, leadership teams are carefully considering the implications of a hybrid human-AI workforce.  Unlike existing enterprise-level automation that relies on manual input, AI agents are capable of autonomously coordinati",
-      "source": "MIT Technology Review AI",
-      "author": "MIT Technology Review Insights",
-      "publishedAt": "2026-06-09T10:20:06.000Z",
-      "category": "research",
-      "tags": [
-        "ai",
-        "automation"
-      ],
-      "url": "https://www.technologyreview.com/2026/06/09/1137830/learning-to-lead-in-a-hybrid-human-ai-enterprise/",
-      "readTime": 3,
-      "views": 13102
+      "views": 50436
     }
   ],
-  "lastUpdated": "2026-06-11T10:22:10.008Z",
+  "lastUpdated": "2026-06-11T15:58:41.404Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -345,10 +345,10 @@
     "MIT Technology Review AI"
   ],
   "categories": [
-    "partnership",
     "release",
+    "market",
     "funding",
-    "research",
-    "market"
+    "partnership",
+    "research"
   ]
 }
