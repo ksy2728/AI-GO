@@ -1,6 +1,58 @@
 {
   "articles": [
     {
+      "id": "kpmg-pulls-report-on-ai-usage-due-to-apparent-hall",
+      "title": "KPMG pulls report on AI usage due to apparent hallucinations",
+      "summary": "Once again, AI proves to be an unreliable source of information about AI.",
+      "content": "Once again, AI proves to be an unreliable source of information about AI.",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "publishedAt": "2026-06-13T20:42:31.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
+      "readTime": 3,
+      "views": 39528
+    },
+    {
+      "id": "amazon-ceo-reportedly-raised-anthropic-model-conce",
+      "title": "Amazon CEO reportedly raised Anthropic model concerns before government crackdown",
+      "summary": "Amazon CEO Andy Jassy may have been the source of security concerns that led Anthropic to cut off worldwide access to two models on Friday.",
+      "content": "Amazon CEO Andy Jassy may have been the source of security concerns that led Anthropic to cut off worldwide access to two models on Friday.",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "publishedAt": "2026-06-13T19:11:41.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
+      "readTime": 3,
+      "views": 23673
+    },
+    {
+      "id": "openai-faces-investigation-from-state-attorneys-ge",
+      "title": "OpenAI faces investigation from state attorneys general",
+      "summary": "It's not clear which states are involved, but they're asking about everything from OpenAI's ad policies to its handling of health data.",
+      "content": "It's not clear which states are involved, but they're asking about everything from OpenAI's ad policies to its handling of health data.",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "publishedAt": "2026-06-13T16:47:18.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/",
+      "readTime": 3,
+      "views": 44985
+    },
+    {
       "id": "anthropic-8217-s-safety-warnings-may-have-just-bac",
       "title": "Anthropic&#8217;s safety warnings may have just backfired — the government has pulled the plug on its most powerful AI",
       "summary": "Anthropic isn't hiding its frustration.  \"We disagree that the finding of a narrow potential jailbreak should be cause for recalling a commercial model deployed to hundreds of millions of people,\" the.",
@@ -16,7 +68,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/",
       "readTime": 3,
-      "views": 46429
+      "views": 47649
     },
     {
       "id": "meta-8217-s-months-old-ai-unit-is-a-soul-crushing-",
@@ -33,7 +85,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/",
       "readTime": 3,
-      "views": 12552
+      "views": 41603
     },
     {
       "id": "chinese-cybercrime-operation-that-used-ai-to-scam-",
@@ -50,7 +102,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/",
       "readTime": 3,
-      "views": 22110
+      "views": 50355
     },
     {
       "id": "mistral-is-rumored-to-be-raising-3b-at-20b-valuati",
@@ -66,7 +118,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/",
       "readTime": 3,
-      "views": 23063
+      "views": 20702
     },
     {
       "id": "spacex-anthropic-and-openai-s-hot-ipo-summer",
@@ -86,7 +138,7 @@
       ],
       "url": "https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer/",
       "readTime": 3,
-      "views": 44800
+      "views": 18160
     },
     {
       "id": "it-s-hot-ipo-summer-and-the-mangos-are-ripe",
@@ -106,7 +158,7 @@
       ],
       "url": "https://techcrunch.com/podcast/its-hot-ipo-summer-and-the-mangos-are-ripe/",
       "readTime": 3,
-      "views": 28842
+      "views": 44541
     },
     {
       "id": "coinbase-for-agents-automating-portfolio-trading-w",
@@ -123,7 +175,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/coinbase-for-agents-automating-portfolio-trading-with-ai/",
       "readTime": 3,
-      "views": 31453
+      "views": 21475
     },
     {
       "id": "cheaper-faster-and-culturally-aware-avataar-8217-s",
@@ -139,7 +191,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/11/cheaper-faster-and-culturally-aware-avataars-video-ai-is-built-for-indias-scale/",
       "readTime": 3,
-      "views": 8716
+      "views": 21345
     },
     {
       "id": "theker-just-raised-85m-to-build-the-factory-robot-",
@@ -155,7 +207,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/",
       "readTime": 3,
-      "views": 9639
+      "views": 36593
     },
     {
       "id": "jeff-bezos-8217-s-prometheus-raises-12b-to-build-a",
@@ -171,7 +223,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/",
       "readTime": 3,
-      "views": 13840
+      "views": 50809
     },
     {
       "id": "deezer-8217-s-new-tool-can-identify-ai-music-from-",
@@ -188,7 +240,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/11/deezers-new-tool-can-identify-ai-music-from-spotify-apple-music-and-others/",
       "readTime": 3,
-      "views": 45759
+      "views": 42547
     },
     {
       "id": "doordash-8217-s-new-ai-chatbot-lets-you-order-with",
@@ -204,7 +256,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/11/doordashs-new-ai-chatbot-lets-you-order-with-prompts-and-photos/",
       "readTime": 3,
-      "views": 46448
+      "views": 8494
     },
     {
       "id": "visa-chatgpt-integration-enables-ai-agent-retail-p",
@@ -222,7 +274,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/visa-chatgpt-integration-enables-ai-agent-retail-purchasing/",
       "readTime": 3,
-      "views": 52280
+      "views": 50507
     },
     {
       "id": "google-deepmind-is-worried-about-what-happens-when",
@@ -239,7 +291,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/",
       "readTime": 3,
-      "views": 41353
+      "views": 40204
     },
     {
       "id": "xebia-why-ai-agents-fail-without-the-right-data-fo",
@@ -255,55 +307,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/xebia-on-building-the-data-foundation-for-ai-agents-and-then-accelerating/",
       "readTime": 3,
-      "views": 54455
-    },
-    {
-      "id": "opendoor-8217-s-india-exit-is-fueling-a-bigger-con",
-      "title": "Opendoor&#8217;s India exit is fueling a bigger conversation about AI and outsourcing",
-      "summary": "The decision comes as India emerges as the world’s largest GCC market.",
-      "content": "The decision comes as India emerges as the world’s largest GCC market.",
-      "source": "TechCrunch AI",
-      "author": "Jagmeet Singh",
-      "publishedAt": "2026-06-11T04:02:19.000Z",
-      "category": "partnership",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/",
-      "readTime": 3,
-      "views": 18899
-    },
-    {
-      "id": "xai-fired-an-engineer-who-raised-alarms-about-grok",
-      "title": "xAI fired an engineer who raised alarms about Grok safety, new lawsuit claims",
-      "summary": "A former xAI engineer is suing the company and SpaceX, alleging he was fired for raising AI safety concerns about Grok days before SpaceX's historic IPO.",
-      "content": "A former xAI engineer is suing the company and SpaceX, alleging he was fired for raising AI safety concerns about Grok days before SpaceX's historic IPO.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-06-10T22:31:19.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/",
-      "readTime": 3,
-      "views": 48916
-    },
-    {
-      "id": "fresh-off-bond-sale-amazon-borrows-17-5b-from-bank",
-      "title": "Fresh off bond sale, Amazon borrows $17.5B from banks as AI spending continues",
-      "summary": "Companies are burning through exorbitant sums of money to keep pace in the AI arms race.",
-      "content": "Companies are burning through exorbitant sums of money to keep pace in the AI arms race. Debt is climbing.",
-      "source": "TechCrunch AI",
-      "author": "Lucas Ropek",
-      "publishedAt": "2026-06-10T20:19:31.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues/",
-      "readTime": 3,
-      "views": 20960
+      "views": 51640
     },
     {
       "id": "siri-ai-arrives-with-google-inside-and-much-of-the",
@@ -321,7 +325,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/siri-ai-google-gemini-rollout/",
       "readTime": 3,
-      "views": 6560
+      "views": 25216
     },
     {
       "id": "mcdonald-s-tests-google-backed-ai-drive-thru-order",
@@ -338,10 +342,10 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/mcdonalds-ai-drive-thru-google-archiq/",
       "readTime": 3,
-      "views": 27104
+      "views": 32202
     }
   ],
-  "lastUpdated": "2026-06-13T13:57:32.783Z",
+  "lastUpdated": "2026-06-14T03:59:56.482Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -350,10 +354,9 @@
     "MIT Technology Review AI"
   ],
   "categories": [
-    "regulation",
     "release",
+    "regulation",
     "funding",
-    "market",
-    "partnership"
+    "market"
   ]
 }
