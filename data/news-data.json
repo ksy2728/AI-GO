@@ -1,6 +1,89 @@
 {
   "articles": [
     {
+      "id": "collecting-robot-training-data-is-dirty-unglamorou",
+      "title": "Collecting robot training data is dirty, unglamorous work. Some AI labs are already paying XDOF to do it.",
+      "summary": "If physical AI is going to match the accomplishments of LLMs, there's a data problem that needs to be solved.",
+      "content": "If physical AI is going to match the accomplishments of LLMs, there's a data problem that needs to be solved.",
+      "source": "TechCrunch AI",
+      "author": "Tim Fernholz",
+      "publishedAt": "2026-06-17T15:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "llm"
+      ],
+      "url": "https://techcrunch.com/2026/06/17/collecting-robot-training-data-is-dirty-unglamorous-work-some-ai-labs-are-already-paying-xdof-to-do-it/",
+      "readTime": 3,
+      "views": 9278
+    },
+    {
+      "id": "pramaana-labs-raises-27m-seed-round-from-khosla-ve",
+      "title": "Pramaana Labs raises $27M seed round from Khosla Ventures to bring formal verification to AI",
+      "summary": "Pramaana will focus on highly sensitive verticals like law, drug discovery, and tax preparation — where errors can be costly and reliability is at a premium.",
+      "content": "Pramaana will focus on highly sensitive verticals like law, drug discovery, and tax preparation — where errors can be costly and reliability is at a premium.",
+      "source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "publishedAt": "2026-06-17T14:15:22.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/06/17/pramaana-labs-raises-27-million-seed-round-from-khosla-ventures-to-bring-formal-verification-to-ai/",
+      "readTime": 3,
+      "views": 36347
+    },
+    {
+      "id": "canadian-pension-giant-joins-race-to-fund-india-82",
+      "title": "Canadian pension giant joins race to fund India&#8217;s AI-fueled data center boom",
+      "summary": "The Canadian pension giant will acquire an 8. 2% stake in CtrlS, a tech giant that operates more than 15 data centers across India.",
+      "content": "The Canadian pension giant will acquire an 8.2% stake in CtrlS, a tech giant that operates more than 15 data centers across India.",
+      "source": "TechCrunch AI",
+      "author": "Jagmeet Singh",
+      "publishedAt": "2026-06-17T12:38:09.000Z",
+      "category": "partnership",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/06/17/canadian-pension-giant-joins-race-to-fund-indias-ai-fueled-data-center-boom/",
+      "readTime": 3,
+      "views": 20103
+    },
+    {
+      "id": "pinterest-launches-an-experimental-ai-shopping-app",
+      "title": "Pinterest launches an experimental AI shopping app called &#8216;Ask Pinterest&#8217;",
+      "summary": "Pinterest has launched 'Ask Pinterest,' an experimental AI-powered shopping app that lets users seek recommendations and inspiration through a conversational interface.",
+      "content": "Pinterest has launched 'Ask Pinterest,' an experimental AI-powered shopping app that lets users seek recommendations and inspiration through a conversational interface.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-06-17T11:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/06/17/pinterest-launches-an-experimental-ai-shopping-app-called-ask-pinterest/",
+      "readTime": 3,
+      "views": 41344
+    },
+    {
+      "id": "google-cloud-generative-ai-automates-council-plann",
+      "title": "Google Cloud generative AI automates council planning operations",
+      "summary": "Government ministries are deploying Google Cloud generative AI across municipal agencies to automate council planning operations.  Public sector administration handles vast volumes of unstructured dat.",
+      "content": "Government ministries are deploying Google Cloud generative AI across municipal agencies to automate council planning operations. Public sector administration handles vast volumes of unstructured data that delay infrastructure development. The UK central government established a target to construct ",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-06-17T10:59:42.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai",
+        "generative ai",
+        "Google"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/google-cloud-generative-ai-automates-council-planning-operations/",
+      "readTime": 3,
+      "views": 21335
+    },
+    {
       "id": "anthropic-8217-s-latest-feud-with-the-trump-admin-",
       "title": "Anthropic&#8217;s latest feud with the Trump admin may actually help it, sales data suggests",
       "summary": "Anthropic's popularity with business users is growing so well that the latest beef with the government might actually boost it, data from Ramp suggests.",
@@ -15,7 +98,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/",
       "readTime": 3,
-      "views": 33179
+      "views": 14687
     },
     {
       "id": "android-17-launches-with-new-multitasking-tools-as",
@@ -34,7 +117,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features/",
       "readTime": 3,
-      "views": 33598
+      "views": 22734
     },
     {
       "id": "sixty-percent-of-us-consumers-say-8216-ai-8217-in-",
@@ -50,7 +133,23 @@
       ],
       "url": "https://techcrunch.com/2026/06/16/sixty-percent-of-u-s-consumers-say-ai-in-brand-messaging-is-a-turnoff-survey-finds/",
       "readTime": 3,
-      "views": 51110
+      "views": 19266
+    },
+    {
+      "id": "insurers-pivot-ai-strategy-toward-core-risk-underw",
+      "title": "Insurers pivot AI strategy toward core risk underwriting",
+      "summary": "AI investments by insurers are now expected to generate tangible business value beyond mere efficiency.  According to findings in the 2026 Evident AI Index, insurers are now embedding AI technologies .",
+      "content": "AI investments by insurers are now expected to generate tangible business value beyond mere efficiency. According to findings in the 2026 Evident AI Index, insurers are now embedding AI technologies into workflows that directly influence underwriting discipline and capital allocation. Christian Pree",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-06-16T15:55:02.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/insurers-pivot-ai-strategy-toward-core-risk-underwriting/",
+      "readTime": 3,
+      "views": 41760
     },
     {
       "id": "doj-claims-xai-s-unpermitted-gas-turbines-are-a-ma",
@@ -66,7 +165,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/16/doj-claims-xais-unpermitted-gas-turbines-are-a-matter-of-national-economic-and-energy-security/",
       "readTime": 3,
-      "views": 17828
+      "views": 36243
     },
     {
       "id": "plaud-says-its-software-business-topped-100m-in-ar",
@@ -82,7 +181,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/16/plaud-says-its-software-business-topped-100m-in-arr-after-shipping-over-2m-ai-notetakers/",
       "readTime": 3,
-      "views": 38426
+      "views": 51467
     },
     {
       "id": "robinhood-8217-s-note-on-10-layoffs-shows-blaming-",
@@ -98,7 +197,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/16/robinhoods-note-on-10-layoffs-shows-blaming-ai-isnt-cutting-it/",
       "readTime": 3,
-      "views": 30697
+      "views": 50639
     },
     {
       "id": "probably-raises-9m-to-build-a-more-reliable-kind-o",
@@ -114,7 +213,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/16/probably-raises-9m-to-build-a-more-reliable-kind-of-ai/",
       "readTime": 3,
-      "views": 23588
+      "views": 15986
     },
     {
       "id": "spacex-to-acquire-cursor-for-60b-in-stock-days-aft",
@@ -130,7 +229,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/",
       "readTime": 3,
-      "views": 35870
+      "views": 27747
     },
     {
       "id": "chatgpt-8217-s-market-share-slips-below-50-for-fir",
@@ -150,7 +249,55 @@
       ],
       "url": "https://techcrunch.com/2026/06/16/chatgpts-market-share-slips-below-50-for-first-time/",
       "readTime": 3,
-      "views": 30124
+      "views": 14733
+    },
+    {
+      "id": "eu-publishes-its-ai-content-labelling-playbook-ahe",
+      "title": "EU publishes its AI content labelling playbook ahead of the AI Act&#8217;s August deadline",
+      "summary": "The European Union has&#160;published&#160;its AI content labelling playbook, a voluntary Code of Practice meant to help companies meet transparency rules that become law across the bloc on August 2 o.",
+      "content": "The European Union has&#160;published&#160;its AI content labelling playbook, a voluntary Code of Practice meant to help companies meet transparency rules that become law across the bloc on August 2 onwards. The European Commission released the final Code on 10 June, setting out practical steps for ",
+      "source": "AI News",
+      "author": "Dashveenjit Kaur",
+      "publishedAt": "2026-06-16T10:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/ai-content-labelling-eu-code-of-practice/",
+      "readTime": 3,
+      "views": 20880
+    },
+    {
+      "id": "ai-red-teaming-explained-what-it-is-and-why-you-ne",
+      "title": "AI Red Teaming Explained: What It Is and Why You Need It",
+      "summary": "With AI adoption accelerating, testing systems under adversarial conditions has become increasingly important.  It enables organisations to identify vulnerabilities before deployment and strengthen ov.",
+      "content": "With AI adoption accelerating, testing systems under adversarial conditions has become increasingly important. It enables organisations to identify vulnerabilities before deployment and strengthen overall system safety. Explore what AI red teaming is, why it matters and the leading companies offerin",
+      "source": "AI News",
+      "author": "WebFX",
+      "publishedAt": "2026-06-16T08:06:43.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/ai-red-teaming-explained-what-it-is-and-why-you-need-it/",
+      "readTime": 3,
+      "views": 12352
+    },
+    {
+      "id": "how-ai-powered-cms-platforms-are-transforming-ente",
+      "title": "How AI-Powered CMS Platforms Are Transforming Enterprise Content Operations",
+      "summary": "For years, enterprise content management was largely a publication tool.  How do you get the right content, in the right format, to the right channel, without breaking workflows that span dozens of ma.",
+      "content": "For years, enterprise content management was largely a publication tool. How do you get the right content, in the right format, to the right channel, without breaking workflows that span dozens of markets and hundreds of contributors? The answer was usually a combination of manual processes, siloed ",
+      "source": "AI News",
+      "author": "Bazoom",
+      "publishedAt": "2026-06-16T07:49:07.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/how-ai-powered-cms-platforms-are-transforming-enterprise-content-operations/",
+      "readTime": 3,
+      "views": 5202
     },
     {
       "id": "malaysia-8217-s-ai-agent-powered-messaging-app-res",
@@ -166,7 +313,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/15/malaysias-respond-io-raises-62-5m-eyes-acquisitions-in-north-america-and-europe/",
       "readTime": 3,
-      "views": 42533
+      "views": 52463
     },
     {
       "id": "sundar-pichai-faces-boos-walkout-at-stanford-gradu",
@@ -183,172 +330,21 @@
       ],
       "url": "https://techcrunch.com/2026/06/15/sundar-pichai-faces-boos-walkout-at-stanford-graduation-ceremony-over-googles-israel-ice-ties/",
       "readTime": 3,
-      "views": 47347
-    },
-    {
-      "id": "the-us-government-8217-s-anthropic-models-ban-was-",
-      "title": "The US government&#8217;s Anthropic models ban was never about an AI jailbreak",
-      "summary": "The Trump administration's decision that forced Anthropic to pull its latest cybersecurity models could be reactionary, retaliatory, or both, but the message is clear: The AI industry isn't immune fro.",
-      "content": "The Trump administration's decision that forced Anthropic to pull its latest cybersecurity models could be reactionary, retaliatory, or both, but the message is clear: The AI industry isn't immune from U.S. government interference.",
-      "source": "TechCrunch AI",
-      "author": "Zack Whittaker",
-      "publishedAt": "2026-06-15T21:50:21.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai",
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/",
-      "readTime": 3,
-      "views": 28450
-    },
-    {
-      "id": "why-do-south-koreans-love-ai-so-much",
-      "title": "Why do South Koreans love AI so much?",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI.  To get stories like this in your inbox first,&#160;sign up here.",
-      "content": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. When I landed in Seoul after a grueling 12-hour flight from San Francisco, I walked through an unmanned immigration checkpoint, where a machine scanned my fa",
-      "source": "MIT Technology Review AI",
-      "author": "Michelle Kim",
-      "publishedAt": "2026-06-15T18:46:08.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/06/15/1138983/why-do-south-koreans-love-ai-so-much/",
-      "readTime": 3,
-      "views": 27816
-    },
-    {
-      "id": "meta-8217-s-new-ai-mode-on-facebook-pulls-from-pub",
-      "title": "Meta&#8217;s new ‘AI Mode’ on Facebook pulls from public info across its platforms",
-      "summary": "Meta announced Monday that it's rolling out a wave of new AI features on Facebook, the latest sign of the company's effort to catch up in the AI race and keep users more engaged on the platform.",
-      "content": "Meta announced Monday that it's rolling out a wave of new AI features on Facebook, the latest sign of the company's effort to catch up in the AI race and keep users more engaged on the platform.",
-      "source": "TechCrunch AI",
-      "author": "Lauren Forristal",
-      "publishedAt": "2026-06-15T18:30:58.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Meta"
-      ],
-      "url": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms/",
-      "readTime": 3,
-      "views": 24495
-    },
-    {
-      "id": "cybersecurity-vets-protest-8216-dangerous-8217-us-",
-      "title": "Cybersecurity vets protest &#8216;dangerous&#8217; US government ban on Anthropic&#8217;s most powerful models",
-      "summary": "A group made up of dozens of cybersecurity experts urged the White House to remove export-control restrictions on Anthropic’s Fable and Mythos models, arguing that the order is going to limit the abil.",
-      "content": "A group made up of dozens of cybersecurity experts urged the White House to remove export-control restrictions on Anthropic’s Fable and Mythos models, arguing that the order is going to limit the ability of cybersecurity defenders to secure their software and products.",
-      "source": "TechCrunch AI",
-      "author": "Lorenzo Franceschi-Bicchierai",
-      "publishedAt": "2026-06-15T15:29:51.000Z",
-      "category": "regulation",
-      "tags": [
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/06/15/cybersecurity-vets-protest-dangerous-us-government-ban-on-anthropics-most-powerful-models/",
-      "readTime": 3,
-      "views": 30544
-    },
-    {
-      "id": "salesforce-acquires-ai-customer-service-platform-f",
-      "title": "Salesforce acquires AI customer service platform Fin for $3.6B",
-      "summary": "Salesforce says it wants to use Fin's team and technology to improve Agentforce, its existing enterprise platform that businesses can use to build custom AI agents that automate tasks.",
-      "content": "Salesforce says it wants to use Fin's team and technology to improve Agentforce, its existing enterprise platform that businesses can use to build custom AI agents that automate tasks.",
-      "source": "TechCrunch AI",
-      "author": "Amanda Silberling",
-      "publishedAt": "2026-06-15T14:34:45.000Z",
-      "category": "partnership",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b/",
-      "readTime": 3,
-      "views": 47534
-    },
-    {
-      "id": "sarvam-becomes-india-8217-s-newest-ai-unicorn-with",
-      "title": "Sarvam becomes India&#8217;s newest AI unicorn with $234 million funding round led by HCLTech",
-      "summary": "Indian IT services company HCLTech is investing $150 million in the Bengaluru startup.",
-      "content": "Indian IT services company HCLTech is investing $150 million in the Bengaluru startup.",
-      "source": "TechCrunch AI",
-      "author": "Jagmeet Singh",
-      "publishedAt": "2026-06-15T13:46:08.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
-      "readTime": 3,
-      "views": 28786
-    },
-    {
-      "id": "as-ai-agents-become-employees-newcore-emerges-with",
-      "title": "As AI agents become employees, NewCore emerges with $66M to give them identities",
-      "summary": "NewCore argues the next challenge in enterprise security will be managing AI agents, not people.",
-      "content": "NewCore argues the next challenge in enterprise security will be managing AI agents, not people.",
-      "source": "TechCrunch AI",
-      "author": "Jagmeet Singh",
-      "publishedAt": "2026-06-15T13:00:00.000Z",
-      "category": "partnership",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/06/15/ai-agents-are-becoming-employees-newcore-emerges-with-66m-to-give-them-identities/",
-      "readTime": 3,
-      "views": 54414
-    },
-    {
-      "id": "google-deepmind-is-worried-about-what-happens-when",
-      "title": "Google DeepMind is worried about what happens when millions of agents start to interact",
-      "summary": "Google DeepMind is funding research into the potential dangers of situations where millions of different AI agents interact with each other online.  According to Rohin Shah, who directs the company’s .",
-      "content": "Google DeepMind is funding research into the potential dangers of situations where millions of different AI agents interact with each other online. According to Rohin Shah, who directs the company’s AGI safety and alignment research, the mass-market arrival of agents that can carry out tasks without",
-      "source": "MIT Technology Review AI",
-      "author": "Will Douglas Heaven",
-      "publishedAt": "2026-06-11T11:00:45.000Z",
-      "category": "funding",
-      "tags": [
-        "ai",
-        "Google"
-      ],
-      "url": "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/",
-      "readTime": 3,
-      "views": 29818
-    },
-    {
-      "id": "learning-to-lead-in-a-hybrid-human-ai-enterprise",
-      "title": "Learning to lead in a hybrid human-AI enterprise",
-      "summary": "As adoption of AI agents looks set to surge by as much as 300% in the next two years, leadership teams are carefully considering the implications of a hybrid human-AI workforce.   Unlike existing ente.",
-      "content": "As adoption of AI agents looks set to surge by as much as 300% in the next two years, leadership teams are carefully considering the implications of a hybrid human-AI workforce.  Unlike existing enterprise-level automation that relies on manual input, AI agents are capable of autonomously coordinati",
-      "source": "MIT Technology Review AI",
-      "author": "MIT Technology Review Insights",
-      "publishedAt": "2026-06-09T10:20:06.000Z",
-      "category": "research",
-      "tags": [
-        "ai",
-        "automation"
-      ],
-      "url": "https://www.technologyreview.com/2026/06/09/1137830/learning-to-lead-in-a-hybrid-human-ai-enterprise/",
-      "readTime": 3,
-      "views": 12501
+      "views": 37155
     }
   ],
-  "lastUpdated": "2026-06-17T10:53:35.822Z",
+  "lastUpdated": "2026-06-17T15:26:43.234Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
     "TechCrunch AI",
-    "MIT Technology Review AI"
+    "AI News"
   ],
   "categories": [
-    "regulation",
     "release",
-    "market",
     "funding",
-    "research",
-    "partnership"
+    "partnership",
+    "regulation",
+    "market"
   ]
 }
