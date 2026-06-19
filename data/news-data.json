@@ -1,6 +1,57 @@
 {
   "articles": [
     {
+      "id": "sap-and-google-cloud-deploy-agentic-commerce-archi",
+      "title": "SAP and Google Cloud deploy agentic commerce architecture",
+      "summary": "SAP and Google Cloud are deploying agentic commerce architecture to automate multi-agent marketing and retail operations at enterprise scale.  SAP research indicates 78 percent of businesses consider .",
+      "content": "SAP and Google Cloud are deploying agentic commerce architecture to automate multi-agent marketing and retail operations at enterprise scale. SAP research indicates 78 percent of businesses consider AI essential for retaining customers in 2026. However, the same data reveals fewer than two in five c",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-06-19T14:02:20.000Z",
+      "category": "research",
+      "tags": [
+        "ai",
+        "Google"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/sap-and-google-cloud-deploy-agentic-commerce-architecture/",
+      "readTime": 3,
+      "views": 35367
+    },
+    {
+      "id": "the-ceo-of-allbirds-8217-new-ai-biz-has-a-plan-but",
+      "title": "The CEO of Allbirds&#8217; new AI biz has a plan, but no employees",
+      "summary": "Call it a startup with a sole founder and a very large seed round, but what's next is less clear.",
+      "content": "Call it a startup with a sole founder and a very large seed round, but what's next is less clear.",
+      "source": "TechCrunch AI",
+      "author": "Tim Fernholz",
+      "publishedAt": "2026-06-19T13:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/06/19/the-ceo-of-allbirds-new-ai-biz-has-a-plan-but-no-employees/",
+      "readTime": 3,
+      "views": 48097
+    },
+    {
+      "id": "a-startup-claims-it-broke-through-a-bottleneck-tha",
+      "title": "A startup claims it broke through a bottleneck that’s holding back LLMs",
+      "summary": "Miami-based AI startup Subquadratic came out of stealth mode last month with a huge claim.  It announced that it had solved a mathematical bottleneck that had been holding back large language models f.",
+      "content": "Miami-based AI startup Subquadratic came out of stealth mode last month with a huge claim. It announced that it had solved a mathematical bottleneck that had been holding back large language models for almost a decade. The details were thin, and many people were unconvinced. But Subquadratic has sta",
+      "source": "MIT Technology Review AI",
+      "author": "Will Douglas Heaven",
+      "publishedAt": "2026-06-19T10:40:24.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "llm",
+        "language model"
+      ],
+      "url": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
+      "readTime": 3,
+      "views": 51729
+    },
+    {
       "id": "e2e-assure-introduces-cumulo-the-u-k-s-only-sovere",
       "title": "e2e-assure introduces Cumulo, the U.K.’s only sovereign, AI-driven, zero-day SOC platform to secure IT and OT environments",
       "summary": "Built around digital twin technology and customer-dedicated AI models, Cumulo answers the recent announcement by GCHQ for AI Cyber Shield, enabling early identification of threats and vulnerabilities .",
@@ -15,7 +66,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/e2e-assure-introduces-cumulo-the-u-k-s-only-sovereign-ai-driven-zero-day-soc-platform-to-secure-it-and-ot-environments/",
       "readTime": 3,
-      "views": 46516
+      "views": 30712
     },
     {
       "id": "the-us-says-asml-8217-s-top-chip-tool-may-be-in-ch",
@@ -32,7 +83,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/19/the-us-says-asmls-top-chip-tool-may-be-in-china-asml-says-it-isnt/",
       "readTime": 3,
-      "views": 14620
+      "views": 16566
     },
     {
       "id": "source-elastic-agrees-to-buy-crv-backed-deductivea",
@@ -48,7 +99,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/18/source-elastic-agrees-to-buy-crv-backed-deductiveai-for-up-to-85m/",
       "readTime": 3,
-      "views": 49149
+      "views": 23218
     },
     {
       "id": "ai-inference-startup-baseten-reportedly-raising-1-",
@@ -64,7 +115,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/",
       "readTime": 3,
-      "views": 9817
+      "views": 14530
     },
     {
       "id": "snap-spins-off-ai-video-team-into-new-company-dotm",
@@ -80,7 +131,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs/",
       "readTime": 3,
-      "views": 16491
+      "views": 8842
     },
     {
       "id": "openai-is-bringing-on-some-big-guns-in-the-lead-up",
@@ -100,7 +151,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/",
       "readTime": 3,
-      "views": 46061
+      "views": 11383
     },
     {
       "id": "almost-half-of-us-singles-feel-negatively-about-ai",
@@ -116,7 +167,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/18/almost-half-of-u-s-singles-feel-negatively-about-ai-in-dating-match-says/",
       "readTime": 3,
-      "views": 19307
+      "views": 41273
     },
     {
       "id": "amazon-hopes-to-challenge-nvidia-more-directly-by-",
@@ -132,7 +183,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/",
       "readTime": 3,
-      "views": 50033
+      "views": 24751
     },
     {
       "id": "ai-data-centers-just-got-a-government-mandated-fas",
@@ -148,7 +199,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid/",
       "readTime": 3,
-      "views": 18241
+      "views": 11313
     },
     {
       "id": "8216-queer-eye-8217-life-coach-karamo-brown-launch",
@@ -164,7 +215,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/18/queer-eyes-life-coach-karamo-brown-launches-ke-a-wellness-app-featuring-his-ai-digital-clone/",
       "readTime": 3,
-      "views": 18457
+      "views": 42446
     },
     {
       "id": "computer-vision-deployments-drive-retail-productiv",
@@ -181,7 +232,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/computer-vision-deployments-drive-retail-productivity-gains/",
       "readTime": 3,
-      "views": 37514
+      "views": 33422
     },
     {
       "id": "general-intuition-in-talks-to-raise-300m-at-around",
@@ -197,7 +248,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/18/general-intuition-in-talks-to-raise-300m-at-around-2b-valuation/",
       "readTime": 3,
-      "views": 44918
+      "views": 9252
     },
     {
       "id": "a-tech-worker-backed-pac-is-bringing-a-5m-knife-to",
@@ -213,7 +264,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/18/a-tech-worker-backed-pac-is-bringing-a-5m-knife-to-big-techs-100m-gunfight/",
       "readTime": 3,
-      "views": 13514
+      "views": 36249
     },
     {
       "id": "hsbc-expands-ai-banking-partnership-with-google-cl",
@@ -231,7 +282,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/hsbc-google-cloud-ai-partnership/",
       "readTime": 3,
-      "views": 8665
+      "views": 31068
     },
     {
       "id": "microsoft-sells-openai-models-in-china-openai-and-",
@@ -251,7 +302,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/microsoft-sells-openai-models-china/",
       "readTime": 3,
-      "views": 10094
+      "views": 12157
     },
     {
       "id": "how-to-turn-off-ai-in-your-google-docs",
@@ -269,7 +320,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/17/how-to-turn-off-ai-in-your-google-docs/",
       "readTime": 3,
-      "views": 9599
+      "views": 49083
     },
     {
       "id": "after-unveiling-ridiculously-expensive-ar-glasses-",
@@ -285,70 +336,19 @@
       ],
       "url": "https://techcrunch.com/2026/06/17/after-unveiling-ridiculously-expensive-ar-glasses-snaps-stock-takes-a-dive/",
       "readTime": 3,
-      "views": 14028
-    },
-    {
-      "id": "nea-s-tiffany-luck-says-enterprises-are-still-figu",
-      "title": "NEA’s Tiffany Luck says enterprises are still figuring out their AI ROI",
-      "summary": "Tokenmaxxing&#160;was&#160;the hottest trend in Silicon Valley earlier this year, with CEOs encouraging employees to push AI usage as far&#160;as it would go. &#160;Then the bill came due.",
-      "content": "Tokenmaxxing&#160;was&#160;the hottest trend in Silicon Valley earlier this year, with CEOs encouraging employees to push AI usage as far&#160;as it would go.&#160;Then the bill came due. Uber&#160;reportedly blew&#160;through its annual AI budget in a few months, some companies cut Claude licenses ",
-      "source": "TechCrunch AI",
-      "author": "Theresa Loconsolo",
-      "publishedAt": "2026-06-17T20:17:38.000Z",
-      "category": "market",
-      "tags": [
-        "ai",
-        "claude"
-      ],
-      "url": "https://techcrunch.com/video/neas-tiffany-luck-says-enterprises-are-still-figuring-out-their-ai-roi/",
-      "readTime": 3,
-      "views": 15056
-    },
-    {
-      "id": "world-leaders-want-american-ai-they-just-don-8217-",
-      "title": "World leaders want American AI. They just don&#8217;t want America to be able to turn it off.",
-      "summary": "French President Macron and Indian PM Modi raised alarms at the G7 summit that the U.  could cut off access to American AI overnight  — a fear the Anthropic blackout just made real.",
-      "content": "French President Macron and Indian PM Modi raised alarms at the G7 summit that the U.S. could cut off access to American AI overnight  — a fear the Anthropic blackout just made real.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-06-17T19:01:19.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/06/17/world-leaders-want-american-ai-they-just-dont-want-america-to-be-able-to-turn-it-off/",
-      "readTime": 3,
-      "views": 29568
-    },
-    {
-      "id": "anthropic-becomes-first-ai-startup-to-join-the-fro",
-      "title": "Anthropic becomes first AI startup to join the Frontier carbon removal coalition",
-      "summary": "Anthropic has joined the Frontier coalition, which received another $915M in pledges to fund carbon removal projects.",
-      "content": "Anthropic has joined the Frontier coalition, which received another $915M in pledges to fund carbon removal projects.",
-      "source": "TechCrunch AI",
-      "author": "Tim De Chant",
-      "publishedAt": "2026-06-17T18:30:56.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/06/17/anthropic-becomes-first-ai-startup-to-join-the-frontier-carbon-removal-coalition/",
-      "readTime": 3,
-      "views": 6048
+      "views": 5875
     }
   ],
-  "lastUpdated": "2026-06-19T10:24:28.652Z",
+  "lastUpdated": "2026-06-19T15:13:48.034Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
     "AI News",
-    "TechCrunch AI"
+    "TechCrunch AI",
+    "MIT Technology Review AI"
   ],
   "categories": [
+    "research",
     "release",
     "funding",
     "regulation",
