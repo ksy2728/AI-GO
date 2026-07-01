@@ -1,6 +1,230 @@
 {
   "articles": [
     {
+      "id": "trump-drops-restrictions-on-anthropic-8217-s-mytho",
+      "title": "Trump drops restrictions on Anthropic&#8217;s Mythos and Fable models",
+      "summary": "Anthropic said it would begin restoring access to the Fable on July 1.",
+      "content": "Anthropic said it would begin restoring access to the Fable on July 1.",
+      "source": "TechCrunch AI",
+      "author": "Tim Fernholz",
+      "publishedAt": "2026-07-01T02:16:06.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/",
+      "readTime": 3,
+      "views": 44651
+    },
+    {
+      "id": "wayve-launches-85m-employee-tender-offer-at-8-5b-v",
+      "title": "Wayve launches $85M employee tender offer at $8.5B valuation",
+      "summary": "Wayve’s offering is part of a growing trend of AI startups using employee tenders as a strategic tool to attract and retain talent.",
+      "content": "Wayve’s offering is part of a growing trend of AI startups using employee tenders as a strategic tool to attract and retain talent.",
+      "source": "TechCrunch AI",
+      "author": "Marina Temkin",
+      "publishedAt": "2026-07-01T02:04:40.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/06/30/wayve-launches-85m-employee-tender-offer-at-8-5b-valuation/",
+      "readTime": 3,
+      "views": 45975
+    },
+    {
+      "id": "openclaw-is-finally-available-on-android-and-ios",
+      "title": "OpenClaw is finally available on Android and iOS",
+      "summary": "The free open source agentic program is finally invading your phone.",
+      "content": "The free open source agentic program is finally invading your phone.",
+      "source": "TechCrunch AI",
+      "author": "Lucas Ropek",
+      "publishedAt": "2026-06-30T21:53:28.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/",
+      "readTime": 3,
+      "views": 9649
+    },
+    {
+      "id": "claude-science-is-anthropic-s-newest-flagship-prod",
+      "title": "Claude Science is Anthropic’s newest flagship product",
+      "summary": "At an event for pharmaceutical executives, biotech founders, and researchers on Tuesday, Anthropic announced Claude Science, a major new product intended to support scientific research in the same way.",
+      "content": "At an event for pharmaceutical executives, biotech founders, and researchers on Tuesday, Anthropic announced Claude Science, a major new product intended to support scientific research in the same way that Claude Code supports software engineering. Like Claude Code, Claude Science can autonomously c",
+      "source": "MIT Technology Review AI",
+      "author": "Grace Huckins",
+      "publishedAt": "2026-06-30T21:50:04.000Z",
+      "category": "release",
+      "tags": [
+        "anthropic",
+        "claude",
+        "Anthropic"
+      ],
+      "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/",
+      "readTime": 3,
+      "views": 51072
+    },
+    {
+      "id": "the-deepmind-trio-who-built-a-poker-ai-are-now-mak",
+      "title": "The DeepMind trio who built a poker AI are now making money for quant hedge funds",
+      "summary": "EquiLibre Technologies, a Prague-based AI lab founded by three ex-DeepMind researchers, is now valued at more than $500 million.",
+      "content": "EquiLibre Technologies, a Prague-based AI lab founded by three ex-DeepMind researchers, is now valued at more than $500 million.",
+      "source": "TechCrunch AI",
+      "author": "Anna Heim",
+      "publishedAt": "2026-06-30T20:33:48.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/",
+      "readTime": 3,
+      "views": 50488
+    },
+    {
+      "id": "google-introduces-a-faster-cheaper-image-generator",
+      "title": "Google introduces a faster, cheaper image generator with Nano Banana 2 Lite",
+      "summary": "Google is updating its image generator to make it faster and cheaper, making it a more useful tool for creators looking to make AI content.",
+      "content": "Google is updating its image generator to make it faster and cheaper, making it a more useful tool for creators looking to make AI content.",
+      "source": "TechCrunch AI",
+      "author": "Lucas Ropek",
+      "publishedAt": "2026-06-30T19:02:38.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite/",
+      "readTime": 3,
+      "views": 52776
+    },
+    {
+      "id": "nvidia-competitor-etched-hits-5b-valuation-1b-in-s",
+      "title": "Nvidia competitor Etched hits $5B valuation, $1B in sales for AI chip",
+      "summary": "Nvidia AI chip competitor Etched says it has already booked $1 billion under contract for the inference systems powered by its chip.",
+      "content": "Nvidia AI chip competitor Etched says it has already booked $1 billion under contract for the inference systems powered by its chip.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2026-06-30T18:13:02.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/",
+      "readTime": 3,
+      "views": 54829
+    },
+    {
+      "id": "anthropic-launches-claude-sonnet-5-as-a-cheaper-wa",
+      "title": "Anthropic launches Claude Sonnet 5 as a cheaper way to run agents",
+      "summary": "Anthropic’s Claude Sonnet 5 brings stronger agentic capabilities, lower pricing, and improved safety, positioning the model as a cheaper alternative to Opus, GPT-5.",
+      "content": "Anthropic’s Claude Sonnet 5 brings stronger agentic capabilities, lower pricing, and improved safety, positioning the model as a cheaper alternative to Opus, GPT-5.5, and Gemini Pro.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-06-30T18:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "gpt",
+        "anthropic",
+        "claude",
+        "gemini",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
+      "readTime": 3,
+      "views": 28632
+    },
+    {
+      "id": "acti-puts-ai-agents-directly-into-your-smartphone-",
+      "title": "Acti puts AI agents directly into your smartphone keyboard",
+      "summary": "Acti is betting the smartphone keyboard is the next home for AI assistants.  The startup's new keyboard for iOS and Android works across apps and lets users create custom AI-powered shortcuts using na.",
+      "content": "Acti is betting the smartphone keyboard is the next home for AI assistants. The startup's new keyboard for iOS and Android works across apps and lets users create custom AI-powered shortcuts using natural language.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-06-30T17:52:46.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "natural language"
+      ],
+      "url": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard/",
+      "readTime": 3,
+      "views": 30741
+    },
+    {
+      "id": "anthropic-s-claude-science-bets-on-workflow-not-a-",
+      "title": "Anthropic’s Claude Science bets on workflow, not a new model, to win over scientists",
+      "summary": "Anthropic's Claude Science is a workbench that gives scientists one environment to do computational research, saving them from the need to bounce between databases, pipelines, and tools.",
+      "content": "Anthropic's Claude Science is a workbench that gives scientists one environment to do computational research, saving them from the need to bounce between databases, pipelines, and tools.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-06-30T17:00:00.000Z",
+      "category": "research",
+      "tags": [
+        "anthropic",
+        "claude",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/",
+      "readTime": 3,
+      "views": 20595
+    },
+    {
+      "id": "x-now-offers-an-mcp-server-to-make-its-platform-ea",
+      "title": "X now offers an MCP server to make its platform easier for AI tools to use",
+      "summary": "X has launched a hosted MCP server, making it easier for developers to connect AI applications with the company’s API.",
+      "content": "X has launched a hosted MCP server, making it easier for developers to connect AI applications with the company’s API.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-06-30T15:08:42.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/06/30/x-now-offers-an-mcp-server-to-make-its-platform-easier-for-ai-tools-to-use/",
+      "readTime": 3,
+      "views": 47427
+    },
+    {
+      "id": "podcasting-platform-riverside-enters-the-newslette",
+      "title": "Podcasting platform Riverside enters the newsletter publishing game",
+      "summary": "Users will be able use AI to create newsletters based on their recordings.",
+      "content": "Users will be able use AI to create newsletters based on their recordings.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-06-30T15:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/06/30/podcasting-platform-riverside-enters-the-newsletter-publishing-game/",
+      "readTime": 3,
+      "views": 10888
+    },
+    {
+      "id": "amazon-launches-new-1-billion-fde-org-following-op",
+      "title": "Amazon launches new $1 billion FDE org, following OpenAI and Anthropic",
+      "summary": "Engineers on the new team will embed within companies to deploy purpose-built agents, focusing on fast deployments and customer self-sufficiency.",
+      "content": "Engineers on the new team will embed within companies to deploy purpose-built agents, focusing on fast deployments and customer self-sufficiency.",
+      "source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "publishedAt": "2026-06-30T15:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "anthropic",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/",
+      "readTime": 3,
+      "views": 54711
+    },
+    {
       "id": "lumo-proton-8217-s-privacy-focused-ai-chatbot-gets",
       "title": "Lumo, Proton&#8217;s privacy-focused AI chatbot, gets an upgrade",
       "summary": "0 is dropping this week, giving users a broader variety of capabilities.",
@@ -14,7 +238,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/30/lumo-protons-privacy-focused-ai-chatbot-gets-an-upgrade/",
       "readTime": 3,
-      "views": 7305
+      "views": 27813
     },
     {
       "id": "agriculture-is-ready-for-ai-but-its-data-isn-8217-",
@@ -31,7 +255,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
       "readTime": 3,
-      "views": 38577
+      "views": 26339
     },
     {
       "id": "crypto-exchange-okx-wants-ai-agents-to-hire-and-pa",
@@ -47,7 +271,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other/",
       "readTime": 3,
-      "views": 6623
+      "views": 20412
     },
     {
       "id": "the-ai-jobs-debate-just-got-messier",
@@ -63,7 +287,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier/",
       "readTime": 3,
-      "views": 33187
+      "views": 25892
     },
     {
       "id": "vibe-coding-platform-base44-launches-own-model-as-",
@@ -80,7 +304,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/29/vibe-coding-platform-base44-launches-own-model-as-ai-startups-seek-defensibility/",
       "readTime": 3,
-      "views": 38576
+      "views": 49502
     },
     {
       "id": "gemini-8217-s-personalized-ai-image-generation-is-",
@@ -98,7 +322,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/",
       "readTime": 3,
-      "views": 40546
+      "views": 22362
     },
     {
       "id": "anthropic-and-gov-newsom-forge-deal-allowing-calif",
@@ -118,227 +342,10 @@
       ],
       "url": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
       "readTime": 3,
-      "views": 47393
-    },
-    {
-      "id": "south-korean-tech-giants-commit-over-550b-to-ease-",
-      "title": "South Korean tech giants commit over $550B to ease &#8216;RAMageddon&#8217;",
-      "summary": "The world's two largest memory chip companies vow to build more memory lab fabs as South Korea positions itself as an AI tech powerhouse country.",
-      "content": "The world's two largest memory chip companies vow to build more memory lab fabs as South Korea positions itself as an AI tech powerhouse country.",
-      "source": "TechCrunch AI",
-      "author": "Kate Park",
-      "publishedAt": "2026-06-29T18:07:48.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/06/29/south-korean-tech-giants-commit-over-550b-to-ease-ramageddon/",
-      "readTime": 3,
-      "views": 17292
-    },
-    {
-      "id": "ai-agents-are-not-your-8220-coworkers-8221",
-      "title": "AI agents are not your &#8220;coworkers&#8221;",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI.  To get stories like this in your inbox first, sign up here.",
-      "content": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Imagine coming in to work to learn that a new underling will report to you. The worker is not a person but an AI tool—one that your company nonetheless calls Alex",
-      "source": "MIT Technology Review AI",
-      "author": "James O'Donnell",
-      "publishedAt": "2026-06-29T18:00:00.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/",
-      "readTime": 3,
-      "views": 30392
-    },
-    {
-      "id": "arena-the-ai-leaderboard-everyone-uses-is-now-a-10",
-      "title": "Arena, the AI leaderboard everyone uses, is now a $100M business",
-      "summary": "The startup, which runs a popular free AI leaderboard, launched its commercial service just last September.",
-      "content": "The startup, which runs a popular free AI leaderboard, launched its commercial service just last September.",
-      "source": "TechCrunch AI",
-      "author": "Marina Temkin",
-      "publishedAt": "2026-06-29T17:39:17.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/",
-      "readTime": 3,
-      "views": 14705
-    },
-    {
-      "id": "tidal-cracks-down-on-ai-music-by-cutting-off-monet",
-      "title": "TIDAL cracks down on AI music by cutting off monetization",
-      "summary": "In addition, TIDAL will use automated tools to remove AI-generated music that attempts to impersonate an artist or a group, the company said.",
-      "content": "In addition, TIDAL will use automated tools to remove AI-generated music that attempts to impersonate an artist or a group, the company said.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-06-29T16:29:04.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/06/29/tidal-cracks-down-on-ai-music-by-cutting-off-monetization/",
-      "readTime": 3,
-      "views": 13073
-    },
-    {
-      "id": "agent-confidence-on-the-technical-frontier",
-      "title": "Agent confidence on the technical frontier",
-      "summary": "Enterprise investment in AI is booming.  Gartner is calling 2026 an “inflection year” for organizations to align their AI projects with strategic business objectives.",
-      "content": "Enterprise investment in AI is booming. Gartner is calling 2026 an “inflection year” for organizations to align their AI projects with strategic business objectives. As the pressure to prove ROI mounts, executives and technology leaders are looking to agentic AI to drive the measurable financial out",
-      "source": "MIT Technology Review AI",
-      "author": "MIT Technology Review Insights",
-      "publishedAt": "2026-06-29T14:44:01.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/06/29/1139635/agent-confidence-on-the-technical-frontier/",
-      "readTime": 3,
-      "views": 28864
-    },
-    {
-      "id": "robot-hand-company-settles-tesla-trade-secret-suit",
-      "title": "Robot hand company settles Tesla trade secret suit and announces $11M raise",
-      "summary": "The startup, Proception, is taking a unique approach to collecting training data to tackle one of the hardest problems in robotics: hands.",
-      "content": "The startup, Proception, is taking a unique approach to collecting training data to tackle one of the hardest problems in robotics: hands.",
-      "source": "TechCrunch AI",
-      "author": "Sean O'Kane",
-      "publishedAt": "2026-06-29T14:00:08.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "robotics"
-      ],
-      "url": "https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/",
-      "readTime": 3,
-      "views": 49934
-    },
-    {
-      "id": "omen-ai-8217-s-plan-to-optimize-data-centers-is-al",
-      "title": "Omen AI&#8217;s plan to optimize data centers is all wet",
-      "summary": "Omen AI raised a $31 million Series A to monitor chip coolant and stop bacterial outbreaks in data centers.",
-      "content": "Omen AI raised a $31 million Series A to monitor chip coolant and stop bacterial outbreaks in data centers.",
-      "source": "TechCrunch AI",
-      "author": "Tim Fernholz",
-      "publishedAt": "2026-06-29T13:00:00.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/06/29/omen-ais-plan-to-optimize-data-centers-is-all-wet/",
-      "readTime": 3,
-      "views": 8804
-    },
-    {
-      "id": "ford-rehires-gray-beard-engineers-after-ai-falls-s",
-      "title": "Ford rehires ‘gray beard’ engineers after AI falls short",
-      "summary": "\"Mistakenly we thought that by just introducing artificial intelligence .  that would produce a high-quality product.",
-      "content": "\"Mistakenly we thought that by just introducing artificial intelligence ... that would produce a high-quality product.”",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2026-06-28T19:05:39.000Z",
-      "category": "release",
-      "tags": [
-        "artificial intelligence",
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
-      "readTime": 3,
-      "views": 36325
-    },
-    {
-      "id": "why-wall-street-thinks-us-memory-maker-micron-is-t",
-      "title": "Why Wall Street thinks US memory maker Micron is the next Nvidia",
-      "summary": "Eager to find more public AI-related companies that may do as well as Nvidia, Wall Street investors think they've found a winner with Micron.",
-      "content": "Eager to find more public AI-related companies that may do as well as Nvidia, Wall Street investors think they've found a winner with Micron.",
-      "source": "TechCrunch AI",
-      "author": "Kirsten Korosec",
-      "publishedAt": "2026-06-28T15:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/",
-      "readTime": 3,
-      "views": 41368
-    },
-    {
-      "id": "apple-vision-pro-exec-is-reportedly-leaving-for-op",
-      "title": "Apple Vision Pro exec is reportedly leaving for OpenAI",
-      "summary": "Paul Meade, the Apple vice president in charge of the Vision Pro headset, is reportedly leaving the company to join OpenAI’s hardware team.",
-      "content": "Paul Meade, the Apple vice president in charge of the Vision Pro headset, is reportedly leaving the company to join OpenAI’s hardware team.",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2026-06-27T16:45:09.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI",
-        "Apple"
-      ],
-      "url": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
-      "readTime": 3,
-      "views": 20652
-    },
-    {
-      "id": "the-fittest-founder-in-the-room-got-cancer-here-82",
-      "title": "The fittest founder in the room got cancer. Here&#8217;s how he used AI to fight back.",
-      "summary": "When confronted with cancer, Conno Christou fed everything tied to his regime — blood results, scan data, wearable output, journal entries — into Claude.",
-      "content": "When confronted with cancer, Conno Christou fed everything tied to his regime — blood results, scan data, wearable output, journal entries — into Claude.",
-      "source": "TechCrunch AI",
-      "author": "Connie Loizos",
-      "publishedAt": "2026-06-27T14:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "claude"
-      ],
-      "url": "https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/",
-      "readTime": 3,
-      "views": 34979
-    },
-    {
-      "id": "asian-ai-startups-launch-mythos-like-models-as-ant",
-      "title": "Asian AI startups launch Mythos-like  models as Anthropic&#8217;s export ban drags on",
-      "summary": "New models are launching in Asia that promise Mythos-like capabilities without fear of an export ban.  AI labs may never recover this enormous market.",
-      "content": "New models are launching in Asia that promise Mythos-like capabilities without fear of an export ban. U.S. AI labs may never recover this enormous market.",
-      "source": "TechCrunch AI",
-      "author": "Kate Park",
-      "publishedAt": "2026-06-27T12:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
-      "readTime": 3,
-      "views": 22191
-    },
-    {
-      "id": "trump-administration-releases-anthropic-mythos-to-",
-      "title": "Trump administration releases Anthropic Mythos to be used by more than 100 US companies, agencies",
-      "summary": "Over 100 companies and government agencies are reportedly authorized to use Mythos 5, including their non-American employees.",
-      "content": "Over 100 companies and government agencies are reportedly authorized to use Mythos 5, including their non-American employees.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2026-06-27T01:01:37.000Z",
-      "category": "release",
-      "tags": [
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies/",
-      "readTime": 3,
-      "views": 19549
+      "views": 14390
     }
   ],
-  "lastUpdated": "2026-06-30T14:16:06.027Z",
+  "lastUpdated": "2026-07-01T03:45:27.322Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -347,9 +354,9 @@
   ],
   "categories": [
     "release",
-    "research",
-    "market",
     "regulation",
-    "funding"
+    "research",
+    "funding",
+    "market"
   ]
 }
