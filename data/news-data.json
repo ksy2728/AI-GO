@@ -1,10 +1,28 @@
 {
   "articles": [
     {
+      "id": "anthropic-deploys-claude-sonnet-5-fable-and-mythos",
+      "title": "Anthropic deploys Claude Sonnet 5, Fable and Mythos restored",
+      "summary": "Anthropic has launched Claude Sonnet 5 and restored access to its Fable and Mythos frontier models following a federal export control review.  The decision marks the conclusion of an eighteen-day oper.",
+      "content": "Anthropic has launched Claude Sonnet 5 and restored access to its Fable and Mythos frontier models following a federal export control review. The decision marks the conclusion of an eighteen-day operational pause triggered by a US government export control directive on June 12, which forced the temp",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-07-01T08:47:12.000Z",
+      "category": "release",
+      "tags": [
+        "anthropic",
+        "claude",
+        "Anthropic"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/anthropic-deploys-claude-sonnet-5-fable-and-mythos-restored/",
+      "readTime": 3,
+      "views": 41482
+    },
+    {
       "id": "trump-drops-restrictions-on-anthropic-8217-s-mytho",
       "title": "Trump drops restrictions on Anthropic&#8217;s Mythos and Fable models",
-      "summary": "Anthropic said it would begin restoring access to the Fable on July 1.",
-      "content": "Anthropic said it would begin restoring access to the Fable on July 1.",
+      "summary": "The Trump administration's erratic approach to AI policymaking has left companies across the industry with little clarity about what will govern future model releases.",
+      "content": "The Trump administration's erratic approach to AI policymaking has left companies across the industry with little clarity about what will govern future model releases.",
       "source": "TechCrunch AI",
       "author": "Tim Fernholz",
       "publishedAt": "2026-07-01T02:16:06.000Z",
@@ -16,7 +34,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/",
       "readTime": 3,
-      "views": 44651
+      "views": 49615
     },
     {
       "id": "wayve-launches-85m-employee-tender-offer-at-8-5b-v",
@@ -32,7 +50,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/30/wayve-launches-85m-employee-tender-offer-at-8-5b-valuation/",
       "readTime": 3,
-      "views": 45975
+      "views": 27174
     },
     {
       "id": "openclaw-is-finally-available-on-android-and-ios",
@@ -48,7 +66,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/",
       "readTime": 3,
-      "views": 9649
+      "views": 26674
     },
     {
       "id": "claude-science-is-anthropic-s-newest-flagship-prod",
@@ -66,7 +84,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/",
       "readTime": 3,
-      "views": 51072
+      "views": 11806
     },
     {
       "id": "the-deepmind-trio-who-built-a-poker-ai-are-now-mak",
@@ -82,7 +100,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/",
       "readTime": 3,
-      "views": 50488
+      "views": 14584
     },
     {
       "id": "google-introduces-a-faster-cheaper-image-generator",
@@ -99,7 +117,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite/",
       "readTime": 3,
-      "views": 52776
+      "views": 37970
     },
     {
       "id": "nvidia-competitor-etched-hits-5b-valuation-1b-in-s",
@@ -115,7 +133,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/",
       "readTime": 3,
-      "views": 54829
+      "views": 11528
     },
     {
       "id": "anthropic-launches-claude-sonnet-5-as-a-cheaper-wa",
@@ -135,7 +153,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
       "readTime": 3,
-      "views": 28632
+      "views": 47864
     },
     {
       "id": "acti-puts-ai-agents-directly-into-your-smartphone-",
@@ -152,7 +170,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard/",
       "readTime": 3,
-      "views": 30741
+      "views": 41317
     },
     {
       "id": "anthropic-s-claude-science-bets-on-workflow-not-a-",
@@ -170,7 +188,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/",
       "readTime": 3,
-      "views": 20595
+      "views": 44405
     },
     {
       "id": "x-now-offers-an-mcp-server-to-make-its-platform-ea",
@@ -186,7 +204,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/30/x-now-offers-an-mcp-server-to-make-its-platform-easier-for-ai-tools-to-use/",
       "readTime": 3,
-      "views": 47427
+      "views": 32406
     },
     {
       "id": "podcasting-platform-riverside-enters-the-newslette",
@@ -202,7 +220,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/30/podcasting-platform-riverside-enters-the-newsletter-publishing-game/",
       "readTime": 3,
-      "views": 10888
+      "views": 33444
     },
     {
       "id": "amazon-launches-new-1-billion-fde-org-following-op",
@@ -222,7 +240,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/",
       "readTime": 3,
-      "views": 54711
+      "views": 20919
     },
     {
       "id": "lumo-proton-8217-s-privacy-focused-ai-chatbot-gets",
@@ -238,7 +256,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/30/lumo-protons-privacy-focused-ai-chatbot-gets-an-upgrade/",
       "readTime": 3,
-      "views": 27813
+      "views": 19320
     },
     {
       "id": "agriculture-is-ready-for-ai-but-its-data-isn-8217-",
@@ -255,7 +273,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
       "readTime": 3,
-      "views": 26339
+      "views": 50081
     },
     {
       "id": "crypto-exchange-okx-wants-ai-agents-to-hire-and-pa",
@@ -271,7 +289,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other/",
       "readTime": 3,
-      "views": 20412
+      "views": 38847
     },
     {
       "id": "the-ai-jobs-debate-just-got-messier",
@@ -287,7 +305,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier/",
       "readTime": 3,
-      "views": 25892
+      "views": 51094
     },
     {
       "id": "vibe-coding-platform-base44-launches-own-model-as-",
@@ -304,7 +322,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/29/vibe-coding-platform-base44-launches-own-model-as-ai-startups-seek-defensibility/",
       "readTime": 3,
-      "views": 49502
+      "views": 26730
     },
     {
       "id": "gemini-8217-s-personalized-ai-image-generation-is-",
@@ -322,33 +340,14 @@
       ],
       "url": "https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/",
       "readTime": 3,
-      "views": 22362
-    },
-    {
-      "id": "anthropic-and-gov-newsom-forge-deal-allowing-calif",
-      "title": "Anthropic and Gov. Newsom forge deal allowing California government to use Claude at half price",
-      "summary": "As Anthropic forges a closer relationship with the state of California, the federal government has made an enemy out of the OpenAI rival.",
-      "content": "As Anthropic forges a closer relationship with the state of California, the federal government has made an enemy out of the OpenAI rival.",
-      "source": "TechCrunch AI",
-      "author": "Amanda Silberling",
-      "publishedAt": "2026-06-29T18:10:26.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai",
-        "openai",
-        "anthropic",
-        "claude",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
-      "readTime": 3,
-      "views": 14390
+      "views": 7408
     }
   ],
-  "lastUpdated": "2026-07-01T03:45:27.322Z",
+  "lastUpdated": "2026-07-01T09:42:57.754Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
+    "AI News",
     "TechCrunch AI",
     "MIT Technology Review AI"
   ],
