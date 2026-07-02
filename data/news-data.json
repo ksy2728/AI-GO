@@ -1,10 +1,63 @@
 {
   "articles": [
     {
+      "id": "microsoft-launches-its-own-ai-deployment-company-w",
+      "title": "Microsoft launches its own AI deployment company with $2.5 billion commitment",
+      "summary": "Microsoft follows Amazon, OpenAI and Anthropic with its new AI deployment group.",
+      "content": "Microsoft follows Amazon, OpenAI and Anthropic with its new AI deployment group.",
+      "source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "publishedAt": "2026-07-02T13:53:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "anthropic",
+        "OpenAI",
+        "Microsoft"
+      ],
+      "url": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
+      "readTime": 3,
+      "views": 26157
+    },
+    {
+      "id": "teaching-ai-to-run-with-the-turbines",
+      "title": "Teaching AI to run with the turbines",
+      "summary": "Artificial intelligence may have captured the public imagination through chatbots and image generators, but some of its most consequential use cases are unfolding far from consumer-facing tools.  In i.",
+      "content": "Artificial intelligence may have captured the public imagination through chatbots and image generators, but some of its most consequential use cases are unfolding far from consumer-facing tools. In industries where physical infrastructure, operational continuity, and safety are paramount, AI is beco",
+      "source": "MIT Technology Review AI",
+      "author": "MIT Technology Review Insights",
+      "publishedAt": "2026-07-02T12:51:44.000Z",
+      "category": "research",
+      "tags": [
+        "artificial intelligence",
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/",
+      "readTime": 3,
+      "views": 49657
+    },
+    {
+      "id": "yep-we-8217-re-using-openclaw-to-date-now",
+      "title": "Yep, we&#8217;re using OpenClaw to date now",
+      "summary": "Ben Guez has \"a bunch of potential international wives in [his] DMs,\" thanks to an automated script he set up using OpenClaw, Claude code, and Instagram trials.",
+      "content": "Ben Guez has \"a bunch of potential international wives in [his] DMs,\" thanks to an automated script he set up using OpenClaw, Claude code, and Instagram trials.",
+      "source": "TechCrunch AI",
+      "author": "Amanda Silberling",
+      "publishedAt": "2026-07-02T12:00:00.000Z",
+      "category": "regulation",
+      "tags": [
+        "claude"
+      ],
+      "url": "https://techcrunch.com/2026/07/02/yep-were-using-openclaw-to-date-now/",
+      "readTime": 3,
+      "views": 39177
+    },
+    {
       "id": "indian-tech-tycoon-bets-30m-of-his-own-money-to-bu",
       "title": "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office",
-      "summary": "Neo is Bhavin Turakhia’s fifth venture and his latest involving enterprise software.  This time he's taking on Microsoft Office, Google Apps with AI.",
-      "content": "Neo is Bhavin Turakhia’s fifth venture and his latest involving enterprise software. This time he's taking on Microsoft Office, Google Apps with AI.",
+      "summary": "Neo is Bhavin Turakhia’s fifth venture and his latest involving enterprise software.  This time he's taking on Microsoft Office and Google Apps with AI.",
+      "content": "Neo is Bhavin Turakhia’s fifth venture and his latest involving enterprise software. This time he's taking on Microsoft Office and Google Apps with AI.",
       "source": "TechCrunch AI",
       "author": "Jagmeet Singh",
       "publishedAt": "2026-07-02T05:30:00.000Z",
@@ -16,7 +69,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
       "readTime": 3,
-      "views": 10522
+      "views": 8640
     },
     {
       "id": "spacex-has-an-ai-device-prototype-and-it-sure-soun",
@@ -32,7 +85,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/",
       "readTime": 3,
-      "views": 12417
+      "views": 36500
     },
     {
       "id": "ashton-kutcher-leaving-sound-ventures-to-launch-ne",
@@ -48,7 +101,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/01/ashton-kutcher-leaving-sound-ventures-to-launch-new-vc-firm-with-morgan-beller/",
       "readTime": 3,
-      "views": 27875
+      "views": 38480
     },
     {
       "id": "cloudflare-8217-s-new-policy-pushes-ai-companies-t",
@@ -64,7 +117,23 @@
       ],
       "url": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
       "readTime": 3,
-      "views": 54481
+      "views": 12655
+    },
+    {
+      "id": "deploying-retail-ai-to-scale-personalisation-and-c",
+      "title": "Deploying retail AI to scale personalisation and customer insight",
+      "summary": "Optimising retail AI infrastructure drives the successful deployment of personalisation systems and real-time customer insight.  Leaders are replacing static customer interaction patterns with data pi.",
+      "content": "Optimising retail AI infrastructure drives the successful deployment of personalisation systems and real-time customer insight. Leaders are replacing static customer interaction patterns with data pipelines capable of modifying the user environment during a live session. Static layouts and broad seg",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-07-01T15:58:43.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/deploying-retail-ai-to-scale-personalisation-customer-insight/",
+      "readTime": 3,
+      "views": 19732
     },
     {
       "id": "llms-are-stuck-in-a-groupthink-groove-this-startup",
@@ -84,7 +153,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/",
       "readTime": 3,
-      "views": 54455
+      "views": 8617
     },
     {
       "id": "venice-ai-becomes-a-unicorn-with-65m-series-a-as-i",
@@ -100,7 +169,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/",
       "readTime": 3,
-      "views": 28920
+      "views": 16702
     },
     {
       "id": "gemini-spark-google-8217-s-agentic-assistant-is-no",
@@ -118,7 +187,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
       "readTime": 3,
-      "views": 35053
+      "views": 28671
     },
     {
       "id": "meta-like-spacex-looks-to-turn-excess-ai-compute-i",
@@ -137,7 +206,58 @@
       ],
       "url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/",
       "readTime": 3,
-      "views": 14837
+      "views": 50122
+    },
+    {
+      "id": "japan-8217-s-answer-to-its-worker-shortage-an-ai-m",
+      "title": "Japan&#8217;s answer to its worker shortage: An AI model for 10 million robots",
+      "summary": "Japan&#8217;s AI robots plan just went from a talking point to a formal national strategy.  This week, the government confirmed the numbers everyone&#8217;s been quoting: 10 million AI-powered robots .",
+      "content": "Japan&#8217;s AI robots plan just went from a talking point to a formal national strategy. This week, the government confirmed the numbers everyone&#8217;s been quoting: 10 million AI-powered robots deployed across 18 industries by 2040, backed by public funding of up to one trillion yen, or roughly",
+      "source": "AI News",
+      "author": "Dashveenjit Kaur",
+      "publishedAt": "2026-07-01T11:00:00.000Z",
+      "category": "funding",
+      "tags": [
+        "ai",
+        "ai model"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/japan-ai-robots-2040-national-ai-model/",
+      "readTime": 3,
+      "views": 31069
+    },
+    {
+      "id": "bank-of-england-reviews-ai-rules-for-agentic-ai-in",
+      "title": "Bank of England reviews AI rules for agentic AI in finance",
+      "summary": "The Bank of England is reviewing whether existing rules can cover the use of agentic AI in finance, including payments, trading, cybersecurity, and operations.  Deputy Governor Sarah Breeden said exis.",
+      "content": "The Bank of England is reviewing whether existing rules can cover the use of agentic AI in finance, including payments, trading, cybersecurity, and operations. Deputy Governor Sarah Breeden said existing regulatory frameworks were not designed for AI agents that can act without direct human instruct",
+      "source": "AI News",
+      "author": "Muhammad Zulhusni",
+      "publishedAt": "2026-07-01T10:00:00.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/bank-of-england-agentic-ai-finance-rules/",
+      "readTime": 3,
+      "views": 28662
+    },
+    {
+      "id": "anthropic-deploys-claude-sonnet-5-fable-and-mythos",
+      "title": "Anthropic deploys Claude Sonnet 5, Fable and Mythos restored",
+      "summary": "Anthropic has launched Claude Sonnet 5 and restored access to its Fable and Mythos frontier models following a federal export control review.  The decision marks the conclusion of an eighteen-day oper.",
+      "content": "Anthropic has launched Claude Sonnet 5 and restored access to its Fable and Mythos frontier models following a federal export control review. The decision marks the conclusion of an eighteen-day operational pause triggered by a US government export control directive on June 12, which forced the temp",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-07-01T08:47:12.000Z",
+      "category": "release",
+      "tags": [
+        "anthropic",
+        "claude",
+        "Anthropic"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/anthropic-deploys-claude-sonnet-5-fable-and-mythos-restored/",
+      "readTime": 3,
+      "views": 26758
     },
     {
       "id": "trump-drops-restrictions-on-anthropic-8217-s-mytho",
@@ -155,7 +275,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/",
       "readTime": 3,
-      "views": 39911
+      "views": 24161
     },
     {
       "id": "wayve-launches-85m-employee-tender-offer-at-8-5b-v",
@@ -171,7 +291,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/30/wayve-launches-85m-employee-tender-offer-at-8-5b-valuation/",
       "readTime": 3,
-      "views": 33949
+      "views": 5055
     },
     {
       "id": "openclaw-is-finally-available-on-android-and-ios",
@@ -187,7 +307,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/",
       "readTime": 3,
-      "views": 37727
+      "views": 40505
     },
     {
       "id": "claude-science-is-anthropic-s-newest-flagship-prod",
@@ -205,7 +325,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/",
       "readTime": 3,
-      "views": 22726
+      "views": 15642
     },
     {
       "id": "the-deepmind-trio-who-built-a-poker-ai-are-now-mak",
@@ -221,141 +341,22 @@
       ],
       "url": "https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/",
       "readTime": 3,
-      "views": 54979
-    },
-    {
-      "id": "google-introduces-a-faster-cheaper-image-generator",
-      "title": "Google introduces a faster, cheaper image generator with Nano Banana 2 Lite",
-      "summary": "Google is updating its image generator to make it faster and cheaper, making it a more useful tool for creators looking to make AI content.",
-      "content": "Google is updating its image generator to make it faster and cheaper, making it a more useful tool for creators looking to make AI content.",
-      "source": "TechCrunch AI",
-      "author": "Lucas Ropek",
-      "publishedAt": "2026-06-30T19:02:38.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite/",
-      "readTime": 3,
-      "views": 47465
-    },
-    {
-      "id": "nvidia-competitor-etched-hits-5b-valuation-1b-in-s",
-      "title": "Nvidia competitor Etched hits $5B valuation, $1B in sales for AI chip",
-      "summary": "Nvidia AI chip competitor Etched says it has already booked $1 billion under contract for the inference systems powered by its chip.",
-      "content": "Nvidia AI chip competitor Etched says it has already booked $1 billion under contract for the inference systems powered by its chip.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2026-06-30T18:13:02.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/",
-      "readTime": 3,
-      "views": 27937
-    },
-    {
-      "id": "anthropic-launches-claude-sonnet-5-as-a-cheaper-wa",
-      "title": "Anthropic launches Claude Sonnet 5 as a cheaper way to run agents",
-      "summary": "Anthropic’s Claude Sonnet 5 brings stronger agentic capabilities, lower pricing, and improved safety, positioning the model as a cheaper alternative to Opus, GPT-5.",
-      "content": "Anthropic’s Claude Sonnet 5 brings stronger agentic capabilities, lower pricing, and improved safety, positioning the model as a cheaper alternative to Opus, GPT-5.5, and Gemini Pro.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-06-30T18:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "gpt",
-        "anthropic",
-        "claude",
-        "gemini",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
-      "readTime": 3,
-      "views": 44311
-    },
-    {
-      "id": "acti-puts-ai-agents-directly-into-your-smartphone-",
-      "title": "Acti puts AI agents directly into your smartphone keyboard",
-      "summary": "Acti is betting the smartphone keyboard is the next home for AI assistants.  The startup's new keyboard for iOS and Android works across apps and lets users create custom AI-powered shortcuts using na.",
-      "content": "Acti is betting the smartphone keyboard is the next home for AI assistants. The startup's new keyboard for iOS and Android works across apps and lets users create custom AI-powered shortcuts using natural language.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-06-30T17:52:46.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "natural language"
-      ],
-      "url": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard/",
-      "readTime": 3,
-      "views": 52969
-    },
-    {
-      "id": "anthropic-s-claude-science-bets-on-workflow-not-a-",
-      "title": "Anthropic’s Claude Science bets on workflow, not a new model, to win over scientists",
-      "summary": "Anthropic's Claude Science is a workbench that gives scientists one environment to do computational research, saving them from the need to bounce between databases, pipelines, and tools.",
-      "content": "Anthropic's Claude Science is a workbench that gives scientists one environment to do computational research, saving them from the need to bounce between databases, pipelines, and tools.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-06-30T17:00:00.000Z",
-      "category": "research",
-      "tags": [
-        "anthropic",
-        "claude",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/",
-      "readTime": 3,
-      "views": 8046
-    },
-    {
-      "id": "x-now-offers-an-mcp-server-to-make-its-platform-ea",
-      "title": "X now offers an MCP server to make its platform easier for AI tools to use",
-      "summary": "X has launched a hosted MCP server, making it easier for developers to connect AI applications with the company’s API.",
-      "content": "X has launched a hosted MCP server, making it easier for developers to connect AI applications with the company’s API.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-06-30T15:08:42.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/06/30/x-now-offers-an-mcp-server-to-make-its-platform-easier-for-ai-tools-to-use/",
-      "readTime": 3,
-      "views": 43960
-    },
-    {
-      "id": "podcasting-platform-riverside-enters-the-newslette",
-      "title": "Podcasting platform Riverside enters the newsletter publishing game",
-      "summary": "Users will be able use AI to create newsletters based on their recordings.",
-      "content": "Users will be able use AI to create newsletters based on their recordings.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-06-30T15:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/06/30/podcasting-platform-riverside-enters-the-newsletter-publishing-game/",
-      "readTime": 3,
-      "views": 47249
+      "views": 13372
     }
   ],
-  "lastUpdated": "2026-07-02T08:54:00.911Z",
+  "lastUpdated": "2026-07-02T13:57:44.720Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
     "TechCrunch AI",
-    "MIT Technology Review AI"
+    "MIT Technology Review AI",
+    "AI News"
   ],
   "categories": [
     "release",
-    "regulation",
     "research",
-    "funding",
-    "market"
+    "regulation",
+    "market",
+    "funding"
   ]
 }
