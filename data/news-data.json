@@ -1,6 +1,90 @@
 {
   "articles": [
     {
+      "id": "spacex-has-an-ai-device-prototype-and-it-sure-soun",
+      "title": "SpaceX has an AI device prototype, and it sure sounds phone-ish",
+      "summary": "SpaceX reportedly showed investors a \"handset-like\" AI device before going public.  It could be another signal SpaceX wants to expand into wireless.",
+      "content": "SpaceX reportedly showed investors a \"handset-like\" AI device before going public. It could be another signal SpaceX wants to expand into wireless.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-07-01T18:54:18.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/",
+      "readTime": 3,
+      "views": 11106
+    },
+    {
+      "id": "ashton-kutcher-leaving-sound-ventures-to-launch-ne",
+      "title": "Ashton Kutcher leaving Sound Ventures to launch new VC firm with Morgan Beller",
+      "summary": "Sound built its reputation on concentrated, high-conviction bets in category-leading AI labs, while Kutcher's new fund appears to be chasing the layer underneath those companies — the infrastructure a.",
+      "content": "Sound built its reputation on concentrated, high-conviction bets in category-leading AI labs, while Kutcher's new fund appears to be chasing the layer underneath those companies — the infrastructure and energy that power them.",
+      "source": "TechCrunch AI",
+      "author": "Marina Temkin",
+      "publishedAt": "2026-07-01T18:47:22.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/07/01/ashton-kutcher-leaving-sound-ventures-to-launch-new-vc-firm-with-morgan-beller/",
+      "readTime": 3,
+      "views": 39495
+    },
+    {
+      "id": "cloudflare-8217-s-new-policy-pushes-ai-companies-t",
+      "title": "Cloudflare&#8217;s new policy pushes AI companies to pay for publishers&#8217; content",
+      "summary": "Cloudflare is giving AI companies until September 15 to separate web crawlers used for search from those used for AI training and agents, or risk being blocked by default on many publisher sites.",
+      "content": "Cloudflare is giving AI companies until September 15 to separate web crawlers used for search from those used for AI training and agents, or risk being blocked by default on many publisher sites.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-07-01T17:48:37.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
+      "readTime": 3,
+      "views": 28220
+    },
+    {
+      "id": "deploying-retail-ai-to-scale-personalisation-and-c",
+      "title": "Deploying retail AI to scale personalisation and customer insight",
+      "summary": "Optimising retail AI infrastructure drives the successful deployment of personalisation systems and real-time customer insight.  Leaders are replacing static customer interaction patterns with data pi.",
+      "content": "Optimising retail AI infrastructure drives the successful deployment of personalisation systems and real-time customer insight. Leaders are replacing static customer interaction patterns with data pipelines capable of modifying the user environment during a live session. Static layouts and broad seg",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-07-01T15:58:43.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/deploying-retail-ai-to-scale-personalisation-customer-insight/",
+      "readTime": 3,
+      "views": 19880
+    },
+    {
+      "id": "llms-are-stuck-in-a-groupthink-groove-this-startup",
+      "title": "LLMs are stuck in a groupthink groove. This startup is trying to get them out.",
+      "summary": "Let’s start with a game.  Open up your chatbot of choice—Claude, ChatGPT, Gemini—and type “Give me a random number between 1 and 10.",
+      "content": "Let’s start with a game. Open up your chatbot of choice—Claude, ChatGPT, Gemini—and type “Give me a random number between 1 and 10.” You’re going to get 7. Almost always. Now type “Another” and you’ll get 3 or 4. Type “Another” again and you’ll get 8 or 9. That won’t work every time—but if it&#8230;",
+      "source": "MIT Technology Review AI",
+      "author": "Will Douglas Heaven",
+      "publishedAt": "2026-07-01T14:35:16.000Z",
+      "category": "research",
+      "tags": [
+        "ai",
+        "gpt",
+        "llm",
+        "claude",
+        "gemini"
+      ],
+      "url": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/",
+      "readTime": 3,
+      "views": 28834
+    },
+    {
       "id": "venice-ai-becomes-a-unicorn-with-65m-series-a-as-i",
       "title": "Venice AI becomes a unicorn with $65M Series A as its privacy-first AI platform takes off",
       "summary": "Venice AI is already profitable, with annualized run-rate revenues of over $70 million, CEO Erik Voorhees said.",
@@ -14,7 +98,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/",
       "readTime": 3,
-      "views": 28277
+      "views": 47461
     },
     {
       "id": "gemini-spark-google-8217-s-agentic-assistant-is-no",
@@ -32,7 +116,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
       "readTime": 3,
-      "views": 33380
+      "views": 8457
     },
     {
       "id": "meta-like-spacex-looks-to-turn-excess-ai-compute-i",
@@ -51,7 +135,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/",
       "readTime": 3,
-      "views": 11952
+      "views": 41810
     },
     {
       "id": "japan-8217-s-answer-to-its-worker-shortage-an-ai-m",
@@ -68,7 +152,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/japan-ai-robots-2040-national-ai-model/",
       "readTime": 3,
-      "views": 32818
+      "views": 21009
     },
     {
       "id": "bank-of-england-reviews-ai-rules-for-agentic-ai-in",
@@ -84,7 +168,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/bank-of-england-agentic-ai-finance-rules/",
       "readTime": 3,
-      "views": 33287
+      "views": 7458
     },
     {
       "id": "anthropic-deploys-claude-sonnet-5-fable-and-mythos",
@@ -102,7 +186,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/anthropic-deploys-claude-sonnet-5-fable-and-mythos-restored/",
       "readTime": 3,
-      "views": 42284
+      "views": 43763
     },
     {
       "id": "trump-drops-restrictions-on-anthropic-8217-s-mytho",
@@ -120,7 +204,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/",
       "readTime": 3,
-      "views": 30464
+      "views": 36517
     },
     {
       "id": "wayve-launches-85m-employee-tender-offer-at-8-5b-v",
@@ -136,7 +220,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/30/wayve-launches-85m-employee-tender-offer-at-8-5b-valuation/",
       "readTime": 3,
-      "views": 30249
+      "views": 42568
     },
     {
       "id": "openclaw-is-finally-available-on-android-and-ios",
@@ -152,7 +236,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/",
       "readTime": 3,
-      "views": 30481
+      "views": 23188
     },
     {
       "id": "claude-science-is-anthropic-s-newest-flagship-prod",
@@ -170,7 +254,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/",
       "readTime": 3,
-      "views": 31354
+      "views": 6921
     },
     {
       "id": "the-deepmind-trio-who-built-a-poker-ai-are-now-mak",
@@ -186,7 +270,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/",
       "readTime": 3,
-      "views": 35322
+      "views": 33719
     },
     {
       "id": "google-introduces-a-faster-cheaper-image-generator",
@@ -203,7 +287,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite/",
       "readTime": 3,
-      "views": 42619
+      "views": 5005
     },
     {
       "id": "nvidia-competitor-etched-hits-5b-valuation-1b-in-s",
@@ -219,7 +303,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/",
       "readTime": 3,
-      "views": 19342
+      "views": 20894
     },
     {
       "id": "anthropic-launches-claude-sonnet-5-as-a-cheaper-wa",
@@ -239,7 +323,7 @@
       ],
       "url": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
       "readTime": 3,
-      "views": 41705
+      "views": 31447
     },
     {
       "id": "acti-puts-ai-agents-directly-into-your-smartphone-",
@@ -256,96 +340,10 @@
       ],
       "url": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard/",
       "readTime": 3,
-      "views": 20031
-    },
-    {
-      "id": "anthropic-s-claude-science-bets-on-workflow-not-a-",
-      "title": "Anthropic’s Claude Science bets on workflow, not a new model, to win over scientists",
-      "summary": "Anthropic's Claude Science is a workbench that gives scientists one environment to do computational research, saving them from the need to bounce between databases, pipelines, and tools.",
-      "content": "Anthropic's Claude Science is a workbench that gives scientists one environment to do computational research, saving them from the need to bounce between databases, pipelines, and tools.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-06-30T17:00:00.000Z",
-      "category": "research",
-      "tags": [
-        "anthropic",
-        "claude",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/",
-      "readTime": 3,
-      "views": 18537
-    },
-    {
-      "id": "x-now-offers-an-mcp-server-to-make-its-platform-ea",
-      "title": "X now offers an MCP server to make its platform easier for AI tools to use",
-      "summary": "X has launched a hosted MCP server, making it easier for developers to connect AI applications with the company’s API.",
-      "content": "X has launched a hosted MCP server, making it easier for developers to connect AI applications with the company’s API.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-06-30T15:08:42.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/06/30/x-now-offers-an-mcp-server-to-make-its-platform-easier-for-ai-tools-to-use/",
-      "readTime": 3,
-      "views": 11794
-    },
-    {
-      "id": "podcasting-platform-riverside-enters-the-newslette",
-      "title": "Podcasting platform Riverside enters the newsletter publishing game",
-      "summary": "Users will be able use AI to create newsletters based on their recordings.",
-      "content": "Users will be able use AI to create newsletters based on their recordings.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-06-30T15:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/06/30/podcasting-platform-riverside-enters-the-newsletter-publishing-game/",
-      "readTime": 3,
-      "views": 50116
-    },
-    {
-      "id": "amazon-launches-new-1-billion-fde-org-following-op",
-      "title": "Amazon launches new $1 billion FDE org, following OpenAI and Anthropic",
-      "summary": "Engineers on the new team will embed within companies to deploy purpose-built agents, focusing on fast deployments and customer self-sufficiency.",
-      "content": "Engineers on the new team will embed within companies to deploy purpose-built agents, focusing on fast deployments and customer self-sufficiency.",
-      "source": "TechCrunch AI",
-      "author": "Russell Brandom",
-      "publishedAt": "2026-06-30T15:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "anthropic",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/",
-      "readTime": 3,
-      "views": 33130
-    },
-    {
-      "id": "lumo-proton-8217-s-privacy-focused-ai-chatbot-gets",
-      "title": "Lumo, Proton&#8217;s privacy-focused AI chatbot, gets an upgrade",
-      "summary": "0 is dropping this week, giving users a broader variety of capabilities.",
-      "content": "Proton's Lumo 2.0 is dropping this week, giving users a broader variety of capabilities.",
-      "source": "TechCrunch AI",
-      "author": "Lucas Ropek",
-      "publishedAt": "2026-06-30T14:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/06/30/lumo-protons-privacy-focused-ai-chatbot-gets-an-upgrade/",
-      "readTime": 3,
-      "views": 28975
+      "views": 35770
     }
   ],
-  "lastUpdated": "2026-07-01T14:32:47.832Z",
+  "lastUpdated": "2026-07-02T03:30:22.539Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -354,10 +352,10 @@
     "MIT Technology Review AI"
   ],
   "categories": [
-    "funding",
     "release",
-    "market",
     "regulation",
-    "research"
+    "market",
+    "research",
+    "funding"
   ]
 }
