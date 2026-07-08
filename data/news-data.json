@@ -1,10 +1,44 @@
 {
   "articles": [
     {
+      "id": "hot-french-startup-zml-releases-free-product-to-sp",
+      "title": "Hot French startup ZML releases free product to speed inference across lots of AI chips",
+      "summary": "ZML, a hot French AI startup endorsed by Turing Award winner Yann LeCun, has now released ZML/LLMD, software that could make running AI less costly.",
+      "content": "ZML, a hot French AI startup endorsed by Turing Award winner Yann LeCun, has now released ZML/LLMD, software that could make running AI less costly.",
+      "source": "TechCrunch AI",
+      "author": "Anna Heim",
+      "publishedAt": "2026-07-08T08:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "ml",
+        "llm"
+      ],
+      "url": "https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips/",
+      "readTime": 3,
+      "views": 8504
+    },
+    {
+      "id": "ai-chip-maker-sambanova-raises-1b-at-11b-valuation",
+      "title": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
+      "summary": "AI chip maker SambaNova has raised at an $11B valuation months after Intel was rumored to be trying to buy it for about $1.",
+      "content": "AI chip maker SambaNova has raised at an $11B valuation months after Intel was rumored to be trying to buy it for about $1.6 billion.",
+      "source": "TechCrunch AI",
+      "author": "Kate Park",
+      "publishedAt": "2026-07-08T07:16:00.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/",
+      "readTime": 3,
+      "views": 31989
+    },
+    {
       "id": "meta-just-launched-a-new-ai-generator-muse-image-a",
       "title": "Meta just launched a new AI generator, Muse Image, and users are already pushing back over use of their photos",
-      "summary": "The new image-generating model has numerous use cases, including advertising, decorating and creator-based opportunities.",
-      "content": "The new image-generating model has numerous use cases, including advertising, decorating and creator-based opportunities.",
+      "summary": "The new image-generating model has numerous use cases, including advertising and decorating, and creator-based opportunities.",
+      "content": "The new image-generating model has numerous use cases, including advertising and decorating, and creator-based opportunities.",
       "source": "TechCrunch AI",
       "author": "Lucas Ropek",
       "publishedAt": "2026-07-07T22:18:10.000Z",
@@ -15,7 +49,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/",
       "readTime": 3,
-      "views": 15388
+      "views": 31162
     },
     {
       "id": "why-the-rise-of-open-source-ai-isn-8217-t-hurting-",
@@ -33,7 +67,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/",
       "readTime": 3,
-      "views": 36786
+      "views": 28085
     },
     {
       "id": "microsoft-joins-ai-cost-cutting-trend-by-relying-m",
@@ -50,7 +84,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/",
       "readTime": 3,
-      "views": 39689
+      "views": 54561
     },
     {
       "id": "discord-admits-ai-moderation-bug-wrongfully-banned",
@@ -67,7 +101,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/",
       "readTime": 3,
-      "views": 39317
+      "views": 20784
     },
     {
       "id": "claude-cowork-expands-to-mobile-and-web",
@@ -83,23 +117,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/",
       "readTime": 3,
-      "views": 21415
-    },
-    {
-      "id": "insilico-medicine-advances-ai-drug-for-ipf-to-phas",
-      "title": "Insilico Medicine advances AI drug for IPF to Phase III trials",
-      "summary": "Insilico Medicine is advancing to Phase III human trials for testing a drug identified by AI targeting idiopathic pulmonary fibrosis (IPF).  This progression supplies the computational drug discovery .",
-      "content": "Insilico Medicine is advancing to Phase III human trials for testing a drug identified by AI targeting idiopathic pulmonary fibrosis (IPF). This progression supplies the computational drug discovery sector with empirical test cases, advancing an AI medicine past early safety evaluations into late-st",
-      "source": "AI News",
-      "author": "Ryan Daws",
-      "publishedAt": "2026-07-07T14:00:06.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/insilico-medicine-advances-ai-drug-for-ipf-to-phase-iii-trials/",
-      "readTime": 3,
-      "views": 41802
+      "views": 50482
     },
     {
       "id": "savi-8217-s-app-aims-to-protect-consumers-from-rea",
@@ -115,7 +133,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom/",
       "readTime": 3,
-      "views": 28774
+      "views": 17668
     },
     {
       "id": "the-foundational-elements-of-ai-architecture-that-",
@@ -131,23 +149,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/",
       "readTime": 3,
-      "views": 31016
-    },
-    {
-      "id": "l-oreal-mondelez-and-nestle-use-ai-to-speed-produc",
-      "title": "L’Oreal, Mondelez, and Nestle use AI to speed product development",
-      "summary": "L’Oreal is using AI to shorten product development timelines and identify new uses for ingredients already present in its portfolio.  The French cosmetics group has applied AI in its laboratories for .",
-      "content": "L’Oreal is using AI to shorten product development timelines and identify new uses for ingredients already present in its portfolio. The French cosmetics group has applied AI in its laboratories for the past four years, with Fabrice Megarbane, president of L’Oreal’s consumer products division, telli",
-      "source": "AI News",
-      "author": "Muhammad Zulhusni",
-      "publishedAt": "2026-07-07T10:00:00.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/ai-product-development-loreal-mondelez-nestle/",
-      "readTime": 3,
-      "views": 14733
+      "views": 54933
     },
     {
       "id": "the-first-american-autonomous-ground-vehicles-are-",
@@ -163,7 +165,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine/",
       "readTime": 3,
-      "views": 19524
+      "views": 51848
     },
     {
       "id": "the-8216-first-8217-ai-run-ransomware-attack-still",
@@ -179,7 +181,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
       "readTime": 3,
-      "views": 38821
+      "views": 7070
     },
     {
       "id": "us-investors-will-soon-get-access-to-sk-hynix-anot",
@@ -195,7 +197,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/06/us-investors-will-soon-get-access-to-sk-hynix-another-memory-maker-riding-the-ai-boom/",
       "readTime": 3,
-      "views": 8194
+      "views": 19222
     },
     {
       "id": "you-can-now-customize-siri-8217-s-pace-and-express",
@@ -213,7 +215,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/",
       "readTime": 3,
-      "views": 19775
+      "views": 42289
     },
     {
       "id": "every-major-tech-layoff-in-2026-that-has-name-chec",
@@ -229,7 +231,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
       "readTime": 3,
-      "views": 44439
+      "views": 9490
     },
     {
       "id": "your-family-8217-s-300-stake-in-openai",
@@ -247,7 +249,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/",
       "readTime": 3,
-      "views": 35785
+      "views": 53977
     },
     {
       "id": "if-you-use-google-you-8217-re-training-its-ai-here",
@@ -265,7 +267,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/",
       "readTime": 3,
-      "views": 13789
+      "views": 47035
     },
     {
       "id": "microsoft-lays-off-nearly-5-000-employees-across-x",
@@ -282,7 +284,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/",
       "readTime": 3,
-      "views": 41841
+      "views": 45650
     },
     {
       "id": "reddit-is-using-llms-to-solve-a-problem-llms-large",
@@ -299,7 +301,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/06/reddit-is-using-llms-to-solve-a-problem-llms-largely-created/",
       "readTime": 3,
-      "views": 50577
+      "views": 27867
     },
     {
       "id": "station-f-ramps-up-as-a-launchpad-for-europe-s-hot",
@@ -315,38 +317,37 @@
       ],
       "url": "https://techcrunch.com/2026/07/06/station-f-ramps-up-as-a-launchpad-for-europes-hottest-ai-startups/",
       "readTime": 3,
-      "views": 7859
+      "views": 38276
     },
     {
-      "id": "china-8217-s-ai-companion-rules-what-beijing-is-re",
-      "title": "China&#8217;s AI companion rules: what Beijing is really going after",
-      "summary": "An AI companion sounds dystopian, but it has become a common thread in the wider conversation about the perils of generative AI.  What it refers to is essentially a conversational agent built to susta.",
-      "content": "An AI companion sounds dystopian, but it has become a common thread in the wider conversation about the perils of generative AI. What it refers to is essentially a conversational agent built to sustain an ongoing, personal relationship with a user, with the memory and steady persona that keep it con",
-      "source": "AI News",
-      "author": "Dashveenjit Kaur",
-      "publishedAt": "2026-07-06T11:00:00.000Z",
-      "category": "market",
+      "id": "new-google-commercial-imagines-a-declaration-of-in",
+      "title": "New Google commercial imagines a Declaration of Independence written with help from AI",
+      "summary": "Two hundred and fifty years after the signing of the Declaration of Independence, a new commercial asks: What if the Founding Fathers had access to Google Workspace.",
+      "content": "Two hundred and fifty years after the signing of the Declaration of Independence, a new commercial asks: What if the Founding Fathers had access to Google Workspace?",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "publishedAt": "2026-07-04T20:55:25.000Z",
+      "category": "release",
       "tags": [
         "ai",
-        "generative ai"
+        "Google"
       ],
-      "url": "https://www.artificialintelligence-news.com/news/china-ai-companion-rules/",
+      "url": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
       "readTime": 3,
-      "views": 23098
+      "views": 37972
     }
   ],
-  "lastUpdated": "2026-07-08T02:35:11.202Z",
+  "lastUpdated": "2026-07-08T08:25:40.508Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
     "TechCrunch AI",
-    "AI News",
     "MIT Technology Review AI"
   ],
   "categories": [
     "release",
-    "market",
     "funding",
+    "market",
     "research"
   ]
 }
