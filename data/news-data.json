@@ -1,6 +1,109 @@
 {
   "articles": [
     {
+      "id": "anthropic-s-new-claude-feature-is-quietly-selling-",
+      "title": "Anthropic’s new Claude feature is quietly selling you on AI",
+      "summary": "Claude’s new Reflect dashboard doesn’t just visualize how you use AI.  It also subtly reinforces how much of your daily work now depends on Anthropic’s chatbot.",
+      "content": "Claude’s new Reflect dashboard doesn’t just visualize how you use AI. It also subtly reinforces how much of your daily work now depends on Anthropic’s chatbot.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-07-09T14:53:09.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "anthropic",
+        "claude",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai/",
+      "readTime": 3,
+      "views": 11628
+    },
+    {
+      "id": "anthropic-openai-and-spacex-are-bigger-than-the-la",
+      "title": "Anthropic, OpenAI, and SpaceX are bigger than the last 25 years of tech exits",
+      "summary": "Three big AI IPOs are set to generate more value than all the U.  VC backed exits since 2000.",
+      "content": "Three big AI IPOs are set to generate more value than all the U.S. VC backed exits since 2000.",
+      "source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "publishedAt": "2026-07-09T14:51:00.000Z",
+      "category": "funding",
+      "tags": [
+        "ai",
+        "openai",
+        "anthropic",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/07/09/anthropic-openai-and-spacex-are-bigger-than-the-last-25-years-of-tech-exits/",
+      "readTime": 3,
+      "views": 42748
+    },
+    {
+      "id": "popular-open-source-ai-developer-tool-ollama-raise",
+      "title": "Popular open source AI developer tool Ollama raises $65M, grows to nearly 9M users",
+      "summary": "Benchmark-backed Ollama has amassed 176,000 stars, and nearly 17,000 forks on GitHub by helping developers easily run AI on their PCs.",
+      "content": "Benchmark-backed Ollama has amassed 176,000 stars, and nearly 17,000 forks on GitHub by helping developers easily run AI on their PCs.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2026-07-09T13:00:00.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/",
+      "readTime": 3,
+      "views": 22685
+    },
+    {
+      "id": "character-ai-enters-the-microdrama-arena-with-its-",
+      "title": "Character.AI enters the microdrama arena with its own productions, but there&#8217;s a twist",
+      "summary": "In an interesting twist that takes advantage of the company's core product, users can chat with these shows' characters, ask them questions, and even roleplay different storylines.",
+      "content": "In an interesting twist that takes advantage of the company's core product, users can chat with these shows' characters, ask them questions, and even roleplay different storylines.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-07-09T13:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/07/09/character-ai-enters-the-microdrama-arena-with-its-own-productions-but-with-a-twist/",
+      "readTime": 3,
+      "views": 46094
+    },
+    {
+      "id": "nandan-nilekani-leaves-gp-role-at-fundamentum-as-i",
+      "title": "Nandan Nilekani leaves GP role at Fundamentum as it launches $200M third fund",
+      "summary": "Nilekani remains Fundamentum's anchor investor as the firm expands its leadership team and targets AI and fintech startups in India.",
+      "content": "Nilekani remains Fundamentum's anchor investor as the firm expands its leadership team and targets AI and fintech startups in India.",
+      "source": "TechCrunch AI",
+      "author": "Jagmeet Singh",
+      "publishedAt": "2026-07-09T12:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/07/09/nandan-nilekani-leaves-gp-role-at-his-vc-firm-as-it-launches-third-200m-fund/",
+      "readTime": 3,
+      "views": 54802
+    },
+    {
+      "id": "nhs-ai-blood-test-could-reduce-invasive-womb-cance",
+      "title": "NHS AI blood test could reduce invasive womb cancer checks",
+      "summary": "Several NHS hospitals are preparing to use an AI-powered blood test to help assess women referred for possible womb cancer before invasive checks are carried out.  According to The Guardian, around 90.",
+      "content": "Several NHS hospitals are preparing to use an AI-powered blood test to help assess women referred for possible womb cancer before invasive checks are carried out. According to The Guardian, around 90,000 postmenopausal women in England are referred by GPs each year for checks after experiencing heav",
+      "source": "AI News",
+      "author": "Muhammad Zulhusni",
+      "publishedAt": "2026-07-09T10:00:00.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/nhs-ai-blood-test-womb-cancer-checks/",
+      "readTime": 3,
+      "views": 47323
+    },
+    {
       "id": "google-8217-s-deepfake-detector-system-used-to-deb",
       "title": "Google&#8217;s deepfake detector system used to debunk McConnell hoax pic",
       "summary": "Earlier this week, a picture seemed to show Kentucky Senator Mitch McConnell covered in tubes in a hospital bed in a state of extreme distress.  It turned out to be an AI-generated fake.",
@@ -15,7 +118,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic/",
       "readTime": 3,
-      "views": 43654
+      "views": 43421
     },
     {
       "id": "spacexai-releases-grok-4-5-which-elon-describes-as",
@@ -32,7 +135,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/",
       "readTime": 3,
-      "views": 44358
+      "views": 14417
     },
     {
       "id": "this-startup-thinks-robotics-is-about-to-have-its-",
@@ -51,7 +154,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/",
       "readTime": 3,
-      "views": 51097
+      "views": 27754
     },
     {
       "id": "google-photos-adds-a-new-ai-8216-video-remix-8217-",
@@ -68,7 +171,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool/",
       "readTime": 3,
-      "views": 29715
+      "views": 34260
     },
     {
       "id": "why-this-ceo-thinks-video-games-make-better-traini",
@@ -88,7 +191,7 @@
       ],
       "url": "https://techcrunch.com/video/why-this-ceo-thinks-video-games-make-better-training-data-than-the-internet/",
       "readTime": 3,
-      "views": 9142
+      "views": 11855
     },
     {
       "id": "meta-wants-its-ai-glasses-to-seem-less-creepy-its-",
@@ -105,7 +208,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/08/meta-wants-its-ai-glasses-to-seem-less-creepy-its-ai-strategy-says-otherwise/",
       "readTime": 3,
-      "views": 44741
+      "views": 25183
     },
     {
       "id": "openai-releases-new-voice-models-for-more-natural-",
@@ -123,7 +226,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/",
       "readTime": 3,
-      "views": 14424
+      "views": 29336
     },
     {
       "id": "prime-intellect-raises-130m-series-a-to-help-enter",
@@ -139,7 +242,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/",
       "readTime": 3,
-      "views": 37538
+      "views": 20788
     },
     {
       "id": "these-ai-startups-are-growing-revenue-at-faster-an",
@@ -155,7 +258,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/08/these-ai-startups-are-growing-revenue-at-faster-and-faster-rates/",
       "readTime": 3,
-      "views": 42518
+      "views": 12187
     },
     {
       "id": "your-gaming-data-could-be-the-secret-to-agi-accord",
@@ -174,7 +277,7 @@
       ],
       "url": "https://techcrunch.com/podcast/your-gaming-data-could-be-the-secret-to-agi-according-to-this-bezos-backed-startup/",
       "readTime": 3,
-      "views": 34223
+      "views": 12147
     },
     {
       "id": "former-openai-exec-kevin-weil-is-now-on-the-board-",
@@ -192,7 +295,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/08/former-openai-exec-kevin-weil-is-now-on-the-board-of-stoke-space/",
       "readTime": 3,
-      "views": 39669
+      "views": 53079
     },
     {
       "id": "hot-french-startup-zml-releases-free-product-to-sp",
@@ -210,7 +313,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips/",
       "readTime": 3,
-      "views": 27208
+      "views": 8519
     },
     {
       "id": "ai-chip-maker-sambanova-raises-1b-at-11b-valuation",
@@ -226,7 +329,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/",
       "readTime": 3,
-      "views": 23958
+      "views": 35936
     },
     {
       "id": "meta-just-launched-a-new-ai-generator-muse-image-a",
@@ -243,115 +346,15 @@
       ],
       "url": "https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/",
       "readTime": 3,
-      "views": 17138
-    },
-    {
-      "id": "why-the-rise-of-open-source-ai-isn-8217-t-hurting-",
-      "title": "Why the rise of open source AI isn&#8217;t hurting Anthropic &#8230; yet",
-      "summary": "Open source models’ success isn’t coming at the expense of frontier labs.  Instead, they each seem to capture two phases of the same life cycle.",
-      "content": "Open source models’ success isn’t coming at the expense of frontier labs. Instead, they each seem to capture two phases of the same life cycle.",
-      "source": "TechCrunch AI",
-      "author": "Russell Brandom",
-      "publishedAt": "2026-07-07T20:04:32.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/",
-      "readTime": 3,
-      "views": 41354
-    },
-    {
-      "id": "microsoft-joins-ai-cost-cutting-trend-by-relying-m",
-      "title": "Microsoft joins AI cost-cutting trend by relying more on its own models",
-      "summary": "Microsoft is the latest Silicon Valley giant to cut back on its AI spending.",
-      "content": "Microsoft is the latest Silicon Valley giant to cut back on its AI spending.",
-      "source": "TechCrunch AI",
-      "author": "Lucas Ropek",
-      "publishedAt": "2026-07-07T19:58:20.000Z",
-      "category": "market",
-      "tags": [
-        "ai",
-        "Microsoft"
-      ],
-      "url": "https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/",
-      "readTime": 3,
-      "views": 20842
-    },
-    {
-      "id": "discord-admits-ai-moderation-bug-wrongfully-banned",
-      "title": "Discord admits AI moderation bug wrongfully banned users over harmless images",
-      "summary": "The company confirmed that the issue had been affecting accounts since May, with an additional 200 users banned over the weekend before its team identified and fixed the problem.",
-      "content": "The company confirmed that the issue had been affecting accounts since May, with an additional 200 users banned over the weekend before its team identified and fixed the problem.",
-      "source": "TechCrunch AI",
-      "author": "Lauren Forristal",
-      "publishedAt": "2026-07-07T19:28:38.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "ml"
-      ],
-      "url": "https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/",
-      "readTime": 3,
-      "views": 42993
-    },
-    {
-      "id": "claude-cowork-expands-to-mobile-and-web",
-      "title": "Claude Cowork expands to mobile and web",
-      "summary": "With this update, users can start a task from their desk, get status updates on their phone, and pick up the finished output later — even if their laptop is closed.",
-      "content": "With this update, users can start a task from their desk, get status updates on their phone, and pick up the finished output later — even if their laptop is closed.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-07-07T16:27:18.000Z",
-      "category": "release",
-      "tags": [
-        "claude"
-      ],
-      "url": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/",
-      "readTime": 3,
-      "views": 16969
-    },
-    {
-      "id": "savi-8217-s-app-aims-to-protect-consumers-from-rea",
-      "title": "Savi&#8217;s app aims to protect consumers from realistic AI scams like kidnappers demanding ransom",
-      "summary": "The company just raised $7 million in seed funding, and is launching its app for iPhone and Android on Tuesday.",
-      "content": "The company just raised $7 million in seed funding, and is launching its app for iPhone and Android on Tuesday.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2026-07-07T12:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom/",
-      "readTime": 3,
-      "views": 25791
-    },
-    {
-      "id": "the-foundational-elements-of-ai-architecture-that-",
-      "title": "The foundational elements of AI architecture that IT leaders need to scale",
-      "summary": "With the rapid progress of AI capabilities and the move to agentic systems, organizations are expanding their use cases as the technology continues to grow.  That constant evolution also introduces ri.",
-      "content": "With the rapid progress of AI capabilities and the move to agentic systems, organizations are expanding their use cases as the technology continues to grow. That constant evolution also introduces risk, leaving IT leaders to wonder which investments will prove valuable even six months into the futur",
-      "source": "MIT Technology Review AI",
-      "author": "MIT Technology Review Insights",
-      "publishedAt": "2026-07-07T11:10:52.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/",
-      "readTime": 3,
-      "views": 37416
+      "views": 31483
     }
   ],
-  "lastUpdated": "2026-07-09T09:36:47.753Z",
+  "lastUpdated": "2026-07-09T14:56:11.906Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
     "TechCrunch AI",
-    "MIT Technology Review AI"
+    "AI News"
   ],
   "categories": [
     "release",
