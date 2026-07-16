@@ -1,8 +1,169 @@
 {
   "articles": [
     {
+      "id": "microsoft-is-reportedly-training-salespeople-to-ta",
+      "title": "Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic",
+      "summary": "Microsoft is looking to sell its in-house AI models as more efficient and cost-effective than its competitors' models.",
+      "content": "Microsoft is looking to sell its in-house AI models as more efficient and cost-effective than its competitors' models.",
+      "source": "TechCrunch AI",
+      "author": "Lucas Ropek",
+      "publishedAt": "2026-07-15T23:59:44.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "anthropic",
+        "ai model",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/",
+      "readTime": 3,
+      "views": 53224
+    },
+    {
+      "id": "amid-hardware-legal-battle-openai-releases-a-230-k",
+      "title": "Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex",
+      "summary": "OpenAI, which is in the middle of a legal battle with Apple over hardware trade theft allegations, just released a light-up keyboard designed to be paired with its agentic coding app.",
+      "content": "OpenAI, which is in the middle of a legal battle with Apple over hardware trade theft allegations, just released a light-up keyboard designed to be paired with its agentic coding app.",
+      "source": "TechCrunch AI",
+      "author": "Lucas Ropek",
+      "publishedAt": "2026-07-15T19:41:38.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI",
+        "Apple"
+      ],
+      "url": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
+      "readTime": 3,
+      "views": 32583
+    },
+    {
+      "id": "thinking-machines-amps-up-its-bet-against-one-size",
+      "title": "Thinking Machines amps up its bet against one-size-fits-all AI with its first open model, Inkling",
+      "summary": "It's the company's first public proof point after a year and a half spent building AI infrastructure largely out of public view.",
+      "content": "It's the company's first public proof point after a year and a half spent building AI infrastructure largely out of public view.",
+      "source": "TechCrunch AI",
+      "author": "Connie Loizos",
+      "publishedAt": "2026-07-15T18:04:06.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/",
+      "readTime": 3,
+      "views": 30095
+    },
+    {
+      "id": "meet-gpt-red-an-llm-super-hacker-openai-built-to-m",
+      "title": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
+      "summary": "OpenAI has built an LLM super-hacker called GPT-Red that it uses as a sparring partner to help its other models boost their defenses against cyberattacks.  Last week the company released the latest ve.",
+      "content": "OpenAI has built an LLM super-hacker called GPT-Red that it uses as a sparring partner to help its other models boost their defenses against cyberattacks. Last week the company released the latest version of its flagship LLM, GPT-5.6. OpenAI says that training it against GPT-Red made the model its m",
+      "source": "MIT Technology Review AI",
+      "author": "Will Douglas Heaven",
+      "publishedAt": "2026-07-15T17:09:37.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gpt",
+        "llm",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
+      "readTime": 3,
+      "views": 5961
+    },
+    {
+      "id": "hack-suggests-ai-music-generator-suno-scraped-yout",
+      "title": "Hack suggests AI music generator Suno scraped YouTube for training data",
+      "summary": "The hacker used an employee's credentials to access source code, which revealed how Suno scraped decades of audio.",
+      "content": "The hacker used an employee's credentials to access source code, which revealed how Suno scraped decades of audio.",
+      "source": "TechCrunch AI",
+      "author": "Amanda Silberling",
+      "publishedAt": "2026-07-15T17:00:34.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/",
+      "readTime": 3,
+      "views": 18573
+    },
+    {
+      "id": "whatnot-acquires-shaped-to-power-real-time-live-sh",
+      "title": "Whatnot acquires Shaped to power real-time live shopping recommendations",
+      "summary": "Livestream shopping platform Whatnot has acquired AI startup Shaped, a machine learning company focused on real-time recommendations and search.  The deal will bolster Whatnot’s personalization and di.",
+      "content": "Livestream shopping platform Whatnot has acquired AI startup Shaped, a machine learning company focused on real-time recommendations and search. The deal will bolster Whatnot’s personalization and discovery features as it expands into new product categories.",
+      "source": "TechCrunch AI",
+      "author": "Lauren Forristal",
+      "publishedAt": "2026-07-15T17:00:00.000Z",
+      "category": "partnership",
+      "tags": [
+        "ai",
+        "machine learning"
+      ],
+      "url": "https://techcrunch.com/2026/07/15/whatnot-acquires-shaped-to-power-real-time-live-shopping-recommendations/",
+      "readTime": 3,
+      "views": 18414
+    },
+    {
+      "id": "microsoft-patches-record-number-of-security-vulner",
+      "title": "Microsoft patches record number of security vulnerabilities, citing its use of AI",
+      "summary": "Microsoft's monthly release of security fixes, dubbed Patch Tuesday, resolved a record 570 security vulnerabilities across the company's product line, thanks to discoveries with AI.",
+      "content": "Microsoft's monthly release of security fixes, dubbed Patch Tuesday, resolved a record 570 security vulnerabilities across the company's product line, thanks to discoveries with AI.",
+      "source": "TechCrunch AI",
+      "author": "Zack Whittaker",
+      "publishedAt": "2026-07-15T16:20:18.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Microsoft"
+      ],
+      "url": "https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai/",
+      "readTime": 3,
+      "views": 20298
+    },
+    {
+      "id": "apple-intelligence-approved-for-launch-in-china-wi",
+      "title": "Apple Intelligence approved for launch in China with Alibaba’s Qwen AI",
+      "summary": "The deal, which was rumored to be in the works last year, marks an important step for Apple's AI ambitions in a key market.",
+      "content": "The deal, which was rumored to be in the works last year, marks an important step for Apple's AI ambitions in a key market.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-07-15T15:29:33.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Apple"
+      ],
+      "url": "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
+      "readTime": 3,
+      "views": 9705
+    },
+    {
+      "id": "inside-ode-with-anthropic-the-startup-betting-ai-s",
+      "title": "Inside Ode with Anthropic, the startup betting AI services are the future of enterprise",
+      "summary": "Can a handful of engineers really do the work of an army of consultants. &#160;That’s&#160;the bet behind Ode with Anthropic —&#160;the joint venture dedicated to embedding forward-deployed engineers .",
+      "content": "Can a handful of engineers really do the work of an army of consultants?&#160;That’s&#160;the bet behind Ode with Anthropic —&#160;the joint venture dedicated to embedding forward-deployed engineers in enterprise firms, backed by&#160;Anthropic, Blackstone, Hellman &#38; Friedman, Goldman&#160;Sachs",
+      "source": "TechCrunch AI",
+      "author": "Theresa Loconsolo",
+      "publishedAt": "2026-07-15T15:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "llm",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/video/inside-ode-with-anthropic-the-startup-betting-ai-services-are-the-future-of-enterprise/",
+      "readTime": 3,
+      "views": 11619
+    },
+    {
       "id": "anthropic-blackstone-bet-the-next-trillion-dollar-",
-      "title": "Anthropic, Blackstone bet the next trillion-dollar AI business is implementation, not models",
+      "title": "Anthropic, Blackstone bet the next trillion-dollar AI business is implementation, not just models",
       "summary": "Anthropic-backed Ode launches as AI labs bet that embedding forward-deployed engineers inside enterprises is the key to accelerating enterprise AI adoption.",
       "content": "Anthropic-backed Ode launches as AI labs bet that embedding forward-deployed engineers inside enterprises is the key to accelerating enterprise AI adoption.",
       "source": "TechCrunch AI",
@@ -16,7 +177,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/",
       "readTime": 3,
-      "views": 12371
+      "views": 50993
     },
     {
       "id": "reelful-8217-s-ai-turns-your-camera-roll-into-shor",
@@ -32,7 +193,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/15/reelfuls-ai-turns-your-camera-roll-into-short-form-videos-for-social-media/",
       "readTime": 3,
-      "views": 31401
+      "views": 31226
     },
     {
       "id": "indian-ai-coding-startup-emergent-becomes-a-unicor",
@@ -48,7 +209,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch/",
       "readTime": 3,
-      "views": 8432
+      "views": 13646
     },
     {
       "id": "vint-cerf-is-working-on-a-plan-to-unleash-ai-agent",
@@ -64,7 +225,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/15/vint-cerf-is-working-on-a-plan-to-unleash-ai-agents-on-the-open-internet/",
       "readTime": 3,
-      "views": 20673
+      "views": 24084
     },
     {
       "id": "nokia-8217-s-ai-ran-platform-a-radio-comeback-that",
@@ -80,7 +241,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/nokia-ai-ran-platform-nvidia/",
       "readTime": 3,
-      "views": 30555
+      "views": 10139
     },
     {
       "id": "openai-researcher-miles-wang-in-talks-to-launch-ai",
@@ -98,7 +259,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
       "readTime": 3,
-      "views": 46554
+      "views": 34281
     },
     {
       "id": "lorde-says-ai-glasses-are-8216-not-sexy-8217",
@@ -114,7 +275,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/14/lorde-says-ai-glasses-are-not-sexy/",
       "readTime": 3,
-      "views": 16181
+      "views": 32085
     },
     {
       "id": "openai-8217-s-first-hardware-device-is-reportedly-",
@@ -134,7 +295,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/",
       "readTime": 3,
-      "views": 35583
+      "views": 38565
     },
     {
       "id": "openai-pushes-back-on-apple-trade-secret-lawsuit",
@@ -153,7 +314,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit/",
       "readTime": 3,
-      "views": 10412
+      "views": 51489
     },
     {
       "id": "apple-opens-its-new-siri-ai-to-everyone-with-the-i",
@@ -170,108 +331,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/",
       "readTime": 3,
-      "views": 43160
-    },
-    {
-      "id": "anthropic-8217-s-newest-ad-is-creeping-people-out",
-      "title": "Anthropic&#8217;s newest ad is creeping people out",
-      "summary": "Anthropic has consistently attempted to depict itself as the ethical foil to other AI companies.  This latest marketing stunt — which leans into criticism of AI as a way to make Anthropic seem aware o.",
-      "content": "Anthropic has consistently attempted to depict itself as the ethical foil to other AI companies. This latest marketing stunt — which leans into criticism of AI as a way to make Anthropic seem aware of the responsibility it carries — would appear to be more of the same.",
-      "source": "TechCrunch AI",
-      "author": "Lucas Ropek",
-      "publishedAt": "2026-07-14T19:41:27.000Z",
-      "category": "market",
-      "tags": [
-        "ai",
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/07/14/anthropics-newest-ad-is-creeping-people-out/",
-      "readTime": 3,
-      "views": 21567
-    },
-    {
-      "id": "the-founder-of-hinge-raised-18m-to-build-a-new-ai-",
-      "title": "The founder of Hinge raised $18M to build a new AI dating service, Overtone",
-      "summary": "Overtone describes itself as \"a voice- and audio-forward service, enabled by AI, that provides highly curated introductions.",
-      "content": "Overtone describes itself as \"a voice- and audio-forward service, enabled by AI, that provides highly curated introductions.\"",
-      "source": "TechCrunch AI",
-      "author": "Amanda Silberling",
-      "publishedAt": "2026-07-14T19:39:39.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/07/14/the-founder-of-hinge-raised-18m-to-build-a-new-ai-dating-service-overtone/",
-      "readTime": 3,
-      "views": 53890
-    },
-    {
-      "id": "google-faces-another-ai-training-lawsuit-from-majo",
-      "title": "Google faces another AI training lawsuit from major publishers",
-      "summary": "Hachette, Cengage, Elsevier, and other publishers allege that Google trained its AI on copyrighted works without the necessary permissions.",
-      "content": "Hachette, Cengage, Elsevier, and other publishers allege that Google trained its AI on copyrighted works without the necessary permissions.",
-      "source": "TechCrunch AI",
-      "author": "Amanda Silberling",
-      "publishedAt": "2026-07-14T18:33:31.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers/",
-      "readTime": 3,
-      "views": 36505
-    },
-    {
-      "id": "deepmind-ceo-calls-for-an-independent-standards-bo",
-      "title": "DeepMind CEO calls for an independent standards body to regulate frontier AI",
-      "summary": "DeepMind CEO Demis Hassabis is proposing an AI \"standards body\" modeled after FINRA, to test frontier models and develop best practices for their release.",
-      "content": "DeepMind CEO Demis Hassabis is proposing an AI \"standards body\" modeled after FINRA, to test frontier models and develop best practices for their release.",
-      "source": "TechCrunch AI",
-      "author": "Russell Brandom",
-      "publishedAt": "2026-07-14T17:45:55.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/",
-      "readTime": 3,
-      "views": 42104
-    },
-    {
-      "id": "meta-s-adam-mosseri-says-ai-token-budgets-could-so",
-      "title": "Meta’s Adam Mosseri says AI token budgets could soon be capped per engineer",
-      "summary": "Instagram head Adam Mosseri believes companies will eventually need to manage AI token spending the same way they manage payroll or other operating expenses, predicting that engineers could soon face .",
-      "content": "Instagram head Adam Mosseri believes companies will eventually need to manage AI token spending the same way they manage payroll or other operating expenses, predicting that engineers could soon face limits on how much they spend using AI tools.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-07-14T16:22:15.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Meta"
-      ],
-      "url": "https://techcrunch.com/2026/07/14/metas-adam-mosseri-says-ai-token-budgets-could-soon-be-capped-per-engineer/",
-      "readTime": 3,
-      "views": 28639
-    },
-    {
-      "id": "google-images-gets-a-pinterest-like-redesign-focus",
-      "title": "Google Images gets a Pinterest-like redesign focused on discovery",
-      "summary": "Now, when users navigate to Google Images, they'll see a \"For You\" gallery of images tailored to their interests and browsing history.",
-      "content": "Now, when users navigate to Google Images, they'll see a \"For You\" gallery of images tailored to their interests and browsing history.",
-      "source": "TechCrunch AI",
-      "author": "Aisha Malik",
-      "publishedAt": "2026-07-14T16:00:00.000Z",
-      "category": "research",
-      "tags": [
-        "ai",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/07/14/google-images-gets-a-pinterest-like-redesign-focused-on-discovery/",
-      "readTime": 3,
-      "views": 32136
+      "views": 30365
     },
     {
       "id": "aws-and-bluesight-build-ai-for-hospital-340b-compl",
@@ -287,69 +347,21 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/aws-and-bluesight-build-ai-for-hospital-340b-compliance/",
       "readTime": 3,
-      "views": 8864
-    },
-    {
-      "id": "new-york-state-halts-construction-of-all-new-data-",
-      "title": "New York State halts construction of all new data centers",
-      "summary": "New York has become the first state to temporarily halt approval of large data centers, as Gov.  Kathy Hochul argues the AI-driven building boom shouldn’t come at the expense of higher electricity cos.",
-      "content": "New York has become the first state to temporarily halt approval of large data centers, as Gov. Kathy Hochul argues the AI-driven building boom shouldn’t come at the expense of higher electricity costs, water supplies, or local control.",
-      "source": "TechCrunch AI",
-      "author": "Tim De Chant",
-      "publishedAt": "2026-07-14T15:17:59.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers/",
-      "readTime": 3,
-      "views": 23456
-    },
-    {
-      "id": "reflection-inks-1b-compute-deal-with-nebius",
-      "title": "Reflection inks $1B compute deal with Nebius",
-      "summary": "Reflection AI has signed a $1 billion deal to access Nebius' compute.  Reflection was founded in 2024 and is developing open source AI technology.",
-      "content": "Reflection AI has signed a $1 billion deal to access Nebius' compute. Reflection was founded in 2024 and is developing open source AI technology.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-07-14T14:37:48.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/07/14/reflection-inks-1b-compute-deal-with-nebius/",
-      "readTime": 3,
-      "views": 34887
-    },
-    {
-      "id": "the-real-ai-race-may-no-longer-be-at-the-frontier",
-      "title": "The real AI race may no longer be at the frontier",
-      "summary": "Hugging Face CEO Clem Delangue says enterprises increasingly want open models, due to cost, accessibility, and ownership.  Do frontier models still matter if most production AI ends up running on open.",
-      "content": "Hugging Face CEO Clem Delangue says enterprises increasingly want open models, due to cost, accessibility, and ownership. Do frontier models still matter if most production AI ends up running on open models?",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-07-14T14:24:53.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/07/14/the-real-ai-race-may-no-longer-be-at-the-frontier-open-models-hugging-face/",
-      "readTime": 3,
-      "views": 47809
+      "views": 25767
     }
   ],
-  "lastUpdated": "2026-07-15T13:40:47.020Z",
+  "lastUpdated": "2026-07-16T02:30:38.204Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
     "TechCrunch AI",
+    "MIT Technology Review AI",
     "AI News"
   ],
   "categories": [
     "release",
+    "partnership",
     "funding",
-    "regulation",
-    "market",
-    "research"
+    "regulation"
   ]
 }
