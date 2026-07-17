@@ -1,6 +1,38 @@
 {
   "articles": [
     {
+      "id": "why-the-first-gpu-financiers-are-turning-to-infere",
+      "title": "Why the first GPU financiers are turning to inference chips in a $400 million deal",
+      "summary": "A $400 million chip-backed loan points to the next wave of AI infrastructure deals.",
+      "content": "A $400 million chip-backed loan points to the next wave of AI infrastructure deals.",
+      "source": "TechCrunch AI",
+      "author": "Tim Fernholz",
+      "publishedAt": "2026-07-17T12:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal/",
+      "readTime": 3,
+      "views": 29489
+    },
+    {
+      "id": "the-risk-of-weather-data-sabotage-is-rising",
+      "title": "The risk of weather data sabotage is rising",
+      "summary": "Every morning, airline dispatchers, grid operators, and farmers around the world make decisions based on the same thing: a weather forecast.  While these forecasts are something that most people glanc.",
+      "content": "Every morning, airline dispatchers, grid operators, and farmers around the world make decisions based on the same thing: a weather forecast. While these forecasts are something that most people glance at for two seconds, weather predictions influence major strategic decisions in many industries, wit",
+      "source": "MIT Technology Review AI",
+      "author": "Monique Kuglitsch, Jesper Dramsch, Franz G. Kuglitsch, Andrea Toreti",
+      "publishedAt": "2026-07-17T08:57:32.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/07/17/1140622/weather-data-sabotage/",
+      "readTime": 3,
+      "views": 37152
+    },
+    {
       "id": "google-vids-now-lets-you-star-in-your-own-ai-video",
       "title": "Google Vids now lets you star in your own AI videos",
       "summary": "Google is adding personalized AI avatars to Vids that let users create videos starring a digital version of themselves, alongside Gemini Omni-powered tools for generating and editing videos from promp.",
@@ -16,7 +48,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
       "readTime": 3,
-      "views": 45240
+      "views": 48931
     },
     {
       "id": "roblox-launches-an-ai-powered-game-creation-featur",
@@ -32,24 +64,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/",
       "readTime": 3,
-      "views": 48639
-    },
-    {
-      "id": "examining-google-deepmind-8217-s-ai-bioresilience-",
-      "title": "Examining Google DeepMind&#8217;s AI bioresilience push",
-      "summary": "Google DeepMind and Isomorphic Labs outlined a bioresilience program to curb AI misuse in biology while aiding outbreak response.  The two organisations published an update on a joint initiative that .",
-      "content": "Google DeepMind and Isomorphic Labs outlined a bioresilience program to curb AI misuse in biology while aiding outbreak response. The two organisations published an update on a joint initiative that began quietly and has now built out more than 15 partnerships with government bodies, biosecurity org",
-      "source": "AI News",
-      "author": "Ryan Daws",
-      "publishedAt": "2026-07-16T16:48:23.000Z",
-      "category": "partnership",
-      "tags": [
-        "ai",
-        "Google"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/examining-google-deepmind-ai-bioresilience-push/",
-      "readTime": 3,
-      "views": 33274
+      "views": 21683
     },
     {
       "id": "google-8217-s-ai-mode-now-lets-you-link-and-intera",
@@ -66,7 +81,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/",
       "readTime": 3,
-      "views": 25730
+      "views": 39339
     },
     {
       "id": "yes-you-can-now-order-doordash-from-the-command-li",
@@ -82,7 +97,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line/",
       "readTime": 3,
-      "views": 35403
+      "views": 18036
     },
     {
       "id": "why-is-openai-selling-a-chatgpt-basketball",
@@ -102,7 +117,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball/",
       "readTime": 3,
-      "views": 44802
+      "views": 16122
     },
     {
       "id": "how-a-former-deepmind-researcher-raised-at-a-300m-",
@@ -121,7 +136,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/",
       "readTime": 3,
-      "views": 43610
+      "views": 43489
     },
     {
       "id": "why-ami-labs-alexandre-lebrun-won-8217-t-call-his-",
@@ -137,7 +152,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence/",
       "readTime": 3,
-      "views": 48400
+      "views": 45576
     },
     {
       "id": "moonshot-8217-s-upcoming-kimi-3-is-expected-to-clo",
@@ -156,7 +171,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/",
       "readTime": 3,
-      "views": 51405
+      "views": 41827
     },
     {
       "id": "apple-intelligence-approved-for-launch-in-china-wi",
@@ -173,23 +188,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/16/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
       "readTime": 3,
-      "views": 45824
-    },
-    {
-      "id": "neko-health-raises-700-million-to-expand-ai-body-s",
-      "title": "Neko Health raises $700 million to expand AI body scans in the US",
-      "summary": "Neko Health has raised $700 million to expand its AI body scans in the United States, starting with a clinic in New York.  The company’s preventive screening service combines medical imaging, blood te.",
-      "content": "Neko Health has raised $700 million to expand its AI body scans in the United States, starting with a clinic in New York. The company’s preventive screening service combines medical imaging, blood tests, proprietary sensors, and clinician review. The Series C round was led by Lightspeed Venture Part",
-      "source": "AI News",
-      "author": "Muhammad Zulhusni",
-      "publishedAt": "2026-07-16T09:00:00.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/neko-health-700m-ai-body-scans-us/",
-      "readTime": 3,
-      "views": 26185
+      "views": 49265
     },
     {
       "id": "applied-computing-wants-to-give-oil-and-gas-operat",
@@ -206,7 +205,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant/",
       "readTime": 3,
-      "views": 16681
+      "views": 41540
     },
     {
       "id": "microsoft-is-reportedly-training-salespeople-to-ta",
@@ -226,7 +225,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/",
       "readTime": 3,
-      "views": 27973
+      "views": 10131
     },
     {
       "id": "amid-hardware-legal-battle-openai-releases-a-230-k",
@@ -245,7 +244,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
       "readTime": 3,
-      "views": 10538
+      "views": 6991
     },
     {
       "id": "thinking-machines-amps-up-its-bet-against-one-size",
@@ -261,7 +260,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/",
       "readTime": 3,
-      "views": 11367
+      "views": 38670
     },
     {
       "id": "meet-gpt-red-an-llm-super-hacker-openai-built-to-m",
@@ -281,7 +280,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
       "readTime": 3,
-      "views": 39831
+      "views": 43136
     },
     {
       "id": "hack-suggests-ai-music-generator-suno-scraped-yout",
@@ -297,7 +296,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/",
       "readTime": 3,
-      "views": 20631
+      "views": 36595
     },
     {
       "id": "whatnot-acquires-shaped-to-power-real-time-live-sh",
@@ -314,7 +313,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/15/whatnot-acquires-shaped-to-power-real-time-live-shopping-recommendations/",
       "readTime": 3,
-      "views": 38739
+      "views": 9760
     },
     {
       "id": "microsoft-patches-record-number-of-security-vulner",
@@ -331,39 +330,38 @@
       ],
       "url": "https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai/",
       "readTime": 3,
-      "views": 21393
+      "views": 22059
     },
     {
-      "id": "inside-ode-with-anthropic-the-startup-betting-ai-s",
-      "title": "Inside Ode with Anthropic, the startup betting AI services are the future of enterprise",
-      "summary": "Can a handful of engineers really do the work of an army of consultants. &#160;That’s&#160;the bet behind Ode with Anthropic —&#160;the joint venture dedicated to embedding forward-deployed engineers .",
-      "content": "Can a handful of engineers really do the work of an army of consultants?&#160;That’s&#160;the bet behind Ode with Anthropic —&#160;the joint venture dedicated to embedding forward-deployed engineers in enterprise firms, backed by&#160;Anthropic, Blackstone, Hellman &#38; Friedman, Goldman&#160;Sachs",
-      "source": "TechCrunch AI",
-      "author": "Theresa Loconsolo",
-      "publishedAt": "2026-07-15T15:00:00.000Z",
-      "category": "release",
+      "id": "what-anthropic-s-latest-ai-discovery-does-and-does",
+      "title": "What Anthropic’s latest AI discovery does—and doesn’t—show",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI.  To get stories like this in your inbox first, sign up here.",
+      "content": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Anthropic—currently the world’s most valuable AI company, with a nearly $1 trillion valuation—has a reputation for publishing strange and heady research. It’s loo",
+      "source": "MIT Technology Review AI",
+      "author": "James O'Donnell",
+      "publishedAt": "2026-07-13T18:00:00.000Z",
+      "category": "funding",
       "tags": [
         "ai",
-        "llm",
         "anthropic",
         "Anthropic"
       ],
-      "url": "https://techcrunch.com/video/inside-ode-with-anthropic-the-startup-betting-ai-services-are-the-future-of-enterprise/",
+      "url": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/",
       "readTime": 3,
-      "views": 22266
+      "views": 23222
     }
   ],
-  "lastUpdated": "2026-07-17T08:07:49.911Z",
+  "lastUpdated": "2026-07-17T13:25:03.914Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
     "TechCrunch AI",
-    "AI News",
     "MIT Technology Review AI"
   ],
   "categories": [
     "release",
-    "partnership",
-    "funding"
+    "research",
+    "funding",
+    "partnership"
   ]
 }
