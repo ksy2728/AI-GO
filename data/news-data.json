@@ -1,6 +1,193 @@
 {
   "articles": [
     {
+      "id": "after-shocking-quarter-ibm-insists-that-ai-isn-821",
+      "title": "After shocking quarter, IBM insists that AI isn&#8217;t killing the mainframe",
+      "summary": "After IBM's stock crashed last week on warnings of poor mainframe sales, the CEO explained that AI wrecked corporate hardware budget, temporarily.",
+      "content": "After IBM's stock crashed last week on warnings of poor mainframe sales, the CEO explained that AI wrecked corporate hardware budget, temporarily.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2026-07-22T23:47:54.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/07/22/after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe/",
+      "readTime": 3,
+      "views": 7390
+    },
+    {
+      "id": "google-justifies-its-massive-ai-spending-with-a-bo",
+      "title": "Google justifies its massive AI spending with a booming cloud business",
+      "summary": "Google's cloud business is thriving, as companies adopting its AI and AI infrastructure services help the tech giant to report record profits.",
+      "content": "Google's cloud business is thriving, as companies adopting its AI and AI infrastructure services help the tech giant to report record profits.",
+      "source": "TechCrunch AI",
+      "author": "Lucas Ropek",
+      "publishedAt": "2026-07-22T22:01:52.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business/",
+      "readTime": 3,
+      "views": 7077
+    },
+    {
+      "id": "treasury-threatens-sanctions-after-white-house-cla",
+      "title": "Treasury threatens sanctions after White House claims Moonshot distilled Anthropic&#8217;s Fable",
+      "summary": "The episode has also intensified a broader debate in Washington over the influx of Chinese open models.",
+      "content": "The episode has also intensified a broader debate in Washington over the influx of Chinese open models.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-07-22T20:49:03.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/",
+      "readTime": 3,
+      "views": 37932
+    },
+    {
+      "id": "how-openai-s-human-mistake-led-to-the-ai-powered-h",
+      "title": "How OpenAI’s human mistake led to the AI-powered hack on Hugging Face",
+      "summary": "OpenAI made a mistake setting up what it called a “highly isolated” testing environment and sandbox.  According to cybersecurity experts, that human mistake is what made the AI-powered attack on Huggi.",
+      "content": "OpenAI made a mistake setting up what it called a “highly isolated” testing environment and sandbox. According to cybersecurity experts, that human mistake is what made the AI-powered attack on Hugging Face possible.",
+      "source": "TechCrunch AI",
+      "author": "Lorenzo Franceschi-Bicchierai",
+      "publishedAt": "2026-07-22T19:11:46.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/",
+      "readTime": 3,
+      "views": 36375
+    },
+    {
+      "id": "travis-kalanick-8217-s-robotics-company-raises-1-7",
+      "title": "Travis Kalanick&#8217;s robotics company raises $1.7B, led by a16z",
+      "summary": "Uber is also investing in Travis Kalanick's company Atoms, which has made gauzy claims about using industrial AI to modernize the world.",
+      "content": "Uber is also investing in Travis Kalanick's company Atoms, which has made gauzy claims about using industrial AI to modernize the world.",
+      "source": "TechCrunch AI",
+      "author": "Sean O'Kane",
+      "publishedAt": "2026-07-22T18:50:44.000Z",
+      "category": "funding",
+      "tags": [
+        "ai",
+        "robotics"
+      ],
+      "url": "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/",
+      "readTime": 3,
+      "views": 49205
+    },
+    {
+      "id": "yope-raises-12-3m-to-build-a-private-social-networ",
+      "title": "Yope raises $12.3M to build a private social network without algorithms or ads",
+      "summary": "Yope, a fast-growing social app focused on private groups of friends and family, has raised $12. 3 million in seed funding.",
+      "content": "Yope, a fast-growing social app focused on private groups of friends and family, has raised $12.3 million in seed funding. Instead of chasing creators and algorithmic feeds, the startup is betting that the future of social networking lies in small, private communities powered by messaging, photo sha",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-07-22T18:13:58.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/07/22/yope-raises-12-3m-to-build-a-private-social-network-without-algorithms-or-ads/",
+      "readTime": 3,
+      "views": 17370
+    },
+    {
+      "id": "monday-com-lays-off-hundreds-to-focus-on-ai",
+      "title": "Monday.com lays off hundreds to focus on AI",
+      "summary": "The company said it is reducing its headcount by 20%, or about 630 staff, to \"support a leaner, more focused operating model\" as it focuses on its AI Work Platform.",
+      "content": "The company said it is reducing its headcount by 20%, or about 630 staff, to \"support a leaner, more focused operating model\" as it focuses on its AI Work Platform.",
+      "source": "TechCrunch AI",
+      "author": "Ram Iyer",
+      "publishedAt": "2026-07-22T17:54:14.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/",
+      "readTime": 3,
+      "views": 26486
+    },
+    {
+      "id": "arcee-a-us-open-source-ai-lab-says-chinese-models-",
+      "title": "Arcee, a US open source AI lab, says Chinese models are not inherently dangerous",
+      "summary": "As Chinese AI models grow in capability and popularity among U.  companies, the arguing over what should be done about them has reached a fever pitch.",
+      "content": "As Chinese AI models grow in capability and popularity among U.S. companies, the arguing over what should be done about them has reached a fever pitch.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2026-07-22T16:24:08.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "ai model"
+      ],
+      "url": "https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/",
+      "readTime": 3,
+      "views": 51317
+    },
+    {
+      "id": "substack-8217-s-new-tool-tells-you-who-8217-s-been",
+      "title": "Substack&#8217;s new tool tells you who&#8217;s been writing their newsletters with AI",
+      "summary": "Substack is giving readers a way to estimate how much of a newsletter was written by AI, signaling a broader shift toward transparency around AI-assisted content.",
+      "content": "Substack is giving readers a way to estimate how much of a newsletter was written by AI, signaling a broader shift toward transparency around AI-assisted content.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-07-22T16:23:09.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/07/22/substacks-new-tool-tells-you-whos-been-writing-their-newsletters-with-ai/",
+      "readTime": 3,
+      "views": 8787
+    },
+    {
+      "id": "openai-8217-s-ai-spending-spree-has-ballooned-to-7",
+      "title": "OpenAI&#8217;s AI spending spree has ballooned to $750B",
+      "summary": "OpenAI will spend the equivalent of Sweden's GDP on infrastructure through 2030.",
+      "content": "OpenAI will spend the equivalent of Sweden's GDP on infrastructure through 2030.",
+      "source": "TechCrunch AI",
+      "author": "Tim De Chant",
+      "publishedAt": "2026-07-22T16:13:30.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/07/22/openais-ai-spending-spree-has-ballooned-to-750b/",
+      "readTime": 3,
+      "views": 12834
+    },
+    {
+      "id": "menlo-ventures-matt-murphy-explains-what-ai-startu",
+      "title": "Menlo Ventures’ Matt Murphy explains what AI startups founders must do differently",
+      "summary": "Anthropic&#160;leaped to&#160;a&#160;$47 billion&#160;revenue run rate&#160;by May,&#160;compared to&#160;$9 billion&#160;in 2025. &#160;It’s&#160;the kind of growth that&#160;Menlo Ventures&#8217;&#1.",
+      "content": "Anthropic&#160;leaped to&#160;a&#160;$47 billion&#160;revenue run rate&#160;by May,&#160;compared to&#160;$9 billion&#160;in 2025.&#160;It’s&#160;the kind of growth that&#160;Menlo Ventures&#8217;&#160;Matt Murphy&#160;says&#160;he&#8217;s&#160;never seen in 25 years of investing, not in the interne",
+      "source": "TechCrunch AI",
+      "author": "Theresa Loconsolo, Julie Bort",
+      "publishedAt": "2026-07-22T14:00:00.000Z",
+      "category": "funding",
+      "tags": [
+        "ai",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/podcast/menlo-ventures-matt-murphy-explains-what-ai-startups-founders-must-do-differently/",
+      "readTime": 3,
+      "views": 13866
+    },
+    {
       "id": "the-browser-wars-aren-8217-t-about-search-anymore-",
       "title": "The browser wars aren&#8217;t about search anymore — here are the best alternatives to Chrome and Safari",
       "summary": "We’ve compiled an overview of some of the top alternative browsers available today aiming to challenge Chrome and Safari.",
@@ -14,7 +201,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/22/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
       "readTime": 3,
-      "views": 30498
+      "views": 11651
     },
     {
       "id": "passionfroot-raises-15m-to-expand-its-b2b-creator-",
@@ -30,7 +217,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/22/passionfroot-raises-15m-to-expand-its-b2b-creator-marketplace-to-the-us/",
       "readTime": 3,
-      "views": 42161
+      "views": 13125
     },
     {
       "id": "sensetime-8217-s-galaxy-project-targets-domestic-a",
@@ -46,7 +233,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/sensetimes-galaxy-project-targets-domestic-ai-chip-scale-up/",
       "readTime": 3,
-      "views": 44112
+      "views": 48179
     },
     {
       "id": "glow-emerges-from-stealth-at-1-2b-valuation-to-cha",
@@ -62,7 +249,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/",
       "readTime": 3,
-      "views": 35178
+      "views": 37645
     },
     {
       "id": "synthesia-s-ai-training-platform-is-moving-beyond-",
@@ -78,7 +265,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/22/synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching/",
       "readTime": 3,
-      "views": 16261
+      "views": 54815
     },
     {
       "id": "the-anthropic-physical-intelligence-rumor-roiling-",
@@ -98,7 +285,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/",
       "readTime": 3,
-      "views": 42449
+      "views": 12016
     },
     {
       "id": "meta-is-testing-an-ai-bedtime-story-app-for-people",
@@ -115,7 +302,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/21/meta-is-testing-an-ai-bedtime-story-app-for-people-with-no-imagination/",
       "readTime": 3,
-      "views": 22100
+      "views": 6022
     },
     {
       "id": "openai-says-hugging-face-was-breached-by-its-pre-r",
@@ -133,7 +320,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-pre-release-models/",
       "readTime": 3,
-      "views": 6457
+      "views": 34104
     },
     {
       "id": "jack-dorsey-is-taking-on-slack-with-buzz-a-group-c",
@@ -149,206 +336,19 @@
       ],
       "url": "https://techcrunch.com/2026/07/21/jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents/",
       "readTime": 3,
-      "views": 38064
-    },
-    {
-      "id": "ai-and-the-rise-of-the-universal-entertainment-app",
-      "title": "AI and the rise of the universal entertainment app",
-      "summary": "Over the past decade, streaming platforms competed by dominating individual formats like music, video, podcasts, or audiobooks.  Now, as AI makes it easier to create, organize, and recommend content, .",
-      "content": "Over the past decade, streaming platforms competed by dominating individual formats like music, video, podcasts, or audiobooks. Now, as AI makes it easier to create, organize, and recommend content, those distinctions are fading, pushing companies like Spotify, Netflix, YouTube, and TikTok to become",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-07-21T19:39:30.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/07/21/ai-and-the-rise-of-the-universal-entertainment-app/",
-      "readTime": 3,
-      "views": 25038
-    },
-    {
-      "id": "google-releases-three-new-gemini-models-but-no-3-5",
-      "title": "Google releases three new Gemini models — but no 3.5 Pro",
-      "summary": "Google released Gemini 3. 5 Flash-Lite, and Flash Cyber, but the continued absence of Gemini 3.",
-      "content": "Google released Gemini 3.6 Flash, 3.5 Flash-Lite, and Flash Cyber, but the continued absence of Gemini 3.5 Pro raises fresh questions about its AI strategy.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-07-21T17:11:50.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gemini",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/",
-      "readTime": 3,
-      "views": 7185
-    },
-    {
-      "id": "google-8217-s-gemini-3-6-flash-targets-enterprise-",
-      "title": "Google&#8217;s Gemini 3.6 Flash targets enterprise agent token costs",
-      "summary": "Google has released Gemini 3. 5 Flash-Lite as new workhorses designed to cut latency and token costs for enterprise AI agents.",
-      "content": "Google has released Gemini 3.6 Flash and 3.5 Flash-Lite as new workhorses designed to cut latency and token costs for enterprise AI agents. The economics of running autonomous software agents inside a production environment come down to a fixed equation few vendors advertise directly. A model needs ",
-      "source": "AI News",
-      "author": "Ryan Daws",
-      "publishedAt": "2026-07-21T16:06:55.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gemini",
-        "Google"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/googles-gemini-3-6-flash-targets-enterprise-agent-token-costs/",
-      "readTime": 3,
-      "views": 31621
-    },
-    {
-      "id": "us-threatens-sanctions-against-chinese-ai-models-o",
-      "title": "US threatens sanctions against Chinese AI models over IP theft",
-      "summary": "Treasury Secretary Scott Bessent said the U.  could sanction Chinese open AI models over alleged IP theft, expanding the Trump administration's campaign to slow China's AI advances.",
-      "content": "Treasury Secretary Scott Bessent said the U.S. could sanction Chinese open AI models over alleged IP theft, expanding the Trump administration's campaign to slow China's AI advances.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-07-21T15:37:05.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "ai model"
-      ],
-      "url": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft/",
-      "readTime": 3,
-      "views": 41674
-    },
-    {
-      "id": "music-streamer-deezer-says-more-than-50-of-daily-u",
-      "title": "Music streamer Deezer says more than 50% of daily uploads are AI-generated",
-      "summary": "Deezer said more than 90,000 AI-generated tracks were uploaded daily on the platform in June.",
-      "content": "Deezer said more than 90,000 AI-generated tracks were uploaded daily on the platform in June.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-07-21T13:27:42.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/07/21/music-streamer-deezer-says-more-than-50-of-daily-uploads-are-ai-generated/",
-      "readTime": 3,
-      "views": 14478
-    },
-    {
-      "id": "the-ai-slot-machine-effect-why-generative-feeds-di",
-      "title": "The AI Slot Machine Effect: Why Generative Feeds Disrupt Deep Work And How to Reclaim Focus",
-      "summary": "You open a generative AI tool expecting a quick boost.  Ten minutes later, you&#8217;re still there, refining a prompt for the fourth time.",
-      "content": "You open a generative AI tool expecting a quick boost. Ten minutes later, you&#8217;re still there, refining a prompt for the fourth time. The task you started with has drifted off to the side somewhere. Sound familiar? Knowledge workers in 2026 are running into this more and more. It makes sense on",
-      "source": "AI News",
-      "author": "Bazoom",
-      "publishedAt": "2026-07-21T12:50:06.000Z",
-      "category": "market",
-      "tags": [
-        "ai",
-        "generative ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/the-ai-slot-machine-effect-why-generative-feeds-disrupt-deep-work-and-how-to-reclaim-focus/",
-      "readTime": 3,
-      "views": 40433
-    },
-    {
-      "id": "advancing-next-gen-ai-with-materials-science-innov",
-      "title": "Advancing next-gen AI with materials science innovation",
-      "summary": "The conversation about AI often centers on algorithms, computing power, or huge investments in new semiconductor fabrication plants and hyperscale data centers.  But beneath each of these advances is .",
-      "content": "The conversation about AI often centers on algorithms, computing power, or huge investments in new semiconductor fabrication plants and hyperscale data centers. But beneath each of these advances is another layer of innovation that makes them possible: advanced materials. Every new generation of AI ",
-      "source": "MIT Technology Review AI",
-      "author": "Christine McGuiness and Devang Khariwala",
-      "publishedAt": "2026-07-21T10:37:34.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation/",
-      "readTime": 3,
-      "views": 13620
-    },
-    {
-      "id": "bristol-myers-squibb-buys-nvidia-ai-system-for-dru",
-      "title": "Bristol Myers Squibb buys Nvidia AI system for drug discovery",
-      "summary": "Bristol Myers Squibb is purchasing an Nvidia DGX SuperPOD built on the chipmaker’s Vera Rubin architecture to support artificial intelligence use across its drug discovery and development operations. .",
-      "content": "Bristol Myers Squibb is purchasing an Nvidia DGX SuperPOD built on the chipmaker’s Vera Rubin architecture to support artificial intelligence use across its drug discovery and development operations. The pharmaceutical company said it will be the first life sciences group to acquire a DGX SuperPOD b",
-      "source": "AI News",
-      "author": "Muhammad Zulhusni",
-      "publishedAt": "2026-07-21T10:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "artificial intelligence",
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/bristol-myers-squibb-nvidia-ai-system-drug-discovery/",
-      "readTime": 3,
-      "views": 7006
-    },
-    {
-      "id": "chinese-open-weight-models-are-cheap-washington-is",
-      "title": "Chinese open-weight models are cheap. Washington is deciding what that costs.",
-      "summary": "Enterprises evaluating Chinese open-weight models this month face a question that has nothing to do with benchmarks: whether using one will still be straightforward in a year.  Moonshot AI&#8217;s Kim.",
-      "content": "Enterprises evaluating Chinese open-weight models this month face a question that has nothing to do with benchmarks: whether using one will still be straightforward in a year. Moonshot AI&#8217;s Kimi K3 arrived on July 16 as the largest open-weight model yet released, and within days it had reopene",
-      "source": "AI News",
-      "author": "Dashveenjit Kaur",
-      "publishedAt": "2026-07-21T08:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/chinese-open-weight-models-policy-risk/",
-      "readTime": 3,
-      "views": 38954
-    },
-    {
-      "id": "anthropic-8217-s-landmark-1-5b-copyright-settlemen",
-      "title": "Anthropic&#8217;s landmark $1.5B copyright settlement is approved",
-      "summary": "The final approval settles one case, but it doesn't resolve the broader issue of using copyrighted works to train AI models.",
-      "content": "The final approval settles one case, but it doesn't resolve the broader issue of using copyrighted works to train AI models.",
-      "source": "TechCrunch AI",
-      "author": "Kirsten Korosec",
-      "publishedAt": "2026-07-21T00:12:24.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "anthropic",
-        "ai model",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/",
-      "readTime": 3,
-      "views": 44694
-    },
-    {
-      "id": "trump-8217-s-latest-ai-czar-has-already-resigned",
-      "title": "Trump&#8217;s latest AI czar has already resigned",
-      "summary": "The director role for the Center for AI Standards and Innovation (CAISI) has become a revolving door since David Sacks left his position as czar.",
-      "content": "The director role for the Center for AI Standards and Innovation (CAISI) has become a revolving door since David Sacks left his position as czar.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2026-07-20T22:21:04.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/07/20/trumps-latest-ai-czar-has-already-resigned/",
-      "readTime": 3,
-      "views": 28103
+      "views": 44012
     }
   ],
-  "lastUpdated": "2026-07-22T13:49:59.507Z",
+  "lastUpdated": "2026-07-23T02:38:09.421Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
     "TechCrunch AI",
-    "AI News",
-    "MIT Technology Review AI"
+    "AI News"
   ],
   "categories": [
     "release",
-    "funding",
-    "market"
+    "market",
+    "funding"
   ]
 }
