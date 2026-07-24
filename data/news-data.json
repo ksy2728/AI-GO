@@ -1,6 +1,166 @@
 {
   "articles": [
     {
+      "id": "how-ai-guardrails-are-impeding-the-work-of-offensi",
+      "title": "How AI guardrails are impeding the work of offensive cybersecurity researchers",
+      "summary": "We spoke with several cybersecurity researchers, who look for unknown vulnerabilities and develop tools to exploit them, about how OpenAI’s and Anthropic’s guardrails affect their work.",
+      "content": "We spoke with several cybersecurity researchers, who look for unknown vulnerabilities and develop tools to exploit them, about how OpenAI’s and Anthropic’s guardrails affect their work.",
+      "source": "TechCrunch AI",
+      "author": "Lorenzo Franceschi-Bicchierai",
+      "publishedAt": "2026-07-24T01:00:00.000Z",
+      "category": "research",
+      "tags": [
+        "ai",
+        "openai",
+        "anthropic",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
+      "readTime": 3,
+      "views": 35480
+    },
+    {
+      "id": "amd-takes-on-nvidia-with-its-helios-ai-rack-scale-",
+      "title": "AMD takes on Nvidia with its Helios AI rack-scale system",
+      "summary": "AMD is challenging its chipmaker rival with a new rack-scale system that will start shipping to customers later this year.",
+      "content": "AMD is challenging its chipmaker rival with a new rack-scale system that will start shipping to customers later this year.",
+      "source": "TechCrunch AI",
+      "author": "Lucas Ropek",
+      "publishedAt": "2026-07-23T20:33:02.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/",
+      "readTime": 3,
+      "views": 49075
+    },
+    {
+      "id": "anthropic-updates-claude-voice-mode-with-more-capa",
+      "title": "Anthropic updates Claude voice mode with more capable models",
+      "summary": "Claude's new voice model will let you reschedule your meeting or draft an email.",
+      "content": "Claude's new voice model will let you reschedule your meeting or draft an email.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-07-23T19:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "anthropic",
+        "claude",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/",
+      "readTime": 3,
+      "views": 41790
+    },
+    {
+      "id": "aegisai-founded-by-former-google-security-execs-la",
+      "title": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
+      "summary": "AegisAI co-founders developed AI agents that quickly analyze each message as a human would, paying attention to small anomalies that even the most elaborate checklist wouldn’t catch.",
+      "content": "AegisAI co-founders developed AI agents that quickly analyze each message as a human would, paying attention to small anomalies that even the most elaborate checklist wouldn’t catch.",
+      "source": "TechCrunch AI",
+      "author": "Marina Temkin",
+      "publishedAt": "2026-07-23T18:38:34.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
+      "readTime": 3,
+      "views": 28758
+    },
+    {
+      "id": "runway-launches-ai-model-router-as-generative-medi",
+      "title": "Runway launches AI model router as generative media gets crowded",
+      "summary": "The Media Router is a tool that automatically selects the best image, video, or audio generation model for a request based on whether a developer prioritizes quality, speed or cost.",
+      "content": "The Media Router is a tool that automatically selects the best image, video, or audio generation model for a request based on whether a developer prioritizes quality, speed or cost.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-07-23T17:07:35.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "ai model"
+      ],
+      "url": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
+      "readTime": 3,
+      "views": 28563
+    },
+    {
+      "id": "openai-makes-chatgpt-health-available-to-all-us-us",
+      "title": "OpenAI makes ChatGPT Health available to all US users",
+      "summary": "Users can also integrate their personal data from services like Apple Health, Function, and MyFitnessPal.",
+      "content": "Users can also integrate their personal data from services like Apple Health, Function, and MyFitnessPal.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-07-23T17:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gpt",
+        "openai",
+        "chatgpt",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/",
+      "readTime": 3,
+      "views": 7570
+    },
+    {
+      "id": "meta-launched-a-new-ai-optimism-ad-set-to-a-song-a",
+      "title": "Meta launched a new AI optimism ad set to a song about human extinction",
+      "summary": "David Bowie's song \"Five Years,\" which Meta used in a supposedly inspiring advertisement, is about humans learning that they have five years left to live before the apocalypse.",
+      "content": "David Bowie's song \"Five Years,\" which Meta used in a supposedly inspiring advertisement, is about humans learning that they have five years left to live before the apocalypse.",
+      "source": "TechCrunch AI",
+      "author": "Amanda Silberling",
+      "publishedAt": "2026-07-23T16:28:50.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Meta"
+      ],
+      "url": "https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction/",
+      "readTime": 3,
+      "views": 22790
+    },
+    {
+      "id": "ai-chip-startup-etched-defies-skeptics-hits-10-3b-",
+      "title": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors",
+      "summary": "Etched, founded by three Harvard dropouts, has created new chips and memory components that speed up inference on any AI model -- no GPUs required, it says.",
+      "content": "Etched, founded by three Harvard dropouts, has created new chips and memory components that speed up inference on any AI model -- no GPUs required, it says.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2026-07-23T15:00:00.000Z",
+      "category": "funding",
+      "tags": [
+        "ai",
+        "ai model"
+      ],
+      "url": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
+      "readTime": 3,
+      "views": 35356
+    },
+    {
+      "id": "google-8217-s-gemini-nears-billion-user-milestone",
+      "title": "Google&#8217;s Gemini nears billion-user milestone",
+      "summary": "Gemini had over 750 million monthly users in February.",
+      "content": "Gemini had over 750 million monthly users in February.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-07-23T14:52:44.000Z",
+      "category": "release",
+      "tags": [
+        "gemini",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini/",
+      "readTime": 3,
+      "views": 15560
+    },
+    {
       "id": "how-ai-helps-scientists-design-the-next-generation",
       "title": "How AI helps scientists design the next generation of medicines",
       "summary": "Designing and developing a new medicine is an expensive, failure-prone scientific challenge.  A new drug can take many years to develop, at the cost of a significant investment.",
@@ -14,7 +174,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/",
       "readTime": 3,
-      "views": 37962
+      "views": 51520
     },
     {
       "id": "experts-say-exploiting-anthropic-8217-s-fable-isn-",
@@ -31,7 +191,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/23/experts-say-exploiting-anthropics-fable-isnt-how-kimi-k3-got-so-good/",
       "readTime": 3,
-      "views": 19169
+      "views": 11879
     },
     {
       "id": "servicenow-bets-40-million-on-indian-banking-softw",
@@ -47,7 +207,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/22/servicenow-bets-40m-on-indian-firm-businessnext-at-700m-valuation-to-deepen-banking-ai-push/",
       "readTime": 3,
-      "views": 24115
+      "views": 30896
     },
     {
       "id": "after-shocking-quarter-ibm-insists-that-ai-isn-821",
@@ -63,7 +223,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/22/after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe/",
       "readTime": 3,
-      "views": 8063
+      "views": 46848
     },
     {
       "id": "google-justifies-its-massive-ai-spending-with-a-bo",
@@ -80,7 +240,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business/",
       "readTime": 3,
-      "views": 7059
+      "views": 54459
     },
     {
       "id": "treasury-threatens-sanctions-after-white-house-cla",
@@ -98,7 +258,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/",
       "readTime": 3,
-      "views": 24591
+      "views": 46462
     },
     {
       "id": "how-openai-s-human-mistake-led-to-the-ai-powered-h",
@@ -116,7 +276,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/",
       "readTime": 3,
-      "views": 48409
+      "views": 18567
     },
     {
       "id": "travis-kalanick-8217-s-robotics-company-raises-1-7",
@@ -133,7 +293,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/",
       "readTime": 3,
-      "views": 39405
+      "views": 34996
     },
     {
       "id": "yope-raises-12-3m-to-build-a-private-social-networ",
@@ -149,7 +309,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/22/yope-raises-12-3m-to-build-a-private-social-network-without-algorithms-or-ads/",
       "readTime": 3,
-      "views": 24287
+      "views": 29334
     },
     {
       "id": "monday-com-lays-off-hundreds-to-focus-on-ai",
@@ -165,7 +325,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/",
       "readTime": 3,
-      "views": 52322
+      "views": 11105
     },
     {
       "id": "arcee-a-us-open-source-ai-lab-says-chinese-models-",
@@ -182,172 +342,20 @@
       ],
       "url": "https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/",
       "readTime": 3,
-      "views": 30421
-    },
-    {
-      "id": "substack-8217-s-new-tool-tells-you-who-8217-s-been",
-      "title": "Substack&#8217;s new tool tells you who&#8217;s been writing their newsletters with AI",
-      "summary": "Substack is giving readers a way to estimate how much of a newsletter was written by AI, signaling a broader shift toward transparency around AI-assisted content.",
-      "content": "Substack is giving readers a way to estimate how much of a newsletter was written by AI, signaling a broader shift toward transparency around AI-assisted content.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-07-22T16:23:09.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/07/22/substacks-new-tool-tells-you-whos-been-writing-their-newsletters-with-ai/",
-      "readTime": 3,
-      "views": 14742
-    },
-    {
-      "id": "openai-8217-s-ai-spending-spree-has-ballooned-to-7",
-      "title": "OpenAI&#8217;s AI spending spree has ballooned to $750B",
-      "summary": "OpenAI will spend the equivalent of Sweden's GDP on infrastructure through 2030.",
-      "content": "OpenAI will spend the equivalent of Sweden's GDP on infrastructure through 2030.",
-      "source": "TechCrunch AI",
-      "author": "Tim De Chant",
-      "publishedAt": "2026-07-22T16:13:30.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/07/22/openais-ai-spending-spree-has-ballooned-to-750b/",
-      "readTime": 3,
-      "views": 20609
-    },
-    {
-      "id": "menlo-ventures-matt-murphy-explains-what-ai-startu",
-      "title": "Menlo Ventures’ Matt Murphy explains what AI startups founders must do differently",
-      "summary": "Anthropic&#160;leaped to&#160;a&#160;$47 billion&#160;revenue run rate&#160;by May,&#160;compared to&#160;$9 billion&#160;in 2025. &#160;It’s&#160;the kind of growth that&#160;Menlo Ventures&#8217;&#1.",
-      "content": "Anthropic&#160;leaped to&#160;a&#160;$47 billion&#160;revenue run rate&#160;by May,&#160;compared to&#160;$9 billion&#160;in 2025.&#160;It’s&#160;the kind of growth that&#160;Menlo Ventures&#8217;&#160;Matt Murphy&#160;says&#160;he&#8217;s&#160;never seen in 25 years of investing, not in the interne",
-      "source": "TechCrunch AI",
-      "author": "Theresa Loconsolo, Julie Bort",
-      "publishedAt": "2026-07-22T14:00:00.000Z",
-      "category": "funding",
-      "tags": [
-        "ai",
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/podcast/menlo-ventures-matt-murphy-explains-what-ai-startups-founders-must-do-differently/",
-      "readTime": 3,
-      "views": 6596
-    },
-    {
-      "id": "the-browser-wars-aren-8217-t-about-search-anymore-",
-      "title": "The browser wars aren&#8217;t about search anymore — here are the best alternatives to Chrome and Safari",
-      "summary": "We’ve compiled an overview of some of the top alternative browsers available today aiming to challenge Chrome and Safari.",
-      "content": "We’ve compiled an overview of some of the top alternative browsers available today aiming to challenge Chrome and Safari.",
-      "source": "TechCrunch AI",
-      "author": "Lauren Forristal",
-      "publishedAt": "2026-07-22T13:20:35.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/07/22/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
-      "readTime": 3,
-      "views": 16739
-    },
-    {
-      "id": "passionfroot-raises-15m-to-expand-its-b2b-creator-",
-      "title": "Passionfroot raises $15M to expand its B2B creator marketplace to the US",
-      "summary": "Passionfroot, a German startup building a marketplace connecting B2B creators with brands, has raised $15M in a Series A round led by Insight Partners.",
-      "content": "Passionfroot, a German startup building a marketplace connecting B2B creators with brands, has raised $15M in a Series A round led by Insight Partners.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-07-22T13:00:00.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/07/22/passionfroot-raises-15m-to-expand-its-b2b-creator-marketplace-to-the-us/",
-      "readTime": 3,
-      "views": 11627
-    },
-    {
-      "id": "glow-emerges-from-stealth-at-1-2b-valuation-to-cha",
-      "title": "Glow emerges from stealth at $1.2B valuation to challenge endpoint security in the AI era",
-      "summary": "Glow is targeting a new class of endpoint risks created by the rapid adoption of AI agents and developer tools inside enterprises.",
-      "content": "Glow is targeting a new class of endpoint risks created by the rapid adoption of AI agents and developer tools inside enterprises.",
-      "source": "TechCrunch AI",
-      "author": "Jagmeet Singh",
-      "publishedAt": "2026-07-22T10:00:00.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/",
-      "readTime": 3,
-      "views": 9876
-    },
-    {
-      "id": "synthesia-s-ai-training-platform-is-moving-beyond-",
-      "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
-      "summary": "Synthesia launched AI Roleplay Sessions, an interactive enterprise training platform where employees practice workplace conversations with AI avatars that provide feedback, scoring, and analytics to h.",
-      "content": "Synthesia launched AI Roleplay Sessions, an interactive enterprise training platform where employees practice workplace conversations with AI avatars that provide feedback, scoring, and analytics to help companies measure training effectiveness.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-07-22T08:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/07/22/synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching/",
-      "readTime": 3,
-      "views": 13291
-    },
-    {
-      "id": "the-anthropic-physical-intelligence-rumor-roiling-",
-      "title": "The Anthropic-Physical Intelligence rumor roiling AI Twitter",
-      "summary": "Anthropic and OpenAI's aggressive 2026 acquisition sprees set the stage for a weekend rumor.",
-      "content": "Anthropic and OpenAI's aggressive 2026 acquisition sprees set the stage for a weekend rumor.",
-      "source": "TechCrunch AI",
-      "author": "Connie Loizos",
-      "publishedAt": "2026-07-22T03:20:57.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "anthropic",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/",
-      "readTime": 3,
-      "views": 21888
-    },
-    {
-      "id": "meta-is-testing-an-ai-bedtime-story-app-for-people",
-      "title": "Meta is testing an AI bedtime story app for people with no imagination",
-      "summary": "At last, a tech company has found a way to outsource humanity's oldest pastime: using our imaginations.",
-      "content": "At last, a tech company has found a way to outsource humanity's oldest pastime: using our imaginations.",
-      "source": "TechCrunch AI",
-      "author": "Amanda Silberling",
-      "publishedAt": "2026-07-21T23:55:10.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Meta"
-      ],
-      "url": "https://techcrunch.com/2026/07/21/meta-is-testing-an-ai-bedtime-story-app-for-people-with-no-imagination/",
-      "readTime": 3,
-      "views": 25515
+      "views": 32524
     }
   ],
-  "lastUpdated": "2026-07-23T13:55:00.898Z",
+  "lastUpdated": "2026-07-24T02:34:32.667Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "MIT Technology Review AI",
-    "TechCrunch AI"
+    "TechCrunch AI",
+    "MIT Technology Review AI"
   ],
   "categories": [
-    "funding",
+    "research",
     "release",
+    "funding",
     "market"
   ]
 }
