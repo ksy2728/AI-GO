@@ -1,6 +1,106 @@
 {
   "articles": [
     {
+      "id": "enigma-raises-70m-to-make-controlling-a-robot-as-e",
+      "title": "Enigma raises $70M to make controlling a robot as easy as adjusting the volume",
+      "summary": "The massive seed round was led by  Index Ventures and Ribbit Capital, with participation from Sarah Guo's Conviction Partners.",
+      "content": "The massive seed round was led by  Index Ventures and Ribbit Capital, with participation from Sarah Guo's Conviction Partners.",
+      "source": "TechCrunch AI",
+      "author": "Marina Temkin",
+      "publishedAt": "2026-07-27T13:00:00.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/",
+      "readTime": 3,
+      "views": 54092
+    },
+    {
+      "id": "the-path-to-artificial-superintelligence",
+      "title": "The path to artificial superintelligence",
+      "summary": "Imagine a healthcare system made up of multiple AI agents: one that manages symptom assessment, another scheduling, a third insurance, and a fourth pharmacy.  Each is an expert in its domain.",
+      "content": "Imagine a healthcare system made up of multiple AI agents: one that manages symptom assessment, another scheduling, a third insurance, and a fourth pharmacy. Each is an expert in its domain. But they all have their own distinct knowledge and objectives. Today they can exchange data, but they are not",
+      "source": "MIT Technology Review AI",
+      "author": "MIT Technology Review Insights",
+      "publishedAt": "2026-07-27T12:00:00.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/",
+      "readTime": 3,
+      "views": 53316
+    },
+    {
+      "id": "closing-the-data-loop-in-ai-driven-drug-discovery",
+      "title": "Closing the data loop in AI-driven drug discovery",
+      "summary": "Drug discovery is a high-cost, high-risk endeavor that is under growing pressure from a market increasingly defined by first-mover advantage.  Since the 1950s, the cost of developing new pharmaceutica.",
+      "content": "Drug discovery is a high-cost, high-risk endeavor that is under growing pressure from a market increasingly defined by first-mover advantage. Since the 1950s, the cost of developing new pharmaceuticals has roughly doubled every nine years—a phenomenon known as Eroom’s Law. Today, bringing a new drug",
+      "source": "MIT Technology Review AI",
+      "author": "MIT Technology Review Insights",
+      "publishedAt": "2026-07-27T11:40:16.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery/",
+      "readTime": 3,
+      "views": 25586
+    },
+    {
+      "id": "building-the-enterprise-environment-for-agentic-ai",
+      "title": "Building the enterprise environment for agentic AI",
+      "summary": "For the enterprise, the promise of agentic AI is much more than just a better chatbot.  It is software agents that execute business tasks end-to-end across people, business workflows, data, and system.",
+      "content": "For the enterprise, the promise of agentic AI is much more than just a better chatbot. It is software agents that execute business tasks end-to-end across people, business workflows, data, and systems. The platform best-suited to run agents is built with proper CPU capacity, resilient data access, p",
+      "source": "MIT Technology Review AI",
+      "author": "Keegan Sheedy, Lucas Melo",
+      "publishedAt": "2026-07-27T11:32:58.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/",
+      "readTime": 3,
+      "views": 26487
+    },
+    {
+      "id": "how-ai-is-shortening-drug-discovery-timelines-in-c",
+      "title": "How AI is shortening drug discovery timelines in China",
+      "summary": "Insilico Medicine has reduced the time needed to produce some drug development candidates to about one year by combining artificial intelligence with laboratory research in China, according to CEO Ale.",
+      "content": "Insilico Medicine has reduced the time needed to produce some drug development candidates to about one year by combining artificial intelligence with laboratory research in China, according to CEO Alex Zhavoronkov. The Hong Kong-listed company’s fastest programme reached candidate nomination in nine",
+      "source": "AI News",
+      "author": "Muhammad Zulhusni",
+      "publishedAt": "2026-07-27T10:00:00.000Z",
+      "category": "research",
+      "tags": [
+        "artificial intelligence",
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/ai-drug-discovery-china/",
+      "readTime": 3,
+      "views": 7078
+    },
+    {
+      "id": "america-8217-s-ai-investment-boom-is-reshaping-the",
+      "title": "America&#8217;s AI Investment Boom Is Reshaping the Economy",
+      "summary": "America&#8217;s AI Investment Boom Is Reshaping the Economy Artificial intelligence has become one of the defining investment stories in the United States, and the numbers continue to grow.  Microsoft.",
+      "content": "America&#8217;s AI Investment Boom Is Reshaping the Economy Artificial intelligence has become one of the defining investment stories in the United States, and the numbers continue to grow. Microsoft, Meta, Amazon and Alphabet are collectively committing hundreds of billions of dollars to AI infrast",
+      "source": "AI News",
+      "author": "Bazoom",
+      "publishedAt": "2026-07-27T09:18:53.000Z",
+      "category": "funding",
+      "tags": [
+        "artificial intelligence",
+        "ai",
+        "Microsoft",
+        "Meta"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/americas-ai-investment-boom-is-reshaping-the-economy/",
+      "readTime": 3,
+      "views": 20474
+    },
+    {
       "id": "are-brain-waves-the-next-unlock-for-physical-ai",
       "title": "Are brain waves the next unlock for physical AI?",
       "summary": "Forget YouTube videos—frontier physical AI models need multiple camera angles, dense annotation, and soon, brain wave readings.",
@@ -15,7 +115,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai/",
       "readTime": 3,
-      "views": 17956
+      "views": 46003
     },
     {
       "id": "making-sense-of-the-panic-over-chinese-ai",
@@ -31,7 +131,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/",
       "readTime": 3,
-      "views": 9064
+      "views": 26143
     },
     {
       "id": "hugging-face-ceo-calls-for-radical-transparency-af",
@@ -49,7 +149,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/",
       "readTime": 3,
-      "views": 37058
+      "views": 17405
     },
     {
       "id": "monday-com-is-the-latest-tech-company-to-blame-ai-",
@@ -65,7 +165,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
       "readTime": 3,
-      "views": 13123
+      "views": 26149
     },
     {
       "id": "librarians-are-hosting-viral-8216-avoiding-ai-8217",
@@ -81,7 +181,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/",
       "readTime": 3,
-      "views": 40089
+      "views": 27190
     },
     {
       "id": "one-fallen-power-line-exposed-a-growing-ai-data-ce",
@@ -97,7 +197,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
       "readTime": 3,
-      "views": 6393
+      "views": 12873
     },
     {
       "id": "i-tried-out-openai-8217-s-new-ai-keypad-which-will",
@@ -115,7 +215,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/",
       "readTime": 3,
-      "views": 27744
+      "views": 36845
     },
     {
       "id": "prentis-new-ai-lab-co-founded-by-reid-hoffman-mark",
@@ -131,7 +231,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/",
       "readTime": 3,
-      "views": 23008
+      "views": 9454
     },
     {
       "id": "why-cognition-bought-poke-ai-personality-is-becomi",
@@ -147,7 +247,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/",
       "readTime": 3,
-      "views": 46216
+      "views": 18389
     },
     {
       "id": "anthropic-launches-opus-5",
@@ -164,7 +264,26 @@
       ],
       "url": "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/",
       "readTime": 3,
-      "views": 14010
+      "views": 30274
+    },
+    {
+      "id": "meta-microsoft-nvidia-ibm-and-others-back-open-wei",
+      "title": "Meta, Microsoft, Nvidia, IBM, and others back open-weight AI",
+      "summary": "Two dozen companies and organisations signed an open letter urging US policymakers to protect open-weight AI models.  The letter, published today (PDF), carries signatures from a list that spans direc.",
+      "content": "Two dozen companies and organisations signed an open letter urging US policymakers to protect open-weight AI models. The letter, published today (PDF), carries signatures from a list that spans direct commercial rivals and organisations with little obvious overlap in business model: Meta, Microsoft,",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-07-24T16:18:30.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai",
+        "ai model",
+        "Microsoft",
+        "Meta"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/meta-microsoft-nvidia-ibm-others-back-open-weight-ai/",
+      "readTime": 3,
+      "views": 9668
     },
     {
       "id": "as-us-weighs-response-to-chinese-ai-industry-urges",
@@ -181,7 +300,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/",
       "readTime": 3,
-      "views": 13290
+      "views": 27038
     },
     {
       "id": "bluesky-s-ai-assistant-attie-expands-into-an-open-",
@@ -197,7 +316,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/",
       "readTime": 3,
-      "views": 40592
+      "views": 53288
     },
     {
       "id": "midjourney-acquired-the-astrology-app-co-star",
@@ -213,147 +332,22 @@
       ],
       "url": "https://techcrunch.com/2026/07/24/midjourney-acquired-the-astrology-app-co-star/",
       "readTime": 3,
-      "views": 34123
-    },
-    {
-      "id": "ai-communism-rogue-models-and-the-why-kimi-k3-spoo",
-      "title": "‘AI communism’, rogue models, and the why Kimi K3 spooked Wall Street",
-      "summary": "Chinese AI lab Moonshot&#8217;s&#160;open model Kimi went viral this week&#160;for reasons that had less to do with the model itself and more to do with&#160;how the U.  AI industry reacted to it.",
-      "content": "Chinese AI lab Moonshot&#8217;s&#160;open model Kimi went viral this week&#160;for reasons that had less to do with the model itself and more to do with&#160;how the U.S. AI industry reacted to it. Meanwhile, an unreleased OpenAI model wandered outside its test environment and ended up connected to ",
-      "source": "TechCrunch AI",
-      "author": "Theresa Loconsolo, Kirsten Korosec, Anthony Ha, Sean O'Kane",
-      "publishedAt": "2026-07-24T14:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "ai model",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street/",
-      "readTime": 3,
-      "views": 43982
-    },
-    {
-      "id": "openai-8217-s-new-voice-mode-makes-it-to-the-chatg",
-      "title": "OpenAI&#8217;s new voice mode makes it to the ChatGPT desktop app",
-      "summary": "ChatGPT Voice on desktop can work with both ChatGPT Work and Codex to complete tasks and control agents.",
-      "content": "ChatGPT Voice on desktop can work with both ChatGPT Work and Codex to complete tasks and control agents.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-07-24T13:36:42.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gpt",
-        "openai",
-        "chatgpt",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/",
-      "readTime": 3,
-      "views": 24132
-    },
-    {
-      "id": "how-ai-guardrails-are-impeding-the-work-of-offensi",
-      "title": "How AI guardrails are impeding the work of offensive cybersecurity researchers",
-      "summary": "We spoke with several cybersecurity researchers, who look for unknown vulnerabilities and develop tools to exploit them, about how OpenAI’s and Anthropic’s guardrails affect their work.",
-      "content": "We spoke with several cybersecurity researchers, who look for unknown vulnerabilities and develop tools to exploit them, about how OpenAI’s and Anthropic’s guardrails affect their work.",
-      "source": "TechCrunch AI",
-      "author": "Lorenzo Franceschi-Bicchierai",
-      "publishedAt": "2026-07-24T01:00:00.000Z",
-      "category": "research",
-      "tags": [
-        "ai",
-        "openai",
-        "anthropic",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
-      "readTime": 3,
-      "views": 23514
-    },
-    {
-      "id": "amd-takes-on-nvidia-with-its-helios-ai-rack-scale-",
-      "title": "AMD takes on Nvidia with its Helios AI rack-scale system",
-      "summary": "AMD is challenging its chipmaker rival with a new rack-scale system that will start shipping to customers later this year.",
-      "content": "AMD is challenging its chipmaker rival with a new rack-scale system that will start shipping to customers later this year.",
-      "source": "TechCrunch AI",
-      "author": "Lucas Ropek",
-      "publishedAt": "2026-07-23T20:33:02.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/",
-      "readTime": 3,
-      "views": 23050
-    },
-    {
-      "id": "anthropic-updates-claude-voice-mode-with-more-capa",
-      "title": "Anthropic updates Claude voice mode with more capable models",
-      "summary": "Claude's new voice model will let you reschedule your meeting or draft an email.",
-      "content": "Claude's new voice model will let you reschedule your meeting or draft an email.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-07-23T19:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "anthropic",
-        "claude",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/",
-      "readTime": 3,
-      "views": 11329
-    },
-    {
-      "id": "aegisai-founded-by-former-google-security-execs-la",
-      "title": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
-      "summary": "AegisAI co-founders developed AI agents that quickly analyze each message as a human would, paying attention to small anomalies that even the most elaborate checklist wouldn’t catch.",
-      "content": "AegisAI co-founders developed AI agents that quickly analyze each message as a human would, paying attention to small anomalies that even the most elaborate checklist wouldn’t catch.",
-      "source": "TechCrunch AI",
-      "author": "Marina Temkin",
-      "publishedAt": "2026-07-23T18:38:34.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
-      "readTime": 3,
-      "views": 42803
-    },
-    {
-      "id": "runway-launches-ai-model-router-as-generative-medi",
-      "title": "Runway launches AI model router as generative media gets crowded",
-      "summary": "The Media Router is a tool that automatically selects the best image, video, or audio generation model for a request based on whether a developer prioritizes quality, speed or cost.",
-      "content": "The Media Router is a tool that automatically selects the best image, video, or audio generation model for a request based on whether a developer prioritizes quality, speed or cost.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-07-23T17:07:35.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "ai model"
-      ],
-      "url": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
-      "readTime": 3,
-      "views": 27868
+      "views": 49577
     }
   ],
-  "lastUpdated": "2026-07-27T09:49:28.193Z",
+  "lastUpdated": "2026-07-27T14:30:38.722Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "TechCrunch AI"
+    "TechCrunch AI",
+    "MIT Technology Review AI",
+    "AI News"
   ],
   "categories": [
-    "release",
-    "regulation",
+    "funding",
     "research",
+    "regulation",
+    "release",
     "partnership"
   ]
 }
