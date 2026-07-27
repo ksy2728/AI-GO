@@ -1,6 +1,57 @@
 {
   "articles": [
     {
+      "id": "are-brain-waves-the-next-unlock-for-physical-ai",
+      "title": "Are brain waves the next unlock for physical AI?",
+      "summary": "Forget YouTube videos—frontier physical AI models need multiple camera angles, dense annotation, and soon, brain wave readings.",
+      "content": "Forget YouTube videos—frontier physical AI models need multiple camera angles, dense annotation, and soon, brain wave readings.",
+      "source": "TechCrunch AI",
+      "author": "Tim Fernholz",
+      "publishedAt": "2026-07-27T00:19:14.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "ai model"
+      ],
+      "url": "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai/",
+      "readTime": 3,
+      "views": 18513
+    },
+    {
+      "id": "making-sense-of-the-panic-over-chinese-ai",
+      "title": "Making sense of the panic over Chinese AI",
+      "summary": "On the latest episode of Equity, we discussed why Moonshot AI's Kimi seemed to panic Silicon Valley and Wall Street.",
+      "content": "On the latest episode of Equity, we discussed why Moonshot AI's Kimi seemed to panic Silicon Valley and Wall Street.",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "publishedAt": "2026-07-26T19:40:57.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/",
+      "readTime": 3,
+      "views": 38531
+    },
+    {
+      "id": "hugging-face-ceo-calls-for-radical-transparency-af",
+      "title": "Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack",
+      "summary": "\"The first autonomous agent cyberattack is an unprecedented event.  It deserves an unprecedented response.",
+      "content": "\"The first autonomous agent cyberattack is an unprecedented event. It deserves an unprecedented response!\"",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "publishedAt": "2026-07-26T16:33:13.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/",
+      "readTime": 3,
+      "views": 13360
+    },
+    {
       "id": "monday-com-is-the-latest-tech-company-to-blame-ai-",
       "title": "Monday.com is the latest tech company to blame AI for layoffs — here are 20 others",
       "summary": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
@@ -14,7 +65,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
       "readTime": 3,
-      "views": 30887
+      "views": 48049
     },
     {
       "id": "librarians-are-hosting-viral-8216-avoiding-ai-8217",
@@ -30,7 +81,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/",
       "readTime": 3,
-      "views": 48201
+      "views": 52355
     },
     {
       "id": "one-fallen-power-line-exposed-a-growing-ai-data-ce",
@@ -46,7 +97,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
       "readTime": 3,
-      "views": 31599
+      "views": 10906
     },
     {
       "id": "i-tried-out-openai-8217-s-new-ai-keypad-which-will",
@@ -64,7 +115,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/",
       "readTime": 3,
-      "views": 8151
+      "views": 21843
     },
     {
       "id": "prentis-new-ai-lab-co-founded-by-reid-hoffman-mark",
@@ -80,7 +131,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/",
       "readTime": 3,
-      "views": 24934
+      "views": 43445
     },
     {
       "id": "why-cognition-bought-poke-ai-personality-is-becomi",
@@ -96,7 +147,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/",
       "readTime": 3,
-      "views": 40016
+      "views": 37857
     },
     {
       "id": "anthropic-launches-opus-5",
@@ -113,7 +164,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/",
       "readTime": 3,
-      "views": 11522
+      "views": 45859
     },
     {
       "id": "meta-microsoft-nvidia-ibm-and-others-back-open-wei",
@@ -132,7 +183,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/meta-microsoft-nvidia-ibm-others-back-open-weight-ai/",
       "readTime": 3,
-      "views": 37693
+      "views": 19407
     },
     {
       "id": "as-us-weighs-response-to-chinese-ai-industry-urges",
@@ -149,7 +200,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/",
       "readTime": 3,
-      "views": 23340
+      "views": 25705
     },
     {
       "id": "bluesky-s-ai-assistant-attie-expands-into-an-open-",
@@ -165,7 +216,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/",
       "readTime": 3,
-      "views": 11906
+      "views": 45415
     },
     {
       "id": "midjourney-acquired-the-astrology-app-co-star",
@@ -181,7 +232,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/24/midjourney-acquired-the-astrology-app-co-star/",
       "readTime": 3,
-      "views": 10490
+      "views": 51043
     },
     {
       "id": "openai-pushes-chatgpt-into-patient-health-records",
@@ -201,7 +252,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/openai-pushes-chatgpt-into-patient-health-records/",
       "readTime": 3,
-      "views": 52654
+      "views": 30930
     },
     {
       "id": "ai-communism-rogue-models-and-the-why-kimi-k3-spoo",
@@ -220,7 +271,7 @@
       ],
       "url": "https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street/",
       "readTime": 3,
-      "views": 29090
+      "views": 27639
     },
     {
       "id": "openai-8217-s-new-voice-mode-makes-it-to-the-chatg",
@@ -240,7 +291,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/",
       "readTime": 3,
-      "views": 35561
+      "views": 43532
     },
     {
       "id": "openai-presence-sells-enterprise-ai-agents-with-en",
@@ -258,7 +309,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/openai-presence-enterprise-ai-agents/",
       "readTime": 3,
-      "views": 41959
+      "views": 24612
     },
     {
       "id": "how-ai-guardrails-are-impeding-the-work-of-offensi",
@@ -278,7 +329,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
       "readTime": 3,
-      "views": 31777
+      "views": 24605
     },
     {
       "id": "amd-takes-on-nvidia-with-its-helios-ai-rack-scale-",
@@ -294,63 +345,10 @@
       ],
       "url": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/",
       "readTime": 3,
-      "views": 19364
-    },
-    {
-      "id": "anthropic-updates-claude-voice-mode-with-more-capa",
-      "title": "Anthropic updates Claude voice mode with more capable models",
-      "summary": "Claude's new voice model will let you reschedule your meeting or draft an email.",
-      "content": "Claude's new voice model will let you reschedule your meeting or draft an email.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-07-23T19:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "anthropic",
-        "claude",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/",
-      "readTime": 3,
-      "views": 37846
-    },
-    {
-      "id": "aegisai-founded-by-former-google-security-execs-la",
-      "title": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
-      "summary": "AegisAI co-founders developed AI agents that quickly analyze each message as a human would, paying attention to small anomalies that even the most elaborate checklist wouldn’t catch.",
-      "content": "AegisAI co-founders developed AI agents that quickly analyze each message as a human would, paying attention to small anomalies that even the most elaborate checklist wouldn’t catch.",
-      "source": "TechCrunch AI",
-      "author": "Marina Temkin",
-      "publishedAt": "2026-07-23T18:38:34.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
-      "readTime": 3,
-      "views": 33225
-    },
-    {
-      "id": "runway-launches-ai-model-router-as-generative-medi",
-      "title": "Runway launches AI model router as generative media gets crowded",
-      "summary": "The Media Router is a tool that automatically selects the best image, video, or audio generation model for a request based on whether a developer prioritizes quality, speed or cost.",
-      "content": "The Media Router is a tool that automatically selects the best image, video, or audio generation model for a request based on whether a developer prioritizes quality, speed or cost.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-07-23T17:07:35.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "ai model"
-      ],
-      "url": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
-      "readTime": 3,
-      "views": 50228
+      "views": 9365
     }
   ],
-  "lastUpdated": "2026-07-26T13:18:51.758Z",
+  "lastUpdated": "2026-07-27T02:49:31.898Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
