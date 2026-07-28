@@ -1,8 +1,178 @@
 {
   "articles": [
     {
-      "id": "enigma-raises-70m-to-make-controlling-a-robot-as-e",
-      "title": "Enigma raises $70M to make controlling a robot as easy as adjusting the volume",
+      "id": "anthropic-8217-s-dario-amodei-responds-doesn-8217-",
+      "title": "Anthropic&#8217;s Dario Amodei responds: doesn&#8217;t oppose open-weight models, but fears Chinese AI",
+      "summary": "Anthropic founder and CEO Dario Amodei made his views clear about open-weight models and China's growing AI capabilities.",
+      "content": "Anthropic founder and CEO Dario Amodei made his views clear about open-weight models and China's growing AI capabilities.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2026-07-28T00:13:33.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
+      "readTime": 3,
+      "views": 39748
+    },
+    {
+      "id": "satya-nadella-says-companies-that-trust-one-ai-for",
+      "title": "Satya Nadella says companies that trust one AI for everything may not survive",
+      "summary": "Companies without their own models — or without a layer of AI infrastructure known as AI gateways to separate their prompts from the model itself — will be in trouble, Nadella says.",
+      "content": "Companies without their own models — or without a layer of AI infrastructure known as AI gateways to separate their prompts from the model itself — will be in trouble, Nadella says.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2026-07-27T21:17:11.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/",
+      "readTime": 3,
+      "views": 7272
+    },
+    {
+      "id": "psa-your-claude-shared-chats-and-artifacts-may-hav",
+      "title": "PSA: Your Claude shared chats and Artifacts may have ended up on Google",
+      "summary": "The issue appears to have originated from Claude’s “share chat” feature, which allows users to create links that enable anyone with the assigned URL view a conversation or project.",
+      "content": "The issue appears to have originated from Claude’s “share chat” feature, which allows users to create links that enable anyone with the assigned URL view a conversation or project.",
+      "source": "TechCrunch AI",
+      "author": "Lorenzo Franceschi-Bicchierai",
+      "publishedAt": "2026-07-27T20:19:42.000Z",
+      "category": "release",
+      "tags": [
+        "claude",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/",
+      "readTime": 3,
+      "views": 40333
+    },
+    {
+      "id": "microsoft-launches-its-first-cybersecurity-model-p",
+      "title": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",
+      "summary": "Microsoft bolstered its AI cybersecurity offerings this week with the launch of its first AI security model and a new security platform.",
+      "content": "Microsoft bolstered its AI cybersecurity offerings this week with the launch of its first AI security model and a new security platform.",
+      "source": "TechCrunch AI",
+      "author": "Lucas Ropek",
+      "publishedAt": "2026-07-27T18:32:11.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Microsoft"
+      ],
+      "url": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/",
+      "readTime": 3,
+      "views": 12626
+    },
+    {
+      "id": "openai-called-the-hugging-face-attack-unprecedente",
+      "title": "OpenAI called the Hugging Face attack unprecedented. But we’ve been here before.",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI.  To get stories like this in your inbox first,&#160;sign up here.",
+      "content": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Reading OpenAI’s account last week of how some of its models broke their containment and hacked into the computer systems of Hugging Face, another AI company",
+      "source": "MIT Technology Review AI",
+      "author": "Will Douglas Heaven",
+      "publishedAt": "2026-07-27T18:00:00.000Z",
+      "category": "research",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/",
+      "readTime": 3,
+      "views": 46437
+    },
+    {
+      "id": "openai-s-hugging-face-breach-has-reignited-the-deb",
+      "title": "OpenAI’s Hugging Face breach has reignited the debate over alignment and control",
+      "summary": "OpenAI's Hugging Face breach has reignited debate over AI alignment and control, exposing competing views on whether increasingly capable AI should be better aligned, better contained, or both.",
+      "content": "OpenAI's Hugging Face breach has reignited debate over AI alignment and control, exposing competing views on whether increasingly capable AI should be better aligned, better contained, or both.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-07-27T17:28:42.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/",
+      "readTime": 3,
+      "views": 17140
+    },
+    {
+      "id": "threads-users-can-now-chat-with-meta-ai-in-their-d",
+      "title": "Threads users can now chat with Meta AI in their DMs",
+      "summary": "Meta on Monday said it is rolling out its Meta AI chatbot within Threads' DMs, giving users a way to chat with the AI assistant.",
+      "content": "Meta on Monday said it is rolling out its Meta AI chatbot within Threads' DMs, giving users a way to chat with the AI assistant.",
+      "source": "TechCrunch AI",
+      "author": "Aisha Malik",
+      "publishedAt": "2026-07-27T16:45:24.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Meta"
+      ],
+      "url": "https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms/",
+      "readTime": 3,
+      "views": 30771
+    },
+    {
+      "id": "google-8217-s-ai-search-is-rapidly-becoming-the-de",
+      "title": "Google&#8217;s AI search is rapidly becoming the default, new data shows",
+      "summary": "Google’s AI Overviews now appear in 43% of searches, underscoring how quickly AI-generated answers are becoming the default way people discover information online.",
+      "content": "Google’s AI Overviews now appear in 43% of searches, underscoring how quickly AI-generated answers are becoming the default way people discover information online.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-07-27T15:57:12.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/",
+      "readTime": 3,
+      "views": 41483
+    },
+    {
+      "id": "power-up-your-ai-infrastructure-a-first-look-at-th",
+      "title": "Power up your AI infrastructure! A first look at the Smart Systems Stage agenda at TechCrunch Disrupt 2026",
+      "summary": "At TechCrunch Disrupt 2026, the Smart Systems Stage will be where energy, infrastructure, and technology collide, covering everything from fusion breakthroughs to the grid strain AI is putting on the .",
+      "content": "At TechCrunch Disrupt 2026, the Smart Systems Stage will be where energy, infrastructure, and technology collide, covering everything from fusion breakthroughs to the grid strain AI is putting on the entire economy.",
+      "source": "TechCrunch AI",
+      "author": "TechCrunch Events",
+      "publishedAt": "2026-07-27T15:30:00.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/07/27/power-up-your-ai-infrastructure-a-first-look-at-the-smart-systems-stage-agenda-at-techcrunch-disrupt-2026/",
+      "readTime": 3,
+      "views": 52039
+    },
+    {
+      "id": "ilya-sutskever-s-safe-superintelligence-partners-w",
+      "title": "Ilya Sutskever’s Safe Superintelligence partners with Nvidia to scale its AI research",
+      "summary": "After two years in stealth, Safe Superintelligence has announced a long-term partnership with Nvidia as it prepares to scale to its next phase.",
+      "content": "After two years in stealth, Safe Superintelligence has announced a long-term partnership with Nvidia as it prepares to scale to its next phase.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-07-27T15:01:50.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/",
+      "readTime": 3,
+      "views": 54009
+    },
+    {
+      "id": "enigma-raises-71m-to-make-controlling-a-robot-as-e",
+      "title": "Enigma raises $71M to make controlling a robot as easy as adjusting the volume",
       "summary": "The massive seed round was led by  Index Ventures and Ribbit Capital, with participation from Sarah Guo's Conviction Partners.",
       "content": "The massive seed round was led by  Index Ventures and Ribbit Capital, with participation from Sarah Guo's Conviction Partners.",
       "source": "TechCrunch AI",
@@ -14,7 +184,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/",
       "readTime": 3,
-      "views": 54092
+      "views": 49156
     },
     {
       "id": "the-path-to-artificial-superintelligence",
@@ -30,7 +200,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/",
       "readTime": 3,
-      "views": 53316
+      "views": 9407
     },
     {
       "id": "closing-the-data-loop-in-ai-driven-drug-discovery",
@@ -46,7 +216,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery/",
       "readTime": 3,
-      "views": 25586
+      "views": 49830
     },
     {
       "id": "building-the-enterprise-environment-for-agentic-ai",
@@ -62,7 +232,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/",
       "readTime": 3,
-      "views": 26487
+      "views": 47514
     },
     {
       "id": "how-ai-is-shortening-drug-discovery-timelines-in-c",
@@ -79,7 +249,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/ai-drug-discovery-china/",
       "readTime": 3,
-      "views": 7078
+      "views": 36502
     },
     {
       "id": "america-8217-s-ai-investment-boom-is-reshaping-the",
@@ -98,13 +268,13 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/americas-ai-investment-boom-is-reshaping-the-economy/",
       "readTime": 3,
-      "views": 20474
+      "views": 35654
     },
     {
       "id": "are-brain-waves-the-next-unlock-for-physical-ai",
       "title": "Are brain waves the next unlock for physical AI?",
-      "summary": "Forget YouTube videos—frontier physical AI models need multiple camera angles, dense annotation, and soon, brain wave readings.",
-      "content": "Forget YouTube videos—frontier physical AI models need multiple camera angles, dense annotation, and soon, brain wave readings.",
+      "summary": "Forget YouTube videos — frontier physical AI models need multiple camera angles, dense annotation, and, soon, brain wave readings.",
+      "content": "Forget YouTube videos — frontier physical AI models need multiple camera angles, dense annotation, and, soon, brain wave readings.",
       "source": "TechCrunch AI",
       "author": "Tim Fernholz",
       "publishedAt": "2026-07-27T00:19:14.000Z",
@@ -115,7 +285,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai/",
       "readTime": 3,
-      "views": 46003
+      "views": 33181
     },
     {
       "id": "making-sense-of-the-panic-over-chinese-ai",
@@ -131,7 +301,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/",
       "readTime": 3,
-      "views": 26143
+      "views": 20020
     },
     {
       "id": "hugging-face-ceo-calls-for-radical-transparency-af",
@@ -149,7 +319,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/",
       "readTime": 3,
-      "views": 17405
+      "views": 27128
     },
     {
       "id": "monday-com-is-the-latest-tech-company-to-blame-ai-",
@@ -165,177 +335,10 @@
       ],
       "url": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
       "readTime": 3,
-      "views": 26149
-    },
-    {
-      "id": "librarians-are-hosting-viral-8216-avoiding-ai-8217",
-      "title": "Librarians are hosting viral &#8216;Avoiding AI&#8217; workshops for people who are fed up with Big Tech",
-      "summary": "At libraries around the country, \"Avoiding AI\" workshops have elicited unprecedented demand.",
-      "content": "At libraries around the country, \"Avoiding AI\" workshops have elicited unprecedented demand.",
-      "source": "TechCrunch AI",
-      "author": "Amanda Silberling",
-      "publishedAt": "2026-07-25T16:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/",
-      "readTime": 3,
-      "views": 27190
-    },
-    {
-      "id": "one-fallen-power-line-exposed-a-growing-ai-data-ce",
-      "title": "One fallen power line exposed a growing AI data center problem. Here&#8217;s how to fix it.",
-      "summary": "A close call in Northern Virginia revealed just how poorly data centers respond to grid disruptions.  Here's how to fix the problem.",
-      "content": "A close call in Northern Virginia revealed just how poorly data centers respond to grid disruptions. Here's how to fix the problem.",
-      "source": "TechCrunch AI",
-      "author": "Tim De Chant",
-      "publishedAt": "2026-07-25T13:05:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
-      "readTime": 3,
-      "views": 12873
-    },
-    {
-      "id": "i-tried-out-openai-8217-s-new-ai-keypad-which-will",
-      "title": "I tried out OpenAI&#8217;s new AI keypad — which will be fun for some coders and slightly mystifying to everyone else",
-      "summary": "OpenAI's fancy new AI keypad will be a lot of fun for some, while many others are probably not going to touch it.",
-      "content": "OpenAI's fancy new AI keypad will be a lot of fun for some, while many others are probably not going to touch it.",
-      "source": "TechCrunch AI",
-      "author": "Lucas Ropek",
-      "publishedAt": "2026-07-25T00:23:11.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/",
-      "readTime": 3,
-      "views": 36845
-    },
-    {
-      "id": "prentis-new-ai-lab-co-founded-by-reid-hoffman-mark",
-      "title": "Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M",
-      "summary": "The neolab is betting that automating routine computer tasks will soon outpace coding as AI's biggest use case.",
-      "content": "The neolab is betting that automating routine computer tasks will soon outpace coding as AI's biggest use case.",
-      "source": "TechCrunch AI",
-      "author": "Marina Temkin",
-      "publishedAt": "2026-07-24T22:25:58.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/",
-      "readTime": 3,
-      "views": 9454
-    },
-    {
-      "id": "why-cognition-bought-poke-ai-personality-is-becomi",
-      "title": "Why Cognition bought Poke: AI personality is becoming a competitive advantage",
-      "summary": "The acquisition brings Poke’s conversational style and interaction model to Cognition’s coding agent Devin, reflecting a growing belief that how AI assistants interact with users is as important as th.",
-      "content": "The acquisition brings Poke’s conversational style and interaction model to Cognition’s coding agent Devin, reflecting a growing belief that how AI assistants interact with users is as important as the models powering them.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-07-24T18:07:32.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/",
-      "readTime": 3,
-      "views": 18389
-    },
-    {
-      "id": "anthropic-launches-opus-5",
-      "title": "Anthropic launches Opus 5",
-      "summary": "Opus 5 will be both cheaper and less restrictive than Fable, likely making it preferable in most use cases.",
-      "content": "Opus 5 will be both cheaper and less restrictive than Fable, likely making it preferable in most use cases.",
-      "source": "TechCrunch AI",
-      "author": "Russell Brandom",
-      "publishedAt": "2026-07-24T17:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/",
-      "readTime": 3,
-      "views": 30274
-    },
-    {
-      "id": "meta-microsoft-nvidia-ibm-and-others-back-open-wei",
-      "title": "Meta, Microsoft, Nvidia, IBM, and others back open-weight AI",
-      "summary": "Two dozen companies and organisations signed an open letter urging US policymakers to protect open-weight AI models.  The letter, published today (PDF), carries signatures from a list that spans direc.",
-      "content": "Two dozen companies and organisations signed an open letter urging US policymakers to protect open-weight AI models. The letter, published today (PDF), carries signatures from a list that spans direct commercial rivals and organisations with little obvious overlap in business model: Meta, Microsoft,",
-      "source": "AI News",
-      "author": "Ryan Daws",
-      "publishedAt": "2026-07-24T16:18:30.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai",
-        "ai model",
-        "Microsoft",
-        "Meta"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/meta-microsoft-nvidia-ibm-others-back-open-weight-ai/",
-      "readTime": 3,
-      "views": 9668
-    },
-    {
-      "id": "as-us-weighs-response-to-chinese-ai-industry-urges",
-      "title": "As US weighs response to Chinese AI, industry urges against broad open-weight restrictions",
-      "summary": "AI companies, including Nvidia and Mistral, urge policymakers to avoid broad restrictions on open-weight AI models as Washington debates responses to Chinese AI and alleged model distillation.",
-      "content": "AI companies, including Nvidia and Mistral, urge policymakers to avoid broad restrictions on open-weight AI models as Washington debates responses to Chinese AI and alleged model distillation.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-07-24T15:51:49.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai",
-        "ai model"
-      ],
-      "url": "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/",
-      "readTime": 3,
-      "views": 27038
-    },
-    {
-      "id": "bluesky-s-ai-assistant-attie-expands-into-an-open-",
-      "title": "Bluesky’s AI assistant Attie expands into an open social research tool",
-      "summary": "Users can now ask Attie questions about news, trends, and conversations on Bluesky and other apps on the AT Protocol.",
-      "content": "Users can now ask Attie questions about news, trends, and conversations on Bluesky and other apps on the AT Protocol.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-07-24T15:13:57.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/",
-      "readTime": 3,
-      "views": 53288
-    },
-    {
-      "id": "midjourney-acquired-the-astrology-app-co-star",
-      "title": "Midjourney acquired the astrology app Co-Star",
-      "summary": "The AI lab Midjourney continues to expand its purview beyond image and video generation.",
-      "content": "The AI lab Midjourney continues to expand its purview beyond image and video generation.",
-      "source": "TechCrunch AI",
-      "author": "Amanda Silberling",
-      "publishedAt": "2026-07-24T15:09:55.000Z",
-      "category": "partnership",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/07/24/midjourney-acquired-the-astrology-app-co-star/",
-      "readTime": 3,
-      "views": 49577
+      "views": 26208
     }
   ],
-  "lastUpdated": "2026-07-27T14:30:38.722Z",
+  "lastUpdated": "2026-07-28T02:27:27.102Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -344,10 +347,9 @@
     "AI News"
   ],
   "categories": [
-    "funding",
-    "research",
-    "regulation",
     "release",
-    "partnership"
+    "research",
+    "funding",
+    "regulation"
   ]
 }
