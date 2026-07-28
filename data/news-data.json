@@ -1,6 +1,88 @@
 {
   "articles": [
     {
+      "id": "fish-audio-raises-50m-seed-to-build-ai-voice-model",
+      "title": "Fish Audio raises $50M seed to build AI voice models for creators and enterprises",
+      "summary": "Since launching last year, the startup today has more than 8 million people using the open-source or hosted version of its models, and now generates annual recurring revenue of $21 million.",
+      "content": "Since launching last year, the startup today has more than 8 million people using the open-source or hosted version of its models, and now generates annual recurring revenue of $21 million.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-07-28T14:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/",
+      "readTime": 3,
+      "views": 52545
+    },
+    {
+      "id": "recursive-superintelligence-signs-410-compute-deal",
+      "title": "Recursive Superintelligence signs $410 compute deal with Amazon",
+      "summary": "Recursive’s $400 million outlay represents the bulk of the company’s fundraising to date.",
+      "content": "Recursive’s $400 million outlay represents the bulk of the company’s fundraising to date.",
+      "source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "publishedAt": "2026-07-28T13:19:17.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon/",
+      "readTime": 3,
+      "views": 9898
+    },
+    {
+      "id": "guardoc-health-processes-clinical-documentation-us",
+      "title": "Guardoc Health processes clinical documentation using Amazon Nova models",
+      "summary": "Guardoc Health says it processes over one million clinical documents daily using Amazon Nova models through Bedrock.  Bringing AI into clinical documentation comes down to a specific kind of risk calc.",
+      "content": "Guardoc Health says it processes over one million clinical documents daily using Amazon Nova models through Bedrock. Bringing AI into clinical documentation comes down to a specific kind of risk calculation. Get it wrong and the errors compound into denied Medicare claims under the Patient-Driven Pa",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-07-28T11:30:47.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/guardoc-health-processes-clinical-documentation-using-amazon-nova-models/",
+      "readTime": 3,
+      "views": 49080
+    },
+    {
+      "id": "samsung-s-chip-workers-are-jumping-ship-to-rival-s",
+      "title": "Samsung’s chip workers are jumping ship to rival SK Hynix",
+      "summary": "Lee, an engineer at Samsung’s semiconductor division, clocks out when his shift ends.  He used to work longer hours, going the extra mile to excel at his projects.",
+      "content": "Lee, an engineer at Samsung’s semiconductor division, clocks out when his shift ends. He used to work longer hours, going the extra mile to excel at his projects. But lately, he’s been coming straight home to work on his job application for the chipmaker’s South Korean rival SK Hynix, sharing tips w",
+      "source": "MIT Technology Review AI",
+      "author": "Michelle Kim",
+      "publishedAt": "2026-07-28T09:18:57.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/",
+      "readTime": 3,
+      "views": 31288
+    },
+    {
+      "id": "armenia-s-ai-bet-is-not-chip-manufacturing-it-is-c",
+      "title": "Armenia’s AI Bet Is Not Chip Manufacturing. It Is Compute Sovereignty",
+      "summary": "Armenia is not a big country.  It’s not a wealthy country.",
+      "content": "Armenia is not a big country. It’s not a wealthy country. It’s not a famous country. And yet, it has become not only a consumer of different AI products akin to Clideo subtitles generator for video editing, or giants like OpenAI, but also entered the headlines of global news for several reasons, not",
+      "source": "AI News",
+      "author": "SEO DIGITAL PROS",
+      "publishedAt": "2026-07-28T08:52:46.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/armenias-ai-bet-is-not-chip-manufacturing-it-is-compute-sovereignty/",
+      "readTime": 3,
+      "views": 15891
+    },
+    {
       "id": "anthropic-8217-s-dario-amodei-responds-doesn-8217-",
       "title": "Anthropic&#8217;s Dario Amodei responds: doesn&#8217;t oppose open-weight models, but fears Chinese AI",
       "summary": "Anthropic founder and CEO Dario Amodei made his views clear about open-weight models and China's growing AI capabilities.",
@@ -16,7 +98,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
       "readTime": 3,
-      "views": 19973
+      "views": 46863
     },
     {
       "id": "satya-nadella-says-companies-that-trust-one-ai-for",
@@ -32,7 +114,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/",
       "readTime": 3,
-      "views": 32223
+      "views": 20038
     },
     {
       "id": "psa-your-claude-shared-chats-and-artifacts-may-hav",
@@ -49,7 +131,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/",
       "readTime": 3,
-      "views": 17255
+      "views": 49967
     },
     {
       "id": "microsoft-launches-its-first-cybersecurity-model-p",
@@ -66,7 +148,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/",
       "readTime": 3,
-      "views": 20479
+      "views": 36986
     },
     {
       "id": "openai-called-the-hugging-face-attack-unprecedente",
@@ -84,7 +166,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/",
       "readTime": 3,
-      "views": 15427
+      "views": 16019
     },
     {
       "id": "openai-s-hugging-face-breach-has-reignited-the-deb",
@@ -102,7 +184,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/",
       "readTime": 3,
-      "views": 50834
+      "views": 28220
     },
     {
       "id": "threads-users-can-now-chat-with-meta-ai-in-their-d",
@@ -119,7 +201,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms/",
       "readTime": 3,
-      "views": 25845
+      "views": 26798
     },
     {
       "id": "google-8217-s-ai-search-is-rapidly-becoming-the-de",
@@ -136,7 +218,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/",
       "readTime": 3,
-      "views": 34712
+      "views": 18104
     },
     {
       "id": "power-up-your-ai-infrastructure-a-first-look-at-th",
@@ -152,7 +234,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/27/power-up-your-ai-infrastructure-a-first-look-at-the-smart-systems-stage-agenda-at-techcrunch-disrupt-2026/",
       "readTime": 3,
-      "views": 20144
+      "views": 48245
     },
     {
       "id": "ilya-sutskever-s-safe-superintelligence-partners-w",
@@ -168,7 +250,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/",
       "readTime": 3,
-      "views": 41110
+      "views": 32166
     },
     {
       "id": "enigma-raises-71m-to-make-controlling-a-robot-as-e",
@@ -184,7 +266,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/",
       "readTime": 3,
-      "views": 40857
+      "views": 52174
     },
     {
       "id": "the-path-to-artificial-superintelligence",
@@ -200,7 +282,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/",
       "readTime": 3,
-      "views": 6221
+      "views": 31609
     },
     {
       "id": "closing-the-data-loop-in-ai-driven-drug-discovery",
@@ -216,7 +298,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery/",
       "readTime": 3,
-      "views": 51829
+      "views": 19800
     },
     {
       "id": "building-the-enterprise-environment-for-agentic-ai",
@@ -232,117 +314,37 @@
       ],
       "url": "https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/",
       "readTime": 3,
-      "views": 38667
+      "views": 33368
     },
     {
-      "id": "are-brain-waves-the-next-unlock-for-physical-ai",
-      "title": "Are brain waves the next unlock for physical AI?",
-      "summary": "Forget YouTube videos — frontier physical AI models need multiple camera angles, dense annotation, and, soon, brain wave readings.",
-      "content": "Forget YouTube videos — frontier physical AI models need multiple camera angles, dense annotation, and, soon, brain wave readings.",
-      "source": "TechCrunch AI",
-      "author": "Tim Fernholz",
-      "publishedAt": "2026-07-27T00:19:14.000Z",
-      "category": "release",
+      "id": "how-ai-is-shortening-drug-discovery-timelines-in-c",
+      "title": "How AI is shortening drug discovery timelines in China",
+      "summary": "Insilico Medicine has reduced the time needed to produce some drug development candidates to about one year by combining artificial intelligence with laboratory research in China, according to CEO Ale.",
+      "content": "Insilico Medicine has reduced the time needed to produce some drug development candidates to about one year by combining artificial intelligence with laboratory research in China, according to CEO Alex Zhavoronkov. The Hong Kong-listed company’s fastest programme reached candidate nomination in nine",
+      "source": "AI News",
+      "author": "Muhammad Zulhusni",
+      "publishedAt": "2026-07-27T10:00:00.000Z",
+      "category": "research",
       "tags": [
-        "ai",
-        "ai model"
-      ],
-      "url": "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai/",
-      "readTime": 3,
-      "views": 28704
-    },
-    {
-      "id": "making-sense-of-the-panic-over-chinese-ai",
-      "title": "Making sense of the panic over Chinese AI",
-      "summary": "On the latest episode of Equity, we discussed why Moonshot AI's Kimi seemed to panic Silicon Valley and Wall Street.",
-      "content": "On the latest episode of Equity, we discussed why Moonshot AI's Kimi seemed to panic Silicon Valley and Wall Street.",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2026-07-26T19:40:57.000Z",
-      "category": "release",
-      "tags": [
+        "artificial intelligence",
         "ai"
       ],
-      "url": "https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/",
+      "url": "https://www.artificialintelligence-news.com/news/ai-drug-discovery-china/",
       "readTime": 3,
-      "views": 15376
-    },
-    {
-      "id": "hugging-face-ceo-calls-for-radical-transparency-af",
-      "title": "Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack",
-      "summary": "\"The first autonomous agent cyberattack is an unprecedented event.  It deserves an unprecedented response.",
-      "content": "\"The first autonomous agent cyberattack is an unprecedented event. It deserves an unprecedented response!\"",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2026-07-26T16:33:13.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/",
-      "readTime": 3,
-      "views": 25581
-    },
-    {
-      "id": "monday-com-is-the-latest-tech-company-to-blame-ai-",
-      "title": "Monday.com is the latest tech company to blame AI for layoffs — here are 20 others",
-      "summary": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
-      "content": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan, Connie Loizos",
-      "publishedAt": "2026-07-26T01:30:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
-      "readTime": 3,
-      "views": 21342
-    },
-    {
-      "id": "librarians-are-hosting-viral-8216-avoiding-ai-8217",
-      "title": "Librarians are hosting viral &#8216;Avoiding AI&#8217; workshops for people who are fed up with Big Tech",
-      "summary": "At libraries around the country, \"Avoiding AI\" workshops have elicited unprecedented demand.",
-      "content": "At libraries around the country, \"Avoiding AI\" workshops have elicited unprecedented demand.",
-      "source": "TechCrunch AI",
-      "author": "Amanda Silberling",
-      "publishedAt": "2026-07-25T16:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/",
-      "readTime": 3,
-      "views": 22256
-    },
-    {
-      "id": "one-fallen-power-line-exposed-a-growing-ai-data-ce",
-      "title": "One fallen power line exposed a growing AI data center problem — here&#8217;s how to fix it",
-      "summary": "A close call in Northern Virginia revealed just how poorly data centers respond to grid disruptions.  Here's how to fix the problem.",
-      "content": "A close call in Northern Virginia revealed just how poorly data centers respond to grid disruptions. Here's how to fix the problem.",
-      "source": "TechCrunch AI",
-      "author": "Tim De Chant",
-      "publishedAt": "2026-07-25T13:05:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
-      "readTime": 3,
-      "views": 5952
+      "views": 43779
     }
   ],
-  "lastUpdated": "2026-07-28T08:31:38.823Z",
+  "lastUpdated": "2026-07-28T14:03:35.806Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
     "TechCrunch AI",
+    "AI News",
     "MIT Technology Review AI"
   ],
   "categories": [
     "release",
+    "market",
     "research",
     "funding",
     "regulation"
