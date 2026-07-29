@@ -1,6 +1,76 @@
 {
   "articles": [
     {
+      "id": "as-ai-content-floods-the-internet-pangram-raises-9",
+      "title": "As AI content floods the internet, Pangram raises $9M to detect it",
+      "summary": "Pangram has raised $9 million to scale its AI detection software.  The startup has also released a new AI text detection model, Pangram 4, and an AI image detection model in research preview.",
+      "content": "Pangram has raised $9 million to scale its AI detection software. The startup has also released a new AI text detection model, Pangram 4, and an AI image detection model in research preview.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-07-29T11:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/07/29/as-ai-content-floods-the-internet-pangram-raises-9m-to-detect-it/",
+      "readTime": 3,
+      "views": 6674
+    },
+    {
+      "id": "openai-report-links-coding-agents-to-faster-scienc",
+      "title": "OpenAI report links coding agents to faster science software builds",
+      "summary": "OpenAI has released a new field report tracking eight scientific computing projects where coding agents cut runtimes.  The report documents projects that used Codex on its own in five cases and a comb.",
+      "content": "OpenAI has released a new field report tracking eight scientific computing projects where coding agents cut runtimes. The report documents projects that used Codex on its own in five cases and a combination of Codex and Anthropic&#8217;s Claude Code in three others. Worth flagging upfront: this is a",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-07-29T10:53:39.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "anthropic",
+        "claude",
+        "OpenAI"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/openai-report-coding-agents-faster-science-software-builds/",
+      "readTime": 3,
+      "views": 8321
+    },
+    {
+      "id": "google-ai-overviews-become-more-common-in-search",
+      "title": "Google AI Overviews become more common in search",
+      "summary": "Google’s AI-generated summaries appeared in 43% of US searches measured by Similarweb, up from 15% a year earlier, according to the market intelligence firm’s 2026 Generative AI Landscape report.  AI .",
+      "content": "Google’s AI-generated summaries appeared in 43% of US searches measured by Similarweb, up from 15% a year earlier, according to the market intelligence firm’s 2026 Generative AI Landscape report. AI Overviews display generated summaries within conventional Google results, while AI Mode provides a co",
+      "source": "AI News",
+      "author": "Muhammad Zulhusni",
+      "publishedAt": "2026-07-29T10:00:00.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "generative ai",
+        "Google"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/google-ai-overviews-us-searches/",
+      "readTime": 3,
+      "views": 35790
+    },
+    {
+      "id": "the-ai-hype-index-unsexy-ai",
+      "title": "The AI Hype Index: Unsexy AI",
+      "summary": "It feels bad enough when an open letter signed by leading economists warns that AI might steal your job.  The fact it may soon be better than you at making dinner.",
+      "content": "It feels bad enough when an open letter signed by leading economists warns that AI might steal your job. The fact it may soon be better than you at making dinner? Insult to injury. But that’s exactly what the company 1X promised when it showed off a pair of new, impressively dexterous (and, to some,",
+      "source": "MIT Technology Review AI",
+      "author": "Charlotte Jee",
+      "publishedAt": "2026-07-29T08:42:57.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/",
+      "readTime": 3,
+      "views": 36835
+    },
+    {
       "id": "cyera-agrees-to-acquire-oasis-security-for-1b-to-s",
       "title": "Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents",
       "summary": "The deal is Cyera's third acquisition this year.",
@@ -14,7 +84,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/",
       "readTime": 3,
-      "views": 11042
+      "views": 45043
     },
     {
       "id": "bot-detection-startup-spur-nabs-200m-from-insight",
@@ -30,7 +100,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/28/bot-detection-startup-spur-nabs-200m-from-insight/",
       "readTime": 3,
-      "views": 38653
+      "views": 33675
     },
     {
       "id": "fish-audio-raises-52m-seed-to-build-ai-voice-model",
@@ -46,7 +116,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/",
       "readTime": 3,
-      "views": 20133
+      "views": 20449
     },
     {
       "id": "recursive-superintelligence-signs-410m-compute-dea",
@@ -62,7 +132,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon/",
       "readTime": 3,
-      "views": 50822
+      "views": 25063
     },
     {
       "id": "guardoc-health-processes-clinical-documentation-us",
@@ -78,7 +148,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/guardoc-health-processes-clinical-documentation-using-amazon-nova-models/",
       "readTime": 3,
-      "views": 30436
+      "views": 46822
     },
     {
       "id": "samsung-s-chip-workers-are-jumping-ship-to-rival-s",
@@ -94,7 +164,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/",
       "readTime": 3,
-      "views": 27654
+      "views": 44931
     },
     {
       "id": "armenia-s-ai-bet-is-not-chip-manufacturing-it-is-c",
@@ -112,7 +182,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/armenias-ai-bet-is-not-chip-manufacturing-it-is-compute-sovereignty/",
       "readTime": 3,
-      "views": 38270
+      "views": 52269
     },
     {
       "id": "anthropic-8217-s-dario-amodei-responds-doesn-8217-",
@@ -130,7 +200,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
       "readTime": 3,
-      "views": 33795
+      "views": 20065
     },
     {
       "id": "satya-nadella-says-companies-that-trust-one-ai-for",
@@ -146,7 +216,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/",
       "readTime": 3,
-      "views": 36375
+      "views": 53654
     },
     {
       "id": "psa-your-claude-shared-chats-and-artifacts-may-hav",
@@ -163,7 +233,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/",
       "readTime": 3,
-      "views": 20456
+      "views": 12113
     },
     {
       "id": "microsoft-launches-its-first-cybersecurity-model-p",
@@ -180,7 +250,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/",
       "readTime": 3,
-      "views": 47096
+      "views": 11086
     },
     {
       "id": "openai-called-the-hugging-face-attack-unprecedente",
@@ -198,7 +268,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/",
       "readTime": 3,
-      "views": 5236
+      "views": 33931
     },
     {
       "id": "openai-s-hugging-face-breach-has-reignited-the-deb",
@@ -216,7 +286,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/",
       "readTime": 3,
-      "views": 9108
+      "views": 54293
     },
     {
       "id": "threads-users-can-now-chat-with-meta-ai-in-their-d",
@@ -233,7 +303,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms/",
       "readTime": 3,
-      "views": 36671
+      "views": 54128
     },
     {
       "id": "google-8217-s-ai-search-is-rapidly-becoming-the-de",
@@ -250,7 +320,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/",
       "readTime": 3,
-      "views": 26749
+      "views": 7749
     },
     {
       "id": "power-up-your-ai-infrastructure-a-first-look-at-th",
@@ -266,74 +336,10 @@
       ],
       "url": "https://techcrunch.com/2026/07/27/power-up-your-ai-infrastructure-a-first-look-at-the-smart-systems-stage-agenda-at-techcrunch-disrupt-2026/",
       "readTime": 3,
-      "views": 19572
-    },
-    {
-      "id": "ilya-sutskever-s-safe-superintelligence-partners-w",
-      "title": "Ilya Sutskever’s Safe Superintelligence partners with Nvidia to scale its AI research",
-      "summary": "After two years in stealth, Safe Superintelligence has announced a long-term partnership with Nvidia as it prepares to scale to its next phase.",
-      "content": "After two years in stealth, Safe Superintelligence has announced a long-term partnership with Nvidia as it prepares to scale to its next phase.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-07-27T15:01:50.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/",
-      "readTime": 3,
-      "views": 26694
-    },
-    {
-      "id": "enigma-raises-71m-to-make-controlling-a-robot-as-e",
-      "title": "Enigma raises $71M to make controlling a robot as easy as adjusting the volume",
-      "summary": "The massive seed round was led by  Index Ventures and Ribbit Capital, with participation from Sarah Guo's Conviction Partners.",
-      "content": "The massive seed round was led by  Index Ventures and Ribbit Capital, with participation from Sarah Guo's Conviction Partners.",
-      "source": "TechCrunch AI",
-      "author": "Marina Temkin",
-      "publishedAt": "2026-07-27T13:00:00.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/",
-      "readTime": 3,
-      "views": 24407
-    },
-    {
-      "id": "the-path-to-artificial-superintelligence",
-      "title": "The path to artificial superintelligence",
-      "summary": "Imagine a healthcare system made up of multiple AI agents: one that manages symptom assessment, another scheduling, a third insurance, and a fourth pharmacy.  Each is an expert in its domain.",
-      "content": "Imagine a healthcare system made up of multiple AI agents: one that manages symptom assessment, another scheduling, a third insurance, and a fourth pharmacy. Each is an expert in its domain. But they all have their own distinct knowledge and objectives. Today they can exchange data, but they are not",
-      "source": "MIT Technology Review AI",
-      "author": "MIT Technology Review Insights",
-      "publishedAt": "2026-07-27T12:00:00.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/",
-      "readTime": 3,
-      "views": 27428
-    },
-    {
-      "id": "closing-the-data-loop-in-ai-driven-drug-discovery",
-      "title": "Closing the data loop in AI-driven drug discovery",
-      "summary": "Drug discovery is a high-cost, high-risk endeavor that is under growing pressure from a market increasingly defined by first-mover advantage.  Since the 1950s, the cost of developing new pharmaceutica.",
-      "content": "Drug discovery is a high-cost, high-risk endeavor that is under growing pressure from a market increasingly defined by first-mover advantage. Since the 1950s, the cost of developing new pharmaceuticals has roughly doubled every nine years—a phenomenon known as Eroom’s Law. Today, bringing a new drug",
-      "source": "MIT Technology Review AI",
-      "author": "MIT Technology Review Insights",
-      "publishedAt": "2026-07-27T11:40:16.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery/",
-      "readTime": 3,
-      "views": 48275
+      "views": 30237
     }
   ],
-  "lastUpdated": "2026-07-29T08:38:26.420Z",
+  "lastUpdated": "2026-07-29T14:07:10.001Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -342,11 +348,9 @@
     "MIT Technology Review AI"
   ],
   "categories": [
-    "partnership",
     "release",
     "market",
     "research",
-    "funding",
-    "regulation"
+    "partnership"
   ]
 }
