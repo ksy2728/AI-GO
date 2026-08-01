@@ -1,10 +1,146 @@
 {
   "articles": [
     {
+      "id": "openai-reportedly-finds-evidence-that-more-of-its-",
+      "title": "OpenAI reportedly finds evidence that more of its agents ran amok",
+      "summary": "OpenAI has reportedly found evidence of additional agent misbehavior as it looks into the incident that occurred with Hugging Face.",
+      "content": "OpenAI has reportedly found evidence of additional agent misbehavior as it looks into the incident that occurred with Hugging Face.",
+      "source": "TechCrunch AI",
+      "author": "Lucas Ropek",
+      "publishedAt": "2026-07-31T22:47:26.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/",
+      "readTime": 3,
+      "views": 19533
+    },
+    {
+      "id": "google-nixes-its-earth-ai-feature-one-day-after-la",
+      "title": "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation",
+      "summary": "A tool that allowed anyone to generate fake AI-generated imagery and superimpose it over real Google Earth maps quickly spurred backlash.",
+      "content": "A tool that allowed anyone to generate fake AI-generated imagery and superimpose it over real Google Earth maps quickly spurred backlash.",
+      "source": "TechCrunch AI",
+      "author": "Lucas Ropek",
+      "publishedAt": "2026-07-31T19:47:28.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation/",
+      "readTime": 3,
+      "views": 7895
+    },
+    {
+      "id": "sam-altman-isn-8217-t-the-only-one-who-wants-to-pu",
+      "title": "Sam Altman isn&#8217;t the only one who wants to pump the brakes on AI",
+      "summary": "After years of pushing full speed ahead on AI,&#160;OpenAI CEO&#160;Sam Altman says&#160;maybe it’s&#160;time for the AI industry to “pace” itself.  The comments came&#160;just days after one of OpenA.",
+      "content": "After years of pushing full speed ahead on AI,&#160;OpenAI CEO&#160;Sam Altman says&#160;maybe it’s&#160;time for the AI industry to “pace” itself. The comments came&#160;just days after one of OpenAI&#8217;s own models broke out of its test environment and got tangled up in&#160;a breach at Hugging",
+      "source": "TechCrunch AI",
+      "author": "Theresa Loconsolo",
+      "publishedAt": "2026-07-31T17:26:32.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/video/sam-altman-isnt-the-only-one-who-wants-to-pump-the-brakes-on-ai/",
+      "readTime": 3,
+      "views": 7818
+    },
+    {
+      "id": "snapchat-no-longer-rewards-fully-ai-generated-spot",
+      "title": "Snapchat no longer rewards fully AI-generated Spotlight content",
+      "summary": "Snapchat has adjusted its recommendation systems to ensure that only videos created by real people are eligible for Spotlight recommendations, taking a stance against AI slop.",
+      "content": "Snapchat has adjusted its recommendation systems to ensure that only videos created by real people are eligible for Spotlight recommendations, taking a stance against AI slop.",
+      "source": "TechCrunch AI",
+      "author": "Lauren Forristal",
+      "publishedAt": "2026-07-31T16:49:08.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/07/31/snapchat-no-longer-rewards-fully-ai-generated-spotlight-content/",
+      "readTime": 3,
+      "views": 12769
+    },
+    {
+      "id": "siri-ai-could-come-with-a-paywall-for-power-users",
+      "title": "Siri AI could come with a paywall for power users",
+      "summary": "Apple CEO Tim Cook envisions users being able to buy more compute for Siri AI via Apple's existing iCloud+ subscriptions.",
+      "content": "Apple CEO Tim Cook envisions users being able to buy more compute for Siri AI via Apple's existing iCloud+ subscriptions.",
+      "source": "TechCrunch AI",
+      "author": "Amanda Silberling",
+      "publishedAt": "2026-07-31T16:08:18.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Apple"
+      ],
+      "url": "https://techcrunch.com/2026/07/31/siri-ai-could-come-with-a-paywall-for-power-users/",
+      "readTime": 3,
+      "views": 47738
+    },
+    {
+      "id": "spacex-won-t-remove-all-of-xai-s-unpermitted-turbi",
+      "title": "SpaceX won’t remove all of xAI’s unpermitted turbines for another year",
+      "summary": "SpaceX is building a new power plant for xAI's Colossus data centers, but it won't remove existing, unpermitted turbines for many more months.",
+      "content": "SpaceX is building a new power plant for xAI's Colossus data centers, but it won't remove existing, unpermitted turbines for many more months.",
+      "source": "TechCrunch AI",
+      "author": "Tim De Chant",
+      "publishedAt": "2026-07-31T15:16:17.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/07/31/spacex-wont-remove-all-of-xais-unpermitted-turbines-for-another-year/",
+      "readTime": 3,
+      "views": 17229
+    },
+    {
+      "id": "smallest-ai-raises-13m-to-build-ultra-fast-voice-a",
+      "title": "Smallest.ai raises $13M to build ultra-fast voice AI that sounds genuinely human",
+      "summary": "The startup is building voice models designed to make AI phone calls pass the Turing test.",
+      "content": "The startup is building voice models designed to make AI phone calls pass the Turing test.",
+      "source": "TechCrunch AI",
+      "author": "Marina Temkin",
+      "publishedAt": "2026-07-31T14:47:11.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/",
+      "readTime": 3,
+      "views": 18977
+    },
+    {
+      "id": "ai-labs-want-to-pump-the-brakes-but-amazon-and-spa",
+      "title": "AI labs want to pump the brakes, but Amazon and SpaceX are still blasting off",
+      "summary": "After years of pushing full speed ahead on AI,&#160;OpenAI CEO&#160;Sam Altman says&#160;maybe it’s&#160;time for the AI industry to “pace” itself.  The comments came&#160;just days after one of OpenA.",
+      "content": "After years of pushing full speed ahead on AI,&#160;OpenAI CEO&#160;Sam Altman says&#160;maybe it’s&#160;time for the AI industry to “pace” itself. The comments came&#160;just days after one of OpenAI&#8217;s own models broke out of its test environment and got tangled up in&#160;a breach at Hugging",
+      "source": "TechCrunch AI",
+      "author": "Kirsten Korosec, Sean O'Kane, Anthony Ha, Theresa Loconsolo",
+      "publishedAt": "2026-07-31T14:00:00.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/podcast/ai-labs-want-to-pump-the-brakes-but-amazon-and-spacex-are-still-blasting-off/",
+      "readTime": 3,
+      "views": 35554
+    },
+    {
       "id": "anthropic-says-its-own-ai-models-breached-three-co",
       "title": "Anthropic says its own AI models breached three companies during security tests",
       "summary": "After OpenAI's models broke into Hugging Face, Anthropic checked its own history and found three similar incidents.",
-      "content": "After OpenAI's models broke into Hugging Face, Anthropic checked its own history and found three similar incidents",
+      "content": "After OpenAI's models broke into Hugging Face, Anthropic checked its own history and found three similar incidents.",
       "source": "TechCrunch AI",
       "author": "Kirsten Korosec",
       "publishedAt": "2026-07-31T01:06:54.000Z",
@@ -18,7 +154,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/",
       "readTime": 3,
-      "views": 49527
+      "views": 24125
     },
     {
       "id": "ai-hedge-fund-situational-awareness-may-have-sold-",
@@ -38,7 +174,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares/",
       "readTime": 3,
-      "views": 9533
+      "views": 6886
     },
     {
       "id": "reddit-reports-a-solid-quarter-but-shows-signs-of-",
@@ -55,7 +191,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/30/reddit-reports-a-solid-quarter-but-shows-signs-of-ais-impact/",
       "readTime": 3,
-      "views": 6441
+      "views": 26599
     },
     {
       "id": "investors-love-ai-as-long-as-you-re-a-cloud-host",
@@ -71,7 +207,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/30/investors-love-ai-as-long-as-youre-a-cloud-host/",
       "readTime": 3,
-      "views": 50956
+      "views": 44972
     },
     {
       "id": "judge-says-trump-admin-still-lacks-evidence-for-an",
@@ -89,7 +225,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/",
       "readTime": 3,
-      "views": 22576
+      "views": 27551
     },
     {
       "id": "friend-the-lonely-ai-wearable-returns-with-a-new-v",
@@ -105,13 +241,13 @@
       ],
       "url": "https://techcrunch.com/2026/07/30/friend-the-lonely-ai-wearable-returns-with-a-new-voice-and-a-much-bigger-price-tag/",
       "readTime": 3,
-      "views": 39850
+      "views": 18676
     },
     {
       "id": "google-says-it-fixed-more-chrome-bugs-in-june-than",
       "title": "Google says it fixed more Chrome bugs in June than over the past two years, thanks to AI",
-      "summary": "As experts have warned for the last two years, some companies — like Microsoft and now Google �� are finding and patching an exponential number of bugs in their products, thanks to the use of LLMs and.",
-      "content": "As experts have warned for the last two years, some companies — like Microsoft and now Google �� are finding and patching an exponential number of bugs in their products, thanks to the use of LLMs and AI tools.",
+      "summary": "As experts have warned for the last two years, some companies — like Microsoft and now Google — are finding and patching an exponential number of bugs in their products, thanks to the use of LLMs and .",
+      "content": "As experts have warned for the last two years, some companies — like Microsoft and now Google — are finding and patching an exponential number of bugs in their products, thanks to the use of LLMs and AI tools.",
       "source": "TechCrunch AI",
       "author": "Lorenzo Franceschi-Bicchierai",
       "publishedAt": "2026-07-30T18:57:58.000Z",
@@ -124,7 +260,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/30/google-says-it-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai/",
       "readTime": 3,
-      "views": 31791
+      "views": 35428
     },
     {
       "id": "linkedin-adds-a-button-to-report-ai-generated-8216",
@@ -140,7 +276,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop/",
       "readTime": 3,
-      "views": 11682
+      "views": 46040
     },
     {
       "id": "okta-buys-ai-security-startup-permiso-source-says-",
@@ -156,7 +292,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m/",
       "readTime": 3,
-      "views": 5341
+      "views": 7564
     },
     {
       "id": "meta-says-ai-is-making-it-easier-to-build-new-apps",
@@ -173,7 +309,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/30/meta-says-ai-is-making-it-easier-to-build-new-apps-and-more-are-coming/",
       "readTime": 3,
-      "views": 28962
+      "views": 25109
     },
     {
       "id": "nscale-buys-anyscale-as-it-seeks-to-own-more-of-th",
@@ -189,57 +325,7 @@
       ],
       "url": "https://techcrunch.com/2026/07/30/nscale-buys-anyscale-as-it-seeks-to-own-more-of-the-ai-compute-stack/",
       "readTime": 3,
-      "views": 48942
-    },
-    {
-      "id": "forward-deployed-engineers-are-the-ai-industry-s-l",
-      "title": "Forward-deployed engineers are the AI industry’s latest talent obsession",
-      "summary": "A new study estimates only 2,000 U.  engineers have the expertise to deliver meaningful AI ROI, as enterprises race to hire forward-deployed engineers to implement AI at scale.",
-      "content": "A new study estimates only 2,000 U.S. engineers have the expertise to deliver meaningful AI ROI, as enterprises race to hire forward-deployed engineers to implement AI at scale.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-07-30T15:00:00.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/07/30/forward-deployed-engineers-are-the-ai-industrys-latest-talent-obsession/",
-      "readTime": 3,
-      "views": 40425
-    },
-    {
-      "id": "in-the-hugging-face-breach-openai-8217-s-hacker-wa",
-      "title": "In the Hugging Face breach, OpenAI&#8217;s hacker was noisy and fast — but not unstoppable",
-      "summary": "Cybersecurity experts told TechCrunch that one of the biggest lessons to be taken from the OpenAI hack against Hugging Face has nothing to do with AI, but traditional cybersecurity defense.",
-      "content": "Cybersecurity experts told TechCrunch that one of the biggest lessons to be taken from the OpenAI hack against Hugging Face has nothing to do with AI, but traditional cybersecurity defense.",
-      "source": "TechCrunch AI",
-      "author": "Lorenzo Franceschi-Bicchierai",
-      "publishedAt": "2026-07-30T14:48:32.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/07/30/in-the-hugging-face-breach-openais-hacker-was-noisy-and-fast-but-not-unstoppable/",
-      "readTime": 3,
-      "views": 13398
-    },
-    {
-      "id": "dili-raises-21-7m-to-bring-ai-compliance-to-the-in",
-      "title": "Dili raises $21.7M to bring AI compliance to the infrastructure boom",
-      "summary": "The Series A was led by Khosla Ventures, with participation from Allianz, Rebel Fund, Brick and Mortar Ventures’ Darren Bechtel, and Y Combinator’s Garry Tan.",
-      "content": "The Series A was led by Khosla Ventures, with participation from Allianz, Rebel Fund, Brick and Mortar Ventures’ Darren Bechtel, and Y Combinator’s Garry Tan.",
-      "source": "TechCrunch AI",
-      "author": "Russell Brandom",
-      "publishedAt": "2026-07-30T13:00:00.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/07/30/dili-raises-15-million-to-bring-ai-compliance-to-the-infrastructure-boom/",
-      "readTime": 3,
-      "views": 38239
+      "views": 10570
     },
     {
       "id": "a-fundamental-flaw-leaves-llms-strikingly-vulnerab",
@@ -258,101 +344,10 @@
       ],
       "url": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
       "readTime": 3,
-      "views": 27263
-    },
-    {
-      "id": "microsoft-is-openly-competing-with-openai-anthropi",
-      "title": "Microsoft is openly competing with OpenAI, Anthropic more than ever",
-      "summary": "Microsoft pitched its own homegrown AI models, harnesses, and even a Mythos competitor on Wednesday, telling Wall Street it plans for continued growth.",
-      "content": "Microsoft pitched its own homegrown AI models, harnesses, and even a Mythos competitor on Wednesday, telling Wall Street it plans for continued growth.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2026-07-30T00:21:06.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "anthropic",
-        "ai model",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/",
-      "readTime": 3,
-      "views": 44572
-    },
-    {
-      "id": "mark-zuckerberg-predicts-that-billions-of-people-w",
-      "title": "Mark Zuckerberg predicts that billions of people will have personal AI agents in five years",
-      "summary": "As Meta pours billions into AI infrastructure and agents, Zuckerberg is working to convince investors that the payoff will be worth the price.",
-      "content": "As Meta pours billions into AI infrastructure and agents, Zuckerberg is working to convince investors that the payoff will be worth the price.",
-      "source": "TechCrunch AI",
-      "author": "Amanda Silberling",
-      "publishedAt": "2026-07-29T23:00:11.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Meta"
-      ],
-      "url": "https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years/",
-      "readTime": 3,
-      "views": 27993
-    },
-    {
-      "id": "microsoft-logs-3-2b-from-anthropic-investment-but-",
-      "title": "Microsoft logs $3.2B from Anthropic investment, but OpenAI was a mixed bag",
-      "summary": "When Microsoft reported killer fourth-quarter earnings for its fiscal 2026 year (which ended June 30), it tucked in an interesting little tidbit about how its investments in the two biggest, and compe.",
-      "content": "When Microsoft reported killer fourth-quarter earnings for its fiscal 2026 year (which ended June 30), it tucked in an interesting little tidbit about how its investments in the two biggest, and competing, AI labs are doing.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2026-07-29T22:46:03.000Z",
-      "category": "funding",
-      "tags": [
-        "ai",
-        "openai",
-        "anthropic",
-        "OpenAI",
-        "Microsoft"
-      ],
-      "url": "https://techcrunch.com/2026/07/29/microsoft-logs-3-2b-from-anthropic-investment-but-openai-was-a-mixed-bag/",
-      "readTime": 3,
-      "views": 35905
-    },
-    {
-      "id": "zuckerberg-says-meta-8217-s-enterprise-ai-opportun",
-      "title": "Zuckerberg says Meta&#8217;s enterprise AI opportunity extends beyond agents",
-      "summary": "On the company’s second-quarter earnings call Wednesday, CEO Mark Zuckerberg said Meta sees a “large enterprise opportunity” spanning AI agents, APIs, compute, and internal software.",
-      "content": "On the company’s second-quarter earnings call Wednesday, CEO Mark Zuckerberg said Meta sees a “large enterprise opportunity” spanning AI agents, APIs, compute, and internal software.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-07-29T22:23:12.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Meta"
-      ],
-      "url": "https://techcrunch.com/2026/07/29/zuckerberg-says-metas-enterprise-ai-opportunity-extends-beyond-agents/",
-      "readTime": 3,
-      "views": 7009
-    },
-    {
-      "id": "discover-what-8217-s-next-for-ai-from-the-saas-rec",
-      "title": "Discover what&#8217;s next for AI, from the SaaS reckoning to the agent security gap, at TechCrunch Disrupt 2026",
-      "summary": "At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups.",
-      "content": "At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups.",
-      "source": "TechCrunch AI",
-      "author": "TechCrunch Events",
-      "publishedAt": "2026-07-29T21:16:39.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/07/29/discover-whats-next-for-ai-from-the-saas-reckoning-to-the-agent-security-gap-at-techcrunch-disrupt-2026/",
-      "readTime": 3,
-      "views": 23231
+      "views": 6226
     }
   ],
-  "lastUpdated": "2026-07-31T14:02:40.449Z",
+  "lastUpdated": "2026-08-01T02:41:20.125Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -361,9 +356,9 @@
   ],
   "categories": [
     "release",
-    "research",
     "market",
-    "regulation",
-    "funding"
+    "funding",
+    "research",
+    "regulation"
   ]
 }
