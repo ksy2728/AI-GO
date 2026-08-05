@@ -1,6 +1,105 @@
 {
   "articles": [
     {
+      "id": "open-weight-ai-models-are-catching-up-to-the-front",
+      "title": "Open-weight AI models are catching up to the frontier. The safety gap remains.",
+      "summary": "A new SaferAI report finds Z. ai's open-weight GLM-5.",
+      "content": "A new SaferAI report finds Z.ai's open-weight GLM-5.2 approaches frontier AI capabilities while lacking key safety mitigations, renewing concerns that powerful open models could outpace governance and safeguards.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-08-04T20:05:26.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "ai model"
+      ],
+      "url": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
+      "readTime": 3,
+      "views": 28322
+    },
+    {
+      "id": "anthropic-signs-10b-deal-with-ai-cloud-startup-vol",
+      "title": "Anthropic signs $10B deal with AI cloud startup Volta",
+      "summary": "Anthropic has been on a cloud partnership spree in recent months, and its latest move is reportedly a $10 billion deal with AI cloud startup Volta.",
+      "content": "Anthropic has been on a cloud partnership spree in recent months, and its latest move is reportedly a $10 billion deal with AI cloud startup Volta.",
+      "source": "TechCrunch AI",
+      "author": "Lucas Ropek",
+      "publishedAt": "2026-08-04T19:48:40.000Z",
+      "category": "partnership",
+      "tags": [
+        "ai",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
+      "readTime": 3,
+      "views": 29343
+    },
+    {
+      "id": "meet-wrinkles-an-app-that-uncovers-the-hidden-stor",
+      "title": "Meet Wrinkles, an app that uncovers the hidden stories of the places around you",
+      "summary": "Wrinkles, available on both iOS and Android, essentially acts as an AI-powered audio tour guide that reveals hidden history and local stories.",
+      "content": "Wrinkles, available on both iOS and Android, essentially acts as an AI-powered audio tour guide that reveals hidden history and local stories.",
+      "source": "TechCrunch AI",
+      "author": "Aisha Malik",
+      "publishedAt": "2026-08-04T19:34:34.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/08/04/meet-wrinkles-an-ai-app-that-uncovers-the-hidden-stories-of-the-places-around-you/",
+      "readTime": 3,
+      "views": 36751
+    },
+    {
+      "id": "nvidia-doesn-8217-t-mess-around-a-week-after-open-",
+      "title": "Nvidia doesn&#8217;t mess around: A week after open AI industry group formed, it&#8217;s already showing progress",
+      "summary": "The week-old Open Secure AI Alliance, spearheaded by Nvidia and grown to over 120 companies, already has proposals out for defending against AI agents.",
+      "content": "The week-old Open Secure AI Alliance, spearheaded by Nvidia and grown to over 120 companies, already has proposals out for defending against AI agents.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2026-08-04T19:28:49.000Z",
+      "category": "partnership",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/",
+      "readTime": 3,
+      "views": 28836
+    },
+    {
+      "id": "spotify-expands-ai-remix-and-covers-project-with-m",
+      "title": "Spotify expands AI remix and covers project with Merlin partnership",
+      "summary": "Spotify says Merlin, which represents more than 30,000 independent labels and distributors, has joined Universal Music Group in backing its upcoming AI-powered remix and covers product.  The paid tool.",
+      "content": "Spotify says Merlin, which represents more than 30,000 independent labels and distributors, has joined Universal Music Group in backing its upcoming AI-powered remix and covers product. The paid tool will let fans create AI-generated covers and remixes of participating artists’ music while ensuring ",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-08-04T15:50:06.000Z",
+      "category": "partnership",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/",
+      "readTime": 3,
+      "views": 37275
+    },
+    {
+      "id": "elon-musk-spends-half-his-time-talking-robots-and-",
+      "title": "Elon Musk spends half his time talking robots and AI on Tesla earnings calls",
+      "summary": "An analysis of the last seven years of Tesla earnings calls shows just how little attention Musk pays to Tesla's car business.",
+      "content": "An analysis of the last seven years of Tesla earnings calls shows just how little attention Musk pays to Tesla's car business.",
+      "source": "TechCrunch AI",
+      "author": "Sean O'Kane, Russell Brandom",
+      "publishedAt": "2026-08-04T15:20:06.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/08/04/elon-musk-spends-half-his-time-talking-robots-and-ai-on-tesla-earnings-calls/",
+      "readTime": 3,
+      "views": 31708
+    },
+    {
       "id": "apple-says-more-ex-employees-may-have-taken-confid",
       "title": "Apple says more ex-employees may have taken confidential data to OpenAI",
       "summary": "Apple says its trade secrets investigation into OpenAI has widened.  In a new court filing, Apple claims additional former staff may have retained or accessed confidential information.",
@@ -17,7 +116,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
       "readTime": 3,
-      "views": 26444
+      "views": 36843
     },
     {
       "id": "is-the-future-of-data-centers-portable-runware-bui",
@@ -33,7 +132,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/",
       "readTime": 3,
-      "views": 31078
+      "views": 9500
     },
     {
       "id": "after-killer-quarter-palantir-ceo-alex-karp-calls-",
@@ -49,7 +148,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/",
       "readTime": 3,
-      "views": 19973
+      "views": 53312
     },
     {
       "id": "design-arena-creators-raise-7-9-million-to-bring-t",
@@ -66,7 +165,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
       "readTime": 3,
-      "views": 30288
+      "views": 27618
     },
     {
       "id": "influencers-draw-backlash-for-attending-openai-821",
@@ -84,7 +183,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip/",
       "readTime": 3,
-      "views": 39400
+      "views": 21583
     },
     {
       "id": "apple-finally-fixed-siri-so-why-does-it-feel-antic",
@@ -101,13 +200,13 @@
       ],
       "url": "https://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic/",
       "readTime": 3,
-      "views": 35151
+      "views": 40282
     },
     {
       "id": "trump-s-ai-protectionism-has-come-for-robotics",
       "title": "Trump’s AI protectionism has come for robotics",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI.  To get stories like this in your inbox first, sign up here.",
-      "content": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Humanoid robots usually elicit more cringe than awe: They stumble, kick children, and despite advances are still worse at using their hands than my toddler. It’s ",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI.  To get stories like this in your inbox first,&#160;sign up here.",
+      "content": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Humanoid robots usually elicit more cringe than awe: They stumble, kick children, and despite advances are still worse at using their hands than my toddler. ",
       "source": "MIT Technology Review AI",
       "author": "James O'Donnell",
       "publishedAt": "2026-08-03T18:43:30.000Z",
@@ -118,7 +217,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/",
       "readTime": 3,
-      "views": 5852
+      "views": 49403
     },
     {
       "id": "congress-8217-favorite-ai-tool-chatgpt",
@@ -138,7 +237,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/",
       "readTime": 3,
-      "views": 30472
+      "views": 26951
     },
     {
       "id": "a-marc-benioff-backed-startup-thinks-ai-can-solve-",
@@ -154,7 +253,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/",
       "readTime": 3,
-      "views": 42043
+      "views": 40691
     },
     {
       "id": "here-s-why-ai-agents-lie-and-cheat-to-reach-their-",
@@ -173,7 +272,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
       "readTime": 3,
-      "views": 29264
+      "views": 33008
     },
     {
       "id": "sam-altman-and-ai-s-decel-debate",
@@ -189,7 +288,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
       "readTime": 3,
-      "views": 41980
+      "views": 35515
     },
     {
       "id": "judge-denies-xai-s-request-to-block-minnesota-ban-",
@@ -205,111 +304,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
       "readTime": 3,
-      "views": 36788
-    },
-    {
-      "id": "youtuber-hank-green-says-his-ai-usage-is-not-healt",
-      "title": "YouTuber Hank Green says his AI usage is ‘not healthy’",
-      "summary": "Green offered a remarkable apology, saying that \"the level of dopamine that I've been getting from interacting with LLMs .  is not healthy for me or good for the world.",
-      "content": "Green offered a remarkable apology, saying that \"the level of dopamine that I've been getting from interacting with LLMs ... is not healthy for me or good for the world.\"",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2026-08-01T19:45:45.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "llm"
-      ],
-      "url": "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/",
-      "readTime": 3,
-      "views": 35590
-    },
-    {
-      "id": "sam-altman-is-still-making-the-case-for-parenting-",
-      "title": "Sam Altman is still making the case for parenting via ChatGPT",
-      "summary": "This isn’t the first time a tech CEO has promised that AI can shield users — and specifically users’ morning commutes — from the messiness and inefficiency of human experience.",
-      "content": "This isn’t the first time a tech CEO has promised that AI can shield users — and specifically users’ morning commutes — from the messiness and inefficiency of human experience.",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2026-08-01T17:07:34.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gpt",
-        "chatgpt"
-      ],
-      "url": "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/",
-      "readTime": 3,
-      "views": 33167
-    },
-    {
-      "id": "openai-reportedly-finds-evidence-that-more-of-its-",
-      "title": "OpenAI reportedly finds evidence that more of its agents ran amok",
-      "summary": "OpenAI has reportedly found evidence of additional agent misbehavior as it looks into the incident that occurred with Hugging Face.",
-      "content": "OpenAI has reportedly found evidence of additional agent misbehavior as it looks into the incident that occurred with Hugging Face.",
-      "source": "TechCrunch AI",
-      "author": "Lucas Ropek",
-      "publishedAt": "2026-07-31T22:47:26.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/",
-      "readTime": 3,
-      "views": 24563
-    },
-    {
-      "id": "google-nixes-its-earth-ai-feature-one-day-after-la",
-      "title": "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation",
-      "summary": "A tool that allowed anyone to generate fake AI-generated imagery and superimpose it over real Google Earth maps quickly spurred backlash.",
-      "content": "A tool that allowed anyone to generate fake AI-generated imagery and superimpose it over real Google Earth maps quickly spurred backlash.",
-      "source": "TechCrunch AI",
-      "author": "Lucas Ropek",
-      "publishedAt": "2026-07-31T19:47:28.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation/",
-      "readTime": 3,
-      "views": 54132
-    },
-    {
-      "id": "sam-altman-isn-8217-t-the-only-one-who-wants-to-pu",
-      "title": "Sam Altman isn&#8217;t the only one who wants to pump the brakes on AI",
-      "summary": "After years of pushing full speed ahead on AI,&#160;OpenAI CEO&#160;Sam Altman says&#160;maybe it’s&#160;time for the AI industry to “pace” itself.  The comments came&#160;just days after one of OpenA.",
-      "content": "After years of pushing full speed ahead on AI,&#160;OpenAI CEO&#160;Sam Altman says&#160;maybe it’s&#160;time for the AI industry to “pace” itself. The comments came&#160;just days after one of OpenAI&#8217;s own models broke out of its test environment and got tangled up in&#160;a breach at Hugging",
-      "source": "TechCrunch AI",
-      "author": "Theresa Loconsolo",
-      "publishedAt": "2026-07-31T17:26:32.000Z",
-      "category": "market",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/video/sam-altman-isnt-the-only-one-who-wants-to-pump-the-brakes-on-ai/",
-      "readTime": 3,
-      "views": 29604
-    },
-    {
-      "id": "snapchat-no-longer-rewards-fully-ai-generated-spot",
-      "title": "Snapchat no longer rewards fully AI-generated Spotlight content",
-      "summary": "Snapchat has adjusted its recommendation systems to ensure that only videos created by real people are eligible for Spotlight recommendations, taking a stance against AI slop.",
-      "content": "Snapchat has adjusted its recommendation systems to ensure that only videos created by real people are eligible for Spotlight recommendations, taking a stance against AI slop.",
-      "source": "TechCrunch AI",
-      "author": "Lauren Forristal",
-      "publishedAt": "2026-07-31T16:49:08.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/07/31/snapchat-no-longer-rewards-fully-ai-generated-spotlight-content/",
-      "readTime": 3,
-      "views": 26529
+      "views": 53549
     },
     {
       "id": "a-fundamental-flaw-leaves-llms-strikingly-vulnerab",
@@ -328,7 +323,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
       "readTime": 3,
-      "views": 44956
+      "views": 21839
     },
     {
       "id": "the-ai-hype-index-unsexy-ai",
@@ -344,10 +339,10 @@
       ],
       "url": "https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/",
       "readTime": 3,
-      "views": 46766
+      "views": 22899
     }
   ],
-  "lastUpdated": "2026-08-04T14:08:00.474Z",
+  "lastUpdated": "2026-08-05T02:25:10.917Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -356,9 +351,9 @@
   ],
   "categories": [
     "release",
+    "partnership",
     "market",
     "funding",
-    "partnership",
     "regulation",
     "research"
   ]
