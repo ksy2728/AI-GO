@@ -1,6 +1,124 @@
 {
   "articles": [
     {
+      "id": "meta-launches-muse-code-an-ai-agent-for-large-code",
+      "title": "Meta launches Muse Code, an AI agent for large code bases",
+      "summary": "Meta expanded its AI coding offerings with a new agent that, it promises, can handle complex tasks with complex software.",
+      "content": "Meta expanded its AI coding offerings with a new agent that, it promises, can handle complex tasks with complex software.",
+      "source": "TechCrunch AI",
+      "author": "Lucas Ropek",
+      "publishedAt": "2026-08-05T21:21:28.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Meta"
+      ],
+      "url": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/",
+      "readTime": 3,
+      "views": 29336
+    },
+    {
+      "id": "klaviyo-acquires-elias-torres-agency-in-full-circl",
+      "title": "Klaviyo acquires Elias Torres’ Agency in full-circle reunion for tech founders",
+      "summary": "The serial entrepreneur joins the e-commerce company as CPO to lead its AI agents.",
+      "content": "The serial entrepreneur joins the e-commerce company as CPO to lead its AI agents.",
+      "source": "TechCrunch AI",
+      "author": "Marina Temkin",
+      "publishedAt": "2026-08-05T20:05:00.000Z",
+      "category": "partnership",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/",
+      "readTime": 3,
+      "views": 34145
+    },
+    {
+      "id": "jeff-dean-and-other-top-ai-researchers-are-leaving",
+      "title": "Jeff Dean and other top AI researchers are leaving Google to launch their own startup",
+      "summary": "The legendary Google executive is joined by other outgoing Google execs in a joint mission to use AI to push forward the process of scientific discovery.",
+      "content": "The legendary Google executive is joined by other outgoing Google execs in a joint mission to use AI to push forward the process of scientific discovery.",
+      "source": "TechCrunch AI",
+      "author": "Lucas Ropek",
+      "publishedAt": "2026-08-05T19:30:19.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/",
+      "readTime": 3,
+      "views": 31583
+    },
+    {
+      "id": "shopify-says-ai-search-is-driving-more-traffic-and",
+      "title": "Shopify says AI search is driving more traffic and sales, not replacing Google",
+      "summary": "Shopify says AI isn’t cannibalizing search traffic the way it has for publishers.  Instead, AI-driven traffic and orders to Shopify stores tripled year over year in Q2.",
+      "content": "Shopify says AI isn’t cannibalizing search traffic the way it has for publishers. Instead, AI-driven traffic and orders to Shopify stores tripled year over year in Q2.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-08-05T15:56:14.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/",
+      "readTime": 3,
+      "views": 40337
+    },
+    {
+      "id": "hark-previews-its-browser-use-agent-for-completing",
+      "title": "Hark previews its browser use agent for completing tasks",
+      "summary": "Hark claims that its browser use agent is faster and cheaper than competition.",
+      "content": "Hark claims that its browser use agent is faster and cheaper than competition.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-08-05T15:46:27.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/08/05/hark-previews-its-browser-use-agent-for-completing-tasks/",
+      "readTime": 3,
+      "views": 19379
+    },
+    {
+      "id": "techcrunch-disrupt-2026-s-real-world-ai-stage-feat",
+      "title": "TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals",
+      "summary": "On our new Real World AI stage, we’ll be focusing on the intersection between the digital and physical, and all the ways we’ll continue to see a blending of the two.",
+      "content": "On our new Real World AI stage, we’ll be focusing on the intersection between the digital and physical, and all the ways we’ll continue to see a blending of the two.",
+      "source": "TechCrunch AI",
+      "author": "TechCrunch Events",
+      "publishedAt": "2026-08-05T15:05:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals/",
+      "readTime": 3,
+      "views": 35620
+    },
+    {
+      "id": "anthropic-is-hiring-an-ai-chip-design-team",
+      "title": "Anthropic is hiring an AI chip design team",
+      "summary": "Anthropic is building a team for designing its own custom AI chips.  The Claude maker said it would co-design hardware and models to help its technology run faster and more efficiently.",
+      "content": "Anthropic is building a team for designing its own custom AI chips. The Claude maker said it would co-design hardware and models to help its technology run faster and more efficiently.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-08-05T14:13:18.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "anthropic",
+        "claude",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/",
+      "readTime": 3,
+      "views": 8769
+    },
+    {
       "id": "macpaw-taps-liquid-ai-to-offer-on-device-inference",
       "title": "MacPaw taps Liquid AI to offer on-device inference to devs building for its app store",
       "summary": "MacPaw is building a local version of its AI assistant Eney using Liquid AI's models.",
@@ -14,13 +132,13 @@
       ],
       "url": "https://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store/",
       "readTime": 3,
-      "views": 29905
+      "views": 11088
     },
     {
       "id": "ai-makes-weather-prediction-better-can-windborne-m",
       "title": "AI makes weather prediction better. Can WindBorne make it lucrative?",
-      "summary": "WindBorne Systems has raised $37 million Series B round to scale its weather balloons and AI forecasts.",
-      "content": "WindBorne Systems has raised $37 million Series B round to scale its weather balloons and AI forecasts.",
+      "summary": "WindBorne Systems has raised a $37 million Series B round to scale its weather balloons and AI forecasts.",
+      "content": "WindBorne Systems has raised a $37 million Series B round to scale its weather balloons and AI forecasts.",
       "source": "TechCrunch AI",
       "author": "Tim Fernholz",
       "publishedAt": "2026-08-05T11:00:00.000Z",
@@ -30,7 +148,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative/",
       "readTime": 3,
-      "views": 13702
+      "views": 11653
     },
     {
       "id": "open-weight-ai-models-are-catching-up-to-the-front",
@@ -47,7 +165,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
       "readTime": 3,
-      "views": 54015
+      "views": 11857
     },
     {
       "id": "anthropic-signs-10b-deal-with-ai-cloud-startup-vol",
@@ -65,7 +183,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
       "readTime": 3,
-      "views": 22523
+      "views": 5491
     },
     {
       "id": "meet-wrinkles-an-app-that-uncovers-the-hidden-stor",
@@ -81,7 +199,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/04/meet-wrinkles-an-ai-app-that-uncovers-the-hidden-stories-of-the-places-around-you/",
       "readTime": 3,
-      "views": 32562
+      "views": 34826
     },
     {
       "id": "nvidia-doesn-8217-t-mess-around-a-week-after-open-",
@@ -97,7 +215,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/",
       "readTime": 3,
-      "views": 14593
+      "views": 39555
     },
     {
       "id": "spotify-expands-ai-remix-and-covers-project-with-m",
@@ -113,7 +231,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/",
       "readTime": 3,
-      "views": 14559
+      "views": 31297
     },
     {
       "id": "elon-musk-spends-half-his-time-talking-robots-and-",
@@ -129,7 +247,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/04/elon-musk-spends-half-his-time-talking-robots-and-ai-on-tesla-earnings-calls/",
       "readTime": 3,
-      "views": 26440
+      "views": 45598
     },
     {
       "id": "apple-says-more-ex-employees-may-have-taken-confid",
@@ -148,7 +266,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
       "readTime": 3,
-      "views": 13940
+      "views": 11207
     },
     {
       "id": "is-the-future-of-data-centers-portable-runware-bui",
@@ -164,75 +282,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/",
       "readTime": 3,
-      "views": 52667
-    },
-    {
-      "id": "after-killer-quarter-palantir-ceo-alex-karp-calls-",
-      "title": "After killer quarter, Palantir CEO Alex Karp calls AI industry &#8216;Marxist&#8217;",
-      "summary": "After a quarter that delivered $1 billion in profit, Palantir CEO Alex Karp on Monday once again warned that AI frontier labs are too untrustworthy for enterprises.",
-      "content": "After a quarter that delivered $1 billion in profit, Palantir CEO Alex Karp on Monday once again warned that AI frontier labs are too untrustworthy for enterprises.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2026-08-03T23:19:50.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/",
-      "readTime": 3,
-      "views": 36971
-    },
-    {
-      "id": "design-arena-creators-raise-7-9-million-to-bring-t",
-      "title": "Design Arena creators raise $7.9 million to bring taste to AI models",
-      "summary": "Design Arena is used by 5. 3 million people around the world, providing critical human evaluations to frontier labs.",
-      "content": "Design Arena is used by 5.3 million people around the world, providing critical human evaluations to frontier labs.",
-      "source": "TechCrunch AI",
-      "author": "Russell Brandom",
-      "publishedAt": "2026-08-03T19:28:57.000Z",
-      "category": "funding",
-      "tags": [
-        "ai",
-        "ai model"
-      ],
-      "url": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
-      "readTime": 3,
-      "views": 48655
-    },
-    {
-      "id": "influencers-draw-backlash-for-attending-openai-821",
-      "title": "Influencers draw backlash for attending OpenAI&#8217;s first luxury trip",
-      "summary": "OpenAI’s first-ever influencer brand trip is sparking online backlash as tensions over the use of AI continue.",
-      "content": "OpenAI’s first-ever influencer brand trip is sparking online backlash as tensions over the use of AI continue.",
-      "source": "TechCrunch AI",
-      "author": "Dominic-Madori Davis",
-      "publishedAt": "2026-08-03T19:09:56.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip/",
-      "readTime": 3,
-      "views": 26567
-    },
-    {
-      "id": "apple-finally-fixed-siri-so-why-does-it-feel-antic",
-      "title": "Apple finally fixed Siri. So why does it feel anticlimactic?",
-      "summary": "Apple’s long-awaited AI overhaul finally makes Siri the assistant it was always supposed to be.  Yet it arrives at a moment when simply being a capable AI assistant no longer feels revolutionary.",
-      "content": "Apple’s long-awaited AI overhaul finally makes Siri the assistant it was always supposed to be. Yet it arrives at a moment when simply being a capable AI assistant no longer feels revolutionary.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-08-03T18:43:43.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Apple"
-      ],
-      "url": "https://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic/",
-      "readTime": 3,
-      "views": 50749
+      "views": 30017
     },
     {
       "id": "trump-s-ai-protectionism-has-come-for-robotics",
@@ -249,43 +299,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/",
       "readTime": 3,
-      "views": 44705
-    },
-    {
-      "id": "congress-8217-favorite-ai-tool-chatgpt",
-      "title": "Congress&#8217; favorite AI tool? ChatGPT",
-      "summary": "House spending records show OpenAI's ChatGPT dominates paid AI use on Capitol Hill, with congressional offices relying on the chatbot to draft memos, summarize legislation, and assist constituent comm.",
-      "content": "House spending records show OpenAI's ChatGPT dominates paid AI use on Capitol Hill, with congressional offices relying on the chatbot to draft memos, summarize legislation, and assist constituent communications.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-08-03T16:40:55.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gpt",
-        "openai",
-        "chatgpt",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/",
-      "readTime": 3,
-      "views": 14036
-    },
-    {
-      "id": "a-marc-benioff-backed-startup-thinks-ai-can-solve-",
-      "title": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem",
-      "summary": "June emerged from stealth today with a $20 million pre-seed round to make AI adoption simpler.",
-      "content": "June emerged from stealth today with a $20 million pre-seed round to make AI adoption simpler.",
-      "source": "TechCrunch AI",
-      "author": "Tim Fernholz",
-      "publishedAt": "2026-08-03T10:00:00.000Z",
-      "category": "partnership",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/",
-      "readTime": 3,
-      "views": 37463
+      "views": 43411
     },
     {
       "id": "here-s-why-ai-agents-lie-and-cheat-to-reach-their-",
@@ -304,7 +318,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
       "readTime": 3,
-      "views": 36760
+      "views": 25789
     },
     {
       "id": "a-fundamental-flaw-leaves-llms-strikingly-vulnerab",
@@ -323,26 +337,10 @@
       ],
       "url": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
       "readTime": 3,
-      "views": 18829
-    },
-    {
-      "id": "the-ai-hype-index-unsexy-ai",
-      "title": "The AI Hype Index: Unsexy AI",
-      "summary": "It feels bad enough when an open letter signed by leading economists warns that AI might steal your job.  The fact it may soon be better than you at making dinner.",
-      "content": "It feels bad enough when an open letter signed by leading economists warns that AI might steal your job. The fact it may soon be better than you at making dinner? Insult to injury. But that’s exactly what the company 1X promised when it showed off a pair of new, impressively dexterous (and, to some,",
-      "source": "MIT Technology Review AI",
-      "author": "Charlotte Jee",
-      "publishedAt": "2026-07-29T08:42:57.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/",
-      "readTime": 3,
-      "views": 38262
+      "views": 6922
     }
   ],
-  "lastUpdated": "2026-08-05T14:05:53.079Z",
+  "lastUpdated": "2026-08-06T02:27:41.733Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -351,10 +349,9 @@
   ],
   "categories": [
     "release",
-    "funding",
     "partnership",
     "market",
-    "regulation",
-    "research"
+    "funding",
+    "regulation"
   ]
 }
