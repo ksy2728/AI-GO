@@ -1,21 +1,88 @@
 {
   "articles": [
     {
-      "id": "alibaba-tests-new-business-model-for-qwen-open-sou",
-      "title": "Alibaba tests new business model for Qwen open-source AI",
-      "summary": "Alibaba plans to introduce revenue-sharing terms for some commercial users of its next Qwen open-weight AI model, Reuters reported, citing two people familiar with the company’s plans.  The arrangemen.",
-      "content": "Alibaba plans to introduce revenue-sharing terms for some commercial users of its next Qwen open-weight AI model, Reuters reported, citing two people familiar with the company’s plans. The arrangement would require larger companies that generate revenue from offering the model as a service to reach ",
-      "source": "AI News",
-      "author": "Muhammad Zulhusni",
-      "publishedAt": "2026-08-07T10:00:00.000Z",
+      "id": "openai-says-it-slowed-astra-model-development-over",
+      "title": "OpenAI says it slowed Astra model development over security concerns",
+      "summary": "OpenAI said this model, which is still in development, reached its \"critical cybersecurity threshold,\" meaning it could independently identify and carry out cyberattacks against traditionally well-pro.",
+      "content": "OpenAI said this model, which is still in development, reached its \"critical cybersecurity threshold,\" meaning it could independently identify and carry out cyberattacks against traditionally well-protected real-world systems.",
+      "source": "TechCrunch AI",
+      "author": "Kirsten Korosec",
+      "publishedAt": "2026-08-07T22:48:24.000Z",
       "category": "release",
       "tags": [
         "ai",
-        "ai model"
+        "openai",
+        "OpenAI"
       ],
-      "url": "https://www.artificialintelligence-news.com/news/alibaba-qwen-open-source-ai-revenue-sharing/",
+      "url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
       "readTime": 3,
-      "views": 32627
+      "views": 33677
+    },
+    {
+      "id": "after-rippling-blew-millions-on-ai-in-months-it-bu",
+      "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
+      "summary": "After its own AI usage wake-up call, Rippling this week unveiled AI Spend Console, a product that tracks individual and team employee AI spending.",
+      "content": "After its own AI usage wake-up call, Rippling this week unveiled AI Spend Console, a product that tracks individual and team employee AI spending.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2026-08-07T21:30:11.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
+      "readTime": 3,
+      "views": 17492
+    },
+    {
+      "id": "cloudflare-launches-kitesurf-a-browser-built-for-a",
+      "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
+      "summary": "Kitesurf is a cloud-hosted browser designed for AI agents instead of people.  It uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents m.",
+      "content": "Kitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-08-07T16:16:09.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "automation"
+      ],
+      "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
+      "readTime": 3,
+      "views": 54130
+    },
+    {
+      "id": "airbnb-says-ai-is-helping-it-ship-features-faster-",
+      "title": "Airbnb says AI is helping it ship features faster as it tests a new search function",
+      "summary": "Airbnb will debut a new AI-powered search experience with a toggle.",
+      "content": "Airbnb will debut a new AI-powered search experience with a toggle.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-08-07T14:22:49.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/",
+      "readTime": 3,
+      "views": 44386
+    },
+    {
+      "id": "jill-lepore-on-the-artificial-state-and-why-silico",
+      "title": "Jill Lepore on the ‘Artificial State’ and why Silicon Valley&#8217;s leaders are bad sci-fi readers",
+      "summary": "Historian Jill Lepore has a theory about why tech companies often use soaring language to describe their products —&#160;almost as&#160;if&#160;they&#8217;re&#160;forming a new government.  And whethe.",
+      "content": "Historian Jill Lepore has a theory about why tech companies often use soaring language to describe their products —&#160;almost as&#160;if&#160;they&#8217;re&#160;forming a new government. And whether&#160;you&#8217;re&#160;thinking of Twitter&#8217;s old “town hall in your pocket” or&#160;Anthropic",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha, Theresa Loconsolo",
+      "publishedAt": "2026-08-07T14:00:00.000Z",
+      "category": "regulation",
+      "tags": [
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/podcast/jill-lepore-on-the-artificial-state-and-why-silicon-valleys-leaders-are-bad-sci-fi-readers/",
+      "readTime": 3,
+      "views": 24843
     },
     {
       "id": "openai-8217-s-new-ai-smart-speaker-will-reportedly",
@@ -33,7 +100,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
       "readTime": 3,
-      "views": 38721
+      "views": 12051
     },
     {
       "id": "chatgpt-brings-unlimited-text-chats-to-free-users",
@@ -53,7 +120,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
       "readTime": 3,
-      "views": 8595
+      "views": 17516
     },
     {
       "id": "na-ve-raises-28-5m-to-automate-the-grunt-work-of-s",
@@ -69,23 +136,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company/",
       "readTime": 3,
-      "views": 16357
-    },
-    {
-      "id": "why-health-ai-interfaces-must-adapt-to-user-expert",
-      "title": "Why health AI interfaces must adapt to user expertise",
-      "summary": "MIT researchers and collaborators found that AI explainability tools in the health sector can produce sharply different results depending on who uses them.  When applied to skin disease diagnosis, non.",
-      "content": "MIT researchers and collaborators found that AI explainability tools in the health sector can produce sharply different results depending on who uses them. When applied to skin disease diagnosis, non-experts improved their accuracy with AI assistance, although the improvement largely came from defer",
-      "source": "AI News",
-      "author": "Ryan Daws",
-      "publishedAt": "2026-08-06T15:55:37.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/why-health-ai-interfaces-must-adapt-to-user-expertise/",
-      "readTime": 3,
-      "views": 31888
+      "views": 12669
     },
     {
       "id": "gen-z-dating-apps-like-ditto-ditch-swiping-in-favo",
@@ -101,26 +152,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/06/gen-z-dating-apps-like-ditto-ditch-swiping-in-favor-of-ai-matchmaking/",
       "readTime": 3,
-      "views": 29157
-    },
-    {
-      "id": "openai-says-apple-s-own-security-practices-undermi",
-      "title": "OpenAI says Apple’s own security practices undermine its trade secrets case",
-      "summary": "Newly filed court exhibits show OpenAI’s legal strategy in Apple’s trade secrets lawsuit: argue that Apple’s own security and offboarding practices — including allowing an Apple manager to access a fo.",
-      "content": "Newly filed court exhibits show OpenAI’s legal strategy in Apple’s trade secrets lawsuit: argue that Apple’s own security and offboarding practices — including allowing an Apple manager to access a former engineer’s iCloud account after he left the company —undermine its claims that the allegedly st",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-08-06T15:10:32.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI",
-        "Apple"
-      ],
-      "url": "https://techcrunch.com/2026/08/06/openai-says-apples-own-security-practices-undermine-its-trade-secrets-case/",
-      "readTime": 3,
-      "views": 39891
+      "views": 43059
     },
     {
       "id": "ex-spotify-employees-raise-10m-to-bring-the-ai-beh",
@@ -136,7 +168,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/06/ex-spotify-employees-raise-10m-to-bring-the-ai-behind-its-recommendations-to-e-commerce/",
       "readTime": 3,
-      "views": 18673
+      "views": 46137
     },
     {
       "id": "exclusive-mirendil-inks-100m-google-cloud-deal-to-",
@@ -153,7 +185,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai/",
       "readTime": 3,
-      "views": 54644
+      "views": 5041
     },
     {
       "id": "omilia-raises-67m-to-scale-its-customer-support-pl",
@@ -169,7 +201,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/06/omilia-raises-67m-to-scale-its-customer-support-platform/",
       "readTime": 3,
-      "views": 8872
+      "views": 11049
     },
     {
       "id": "meta-launches-muse-code-an-ai-agent-for-large-code",
@@ -186,7 +218,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/",
       "readTime": 3,
-      "views": 44241
+      "views": 54311
     },
     {
       "id": "klaviyo-acquires-elias-torres-agency-in-full-circl",
@@ -202,7 +234,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/",
       "readTime": 3,
-      "views": 19660
+      "views": 50961
     },
     {
       "id": "jeff-dean-and-other-top-ai-researchers-are-leaving",
@@ -219,7 +251,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/",
       "readTime": 3,
-      "views": 31829
+      "views": 43498
     },
     {
       "id": "shopify-says-ai-search-is-driving-more-traffic-and",
@@ -236,122 +268,93 @@
       ],
       "url": "https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/",
       "readTime": 3,
-      "views": 34356
+      "views": 34523
     },
     {
-      "id": "hark-previews-its-browser-use-agent-for-completing",
-      "title": "Hark previews its browser use agent for completing tasks",
-      "summary": "Hark claims that its browser use agent is faster and cheaper than competition.",
-      "content": "Hark claims that its browser use agent is faster and cheaper than competition.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-08-05T15:46:27.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/08/05/hark-previews-its-browser-use-agent-for-completing-tasks/",
-      "readTime": 3,
-      "views": 54705
-    },
-    {
-      "id": "prism2-model-uses-clinical-dialogue-to-interpret-p",
-      "title": "PRISM2 model uses clinical dialogue to interpret pathology slides",
-      "summary": "Built by Paige and Microsoft, PRISM2 reads whole-slide images through a perceiver-based encoder trained jointly on tissue tiles and clinical dialogue drawn from pathology reports.  The model aggregate.",
-      "content": "Built by Paige and Microsoft, PRISM2 reads whole-slide images through a perceiver-based encoder trained jointly on tissue tiles and clinical dialogue drawn from pathology reports. The model aggregates thousands of tile embeddings per slide into one representation, then generates text that answers di",
-      "source": "AI News",
-      "author": "Ryan Daws",
-      "publishedAt": "2026-08-05T15:26:20.000Z",
+      "id": "trump-s-ai-protectionism-has-come-for-robotics",
+      "title": "Trump’s AI protectionism has come for robotics",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI.  To get stories like this in your inbox first,&#160;sign up here.",
+      "content": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Humanoid robots usually elicit more cringe than awe: They stumble, kick children, and despite advances are still worse at using their hands than my toddler. ",
+      "source": "MIT Technology Review AI",
+      "author": "James O'Donnell",
+      "publishedAt": "2026-08-03T18:43:30.000Z",
       "category": "market",
       "tags": [
         "ai",
-        "Microsoft"
+        "robotics"
       ],
-      "url": "https://www.artificialintelligence-news.com/news/prism2-model-clinical-dialogue-interpret-pathology-slides/",
+      "url": "https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/",
       "readTime": 3,
-      "views": 19024
+      "views": 43968
     },
     {
-      "id": "techcrunch-disrupt-2026-s-real-world-ai-stage-feat",
-      "title": "TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals",
-      "summary": "On our new Real World AI stage, we’ll be focusing on the intersection between the digital and physical, and all the ways we’ll continue to see a blending of the two.",
-      "content": "On our new Real World AI stage, we’ll be focusing on the intersection between the digital and physical, and all the ways we’ll continue to see a blending of the two.",
-      "source": "TechCrunch AI",
-      "author": "TechCrunch Events",
-      "publishedAt": "2026-08-05T15:05:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals/",
-      "readTime": 3,
-      "views": 16243
-    },
-    {
-      "id": "anthropic-is-hiring-an-ai-chip-design-team",
-      "title": "Anthropic is hiring an AI chip design team",
-      "summary": "Anthropic is building a team for designing its own custom AI chips.  The Claude maker said it would co-design hardware and models to help its technology run faster and more efficiently.",
-      "content": "Anthropic is building a team for designing its own custom AI chips. The Claude maker said it would co-design hardware and models to help its technology run faster and more efficiently.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-08-05T14:13:18.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "anthropic",
-        "claude",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/",
-      "readTime": 3,
-      "views": 40006
-    },
-    {
-      "id": "macpaw-taps-liquid-ai-to-offer-on-device-inference",
-      "title": "MacPaw taps Liquid AI to offer on-device inference to devs building for its app store",
-      "summary": "MacPaw is building a local version of its AI assistant Eney using Liquid AI's models.",
-      "content": "MacPaw is building a local version of its AI assistant Eney using Liquid AI's models.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-08-05T12:28:38.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store/",
-      "readTime": 3,
-      "views": 36798
-    },
-    {
-      "id": "ai-makes-weather-prediction-better-can-windborne-m",
-      "title": "AI makes weather prediction better. Can WindBorne make it lucrative?",
-      "summary": "WindBorne Systems has raised a $37 million Series B round to scale its weather balloons and AI forecasts.",
-      "content": "WindBorne Systems has raised a $37 million Series B round to scale its weather balloons and AI forecasts.",
-      "source": "TechCrunch AI",
-      "author": "Tim Fernholz",
-      "publishedAt": "2026-08-05T11:00:00.000Z",
+      "id": "here-s-why-ai-agents-lie-and-cheat-to-reach-their-",
+      "title": "Here’s why AI agents lie and cheat to reach their goals",
+      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next.  You can read more from the series here.",
+      "content": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. When two OpenAI models hacked into the website Hugging Face in July, they weren’t trying to make money or commit sabotage",
+      "source": "MIT Technology Review AI",
+      "author": "Grace Huckins",
+      "publishedAt": "2026-08-03T08:30:05.000Z",
       "category": "funding",
       "tags": [
+        "ai",
+        "openai",
+        "ai model",
+        "OpenAI"
+      ],
+      "url": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
+      "readTime": 3,
+      "views": 5582
+    },
+    {
+      "id": "a-fundamental-flaw-leaves-llms-strikingly-vulnerab",
+      "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
+      "summary": "It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team of researchers argue in a paper presented at the International Conferen.",
+      "content": "It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team of researchers argue in a paper presented at the International Conference on Machine Learning, a top AI conference, this month. The claim has huge implications for the saf",
+      "source": "MIT Technology Review AI",
+      "author": "Will Douglas Heaven",
+      "publishedAt": "2026-07-30T10:15:19.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai",
+        "machine learning",
+        "llm",
+        "language model"
+      ],
+      "url": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
+      "readTime": 3,
+      "views": 41289
+    },
+    {
+      "id": "the-ai-hype-index-unsexy-ai",
+      "title": "The AI Hype Index: Unsexy AI",
+      "summary": "It feels bad enough when an open letter signed by leading economists warns that AI might steal your job.  The fact it may soon be better than you at making dinner.",
+      "content": "It feels bad enough when an open letter signed by leading economists warns that AI might steal your job. The fact it may soon be better than you at making dinner? Insult to injury. But that’s exactly what the company 1X promised when it showed off a pair of new, impressively dexterous (and, to some,",
+      "source": "MIT Technology Review AI",
+      "author": "Charlotte Jee",
+      "publishedAt": "2026-07-29T08:42:57.000Z",
+      "category": "research",
+      "tags": [
         "ai"
       ],
-      "url": "https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative/",
+      "url": "https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/",
       "readTime": 3,
-      "views": 37990
+      "views": 14501
     }
   ],
-  "lastUpdated": "2026-08-07T12:59:38.485Z",
+  "lastUpdated": "2026-08-08T01:27:04.590Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "AI News",
-    "TechCrunch AI"
+    "TechCrunch AI",
+    "MIT Technology Review AI"
   ],
   "categories": [
     "release",
-    "funding",
-    "research",
     "regulation",
+    "funding",
     "partnership",
-    "market"
+    "market",
+    "research"
   ]
 }
