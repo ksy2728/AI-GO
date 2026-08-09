@@ -1,6 +1,26 @@
 {
   "articles": [
     {
+      "id": "openai-acquires-presentation-startup-nextslide",
+      "title": "OpenAI acquires presentation startup NextSlide",
+      "summary": "NextSlide says its team members are now working on ChatGPT.",
+      "content": "NextSlide says its team members are now working on ChatGPT.",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "publishedAt": "2026-08-08T19:41:13.000Z",
+      "category": "partnership",
+      "tags": [
+        "ai",
+        "gpt",
+        "openai",
+        "chatgpt",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+      "readTime": 3,
+      "views": 54663
+    },
+    {
       "id": "openai-says-it-slowed-astra-model-development-over",
       "title": "OpenAI says it slowed Astra model development over security concerns",
       "summary": "OpenAI said this model, which is still in development, reached its \"critical cybersecurity threshold,\" meaning it could independently identify and carry out cyberattacks against traditionally well-pro.",
@@ -16,7 +36,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
       "readTime": 3,
-      "views": 21705
+      "views": 39202
     },
     {
       "id": "after-rippling-blew-millions-on-ai-in-months-it-bu",
@@ -32,7 +52,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
       "readTime": 3,
-      "views": 34479
+      "views": 8242
     },
     {
       "id": "cloudflare-launches-kitesurf-a-browser-built-for-a",
@@ -49,7 +69,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
       "readTime": 3,
-      "views": 8716
+      "views": 31834
     },
     {
       "id": "airbnb-says-ai-is-helping-it-ship-features-faster-",
@@ -65,7 +85,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/",
       "readTime": 3,
-      "views": 45989
+      "views": 13404
     },
     {
       "id": "jill-lepore-on-the-artificial-state-and-why-silico",
@@ -82,7 +102,7 @@
       ],
       "url": "https://techcrunch.com/podcast/jill-lepore-on-the-artificial-state-and-why-silicon-valleys-leaders-are-bad-sci-fi-readers/",
       "readTime": 3,
-      "views": 35088
+      "views": 11353
     },
     {
       "id": "openai-8217-s-new-ai-smart-speaker-will-reportedly",
@@ -100,7 +120,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
       "readTime": 3,
-      "views": 38951
+      "views": 51236
     },
     {
       "id": "chatgpt-brings-unlimited-text-chats-to-free-users",
@@ -120,7 +140,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
       "readTime": 3,
-      "views": 17018
+      "views": 47279
     },
     {
       "id": "na-ve-raises-28-5m-to-automate-the-grunt-work-of-s",
@@ -136,7 +156,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company/",
       "readTime": 3,
-      "views": 27978
+      "views": 27776
     },
     {
       "id": "gen-z-dating-apps-like-ditto-ditch-swiping-in-favo",
@@ -152,7 +172,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/06/gen-z-dating-apps-like-ditto-ditch-swiping-in-favor-of-ai-matchmaking/",
       "readTime": 3,
-      "views": 27371
+      "views": 49163
     },
     {
       "id": "ex-spotify-employees-raise-10m-to-bring-the-ai-beh",
@@ -168,7 +188,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/06/ex-spotify-employees-raise-10m-to-bring-the-ai-behind-its-recommendations-to-e-commerce/",
       "readTime": 3,
-      "views": 34545
+      "views": 20214
     },
     {
       "id": "exclusive-mirendil-inks-100m-google-cloud-deal-to-",
@@ -185,7 +205,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai/",
       "readTime": 3,
-      "views": 9774
+      "views": 8994
     },
     {
       "id": "omilia-raises-67m-to-scale-its-customer-support-pl",
@@ -201,7 +221,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/06/omilia-raises-67m-to-scale-its-customer-support-platform/",
       "readTime": 3,
-      "views": 17217
+      "views": 32243
     },
     {
       "id": "meta-launches-muse-code-an-ai-agent-for-large-code",
@@ -218,7 +238,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/",
       "readTime": 3,
-      "views": 35999
+      "views": 24209
     },
     {
       "id": "klaviyo-acquires-elias-torres-agency-in-full-circl",
@@ -234,41 +254,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/",
       "readTime": 3,
-      "views": 22873
-    },
-    {
-      "id": "jeff-dean-and-other-top-ai-researchers-are-leaving",
-      "title": "Jeff Dean and other top AI researchers are leaving Google to launch their own startup",
-      "summary": "The legendary Google executive is joined by other outgoing Google execs in a joint mission to use AI to push forward the process of scientific discovery.",
-      "content": "The legendary Google executive is joined by other outgoing Google execs in a joint mission to use AI to push forward the process of scientific discovery.",
-      "source": "TechCrunch AI",
-      "author": "Lucas Ropek",
-      "publishedAt": "2026-08-05T19:30:19.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/",
-      "readTime": 3,
-      "views": 38750
-    },
-    {
-      "id": "shopify-says-ai-search-is-driving-more-traffic-and",
-      "title": "Shopify says AI search is driving more traffic and sales, not replacing Google",
-      "summary": "Shopify says AI isn’t cannibalizing search traffic the way it has for publishers.  Instead, AI-driven traffic and orders to Shopify stores tripled year over year in Q2.",
-      "content": "Shopify says AI isn’t cannibalizing search traffic the way it has for publishers. Instead, AI-driven traffic and orders to Shopify stores tripled year over year in Q2.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-08-05T15:56:14.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/",
-      "readTime": 3,
-      "views": 32654
+      "views": 32091
     },
     {
       "id": "trump-s-ai-protectionism-has-come-for-robotics",
@@ -285,7 +271,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/",
       "readTime": 3,
-      "views": 36124
+      "views": 8097
     },
     {
       "id": "here-s-why-ai-agents-lie-and-cheat-to-reach-their-",
@@ -304,7 +290,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
       "readTime": 3,
-      "views": 32050
+      "views": 50480
     },
     {
       "id": "a-fundamental-flaw-leaves-llms-strikingly-vulnerab",
@@ -323,7 +309,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
       "readTime": 3,
-      "views": 36037
+      "views": 54967
     },
     {
       "id": "the-ai-hype-index-unsexy-ai",
@@ -339,10 +325,26 @@
       ],
       "url": "https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/",
       "readTime": 3,
-      "views": 40479
+      "views": 49333
+    },
+    {
+      "id": "samsung-s-chip-workers-are-jumping-ship-to-rival-s",
+      "title": "Samsung’s chip workers are jumping ship to rival SK Hynix",
+      "summary": "Lee, an engineer at Samsung’s semiconductor division, clocks out when his shift ends.  He used to work longer hours, going the extra mile to excel at his projects.",
+      "content": "Lee, an engineer at Samsung’s semiconductor division, clocks out when his shift ends. He used to work longer hours, going the extra mile to excel at his projects. But lately, he’s been coming straight home to work on his job application for the chipmaker’s South Korean rival SK Hynix, sharing tips w",
+      "source": "MIT Technology Review AI",
+      "author": "Michelle Kim",
+      "publishedAt": "2026-07-28T09:18:57.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/",
+      "readTime": 3,
+      "views": 13021
     }
   ],
-  "lastUpdated": "2026-08-08T12:44:25.604Z",
+  "lastUpdated": "2026-08-09T01:38:59.733Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -350,10 +352,10 @@
     "MIT Technology Review AI"
   ],
   "categories": [
+    "partnership",
     "release",
     "regulation",
     "funding",
-    "partnership",
     "market",
     "research"
   ]
