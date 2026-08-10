@@ -1,6 +1,89 @@
 {
   "articles": [
     {
+      "id": "discovered-materials-is-playing-ai-whack-a-mole-to",
+      "title": "Discovered Materials is playing AI whack-a-mole to hunt cooler chips",
+      "summary": "Discovered Materials raised $9 million to fund the hunt for more novel materials to build more efficient chips.",
+      "content": "Discovered Materials raised $9 million to fund the hunt for more novel materials to build more efficient chips.",
+      "source": "TechCrunch AI",
+      "author": "Tim Fernholz",
+      "publishedAt": "2026-08-10T12:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/08/10/discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cooler-chips/",
+      "readTime": 3,
+      "views": 51824
+    },
+    {
+      "id": "meta-muse-glimmer-brings-local-ai-agents-to-consum",
+      "title": "Meta Muse Glimmer brings local AI agents to consumer GPUs",
+      "summary": "Meta is releasing Muse Glimmer under an Apache 2. 0 licence for local AI agents that can run on a consumer GPU.",
+      "content": "Meta is releasing Muse Glimmer under an Apache 2.0 licence for local AI agents that can run on a consumer GPU. The company’s&#160; Superintelligence Labs has released the 30-billion-parameter model’s weights on Hugging Face. Meta says developers can use it for local coding, function calling, local a",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-08-10T11:02:38.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Meta"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/meta-muse-glimmer-local-ai-agents-consumer-gpus/",
+      "readTime": 3,
+      "views": 37852
+    },
+    {
+      "id": "the-limits-of-physics-ai-where-siemens-says-the-hu",
+      "title": "The limits of physics AI: where Siemens says the human stays in charge",
+      "summary": "Physics AI can now explore thousands of design variations in the time it would take a traditional simulation to chew through a handful of them.  Precisely up to 1,000 times faster, according to Siemen.",
+      "content": "Physics AI can now explore thousands of design variations in the time it would take a traditional simulation to chew through a handful of them. Precisely up to 1,000 times faster, according to Siemens. What it cannot do is sign off a safety-critical part. On that, the technology has a firm limit, an",
+      "source": "AI News",
+      "author": "Dashveenjit Kaur",
+      "publishedAt": "2026-08-10T10:00:00.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/siemens-physics-ai-simulation-human-oversight/",
+      "readTime": 3,
+      "views": 40930
+    },
+    {
+      "id": "ai-for-science-needs-reasoning-not-just-data",
+      "title": "AI for science needs reasoning, not just data",
+      "summary": "Every few decades, someone announces that science has reached its end.  In 1903, the revered physicist Albert Michelson wrote that the “facts of physical science have all been discovered.",
+      "content": "Every few decades, someone announces that science has reached its end. In 1903, the revered physicist Albert Michelson wrote that the “facts of physical science have all been discovered.” In the 1980s, Stephen Hawking predicted that theoretical physics might be finished by the end of the century. Wi",
+      "source": "MIT Technology Review AI",
+      "author": "Eric Schmidt, Suhas Mahesh",
+      "publishedAt": "2026-08-10T09:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/",
+      "readTime": 3,
+      "views": 43774
+    },
+    {
+      "id": "these-startups-are-chasing-the-next-big-thing-in-l",
+      "title": "These startups are chasing the next big thing in LLMs",
+      "summary": "MIT Technology Review’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future.  You can read the rest of them&#160;here.",
+      "content": "MIT Technology Review’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them&#160;here. Way back in the summer of 2017, AI researchers at Google put out a paper called “Attention Is All You Need,” in which they des",
+      "source": "MIT Technology Review AI",
+      "author": "Will Douglas Heaven",
+      "publishedAt": "2026-08-10T09:00:00.000Z",
+      "category": "funding",
+      "tags": [
+        "ai",
+        "llm",
+        "Google"
+      ],
+      "url": "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/",
+      "readTime": 3,
+      "views": 9746
+    },
+    {
       "id": "embattled-hedge-fund-situational-awareness-invests",
       "title": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
       "summary": "The AI-focused hedge fund is still making some big bets.",
@@ -14,7 +97,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/",
       "readTime": 3,
-      "views": 11063
+      "views": 8637
     },
     {
       "id": "anthropic-is-turning-claude-code-s-auto-mode-on-by",
@@ -32,7 +115,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
       "readTime": 3,
-      "views": 5250
+      "views": 8232
     },
     {
       "id": "the-ai-safety-test-is-becoming-a-safety-risk",
@@ -48,7 +131,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
       "readTime": 3,
-      "views": 28179
+      "views": 8694
     },
     {
       "id": "openai-acquires-presentation-startup-nextslide",
@@ -68,7 +151,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
       "readTime": 3,
-      "views": 46413
+      "views": 13715
     },
     {
       "id": "openai-says-it-slowed-astra-model-development-over",
@@ -86,7 +169,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
       "readTime": 3,
-      "views": 36193
+      "views": 10994
     },
     {
       "id": "after-rippling-blew-millions-on-ai-in-months-it-bu",
@@ -102,7 +185,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
       "readTime": 3,
-      "views": 13868
+      "views": 26293
     },
     {
       "id": "cloudflare-launches-kitesurf-a-browser-built-for-a",
@@ -119,7 +202,41 @@
       ],
       "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
       "readTime": 3,
-      "views": 53006
+      "views": 33810
+    },
+    {
+      "id": "stanford-evo-2-ai-model-generates-phages-against-e",
+      "title": "Stanford Evo 2 AI model generates phages against E. coli",
+      "summary": "Stanford researchers have synthesised nearly 300 phages from DNA sequences produced by the Evo 2 generative AI model.  Laboratory testing narrowed the group to 16 phages that showed particularly stron.",
+      "content": "Stanford researchers have synthesised nearly 300 phages from DNA sequences produced by the Evo 2 generative AI model. Laboratory testing narrowed the group to 16 phages that showed particularly strong E. coli-killing activity. The work centres on bacteriophage ΦX174, pronounced “FYE-ex-1-7-4”. Brian",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-08-07T15:05:03.000Z",
+      "category": "research",
+      "tags": [
+        "ai",
+        "generative ai",
+        "ai model"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/stanford-evo-2-ai-model-generates-phages-against-e-coli/",
+      "readTime": 3,
+      "views": 51459
+    },
+    {
+      "id": "how-ai-is-changing-instagram-engagement-without-re",
+      "title": "How AI Is changing Instagram engagement without replacing the human touch",
+      "summary": "Every post you see, every Reel that autoplays, and every ‘Explore’ page suggestion on Instagram is now decided by its AI system.  With over three billion people using it, that’s not a small detail; it.",
+      "content": "Every post you see, every Reel that autoplays, and every ‘Explore’ page suggestion on Instagram is now decided by its AI system. With over three billion people using it, that’s not a small detail; it&#8217;s the whole algorithm. But here’s the point: the more AI controls over how you see the content",
+      "source": "AI News",
+      "author": "SEO DIGITAL PROS",
+      "publishedAt": "2026-08-07T14:33:59.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/how-ai-is-changing-instagram-engagement-without-replacing-the-human-touch/",
+      "readTime": 3,
+      "views": 45030
     },
     {
       "id": "airbnb-says-ai-is-helping-it-ship-features-faster-",
@@ -135,7 +252,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/",
       "readTime": 3,
-      "views": 25185
+      "views": 32154
     },
     {
       "id": "jill-lepore-on-the-artificial-state-and-why-silico",
@@ -152,7 +269,24 @@
       ],
       "url": "https://techcrunch.com/podcast/jill-lepore-on-the-artificial-state-and-why-silicon-valleys-leaders-are-bad-sci-fi-readers/",
       "readTime": 3,
-      "views": 36105
+      "views": 41149
+    },
+    {
+      "id": "alibaba-tests-new-business-model-for-qwen-open-sou",
+      "title": "Alibaba tests new business model for Qwen open-source AI",
+      "summary": "Alibaba plans to introduce revenue-sharing terms for some commercial users of its next Qwen open-weight AI model, Reuters reported, citing two people familiar with the company’s plans.  The arrangemen.",
+      "content": "Alibaba plans to introduce revenue-sharing terms for some commercial users of its next Qwen open-weight AI model, Reuters reported, citing two people familiar with the company’s plans. The arrangement would require larger companies that generate revenue from offering the model as a service to reach ",
+      "source": "AI News",
+      "author": "Muhammad Zulhusni",
+      "publishedAt": "2026-08-07T10:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "ai model"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/alibaba-qwen-open-source-ai-revenue-sharing/",
+      "readTime": 3,
+      "views": 10657
     },
     {
       "id": "openai-8217-s-new-ai-smart-speaker-will-reportedly",
@@ -170,7 +304,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
       "readTime": 3,
-      "views": 30474
+      "views": 44524
     },
     {
       "id": "chatgpt-brings-unlimited-text-chats-to-free-users",
@@ -190,7 +324,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
       "readTime": 3,
-      "views": 50310
+      "views": 26688
     },
     {
       "id": "na-ve-raises-28-5m-to-automate-the-grunt-work-of-s",
@@ -206,158 +340,23 @@
       ],
       "url": "https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company/",
       "readTime": 3,
-      "views": 6174
-    },
-    {
-      "id": "gen-z-dating-apps-like-ditto-ditch-swiping-in-favo",
-      "title": "Gen Z dating apps like Ditto ditch swiping in favor of AI matchmaking",
-      "summary": "This generation of twentysomethings is so disillusioned with swipe-based dating apps that they'll try literally anything else — even an AI matchmaker.",
-      "content": "This generation of twentysomethings is so disillusioned with swipe-based dating apps that they'll try literally anything else — even an AI matchmaker.",
-      "source": "TechCrunch AI",
-      "author": "Amanda Silberling",
-      "publishedAt": "2026-08-06T15:53:03.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/08/06/gen-z-dating-apps-like-ditto-ditch-swiping-in-favor-of-ai-matchmaking/",
-      "readTime": 3,
-      "views": 12349
-    },
-    {
-      "id": "ex-spotify-employees-raise-10m-to-bring-the-ai-beh",
-      "title": "Ex-Spotify employees raise $10M to bring the AI behind its recommendations to e-commerce",
-      "summary": "The startup's platform predicts which product a shopper wants next, learns their general taste, and fine-tunes continuously based on what they do in real time.",
-      "content": "The startup's platform predicts which product a shopper wants next, learns their general taste, and fine-tunes continuously based on what they do in real time.",
-      "source": "TechCrunch AI",
-      "author": "Lauren Forristal",
-      "publishedAt": "2026-08-06T13:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/08/06/ex-spotify-employees-raise-10m-to-bring-the-ai-behind-its-recommendations-to-e-commerce/",
-      "readTime": 3,
-      "views": 17232
-    },
-    {
-      "id": "exclusive-mirendil-inks-100m-google-cloud-deal-to-",
-      "title": "Exclusive: Mirendil inks $100M+ Google Cloud deal to scale self-improving AI",
-      "summary": "Mirendil has signed a $100 million-plus Google Cloud partnership to expand its compute infrastructure, powering research into self-improving AI systems designed to accelerate scientific discovery and .",
-      "content": "Mirendil has signed a $100 million-plus Google Cloud partnership to expand its compute infrastructure, powering research into self-improving AI systems designed to accelerate scientific discovery and AI development.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-08-06T13:00:00.000Z",
-      "category": "partnership",
-      "tags": [
-        "ai",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai/",
-      "readTime": 3,
-      "views": 31959
-    },
-    {
-      "id": "trump-s-ai-protectionism-has-come-for-robotics",
-      "title": "Trump’s AI protectionism has come for robotics",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI.  To get stories like this in your inbox first,&#160;sign up here.",
-      "content": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Humanoid robots usually elicit more cringe than awe: They stumble, kick children, and despite advances are still worse at using their hands than my toddler. ",
-      "source": "MIT Technology Review AI",
-      "author": "James O'Donnell",
-      "publishedAt": "2026-08-03T18:43:30.000Z",
-      "category": "market",
-      "tags": [
-        "ai",
-        "robotics"
-      ],
-      "url": "https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/",
-      "readTime": 3,
-      "views": 28432
-    },
-    {
-      "id": "here-s-why-ai-agents-lie-and-cheat-to-reach-their-",
-      "title": "Here’s why AI agents lie and cheat to reach their goals",
-      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next.  You can read more from the series here.",
-      "content": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. When two OpenAI models hacked into the website Hugging Face in July, they weren’t trying to make money or commit sabotage",
-      "source": "MIT Technology Review AI",
-      "author": "Grace Huckins",
-      "publishedAt": "2026-08-03T08:30:05.000Z",
-      "category": "funding",
-      "tags": [
-        "ai",
-        "openai",
-        "ai model",
-        "OpenAI"
-      ],
-      "url": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
-      "readTime": 3,
-      "views": 30871
-    },
-    {
-      "id": "a-fundamental-flaw-leaves-llms-strikingly-vulnerab",
-      "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
-      "summary": "It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team of researchers argue in a paper presented at the International Conferen.",
-      "content": "It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team of researchers argue in a paper presented at the International Conference on Machine Learning, a top AI conference, this month. The claim has huge implications for the saf",
-      "source": "MIT Technology Review AI",
-      "author": "Will Douglas Heaven",
-      "publishedAt": "2026-07-30T10:15:19.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai",
-        "machine learning",
-        "llm",
-        "language model"
-      ],
-      "url": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
-      "readTime": 3,
-      "views": 18653
-    },
-    {
-      "id": "the-ai-hype-index-unsexy-ai",
-      "title": "The AI Hype Index: Unsexy AI",
-      "summary": "It feels bad enough when an open letter signed by leading economists warns that AI might steal your job.  The fact it may soon be better than you at making dinner.",
-      "content": "It feels bad enough when an open letter signed by leading economists warns that AI might steal your job. The fact it may soon be better than you at making dinner? Insult to injury. But that’s exactly what the company 1X promised when it showed off a pair of new, impressively dexterous (and, to some,",
-      "source": "MIT Technology Review AI",
-      "author": "Charlotte Jee",
-      "publishedAt": "2026-07-29T08:42:57.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/",
-      "readTime": 3,
-      "views": 31378
-    },
-    {
-      "id": "samsung-s-chip-workers-are-jumping-ship-to-rival-s",
-      "title": "Samsung’s chip workers are jumping ship to rival SK Hynix",
-      "summary": "Lee, an engineer at Samsung’s semiconductor division, clocks out when his shift ends.  He used to work longer hours, going the extra mile to excel at his projects.",
-      "content": "Lee, an engineer at Samsung’s semiconductor division, clocks out when his shift ends. He used to work longer hours, going the extra mile to excel at his projects. But lately, he’s been coming straight home to work on his job application for the chipmaker’s South Korean rival SK Hynix, sharing tips w",
-      "source": "MIT Technology Review AI",
-      "author": "Michelle Kim",
-      "publishedAt": "2026-07-28T09:18:57.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/",
-      "readTime": 3,
-      "views": 30312
+      "views": 35715
     }
   ],
-  "lastUpdated": "2026-08-10T07:37:59.058Z",
+  "lastUpdated": "2026-08-10T13:03:57.024Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
     "TechCrunch AI",
+    "AI News",
     "MIT Technology Review AI"
   ],
   "categories": [
     "release",
+    "market",
+    "funding",
     "regulation",
     "partnership",
-    "funding",
-    "market",
     "research"
   ]
 }
