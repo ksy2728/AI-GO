@@ -1,6 +1,111 @@
 {
   "articles": [
     {
+      "id": "openai-reportedly-completed-a-7-billion-employee-t",
+      "title": "OpenAI reportedly completed a $7 billion employee tender offer",
+      "summary": "San Francisco's housing market is in trouble again.",
+      "content": "San Francisco's housing market is in trouble again.",
+      "source": "TechCrunch AI",
+      "author": "Tim Fernholz",
+      "publishedAt": "2026-08-11T00:03:18.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/",
+      "readTime": 3,
+      "views": 15170
+    },
+    {
+      "id": "as-ai-led-attacks-multiply-openai-launches-a-new-c",
+      "title": "As AI-led attacks multiply, OpenAI launches a new cyber model",
+      "summary": "OpenAI is expanding its AI cybersecurity defense program Daybreak, and rolling out a new cyber-trained AI model with it.",
+      "content": "OpenAI is expanding its AI cybersecurity defense program Daybreak, and rolling out a new cyber-trained AI model with it.",
+      "source": "TechCrunch AI",
+      "author": "Lucas Ropek",
+      "publishedAt": "2026-08-10T23:56:15.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "ai model",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/",
+      "readTime": 3,
+      "views": 32246
+    },
+    {
+      "id": "mark-zuckerberg-8217-s-ai-manifesto-is-exactly-why",
+      "title": "Mark Zuckerberg&#8217;s AI manifesto is exactly why people don&#8217;t like AI",
+      "summary": "On Monday, Mark Zuckerberg published a 6,500-word manifesto about personal AI, largely about the possibilities for the \"personal superintelligence\" systems Meta AI is building.",
+      "content": "On Monday, Mark Zuckerberg published a 6,500-word manifesto about personal AI, largely about the possibilities for the \"personal superintelligence\" systems Meta AI is building.",
+      "source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "publishedAt": "2026-08-10T20:53:02.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Meta"
+      ],
+      "url": "https://techcrunch.com/2026/08/10/mark-zuckerbergs-ai-manifesto-is-exactly-why-people-dont-like-ai/",
+      "readTime": 3,
+      "views": 5834
+    },
+    {
+      "id": "tech-industry-is-buzzing-after-a-claude-agent-hack",
+      "title": "Tech industry is buzzing after a Claude agent hacked into a gym",
+      "summary": "An OpenClaw agent hacked into a gym's reservation system to bump its human boss higher on a class' waitlist.  And the tech industry took notice.",
+      "content": "An OpenClaw agent hacked into a gym's reservation system to bump its human boss higher on a class' waitlist. And the tech industry took notice.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2026-08-10T20:04:24.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai",
+        "claude"
+      ],
+      "url": "https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/",
+      "readTime": 3,
+      "views": 46592
+    },
+    {
+      "id": "ai-professors-are-negotiating-the-new-realities-of",
+      "title": "AI professors are negotiating the new realities of academic research",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI.  To get stories like this in your inbox first, sign up here.",
+      "content": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last week, I headed 30 miles south of San Francisco to a hotel in Mountain View, California, to join some of the most accomplished, and some of the most promising",
+      "source": "MIT Technology Review AI",
+      "author": "Grace Huckins",
+      "publishedAt": "2026-08-10T20:00:00.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/08/10/1141597/ai-professors-are-negotiating-the-new-realities-of-academic-research/",
+      "readTime": 3,
+      "views": 36882
+    },
+    {
+      "id": "meta-s-new-glimmer-ai-model-offers-a-hint-at-zucke",
+      "title": "Meta’s new Glimmer AI model offers a hint at Zuckerberg’s personal intelligence vision",
+      "summary": "Meta’s new open-weight Muse Glimmer model offers a glimpse of Mark Zuckerberg’s personal superintelligence vision, as well as  the emerging divide between AI users can own and access.",
+      "content": "Meta’s new open-weight Muse Glimmer model offers a glimpse of Mark Zuckerberg’s personal superintelligence vision, as well as  the emerging divide between AI users can own and access.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-08-10T16:20:13.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "ai model",
+        "Meta"
+      ],
+      "url": "https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision/",
+      "readTime": 3,
+      "views": 9677
+    },
+    {
       "id": "discovered-materials-is-playing-ai-whack-a-mole-to",
       "title": "Discovered Materials is playing AI whack-a-mole to hunt cooler chips",
       "summary": "Discovered Materials raised $9 million to fund the hunt for more novel materials to build more efficient chips.",
@@ -14,40 +119,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/10/discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cooler-chips/",
       "readTime": 3,
-      "views": 51824
-    },
-    {
-      "id": "meta-muse-glimmer-brings-local-ai-agents-to-consum",
-      "title": "Meta Muse Glimmer brings local AI agents to consumer GPUs",
-      "summary": "Meta is releasing Muse Glimmer under an Apache 2. 0 licence for local AI agents that can run on a consumer GPU.",
-      "content": "Meta is releasing Muse Glimmer under an Apache 2.0 licence for local AI agents that can run on a consumer GPU. The company’s&#160; Superintelligence Labs has released the 30-billion-parameter model’s weights on Hugging Face. Meta says developers can use it for local coding, function calling, local a",
-      "source": "AI News",
-      "author": "Ryan Daws",
-      "publishedAt": "2026-08-10T11:02:38.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Meta"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/meta-muse-glimmer-local-ai-agents-consumer-gpus/",
-      "readTime": 3,
-      "views": 37852
-    },
-    {
-      "id": "the-limits-of-physics-ai-where-siemens-says-the-hu",
-      "title": "The limits of physics AI: where Siemens says the human stays in charge",
-      "summary": "Physics AI can now explore thousands of design variations in the time it would take a traditional simulation to chew through a handful of them.  Precisely up to 1,000 times faster, according to Siemen.",
-      "content": "Physics AI can now explore thousands of design variations in the time it would take a traditional simulation to chew through a handful of them. Precisely up to 1,000 times faster, according to Siemens. What it cannot do is sign off a safety-critical part. On that, the technology has a firm limit, an",
-      "source": "AI News",
-      "author": "Dashveenjit Kaur",
-      "publishedAt": "2026-08-10T10:00:00.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/siemens-physics-ai-simulation-human-oversight/",
-      "readTime": 3,
-      "views": 40930
+      "views": 36460
     },
     {
       "id": "ai-for-science-needs-reasoning-not-just-data",
@@ -63,7 +135,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/",
       "readTime": 3,
-      "views": 43774
+      "views": 45645
     },
     {
       "id": "these-startups-are-chasing-the-next-big-thing-in-l",
@@ -81,7 +153,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/",
       "readTime": 3,
-      "views": 9746
+      "views": 49265
     },
     {
       "id": "embattled-hedge-fund-situational-awareness-invests",
@@ -97,7 +169,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/",
       "readTime": 3,
-      "views": 8637
+      "views": 51107
     },
     {
       "id": "anthropic-is-turning-claude-code-s-auto-mode-on-by",
@@ -115,13 +187,13 @@
       ],
       "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
       "readTime": 3,
-      "views": 8232
+      "views": 22178
     },
     {
       "id": "the-ai-safety-test-is-becoming-a-safety-risk",
       "title": "The AI safety test is becoming a safety risk",
-      "summary": "AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards and regulation can keep pace with i.",
-      "content": "AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards and regulation can keep pace with increasingly powerful models.",
+      "summary": "AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards, and regulation can keep pace with .",
+      "content": "AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards, and regulation can keep pace with increasingly powerful models.",
       "source": "TechCrunch AI",
       "author": "Rebecca Bellan",
       "publishedAt": "2026-08-09T14:30:00.000Z",
@@ -131,27 +203,41 @@
       ],
       "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
       "readTime": 3,
-      "views": 8694
+      "views": 51518
+    },
+    {
+      "id": "planned-amazon-data-center-could-become-the-bigges",
+      "title": "Planned Amazon data center could become the biggest climate polluter in the US",
+      "summary": "AI has already had a significant impact on Amazon’s carbon emissions, which it reported were up 16% last year — the wrong direction for a company that pledged to eliminate its carbon emissions by 2040.",
+      "content": "AI has already had a significant impact on Amazon’s carbon emissions, which it reported were up 16% last year — the wrong direction for a company that pledged to eliminate its carbon emissions by 2040.",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "publishedAt": "2026-08-08T21:24:02.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
+      "readTime": 3,
+      "views": 6963
     },
     {
       "id": "openai-acquires-presentation-startup-nextslide",
       "title": "OpenAI acquires presentation startup NextSlide",
-      "summary": "NextSlide says its team members are now working on ChatGPT.",
-      "content": "NextSlide says its team members are now working on ChatGPT.",
+      "summary": "Founder Ahmed Beshry describes the startup’s product as one “that could turn prompts, notes, documents, or research into a polished, editable presentation.",
+      "content": "Founder Ahmed Beshry describes the startup’s product as one “that could turn prompts, notes, documents, or research into a polished, editable presentation.”",
       "source": "TechCrunch AI",
       "author": "Anthony Ha",
       "publishedAt": "2026-08-08T19:41:13.000Z",
       "category": "partnership",
       "tags": [
         "ai",
-        "gpt",
         "openai",
-        "chatgpt",
         "OpenAI"
       ],
       "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
       "readTime": 3,
-      "views": 13715
+      "views": 49979
     },
     {
       "id": "openai-says-it-slowed-astra-model-development-over",
@@ -169,7 +255,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
       "readTime": 3,
-      "views": 10994
+      "views": 10739
     },
     {
       "id": "after-rippling-blew-millions-on-ai-in-months-it-bu",
@@ -185,7 +271,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
       "readTime": 3,
-      "views": 26293
+      "views": 45625
     },
     {
       "id": "cloudflare-launches-kitesurf-a-browser-built-for-a",
@@ -202,41 +288,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
       "readTime": 3,
-      "views": 33810
-    },
-    {
-      "id": "stanford-evo-2-ai-model-generates-phages-against-e",
-      "title": "Stanford Evo 2 AI model generates phages against E. coli",
-      "summary": "Stanford researchers have synthesised nearly 300 phages from DNA sequences produced by the Evo 2 generative AI model.  Laboratory testing narrowed the group to 16 phages that showed particularly stron.",
-      "content": "Stanford researchers have synthesised nearly 300 phages from DNA sequences produced by the Evo 2 generative AI model. Laboratory testing narrowed the group to 16 phages that showed particularly strong E. coli-killing activity. The work centres on bacteriophage ΦX174, pronounced “FYE-ex-1-7-4”. Brian",
-      "source": "AI News",
-      "author": "Ryan Daws",
-      "publishedAt": "2026-08-07T15:05:03.000Z",
-      "category": "research",
-      "tags": [
-        "ai",
-        "generative ai",
-        "ai model"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/stanford-evo-2-ai-model-generates-phages-against-e-coli/",
-      "readTime": 3,
-      "views": 51459
-    },
-    {
-      "id": "how-ai-is-changing-instagram-engagement-without-re",
-      "title": "How AI Is changing Instagram engagement without replacing the human touch",
-      "summary": "Every post you see, every Reel that autoplays, and every ‘Explore’ page suggestion on Instagram is now decided by its AI system.  With over three billion people using it, that’s not a small detail; it.",
-      "content": "Every post you see, every Reel that autoplays, and every ‘Explore’ page suggestion on Instagram is now decided by its AI system. With over three billion people using it, that’s not a small detail; it&#8217;s the whole algorithm. But here’s the point: the more AI controls over how you see the content",
-      "source": "AI News",
-      "author": "SEO DIGITAL PROS",
-      "publishedAt": "2026-08-07T14:33:59.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/how-ai-is-changing-instagram-engagement-without-replacing-the-human-touch/",
-      "readTime": 3,
-      "views": 45030
+      "views": 7119
     },
     {
       "id": "airbnb-says-ai-is-helping-it-ship-features-faster-",
@@ -252,7 +304,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/",
       "readTime": 3,
-      "views": 32154
+      "views": 6118
     },
     {
       "id": "jill-lepore-on-the-artificial-state-and-why-silico",
@@ -269,24 +321,7 @@
       ],
       "url": "https://techcrunch.com/podcast/jill-lepore-on-the-artificial-state-and-why-silicon-valleys-leaders-are-bad-sci-fi-readers/",
       "readTime": 3,
-      "views": 41149
-    },
-    {
-      "id": "alibaba-tests-new-business-model-for-qwen-open-sou",
-      "title": "Alibaba tests new business model for Qwen open-source AI",
-      "summary": "Alibaba plans to introduce revenue-sharing terms for some commercial users of its next Qwen open-weight AI model, Reuters reported, citing two people familiar with the company’s plans.  The arrangemen.",
-      "content": "Alibaba plans to introduce revenue-sharing terms for some commercial users of its next Qwen open-weight AI model, Reuters reported, citing two people familiar with the company’s plans. The arrangement would require larger companies that generate revenue from offering the model as a service to reach ",
-      "source": "AI News",
-      "author": "Muhammad Zulhusni",
-      "publishedAt": "2026-08-07T10:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "ai model"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/alibaba-qwen-open-source-ai-revenue-sharing/",
-      "readTime": 3,
-      "views": 10657
+      "views": 50808
     },
     {
       "id": "openai-8217-s-new-ai-smart-speaker-will-reportedly",
@@ -304,59 +339,22 @@
       ],
       "url": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
       "readTime": 3,
-      "views": 44524
-    },
-    {
-      "id": "chatgpt-brings-unlimited-text-chats-to-free-users",
-      "title": "ChatGPT brings unlimited text chats to free users",
-      "summary": "OpenAI said that ChatGPT free and Go users are also getting a new think button for complex queries.",
-      "content": "OpenAI said that ChatGPT free and Go users are also getting a new think button for complex queries.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-08-06T17:34:42.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gpt",
-        "openai",
-        "chatgpt",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
-      "readTime": 3,
-      "views": 26688
-    },
-    {
-      "id": "na-ve-raises-28-5m-to-automate-the-grunt-work-of-s",
-      "title": "Naïve raises $28.5M to automate the grunt work of setting up and running a company",
-      "summary": "Taking vibe-coding a step further, Naïve claims its infra can automate most of the work in setting up and running a business.",
-      "content": "Taking vibe-coding a step further, Naïve claims its infra can automate most of the work in setting up and running a business.",
-      "source": "TechCrunch AI",
-      "author": "Ram Iyer",
-      "publishedAt": "2026-08-06T17:00:37.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company/",
-      "readTime": 3,
-      "views": 35715
+      "views": 19566
     }
   ],
-  "lastUpdated": "2026-08-10T13:03:57.024Z",
+  "lastUpdated": "2026-08-11T01:39:07.232Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
     "TechCrunch AI",
-    "AI News",
     "MIT Technology Review AI"
   ],
   "categories": [
-    "release",
     "market",
-    "funding",
+    "release",
     "regulation",
-    "partnership",
-    "research"
+    "research",
+    "funding",
+    "partnership"
   ]
 }
