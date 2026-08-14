@@ -1,6 +1,177 @@
 {
   "articles": [
     {
+      "id": "writer-introduces-new-ai-model-and-upgraded-harnes",
+      "title": "Writer introduces new AI model and upgraded harness to contain token costs",
+      "summary": "Built as a post-training variation on Z. ai's open source model GLM-5.",
+      "content": "Built as a post-training variation on Z.ai's open source model GLM-5.2, Writer says the new system should provide deployment-ready capabilities at a much lower price.",
+      "source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "publishedAt": "2026-08-13T21:13:24.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "ai model"
+      ],
+      "url": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
+      "readTime": 3,
+      "views": 33402
+    },
+    {
+      "id": "databricks-wanted-to-raise-1b-investors-wanted-15b",
+      "title": "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.",
+      "summary": "AI is expensive, Ali Ghodsi tells TechCrunch.  With so many investors wanting into his latest round, he said yes to more than planned.",
+      "content": "AI is expensive, Ali Ghodsi tells TechCrunch. With so many investors wanting into his latest round, he said yes to more than planned.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2026-08-13T20:14:39.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/",
+      "readTime": 3,
+      "views": 27638
+    },
+    {
+      "id": "openai-introduces-8216-ultrafast-8217-a-new-mode-t",
+      "title": "OpenAI introduces &#8216;Ultrafast,&#8217; a new mode that makes GPT-5.6 Sol work at 14x the speed",
+      "summary": "OpenAI is launching a preview of a sped up version of its latest, most powerful model, in an effort to court enterprise users.",
+      "content": "OpenAI is launching a preview of a sped up version of its latest, most powerful model, in an effort to court enterprise users.",
+      "source": "TechCrunch AI",
+      "author": "Lucas Ropek",
+      "publishedAt": "2026-08-13T19:22:40.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gpt",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
+      "readTime": 3,
+      "views": 52238
+    },
+    {
+      "id": "ibm-partners-with-openai-to-bolster-enterprise-ai-",
+      "title": "IBM partners with OpenAI to bolster enterprise AI push",
+      "summary": "IBM plans to train and certify tens of thousands of consultants on OpenAI's technologies as part of this deal.",
+      "content": "IBM plans to train and certify tens of thousands of consultants on OpenAI's technologies as part of this deal.",
+      "source": "TechCrunch AI",
+      "author": "Jagmeet Singh",
+      "publishedAt": "2026-08-13T19:19:49.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/",
+      "readTime": 3,
+      "views": 22877
+    },
+    {
+      "id": "anthropic-set-ai-agents-loose-on-the-same-task-the",
+      "title": "Anthropic set AI agents loose on the same task. They started a turf war.",
+      "summary": "Anthropic researchers found AI agents can clash, collude, and coordinate in unexpected ways, raising new questions about whether today’s safety tests capture the risks of multi-agent systems.",
+      "content": "Anthropic researchers found AI agents can clash, collude, and coordinate in unexpected ways, raising new questions about whether today’s safety tests capture the risks of multi-agent systems.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-08-13T18:28:14.000Z",
+      "category": "research",
+      "tags": [
+        "ai",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
+      "readTime": 3,
+      "views": 36733
+    },
+    {
+      "id": "openai-hires-new-cro-as-executive-shake-up-continu",
+      "title": "OpenAI hires new CRO as executive shake-up continues",
+      "summary": "OpenAI has replaced chief revenue officer Denise Dresser after just nine months on the job, tapping Wiz president and chief operating officer Dali Rajic to take on frontier lab's top sales job.",
+      "content": "OpenAI has replaced chief revenue officer Denise Dresser after just nine months on the job, tapping Wiz president and chief operating officer Dali Rajic to take on frontier lab's top sales job.",
+      "source": "TechCrunch AI",
+      "author": "Tim Fernholz",
+      "publishedAt": "2026-08-13T17:07:13.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues/",
+      "readTime": 3,
+      "views": 52889
+    },
+    {
+      "id": "microsoft-kills-off-unsuccessful-ai-features-while",
+      "title": "Microsoft kills off unsuccessful AI features while merging its separate Copilot apps",
+      "summary": "Microsoft is simplifying Copilot by combining its consumer and business apps, and dropping AI-generated podcasts, Group Chats, Deep Research, and its Mico character.",
+      "content": "Microsoft is simplifying Copilot by combining its consumer and business apps, and dropping AI-generated podcasts, Group Chats, Deep Research, and its Mico character.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-08-13T15:30:52.000Z",
+      "category": "research",
+      "tags": [
+        "ai",
+        "Microsoft"
+      ],
+      "url": "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/",
+      "readTime": 3,
+      "views": 49923
+    },
+    {
+      "id": "nvidia-8217-s-new-500b-plan-is-risky-but-brilliant",
+      "title": "Nvidia&#8217;s new $500B plan is risky but brilliant, especially for aging GPUs",
+      "summary": "Nvidia has a plan to make sure its GPUs won't lose value.  It wants to convince a new crop of financiers to keep lending for AI buildouts.",
+      "content": "Nvidia has a plan to make sure its GPUs won't lose value. It wants to convince a new crop of financiers to keep lending for AI buildouts.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2026-08-13T15:08:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/08/13/nvidias-new-500b-plan-is-risky-but-brilliant-especially-for-aging-gpus/",
+      "readTime": 3,
+      "views": 13339
+    },
+    {
+      "id": "flock-is-tightening-its-rules-in-response-to-a-gro",
+      "title": "Flock is tightening its rules in response to a growing surveillance backlash",
+      "summary": "The police-tech giant Flock is announcing today that it will change officers’ access to its nationwide network of license plate readers, in an apparent effort to quell a growing backlash and win back .",
+      "content": "The police-tech giant Flock is announcing today that it will change officers’ access to its nationwide network of license plate readers, in an apparent effort to quell a growing backlash and win back contracts lost amid concerns about mass surveillance and police abuse. Several changes aim directly ",
+      "source": "MIT Technology Review AI",
+      "author": "James O'Donnell",
+      "publishedAt": "2026-08-13T13:41:10.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/",
+      "readTime": 3,
+      "views": 6940
+    },
+    {
+      "id": "okta-targets-ai-agent-token-costs-with-mcp-scoping",
+      "title": "Okta targets AI agent token costs with MCP scoping",
+      "summary": "Okta says identity-scoped Model Context Protocol (MCP) tool lists can reduce AI agent token costs.  Each model call made by an AI agent can include schemas, names, descriptions and parameters for ever.",
+      "content": "Okta says identity-scoped Model Context Protocol (MCP) tool lists can reduce AI agent token costs. Each model call made by an AI agent can include schemas, names, descriptions and parameters for every tool exposed by a MCP server. Okta calls the resulting prompt overhead the “tool tax”: tokens consu",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-08-13T09:22:06.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/okta-targets-ai-agent-token-costs-with-mcp-scoping/",
+      "readTime": 3,
+      "views": 50147
+    },
+    {
       "id": "how-kids-feel-about-ai-in-their-own-words",
       "title": "How kids feel about AI, in their own words",
       "summary": "When we set out to talk to kids about artificial intelligence, we thought we knew what we’d hear.  We expected some to tell us they were using it to cheat a little, the way Millennials and Gen Xers op.",
@@ -15,7 +186,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
       "readTime": 3,
-      "views": 33333
+      "views": 32008
     },
     {
       "id": "some-claude-users-are-mad-that-anthropic-8217-s-ne",
@@ -34,7 +205,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/",
       "readTime": 3,
-      "views": 19347
+      "views": 40256
     },
     {
       "id": "amazon-will-train-on-twitch-streamers-8217-content",
@@ -50,7 +221,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/12/amazon-will-train-on-twitch-streamers-content-by-default-unless-they-opt-out/",
       "readTime": 3,
-      "views": 21480
+      "views": 32038
     },
     {
       "id": "ai-coding-startup-cognition-reportedly-already-in-",
@@ -66,7 +237,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/",
       "readTime": 3,
-      "views": 25081
+      "views": 41523
     },
     {
       "id": "as-ai-safety-concerns-mount-three-pioneers-make-th",
@@ -82,7 +253,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/",
       "readTime": 3,
-      "views": 39288
+      "views": 29522
     },
     {
       "id": "openai-backed-thrive-holdings-raises-2b-to-bring-a",
@@ -100,7 +271,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/",
       "readTime": 3,
-      "views": 10940
+      "views": 33778
     },
     {
       "id": "mesh-automattic-8217-s-crm-for-everyone-comes-to-a",
@@ -116,7 +287,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/12/mesh-automattics-crm-for-everyone-comes-to-android/",
       "readTime": 3,
-      "views": 48626
+      "views": 41401
     },
     {
       "id": "scaling-ai-agents-with-trustworthy-data",
@@ -132,7 +303,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
       "readTime": 3,
-      "views": 25591
+      "views": 50783
     },
     {
       "id": "why-stream-ring-maker-sandbar-says-the-future-of-a",
@@ -148,7 +319,7 @@
       ],
       "url": "https://techcrunch.com/video/why-stream-ring-maker-sandbar-says-the-future-of-ai-wearables-is-voice/",
       "readTime": 3,
-      "views": 31834
+      "views": 50377
     },
     {
       "id": "lovable-confirms-new-13-3b-valuation-raises-anothe",
@@ -164,191 +335,22 @@
       ],
       "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/",
       "readTime": 3,
-      "views": 26271
-    },
-    {
-      "id": "how-a-250-million-acquisition-collapsed-into-alleg",
-      "title": "How a $250 million acquisition collapsed into allegations of fraud and forged signatures",
-      "summary": "Investors are still waiting for their share of the $250 million windfall, and VideoVerse co-founder Vinayak Shrivastav is now at the center of multiple legal cases.",
-      "content": "Investors are still waiting for their share of the $250 million windfall, and VideoVerse co-founder Vinayak Shrivastav is now at the center of multiple legal cases.",
-      "source": "TechCrunch AI",
-      "author": "Russell Brandom",
-      "publishedAt": "2026-08-12T15:44:56.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/08/12/how-a-250-million-acquisition-collapsed-into-allegations-of-fraud-and-forged-signatures/",
-      "readTime": 3,
-      "views": 5035
-    },
-    {
-      "id": "why-sandbar-thinks-it-s-voice-enabled-ring-can-avo",
-      "title": "Why Sandbar thinks it’s voice-enabled ring can avoid the AI hardware graveyard",
-      "summary": "AI notetaking hardware has taken off&#160;over&#160;the past&#160;couple of years, with credit-card-sized devices, pendants, pins,&#160;and&#160;even transcribing earbuds all promising to capture your.",
-      "content": "AI notetaking hardware has taken off&#160;over&#160;the past&#160;couple of years, with credit-card-sized devices, pendants, pins,&#160;and&#160;even transcribing earbuds all promising to capture your meetings and turn them into summaries and action items. Now, a whole wave of wearables — rings espe",
-      "source": "TechCrunch AI",
-      "author": "Theresa Loconsolo, Rebecca Bellan",
-      "publishedAt": "2026-08-12T14:22:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/podcast/why-sandbar-thinks-its-voice-enabled-ring-can-avoid-the-ai-hardware-graveyard/",
-      "readTime": 3,
-      "views": 41896
-    },
-    {
-      "id": "everything-announced-at-made-by-google-8217-26-pix",
-      "title": "Everything announced at Made by Google &#8217;26: Pixel 11, Pixel Watch 5, Pixel Tag, and tons of Gemini features",
-      "summary": "From the Pixel 11 series and a brand new competitor to Apple’s AirTag, here are all the announcements from the Made by Google 2026 event.",
-      "content": "From the Pixel 11 series and a brand new competitor to Apple’s AirTag, here are all the announcements from the Made by Google 2026 event.",
-      "source": "TechCrunch AI",
-      "author": "Lauren Forristal",
-      "publishedAt": "2026-08-12T14:20:33.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gemini",
-        "Google",
-        "Apple"
-      ],
-      "url": "https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026/",
-      "readTime": 3,
-      "views": 28155
-    },
-    {
-      "id": "ai-code-testing-startup-blacksmith-8217-s-valuatio",
-      "title": "AI code-testing startup Blacksmith&#8217;s valuation jumps almost 10x in less than a year",
-      "summary": "Blacksmith says revenue has grown more than tenfold over the past year.",
-      "content": "Blacksmith says revenue has grown more than tenfold over the past year.",
-      "source": "TechCrunch AI",
-      "author": "Jagmeet Singh",
-      "publishedAt": "2026-08-12T11:00:00.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/08/12/blacksmiths-valuation-jumps-10x-to-550m-as-ai-coding-fuels-software-validation/",
-      "readTime": 3,
-      "views": 10338
-    },
-    {
-      "id": "accel-closes-oversubscribed-550m-india-fund-within",
-      "title": "Accel closes oversubscribed $550M India fund within weeks, 19 months after its last",
-      "summary": "VC firm still has more than 55% of its previous $650 million India fund available for deployment.",
-      "content": "The U.S. VC firm still has more than 55% of its previous $650 million India fund available for deployment.",
-      "source": "TechCrunch AI",
-      "author": "Jagmeet Singh",
-      "publishedAt": "2026-08-11T21:39:11.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/08/11/accel-closes-oversubscribed-550m-india-fund-within-weeks-19-months-after-its-last/",
-      "readTime": 3,
-      "views": 12760
-    },
-    {
-      "id": "openai-launches-chatgpt-desktop-app-for-linux",
-      "title": "OpenAI launches ChatGPT desktop app for Linux",
-      "summary": "OpenAI is finally bringing a dedicated ChatGPT desktop app to Linux operating systems.",
-      "content": "OpenAI is finally bringing a dedicated ChatGPT desktop app to Linux operating systems.",
-      "source": "TechCrunch AI",
-      "author": "Lucas Ropek",
-      "publishedAt": "2026-08-11T19:15:35.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gpt",
-        "openai",
-        "chatgpt",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/",
-      "readTime": 3,
-      "views": 13616
-    },
-    {
-      "id": "google-s-gemini-app-surges-to-1-billion-users",
-      "title": "Google’s Gemini app surges to 1 billion users",
-      "summary": "Google also shared numbers of how people are actually using the chatbot, with 63% of Gemini users talking directly to the assistant using the voice feature.  Plus, Gemini now generates more than 150 m.",
-      "content": "Google also shared numbers of how people are actually using the chatbot, with 63% of Gemini users talking directly to the assistant using the voice feature. Plus, Gemini now generates more than 150 million images every day, according to Google.",
-      "source": "TechCrunch AI",
-      "author": "Lauren Forristal",
-      "publishedAt": "2026-08-11T18:49:12.000Z",
-      "category": "release",
-      "tags": [
-        "gemini",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/",
-      "readTime": 3,
-      "views": 50033
-    },
-    {
-      "id": "brad-lightcap-openai-8217-s-longtime-coo-is-leavin",
-      "title": "Brad Lightcap, OpenAI&#8217;s longtime COO, is leaving to &#8216;start something new&#8217;",
-      "summary": "One of OpenAI's longest-serving executives is headed out the door, although the longtime COO told staff that he was \"excited to help you all advance the mission from a different vantage point.",
-      "content": "One of OpenAI's longest-serving executives is headed out the door, although the longtime COO told staff that he was \"excited to help you all advance the mission from a different vantage point.\"",
-      "source": "TechCrunch AI",
-      "author": "Lucas Ropek",
-      "publishedAt": "2026-08-11T17:41:34.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/08/11/brad-lightcap-openais-longtime-coo-is-leaving-to-start-something-new/",
-      "readTime": 3,
-      "views": 31694
-    },
-    {
-      "id": "general-catalyst-leads-1-1b-round-into-2-month-old",
-      "title": "General Catalyst leads $1.1B round into 2-month-old River AI",
-      "summary": "River AI, a startup founded by xAI co-founder Igor Babuschkin, has a fascinating vision for personal agents and secured $1. 1 billion out of the gate.",
-      "content": "River AI, a startup founded by xAI co-founder Igor Babuschkin, has a fascinating vision for personal agents and secured $1.1 billion out of the gate.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2026-08-11T17:41:22.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/08/11/general-catalyst-leads-1-1b-round-into-2-month-old-river-ai/",
-      "readTime": 3,
-      "views": 28859
-    },
-    {
-      "id": "an-unreleased-anthropic-model-made-progress-on-one",
-      "title": "An unreleased Anthropic model made progress on one of math&#8217;s biggest unsolved problems",
-      "summary": "For more than 150 years, the Riemann hypothesis has stood as one of the major unsolved problems in mathematics.  Anthropic hasn't solved it — but the company's models made more progress than you might.",
-      "content": "For more than 150 years, the Riemann hypothesis has stood as one of the major unsolved problems in mathematics. Anthropic hasn't solved it — but the company's models made more progress than you might expect.",
-      "source": "TechCrunch AI",
-      "author": "Russell Brandom",
-      "publishedAt": "2026-08-11T16:25:20.000Z",
-      "category": "release",
-      "tags": [
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/08/11/an-unreleased-anthropic-model-made-progress-on-one-of-maths-biggest-unsolved-problems/",
-      "readTime": 3,
-      "views": 25668
+      "views": 49821
     }
   ],
-  "lastUpdated": "2026-08-13T13:06:08.560Z",
+  "lastUpdated": "2026-08-14T01:49:50.539Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
+    "TechCrunch AI",
     "MIT Technology Review AI",
-    "TechCrunch AI"
+    "AI News"
   ],
   "categories": [
-    "research",
     "release",
     "funding",
+    "research",
+    "market",
     "regulation"
   ]
 }
