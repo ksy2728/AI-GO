@@ -1,6 +1,90 @@
 {
   "articles": [
     {
+      "id": "google-will-now-allow-users-to-remove-visible-wate",
+      "title": "Google will now allow users to remove visible watermark from its AI generations",
+      "summary": "Turning off this setting won't affect invisible benchmarks used to identify an AI generated file.",
+      "content": "Turning off this setting won't affect invisible benchmarks used to identify an AI generated file.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-08-14T16:13:40.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
+      "readTime": 3,
+      "views": 43253
+    },
+    {
+      "id": "does-mark-zuckerberg-really-believe-ai-is-8216-for",
+      "title": "Does Mark Zuckerberg really believe AI is &#8216;for everyone&#8217;?",
+      "summary": "Meta released Glimmer this week, an open-weight AI&#160;model&#160;anyone can download and run on their own hardware&#160;— a contrast to&#160;Muse&#160;Spark, the company’s more powerful model that s.",
+      "content": "Meta released Glimmer this week, an open-weight AI&#160;model&#160;anyone can download and run on their own hardware&#160;— a contrast to&#160;Muse&#160;Spark, the company’s more powerful model that stays locked behind its own APIs. The release landed alongside&#160;a letter from Mark Zuckerberg&#16",
+      "source": "TechCrunch AI",
+      "author": "Theresa Loconsolo",
+      "publishedAt": "2026-08-14T15:43:28.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Meta"
+      ],
+      "url": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
+      "readTime": 3,
+      "views": 26928
+    },
+    {
+      "id": "hyperscalers-might-regret-embracing-natural-gas-if",
+      "title": "Hyperscalers might regret embracing natural gas if new forecast proves correct",
+      "summary": "Natural gas prices could triple in some parts of the U. , which could saddle hyperscalers with massive bills to power their AI data centers.",
+      "content": "Natural gas prices could triple in some parts of the U.S., which could saddle hyperscalers with massive bills to power their AI data centers.",
+      "source": "TechCrunch AI",
+      "author": "Tim De Chant",
+      "publishedAt": "2026-08-14T14:05:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/08/14/hyperscalers-might-regret-embracing-natural-gas-if-new-forecast-proves-correct/",
+      "readTime": 3,
+      "views": 40609
+    },
+    {
+      "id": "meta-8217-s-8216-open-8217-ai-and-a-250m-deal-gone",
+      "title": "Meta&#8217;s &#8216;open&#8217; AI, and a $250M deal gone very wrong",
+      "summary": "Meta released Glimmer this week, an open-weight AI&#160;model&#160;anyone can download and run on their own hardware&#160;— a contrast to&#160;Muse&#160;Spark, the company’s more powerful model that s.",
+      "content": "Meta released Glimmer this week, an open-weight AI&#160;model&#160;anyone can download and run on their own hardware&#160;— a contrast to&#160;Muse&#160;Spark, the company’s more powerful model that stays locked behind its own APIs. The release landed alongside&#160;a letter from Mark Zuckerberg&#16",
+      "source": "TechCrunch AI",
+      "author": "Theresa Loconsolo, Kirsten Korosec, Anthony Ha, Rebecca Bellan",
+      "publishedAt": "2026-08-14T14:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Meta"
+      ],
+      "url": "https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong/",
+      "readTime": 3,
+      "views": 27854
+    },
+    {
+      "id": "samsung-health-ai-models-analyse-wearable-biosigna",
+      "title": "Samsung health AI models analyse wearable biosignal data",
+      "summary": "Samsung Research America’s Digital Health Team has presented two AI foundation models designed to learn from wearable biosignals.  The work centres on data captured by smartwatches, including heart ac.",
+      "content": "Samsung Research America’s Digital Health Team has presented two AI foundation models designed to learn from wearable biosignals. The work centres on data captured by smartwatches, including heart activity, sleep, and physical activity. The company discussed its Connected Care vision at the Health F",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-08-14T13:30:10.000Z",
+      "category": "research",
+      "tags": [
+        "ai",
+        "ai model"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/samsung-health-ai-models-analyse-wearable-biosignal-data/",
+      "readTime": 3,
+      "views": 42044
+    },
+    {
       "id": "google-ai-health-coach-to-use-abbott-glucose-data",
       "title": "Google AI health coach to use Abbott glucose data",
       "summary": "Abbott and Google are linking continuous glucose monitoring data with Google’s AI-powered health coaching tools, giving the Gemini-powered service access to another source of personal health informati.",
@@ -16,7 +100,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/google-ai-health-coach-abbott-glucose-data/",
       "readTime": 3,
-      "views": 47464
+      "views": 53142
     },
     {
       "id": "writer-introduces-new-ai-model-and-upgraded-harnes",
@@ -33,7 +117,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
       "readTime": 3,
-      "views": 36279
+      "views": 17951
     },
     {
       "id": "databricks-wanted-to-raise-1b-investors-wanted-15b",
@@ -49,7 +133,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/",
       "readTime": 3,
-      "views": 46509
+      "views": 48235
     },
     {
       "id": "openai-introduces-8216-ultrafast-8217-a-new-mode-t",
@@ -68,7 +152,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
       "readTime": 3,
-      "views": 54784
+      "views": 9023
     },
     {
       "id": "ibm-partners-with-openai-to-bolster-enterprise-ai-",
@@ -86,7 +170,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/",
       "readTime": 3,
-      "views": 29672
+      "views": 16016
     },
     {
       "id": "anthropic-set-ai-agents-loose-on-the-same-task-the",
@@ -104,7 +188,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
       "readTime": 3,
-      "views": 54010
+      "views": 50429
     },
     {
       "id": "openai-hires-new-cro-as-executive-shake-up-continu",
@@ -122,7 +206,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues/",
       "readTime": 3,
-      "views": 8698
+      "views": 18227
     },
     {
       "id": "microsoft-kills-off-unsuccessful-ai-features-while",
@@ -139,7 +223,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/",
       "readTime": 3,
-      "views": 5538
+      "views": 29897
     },
     {
       "id": "nvidia-8217-s-new-500b-plan-is-risky-but-brilliant",
@@ -155,7 +239,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/13/nvidias-new-500b-plan-is-risky-but-brilliant-especially-for-aging-gpus/",
       "readTime": 3,
-      "views": 23567
+      "views": 6982
     },
     {
       "id": "flock-is-tightening-its-rules-in-response-to-a-gro",
@@ -171,7 +255,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/",
       "readTime": 3,
-      "views": 39931
+      "views": 18826
     },
     {
       "id": "okta-targets-ai-agent-token-costs-with-mcp-scoping",
@@ -187,7 +271,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/okta-targets-ai-agent-token-costs-with-mcp-scoping/",
       "readTime": 3,
-      "views": 39601
+      "views": 7339
     },
     {
       "id": "how-kids-feel-about-ai-in-their-own-words",
@@ -204,7 +288,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
       "readTime": 3,
-      "views": 21057
+      "views": 5122
     },
     {
       "id": "some-claude-users-are-mad-that-anthropic-8217-s-ne",
@@ -223,7 +307,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/",
       "readTime": 3,
-      "views": 24202
+      "views": 33580
     },
     {
       "id": "amazon-will-train-on-twitch-streamers-8217-content",
@@ -239,7 +323,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/12/amazon-will-train-on-twitch-streamers-content-by-default-unless-they-opt-out/",
       "readTime": 3,
-      "views": 6703
+      "views": 42771
     },
     {
       "id": "ai-coding-startup-cognition-reportedly-already-in-",
@@ -255,104 +339,21 @@
       ],
       "url": "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/",
       "readTime": 3,
-      "views": 49079
-    },
-    {
-      "id": "as-ai-safety-concerns-mount-three-pioneers-make-th",
-      "title": "As AI safety concerns mount, three pioneers make the case for staying open",
-      "summary": "At Ai4, three of the world's most respected AI experts — Geoffrey Hinton, Fei-Fei Li, and Andrew Ng — debated regulation, open source access, and how America can compete as China advances in Asia.",
-      "content": "At Ai4, three of the world's most respected AI experts — Geoffrey Hinton, Fei-Fei Li, and Andrew Ng — debated regulation, open source access, and how America can compete as China advances in Asia.",
-      "source": "TechCrunch AI",
-      "author": "Kate Park",
-      "publishedAt": "2026-08-12T17:51:00.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/",
-      "readTime": 3,
-      "views": 21618
-    },
-    {
-      "id": "openai-backed-thrive-holdings-raises-2b-to-bring-a",
-      "title": "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise",
-      "summary": "Thrive Holdings has raised $2 billion in new funding at a $12 billion valuation from investors like SoftBank, D1 Capital Partners, and Altimeter Capital.",
-      "content": "Thrive Holdings has raised $2 billion in new funding at a $12 billion valuation from investors like SoftBank, D1 Capital Partners, and Altimeter Capital.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-08-12T17:41:29.000Z",
-      "category": "funding",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/",
-      "readTime": 3,
-      "views": 41530
-    },
-    {
-      "id": "mesh-automattic-8217-s-crm-for-everyone-comes-to-a",
-      "title": "Mesh, Automattic&#8217;s CRM for everyone, comes to Android",
-      "summary": "Mesh, an AI-powered contacts app and relationship manager from Automattic, is now an Android app.",
-      "content": "Mesh, an AI-powered contacts app and relationship manager from Automattic, is now an Android app.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-08-12T16:57:58.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/08/12/mesh-automattics-crm-for-everyone-comes-to-android/",
-      "readTime": 3,
-      "views": 41952
-    },
-    {
-      "id": "scaling-ai-agents-with-trustworthy-data",
-      "title": "Scaling AI agents with trustworthy data",
-      "summary": "Business and technology leaders need no convincing that the time of agentic AI is here.  Organizations are rapidly adopting agents, and few executives doubt the technology’s potential to transform wor.",
-      "content": "Business and technology leaders need no convincing that the time of agentic AI is here. Organizations are rapidly adopting agents, and few executives doubt the technology’s potential to transform work. But many organizations find that realizing the desired return on investment (ROI) from AI hinges o",
-      "source": "MIT Technology Review AI",
-      "author": "MIT Technology Review Insights",
-      "publishedAt": "2026-08-12T16:51:57.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
-      "readTime": 3,
-      "views": 29809
-    },
-    {
-      "id": "why-stream-ring-maker-sandbar-says-the-future-of-a",
-      "title": "Why Stream ring-maker Sandbar says the future of AI wearables is voice",
-      "summary": "AI notetaking hardware has taken off&#160;over&#160;the past&#160;couple of years, with credit-card-sized devices, pendants, pins,&#160;and&#160;even transcribing earbuds all promising to capture your.",
-      "content": "AI notetaking hardware has taken off&#160;over&#160;the past&#160;couple of years, with credit-card-sized devices, pendants, pins,&#160;and&#160;even transcribing earbuds all promising to capture your meetings and turn them into summaries and action items. Now, a whole wave of wearables — rings espe",
-      "source": "TechCrunch AI",
-      "author": "Theresa Loconsolo",
-      "publishedAt": "2026-08-12T16:46:02.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/video/why-stream-ring-maker-sandbar-says-the-future-of-ai-wearables-is-voice/",
-      "readTime": 3,
-      "views": 8520
+      "views": 52462
     }
   ],
-  "lastUpdated": "2026-08-14T13:02:39.250Z",
+  "lastUpdated": "2026-08-15T01:08:49.489Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "AI News",
     "TechCrunch AI",
+    "AI News",
     "MIT Technology Review AI"
   ],
   "categories": [
-    "market",
     "release",
-    "funding",
     "research",
-    "regulation"
+    "market",
+    "funding"
   ]
 }
