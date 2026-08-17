@@ -1,6 +1,56 @@
 {
   "articles": [
     {
+      "id": "stripe-will-reportedly-acquire-ai-gateway-startup-",
+      "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+      "summary": "OpenRouter's CEO recently described the startup as Stripe for AI.",
+      "content": "OpenRouter's CEO recently described the startup as Stripe for AI.",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "publishedAt": "2026-08-16T20:57:04.000Z",
+      "category": "partnership",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
+      "readTime": 3,
+      "views": 12738
+    },
+    {
+      "id": "why-people-aren-8217-t-buying-mark-zuckerberg-s-ai",
+      "title": "Why people aren&#8217;t buying Mark Zuckerberg’s AI future",
+      "summary": "On the latest episode of Equity podcast, we discuss why not everyone is buying Zuckerberg’s vision.",
+      "content": "On the latest episode of Equity podcast, we discuss why not everyone is buying Zuckerberg’s vision.",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "publishedAt": "2026-08-16T20:32:01.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/",
+      "readTime": 3,
+      "views": 19894
+    },
+    {
+      "id": "anthropic-ceo-says-ai-backlash-is-fundamentally-a-",
+      "title": "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’",
+      "summary": "Dario Amodei is pushing back against the idea that he's been painting an overly pessimistic picture of AI.",
+      "content": "Dario Amodei is pushing back against the idea that he's been painting an overly pessimistic picture of AI.",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "publishedAt": "2026-08-16T16:53:51.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
+      "readTime": 3,
+      "views": 15220
+    },
+    {
       "id": "woman-claims-her-stepfather-used-grok-to-transform",
       "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
       "summary": "The woman claimed that AI tools are \"taking everyday life and turning it into child sexual abuse.",
@@ -14,7 +64,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
       "readTime": 3,
-      "views": 48639
+      "views": 29726
     },
     {
       "id": "anthropic-shares-more-details-about-how-claude-s-n",
@@ -33,7 +83,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
       "readTime": 3,
-      "views": 23807
+      "views": 16086
     },
     {
       "id": "spacex-officially-closes-its-cursor-acquisition",
@@ -49,7 +99,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
       "readTime": 3,
-      "views": 22190
+      "views": 45370
     },
     {
       "id": "google-will-now-allow-users-to-remove-visible-wate",
@@ -66,7 +116,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
       "readTime": 3,
-      "views": 42259
+      "views": 27767
     },
     {
       "id": "does-mark-zuckerberg-really-believe-ai-is-8216-for",
@@ -83,7 +133,7 @@
       ],
       "url": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
       "readTime": 3,
-      "views": 6484
+      "views": 11310
     },
     {
       "id": "hyperscalers-might-regret-embracing-natural-gas-if",
@@ -99,7 +149,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/14/hyperscalers-might-regret-embracing-natural-gas-if-new-forecast-proves-correct/",
       "readTime": 3,
-      "views": 15492
+      "views": 26732
     },
     {
       "id": "meta-8217-s-8216-open-8217-ai-and-a-250m-deal-gone",
@@ -116,7 +166,42 @@
       ],
       "url": "https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong/",
       "readTime": 3,
-      "views": 22187
+      "views": 53741
+    },
+    {
+      "id": "samsung-health-ai-models-analyse-wearable-biosigna",
+      "title": "Samsung health AI models analyse wearable biosignal data",
+      "summary": "Samsung Research America’s Digital Health Team has presented two AI foundation models designed to learn from wearable biosignals.  The work centres on data captured by smartwatches, including heart ac.",
+      "content": "Samsung Research America’s Digital Health Team has presented two AI foundation models designed to learn from wearable biosignals. The work centres on data captured by smartwatches, including heart activity, sleep, and physical activity. The company discussed its Connected Care vision at the Health F",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-08-14T13:30:10.000Z",
+      "category": "research",
+      "tags": [
+        "ai",
+        "ai model"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/samsung-health-ai-models-analyse-wearable-biosignal-data/",
+      "readTime": 3,
+      "views": 38194
+    },
+    {
+      "id": "google-ai-health-coach-to-use-abbott-glucose-data",
+      "title": "Google AI health coach to use Abbott glucose data",
+      "summary": "Abbott and Google are linking continuous glucose monitoring data with Google’s AI-powered health coaching tools, giving the Gemini-powered service access to another source of personal health informati.",
+      "content": "Abbott and Google are linking continuous glucose monitoring data with Google’s AI-powered health coaching tools, giving the Gemini-powered service access to another source of personal health information. Under a multiyear agreement, data from Abbott’s Lingo continuous glucose monitor will be integra",
+      "source": "AI News",
+      "author": "Muhammad Zulhusni",
+      "publishedAt": "2026-08-14T10:00:00.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "gemini",
+        "Google"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/google-ai-health-coach-abbott-glucose-data/",
+      "readTime": 3,
+      "views": 41412
     },
     {
       "id": "writer-introduces-new-ai-model-and-upgraded-harnes",
@@ -133,7 +218,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
       "readTime": 3,
-      "views": 31938
+      "views": 13137
     },
     {
       "id": "databricks-wanted-to-raise-1b-investors-wanted-15b",
@@ -149,7 +234,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/",
       "readTime": 3,
-      "views": 34020
+      "views": 22858
     },
     {
       "id": "openai-introduces-8216-ultrafast-8217-a-new-mode-t",
@@ -168,7 +253,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
       "readTime": 3,
-      "views": 38835
+      "views": 5651
     },
     {
       "id": "ibm-partners-with-openai-to-bolster-enterprise-ai-",
@@ -186,7 +271,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/",
       "readTime": 3,
-      "views": 18186
+      "views": 44690
     },
     {
       "id": "anthropic-set-ai-agents-loose-on-the-same-task-the",
@@ -204,7 +289,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
       "readTime": 3,
-      "views": 16331
+      "views": 25643
     },
     {
       "id": "openai-hires-new-cro-as-executive-shake-up-continu",
@@ -222,7 +307,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues/",
       "readTime": 3,
-      "views": 30417
+      "views": 38458
     },
     {
       "id": "microsoft-kills-off-unsuccessful-ai-features-while",
@@ -239,7 +324,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/",
       "readTime": 3,
-      "views": 22106
+      "views": 8335
     },
     {
       "id": "nvidia-8217-s-new-500b-plan-is-risky-but-brilliant",
@@ -255,104 +340,21 @@
       ],
       "url": "https://techcrunch.com/2026/08/13/nvidias-new-500b-plan-is-risky-but-brilliant-especially-for-aging-gpus/",
       "readTime": 3,
-      "views": 9001
-    },
-    {
-      "id": "flock-is-tightening-its-rules-in-response-to-a-gro",
-      "title": "Flock is tightening its rules in response to a growing surveillance backlash",
-      "summary": "The police-tech giant Flock is announcing today that it will change officers’ access to its nationwide network of license plate readers, in an apparent effort to quell a growing backlash and win back .",
-      "content": "The police-tech giant Flock is announcing today that it will change officers’ access to its nationwide network of license plate readers, in an apparent effort to quell a growing backlash and win back contracts lost amid concerns about mass surveillance and police abuse. Several changes aim directly ",
-      "source": "MIT Technology Review AI",
-      "author": "James O'Donnell",
-      "publishedAt": "2026-08-13T13:41:10.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/",
-      "readTime": 3,
-      "views": 14757
-    },
-    {
-      "id": "how-kids-feel-about-ai-in-their-own-words",
-      "title": "How kids feel about AI, in their own words",
-      "summary": "When we set out to talk to kids about artificial intelligence, we thought we knew what we’d hear.  We expected some to tell us they were using it to cheat a little, the way Millennials and Gen Xers op.",
-      "content": "When we set out to talk to kids about artificial intelligence, we thought we knew what we’d hear. We expected some to tell us they were using it to cheat a little, the way Millennials and Gen Xers opened up CliffsNotes or programmed formulas into their TI-82s, and others to share inspiring ways they",
-      "source": "MIT Technology Review AI",
-      "author": "Jen Swetzoff, Keeley McNamara",
-      "publishedAt": "2026-08-13T09:00:00.000Z",
-      "category": "research",
-      "tags": [
-        "artificial intelligence",
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
-      "readTime": 3,
-      "views": 49890
-    },
-    {
-      "id": "some-claude-users-are-mad-that-anthropic-8217-s-ne",
-      "title": "Some Claude users are mad that Anthropic&#8217;s new watermarks will catch them using it at their jobs, classes",
-      "summary": "Is Anthropic's new watermarking system a travesty.  Some have taken to social media to complain that it is.",
-      "content": "Is Anthropic's new watermarking system a travesty? Some have taken to social media to complain that it is.",
-      "source": "TechCrunch AI",
-      "author": "Lucas Ropek",
-      "publishedAt": "2026-08-12T22:26:37.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "anthropic",
-        "claude",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/",
-      "readTime": 3,
-      "views": 38710
-    },
-    {
-      "id": "amazon-will-train-on-twitch-streamers-8217-content",
-      "title": "Amazon will train on Twitch streamers&#8217; content by default, unless they opt out",
-      "summary": "\"If this was opt-in, nobody would opt in,\" Twitch CPO Mike Minton said on a livestream responding to user feedback.  \"That's honestly the answer.",
-      "content": "\"If this was opt-in, nobody would opt in,\" Twitch CPO Mike Minton said on a livestream responding to user feedback. \"That's honestly the answer.\"",
-      "source": "TechCrunch AI",
-      "author": "Amanda Silberling",
-      "publishedAt": "2026-08-12T20:10:40.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/08/12/amazon-will-train-on-twitch-streamers-content-by-default-unless-they-opt-out/",
-      "readTime": 3,
-      "views": 51585
-    },
-    {
-      "id": "ai-coding-startup-cognition-reportedly-already-in-",
-      "title": "AI coding startup Cognition reportedly already in talks to raise at $40B valuation",
-      "summary": "Cognition may be looking to raise another mega round just a few months after raising $1 billion at a $26 billion valuation.",
-      "content": "Cognition may be looking to raise another mega round just a few months after raising $1 billion at a $26 billion valuation.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2026-08-12T18:19:12.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/",
-      "readTime": 3,
-      "views": 37421
+      "views": 14617
     }
   ],
-  "lastUpdated": "2026-08-16T12:35:32.538Z",
+  "lastUpdated": "2026-08-17T01:10:12.324Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
     "TechCrunch AI",
-    "MIT Technology Review AI"
+    "AI News"
   ],
   "categories": [
+    "partnership",
     "release",
-    "funding",
     "research",
-    "market"
+    "market",
+    "funding"
   ]
 }
