@@ -1,6 +1,124 @@
 {
   "articles": [
     {
+      "id": "anthropic-8217-s-annualized-revenue-surges-to-65b",
+      "title": "Anthropic&#8217;s annualized revenue surges to $65B",
+      "summary": "The model maker added $18 billion in annualized revenue in two months.",
+      "content": "The model maker added $18 billion in annualized revenue in two months.",
+      "source": "TechCrunch AI",
+      "author": "Marina Temkin",
+      "publishedAt": "2026-08-17T23:56:26.000Z",
+      "category": "market",
+      "tags": [
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/",
+      "readTime": 3,
+      "views": 48949
+    },
+    {
+      "id": "ai-automation-startup-relay-shuts-down-staff-joins",
+      "title": "AI automation startup Relay shuts down, staff joins Google&#8217;s Chrome team",
+      "summary": "\"We have some really ambitious plans to help you work with AI in Chrome to get things done, and I’ll have more to share soon,\" Jacob Bank, Relay founder and CEO, said.",
+      "content": "\"We have some really ambitious plans to help you work with AI in Chrome to get things done, and I’ll have more to share soon,\" Jacob Bank, Relay founder and CEO, said.",
+      "source": "TechCrunch AI",
+      "author": "Lucas Ropek",
+      "publishedAt": "2026-08-17T21:27:05.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "automation",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
+      "readTime": 3,
+      "views": 16930
+    },
+    {
+      "id": "what-flock-s-defenders-are-missing",
+      "title": "What Flock’s defenders are missing",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI.  To get stories like this in your inbox first, sign up here.",
+      "content": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Flock, the police-tech giant known for its network of some 120,000 automatic license plate readers around the US, announced some changes to its platform last Thur",
+      "source": "MIT Technology Review AI",
+      "author": "James O'Donnell",
+      "publishedAt": "2026-08-17T19:16:09.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/08/17/1142200/what-flocks-defenders-are-missing/",
+      "readTime": 3,
+      "views": 40324
+    },
+    {
+      "id": "amazon-which-started-off-selling-books-is-destroyi",
+      "title": "Amazon, which started off selling books, is destroying rare texts to train AI",
+      "summary": "Rare books are incredibly valuable for training LLMs, since these models have already trained on whatever's available online.",
+      "content": "Rare books are incredibly valuable for training LLMs, since these models have already trained on whatever's available online.",
+      "source": "TechCrunch AI",
+      "author": "Amanda Silberling",
+      "publishedAt": "2026-08-17T16:38:44.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "llm"
+      ],
+      "url": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
+      "readTime": 3,
+      "views": 9402
+    },
+    {
+      "id": "groq-raises-350m-to-fuel-its-pivot-from-ai-chips-t",
+      "title": "Groq raises $350M to fuel its pivot from AI chips to neocloud",
+      "summary": "Groq raised $350 million at a $3. 5 billion valuation as the former AI chipmaker pivots to a neocloud business and expands its Nvidia-powered data center footprint.",
+      "content": "Groq raised $350 million at a $3.5 billion valuation as the former AI chipmaker pivots to a neocloud business and expands its Nvidia-powered data center footprint.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-08-17T16:15:12.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/",
+      "readTime": 3,
+      "views": 51224
+    },
+    {
+      "id": "nvidia-investing-1-5b-in-softbank-data-center-deve",
+      "title": "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project",
+      "summary": "Nvidia's investment in SoftBank's data center developer will guarantee its chips power an OpenAI data center.",
+      "content": "Nvidia's investment in SoftBank's data center developer will guarantee its chips power an OpenAI data center.",
+      "source": "TechCrunch AI",
+      "author": "Tim De Chant",
+      "publishedAt": "2026-08-17T15:16:24.000Z",
+      "category": "funding",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/",
+      "readTime": 3,
+      "views": 17522
+    },
+    {
+      "id": "wispr-raises-280m-at-2b-valuation-as-it-looks-beyo",
+      "title": "Wispr raises $280M at $2B valuation as it looks beyond dictation",
+      "summary": "The funds will allow Wispr to increase its footprint as it ventures into new areas, such as meetings, with its newly released note-taker tool.",
+      "content": "The funds will allow Wispr to increase its footprint as it ventures into new areas, such as meetings, with its newly released note-taker tool.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-08-17T13:10:05.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/",
+      "readTime": 3,
+      "views": 43335
+    },
+    {
       "id": "stripe-will-reportedly-acquire-ai-gateway-startup-",
       "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
       "summary": "OpenRouter's CEO recently described the startup as Stripe for AI.",
@@ -14,7 +132,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
       "readTime": 3,
-      "views": 31175
+      "views": 19348
     },
     {
       "id": "why-people-aren-8217-t-buying-mark-zuckerberg-s-ai",
@@ -30,7 +148,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/",
       "readTime": 3,
-      "views": 8353
+      "views": 41088
     },
     {
       "id": "anthropic-ceo-says-ai-backlash-is-fundamentally-a-",
@@ -48,7 +166,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
       "readTime": 3,
-      "views": 20260
+      "views": 8736
     },
     {
       "id": "woman-claims-her-stepfather-used-grok-to-transform",
@@ -64,7 +182,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
       "readTime": 3,
-      "views": 9769
+      "views": 28171
     },
     {
       "id": "anthropic-shares-more-details-about-how-claude-s-n",
@@ -83,7 +201,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
       "readTime": 3,
-      "views": 46563
+      "views": 24903
     },
     {
       "id": "spacex-officially-closes-its-cursor-acquisition",
@@ -99,7 +217,23 @@
       ],
       "url": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
       "readTime": 3,
-      "views": 15319
+      "views": 40138
+    },
+    {
+      "id": "how-to-tell-if-your-ai-platforms-accounts-have-bee",
+      "title": "How to tell if your AI platforms’ accounts have been hacked",
+      "summary": "A guide on how to check if hackers have broken into your accounts on the most popular AI platforms.",
+      "content": "A guide on how to check if hackers have broken into your accounts on the most popular AI platforms.",
+      "source": "TechCrunch AI",
+      "author": "Lorenzo Franceschi-Bicchierai",
+      "publishedAt": "2026-08-15T16:10:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/08/15/how-to-tell-if-your-ai-platforms-accounts-have-been-hacked/",
+      "readTime": 3,
+      "views": 46728
     },
     {
       "id": "google-will-now-allow-users-to-remove-visible-wate",
@@ -116,7 +250,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
       "readTime": 3,
-      "views": 53472
+      "views": 16592
     },
     {
       "id": "does-mark-zuckerberg-really-believe-ai-is-8216-for",
@@ -133,7 +267,7 @@
       ],
       "url": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
       "readTime": 3,
-      "views": 39380
+      "views": 54390
     },
     {
       "id": "hyperscalers-might-regret-embracing-natural-gas-if",
@@ -149,7 +283,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/14/hyperscalers-might-regret-embracing-natural-gas-if-new-forecast-proves-correct/",
       "readTime": 3,
-      "views": 23704
+      "views": 12496
     },
     {
       "id": "meta-8217-s-8216-open-8217-ai-and-a-250m-deal-gone",
@@ -166,42 +300,7 @@
       ],
       "url": "https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong/",
       "readTime": 3,
-      "views": 26171
-    },
-    {
-      "id": "samsung-health-ai-models-analyse-wearable-biosigna",
-      "title": "Samsung health AI models analyse wearable biosignal data",
-      "summary": "Samsung Research America’s Digital Health Team has presented two AI foundation models designed to learn from wearable biosignals.  The work centres on data captured by smartwatches, including heart ac.",
-      "content": "Samsung Research America’s Digital Health Team has presented two AI foundation models designed to learn from wearable biosignals. The work centres on data captured by smartwatches, including heart activity, sleep, and physical activity. The company discussed its Connected Care vision at the Health F",
-      "source": "AI News",
-      "author": "Ryan Daws",
-      "publishedAt": "2026-08-14T13:30:10.000Z",
-      "category": "research",
-      "tags": [
-        "ai",
-        "ai model"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/samsung-health-ai-models-analyse-wearable-biosignal-data/",
-      "readTime": 3,
-      "views": 19669
-    },
-    {
-      "id": "google-ai-health-coach-to-use-abbott-glucose-data",
-      "title": "Google AI health coach to use Abbott glucose data",
-      "summary": "Abbott and Google are linking continuous glucose monitoring data with Google’s AI-powered health coaching tools, giving the Gemini-powered service access to another source of personal health informati.",
-      "content": "Abbott and Google are linking continuous glucose monitoring data with Google’s AI-powered health coaching tools, giving the Gemini-powered service access to another source of personal health information. Under a multiyear agreement, data from Abbott’s Lingo continuous glucose monitor will be integra",
-      "source": "AI News",
-      "author": "Muhammad Zulhusni",
-      "publishedAt": "2026-08-14T10:00:00.000Z",
-      "category": "market",
-      "tags": [
-        "ai",
-        "gemini",
-        "Google"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/google-ai-health-coach-abbott-glucose-data/",
-      "readTime": 3,
-      "views": 48189
+      "views": 36207
     },
     {
       "id": "writer-introduces-new-ai-model-and-upgraded-harnes",
@@ -218,7 +317,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
       "readTime": 3,
-      "views": 48790
+      "views": 14337
     },
     {
       "id": "databricks-wanted-to-raise-1b-investors-wanted-15b",
@@ -234,127 +333,20 @@
       ],
       "url": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/",
       "readTime": 3,
-      "views": 10190
-    },
-    {
-      "id": "openai-introduces-8216-ultrafast-8217-a-new-mode-t",
-      "title": "OpenAI introduces &#8216;Ultrafast,&#8217; a new mode that makes GPT-5.6 Sol work at 14x the speed",
-      "summary": "OpenAI is launching a preview of a sped up version of its latest, most powerful model, in an effort to court enterprise users.",
-      "content": "OpenAI is launching a preview of a sped up version of its latest, most powerful model, in an effort to court enterprise users.",
-      "source": "TechCrunch AI",
-      "author": "Lucas Ropek",
-      "publishedAt": "2026-08-13T19:22:40.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gpt",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
-      "readTime": 3,
-      "views": 47149
-    },
-    {
-      "id": "ibm-partners-with-openai-to-bolster-enterprise-ai-",
-      "title": "IBM partners with OpenAI to bolster enterprise AI push",
-      "summary": "IBM plans to train and certify tens of thousands of consultants on OpenAI's technologies as part of this deal.",
-      "content": "IBM plans to train and certify tens of thousands of consultants on OpenAI's technologies as part of this deal.",
-      "source": "TechCrunch AI",
-      "author": "Jagmeet Singh",
-      "publishedAt": "2026-08-13T19:19:49.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/",
-      "readTime": 3,
-      "views": 34663
-    },
-    {
-      "id": "anthropic-set-ai-agents-loose-on-the-same-task-the",
-      "title": "Anthropic set AI agents loose on the same task. They started a turf war.",
-      "summary": "Anthropic researchers found AI agents can clash, collude, and coordinate in unexpected ways, raising new questions about whether today’s safety tests capture the risks of multi-agent systems.",
-      "content": "Anthropic researchers found AI agents can clash, collude, and coordinate in unexpected ways, raising new questions about whether today’s safety tests capture the risks of multi-agent systems.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-08-13T18:28:14.000Z",
-      "category": "research",
-      "tags": [
-        "ai",
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
-      "readTime": 3,
-      "views": 6350
-    },
-    {
-      "id": "openai-hires-new-cro-as-executive-shake-up-continu",
-      "title": "OpenAI hires new CRO as executive shake-up continues",
-      "summary": "OpenAI has replaced chief revenue officer Denise Dresser after just nine months on the job, tapping Wiz president and chief operating officer Dali Rajic to take on frontier lab's top sales job.",
-      "content": "OpenAI has replaced chief revenue officer Denise Dresser after just nine months on the job, tapping Wiz president and chief operating officer Dali Rajic to take on frontier lab's top sales job.",
-      "source": "TechCrunch AI",
-      "author": "Tim Fernholz",
-      "publishedAt": "2026-08-13T17:07:13.000Z",
-      "category": "market",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues/",
-      "readTime": 3,
-      "views": 51094
-    },
-    {
-      "id": "microsoft-kills-off-unsuccessful-ai-features-while",
-      "title": "Microsoft kills off unsuccessful AI features while merging its separate Copilot apps",
-      "summary": "Microsoft is simplifying Copilot by combining its consumer and business apps, and dropping AI-generated podcasts, Group Chats, Deep Research, and its Mico character.",
-      "content": "Microsoft is simplifying Copilot by combining its consumer and business apps, and dropping AI-generated podcasts, Group Chats, Deep Research, and its Mico character.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-08-13T15:30:52.000Z",
-      "category": "research",
-      "tags": [
-        "ai",
-        "Microsoft"
-      ],
-      "url": "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/",
-      "readTime": 3,
-      "views": 23468
-    },
-    {
-      "id": "nvidia-8217-s-new-500b-plan-is-risky-but-brilliant",
-      "title": "Nvidia&#8217;s new $500B plan is risky but brilliant, especially for aging GPUs",
-      "summary": "Nvidia has a plan to make sure its GPUs won't lose value.  It wants to convince a new crop of financiers to keep lending for AI buildouts.",
-      "content": "Nvidia has a plan to make sure its GPUs won't lose value. It wants to convince a new crop of financiers to keep lending for AI buildouts.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2026-08-13T15:08:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/08/13/nvidias-new-500b-plan-is-risky-but-brilliant-especially-for-aging-gpus/",
-      "readTime": 3,
-      "views": 5872
+      "views": 16163
     }
   ],
-  "lastUpdated": "2026-08-17T12:39:59.704Z",
+  "lastUpdated": "2026-08-18T01:07:54.754Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
     "TechCrunch AI",
-    "AI News"
+    "MIT Technology Review AI"
   ],
   "categories": [
-    "partnership",
-    "release",
-    "research",
     "market",
-    "funding"
+    "release",
+    "funding",
+    "partnership"
   ]
 }
