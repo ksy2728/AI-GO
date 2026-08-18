@@ -1,6 +1,43 @@
 {
   "articles": [
     {
+      "id": "we-still-don-t-know-how-people-are-really-using-ai",
+      "title": "We still don’t know how people are really using AI",
+      "summary": "AI companies like Anthropic and OpenAI regularly publish reports on how people are using products like Claude and ChatGPT, but they only release the data they want us to see, AI researchers say. &#160.",
+      "content": "AI companies like Anthropic and OpenAI regularly publish reports on how people are using products like Claude and ChatGPT, but they only release the data they want us to see, AI researchers say.&#160; “There is no independent source to corroborate it,” says Anka Reuel, a Computer Science PhD candida",
+      "source": "MIT Technology Review AI",
+      "author": "Eileen Guo",
+      "publishedAt": "2026-08-18T10:06:43.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gpt",
+        "openai",
+        "anthropic",
+        "claude"
+      ],
+      "url": "https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai/",
+      "readTime": 3,
+      "views": 14084
+    },
+    {
+      "id": "ai-s-recursive-self-improvement-might-not-come-so-",
+      "title": "AI’s recursive self-improvement might not come so quickly after all",
+      "summary": "The AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight.  LLMs can already write code, generate synthetic data for training, and optimi.",
+      "content": "The AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code, generate synthetic data for training, and optimize the computer chips they run on. Forecasts of explosive AI progress predict that what researchers c",
+      "source": "MIT Technology Review AI",
+      "author": "Michelle Kim",
+      "publishedAt": "2026-08-18T09:00:00.000Z",
+      "category": "research",
+      "tags": [
+        "ai",
+        "llm"
+      ],
+      "url": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
+      "readTime": 3,
+      "views": 29658
+    },
+    {
       "id": "anthropic-8217-s-annualized-revenue-surges-to-65b",
       "title": "Anthropic&#8217;s annualized revenue surges to $65B",
       "summary": "The model maker added $18 billion in annualized revenue in two months.",
@@ -15,7 +52,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/",
       "readTime": 3,
-      "views": 52376
+      "views": 42137
     },
     {
       "id": "ai-automation-startup-relay-shuts-down-staff-joins",
@@ -33,7 +70,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
       "readTime": 3,
-      "views": 16730
+      "views": 10776
     },
     {
       "id": "what-flock-s-defenders-are-missing",
@@ -49,7 +86,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/08/17/1142200/what-flocks-defenders-are-missing/",
       "readTime": 3,
-      "views": 23263
+      "views": 22665
     },
     {
       "id": "amazon-which-started-off-selling-books-is-destroyi",
@@ -66,7 +103,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
       "readTime": 3,
-      "views": 11867
+      "views": 26862
     },
     {
       "id": "groq-raises-350m-to-fuel-its-pivot-from-ai-chips-t",
@@ -82,7 +119,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/",
       "readTime": 3,
-      "views": 14550
+      "views": 11525
     },
     {
       "id": "nvidia-investing-1-5b-in-softbank-data-center-deve",
@@ -100,7 +137,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/",
       "readTime": 3,
-      "views": 22684
+      "views": 33871
     },
     {
       "id": "wispr-raises-280m-at-2b-valuation-as-it-looks-beyo",
@@ -116,7 +153,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/",
       "readTime": 3,
-      "views": 49139
+      "views": 22948
     },
     {
       "id": "stripe-will-reportedly-acquire-ai-gateway-startup-",
@@ -132,7 +169,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
       "readTime": 3,
-      "views": 47344
+      "views": 11195
     },
     {
       "id": "why-people-aren-8217-t-buying-mark-zuckerberg-s-ai",
@@ -148,7 +185,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/",
       "readTime": 3,
-      "views": 28842
+      "views": 40687
     },
     {
       "id": "anthropic-ceo-says-ai-backlash-is-fundamentally-a-",
@@ -166,7 +203,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
       "readTime": 3,
-      "views": 25545
+      "views": 54126
     },
     {
       "id": "woman-claims-her-stepfather-used-grok-to-transform",
@@ -182,7 +219,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
       "readTime": 3,
-      "views": 7332
+      "views": 19849
     },
     {
       "id": "anthropic-shares-more-details-about-how-claude-s-n",
@@ -201,7 +238,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
       "readTime": 3,
-      "views": 6601
+      "views": 39545
     },
     {
       "id": "spacex-officially-closes-its-cursor-acquisition",
@@ -217,7 +254,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
       "readTime": 3,
-      "views": 54602
+      "views": 41574
     },
     {
       "id": "how-to-tell-if-your-ai-platforms-accounts-have-bee",
@@ -233,7 +270,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/15/how-to-tell-if-your-ai-platforms-accounts-have-been-hacked/",
       "readTime": 3,
-      "views": 5173
+      "views": 10445
     },
     {
       "id": "google-will-now-allow-users-to-remove-visible-wate",
@@ -250,7 +287,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
       "readTime": 3,
-      "views": 52139
+      "views": 37218
     },
     {
       "id": "does-mark-zuckerberg-really-believe-ai-is-8216-for",
@@ -267,7 +304,7 @@
       ],
       "url": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
       "readTime": 3,
-      "views": 45083
+      "views": 30697
     },
     {
       "id": "hyperscalers-might-regret-embracing-natural-gas-if",
@@ -283,7 +320,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/14/hyperscalers-might-regret-embracing-natural-gas-if-new-forecast-proves-correct/",
       "readTime": 3,
-      "views": 26931
+      "views": 7784
     },
     {
       "id": "meta-8217-s-8216-open-8217-ai-and-a-250m-deal-gone",
@@ -300,52 +337,20 @@
       ],
       "url": "https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong/",
       "readTime": 3,
-      "views": 25320
-    },
-    {
-      "id": "writer-introduces-new-ai-model-and-upgraded-harnes",
-      "title": "Writer introduces new AI model and upgraded harness to contain token costs",
-      "summary": "Built as a post-training variation on Z. ai's open source model GLM-5.",
-      "content": "Built as a post-training variation on Z.ai's open source model GLM-5.2, Writer says the new system should provide deployment-ready capabilities at a much lower price.",
-      "source": "TechCrunch AI",
-      "author": "Russell Brandom",
-      "publishedAt": "2026-08-13T21:13:24.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "ai model"
-      ],
-      "url": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
-      "readTime": 3,
-      "views": 19332
-    },
-    {
-      "id": "databricks-wanted-to-raise-1b-investors-wanted-15b",
-      "title": "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.",
-      "summary": "AI is expensive, Ali Ghodsi tells TechCrunch.  With so many investors wanting into his latest round, he said yes to more than planned.",
-      "content": "AI is expensive, Ali Ghodsi tells TechCrunch. With so many investors wanting into his latest round, he said yes to more than planned.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2026-08-13T20:14:39.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/",
-      "readTime": 3,
-      "views": 29149
+      "views": 44742
     }
   ],
-  "lastUpdated": "2026-08-18T06:39:56.925Z",
+  "lastUpdated": "2026-08-18T12:41:33.367Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "TechCrunch AI",
-    "MIT Technology Review AI"
+    "MIT Technology Review AI",
+    "TechCrunch AI"
   ],
   "categories": [
-    "market",
     "release",
+    "research",
+    "market",
     "funding",
     "partnership"
   ]
