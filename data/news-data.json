@@ -1,6 +1,87 @@
 {
   "articles": [
     {
+      "id": "anthropic-s-opus-4-6-is-a-smut-machine",
+      "title": "Anthropic’s Opus 4.6 is a smut-machine",
+      "summary": "Anthropic forbids its Claude models from generating sexually explicit content.  But a series of tests conducted by TechCrunch found that it didn't take much to get past the restriction.",
+      "content": "Anthropic forbids its Claude models from generating sexually explicit content. But a series of tests conducted by TechCrunch found that it didn't take much to get past the restriction.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-08-21T23:07:25.000Z",
+      "category": "funding",
+      "tags": [
+        "anthropic",
+        "claude",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
+      "readTime": 3,
+      "views": 41408
+    },
+    {
+      "id": "nvidia-partners-with-data-center-developer-cloverl",
+      "title": "Nvidia partners with data center developer Cloverleaf",
+      "summary": "Nvidia continues to pour money into data center development — just as AI data centers bring lots of money into Nvidia.",
+      "content": "Nvidia continues to pour money into data center development — just as AI data centers bring lots of money into Nvidia.",
+      "source": "TechCrunch AI",
+      "author": "Lucas Ropek",
+      "publishedAt": "2026-08-21T22:37:38.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
+      "readTime": 3,
+      "views": 54196
+    },
+    {
+      "id": "nvidia-just-showed-that-the-harness-not-the-ai-mod",
+      "title": "Nvidia just showed that the harness, not the AI model, is now the real hero",
+      "summary": "Nvidia research shows that AI agents can perform well, and not go off the deep end, through fine-tuning, even if the AI model isn't that great at the task.",
+      "content": "Nvidia research shows that AI agents can perform well, and not go off the deep end, through fine-tuning, even if the AI model isn't that great at the task.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2026-08-21T19:43:39.000Z",
+      "category": "research",
+      "tags": [
+        "ai",
+        "ai model"
+      ],
+      "url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
+      "readTime": 3,
+      "views": 18067
+    },
+    {
+      "id": "the-doj-is-investigating-a16z-what-does-this-mean-",
+      "title": "The DOJ is investigating a16z. What does this mean for venture capital?",
+      "summary": "Andreessen Horowitz has two partners sitting on the boards of companies that now&#160;compete with each other: Ben Horowitz at Databricks and Martin Casado at&#160;Fivetran.  Nothing too scandalous on.",
+      "content": "Andreessen Horowitz has two partners sitting on the boards of companies that now&#160;compete with each other: Ben Horowitz at Databricks and Martin Casado at&#160;Fivetran. Nothing too scandalous on the surface, except&#160;the Department of&#160;Justice&#160;has&#160;reportedly&#160;been investiga",
+      "source": "TechCrunch AI",
+      "author": "Theresa Loconsolo, Anthony Ha, Kirsten Korosec, Sean O'Kane",
+      "publishedAt": "2026-08-21T14:00:00.000Z",
+      "category": "regulation",
+      "tags": [],
+      "url": "https://techcrunch.com/podcast/the-doj-is-investigating-a16z-what-does-this-mean-for-venture-capital/",
+      "readTime": 3,
+      "views": 42719
+    },
+    {
+      "id": "starcloud-raises-250-million-for-orbital-data-cent",
+      "title": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+      "summary": "There's about to be a big fight to secure access to space.",
+      "content": "There's about to be a big fight to secure access to space.",
+      "source": "TechCrunch AI",
+      "author": "Tim Fernholz",
+      "publishedAt": "2026-08-21T14:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
+      "readTime": 3,
+      "views": 26371
+    },
+    {
       "id": "how-ai-coding-tools-are-contributing-to-the-popula",
       "title": "How AI coding tools are contributing to the popularity of JavaScript",
       "summary": "In August 2025, TypeScript became the most used language on GitHub.  This was the largest shift in GitHub&#8217;s language rankings in the last ten years and it occurred during the period of most acce.",
@@ -14,7 +95,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/how-ai-coding-tools-are-contributing-to-the-popularity-of-javascript/",
       "readTime": 3,
-      "views": 25382
+      "views": 44334
     },
     {
       "id": "ai-data-startup-micro1-reaches-500m-gross-run-rate",
@@ -30,7 +111,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
       "readTime": 3,
-      "views": 45977
+      "views": 23529
     },
     {
       "id": "openai-is-gaining-on-anthropic-with-business-users",
@@ -50,7 +131,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
       "readTime": 3,
-      "views": 38890
+      "views": 52478
     },
     {
       "id": "chatgpt-can-now-send-texts-for-you-with-new-apple-",
@@ -68,7 +149,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/",
       "readTime": 3,
-      "views": 42499
+      "views": 34556
     },
     {
       "id": "google-gives-publishers-a-new-way-to-fight-ai-driv",
@@ -85,7 +166,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
       "readTime": 3,
-      "views": 46317
+      "views": 28021
     },
     {
       "id": "runlayer-rippling-drop-lawsuits-but-the-brouhaha-i",
@@ -101,7 +182,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/20/runlayer-rippling-drop-lawsuits-but-the-brouhaha-is-still-a-cautionary-tale-for-founders/",
       "readTime": 3,
-      "views": 8393
+      "views": 47837
     },
     {
       "id": "linkdaze-s-smart-calendar-is-built-to-run-a-househ",
@@ -117,11 +198,11 @@
       ],
       "url": "https://techcrunch.com/2026/08/20/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
       "readTime": 3,
-      "views": 38219
+      "views": 29482
     },
     {
-      "id": "a-third-of-web-pages-published-since-chatgpt-8217-",
-      "title": "A third of web pages published since ChatGPT&#8217;s launch show signs of AI authorship, study finds",
+      "id": "a-third-of-web-pages-published-since-chatgpt-launc",
+      "title": "A third of web pages published since ChatGPT launched were written by AI, study finds",
       "summary": "ChatGPT and other AI models are now authoring and editing much of the new web.",
       "content": "ChatGPT and other AI models are now authoring and editing much of the new web.",
       "source": "TechCrunch AI",
@@ -136,7 +217,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
       "readTime": 3,
-      "views": 6211
+      "views": 39838
     },
     {
       "id": "ramp-launches-its-own-ai-model-router-called-route",
@@ -154,7 +235,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/",
       "readTime": 3,
-      "views": 35489
+      "views": 53423
     },
     {
       "id": "meta-brings-pocket-an-app-that-lets-you-vibe-code-",
@@ -171,7 +252,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/20/meta-brings-pocket-an-app-that-lets-you-vibe-code-and-share-games-to-us-users/",
       "readTime": 3,
-      "views": 40391
+      "views": 27449
     },
     {
       "id": "debates-over-ai-consciousness-are-a-trap",
@@ -187,7 +268,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/",
       "readTime": 3,
-      "views": 52870
+      "views": 26748
     },
     {
       "id": "amazon-8217-s-prime-air-autonomous-drones-to-reach",
@@ -203,7 +284,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/amazons-prime-air-autonomous-drones-to-reach-500-us-cities/",
       "readTime": 3,
-      "views": 7103
+      "views": 26949
     },
     {
       "id": "meta-ai-8217-s-new-mac-app-wants-you-to-talk-to-yo",
@@ -220,7 +301,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps/",
       "readTime": 3,
-      "views": 40924
+      "views": 20905
     },
     {
       "id": "stripe-agrees-to-buy-openrouter-as-ai-model-routin",
@@ -237,7 +318,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/stripe-openrouter-acquisition-ai-model-routing/",
       "readTime": 3,
-      "views": 29768
+      "views": 12874
     },
     {
       "id": "unlocking-hidden-revenue-streams-with-market-model",
@@ -253,111 +334,23 @@
       ],
       "url": "https://www.technologyreview.com/2026/08/20/1142070/unlocking-hidden-revenue-streams-with-market-models/",
       "readTime": 3,
-      "views": 54014
-    },
-    {
-      "id": "binance-now-lets-ai-agents-trade-but-keeping-them-",
-      "title": "Binance now lets AI agents trade, but keeping them in check is largely up to users",
-      "summary": "Binance's Agent OS works with tools such as ChatGPT, Claude Code, and Cursor.",
-      "content": "Binance's Agent OS works with tools such as ChatGPT, Claude Code, and Cursor.",
-      "source": "TechCrunch AI",
-      "author": "Jagmeet Singh",
-      "publishedAt": "2026-08-20T09:30:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gpt",
-        "claude",
-        "chatgpt"
-      ],
-      "url": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/",
-      "readTime": 3,
-      "views": 42960
-    },
-    {
-      "id": "agentic-ai-in-government-just-hit-the-hard-part-de",
-      "title": "Agentic AI in government just hit the hard part: deciding what a machine may decide",
-      "summary": "The United Arab Emirates (UAE) has been early in adopting artificial intelligence for 9 years.  It published a national AI strategy in October 2017 and, days later, created a ministerial post to run i.",
-      "content": "The United Arab Emirates (UAE) has been early in adopting artificial intelligence for 9 years. It published a national AI strategy in October 2017 and, days later, created a ministerial post to run it, making Omar Sultan Al Olama the world&#8217;s first minister of state for artificial intelligence ",
-      "source": "AI News",
-      "author": "Dashveenjit Kaur",
-      "publishedAt": "2026-08-20T09:00:00.000Z",
-      "category": "regulation",
-      "tags": [
-        "artificial intelligence",
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/agentic-ai-in-government-uae-classification/",
-      "readTime": 3,
-      "views": 13498
-    },
-    {
-      "id": "a-third-of-chatgpt-ads-appear-in-irrelevant-conver",
-      "title": "A third of ChatGPT ads appear in irrelevant conversations",
-      "summary": "Advertising inside ChatGPT arrived with a promise that the assistant already knows what the user wants.  So far, that hasn’t entirely been the case.",
-      "content": "Advertising inside ChatGPT arrived with a promise that the assistant already knows what the user wants. So far, that hasn’t entirely been the case. Searchable, the AI visibility platform, analysed more than 11,000 ads served inside real ChatGPT conversations between 4 July and 4 August 2026, pairing",
-      "source": "AI News",
-      "author": "JP Garbaccio, Head of AEO and SEO at Searchable",
-      "publishedAt": "2026-08-20T08:07:40.000Z",
-      "category": "market",
-      "tags": [
-        "ai",
-        "gpt",
-        "chatgpt"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/a-third-of-chatgpt-ads-appear-in-irrelevant-conversations/",
-      "readTime": 3,
-      "views": 9926
-    },
-    {
-      "id": "ai-data-centre-regulation-just-got-a-template-that",
-      "title": "AI data centre regulation just got a template that needs no new law",
-      "summary": "AI data centre regulation in Pennsylvania now begins with a signature.  Before the state will so much as open a developer&#8217;s permit file, that developer has to sign a contract accepting a fixed s.",
-      "content": "AI data centre regulation in Pennsylvania now begins with a signature. Before the state will so much as open a developer&#8217;s permit file, that developer has to sign a contract accepting a fixed set of conditions and the penalties for breaking them, and persuade the town that has to live with the",
-      "source": "AI News",
-      "author": "Dashveenjit Kaur",
-      "publishedAt": "2026-08-20T08:00:00.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/ai-data-centre-regulation-pennsylvania-template/",
-      "readTime": 3,
-      "views": 46620
-    },
-    {
-      "id": "honeybook-bets-on-agentic-ai-to-streamline-small-b",
-      "title": "HoneyBook bets on agentic AI to streamline small business operations with its new Claude connector",
-      "summary": "Autonomous artificial intelligence agents have already penetrated the offices of large, global enterprises.  Now, HoneyBook is trying to bring that same capability to independent businesses with the l.",
-      "content": "Autonomous artificial intelligence agents have already penetrated the offices of large, global enterprises. Now, HoneyBook is trying to bring that same capability to independent businesses with the launch of HoneyBook MCP, recently released as a connector for Anthropic&#8217;s AI assistant Claude. T",
-      "source": "AI News",
-      "author": "AI News",
-      "publishedAt": "2026-08-20T07:35:07.000Z",
-      "category": "release",
-      "tags": [
-        "artificial intelligence",
-        "ai",
-        "ml",
-        "anthropic",
-        "claude"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/honeybook-bets-on-agentic-ai-to-streamline-small-business-operations-with-its-new-claude-connector/",
-      "readTime": 3,
-      "views": 40508
+      "views": 46171
     }
   ],
-  "lastUpdated": "2026-08-21T12:42:33.993Z",
+  "lastUpdated": "2026-08-22T01:08:29.514Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "AI News",
     "TechCrunch AI",
+    "AI News",
     "MIT Technology Review AI"
   ],
   "categories": [
-    "market",
+    "funding",
     "release",
+    "research",
     "regulation",
+    "market",
     "partnership"
   ]
 }
