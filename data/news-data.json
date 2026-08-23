@@ -1,6 +1,76 @@
 {
   "articles": [
     {
+      "id": "harvard-s-699-startup-bootcamp-offers-ai-avatars-o",
+      "title": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
+      "summary": "In the HBS Foundry program, AI avatars provide feedback during practice pitches and board meetings.",
+      "content": "In the HBS Foundry program, AI avatars provide feedback during practice pitches and board meetings.",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "publishedAt": "2026-08-22T21:46:56.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
+      "readTime": 3,
+      "views": 13021
+    },
+    {
+      "id": "inherent-founded-by-deepmind-alumni-says-its-ai-82",
+      "title": "Inherent, founded by DeepMind alumni, says its AI &#8216;teammate&#8217; just outperformed Anthropic and OpenAI at replicating research",
+      "summary": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
+      "content": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
+      "source": "TechCrunch AI",
+      "author": "Anna Heim",
+      "publishedAt": "2026-08-22T19:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "anthropic",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+      "readTime": 3,
+      "views": 51972
+    },
+    {
+      "id": "openai-says-california-should-strengthen-its-ai-sa",
+      "title": "OpenAI says California should strengthen its AI safety bill",
+      "summary": "OpenAI is calling for California to strengthen SB 53, an AI safety bill that the company previously opposed.",
+      "content": "OpenAI is calling for California to strengthen SB 53, an AI safety bill that the company previously opposed.",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "publishedAt": "2026-08-22T16:30:34.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
+      "readTime": 3,
+      "views": 18765
+    },
+    {
+      "id": "frontier-ai-labs-still-won-8217-t-say-how-they-821",
+      "title": "Frontier AI labs still won&#8217;t say how they&#8217;d contain a rogue model",
+      "summary": "A new study finds leading AI labs have few publicly documented plans for containing rogue models, raising questions about preparedness as AI systems increasingly demonstrate unexpected and potentially.",
+      "content": "A new study finds leading AI labs have few publicly documented plans for containing rogue models, raising questions about preparedness as AI systems increasingly demonstrate unexpected and potentially dangerous behavior.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-08-22T16:00:00.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
+      "readTime": 3,
+      "views": 31894
+    },
+    {
       "id": "anthropic-s-opus-4-6-is-a-smut-machine",
       "title": "Anthropic’s Opus 4.6 is a smut-machine",
       "summary": "Anthropic forbids its Claude models from generating sexually explicit content.  But a series of tests conducted by TechCrunch found that it didn't take much to get past the restriction.",
@@ -16,7 +86,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
       "readTime": 3,
-      "views": 35906
+      "views": 17565
     },
     {
       "id": "nvidia-partners-with-data-center-developer-cloverl",
@@ -32,7 +102,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
       "readTime": 3,
-      "views": 36392
+      "views": 52948
     },
     {
       "id": "nvidia-just-showed-that-the-harness-not-the-ai-mod",
@@ -49,7 +119,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
       "readTime": 3,
-      "views": 40761
+      "views": 23125
     },
     {
       "id": "starcloud-raises-250-million-for-orbital-data-cent",
@@ -65,7 +135,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
       "readTime": 3,
-      "views": 42566
+      "views": 32619
     },
     {
       "id": "the-doj-is-investigating-a16z-what-does-this-mean-",
@@ -79,7 +149,7 @@
       "tags": [],
       "url": "https://techcrunch.com/podcast/the-doj-is-investigating-a16z-what-does-this-mean-for-venture-capital/",
       "readTime": 3,
-      "views": 50668
+      "views": 49254
     },
     {
       "id": "how-ai-coding-tools-are-contributing-to-the-popula",
@@ -95,7 +165,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/how-ai-coding-tools-are-contributing-to-the-popularity-of-javascript/",
       "readTime": 3,
-      "views": 24958
+      "views": 16821
     },
     {
       "id": "ai-data-startup-micro1-reaches-500m-gross-run-rate",
@@ -111,7 +181,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
       "readTime": 3,
-      "views": 32337
+      "views": 18691
     },
     {
       "id": "openai-is-gaining-on-anthropic-with-business-users",
@@ -131,7 +201,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
       "readTime": 3,
-      "views": 16356
+      "views": 34284
     },
     {
       "id": "chatgpt-can-now-send-texts-for-you-with-new-apple-",
@@ -149,7 +219,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/",
       "readTime": 3,
-      "views": 53767
+      "views": 32606
     },
     {
       "id": "google-gives-publishers-a-new-way-to-fight-ai-driv",
@@ -166,7 +236,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
       "readTime": 3,
-      "views": 43370
+      "views": 7377
     },
     {
       "id": "runlayer-rippling-drop-lawsuits-but-the-brouhaha-i",
@@ -182,7 +252,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/20/runlayer-rippling-drop-lawsuits-but-the-brouhaha-is-still-a-cautionary-tale-for-founders/",
       "readTime": 3,
-      "views": 24842
+      "views": 23944
     },
     {
       "id": "linkdaze-s-smart-calendar-is-built-to-run-a-househ",
@@ -198,7 +268,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/20/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
       "readTime": 3,
-      "views": 50556
+      "views": 32649
     },
     {
       "id": "a-third-of-web-pages-published-since-chatgpt-launc",
@@ -217,7 +287,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
       "readTime": 3,
-      "views": 14365
+      "views": 47098
     },
     {
       "id": "ramp-launches-its-own-ai-model-router-called-route",
@@ -235,7 +305,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/",
       "readTime": 3,
-      "views": 22327
+      "views": 21336
     },
     {
       "id": "meta-brings-pocket-an-app-that-lets-you-vibe-code-",
@@ -252,7 +322,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/20/meta-brings-pocket-an-app-that-lets-you-vibe-code-and-share-games-to-us-users/",
       "readTime": 3,
-      "views": 50266
+      "views": 17670
     },
     {
       "id": "debates-over-ai-consciousness-are-a-trap",
@@ -268,76 +338,10 @@
       ],
       "url": "https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/",
       "readTime": 3,
-      "views": 47391
-    },
-    {
-      "id": "amazon-8217-s-prime-air-autonomous-drones-to-reach",
-      "title": "Amazon&#8217;s Prime Air autonomous drones to reach 500 US cities",
-      "summary": "Amazon plans to expand its Prime Air drone delivery service to nearly 500 cities and towns across the US by the end of 2026.  That build-out amounts to six times the number of locations Prime Air serv.",
-      "content": "Amazon plans to expand its Prime Air drone delivery service to nearly 500 cities and towns across the US by the end of 2026. That build-out amounts to six times the number of locations Prime Air serves today, extending the option to communities with tens of millions of customers, according to Amazon",
-      "source": "AI News",
-      "author": "Ryan Daws",
-      "publishedAt": "2026-08-20T14:05:18.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/amazons-prime-air-autonomous-drones-to-reach-500-us-cities/",
-      "readTime": 3,
-      "views": 22651
-    },
-    {
-      "id": "meta-ai-8217-s-new-mac-app-wants-you-to-talk-to-yo",
-      "title": "Meta AI&#8217;s new Mac app wants you to talk to your apps",
-      "summary": "The company said that the dictation feature works across all apps, just like other tools such as Wispr Flow, Superwhisper, and Monologue.",
-      "content": "The company said that the dictation feature works across all apps, just like other tools such as Wispr Flow, Superwhisper, and Monologue.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-08-20T12:11:57.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Meta"
-      ],
-      "url": "https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps/",
-      "readTime": 3,
-      "views": 18896
-    },
-    {
-      "id": "stripe-agrees-to-buy-openrouter-as-ai-model-routin",
-      "title": "Stripe agrees to buy OpenRouter as AI model routing expands",
-      "summary": "Stripe has agreed to acquire OpenRouter, an AI model-routing platform that gives developers access to hundreds of models through a single interface.  The deal adds model selection and routing to Strip.",
-      "content": "Stripe has agreed to acquire OpenRouter, an AI model-routing platform that gives developers access to hundreds of models through a single interface. The deal adds model selection and routing to Stripe’s existing work around AI usage and token-based billing. OpenRouter supports more than 400 models f",
-      "source": "AI News",
-      "author": "Muhammad Zulhusni",
-      "publishedAt": "2026-08-20T10:00:00.000Z",
-      "category": "partnership",
-      "tags": [
-        "ai",
-        "ai model"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/stripe-openrouter-acquisition-ai-model-routing/",
-      "readTime": 3,
-      "views": 10714
-    },
-    {
-      "id": "unlocking-hidden-revenue-streams-with-market-model",
-      "title": "Unlocking hidden revenue streams with market models",
-      "summary": "Each day, an airline transports tens of thousands of passengers on hundreds of flights.  Often these are not straightforward point-to-point routes, with passengers requiring multiple connections.",
-      "content": "Each day, an airline transports tens of thousands of passengers on hundreds of flights. Often these are not straightforward point-to-point routes, with passengers requiring multiple connections. The airline can consider potentially hundreds of variables to price each of these journeys: demand, seaso",
-      "source": "MIT Technology Review AI",
-      "author": "MIT Technology Review Insights",
-      "publishedAt": "2026-08-20T09:47:22.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/08/20/1142070/unlocking-hidden-revenue-streams-with-market-models/",
-      "readTime": 3,
-      "views": 18496
+      "views": 45839
     }
   ],
-  "lastUpdated": "2026-08-22T12:35:32.003Z",
+  "lastUpdated": "2026-08-23T01:14:03.376Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -346,11 +350,10 @@
     "MIT Technology Review AI"
   ],
   "categories": [
-    "funding",
     "release",
     "research",
+    "funding",
     "regulation",
-    "market",
-    "partnership"
+    "market"
   ]
 }
