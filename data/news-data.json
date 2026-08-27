@@ -1,10 +1,156 @@
 {
   "articles": [
     {
+      "id": "barret-zoph-the-thinking-machines-co-founder-ouste",
+      "title": "Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google",
+      "summary": "Zoph, who co-founded Thinking Machines Lab alongside Mira Murati and also served as the startup's CTO, led a brief stint at OpenAI and is now at Google.",
+      "content": "Zoph, who co-founded Thinking Machines Lab alongside Mira Murati and also served as the startup's CTO, led a brief stint at OpenAI and is now at Google.",
+      "source": "TechCrunch AI",
+      "author": "Lucas Ropek",
+      "publishedAt": "2026-08-27T19:52:52.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/",
+      "readTime": 3,
+      "views": 19312
+    },
+    {
+      "id": "openai-anthropic-google-and-100-other-companies-ca",
+      "title": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",
+      "summary": "Some of the world's largest tech companies and AI startups have come together to decry the current state of cybersecurity and to advertise a new solution that they say can ward off a new generation of.",
+      "content": "Some of the world's largest tech companies and AI startups have come together to decry the current state of cybersecurity and to advertise a new solution that they say can ward off a new generation of cyber threats.",
+      "source": "TechCrunch AI",
+      "author": "Lucas Ropek",
+      "publishedAt": "2026-08-27T17:43:24.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "anthropic",
+        "OpenAI",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
+      "readTime": 3,
+      "views": 45617
+    },
+    {
+      "id": "google-8217-s-ai-mode-can-now-track-flight-prices-",
+      "title": "Google&#8217;s AI Mode can now track flight prices, help book hotels, and more",
+      "summary": "The updates indicate that Google is looking to position AI Mode as an AI travel agent of sorts, as it's moving beyond simply helping users find information to actually handling parts of the trip-plann.",
+      "content": "The updates indicate that Google is looking to position AI Mode as an AI travel agent of sorts, as it's moving beyond simply helping users find information to actually handling parts of the trip-planning and booking process.",
+      "source": "TechCrunch AI",
+      "author": "Aisha Malik",
+      "publishedAt": "2026-08-27T16:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/",
+      "readTime": 3,
+      "views": 28378
+    },
+    {
+      "id": "hugging-face-is-selling-a-cute-399-open-source-duc",
+      "title": "Hugging Face is selling a cute $399 open source duck robot, Microduck",
+      "summary": "Clem Delangue, CEO of Hugging Face, said the Microduck is an “open-source robot you can teach new tricks with reinforcement learning.",
+      "content": "Clem Delangue, CEO of Hugging Face, said the Microduck is an “open-source robot you can teach new tricks with reinforcement learning.”",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-08-27T14:56:52.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/",
+      "readTime": 3,
+      "views": 11069
+    },
+    {
+      "id": "ai-8217-s-memory-crunch-is-coming-for-android-apps",
+      "title": "AI&#8217;s memory crunch is coming for Android apps",
+      "summary": "Google is setting new memory-use limits for Android apps as AI data centers contribute to hardware shortages that could leave lower-cost phones with less memory.",
+      "content": "Google is setting new memory-use limits for Android apps as AI data centers contribute to hardware shortages that could leave lower-cost phones with less memory.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-08-27T14:27:04.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2026/08/27/ais-memory-crunch-is-coming-for-android-apps/",
+      "readTime": 3,
+      "views": 50249
+    },
+    {
+      "id": "here-s-all-the-times-ai-has-gone-rogue-and-hacked-",
+      "title": "Here’s all the times AI has gone rogue and hacked other companies",
+      "summary": "A recap of all the incidents involving LLMs made by Anthropic, Meta, and OpenAI, which went rogue and attacked real companies and individuals on the internet.",
+      "content": "A recap of all the incidents involving LLMs made by Anthropic, Meta, and OpenAI, which went rogue and attacked real companies and individuals on the internet.",
+      "source": "TechCrunch AI",
+      "author": "Lorenzo Franceschi-Bicchierai",
+      "publishedAt": "2026-08-27T14:01:42.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "llm",
+        "openai",
+        "anthropic",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies/",
+      "readTime": 3,
+      "views": 20190
+    },
+    {
+      "id": "plaud-8217-s-new-earphones-come-with-an-esim-enabl",
+      "title": "Plaud&#8217;s new earphones come with an eSIM-enabled case for talking to AI agents",
+      "summary": "Called Plaud One, these adopt the simple bare-bones style of Apple's AirPods, and can record calls, while their case can be used to record in-person conversations or take notes.",
+      "content": "Called Plaud One, these adopt the simple bare-bones style of Apple's AirPods, and can record calls, while their case can be used to record in-person conversations or take notes.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-08-27T13:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Apple"
+      ],
+      "url": "https://techcrunch.com/2026/08/27/plauds-new-earphones-come-with-an-esim-enabled-case-for-talking-to-ai-agents/",
+      "readTime": 3,
+      "views": 35067
+    },
+    {
+      "id": "openai-to-start-showing-ads-on-chatgpt-8217-s-free",
+      "title": "OpenAI to start showing ads on ChatGPT&#8217;s free and Go tiers in India",
+      "summary": "OpenAI has more than 100 million weekly active ChatGPT users in India, a huge chunk of whom are on the free or the lower-priced Go tiers.",
+      "content": "OpenAI has more than 100 million weekly active ChatGPT users in India, a huge chunk of whom are on the free or the lower-priced Go tiers.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-08-27T11:35:59.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gpt",
+        "openai",
+        "chatgpt",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india/",
+      "readTime": 3,
+      "views": 15152
+    },
+    {
       "id": "nvidia-closes-in-on-hugging-face-acquisition",
       "title": "Nvidia closes in on Hugging Face acquisition",
-      "summary": "Nvidia has reportedly agreed to buy Hugging Face, the popular open-source AI hub, for $12. 9 billion in a move that would let Nvidia both protect its chip empire and jump back into the cloud business.",
-      "content": "Nvidia has reportedly agreed to buy Hugging Face, the popular open-source AI hub, for $12.9 billion in a move that would let Nvidia both protect its chip empire and jump back into the cloud business.",
+      "summary": "Nvidia has reportedly agreed to buy Hugging Face, the popular open source AI hub, for $12. 9 billion in a move that would let Nvidia both protect its chip empire and jump back into the cloud business.",
+      "content": "Nvidia has reportedly agreed to buy Hugging Face, the popular open source AI hub, for $12.9 billion in a move that would let Nvidia both protect its chip empire and jump back into the cloud business.",
       "source": "TechCrunch AI",
       "author": "Connie Loizos",
       "publishedAt": "2026-08-27T06:32:51.000Z",
@@ -14,7 +160,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/",
       "readTime": 3,
-      "views": 19470
+      "views": 45180
     },
     {
       "id": "viral-ai-startup-instinct-has-raised-350m-at-a-2-5",
@@ -30,7 +176,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/",
       "readTime": 3,
-      "views": 30684
+      "views": 16900
     },
     {
       "id": "anthropic-continues-compute-gobbling-streak-in-45b",
@@ -47,25 +193,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/",
       "readTime": 3,
-      "views": 22093
-    },
-    {
-      "id": "google-8217-s-gemini-has-a-branding-problem-and-so",
-      "title": "Google&#8217;s Gemini has a branding problem, and so does the rest of AI",
-      "summary": "Consumer AI apps need to stop making users learn their product architecture.",
-      "content": "Consumer AI apps need to stop making users learn their product architecture.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-08-26T19:37:34.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gemini",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/08/26/googles-gemini-has-a-branding-problem-and-so-does-the-rest-of-ai/",
-      "readTime": 3,
-      "views": 29051
+      "views": 32720
     },
     {
       "id": "how-do-we-explain-openai-8217-s-executive-exodus",
@@ -83,7 +211,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/26/how-do-we-explain-openais-executive-exodus/",
       "readTime": 3,
-      "views": 48822
+      "views": 18212
     },
     {
       "id": "openai-releases-its-official-report-on-the-hugging",
@@ -101,7 +229,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/",
       "readTime": 3,
-      "views": 54911
+      "views": 37902
     },
     {
       "id": "the-inside-story-on-why-openai-agents-hacked-huggi",
@@ -119,7 +247,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
       "readTime": 3,
-      "views": 10291
+      "views": 53171
     },
     {
       "id": "radar-makes-podcasts-searchable-and-usable-by-ai-a",
@@ -135,7 +263,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/26/radar-makes-podcasts-searchable-and-usable-by-ai-agents/",
       "readTime": 3,
-      "views": 26561
+      "views": 10345
     },
     {
       "id": "ex-meta-scientists-want-to-bring-visual-ai-to-the-",
@@ -153,7 +281,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/26/ex-meta-scientists-want-to-bring-visual-ai-to-the-factory-floor/",
       "readTime": 3,
-      "views": 15983
+      "views": 23799
     },
     {
       "id": "bill-gates-wants-to-see-a-robot-tax-and-8216-human",
@@ -169,7 +297,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/26/bill-gates-wants-to-see-a-robot-tax-and-human-reserved-jobs-to-mitigate-harms-from-ai/",
       "readTime": 3,
-      "views": 38161
+      "views": 7867
     },
     {
       "id": "surprise-z-ai-is-the-ai-lab-behind-the-mysterious-",
@@ -186,7 +314,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/26/surprise-z-ai-is-the-ai-lab-behind-the-mysterious-ox-alpha-model/",
       "readTime": 3,
-      "views": 35026
+      "views": 52084
     },
     {
       "id": "robot-brain-builders-are-pushing-out-of-their-gpt-",
@@ -203,107 +331,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/26/robot-brain-builders-are-pushing-out-of-their-gpt-2-era/",
       "readTime": 3,
-      "views": 11155
-    },
-    {
-      "id": "querystory-wants-you-to-believe-what-ai-is-telling",
-      "title": "QueryStory wants you to believe what AI is telling you",
-      "summary": "The startup came out of stealth with $6 million in seed funding and a plan to use LLMs and cybersecurity know-how to make AI queries coherent.",
-      "content": "The startup came out of stealth with $6 million in seed funding and a plan to use LLMs and cybersecurity know-how to make AI queries coherent.",
-      "source": "TechCrunch AI",
-      "author": "Tim Fernholz",
-      "publishedAt": "2026-08-26T13:00:00.000Z",
-      "category": "funding",
-      "tags": [
-        "ai",
-        "llm"
-      ],
-      "url": "https://techcrunch.com/2026/08/26/querystory-wants-you-to-believe-what-ai-is-telling-you/",
-      "readTime": 3,
-      "views": 28482
-    },
-    {
-      "id": "arga-labs-is-building-a-better-way-to-train-enterp",
-      "title": "Arga Labs is building a better way to train enterprise AI agents",
-      "summary": "Arga has raised $10 million in a seed funding round that was led by General Catalyst, with participation from Box Group, Emergence, Gradient and SV Angel.",
-      "content": "Arga has raised $10 million in a seed funding round that was led by General Catalyst, with participation from Box Group, Emergence, Gradient and SV Angel.",
-      "source": "TechCrunch AI",
-      "author": "Russell Brandom",
-      "publishedAt": "2026-08-26T12:55:28.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents/",
-      "readTime": 3,
-      "views": 11500
-    },
-    {
-      "id": "hearing-tech-startup-legato-emerges-from-stealth-w",
-      "title": "Hearing tech startup Legato emerges from stealth with $12M and a peek at its AI hearing glasses",
-      "summary": "The glasses, called Legato Frames, integrate the company’s patented hearing-assistance technology into the arms of eyewear frames.",
-      "content": "The glasses, called Legato Frames, integrate the company’s patented hearing-assistance technology into the arms of eyewear frames.",
-      "source": "TechCrunch AI",
-      "author": "Aisha Malik",
-      "publishedAt": "2026-08-26T12:00:00.000Z",
-      "category": "partnership",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/08/26/hearing-tech-startup-legato-emerges-from-stealth-with-12m-and-a-peek-at-its-ai-hearing-glasses/",
-      "readTime": 3,
-      "views": 46854
-    },
-    {
-      "id": "runable-hits-21m-to-bet-ai-agents-can-go-from-buil",
-      "title": "Runable hits $21M to bet AI agents can go from building businesses to growing them",
-      "summary": "Runable says 60% to 70% of its 1 trillion-plus token usage in the last 90 days came from paying customers.",
-      "content": "Runable says 60% to 70% of its 1 trillion-plus token usage in the last 90 days came from paying customers.",
-      "source": "TechCrunch AI",
-      "author": "Jagmeet Singh",
-      "publishedAt": "2026-08-26T11:00:00.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/08/26/runable-hits-21m-to-bet-ai-agents-can-go-from-building-businesses-to-growing-them/",
-      "readTime": 3,
-      "views": 14869
-    },
-    {
-      "id": "gatik-raises-200m-to-scale-ai-powered-autonomous-f",
-      "title": "Gatik raises $200M to scale AI-powered autonomous freight",
-      "summary": "Autonomous trucking company Gatik has raised $200 million in Series D funding to expand its driverless freight operations across North America.  The round was led by Qatar Investment Authority and Koc.",
-      "content": "Autonomous trucking company Gatik has raised $200 million in Series D funding to expand its driverless freight operations across North America. The round was led by Qatar Investment Authority and Koch Disruptive Technologies, with participation from Millennium Management, ARK Invest, Intact Private ",
-      "source": "AI News",
-      "author": "Muhammad Zulhusni",
-      "publishedAt": "2026-08-26T10:00:00.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/gatik-200m-ai-autonomous-freight/",
-      "readTime": 3,
-      "views": 11879
-    },
-    {
-      "id": "nvidia-jetson-orin-nano-2-brings-physical-ai-to-dr",
-      "title": "NVIDIA Jetson Orin Nano 2 brings physical AI to drones and robots",
-      "summary": "NVIDIA has unveiled the Jetson Orin Nano 2, an edge robotics computer aimed at bringing physical AI to drones, robots, and vision systems.  The company is positioning the new board as an entry-level o.",
-      "content": "NVIDIA has unveiled the Jetson Orin Nano 2, an edge robotics computer aimed at bringing physical AI to drones, robots, and vision systems. The company is positioning the new board as an entry-level option for developers who want generative AI models running directly on a machine instead of inside a ",
-      "source": "AI News",
-      "author": "Ryan Daws",
-      "publishedAt": "2026-08-26T09:08:11.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "generative ai",
-        "ai model",
-        "robotics"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/nvidia-jetson-orin-nano-2-physical-ai-to-drones-and-robots/",
-      "readTime": 3,
-      "views": 23216
+      "views": 33009
     },
     {
       "id": "raised-on-ai",
@@ -319,40 +347,19 @@
       ],
       "url": "https://www.technologyreview.com/2026/08/26/1141949/editors-letter-september-2026/",
       "readTime": 3,
-      "views": 15057
-    },
-    {
-      "id": "ai-models-flub-these-intelligence-tests-can-you-fa",
-      "title": "AI models flub these intelligence tests. Can you fare any better?",
-      "summary": "Puzzles and games have been central to AI development since the very beginning.  Just as we humans like to test our smarts with crosswords or logic puzzles, developers can test how far models have adv.",
-      "content": "Puzzles and games have been central to AI development since the very beginning. Just as we humans like to test our smarts with crosswords or logic puzzles, developers can test how far models have advanced with a gaming gauntlet. The term “machine learning” was popularized in a 1959 article by the IB",
-      "source": "MIT Technology Review AI",
-      "author": "Grace Huckins",
-      "publishedAt": "2026-08-26T09:00:00.000Z",
-      "category": "research",
-      "tags": [
-        "ai",
-        "machine learning",
-        "ai model"
-      ],
-      "url": "https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/",
-      "readTime": 3,
-      "views": 5407
+      "views": 43660
     }
   ],
-  "lastUpdated": "2026-08-27T07:26:54.736Z",
+  "lastUpdated": "2026-08-27T21:48:51.970Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
     "TechCrunch AI",
-    "MIT Technology Review AI",
-    "AI News"
+    "MIT Technology Review AI"
   ],
   "categories": [
-    "market",
-    "funding",
     "release",
-    "partnership",
-    "research"
+    "market",
+    "funding"
   ]
 }
