@@ -1,6 +1,94 @@
 {
   "articles": [
     {
+      "id": "neocloud-lambda-secures-1b-in-debt-to-buy-more-chi",
+      "title": "Neocloud Lambda secures $1B in debt to buy more chips",
+      "summary": "Neocloud Lambda has raised $1B in private debt to buy Nvidia AI chips and lease them to Microsoft.  It's the latest in a string of loans, underscoring the high cost of the AI boom.",
+      "content": "Neocloud Lambda has raised $1B in private debt to buy Nvidia AI chips and lease them to Microsoft. It's the latest in a string of loans, underscoring the high cost of the AI boom.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-08-28T20:24:11.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Microsoft"
+      ],
+      "url": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
+      "readTime": 3,
+      "views": 7512
+    },
+    {
+      "id": "an-anthropic-researcher-just-gave-us-a-peek-at-sel",
+      "title": "An Anthropic researcher just gave us a peek at self-improving AI",
+      "summary": "Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
+      "content": "Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
+      "source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "publishedAt": "2026-08-28T19:30:38.000Z",
+      "category": "research",
+      "tags": [
+        "ai",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
+      "readTime": 3,
+      "views": 26181
+    },
+    {
+      "id": "open-weight-ai-companies-are-the-valley-8217-s-hot",
+      "title": "Open-weight AI companies are the Valley&#8217;s hottest acquisition targets",
+      "summary": "There's a lot of capital pouring into the business of giving models away.",
+      "content": "There's a lot of capital pouring into the business of giving models away.",
+      "source": "TechCrunch AI",
+      "author": "Tim Fernholz",
+      "publishedAt": "2026-08-28T18:19:40.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/",
+      "readTime": 3,
+      "views": 37889
+    },
+    {
+      "id": "anthropic-gets-its-first-court-win-over-the-pentag",
+      "title": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
+      "summary": "A federal judge ruled the Trump administration illegally labeled Anthropic a supply-chain risk, handing the AI company a victory as its second Pentagon lawsuit continues in Washington.",
+      "content": "A federal judge ruled the Trump administration illegally labeled Anthropic a supply-chain risk, handing the AI company a victory as its second Pentagon lawsuit continues in Washington.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-08-28T12:46:12.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
+      "readTime": 3,
+      "views": 51979
+    },
+    {
+      "id": "meta-executive-leaves-for-openai-as-the-social-med",
+      "title": "Meta executive leaves for OpenAI as the social media giant faces growing scrutiny in India",
+      "summary": "Sandhya Devanathan will oversee some OpenAI operations across Southeast Asia and Australia in her new role.",
+      "content": "Sandhya Devanathan will oversee some OpenAI operations across Southeast Asia and Australia in her new role.",
+      "source": "TechCrunch AI",
+      "author": "Jagmeet Singh",
+      "publishedAt": "2026-08-28T12:21:06.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI",
+        "Meta"
+      ],
+      "url": "https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india/",
+      "readTime": 3,
+      "views": 36105
+    },
+    {
       "id": "anthropic-and-openai-are-joining-the-ai-stage-at-t",
       "title": "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026",
       "summary": "At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups.",
@@ -18,7 +106,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/",
       "readTime": 3,
-      "views": 38721
+      "views": 50092
     },
     {
       "id": "barret-zoph-the-thinking-machines-co-founder-ouste",
@@ -37,7 +125,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/",
       "readTime": 3,
-      "views": 42862
+      "views": 33381
     },
     {
       "id": "openai-anthropic-google-and-100-other-companies-ca",
@@ -57,7 +145,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
       "readTime": 3,
-      "views": 19839
+      "views": 29995
     },
     {
       "id": "google-8217-s-ai-mode-can-now-track-flight-prices-",
@@ -74,7 +162,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/",
       "readTime": 3,
-      "views": 23758
+      "views": 8475
     },
     {
       "id": "hugging-face-is-selling-a-cute-399-open-source-duc",
@@ -90,7 +178,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/",
       "readTime": 3,
-      "views": 52188
+      "views": 44393
     },
     {
       "id": "ai-8217-s-memory-crunch-is-coming-for-android-apps",
@@ -107,7 +195,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/27/ais-memory-crunch-is-coming-for-android-apps/",
       "readTime": 3,
-      "views": 30934
+      "views": 22853
     },
     {
       "id": "here-s-all-the-times-ai-has-gone-rogue-and-hacked-",
@@ -127,7 +215,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies/",
       "readTime": 3,
-      "views": 34183
+      "views": 21117
     },
     {
       "id": "plaud-8217-s-new-earphones-come-with-an-esim-enabl",
@@ -144,7 +232,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/27/plauds-new-earphones-come-with-an-esim-enabled-case-for-talking-to-ai-agents/",
       "readTime": 3,
-      "views": 20475
+      "views": 38089
     },
     {
       "id": "openai-to-start-showing-ads-on-chatgpt-8217-s-free",
@@ -164,7 +252,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india/",
       "readTime": 3,
-      "views": 25038
+      "views": 20676
     },
     {
       "id": "nvidia-closes-in-on-hugging-face-acquisition",
@@ -180,7 +268,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/",
       "readTime": 3,
-      "views": 16391
+      "views": 9065
     },
     {
       "id": "viral-ai-startup-instinct-has-raised-350m-at-a-2-5",
@@ -196,7 +284,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/",
       "readTime": 3,
-      "views": 39900
+      "views": 45514
     },
     {
       "id": "anthropic-continues-compute-gobbling-streak-in-45b",
@@ -213,43 +301,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/",
       "readTime": 3,
-      "views": 51295
-    },
-    {
-      "id": "how-do-we-explain-openai-8217-s-executive-exodus",
-      "title": "How do we explain OpenAI&#8217;s executive exodus?",
-      "summary": "Was Greg Brockman the right executive all along.",
-      "content": "Was Greg Brockman the right executive all along?",
-      "source": "TechCrunch AI",
-      "author": "Tim Fernholz",
-      "publishedAt": "2026-08-26T19:34:04.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/08/26/how-do-we-explain-openais-executive-exodus/",
-      "readTime": 3,
-      "views": 46219
-    },
-    {
-      "id": "openai-releases-its-official-report-on-the-hugging",
-      "title": "OpenAI releases its official report on the Hugging Face breach",
-      "summary": "The report, which spans several discrete cybersecurity compromises, is the most complete accounting of the incident to date.",
-      "content": "The report, which spans several discrete cybersecurity compromises, is the most complete accounting of the incident to date.",
-      "source": "TechCrunch AI",
-      "author": "Russell Brandom",
-      "publishedAt": "2026-08-26T19:05:22.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/",
-      "readTime": 3,
-      "views": 19289
+      "views": 51084
     },
     {
       "id": "the-inside-story-on-why-openai-agents-hacked-huggi",
@@ -267,74 +319,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
       "readTime": 3,
-      "views": 15054
-    },
-    {
-      "id": "radar-makes-podcasts-searchable-and-usable-by-ai-a",
-      "title": "Radar makes podcasts searchable — and usable by AI agents",
-      "summary": "Particle’s new podcast intelligence platform transcribes and analyzes more than 130,000 podcasts, making their conversations searchable on the web and accessible to AI agents through an API and MCP.",
-      "content": "Particle’s new podcast intelligence platform transcribes and analyzes more than 130,000 podcasts, making their conversations searchable on the web and accessible to AI agents through an API and MCP.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-08-26T15:47:28.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/08/26/radar-makes-podcasts-searchable-and-usable-by-ai-agents/",
-      "readTime": 3,
-      "views": 37278
-    },
-    {
-      "id": "ex-meta-scientists-want-to-bring-visual-ai-to-the-",
-      "title": "Ex-Meta scientists want to bring visual AI to the factory floor",
-      "summary": "Perceptron offers an AI model that it says can help machines navigate the world while also providing in-depth visual intelligence.",
-      "content": "Perceptron offers an AI model that it says can help machines navigate the world while also providing in-depth visual intelligence.",
-      "source": "TechCrunch AI",
-      "author": "Lucas Ropek",
-      "publishedAt": "2026-08-26T15:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "ai model",
-        "Meta"
-      ],
-      "url": "https://techcrunch.com/2026/08/26/ex-meta-scientists-want-to-bring-visual-ai-to-the-factory-floor/",
-      "readTime": 3,
-      "views": 50680
-    },
-    {
-      "id": "bill-gates-wants-to-see-a-robot-tax-and-8216-human",
-      "title": "Bill Gates wants to see a robot tax and &#8216;Human Reserved&#8217; jobs to mitigate harms from AI",
-      "summary": "Gates is mostly in the Responsible AI camp, but there are a few ideas in here we hadn't heard before.",
-      "content": "Gates is mostly in the Responsible AI camp, but there are a few ideas in here we hadn't heard before.",
-      "source": "TechCrunch AI",
-      "author": "Russell Brandom",
-      "publishedAt": "2026-08-26T14:37:01.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/08/26/bill-gates-wants-to-see-a-robot-tax-and-human-reserved-jobs-to-mitigate-harms-from-ai/",
-      "readTime": 3,
-      "views": 51568
-    },
-    {
-      "id": "surprise-z-ai-is-the-ai-lab-behind-the-mysterious-",
-      "title": "Surprise: Z.ai is the AI lab behind the mysterious Ox Alpha model",
-      "summary": "ai confirms it is behind Ox Alpha, the mysterious open AI model topping benchmarks and leaderboards, and its weights are set to be released soon.",
-      "content": "Z.ai confirms it is behind Ox Alpha, the mysterious open AI model topping benchmarks and leaderboards, and its weights are set to be released soon.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-08-26T14:19:29.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "ai model"
-      ],
-      "url": "https://techcrunch.com/2026/08/26/surprise-z-ai-is-the-ai-lab-behind-the-mysterious-ox-alpha-model/",
-      "readTime": 3,
-      "views": 6029
+      "views": 39502
     },
     {
       "id": "raised-on-ai",
@@ -350,10 +335,28 @@
       ],
       "url": "https://www.technologyreview.com/2026/08/26/1141949/editors-letter-september-2026/",
       "readTime": 3,
-      "views": 40824
+      "views": 25529
+    },
+    {
+      "id": "ai-models-flub-these-intelligence-tests-can-you-fa",
+      "title": "AI models flub these intelligence tests. Can you fare any better?",
+      "summary": "Puzzles and games have been central to AI development since the very beginning.  Just as we humans like to test our smarts with crosswords or logic puzzles, developers can test how far models have adv.",
+      "content": "Puzzles and games have been central to AI development since the very beginning. Just as we humans like to test our smarts with crosswords or logic puzzles, developers can test how far models have advanced with a gaming gauntlet. The term “machine learning” was popularized in a 1959 article by the IB",
+      "source": "MIT Technology Review AI",
+      "author": "Grace Huckins",
+      "publishedAt": "2026-08-26T09:00:00.000Z",
+      "category": "research",
+      "tags": [
+        "ai",
+        "machine learning",
+        "ai model"
+      ],
+      "url": "https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/",
+      "readTime": 3,
+      "views": 41913
     }
   ],
-  "lastUpdated": "2026-08-28T09:41:47.416Z",
+  "lastUpdated": "2026-08-28T21:43:56.519Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -362,7 +365,9 @@
   ],
   "categories": [
     "release",
+    "research",
     "market",
+    "regulation",
     "funding"
   ]
 }
