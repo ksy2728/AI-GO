@@ -1,6 +1,127 @@
 {
   "articles": [
     {
+      "id": "apple-shares-8216-shocking-evidence-8217-against-f",
+      "title": "Apple shares &#8216;shocking evidence&#8217; against former employee accused of stealing company data for OpenAI",
+      "summary": "Apple says it has evidence that a former employee destroyed evidence of data theft after learning he was under investigation.",
+      "content": "Apple says it has evidence that a former employee destroyed evidence of data theft after learning he was under investigation.",
+      "source": "TechCrunch AI",
+      "author": "Amanda Silberling",
+      "publishedAt": "2026-09-01T00:13:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI",
+        "Apple"
+      ],
+      "url": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
+      "readTime": 3,
+      "views": 17972
+    },
+    {
+      "id": "the-pentagon-now-has-its-own-version-of-chatgpt-an",
+      "title": "The Pentagon now has its own version of ChatGPT and Grok",
+      "summary": "Versions of OpenAI's ChatGPT and SpaceXAI's Grok will join Google's Gemini on the Pentagon's central portal for AI tools.",
+      "content": "Versions of OpenAI's ChatGPT and SpaceXAI's Grok will join Google's Gemini on the Pentagon's central portal for AI tools.",
+      "source": "TechCrunch AI",
+      "author": "Kirsten Korosec",
+      "publishedAt": "2026-08-31T20:13:45.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gpt",
+        "openai",
+        "gemini",
+        "chatgpt"
+      ],
+      "url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
+      "readTime": 3,
+      "views": 40425
+    },
+    {
+      "id": "instagram-puts-new-limits-on-undisclosed-ai-profil",
+      "title": "Instagram puts new limits on undisclosed AI profiles",
+      "summary": "As frustration over AI influencers has been growing, Instagram is limiting the reach of undisclosed AI profiles.",
+      "content": "As frustration over AI influencers has been growing, Instagram is limiting the reach of undisclosed AI profiles.",
+      "source": "TechCrunch AI",
+      "author": "Lauren Forristal",
+      "publishedAt": "2026-08-31T19:16:59.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles/",
+      "readTime": 3,
+      "views": 11171
+    },
+    {
+      "id": "harvard-law-dropout-raises-6m-for-blue-voice-to-bu",
+      "title": "Harvard Law dropout raises $6M for Blue Voice to build a &#8216;Harvey for police officers&#8217;",
+      "summary": "Blue Voice is trained on department-specific laws, local ordinances, protocols, and guidelines that general-purpose AI tools can't access on the public internet.",
+      "content": "Blue Voice is trained on department-specific laws, local ordinances, protocols, and guidelines that general-purpose AI tools can't access on the public internet.",
+      "source": "TechCrunch AI",
+      "author": "Marina Temkin",
+      "publishedAt": "2026-08-31T18:35:11.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/",
+      "readTime": 3,
+      "views": 52979
+    },
+    {
+      "id": "the-hugging-face-hack-could-indicate-cultural-issu",
+      "title": "The Hugging Face hack could indicate cultural issues at OpenAI",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI.  To get stories like this in your inbox first, sign up here.",
+      "content": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. By now you’ve probably heard about last month’s major AI security incident, in which OpenAI agents escaped their sandbox and hacked into the AI platform Hugging F",
+      "source": "MIT Technology Review AI",
+      "author": "Grace Huckins",
+      "publishedAt": "2026-08-31T18:00:00.000Z",
+      "category": "research",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
+      "readTime": 3,
+      "views": 54409
+    },
+    {
+      "id": "clipto-uses-ai-to-search-terabytes-of-video-and-is",
+      "title": "Clipto uses AI to search terabytes of video and is now valued at $250M",
+      "summary": "The three-year-old startup says it reached $15 million in ARR and profitability before raising its latest $15 million round.",
+      "content": "The three-year-old startup says it reached $15 million in ARR and profitability before raising its latest $15 million round.",
+      "source": "TechCrunch AI",
+      "author": "Kate Park",
+      "publishedAt": "2026-08-31T16:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/",
+      "readTime": 3,
+      "views": 33586
+    },
+    {
+      "id": "nvidia-s-3-5b-mediatek-bet-reveals-its-plan-for-ta",
+      "title": "Nvidia’s $3.5B MediaTek bet reveals its plan for tackling Big Tech&#8217;s AI chip buildout",
+      "summary": "5 billion into Taiwanese chipmaker MediaTek.  The deal shows how Nvidia plans to stay essential to AI infrastructure as Big Tech begins to build its own AI chips.",
+      "content": "Nvidia invests $3.5 billion into Taiwanese chipmaker MediaTek. The deal shows how Nvidia plans to stay essential to AI infrastructure as Big Tech begins to build its own AI chips.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-08-31T15:15:25.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/",
+      "readTime": 3,
+      "views": 5825
+    },
+    {
       "id": "caterpillar-is-bringing-to-ai-deployment-what-it-l",
       "title": "Caterpillar is bringing to AI deployment what it learned from automating mining",
       "summary": "Caterpillar has spent decades putting autonomous machines to work at remote mining sites.  It's now bringing that experience to AI deployment.",
@@ -14,11 +135,11 @@
       ],
       "url": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
       "readTime": 3,
-      "views": 29982
+      "views": 19703
     },
     {
-      "id": "sony-music-warner-sue-anthropic-alleging-a-8220-br",
-      "title": "Sony Music, Warner sue Anthropic, alleging a &#8220;brazen campaign&#8221; of intellectual property theft",
+      "id": "sony-music-warner-sue-anthropic-alleging-a-8216-br",
+      "title": "Sony Music, Warner sue Anthropic, alleging a &#8216;brazen campaign&#8217; of intellectual property theft",
       "summary": "This latest lawsuit is particularly broad and homes in on accusations of illegal piracy.",
       "content": "This latest lawsuit is particularly broad and homes in on accusations of illegal piracy.",
       "source": "TechCrunch AI",
@@ -32,11 +153,27 @@
       ],
       "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
       "readTime": 3,
-      "views": 50122
+      "views": 34600
     },
     {
-      "id": "8220-we-8217-re-not-doing-30-bets-a-year-8221-vija",
-      "title": "&#8220;We&#8217;re not doing 30 bets a year&#8221;: Vijay Pande on betting small after running $4 billion at a16z",
+      "id": "at-techbbq-europe-8217-s-ai-conversations-kept-com",
+      "title": "At TechBBQ, Europe&#8217;s AI conversations kept coming back to: Who&#8217;s actually in control?",
+      "summary": "Investors, founders, and operators from across Europe arrived for the annual Nordic TechBBQ conference to talk about how humans can have agency over AI.",
+      "content": "Investors, founders, and operators from across Europe arrived for the annual Nordic TechBBQ conference to talk about how humans can have agency over AI.",
+      "source": "TechCrunch AI",
+      "author": "Dominic-Madori Davis",
+      "publishedAt": "2026-08-29T17:51:10.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/08/29/at-techbbq-europes-ai-conversations-kept-coming-back-to-whos-actually-in-control/",
+      "readTime": 3,
+      "views": 10463
+    },
+    {
+      "id": "8216-we-8217-re-not-doing-30-bets-a-year-8217-vija",
+      "title": "&#8216;We&#8217;re not doing 30 bets a year&#8217;: Vijay Pande on betting small after running $4B at a16z",
       "summary": "Vijay Pande — who left a16z's roughly $4 billion biotech practice last year to start the much smaller, AI-native VZVC — talks about why biology is finally shifting from a \"discovery\" science to an \"en.",
       "content": "Vijay Pande — who left a16z's roughly $4 billion biotech practice last year to start the much smaller, AI-native VZVC — talks about why biology is finally shifting from a \"discovery\" science to an \"engineering\" one, why clinical trials are still brutally expensive, and why he thinks open, shared dat",
       "source": "TechCrunch AI",
@@ -48,7 +185,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/",
       "readTime": 3,
-      "views": 23847
+      "views": 42630
     },
     {
       "id": "nvidia-s-ai-advantage-is-moving-beyond-the-gpu",
@@ -64,7 +201,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
       "readTime": 3,
-      "views": 13839
+      "views": 19852
     },
     {
       "id": "neocloud-lambda-secures-1b-in-debt-to-buy-more-chi",
@@ -81,7 +218,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
       "readTime": 3,
-      "views": 34553
+      "views": 6266
     },
     {
       "id": "an-anthropic-researcher-just-gave-us-a-peek-at-sel",
@@ -99,7 +236,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
       "readTime": 3,
-      "views": 38706
+      "views": 14954
     },
     {
       "id": "open-weight-ai-companies-are-the-valley-8217-s-hot",
@@ -115,7 +252,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/",
       "readTime": 3,
-      "views": 16520
+      "views": 37335
     },
     {
       "id": "anthropic-gets-its-first-court-win-over-the-pentag",
@@ -133,7 +270,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
       "readTime": 3,
-      "views": 49592
+      "views": 32763
     },
     {
       "id": "meta-executive-leaves-for-openai-as-the-social-med",
@@ -152,153 +289,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india/",
       "readTime": 3,
-      "views": 43910
-    },
-    {
-      "id": "anthropic-and-openai-are-joining-the-ai-stage-at-t",
-      "title": "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026",
-      "summary": "At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups.",
-      "content": "At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups.",
-      "source": "TechCrunch AI",
-      "author": "TechCrunch Events",
-      "publishedAt": "2026-08-27T23:16:45.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "anthropic",
-        "OpenAI",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/",
-      "readTime": 3,
-      "views": 31591
-    },
-    {
-      "id": "barret-zoph-the-thinking-machines-co-founder-ouste",
-      "title": "Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google",
-      "summary": "Zoph, who co-founded Thinking Machines Lab alongside Mira Murati and also served as the startup's CTO, led a brief stint at OpenAI and is now at Google.",
-      "content": "Zoph, who co-founded Thinking Machines Lab alongside Mira Murati and also served as the startup's CTO, led a brief stint at OpenAI and is now at Google.",
-      "source": "TechCrunch AI",
-      "author": "Lucas Ropek",
-      "publishedAt": "2026-08-27T19:52:52.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/",
-      "readTime": 3,
-      "views": 47450
-    },
-    {
-      "id": "openai-anthropic-google-and-100-other-companies-ca",
-      "title": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",
-      "summary": "Some of the world's largest tech companies and AI startups have come together to decry the current state of cybersecurity and to advertise a new solution that they say can ward off a new generation of.",
-      "content": "Some of the world's largest tech companies and AI startups have come together to decry the current state of cybersecurity and to advertise a new solution that they say can ward off a new generation of cyber threats.",
-      "source": "TechCrunch AI",
-      "author": "Lucas Ropek",
-      "publishedAt": "2026-08-27T17:43:24.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "anthropic",
-        "OpenAI",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
-      "readTime": 3,
-      "views": 26811
-    },
-    {
-      "id": "google-8217-s-ai-mode-can-now-track-flight-prices-",
-      "title": "Google&#8217;s AI Mode can now track flight prices, help book hotels, and more",
-      "summary": "The updates indicate that Google is looking to position AI Mode as an AI travel agent of sorts, as it's moving beyond simply helping users find information to actually handling parts of the trip-plann.",
-      "content": "The updates indicate that Google is looking to position AI Mode as an AI travel agent of sorts, as it's moving beyond simply helping users find information to actually handling parts of the trip-planning and booking process.",
-      "source": "TechCrunch AI",
-      "author": "Aisha Malik",
-      "publishedAt": "2026-08-27T16:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/",
-      "readTime": 3,
-      "views": 22846
-    },
-    {
-      "id": "hugging-face-is-selling-a-cute-399-open-source-duc",
-      "title": "Hugging Face is selling a cute $399 open source duck robot, Microduck",
-      "summary": "Clem Delangue, CEO of Hugging Face, said the Microduck is an “open-source robot you can teach new tricks with reinforcement learning.",
-      "content": "Clem Delangue, CEO of Hugging Face, said the Microduck is an “open-source robot you can teach new tricks with reinforcement learning.”",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-08-27T14:56:52.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/",
-      "readTime": 3,
-      "views": 44812
-    },
-    {
-      "id": "ai-8217-s-memory-crunch-is-coming-for-android-apps",
-      "title": "AI&#8217;s memory crunch is coming for Android apps",
-      "summary": "Google is setting new memory-use limits for Android apps as AI data centers contribute to hardware shortages that could leave lower-cost phones with less memory.",
-      "content": "Google is setting new memory-use limits for Android apps as AI data centers contribute to hardware shortages that could leave lower-cost phones with less memory.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-08-27T14:27:04.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/08/27/ais-memory-crunch-is-coming-for-android-apps/",
-      "readTime": 3,
-      "views": 47999
-    },
-    {
-      "id": "here-s-all-the-times-ai-has-gone-rogue-and-hacked-",
-      "title": "Here’s all the times AI has gone rogue and hacked other companies",
-      "summary": "A recap of all the incidents involving LLMs made by Anthropic, Meta, and OpenAI, which went rogue and attacked real companies and individuals on the internet.",
-      "content": "A recap of all the incidents involving LLMs made by Anthropic, Meta, and OpenAI, which went rogue and attacked real companies and individuals on the internet.",
-      "source": "TechCrunch AI",
-      "author": "Lorenzo Franceschi-Bicchierai",
-      "publishedAt": "2026-08-27T14:01:42.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "llm",
-        "openai",
-        "anthropic",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies/",
-      "readTime": 3,
-      "views": 11578
-    },
-    {
-      "id": "plaud-8217-s-new-earphones-come-with-an-esim-enabl",
-      "title": "Plaud&#8217;s new earphones come with an eSIM-enabled case for talking to AI agents",
-      "summary": "Called Plaud One, these adopt the simple bare-bones style of Apple's AirPods, and can record calls, while their case can be used to record in-person conversations or take notes.",
-      "content": "Called Plaud One, these adopt the simple bare-bones style of Apple's AirPods, and can record calls, while their case can be used to record in-person conversations or take notes.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-08-27T13:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Apple"
-      ],
-      "url": "https://techcrunch.com/2026/08/27/plauds-new-earphones-come-with-an-esim-enabled-case-for-talking-to-ai-agents/",
-      "readTime": 3,
-      "views": 25631
+      "views": 46300
     },
     {
       "id": "a-quarter-of-nvidia-8217-s-business-next-year-come",
@@ -314,7 +305,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/nvidia-circular-financing-ai-labs/",
       "readTime": 3,
-      "views": 22159
+      "views": 18495
     },
     {
       "id": "the-inside-story-on-why-openai-agents-hacked-huggi",
@@ -332,7 +323,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
       "readTime": 3,
-      "views": 17372
+      "views": 16723
     },
     {
       "id": "gatik-raises-200m-to-scale-ai-powered-autonomous-f",
@@ -348,22 +339,22 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/gatik-200m-ai-autonomous-freight/",
       "readTime": 3,
-      "views": 30634
+      "views": 45316
     }
   ],
-  "lastUpdated": "2026-08-31T12:46:50.460Z",
+  "lastUpdated": "2026-09-01T03:42:57.125Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
     "TechCrunch AI",
-    "AI News",
-    "MIT Technology Review AI"
+    "MIT Technology Review AI",
+    "AI News"
   ],
   "categories": [
     "release",
-    "regulation",
+    "funding",
     "research",
-    "market",
-    "funding"
+    "regulation",
+    "market"
   ]
 }
