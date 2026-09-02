@@ -1,10 +1,101 @@
 {
   "articles": [
     {
+      "id": "afterquery-reportedly-becomes-y-combinator-8217-s-",
+      "title": "AfterQuery reportedly becomes Y Combinator&#8217;s fastest-ever unicorn, now valued at $3.2B",
+      "summary": "AI model-training startup AfterQuery has reportedly raised a round that valued it at $3. 2 billion, just five months after announcing its $30 million Series A at a $300 million valuation in April.",
+      "content": "AI model-training startup AfterQuery has reportedly raised a round that valued it at $3.2 billion, just five months after announcing its $30 million Series A at a $300 million valuation in April.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2026-09-01T22:08:24.000Z",
+      "category": "funding",
+      "tags": [
+        "ai",
+        "ai model"
+      ],
+      "url": "https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b/",
+      "readTime": 3,
+      "views": 10206
+    },
+    {
+      "id": "openai-8217-s-astra-model-is-on-the-way-and-very-g",
+      "title": "OpenAI&#8217;s Astra model is on the way — and very good at breaking into computer systems",
+      "summary": "OpenAI previewed the precautions it is taking as it prepares to release Astra, its newest, cyber-critical LLM.",
+      "content": "OpenAI previewed the precautions it is taking as it prepares to release Astra, its newest, cyber-critical LLM.",
+      "source": "TechCrunch AI",
+      "author": "Tim Fernholz",
+      "publishedAt": "2026-09-01T21:06:24.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "llm",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
+      "readTime": 3,
+      "views": 21013
+    },
+    {
+      "id": "google-8217-s-android-update-tackles-motion-sickne",
+      "title": "Google&#8217;s Android update tackles motion sickness, accessibility, and more",
+      "summary": "While some of the features see Google playing catch-up to Apple, which already offers similar features for iPhone users, others specifically leverage Gemini to provide various improvements.",
+      "content": "While some of the features see Google playing catch-up to Apple, which already offers similar features for iPhone users, others specifically leverage Gemini to provide various improvements.",
+      "source": "TechCrunch AI",
+      "author": "Lauren Forristal",
+      "publishedAt": "2026-09-01T20:53:05.000Z",
+      "category": "release",
+      "tags": [
+        "gemini",
+        "Google",
+        "Apple"
+      ],
+      "url": "https://techcrunch.com/2026/09/01/googles-android-update-tackles-motion-sickness-accessibility-and-more/",
+      "readTime": 3,
+      "views": 24453
+    },
+    {
+      "id": "anthropic-8217-s-new-fable-release-is-cheaper-less",
+      "title": "Anthropic&#8217;s new Fable release is cheaper, less restrictive",
+      "summary": "1 includes changes meant to reduce token cost and false-positive restrictions from the model's safeguards.",
+      "content": "Fable 5.1 includes changes meant to reduce token cost and false-positive restrictions from the model's safeguards.",
+      "source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "publishedAt": "2026-09-01T19:39:22.000Z",
+      "category": "release",
+      "tags": [
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive/",
+      "readTime": 3,
+      "views": 8571
+    },
+    {
+      "id": "chatgpt-health-adds-epic-integration-for-clinician",
+      "title": "ChatGPT Health adds Epic integration for clinicians to import patient data",
+      "summary": "OpenAI said that the integration provides read-only access to health records for clinicians.",
+      "content": "OpenAI said that the integration provides read-only access to health records for clinicians.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-09-01T17:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gpt",
+        "openai",
+        "chatgpt",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data/",
+      "readTime": 3,
+      "views": 25281
+    },
+    {
       "id": "air-raises-50m-to-help-companies-vet-the-skills-an",
       "title": "AIR raises $50M to help companies vet the skills and add-ons AI agents use",
-      "summary": "AIR's platform can discover agents running at a company, continuously vets any skills and add-ons they use, and blocks any unwanted behaviour.",
-      "content": "AIR's platform can discover agents running at a company, continuously vets any skills and add-ons they use, and blocks any unwanted behaviour.",
+      "summary": "AIR's platform can discover agents running at a company, continuously vets any skills and add-ons they use, and blocks any unwanted behavior.",
+      "content": "AIR's platform can discover agents running at a company, continuously vets any skills and add-ons they use, and blocks any unwanted behavior.",
       "source": "TechCrunch AI",
       "author": "Ram Iyer",
       "publishedAt": "2026-09-01T15:45:51.000Z",
@@ -14,7 +105,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/",
       "readTime": 3,
-      "views": 33007
+      "views": 11388
     },
     {
       "id": "fambot-introduces-an-8216-ai-chief-of-staff-8217-f",
@@ -30,7 +121,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/01/fambot-introduces-an-ai-chief-of-staff-for-families/",
       "readTime": 3,
-      "views": 22643
+      "views": 30480
     },
     {
       "id": "apple-shares-8216-shocking-evidence-8217-against-f",
@@ -49,7 +140,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
       "readTime": 3,
-      "views": 39636
+      "views": 10564
     },
     {
       "id": "the-pentagon-now-has-its-own-version-of-chatgpt-an",
@@ -69,7 +160,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
       "readTime": 3,
-      "views": 31836
+      "views": 25823
     },
     {
       "id": "instagram-puts-new-limits-on-undisclosed-ai-profil",
@@ -85,7 +176,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles/",
       "readTime": 3,
-      "views": 14544
+      "views": 49198
     },
     {
       "id": "harvard-law-dropout-raises-6m-for-blue-voice-to-bu",
@@ -101,7 +192,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/",
       "readTime": 3,
-      "views": 45477
+      "views": 32967
     },
     {
       "id": "the-hugging-face-hack-could-indicate-cultural-issu",
@@ -119,7 +210,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
       "readTime": 3,
-      "views": 6165
+      "views": 19085
     },
     {
       "id": "clipto-uses-ai-to-search-terabytes-of-video-and-is",
@@ -135,7 +226,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/",
       "readTime": 3,
-      "views": 44559
+      "views": 6555
     },
     {
       "id": "nvidia-s-3-5b-mediatek-bet-reveals-its-plan-for-ta",
@@ -151,7 +242,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/",
       "readTime": 3,
-      "views": 12129
+      "views": 51258
     },
     {
       "id": "caterpillar-is-bringing-to-ai-deployment-what-it-l",
@@ -167,108 +258,7 @@
       ],
       "url": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
       "readTime": 3,
-      "views": 24208
-    },
-    {
-      "id": "sony-music-warner-sue-anthropic-alleging-a-8216-br",
-      "title": "Sony Music, Warner sue Anthropic, alleging a &#8216;brazen campaign&#8217; of intellectual property theft",
-      "summary": "This latest lawsuit is particularly broad and homes in on accusations of illegal piracy.",
-      "content": "This latest lawsuit is particularly broad and homes in on accusations of illegal piracy.",
-      "source": "TechCrunch AI",
-      "author": "Kirsten Korosec",
-      "publishedAt": "2026-08-29T18:41:59.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai",
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
-      "readTime": 3,
-      "views": 12281
-    },
-    {
-      "id": "at-techbbq-europe-8217-s-ai-conversations-kept-com",
-      "title": "At TechBBQ, Europe&#8217;s AI conversations kept coming back to: Who&#8217;s actually in control?",
-      "summary": "Investors, founders, and operators from across Europe arrived for the annual Nordic TechBBQ conference to talk about how humans can have agency over AI.",
-      "content": "Investors, founders, and operators from across Europe arrived for the annual Nordic TechBBQ conference to talk about how humans can have agency over AI.",
-      "source": "TechCrunch AI",
-      "author": "Dominic-Madori Davis",
-      "publishedAt": "2026-08-29T17:51:10.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/08/29/at-techbbq-europes-ai-conversations-kept-coming-back-to-whos-actually-in-control/",
-      "readTime": 3,
-      "views": 53070
-    },
-    {
-      "id": "8216-we-8217-re-not-doing-30-bets-a-year-8217-vija",
-      "title": "&#8216;We&#8217;re not doing 30 bets a year&#8217;: Vijay Pande on betting small after running $4B at a16z",
-      "summary": "Vijay Pande — who left a16z's roughly $4 billion biotech practice last year to start the much smaller, AI-native VZVC — talks about why biology is finally shifting from a \"discovery\" science to an \"en.",
-      "content": "Vijay Pande — who left a16z's roughly $4 billion biotech practice last year to start the much smaller, AI-native VZVC — talks about why biology is finally shifting from a \"discovery\" science to an \"engineering\" one, why clinical trials are still brutally expensive, and why he thinks open, shared dat",
-      "source": "TechCrunch AI",
-      "author": "Connie Loizos",
-      "publishedAt": "2026-08-29T17:36:47.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/",
-      "readTime": 3,
-      "views": 23279
-    },
-    {
-      "id": "nvidia-s-ai-advantage-is-moving-beyond-the-gpu",
-      "title": "Nvidia’s AI advantage is moving beyond the GPU",
-      "summary": "The new generation of data center systems is increasing efficiency with smarter traffic control instead of just more processor cycles.",
-      "content": "The new generation of data center systems is increasing efficiency with smarter traffic control instead of just more processor cycles.",
-      "source": "TechCrunch AI",
-      "author": "Russell Brandom",
-      "publishedAt": "2026-08-29T13:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
-      "readTime": 3,
-      "views": 28732
-    },
-    {
-      "id": "neocloud-lambda-secures-1b-in-debt-to-buy-more-chi",
-      "title": "Neocloud Lambda secures $1B in debt to buy more chips",
-      "summary": "Neocloud Lambda has raised $1B in private debt to buy Nvidia AI chips and lease them to Microsoft.  It's the latest in a string of loans, underscoring the high cost of the AI boom.",
-      "content": "Neocloud Lambda has raised $1B in private debt to buy Nvidia AI chips and lease them to Microsoft. It's the latest in a string of loans, underscoring the high cost of the AI boom.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-08-28T20:24:11.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Microsoft"
-      ],
-      "url": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
-      "readTime": 3,
-      "views": 22958
-    },
-    {
-      "id": "an-anthropic-researcher-just-gave-us-a-peek-at-sel",
-      "title": "An Anthropic researcher just gave us a peek at self-improving AI",
-      "summary": "Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
-      "content": "Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
-      "source": "TechCrunch AI",
-      "author": "Russell Brandom",
-      "publishedAt": "2026-08-28T19:30:38.000Z",
-      "category": "research",
-      "tags": [
-        "ai",
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
-      "readTime": 3,
-      "views": 44972
+      "views": 51250
     },
     {
       "id": "the-inside-story-on-why-openai-agents-hacked-huggi",
@@ -286,7 +276,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
       "readTime": 3,
-      "views": 13262
+      "views": 7314
     },
     {
       "id": "raised-on-ai",
@@ -302,7 +292,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/08/26/1141949/editors-letter-september-2026/",
       "readTime": 3,
-      "views": 46015
+      "views": 15655
     },
     {
       "id": "ai-models-flub-these-intelligence-tests-can-you-fa",
@@ -320,7 +310,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/",
       "readTime": 3,
-      "views": 36137
+      "views": 33893
     },
     {
       "id": "bill-gates-says-we-ve-passed-ai-s-danger-threshold",
@@ -336,10 +326,27 @@
       ],
       "url": "https://www.technologyreview.com/2026/08/26/1142946/bill-gates-ai-danger-threshold/",
       "readTime": 3,
-      "views": 9687
+      "views": 31161
+    },
+    {
+      "id": "i-spent-a-day-at-a-robot-carnival-in-shanghai-here",
+      "title": "I spent a day at a robot “carnival” in Shanghai. Here’s what I saw.",
+      "summary": "Humanoid robots are having a moment in China.  The popular machines are part of the country’s strategy to bring artificial intelligence into daily life.",
+      "content": "Humanoid robots are having a moment in China. The popular machines are part of the country’s strategy to bring artificial intelligence into daily life. Embedding the technology into physical systems—an idea called embodied AI—was a key facet of China’s latest five-year plan, and companies here are a",
+      "source": "MIT Technology Review AI",
+      "author": "You Xiaoying",
+      "publishedAt": "2026-08-25T09:00:00.000Z",
+      "category": "research",
+      "tags": [
+        "artificial intelligence",
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival/",
+      "readTime": 3,
+      "views": 22421
     }
   ],
-  "lastUpdated": "2026-09-01T16:06:15.211Z",
+  "lastUpdated": "2026-09-02T03:01:25.709Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -349,7 +356,6 @@
   "categories": [
     "funding",
     "release",
-    "research",
-    "regulation"
+    "research"
   ]
 }
