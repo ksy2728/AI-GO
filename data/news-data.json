@@ -1,6 +1,61 @@
 {
   "articles": [
     {
+      "id": "seattle-times-and-newsday-are-the-latest-publicati",
+      "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
+      "summary": "Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI.",
+      "content": "Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI.",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "publishedAt": "2026-09-05T22:49:55.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI",
+        "Microsoft"
+      ],
+      "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+      "readTime": 3,
+      "views": 15428
+    },
+    {
+      "id": "hikers-rescued-after-using-google-gemini-for-plann",
+      "title": "Hikers rescued after using Google Gemini for planning",
+      "summary": "The sheriff’s office said the hikers “were advised by Gemini to bring far less food and water than their group required.",
+      "content": "The sheriff’s office said the hikers “were advised by Gemini to bring far less food and water than their group required.\"",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "publishedAt": "2026-09-05T19:35:24.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gemini",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
+      "readTime": 3,
+      "views": 23831
+    },
+    {
+      "id": "openai-confirms-wiki-incident-says-it-s-working-on",
+      "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
+      "summary": "OpenAI acknowledged its role in a recently reported incident where AI agents took over a German wiki forum.",
+      "content": "OpenAI acknowledged its role in a recently reported incident where AI agents took over a German wiki forum.",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "publishedAt": "2026-09-05T18:05:27.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
+      "readTime": 3,
+      "views": 13407
+    },
+    {
       "id": "xdof-just-three-months-out-of-stealth-is-in-talks-",
       "title": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
       "summary": "The round is being raised just months after the robot data startup exited from stealth.",
@@ -14,7 +69,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
       "readTime": 3,
-      "views": 50493
+      "views": 33986
     },
     {
       "id": "openai-8217-s-rogue-agents-keep-escaping-with-no-f",
@@ -32,7 +87,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
       "readTime": 3,
-      "views": 29764
+      "views": 7497
     },
     {
       "id": "ai-compute-provider-nscale-is-looking-for-3-5b-in-",
@@ -50,7 +105,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
       "readTime": 3,
-      "views": 29819
+      "views": 24308
     },
     {
       "id": "architecting-memory-and-storage-in-the-ai-era",
@@ -66,7 +121,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
       "readTime": 3,
-      "views": 19202
+      "views": 23377
     },
     {
       "id": "what-will-apple-8217-s-john-ternus-era-look-like",
@@ -82,7 +137,7 @@
       ],
       "url": "https://techcrunch.com/video/what-will-apples-john-ternus-era-look-like/",
       "readTime": 3,
-      "views": 48502
+      "views": 7168
     },
     {
       "id": "another-swarm-of-openai-agents-reached-the-open-in",
@@ -100,7 +155,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
       "readTime": 3,
-      "views": 54501
+      "views": 37849
     },
     {
       "id": "apple-8217-s-ternus-era-begins-as-nvidia-bets-on-t",
@@ -117,7 +172,7 @@
       ],
       "url": "https://techcrunch.com/podcast/apples-ternus-era-begins-as-nvidia-bets-on-the-whole-ai-stack/",
       "readTime": 3,
-      "views": 12272
+      "views": 45565
     },
     {
       "id": "google-8217-s-gemini-spark-can-now-manage-your-goo",
@@ -135,23 +190,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
       "readTime": 3,
-      "views": 44784
-    },
-    {
-      "id": "m-038-t-bank-expands-enterprise-ai-after-years-of-",
-      "title": "M&#038;T Bank expands enterprise AI after years of technology overhaul",
-      "summary": "M&#38;T Bank has deployed AI copilots to more than 15,000 employees as the US regional bank applies AI to internal operations, customer service, software development, and risk management.  The bank us.",
-      "content": "M&#38;T Bank has deployed AI copilots to more than 15,000 employees as the US regional bank applies AI to internal operations, customer service, software development, and risk management. The bank uses AI to analyse call-centre conversations, draft reports, generate code, identify customer needs, an",
-      "source": "AI News",
-      "author": "Muhammad Zulhusni",
-      "publishedAt": "2026-09-04T10:00:00.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/mt-bank-enterprise-ai-15000-employees/",
-      "readTime": 3,
-      "views": 12224
+      "views": 15269
     },
     {
       "id": "data-from-drones-in-ukraine-is-fueling-a-new-wild-",
@@ -168,23 +207,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/",
       "readTime": 3,
-      "views": 25819
-    },
-    {
-      "id": "50-5-of-americans-say-ai-romance-can-count-as-chea",
-      "title": "50.5% of Americans Say AI Romance Can Count as Cheating",
-      "summary": "Just over half of American adults, 50. 5%, say a partner&#8217;s romantic or sexual relationship with an AI can count as cheating.",
-      "content": "Just over half of American adults, 50.5%, say a partner&#8217;s romantic or sexual relationship with an AI can count as cheating. The figure comes from an AI romance survey of 2,150 U.S. adults, run by AI Girlfriend Coach through SurveyMonkey Audience on 26 and 27 August 2026 and analysed on the 1,7",
-      "source": "AI News",
-      "author": "Ranji Phillip R. Mercado",
-      "publishedAt": "2026-09-04T08:25:12.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/50-5-of-americans-say-ai-romance-can-count-as-cheating/",
-      "readTime": 3,
-      "views": 18223
+      "views": 45735
     },
     {
       "id": "the-sameness-problem-behind-those-unappetizing-ai-",
@@ -201,7 +224,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/",
       "readTime": 3,
-      "views": 24576
+      "views": 32754
     },
     {
       "id": "crusoe-reportedly-raises-3b-at-a-30b-valuation",
@@ -217,7 +240,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
       "readTime": 3,
-      "views": 54612
+      "views": 19667
     },
     {
       "id": "abliteration-ai-is-making-a-business-out-of-removi",
@@ -234,7 +257,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
       "readTime": 3,
-      "views": 19567
+      "views": 18414
     },
     {
       "id": "meta-is-paying-to-peek-at-how-you-use-their-latest",
@@ -252,7 +275,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
       "readTime": 3,
-      "views": 28160
+      "views": 41825
     },
     {
       "id": "openai-launches-astra-its-powerful-and-controversi",
@@ -270,7 +293,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
       "readTime": 3,
-      "views": 18790
+      "views": 40457
     },
     {
       "id": "ollie-is-betting-its-focus-on-privacy-can-help-it-",
@@ -287,70 +310,55 @@
       ],
       "url": "https://techcrunch.com/2026/09/03/ollie-is-betting-privacy-can-win-the-ai-assistant-race/",
       "readTime": 3,
-      "views": 23757
+      "views": 51153
     },
     {
-      "id": "onerail-uses-nvidia-ai-for-real-time-last-mile-del",
-      "title": "OneRail uses Nvidia AI for real-time last-mile delivery optimisation",
-      "summary": "OneRail has launched an AI-powered delivery platform that uses Nvidia technology to help retailers, wholesalers, and distributors decide how individual orders should be delivered.  Called OmniSTAR, th.",
-      "content": "OneRail has launched an AI-powered delivery platform that uses Nvidia technology to help retailers, wholesalers, and distributors decide how individual orders should be delivered. Called OmniSTAR, the system evaluates options including owned fleets, couriers, parcel carriers, and other delivery mode",
-      "source": "AI News",
-      "author": "Muhammad Zulhusni",
-      "publishedAt": "2026-09-03T16:07:18.000Z",
-      "category": "release",
+      "id": "facilitating-ai-integration-with-simplicity-at-sca",
+      "title": "Facilitating AI integration with simplicity at scale",
+      "summary": "As companies scale, the technology supporting operations can become a liability just as quickly as it becomes an asset.  Disconnected systems, site-specific tools, spreadsheets, and manual workarounds.",
+      "content": "As companies scale, the technology supporting operations can become a liability just as quickly as it becomes an asset. Disconnected systems, site-specific tools, spreadsheets, and manual workarounds can create data silos that make it harder to spot problems early, coordinate responses, and make dec",
+      "source": "MIT Technology Review AI",
+      "author": "MIT Technology Review Insights",
+      "publishedAt": "2026-09-02T14:00:00.000Z",
+      "category": "research",
       "tags": [
         "ai"
       ],
-      "url": "https://www.artificialintelligence-news.com/news/ai-last-mile-delivery-optimisation/",
+      "url": "https://www.technologyreview.com/2026/09/02/1142879/facilitating-ai-integration-with-simplicity-at-scale/",
       "readTime": 3,
-      "views": 16890
+      "views": 18524
     },
     {
-      "id": "nvidia-to-acquire-hugging-face-for-12-93b",
-      "title": "NVIDIA to acquire Hugging Face for $12.93B",
-      "summary": "NVIDIA has agreed to acquire Hugging Face for $12. 93 billion to scale the open-source model repository&#8217;s platform and infrastructure.",
-      "content": "NVIDIA has agreed to acquire Hugging Face for $12.93 billion to scale the open-source model repository&#8217;s platform and infrastructure. The transaction targets platform growth and infrastructure investment, aiming to expand AI access for enterprise developers, software engineers, and research in",
-      "source": "AI News",
-      "author": "Ryan Daws",
-      "publishedAt": "2026-09-03T15:50:31.000Z",
-      "category": "funding",
+      "id": "the-hugging-face-hack-could-indicate-cultural-issu",
+      "title": "The Hugging Face hack could indicate cultural issues at OpenAI",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI.  To get stories like this in your inbox first, sign up here.",
+      "content": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. By now you’ve probably heard about last month’s major AI security incident, in which OpenAI agents escaped their sandbox and hacked into the AI platform Hugging F",
+      "source": "MIT Technology Review AI",
+      "author": "Grace Huckins",
+      "publishedAt": "2026-08-31T18:00:00.000Z",
+      "category": "research",
       "tags": [
-        "ai"
+        "ai",
+        "openai",
+        "OpenAI"
       ],
-      "url": "https://www.artificialintelligence-news.com/news/nvidia-to-acquire-hugging-face-for-12-93b/",
+      "url": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
       "readTime": 3,
-      "views": 35787
-    },
-    {
-      "id": "nvidia-confirms-it-will-buy-hugging-face-for-12-9-",
-      "title": "Nvidia confirms it will buy Hugging Face for $12.9 billion",
-      "summary": "Nvidia said Hugging Face hosts over 3 million models and is used by over 18 million developers.",
-      "content": "Nvidia said Hugging Face hosts over 3 million models and is used by over 18 million developers.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-09-03T12:42:45.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
-      "readTime": 3,
-      "views": 5098
+      "views": 10389
     }
   ],
-  "lastUpdated": "2026-09-05T14:38:24.055Z",
+  "lastUpdated": "2026-09-06T03:04:35.524Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
     "TechCrunch AI",
-    "MIT Technology Review AI",
-    "AI News"
+    "MIT Technology Review AI"
   ],
   "categories": [
+    "release",
     "funding",
     "regulation",
     "research",
-    "release",
     "market"
   ]
 }
