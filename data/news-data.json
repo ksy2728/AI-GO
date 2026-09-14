@@ -1,6 +1,39 @@
 {
   "articles": [
     {
+      "id": "what-8217-s-behind-the-ai-industry-s-latest-warnin",
+      "title": "What&#8217;s behind the AI industry’s latest warnings of doom?",
+      "summary": "On Equity, we discussed the AI industry's latest debate about whether it poses an existential threat to humanity.",
+      "content": "On Equity, we discussed the AI industry's latest debate about whether it poses an existential threat to humanity.",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "publishedAt": "2026-09-13T19:40:15.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/",
+      "readTime": 3,
+      "views": 15604
+    },
+    {
+      "id": "obama-urges-democrats-to-have-a-clear-plan-for-ai-",
+      "title": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
+      "summary": "Obama recently said that Democrats need to make artificial intelligence one of their “central agendas” and “have a very clear plan” to address concerns around the technology’s economic impact and safe.",
+      "content": "Obama recently said that Democrats need to make artificial intelligence one of their “central agendas” and “have a very clear plan” to address concerns around the technology’s economic impact and safety.",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "publishedAt": "2026-09-13T16:30:00.000Z",
+      "category": "release",
+      "tags": [
+        "artificial intelligence",
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
+      "readTime": 3,
+      "views": 50254
+    },
+    {
       "id": "openai-s-sam-altman-says-it-would-be-8216-ill-advi",
       "title": "OpenAI’s Sam Altman says it would be &#8216;ill-advised&#8217; to go public in 2026",
       "summary": "While OpenAI has filed confidentially for an IPO, the company will not be going public this year, according to CEO Sam Altman.",
@@ -16,7 +49,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/",
       "readTime": 3,
-      "views": 24509
+      "views": 45927
     },
     {
       "id": "anthropic-ceo-outlines-plan-to-slow-ai-development",
@@ -36,7 +69,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
       "readTime": 3,
-      "views": 50872
+      "views": 5439
     },
     {
       "id": "mecka-ai-nears-500m-valuation-in-sequoia-led-deal-",
@@ -52,7 +85,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
       "readTime": 3,
-      "views": 14581
+      "views": 32849
     },
     {
       "id": "y-combinator-8217-s-garry-tan-wants-us-open-weight",
@@ -68,7 +101,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
       "readTime": 3,
-      "views": 48645
+      "views": 46836
     },
     {
       "id": "openai-8217-s-feud-with-mathematicians-is-only-esc",
@@ -86,7 +119,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/",
       "readTime": 3,
-      "views": 29366
+      "views": 48187
     },
     {
       "id": "roundtables-could-ai-really-kill-us-all",
@@ -102,7 +135,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/",
       "readTime": 3,
-      "views": 20776
+      "views": 44381
     },
     {
       "id": "kimi-maker-moonshot-ai-targets-2b-in-annual-revenu",
@@ -118,7 +151,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/",
       "readTime": 3,
-      "views": 16291
+      "views": 51457
     },
     {
       "id": "an-anthropic-researcher-s-doomsday-warning-comes-a",
@@ -136,7 +169,7 @@
       ],
       "url": "https://techcrunch.com/podcast/an-anthropic-researchers-doomsday-warning-comes-at-a-very-interesting-time/",
       "readTime": 3,
-      "views": 53266
+      "views": 37910
     },
     {
       "id": "nscale-adds-former-openai-exec-fidji-simo-to-its-b",
@@ -154,7 +187,23 @@
       ],
       "url": "https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/",
       "readTime": 3,
-      "views": 25611
+      "views": 12552
+    },
+    {
+      "id": "palantir-foundry-and-cuopt-drive-nvidia-supply-cha",
+      "title": "Palantir Foundry and cuOpt drive NVIDIA supply chain allocation",
+      "summary": "NVIDIA is using Palantir Foundry and cuOpt to automate its hardware supply chain allocation decisions across global manufacturing sites.  The company measures operational delivery from wafer-out to fi.",
+      "content": "NVIDIA is using Palantir Foundry and cuOpt to automate its hardware supply chain allocation decisions across global manufacturing sites. The company measures operational delivery from wafer-out to first token. This window splits into time-to-rack (the transit from fab output to an assembled data cen",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-09-11T12:00:18.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/palantir-foundry-cuopt-nvidia-supply-chain-allocation/",
+      "readTime": 3,
+      "views": 24504
     },
     {
       "id": "jensen-huang-explains-why-nvidia-will-grow-an-asto",
@@ -170,7 +219,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
       "readTime": 3,
-      "views": 40910
+      "views": 51552
     },
     {
       "id": "openai-puts-pro-subscriptions-on-hold-due-to-astra",
@@ -188,7 +237,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/",
       "readTime": 3,
-      "views": 50283
+      "views": 17693
     },
     {
       "id": "anthropic-details-distillation-campaigns-from-alib",
@@ -206,7 +255,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
       "readTime": 3,
-      "views": 52035
+      "views": 53192
     },
     {
       "id": "meta-8217-s-ai-agent-muse-is-now-the-no-2-app-in-t",
@@ -223,7 +272,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
       "readTime": 3,
-      "views": 47142
+      "views": 8573
     },
     {
       "id": "anthropic-reveals-rogue-ai-agents-hate-captchas-ju",
@@ -241,7 +290,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agents-hate-captchas-just-like-you/",
       "readTime": 3,
-      "views": 10417
+      "views": 25754
     },
     {
       "id": "india-8217-s-pocket-fm-doubles-revenue-run-rate-to",
@@ -257,39 +306,23 @@
       ],
       "url": "https://techcrunch.com/2026/09/10/indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powers-93-of-audio-content/",
       "readTime": 3,
-      "views": 23129
+      "views": 52297
     },
     {
-      "id": "ai-agents-are-flooding-public-services-with-new-re",
-      "title": "AI agents are flooding public services with new requests",
-      "summary": "“The vast majority of cases we find are people who are entitled to claim for something, claiming for that thing,” the researcher told TechCrunch.",
-      "content": "“The vast majority of cases we find are people who are entitled to claim for something, claiming for that thing,” the researcher told TechCrunch.",
-      "source": "TechCrunch AI",
-      "author": "Russell Brandom",
-      "publishedAt": "2026-09-10T14:53:50.000Z",
-      "category": "research",
+      "id": "supply-chains-detect-fast-act-slow-how-ai-agents-f",
+      "title": "Supply chains detect fast, act slow: How AI agents fix it",
+      "summary": "Supply chain disruption cost businesses about $184 billion in 2025, according to the J.  Held Global Risk Report, and most of that bill still buys faster detection, not faster action.",
+      "content": "Supply chain disruption cost businesses about $184 billion in 2025, according to the J.S. Held Global Risk Report, and most of that bill still buys faster detection, not faster action. That figure is usually treated as weather (i.e. storms happen, costs follow.) Treated as a product specification in",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-09-10T16:34:43.000Z",
+      "category": "market",
       "tags": [
         "ai"
       ],
-      "url": "https://techcrunch.com/2026/09/10/ai-agents-are-flooding-public-services-with-new-requests/",
+      "url": "https://www.artificialintelligence-news.com/news/supply-chains-detect-fast-act-slow-how-ai-agents-fix-it/",
       "readTime": 3,
-      "views": 21799
-    },
-    {
-      "id": "maven-robotics-wants-to-steal-your-robot-deploymen",
-      "title": "Maven Robotics wants to steal your robot deployment deal",
-      "summary": "Maven Robotics emerged from stealth today with a $100 million Series A and active deployments.",
-      "content": "Maven Robotics emerged from stealth today with a $100 million Series A and active deployments.",
-      "source": "TechCrunch AI",
-      "author": "Tim Fernholz",
-      "publishedAt": "2026-09-10T14:17:37.000Z",
-      "category": "funding",
-      "tags": [
-        "robotics"
-      ],
-      "url": "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/",
-      "readTime": 3,
-      "views": 27640
+      "views": 19454
     },
     {
       "id": "powering-ai-is-an-architecture-problem",
@@ -305,54 +338,21 @@
       ],
       "url": "https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem/",
       "readTime": 3,
-      "views": 23278
-    },
-    {
-      "id": "what-openai-s-latest-controversy-tells-us-about-th",
-      "title": "What OpenAI’s latest controversy tells us about the future of math",
-      "summary": "OpenAI’s latest mathematical milestone has quickly become mired in controversy.  Today, the company announced that its agents have solved one of the Millennium Prize Problems, some of the most importa.",
-      "content": "OpenAI’s latest mathematical milestone has quickly become mired in controversy. Today, the company announced that its agents have solved one of the Millennium Prize Problems, some of the most important open problems in mathematics. Under normal circumstances, that solution would be a huge feather in",
-      "source": "MIT Technology Review AI",
-      "author": "Grace Huckins",
-      "publishedAt": "2026-09-09T03:10:08.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
-      "readTime": 3,
-      "views": 53913
-    },
-    {
-      "id": "this-ai-entrepreneur-is-developing-agents-that-can",
-      "title": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
-      "summary": "Danijar Hafner’s office in San Francisco’s SoMa district sits mostly empty.  His brand-new startup is still in stealth mode and doesn’t even have its name on the door.",
-      "content": "Danijar Hafner’s office in San Francisco’s SoMa district sits mostly empty. His brand-new startup is still in stealth mode and doesn’t even have its name on the door. On the day I visited, earlier this year, there’s only one other person there, and little in the way of furniture. But what it lacks i",
-      "source": "MIT Technology Review AI",
-      "author": "Mat Honan",
-      "publishedAt": "2026-09-08T10:34:00.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/",
-      "readTime": 3,
-      "views": 51052
+      "views": 22180
     }
   ],
-  "lastUpdated": "2026-09-13T15:39:33.285Z",
+  "lastUpdated": "2026-09-14T03:31:37.803Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
     "TechCrunch AI",
-    "MIT Technology Review AI"
+    "MIT Technology Review AI",
+    "AI News"
   ],
   "categories": [
-    "funding",
+    "market",
     "release",
-    "research",
-    "market"
+    "funding",
+    "research"
   ]
 }
