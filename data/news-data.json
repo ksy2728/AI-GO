@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "id": "what-must-happen-for-ai-s-trillion-dollar-gamble-t",
+      "title": "What must happen for AI’s trillion-dollar gamble to pay off",
+      "summary": "When Jessica Wachter, a finance professor at the University of Pennsylvania’s Wharton School, wanted to assess AI’s impact on the economy over the next few years, she faced a long list of business and.",
+      "content": "When Jessica Wachter, a finance professor at the University of Pennsylvania’s Wharton School, wanted to assess AI’s impact on the economy over the next few years, she faced a long list of business and technical uncertainties. So she started with what she calls a “remarkable fact” that is not in ques",
+      "source": "MIT Technology Review AI",
+      "author": "David Rotman",
+      "publishedAt": "2026-09-15T10:00:00.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/",
+      "readTime": 3,
+      "views": 14882
+    },
+    {
       "id": "nvidia-ceo-jensen-huang-tells-trump-8216-we-8217-r",
       "title": "Nvidia CEO Jensen Huang tells Trump &#8216;we&#8217;re not going to let [an AI slowdown] happen&#8217;",
       "summary": "Though Elon Musk and Sam Altman have supported Dario Amodei's calls to slow the pace of AI development, Jensen Huang seems to feel differently.",
@@ -14,7 +30,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/",
       "readTime": 3,
-      "views": 46816
+      "views": 48389
     },
     {
       "id": "openai-buys-smartphone-camera-maker-glass-imaging-",
@@ -33,13 +49,13 @@
       ],
       "url": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/",
       "readTime": 3,
-      "views": 36600
+      "views": 51649
     },
     {
       "id": "the-ai-industry-has-taken-a-doomer-turn-what-now",
       "title": "The AI industry has taken a doomer turn. What now?",
-      "summary": "This story appeared in The Algorithm, our weekly newsletter on AI.  To get stories like this in your inbox first, sign up here.",
-      "content": "This story appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. This weekend, Dario Amodei, CEO of Anthropic, posted an essay calling for a brake on the pace of development of LLMs. Amodei cites the looming dangers he sees from the techn",
+      "summary": "This story appeared in The Algorithm, our weekly newsletter on AI.  To get stories like this in your inbox first,&#160;sign up here.",
+      "content": "This story appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. This weekend, Dario Amodei, CEO of Anthropic, posted an essay calling for a brake on the pace of development of LLMs. Amodei cites the looming dangers he sees from the ",
       "source": "MIT Technology Review AI",
       "author": "Will Douglas Heaven",
       "publishedAt": "2026-09-14T17:54:22.000Z",
@@ -52,7 +68,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/",
       "readTime": 3,
-      "views": 33243
+      "views": 46784
     },
     {
       "id": "with-ios-27-i-8217-m-actually-using-siri-again",
@@ -69,7 +85,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/14/with-ios-27-im-actually-using-siri-again/",
       "readTime": 3,
-      "views": 42116
+      "views": 17628
     },
     {
       "id": "microsoft-8217-s-new-ai-8216-code-of-conduct-8217-",
@@ -87,7 +103,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans/",
       "readTime": 3,
-      "views": 26647
+      "views": 44843
     },
     {
       "id": "ai-agents-blew-the-whistle-on-their-cheating-colle",
@@ -104,24 +120,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/",
       "readTime": 3,
-      "views": 25779
-    },
-    {
-      "id": "microsoft-ai-opens-review-on-humanist-ai-code-of-c",
-      "title": "Microsoft AI opens review on Humanist AI Code of Conduct",
-      "summary": "Microsoft AI has published a draft Humanist AI Code of Conduct, opening a six-week public consultation on operational constraints for model training and deployment.  The draft serves as a technical ma.",
-      "content": "Microsoft AI has published a draft Humanist AI Code of Conduct, opening a six-week public consultation on operational constraints for model training and deployment. The draft serves as a technical manual defining system behaviour, operational boundaries, and oversight protocols across MAI frontier m",
-      "source": "AI News",
-      "author": "Ryan Daws",
-      "publishedAt": "2026-09-14T15:30:41.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Microsoft"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/microsoft-ai-opens-review-humanist-ai-code-of-conduct/",
-      "readTime": 3,
-      "views": 22938
+      "views": 54302
     },
     {
       "id": "only-at-techcrunch-disrupt-2026-what-happens-when-",
@@ -139,7 +138,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/14/only-at-techcrunch-disrupt-2026-what-happens-when-openai-ships-your-roadmap/",
       "readTime": 3,
-      "views": 38798
+      "views": 9605
     },
     {
       "id": "superhuman-acquires-yc-backed-notetaker-fathom-as-",
@@ -155,7 +154,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work/",
       "readTime": 3,
-      "views": 47522
+      "views": 42869
     },
     {
       "id": "hear-how-ai-can-engineer-nature-s-comeback-at-tech",
@@ -171,56 +170,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/14/hear-how-ai-can-engineer-natures-comeback-at-techcrunch-disrupt-2026/",
       "readTime": 3,
-      "views": 45885
-    },
-    {
-      "id": "why-most-enterprise-agent-pilots-never-reach-deplo",
-      "title": "Why Most Enterprise Agent Pilots Never Reach Deployment",
-      "summary": "Deloitte&#8217;s 2026 technology trends research puts the pilot-to-production failure rate for AI agents at 89%.  A Teradata survey adds the shape of that gap: 78% of enterprises have at least one age.",
-      "content": "Deloitte&#8217;s 2026 technology trends research puts the pilot-to-production failure rate for AI agents at 89%. A Teradata survey adds the shape of that gap: 78% of enterprises have at least one agent pilot running, but only 14% have scaled one to organisation-wide use. Adoption is nearly universal",
-      "source": "AI News",
-      "author": "SEO DIGITAL PROS",
-      "publishedAt": "2026-09-14T08:04:35.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/why-most-enterprise-agent-pilots-never-reach-deployment/",
-      "readTime": 3,
-      "views": 39371
-    },
-    {
-      "id": "from-video-to-data-how-ai-is-transforming-multimed",
-      "title": "From Video to Data: How AI Is Transforming Multimedia Content Processing",
-      "summary": "A video looks simple when you press play.  There is a picture, some dialogue, perhaps music in the background, and a few minutes later it is over.",
-      "content": "A video looks simple when you press play. There is a picture, some dialogue, perhaps music in the background, and a few minutes later it is over. However, with the right use of AI, things can become a lot more interesting. To an artificial intelligence system, that same video can become speech to tr",
-      "source": "AI News",
-      "author": "SEO DIGITAL PROS",
-      "publishedAt": "2026-09-14T07:56:45.000Z",
-      "category": "market",
-      "tags": [
-        "artificial intelligence",
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/from-video-to-data-how-ai-is-transforming-multimedia-content-processing/",
-      "readTime": 3,
-      "views": 22817
-    },
-    {
-      "id": "how-vox-group-8217-s-ai-powered-technology-is-solv",
-      "title": "How Vox Group&#8217;s AI-Powered Technology Is Solving Real-Time Translation for Group Travel",
-      "summary": "Live translation has long been one of travel&#8217;s hardest unsolved problems: a single guide speaking to a mixed-language group, with no way to be understood by everyone at once.  Vox Group, a 25-ye.",
-      "content": "Live translation has long been one of travel&#8217;s hardest unsolved problems: a single guide speaking to a mixed-language group, with no way to be understood by everyone at once. Vox Group, a 25-year-old guiding technology company operating in over 150 countries, has spent the past year rebuilding",
-      "source": "AI News",
-      "author": "Elio Epifani",
-      "publishedAt": "2026-09-14T07:39:28.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/how-vox-groups-ai-powered-technology-is-solving-real-time-translation-for-group-travel/",
-      "readTime": 3,
-      "views": 40250
+      "views": 19575
     },
     {
       "id": "what-8217-s-behind-the-ai-industry-s-latest-warnin",
@@ -236,7 +186,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/",
       "readTime": 3,
-      "views": 11333
+      "views": 24047
     },
     {
       "id": "obama-urges-democrats-to-have-a-clear-plan-for-ai-",
@@ -253,7 +203,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
       "readTime": 3,
-      "views": 9245
+      "views": 6770
     },
     {
       "id": "openai-s-sam-altman-says-it-would-be-8216-ill-advi",
@@ -271,7 +221,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/",
       "readTime": 3,
-      "views": 27290
+      "views": 52289
     },
     {
       "id": "anthropic-ceo-outlines-plan-to-slow-ai-development",
@@ -291,7 +241,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
       "readTime": 3,
-      "views": 5052
+      "views": 45709
     },
     {
       "id": "mecka-ai-nears-500m-valuation-in-sequoia-led-deal-",
@@ -307,7 +257,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
       "readTime": 3,
-      "views": 46313
+      "views": 28252
     },
     {
       "id": "y-combinator-8217-s-garry-tan-wants-us-open-weight",
@@ -323,7 +273,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
       "readTime": 3,
-      "views": 29342
+      "views": 25233
     },
     {
       "id": "openai-8217-s-feud-with-mathematicians-is-only-esc",
@@ -341,20 +291,69 @@
       ],
       "url": "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/",
       "readTime": 3,
-      "views": 27883
+      "views": 15536
+    },
+    {
+      "id": "roundtables-could-ai-really-kill-us-all",
+      "title": "Roundtables: Could AI really kill us all?",
+      "summary": "Employees at the world&#8217;s leading AI labs are saying there&#8217;s a real possibility that advanced AI could destroy humanity.  Or is this more scaremongering and hype.",
+      "content": "Employees at the world&#8217;s leading AI labs are saying there&#8217;s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Join MIT Technology Review executive editor Niall Firth for a conversation with senior AI editor Will Douglas H",
+      "source": "MIT Technology Review AI",
+      "author": "MIT Technology Review",
+      "publishedAt": "2026-09-11T20:05:06.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/",
+      "readTime": 3,
+      "views": 21311
+    },
+    {
+      "id": "powering-ai-is-an-architecture-problem",
+      "title": "Powering AI is an architecture problem",
+      "summary": "On July 22, 2026, a transmission line fault in Ashburn, Virginia—the heart of the world&#8217;s largest data center cluster—knocked more than 3 gigawatts of load off the grid in seconds.  And it wasn&.",
+      "content": "On July 22, 2026, a transmission line fault in Ashburn, Virginia—the heart of the world&#8217;s largest data center cluster—knocked more than 3 gigawatts of load off the grid in seconds. And it wasn&#8217;t the first time. Two years earlier, a single failed surge arrester dropped roughly 60 Virginia",
+      "source": "MIT Technology Review AI",
+      "author": "Ricardo De Azevedo",
+      "publishedAt": "2026-09-10T11:00:00.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem/",
+      "readTime": 3,
+      "views": 42021
+    },
+    {
+      "id": "what-openai-s-latest-controversy-tells-us-about-th",
+      "title": "What OpenAI’s latest controversy tells us about the future of math",
+      "summary": "OpenAI’s latest mathematical milestone has quickly become mired in controversy.  Today, the company announced that its agents have solved one of the Millennium Prize Problems, some of the most importa.",
+      "content": "OpenAI’s latest mathematical milestone has quickly become mired in controversy. Today, the company announced that its agents have solved one of the Millennium Prize Problems, some of the most important open problems in mathematics. Under normal circumstances, that solution would be a huge feather in",
+      "source": "MIT Technology Review AI",
+      "author": "Grace Huckins",
+      "publishedAt": "2026-09-09T03:10:08.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
+      "readTime": 3,
+      "views": 22440
     }
   ],
-  "lastUpdated": "2026-09-15T03:32:35.840Z",
+  "lastUpdated": "2026-09-15T11:08:21.553Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "TechCrunch AI",
     "MIT Technology Review AI",
-    "AI News"
+    "TechCrunch AI"
   ],
   "categories": [
-    "release",
     "market",
+    "release",
     "funding",
     "partnership",
     "research"
