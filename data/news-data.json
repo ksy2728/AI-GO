@@ -1,20 +1,139 @@
 {
   "articles": [
     {
-      "id": "what-must-happen-for-ai-s-trillion-dollar-gamble-t",
-      "title": "What must happen for AI’s trillion-dollar gamble to pay off",
-      "summary": "When Jessica Wachter, a finance professor at the University of Pennsylvania’s Wharton School, wanted to assess AI’s impact on the economy over the next few years, she faced a long list of business and.",
-      "content": "When Jessica Wachter, a finance professor at the University of Pennsylvania’s Wharton School, wanted to assess AI’s impact on the economy over the next few years, she faced a long list of business and technical uncertainties. So she started with what she calls a “remarkable fact” that is not in ques",
-      "source": "MIT Technology Review AI",
-      "author": "David Rotman",
-      "publishedAt": "2026-09-15T10:00:00.000Z",
+      "id": "openai-anthropic-google-have-been-in-talks-on-ai-s",
+      "title": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks",
+      "summary": "OpenAI confirms weeks of AI safety talks with Anthropic and Google DeepMind, as Trump's team dismisses safety concerns and pushes to keep pace with China.",
+      "content": "OpenAI confirms weeks of AI safety talks with Anthropic and Google DeepMind, as Trump's team dismisses safety concerns and pushes to keep pace with China.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-09-15T15:47:03.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "anthropic",
+        "OpenAI",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/",
+      "readTime": 3,
+      "views": 40157
+    },
+    {
+      "id": "aeo-startup-profound-hits-unicorn-valuation-raises",
+      "title": "AEO startup Profound hits unicorn valuation, raises $180M Series D 7 months after last round",
+      "summary": "Profound has raised a $180 million Series D at a $1. 8 billion valuation, less than seven months after it raised a $96 million Series C.",
+      "content": "Profound has raised a $180 million Series D at a $1.8 billion valuation, less than seven months after it raised a $96 million Series C.",
+      "source": "TechCrunch AI",
+      "author": "Dominic-Madori Davis",
+      "publishedAt": "2026-09-15T15:22:48.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/",
+      "readTime": 3,
+      "views": 24673
+    },
+    {
+      "id": "former-tiktok-execs-built-an-app-that-uses-ai-to-t",
+      "title": "Former TikTok execs built an app that uses AI to teach you how to pose for a photo",
+      "summary": "Essentially a camera app, Superpose analyzes selfies or photos and generates four potential poses using AI.",
+      "content": "Essentially a camera app, Superpose analyzes selfies or photos and generates four potential poses using AI.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-09-15T14:42:37.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/09/15/former-tiktok-execs-built-an-app-that-uses-ai-to-teach-you-how-to-pose-for-a-photo/",
+      "readTime": 3,
+      "views": 16471
+    },
+    {
+      "id": "discover-how-to-take-your-startup-from-prototype-t",
+      "title": "Discover how to take your startup from prototype to production at TechCrunch Disrupt 2026",
+      "summary": "Learn how to scale your startup breakthrough from prototype to production at TechCrunch Disrupt 2026 with scaling leaders, Adrian Macneil (Foxglove), John Mackey (MBRYONICS), and Boris Sofman (Bedrock.",
+      "content": "Learn how to scale your startup breakthrough from prototype to production at TechCrunch Disrupt 2026 with scaling leaders, Adrian Macneil (Foxglove), John Mackey (MBRYONICS), and Boris Sofman (Bedrock Robotics). Register before September 25 to save up to $200 on your pass.",
+      "source": "TechCrunch AI",
+      "author": "TechCrunch Events",
+      "publishedAt": "2026-09-15T14:30:00.000Z",
+      "category": "research",
+      "tags": [
+        "robotics"
+      ],
+      "url": "https://techcrunch.com/2026/09/15/discover-how-to-take-your-startup-from-prototype-to-production-at-techcrunch-disrupt-2026/",
+      "readTime": 3,
+      "views": 16306
+    },
+    {
+      "id": "early-anthropic-hire-former-metr-coo-have-found-a-",
+      "title": "Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents",
+      "summary": "Their startup, Artificial Intelligence Underwriting Company (AIUC) has raised $40 million in a Series A round led by Ribbit Capital, with participation from First Harmonic.",
+      "content": "Their startup, Artificial Intelligence Underwriting Company (AIUC) has raised $40 million in a Series A round led by Ribbit Capital, with participation from First Harmonic.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2026-09-15T13:00:00.000Z",
+      "category": "funding",
+      "tags": [
+        "artificial intelligence",
+        "ai",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/",
+      "readTime": 3,
+      "views": 12664
+    },
+    {
+      "id": "salesforce-and-nvidia-8217-s-new-reasoning-model-i",
+      "title": "Salesforce and Nvidia&#8217;s new reasoning model is everything the AI labs should fear",
+      "summary": "Salesforce Koa is built on Nvidia's open-weight Nemotron model and is trained to do sales, marketing, and customer-support tasks.",
+      "content": "Salesforce Koa is built on Nvidia's open-weight Nemotron model and is trained to do sales, marketing, and customer-support tasks.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2026-09-15T12:00:00.000Z",
       "category": "market",
       "tags": [
         "ai"
       ],
-      "url": "https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/",
+      "url": "https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear/",
       "readTime": 3,
-      "views": 14882
+      "views": 19855
+    },
+    {
+      "id": "pony-ai-unveils-autonomous-electric-truck-for-logi",
+      "title": "Pony.ai unveils autonomous electric truck for logistics fleets",
+      "summary": "ai has unveiled an autonomous electric truck for logistics fleets, developed with GAC Commercial Vehicle for freight supply chains.  Unveiled at IAA Transportation 2026, this Level 4 (L4) heavy rig ma.",
+      "content": "Pony.ai has unveiled an autonomous electric truck for logistics fleets, developed with GAC Commercial Vehicle for freight supply chains. Unveiled at IAA Transportation 2026, this Level 4 (L4) heavy rig marks the fourth-generation (Gen-4) iteration of Pony.ai’s Robotruck platform. It builds on GAC Co",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-09-15T11:15:57.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/pony-ai-autonomous-electric-truck-for-logistics-fleets/",
+      "readTime": 3,
+      "views": 11532
+    },
+    {
+      "id": "the-ai-talent-britain-fought-to-hire-may-be-recalc",
+      "title": "The AI Talent Britain Fought to Hire May Be Recalculating Its Future",
+      "summary": "A proposed overhaul of UK settlement rules would double the wait for permanent residence, and it reaches back to sponsored engineers already here.  For AI employers, it is quietly becoming a retention.",
+      "content": "A proposed overhaul of UK settlement rules would double the wait for permanent residence, and it reaches back to sponsored engineers already here. For AI employers, it is quietly becoming a retention problem. By Sunny Sandhu, Senior Immigration Associate, AY&#38;J Solicitors For years, the offer tha",
+      "source": "AI News",
+      "author": "Sunny Sandhu",
+      "publishedAt": "2026-09-15T07:14:47.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/the-ai-talent-britain-fought-to-hire-may-be-recalculating-its-future/",
+      "readTime": 3,
+      "views": 49161
     },
     {
       "id": "nvidia-ceo-jensen-huang-tells-trump-8216-we-8217-r",
@@ -30,7 +149,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/",
       "readTime": 3,
-      "views": 48389
+      "views": 51520
     },
     {
       "id": "openai-buys-smartphone-camera-maker-glass-imaging-",
@@ -49,7 +168,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/",
       "readTime": 3,
-      "views": 51649
+      "views": 9616
     },
     {
       "id": "the-ai-industry-has-taken-a-doomer-turn-what-now",
@@ -68,7 +187,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/",
       "readTime": 3,
-      "views": 46784
+      "views": 53954
     },
     {
       "id": "with-ios-27-i-8217-m-actually-using-siri-again",
@@ -85,7 +204,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/14/with-ios-27-im-actually-using-siri-again/",
       "readTime": 3,
-      "views": 17628
+      "views": 16414
     },
     {
       "id": "microsoft-8217-s-new-ai-8216-code-of-conduct-8217-",
@@ -103,7 +222,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans/",
       "readTime": 3,
-      "views": 44843
+      "views": 7287
     },
     {
       "id": "ai-agents-blew-the-whistle-on-their-cheating-colle",
@@ -120,7 +239,24 @@
       ],
       "url": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/",
       "readTime": 3,
-      "views": 54302
+      "views": 9416
+    },
+    {
+      "id": "microsoft-ai-opens-review-on-humanist-ai-code-of-c",
+      "title": "Microsoft AI opens review on Humanist AI Code of Conduct",
+      "summary": "Microsoft AI has published a draft Humanist AI Code of Conduct, opening a six-week public consultation on operational constraints for model training and deployment.  The draft serves as a technical ma.",
+      "content": "Microsoft AI has published a draft Humanist AI Code of Conduct, opening a six-week public consultation on operational constraints for model training and deployment. The draft serves as a technical manual defining system behaviour, operational boundaries, and oversight protocols across MAI frontier m",
+      "source": "AI News",
+      "author": "Ryan Daws",
+      "publishedAt": "2026-09-14T15:30:41.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Microsoft"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/microsoft-ai-opens-review-humanist-ai-code-of-conduct/",
+      "readTime": 3,
+      "views": 33114
     },
     {
       "id": "only-at-techcrunch-disrupt-2026-what-happens-when-",
@@ -138,7 +274,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/14/only-at-techcrunch-disrupt-2026-what-happens-when-openai-ships-your-roadmap/",
       "readTime": 3,
-      "views": 9605
+      "views": 54291
     },
     {
       "id": "superhuman-acquires-yc-backed-notetaker-fathom-as-",
@@ -154,7 +290,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work/",
       "readTime": 3,
-      "views": 42869
+      "views": 45751
     },
     {
       "id": "hear-how-ai-can-engineer-nature-s-comeback-at-tech",
@@ -170,192 +306,55 @@
       ],
       "url": "https://techcrunch.com/2026/09/14/hear-how-ai-can-engineer-natures-comeback-at-techcrunch-disrupt-2026/",
       "readTime": 3,
-      "views": 19575
+      "views": 44360
     },
     {
-      "id": "what-8217-s-behind-the-ai-industry-s-latest-warnin",
-      "title": "What&#8217;s behind the AI industry’s latest warnings of doom?",
-      "summary": "On Equity, we discussed the AI industry's latest debate about whether it poses an existential threat to humanity.",
-      "content": "On Equity, we discussed the AI industry's latest debate about whether it poses an existential threat to humanity.",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2026-09-13T19:40:15.000Z",
-      "category": "market",
+      "id": "why-most-enterprise-agent-pilots-never-reach-deplo",
+      "title": "Why Most Enterprise Agent Pilots Never Reach Deployment",
+      "summary": "Deloitte&#8217;s 2026 technology trends research puts the pilot-to-production failure rate for AI agents at 89%.  A Teradata survey adds the shape of that gap: 78% of enterprises have at least one age.",
+      "content": "Deloitte&#8217;s 2026 technology trends research puts the pilot-to-production failure rate for AI agents at 89%. A Teradata survey adds the shape of that gap: 78% of enterprises have at least one agent pilot running, but only 14% have scaled one to organisation-wide use. Adoption is nearly universal",
+      "source": "AI News",
+      "author": "SEO DIGITAL PROS",
+      "publishedAt": "2026-09-14T08:04:35.000Z",
+      "category": "research",
       "tags": [
         "ai"
       ],
-      "url": "https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/",
+      "url": "https://www.artificialintelligence-news.com/news/why-most-enterprise-agent-pilots-never-reach-deployment/",
       "readTime": 3,
-      "views": 24047
+      "views": 26028
     },
     {
-      "id": "obama-urges-democrats-to-have-a-clear-plan-for-ai-",
-      "title": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
-      "summary": "Obama recently said that Democrats need to make artificial intelligence one of their “central agendas” and “have a very clear plan” to address concerns around the technology’s economic impact and safe.",
-      "content": "Obama recently said that Democrats need to make artificial intelligence one of their “central agendas” and “have a very clear plan” to address concerns around the technology’s economic impact and safety.",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2026-09-13T16:30:00.000Z",
-      "category": "release",
+      "id": "from-video-to-data-how-ai-is-transforming-multimed",
+      "title": "From Video to Data: How AI Is Transforming Multimedia Content Processing",
+      "summary": "A video looks simple when you press play.  There is a picture, some dialogue, perhaps music in the background, and a few minutes later it is over.",
+      "content": "A video looks simple when you press play. There is a picture, some dialogue, perhaps music in the background, and a few minutes later it is over. However, with the right use of AI, things can become a lot more interesting. To an artificial intelligence system, that same video can become speech to tr",
+      "source": "AI News",
+      "author": "SEO DIGITAL PROS",
+      "publishedAt": "2026-09-14T07:56:45.000Z",
+      "category": "market",
       "tags": [
         "artificial intelligence",
         "ai"
       ],
-      "url": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
+      "url": "https://www.artificialintelligence-news.com/news/from-video-to-data-how-ai-is-transforming-multimedia-content-processing/",
       "readTime": 3,
-      "views": 6770
-    },
-    {
-      "id": "openai-s-sam-altman-says-it-would-be-8216-ill-advi",
-      "title": "OpenAI’s Sam Altman says it would be &#8216;ill-advised&#8217; to go public in 2026",
-      "summary": "While OpenAI has filed confidentially for an IPO, the company will not be going public this year, according to CEO Sam Altman.",
-      "content": "While OpenAI has filed confidentially for an IPO, the company will not be going public this year, according to CEO Sam Altman.",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2026-09-12T20:19:16.000Z",
-      "category": "funding",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/",
-      "readTime": 3,
-      "views": 52289
-    },
-    {
-      "id": "anthropic-ceo-outlines-plan-to-slow-ai-development",
-      "title": "Anthropic CEO outlines plan to slow AI development",
-      "summary": "Anthropic's Dario Amodei and OpenAI's Sam Altman seem to agree that it's time to \"pace the frontier. \" What would that actually look like.",
-      "content": "Anthropic's Dario Amodei and OpenAI's Sam Altman seem to agree that it's time to \"pace the frontier.\" What would that actually look like?",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2026-09-12T19:34:44.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "anthropic",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
-      "readTime": 3,
-      "views": 45709
-    },
-    {
-      "id": "mecka-ai-nears-500m-valuation-in-sequoia-led-deal-",
-      "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
-      "summary": "The round for the two-year-old startup is coming together months after Mecka announced its Series A.",
-      "content": "The round for the two-year-old startup is coming together months after Mecka announced its Series A.",
-      "source": "TechCrunch AI",
-      "author": "Marina Temkin",
-      "publishedAt": "2026-09-11T22:58:17.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
-      "readTime": 3,
-      "views": 28252
-    },
-    {
-      "id": "y-combinator-8217-s-garry-tan-wants-us-open-weight",
-      "title": "Y Combinator&#8217;s Garry Tan wants US open-weight AI labs to &#8216;distill&#8217; frontier models, too",
-      "summary": "Tan wants smaller, American open-weight AI labs to use the same kind of training techniques on American frontier AI labs, giving the U.  a more robust set of open-weight options that aren’t Chinese.",
-      "content": "Tan wants smaller, American open-weight AI labs to use the same kind of training techniques on American frontier AI labs, giving the U.S. a more robust set of open-weight options that aren’t Chinese.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2026-09-11T20:59:47.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
-      "readTime": 3,
-      "views": 25233
-    },
-    {
-      "id": "openai-8217-s-feud-with-mathematicians-is-only-esc",
-      "title": "OpenAI&#8217;s feud with mathematicians is only escalating",
-      "summary": "Twenty-five leading mathematicians signed an open letter arguing that AI labs are threatening their intellectual work.",
-      "content": "Twenty-five leading mathematicians signed an open letter arguing that AI labs are threatening their intellectual work.",
-      "source": "TechCrunch AI",
-      "author": "Tim Fernholz",
-      "publishedAt": "2026-09-11T20:57:36.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/",
-      "readTime": 3,
-      "views": 15536
-    },
-    {
-      "id": "roundtables-could-ai-really-kill-us-all",
-      "title": "Roundtables: Could AI really kill us all?",
-      "summary": "Employees at the world&#8217;s leading AI labs are saying there&#8217;s a real possibility that advanced AI could destroy humanity.  Or is this more scaremongering and hype.",
-      "content": "Employees at the world&#8217;s leading AI labs are saying there&#8217;s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Join MIT Technology Review executive editor Niall Firth for a conversation with senior AI editor Will Douglas H",
-      "source": "MIT Technology Review AI",
-      "author": "MIT Technology Review",
-      "publishedAt": "2026-09-11T20:05:06.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/",
-      "readTime": 3,
-      "views": 21311
-    },
-    {
-      "id": "powering-ai-is-an-architecture-problem",
-      "title": "Powering AI is an architecture problem",
-      "summary": "On July 22, 2026, a transmission line fault in Ashburn, Virginia—the heart of the world&#8217;s largest data center cluster—knocked more than 3 gigawatts of load off the grid in seconds.  And it wasn&.",
-      "content": "On July 22, 2026, a transmission line fault in Ashburn, Virginia—the heart of the world&#8217;s largest data center cluster—knocked more than 3 gigawatts of load off the grid in seconds. And it wasn&#8217;t the first time. Two years earlier, a single failed surge arrester dropped roughly 60 Virginia",
-      "source": "MIT Technology Review AI",
-      "author": "Ricardo De Azevedo",
-      "publishedAt": "2026-09-10T11:00:00.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem/",
-      "readTime": 3,
-      "views": 42021
-    },
-    {
-      "id": "what-openai-s-latest-controversy-tells-us-about-th",
-      "title": "What OpenAI’s latest controversy tells us about the future of math",
-      "summary": "OpenAI’s latest mathematical milestone has quickly become mired in controversy.  Today, the company announced that its agents have solved one of the Millennium Prize Problems, some of the most importa.",
-      "content": "OpenAI’s latest mathematical milestone has quickly become mired in controversy. Today, the company announced that its agents have solved one of the Millennium Prize Problems, some of the most important open problems in mathematics. Under normal circumstances, that solution would be a huge feather in",
-      "source": "MIT Technology Review AI",
-      "author": "Grace Huckins",
-      "publishedAt": "2026-09-09T03:10:08.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
-      "readTime": 3,
-      "views": 22440
+      "views": 45116
     }
   ],
-  "lastUpdated": "2026-09-15T11:08:21.553Z",
+  "lastUpdated": "2026-09-15T16:19:27.780Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "MIT Technology Review AI",
-    "TechCrunch AI"
+    "TechCrunch AI",
+    "AI News",
+    "MIT Technology Review AI"
   ],
   "categories": [
-    "market",
     "release",
     "funding",
-    "partnership",
-    "research"
+    "research",
+    "market",
+    "partnership"
   ]
 }
