@@ -1,6 +1,129 @@
 {
   "articles": [
     {
+      "id": "snap-tries-to-make-the-case-again-for-its-2-200-sm",
+      "title": "Snap tries to make the case again for its $2,200 smart glasses",
+      "summary": "Since Specs' debut earlier this year, Snap has clearly been looking for an opportunity to explain why the smart glasses deserve to exist.",
+      "content": "Since Specs' debut earlier this year, Snap has clearly been looking for an opportunity to explain why the smart glasses deserve to exist.",
+      "source": "TechCrunch AI",
+      "author": "Lucas Ropek",
+      "publishedAt": "2026-09-17T00:58:49.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/09/16/snap-tries-to-make-the-case-again-for-its-2200-smart-glasses/",
+      "readTime": 3,
+      "views": 39017
+    },
+    {
+      "id": "al-gore-says-the-real-ai-risk-isn-8217-t-data-cent",
+      "title": "Al Gore says the real AI risk isn&#8217;t data centers — it&#8217;s what industry leaders are warning about",
+      "summary": "In an interview with TechCrunch, Al Gore suggested he isn't losing sleep over AI data center emissions — he's more worried about the AI industry's own warnings about where the technology is headed.",
+      "content": "In an interview with TechCrunch, Al Gore suggested he isn't losing sleep over AI data center emissions — he's more worried about the AI industry's own warnings about where the technology is headed.",
+      "source": "TechCrunch AI",
+      "author": "Connie Loizos",
+      "publishedAt": "2026-09-16T23:43:09.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/09/16/al-gore-has-a-surprisingly-calm-take-on-the-ai-data-center-backlash/",
+      "readTime": 3,
+      "views": 40421
+    },
+    {
+      "id": "anthropic-and-openai-want-to-embed-safety-evaluato",
+      "title": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?",
+      "summary": "Anthropic and OpenAI want to embed independent safety evaluators inside their AI labs.  Researchers welcome the unprecedented access, but warn meaningful oversight requires transparency, independence,.",
+      "content": "Anthropic and OpenAI want to embed independent safety evaluators inside their AI labs. Researchers welcome the unprecedented access, but warn meaningful oversight requires transparency, independence, and eventually regulation.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-09-16T21:07:24.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai",
+        "openai",
+        "anthropic",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
+      "readTime": 3,
+      "views": 9001
+    },
+    {
+      "id": "after-accusations-of-selling-8216-perv-glasses-821",
+      "title": "After accusations of selling &#8216;perv glasses,&#8217; Meta prepares to sell a pair without a camera",
+      "summary": "Can Meta dodge the \"pervert glasses\" accusations with a new camera-free product.",
+      "content": "Can Meta dodge the \"pervert glasses\" accusations with a new camera-free product?",
+      "source": "TechCrunch AI",
+      "author": "Lucas Ropek",
+      "publishedAt": "2026-09-16T20:12:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Meta"
+      ],
+      "url": "https://techcrunch.com/2026/09/16/after-accusations-of-selling-perv-glasses-meta-prepares-to-sell-a-pair-without-a-camera/",
+      "readTime": 3,
+      "views": 21195
+    },
+    {
+      "id": "ai-labs-want-in-house-auditors-but-maybe-they-shou",
+      "title": "AI labs want in-house auditors — but maybe they should shut the front door first",
+      "summary": "There may be a simpler and more effective fix for rogue agents, hiding in plain sight.",
+      "content": "There may be a simpler and more effective fix for rogue agents, hiding in plain sight.",
+      "source": "TechCrunch AI",
+      "author": "Tim Fernholz",
+      "publishedAt": "2026-09-16T18:25:25.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/",
+      "readTime": 3,
+      "views": 5603
+    },
+    {
+      "id": "your-ai-agents-can-now-control-your-google-home-de",
+      "title": "Your AI agents can now control your Google Home devices",
+      "summary": "Google is launching early access to a new MCP server for Google Home, allowing AI agents like Claude, ChatGPT, and others to control connected devices, review camera summaries, and access smart home a.",
+      "content": "Google is launching early access to a new MCP server for Google Home, allowing AI agents like Claude, ChatGPT, and others to control connected devices, review camera summaries, and access smart home activity using natural language.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-09-16T17:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gpt",
+        "claude",
+        "chatgpt",
+        "natural language"
+      ],
+      "url": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
+      "readTime": 3,
+      "views": 33908
+    },
+    {
+      "id": "anthropic-merges-claude-chat-and-cowork-in-one-int",
+      "title": "Anthropic merges Claude chat and Cowork in one interface",
+      "summary": "Anthropic is initially releasing these features to Pro and Max plan subscribers.",
+      "content": "Anthropic is initially releasing these features to Pro and Max plan subscribers.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-09-16T16:30:00.000Z",
+      "category": "partnership",
+      "tags": [
+        "anthropic",
+        "claude",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/",
+      "readTime": 3,
+      "views": 31951
+    },
+    {
       "id": "robots-are-waiting-for-a-chatgpt-moment-nvidia-s-l",
       "title": "Robots are waiting for a ChatGPT moment: Nvidia’s Les Karpas explains why at TechCrunch Disrupt 2026",
       "summary": "The robotics industry is still waiting for their breakthrough into day-to-day life.  Nvidia's Les Karpas has an answer as to why at TechCrunch Disrupt 2026.",
@@ -17,7 +140,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026/",
       "readTime": 3,
-      "views": 26562
+      "views": 39241
     },
     {
       "id": "microsoft-ai-ceo-criticises-anthropic-over-model-r",
@@ -37,7 +160,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/microsoft-ai-ceo-criticises-anthropic-over-model-rights/",
       "readTime": 3,
-      "views": 52243
+      "views": 26077
     },
     {
       "id": "former-infosys-chief-8217-s-ai-startup-nabs-anothe",
@@ -53,7 +176,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/16/former-infosys-chiefs-ai-startup-adds-50m-to-seed-weeks-after-initial-raise/",
       "readTime": 3,
-      "views": 13970
+      "views": 53168
     },
     {
       "id": "building-the-materials-foundation-for-ai",
@@ -69,7 +192,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/",
       "readTime": 3,
-      "views": 50163
+      "views": 36437
     },
     {
       "id": "chatgpt-pioneer-launches-jev-model-for-programmati",
@@ -88,7 +211,7 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/chatgpt-pioneer-launches-jev-model-for-programmatic-logic/",
       "readTime": 3,
-      "views": 38050
+      "views": 30911
     },
     {
       "id": "we-don-8217-t-need-ai-regulation-leave-safety-to-u",
@@ -104,7 +227,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/",
       "readTime": 3,
-      "views": 36146
+      "views": 21371
     },
     {
       "id": "the-ai-data-center-boom-is-colliding-with-cities-s",
@@ -120,7 +243,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/",
       "readTime": 3,
-      "views": 41865
+      "views": 41098
     },
     {
       "id": "meta-now-lets-ai-agents-handle-the-boring-parts-of",
@@ -140,7 +263,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/",
       "readTime": 3,
-      "views": 19774
+      "views": 35027
     },
     {
       "id": "the-ai-graveyard-a-running-list-of-projects-and-st",
@@ -159,7 +282,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/15/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
       "readTime": 3,
-      "views": 22425
+      "views": 19043
     },
     {
       "id": "us-data-centers-could-consume-more-natural-gas-tha",
@@ -175,7 +298,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/15/us-data-centers-could-consume-more-natural-gas-than-germany-and-japan-combined-by-2035/",
       "readTime": 3,
-      "views": 11116
+      "views": 53235
     },
     {
       "id": "roundtables-could-ai-really-kill-us-all",
@@ -191,7 +314,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/09/15/1143936/roundtables-will-ai-really-kill-us-all/",
       "readTime": 3,
-      "views": 13314
+      "views": 53117
     },
     {
       "id": "ai-agents-now-have-a-place-to-snitch",
@@ -207,111 +330,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/15/ai-agents-now-have-a-place-to-snitch/",
       "readTime": 3,
-      "views": 13246
-    },
-    {
-      "id": "meta-expands-subscription-push-with-new-ai-focused",
-      "title": "Meta expands subscription push with new AI-focused plans",
-      "summary": "Meta One bundles expanded access to the company’s AI tools with premium features across Facebook, Instagram, and WhatsApp.",
-      "content": "Meta One bundles expanded access to the company’s AI tools with premium features across Facebook, Instagram, and WhatsApp.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-09-15T17:05:24.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Meta"
-      ],
-      "url": "https://techcrunch.com/2026/09/15/meta-expands-subscription-push-with-new-ai-focused-plans/",
-      "readTime": 3,
-      "views": 30075
-    },
-    {
-      "id": "openai-anthropic-google-have-been-in-talks-on-ai-s",
-      "title": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks",
-      "summary": "OpenAI confirms weeks of AI safety talks with Anthropic and Google DeepMind, as Trump's team dismisses safety concerns and pushes to keep pace with China.",
-      "content": "OpenAI confirms weeks of AI safety talks with Anthropic and Google DeepMind, as Trump's team dismisses safety concerns and pushes to keep pace with China.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-09-15T15:47:03.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "anthropic",
-        "OpenAI",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/",
-      "readTime": 3,
-      "views": 43355
-    },
-    {
-      "id": "aeo-startup-profound-hits-unicorn-valuation-raises",
-      "title": "AEO startup Profound hits unicorn valuation, raises $180M Series D 7 months after last round",
-      "summary": "Profound has raised a $180 million Series D at a $1. 8 billion valuation, less than seven months after it raised a $96 million Series C.",
-      "content": "Profound has raised a $180 million Series D at a $1.8 billion valuation, less than seven months after it raised a $96 million Series C.",
-      "source": "TechCrunch AI",
-      "author": "Dominic-Madori Davis",
-      "publishedAt": "2026-09-15T15:22:48.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/",
-      "readTime": 3,
-      "views": 20650
-    },
-    {
-      "id": "former-tiktok-execs-built-an-app-that-uses-ai-to-t",
-      "title": "Former TikTok execs built an app that uses AI to teach you how to pose for a photo",
-      "summary": "Essentially a camera app, Superpose analyzes selfies or photos and generates four potential poses using AI.",
-      "content": "Essentially a camera app, Superpose analyzes selfies or photos and generates four potential poses using AI.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-09-15T14:42:37.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/09/15/former-tiktok-execs-built-an-app-that-uses-ai-to-teach-you-how-to-pose-for-a-photo/",
-      "readTime": 3,
-      "views": 13337
-    },
-    {
-      "id": "discover-how-to-take-your-startup-from-prototype-t",
-      "title": "Discover how to take your startup from prototype to production at TechCrunch Disrupt 2026",
-      "summary": "Learn how to scale your startup breakthrough from prototype to production at TechCrunch Disrupt 2026 with scaling leaders, Adrian Macneil (Foxglove), John Mackey (MBRYONICS), and Boris Sofman (Bedrock.",
-      "content": "Learn how to scale your startup breakthrough from prototype to production at TechCrunch Disrupt 2026 with scaling leaders, Adrian Macneil (Foxglove), John Mackey (MBRYONICS), and Boris Sofman (Bedrock Robotics). Register before September 25 to save up to $200 on your pass.",
-      "source": "TechCrunch AI",
-      "author": "TechCrunch Events",
-      "publishedAt": "2026-09-15T14:30:00.000Z",
-      "category": "research",
-      "tags": [
-        "robotics"
-      ],
-      "url": "https://techcrunch.com/2026/09/15/discover-how-to-take-your-startup-from-prototype-to-production-at-techcrunch-disrupt-2026/",
-      "readTime": 3,
-      "views": 45444
-    },
-    {
-      "id": "early-anthropic-hire-former-metr-coo-have-found-a-",
-      "title": "Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents",
-      "summary": "Their startup, Artificial Intelligence Underwriting Company (AIUC) has raised $40 million in a Series A round led by Ribbit Capital, with participation from First Harmonic.",
-      "content": "Their startup, Artificial Intelligence Underwriting Company (AIUC) has raised $40 million in a Series A round led by Ribbit Capital, with participation from First Harmonic.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2026-09-15T13:00:00.000Z",
-      "category": "funding",
-      "tags": [
-        "artificial intelligence",
-        "ai",
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/",
-      "readTime": 3,
-      "views": 48950
+      "views": 15318
     },
     {
       "id": "pony-ai-unveils-autonomous-electric-truck-for-logi",
@@ -327,26 +346,10 @@
       ],
       "url": "https://www.artificialintelligence-news.com/news/pony-ai-autonomous-electric-truck-for-logistics-fleets/",
       "readTime": 3,
-      "views": 38584
-    },
-    {
-      "id": "what-8217-s-at-stake-in-ai-s-trillion-dollar-gambl",
-      "title": "What&#8217;s at stake in AI’s trillion-dollar gamble",
-      "summary": "When Jessica Wachter, a finance professor at the University of Pennsylvania’s Wharton School, wanted to assess AI’s impact on the economy over the next few years, she faced a long list of business and.",
-      "content": "When Jessica Wachter, a finance professor at the University of Pennsylvania’s Wharton School, wanted to assess AI’s impact on the economy over the next few years, she faced a long list of business and technical uncertainties. So she started with what she calls a “remarkable fact” that is not in ques",
-      "source": "MIT Technology Review AI",
-      "author": "David Rotman",
-      "publishedAt": "2026-09-15T10:00:00.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/",
-      "readTime": 3,
-      "views": 6357
+      "views": 10521
     }
   ],
-  "lastUpdated": "2026-09-16T16:11:20.024Z",
+  "lastUpdated": "2026-09-17T03:34:07.010Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -355,10 +358,10 @@
     "MIT Technology Review AI"
   ],
   "categories": [
-    "research",
-    "market",
     "release",
+    "market",
     "regulation",
-    "funding"
+    "partnership",
+    "research"
   ]
 }
