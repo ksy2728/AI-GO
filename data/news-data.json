@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "id": "is-the-ai-industry-really-ready-to-slow-down",
+      "title": "Is the AI industry really ready to slow down?",
+      "summary": "On Equity, we debated whether Ai executives are serious about wanting to slow down.",
+      "content": "On Equity, we debated whether Ai executives are serious about wanting to slow down.",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "publishedAt": "2026-09-20T18:56:04.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/",
+      "readTime": 3,
+      "views": 45353
+    },
+    {
       "id": "flock-reportedly-tries-to-shrink-workforce-with-em",
       "title": "Flock reportedly tries to shrink workforce with employee buyouts",
       "summary": "Without buyouts, Flock would \"almost certainly\" need to lay off staff.",
@@ -14,7 +30,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/",
       "readTime": 3,
-      "views": 6593
+      "views": 14522
     },
     {
       "id": "trump-says-it-8217-s-time-to-rebrand-ai-with-a-new",
@@ -30,7 +46,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/",
       "readTime": 3,
-      "views": 6481
+      "views": 8649
     },
     {
       "id": "google-s-gemini-is-the-latest-ai-model-to-hack-oth",
@@ -49,7 +65,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/",
       "readTime": 3,
-      "views": 21977
+      "views": 32925
     },
     {
       "id": "petlibro-s-new-ai-powered-feeder-is-a-game-changer",
@@ -65,7 +81,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes/",
       "readTime": 3,
-      "views": 6673
+      "views": 35358
     },
     {
       "id": "ai-safety-conversations-have-gotten-unbelievable",
@@ -81,7 +97,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable/",
       "readTime": 3,
-      "views": 6490
+      "views": 13769
     },
     {
       "id": "vals-backed-by-andreessen-horowitz-is-looking-to-b",
@@ -98,7 +114,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/",
       "readTime": 3,
-      "views": 44025
+      "views": 21407
     },
     {
       "id": "tilly-norwood-8217-s-press-tour-is-going-about-as-",
@@ -114,7 +130,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/18/tilly-norwoods-press-tour-is-going-about-as-well-as-youd-expect-for-an-ai/",
       "readTime": 3,
-      "views": 11071
+      "views": 44233
     },
     {
       "id": "a-startup-that-builds-other-startups-raised-100m-a",
@@ -130,7 +146,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/",
       "readTime": 3,
-      "views": 29972
+      "views": 10747
     },
     {
       "id": "anthropic-is-operating-a-lab-that-conducts-biology",
@@ -148,7 +164,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/",
       "readTime": 3,
-      "views": 34432
+      "views": 35251
     },
     {
       "id": "ai-hallucination-nearly-triggers-us-military-opera",
@@ -165,7 +181,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
       "readTime": 3,
-      "views": 53877
+      "views": 29267
     },
     {
       "id": "anthropic-8217-s-first-embedded-evaluator-is-accen",
@@ -182,7 +198,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/",
       "readTime": 3,
-      "views": 5856
+      "views": 54041
     },
     {
       "id": "a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-",
@@ -201,7 +217,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/",
       "readTime": 3,
-      "views": 51456
+      "views": 5538
     },
     {
       "id": "disney-8217-s-first-cto-led-an-ai-startup-it-once-",
@@ -217,60 +233,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/18/disneys-first-cto-led-an-ai-startup-it-once-accused-of-copying-its-characters/",
       "readTime": 3,
-      "views": 50715
-    },
-    {
-      "id": "google-8217-s-new-8216-cc-8217-is-an-ai-agent-that",
-      "title": "Google&#8217;s new &#8216;CC&#8217; is an AI agent that helps families run their households",
-      "summary": "Google is refocusing its CC AI agent on household coordination, letting families share emails, schedules, and tasks so the AI can manage calendars, fill out forms, make shopping lists, plan meals, and.",
-      "content": "Google is refocusing its CC AI agent on household coordination, letting families share emails, schedules, and tasks so the AI can manage calendars, fill out forms, make shopping lists, plan meals, and more.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-09-18T17:33:50.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/09/18/googles-new-cc-is-an-ai-agent-that-helps-families-run-their-households/",
-      "readTime": 3,
-      "views": 51045
-    },
-    {
-      "id": "dario-amodei-and-other-ai-leaders-want-to-8216-pac",
-      "title": "Dario Amodei and other AI leaders want to &#8216;Pace the Frontier&#8217; but…how?",
-      "summary": "A week after an Anthropic researcher&#8217;s doomsday warning rattled the AI world, the company&#8217;s CEO Dario Amodei has&#160;outlined his plan to “pace the frontier”&#160;of AI development.  The .",
-      "content": "A week after an Anthropic researcher&#8217;s doomsday warning rattled the AI world, the company&#8217;s CEO Dario Amodei has&#160;outlined his plan to “pace the frontier”&#160;of AI development. The proposal leans on independent safety evaluators and coordination between AI labs in democratic countr",
-      "source": "TechCrunch AI",
-      "author": "Theresa Loconsolo",
-      "publishedAt": "2026-09-18T17:09:56.000Z",
-      "category": "research",
-      "tags": [
-        "ai",
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/video/dario-amodei-and-other-ai-leaders-want-to-pace-the-frontier-buthow/",
-      "readTime": 3,
-      "views": 29945
-    },
-    {
-      "id": "automattic-8217-s-33-hour-coup-and-can-ai-labs-pol",
-      "title": "Automattic&#8217;s 33-Hour Coup, and can AI labs police themselves?",
-      "summary": "A week after an Anthropic researcher&#8217;s doomsday warning rattled the AI world, the company&#8217;s CEO Dario Amodei has&#160;outlined his plan to “pace the frontier”&#160;of AI development.  The .",
-      "content": "A week after an Anthropic researcher&#8217;s doomsday warning rattled the AI world, the company&#8217;s CEO Dario Amodei has&#160;outlined his plan to “pace the frontier”&#160;of AI development. The proposal leans on independent safety evaluators and coordination between AI labs in democratic countr",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha, Theresa Loconsolo, Kirsten Korosec, Sean O'Kane",
-      "publishedAt": "2026-09-18T17:06:32.000Z",
-      "category": "research",
-      "tags": [
-        "ai",
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/podcast/automattics-33-hour-coup-and-can-ai-labs-police-themselves/",
-      "readTime": 3,
-      "views": 20805
+      "views": 46045
     },
     {
       "id": "could-ai-really-kill-us-all-your-questions-answere",
@@ -286,7 +249,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/09/18/1144435/could-ai-really-kill-us-all-your-questions-answered/",
       "readTime": 3,
-      "views": 38719
+      "views": 35626
     },
     {
       "id": "building-the-materials-foundation-for-ai",
@@ -302,7 +265,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/",
       "readTime": 3,
-      "views": 7540
+      "views": 6188
     },
     {
       "id": "roundtables-could-ai-really-kill-us-all",
@@ -318,7 +281,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/09/15/1143936/roundtables-will-ai-really-kill-us-all/",
       "readTime": 3,
-      "views": 52629
+      "views": 27426
     },
     {
       "id": "what-8217-s-at-stake-in-ai-s-trillion-dollar-gambl",
@@ -334,10 +297,46 @@
       ],
       "url": "https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/",
       "readTime": 3,
-      "views": 11290
+      "views": 26640
+    },
+    {
+      "id": "the-ai-industry-has-taken-a-doomer-turn-what-now",
+      "title": "The AI industry has taken a doomer turn. What now?",
+      "summary": "This story appeared in The Algorithm, our weekly newsletter on AI.  To get stories like this in your inbox first,&#160;sign up here.",
+      "content": "This story appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. This weekend, Dario Amodei, CEO of Anthropic, posted an essay calling for a brake on the pace of development of LLMs. Amodei cites the looming dangers he sees from the ",
+      "source": "MIT Technology Review AI",
+      "author": "Will Douglas Heaven",
+      "publishedAt": "2026-09-14T17:54:22.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "llm",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/",
+      "readTime": 3,
+      "views": 9496
+    },
+    {
+      "id": "ai-agents-blew-the-whistle-on-their-cheating-colle",
+      "title": "AI agents blew the whistle on their cheating colleagues",
+      "summary": "A group of AI agents asked to solve a series of math problems split into rival factions—when some cheated, others tried to stop them.  That whistleblowing behavior, seen for the first time in a recent.",
+      "content": "A group of AI agents asked to solve a series of math problems split into rival factions—when some cheated, others tried to stop them. That whistleblowing behavior, seen for the first time in a recent experiment run by Google DeepMind, could have implications for alignment researchers trying to keep ",
+      "source": "MIT Technology Review AI",
+      "author": "Amit Katwala",
+      "publishedAt": "2026-09-14T16:00:00.000Z",
+      "category": "funding",
+      "tags": [
+        "ai",
+        "Google"
+      ],
+      "url": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/",
+      "readTime": 3,
+      "views": 18415
     }
   ],
-  "lastUpdated": "2026-09-20T15:29:55.386Z",
+  "lastUpdated": "2026-09-21T03:28:10.129Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -345,8 +344,9 @@
     "MIT Technology Review AI"
   ],
   "categories": [
-    "release",
     "market",
-    "research"
+    "release",
+    "research",
+    "funding"
   ]
 }
