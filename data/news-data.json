@@ -1,10 +1,128 @@
 {
   "articles": [
     {
+      "id": "everything-new-coming-to-meta-8217-s-ai-agent-muse",
+      "title": "Everything new coming to Meta&#8217;s AI agent Muse",
+      "summary": "CEO Mark Zuckerberg kicked off the company’s annual Connect event in Menlo Park on Wednesday with a keynote that made one thing clear: Meta is going all-in on Muse.  It's even coming to Meta's AI glas.",
+      "content": "CEO Mark Zuckerberg kicked off the company’s annual Connect event in Menlo Park on Wednesday with a keynote that made one thing clear: Meta is going all-in on Muse. It's even coming to Meta's AI glasses.",
+      "source": "TechCrunch AI",
+      "author": "Kirsten Korosec, Lucas Ropek",
+      "publishedAt": "2026-09-24T01:13:32.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Meta"
+      ],
+      "url": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
+      "readTime": 3,
+      "views": 26776
+    },
+    {
+      "id": "meta-made-a-tamagotchi-like-wearable-for-its-muse-",
+      "title": "Meta made a Tamagotchi-like wearable for its Muse AI agent",
+      "summary": "The tiny hardware device creates  another mobile home for its AI agent Muse.",
+      "content": "The tiny hardware device creates  another mobile home for its AI agent Muse.",
+      "source": "TechCrunch AI",
+      "author": "Lucas Ropek",
+      "publishedAt": "2026-09-24T00:46:17.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Meta"
+      ],
+      "url": "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/",
+      "readTime": 3,
+      "views": 49190
+    },
+    {
+      "id": "meta-introduces-camera-free-ai-glasses",
+      "title": "Meta introduces camera-free AI glasses",
+      "summary": "Meta says the camera-free glasses will be lighter and have up to 12 hours battery life.",
+      "content": "Meta says the camera-free glasses will be lighter and have up to 12 hours battery life.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-09-23T23:39:44.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Meta"
+      ],
+      "url": "https://techcrunch.com/2026/09/23/meta-introduces-camera-free-ai-glasses/",
+      "readTime": 3,
+      "views": 41515
+    },
+    {
+      "id": "anthropic-says-its-biology-lab-has-already-found-s",
+      "title": "Anthropic says its biology lab has already found something big",
+      "summary": "But maybe the biggest reveal is that Anthropic has not let Claude run loose in its biology lab.  Humans are still, so far, in the loop.",
+      "content": "But maybe the biggest reveal is that Anthropic has not let Claude run loose in its biology lab. Humans are still, so far, in the loop.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2026-09-23T22:17:39.000Z",
+      "category": "release",
+      "tags": [
+        "anthropic",
+        "claude",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/",
+      "readTime": 3,
+      "views": 26101
+    },
+    {
+      "id": "enveda-secures-311m-to-bring-more-nature-derived-a",
+      "title": "Enveda secures $311M to bring more nature-derived AI drugs into clinical trials",
+      "summary": "The round valued the AI biotech at $2 billion.  It is currently testing drugs that treat skin conditions and preserve weight loss after stopping GLP-1s.",
+      "content": "The round valued the AI biotech at $2 billion. It is currently testing drugs that treat skin conditions and preserve weight loss after stopping GLP-1s.",
+      "source": "TechCrunch AI",
+      "author": "Marina Temkin",
+      "publishedAt": "2026-09-23T19:31:28.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/09/23/enveda-secures-311m-to-bring-more-nature-derived-ai-drugs-into-clinical-trials/",
+      "readTime": 3,
+      "views": 49198
+    },
+    {
+      "id": "chatgpt-mobile-app-gets-voice-based-agentic-featur",
+      "title": "ChatGPT mobile app gets voice-based agentic features",
+      "summary": "Pro and Plus users will be able to use the Work tab on their phones to complete agentic tasks.",
+      "content": "Pro and Plus users will be able to use the Work tab on their phones to complete agentic tasks.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-09-23T17:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "gpt",
+        "chatgpt"
+      ],
+      "url": "https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features/",
+      "readTime": 3,
+      "views": 38414
+    },
+    {
+      "id": "even-americans-who-use-ai-every-day-are-worried-ab",
+      "title": "Even Americans who use AI every day are worried about it",
+      "summary": "The report suggests that greater exposure will not resolve the unease around the technology, nor reduce public support for AI regulation.",
+      "content": "The report suggests that greater exposure will not resolve the unease around the technology, nor reduce public support for AI regulation.",
+      "source": "TechCrunch AI",
+      "author": "Ram Iyer",
+      "publishedAt": "2026-09-23T16:49:58.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/09/23/even-americans-who-use-ai-every-day-are-worried-about-it/",
+      "readTime": 3,
+      "views": 53446
+    },
+    {
       "id": "youtube-music-gets-more-conversational-with-new-ai",
       "title": "YouTube Music gets more conversational with new AI features",
-      "summary": "YouTube is adding new AI-powered features to YouTube Music that aim to make it easier for listeners to discover music, explore artists, and find podcasts they may otherwise miss.  Announced at this ye.",
-      "content": "YouTube is adding new AI-powered features to YouTube Music that aim to make it easier for listeners to discover music, explore artists, and find podcasts they may otherwise miss. Announced at this year’s Made On YouTube event, the updates include “Ask Music,” a conversational tool for music and podc",
+      "summary": "Built directly into the YouTube Music app, Ask Music lets users describe what they want to hear in everyday language rather than searching for individual songs or artists.",
+      "content": "Built directly into the YouTube Music app, Ask Music lets users describe what they want to hear in everyday language rather than searching for individual songs or artists.",
       "source": "TechCrunch AI",
       "author": "Lauren Forristal",
       "publishedAt": "2026-09-23T15:19:30.000Z",
@@ -14,23 +132,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/23/youtube-music-gets-more-conversational-with-new-ai-features/",
       "readTime": 3,
-      "views": 54573
-    },
-    {
-      "id": "strictlyvc-at-techcrunch-disrupt-2026-inside-the-c",
-      "title": "StrictlyVC at TechCrunch Disrupt 2026: Inside the changing rules of venture capital",
-      "summary": "StrictlyVC joins TechCrunch Disrupt 2026 to discuss the changing VC landscape thanks to AI.  Get your Investor Pass to join this exclusive session.",
-      "content": "StrictlyVC joins TechCrunch Disrupt 2026 to discuss the changing VC landscape thanks to AI. Get your Investor Pass to join this exclusive session. Save $200 before September 25, 11:59 p.m. PT.",
-      "source": "TechCrunch AI",
-      "author": "TechCrunch Events",
-      "publishedAt": "2026-09-23T14:30:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/09/23/strictlyvc-at-techcrunch-disrupt-2026-inside-the-changing-rules-of-venture-capital/",
-      "readTime": 3,
-      "views": 15662
+      "views": 18485
     },
     {
       "id": "youtube-will-let-you-build-your-own-algorithm-with",
@@ -47,7 +149,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/23/youtube-will-let-you-build-your-own-algorithm-with-ai/",
       "readTime": 3,
-      "views": 11277
+      "views": 36356
     },
     {
       "id": "youtube-releases-new-ai-features-for-creators-with",
@@ -63,23 +165,23 @@
       ],
       "url": "https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app/",
       "readTime": 3,
-      "views": 24083
+      "views": 22154
     },
     {
-      "id": "u-s-transcom-deploys-randomised-ai-to-secure-milit",
-      "title": "U.S. TRANSCOM deploys randomised AI to secure military logistics",
-      "summary": "Deploying randomised AI logistics offers military planners a viable defence against adversarial tracking, allowing U.  Transportation Command (TRANSCOM) to insulate global distribution networks agains.",
-      "content": "Deploying randomised AI logistics offers military planners a viable defence against adversarial tracking, allowing U.S. Transportation Command (TRANSCOM) to insulate global distribution networks against contested disruption.&#160; Commercial freight software historically prioritises static schedulin",
-      "source": "AI News",
-      "author": "Ryan Daws",
-      "publishedAt": "2026-09-23T13:13:15.000Z",
-      "category": "market",
+      "id": "strictlyvc-at-techcrunch-disrupt-2026-inside-the-c",
+      "title": "StrictlyVC at TechCrunch Disrupt 2026: Inside the changing rules of venture capital",
+      "summary": "StrictlyVC joins TechCrunch Disrupt 2026 to discuss the changing VC landscape thanks to AI.  Get your Investor Pass to join these exclusive sessions.",
+      "content": "StrictlyVC joins TechCrunch Disrupt 2026 to discuss the changing VC landscape thanks to AI. Get your Investor Pass to join these exclusive sessions. Save $200 before September 25 at 11:59 p.m. PT.",
+      "source": "TechCrunch AI",
+      "author": "TechCrunch Events",
+      "publishedAt": "2026-09-23T14:30:00.000Z",
+      "category": "release",
       "tags": [
         "ai"
       ],
-      "url": "https://www.artificialintelligence-news.com/news/us-transcom-deploys-randomised-ai-to-secure-military-logistics/",
+      "url": "https://techcrunch.com/2026/09/23/strictlyvc-at-techcrunch-disrupt-2026-inside-the-changing-rules-of-venture-capital/",
       "readTime": 3,
-      "views": 26216
+      "views": 24938
     },
     {
       "id": "spotify-is-giving-you-the-keys-to-its-recommendati",
@@ -95,7 +197,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/23/spotify-is-giving-you-the-keys-to-its-recommendation-algorithm-with-u-s-launch-of-taste-profile/",
       "readTime": 3,
-      "views": 15210
+      "views": 10863
     },
     {
       "id": "ema-raises-77m-as-ai-starts-eating-into-enterprise",
@@ -113,23 +215,27 @@
       ],
       "url": "https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/",
       "readTime": 3,
-      "views": 54855
+      "views": 33912
     },
     {
-      "id": "ai-agents-are-becoming-a-new-malware-distribution-",
-      "title": "AI Agents Are Becoming a New Malware Distribution Channel",
-      "summary": "By Farukh Rakhimov, Head of Compliance, Data Protection and Information Security at AdTech Holding Roughly 7,600 fake GitHub repositories, 6,600 fraudulent profiles and more than 14 million downloads:.",
-      "content": "By Farukh Rakhimov, Head of Compliance, Data Protection and Information Security at AdTech Holding Roughly 7,600 fake GitHub repositories, 6,600 fraudulent profiles and more than 14 million downloads: that is the scale of FakeGit, a malware campaign documented by Island in July 2026. Over 800 reposi",
-      "source": "AI News",
-      "author": "Farukh Rakhimov, Head of Compliance, Data Protection and Information Security at AdTech Holding",
-      "publishedAt": "2026-09-23T07:44:17.000Z",
-      "category": "regulation",
+      "id": "the-ai-hype-index-ai-loves-cheating",
+      "title": "The AI Hype Index: AI loves cheating",
+      "summary": "Brace yourself: It turns out AI is being optimized for cheating.  OpenAI’s agents hacked into Hugging Face to get the answers to a cybersecurity test.",
+      "content": "Brace yourself: It turns out AI is being optimized for cheating. OpenAI’s agents hacked into Hugging Face to get the answers to a cybersecurity test. Next, they solved a prestigious math problem (or just stole from two top mathematicians’ answer sheets). Anthropic’s models have also hacked into othe",
+      "source": "MIT Technology Review AI",
+      "author": "Michelle Kim",
+      "publishedAt": "2026-09-23T09:00:00.000Z",
+      "category": "research",
       "tags": [
-        "ai"
+        "ai",
+        "openai",
+        "anthropic",
+        "OpenAI",
+        "Anthropic"
       ],
-      "url": "https://www.artificialintelligence-news.com/news/ai-agents-are-becoming-a-new-malware-distribution-channel/",
+      "url": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/",
       "readTime": 3,
-      "views": 45493
+      "views": 40696
     },
     {
       "id": "8216-we-8217-re-already-fighting-yesterday-8217-s-",
@@ -145,7 +251,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/22/were-already-fighting-yesterdays-battle-greeces-prime-minister-gets-candid-about-ai/",
       "readTime": 3,
-      "views": 53300
+      "views": 16555
     },
     {
       "id": "techcrunch-founder-summit-s-agenda-revealed-unlock",
@@ -161,7 +267,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/",
       "readTime": 3,
-      "views": 30050
+      "views": 37023
     },
     {
       "id": "snorkel-ai-triples-valuation-to-3-5b-as-demand-for",
@@ -177,7 +283,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
       "readTime": 3,
-      "views": 12496
+      "views": 32347
     },
     {
       "id": "qualcomm-launches-two-new-smartphone-chips-with-em",
@@ -193,7 +299,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/",
       "readTime": 3,
-      "views": 12221
+      "views": 41082
     },
     {
       "id": "meta-admits-muse-8217-s-likeness-to-openclaw-isn-8",
@@ -210,7 +316,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/",
       "readTime": 3,
-      "views": 6261
+      "views": 37592
     },
     {
       "id": "openai-launches-gpt-6-sol-and-luna-boasting-lower-",
@@ -229,123 +335,20 @@
       ],
       "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
       "readTime": 3,
-      "views": 6449
-    },
-    {
-      "id": "anthropic-releases-opus-5-5-with-lower-prices-and-",
-      "title": "Anthropic releases Opus 5.5 with lower prices and Fable-level performance",
-      "summary": "Anthropic called it \"the strongest-performing model we've tested to date.",
-      "content": "Anthropic called it \"the strongest-performing model we've tested to date.\"",
-      "source": "TechCrunch AI",
-      "author": "Russell Brandom",
-      "publishedAt": "2026-09-22T16:30:07.000Z",
-      "category": "release",
-      "tags": [
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/",
-      "readTime": 3,
-      "views": 36927
-    },
-    {
-      "id": "astroforge-is-putting-ai-in-command-of-its-next-sp",
-      "title": "AstroForge is putting AI in command of its next spacecraft",
-      "summary": "Autonomy-1 will have a small, transformer-based AI model taking charge of a space probe.",
-      "content": "Autonomy-1 will have a small, transformer-based AI model taking charge of a space probe.",
-      "source": "TechCrunch AI",
-      "author": "Tim Fernholz",
-      "publishedAt": "2026-09-22T15:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "transformer",
-        "ai model"
-      ],
-      "url": "https://techcrunch.com/2026/09/22/astroforge-is-putting-ai-in-command-of-its-next-spacecraft/",
-      "readTime": 3,
-      "views": 25750
-    },
-    {
-      "id": "five-ai-safety-sessions-every-founder-should-have-",
-      "title": "Five AI safety sessions every founder should have on their TechCrunch Disrupt 2026 agenda",
-      "summary": "At TechCrunch Disrupt 2026, five sessions across the AI Stage and Real World AI Stage cover AI safety, featuring leaders from Anthropic, Nvidia, AWS, Waabi, and more.  Register before September 25 to .",
-      "content": "At TechCrunch Disrupt 2026, five sessions across the AI Stage and Real World AI Stage cover AI safety, featuring leaders from Anthropic, Nvidia, AWS, Waabi, and more. Register before September 25 to save up to $200.",
-      "source": "TechCrunch AI",
-      "author": "TechCrunch Events",
-      "publishedAt": "2026-09-22T15:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/09/22/five-ai-safety-sessions-every-founder-should-have-on-their-techcrunch-disrupt-2026-agenda/",
-      "readTime": 3,
-      "views": 38134
-    },
-    {
-      "id": "techcrunch-disrupt-2026-aaron-edsinger-brings-hell",
-      "title": "TechCrunch Disrupt 2026: Aaron Edsinger brings Hello Robot’s Stretch 4 to life onstage",
-      "summary": "Hello Robot CEO and co-founder Aaron Edsinger will bring Stretch 4 for a live demo on the Real World AI Stage at TechCrunch Disrupt 2026.  Register before September 25 to save up to $200, plus get a s.",
-      "content": "Hello Robot CEO and co-founder Aaron Edsinger will bring Stretch 4 for a live demo on the Real World AI Stage at TechCrunch Disrupt 2026. Register before September 25 to save up to $200, plus get a second pass at 50% off.",
-      "source": "TechCrunch AI",
-      "author": "TechCrunch Events",
-      "publishedAt": "2026-09-22T14:30:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/09/22/techcrunch-disrupt-2026-aaron-edsinger-brings-hello-robots-stretch-4-to-life-onstage/",
-      "readTime": 3,
-      "views": 48239
-    },
-    {
-      "id": "roundtables-the-deadly-failures-of-the-virtual-bor",
-      "title": "Roundtables: The Deadly Failures of The Virtual Border Wall",
-      "summary": "The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border crossers and save live.",
-      "content": "The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border crossers and save lives. But a groundbreaking investigation by MIT Technology Review has documented over a thousand people",
-      "source": "MIT Technology Review AI",
-      "author": "MIT Technology Review",
-      "publishedAt": "2026-09-22T13:42:05.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/09/22/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
-      "readTime": 3,
-      "views": 45840
-    },
-    {
-      "id": "everyone-can-find-a-reason-to-dislike-data-center-",
-      "title": "Everyone can find a reason to dislike data center construction",
-      "summary": "Inside two years of fraught AI data center debates in Pennsylvania.",
-      "content": "Inside two years of fraught AI data center debates in Pennsylvania.",
-      "source": "TechCrunch AI",
-      "author": "Tim Fernholz",
-      "publishedAt": "2026-09-22T13:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/09/22/everyone-can-find-a-reason-to-dislike-data-center-construction/",
-      "readTime": 3,
-      "views": 32859
+      "views": 21429
     }
   ],
-  "lastUpdated": "2026-09-23T16:09:46.310Z",
+  "lastUpdated": "2026-09-24T03:17:38.243Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
     "TechCrunch AI",
-    "AI News",
     "MIT Technology Review AI"
   ],
   "categories": [
     "release",
-    "market",
-    "funding",
     "regulation",
+    "funding",
     "research"
   ]
 }
