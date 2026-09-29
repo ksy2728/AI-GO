@@ -1,6 +1,40 @@
 {
   "articles": [
     {
+      "id": "making-ai-an-asset-not-an-expense",
+      "title": "Making AI an asset, not an expense",
+      "summary": "When customers talk about AI costs, the conversation usually starts with token prices and ends with access to the latest, most capable model in the cloud.  Do they always need that level of capability.",
+      "content": "When customers talk about AI costs, the conversation usually starts with token prices and ends with access to the latest, most capable model in the cloud. Do they always need that level of capability? Not necessarily. But that is often where the conversation goes. As AI moves from experimentation to",
+      "source": "MIT Technology Review AI",
+      "author": "Cheri Williams",
+      "publishedAt": "2026-09-29T10:43:45.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/",
+      "readTime": 3,
+      "views": 22569
+    },
+    {
+      "id": "anthropic-8217-s-prospectus-details-losses-growth-",
+      "title": "Anthropic&#8217;s prospectus details losses, growth, and, yes, a warning that its AI could end humanity",
+      "summary": "In its prospectus, Anthropic just told investors it's losing tens of billions of dollars a year, but also growing like crazy, and — oh yeah — its own AI might pose an existential risk to humanity.",
+      "content": "In its prospectus, Anthropic just told investors it's losing tens of billions of dollars a year, but also growing like crazy, and — oh yeah — its own AI might pose an existential risk to humanity.",
+      "source": "TechCrunch AI",
+      "author": "Connie Loizos",
+      "publishedAt": "2026-09-29T05:13:43.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/",
+      "readTime": 3,
+      "views": 25071
+    },
+    {
       "id": "openai-reportedly-ditches-model-over-safety-concer",
       "title": "OpenAI reportedly ditches model over safety concerns",
       "summary": "A top executive at the AI lab told the Wall Street Journal that the model in question had displayed a poor aptitude for following orders.",
@@ -16,7 +50,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/",
       "readTime": 3,
-      "views": 11014
+      "views": 31023
     },
     {
       "id": "roundtables-the-deadly-failures-of-the-virtual-bor",
@@ -32,7 +66,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/09/28/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
       "readTime": 3,
-      "views": 7739
+      "views": 38722
     },
     {
       "id": "source-inference-provider-modal-labs-closing-in-on",
@@ -48,7 +82,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/28/source-inference-provider-modal-labs-closing-in-on-750m-round-at-15-75b-valuation/",
       "readTime": 3,
-      "views": 21213
+      "views": 43375
     },
     {
       "id": "shopify-opens-checkout-to-browser-based-ai-agents",
@@ -64,7 +98,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
       "readTime": 3,
-      "views": 11077
+      "views": 8526
     },
     {
       "id": "the-ai-boom-took-over-climate-week-and-not-everyon",
@@ -80,7 +114,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/28/the-ai-boom-took-over-climate-week-and-not-everyone-is-happy-about-it/",
       "readTime": 3,
-      "views": 36008
+      "views": 23891
     },
     {
       "id": "nvidia-launches-new-platform-for-reining-in-rogue-",
@@ -96,7 +130,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/",
       "readTime": 3,
-      "views": 26003
+      "views": 30975
     },
     {
       "id": "anthropic-releases-sonnet-5-5-which-it-calls-a-sig",
@@ -113,7 +147,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/28/anthropic-releases-sonnet-5-5-which-it-calls-a-significantly-cheaper-faster-work-partner/",
       "readTime": 3,
-      "views": 53294
+      "views": 22703
     },
     {
       "id": "google-is-killing-off-gemini-8217-s-gems-in-favor-",
@@ -132,7 +166,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/",
       "readTime": 3,
-      "views": 30172
+      "views": 13141
     },
     {
       "id": "openai-still-doesn-8217-t-seem-to-have-a-handle-on",
@@ -150,7 +184,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/",
       "readTime": 3,
-      "views": 14332
+      "views": 32103
     },
     {
       "id": "when-can-we-say-ai-made-a-scientific-discovery",
@@ -169,7 +203,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
       "readTime": 3,
-      "views": 35778
+      "views": 21790
     },
     {
       "id": "meta-launches-enterprise-ai-platform-hires-mongodb",
@@ -186,7 +220,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
       "readTime": 3,
-      "views": 22914
+      "views": 54149
     },
     {
       "id": "anthropic-gamma-and-clay-share-what-happens-when-e",
@@ -204,7 +238,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/28/anthropic-gamma-and-clay-share-what-happens-when-enterprises-actually-deploy-ai-at-techcrunch-disrupt-2026/",
       "readTime": 3,
-      "views": 16528
+      "views": 15727
     },
     {
       "id": "after-a-deepfake-voice-fooled-her-grandfather-this",
@@ -221,7 +255,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/28/after-a-deepfake-voice-fooled-her-grandfather-this-founder-sprang-into-action/",
       "readTime": 3,
-      "views": 41240
+      "views": 49285
     },
     {
       "id": "next-5-vcs-judging-startup-battlefield-200-contend",
@@ -237,7 +271,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/28/next-five-vcs-judging-startup-battlefield-200-contenders-at-techcrunch-disrupt-2026/",
       "readTime": 3,
-      "views": 53039
+      "views": 25744
     },
     {
       "id": "modulate-raises-25m-for-its-voice-models-and-analy",
@@ -253,7 +287,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/28/modulate-raises-25m-for-its-voice-models-and-analysis-suite/",
       "readTime": 3,
-      "views": 24263
+      "views": 26456
     },
     {
       "id": "insurtech-outmarket-raises-34-5m-just-months-after",
@@ -269,7 +303,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/28/insuretech-outmarket-raises-34-5m-just-months-after-prior-round/",
       "readTime": 3,
-      "views": 28375
+      "views": 23577
     },
     {
       "id": "viral-ai-agent-instinct-raises-1b-series-c-at-a-10",
@@ -285,7 +319,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/",
       "readTime": 3,
-      "views": 21953
+      "views": 5324
     },
     {
       "id": "who-s-liable-when-ai-agents-go-rogue",
@@ -303,56 +337,19 @@
       ],
       "url": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
       "readTime": 3,
-      "views": 44759
-    },
-    {
-      "id": "anthropic-s-ceo-is-about-to-have-dinner-with-presi",
-      "title": "Anthropic’s CEO is about to have dinner with President Trump",
-      "summary": "This will be the first one-on-one meeting between Dario Amodei and Donald Trump.",
-      "content": "This will be the first one-on-one meeting between Dario Amodei and Donald Trump.",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2026-09-27T20:34:28.000Z",
-      "category": "release",
-      "tags": [
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
-      "readTime": 3,
-      "views": 6490
-    },
-    {
-      "id": "can-muse-overcome-meta-s-trust-issues",
-      "title": "Can Muse overcome Meta’s trust issues?",
-      "summary": "On Equity, we discussed how Meta's AI announcement managed to steal the spotlight from OpenAI and Anthropic.",
-      "content": "On Equity, we discussed how Meta's AI announcement managed to steal the spotlight from OpenAI and Anthropic.",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2026-09-27T19:57:30.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "anthropic",
-        "OpenAI",
-        "Meta"
-      ],
-      "url": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
-      "readTime": 3,
-      "views": 34152
+      "views": 15593
     }
   ],
-  "lastUpdated": "2026-09-29T04:23:52.476Z",
+  "lastUpdated": "2026-09-29T12:10:58.380Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "TechCrunch AI",
-    "MIT Technology Review AI"
+    "MIT Technology Review AI",
+    "TechCrunch AI"
   ],
   "categories": [
-    "release",
     "research",
+    "release",
     "funding"
   ]
 }
