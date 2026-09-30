@@ -1,6 +1,120 @@
 {
   "articles": [
     {
+      "id": "the-ugly-economics-of-consumer-ai",
+      "title": "The ugly economics of consumer AI",
+      "summary": "There’s a reason frontier labs have gotten gunshy about consumer AI — and it’s not because the tech isn’t good enough.",
+      "content": "There’s a reason frontier labs have gotten gunshy about consumer AI — and it’s not because the tech isn’t good enough.",
+      "source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "publishedAt": "2026-09-30T17:24:45.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/09/30/the-ugly-economics-of-consumer-ai/",
+      "readTime": 3,
+      "views": 36182
+    },
+    {
+      "id": "meta-disputes-claim-that-muse-read-a-user-8217-s-p",
+      "title": "Meta disputes claim that Muse read a user&#8217;s private messages without permission",
+      "summary": "Meta says its Muse AI agent cannot access a user’s Messages without explicit permission, disputing a journalist’s account that the agent read his private messages while the required Mac setting was tu.",
+      "content": "Meta says its Muse AI agent cannot access a user’s Messages without explicit permission, disputing a journalist’s account that the agent read his private messages while the required Mac setting was turned off.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-09-30T16:24:23.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Meta"
+      ],
+      "url": "https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/",
+      "readTime": 3,
+      "views": 11465
+    },
+    {
+      "id": "doordash-launches-an-ai-agent-you-can-text-to-orde",
+      "title": "DoorDash launches an AI agent you can text to order food",
+      "summary": "By launching an AI agent for food ordering, DoorDash is looking to gain an edge over rivals Uber Eats and Grubhub.",
+      "content": "By launching an AI agent for food ordering, DoorDash is looking to gain an edge over rivals Uber Eats and Grubhub.",
+      "source": "TechCrunch AI",
+      "author": "Aisha Malik",
+      "publishedAt": "2026-09-30T16:00:24.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food/",
+      "readTime": 3,
+      "views": 21582
+    },
+    {
+      "id": "destro-ai-8217-s-secret-sauce-is-getting-robots-an",
+      "title": "Destro AI&#8217;s secret sauce is getting robots and humans on the same page",
+      "summary": "\"One of the biggest reasons we are winning against robotics companies is because we are not a robotics company.",
+      "content": "\"One of the biggest reasons we are winning against robotics companies is because we are not a robotics company.\"",
+      "source": "TechCrunch AI",
+      "author": "Tim Fernholz",
+      "publishedAt": "2026-09-30T16:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "robotics"
+      ],
+      "url": "https://techcrunch.com/2026/09/30/destro-ais-secret-sauce-is-getting-robots-and-humans-on-the-same-page/",
+      "readTime": 3,
+      "views": 31949
+    },
+    {
+      "id": "cerebras-systems-andrew-feldman-on-whether-ai-can-",
+      "title": "Cerebras Systems’ Andrew Feldman on whether AI can keep scaling at TechCrunch Disrupt 2026",
+      "summary": "At TechCrunch Disrupt 2026, Cerebras Systems CEO and co-founder Andrew Feldman will explore the growing demand for compute, energy, and infrastructure, how Cerebras is approaching those constraints di.",
+      "content": "At TechCrunch Disrupt 2026, Cerebras Systems CEO and co-founder Andrew Feldman will explore the growing demand for compute, energy, and infrastructure, how Cerebras is approaching those constraints differently, and what comes next if today’s AI hardware reaches its limits.",
+      "source": "TechCrunch AI",
+      "author": "TechCrunch Events",
+      "publishedAt": "2026-09-30T14:30:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/09/30/cerebras-systems-andrew-feldman-on-whether-ai-can-keep-scaling-at-techcrunch-disrupt-2026/",
+      "readTime": 3,
+      "views": 10704
+    },
+    {
+      "id": "restate-lands-20m-as-the-need-for-durable-infrastr",
+      "title": "Restate lands $20M as the need for durable infrastructure increases with AI agents",
+      "summary": "Instead of building its durable execution engine on top of an external database, the company developed its own storage, replication, and redundancy layers.  This architecture allows Restate to be exce.",
+      "content": "Instead of building its durable execution engine on top of an external database, the company developed its own storage, replication, and redundancy layers. This architecture allows Restate to be exceptionally fast and lightweight.",
+      "source": "TechCrunch AI",
+      "author": "Marina Temkin",
+      "publishedAt": "2026-09-30T14:27:11.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/09/30/restate-lands-20m-as-the-need-for-durable-infrastructure-increases-with-ai-agents/",
+      "readTime": 3,
+      "views": 12450
+    },
+    {
+      "id": "airbnb-adds-ai-search-more-social-features",
+      "title": "Airbnb adds AI search, more social features",
+      "summary": "Airbnb is also launching new services such as meal delivery and laundry in select locations.",
+      "content": "Airbnb is also launching new services such as meal delivery and laundry in select locations.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-09-30T12:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/09/30/airbnb-adds-ai-search-more-social-features/",
+      "readTime": 3,
+      "views": 39349
+    },
+    {
       "id": "we-re-not-going-to-shoot-ourselves-in-the-foot-ove",
       "title": "“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer",
       "summary": "Two months after the bombshell news that a swarm of its agents had broken their containment and hacked into the computers of the AI company Hugging Face, OpenAI is still putting out fires.  A steady d.",
@@ -16,7 +130,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
       "readTime": 3,
-      "views": 15974
+      "views": 20132
     },
     {
       "id": "the-internet-is-convinced-elon-musk-8217-s-xai-tro",
@@ -34,7 +148,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
       "readTime": 3,
-      "views": 32354
+      "views": 48279
     },
     {
       "id": "openai-8217-s-latest-features-take-direct-aim-at-t",
@@ -54,7 +168,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/",
       "readTime": 3,
-      "views": 39175
+      "views": 48153
     },
     {
       "id": "openai-reportedly-in-talks-to-raise-30b-round-at-1",
@@ -72,7 +186,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
       "readTime": 3,
-      "views": 47930
+      "views": 13998
     },
     {
       "id": "here-8217-s-why-openai-is-absent-from-nvidia-8217-",
@@ -90,7 +204,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
       "readTime": 3,
-      "views": 17268
+      "views": 42599
     },
     {
       "id": "openai-takes-on-microsoft-with-the-launch-of-what-",
@@ -110,7 +224,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
       "readTime": 3,
-      "views": 49297
+      "views": 19829
     },
     {
       "id": "ai-powered-app-maker-wabi-pivots-to-a-messaging-ex",
@@ -126,7 +240,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/29/ai-powered-app-maker-wabi-pivots-to-a-messaging-experience/",
       "readTime": 3,
-      "views": 12403
+      "views": 36104
     },
     {
       "id": "openai-launches-dots-its-bubbly-agentic-avatar",
@@ -144,7 +258,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
       "readTime": 3,
-      "views": 22433
+      "views": 37427
     },
     {
       "id": "openai-gives-codex-reusable-cloud-environments-tha",
@@ -162,7 +276,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/29/openai-gives-codex-reusable-cloud-environments-that-work-across-devices/",
       "readTime": 3,
-      "views": 53053
+      "views": 45176
     },
     {
       "id": "openai-expands-chatgpt-8217-s-plug-ins-with-app-li",
@@ -182,107 +296,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/29/openai-expands-chatgpts-plugins-with-app-like-interfaces-and-automations/",
       "readTime": 3,
-      "views": 44769
-    },
-    {
-      "id": "can-a-chatbot-fix-the-government-maze-the-white-ho",
-      "title": "Can a chatbot fix the government maze? The White House is about to find out",
-      "summary": "gov is intended to simplify the process of navigating government bureaucracy, but large language models are imperfect and remain prone to hallucinations, which could cause new issues.",
-      "content": "America.gov is intended to simplify the process of navigating government bureaucracy, but large language models are imperfect and remain prone to hallucinations, which could cause new issues.",
-      "source": "TechCrunch AI",
-      "author": "Amanda Silberling",
-      "publishedAt": "2026-09-29T16:55:56.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai",
-        "language model"
-      ],
-      "url": "https://techcrunch.com/2026/09/29/can-a-chatbot-fix-the-government-maze-the-white-house-is-about-to-find-out/",
-      "readTime": 3,
-      "views": 48881
-    },
-    {
-      "id": "instinct-founder-said-more-than-50-of-transactions",
-      "title": "Instinct founder said more than 50% of transactions on the platform are travel-related",
-      "summary": "Instinct founder said the platform is growing 10% day by day, with transaction volume increasing at a similar rate.",
-      "content": "Instinct founder said the platform is growing 10% day by day, with transaction volume increasing at a similar rate.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-09-29T15:12:07.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/09/29/instinct-founder-said-more-than-50-of-transactions-on-the-platform-are-travel-related/",
-      "readTime": 3,
-      "views": 19746
-    },
-    {
-      "id": "with-dazzle-marissa-mayer-bets-your-camera-roll-ha",
-      "title": "With Dazzle, Marissa Mayer bets your camera roll has more info on your life than your inbox",
-      "summary": "Mayer argues that if a photo is worth a thousand words, your camera roll is worth millions.  By analyzing all the photos stored on your phone, Dazzle claims to understand your hobbies, interests, food.",
-      "content": "Mayer argues that if a photo is worth a thousand words, your camera roll is worth millions. By analyzing all the photos stored on your phone, Dazzle claims to understand your hobbies, interests, food, and style preferences, how you like to spend their time, and with whom.",
-      "source": "TechCrunch AI",
-      "author": "Marina Temkin",
-      "publishedAt": "2026-09-29T13:53:01.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/09/29/with-dazzle-marissa-mayer-bets-your-camera-roll-has-more-info-on-your-life-than-your-inbox/",
-      "readTime": 3,
-      "views": 20114
-    },
-    {
-      "id": "meta-is-expanding-its-ai-agent-muse-to-small-busin",
-      "title": "Meta is expanding its AI agent Muse to small businesses",
-      "summary": "The tech giant says the agent can help owners run their business and find new customers.",
-      "content": "The tech giant says the agent can help owners run their business and find new customers.",
-      "source": "TechCrunch AI",
-      "author": "Aisha Malik",
-      "publishedAt": "2026-09-29T13:47:30.000Z",
-      "category": "market",
-      "tags": [
-        "ai",
-        "Meta"
-      ],
-      "url": "https://techcrunch.com/2026/09/29/meta-is-expanding-its-ai-agent-muse-to-small-businesses/",
-      "readTime": 3,
-      "views": 31238
-    },
-    {
-      "id": "openai-apologizes-to-australia-after-its-ai-agents",
-      "title": "OpenAI apologizes to Australia after its AI agents breached government sites",
-      "summary": "The company also detailed how some of those breaches had happened, and outlined additional measures it is taking to assess the impact of the events.",
-      "content": "The company also detailed how some of those breaches had happened, and outlined additional measures it is taking to assess the impact of the events.",
-      "source": "TechCrunch AI",
-      "author": "Kate Park",
-      "publishedAt": "2026-09-29T12:45:05.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/09/29/openai-apologizes-to-australia-after-its-ai-agents-breached-government-sites/",
-      "readTime": 3,
-      "views": 47423
-    },
-    {
-      "id": "reco-raises-55m-as-ai-agent-security-startups-crow",
-      "title": "Reco raises $55M as AI agent security startups crowd the market",
-      "summary": "The round builds on a $30 million fundraise in February, taking the company's total funding to $140 million.",
-      "content": "The round builds on a $30 million fundraise in February, taking the company's total funding to $140 million.",
-      "source": "TechCrunch AI",
-      "author": "Ram Iyer",
-      "publishedAt": "2026-09-29T12:30:00.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/09/29/reco-raises-55m-as-ai-agent-security-startups-crowd-the-market/",
-      "readTime": 3,
-      "views": 8353
+      "views": 47868
     },
     {
       "id": "making-ai-an-asset-not-an-expense",
@@ -298,25 +312,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/",
       "readTime": 3,
-      "views": 11668
-    },
-    {
-      "id": "anthropic-8217-s-prospectus-details-losses-growth-",
-      "title": "Anthropic&#8217;s prospectus details losses, growth, and, yes, a warning that its AI could end humanity",
-      "summary": "In its prospectus, Anthropic just told investors it's losing tens of billions of dollars a year, but also growing like crazy, and — oh yeah — its own AI might pose an existential risk to humanity.",
-      "content": "In its prospectus, Anthropic just told investors it's losing tens of billions of dollars a year, but also growing like crazy, and — oh yeah — its own AI might pose an existential risk to humanity.",
-      "source": "TechCrunch AI",
-      "author": "Connie Loizos",
-      "publishedAt": "2026-09-29T05:13:43.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/",
-      "readTime": 3,
-      "views": 31511
+      "views": 8864
     },
     {
       "id": "roundtables-the-deadly-failures-of-the-virtual-bor",
@@ -332,7 +328,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/09/28/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
       "readTime": 3,
-      "views": 36052
+      "views": 54652
     },
     {
       "id": "when-can-we-say-ai-made-a-scientific-discovery",
@@ -351,21 +347,20 @@
       ],
       "url": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
       "readTime": 3,
-      "views": 26391
+      "views": 38362
     }
   ],
-  "lastUpdated": "2026-09-30T11:57:54.525Z",
+  "lastUpdated": "2026-09-30T17:53:00.503Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "MIT Technology Review AI",
-    "TechCrunch AI"
+    "TechCrunch AI",
+    "MIT Technology Review AI"
   ],
   "categories": [
-    "research",
     "release",
+    "research",
     "funding",
-    "market",
-    "regulation"
+    "market"
   ]
 }
