@@ -1,10 +1,93 @@
 {
   "articles": [
     {
+      "id": "google-releases-gemini-4-argon-called-its-most-pow",
+      "title": "Google releases Gemini 4 Argon, called its most powerful model yet",
+      "summary": "Google has released its latest Gemini model, marketing it as a workhorse for coding and cybersecurity work.",
+      "content": "Google has released its latest Gemini model, marketing it as a workhorse for coding and cybersecurity work.",
+      "source": "TechCrunch AI",
+      "author": "Lucas Ropek",
+      "publishedAt": "2026-09-30T23:43:07.000Z",
+      "category": "release",
+      "tags": [
+        "gemini",
+        "Google"
+      ],
+      "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+      "readTime": 3,
+      "views": 28416
+    },
+    {
+      "id": "valor-atreides-and-sequoia-back-ai-startup-flow-en",
+      "title": "Valor, Atreides, and Sequoia back AI startup Flow Engineering at $750M valuation",
+      "summary": "Flow Engineering, which is bringing AI agents to hardware design, also landed Roelof Botha as an angel investor and board member.",
+      "content": "Flow Engineering, which is bringing AI agents to hardware design, also landed Roelof Botha as an angel investor and board member.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2026-09-30T21:07:40.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/",
+      "readTime": 3,
+      "views": 21603
+    },
+    {
+      "id": "openai-8217-s-jev-clone-could-help-the-frontier-la",
+      "title": "OpenAI&#8217;s Jev clone could help the frontier lab stop its swarming agents",
+      "summary": "OpenAI's \"Decisions API\" is a Jev clone that confirms the importance of fast, cheap intelligence.",
+      "content": "OpenAI's \"Decisions API\" is a Jev clone that confirms the importance of fast, cheap intelligence.",
+      "source": "TechCrunch AI",
+      "author": "Tim Fernholz",
+      "publishedAt": "2026-09-30T19:00:57.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/",
+      "readTime": 3,
+      "views": 34887
+    },
+    {
+      "id": "ai-voice-startup-elevenlabs-doubles-valuation-to-2",
+      "title": "AI voice startup ElevenLabs doubles valuation to $22B",
+      "summary": "The $300 million employee tender was co-led by Wellington and T.",
+      "content": "The $300 million employee tender was co-led by Wellington and T. Rowe Price.",
+      "source": "TechCrunch AI",
+      "author": "Marina Temkin",
+      "publishedAt": "2026-09-30T18:23:57.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/",
+      "readTime": 3,
+      "views": 30961
+    },
+    {
+      "id": "reddit-is-killing-rss-feeds-and-ending-public-api-",
+      "title": "Reddit is killing RSS feeds and ending public API access because of AI bots",
+      "summary": "Reddit is ending support for RSS feeds, as the company continues tightening access to its trove of user-generated content.",
+      "content": "Reddit is ending support for RSS feeds, as the company continues tightening access to its trove of user-generated content.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-09-30T17:45:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/",
+      "readTime": 3,
+      "views": 28544
+    },
+    {
       "id": "the-ugly-economics-of-consumer-ai",
       "title": "The ugly economics of consumer AI",
-      "summary": "There’s a reason frontier labs have gotten gunshy about consumer AI — and it’s not because the tech isn’t good enough.",
-      "content": "There’s a reason frontier labs have gotten gunshy about consumer AI — and it’s not because the tech isn’t good enough.",
+      "summary": "There’s a reason frontier labs have gotten gun-shy about consumer AI — and it’s not because the tech isn’t good enough.",
+      "content": "There’s a reason frontier labs have gotten gun-shy about consumer AI — and it’s not because the tech isn’t good enough.",
       "source": "TechCrunch AI",
       "author": "Russell Brandom",
       "publishedAt": "2026-09-30T17:24:45.000Z",
@@ -14,7 +97,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/30/the-ugly-economics-of-consumer-ai/",
       "readTime": 3,
-      "views": 36182
+      "views": 6561
     },
     {
       "id": "meta-disputes-claim-that-muse-read-a-user-8217-s-p",
@@ -31,7 +114,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/",
       "readTime": 3,
-      "views": 11465
+      "views": 10816
     },
     {
       "id": "doordash-launches-an-ai-agent-you-can-text-to-orde",
@@ -47,7 +130,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food/",
       "readTime": 3,
-      "views": 21582
+      "views": 8284
     },
     {
       "id": "destro-ai-8217-s-secret-sauce-is-getting-robots-an",
@@ -64,7 +147,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/30/destro-ais-secret-sauce-is-getting-robots-and-humans-on-the-same-page/",
       "readTime": 3,
-      "views": 31949
+      "views": 5984
     },
     {
       "id": "cerebras-systems-andrew-feldman-on-whether-ai-can-",
@@ -80,7 +163,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/30/cerebras-systems-andrew-feldman-on-whether-ai-can-keep-scaling-at-techcrunch-disrupt-2026/",
       "readTime": 3,
-      "views": 10704
+      "views": 51915
     },
     {
       "id": "restate-lands-20m-as-the-need-for-durable-infrastr",
@@ -96,7 +179,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/30/restate-lands-20m-as-the-need-for-durable-infrastructure-increases-with-ai-agents/",
       "readTime": 3,
-      "views": 12450
+      "views": 29725
     },
     {
       "id": "airbnb-adds-ai-search-more-social-features",
@@ -112,7 +195,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/30/airbnb-adds-ai-search-more-social-features/",
       "readTime": 3,
-      "views": 39349
+      "views": 9643
     },
     {
       "id": "we-re-not-going-to-shoot-ourselves-in-the-foot-ove",
@@ -130,7 +213,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
       "readTime": 3,
-      "views": 20132
+      "views": 40709
     },
     {
       "id": "the-internet-is-convinced-elon-musk-8217-s-xai-tro",
@@ -148,27 +231,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
       "readTime": 3,
-      "views": 48279
-    },
-    {
-      "id": "openai-8217-s-latest-features-take-direct-aim-at-t",
-      "title": "OpenAI&#8217;s latest features take direct aim at the app store model",
-      "summary": "OpenAI is building out the pieces of an alternative to the traditional app store model, turning ChatGPT into a place where software can be discovered and used by people and AI agents alike.",
-      "content": "OpenAI is building out the pieces of an alternative to the traditional app store model, turning ChatGPT into a place where software can be discovered and used by people and AI agents alike.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-09-29T20:15:47.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gpt",
-        "openai",
-        "chatgpt",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/",
-      "readTime": 3,
-      "views": 48153
+      "views": 19677
     },
     {
       "id": "openai-reportedly-in-talks-to-raise-30b-round-at-1",
@@ -186,7 +249,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
       "readTime": 3,
-      "views": 13998
+      "views": 10048
     },
     {
       "id": "here-8217-s-why-openai-is-absent-from-nvidia-8217-",
@@ -204,99 +267,7 @@
       ],
       "url": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
       "readTime": 3,
-      "views": 42599
-    },
-    {
-      "id": "openai-takes-on-microsoft-with-the-launch-of-what-",
-      "title": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT&#8217;s own office suite",
-      "summary": "OpenAI's newly announced suite of office features puts it into more direct competition with more traditional software companies.",
-      "content": "OpenAI's newly announced suite of office features puts it into more direct competition with more traditional software companies.",
-      "source": "TechCrunch AI",
-      "author": "Lucas Ropek",
-      "publishedAt": "2026-09-29T17:45:51.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "gpt",
-        "openai",
-        "chatgpt",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
-      "readTime": 3,
-      "views": 19829
-    },
-    {
-      "id": "ai-powered-app-maker-wabi-pivots-to-a-messaging-ex",
-      "title": "AI-powered app maker Wabi pivots to a messaging experience",
-      "summary": "Wabi is repositioning its prompt-based app builder as a personal AI agent that can create interfaces on demand, combining chat, apps, and ongoing tasks.",
-      "content": "Wabi is repositioning its prompt-based app builder as a personal AI agent that can create interfaces on demand, combining chat, apps, and ongoing tasks.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-09-29T17:20:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/09/29/ai-powered-app-maker-wabi-pivots-to-a-messaging-experience/",
-      "readTime": 3,
-      "views": 36104
-    },
-    {
-      "id": "openai-launches-dots-its-bubbly-agentic-avatar",
-      "title": "OpenAI launches Dots, its bubbly agentic avatar",
-      "summary": "Dots are meant to operate independent of any specific hardware or interface, pursuing user-defined goals continuously in the background with minimal oversight.",
-      "content": "Dots are meant to operate independent of any specific hardware or interface, pursuing user-defined goals continuously in the background with minimal oversight.",
-      "source": "TechCrunch AI",
-      "author": "Lucas Ropek",
-      "publishedAt": "2026-09-29T17:17:15.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
-      "readTime": 3,
-      "views": 37427
-    },
-    {
-      "id": "openai-gives-codex-reusable-cloud-environments-tha",
-      "title": "OpenAI gives Codex reusable cloud environments that work across devices",
-      "summary": "OpenAI is expanding Codex with reusable cloud development environments, a revamped CLI with voice controls, new code review tools, and a security-focused product for scanning repositories and preparin.",
-      "content": "OpenAI is expanding Codex with reusable cloud development environments, a revamped CLI with voice controls, new code review tools, and a security-focused product for scanning repositories and preparing fixes.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-09-29T17:15:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/09/29/openai-gives-codex-reusable-cloud-environments-that-work-across-devices/",
-      "readTime": 3,
-      "views": 45176
-    },
-    {
-      "id": "openai-expands-chatgpt-8217-s-plug-ins-with-app-li",
-      "title": "OpenAI expands ChatGPT&#8217;s plug-ins with app-like interfaces and automations",
-      "summary": "OpenAI is expanding ChatGPT plug-ins with dedicated sidebar homes, interactive panels, file viewers, improved discovery, and support for automations.",
-      "content": "OpenAI is expanding ChatGPT plug-ins with dedicated sidebar homes, interactive panels, file viewers, improved discovery, and support for automations.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-09-29T17:15:00.000Z",
-      "category": "research",
-      "tags": [
-        "ai",
-        "gpt",
-        "openai",
-        "chatgpt",
-        "automation"
-      ],
-      "url": "https://techcrunch.com/2026/09/29/openai-expands-chatgpts-plugins-with-app-like-interfaces-and-automations/",
-      "readTime": 3,
-      "views": 47868
+      "views": 54771
     },
     {
       "id": "making-ai-an-asset-not-an-expense",
@@ -312,7 +283,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/",
       "readTime": 3,
-      "views": 8864
+      "views": 41425
     },
     {
       "id": "roundtables-the-deadly-failures-of-the-virtual-bor",
@@ -328,7 +299,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/09/28/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
       "readTime": 3,
-      "views": 54652
+      "views": 8854
     },
     {
       "id": "when-can-we-say-ai-made-a-scientific-discovery",
@@ -347,10 +318,28 @@
       ],
       "url": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
       "readTime": 3,
-      "views": 38362
+      "views": 38452
+    },
+    {
+      "id": "who-s-liable-when-ai-agents-go-rogue",
+      "title": "Who’s liable when AI agents go rogue?",
+      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next.  You can read more from the series here.",
+      "content": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Over the past few months, a cascade of cyberattacks by AI agents has stunned the world. In July, OpenAI disclosed that a ",
+      "source": "MIT Technology Review AI",
+      "author": "Michelle Kim",
+      "publishedAt": "2026-09-28T08:06:22.000Z",
+      "category": "funding",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
+      "readTime": 3,
+      "views": 38248
     }
   ],
-  "lastUpdated": "2026-09-30T17:53:00.503Z",
+  "lastUpdated": "2026-10-01T04:19:22.873Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -359,8 +348,8 @@
   ],
   "categories": [
     "release",
-    "research",
     "funding",
+    "research",
     "market"
   ]
 }
