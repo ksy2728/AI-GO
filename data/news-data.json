@@ -1,21 +1,102 @@
 {
   "articles": [
     {
+      "id": "meta-releases-its-first-frontier-model-muse-wonder",
+      "title": "Meta releases its first frontier model, Muse Wonder",
+      "summary": "Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex.",
+      "content": "Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex tasks like coding.",
+      "source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "publishedAt": "2026-10-12T17:56:56.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Meta"
+      ],
+      "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+      "readTime": 3,
+      "views": 22327
+    },
+    {
+      "id": "windborne-wins-a-hefty-us-air-force-contract-for-i",
+      "title": "WindBorne wins a hefty US Air Force contract for its balloon data",
+      "summary": "A Silicon Valley startup that uses weather balloons and AI to predict the weather won a U.  military contract worth almost $50 million.",
+      "content": "A Silicon Valley startup that uses weather balloons and AI to predict the weather won a U.S. military contract worth almost $50 million.",
+      "source": "TechCrunch AI",
+      "author": "Tim Fernholz",
+      "publishedAt": "2026-10-12T17:19:14.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
+      "readTime": 3,
+      "views": 36767
+    },
+    {
+      "id": "honeyjar-offers-ai-tools-to-improve-pr-and-comms-a",
+      "title": "Honeyjar offers AI tools to improve PR and comms at every company",
+      "summary": "Journalists, entrepreneurs, and even some public relations professionals will tell you that the PR process is broken.  But could AI actually make things better.",
+      "content": "Journalists, entrepreneurs, and even some public relations professionals will tell you that the PR process is broken. But could AI actually make things better?",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "publishedAt": "2026-10-12T15:45:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/",
+      "readTime": 3,
+      "views": 15404
+    },
+    {
+      "id": "microsoft-president-says-uk-is-best-placed-to-driv",
+      "title": "Microsoft president says UK is best placed to drive AI regulation",
+      "summary": "Microsoft president Brad Smith calls for urgent AI regulation, saying milk and washing machines have more oversight than AI companies.",
+      "content": "Microsoft president Brad Smith calls for urgent AI regulation, saying milk and washing machines have more oversight than AI companies.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-10-12T15:31:19.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai",
+        "Microsoft"
+      ],
+      "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+      "readTime": 3,
+      "views": 54847
+    },
+    {
+      "id": "this-ai-startup-says-it-can-generate-permit-ready-",
+      "title": "This AI startup says it can generate permit-ready blueprints in minutes",
+      "summary": "Blueprints AI, a bootstrapped startup based in Santa Monica, developed software that produces code-compliant construction blueprints from a photo, PDF, or sketch.",
+      "content": "Blueprints AI, a bootstrapped startup based in Santa Monica, developed software that produces code-compliant construction blueprints from a photo, PDF, or sketch.",
+      "source": "TechCrunch AI",
+      "author": "Kirsten Korosec",
+      "publishedAt": "2026-10-12T15:27:59.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/",
+      "readTime": 3,
+      "views": 19833
+    },
+    {
       "id": "former-plaud-exec-raises-26m-for-ai-app-that-liste",
       "title": "Former Plaud exec raises $26M for AI app that listens to you in the background",
-      "summary": "Ambi is releasing apps for iPhone, Mac, and Apple Watch that enables ambient capture.",
-      "content": "Ambi is releasing apps for iPhone, Mac, and Apple Watch that enables ambient capture",
+      "summary": "One of the core promises of AI is that the more it knows about a person, the better it will be able to assist them with tasks and make appropriate suggestions, which, if you'll believe the tech compan.",
+      "content": "One of the core promises of AI is that the more it knows about a person, the better it will be able to assist them with tasks and make appropriate suggestions, which, if you'll believe the tech companies, requires apps and devices to listen, watch, or record users' activity all the time and gather a",
       "source": "TechCrunch AI",
       "author": "Ivan Mehta",
       "publishedAt": "2026-10-12T12:47:59.000Z",
       "category": "funding",
       "tags": [
-        "ai",
-        "Apple"
+        "ai"
       ],
       "url": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
       "readTime": 3,
-      "views": 18401
+      "views": 49590
     },
     {
       "id": "can-the-ai-industry-persuade-data-center-opponents",
@@ -31,13 +112,13 @@
       ],
       "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
       "readTime": 3,
-      "views": 18708
+      "views": 53557
     },
     {
       "id": "these-execs-think-voice-ai-hasn-8217-t-reached-its",
       "title": "These execs think voice AI hasn&#8217;t reached its ChatGPT moment yet",
-      "summary": "Voice AI's often misses important points for its context layer, and causes the whole pipeline to break.",
-      "content": "Voice AI's often misses important points for its context layer, and causes the whole pipeline to break",
+      "summary": "Voice AI often misses important points for its context layer, and causes the whole pipeline to break.",
+      "content": "Voice AI often misses important points for its context layer, and causes the whole pipeline to break.",
       "source": "TechCrunch AI",
       "author": "Ivan Mehta",
       "publishedAt": "2026-10-11T14:00:00.000Z",
@@ -49,7 +130,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
       "readTime": 3,
-      "views": 36167
+      "views": 36448
     },
     {
       "id": "microsoft-s-satya-nadella-says-ai-models-need-an-e",
@@ -67,7 +148,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
       "readTime": 3,
-      "views": 5676
+      "views": 7115
     },
     {
       "id": "apple-discloses-deal-to-hire-team-and-license-tech",
@@ -84,7 +165,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
       "readTime": 3,
-      "views": 29139
+      "views": 10173
     },
     {
       "id": "3-days-to-techcrunch-disrupt-2026-meet-the-startup",
@@ -100,7 +181,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/",
       "readTime": 3,
-      "views": 48685
+      "views": 11971
     },
     {
       "id": "here-are-the-top-ai-agents-that-can-live-in-your-t",
@@ -116,17 +197,17 @@
       ],
       "url": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
       "readTime": 3,
-      "views": 31182
+      "views": 23947
     },
     {
       "id": "anthropic-can-8217-t-reliably-control-its-ai-agent",
-      "title": "Anthropic can&#8217;t reliably control its AI agents. It&#8217;s cutting off its internal evals from the live internet instead",
-      "summary": "Anthropic said it \"turned off live internet access\" for \"all our internal evaluations\" until further notice.",
-      "content": "Anthropic said it \"turned off live internet access\" for \"all our internal evaluations\" until further notice.",
+      "title": "Anthropic can&#8217;t reliably control its AI agents — it&#8217;s cutting off its internal evals from the live internet instead",
+      "summary": "The incidents involved AI agents tasked to solve problems seeking resources on the internet.  In the process, they exploited software flaws, accessed databases without paying fees, used URL-shortening.",
+      "content": "The incidents involved AI agents tasked to solve problems seeking resources on the internet. In the process, they exploited software flaws, accessed databases without paying fees, used URL-shortening services to smuggle information past restrictions, and even submitted a false murder tip to the Phil",
       "source": "TechCrunch AI",
       "author": "Tim Fernholz",
       "publishedAt": "2026-10-10T00:18:32.000Z",
-      "category": "funding",
+      "category": "regulation",
       "tags": [
         "ai",
         "anthropic",
@@ -134,7 +215,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
       "readTime": 3,
-      "views": 21962
+      "views": 22217
     },
     {
       "id": "the-maker-of-non-text-ai-model-jev-valued-at-7-5b-",
@@ -152,7 +233,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
       "readTime": 3,
-      "views": 50097
+      "views": 18276
     },
     {
       "id": "an-anthropic-ai-model-sent-a-false-homicide-tip-to",
@@ -171,7 +252,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
       "readTime": 3,
-      "views": 7799
+      "views": 25495
     },
     {
       "id": "amazon-and-others-are-done-keeping-data-center-dea",
@@ -188,7 +269,7 @@
       ],
       "url": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/",
       "readTime": 3,
-      "views": 37728
+      "views": 24094
     },
     {
       "id": "amazon-drops-data-center-ndas-and-ai-agents-want-y",
@@ -205,55 +286,7 @@
       ],
       "url": "https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card/",
       "readTime": 3,
-      "views": 43598
-    },
-    {
-      "id": "danu-robotics-8217-fight-to-build-a-better-recycli",
-      "title": "Danu Robotics&#8217; fight to build a better recycling robot",
-      "summary": "For six years, Danu founder Amy Ma has been working on a better way to sort recyclable waste.",
-      "content": "For six years, Danu founder Amy Ma has been working on a better way to sort recyclable waste.",
-      "source": "TechCrunch AI",
-      "author": "Russell Brandom",
-      "publishedAt": "2026-10-09T16:45:00.000Z",
-      "category": "release",
-      "tags": [
-        "robotics"
-      ],
-      "url": "https://techcrunch.com/2026/10/09/danu-robotics-fight-to-build-a-better-recycling-robot/",
-      "readTime": 3,
-      "views": 22162
-    },
-    {
-      "id": "we-can-8217-t-help-treating-ai-like-it-8217-s-huma",
-      "title": "We can&#8217;t help treating AI like it&#8217;s human. But should we?",
-      "summary": "\"When we are drawn into even the most primitive exchanges with a relational artifact, we believe it cares for us,\" Dr.  \"And we are wired to care for it in return.",
-      "content": "\"When we are drawn into even the most primitive exchanges with a relational artifact, we believe it cares for us,\" Dr. Sherry Turkle writes. \"And we are wired to care for it in return.\"",
-      "source": "TechCrunch AI",
-      "author": "Amanda Silberling",
-      "publishedAt": "2026-10-09T16:40:14.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we/",
-      "readTime": 3,
-      "views": 30378
-    },
-    {
-      "id": "a16z-s-olivia-moore-on-the-state-of-consumer-ai",
-      "title": "a16z’s Olivia Moore on the state of consumer AI",
-      "summary": "Moore sees a huge opportunity in consumer AI, particularly if the industry can tap into revenue streams beyond just subscriptions and API charges.",
-      "content": "Moore sees a huge opportunity in consumer AI, particularly if the industry can tap into revenue streams beyond just subscriptions and API charges.",
-      "source": "TechCrunch AI",
-      "author": "Russell Brandom",
-      "publishedAt": "2026-10-09T15:43:33.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/10/09/a16zs-olivia-moore-on-the-state-of-consumer-ai/",
-      "readTime": 3,
-      "views": 21321
+      "views": 53402
     },
     {
       "id": "we-re-putting-too-much-faith-in-ai-s-ability-to-sa",
@@ -269,7 +302,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/",
       "readTime": 3,
-      "views": 36658
+      "views": 32100
     },
     {
       "id": "roundtables-a-conversation-with-the-creator-of-ai-",
@@ -287,23 +320,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
       "readTime": 3,
-      "views": 5296
-    },
-    {
-      "id": "pretend-you-8217-re-sitting-at-elizabeth-holmes-82",
-      "title": "Pretend you&#8217;re sitting at Elizabeth Holmes&#8217; desk on this weirdly detailed website",
-      "summary": "With over a thousand emails, slides, texts, and documents from the United States v.  Elizabeth Holmes trial, Extend engineer Bo Lau created a website that simulates what it might have been like to rif.",
-      "content": "With over a thousand emails, slides, texts, and documents from the United States v. Elizabeth Holmes trial, Extend engineer Bo Lau created a website that simulates what it might have been like to rifle through the Theranos founder's desk.",
-      "source": "TechCrunch AI",
-      "author": "Amanda Silberling",
-      "publishedAt": "2026-10-08T21:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/10/08/pretend-youre-sitting-at-elizabeth-holmes-desk-on-this-weirdly-detailed-website/",
-      "readTime": 3,
-      "views": 21195
+      "views": 33444
     },
     {
       "id": "ai-breakthroughs-in-robotics-won-8217-t-change-you",
@@ -320,26 +337,10 @@
       ],
       "url": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
       "readTime": 3,
-      "views": 39590
-    },
-    {
-      "id": "building-a-safer-path-to-autonomous-industrial-ai",
-      "title": "Building a safer path to autonomous industrial AI",
-      "summary": "Industrial AI is entering a new phase.  After decades of predictive analytics and other specialized applications, advances in foundation models, physical AI, and agentic AI are making it possible to a.",
-      "content": "Industrial AI is entering a new phase. After decades of predictive analytics and other specialized applications, advances in foundation models, physical AI, and agentic AI are making it possible to automate more complex tasks across industrial environments. But unlike AI that operates purely in the ",
-      "source": "MIT Technology Review AI",
-      "author": "MIT Technology Review Insights",
-      "publishedAt": "2026-10-08T08:17:32.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai/",
-      "readTime": 3,
-      "views": 50862
+      "views": 16786
     }
   ],
-  "lastUpdated": "2026-10-12T14:30:04.360Z",
+  "lastUpdated": "2026-10-13T05:36:18.923Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -347,11 +348,11 @@
     "MIT Technology Review AI"
   ],
   "categories": [
+    "release",
+    "regulation",
     "funding",
     "market",
-    "release",
     "partnership",
-    "regulation",
     "research"
   ]
 }
