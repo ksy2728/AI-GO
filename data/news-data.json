@@ -1,6 +1,72 @@
 {
   "articles": [
     {
+      "id": "amex-introduces-a-framework-to-prevent-ai-agents-f",
+      "title": "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
+      "summary": "American Express is introducing a new framework designed to ensure AI agents only make purchases their users have authorized, potentially preventing costly mistakes and disputes as AI-powered shopping.",
+      "content": "American Express is introducing a new framework designed to ensure AI agents only make purchases their users have authorized, potentially preventing costly mistakes and disputes as AI-powered shopping grows.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-10-13T13:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
+      "readTime": 3,
+      "views": 17972
+    },
+    {
+      "id": "just-5-years-in-interactive-chatbot-platform-chara",
+      "title": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
+      "summary": "The startup will sell some of its assets to Disney for $20 million.",
+      "content": "The startup will sell some of its assets to Disney for $20 million.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-10-13T12:23:42.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
+      "readTime": 3,
+      "views": 28868
+    },
+    {
+      "id": "open-models-have-real-benefits-do-they-outweigh-th",
+      "title": "Open models have real benefits. Do they outweigh the risks?",
+      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next.  You can read more from the series here.",
+      "content": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here. Late last month, Anthropic released a report arguing that the model GLM-5.3 poses a major cyberattack risk. T",
+      "source": "MIT Technology Review AI",
+      "author": "Grace Huckins",
+      "publishedAt": "2026-10-13T10:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
+      "readTime": 3,
+      "views": 47058
+    },
+    {
+      "id": "ai-labs-are-buying-data-from-dead-startups-to-trai",
+      "title": "AI labs are buying data from dead startups to train their models",
+      "summary": "When Keelan Miskell began winding down his crypto startup this year, he didn’t think its data was worth much: the users were anonymous, the company just a few years old.  But he’s since turned the fir.",
+      "content": "When Keelan Miskell began winding down his crypto startup this year, he didn’t think its data was worth much: the users were anonymous, the company just a few years old. But he’s since turned the firm’s digital archives into real money. He’s netted roughly $25,000 for his code base and a still-pendi",
+      "source": "MIT Technology Review AI",
+      "author": "Matthew King",
+      "publishedAt": "2026-10-13T09:00:00.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/",
+      "readTime": 3,
+      "views": 45940
+    },
+    {
       "id": "meta-releases-its-first-frontier-model-muse-wonder",
       "title": "Meta releases its first frontier model, Muse Wonder",
       "summary": "Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex.",
@@ -15,7 +81,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
       "readTime": 3,
-      "views": 22327
+      "views": 35935
     },
     {
       "id": "windborne-wins-a-hefty-us-air-force-contract-for-i",
@@ -31,7 +97,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
       "readTime": 3,
-      "views": 36767
+      "views": 32233
     },
     {
       "id": "honeyjar-offers-ai-tools-to-improve-pr-and-comms-a",
@@ -47,7 +113,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/",
       "readTime": 3,
-      "views": 15404
+      "views": 37287
     },
     {
       "id": "microsoft-president-says-uk-is-best-placed-to-driv",
@@ -64,7 +130,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
       "readTime": 3,
-      "views": 54847
+      "views": 11823
     },
     {
       "id": "this-ai-startup-says-it-can-generate-permit-ready-",
@@ -80,7 +146,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/",
       "readTime": 3,
-      "views": 19833
+      "views": 51832
     },
     {
       "id": "former-plaud-exec-raises-26m-for-ai-app-that-liste",
@@ -96,7 +162,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
       "readTime": 3,
-      "views": 49590
+      "views": 19207
     },
     {
       "id": "can-the-ai-industry-persuade-data-center-opponents",
@@ -112,7 +178,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
       "readTime": 3,
-      "views": 53557
+      "views": 31395
     },
     {
       "id": "these-execs-think-voice-ai-hasn-8217-t-reached-its",
@@ -130,7 +196,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
       "readTime": 3,
-      "views": 36448
+      "views": 41752
     },
     {
       "id": "microsoft-s-satya-nadella-says-ai-models-need-an-e",
@@ -148,7 +214,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
       "readTime": 3,
-      "views": 7115
+      "views": 31826
     },
     {
       "id": "apple-discloses-deal-to-hire-team-and-license-tech",
@@ -165,7 +231,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
       "readTime": 3,
-      "views": 10173
+      "views": 21041
     },
     {
       "id": "3-days-to-techcrunch-disrupt-2026-meet-the-startup",
@@ -181,7 +247,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/",
       "readTime": 3,
-      "views": 11971
+      "views": 17364
     },
     {
       "id": "here-are-the-top-ai-agents-that-can-live-in-your-t",
@@ -197,7 +263,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
       "readTime": 3,
-      "views": 23947
+      "views": 23709
     },
     {
       "id": "anthropic-can-8217-t-reliably-control-its-ai-agent",
@@ -215,7 +281,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
       "readTime": 3,
-      "views": 22217
+      "views": 17335
     },
     {
       "id": "the-maker-of-non-text-ai-model-jev-valued-at-7-5b-",
@@ -233,60 +299,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
       "readTime": 3,
-      "views": 18276
-    },
-    {
-      "id": "an-anthropic-ai-model-sent-a-false-homicide-tip-to",
-      "title": "An Anthropic AI model sent a false homicide tip to Philadelphia police",
-      "summary": "Anthropic did not discover this behavior until over two months after its AI submitted the false tip.",
-      "content": "Anthropic did not discover this behavior until over two months after its AI submitted the false tip.",
-      "source": "TechCrunch AI",
-      "author": "Amanda Silberling",
-      "publishedAt": "2026-10-09T19:36:56.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "anthropic",
-        "ai model",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
-      "readTime": 3,
-      "views": 25495
-    },
-    {
-      "id": "amazon-and-others-are-done-keeping-data-center-dea",
-      "title": "Amazon and others are done keeping data center deals secret. Is it enough to build trust?",
-      "summary": "Amazon says it will&#160;stop using NDAs&#160;when negotiating data center deals with local governments, following&#160;a&#160;similar move from Microsoft&#160;earlier this year.  Secrecy has fueled c.",
-      "content": "Amazon says it will&#160;stop using NDAs&#160;when negotiating data center deals with local governments, following&#160;a&#160;similar move from Microsoft&#160;earlier this year. Secrecy has fueled community backlash against AI infrastructure, with opposition leading to&#160;hundreds of&#160;propose",
-      "source": "TechCrunch AI",
-      "author": "Theresa Loconsolo",
-      "publishedAt": "2026-10-09T16:56:42.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai",
-        "Microsoft"
-      ],
-      "url": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/",
-      "readTime": 3,
-      "views": 24094
-    },
-    {
-      "id": "amazon-drops-data-center-ndas-and-ai-agents-want-y",
-      "title": "Amazon drops data center NDAs, and AI agents want your credit card",
-      "summary": "Amazon says it will&#160;stop using NDAs&#160;when negotiating data center deals with local governments, following&#160;a&#160;similar move from Microsoft&#160;earlier this year.  Secrecy has fueled c.",
-      "content": "Amazon says it will&#160;stop using NDAs&#160;when negotiating data center deals with local governments, following&#160;a&#160;similar move from Microsoft&#160;earlier this year. Secrecy has fueled community backlash against AI infrastructure, with opposition leading to&#160;hundreds of&#160;propose",
-      "source": "TechCrunch AI",
-      "author": "Theresa Loconsolo, Anthony Ha, Rebecca Bellan, Sean O'Kane",
-      "publishedAt": "2026-10-09T16:53:02.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai",
-        "Microsoft"
-      ],
-      "url": "https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card/",
-      "readTime": 3,
-      "views": 53402
+      "views": 17345
     },
     {
       "id": "we-re-putting-too-much-faith-in-ai-s-ability-to-sa",
@@ -302,7 +315,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/",
       "readTime": 3,
-      "views": 32100
+      "views": 34282
     },
     {
       "id": "roundtables-a-conversation-with-the-creator-of-ai-",
@@ -320,27 +333,10 @@
       ],
       "url": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
       "readTime": 3,
-      "views": 33444
-    },
-    {
-      "id": "ai-breakthroughs-in-robotics-won-8217-t-change-you",
-      "title": "AI breakthroughs in robotics won&#8217;t change your life any time soon",
-      "summary": "The story is a collaboration between MIT Technology Review and Aventine, a non-profit research foundation that creates and supports content about how technology and science are changing the way we liv.",
-      "content": "The story is a collaboration between MIT Technology Review and Aventine, a non-profit research foundation that creates and supports content about how technology and science are changing the way we live. A robot shaped like a human—white with a black head and torso—has been popping up on video feeds.",
-      "source": "MIT Technology Review AI",
-      "author": "Jamie Condliffe",
-      "publishedAt": "2026-10-08T09:00:00.000Z",
-      "category": "partnership",
-      "tags": [
-        "ai",
-        "robotics"
-      ],
-      "url": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
-      "readTime": 3,
-      "views": 16786
+      "views": 44400
     }
   ],
-  "lastUpdated": "2026-10-13T05:36:18.923Z",
+  "lastUpdated": "2026-10-13T13:37:09.657Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -349,10 +345,10 @@
   ],
   "categories": [
     "release",
+    "research",
     "regulation",
     "funding",
     "market",
-    "partnership",
-    "research"
+    "partnership"
   ]
 }
