@@ -1,10 +1,99 @@
 {
   "articles": [
     {
+      "id": "replit-is-no-longer-working-with-anthropic-ceo-say",
+      "title": "Replit is no longer working with Anthropic, CEO says",
+      "summary": "Masad said the decision was made for a number of different reasons, including cost.  Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer with.",
+      "content": "Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer with Anthropic.",
+      "source": "TechCrunch AI",
+      "author": "Lucas Ropek",
+      "publishedAt": "2026-10-16T21:22:28.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "anthropic",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "readTime": 3,
+      "views": 17213
+    },
+    {
+      "id": "roundtables-a-conversation-with-the-creator-of-ai-",
+      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+      "summary": "Listen to the session or watch below Can AI design new life forms.  In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose.",
+      "content": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that c",
+      "source": "MIT Technology Review AI",
+      "author": "MIT Technology Review",
+      "publishedAt": "2026-10-16T18:00:00.000Z",
+      "category": "research",
+      "tags": [
+        "ai",
+        "generative ai",
+        "ai model"
+      ],
+      "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+      "readTime": 3,
+      "views": 39968
+    },
+    {
+      "id": "india-becomes-the-latest-country-to-report-rogue-a",
+      "title": "India becomes the latest country to report rogue AI agent activity",
+      "summary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
+      "content": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
+      "source": "TechCrunch AI",
+      "author": "Aditya Mehta",
+      "publishedAt": "2026-10-16T17:52:24.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+      "readTime": 3,
+      "views": 25088
+    },
+    {
+      "id": "an-nvidia-insider-turned-vc-on-why-robotics-hasn-t",
+      "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+      "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic.",
+      "content": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being&#160;rebuilt.&#160; This view runs counter to tho",
+      "source": "TechCrunch AI",
+      "author": "Theresa Loconsolo",
+      "publishedAt": "2026-10-16T16:30:00.000Z",
+      "category": "market",
+      "tags": [
+        "gpt",
+        "chatgpt",
+        "robotics"
+      ],
+      "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+      "readTime": 3,
+      "views": 28209
+    },
+    {
+      "id": "physical-ai-is-more-than-robots-says-the-nvidia-ve",
+      "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
+      "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic.",
+      "content": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being&#160;rebuilt.&#160; This view runs counter to tho",
+      "source": "TechCrunch AI",
+      "author": "Theresa Loconsolo, Dominic-Madori Davis",
+      "publishedAt": "2026-10-16T16:30:00.000Z",
+      "category": "market",
+      "tags": [
+        "ai",
+        "robotics"
+      ],
+      "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
+      "readTime": 3,
+      "views": 40750
+    },
+    {
       "id": "elorian-s-first-ai-model-wants-to-reason-with-imag",
       "title": "Elorian’s first AI model wants to reason with images, not just about them",
-      "summary": "according to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
-      "content": "according to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
+      "summary": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
+      "content": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
       "source": "TechCrunch AI",
       "author": "Aditya Mehta",
       "publishedAt": "2026-10-16T16:01:37.000Z",
@@ -16,7 +105,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
       "readTime": 3,
-      "views": 29398
+      "views": 36520
     },
     {
       "id": "jev-is-vercel-8217-s-fastest-adopted-ai-model-ever",
@@ -33,7 +122,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
       "readTime": 3,
-      "views": 35469
+      "views": 37602
     },
     {
       "id": "mark-wahlberg-on-using-ai-in-film-8216-the-right-w",
@@ -49,7 +138,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
       "readTime": 3,
-      "views": 36276
+      "views": 48326
     },
     {
       "id": "replit-8217-s-ceo-says-the-future-of-work-is-the-8",
@@ -65,7 +154,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
       "readTime": 3,
-      "views": 39329
+      "views": 38716
     },
     {
       "id": "when-it-came-to-cal-ai-8217-s-viral-success-a-smal",
@@ -81,7 +170,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
       "readTime": 3,
-      "views": 10552
+      "views": 17401
     },
     {
       "id": "meta-launches-an-open-weight-ai-model-that-runs-on",
@@ -100,7 +189,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
       "readTime": 3,
-      "views": 49538
+      "views": 32933
     },
     {
       "id": "amazon-devices-chief-panos-panay-sees-a-future-whe",
@@ -116,7 +205,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
       "readTime": 3,
-      "views": 32779
+      "views": 5015
     },
     {
       "id": "anthropic-is-letting-metr-researchers-look-under-t",
@@ -135,7 +224,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
       "readTime": 3,
-      "views": 52599
+      "views": 45958
     },
     {
       "id": "bluesky-expands-its-ai-powered-attie-app-to-let-an",
@@ -151,7 +240,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
       "readTime": 3,
-      "views": 35641
+      "views": 38477
     },
     {
       "id": "ai-agents-are-coming-to-rivian-8217-s-cars",
@@ -167,7 +256,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
       "readTime": 3,
-      "views": 46630
+      "views": 42829
     },
     {
       "id": "google-s-universal-cart-shopping-tool-launches-in-",
@@ -185,7 +274,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
       "readTime": 3,
-      "views": 25734
+      "views": 5584
     },
     {
       "id": "amazon-8217-s-bee-launches-two-new-personal-ai-dev",
@@ -201,55 +290,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
       "readTime": 3,
-      "views": 39700
-    },
-    {
-      "id": "ricursive-intelligence-is-betting-on-ai-designed-c",
-      "title": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
-      "summary": "The founders detailed how their startup is developing AI that can design chips, learn from each iteration, and improve subsequent designs, all with the goal of automating and accelerating the chip des.",
-      "content": "The founders detailed how their startup is developing AI that can design chips, learn from each iteration, and improve subsequent designs, all with the goal of automating and accelerating the chip design process.",
-      "source": "TechCrunch AI",
-      "author": "Aisha Malik",
-      "publishedAt": "2026-10-15T01:01:32.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
-      "readTime": 3,
-      "views": 28800
-    },
-    {
-      "id": "gudea-leverages-ai-to-help-organizations-prevent-s",
-      "title": "Gudea leverages AI to help organizations prevent social media crises before they erupt",
-      "summary": "Gudea, a company that tracks how stories and rumors spread online that describes itself as the “storm tracker for the internet,” is using AI to help organizations spot trouble brewing online before it.",
-      "content": "Gudea, a company that tracks how stories and rumors spread online that describes itself as the “storm tracker for the internet,” is using AI to help organizations spot trouble brewing online before it turns into a crisis.",
-      "source": "TechCrunch AI",
-      "author": "Lauren Forristal",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/",
-      "readTime": 3,
-      "views": 10728
-    },
-    {
-      "id": "youtube-music-launches-new-labels-as-ai-generated-",
-      "title": "YouTube Music launches new labels as AI-generated music floods streaming platforms",
-      "summary": "The label will appear on the player page and include songs entirely generated by AI or partially, such as AI involved in composition and vocals.",
-      "content": "The label will appear on the player page and include songs entirely generated by AI or partially, such as AI involved in composition and vocals.",
-      "source": "TechCrunch AI",
-      "author": "Lauren Forristal",
-      "publishedAt": "2026-10-14T18:23:46.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
-      "readTime": 3,
-      "views": 40618
+      "views": 8585
     },
     {
       "id": "open-models-have-real-benefits-do-they-outweigh-th",
@@ -267,7 +308,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
       "readTime": 3,
-      "views": 24035
+      "views": 35562
     },
     {
       "id": "ai-labs-are-buying-data-from-dead-startups-to-trai",
@@ -283,7 +324,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/",
       "readTime": 3,
-      "views": 49621
+      "views": 46662
     },
     {
       "id": "we-re-putting-too-much-faith-in-ai-s-ability-to-sa",
@@ -299,45 +340,10 @@
       ],
       "url": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/",
       "readTime": 3,
-      "views": 13533
-    },
-    {
-      "id": "roundtables-a-conversation-with-the-creator-of-ai-",
-      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
-      "summary": "Friday, October 16, 2026 Can AI design new life forms.  In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blu.",
-      "content": "Friday, October 16, 2026 Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next",
-      "source": "MIT Technology Review AI",
-      "author": "MIT Technology Review",
-      "publishedAt": "2026-10-09T00:08:24.000Z",
-      "category": "research",
-      "tags": [
-        "ai",
-        "generative ai",
-        "ai model"
-      ],
-      "url": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
-      "readTime": 3,
-      "views": 36953
-    },
-    {
-      "id": "ai-breakthroughs-in-robotics-won-8217-t-change-you",
-      "title": "AI breakthroughs in robotics won&#8217;t change your life any time soon",
-      "summary": "The story is a collaboration between MIT Technology Review and Aventine, a non-profit research foundation that creates and supports content about how technology and science are changing the way we liv.",
-      "content": "The story is a collaboration between MIT Technology Review and Aventine, a non-profit research foundation that creates and supports content about how technology and science are changing the way we live. A robot shaped like a human—white with a black head and torso—has been popping up on video feeds.",
-      "source": "MIT Technology Review AI",
-      "author": "Jamie Condliffe",
-      "publishedAt": "2026-10-08T09:00:00.000Z",
-      "category": "partnership",
-      "tags": [
-        "ai",
-        "robotics"
-      ],
-      "url": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
-      "readTime": 3,
-      "views": 19015
+      "views": 10953
     }
   ],
-  "lastUpdated": "2026-10-16T16:07:27.504Z",
+  "lastUpdated": "2026-10-17T03:06:34.622Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -345,9 +351,10 @@
     "MIT Technology Review AI"
   ],
   "categories": [
-    "funding",
     "release",
-    "partnership",
-    "research"
+    "research",
+    "market",
+    "funding",
+    "partnership"
   ]
 }
