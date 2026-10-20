@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "id": "a-visit-to-samsung-s-massive-new-semiconductor-hub",
+      "title": "A visit to Samsung’s massive new semiconductor hub",
+      "summary": "Generative AI models run on powerful chips known as GPUs, which depend on stacks of specialized memory chips packaged with the processor.  To meet growing demand for memory, Samsung is building a mass.",
+      "content": "Generative AI models run on powerful chips known as GPUs, which depend on stacks of specialized memory chips packaged with the processor. To meet growing demand for memory, Samsung is building a massive new semiconductor manufacturing complex in Pyeongtaek, South Korea. Three fabs already operate ar",
+      "source": "MIT Technology Review AI",
+      "author": "Michelle Kim",
+      "publishedAt": "2026-10-20T09:00:00.000Z",
+      "category": "research",
+      "tags": [
+        "ai",
+        "generative ai",
+        "ai model"
+      ],
+      "url": "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/",
+      "readTime": 3,
+      "views": 14587
+    },
+    {
       "id": "mamdani-says-feds-have-abdicated-on-ai-urges-new-y",
       "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
       "summary": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
@@ -14,7 +32,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
       "readTime": 3,
-      "views": 45854
+      "views": 19776
     },
     {
       "id": "nscale-and-anthropic-are-reportedly-in-talks-for-y",
@@ -31,7 +49,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
       "readTime": 3,
-      "views": 29222
+      "views": 41175
     },
     {
       "id": "embedded-ai-evaluators-won-8217-t-be-an-easy-solut",
@@ -48,7 +66,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
       "readTime": 3,
-      "views": 10764
+      "views": 38763
     },
     {
       "id": "microsoft-says-ai-agents-are-like-insider-threats-",
@@ -68,7 +86,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
       "readTime": 3,
-      "views": 19481
+      "views": 46119
     },
     {
       "id": "amazon-is-taking-its-biggest-shot-at-nvidia-yet-wi",
@@ -84,7 +102,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
       "readTime": 3,
-      "views": 40842
+      "views": 16026
     },
     {
       "id": "hackers-hit-ai-coding-tool-opencode-running-up-cha",
@@ -101,7 +119,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
       "readTime": 3,
-      "views": 24957
+      "views": 31034
     },
     {
       "id": "tolan-snags-30m-for-its-ai-companion-that-helps-us",
@@ -117,7 +135,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/",
       "readTime": 3,
-      "views": 50611
+      "views": 10852
     },
     {
       "id": "replika-s-founder-built-the-ai-assistant-she-pitch",
@@ -133,7 +151,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/",
       "readTime": 3,
-      "views": 46199
+      "views": 53158
     },
     {
       "id": "tenstorrent-hits-6-2b-valuation-to-scale-open-weig",
@@ -149,7 +167,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
       "readTime": 3,
-      "views": 36572
+      "views": 45334
     },
     {
       "id": "making-the-internet-better-for-ai-agents-might-mak",
@@ -165,7 +183,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
       "readTime": 3,
-      "views": 19249
+      "views": 9537
     },
     {
       "id": "we-were-looking-at-it-wrong-the-explosive-claim-th",
@@ -182,7 +200,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
       "readTime": 3,
-      "views": 11797
+      "views": 18668
     },
     {
       "id": "people-are-using-ai-to-make-their-smart-tvs-dumb-a",
@@ -198,7 +216,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/",
       "readTime": 3,
-      "views": 43016
+      "views": 43874
     },
     {
       "id": "nvidia-launches-new-open-models-to-run-agents-in-t",
@@ -214,7 +232,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
       "readTime": 3,
-      "views": 37776
+      "views": 54266
     },
     {
       "id": "laplace-intelligence-red-teams-robots-and-self-dri",
@@ -230,7 +248,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/19/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
       "readTime": 3,
-      "views": 22129
+      "views": 52782
     },
     {
       "id": "ai-researchers-stranded-claude-on-a-virtual-desert",
@@ -247,7 +265,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
       "readTime": 3,
-      "views": 43077
+      "views": 23587
     },
     {
       "id": "anthropic-says-it-s-committing-5-of-its-shares-to-",
@@ -264,7 +282,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
       "readTime": 3,
-      "views": 7596
+      "views": 54315
     },
     {
       "id": "disney-agrees-to-hire-the-majority-of-character-ai",
@@ -280,7 +298,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
       "readTime": 3,
-      "views": 34317
+      "views": 50915
     },
     {
       "id": "meta-removes-language-that-raised-scraping-and-ai-",
@@ -297,7 +315,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
       "readTime": 3,
-      "views": 9246
+      "views": 35861
     },
     {
       "id": "replit-makes-openai-its-default-over-anthropic-ceo",
@@ -317,38 +335,20 @@
       ],
       "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
       "readTime": 3,
-      "views": 46022
-    },
-    {
-      "id": "roundtables-a-conversation-with-the-creator-of-ai-",
-      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
-      "summary": "Listen to the session or watch below Can AI design new life forms.  In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose.",
-      "content": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that c",
-      "source": "MIT Technology Review AI",
-      "author": "MIT Technology Review",
-      "publishedAt": "2026-10-16T18:00:00.000Z",
-      "category": "research",
-      "tags": [
-        "ai",
-        "generative ai",
-        "ai model"
-      ],
-      "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
-      "readTime": 3,
-      "views": 34158
+      "views": 45528
     }
   ],
-  "lastUpdated": "2026-10-20T03:31:59.881Z",
+  "lastUpdated": "2026-10-20T10:57:29.319Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "TechCrunch AI",
-    "MIT Technology Review AI"
+    "MIT Technology Review AI",
+    "TechCrunch AI"
   ],
   "categories": [
+    "research",
     "regulation",
     "release",
-    "funding",
-    "research"
+    "funding"
   ]
 }
