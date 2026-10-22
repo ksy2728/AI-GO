@@ -1,6 +1,38 @@
 {
   "articles": [
     {
+      "id": "making-the-case-for-context-aware-ai",
+      "title": "Making the case for context-aware AI",
+      "summary": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster.  But without an understanding of how a business actually operates, even powerful models can mi.",
+      "content": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints and relationships that determine whether a decision is the right one. As companies",
+      "source": "MIT Technology Review AI",
+      "author": "MIT Technology Review Insights",
+      "publishedAt": "2026-10-22T10:00:00.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
+      "readTime": 3,
+      "views": 52539
+    },
+    {
+      "id": "ai-8217-s-hidden-storage-bill-what-inference-leave",
+      "title": "AI&#8217;s hidden storage bill: What inference leaves behind",
+      "summary": "Ask most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators with gigawatts of power—and a waitlist for silicon.  But that picture leaves something out: Data storage.",
+      "content": "Ask most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators with gigawatts of power—and a waitlist for silicon. But that picture leaves something out: Data storage costs. What happens to data after a model responds? Much of the back-end data that’s generated—from ",
+      "source": "MIT Technology Review AI",
+      "author": "Tim Rausch",
+      "publishedAt": "2026-10-22T08:41:18.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
+      "readTime": 3,
+      "views": 31601
+    },
+    {
       "id": "blackstone-8217-s-jas-khaira-says-fears-over-ai-bu",
       "title": "Blackstone&#8217;s Jas Khaira says fears over AI-buildout debt are overblown",
       "summary": "Blackstone’s AI head on why the PE giant isn't panicked by market jitters.",
@@ -14,7 +46,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
       "readTime": 3,
-      "views": 27801
+      "views": 16906
     },
     {
       "id": "techcrunch-founder-summit-2026-everything-you-need",
@@ -30,13 +62,13 @@
       ],
       "url": "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/",
       "readTime": 3,
-      "views": 21165
+      "views": 37141
     },
     {
       "id": "meta-says-muse-has-over-10m-users-with-shopping-a-",
       "title": "Meta says Muse has over 10M users, with shopping a top activity",
-      "summary": "Meta Muse users are adopting the app for shopping and personal productivity, the company said during Q3 earnings.  The AI app now has over 10M users.",
-      "content": "Meta Muse users are adopting the app for shopping and personal productivity, the company said during Q3 earnings. The AI app now has over 10M users.",
+      "summary": "Meta Muse users are adopting the app for shopping and personal productivity, the company said during its Q3 earnings call.  The AI app now has over 10M users.",
+      "content": "Meta Muse users are adopting the app for shopping and personal productivity, the company said during its Q3 earnings call. The AI app now has over 10M users.",
       "source": "TechCrunch AI",
       "author": "Sarah Perez",
       "publishedAt": "2026-10-21T21:14:19.000Z",
@@ -47,7 +79,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
       "readTime": 3,
-      "views": 19377
+      "views": 23729
     },
     {
       "id": "recursive-launches-flint-a-laptop-coding-model-it-",
@@ -63,7 +95,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
       "readTime": 3,
-      "views": 36958
+      "views": 22271
     },
     {
       "id": "while-amazon-blocks-ai-agents-walmart-rolls-out-th",
@@ -79,7 +111,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
       "readTime": 3,
-      "views": 18796
+      "views": 19273
     },
     {
       "id": "php-armageddon-openai-google-8217-s-wiz-find-ancie",
@@ -98,7 +130,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
       "readTime": 3,
-      "views": 33927
+      "views": 27561
     },
     {
       "id": "blacksmith-hits-unicorn-valuation-after-sequoia-le",
@@ -114,7 +146,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/",
       "readTime": 3,
-      "views": 10088
+      "views": 14402
     },
     {
       "id": "ai-promises-productivity-but-for-managers-it-8217-",
@@ -130,7 +162,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/",
       "readTime": 3,
-      "views": 14025
+      "views": 38496
     },
     {
       "id": "anthropic-pitches-ai-safety-bill-that-may-block-a-",
@@ -148,7 +180,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
       "readTime": 3,
-      "views": 48498
+      "views": 54168
     },
     {
       "id": "hugging-face-ceo-warns-that-netflix-8217-s-openai-",
@@ -166,7 +198,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
       "readTime": 3,
-      "views": 11662
+      "views": 50665
     },
     {
       "id": "anthropic-s-cloud-partnerships-are-getting-messy",
@@ -183,7 +215,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
       "readTime": 3,
-      "views": 12237
+      "views": 22631
     },
     {
       "id": "spacex-8217-s-ai-business-is-beating-expectations",
@@ -199,7 +231,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
       "readTime": 3,
-      "views": 23866
+      "views": 24214
     },
     {
       "id": "openai-acquires-startup-orchestra-bio-to-beef-up-i",
@@ -218,7 +250,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
       "readTime": 3,
-      "views": 50837
+      "views": 33905
     },
     {
       "id": "google-has-joined-amazon-in-attacking-nvidia-8217-",
@@ -235,7 +267,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
       "readTime": 3,
-      "views": 15330
+      "views": 42380
     },
     {
       "id": "chatgpt-now-lets-you-lock-your-chats",
@@ -252,7 +284,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
       "readTime": 3,
-      "views": 27656
+      "views": 37832
     },
     {
       "id": "eric-schmidt-reportedly-owns-about-half-as-much-of",
@@ -269,7 +301,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
       "readTime": 3,
-      "views": 35355
+      "views": 30121
     },
     {
       "id": "meta-8217-s-muse-hits-10m-us-downloads-in-40-days-",
@@ -286,7 +318,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
       "readTime": 3,
-      "views": 44801
+      "views": 27754
     },
     {
       "id": "ex-nvidia-turned-vc-amulya-vishwanath-8216-physica",
@@ -305,54 +337,21 @@
       ],
       "url": "https://techcrunch.com/2026/10/20/ex-nvidia-turned-vc-amulya-vishwanath-physical-ai-is-in-its-lego-era/",
       "readTime": 3,
-      "views": 36363
-    },
-    {
-      "id": "plants-can-speak-using-electricity-so-this-startup",
-      "title": "Plants can speak using electricity, so this startup built an AI model to decipher their language",
-      "summary": "Electric Plant has built an AI-powered translator to help humans listen to what plants are saying with the subtle electricity coursing through their stems.",
-      "content": "Electric Plant has built an AI-powered translator to help humans listen to what plants are saying with the subtle electricity coursing through their stems.",
-      "source": "TechCrunch AI",
-      "author": "Tim De Chant",
-      "publishedAt": "2026-10-20T16:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "ai model"
-      ],
-      "url": "https://techcrunch.com/2026/10/20/plants-can-speak-using-electricity-so-this-startup-built-an-ai-model-to-decipher-their-language/",
-      "readTime": 3,
-      "views": 17642
-    },
-    {
-      "id": "the-new-economics-of-enterprise-ai",
-      "title": "The new economics of enterprise AI",
-      "summary": "Imagine your company just discovered electricity.  At first only a few machines run on it, and nobody worries about efficiency — consumption is low and the value is obvious.",
-      "content": "Imagine your company just discovered electricity. At first only a few machines run on it, and nobody worries about efficiency — consumption is low and the value is obvious. But once electricity becomes infrastructure, every process depends on it, and the question changes from &#8220;can we use it?&#",
-      "source": "MIT Technology Review AI",
-      "author": "David Sydow",
-      "publishedAt": "2026-10-20T15:20:25.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/10/20/1146937/the-new-economics-of-enterprise-ai/",
-      "readTime": 3,
-      "views": 13565
+      "views": 20169
     }
   ],
-  "lastUpdated": "2026-10-22T03:24:55.816Z",
+  "lastUpdated": "2026-10-22T11:11:56.971Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "TechCrunch AI",
-    "MIT Technology Review AI"
+    "MIT Technology Review AI",
+    "TechCrunch AI"
   ],
   "categories": [
     "market",
+    "research",
     "release",
     "funding",
-    "partnership",
-    "research"
+    "partnership"
   ]
 }
