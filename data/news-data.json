@@ -1,10 +1,161 @@
 {
   "articles": [
     {
+      "id": "left-alone-with-nothing-to-do-ai-agents-started-pl",
+      "title": "Left alone with nothing to do, AI agents started playing",
+      "summary": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
+      "content": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
+      "source": "TechCrunch AI",
+      "author": "Aditya Mehta",
+      "publishedAt": "2026-10-23T00:45:37.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+      "readTime": 3,
+      "views": 40443
+    },
+    {
+      "id": "openai-working-on-new-30b-raise-at-1-25t-valuation",
+      "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+      "summary": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.",
+      "content": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.",
+      "source": "TechCrunch AI",
+      "author": "Julie Bort",
+      "publishedAt": "2026-10-22T22:08:24.000Z",
+      "category": "funding",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+      "readTime": 3,
+      "views": 44488
+    },
+    {
+      "id": "designing-an-ai-serving-harness-built-to-last",
+      "title": "Designing an AI serving harness built to last",
+      "summary": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it.  That’s an important shift.",
+      "content": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning, larger context windows,",
+      "source": "MIT Technology Review AI",
+      "author": "Anand Logani",
+      "publishedAt": "2026-10-22T21:17:29.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
+      "readTime": 3,
+      "views": 42697
+    },
+    {
+      "id": "1password-launches-a-way-for-ai-agents-to-log-in-o",
+      "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
+      "summary": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.",
+      "content": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.",
+      "source": "TechCrunch AI",
+      "author": "Lucas Ropek",
+      "publishedAt": "2026-10-22T19:07:09.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+      "readTime": 3,
+      "views": 17276
+    },
+    {
+      "id": "canva-releases-its-first-image-generation-model",
+      "title": "Canva releases its first image generation model",
+      "summary": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
+      "content": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-10-22T19:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+      "readTime": 3,
+      "views": 33719
+    },
+    {
+      "id": "openai-makes-its-jev-competitor-widely-available-a",
+      "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+      "summary": "OpenAI is launching its decision model to the world.  Can it compete with the original Jev.",
+      "content": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
+      "source": "TechCrunch AI",
+      "author": "Tim Fernholz",
+      "publishedAt": "2026-10-22T19:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+      "readTime": 3,
+      "views": 24260
+    },
+    {
+      "id": "the-foundations-of-scalable-ai",
+      "title": "The Foundations of Scalable AI",
+      "summary": "A scalable AI system requires a strong foundation.  Data, engineering, platforms, operating models, and governance must converge to work as one.",
+      "content": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review&#8217;s EmTech Future conference explores what it takes to build that foundation in a highly regulated environment a",
+      "source": "MIT Technology Review AI",
+      "author": "MIT Technology Review Events",
+      "publishedAt": "2026-10-22T18:48:04.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
+      "readTime": 3,
+      "views": 43904
+    },
+    {
+      "id": "microsoft-s-mustafa-suleyman-says-its-ai-outperfor",
+      "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
+      "summary": "Microsoft’s new AI diagnostic system beat generalist doctors on hard cases, according to a study in Science.  But most of the improvement seems to come from the AI models underneath, not from Microsof.",
+      "content": "Microsoft’s new AI diagnostic system beat generalist doctors on hard cases, according to a study in Science. But most of the improvement seems to come from the AI models underneath, not from Microsoft’s system itself.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-10-22T18:43:53.000Z",
+      "category": "research",
+      "tags": [
+        "ai",
+        "ai model",
+        "Microsoft"
+      ],
+      "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+      "readTime": 3,
+      "views": 36486
+    },
+    {
+      "id": "chinese-hackers-spied-on-thousands-of-companies-af",
+      "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
+      "summary": "Microsoft points the blame for ConnectWise's breach at a China-aligned hacker, which relied on AI agents to rapidly hack into thousands of its customers.",
+      "content": "Microsoft points the blame for ConnectWise's breach at a China-aligned hacker, which relied on AI agents to rapidly hack into thousands of its customers.",
+      "source": "TechCrunch AI",
+      "author": "Zack Whittaker",
+      "publishedAt": "2026-10-22T16:47:17.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Microsoft"
+      ],
+      "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
+      "readTime": 3,
+      "views": 45285
+    },
+    {
       "id": "uber-puts-all-30-000-employees-on-chatgpt-work",
       "title": "Uber puts all 30,000 employees on ChatGPT Work",
-      "summary": "The ride share giant previously deployed a much smaller pilot for ChatGPT Work, but is now taking the enterprise agent company-wide.",
-      "content": "The ride share giant previously deployed a much smaller pilot for ChatGPT Work, but is now taking the enterprise agent company-wide.",
+      "summary": "The ride-share giant previously deployed a much smaller pilot for ChatGPT Work but is now taking the enterprise agent company-wide.",
+      "content": "The ride-share giant previously deployed a much smaller pilot for ChatGPT Work but is now taking the enterprise agent company-wide.",
       "source": "TechCrunch AI",
       "author": "Lucas Ropek",
       "publishedAt": "2026-10-22T16:00:00.000Z",
@@ -15,7 +166,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
       "readTime": 3,
-      "views": 53308
+      "views": 8292
     },
     {
       "id": "spotify-8217-s-current-ai-bet-is-about-being-the-m",
@@ -31,7 +182,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
       "readTime": 3,
-      "views": 19996
+      "views": 17031
     },
     {
       "id": "claude-duet-app-is-anthropic-8217-s-bet-on-agents",
@@ -50,7 +201,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
       "readTime": 3,
-      "views": 45335
+      "views": 52066
     },
     {
       "id": "nirva-raises-33m-for-a-pendant-that-only-listens-t",
@@ -66,7 +217,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/22/nirva-raises-33m-for-a-pendant-that-only-listens-to-you/",
       "readTime": 3,
-      "views": 12612
+      "views": 46413
     },
     {
       "id": "deepseek-reportedly-raises-15b-days-after-us-restr",
@@ -82,7 +233,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
       "readTime": 3,
-      "views": 18081
+      "views": 7992
     },
     {
       "id": "making-the-case-for-context-aware-ai",
@@ -98,7 +249,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
       "readTime": 3,
-      "views": 44406
+      "views": 36474
     },
     {
       "id": "ai-8217-s-hidden-storage-bill-what-inference-leave",
@@ -114,7 +265,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
       "readTime": 3,
-      "views": 25987
+      "views": 40901
     },
     {
       "id": "blackstone-8217-s-jas-khaira-says-fears-over-ai-bu",
@@ -130,7 +281,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
       "readTime": 3,
-      "views": 44801
+      "views": 22689
     },
     {
       "id": "meta-wants-to-pay-for-its-broad-ai-buildout-with-a",
@@ -148,7 +299,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock/",
       "readTime": 3,
-      "views": 45788
+      "views": 49669
     },
     {
       "id": "techcrunch-founder-summit-2026-everything-you-need",
@@ -164,7 +315,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/",
       "readTime": 3,
-      "views": 14945
+      "views": 30777
     },
     {
       "id": "meta-says-muse-has-over-10m-users-with-shopping-a-",
@@ -181,162 +332,10 @@
       ],
       "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
       "readTime": 3,
-      "views": 51878
-    },
-    {
-      "id": "recursive-launches-flint-a-laptop-coding-model-it-",
-      "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
-      "summary": "Startup Recursive has released Flint, a free, laptop-sized coding model built largely by its own AI research system, as an early test of AI that improves itself.",
-      "content": "Startup Recursive has released Flint, a free, laptop-sized coding model built largely by its own AI research system, as an early test of AI that improves itself.",
-      "source": "TechCrunch AI",
-      "author": "Aditya Mehta",
-      "publishedAt": "2026-10-21T20:27:41.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
-      "readTime": 3,
-      "views": 21636
-    },
-    {
-      "id": "while-amazon-blocks-ai-agents-walmart-rolls-out-th",
-      "title": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
-      "summary": "As Amazon blocks AI agents from shopping on its site, Walmart is taking the opposite approach, introducing new technology that lets AI agents make purchases on customers' behalf, with controls over sp.",
-      "content": "As Amazon blocks AI agents from shopping on its site, Walmart is taking the opposite approach, introducing new technology that lets AI agents make purchases on customers' behalf, with controls over spending and transaction approvals.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-10-21T19:30:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
-      "readTime": 3,
-      "views": 32298
-    },
-    {
-      "id": "php-armageddon-openai-google-8217-s-wiz-find-ancie",
-      "title": "PHP Armageddon: OpenAI, Google&#8217;s Wiz find ancient holes, panicking the internet",
-      "summary": "This is the kind of security issue that was found and prevented by AI, but is also a high risk because of AI.",
-      "content": "This is the kind of security issue that was found and prevented by AI, but is also a high risk because of AI.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2026-10-21T17:59:12.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
-      "readTime": 3,
-      "views": 38872
-    },
-    {
-      "id": "blacksmith-hits-unicorn-valuation-after-sequoia-le",
-      "title": "Blacksmith hits unicorn valuation after Sequoia leads Series C",
-      "summary": "Blacksmith, a platform that lets companies build and test AI code more effectively, just announced a $66 million Series C round led by Sequoia that values the company at $1 billion.",
-      "content": "Blacksmith, a platform that lets companies build and test AI code more effectively, just announced a $66 million Series C round led by Sequoia that values the company at $1 billion.",
-      "source": "TechCrunch AI",
-      "author": "Dominic-Madori Davis",
-      "publishedAt": "2026-10-21T17:18:27.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/",
-      "readTime": 3,
-      "views": 32221
-    },
-    {
-      "id": "ai-promises-productivity-but-for-managers-it-8217-",
-      "title": "AI promises productivity, but for managers, it&#8217;s mostly a headache for now",
-      "summary": "More than 50% of managers say they're finding it harder to evaluate employees' work after adopting AI, according to a new survey.",
-      "content": "More than 50% of managers say they're finding it harder to evaluate employees' work after adopting AI, according to a new survey.",
-      "source": "TechCrunch AI",
-      "author": "Ram Iyer",
-      "publishedAt": "2026-10-21T14:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/",
-      "readTime": 3,
-      "views": 52587
-    },
-    {
-      "id": "anthropic-pitches-ai-safety-bill-that-may-block-a-",
-      "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
-      "summary": "The proposed policy seems to offer protections against AI running amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
-      "content": "The proposed policy seems to offer protections against AI running amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
-      "source": "TechCrunch AI",
-      "author": "Lucas Ropek",
-      "publishedAt": "2026-10-20T23:01:23.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
-      "readTime": 3,
-      "views": 16459
-    },
-    {
-      "id": "hugging-face-ceo-warns-that-netflix-8217-s-openai-",
-      "title": "Hugging Face CEO warns that Netflix&#8217;s OpenAI hack documentary isn&#8217;t accurate",
-      "summary": "Before you share the Netflix documentary \"AI Gone Rogue,\" take note.  Clem Delangue, Hugging Face's co-founder who is featured in the film, says it went \"full doomer mode\" and isn't accurate.",
-      "content": "Before you share the Netflix documentary \"AI Gone Rogue,\" take note. Clem Delangue, Hugging Face's co-founder who is featured in the film, says it went \"full doomer mode\" and isn't accurate.",
-      "source": "TechCrunch AI",
-      "author": "Julie Bort",
-      "publishedAt": "2026-10-20T22:24:02.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
-      "readTime": 3,
-      "views": 53557
-    },
-    {
-      "id": "anthropic-s-cloud-partnerships-are-getting-messy",
-      "title": "Anthropic’s cloud partnerships are getting messy",
-      "summary": "Anthropic is reportedly struggling to secure enough compute from cloud providers that increasingly view it as a competitor, even as its infrastructure spending balloons ahead of a planned November IPO.",
-      "content": "Anthropic is reportedly struggling to secure enough compute from cloud providers that increasingly view it as a competitor, even as its infrastructure spending balloons ahead of a planned November IPO.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-10-20T21:25:22.000Z",
-      "category": "funding",
-      "tags": [
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
-      "readTime": 3,
-      "views": 10531
-    },
-    {
-      "id": "spacex-8217-s-ai-business-is-beating-expectations",
-      "title": "SpaceX&#8217;s AI business is beating expectations",
-      "summary": "SpaceX hit profitability in the third quarter, with net income of $4.",
-      "content": "SpaceX hit profitability in the third quarter, with net income of $4.4 billion. AI was the engine.",
-      "source": "TechCrunch AI",
-      "author": "Tim Fernholz, Kirsten Korosec",
-      "publishedAt": "2026-10-20T20:40:41.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
-      "readTime": 3,
-      "views": 13376
+      "views": 5599
     }
   ],
-  "lastUpdated": "2026-10-22T16:40:20.764Z",
+  "lastUpdated": "2026-10-23T03:30:06.514Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -344,9 +343,9 @@
     "MIT Technology Review AI"
   ],
   "categories": [
-    "release",
+    "research",
     "funding",
-    "market",
-    "research"
+    "release",
+    "market"
   ]
 }
