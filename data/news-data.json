@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "id": "forced-to-pick-grok-s-ai-model-chooses-republicans",
+      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "summary": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
+      "content": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-10-24T15:00:00.000Z",
+      "category": "research",
+      "tags": [
+        "ai",
+        "gpt",
+        "openai",
+        "ai model",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "readTime": 3,
+      "views": 30617
+    },
+    {
+      "id": "here-are-the-top-ai-agents-that-can-live-in-your-t",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "content": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "source": "TechCrunch AI",
+      "author": "Lauren Forristal",
+      "publishedAt": "2026-10-24T14:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "readTime": 3,
+      "views": 8056
+    },
+    {
       "id": "openai-says-it-will-no-longer-train-its-ai-models-",
       "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
       "summary": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
@@ -17,7 +53,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
       "readTime": 3,
-      "views": 24913
+      "views": 22361
     },
     {
       "id": "from-toast-to-bessemer-who-founders-will-hear-from",
@@ -33,7 +69,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
       "readTime": 3,
-      "views": 25125
+      "views": 32466
     },
     {
       "id": "uber-rival-indrive-eyes-2027-robotaxi-tests-in-cen",
@@ -49,7 +85,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
       "readTime": 3,
-      "views": 40849
+      "views": 17061
     },
     {
       "id": "left-alone-with-nothing-to-do-ai-agents-started-pl",
@@ -65,7 +101,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
       "readTime": 3,
-      "views": 8415
+      "views": 46192
     },
     {
       "id": "openai-working-on-new-30b-raise-at-1-25t-valuation",
@@ -83,7 +119,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
       "readTime": 3,
-      "views": 53924
+      "views": 40791
     },
     {
       "id": "designing-an-ai-serving-harness-built-to-last",
@@ -99,7 +135,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
       "readTime": 3,
-      "views": 24636
+      "views": 8590
     },
     {
       "id": "1password-launches-a-way-for-ai-agents-to-log-in-o",
@@ -115,23 +151,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
       "readTime": 3,
-      "views": 18277
-    },
-    {
-      "id": "canva-releases-its-first-image-generation-model",
-      "title": "Canva releases its first image generation model",
-      "summary": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
-      "content": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-10-22T19:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
-      "readTime": 3,
-      "views": 30441
+      "views": 12892
     },
     {
       "id": "openai-makes-its-jev-competitor-widely-available-a",
@@ -149,7 +169,23 @@
       ],
       "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
       "readTime": 3,
-      "views": 20133
+      "views": 38229
+    },
+    {
+      "id": "canva-releases-its-first-image-generation-model",
+      "title": "Canva releases its first image generation model",
+      "summary": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
+      "content": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-10-22T19:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+      "readTime": 3,
+      "views": 13510
     },
     {
       "id": "the-foundations-of-scalable-ai",
@@ -165,7 +201,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
       "readTime": 3,
-      "views": 25283
+      "views": 54135
     },
     {
       "id": "microsoft-s-mustafa-suleyman-says-its-ai-outperfor",
@@ -183,7 +219,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
       "readTime": 3,
-      "views": 12390
+      "views": 21827
     },
     {
       "id": "chinese-hackers-spied-on-thousands-of-companies-af",
@@ -200,7 +236,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
       "readTime": 3,
-      "views": 41328
+      "views": 11365
     },
     {
       "id": "uber-puts-all-30-000-employees-on-chatgpt-work",
@@ -217,7 +253,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
       "readTime": 3,
-      "views": 43054
+      "views": 13336
     },
     {
       "id": "spotify-8217-s-current-ai-bet-is-about-being-the-m",
@@ -233,7 +269,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
       "readTime": 3,
-      "views": 48299
+      "views": 7080
     },
     {
       "id": "claude-duet-app-is-anthropic-8217-s-bet-on-agents",
@@ -252,7 +288,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
       "readTime": 3,
-      "views": 22477
+      "views": 7153
     },
     {
       "id": "nirva-raises-33m-for-a-pendant-that-only-listens-t",
@@ -268,7 +304,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/22/nirva-raises-33m-for-a-pendant-that-only-listens-to-you/",
       "readTime": 3,
-      "views": 32279
+      "views": 38090
     },
     {
       "id": "deepseek-reportedly-raises-15b-days-after-us-restr",
@@ -284,7 +320,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
       "readTime": 3,
-      "views": 32577
+      "views": 23363
     },
     {
       "id": "making-the-case-for-context-aware-ai",
@@ -300,42 +336,10 @@
       ],
       "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
       "readTime": 3,
-      "views": 14186
-    },
-    {
-      "id": "ai-8217-s-hidden-storage-bill-what-inference-leave",
-      "title": "AI&#8217;s hidden storage bill: What inference leaves behind",
-      "summary": "Ask most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators with gigawatts of power—and a waitlist for silicon.  But that picture leaves something out: Data storage.",
-      "content": "Ask most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators with gigawatts of power—and a waitlist for silicon. But that picture leaves something out: Data storage costs. What happens to data after a model responds? Much of the back-end data that’s generated—from ",
-      "source": "MIT Technology Review AI",
-      "author": "Tim Rausch",
-      "publishedAt": "2026-10-22T08:41:18.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
-      "readTime": 3,
-      "views": 52152
-    },
-    {
-      "id": "blackstone-8217-s-jas-khaira-says-fears-over-ai-bu",
-      "title": "Blackstone&#8217;s Jas Khaira says fears over AI-buildout debt are overblown",
-      "summary": "Blackstone’s AI head on why the PE giant isn't panicked by market jitters.",
-      "content": "Blackstone’s AI head on why the PE giant isn't panicked by market jitters.",
-      "source": "TechCrunch AI",
-      "author": "Marina Temkin",
-      "publishedAt": "2026-10-21T22:51:22.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
-      "readTime": 3,
-      "views": 5352
+      "views": 16886
     }
   ],
-  "lastUpdated": "2026-10-24T10:19:50.762Z",
+  "lastUpdated": "2026-10-24T15:25:21.573Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -343,9 +347,9 @@
     "MIT Technology Review AI"
   ],
   "categories": [
+    "research",
     "release",
     "partnership",
-    "research",
     "funding",
     "market"
   ]
