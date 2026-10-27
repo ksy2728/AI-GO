@@ -1,6 +1,127 @@
 {
   "articles": [
     {
+      "id": "how-openai-turned-its-coding-tools-into-dots-an-al",
+      "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+      "summary": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent.",
+      "content": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent.",
+      "source": "TechCrunch AI",
+      "author": "Tim Fernholz",
+      "publishedAt": "2026-10-27T02:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+      "readTime": 3,
+      "views": 27879
+    },
+    {
+      "id": "cohere-says-alibaba-s-qwen-model-tried-to-send-a-f",
+      "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
+      "summary": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing has .",
+      "content": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing has people asking how much to trust free Chinese AI.",
+      "source": "TechCrunch AI",
+      "author": "Aditya Mehta",
+      "publishedAt": "2026-10-27T01:12:21.000Z",
+      "category": "research",
+      "tags": [
+        "ai",
+        "ai model"
+      ],
+      "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+      "readTime": 3,
+      "views": 5043
+    },
+    {
+      "id": "will-the-real-anthropic-please-stand-up",
+      "title": "Will the real Anthropic please stand up",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI.  To get stories like this in your inbox first, sign up here.",
+      "content": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks) lays out the company’s u",
+      "source": "MIT Technology Review AI",
+      "author": "Will Douglas Heaven",
+      "publishedAt": "2026-10-26T17:45:43.000Z",
+      "category": "funding",
+      "tags": [
+        "ai",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
+      "readTime": 3,
+      "views": 35954
+    },
+    {
+      "id": "anthropic-s-ipo-filing-reveals-its-strategy-for-ke",
+      "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+      "summary": "Anthropic’s S-1 shows more than half of its $100,000-plus customers now use both the Claude Platform and a first-party app, a cross-selling playbook reminiscent of Amazon that’s making enterprise cust.",
+      "content": "Anthropic’s S-1 shows more than half of its $100,000-plus customers now use both the Claude Platform and a first-party app, a cross-selling playbook reminiscent of Amazon that’s making enterprise customers stickier.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-10-26T16:49:42.000Z",
+      "category": "funding",
+      "tags": [
+        "anthropic",
+        "claude",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+      "readTime": 3,
+      "views": 37162
+    },
+    {
+      "id": "spacex-locks-in-40b-gpu-financing-deal-with-apollo",
+      "title": "SpaceX locks in $40B GPU financing deal with Apollo",
+      "summary": "The financing gives SpaceX another way to fund its rapidly expanding AI ambitions without relying solely on traditional debt markets.",
+      "content": "The financing gives SpaceX another way to fund its rapidly expanding AI ambitions without relying solely on traditional debt markets.",
+      "source": "TechCrunch AI",
+      "author": "Aditya Mehta",
+      "publishedAt": "2026-10-26T16:46:36.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
+      "readTime": 3,
+      "views": 9227
+    },
+    {
+      "id": "anthropic-officially-files-for-its-public-debut",
+      "title": "Anthropic officially files for its public debut",
+      "summary": "Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI sa.",
+      "content": "Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-10-26T14:35:22.000Z",
+      "category": "funding",
+      "tags": [
+        "ai",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+      "readTime": 3,
+      "views": 37533
+    },
+    {
+      "id": "the-focus-on-ai-safety-disasters-ignores-everyday-",
+      "title": "The focus on AI safety disasters ignores everyday harms",
+      "summary": "Consider what passes for success in technology policy.  An AI company promises that its chatbot will not encourage suicide.",
+      "content": "Consider what passes for success in technology policy. An AI company promises that its chatbot will not encourage suicide. A social media platform makes it more difficult for children to buy fentanyl. These are important protections, and they should have existed all along. But companies can clear th",
+      "source": "MIT Technology Review AI",
+      "author": "Sam Hiner, Emma Leiken",
+      "publishedAt": "2026-10-26T09:01:00.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/",
+      "readTime": 3,
+      "views": 50041
+    },
+    {
       "id": "grok-releases-the-first-seven-minutes-of-its-ai-ge",
       "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
       "summary": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
@@ -14,7 +135,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
       "readTime": 3,
-      "views": 16993
+      "views": 15325
     },
     {
       "id": "ai-delivers-zero-financial-payoff-to-most-companie",
@@ -31,7 +152,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
       "readTime": 3,
-      "views": 5464
+      "views": 33513
     },
     {
       "id": "the-hottest-ai-wearables-and-gadgets-you-should-kn",
@@ -47,7 +168,23 @@
       ],
       "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
       "readTime": 3,
-      "views": 27310
+      "views": 50235
+    },
+    {
+      "id": "will-ai-expose-the-rickety-infrastructure-of-the-i",
+      "title": "Will AI expose the rickety infrastructure of the internet?",
+      "summary": "The moment you realize the internet is \"held together by glue and dreams.",
+      "content": "The moment you realize the internet is \"held together by glue and dreams.\"",
+      "source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "publishedAt": "2026-10-24T20:15:33.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/10/24/will-ai-expose-the-rickety-infrastructure-of-the-internet/",
+      "readTime": 3,
+      "views": 11587
     },
     {
       "id": "the-ai-graveyard-a-running-list-of-projects-and-st",
@@ -66,23 +203,24 @@
       ],
       "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
       "readTime": 3,
-      "views": 48803
+      "views": 39951
     },
     {
       "id": "block-8217-s-new-voice-model-sounds-eerily-human",
       "title": "Block&#8217;s new voice model sounds eerily human",
-      "summary": "Block said that the voice model can run locally on a MacBook M4 Max.",
-      "content": "Block said that the voice model can run locally on a MacBook M4 Max",
+      "summary": "Typically, speech models are paired with a large language model for knowledge retrieval.  Block said that Dessa's knowledge stems from the conversational data it has.",
+      "content": "Typically, speech models are paired with a large language model for knowledge retrieval. Block said that Dessa's knowledge stems from the conversational data it has.",
       "source": "TechCrunch AI",
       "author": "Ivan Mehta",
       "publishedAt": "2026-10-24T16:00:00.000Z",
       "category": "release",
       "tags": [
-        "ai"
+        "ai",
+        "language model"
       ],
       "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
       "readTime": 3,
-      "views": 26888
+      "views": 7142
     },
     {
       "id": "forced-to-pick-grok-s-ai-model-chooses-republicans",
@@ -102,7 +240,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
       "readTime": 3,
-      "views": 19312
+      "views": 7256
     },
     {
       "id": "here-are-the-top-ai-agents-that-can-live-in-your-t",
@@ -118,11 +256,11 @@
       ],
       "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
       "readTime": 3,
-      "views": 53069
+      "views": 5752
     },
     {
       "id": "openai-says-it-will-no-longer-train-its-ai-models-",
-      "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+      "title": "OpenAI says it will no longer train its AI models on the live internet, citing &#8216;significant risks&#8217;",
       "summary": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
       "content": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
       "source": "TechCrunch AI",
@@ -137,7 +275,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
       "readTime": 3,
-      "views": 30675
+      "views": 14330
     },
     {
       "id": "from-toast-to-bessemer-who-founders-will-hear-from",
@@ -153,7 +291,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
       "readTime": 3,
-      "views": 31069
+      "views": 22124
     },
     {
       "id": "uber-rival-indrive-eyes-2027-robotaxi-tests-in-cen",
@@ -169,7 +307,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
       "readTime": 3,
-      "views": 45901
+      "views": 23005
     },
     {
       "id": "left-alone-with-nothing-to-do-ai-agents-started-pl",
@@ -185,7 +323,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
       "readTime": 3,
-      "views": 12341
+      "views": 42759
     },
     {
       "id": "openai-working-on-new-30b-raise-at-1-25t-valuation",
@@ -203,144 +341,10 @@
       ],
       "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
       "readTime": 3,
-      "views": 14701
-    },
-    {
-      "id": "designing-an-ai-serving-harness-built-to-last",
-      "title": "Designing an AI serving harness built to last",
-      "summary": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it.  That’s an important shift.",
-      "content": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning, larger context windows,",
-      "source": "MIT Technology Review AI",
-      "author": "Anand Logani",
-      "publishedAt": "2026-10-22T21:17:29.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
-      "readTime": 3,
-      "views": 33082
-    },
-    {
-      "id": "1password-launches-a-way-for-ai-agents-to-log-in-o",
-      "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
-      "summary": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.",
-      "content": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.",
-      "source": "TechCrunch AI",
-      "author": "Lucas Ropek",
-      "publishedAt": "2026-10-22T19:07:09.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
-      "readTime": 3,
-      "views": 35527
-    },
-    {
-      "id": "canva-releases-its-first-image-generation-model",
-      "title": "Canva releases its first image generation model",
-      "summary": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
-      "content": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-10-22T19:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
-      "readTime": 3,
-      "views": 52430
-    },
-    {
-      "id": "openai-makes-its-jev-competitor-widely-available-a",
-      "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
-      "summary": "OpenAI is launching its decision model to the world.  Can it compete with the original Jev.",
-      "content": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
-      "source": "TechCrunch AI",
-      "author": "Tim Fernholz",
-      "publishedAt": "2026-10-22T19:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
-      "readTime": 3,
-      "views": 45638
-    },
-    {
-      "id": "the-foundations-of-scalable-ai",
-      "title": "The Foundations of Scalable AI",
-      "summary": "A scalable AI system requires a strong foundation.  Data, engineering, platforms, operating models, and governance must converge to work as one.",
-      "content": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review&#8217;s EmTech Future conference explores what it takes to build that foundation in a highly regulated environment a",
-      "source": "MIT Technology Review AI",
-      "author": "MIT Technology Review Events",
-      "publishedAt": "2026-10-22T18:48:04.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
-      "readTime": 3,
-      "views": 23829
-    },
-    {
-      "id": "microsoft-s-mustafa-suleyman-says-its-ai-outperfor",
-      "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
-      "summary": "Microsoft’s new AI diagnostic system beat generalist doctors on hard cases, according to a study in Science.  But most of the improvement seems to come from the AI models underneath, not from Microsof.",
-      "content": "Microsoft’s new AI diagnostic system beat generalist doctors on hard cases, according to a study in Science. But most of the improvement seems to come from the AI models underneath, not from Microsoft’s system itself.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-10-22T18:43:53.000Z",
-      "category": "research",
-      "tags": [
-        "ai",
-        "ai model",
-        "Microsoft"
-      ],
-      "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
-      "readTime": 3,
-      "views": 11710
-    },
-    {
-      "id": "chinese-hackers-spied-on-thousands-of-companies-af",
-      "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
-      "summary": "Microsoft points the blame for ConnectWise's breach at a China-aligned hacker, which relied on AI agents to rapidly hack into thousands of its customers.",
-      "content": "Microsoft points the blame for ConnectWise's breach at a China-aligned hacker, which relied on AI agents to rapidly hack into thousands of its customers.",
-      "source": "TechCrunch AI",
-      "author": "Zack Whittaker",
-      "publishedAt": "2026-10-22T16:47:17.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Microsoft"
-      ],
-      "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
-      "readTime": 3,
-      "views": 35010
-    },
-    {
-      "id": "uber-puts-all-30-000-employees-on-chatgpt-work",
-      "title": "Uber puts all 30,000 employees on ChatGPT Work",
-      "summary": "The ride-share giant previously deployed a much smaller pilot for ChatGPT Work but is now taking the enterprise agent company-wide.",
-      "content": "The ride-share giant previously deployed a much smaller pilot for ChatGPT Work but is now taking the enterprise agent company-wide.",
-      "source": "TechCrunch AI",
-      "author": "Lucas Ropek",
-      "publishedAt": "2026-10-22T16:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "gpt",
-        "chatgpt"
-      ],
-      "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
-      "readTime": 3,
-      "views": 24147
+      "views": 21780
     }
   ],
-  "lastUpdated": "2026-10-26T12:18:23.968Z",
+  "lastUpdated": "2026-10-27T03:49:38.687Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -349,8 +353,10 @@
   ],
   "categories": [
     "release",
-    "funding",
     "research",
+    "funding",
+    "market",
+    "regulation",
     "partnership"
   ]
 }
