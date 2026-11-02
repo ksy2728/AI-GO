@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "id": "openai-is-finally-merging-chatgpt-8217-s-chat-and-",
+      "title": "OpenAI is finally merging ChatGPT&#8217;s chat and Work tabs",
+      "summary": "OpenAI said that ChatGPT and Codex will draw usage from the same allocation pool after this change.",
+      "content": "OpenAI said that ChatGPT and Codex will draw usage from the same allocation pool after this change.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-11-02T13:57:53.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "gpt",
+        "openai",
+        "chatgpt",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+      "readTime": 3,
+      "views": 11066
+    },
+    {
+      "id": "stop-counting-tokens-start-counting-what-ships",
+      "title": "Stop counting tokens, start counting what ships",
+      "summary": "When a developer gives an AI agent a coding task, the agent does more than answer once.  It plans, generates code, runs tests, and repeats the process to correct errors.",
+      "content": "When a developer gives an AI agent a coding task, the agent does more than answer once. It plans, generates code, runs tests, and repeats the process to correct errors. A single task can use 10 to 50 times more tokens than a basic chat prompt. The more useful the agent becomes, the more calls&#8230;",
+      "source": "MIT Technology Review AI",
+      "author": "Affan Syed",
+      "publishedAt": "2026-11-02T13:10:32.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
+      "readTime": 3,
+      "views": 31960
+    },
+    {
       "id": "openai-might-rebrand-its-data-centers-as-ai-comput",
       "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
       "summary": "Data centers are deeply unpopular.  But what if we called them something else.",
@@ -16,7 +52,7 @@
       ],
       "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
       "readTime": 3,
-      "views": 18716
+      "views": 24452
     },
     {
       "id": "ai-can-make-tech-ceos-lives-easier-what-about-ever",
@@ -32,7 +68,7 @@
       ],
       "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
       "readTime": 3,
-      "views": 9428
+      "views": 25901
     },
     {
       "id": "apple-ceo-says-the-company-doesn-t-want-to-ship-ai",
@@ -49,7 +85,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
       "readTime": 3,
-      "views": 18771
+      "views": 14297
     },
     {
       "id": "judge-allows-naacp-lawsuit-over-xai-data-center-po",
@@ -65,7 +101,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
       "readTime": 3,
-      "views": 35871
+      "views": 46538
     },
     {
       "id": "openai-reportedly-lowers-funding-target-for-new-ro",
@@ -83,7 +119,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
       "readTime": 3,
-      "views": 37365
+      "views": 41599
     },
     {
       "id": "nvidia-weighs-playing-the-cosigner-for-nscale-s-ai",
@@ -99,7 +135,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
       "readTime": 3,
-      "views": 48777
+      "views": 46013
     },
     {
       "id": "ollie-a-privacy-focused-ai-assistant-is-shutting-d",
@@ -115,7 +151,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
       "readTime": 3,
-      "views": 37975
+      "views": 52543
     },
     {
       "id": "intel-8217-s-stock-crashes-knocking-12b-from-gover",
@@ -131,7 +167,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
       "readTime": 3,
-      "views": 41824
+      "views": 43179
     },
     {
       "id": "anthropic-expected-to-receive-high-8216-junk-8217-",
@@ -149,7 +185,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
       "readTime": 3,
-      "views": 46468
+      "views": 13600
     },
     {
       "id": "last-minute-halloween-costumes-for-tech-nerds",
@@ -165,7 +201,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/30/last-minute-halloween-costumes-for-tech-nerds/",
       "readTime": 3,
-      "views": 17470
+      "views": 37053
     },
     {
       "id": "cracks-are-emerging-in-the-ai-spending-boom",
@@ -181,7 +217,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
       "readTime": 3,
-      "views": 17658
+      "views": 31740
     },
     {
       "id": "zest-8217-s-new-ai-agent-finds-restaurants-and-boo",
@@ -197,7 +233,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
       "readTime": 3,
-      "views": 9052
+      "views": 16737
     },
     {
       "id": "theranos-whistleblower-tyler-shultz-warns-that-the",
@@ -213,7 +249,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people/",
       "readTime": 3,
-      "views": 50257
+      "views": 45088
     },
     {
       "id": "skip-the-small-talk-make-game-changing-connections",
@@ -229,7 +265,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/30/skip-the-small-talk-make-game-changing-connections-at-techcrunch-founder-summit-with-braindate/",
       "readTime": 3,
-      "views": 9001
+      "views": 36278
     },
     {
       "id": "doordash-said-it-8217-s-only-received-8216-several",
@@ -245,39 +281,7 @@
       ],
       "url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
       "readTime": 3,
-      "views": 45894
-    },
-    {
-      "id": "can-ai-data-centers-be-mass-produced-like-cars-thi",
-      "title": "Can AI data centers be mass-produced like cars? This startup aims to find out",
-      "summary": "Runware is building a factory to turn out prefabricated AI data centers on an assembly line.  The real test will be whether it can deliver at that scale.",
-      "content": "Runware is building a factory to turn out prefabricated AI data centers on an assembly line. The real test will be whether it can deliver at that scale.",
-      "source": "TechCrunch AI",
-      "author": "Dominic-Madori Davis",
-      "publishedAt": "2026-10-30T13:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/",
-      "readTime": 3,
-      "views": 46039
-    },
-    {
-      "id": "you-don-8217-t-need-to-believe-in-a-god-to-get-a-r",
-      "title": "You don&#8217;t need to believe in a god to get a religious exemption from using AI at work",
-      "summary": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.",
-      "content": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.",
-      "source": "TechCrunch AI",
-      "author": "Amanda Silberling",
-      "publishedAt": "2026-10-30T01:20:48.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
-      "readTime": 3,
-      "views": 5936
+      "views": 25437
     },
     {
       "id": "we-urgently-need-to-monitor-ai-agents-actions-in-r",
@@ -295,7 +299,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
       "readTime": 3,
-      "views": 37290
+      "views": 26626
     },
     {
       "id": "creating-ai-value-with-enterprise-context",
@@ -312,7 +316,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
       "readTime": 3,
-      "views": 16076
+      "views": 6345
     },
     {
       "id": "pairing-industrial-ai-autonomy-and-human-control",
@@ -328,10 +332,10 @@
       ],
       "url": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/",
       "readTime": 3,
-      "views": 49054
+      "views": 20799
     }
   ],
-  "lastUpdated": "2026-11-02T04:35:33.917Z",
+  "lastUpdated": "2026-11-02T14:49:44.304Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -340,10 +344,10 @@
   ],
   "categories": [
     "release",
+    "research",
     "regulation",
     "funding",
     "market",
-    "partnership",
-    "research"
+    "partnership"
   ]
 }
