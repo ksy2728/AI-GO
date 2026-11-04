@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "id": "securing-the-agentic-enterprise-with-data-lineage",
+      "title": "Securing the agentic enterprise with data lineage",
+      "summary": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes.  The output look.",
+      "content": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to draft the proposal for the sales rep. No ",
+      "source": "MIT Technology Review AI",
+      "author": "MIT Technology Review Insights",
+      "publishedAt": "2026-11-04T13:00:00.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+      "readTime": 3,
+      "views": 45273
+    },
+    {
       "id": "anthropic-is-working-on-a-system-to-prove-ai-model",
       "title": "Anthropic is working on a system to prove AI models&#8217; identity",
       "summary": "Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from.",
@@ -17,7 +33,7 @@
       ],
       "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
       "readTime": 3,
-      "views": 33852
+      "views": 45812
     },
     {
       "id": "data-centers-are-turning-to-old-jet-engines-as-the",
@@ -33,7 +49,7 @@
       ],
       "url": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
       "readTime": 3,
-      "views": 15394
+      "views": 44518
     },
     {
       "id": "ted-schlein-8217-s-ballistic-ventures-seeks-490m-f",
@@ -49,7 +65,7 @@
       ],
       "url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
       "readTime": 3,
-      "views": 23786
+      "views": 20119
     },
     {
       "id": "ai-inference-startup-fal-doubles-its-valuation-to-",
@@ -65,7 +81,7 @@
       ],
       "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
       "readTime": 3,
-      "views": 49811
+      "views": 47587
     },
     {
       "id": "netflix-8217-s-new-ai-discover-tab-helps-you-find-",
@@ -81,7 +97,7 @@
       ],
       "url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
       "readTime": 3,
-      "views": 38214
+      "views": 25909
     },
     {
       "id": "google-will-let-schools-disable-its-ai-tools-but-n",
@@ -98,7 +114,7 @@
       ],
       "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
       "readTime": 3,
-      "views": 53081
+      "views": 51872
     },
     {
       "id": "apple-restricts-dating-apps-and-ai-companions-to-u",
@@ -115,7 +131,7 @@
       ],
       "url": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/",
       "readTime": 3,
-      "views": 22276
+      "views": 32703
     },
     {
       "id": "how-reverse-game-theory-could-keep-ai-agents-in-ch",
@@ -132,7 +148,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
       "readTime": 3,
-      "views": 38504
+      "views": 28630
     },
     {
       "id": "apple-watch-8217-s-ai-features-for-rewinding-and-r",
@@ -149,7 +165,7 @@
       ],
       "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
       "readTime": 3,
-      "views": 12252
+      "views": 39222
     },
     {
       "id": "here-s-who-is-falling-in-line-for-trump-s-super-in",
@@ -165,7 +181,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
       "readTime": 3,
-      "views": 22166
+      "views": 10003
     },
     {
       "id": "google-takes-dreambeans-to-india-in-bid-to-bring-a",
@@ -182,7 +198,7 @@
       ],
       "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
       "readTime": 3,
-      "views": 39365
+      "views": 9139
     },
     {
       "id": "apple-may-try-to-increase-revenue-by-doing-8230-so",
@@ -199,7 +215,7 @@
       ],
       "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
       "readTime": 3,
-      "views": 31667
+      "views": 44288
     },
     {
       "id": "y-combinator-8217-s-garry-tan-uses-ai-agents-so-mu",
@@ -215,7 +231,7 @@
       ],
       "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
       "readTime": 3,
-      "views": 34524
+      "views": 38536
     },
     {
       "id": "trajectory-raises-45m-to-make-ai-model-training-ac",
@@ -232,7 +248,7 @@
       ],
       "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
       "readTime": 3,
-      "views": 38208
+      "views": 37793
     },
     {
       "id": "anthropic-warns-that-it-8217-s-very-close-to-rsi-c",
@@ -250,7 +266,7 @@
       ],
       "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
       "readTime": 3,
-      "views": 40423
+      "views": 9739
     },
     {
       "id": "web-host-squarespace-lays-off-19-of-its-employees",
@@ -266,7 +282,7 @@
       ],
       "url": "https://techcrunch.com/2026/11/02/web-host-squarespace-lays-off-19-of-its-employees/",
       "readTime": 3,
-      "views": 36699
+      "views": 6962
     },
     {
       "id": "new-york-times-and-other-outlets-sue-web-browser-b",
@@ -283,7 +299,7 @@
       ],
       "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
       "readTime": 3,
-      "views": 52126
+      "views": 25038
     },
     {
       "id": "raising-the-quality-of-insights-in-agentic-analyti",
@@ -300,23 +316,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
       "readTime": 3,
-      "views": 30294
-    },
-    {
-      "id": "42ai-comes-out-of-stealth-with-62-5m-and-a-world-m",
-      "title": "42AI comes out of stealth with $62.5M and a world model that can &#8216;predict human behavior&#8217;",
-      "summary": "Here's a question straight out of sci-fi: What if AI could predict what you were going to do before you decided to, even in a completely new situation.",
-      "content": "Here's a question straight out of sci-fi: What if AI could predict what you were going to do before you decided to, even in a completely new situation?",
-      "source": "TechCrunch AI",
-      "author": "Ram Iyer",
-      "publishedAt": "2026-11-02T16:30:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
-      "readTime": 3,
-      "views": 47019
+      "views": 10923
     },
     {
       "id": "stop-counting-tokens-start-counting-what-ships",
@@ -332,21 +332,21 @@
       ],
       "url": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
       "readTime": 3,
-      "views": 6852
+      "views": 47749
     }
   ],
-  "lastUpdated": "2026-11-04T04:56:35.473Z",
+  "lastUpdated": "2026-11-04T13:48:54.138Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
-    "TechCrunch AI",
-    "MIT Technology Review AI"
+    "MIT Technology Review AI",
+    "TechCrunch AI"
   ],
   "categories": [
+    "research",
     "release",
     "funding",
     "regulation",
-    "market",
-    "research"
+    "market"
   ]
 }
