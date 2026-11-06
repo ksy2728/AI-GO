@@ -1,26 +1,181 @@
 {
   "articles": [
     {
-      "id": "a-yc-startup-is-putting-1m-behind-five-unsolved-ma",
-      "title": "A YC startup is putting $1M behind five unsolved materials science problems for AI",
-      "summary": "Discovered Materials, a months-old YC startup that uses AI to find chip materials, is offering $200,000 for each solution to five open materials science problems.",
-      "content": "Discovered Materials, a months-old YC startup that uses AI to find chip materials, is offering $200,000 for each solution to five open materials science problems.",
+      "id": "airbnb-says-it-8217-s-launching-an-ai-travel-agent",
+      "title": "Airbnb says it&#8217;s launching an AI travel agent in the first half of 2027",
+      "summary": "Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay.",
+      "content": "Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay.",
       "source": "TechCrunch AI",
-      "author": "Tim Fernholz",
-      "publishedAt": "2026-11-05T13:00:00.000Z",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-11-05T22:40:55.000Z",
       "category": "release",
       "tags": [
         "ai"
       ],
+      "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+      "readTime": 3,
+      "views": 11613
+    },
+    {
+      "id": "meta-says-us-users-can-now-video-chat-with-their-m",
+      "title": "Meta says US users can now video chat with their Muse AI avatar",
+      "summary": "Meta's AI agent can now take calls as a customizable animated avatar, ahead of the launch of a Tamagotchi-like wearable designed to bring Muse to life.",
+      "content": "Meta's AI agent can now take calls as a customizable animated avatar, ahead of the launch of a Tamagotchi-like wearable designed to bring Muse to life.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-11-05T19:48:28.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Meta"
+      ],
+      "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
+      "readTime": 3,
+      "views": 24920
+    },
+    {
+      "id": "meta-warns-that-election-backlash-against-data-cen",
+      "title": "Meta warns that election backlash against data centers could make AI expansion harder",
+      "summary": "Meta warns that growing political opposition to data centers could threaten future AI investments, as communities push back against massive infrastructure projects.",
+      "content": "Meta warns that growing political opposition to data centers could threaten future AI investments, as communities push back against massive infrastructure projects.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-11-05T19:12:39.000Z",
+      "category": "funding",
+      "tags": [
+        "ai",
+        "Meta"
+      ],
+      "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+      "readTime": 3,
+      "views": 22653
+    },
+    {
+      "id": "openai-released-a-new-cybersecurity-model-is-that-",
+      "title": "OpenAI released a new cybersecurity model. Is that enough?",
+      "summary": "OpenAI's newest cybersecurity model comes out as AI labs face scrutiny of their work to protect digital infrastructure.",
+      "content": "OpenAI's newest cybersecurity model comes out as AI labs face scrutiny of their work to protect digital infrastructure.",
+      "source": "TechCrunch AI",
+      "author": "Tim Fernholz",
+      "publishedAt": "2026-11-05T19:06:12.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "openai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+      "readTime": 3,
+      "views": 16352
+    },
+    {
+      "id": "openai-president-greg-brockman-says-company-could-",
+      "title": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
+      "summary": "Speaking at a Wall Street Journal tech conference on Wednesday, the executive touted how the company had been gaining ground in the enterprise market, where rival Anthropic had already successfully ma.",
+      "content": "Speaking at a Wall Street Journal tech conference on Wednesday, the executive touted how the company had been gaining ground in the enterprise market, where rival Anthropic had already successfully made inroads.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-11-05T18:02:27.000Z",
+      "category": "funding",
+      "tags": [
+        "ai",
+        "openai",
+        "anthropic",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+      "readTime": 3,
+      "views": 16401
+    },
+    {
+      "id": "claude-can-now-analyze-your-spending-with-its-new-",
+      "title": "Claude can now analyze your spending with its new Personal Finance tool",
+      "summary": "With Personal Finance in Claude, users can connect their bank and card accounts through Plaid and ask questions about their finances.",
+      "content": "With Personal Finance in Claude, users can connect their bank and card accounts through Plaid and ask questions about their finances.",
+      "source": "TechCrunch AI",
+      "author": "Aisha Malik",
+      "publishedAt": "2026-11-05T18:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "claude"
+      ],
+      "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+      "readTime": 3,
+      "views": 7411
+    },
+    {
+      "id": "axiom-math-wants-to-keep-ai-slop-out-of-mathematic",
+      "title": "Axiom Math wants to keep AI slop out of mathematics",
+      "summary": "As AI floods math with unchecked proofs, Axiom Math is betting on verification.  The startup’s AI agents just formally verified the Stacks Project, one of the field’s biggest libraries.",
+      "content": "As AI floods math with unchecked proofs, Axiom Math is betting on verification. The startup’s AI agents just formally verified the Stacks Project, one of the field’s biggest libraries.",
+      "source": "TechCrunch AI",
+      "author": "Aditya Mehta",
+      "publishedAt": "2026-11-05T16:16:45.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/",
+      "readTime": 3,
+      "views": 40977
+    },
+    {
+      "id": "dropbox-acquires-tigris-data-for-350m-to-bolster-i",
+      "title": "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure",
+      "summary": "The deal is expected to support the development of DBX Agent Cloud, a new storage platform aimed at developers building AI models and agents.",
+      "content": "The deal is expected to support the development of DBX Agent Cloud, a new storage platform aimed at developers building AI models and agents.",
+      "source": "TechCrunch AI",
+      "author": "Lauren Forristal",
+      "publishedAt": "2026-11-05T15:19:05.000Z",
+      "category": "partnership",
+      "tags": [
+        "ai",
+        "ai model"
+      ],
+      "url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
+      "readTime": 3,
+      "views": 40040
+    },
+    {
+      "id": "aina-8217-s-smart-ring-has-a-screen-a-joystick-and",
+      "title": "Aina&#8217;s smart ring has a screen, a joystick, and a mic so you can talk to AI agents",
+      "summary": "Aina's ring can also take calls and help you dictate notes on your Mac.",
+      "content": "Aina's ring can also take calls and help you dictate notes on your Mac.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-11-05T14:42:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents/",
+      "readTime": 3,
+      "views": 23462
+    },
+    {
+      "id": "a-yc-startup-is-putting-1m-behind-5-unsolved-mater",
+      "title": "A YC startup is putting $1M behind 5 unsolved materials science problems for AI",
+      "summary": "While frontier AI models have solved a remarkable series of outstanding mathematics problems and made progress in the life sciences, they have yet to truly plumb the complex physics in advanced materi.",
+      "content": "While frontier AI models have solved a remarkable series of outstanding mathematics problems and made progress in the life sciences, they have yet to truly plumb the complex physics in advanced materials.",
+      "source": "TechCrunch AI",
+      "author": "Tim Fernholz",
+      "publishedAt": "2026-11-05T13:00:00.000Z",
+      "category": "funding",
+      "tags": [
+        "ai",
+        "ai model"
+      ],
       "url": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
       "readTime": 3,
-      "views": 10762
+      "views": 41395
     },
     {
       "id": "agility-is-the-first-pure-humanoid-robot-company-o",
       "title": "Agility is the first pure humanoid robot company on the stock market. Are you buying?",
-      "summary": "Agility arrives on the Nasdaq today as the first publicly-traded pure-play humanoid robotics company.",
-      "content": "Agility arrives on the Nasdaq today as the first publicly-traded pure-play humanoid robotics company.",
+      "summary": "Agility arrives on the Nasdaq today as the first publicly traded pure-play humanoid robotics company.",
+      "content": "Agility arrives on the Nasdaq today as the first publicly traded pure-play humanoid robotics company.",
       "source": "TechCrunch AI",
       "author": "Tim Fernholz",
       "publishedAt": "2026-11-05T12:00:00.000Z",
@@ -30,13 +185,13 @@
       ],
       "url": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
       "readTime": 3,
-      "views": 16760
+      "views": 42755
     },
     {
       "id": "apple-is-reportedly-cutting-budgets-for-its-intern",
       "title": "Apple is reportedly cutting budgets for its internal AI usage",
-      "summary": "The company is said to be significantly dropping the amount it's spending on AI for its engineering teams.",
-      "content": "The company is said to be significantly dropping the amount it's spending on AI for its engineering teams.",
+      "summary": "The tokenmaxxing frenzy has been short-lived as bills for said tokens came due, and companies decided that token rationing might be a more fiscally sensible approach.",
+      "content": "The tokenmaxxing frenzy has been short-lived as bills for said tokens came due, and companies decided that token rationing might be a more fiscally sensible approach.",
       "source": "TechCrunch AI",
       "author": "Lucas Ropek",
       "publishedAt": "2026-11-05T01:26:22.000Z",
@@ -47,7 +202,7 @@
       ],
       "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
       "readTime": 3,
-      "views": 20967
+      "views": 14498
     },
     {
       "id": "ai-pacs-spent-millions-trying-to-shape-congress-he",
@@ -63,7 +218,7 @@
       ],
       "url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
       "readTime": 3,
-      "views": 10558
+      "views": 26058
     },
     {
       "id": "nothing-ceo-says-company-8217-s-mysterious-ai-firs",
@@ -79,7 +234,7 @@
       ],
       "url": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
       "readTime": 3,
-      "views": 19989
+      "views": 49220
     },
     {
       "id": "almost-no-one-uses-ai-agents-to-book-their-uber-co",
@@ -95,7 +250,7 @@
       ],
       "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
       "readTime": 3,
-      "views": 51298
+      "views": 23783
     },
     {
       "id": "openai-is-already-trying-to-shape-the-2028-electio",
@@ -113,7 +268,7 @@
       ],
       "url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
       "readTime": 3,
-      "views": 9536
+      "views": 9542
     },
     {
       "id": "meta-acquires-ai-coding-startup-conductor",
@@ -130,7 +285,7 @@
       ],
       "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
       "readTime": 3,
-      "views": 40094
+      "views": 37727
     },
     {
       "id": "open-source-ai-is-booming-hugging-face-explains-wh",
@@ -146,24 +301,7 @@
       ],
       "url": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/",
       "readTime": 3,
-      "views": 18265
-    },
-    {
-      "id": "duckduckgo-pitches-itself-to-schools-amid-backlash",
-      "title": "DuckDuckGo pitches itself to schools amid backlash over Google&#8217;s AI policy",
-      "summary": "DuckDuckGo is courting schools frustrated by Google's AI restrictions, pointing educators to its search engine and options to disable AI features.",
-      "content": "DuckDuckGo is courting schools frustrated by Google's AI restrictions, pointing educators to its search engine and options to disable AI features.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-11-04T19:29:52.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/",
-      "readTime": 3,
-      "views": 5788
+      "views": 32976
     },
     {
       "id": "texas-was-the-new-epicenter-of-the-ai-data-center-",
@@ -179,57 +317,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
       "readTime": 3,
-      "views": 10499
-    },
-    {
-      "id": "building-on-open-source-ai-hugging-face-s-policy-c",
-      "title": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
-      "summary": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility.  But as increasingly capable mode.",
-      "content": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining",
-      "source": "TechCrunch AI",
-      "author": "Theresa Loconsolo, Rebecca Bellan",
-      "publishedAt": "2026-11-04T18:44:57.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs/",
-      "readTime": 3,
-      "views": 20894
-    },
-    {
-      "id": "i-tried-apple-8217-s-siri-recaps-they-8217-re-surp",
-      "title": "I tried Apple&#8217;s Siri Recaps. They&#8217;re surprisingly useful — and a little unsettling",
-      "summary": "Apple's AI-powered Siri Recaps won me over in just one day, despite my privacy reservations.  But there's still room for improvement.",
-      "content": "Apple's AI-powered Siri Recaps won me over in just one day, despite my privacy reservations. But there's still room for improvement.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-11-04T16:51:35.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Apple"
-      ],
-      "url": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/",
-      "readTime": 3,
-      "views": 13852
-    },
-    {
-      "id": "google-faces-backlash-for-plan-that-would-turn-off",
-      "title": "Google faces backlash for plan that would turn off Search for schools that restrict AI",
-      "summary": "Politicians on the left, like NYC mayor Zohran Mamdani and former FTC chair Lina Khan, accused Google of acting as an unregulated monopoly.",
-      "content": "Politicians on the left, like NYC mayor Zohran Mamdani and former FTC chair Lina Khan, accused Google of acting as an unregulated monopoly.",
-      "source": "TechCrunch AI",
-      "author": "Amanda Silberling",
-      "publishedAt": "2026-11-04T16:17:22.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Google"
-      ],
-      "url": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/",
-      "readTime": 3,
-      "views": 41256
+      "views": 44099
     },
     {
       "id": "securing-the-agentic-enterprise-with-data-lineage",
@@ -245,94 +333,10 @@
       ],
       "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
       "readTime": 3,
-      "views": 26034
-    },
-    {
-      "id": "anthropic-is-working-on-a-system-to-prove-ai-model",
-      "title": "Anthropic is working on a system to prove AI models&#8217; identity",
-      "summary": "Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from.",
-      "content": "Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from.",
-      "source": "TechCrunch AI",
-      "author": "Russell Brandom",
-      "publishedAt": "2026-11-03T22:41:03.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "anthropic",
-        "ai model",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
-      "readTime": 3,
-      "views": 19376
-    },
-    {
-      "id": "data-centers-are-turning-to-old-jet-engines-as-the",
-      "title": "Data centers are turning to old jet engines as the wait for power grows",
-      "summary": "The years-long wait for access to the grid and new turbines is causing data center builders to turn to an unusual, less-efficient and less environmentally friendly solution: once-discarded jet engines.",
-      "content": "The years-long wait for access to the grid and new turbines is causing data center builders to turn to an unusual, less-efficient and less environmentally friendly solution: once-discarded jet engines.",
-      "source": "TechCrunch AI",
-      "author": "Aditya Mehta",
-      "publishedAt": "2026-11-03T22:19:53.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
-      "readTime": 3,
-      "views": 18443
-    },
-    {
-      "id": "ted-schlein-8217-s-ballistic-ventures-seeks-490m-f",
-      "title": "Ted Schlein&#8217;s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
-      "summary": "Cybersecurity-focused Ballistic Ventures is seeking to raise $360 million for a new flagship fund and another $130 million for a separate investment vehicle.",
-      "content": "Cybersecurity-focused Ballistic Ventures is seeking to raise $360 million for a new flagship fund and another $130 million for a separate investment vehicle.",
-      "source": "TechCrunch AI",
-      "author": "Jagmeet Singh",
-      "publishedAt": "2026-11-03T21:43:08.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
-      "readTime": 3,
-      "views": 43846
-    },
-    {
-      "id": "ai-inference-startup-fal-doubles-its-valuation-to-",
-      "title": "AI inference startup Fal doubles its valuation to $16B as demand surges",
-      "summary": "The five-year-old startup raised a $1. 3  billion round led by Bessemer.",
-      "content": "The five-year-old startup raised a $1.3  billion round led by Bessemer.",
-      "source": "TechCrunch AI",
-      "author": "Marina Temkin",
-      "publishedAt": "2026-11-03T19:34:43.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
-      "readTime": 3,
-      "views": 34164
-    },
-    {
-      "id": "how-reverse-game-theory-could-keep-ai-agents-in-ch",
-      "title": "How “reverse game theory” could keep AI agents in check",
-      "summary": "A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules.  As AI models become more capable, safety researchers.",
-      "content": "A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules. As AI models become more capable, safety researchers are scrambling to ensure they are “aligned” with human desires—to make sure, in other words, that ro",
-      "source": "MIT Technology Review AI",
-      "author": "Amit Katwala",
-      "publishedAt": "2026-11-03T10:43:41.000Z",
-      "category": "regulation",
-      "tags": [
-        "ai",
-        "ai model"
-      ],
-      "url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
-      "readTime": 3,
-      "views": 34183
+      "views": 46121
     }
   ],
-  "lastUpdated": "2026-11-05T14:00:59.285Z",
+  "lastUpdated": "2026-11-06T05:15:39.166Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -341,10 +345,10 @@
   ],
   "categories": [
     "release",
-    "market",
+    "funding",
     "partnership",
+    "market",
     "regulation",
-    "research",
-    "funding"
+    "research"
   ]
 }
