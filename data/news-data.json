@@ -1,10 +1,128 @@
 {
   "articles": [
     {
+      "id": "anthropic-reportedly-plans-to-move-forward-with-ip",
+      "title": "Anthropic reportedly plans to move forward with IPO plans",
+      "summary": "The AI company is expected to set its valuation range this week, the Wall Street Journal reported.",
+      "content": "The AI company is expected to set its valuation range this week, the Wall Street Journal reported.",
+      "source": "TechCrunch AI",
+      "author": "Marina Temkin",
+      "publishedAt": "2026-11-10T01:27:12.000Z",
+      "category": "funding",
+      "tags": [
+        "ai",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+      "readTime": 3,
+      "views": 9843
+    },
+    {
+      "id": "jensen-huang-pulls-out-of-elevenlabs-summit-amid-n",
+      "title": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
+      "summary": "The Nvidia CEO also pulled out of an Anthropic event earlier.",
+      "content": "The Nvidia CEO also pulled out of an Anthropic event earlier.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-11-09T20:09:06.000Z",
+      "category": "release",
+      "tags": [
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
+      "readTime": 3,
+      "views": 47266
+    },
+    {
+      "id": "the-backlash-about-data-centers-might-really-just-",
+      "title": "The backlash about data centers might really just be about electricity",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI.  To get stories like this in your inbox first, sign up here.",
+      "content": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. As voters went to the polls across the US last week, I was in Ashburn, Virginia, part of what’s known as Data Center Alley—the world’s largest data center hub. It",
+      "source": "MIT Technology Review AI",
+      "author": "James O'Donnell",
+      "publishedAt": "2026-11-09T19:35:33.000Z",
+      "category": "research",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
+      "readTime": 3,
+      "views": 8761
+    },
+    {
+      "id": "meta-releases-muse-ember-a-new-lightweight-model-f",
+      "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
+      "summary": "At 10 cents per million input tokens, Ember is significantly cheaper than frontier competitors like Haiku and Luna.",
+      "content": "At 10 cents per million input tokens, Ember is significantly cheaper than frontier competitors like Haiku and Luna.",
+      "source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "publishedAt": "2026-11-09T18:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Meta"
+      ],
+      "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+      "readTime": 3,
+      "views": 34690
+    },
+    {
+      "id": "nancy-pelosi-s-replacement-is-ready-to-regulate-ai",
+      "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+      "summary": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI.  Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’.",
+      "content": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in setting federal AI policy.&#160; I spoke with ",
+      "source": "MIT Technology Review AI",
+      "author": "Grace Huckins",
+      "publishedAt": "2026-11-09T17:05:43.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+      "readTime": 3,
+      "views": 41086
+    },
+    {
+      "id": "anthropic-joins-ai-s-natural-gas-frenzy-buys-3-4b-",
+      "title": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
+      "summary": "Anthropic bought billions of dollars' worth of natural gas turbines in a deal that could give it buyer's remorse.",
+      "content": "Anthropic bought billions of dollars' worth of natural gas turbines in a deal that could give it buyer's remorse.",
+      "source": "TechCrunch AI",
+      "author": "Tim De Chant",
+      "publishedAt": "2026-11-09T16:56:54.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+      "readTime": 3,
+      "views": 16553
+    },
+    {
+      "id": "medium-8217-s-new-tk-app-brings-ai-assistance-dire",
+      "title": "Medium&#8217;s new TK app brings AI assistance directly into the writing process",
+      "summary": "Medium's new writing app embraces AI-assisted writing, despite growing controversy over the technology's role in publishing.",
+      "content": "Medium's new writing app embraces AI-assisted writing, despite growing controversy over the technology's role in publishing.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-11-09T16:12:28.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/",
+      "readTime": 3,
+      "views": 52231
+    },
+    {
       "id": "automattic-debuts-a-platform-to-deploy-vibe-coding",
-      "title": "Automattic debuts a platform to deploy vibe coding apps amid a changing internet",
-      "summary": "Automattic aims to compete with likes of Lovable with Spacefast.",
-      "content": "Automattic aims to compete with likes of Lovable with Spacefast",
+      "title": "Automattic debuts a platform to deploy vibe-coding apps amid a changing internet",
+      "summary": "Automattic aims to compete with the likes of Lovable with Spacefast.",
+      "content": "Automattic aims to compete with the likes of Lovable with Spacefast.",
       "source": "TechCrunch AI",
       "author": "Ivan Mehta",
       "publishedAt": "2026-11-09T14:00:00.000Z",
@@ -14,7 +132,7 @@
       ],
       "url": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
       "readTime": 3,
-      "views": 33148
+      "views": 38599
     },
     {
       "id": "innovating-with-ai-in-the-special-chemicals-indust",
@@ -31,7 +149,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
       "readTime": 3,
-      "views": 23218
+      "views": 26894
     },
     {
       "id": "nvidia-will-investigate-ceo-jensen-huang-s-relatio",
@@ -47,7 +165,7 @@
       ],
       "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
       "readTime": 3,
-      "views": 11601
+      "views": 49986
     },
     {
       "id": "megaspeed-exec-was-recruited-to-spy-on-nvidia-ceo-",
@@ -63,7 +181,23 @@
       ],
       "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
       "readTime": 3,
-      "views": 17350
+      "views": 38805
+    },
+    {
+      "id": "from-the-front-row-to-the-hot-seat-what-the-midter",
+      "title": "From the front row to the hot seat — what the midterms mean for Big Tech",
+      "summary": "After spending two years getting cozy with the White House, Big Tech is suddenly trying to make friends with Democrats, and the open question is whether that image makeover can hold up against what st.",
+      "content": "After spending two years getting cozy with the White House, Big Tech is suddenly trying to make friends with Democrats, and the open question is whether that image makeover can hold up against what states, local communities, and the markets are about to do.",
+      "source": "TechCrunch AI",
+      "author": "Dominic-Madori Davis",
+      "publishedAt": "2026-11-07T04:16:43.000Z",
+      "category": "market",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/11/06/from-the-front-row-to-the-hot-seat-what-the-midterms-mean-for-big-tech/",
+      "readTime": 3,
+      "views": 7516
     },
     {
       "id": "crusoe-sells-troubled-wyoming-data-center-project-",
@@ -80,7 +214,7 @@
       ],
       "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
       "readTime": 3,
-      "views": 13320
+      "views": 36450
     },
     {
       "id": "openai-reportedly-raises-an-additional-11-billion-",
@@ -98,7 +232,7 @@
       ],
       "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
       "readTime": 3,
-      "views": 15005
+      "views": 20335
     },
     {
       "id": "hundreds-of-artex-ai-hacking-tools-found-publicly-",
@@ -114,7 +248,7 @@
       ],
       "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
       "readTime": 3,
-      "views": 20413
+      "views": 29085
     },
     {
       "id": "meta-introduces-spaces-a-new-way-to-collaborate-wi",
@@ -131,173 +265,7 @@
       ],
       "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
       "readTime": 3,
-      "views": 8347
-    },
-    {
-      "id": "how-a-blue-wave-midterm-might-reshape-the-ai-indus",
-      "title": "How a Blue Wave midterm might reshape the AI industry",
-      "summary": "Democrats’ historic victories in this week’s U.  midterm elections could also transform the tech industry.",
-      "content": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers we",
-      "source": "TechCrunch AI",
-      "author": "Theresa Loconsolo, Anthony Ha, Sean O'Kane, Kirsten Korosec",
-      "publishedAt": "2026-11-06T18:00:00.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
-      "readTime": 3,
-      "views": 19650
-    },
-    {
-      "id": "after-the-midterms-is-the-ai-industry-in-for-a-rou",
-      "title": "After the midterms, is the AI industry in for a rough two years?",
-      "summary": "Democrats’ historic victories in this week’s U.  midterm elections could also transform the tech industry.",
-      "content": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers we",
-      "source": "TechCrunch AI",
-      "author": "Theresa Loconsolo, Anthony Ha",
-      "publishedAt": "2026-11-06T17:23:52.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
-      "readTime": 3,
-      "views": 9038
-    },
-    {
-      "id": "ramp-data-shows-ai-spending-stalling-just-as-anthr",
-      "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
-      "summary": "AI usage keeps climbing, but spending has stalled.  Price cuts and smarter cost controls among the biggest spenders could challenge investor assumptions about AI hypergrowth.",
-      "content": "AI usage keeps climbing, but spending has stalled. Price cuts and smarter cost controls among the biggest spenders could challenge investor assumptions about AI hypergrowth.",
-      "source": "TechCrunch AI",
-      "author": "Rebecca Bellan",
-      "publishedAt": "2026-11-06T15:54:47.000Z",
-      "category": "funding",
-      "tags": [
-        "ai",
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
-      "readTime": 3,
-      "views": 51360
-    },
-    {
-      "id": "after-blocking-muse-amazon-now-lets-users-text-ale",
-      "title": "After blocking Muse, Amazon now lets users text Alexa to help them shop",
-      "summary": "Amazon said that the feature will roll out to millions of users in coming weeks.",
-      "content": "Amazon said that the feature will roll out to millions of users in coming weeks.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-11-06T14:10:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
-      "readTime": 3,
-      "views": 51179
-    },
-    {
-      "id": "physicl-raises-10m-to-make-the-digital-world-real-",
-      "title": "Physicl raises $10M to make the digital world real enough for robots",
-      "summary": "Physicl is trying to solve the sim-to-real gap with a pipeline originally built to market goods online.",
-      "content": "Physicl is trying to solve the sim-to-real gap with a pipeline originally built to market goods online.",
-      "source": "TechCrunch AI",
-      "author": "Tim Fernholz",
-      "publishedAt": "2026-11-06T13:00:00.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
-      "readTime": 3,
-      "views": 38091
-    },
-    {
-      "id": "palo-alto-networks-in-talks-to-buy-ai-agent-securi",
-      "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
-      "summary": "Clutch, backed by Lightspeed and SignalFire, was last valued at $85 million, according to a source.",
-      "content": "Clutch, backed by Lightspeed and SignalFire, was last valued at $85 million, according to a source.",
-      "source": "TechCrunch AI",
-      "author": "Marina Temkin",
-      "publishedAt": "2026-11-06T06:28:32.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
-      "readTime": 3,
-      "views": 51811
-    },
-    {
-      "id": "airbnb-says-it-8217-s-launching-an-ai-travel-agent",
-      "title": "Airbnb says it&#8217;s launching an AI travel agent in the first half of 2027",
-      "summary": "Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay.",
-      "content": "Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-11-05T22:40:55.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
-      "readTime": 3,
-      "views": 28253
-    },
-    {
-      "id": "meta-says-us-users-can-now-video-chat-with-their-m",
-      "title": "Meta says US users can now video chat with their Muse AI avatar",
-      "summary": "Meta's AI agent can now take calls as a customizable animated avatar, ahead of the launch of a Tamagotchi-like wearable designed to bring Muse to life.",
-      "content": "Meta's AI agent can now take calls as a customizable animated avatar, ahead of the launch of a Tamagotchi-like wearable designed to bring Muse to life.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-11-05T19:48:28.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "Meta"
-      ],
-      "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
-      "readTime": 3,
-      "views": 37896
-    },
-    {
-      "id": "meta-warns-that-election-backlash-against-data-cen",
-      "title": "Meta warns that election backlash against data centers could make AI expansion harder",
-      "summary": "Meta warns that growing political opposition to data centers could threaten future AI investments, as communities push back against massive infrastructure projects.",
-      "content": "Meta warns that growing political opposition to data centers could threaten future AI investments, as communities push back against massive infrastructure projects.",
-      "source": "TechCrunch AI",
-      "author": "Sarah Perez",
-      "publishedAt": "2026-11-05T19:12:39.000Z",
-      "category": "funding",
-      "tags": [
-        "ai",
-        "Meta"
-      ],
-      "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
-      "readTime": 3,
-      "views": 43383
-    },
-    {
-      "id": "openai-released-a-new-cybersecurity-model-is-that-",
-      "title": "OpenAI released a new cybersecurity model. Is that enough?",
-      "summary": "OpenAI's newest cybersecurity model comes out as AI labs face scrutiny of their work to protect digital infrastructure.",
-      "content": "OpenAI's newest cybersecurity model comes out as AI labs face scrutiny of their work to protect digital infrastructure.",
-      "source": "TechCrunch AI",
-      "author": "Tim Fernholz",
-      "publishedAt": "2026-11-05T19:06:12.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
-      "readTime": 3,
-      "views": 30350
+      "views": 27603
     },
     {
       "id": "texas-was-the-new-epicenter-of-the-ai-data-center-",
@@ -313,7 +281,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
       "readTime": 3,
-      "views": 53760
+      "views": 17232
     },
     {
       "id": "securing-the-agentic-enterprise-with-data-lineage",
@@ -329,10 +297,43 @@
       ],
       "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
       "readTime": 3,
-      "views": 49627
+      "views": 51233
+    },
+    {
+      "id": "how-reverse-game-theory-could-keep-ai-agents-in-ch",
+      "title": "How “reverse game theory” could keep AI agents in check",
+      "summary": "A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules.  As AI models become more capable, safety researchers.",
+      "content": "A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules. As AI models become more capable, safety researchers are scrambling to ensure they are “aligned” with human desires—to make sure, in other words, that ro",
+      "source": "MIT Technology Review AI",
+      "author": "Amit Katwala",
+      "publishedAt": "2026-11-03T10:43:41.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai",
+        "ai model"
+      ],
+      "url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+      "readTime": 3,
+      "views": 11568
+    },
+    {
+      "id": "here-s-who-is-falling-in-line-for-trump-s-super-in",
+      "title": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI.  To get stories like this in your inbox first, sign up here.",
+      "content": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. At the end of September, President Trump signed an executive order that contained just one directive, ordering government agencies to rebrand what they had been c",
+      "source": "MIT Technology Review AI",
+      "author": "James O'Donnell",
+      "publishedAt": "2026-11-03T04:18:47.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
+      "readTime": 3,
+      "views": 47065
     }
   ],
-  "lastUpdated": "2026-11-09T15:16:02.294Z",
+  "lastUpdated": "2026-11-10T06:01:00.547Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -340,9 +341,10 @@
     "MIT Technology Review AI"
   ],
   "categories": [
+    "funding",
     "release",
     "research",
-    "funding",
+    "regulation",
     "market"
   ]
 }
