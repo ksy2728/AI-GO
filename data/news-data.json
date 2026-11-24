@@ -1,6 +1,204 @@
 {
   "articles": [
     {
+      "id": "in-all-hands-meeting-jensen-huang-thanks-white-hou",
+      "title": "In all-hands meeting, Jensen Huang thanks White House and says he&#8217;s in therapy",
+      "summary": "The Nvidia founder apologized to his staff on Tuesday and said he was grateful for a second chance to lead the company.",
+      "content": "The Nvidia founder apologized to his staff on Tuesday and said he was grateful for a second chance to lead the company.",
+      "source": "TechCrunch AI",
+      "author": "Lucas Ropek",
+      "publishedAt": "2026-11-24T21:48:27.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
+      "readTime": 3,
+      "views": 52228
+    },
+    {
+      "id": "even-the-best-ai-agents-struggle-with-everyday-lif",
+      "title": "Even the best AI agents struggle with everyday life",
+      "summary": "As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new prob.",
+      "content": "As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
+      "source": "TechCrunch AI",
+      "author": "Rebecca Bellan",
+      "publishedAt": "2026-11-24T21:33:29.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "ai model"
+      ],
+      "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+      "readTime": 3,
+      "views": 31187
+    },
+    {
+      "id": "walmart-teams-up-with-meta-to-bring-black-friday-d",
+      "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
+      "summary": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.",
+      "content": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.",
+      "source": "TechCrunch AI",
+      "author": "Lauren Forristal",
+      "publishedAt": "2026-11-24T21:32:38.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Meta"
+      ],
+      "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
+      "readTime": 3,
+      "views": 24525
+    },
+    {
+      "id": "maple-raises-5-3m-to-build-ai-products-that-protec",
+      "title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
+      "summary": "The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data.",
+      "content": "The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-11-24T21:19:52.000Z",
+      "category": "funding",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
+      "readTime": 3,
+      "views": 28761
+    },
+    {
+      "id": "anthropic-shares-fall-below-ipo-price-a-worrying-s",
+      "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+      "summary": "Anthropic’s post-IPO slump could put pressure on AI startup valuations.",
+      "content": "Anthropic’s post-IPO slump could put pressure on AI startup valuations.",
+      "source": "TechCrunch AI",
+      "author": "Marina Temkin",
+      "publishedAt": "2026-11-24T18:30:42.000Z",
+      "category": "funding",
+      "tags": [
+        "ai",
+        "anthropic",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+      "readTime": 3,
+      "views": 53512
+    },
+    {
+      "id": "uk-warns-ai-driven-cyberattacks-are-exposing-years",
+      "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
+      "summary": "The British cyber agency says that \"building strong foundations has never mattered more\" as AI hacking tools rely on exploiting simple security flaws.",
+      "content": "The British cyber agency says that \"building strong foundations has never mattered more\" as AI hacking tools rely on exploiting simple security flaws.",
+      "source": "TechCrunch AI",
+      "author": "Zack Whittaker",
+      "publishedAt": "2026-11-24T18:02:59.000Z",
+      "category": "regulation",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
+      "readTime": 3,
+      "views": 34475
+    },
+    {
+      "id": "meta-brings-its-muse-ai-assistant-directly-into-in",
+      "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
+      "summary": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
+      "content": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
+      "source": "TechCrunch AI",
+      "author": "Aisha Malik",
+      "publishedAt": "2026-11-24T17:00:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai",
+        "Meta"
+      ],
+      "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+      "readTime": 3,
+      "views": 32961
+    },
+    {
+      "id": "tidal-to-ban-and-remove-millions-of-ai-generated-t",
+      "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+      "summary": "The company said it will still accept songs that were made with AI assistance, but not fully generated.",
+      "content": "The company said it will still accept songs that were made with AI assistance, but not fully generated.",
+      "source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "publishedAt": "2026-11-24T16:46:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+      "readTime": 3,
+      "views": 35536
+    },
+    {
+      "id": "why-a-crusoe-investor-is-betting-on-solar-and-batt",
+      "title": "Why a Crusoe investor is betting on solar and batteries to power future AI data centers",
+      "summary": "Next-generation data centers will need tens of gigawatts of power every year.  One of Crusoe's investors thinks solar and energy storage are the obvious choice.",
+      "content": "Next-generation data centers will need tens of gigawatts of power every year. One of Crusoe's investors thinks solar and energy storage are the obvious choice.",
+      "source": "TechCrunch AI",
+      "author": "Tim De Chant",
+      "publishedAt": "2026-11-24T16:10:00.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
+      "readTime": 3,
+      "views": 29509
+    },
+    {
+      "id": "pinterest-will-now-let-parents-limit-the-ai-genera",
+      "title": "Pinterest will now let parents limit the AI-generated content their teens see",
+      "summary": "While other social platforms have focused on restricting teens' access to AI chatbots, Pinterest is addressing the AI content filling their feeds.",
+      "content": "While other social platforms have focused on restricting teens' access to AI chatbots, Pinterest is addressing the AI content filling their feeds.",
+      "source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "publishedAt": "2026-11-24T16:02:37.000Z",
+      "category": "release",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
+      "readTime": 3,
+      "views": 22085
+    },
+    {
+      "id": "amazon-8217-s-decart-acquisition-is-a-bet-on-using",
+      "title": "Amazon&#8217;s Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia",
+      "summary": "Amazon’s decision to acquire Decart for a reported $7. 5 billion is part of its efforts to improve the efficiency of its Trainium chips.",
+      "content": "Amazon’s decision to acquire Decart for a reported $7.5 billion is part of its efforts to improve the efficiency of its Trainium chips.",
+      "source": "TechCrunch AI",
+      "author": "Anna Heim",
+      "publishedAt": "2026-11-24T15:51:07.000Z",
+      "category": "partnership",
+      "tags": [
+        "ai"
+      ],
+      "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
+      "readTime": 3,
+      "views": 49182
+    },
+    {
+      "id": "raising-the-stakes-for-enterprise-networks-with-ai",
+      "title": "Raising the stakes for enterprise networks with AI modernization",
+      "summary": "Enterprise networks are under severe strain.  As companies rush to deploy artificial intelligence, the technology is quickly becoming the biggest source of demand on the network.",
+      "content": "Enterprise networks are under severe strain. As companies rush to deploy artificial intelligence, the technology is quickly becoming the biggest source of demand on the network. Now, agentic AI is adding to the load. Tasks conducted by AI agents generate an estimated 450% more network traffic than t",
+      "source": "MIT Technology Review AI",
+      "author": "MIT Technology Review Insights",
+      "publishedAt": "2026-11-24T15:15:16.000Z",
+      "category": "research",
+      "tags": [
+        "artificial intelligence",
+        "ai"
+      ],
+      "url": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/",
+      "readTime": 3,
+      "views": 29253
+    },
+    {
       "id": "anthropic-launches-claude-ship-letting-ai-agents-r",
       "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
       "summary": "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
@@ -17,7 +215,7 @@
       ],
       "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
       "readTime": 3,
-      "views": 24680
+      "views": 23858
     },
     {
       "id": "supertake-raises-20m-to-let-ai-agents-turn-your-ma",
@@ -33,7 +231,7 @@
       ],
       "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
       "readTime": 3,
-      "views": 24880
+      "views": 27692
     },
     {
       "id": "megaspeed-the-company-at-the-center-of-the-jensen-",
@@ -49,7 +247,7 @@
       ],
       "url": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/",
       "readTime": 3,
-      "views": 17262
+      "views": 34083
     },
     {
       "id": "google-search-8217-s-ai-mode-can-now-tap-into-driv",
@@ -67,7 +265,7 @@
       ],
       "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
       "readTime": 3,
-      "views": 52518
+      "views": 53056
     },
     {
       "id": "jensen-huang-scheduled-to-testify-next-week-in-sen",
@@ -83,7 +281,7 @@
       ],
       "url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
       "readTime": 3,
-      "views": 33638
+      "views": 22891
     },
     {
       "id": "a-legendary-philosopher-isn-t-buying-anthropic-s-c",
@@ -101,7 +299,7 @@
       ],
       "url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
       "readTime": 3,
-      "views": 12379
+      "views": 12925
     },
     {
       "id": "amazon-snaps-up-decart-8217-s-ai-optimization-tech",
@@ -117,107 +315,7 @@
       ],
       "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
       "readTime": 3,
-      "views": 32734
-    },
-    {
-      "id": "sierra-doubles-valuation-to-30b-within-six-months-",
-      "title": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off",
-      "summary": "Enterprise customer experience company Sierra, co-founded by former Salesforce co-CEO Bret Taylor, said on Monday that it has raised $1. 75 billion in a Series F round.",
-      "content": "Enterprise customer experience company Sierra, co-founded by former Salesforce co-CEO Bret Taylor, said on Monday that it has raised $1.75 billion in a Series F round.",
-      "source": "TechCrunch AI",
-      "author": "Ivan Mehta",
-      "publishedAt": "2026-11-23T14:43:03.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
-      "readTime": 3,
-      "views": 10986
-    },
-    {
-      "id": "how-notable-capital-gic-and-baillie-gifford-bet-bi",
-      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
-      "summary": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
-      "content": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
-      "source": "TechCrunch AI",
-      "author": "Marina Temkin",
-      "publishedAt": "2026-11-23T01:25:53.000Z",
-      "category": "funding",
-      "tags": [
-        "ai",
-        "anthropic",
-        "Anthropic"
-      ],
-      "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
-      "readTime": 3,
-      "views": 37074
-    },
-    {
-      "id": "openai-s-chief-scientist-has-thoughts-on-how-to-li",
-      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
-      "summary": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
-      "content": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2026-11-22T21:14:07.000Z",
-      "category": "release",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
-      "readTime": 3,
-      "views": 26265
-    },
-    {
-      "id": "signal-restricts-mobile-screenshots-as-it-confront",
-      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
-      "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
-      "content": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
-      "source": "TechCrunch AI",
-      "author": "Anthony Ha",
-      "publishedAt": "2026-11-21T21:37:10.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
-      "readTime": 3,
-      "views": 28780
-    },
-    {
-      "id": "here-are-the-top-ai-agents-that-can-live-in-your-t",
-      "title": "Here are the top AI agents that can live in your text messages",
-      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
-      "content": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
-      "source": "TechCrunch AI",
-      "author": "Lauren Forristal",
-      "publishedAt": "2026-11-21T17:00:00.000Z",
-      "category": "release",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
-      "readTime": 3,
-      "views": 28458
-    },
-    {
-      "id": "is-selling-an-ai-version-of-your-face-to-this-micr",
-      "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
-      "summary": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China.  Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
-      "content": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
-      "source": "TechCrunch AI",
-      "author": "Lucas Ropek",
-      "publishedAt": "2026-11-21T16:00:00.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
-      "readTime": 3,
-      "views": 8465
+      "views": 47378
     },
     {
       "id": "the-most-misunderstood-graph-in-ai-just-got-a-majo",
@@ -233,109 +331,10 @@
       ],
       "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
       "readTime": 3,
-      "views": 8271
-    },
-    {
-      "id": "the-ai-hype-index-ai-is-everywhere",
-      "title": "The AI Hype Index: AI is everywhere",
-      "summary": "Like a nasty rash, AI seems to spread everywhere.  Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue.",
-      "content": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up the stairs to clean someone’s rooms. Go to",
-      "source": "MIT Technology Review AI",
-      "author": "Amit Katwala",
-      "publishedAt": "2026-11-18T14:42:44.000Z",
-      "category": "market",
-      "tags": [
-        "ai",
-        "Google"
-      ],
-      "url": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
-      "readTime": 3,
-      "views": 41722
-    },
-    {
-      "id": "this-smell-startup-says-its-ai-nose-is-as-good-as-",
-      "title": "This smell startup says its AI nose is as good as a human’s",
-      "summary": "In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth.  Their careful notes—“nutty,” “peachy,” “marine”—ar.",
-      "content": "In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced with a chemical analysis to create a rich set of training data for what AI startup",
-      "source": "MIT Technology Review AI",
-      "author": "Amit Katwala",
-      "publishedAt": "2026-11-18T10:20:30.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
-      "readTime": 3,
-      "views": 26062
-    },
-    {
-      "id": "the-open-source-movement-wants-jensen-huang-back",
-      "title": "The open-source movement wants Jensen Huang back",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI.  To get stories like this in your inbox first, sign up here.",
-      "content": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating on social media, and by Monday it listed some notable signatories, including El",
-      "source": "MIT Technology Review AI",
-      "author": "James O'Donnell",
-      "publishedAt": "2026-11-16T18:38:47.000Z",
-      "category": "research",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
-      "readTime": 3,
-      "views": 11846
-    },
-    {
-      "id": "building-trustworthy-ai-by-fencing-it-in-not-predi",
-      "title": "Building trustworthy AI by fencing it in, not predicting it",
-      "summary": "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them.  One muted its own safety alerts after misreading an instruction not to send messag.",
-      "content": "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring integration during migration, then said it hadn’t. No rule had t",
-      "source": "MIT Technology Review AI",
-      "author": "Sudhi Sinha",
-      "publishedAt": "2026-11-16T16:04:28.000Z",
-      "category": "research",
-      "tags": [
-        "ai",
-        "openai",
-        "OpenAI"
-      ],
-      "url": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
-      "readTime": 3,
-      "views": 30846
-    },
-    {
-      "id": "building-ai-that-can-work-across-the-enterprise",
-      "title": "Building AI that can work across the enterprise",
-      "summary": "For years, enterprises have approached AI as a series of discrete experiments.  Now, as AI agents begin to move into the workflows that run the business, that model is starting to look inadequate.",
-      "content": "For years, enterprises have approached AI as a series of discrete experiments. Now, as AI agents begin to move into the workflows that run the business, that model is starting to look inadequate. Organizations moving from isolated pilots toward AI agents and autonomous workflows are confronting a de",
-      "source": "MIT Technology Review AI",
-      "author": "MIT Technology Review Insights",
-      "publishedAt": "2026-11-16T13:00:00.000Z",
-      "category": "funding",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
-      "readTime": 3,
-      "views": 52344
-    },
-    {
-      "id": "nvidia-privately-confirmed-it-could-track-chips-to",
-      "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
-      "summary": "Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT.",
-      "content": "Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even while an industry group claimed they were “pote",
-      "source": "MIT Technology Review AI",
-      "author": "James O'Donnell",
-      "publishedAt": "2026-11-12T20:16:24.000Z",
-      "category": "market",
-      "tags": [
-        "ai"
-      ],
-      "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
-      "readTime": 3,
-      "views": 23611
+      "views": 30305
     }
   ],
-  "lastUpdated": "2026-11-24T08:31:57.914Z",
+  "lastUpdated": "2026-11-24T21:56:22.955Z",
   "version": "1.0",
   "totalArticles": 20,
   "sources": [
@@ -346,7 +345,7 @@
     "release",
     "funding",
     "regulation",
-    "research",
-    "market"
+    "partnership",
+    "research"
   ]
 }
